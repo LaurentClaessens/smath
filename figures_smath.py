@@ -21,11 +21,12 @@ from phystricksTrajs import Trajs
 
 from phystricksEvZZys import EvZZys
 from phystricksBpCNVm import BpCNVm
+from phystricksNotesSVT import NotesSVT
 
 figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin,
             Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs,
         	ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse,
-            EvZZys,BpCNVm  ]
+            EvZZys,BpCNVm,NotesSVT  ]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"soupçon de mathématiques")
@@ -36,4 +37,4 @@ if __name__=="__main__":
     if "--all" in sys.argv :
         AllFigures()
     else:
-        BpCNVm()
+        NotesSVT()
