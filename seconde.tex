@@ -171,18 +171,22 @@ La \defe{moyenne}{moyenne} d'une suite de nombres \( x_1,\ldots, x_n\) est
     \begin{equation}
         \bar x=\frac{ 1+7+0+3+9+\ldots+3+2+4 }{ 19 }=\frac{ 58 }{ 19 }.
     \end{equation}
+
+Python permet d'obtenir assez facilement une approximation numérique :
     \begin{verbatim}
-----------------------------------------------------------------------
-| Sage Version 5.2, Release Date: 2012-07-25                         |
-| Type "notebook()" for the browser-based notebook interface.        |
-| Type "help()" for help.                                            |
-----------------------------------------------------------------------
-sage: l=[1,7,0,3,9,0,1,3,1,0,2,5,6,9,1,1,3,2,4]                                                                                          
-sage: mean(l)
-58/19
+>>> import numpy
+>>> nombres=[1,7,0,3,9,0,1,3,1,0,2,5,6,9,1,1,3,2,4]
+>>> numpy.mean(nombres)                 # 'mean' signifie 'moyenne' en anglais.
+3.0526315789473686 
     \end{verbatim}
 \end{example}
-<++>
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\Exo{Seconde-0023}
+\Exo{Seconde-0024}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Repères, distances, milieu}
