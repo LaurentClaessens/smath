@@ -176,22 +176,69 @@ Python permet d'obtenir assez facilement une approximation numérique :
     \begin{verbatim}
 >>> import numpy
 >>> nombres=[1,7,0,3,9,0,1,3,1,0,2,5,6,9,1,1,3,2,4]
->>> numpy.mean(nombres)                 # 'mean' signifie 'moyenne' en anglais.
+>>> numpy.mean(nombres)          # 'mean' signifie 'moyenne' en anglais.
 3.0526315789473686 
     \end{verbatim}
 \end{example}
 
 \begin{example}
-    Voici un petit tableau de l'\href{}{<+texte+>}
+    Voici un petit tableau de l'\href{http://www.insee.fr/fr/themes/tableau.asp?reg_id=0&ref_id=NATTEF13325}{INSEE}, parlant du chiffre d'affaire des éditeurs vidéos en million d'euros.
+
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        &Vidéo à la demande &   \multicolumn{3}{| c |}{Vente}&Total\\
+        \hline
+        &                   &   total&dont DVD&dont Blu-ray&\\
+        \hline
+        2004&nd&1958.8&1844.6&&nd\\
+        2005&nd&1784.2&1757.3&&nd\\
+        2006&nd&1659.2&1654.7&&nd\\
+        2007&28.9&1494.1&1479.9&14.3&1523.0\\
+        2008&53.2&1382.4&1331.0&51.5&1435.6\\
+        2009&97.0&1384.4&1277.1&107.3&1481.4\\
+        2010&152.0&1385.4&1211.7&173.7&1537.4\\
+        2011&219.5&1257.5&1048.4&209.1&1477\\
+        \hline
+    \end{tabular}
+    \end{center}
+    Dessiner un diagramme en camembert pour les années 2007 et 2011.
 \end{example}
-<++>
+
+\begin{example}
+    Voici un relevé de notes au baccalauréat.
+    \begin{center}
+        \begin{tabular}{|l||c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c||c|}
+            \hline
+            note \( x_i\)&0&1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20\\
+            \hline
+            effectifs \( n_i\)&0&0&1&2&2&4&6&5&4&5&11&5&6&6&5&4&3&5&2&1&0\\
+            \hline
+            fréquence&&&&&&&&&&&&&&&&&&&&&\\
+            \hline
+        \end{tabular}
+    \end{center}
+    \begin{enumerate}
+        \item
+            Remplir les cases vides.
+        \item
+            Donner la moyenne.
+        \item
+            Quel est le pourcentage des candidats ayant obtenu moins de \( 5\) ?
+        \item
+            Déterminer la médiane et les quartiles.
+        \item
+            Tracer le graphique des fréquences cumulées.
+    \end{enumerate}
+
+    \lstinputlisting{bacca.py}
+
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\Exo{Seconde-0023}
-\Exo{Seconde-0024}
 \Exo{Seconde-0030}
 \Exo{Seconde-0031}
 \Exo{Seconde-0026}
@@ -199,7 +246,8 @@ Python permet d'obtenir assez facilement une approximation numérique :
 \Exo{Seconde-0027}
 \Exo{Seconde-0029}
 \Exo{Seconde-0028}
-
+\Exo{Seconde-0023}
+\Exo{Seconde-0024}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Repères, distances, milieu}
