@@ -204,7 +204,10 @@ Python permet d'obtenir assez facilement une approximation numérique :
     Dessiner un diagramme en camembert pour les années 2007 et 2011.
 \end{example}
 
-\begin{example}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Algorithmique}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
     % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
     Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
@@ -215,32 +218,25 @@ Python permet d'obtenir assez facilement une approximation numérique :
             \hline
             effectifs \( n_i\)&3&5&10&8&2&4\\
             \hline
-            fréquence \( f_i\)&&&&&&\\
-            \hline
         \end{tabular}
     \end{center}
-    \begin{enumerate}
-        \item
-            Remplir les cases vides.
-        \item
-            Donner la moyenne.
-        \item
-            Quel est le pourcentage des clients chaussant moins de 42 ?
-        \item
-            Déterminer la médiane et les quartiles.
-        \item
-            Tracer le graphique des fréquences cumulées.
-    \end{enumerate}
 
-    Le programme suivant écrit la moyenne de la liste.
+    Nous allons écrire quelque programmes pour calculer les moyennes, médianes et quartiles de ces chiffres. Le programme suivant écrit la moyenne de la liste.
 
     \lstinputlisting{chaussures.py}
 
-
     %\lstinputlisting{res_chaussures.txt}
 
-\end{example}
 
+Nous pouvons aussi créer des fonctions qui donnent la médiane et les quartiles d'une liste de nombres. Voici pour le premier quartile :
+
+\lstinputlisting{premier_quartile.py}
+
+Et voici pour la médiane :
+
+\lstinputlisting{mediane.py}
+
+Nous nous créons maintenant un petit module contenant les fonctions moyenne, médiane et quartiles.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
