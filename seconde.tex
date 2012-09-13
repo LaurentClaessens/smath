@@ -206,7 +206,41 @@ Python permet d'obtenir assez facilement une approximation numérique :
 
 \begin{example}
 
+    % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
+    Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
+    \begin{center}
+        \begin{tabular}{|l||c|c|c|c|c|c|}
+            \hline
+            taille \( x_i\)&40&41&42&43&44&45\\
+            \hline
+            effectifs \( n_i\)&3&5&10&8&2&4\\
+            \hline
+            fréquence \( f_i\)&&&&&&\\
+            \hline
+        \end{tabular}
+    \end{center}
+    \begin{enumerate}
+        \item
+            Remplir les cases vides.
+        \item
+            Donner la moyenne.
+        \item
+            Quel est le pourcentage des clients chaussant moins de 42 ?
+        \item
+            Déterminer la médiane et les quartiles.
+        \item
+            Tracer le graphique des fréquences cumulées.
+    \end{enumerate}
+
+    Le programme suivant écrit la moyenne de la liste.
+
+    \lstinputlisting{chaussures.py}
+
+
+    %\lstinputlisting{res_chaussures.txt}
+
 \end{example}
+
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
@@ -214,11 +248,9 @@ Python permet d'obtenir assez facilement une approximation numérique :
 
 \Exo{Seconde-0030}
 \Exo{Seconde-0031}
-\Exo{Seconde-0026}
 \Exo{Seconde-0025}
 \Exo{Seconde-0027}
 \Exo{Seconde-0029}
 \Exo{Seconde-0028}
 \Exo{Seconde-0023}
-\Exo{Seconde-0024}
 \Exo{Seconde-0014}
