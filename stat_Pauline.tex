@@ -161,81 +161,63 @@ Une revue présente un tableau donnant les prix en euros d'appareils photos num�
 
 On donne souvent une série statistique par un tableau d'effectifs.
 
-\exe{Dans un village, on recense le nombre d'enfants par foyer.}
+\begin{example} \label{ExUDXDZl}
+Dans un village, on recense le nombre d'enfants par foyer; le résultats est donné dans le tableau suivant.
 
-\begin{tabular}[t]{|l|*{8}{>{\centering}p{1cm}<{}|}c}
-  \cline{1-9}
-  \textbf{Nombre d'enfants $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 &\\
-  \cline{1-9}
-  \textbf{Effectif $n_i$} & 290 & 170 & 155 & 95 & 43 & 27 & 20 & 10 &\\
-  \cline{1-9}
+\begin{center}
+\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
+    \hline
+  \textbf{Nombre d'enfants $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+  \hline
+  \textbf{Effectif $n_i$} & 290 & 170 & 155 & 95 & 43 & 27 & 20 & 10\\
+  \hline
 \end{tabular}
+\end{center}
 
-On note généralement $N$ l'\defe{effectif total}{},
-$N=n_1+n_2+n_3+{\ldots}+n_8$. 
-\medskip
+Dans ce tableau nous lisons que \( 155\) foyers ont 2 enfants.
+    
+\end{example}
+
+On note généralement $n$ l'\defe{effectif total}{}, $n=n_1+n_2+n_3+{\ldots}+n_8$. 
 
 \textit{Ici, l'effectif total vaut :  \comp. }
-\bigskip
 
-Le \defe{mode}{} est la valeur ayant le plus grand effectif. Elle a un
-intérêt si l'effectif de cette valeur est nettement plus grand que les
-autres effectifs. Il peut y avoir plusieurs modes.
-\medskip
+Le \defe{mode}{} est la valeur ayant le plus grand effectif. Elle a un intérêt si l'effectif de cette valeur est nettement plus grand que les autres effectifs. Il peut y avoir plusieurs modes si plusieurs valeurs ont les mêmes effectifs.
 
 \textit{Dans cet exemple, le mode est égal à \comp.}
-\bigskip
 
-À partir du tableau 1, on peut dresser le tableau des \defe{effectifs
-cumulés croissants}{}.
-\medskip
+À partir du tableau, on peut dresser le tableau des \defe{effectifs cumulés croissants}{}.
 
-\noindent
-\textbf{Tableau 2} \\[-2ex]
-\begin{tabular}[t]{|l|*{8}{>{\centering}p{1cm}<{}|}c}
-  \cline{1-9}
-  \textbf{Nombre d'enfants $x\leq$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 &\\
-  \cline{1-9}
-%   \textbf{Effectif $n_i$} & 290 & 170 & 155 & 95 & 43 & 27 & 20 & 10 &\\
-%   \cline{1-9}
-  \textbf{Effectif cumulé croissant} & 290 & 460 &  &  &  &
-  &  &  &\\ 
-  \cline{1-9}
+\begin{example} \label{ExZdeBXW}
+    Nous continuons l'exemple \ref{ExUDXDZl} en ajoutant la ligne des effectifs cumulés.
+\begin{center}
+\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
+    \hline
+  \textbf{Nombre d'enfants $x\leq$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+  \hline
+  \textbf{Effectif $n_i$} & 290 & 170 & 155 & 95 & 43 & 27 & 20 & 10 \\
+  \hline
+  \textbf{Effectif cumulé croissant} & 290 & 460 & 615 & 710 & 753 & 780 & 800 & 810 \\ 
+  \hline
 \end{tabular}
-
-\bigskip
-\smallskip
-
-%\paragraph{Interprétation :} 
-%\begin{minipage}[t]{0.8\linewidth}
-\noindent
-Dans le tableau 1, on lit que \comp foyers ont 2 enfants. \\[1ex]
-Dans le tableau 2, on lit que le nombre d'enfants est inférieur ou
-égal à 2 dans \comp foyers.\\
-% \end{minipage} \\
-
-\begin{remark}
-Le tableau des effectifs cumulés donne directement le nombre de
-  foyers qui ont au plus $x_i$ enfants. \\
-  Par exemple, pour $x_i=5$, il
-  y a \comp foyers qui ont au plus 5 enfants.
-\end{remark}
-
-
-\medskip
-
-\begin{remark}
-Le tableau des effectifs cumulés permet également de repérer
-  facilement la $n$-ième valeur donnée de la série triée par ordre
-  croissant. \\
-  Par exemple, le $750$\ieme{} foyer correspond à un foyer ayant
-  \comp  enfants. 
-
     
+\end{center}
+
+Dans ce tableau, nous lisons  que le nombre d'enfants est inférieur ou égal à 2 dans 615 foyers.
+    
+\end{example}
+
+
+
+\begin{remark}
+Le tableau des effectifs cumulés donne directement le nombre de foyers qui ont au plus $x_i$ enfants.  Par exemple, pour $x_i=5$, il y a \( 780\) foyers qui ont au plus 5 enfants.
 \end{remark}
 
 
-\vspace{1cm}
+\begin{remark}
+Le tableau des effectifs cumulés permet également de repérer facilement la $n$-ième valeur donnée de la série triée par ordre croissant.  Par exemple, le $750$\ieme{} foyer correspond à un foyer ayant \( 4\) enfants. 
+\end{remark}
+
 
 \subsection{Fréquences. Fréquences cumulées croissantes}
 
@@ -248,64 +230,56 @@ Par définition, la \defe{fréquence}{} d'une valeur du caractère $x_i$ est :
 \qquad
 \mbox{soit} 
 \qquad
-f_i = \dfrac{n_i}{N}
+f_i = \dfrac{n_i}{n}
 \]
-Ainsi, $f_1 = \dfrac{n_1}{N} = \dfrac{290}{810} \approx 0,36$.
-\medskip
 
-\noindent
-\begin{tabular}[t]{|l|*{8}{>{\centering}p{1cm}<{}|}c}
-  \cline{1-9}
-  \textbf{Valeur $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 &\\
-  \cline{1-9}
-  \textbf{Fréquence $f_i$} & 0,36 & 0,21 & 0,19 &  &  &
-  &  &  &\\ 
-  \cline{1-9}
+\begin{example}
+Nous continuons l'exemple \ref{ExUDXDZl}, $f_1 = \dfrac{n_1}{n} = \dfrac{290}{810} \approx 0,36$. Cela signifie que parmi les foyer, une proportion de \( 0.36\) (\( =36\%\)) a exactement un enfant. Les autres résultats sont dans le tableau suivant.
+
+\begin{center}
+\begin{tabular}[t]{|c|c|c|c|c|c|c|c|c|}
+    \hline
+  \textbf{Valeur $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+  \hline
+  \textbf{Fréquence $f_i$} & 0,36 & 0,21 & 0,19 & 0.12  & 0.05 & 0.03 & 0.02 & 0.01 \\ 
+  \hline
 \end{tabular}
-
-\bigskip
-
-\begin{remark}
-
-  \begin{enumerate}
-  \item Une fréquence est toujours comprise entre 0 et 1. 
-    \quad $0\leq f_i\leq 1$. \\[-2ex]
-  \item La somme des fréquences est toujours égale à 1. \
-    \quad $f_1+f_2+{\ldots}+f_8 =  1$.
-  \end{enumerate}
-
-
     
-\end{remark}
+\end{center}
+    
+\end{example}
+
+
+Les fréquences vérifient les propriétés suivantes :
+\begin{enumerate}
+  \item Une fréquence est toujours comprise entre 0 et 1 :
+      \begin{equation}
+    0\leq f_i\leq 1.
+      \end{equation}
+  \item La somme des fréquences est toujours égale à 1.  
+      \begin{equation}
+      f_1+f_2+{\ldots}+f_8 =  1.
+      \end{equation}
+\end{enumerate}
 
 \bigskip
 
-À partir du tableau des fréquences, on peut dresser le tableau des
-\defe{fréquences cumulées croissantes}{}, en ajoutant à chaque fréquence
-la somme des fréquences précédentes.
+À partir du tableau des fréquences, on peut dresser le tableau des \defe{fréquences cumulées croissantes}{}, en ajoutant à chaque fréquence la somme des fréquences précédentes\footnote{Notons que les erreurs d'arrondi font en sorte que le dernier saut ne tombe pas juste. De toutes façons, la dernière case doit être \( 1\).}.
 
-\medskip
-
-\noindent
-\begin{tabular}[t]{|l|*{7}{>{\centering}p{1cm}<{}|}c}
-  \cline{1-8}
-  \textbf{Valeur $x_i$} & 0 & 1 & 2 & 3 & 4 & \ldots & 7 &\\
-  \cline{1-8}
-  \textbf{Fréquence $f_i$} & 0,36 & 0,21 & 0,19 & 0,12 &  & \ldots &  &\\ 
-  \cline{1-8}
-  \textbf{Fréquence cumulée croissante} & 0,36 & 0,57 & 0,76 &  &  &
-  \ldots  & 1 &\\ 
-  \cline{1-8}
+\begin{center}
+\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
+    \hline
+  \textbf{Valeur $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
+  \hline
+  \textbf{Fréquence $f_i$} & 0,36 & 0,21 & 0,19 & 0,12 & 0.05  & 0.03 & 0.02 & 0.01 \\ 
+  \hline
+  \textbf{Fréquence cumulée croissante} & 0,36 & 0,57 & 0,76 & 0.88 & 0.93 & 0.96 & 0.98  & 1 \\ 
+  \hline
 \end{tabular}
+\end{center}
 
-\bigskip
+ À partir du tableau des fréquences cumulées, on lit que \( 76\) \% des foyers ont moins de 3 enfants, et \( 88\)\% des foyers ont moins de 4 enfants.
 
-À partir du tableau des fréquences cumulées, on lit que \comp \% des
-foyers ont moins de 3 enfants, et \comp \% des foyers ont moins de 4 enfants.
-
-\bigskip
-
-\vspace{1cm}
 
 
 \subsection{Représentation en classes}
@@ -323,14 +297,12 @@ La \defe{classe modale}{} est la classe qui a le plus grand effectif.
 
 \medskip
 
-\exe{Le tableau ci-dessous donne la répartition des masses de
-  nouveaux-nés dans un hôpital, de 2,5 $kg$ à 4,5 $kg$.
-}
-\smallskip
+\begin{example}
+Le tableau ci-dessous donne la répartition des masses de nouveaux-nés dans un hôpital, de 2,5 $kg$ à 4,5 $kg$.
 
-\hspace{4.5em}
-\begin{minipage}[t]{0.8\linewidth}
-  \begin{tabular}[t]{|l|c|c|c|c|}
+
+\begin{center}
+  \begin{tabular}[h]{|l|c|c|c|c|}
     \hline
     \textbf{Masse en kg} & $[2,\!5\,;3[$ & $[3\,;3,\!5[$ & $[3,\!5\,;4[$ &
     $[4\,;4,\!5[$ \\
@@ -338,27 +310,24 @@ La \defe{classe modale}{} est la classe qui a le plus grand effectif.
     \textbf{Effectif} & 15 & 32 & 40 & 13 \\
     \hline
   \end{tabular}
-  \bigskip
+    
+\end{center}
   
-  \textit{L'effectif total est égal à \comp.} \\[1ex]
-  \textit{L'amplitude des classes est égale à \comp.} \\[1ex]
-  \textit{Le centre de la deuxième classe est \comp.} \\[1ex]
-  \textit{La classe modale est \comp.}
-
-\end{minipage}
-
-
-
-%\vspace{1cm}
-
-
-
+De ce tableau, nous tirons :
+\begin{enumerate}
+    \item
+  l'effectif total est égal à \( 100\);
+  \item
+  l'amplitude des classes est égale à \( 0.5\);
+  \item
+  le centre de la deuxième classe est \( 3.25\);
+  \item
+  la classe modale est la troisième.
+\end{enumerate}
 
 
-
-
-
-\clearpage
+    
+\end{example}
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -391,9 +360,9 @@ $n_1$, $n_2$, {\ldots}, $n_p$.
   nombre, noté $\overline{x}$, défini par
   \[
   \overline{x} =
-  \frac{n_1x_1+n_2x_2+{\ldots}+n_px_p}{N} 
+  \frac{n_1x_1+n_2x_2+{\ldots}+n_px_p}{n} 
   \]
-  où $N = n_1+n_2+{\ldots}+n_p$ est l'effectif total.
+  où $n = n_1+n_2+{\ldots}+n_p$ est l'effectif total.
 
     
 \end{definition}
@@ -442,13 +411,13 @@ On peut aussi calculer $\overline{x}$ en utilisant les fréquences
 \end{definition}
 
 
-\paragraph{En pratique :}On range les $N$ valeurs de la série par ordre
+\paragraph{En pratique :}On range les $n$ valeurs de la série par ordre
   croissant, chacune étant répétée autant de fois que son effectif.
 
 
 \begin{enumerate}
-\item Si $N$ est impair, la médiane est la valeur centrale de la série ;
-\item Si $N$ est pair, la médiane est la demi-somme des deux valeurs
+\item Si $n$ est impair, la médiane est la valeur centrale de la série ;
+\item Si $n$ est pair, la médiane est la demi-somme des deux valeurs
   centrales de la série.
 \end{enumerate}
 
@@ -499,7 +468,7 @@ La médiane ne dépend pas des valeurs extrêmes.
 \subsection{Quartiles}
 
 \begin{definition}
-  On considère une liste de $N$ valeurs, \underline{triées par ordre
+  On considère une liste de $n$ valeurs, \underline{triées par ordre
     croissant}. 
   \begin{enumerate}
       \item Le \defe{premier quartile}{} $Q_1$ est la plus petite valeur de
@@ -516,11 +485,11 @@ La médiane ne dépend pas des valeurs extrêmes.
 \bigskip
 
 \paragraph{En pratique :}
-  Pour le calcul de $Q_1$, on calcule $\dfrac{N}4$, puis on détermine
-  le premier entier $p$ supérieur ou égal à $\dfrac{N}4$. Cet entier
+  Pour le calcul de $Q_1$, on calcule $\dfrac{n}4$, puis on détermine
+  le premier entier $p$ supérieur ou égal à $\dfrac{n}4$. Cet entier
   $p$ donne le rang de $Q_1$. \\
-  Pour le calcul de $Q_3$, on fait de même en remplaçant $\dfrac{N}4$
-  par $\dfrac{3N}4$. 
+  Pour le calcul de $Q_3$, on fait de même en remplaçant $\dfrac{n}4$
+  par $\dfrac{3n}4$. 
 
 
 \bigskip
@@ -529,12 +498,12 @@ La médiane ne dépend pas des valeurs extrêmes.
 \exe{%
   \vspace{-4ex}
   \begin{enumerate}
-  \item Pour $N=15$, on a \ $\dfrac{N}4 = 3,75$, donc $Q_1$ est la
+  \item Pour $n=15$, on a \ $\dfrac{n}4 = 3,75$, donc $Q_1$ est la
     \comp\ieme{} valeur de la série (lorsqu'elle est rangée par ordre
     croissant). \\[1ex]
     De plus, \comp\comp, donc $Q_3$ est la \comp \up{e} valeur de la
     série. \\
-  \item Pour $N=18$, $Q_1$ est la \comp\up{e} valeur, et $Q_3$ est la
+  \item Pour $n=18$, $Q_1$ est la \comp\up{e} valeur, et $Q_3$ est la
     \comp\up{e} valeur de la série.
 \end{enumerate}
 }
