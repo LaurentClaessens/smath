@@ -480,52 +480,35 @@ La médiane ne dépend pas des valeurs extrêmes.
 
 \bigskip
 
-\paragraph{En pratique :}
+En pratique :
+\begin{itemize}
+    \item 
   Pour le calcul de $Q_1$, on calcule $\dfrac{n}4$, puis on détermine
   le premier entier $p$ supérieur ou égal à $\dfrac{n}4$. Cet entier
-  $p$ donne le rang de $Q_1$. \\
+  $p$ donne le rang de $Q_1$. 
+  \item
   Pour le calcul de $Q_3$, on fait de même en remplaçant $\dfrac{n}4$
   par $\dfrac{3n}4$. 
+\end{itemize}
 
+Du point de vue de la programmation, python a la fonction \info{math.ceil} pour calculer le premier entier supérieur ou égal à \( p\).
 
-\bigskip
+\lstinputlisting{exemple_ceil.py}
 
-
-\exe{%
-  \vspace{-4ex}
+  \begin{example}
   \begin{enumerate}
   \item Pour $n=15$, on a \ $\dfrac{n}4 = 3,75$, donc $Q_1$ est la
-    \comp\ieme{} valeur de la série (lorsqu'elle est rangée par ordre
-    croissant). \\[1ex]
-    De plus, \comp\comp, donc $Q_3$ est la \comp \up{e} valeur de la
-    série. \\
-  \item Pour $n=18$, $Q_1$ est la \comp\up{e} valeur, et $Q_3$ est la
-    \comp\up{e} valeur de la série.
+    4\ieme{} valeur de la série (lorsqu'elle est rangée par ordre
+    croissant). 
+    De plus, \( \frac{ 3 }{ 4 }15=11.25\), donc $Q_3$ est la 12\up{e} valeur de la
+    série. 
+  \item Pour $n=18$, $Q_1$ est la 5\up{e} valeur (\( 18/4=4.5\)), et $Q_3$ est la 14\up{e} valeur de la série.
 \end{enumerate}
-}
-
-\bigskip
-
-%\clearpage
-
-\paragraph{Application :}Déterminer le premier et le troisième quartile
-  de chaque série.
-
-\begin{enumerate}
-\item 1\,000 ; 1\,000 ; 1\,200 ; 1\,200 ; 1\,200 ; 1\,500 ; 1\,500 ;
-  2\,000 ; 2\,500 ; 3\,100 
-\item  5 ; 1 ; 2 ; 9 ; 4 ; 5 ; 7 ; 5 ; 9 ; 5 ; 6 ; 7 ; 8 ; 9 ; 2 ; 9 ;
-  6 ; 5 ; 9 ; 3
-\end{enumerate}
-
-
-\bigskip
-
-
+      
+  \end{example}
 
 \subsection{Mesures de dispersion}
 
-\medskip
 
 \begin{enumerate}
     \item L'\defe{étendue}{} d'une série statistique est la différence entre
@@ -533,21 +516,22 @@ La médiane ne dépend pas des valeurs extrêmes.
 \item L'\defe{écart interquartile}{} est égal à la différence $Q_3-Q_1$.
 \end{enumerate}
 
-\bigskip
 
-\exe{Pour la série  1\,000 ; 1\,000 ; 1\,200 ; 1\,200 ; 1\,200 ; 1\,500 ; 1\,500 ;
-  2\,000 ; 2\,500 ; 3\,100 ; étudiée ci-dessus, \\[-2ex]
+\begin{example}
+Pour la série  1\,000 ; 1\,000 ; 1\,200 ; 1\,200 ; 1\,200 ; 1\,500 ; 1\,500 ;
+  2\,000 ; 2\,500 ; 3\,100 ; étudiée ci-dessus, 
   \begin{enumerate}
-  \item l'étendue vaut \comp \\[-1ex]
-  \item l'écart interquartile est égal à \comp.
+  \item l'étendue vaut \( 3100-1000=2100\),
+  \item l'écart interquartile est égal à \( 2000-1200=800\).
   \end{enumerate}
-}
-
-\bigskip
-
+\end{example}
 
 \subsection{Lecture des grandeurs caractéristiques à l'aide des
   effectifs cumulés croissants}
+
+  \begin{example}
+
+À partir du tableau suivant, nous pouvons trouver les quartiles en ne lisant que la ligne des effectifs cumulés.
 
   \begin{center}
 \begin{tabular}[h]{|c||c|c|c|c|c|c|c|c|c|c|c|}
@@ -562,23 +546,26 @@ La médiane ne dépend pas des valeurs extrêmes.
       
   \end{center}
 
-
-\exe{Dans la série représentée par le tableau ci-dessus, l'effectif
-  total est égal à 50.
-  \begin{enumerate}
+D'abord la dernière case nous dit que l'effectif total est égal à \( 50\). Nous en déduisons que
+\begin{enumerate}
   \item Le premier quartile est la 13\up{e} valeur.
   \item La médiane est la moyenne entre la 25\up{e} et la 26\up{e} valeurs.
   \item Le troisième quartile est la 38\up{e} valeur.
-  \end{enumerate}
-\smallskip
-A l'aide de la ligne des effectifs cumulés, donner :
-\[ 
-Q_1 = \comp , \qquad M_e = \comp , \qquad Q_3 = \comp 
-\]
-}
+\end{enumerate}
+La première case des effectifs cumulés à être plus grande (ou égale) à \( 13\) est la case du \( 76\); le premier quartile est donc égal à \( 76\).
 
-\bigskip
-%\clearpage
+Pour la médiane, la \( 25\)\up{e} et la \( 26\)\up{e} sont toutes deux égales à \( 77\); donc la médiane est \( 77\).
+
+En ce qui concerne le troisième quartile, la \( 38\)\up{e} valeur est \( 79\).
+
+\begin{subequations}
+    \begin{align}
+        Q_1&=76\\
+        M_e&=77\\
+        Q_2&=79.
+    \end{align}
+\end{subequations}
+  \end{example}
 
 \subsection{Lecture des quartiles à l'aide des fréquences cumulées croissantes}
 
@@ -592,33 +579,25 @@ Dans le tableau des fréquences cumulées croissantes :
   dépassée.
 \end{enumerate}
 
-\medskip
 
-\exe{}
-\vspace{-1em}
-\noindent
-\begin{tabular}[t]{|l|*{11}{>{\centering}p{0.8cm}<{}|}c}
-  \cline{1-12}
+\begin{center}
+\begin{tabular}[h]{|c||c|c|c|c|c|c|c|c|c|c|c|}
+    \hline
   \textbf{Valeur} & 73 & 74 & 75 & 76 & 77 & 78 & 79 & 80 & 81 &
-  82 & 83 &\\
+  82 & 83 \\
+  \hline
 %  \cline{1-12}
 %  \textbf{Effectif} & 2 & 4 & 2 & 7 & 9 & 6 & 8 & 3 & 4 & 2 & 2 &\\ 
 %   \cline{1-12}
 %   \textbf{Effectif cumulé} & 2 & 6 & 9 & 16 & 25 & 31 & 39 &
 %   42 & 46 & 48 & 50 &\\ 
-  \cline{1-12}
   \textbf{Freq. cum. cr.} & 0,04 & 0,12 & 0,18 & 0,32 & 0,50 & 0,62 & 0,78 &
-  0,84 & 0,92 & 0,96 & 1 &\\ 
-  \cline{1-12}
+  0,84 & 0,92 & 0,96 & 1 \\ 
+  \hline
 \end{tabular}
+\end{center}
 
-\smallskip
-
-Le premier quartile vaut \ $Q_1=\comp$. Le troisième quartile vaut \ $Q_3=\comp$. 
-
-
-
-\clearpage
+Le premier quartile vaut $Q_1=76$. Le troisième quartile vaut \ $Q_3=79$. L'écart interquartile vaut alors \( 79-76=3\).
 
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -638,10 +617,7 @@ Le premier quartile vaut \ $Q_1=\comp$. Le troisième quartile vaut \ $Q_3=\comp
   \includegraphics[width=5cm]{Stats_Fig4_Nuage.png}
 \end{multicols}
 
-
-
 \subsection{Diagramme en bâtons, ou diagramme en barres}
-
 
 \begin{multicols}{2}
 \begin{enumerate}
@@ -657,9 +633,6 @@ Le premier quartile vaut \ $Q_1=\comp$. Le troisième quartile vaut \ $Q_3=\comp
     \includegraphics[width=6cm]{Stats_Fig4_DiagBaton.png}
   \end{center}    
 \end{multicols}
-
-
-
 
 \subsection{Histogramme}
 
