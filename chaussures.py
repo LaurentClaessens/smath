@@ -10,7 +10,6 @@ liste.extend(4*[45])
 
 print(liste)           # Afficher liste
         
-
 #   [40,40,40,41,41,41,41,41,42,42,42,42,42,42,42,42,42,42,43,
 #   43,43,43,43,43,43,43,44,44,45,45,45,45]
 
@@ -23,4 +22,3 @@ print(somme)    # 1357
 moyenne=somme/n     # diviser la somme la la longueur donne la moyenne
 
 print(moyenne)  # 42.40625
-

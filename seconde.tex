@@ -203,37 +203,3 @@ Python permet d'obtenir assez facilement une approximation numérique :
     \end{center}
     Dessiner un diagramme en camembert pour les années 2007 et 2011.
 \end{example}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Algorithmique}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-    % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
-    Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
-    \begin{center}
-        \begin{tabular}{|l||c|c|c|c|c|c|}
-            \hline
-            taille \( x_i\)&40&41&42&43&44&45\\
-            \hline
-            effectifs \( n_i\)&3&5&10&8&2&4\\
-            \hline
-        \end{tabular}
-    \end{center}
-
-    Nous allons écrire quelque programmes pour calculer les moyennes, médianes et quartiles de ces chiffres. Le programme suivant écrit la moyenne de la liste.
-
-    \lstinputlisting{chaussures.py}
-
-    %\lstinputlisting{res_chaussures.txt}
-
-
-Nous pouvons aussi créer des fonctions qui donnent la médiane et les quartiles d'une liste de nombres. Voici pour le premier quartile :
-
-\lstinputlisting{premier_quartile.py}
-
-Et voici pour la médiane :
-
-\lstinputlisting{mediane.py}
-
-Nous nous créons maintenant un petit module contenant les fonctions moyenne, médiane et quartiles.

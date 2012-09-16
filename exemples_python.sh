@@ -4,6 +4,7 @@
 
 python3 ex_listes.py > res_ex_listes.txt
 python3 ex_listes2.py > res_ex_listes2.txt
+python3 ex_listes3.py > res_ex_listes3.txt
 python3 chaussures.py > res_chaussures.txt
 python3 mediane.py > res_mediane.txt
 python3 premier_quartile.py > res_premier_quartile.txt

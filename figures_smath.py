@@ -23,10 +23,15 @@ from phystricksEvZZys import EvZZys
 from phystricksBpCNVm import BpCNVm
 from phystricksNotesSVT import NotesSVT
 from phystricksHistoAutomobile import HistoAutomobile
+from phystricksHistoTdkccB import HistoTdkccB
+from phystricksHistoPySeT import HistoPySeT
+from phystricksHistoAgeFrance import HistoAgeFrance
+from phystricksHistoAgeKenya import HistoAgeKenya
 
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile  ]
 
-figures_list=[HistoAutomobile]
+figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya  ]
+
+figures_list=[HistoPySeT]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"soupçon de mathématiques")
