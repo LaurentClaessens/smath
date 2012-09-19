@@ -30,11 +30,13 @@ from phystricksHistoAgeKenya import HistoAgeKenya
 from phystricksSecondDeg import SecondDeg
 from phystricksParabolesfTKFw import ParabolesfTKFw
 from phystricksEffectifsCumulwfqAhj import EffectifsCumulwfqAhj
+from phystricksSurfaceTriangletcNPPE import SurfaceTriangletcNPPE
 
 
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya  ]
+figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE
+        ]
 
-figures_list=[EffectifsCumulwfqAhj]
+figures_list=[SurfaceTriangletcNPPE]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")

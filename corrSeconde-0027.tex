@@ -10,6 +10,8 @@
         \item
             En ce qui concerne la moyenne, on fait la somme (240) et on divise par le nombre de données (27) : la moyenne est \( \frac{ 240 }{ 27 }\approx 8.88\).
         \item
+            Étant donné que le nombre de valeurs est impair (27), la médiane est simplement la valeur centrale, c'est à dire la \( 14\)\up{e}, qui vaut \( 9\).
+        \item
             Pour le premier quartile, nous divisons les effectifs par \( 4\) et nous prenons le premier entier \emph{supérieur}; cela donne le rang du quartile :
             \begin{equation}
                 \frac{ 24 }{ 4 }=6.75,
@@ -21,15 +23,23 @@
                 \frac{ 3 }{ 4 }\times 27=20.25,
             \end{equation}
             donc le troisième quartile est la \( 21\)\up{e} valeur, c'est à dire \( 12\).
-
-        \item
-            Étant donné que le nombre de valeurs est impair (27), la médiane est simplement la valeur centrale, c'est à dire la \( 13\)\up{e}, qui vaut \( 9\).
         \item
             Le graphique des effectifs cumulés est donné à figure \ref{LabelFigEffectifsCumulwfqAhj}.
             \newcommand{\CaptionFigEffectifsCumulwfqAhj}{Le graphique des effectifs cumulés de l'exercice \ref{exoSeconde-0027}.}
 \input{Fig_EffectifsCumulwfqAhj.pstricks}
 
     \end{enumerate}
+
+            Les fautes courantes :
+            \begin{enumerate}
+                \item
+                    Il faut trier les notes par ordre croissant avant de chercher les médianes et quartiles.
+                \item
+                    Le graphe des effectifs cumulés est \emph{croissante} : elle ne montre pas combien d'élèves ont obtenu une certaine note, mais bien combien d'élèves ont obtenu \emph{au moins} la note.
+                \item
+                    Il ne faut pas relier les points par des segments de droites (et encore moins par des courbes !). Le graphe doit être en escalier.
+            \end{enumerate}
+
 
     Si vous voulez vous aider de python pour faire les calculs, voici quelque lignes.
 

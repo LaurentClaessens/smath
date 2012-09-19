@@ -1,6 +1,492 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
 % Copyright (c) 2012
-%   Laurent Claessens
+%   Laurent Claessens, Pauline Klein
 % See the file fdl-1.3.txt for copying conditions.
+
+\begin{example} \label{ExemVmCkIH}
+    Un petit tour de magie. Choisissez un nombre entre \( 1\) et \( 10\). Ajoutez \( 5\), multipliez par \( 2\), ajoutez \( 7\), enlevez le double du nombre de départ.
+
+    Le nombre que vous avez maintenant est \( 17\).
+\end{example}
+
+\begin{definition}
+    Soit \( D\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( D\) en associant à chaque nombre \( x\) dans \( D\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
+\end{definition}
+
+En ce qui concerne les notations, nous écrivons
+\begin{equation}
+    \begin{aligned}
+        f\colon D&\to \eR \\
+        x&\mapsto y. 
+    \end{aligned}
+\end{equation}
+Cela signifie que \( D\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
+
+\subsection{Courbe représentative d'une fonction}
+
+Soit $f$ une fonction définie sur un ensemble $\mathscr{D}$. \\
+Le plan est muni d'un repère $(O,I,J)$.
+
+\begin{definition}
+  \fbox{
+    \begin{minipage}[t]{0.85\linewidth}
+      On appelle \emph{représentation graphique} de $f$, ou courbe
+      représentative de $f$, l'ensemble des points $M(x;y)$ tels que
+      $x\in\mathscr{D}$ et $y=f(x)$.
+    \end{minipage}
+  }
+\end{definition}
+
+Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
+
+{\centering 
+  \includegraphics[width=8cm]{F_Axes}    
+\par}
+
+\begin{definition}
+  \fbox{
+    \begin{minipage}[t]{0.85\linewidth}
+      Si une fonction $f$ a pour représentation graphique la courbe
+      $\mathscr{C}$, on dit que cette courbe $\mathscr{C}$ \emph{a pour
+        équation} $y=f(x)$ dans le repère choisi.
+    \end{minipage}
+  }
+\end{definition}
+
+\begin{itemize}
+\item[$\bullet$] Pour une valeur $x$ sur l'axe des abscisses, il y a un et un
+  seul point d'abscisse $x$ sur la courbe.
+\item[$\bullet$] Pour tracer une courbe, il faut placer des points. Plus on
+  choisit de points, plus la courbe sera précise.
+\end{itemize}
+
+\begin{rem}
+  \begin{minipage}[t]{0.45\linewidth}
+    Cette courbe ne représente pas une fonction, car le nombre $x$ a
+    deux images $y$.    
+  \end{minipage}
+  \qquad
+  \begin{minipage}[c]{0.4\linewidth}
+    \includegraphics[width=5cm]{F_NonFct}
+  \end{minipage}
+\end{rem}
+
+
+\paragraph{Cas particulier :} 
+\begin{minipage}[t]{0.8\linewidth}
+  Si $f$ est une fonction affine définie pour $x\in\R$ par 
+  $f(x)=ax+b$, et si la droite $d$ est sa représentation graphique,
+  une équation de la droite $d$ est \ $y=ax+b$.
+\end{minipage}
+
+\paragraph{Application :} 
+\begin{minipage}[t]{0.8\linewidth}
+  Pour $x\in\R$, $f(x)=-x^2+2x$, de courbe représentative
+  $\mathscr{P}$.\\
+  Le point $A(2;0)$ appartient-il à $\mathscr{P}$ ? De même pour
+  $B(-2;-7)$.
+  \vspace{4cm}
+\end{minipage}
+
+
+
+\section{Lecture d'un graphique. Résolution graphique d'(in)équations} 
+
+\subsection{Lecture graphique d'images / antécédents}
+
+\begin{minipage}[c]{0.4\linewidth}
+  On considère 
+  $
+  \begin{array}[t]{cl}
+    f : & \R \longrightarrow \R \\
+    & x \longmapsto x^2
+  \end{array}
+  $.  \\
+
+  A $x$, on associe $y=f(x)$. 
+
+  \vspace{1cm}
+
+  \begin{itemize}
+  \item[\textbullet] Image de $1,5$ ? \\[2em]
+  \item[\textbullet] Antécédent de $3,5$ ?  \\[2em]
+  \item[\textbullet] Antécédent de $-1$ ? \\[2em]
+  \item[\textbullet] Antécédent de $0$ ?  \\[2em]
+  \end{itemize}
+  
+\end{minipage}
+\begin{minipage}[c]{0.6\linewidth}
+  \includegraphics[width=9cm]{F_Carre2}  
+\end{minipage} \\
+
+
+Fonction $f(x)=x^2$ \\[2ex]
+\begin{tabular}{|>{$}c<{$}|*{11}{>{\centering$}p{1cm}<{$}|}c}
+  \cline{1-12}
+  \displaystyle \vphantom{\int} \ x \ \ 
+  & -4 & -3 & -2 & -1 & 0 & 1 & 2 & 3 & 4 & -0,5 & 0,5 & \\
+  \cline{1-12}
+  \displaystyle \vphantom{\int} y
+  & & & & & & & & & & & \\
+  \cline{1-12}
+\end{tabular}
+
+\medskip
+
+
+\subsection{Résolution graphique d'équations}
+
+$k$ est un réel fixé. \\
+
+\noindent
+\fbox{
+  \textbullet \quad
+  Résoudre l'équation $f(x)=k$ revient à chercher les antécédents par
+  $f$ du nombre $k$.
+} \\
+
+Le nombre de solutions de l'équation $f(x)=k$ est égal au nombre de
+points d'intersection de la courbe $\mathscr{C}$ avec la droite $d$
+d'équation $y=k$. Les solutions sont les abscisses de ces points
+d'intersection. 
+
+\paragraph{Exemple :} 
+\begin{minipage}[t]{0.55\linewidth}
+  On cherche à résoudre $f(x)=4$. \\
+  On trace la droite d'équation \hspace{1.5cm} et
+  on observe les points d'intersection de cette droite avec la courbe
+  $\mathscr{C}$. \\[1ex]
+  $\mathscr{S}=\{\hspace{1.5cm}\}$. 
+\end{minipage}
+\qquad
+\begin{minipage}[c]{0.25\linewidth}
+  \includegraphics[width=\textwidth]{F_reseq_f}
+\end{minipage}
+
+\pagebreak[4]
+
+\noindent
+\fbox{
+  \begin{minipage}[t]{1.0\linewidth}
+    \textbullet \quad 
+    Résoudre l'équation $f(x)=g(x)$ revient à déterminer les abscisses
+    des points d'intersection des courbes $\mathscr{C}_f$ et
+    $\mathscr{C}_g$.
+  \end{minipage}
+} \\[1em]
+
+\begin{minipage}[c]{0.5\linewidth}
+  \includegraphics[width=\textwidth]{F_resineq_fg}
+\end{minipage}
+\qquad
+\begin{minipage}[t]{0.4\linewidth}
+  Sur cette figure, l'équation $f(x)=g(x)$ a \hspace{1cm} solutions,
+  qui sont
+\end{minipage} \\[1em]
+
+
+
+\subsection{Résolution graphique d'inéquations}
+
+\paragraph{\textbullet \ Inéquation du type $f(x)<k$} \ \par
+Les solutions de l'inéquation $f(x)<k$ sont les abscisses des points
+de $\mathscr{C}$ situés en-dessous de la droite d'équation $y=k$.
+
+En particulier, les solutions de l'inéquation $f(x)<0$ sont les
+abscisses des points de la courbe $\mathscr{C}$ qui sont situés
+en-dessous de l'axe des abscisses, c'est-à-dire ayant une ordonnée
+strictement négative.\\
+
+\medskip
+
+{\centering
+\includegraphics[width=0.5\textwidth]{F_resineq_f}
+\par}
+
+\medskip
+
+On procède de la même manière pour les inégalités du type $f(x)>k$,
+$f(x)\geq k$, $f(x)\leq k$. 
+
+\paragraph{\textbullet \ Inéquation du type $f(x)<g(x)$} \ \par
+Les solutions de l'inéquation $f(x)<g(x)$ sont les abscisses des
+points pour lesquels la courb $\mathscr{C}_f$ et en-dessous de la
+courbe $\mathscr{C}_g$.
+
+\medskip
+
+{\centering
+  \includegraphics[width=0.5\textwidth]{F_resineq_fg}
+\par}
+
+%\clearpage
+
+
+\section{Sens de variation d'une fonction}
+\label{sec:variations}
+
+\subsection{Notion intuitive}
+\label{ssec:notion_intuitive}
+
+\vspace{2cm}
+
+\begin{center}
+  \includegraphics[width=0.6\textwidth]{F_Variations}
+\end{center}
+
+\vspace{2cm}
+
+
+
+\subsection{Définition}
+
+\begin{definition}
+  \fbox{
+    \begin{minipage}[t]{0.82\linewidth}
+      Soit $f$ une fonction définie sur $\mathscr{D}$ et $I$ un
+      intervalle de $\mathscr{D}$.\\[-2ex]
+      \begin{itemize}
+      \item[\textbullet] On dit que $f$ est \emph{croissante} sur $I$
+        si et seulement si pour tous réels $a$ et $b$ de $I$, \\
+        \ \quad si $a\leq b$ \ alors \ $f(a)\leq f(b)$.\\[-2ex]
+      \item[\textbullet] On dit que $f$ est \emph{décroissante} sur $I$
+        si et seulement si pour tous réels $a$ et $b$ de $I$, \\
+        \ \quad si $a\leq b$ \ alors \ $f(a)\geq f(b)$. 
+      \end{itemize}
+    \end{minipage}
+  }
+\end{definition}
+
+\smallskip
+
+\begin{rem}
+  \begin{minipage}[t]{0.8\linewidth}
+    Une fonction croissante range les images dans le même ordre que
+    les antécédents. \\
+    Une fonction décroissante inverse cet ordre. \\
+  \end{minipage}
+\end{rem}
+
+\begin{center}
+  \begin{tabular}{c@{\qquad \qquad}c}
+    \begin{minipage}[c]{0.36\linewidth}
+      \includegraphics[width=\textwidth]{F_Croissante}
+    \end{minipage}
+    &
+    \begin{minipage}[c]{0.36\linewidth}
+      \includegraphics[width=\textwidth]{F_Decroissante}
+    \end{minipage}  \\
+    & \\
+    $f$ croissante sur $I$
+    &
+    $f$ décroissante sur $I$
+  \end{tabular}
+\end{center}
+
+
+\begin{rem}
+  \begin{minipage}[t]{0.84\linewidth}
+  On dit que $f$ est \emph{\underline{strictement} croissante}
+  (respectivement \emph{\underline{strictement} décroissante}) sur~$I$
+  si pour tous réels $a$ et $b$ de $I$ tels que $a<b$, on a
+  $f(a)<f(b)$ (respectivement $f(a)>f(b)$).  \\
+  \end{minipage}
+\end{rem}
+
+\begin{rem}
+  \begin{minipage}[t]{0.8\linewidth}
+    Dans cette définition, il est important que $I$ soit un
+    intervalle. \\ $]-\infty;0[\ \cup \ ]0;+\infty[$ n'est pas un
+    intervalle. \\
+  \end{minipage}
+\end{rem}
+
+\begin{definition}
+  \fbox{
+    \begin{minipage}[t]{0.82\linewidth}
+      On appelle fonction \emph{monotone} sur $I$ une fonction qui est
+      soit croissante sur $I$, soit décroissante sur $I$.
+    \end{minipage}
+  }
+\end{definition}
+
+\smallskip
+
+La fonction représentée en \,IV.\,1) n'est pas
+monotone sur $[-4;3]$. Elle est monotone sur $[-4;-2,5]$
+(décroissante), sur $[-2,5;1]$ (croissante), et sur $[1;3]$ (décroissante).\\
+
+\begin{definition}
+  \fbox{
+    \begin{minipage}[t]{0.82\linewidth}
+      On dit que $f$ est \emph{constante} sur $I$ lorsque pour tous
+      les réels $a$ et $b$ de $I$, on a $f(a)=f(b)$. (Tous les réels de
+      $I$ ont la même image par $f$).
+    \end{minipage}
+  }
+\end{definition}
+
+\begin{minipage}[t]{0.4\linewidth}
+  Dans ce cas, il existe $k\in\R$ tel que \\ pour tout $a\in I$, $f(a)=k$.
+\end{minipage}
+\qquad
+\begin{minipage}[c]{0.4\linewidth}
+  \includegraphics[width=\textwidth]{F_Constante}
+\end{minipage}
+
+
+
+\subsection{Tableau de variations}
+
+\og Etudier les variations de $f$ \fg{} signifie {\ldots}
+
+
+\vspace{2cm}
+
+
+Ces résultats sont résumés dans un tableau de variations. \\
+
+\begin{center}
+  \begin{minipage}[c]{0.4\linewidth}
+    \includegraphics[width=\textwidth]{F_TabVar}
+  \end{minipage}
+  \qquad \qquad
+  \begin{minipage}[c]{0.5\linewidth}
+    \centering
+    \begin{variations}
+      x & & 0 & & 1 & & 3 & & 4  \; \\
+      \filet
+      \m f & \; & -1 & \c & \h3 & \d & -1 & \c & \h3 \\
+    \end{variations}        
+  \end{minipage} \\[1em]
+  \begin{minipage}[c]{0.4\linewidth}
+    \centering
+    $f$ définie sur $[0;4]$
+  \end{minipage}
+  \qquad \qquad
+  \begin{minipage}[c]{0.5\linewidth}
+    \centering
+    $f$ est croissante sur $[0;1]$ et sur $[3;4]$. \\
+    $f$ est décroissante sur $[1;3]$
+  \end{minipage} 
+\end{center}
+
+\clearpage
+
+\subsection{Sens de variation d'une fonction affine}
+
+\begin{propriete}
+  \fbox{
+    \begin{minipage}[t]{0.7\linewidth}
+      Soit $f$ la fonction affine $x\mapsto ax+b$.
+      \begin{itemize}
+      \item[\textbullet] Si $a>0$, alors $f$ est croissante sur $\R$.
+      \item[\textbullet] Si $a<0$, alors $f$ est décroissante sur $\R$.
+      \item[\textbullet] Si $a=0$, alors $f$ est constante sur $\R$
+        (et $f(x)=b$ pour tout $x\in\R$).
+      \end{itemize}
+    \end{minipage}
+  }  
+\end{propriete}
+
+\paragraph{Démonstration :} \ \\
+
+\vspace{6cm}
+
+
+\begin{rem}
+  $f(x)=0$ pour $x=\hspace{1cm}$. On connaît donc le signe de $f(x)$
+  selon les valeurs de $x$.
+\end{rem}
+
+
+\begin{minipage}[c]{0.4\linewidth}
+  \centering
+  \includegraphics[width=0.6\linewidth]{F_Affine_a}
+\end{minipage}
+\quad
+\begin{minipage}[c]{0.4\linewidth}
+  \centering
+  \includegraphics[width=0.6\linewidth]{F_Affine_b}
+\end{minipage}
+
+
+
+\begin{propriete}
+  \fbox{
+    \begin{minipage}[t]{0.85\linewidth}
+      Règle du signe de $ax+b$ \\
+      
+      \begin{tabular}{cc}
+        $a<0$ & $a>0$ \\
+        & \\
+        $\begin{array}{|c|ccccc|}
+          \hline
+          x & -\infty & & -\dfrac{b}{a} & & +\infty \\[2ex]
+          \hline
+          ax+b & & + \quad \ & 0 & \quad - & \\[1ex]
+          \hline
+        \end{array}$
+        &
+        $\begin{array}{|c|ccccc|}
+          \hline
+          x & -\infty & & -\dfrac{b}{a} & & +\infty \\[2ex]
+          \hline
+          ax+b & & - \quad \ & 0 & \quad + & \\[1ex]
+          \hline
+        \end{array}$ \\
+      \end{tabular}  \\[1ex] 
+    \end{minipage} \\
+  }    
+\end{propriete}
+
+
+\section{Minimum et maximum}
+
+\begin{definition}
+  \fbox{
+    \begin{minipage}[t]{0.8\linewidth}
+      Soit $f$ une fonction définie sur un intervalle $I$. \\[-2ex] 
+      \begin{itemize}
+      \item[\textbullet] On dit que $f$ admet le réel $m$ pour minimum
+        sur $I$ ssi il existe $c\in I$ tel que $f(c)=m$
+        et pour tout $x\in I$, $f(x)\geq m$. \\[-2ex]
+      \item[\textbullet] On dit que $f$ admet le réel $M$ pour maximum
+        sur $I$ ssi il existe $d\in I$ tel que $f(d)=M$ et pour tout
+        $x\in I$, $f(x)\leq M$.
+      \end{itemize}
+    \end{minipage}
+  }    
+\end{definition}
+
+
+\begin{minipage}[c]{0.4\linewidth}
+  \centering
+  \includegraphics[width=6cm]{F_Extrema}
+\end{minipage}
+\quad
+\begin{minipage}[c]{0.4\linewidth}
+  \centering
+  \ \\
+  $f$ admet un \hspace{2cm} en $a$  \\[2ex]
+  $\phantom{f(a)}a\approx$ \\[2ex]
+  $\phantom{a}f(a)\approx $ \\[2em]
+  
+  \bigskip
+
+  $f$ admet un \hspace{2cm} en $b$  \\[2ex]
+  $\phantom{f(b)}b\approx$ \\[2ex]
+  $\phantom{b}f(b)\approx $   
+\end{minipage}
+
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\Exo{Seconde-0042}
+\Exo{Seconde-0043}
+\Exo{Seconde-0044}
 
 \Exo{Premiere-0018}                                                                                                                                

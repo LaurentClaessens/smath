@@ -17,6 +17,7 @@ def EffectifsCumulwfqAhj():
         segment2=Segment(Q,N)
         segment1.parameters.color="blue"
         segment2.parameters.color=segment1.parameters.color
+        segment2.parameters.style="dashed"
         pspict.DrawGraphs(segment1,segment2)
 
 
