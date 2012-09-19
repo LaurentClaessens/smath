@@ -29,14 +29,15 @@ from phystricksHistoAgeFrance import HistoAgeFrance
 from phystricksHistoAgeKenya import HistoAgeKenya
 from phystricksSecondDeg import SecondDeg
 from phystricksParabolesfTKFw import ParabolesfTKFw
+from phystricksEffectifsCumulwfqAhj import EffectifsCumulwfqAhj
 
 
 figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya  ]
 
-figures_list=[EvZZys]
+figures_list=[EffectifsCumulwfqAhj]
 
 def AllFigures():
-    tests=main.FigureGenerationSuite(figures_list,first=0,title=u"soupçon de mathématiques")
+    tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
     tests.generate()
     tests.summary()
 
