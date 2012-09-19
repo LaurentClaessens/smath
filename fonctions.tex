@@ -22,7 +22,41 @@ En ce qui concerne les notations, nous écrivons
 \end{equation}
 Cela signifie que \( D\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
 
-\subsection{Courbe représentative d'une fonction}
+Nous écrivons \( y=f(x)\).
+
+Nous verrons de nombreux exemples.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Domaine de définition}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Nous avons déjà mentionné le fait que le domaine de définition d'une fonction est l'ensemble des nombres sur lesquels la fonction peut être calculée.
+
+\begin{example}
+    Soit la fonction qui à la longueur d'un segment fait correspondre la surface du carré construit sur ce segment. Cette fonction n'est définie que sur les nombres positifs (parce qu'il n'existe pas de segments de longueurs négatives). Nous écrivons donc
+    \begin{equation}
+        \begin{aligned}
+            f\colon \mathopen[ 0 , \infty [&\to \eR \\
+            x&\mapsto x^2,
+        \end{aligned}
+    \end{equation}
+    et nous avons \( f(x)=x^2\).
+\end{example}
+
+\begin{example}
+    Soit la fonction qui a un nombre entier fait correspondre la somme de ses chiffres. Par exemple \( f(0)=0\) et \( f(123)=6\). Cette fonction est définie sur les entiers et retourne un entier. Nous pouvons écrire
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eN&\to \eN \\
+            x&\mapsto f(x). 
+        \end{aligned}
+    \end{equation}
+    Ici il est compliqué de donner une forme explicite pour \( f\).
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Courbe représentative d'une fonction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Soit $f$ une fonction définie sur un ensemble $\mathscr{D}$. \\
 Le plan est muni d'un repère $(O,I,J)$.
@@ -40,7 +74,7 @@ Le plan est muni d'un repère $(O,I,J)$.
 Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
 
 {\centering 
-  \includegraphics[width=8cm]{F_Axes}    
+  \includegraphics[width=8cm]{F_Axes.pdf}    
 \par}
 
 \begin{definition}
@@ -67,7 +101,7 @@ Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
   \end{minipage}
   \qquad
   \begin{minipage}[c]{0.4\linewidth}
-    \includegraphics[width=5cm]{F_NonFct}
+    \includegraphics[width=5cm]{F_NonFct.pdf}
   \end{minipage}
 \end{rem}
 
@@ -116,7 +150,7 @@ Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
   
 \end{minipage}
 \begin{minipage}[c]{0.6\linewidth}
-  \includegraphics[width=9cm]{F_Carre2}  
+  \includegraphics[width=9cm]{F_Carre2.pdf}  
 \end{minipage} \\
 
 
@@ -160,7 +194,7 @@ d'intersection.
 \end{minipage}
 \qquad
 \begin{minipage}[c]{0.25\linewidth}
-  \includegraphics[width=\textwidth]{F_reseq_f}
+  \includegraphics[width=\textwidth]{F_reseq_f.pdf}
 \end{minipage}
 
 \pagebreak[4]
@@ -176,7 +210,7 @@ d'intersection.
 } \\[1em]
 
 \begin{minipage}[c]{0.5\linewidth}
-  \includegraphics[width=\textwidth]{F_resineq_fg}
+  \includegraphics[width=\textwidth]{F_resineq_fg.pdf}
 \end{minipage}
 \qquad
 \begin{minipage}[t]{0.4\linewidth}
@@ -200,7 +234,7 @@ strictement négative.\\
 \medskip
 
 {\centering
-\includegraphics[width=0.5\textwidth]{F_resineq_f}
+\includegraphics[width=0.5\textwidth]{F_resineq_f.pdf}
 \par}
 
 \medskip
@@ -216,7 +250,7 @@ courbe $\mathscr{C}_g$.
 \medskip
 
 {\centering
-  \includegraphics[width=0.5\textwidth]{F_resineq_fg}
+  \includegraphics[width=0.5\textwidth]{F_resineq_fg.pdf}
 \par}
 
 %\clearpage
@@ -231,7 +265,7 @@ courbe $\mathscr{C}_g$.
 \vspace{2cm}
 
 \begin{center}
-  \includegraphics[width=0.6\textwidth]{F_Variations}
+  \includegraphics[width=0.6\textwidth]{F_Variations.pdf}
 \end{center}
 
 \vspace{2cm}
@@ -270,11 +304,11 @@ courbe $\mathscr{C}_g$.
 \begin{center}
   \begin{tabular}{c@{\qquad \qquad}c}
     \begin{minipage}[c]{0.36\linewidth}
-      \includegraphics[width=\textwidth]{F_Croissante}
+      \includegraphics[width=\textwidth]{F_Croissante.pdf}
     \end{minipage}
     &
     \begin{minipage}[c]{0.36\linewidth}
-      \includegraphics[width=\textwidth]{F_Decroissante}
+      \includegraphics[width=\textwidth]{F_Decroissante.pdf}
     \end{minipage}  \\
     & \\
     $f$ croissante sur $I$
@@ -331,51 +365,48 @@ monotone sur $[-4;3]$. Elle est monotone sur $[-4;-2,5]$
 \end{minipage}
 \qquad
 \begin{minipage}[c]{0.4\linewidth}
-  \includegraphics[width=\textwidth]{F_Constante}
+  \includegraphics[width=\textwidth]{F_Constante.pdf}
 \end{minipage}
 
 
 
 \subsection{Tableau de variations}
 
-\og Etudier les variations de $f$ \fg{} signifie {\ldots}
-
-
-\vspace{2cm}
+\og Étudier les variations de $f$ \fg{} signifie {\ldots}
 
 
 Ces résultats sont résumés dans un tableau de variations. \\
 
-\begin{center}
-  \begin{minipage}[c]{0.4\linewidth}
-    \includegraphics[width=\textwidth]{F_TabVar}
-  \end{minipage}
-  \qquad \qquad
-  \begin{minipage}[c]{0.5\linewidth}
-    \centering
-    \begin{variations}
-      x & & 0 & & 1 & & 3 & & 4  \; \\
-      \filet
-      \m f & \; & -1 & \c & \h3 & \d & -1 & \c & \h3 \\
-    \end{variations}        
-  \end{minipage} \\[1em]
-  \begin{minipage}[c]{0.4\linewidth}
-    \centering
-    $f$ définie sur $[0;4]$
-  \end{minipage}
-  \qquad \qquad
-  \begin{minipage}[c]{0.5\linewidth}
-    \centering
-    $f$ est croissante sur $[0;1]$ et sur $[3;4]$. \\
-    $f$ est décroissante sur $[1;3]$
-  \end{minipage} 
-\end{center}
+%\begin{center}
+  %\begin{minipage}[c]{0.4\linewidth}
+    %\includegraphics[width=\textwidth]{F_TabVar.pdf}
+  %\end{minipage}
+  %\qquad \qquad
+  %\begin{minipage}[c]{0.5\linewidth}
+    %\centering
+    %\begin{variations}
+      %x & & 0 & & 1 & & 3 & & 4  \; \\
+      %\filet
+      %\m f & \; & -1 & \c & \h3 & \d & -1 & \c & \h3 \\
+    %\end{variations}        
+  %\end{minipage} \\[1em]
+  %\begin{minipage}[c]{0.4\linewidth}
+    %\centering
+    %$f$ définie sur $[0;4]$
+  %\end{minipage}
+  %\qquad \qquad
+  %\begin{minipage}[c]{0.5\linewidth}
+    %\centering
+    %$f$ est croissante sur $[0;1]$ et sur $[3;4]$. \\
+    %$f$ est décroissante sur $[1;3]$
+  %\end{minipage} 
+%\end{center}
 
-\clearpage
+%TODO : refaire le tableau de variations.
 
 \subsection{Sens de variation d'une fonction affine}
 
-\begin{propriete}
+\begin{proposition}
   \fbox{
     \begin{minipage}[t]{0.7\linewidth}
       Soit $f$ la fonction affine $x\mapsto ax+b$.
@@ -387,7 +418,7 @@ Ces résultats sont résumés dans un tableau de variations. \\
       \end{itemize}
     \end{minipage}
   }  
-\end{propriete}
+\end{proposition}
 
 \paragraph{Démonstration :} \ \\
 
@@ -402,17 +433,17 @@ Ces résultats sont résumés dans un tableau de variations. \\
 
 \begin{minipage}[c]{0.4\linewidth}
   \centering
-  \includegraphics[width=0.6\linewidth]{F_Affine_a}
+  \includegraphics[width=0.6\linewidth]{F_Affine_a.pdf}
 \end{minipage}
 \quad
 \begin{minipage}[c]{0.4\linewidth}
   \centering
-  \includegraphics[width=0.6\linewidth]{F_Affine_b}
+  \includegraphics[width=0.6\linewidth]{F_Affine_b.pdf}
 \end{minipage}
 
 
 
-\begin{propriete}
+\begin{proposition}
   \fbox{
     \begin{minipage}[t]{0.85\linewidth}
       Règle du signe de $ax+b$ \\
@@ -438,7 +469,7 @@ Ces résultats sont résumés dans un tableau de variations. \\
       \end{tabular}  \\[1ex] 
     \end{minipage} \\
   }    
-\end{propriete}
+\end{proposition}
 
 
 \section{Minimum et maximum}
@@ -462,7 +493,7 @@ Ces résultats sont résumés dans un tableau de variations. \\
 
 \begin{minipage}[c]{0.4\linewidth}
   \centering
-  \includegraphics[width=6cm]{F_Extrema}
+  \includegraphics[width=6cm]{F_Extrema.pdf}
 \end{minipage}
 \quad
 \begin{minipage}[c]{0.4\linewidth}
