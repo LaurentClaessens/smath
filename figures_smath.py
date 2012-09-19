@@ -27,11 +27,13 @@ from phystricksHistoTdkccB import HistoTdkccB
 from phystricksHistoPySeT import HistoPySeT
 from phystricksHistoAgeFrance import HistoAgeFrance
 from phystricksHistoAgeKenya import HistoAgeKenya
+from phystricksSecondDeg import SecondDeg
+from phystricksParabolesfTKFw import ParabolesfTKFw
 
 
 figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya  ]
 
-figures_list=[HistoPySeT]
+figures_list=[EvZZys]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"soupçon de mathématiques")

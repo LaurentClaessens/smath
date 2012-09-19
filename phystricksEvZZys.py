@@ -17,5 +17,6 @@ def EvZZys():
 
     pspict.DrawGraphs(A,B,C,D)
     pspict.DrawDefaultAxes()
+    pspict.DrawDefaultGrid()
     fig.conclude()
     fig.write_the_file()

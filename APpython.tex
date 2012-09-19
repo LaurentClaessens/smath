@@ -3,8 +3,6 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
-Ce cours est à propos de la version \( 3\) de python.
-
 \chapter{Structures de base}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -36,6 +34,26 @@ donne
 
 \lstinputlisting[title=Résultat]{res_ex_listes3.txt}
 
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Suite définie par récurrence} %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Soit une suite définie par récurrence
+\begin{subequations}
+    \begin{numcases}{}
+        u_0&=10\\
+        u_{n+1}&=2u_n.
+    \end{numcases}
+\end{subequations}
+Nous voudrions pouvoir répondre à deux types de questions :
+\begin{enumerate}
+    \item
+        construire une liste contenant les \( 100\) premiers termes de la suite;
+    \item
+        savoir quel est le premier terme à dépasser un million.
+\end{enumerate}
+
+Le programme suivant répond à la première question.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Moyenne, médiane, quartiles}

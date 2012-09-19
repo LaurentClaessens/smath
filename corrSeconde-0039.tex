@@ -5,6 +5,64 @@
 
 \begin{corrige}{Seconde-0039}
 
-<+CorrSeconde-0039+>
+    \begin{enumerate}
+        \item\label{ItemjTzFsb}
+            En comptant les coefficients, Pierre a obtenu \( (9+7)\times 3+(8+12)\times 2+16+15=119\) points sur un total de \( 40\times 3+40\times 2+40\times 1=240\). Sa moyenne est donc de \( \frac{ 119 }{ 240 }\approx 0.4958\), qui vaut environ \( 9.91\) sur \( 20\).
+
+        \item
+            Si les notes n'étaient pas pondérées, Pierre aurait eu \( 9+8+15+12+7+16=67\) points sur un total de \( 6\times 20=120\). Cela donnerait donc une moyenne de \( \frac{ 67 }{ 120 }\approx 0.558\) qui vaut environ \( 11.16\) sur \( 20\).
+
+        \item
+            Étant donné que Pierre est le plus fort dans ses devoirs à la maison, il faut tenter de les «avantager» par rapport aux devoirs surveillés. Remarquons aussi que si les coefficients sont égaux, Pierre a la moyenne (c'est la question précédente). Une première idée serait de mettre des pondérations quasiment identiques, par exemple : \( 1\), \( 1.1\) et \( 1.2\). Étant donné que nous devons avoir des coefficients entiers, nous essayons \( 10\), \( 11\) et \( 12\) comme coefficients. Le nouveau tableau de notes serait alors
+
+\begin{center}
+  \begin{tabular}{|c||c|c|c|c|c|c|}
+      \hline
+    \textbf{Note} & 9 & 8 & 15 & 12 & 7 & 16  \\
+    \hline
+    \textbf{Coefficient} & 12 & 11 & 10 & 11 & 12 & 10 \\
+    \hline
+  \end{tabular}      
+\end{center}
+
+    Dans ce cas de figure, Pierre obtient \( (9+7)\times 12+(8+12)\times 11+(15+16)\times 10=722\) points, sur un total de \( (40\times 12)+(40\times 11)+40\times 10=1320\). Sa moyenne est alors \( \frac{ 722 }{ 1320 }\approx 0.547\), qui vaut approximativement \( 10.93\) sur \( 20\).
+
+    \item
+        Notons \( x\) la note que Pierre obtient. Le tableau de notes est 
+\begin{center}
+  \begin{tabular}{|c||c|c|c|c|c|c|c|}
+      \hline
+    \textbf{Note} & 9 & 8 & 15 & 12 & 7 & 16    & \( x\)  \\
+    \hline
+    \textbf{Coefficient} & 3 & 2 & 1 & 2 & 3 & 1 & 6 \\
+    \hline
+  \end{tabular}      
+\end{center}
+
+En reprenant les calculs de la question \ref{ItemjTzFsb}, Pierre obtient \( 119+6x\) points sur un total de \( 240+6\times 20=360\). Sa moyenne est donc de
+\begin{equation}
+    \frac{ 119+6x }{ 360 }=\frac{ 119 }{ 360 }+\frac{ 6x }{ 360 }=\frac{ 119 }{ 360 }+\frac{1}{ 60 }x.
+\end{equation}
+Si Pierre faisait \( 20\) sur \( 20\) à ce devoir surveillé, il obtiendrait une moyenne de
+\begin{equation}
+    \frac{ 119+6\times 20 }{ 360 }=\frac{ 239 }{ 360 }\simeq 0.663,
+\end{equation}
+et donc il obtiendrait approximativement \( 13.27\) sur \( 20\). Donc oui, il peut réussir et même faire \( 12\). Par contre, il n'est pas possible que Pierre obtienne \( 14\) de moyenne.
+
+Voyons la note minimale à avoir pour que la moyenne soit de \( 10\) sur \( 20\). Nous cherchons \( x\) de telle sorte à avoir
+\begin{equation}
+    \frac{ 119+6x }{ 360 }=\frac{ 1 }{2}.
+\end{equation}
+La solution est \( x=\frac{ 61 }{ 6 }\), qui vaut approximativement \( 10.16\). En faisant \( 11\), Pierre réussi son trimestre. 
+
+Remarque : les notes sont entières, donc si le \emph{minimum} est \( 10.16\), Pierre doit bien faire \( 11\) pour réussir.
+
+Pour obtenir \( 12\), il faut résoudre
+\begin{equation}
+    \frac{ 119+6x }{ 360 }=\frac{ 12 }{20}.
+\end{equation}
+La solution est \( x=\frac{ 97 }{ 6 }\approx 16.16\), et donc Pierre doit faire \( 17\) au dernier devoir surveillé pour obtenir \( 12\) de moyenne.
+
+    \end{enumerate}
 
 \end{corrige}
