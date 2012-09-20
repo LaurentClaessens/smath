@@ -31,12 +31,13 @@ from phystricksSecondDeg import SecondDeg
 from phystricksParabolesfTKFw import ParabolesfTKFw
 from phystricksEffectifsCumulwfqAhj import EffectifsCumulwfqAhj
 from phystricksSurfaceTriangletcNPPE import SurfaceTriangletcNPPE
+from phystricksLectureGraphnrkEEM import LectureGraphnrkEEM
 
 
 figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE
         ]
 
-figures_list=[SurfaceTriangletcNPPE]
+figures_list=[LectureGraphnrkEEM]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")

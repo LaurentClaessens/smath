@@ -1,7 +1,7 @@
 from phystricks import *
 def SurfaceTriangletcNPPE():
     pspict,fig = SinglePicture("SurfaceTriangletcNPPE")
-    pspict.dilatation(2)
+    pspict.dilatation(1.5)
 
     pspict.specific_needs="""\usepackage[cdot,thinqspace,amssymb]{SIunits}"""
 
