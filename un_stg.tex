@@ -122,16 +122,58 @@ parce que dans le compte \( n_A+n_B\), nous comptons deux fois les individus qui
 \chapter{Second degré}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Introduction}
+\section{Définitions}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\input{paraboleIntro}
+\begin{definition}
+    Une fonction \defe{polynôme de degré $2$}{polynôme (de degré $2$)} est une fonction s'exprimant sous la forme 
+    \begin{equation}
+    f(x)=ax^2+bx+c
+    \end{equation}
+    où \( a\), \( b\) et \( c\) sont des nombres réels avec \( a\neq 0\). 
+    
+    La courbe représentative d'un polynôme de degré deux dans un plan orthonormé est une \defe{parabole}{parabole}.
+\end{definition}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Symétries}
+%---------------------------------------------------------------------------------------------------------------------------
+
+La parabole de la fonction \( f(x)=ax^2+bx+c\) (\( a\neq 0\)) est symétrique par rapport à la droite d'équation \( x=-\frac{ b }{ 2a }\), c'est à dire par rapport à la droite verticale en \( x=-b/2a\). Le \defe{sommet}{sommet (d'une parabole)} est le point d'abscisse 
+\begin{equation}
+x=-b/2a
+\end{equation}
+situé sur la parabole.
+
+Deux paraboles avec leurs axes de symétries sont dessinées à la figure \ref{LabelFigParaboles}.
+\newcommand{\CaptionFigParaboles}{Deux paraboles}
+\input{Fig_Paraboles.pstricks}
+See also the subfigure \ref{LabelFigParabolesssLabelSubFigParaboles0}
+See also the subfigure \ref{LabelFigParabolesssLabelSubFigParaboles1}
+
+Comment savoir si les branches de la paraboles \( ax^2+bx+c\) sont orientées vers le haut ou vers le bas ? La règle est simple : 
+\begin{enumerate}
+    \item
+        si \( a>0\), alors elles sont tournées vers le haut;
+    \item
+        si \( a<0\), alors elles sont tournées vers le bas.
+\end{enumerate}
+Cette règle est facile à retenir en pensant par exemple à la parabole \( x^2+bx+c\) où \( b\) et \( c\) sont raisonnables. Si nous prenons \( x=1000\), alors \( x^2\) vaut un million alors que les deux autres termes ne valent que de l'ordre du mille. Il est alors clair que la branche part vers l'infini.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+\Exo{Premiere-0030}
+\Exo{Premiere-0031}
+\Exo{Premiere-0032}
 \Exo{Premiere-0024}                                                                                                                                  
 \Exo{Premiere-0025}                                                                                                                                   
 \Exo{Premiere-0026}                                                                                               
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Plus compliqués}
+%---------------------------------------------------------------------------------------------------------------------------
+
 \Exo{Premiere-0028}
+\Exo{Premiere-0029}
