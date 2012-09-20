@@ -33,12 +33,15 @@ from phystricksEffectifsCumulwfqAhj import EffectifsCumulwfqAhj
 from phystricksSurfaceTriangletcNPPE import SurfaceTriangletcNPPE
 from phystricksLectureGraphnrkEEM import LectureGraphnrkEEM
 from phystricksParaboleMCLCbG import ParaboleMCLCbG
+from phystricksbDdpfh import bDdpfh
+from phystricksParabolevQzhjq import ParabolevQzhjq
+from phystricksParaboleiLbviP import ParaboleiLbviP
 
-
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE
+figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,ParabolevQzhjq,bDdpfh,ParaboleMCLCbG,LectureGraphnrkEEM
         ]
 
-figures_list=[ParaboleMCLCbG]
+# Ajouter quelque chose dans cette liste n'épargne pas de l'ajouter dans l'autre également.
+figures_list=[ParaboleiLbviP]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
