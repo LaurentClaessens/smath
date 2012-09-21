@@ -14,43 +14,20 @@
     Le nombre que vous avez maintenant est \( 17\).
 \end{example}
 
-
-\newpage
-%TODO : Enlever ce \newpage
-
-\Exo{Seconde-0042}
-\Exo{Seconde-0046}
-\Exo{Seconde-0044}
-
-\newpage
-\clearpage
-
-\Exo{Seconde-0047}
-
-\newpage
-\clearpage
-
-    \newcommand{\CaptionFigSurfaceTriangletcNPPE}{La figure de l'exercice \ref{exoSeconde-0044}.}
-\input{Fig_SurfaceTriangletcNPPE.pstricks}
-
-%TODO : Enlever ce \newpage
-
 \begin{definition}
-    Soit \( D\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( D\) en associant à chaque nombre \( x\) dans \( D\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
+    Soit \( \defD\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( \defD\) en associant à chaque nombre \( x\) dans \( \defD\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
 \end{definition}
 
 En ce qui concerne les notations, nous écrivons
 \begin{equation}
     \begin{aligned}
-        f\colon D&\to \eR \\
+        f\colon \defD&\to \eR \\
         x&\mapsto y. 
     \end{aligned}
 \end{equation}
-Cela signifie que \( D\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
+Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
 
 Nous écrivons \( y=f(x)\).
-
-Nous verrons de nombreux exemples.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Domaine de définition}
@@ -84,15 +61,13 @@ Nous avons déjà mentionné le fait que le domaine de définition d'une fonctio
 \section{Courbe représentative d'une fonction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Soit $f$ une fonction définie sur un ensemble $\mathscr{D}$. \\
+Soit $f$ une fonction définie sur un ensemble $\defD$. \\
 Le plan est muni d'un repère $(O,I,J)$.
 
 \begin{definition}
   \fbox{
     \begin{minipage}[t]{0.85\linewidth}
-      On appelle \emph{représentation graphique} de $f$, ou courbe
-      représentative de $f$, l'ensemble des points $M(x;y)$ tels que
-      $x\in\mathscr{D}$ et $y=f(x)$.
+      On appelle \emph{représentation graphique} de $f$, ou courbe représentative de $f$, l'ensemble des points $(x,y)$ tels que $x\in\defD$ et $y=f(x)$.
     \end{minipage}
   }
 \end{definition}
@@ -113,11 +88,31 @@ Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
   }
 \end{definition}
 
+\begin{example}
+    Soit la fonction \( f(x)=3x-1\).
+    \begin{enumerate}
+        \item
+            Le point \( (0,-1)\) est sur la courbe représentative de \( f\) parce que \( f(0)=1\).
+        \item
+            Le point \( (10,29)\) est également sur la courbe parce que \( f(10)=29\).
+        \item
+            Le point \( (2,3)\) n'est par contre pas sur le graphe parce que \( f(2)=5\neq 4\).
+    \end{enumerate}
+\end{example}
+
+\begin{definition}
+    Une classe importante de fonctions sont les fonctions de la forme \( f(x)=ax\) où \( a\) est un nombre. Une telle fonction est dite \defe{linéaire}{linéaire (fonction)}. 
+
+    Les fonctions du type \( f(x)=ax+b\) sont des fonctions \defe{affines}{affine (fonction)}. 
+\end{definition}
+Les fonctions linéaires et affines sont très importantes parce que leur graphe sont des droites. Les fonctions linéaires sont des droites qui passent par l'origine \( (0,0)\) tandis que les fonctions affines (avec \( b\neq 0\)) sont des droites ne passant pas par \( (0,0)\).
+
+
 \begin{itemize}
-\item[$\bullet$] Pour une valeur $x$ sur l'axe des abscisses, il y a un et un
-  seul point d'abscisse $x$ sur la courbe.
-\item[$\bullet$] Pour tracer une courbe, il faut placer des points. Plus on
-  choisit de points, plus la courbe sera précise.
+\item
+    Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
+\item
+    Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
 \end{itemize}
 
 \begin{rem}
@@ -148,9 +143,19 @@ Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
   \vspace{4cm}
 \end{minipage}
 
+\section{Résolution graphique d'(in)équations} 
 
+\begin{definition}
+    Soit \( f\) une fonction sur \( \eR\). Nous disons que \( a\in \eR\) est un \defe{antécédent}{antécédent} du nombre \( y\) si \( y=f(a)\). Autrement dit, les antécédents de \( a\) sont les éléments de \( \eR\) dont l'image par \( f\) est \( a\).
+\end{definition}
 
-\section{Lecture d'un graphique. Résolution graphique d'(in)équations} 
+\begin{example}
+    Le nombre \( 4\) est un antécédent de \( 3\) pour la fonction \( f(x)=\frac{ x }{ 2 }+1\).
+\end{example}
+
+\begin{example}
+    Les nombres \( 3\) et \( -3\) sont tout deux des antécédents de \( 9\) pour la fonction \( x\mapsto x^2\).
+\end{example}
 
 \subsection{Lecture graphique d'images / antécédents}
 
@@ -303,8 +308,8 @@ courbe $\mathscr{C}_g$.
 \begin{definition}
   \fbox{
     \begin{minipage}[t]{0.82\linewidth}
-      Soit $f$ une fonction définie sur $\mathscr{D}$ et $I$ un
-      intervalle de $\mathscr{D}$.\\[-2ex]
+      Soit $f$ une fonction définie sur $\defD$ et $I$ un
+      intervalle de $\defD$.\\[-2ex]
       \begin{itemize}
       \item[\textbullet] On dit que $f$ est \emph{croissante} sur $I$
         si et seulement si pour tous réels $a$ et $b$ de $I$, \\
@@ -542,6 +547,13 @@ Ces résultats sont résumés dans un tableau de variations. \\
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+\Exo{Seconde-0049}
+\Exo{Seconde-0042}
 \Exo{Seconde-0043}
-
+\Exo{Seconde-0048}
+\Exo{Seconde-0047}
+\Exo{Seconde-0046}
+\Exo{Seconde-0051}
+\Exo{Seconde-0050}
+\Exo{Seconde-0044}
 \Exo{Premiere-0018}                                                                                                                                

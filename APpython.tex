@@ -25,13 +25,17 @@ donne
 
 \lstinputlisting[title=Résultat]{res_ex_listes.txt}
 
-Nous pouvons ajouter un élément à une liste en utilisant la \emph{méthode} \info{append}, et retrouver un élément d'une liste par son numéro (attention : python numérote à partie de zéro). Cas spécial : le dernier élément de la liste est le numéro \( -1\).
+Nous pouvons ajouter un élément à une liste en utilisant la \emph{méthode} \info{append}, et retrouver un élément d'une liste par son numéro (attention : python numérote à partie de zéro), en demandant par exemple \info{A[4]} pour l'élément numéro \( 4\) de la liste \info{A}. Cela sera donc le cinquième élément de la liste. Cas spécial : le dernier élément de la liste est le numéro \( -1\).
 
 \lstinputlisting{ex_listes2.py}
 
 donne
 
 \lstinputlisting[title=Résultat]{res_ex_listes2.txt}
+
+
+\Exo{Premiere-0033}
+
 
 La multiplication d'une liste par un nombre donne la liste contenant plusieurs fois la liste originale. Nous ajoutons une liste à une autre en utilisant la méthode \info{extend}.
 
@@ -42,11 +46,20 @@ donne
 
 \lstinputlisting[title=Résultat]{res_ex_listes3.txt}
 
+
+\Exo{Premiere-0034}
+
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Moyenne, médiane, quartiles}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \label{SecZYftar}
 
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Moyenne}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
     % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
     Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
     \begin{center}
@@ -58,15 +71,46 @@ donne
             \hline
         \end{tabular}
     \end{center}
+    Nous voudrions calculer la moyenne, la médiane et les quartiles de la distribution des tailles de chaussures. Nous allons nous occuper de cela dans les pages qui viennent.
+\end{example}
+    
+    Pour calculer la moyenne d'une liste, nous devons savoir la longueur et la somme de ses éléments. Python fournit cela assez rapidement. Si \info{A} est une liste,
+    \begin{enumerate}
+        \item
+            \info{len(A)} est la longueur de \info{A},
+        \item
+            \info{sum(A)} est la somme de ses éléments.
+    \end{enumerate}
+    
 
-    Nous allons écrire quelque programmes pour calculer les moyennes, médianes et quartiles de ces chiffres. Le programme suivant écrit la moyenne de la liste.
+\Exo{Premiere-0035}
+    
+Le programme suivant écrit la moyenne de la liste des tailles de chaussures de l'exemple \ref{exnXIMeL}.
 
-    \lstinputlisting{chaussures.py}
+\lstinputlisting{chaussures.py}
 
-    %\lstinputlisting{res_chaussures.txt}
+%\lstinputlisting{res_chaussures.txt}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Premier et troisième quartiles}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Pour les quartiles, nous nous rappelons que si \( n\) est le nombre de valeurs, alors le rang du premier quartile est le premier entier supérieur à \( n/4\); et le rang du troisième quartile est le premier entier supérieur à \( 3n/4\). Par exemple si il y a \( 15\) données, nous calculons \( 3\times 15/3= 11.25\), et le troisième quartile sera la douzième valeur.
 
 
-Nous pouvons aussi créer des fonctions qui donnent la médiane et les quartiles d'une liste de nombres. Voici pour le premier quartile :
+Bien entendu python possède une commande qui retourne le premier entier supérieur à un nombre donné. C'est la commande \info{ceil} du module \info{math}. En pratique :
+
+\lstinputlisting{exemple_ceil.py}
+
+donne 
+
+\lstinputlisting{res_exemple_ceil.txt}
+De même la fonction \info{math.floor} retourne le premier entier inférieur à un nombre donné. Par exemple \info{math.floor(3.89)} vaut \( 3\).
+
+La ligne \info{import math} s'appelle «importer le module math», et nous n'en dirons sans doute pas plus sur la notion d'import de module. Le module \info{math} contient encore de nombreuses fonctions mathématiques qui transforment python en une très puissante\footnote{Pour donner une idée, la mémoire disponible sur des calculatrices modernes est à peu près la même que celle qui était disponible sur Apple II au début des années 1980; avec python vous pouvez exploiter toute la mémoire de votre ordinateur moderne.} calculatrice scientifique.
+
+
+\Exo{Premiere-0036}
 
 \lstinputlisting{premier_quartile.py}
 

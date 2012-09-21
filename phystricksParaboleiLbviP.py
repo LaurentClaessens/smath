@@ -14,12 +14,7 @@ def ParaboleiLbviP():
     S=Point(0,4)
     S.put_mark(0.2,45,"$S$",automatic_place=pspict)
 
-    sym=Segment(Point(0,-2),Point(0,1.5))
-    sym.parameters.color="red"
-    sym.parameters.style="dashed"
-
-
-    pspict.DrawGraphs(f,sym,P,S)
+    pspict.DrawGraphs(f,P,S)
     pspict.DrawDefaultAxes()
     fig.conclude()
     fig.write_the_file()

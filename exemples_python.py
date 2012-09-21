@@ -19,9 +19,9 @@ resultat("ex_listes2")
 resultat("ex_listes3")
 resultat("chaussures")
 resultat("mediane")
-resultat("recurrence1")
 resultat("premier_quartile")
 resultat("recurrence2")  
+resultat("exemple_ceil")  
 
 #resultat("exo_mediane")  # Celui-ci est une cession interactive.
 # resultat("recurrence1")     # Celui-ci plante exprès. Alors si on le change, il y a des choses à faire à la main.
