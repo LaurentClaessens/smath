@@ -13,6 +13,29 @@
     Si vous savez ce que signifie «\wikipedia{fr}{Utf8}{utf8}», vous devriez deviner à quoi sert cette ligne. Sinon c'est pas grave : vous n'êtes pas \emph{obligés} de l'écrire dans vos programmes, mais c'est une bonne habitude à prendre. Nous en reparlerons peut-être plus tard.
 \end{remark}
 
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{La fonction \info{print}}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Python ne prend pas d'initiatives. Si vous ne lui demandez pas d'écrire quelque chose, il n'écrira rien. La commande la plus courante\footnote{Bien entendu, python permet de programmer des fenêtres, des boutons et autres boites de dialogue, auquel cas ce ne sera plus la commande \info{print} qui jouera.} pour afficher quelque chose à l'écran est la commande \info{print}. 
+\begin{enumerate}
+    \item
+        Pour afficher la valeur d'une variable \info{a}, mettre \info{print(a)}.
+    \item
+        Pour afficher un texte (par exemple «bonjour» ), mettre des guillemets : \info{print(``bonjour'')}.
+\end{enumerate}
+Si vous voulez afficher plusieurs choses, vous les séparez par une virgule.
+
+\lstinputlisting{ex_print.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_print.txt}
+
+Notez que les lignes qui commencent par \# ne sont pas prises en compte. Cela permet au programmeur de mettre des notes pour lui-même. N'hésitez pas à en mettre pour rendre votre code plus lisible.
+
+\Exo{Premiere-0037}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Listes}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -49,6 +72,53 @@ donne
 
 \Exo{Premiere-0034}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Quelque mots à propos des fonctions}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Choses Basiques}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Si un calcul doit être refait plusieurs fois dans un même programme, il est bon d'écrire une fonction qui sera appelée à chaque fois. En python, une fonction se déclare avec le mot-clef \info{def} comme ceci :
+\begin{quote}
+    \info{def\ nom\_de\_ma\_fonction(a,b):}
+\end{quote}
+où \info{a} et \info{b} seront les arguments de la fonction. Il peut y en avoir un seul, deux, ou plus (pas de limites), ou pas du tout. Une fonction peut afficher et calculer autant de résultats intermédiaires que l'on veut. 
+
+\lstinputlisting{ex_fonction.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_fonction.txt}
+
+Cette fonction ne fait qu'afficher du texte, mais ne retourne pas de valeurs. Voici une fonction qui retourne \( 1\) si le nombre donné est plus grand ou égal à zéro et retourne \( -1\) si il est négatif.
+
+
+\lstinputlisting{ex_fonction2.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_fonction2.txt}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Pour aller plus loin}
+%---------------------------------------------------------------------------------------------------------------------------
+
+La fonction de l'exemple précédent peut être simplifiée en sachant que dès que une instruction \info{return} est rencontrée, l'exécution de la fonction est \emph{immédiatement} stoppée et la valeur est retournée. Nous pouvons donc écrire
+
+\lstinputlisting{ex_fonction3.py}
+
+Si le nombre donné est positif, un \info{return} est rencontré à l'intérieur du \info{if}, et l'autre \info{return} n'est jamais rencontré.
+
+D'autre part, une fonction peut vraiment prendre \emph{n'importe quoi} comme argument, y compris des autres fonctions. Dans l'exemple suivant, la fonction \info{evaluation} prend un argument une fonction et un nombre, et retourne la fonction évaluée en ce nombre.
+
+\lstinputlisting{ex_fonction4.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_fonction4.txt}
+
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Moyenne, médiane, quartiles}
@@ -59,7 +129,7 @@ donne
 \subsection{Moyenne}
 %---------------------------------------------------------------------------------------------------------------------------
 
-\begin{example}
+\begin{example}     \label{ExerfDMnv}
     % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
     Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
     \begin{center}
@@ -82,7 +152,6 @@ donne
             \info{sum(A)} est la somme de ses éléments.
     \end{enumerate}
     
-
 \Exo{Premiere-0035}
     
 Le programme suivant écrit la moyenne de la liste des tailles de chaussures de l'exemple \ref{exnXIMeL}.
@@ -107,7 +176,7 @@ donne
 \lstinputlisting{res_exemple_ceil.txt}
 De même la fonction \info{math.floor} retourne le premier entier inférieur à un nombre donné. Par exemple \info{math.floor(3.89)} vaut \( 3\).
 
-La ligne \info{import math} s'appelle «importer le module math», et nous n'en dirons sans doute pas plus sur la notion d'import de module. Le module \info{math} contient encore de nombreuses fonctions mathématiques qui transforment python en une très puissante\footnote{Pour donner une idée, la mémoire disponible sur des calculatrices modernes est à peu près la même que celle qui était disponible sur Apple II au début des années 1980; avec python vous pouvez exploiter toute la mémoire de votre ordinateur moderne.} calculatrice scientifique.
+La ligne \info{import math} s'appelle «importer le module math», et nous n'en dirons sans doute pas plus sur la notion d'import de module. Le module \info{math} contient encore de nombreuses fonctions mathématiques qui transforment python en une très puissante\footnote{Pour donner une idée, la mémoire disponible sur des calculatrices modernes est à peu près la même que celle qui était disponible sur Apple II au début des années 1980; avec python vous pouvez exploiter toute la mémoire de votre ordinateur, ou de votre téléphone ou de votre tablette ou de quoi que ce soit sur lequel vous avez python.} calculatrice scientifique.
 
 
 \Exo{Premiere-0036}
@@ -118,8 +187,8 @@ Et voici pour la médiane :
 
 \lstinputlisting{mediane.py}
 
-Nous nous créons maintenant un petit module contenant les fonctions moyenne, médiane et quartiles.
 
+\Exo{Premiere-0038}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Suite définie par récurrence} 
@@ -151,6 +220,10 @@ donne
 \lstinputlisting{res_recurrence1.txt}
 
 Notons que la ligne \info{print(u[100])} plante avec l'erreur \info{list index out of range}, c'est à dire que la liste \info{u} n'a pas d'élément \info{u[100]}, ce qui est normal parce qu'elle contient \( 100\) éléments et que la numérotation commence à zéro.
+
+
+\Exo{Premiere-0039}
+
 
 En ce qui concerne la possibilité de trouver le premier élément qui dépasse le million, le programme suivant donne deux méthodes.
 

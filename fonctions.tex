@@ -4,7 +4,7 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Introduction.}
+\section{Introduction, domaine de définition}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -18,22 +18,14 @@
     Soit \( \defD\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( \defD\) en associant à chaque nombre \( x\) dans \( \defD\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
 \end{definition}
 
-En ce qui concerne les notations, nous écrivons
-\begin{equation}
-    \begin{aligned}
-        f\colon \defD&\to \eR \\
-        x&\mapsto y. 
-    \end{aligned}
-\end{equation}
-Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
+La partie difficile de cette définition est l'introduction du domaine de définition \( \defD\). Oublions la un instant pour comprendre le reste. Sans parler de \( \defD\), la définition s'écrit :
 
-Nous écrivons \( y=f(x)\).
+\begin{quote}
+    On définit une \defe{fonction}{fonction} \( f\) en associant à chaque nombre \( x\) un seul nombre \( y\).
+\end{quote}
+Cela n'est rien d'autre qu'une façon savante de dire qu'une fonction «prend un nombre en entrée, fait des calculs et retourne un nombre en sortie».
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Domaine de définition}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Nous avons déjà mentionné le fait que le domaine de définition d'une fonction est l'ensemble des nombres sur lesquels la fonction peut être calculée.
+Pourquoi introduit-t-on le domaine de définition ? Simplement parce que toute fonction ne va pas accepter toutes les valeurs en entrée. Le domaine de définition est l'ensemble des valeurs acceptées.
 
 \begin{example}
     Soit la fonction qui à la longueur d'un segment fait correspondre la surface du carré construit sur ce segment. Cette fonction n'est définie que sur les nombres positifs (parce qu'il n'existe pas de segments de longueurs négatives). Nous écrivons donc
@@ -56,6 +48,38 @@ Nous avons déjà mentionné le fait que le domaine de définition d'une fonctio
     \end{equation}
     Ici il est compliqué de donner une forme explicite pour \( f\).
 \end{example}
+
+\begin{example}
+    Considérons la fonction qui a un nombre fait correspondre son inverse : \( f(x)=\frac{1}{ x }\). Pour se dérouiller le cerveau, je propose quelque valeurs :
+    \begin{equation}
+        \begin{aligned}[]
+            f(1)&=1&f(5)&=\frac{1}{ 5 }&f(\frac{ 2 }{ 3 })=\frac{ 3 }{ 2 }\\
+            f(\frac{ 1 }{ 4 })&=4&f(-3)&=-\frac{1}{ 3 }&f(-1)&=-1.
+        \end{aligned}
+    \end{equation}
+    Cette fonction est implémentée en python de la façon suivante :
+
+\lstinputlisting{ex_inverse.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_inverse.txt}
+
+Très clairement, python ne veut pas calculer l'inverse de zéro et plante sur un message on ne peut plus clair : \info{ZeroDivisionError: division by zero}.
+
+Effectivement, l'inverse de zéro n'existe pas. Le domaine de notre fonction \( f(x)=1/x\) n'est donc pas \( \eR\) tout entier, mais seulement \( \eR\setminus\{ 0 \}\).
+
+\end{example}
+
+
+En ce qui concerne les notations, nous écrivons
+\begin{equation}
+    \begin{aligned}
+        f\colon \defD&\to \eR \\
+        x&\mapsto f(x). 
+    \end{aligned}
+\end{equation}
+Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Courbe représentative d'une fonction}

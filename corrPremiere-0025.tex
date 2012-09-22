@@ -5,6 +5,51 @@
 
 \begin{corrige}{Premiere-0025}
 
-<+CorrPremiere-0025+>
+    Soit \( x\) le nombre de gagnants et \( n\) le nombre d'euros de la cagnotte. Si \( 5\) personnes de moins avaient gagnés, alors les gagnants auraient gagné \( \frac{ n }{ x-5 }\) euros : la cagnotte divisée en \( x-5\) personnes. L'énoncé nous dit que cette somme est égale à celle effectivement gagnée plus \( 200\); nous avons donc l'équation
+    \begin{equation}        \label{EqvDvZuO}
+        \frac{ n }{ x-5 }=\frac{ n }{ x }+200
+    \end{equation}
+    parce que \( \frac{ n }{ x }\) est la somme effectivement gagnée par gagnants. De la même manière nous avons l'équation
+    \begin{equation}        \label{EqYdOLYi}
+        \frac{ n }{ x-8 }=\frac{ n }{ x }+400.
+    \end{equation}
+    L'équation \ref{EqvDvZuO} se transforme de la façon suivante :
+    \begin{subequations}
+        \begin{align}
+            \frac{ n }{ x-5 }-\frac{ n }{ x }=200\\
+            n\left( \frac{ 1 }{ x-8 }-\frac{1}{ x } \right)=200\\
+            n\frac{ n-(x-5) }{ x(x-5) }=200\\
+            n\frac{ 5 }{ x(x-5) }=200.
+        \end{align}
+    \end{subequations}
+    Nous transformons l'équation \eqref{EqYdOLYi} de la même façon et nous avons le système
+    \begin{subequations}
+        \begin{numcases}{}
+            n\frac{ 5 }{ x(x-5) }=200\\
+            n\frac{ 8 }{ x(x-8) }=400.
+        \end{numcases}
+    \end{subequations}
+    La résolution de ce système se fait de façon «classique» : nous isolons une variable dans une équation et nous injectons dans l'autre. La première équation nous permet d'exprimer \( n\) en termes de \( x\) :
+    \begin{equation}    \label{EqulvEpL}
+        n=\frac{ 200x(x-5) }{ 5 }=40x(x-5).
+    \end{equation}
+    Si nous remplaçons le \( n\) de la seconde équation par \( 40x(x-5)\), alors nous trouvons une équation pour \( x \) seul :
+    \begin{equation}
+        4x(x-5)\frac{ 8 }{ x(x-8) }=400.
+    \end{equation}
+    Dans le membre de gauche nous pouvons simplifier par \( x\) et nous pouvons diviser les deux membres par \( 40\) :
+    \begin{subequations}
+        \begin{align}
+            \frac{ 8(x-5) }{ x-8 }=10\\
+            \frac{ 4(x-5) }{ x-8 }=5\\
+            4x-20=5x-40\\
+            x=20.
+        \end{align}
+    \end{subequations}
+    Maintenant que nous savons que \( x=20\), trouver \( n\) est simple, par exemple en utilisant la relation \eqref{EqulvEpL}. Nous trouvons
+    \begin{equation}
+        n=40\times 20\times 15=12000.
+    \end{equation}
+    Les vingt gagnants ont donc dû se partager douze mille euros.
 
 \end{corrige}
