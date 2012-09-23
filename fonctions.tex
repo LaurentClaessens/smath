@@ -82,6 +82,73 @@ En ce qui concerne les notations, nous écrivons
 Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Antécédent}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous savons qu'une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul} nombre, appelé \defe{image}{image}. Si \( a\) est un nombre, un \defe{antécédent}{antécédent} de \( a\) par la fonction \( f\) est un nombre \( x\defD\) tel que \( f(x)=a\).
+
+Il peut arriver qu'un nombre ait plusieurs antécédents.
+
+\begin{example}
+    Pour la fonction \( f(x)=2x-1\), un antécédent de \( 5\) est le nombre \( 3\). Un antécédent du nombre \( -10\) est la nombre \( -9/2\).
+
+    Plus généralement les antécédents de \( a\) sont les solutions de l'équation
+    \begin{equation}
+        2x-1=a,
+    \end{equation}
+    c'est à dire \( x=\frac{ a+1 }{2}\).
+\end{example}
+
+\begin{example} \label{EqlaIGDz}
+    Si nous avons une série statistique de \( n\) valeurs, pour trouver le premier quartile nous devons diviser \( n\) par \( 4\) et prendre l'entier le plus proche vers le haut. Cela donne le numéro de la valeur correspondante au premier quartile.
+
+    En python, la fonction qui donne le numéro de la valeur du premier quartile en fonction de \( n\) est
+    \begin{quote}
+        \info{math.ceil(n/4)}
+    \end{quote}
+    Notons \( f\) cette fonction. Son domaine est l'ensemble des entiers non nuls. Le graphique de cette fonction est donné à la figure \ref{LabelFigMathCeilwCXIJZ}.
+\newcommand{\CaptionFigMathCeilwCXIJZ}{Le numéro de la valeur du premier quartile en fonction du nombre de valeurs.}
+\input{Fig_MathCeilwCXIJZ.pstricks}
+
+    Le graphique est uniquement constitué de points. Pas de lignes entre, parce qu'il n'existe pas de séries statistiques comprenant \( 3.7\) valeurs par exemple. 
+\end{example}
+
+
+\Exo{Seconde-0053}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Modélisation par une fonction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Les exemples de fonctions dans la «vraie» vie sont nombreux.
+
+\begin{example}
+    Soit un triangle rectangle isocèle dont les côtés de l'angle droit sont de longueur \( x\). Alors la surface est donnée par la fonction
+    \begin{equation}
+        f(x)=\frac{ x^2 }{2}.
+    \end{equation}
+    Le domaine est \( \defD=\mathopen] 0 , \infty \mathclose[\) parce que \( x\) représente une longueur.
+\end{example}
+
+\begin{example}
+    Un vélo se déplace à \( \unit{20}{\kilo\meter\per\hour}\). Après un temps \( t\), il aura parcouru une distance
+    \begin{equation}
+        d(t)=20t
+    \end{equation}
+    kilomètres. Ici le domaine est plus délicat; il dépend du contexte.
+
+    Notons que la variable d'une fonction n'est pas obligatoirement toujours notée \( x\) et que la fonction n'est pas toujours obligatoirement notée \( f\).
+\end{example}
+
+\begin{example}
+    Vous verrez dans un cours de physique que si on lance un objet verticalement avec une vitesse initiale \( v_0\), alors la hauteur en fonction du temps est donnée par
+    \begin{equation}
+        h(t)=v_0t-\frac{ gt^2 }{2}
+    \end{equation}
+    où \( g\) est l'accélération de la gravitation sur Terre (environ \( \unit{10}{\meter\per\second\squared}\)).
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Courbe représentative d'une fonction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -568,17 +635,21 @@ Ces résultats sont résumés dans un tableau de variations. \\
 
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Exercices}
+\section{Exercices à propos des fonctions}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\Exo{Seconde-0049}
 \Exo{Seconde-0042}
 \Exo{Seconde-0043}
 \Exo{Seconde-0048}
+
+\newpage
+% TODO : enlever ce \newpage
+
 \Exo{Seconde-0047}
 \Exo{Seconde-0046}
 \Exo{Seconde-0051}
 \Exo{Seconde-0050}
+\Exo{Seconde-0049}
 \Exo{Seconde-0044}
 \Exo{Premiere-0018}                                                                                                                                
 \Exo{Seconde-0052}
