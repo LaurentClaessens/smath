@@ -40,12 +40,18 @@ from phystricksParaboleHautMLbPQF import ParaboleHautMLbPQF
 from phystricksParaboleBasfKtFCN import ParaboleBasfKtFCN
 from phystricksParabolezBeHFl import ParabolezBeHFl
 from phystricksParabolezmMGdN import ParabolezmMGdN
+from phystricksParaboleUneSolPktmCR import ParaboleUneSolPktmCR
+from phystricksParaboleHautjOEAzn import ParaboleHautjOEAzn
+from phystricksParaboleBasDqAAua import ParaboleBasDqAAua
+from phystricksParaboleUniqueHautviflbY import ParaboleUniqueHautviflbY
+from phystricksParaboleUniqueBaskGdqda import ParaboleUniqueBaskGdqda
 
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN
+figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,
+        ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,ParaboleUniqueBaskGdqda
         ]
 
 # Ajouter quelque chose dans cette liste n'épargne pas de l'ajouter dans l'autre également.
-figures_list=[ParabolezmMGdN]
+figures_list=[ParaboleUniqueBaskGdqda]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
