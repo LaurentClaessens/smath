@@ -85,7 +85,13 @@ Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ense
 \section{Antécédent}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Nous savons qu'une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul} nombre, appelé \defe{image}{image}. Si \( a\) est un nombre, un \defe{antécédent}{antécédent} de \( a\) par la fonction \( f\) est un nombre \( x\defD\) tel que \( f(x)=a\).
+\begin{Aretenir}
+Une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul} nombre, appelé \defe{image}{image}. Si \( a\) est un nombre, un \defe{antécédent}{antécédent} de \( a\) par la fonction \( f\) est un nombre \( x\defD\) tel que 
+\begin{equation}
+    f(x)=a.
+\end{equation}
+\end{Aretenir}
+Trouver des antécédents revient souvent à résoudre des équations.
 
 Il peut arriver qu'un nombre ait plusieurs antécédents.
 
@@ -113,8 +119,35 @@ Il peut arriver qu'un nombre ait plusieurs antécédents.
     Le graphique est uniquement constitué de points. Pas de lignes entre, parce qu'il n'existe pas de séries statistiques comprenant \( 3.7\) valeurs par exemple. 
 \end{example}
 
-
 \Exo{Seconde-0053}
+
+\begin{example}
+    Soit la fonction définie sur \( \defD=\{ -5,-1,1,3,9 \}\) de la façon suivante :
+    \begin{equation}
+        \begin{array}[h]{|c||c|c|c|c|c|c|}
+            \hline
+            x&-5&-1&1&3&9&10\\
+            \hline
+            f(x)&0&2&-3&7&2&5\\
+            \hline
+        \end{array}
+    \end{equation}
+    Nous pouvons dire que
+    \begin{enumerate}
+        \item
+            L'image de \( 1\) par \( f\) est \( -3\).
+        \item
+            L'unique antécédent de \( 7\) est \( 3\).
+        \item
+            Les nombres \( -1\) et \( 9\) sont tous deux des antécédents de \( 2\).
+    \end{enumerate}
+\end{example}
+
+\begin{example}
+    Soit la fonction \( f(x)=(x+1)^2\). Nous avons \( f(-1)=0\), \( f(4)=25\); nous disons que \( 0\) est l'image de \( -1\) par \( f\) et que \( 25\) est l'image de \( 4\) par \( f\).
+
+    Remarquons que \( f(-2)=1\) et \( f(0)=1\). Donc \( -2\) et \( 0\) sont deux antécédents de \( 1\).
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Modélisation par une fonction}
@@ -152,8 +185,7 @@ Les exemples de fonctions dans la «vraie» vie sont nombreux.
 \section{Courbe représentative d'une fonction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Soit $f$ une fonction définie sur un ensemble $\defD$. \\
-Le plan est muni d'un repère $(O,I,J)$.
+Soit $f$ une fonction définie sur un ensemble $\defD$. \\ Le plan est muni d'un repère $(O,I,J)$.
 
 \begin{definition}
   \fbox{
@@ -649,7 +681,9 @@ Ces résultats sont résumés dans un tableau de variations. \\
 \Exo{Seconde-0046}
 \Exo{Seconde-0051}
 \Exo{Seconde-0050}
-\Exo{Seconde-0049}
+
+\Exo{Seconde-0054}
 \Exo{Seconde-0044}
 \Exo{Premiere-0018}                                                                                                                                
 \Exo{Seconde-0052}
+\Exo{Seconde-0049}
