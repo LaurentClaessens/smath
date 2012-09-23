@@ -321,7 +321,7 @@ Attention aux signes. Un polynôme qui s'annule en \( x=-1\) et \( x=-5\) s'écr
     Nous développons : \( f(x)=m\big( x^2+x-2 \big)\). Le sommet de cette parabole est en \( x_S=-1/2\); notez que cela ne dépend pas de \( m\). Le sommet de la parabole est donc à la hauteur
     \begin{subequations}
         \begin{align}
-            f(x_S)&=f\left( -\frac{ 1 }{2}j \right)\\
+            f(x_S)&=f\left( -\frac{ 1 }{2} \right)\\
             &=m\Big( \left( -\frac{ 1 }{2} \right)^2+\frac{ 1 }{2}-2 \Big)\\
             &=m\Big( \frac{1}{ 4 }+\frac{1}{ 2 }-2 \Big)\\
             &=-\frac{ 5m }{ 4 }.
@@ -338,6 +338,94 @@ Attention aux signes. Un polynôme qui s'annule en \( x=-1\) et \( x=-5\) s'écr
 \end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Équation du second degré}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Le gros morceau de ce chapitre est de déterminer les racines des polynômes\footnote{C'est à dire les \( x\) pour lesquels \( f(x)=0\)} du second degré. Les formules sont les suivantes.
+
+\begin{Aretenir}
+    Soit \( f(x)=ax^2+bx+c\) avec \( a\neq 0\). Les racines de \( f\) sont données par
+    \begin{equation}    \label{EqmfNsjE}
+        \begin{aligned}[]
+            x_1&=\frac{ -b+\sqrt{b^2-4ac} }{ 2a }&\text{et}&&x_2&=\frac{ -b-\sqrt{b^2-4ac} }{ 2a }.
+        \end{aligned}
+    \end{equation}
+\end{Aretenir}
+Ces formules nécessitent de nombreux commentaires. Nous commençons par noter
+\begin{equation}
+    \Delta=b^2-4ac
+\end{equation}
+et appeler ce nombre le \defe{discriminant}{discriminant} de \( f\). Le discriminant va jouer un grand rôle dans l'étude des polynômes du second degré. Les deux racine de \( f\) s'écrivent 
+\begin{equation}
+    \frac{ -b\pm\sqrt{\Delta} }{ 2a }.
+\end{equation}
+
+Vérifions que le nombre \( x_1\) est bien une racine de \( ax^2+bx+c\). Pour cela nous devons calculer \( ax_1^2+bx_1+c\) en y substituant la valeur de \( x_1\). Le calcul est un peu long :
+\begin{subequations}
+    \begin{align}
+        ax_1^2+bx_1+c&=a\left( \frac{ -b+\sqrt{\Delta} }{ 2a } \right)^2+b\left( \frac{ -b+\sqrt{\Delta} }{ 2a } \right)+c\\
+        &=\frac{ a }{ 4a^2 }\big( b^2-2b\sqrt{\Delta}+b^2-4ac \big)+\frac{ b }{ 2a }\big( -b+\sqrt{\Delta} \big)+c&\text{développement du carré}\\
+        &=\frac{1}{ 4a }\big( 2b^2-2b\sqrt{\Delta}-4ac \big)-\frac{ b^2 }{ 2a }+\frac{ b\sqrt{\Delta} }{ 2a }+c\\
+        &=\frac{ b^2 }{ 2a }-\frac{ b\sqrt{\Delta} }{ 2a }-c-\frac{ b^2 }{ 2a }+\frac{ b\sqrt{\Delta} }{ 2a }+c\\
+        =&0
+    \end{align}
+\end{subequations}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Exemple quand tout va bien}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example} \label{ExgMRBJJ}
+    Trouver les racines de \( f(x)=x^2+2x-3\). Nous calculons le discriminant
+    \begin{equation}
+        \Delta=b^2-4\times a\times c=4-4\times 1\times (-3)=16.
+    \end{equation}
+    Donc \( \sqrt{\Delta}=4\). Les solutions sont donc
+    \begin{equation}
+        \frac{ -2+4 }{ 2 }=1
+    \end{equation}
+    et
+    \begin{equation}
+        \frac{ -2-4 }{ 2 }=-3.
+    \end{equation}
+    Le polynôme \( x^2+2x-3\) s'annule donc pour \( x=1\) et \( x=-3\).
+
+    Conseil : le vérifier en remplaçant \( x\) par \( 1\) puis par \( -3\) dans la fonction donnée !!
+
+    Le graphe de cette fonction est donné à la figure \ref{LabelFigParabolezBeHFl}. Notez le sommet en \( x_0=-b/2a=-1\).
+    \newcommand{\CaptionFigParabolezBeHFl}{Graphe de la fonction \( f(x)=x^2+2x-3\) pour l'exemple \ref{ExgMRBJJ}.}
+\input{Fig_ParabolezBeHFl.pstricks}
+\end{example}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Exemple quand tout va mal}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\newcommand{\CaptionFigParabolezmMGdN}{La parabole \( (x+1)^2+1\)}
+\input{Fig_ParabolezmMGdN.pstricks}
+Il existe des paraboles n'ayant pas de racines. Par exemple la fonction
+\begin{equation}
+    f(x)=(x+1)^2+1
+\end{equation}
+dont un dessin est donné à figure \ref{LabelFigParabolezmMGdN} ne s'annule pas parce que c'est un carré (toujours positif ou nul) plus \( 3\). Les formules \eqref{EqmfNsjE} sont-elles en défaut ? Voyons cela. D'abord nous développons le carré pour mettre \( f\) sous forme «usuelle» \( ax^2+bx+c\) :
+\begin{equation}
+    f(x)=(x+1)^2+1=x^2+2x+1+1=x^2+2x+2.
+\end{equation}
+Le discriminant est
+\begin{equation}
+    \Delta=4-4\times 1\times 2=4-8=-4.
+\end{equation}
+Il n'est donc pas possible de calculer \( \sqrt{\Delta}\) vu qu'il n'est pas possible de calculer des racines de nombres négatifs.
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Factorisation du trinôme du second degré}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<++>
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices sur le second degré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -346,9 +434,16 @@ Attention aux signes. Un polynôme qui s'annule en \( x=-1\) et \( x=-5\) s'écr
 \Exo{Premiere-0032}
 
 \Exo{Premiere-0041}
+
+\Exo{Premiere-0042}
 \Exo{Premiere-0024}                                                                                                                                  
 \Exo{Premiere-0040}
+
+
+% Résolution
 \Exo{Premiere-0026}                                                                                               
+\Exo{Premiere-0043}
+\Exo{Premiere-0044}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Plus compliqués}
