@@ -36,8 +36,10 @@ from phystricksParaboleMCLCbG import ParaboleMCLCbG
 from phystricksbDdpfh import bDdpfh
 from phystricksParabolevQzhjq import ParabolevQzhjq
 from phystricksParaboleiLbviP import ParaboleiLbviP
+from phystricksParaboleHautMLbPQF import ParaboleHautMLbPQF
+from phystricksParaboleBasfKtFCN import ParaboleBasfKtFCN
 
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,ParabolevQzhjq,bDdpfh,ParaboleMCLCbG,LectureGraphnrkEEM
+figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,ParaboleBasfKtFCN
         ]
 
 # Ajouter quelque chose dans cette liste n'épargne pas de l'ajouter dans l'autre également.

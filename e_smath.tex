@@ -18,6 +18,8 @@
 \usepackage{mathrsfs}           
 \usepackage{mathabx}           % Pour \divides
 
+\usepackage{framed}
+
 \usepackage{pstricks,pst-eucl,pstricks-add,calc,pst-math,catchfile}   % Les dépendances de phystricks.
 \usepackage{graphicx}                   % Pour l'inclusion d'image en pfd.
 %\usepackage{variations}
@@ -196,6 +198,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \renewcommand{\theCounterExample}{\thechapter.\arabic{CounterExample}}
 
 \newenvironment{example}{\vspace{\EnvSpace}\refstepcounter{numtho}\noindent{\bf Exemple \thenumtho}\newline}{\phantom{a}\hfill $\triangle$\vspace{\EnvSpace}}
+\newenvironment{Aretenir}{\refstepcounter{numtho}\begin{framed}\noindent{\bf À retenir \thenumtho}\newline}{\end{framed}\vspace{\EnvSpace}}
 
 \theoremstyle{MyRemarks}    \newtheorem{remark}[numtho]{Remarque}
 

@@ -1,7 +1,7 @@
 from phystricks import *
 def ParaboleiLbviP():
     pspict,fig = SinglePicture("ParaboleiLbviP")
-    pspict.dilatation(1)
+    pspict.dilatation(0.6)
 
     x=var('x')
     f=phyFunction(-x**2+4).graph(-3,3)

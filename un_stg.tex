@@ -95,6 +95,7 @@ parce que dans le compte \( n_A+n_B\), nous comptons deux fois les individus qui
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \Exo{Seconde-0022}
+\Exo{Seconde-0030}
 \Exo{Premiere-0001}
 \Exo{Premiere-0002}
 \Exo{Premiere-0003}
@@ -136,7 +137,7 @@ parce que dans le compte \( n_A+n_B\), nous comptons deux fois les individus qui
 \end{definition}
 
 %---------------------------------------------------------------------------------------------------------------------------
-\subsection{Symétries, tableau de signe}
+\subsection{Symétries, tableau de variations}
 %---------------------------------------------------------------------------------------------------------------------------
 
 La parabole de la fonction \( f(x)=ax^2+bx+c\) (\( a\neq 0\)) est symétrique par rapport à la droite d'équation \( x=-\frac{ b }{ 2a }\), c'est à dire par rapport à la droite verticale en \( x=-b/2a\). Le \defe{sommet}{sommet (d'une parabole)} est le point d'abscisse 
@@ -158,9 +159,53 @@ Comment savoir si les branches de la paraboles \( ax^2+bx+c\) sont orientées ve
 \end{enumerate}
 Cette règle est facile à retenir en pensant par exemple à la parabole \( x^2+bx+c\) où \( b\) et \( c\) sont raisonnables. Si nous prenons \( x=1000\), alors \( x^2\) vaut un million alors que les deux autres termes ne valent que de l'ordre du mille. Il est alors clair que la branche part vers l'infini.
 
-\begin{center}
-    METTRE ICI UN TABLEAU DE SIGNE DE CHAQUE TYPE
-\end{center}
+\vbox{  % Le problème est que ceci apparaît proche du bord inférieur de la page, du coup il saut de colonne avant mon \columnbreak et l'effet est merdé.
+\begin{multicols}{2}
+    
+    Le tableau de variations pour une parabole \( f(x)=ax^2+bx+c\) avec \( a>0\) se présente ainsi :
+\begin{equation*}
+\begin{array}[h]{|c||ccccc|}
+    \hline
+    x&-\infty&&x_0=-b/2a&&\infty\\
+    \hline
+    &\infty&&&&\infty\\
+    f(x)&&\searrow&&\nearrow&\\
+    &&&f(x_0)&&\\
+    \hline
+\end{array}
+\end{equation*}
+
+  \columnbreak
+
+\includegraphics{Picture_FIGLabelFigParaboleHautMLbPQFPICTParaboleHautMLbPQF-for_eps.pdf}
+
+\end{multicols}
+
+}
+
+\vbox{ 
+\begin{multicols}{2}
+    
+    Le tableau de variations pour une parabole \( f(x)=ax^2+bx+c\) avec \( a<0\) se présente ainsi :
+\begin{equation*}
+\begin{array}[h]{|c||ccccc|}
+    \hline
+    x&-\infty&&x_0=-b/2a&&\infty\\
+    \hline
+    &&&f(x_0)&&\\
+    f(x)&&\nearrow&&\searrow&\\
+    &-\infty&&&&-\infty\\
+    \hline
+\end{array}
+\end{equation*}
+
+
+  \columnbreak
+
+\includegraphics{Picture_FIGLabelFigParaboleBasfKtFCNPICTParaboleBasfKtFCN-for_eps.pdf}
+\end{multicols}
+
+}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Tracer une parabole dont l'équation est connue}
@@ -229,7 +274,7 @@ La méthode pour tracer la courbe représentative de \( f(x)=ax^2+bx+c\) se déc
     \begin{equation}
         f(x)=-(x+2)(x-2).
     \end{equation}
-    Ceci va un peu nous simplifier la tâche parce que nous savons immédiatement les racines\footnote{Notons que nous n'avons pas encore montré comment trouver les racines d'un polynôme du second degré.} : \( \pm2\).
+    Ceci va un peu nous simplifier la tâche parce que nous savons immédiatement les racines\footnote{Notons que nous n'avons pas encore montré comment trouver en général les racines d'un polynôme du second degré.} : \( \pm2\).
     %TODO : ajouter un lien vers là où ce sera fait
 
     Le sommet est en \( x_0=0\) et donc le sommet est \( S=(0,4)\). Nous pouvons encore calculer les points \( f(1)=3\) et \( f(3)=-5\). Avec cela nous pouvons tracer.
@@ -240,15 +285,67 @@ Le résultat est à la figure \ref{LabelFigParaboleiLbviP}.
 
 \end{example}
 
-% À mettre quelque part : retenir que «parabole», «trinôme» et «polynôme du second degré», ce sont trois expressions essentiellement équivalentes.
+% TODO : À mettre quelque part : retenir que «parabole», «trinôme» et «polynôme du second degré», ce sont trois expressions essentiellement équivalentes.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Exercices}
+\section{Donner l'équation d'une parabole dont deux racines sont connues}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{example}
+    Trouver une parabole qui s'annule en \( x=3\) et \( x=8\). Cela est très simple : il suffit d'écrire
+    \begin{equation}
+        f(x)=(x-3)(x-8).
+    \end{equation}
+    Le fait que cela s'annule en \( x=3\) et \( x=5\) est immédiat. En développant nous pouvons également l'écrire
+    \begin{equation}
+        f(x)=(x-3)(x-8)=x^2-8x-3x+24=x^2-11x+24.
+    \end{equation}
+    Le sommet de cette parabole est \( 11/2=5.5\). Remarquons encore que \( 5.5\) est juste au milieu de \( 3\) et \( 8\).
+\end{example}
+
+\begin{Aretenir}
+    Les polynômes du second degré s'annulant en \( x=x_1\) et en \( x=x_2\) s'écrivent 
+    \begin{equation}
+        f(x)=m(x-x_1)(x-x_2)
+    \end{equation}
+    où \( m\) est n'importe quel réel.
+\end{Aretenir}
+
+Attention aux signes. Un polynôme qui s'annule en \( x=-1\) et \( x=-5\) s'écrit \( m(x+1)(x+5)\).
+
+\begin{example}
+    Un polynôme du second degré s'annulant en \( x=1\), en \( x=-2\) et dont le sommet est à la hauteur \( 5\). D'abord nous écrivons la forme générale du polynôme s'annulant en \( x=1\) et \( x=-2\) :
+    \begin{equation}
+        f(x)=m(x-1)(x+2).
+    \end{equation}
+    Nous développons : \( f(x)=m\big( x^2+x-2 \big)\). Le sommet de cette parabole est en \( x_S=-1/2\); notez que cela ne dépend pas de \( m\). Le sommet de la parabole est donc à la hauteur
+    \begin{subequations}
+        \begin{align}
+            f(x_S)&=f\left( -\frac{ 1 }{2}j \right)\\
+            &=m\Big( \left( -\frac{ 1 }{2} \right)^2+\frac{ 1 }{2}-2 \Big)\\
+            &=m\Big( \frac{1}{ 4 }+\frac{1}{ 2 }-2 \Big)\\
+            &=-\frac{ 5m }{ 4 }.
+        \end{align}
+    \end{subequations}
+    Nous devons fixer \( m\) pour que cette hauteur soit \( 5\), c'est à dire résoudre
+    \begin{equation}
+        -\frac{ 5m }{ 4 }=5,
+    \end{equation}
+    la solution est \( m=-4\). En définitive la fonction recherchée est
+    \begin{equation}
+        f(x)=-4x^2+4x-8.
+    \end{equation}
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices sur le second degré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \Exo{Premiere-0030}
 \Exo{Premiere-0031}
 \Exo{Premiere-0032}
+
+\Exo{Premiere-0041}
 \Exo{Premiere-0024}                                                                                                                                  
 \Exo{Premiere-0040}
 \Exo{Premiere-0026}                                                                                               
