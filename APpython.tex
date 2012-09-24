@@ -238,6 +238,42 @@ Notons que la première méthode donne \( 17\) et la seconde donne \( 18\). Qui 
 La réponse est donc que \( u_{17}\) est le premier élément à être plus grand que un million, mais \( u_{17}\) est le dix-huitième élément de la liste.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{La boucle \info{for}}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Il est possible de répéter une action pour tous les éléments d'une liste. Par exemple
+
+\lstinputlisting{ex_for1.py}
+
+La première boucle écrit \info{x} et son carré pour tout \info{x} dans la liste \info{[1,5,10,2]}. La seconde boucle écrit tous les lettres du mot «bonjour» et la troisième tous les nombres dans \info{range(0,5)}, c'est à dire \( 0\), \( 1\), \( 2\), \( 3\) et \( 4\).
+
+\lstinputlisting[title=Résultat]{res_ex_for1.txt}
+
+\Exo{Premiere-0048}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Prendre des choses au hasard}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Python permet de tirer des nombres au hasard ou de prendre un élément au hasard dans une liste ou dans un texte. Pour cela il y a le module \info{random}. Si \info{A} est une liste ou un texte (chaîne de caractère), alors
+\begin{quote}
+    \info{random.choice(A)}
+\end{quote}
+retourne un élément au hasard de la suite.
+
+\Exo{Premiere-0049}
+\Exo{Premiere-0050}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Transformer un texte en une liste et inversement}
+
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<++>
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Un texte qui ressemble à du français}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
