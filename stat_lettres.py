@@ -46,7 +46,15 @@ def suivante_markov(x):
 
 dico_double={}
 
+if int(sys.argv[1])==0:
+    liste_lettres=[x for x in list(texte_final) if x in alphabet]
+
 def suivante_double(nouveau,n=2):
+    if n==0:
+        a=""
+        while a not in alphabet:
+            a = random.choice(liste_lettres)
+        return a
     ab="".join(nouveau[-n:])
     print(len(nouveau),"recherche pour",ab)
     if ab in dico_double.keys():
@@ -67,7 +75,7 @@ for i in range(0,n):
     nouveau.append(random.choice(alphabet))
 print(nouveau)
 
-for i in range(1,2000):
+for i in range(1,500):
     nouveau.append(suivante_double(nouveau,n))
 
 print("".join(nouveau))

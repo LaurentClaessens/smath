@@ -237,6 +237,33 @@ Notons que la première méthode donne \( 17\) et la seconde donne \( 18\). Qui 
 
 La réponse est donc que \( u_{17}\) est le premier élément à être plus grand que un million, mais \( u_{17}\) est le dix-huitième élément de la liste.
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Un texte qui ressemble à du français}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+L'analyse de la fréquence des lettres dans un texte permet aussi de détecter la langue. Regardons ces trois textes, classés par ordre croissant de «crédibilité»:
+
+\begin{quote}
+    uuerlh i,ie oceieomriosnuu éctes 'qD umixnohpsnaedoteirinmrpouont nqenc a ltvpa n gcudttn  sercacuqe bu'iido retsaiacean sat oc leiu n  eéiteMe e   t  rtlteu rdédndame giaeosmx'raeaeea  jo m uds tum   et uaecetrûauu leel ttoœaxergs m'u aq uea un ileetid 'n utztotee isiranit aar,s evd e emlt zreumaganai nm,tlren id ouna,àadg lvnu s ai ie sut oqtrnœ u'nvtaoiemooe l  dqar meecésnc  jruscuttmse Aaasee ede netps  e riih
+\end{quote}
+Ce premier texte a été généré en prenant des lettres (y compris les espaces) au hasard dans un texte de référence\footnote{En l'occurence, \emph{Le temps retrouvé}.}. La fréquence des lettres est donc la même (aux aléas statistiques près) que la fréquence en français, mais force est d'avouer que cela ne ressemble pas tellement à du vrai français.
+%TODO : mettre un lien vers wikisource pour le temps retrouvé
+ 
+Second extrait :
+\begin{quote}
+    aiffe ditet ntta t cos rape uelloux sss éstére dile dsiten pen douitese Mmbis é ai quder ndises gau r qul aure à arsois arons à avese durcet l'Ountai vountel'aue i seuneueras e de beucene, la à qutout prmmontuxtri cet, rès ppllall anért me lle nte me s qujascoun c'œidisquss tintouvens me à nolllqut quiepomatrèraitra de meps fefr ll'ers'œusue suont de d ventistétapamer condes
+\end{quote}
+Cela est déjà un peu mieux. Notez en particulier la longueur des mots qui est plus raisonnable que dans le premier extrait. Voici comment il a été créé. La première lettre est prise au hasard, ensuite chaque lettre est prise en tenant compte de la lettre précédente de la façon suivante. Lorsque la dernière lettre du texte en cours de création est (par exemple) un «p», le programme cherche tous les «p» dans le texte de référence, en prend un au hasard et retourne la lettre suivante. Cela explique pourquoi dans l'extrait donné, tous les «q» sont suivis d'un «u». En effet, dans le texte de référence presque tous les «q» sont suivis d'un «u». D'ailleurs, connaissez-vous un mot en français contenant un «q» non suivit d'un «u» ?
+
+Notez aussi qu'il y a six double «l», un seul double «m» et aucun double «e». Cela s'explique assez facilement en connaissant le français.
+
+Troisième extrait :
+\begin{quote}
+    eNécarpense des tant somme par un dir d'apervi depuissasse.d'homme secomme été en art, peutoute Loup, déplaussi nombertu cercrevenir tant une et part différent au sa jeu désir momes dormer la vice qui rie, sant direclus réaturement une amie de la nument cade qu'il éclait mort et cernit des composes indraiment pours chose, auses relà une hauts divière l'aut, il Heure, et ce excesse des ins par inuressurlà de support, manqui faussion inuiterie,
+\end{quote}
+De loin, cela ressemble presque à s'y méprendre à du français, mais de près, on remarque que presque aucun mot n'est correct bien que tous les mots soient prononçables.
+
+Nous allons tenter de récrire un programme qui donne cet effet.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
