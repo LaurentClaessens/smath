@@ -13,4 +13,5 @@ myRequest.ok_filenames_list.append("repere")
 myRequest.ok_filenames_list.append("fonctions")
 myRequest.ok_filenames_list.append("stat_Pauline")
 myRequest.ok_filenames_list.append("exercices_stats_descriptives")
+myRequest.ok_filenames_list.append("calcul_mental")
 

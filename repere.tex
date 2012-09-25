@@ -1,5 +1,5 @@
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Repères, distances, milieu}
+\section{Repères}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -20,9 +20,9 @@ La façon dont nous associons à chaque point \( M\) du plan ses coordonnées da
 \newcommand{\CaptionFigReperexjVyii}{Lire les coordonnées du point \( M\) dans le repère \( OIJ\).}
 \input{Fig_ReperexjVyii.pstricks}
 
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Milieu d'un segment}
-%---------------------------------------------------------------------------------------------------------------------------
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Milieu d'un segment}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{example}
     Le tableau suivant recense différentes situations de points \( A\) et \( B\) dans le plan. Pour chaque cas, dessiner les points et trouver le milieu.
@@ -48,6 +48,53 @@ La façon dont nous associons à chaque point \( M\) du plan ses coordonnées da
         \end{aligned}
     \end{equation}
 \end{Aretenir}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Distance entre deux points}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Lorsque \( A\) et \( B\) sont deux points du plan, nous notons \( \| AB \|\)\nomenclature{\( \| AB \|\)}{la longueur du segment \( [AB]\)} la longueur du segment \( [AB]\).
+    \begin{Aretenir}
+\begin{multicols}{2}
+        Soient les points \( A\) et \( B\) de coordonnées \( A=(A_x,A_y)\) et \( B=(B_x,B_y)\) dans un repère orthonormé. La distance entre \( A\) et \( B\) (c'est à dire la longueur du segment \( [AB]\)) est donnée par la formule
+        \begin{equation}
+            \| AB \|=\sqrt{(A_x-B_x)^2+(A_y-B_y)^2}.
+        \end{equation}
+    
+\columnbreak
+
+\phantom{a} % Je ne suis pas très fier de ce moyen de faire arriver le dessin en bas de la colonne.
+
+\vfill
+
+\includegraphics{Picture_FIGLabelFigPythagoreeBqLDUPICTPythagoreeBqLDU-for_eps.pdf}
+
+%The result is on figure \ref{LabelFigPythagoreeBqLDU}.
+%\newcommand{\CaptionFigPythagoreeBqLDU}{<+Type your caption here+>}
+%\input{Fig_PythagoreeBqLDU.pstricks}
+
+\end{multicols}
+    \end{Aretenir}
+
+\begin{proof}
+    Nous allons utiliser le théorème de Pythagore. Pour cela nous construisons le triangle rectangle construit sur les points \( A\) et \( B\) comme indiqué sur le dessin. Le point \( C\) est le point de même abscisse que \( B\) et de même ordonnée que \( A\), c'est à dire que \( C\) est le point
+    \begin{equation}
+        C=(B_x,A_y).
+    \end{equation}
+    La droite \( AC\) est parallèle à l'axe des abscisses et la droite \( BC\) est parallèle à l'axe des ordonnées; elles sont donc perpendiculaires et le triangle \( ABC\) est un triangle rectangle en \( C\). Le théorème de Pythagore s'applique :
+    \begin{equation}    \label{EqjLjEKr}
+        \| AB \|=\sqrt{\| AC \|^2+\| BC \|^2}.
+    \end{equation}
+    Il reste à déterminer les longueurs \( \| AC \|\) et \( \| BC \|\). Le segment \( [AC]\) est horizontal et s'étend de l'abscisse \( A_x\) à l'abscisse \( B_x\), donc il est de longueur soit \( A_x-B_x\) soit \( B_x-A_x\), mais dans les deux cas nous avons
+    \begin{equation}
+        \| AC \|^2=(B_x-A_x)^2.
+    \end{equation}
+    De la même façon nous avons 
+    \begin{equation}
+        \| BC \|^2=(B_y-A_y)^2.
+    \end{equation}
+    En remplaçant dans \eqref{EqjLjEKr}, nous obtenons le résultat annoncé.
+\end{proof}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices de géométrie repérée}
