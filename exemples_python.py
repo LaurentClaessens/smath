@@ -28,6 +28,11 @@ resultat("ex_fonction3")
 resultat("ex_fonction4")  
 resultat("ex_print")  
 resultat("ex_for1")  
+resultat("ex_join1")  
+resultat("ex_join2")  
+resultat("ex_split1")  
+resultat("ex_triple")  
+resultat("ex_triple2")  
 
 
 #resultat("exo_mediane")  # Celui-ci est une cession interactive.

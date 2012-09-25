@@ -5,7 +5,39 @@
 
 \begin{exercice}\label{exoPremiere-0054}
 
-<+ExoPremiere-0054+>
+    Pour cet exercice nous reprenons un texte relativement long dans la variable \info{texte\_reference}. Écrire un programme qui affiche tous les enchaînement de deux lettres commençants par un «r».
+
+    Inspirez vous de ceci :
+    \begin{verbatim}
+    >>> texte="la richesse est rarissime"
+    >>> texte.split("r")
+    ['la ', 'ichesse est ', 'a', 'issime']
+    \end{verbatim}
+
+    Notez en particulier que le premier éléments de la liste ne compte pas : «la» n'est pas précédé d'un «r».
+    \begin{enumerate}
+        \item
+            Couper le texte avec «r» en utilisant \info{texte\_reference.split(``r'')}.
+        \item
+            Supprimer le premier élément de la liste obtenue
+        \item
+            Faire une boucle \info{for} sur la liste créée.
+        \item
+            À chaque étape, écrire la première lettre.
+    \end{enumerate}
+
+    Vous pouvez vous inspirer de ceci :
+    \begin{verbatim}
+    >>> A=texte.split("r")[1:]
+    >>> for x in A:
+    ...    print("r"+x[0])
+    ... 
+    ri
+    ra
+    ri
+    \end{verbatim}
+
+    Attention : si dans votre texte de référence il y a deux «r» d'affilée, un des éléments de la liste est vide. Il faut traiter ce cas. Faites des essais avec textes plus courts, par exemple étudiez comment se découpe «arrangement».
 
 \corrref{Premiere-0054}
 \end{exercice}

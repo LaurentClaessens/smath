@@ -50,7 +50,7 @@ def PythagoreeBqLDU():
     measureAC=MeasureLength(AC,0.2)
     measureAC.put_mark(0.3,measureAC.advised_mark_angle,"\( B_x-A_x\)")
 
-    pspict.DrawGraphs(A,B,C,By,Ay,Ax,Bx,AB,AC,BC,s,measureBC,measureAC)
+    pspict.DrawGraphs(By,Ay,Ax,Bx,AB,AC,BC,s,measureBC,measureAC,A,B,C)
     pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
     fig.conclude()

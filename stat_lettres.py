@@ -10,14 +10,15 @@ def texte_simple():
     Qu'est-ce qui se cache derrière ces suites ?  Le réchauffement observé pendant plusieurs décennies a été relié aux changements survenus dans le cycle hydrologique à grande échelle, notamment: l'augmentation de la teneur en vapeur d'eau de l'atmosphère, la modification de la configuration, de l'intensité et des extrêmes des précipitations, la diminution de la couverture neigeuse et la fonte des glaces accrue, ainsi que la modification de l'humidité du sol et du ruissellement. Les changements dans les précipitations sont très variables à l'échelle spatiale et d'une décennie à l'autre. Au cours du XXe siècle, les précipitations ont surtout augmenté sur les continents dans les latitudes les plus septentrionales, tandis que des diminutions ont principalement touché les latitudes comprises entre 10°S et 30°N depuis les années 1970. La fréquence des épisodes de fortes précipitations (ou la partie des précipitations totales imputable à de fortes pluies) a augmenté dans la plupart des régions (probable). Au niveau mondial, la superficie des terres considérées comme très sèches a plus que doublé depuis les années 1970 (probable). Le volume d'eau stocké dans les glaciers de montagne et la couverture neigeuse de l'hémisphère Nord a considérablement diminué. On a observé des décalages dans les variations saisonnières du débit des rivières alimentées par la fonte des glaciers et de la neige et dans les phénomènes liés à la glace dans les rivières et les lacs (degré de confiance élevé).  On ne dispose que de très peu de mesures directes de l'évapotranspiration effective sur l'ensemble des terres émergées du globe, alors que les produits d'analyse mondiaux sont sensibles aux types d'analyses effectuées et peuvent renfermer d'importantes erreurs, rendant impossible leur utilisation pour l'analyse des tendances. Par conséquent, il n'existe que peu de littérature sur les tendances observées en matière d'évapotranspiration réelle ou potentielle. Évaporation mesurée au bac.
     """
 
-def texte_Proust():
+def fichier_texte(nom):
     print("Lecture du fichier")
-    f=open("temps_perdu.txt")
+    f=open(nom)
     texte_original=f.read()
     return texte_original
 
 texte_original=texte_simple()
-texte_original=texte_Proust()
+#texte_original=fichier_texte("temps_perdu.txt")
+texte_original=fichier_texte("Sherlock.txt")
 
 print("Création du texte final")
 texte_final=texte_original.replace("(","").replace(")","").replace(";","").replace("  ","").replace("\n"," ").replace("-","").replace(":","").replace("?","").replace("   "," ")
@@ -49,33 +50,36 @@ dico_double={}
 if int(sys.argv[1])==0:
     liste_lettres=[x for x in list(texte_final) if x in alphabet]
 
-def suivante_double(nouveau,n=2):
+def suivante_double(texte,n=2):
     if n==0:
         a=""
         while a not in alphabet:
-            a = random.choice(liste_lettres)
+            a = random.choice(texte_final)
         return a
-    ab="".join(nouveau[-n:])
-    print(len(nouveau),"recherche pour",ab)
-    if ab in dico_double.keys():
-        liste = dico_double[ab]
-    else :
-        p=re.compile(ab+"["+"".join(alphabet)+"]")
-        liste=p.findall(texte_final)
-    if liste==[]:
-        return suivante_markov(ab[-1])
-    l=random.choice(liste)
-    return l[n]
+
+    a_trouver=texte[-n:]    # les n dernières lettres de  `texte`
+    # À ce niveau, il peut y avoir deux problèmes.
+    # - Il pourrait n'avoir aucun `a_trouver` dans le texte
+    # - Il pourrait y en avoir deux d'affilée.
+    A=texte_final.split(a_trouver)[1:]  # Le premier ne compte pas.
+    if len(A)==1:       # C'est le cas où le truc n'existe pas
+        return suivante_double(texte,n-1)
+    l=random.choice(A)
+    try :
+        return l[0]
+    except IndexError :
+        # Dans ce cas, c'est que la liste est vide, c'est à dire que `a_trouver` apparaît deux fois d'affilée.
+        # Donc on retourne la première lettre de `a_trouver`
+        return a_trouver[0]
 
 n=2
 if sys.argv:
     n=int(sys.argv[1])
-nouveau=[]
+nouveau=""
 for i in range(0,n):
-    nouveau.append(random.choice(alphabet))
-print(nouveau)
+    nouveau=nouveau+random.choice(alphabet)
 
 for i in range(1,500):
-    nouveau.append(suivante_double(nouveau,n))
+    nouveau=nouveau+suivante_double(nouveau,n)
 
 print("".join(nouveau))

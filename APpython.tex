@@ -265,13 +265,52 @@ retourne un élément au hasard de la suite.
 \Exo{Premiere-0050}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Transformer un texte en une liste et inversement}
-
-
-
+\section{Passer des textes au listes et inversement}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-<++>
+Si nous avons une suite de lettres, il est possible de la transformer en texte (chaîne de caractères), et inversement. Si \info{texte} est une chaîne de caractères, alors
+\begin{quote}
+    \info{list(A)}
+\end{quote}
+est la liste de ses caractères. La conversion dans ce sens est d'un intérêt limité parce que le gros des fonctionnalités des listes sont accessibles aux chaînes de caractères.
+
+La conversion d'une liste en une chaîne est plus intéressante parce qu'elle permet de créer un texte «petit bout par petit bout». La méthode est la suivante. Si \info{A} est une liste alors
+\begin{quote}
+    \info{``''.join(A)}
+\end{quote}
+est la chaîne correspondante. Mieux : 
+\begin{quote}
+    \info{``-''.join(A)}
+\end{quote}
+est un texte qui «joint» les éléments de \info{A} par des tirets.
+
+\lstinputlisting{ex_join1.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_join1.txt}
+
+
+\Exo{Premiere-0051}
+
+Il y a encore mieux. Il faut savoir que la chaîne \info{``\textbackslash n''} représente un saut de ligne. Par conséquent, en reliant les éléments d'une liste par un \info{``\textbackslash n''}, nous pouvons écrire les éléments en colonne. 
+
+\lstinputlisting{ex_join2.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_join2.txt}
+
+Et enfin, une dernière conversion consiste à séparer un texte en élément séparés par une chaîne. 
+
+\lstinputlisting{ex_split1.py}
+
+donne
+
+\lstinputlisting[title=Résultat]{res_ex_split1.txt}
+
+
+\Exo{Premiere-0052}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Un texte qui ressemble à du français}
@@ -301,10 +340,11 @@ De loin, cela ressemble presque à s'y méprendre à du français, mais de près
 
 Nous allons tenter de récrire un programme qui donne cet effet.
 
+\Exo{Premiere-0053}
+\Exo{Premiere-0054}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 \Exo{Premiere-0027}
-
