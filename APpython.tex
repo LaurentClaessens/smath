@@ -191,53 +191,6 @@ Et voici pour la médiane :
 \Exo{Premiere-0038}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Suite définie par récurrence} 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Soit une suite définie par récurrence
-
-\begin{subequations}
-    \begin{numcases}{}
-    u_0=10\\
-    u_{n+1}=2u_n.
-    \end{numcases}
-\end{subequations}
-
-Nous voudrions pouvoir répondre à deux types de questions :
-\begin{enumerate}
-    \item
-        construire une liste contenant les \( 100\) premiers termes de la suite;
-    \item
-        savoir quel est le premier terme à dépasser un million.
-\end{enumerate}
-
-Avant de se lancer, nous devons nous poser une question de vocabulaire : est-ce que le centième terme de la suite \( u\) est \( u_{100}\) ou \( u_{99}\) ? Le premier terme étant \( u_0\), le centième est bien \( u_{99}\).
-
-\lstinputlisting{recurrence1.py}
-
-donne
-
-\lstinputlisting{res_recurrence1.txt}
-
-Notons que la ligne \info{print(u[100])} plante avec l'erreur \info{list index out of range}, c'est à dire que la liste \info{u} n'a pas d'élément \info{u[100]}, ce qui est normal parce qu'elle contient \( 100\) éléments et que la numérotation commence à zéro.
-
-
-\Exo{Premiere-0039}
-
-
-En ce qui concerne la possibilité de trouver le premier élément qui dépasse le million, le programme suivant donne deux méthodes.
-
-\lstinputlisting{recurrence2.py}
-
-donne
-
-\lstinputlisting{res_recurrence2.txt}
-
-Notons que la première méthode donne \( 17\) et la seconde donne \( 18\). Qui a raison ? Le \( 18\) de la seconde méthode est la longueur de la liste construite, donc il indique que le premier terme à passer le million est \( u_{17}\) (vu que le premier terme est \( u_0\), la longueur est toujours un plus grande que le numéro du dernier élément).
-
-La réponse est donc que \( u_{17}\) est le premier élément à être plus grand que un million, mais \( u_{17}\) est le dix-huitième élément de la liste.
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{La boucle \info{for}}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -263,6 +216,71 @@ retourne un élément au hasard de la suite.
 
 \Exo{Premiere-0049}
 \Exo{Premiere-0050}
+
+\chapter{Suite définie par récurrence}
+
+Soit une suite définie par récurrence
+
+\begin{subequations}
+    \begin{numcases}{}
+    u_0=10\\
+    u_{n+1}=2u_n.
+    \end{numcases}
+\end{subequations}
+
+Nous voudrions pouvoir répondre à plusieurs types de questions :
+\begin{enumerate}
+    \item
+        construire une liste contenant les \( 100\) premiers termes de la suite;
+    \item
+        savoir quel est le premier terme à dépasser un million.
+    \item
+        Quelle est l'allure générale de la suite ? Croissante ? Décroissante ?
+\end{enumerate}
+
+Avant de se lancer, nous devons nous poser une question de vocabulaire : est-ce que le centième terme de la suite \( u\) est \( u_{100}\) ou \( u_{99}\) ? Le premier terme étant \( u_0\), le centième est bien \( u_{99}\).
+
+
+\Exo{Premiere-0056}
+
+\lstinputlisting{recurrence1.py}
+
+donne
+
+\lstinputlisting{res_recurrence1.txt}
+
+Notons que la ligne \info{print(u[100])} plante avec l'erreur \info{list index out of range}, c'est à dire que la liste \info{u} n'a pas d'élément \info{u[100]}, ce qui est normal parce qu'elle contient \( 100\) éléments et que la numérotation commence à zéro.
+
+
+\Exo{Premiere-0039}
+
+
+    En pratique, sachez que pour savoir le plus grand élément d'une liste, python dispose de la fonction \info{max}. Pour la suite, utilisez cette dernière, et non cette que vous aurez programmé dans cet exercice.
+
+
+\Exo{Premiere-0057}
+
+En ce qui concerne la possibilité de trouver le premier élément qui dépasse le million, le programme suivant donne une manière d'aborder le problème.
+
+\lstinputlisting{recurrence2.py}
+
+donne
+
+\lstinputlisting{res_recurrence2.txt}
+
+\Exo{Premiere-0058}
+
+\begin{remark}
+    
+    Le code donné dans le programme \info{recurrence2.py} (cf. plus haut) donne \( 17\) et celui de l'exercice \ref{exoPremiere-0058} donne donne \( 18\). Qui a raison ? Le \( 18\) de la seconde méthode est la longueur de la liste construite, donc il indique que le premier terme à passer le million est \( u_{17}\) (vu que le premier terme est \( u_0\), la longueur est toujours un plus grande que le numéro du dernier élément).
+
+La réponse est donc que \( u_{17}\) est le premier élément à être plus grand que un million, mais \( u_{17}\) est le dix-huitième élément de la liste.
+
+\end{remark}
+
+\Exo{Premiere-0055}
+
+\chapter{Manipulation de texte}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Passer des textes au listes et inversement}
