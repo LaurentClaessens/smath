@@ -1,6 +1,6 @@
 from phystricks import *
 def ParabolesoDGyNW():
-    pspicts,fig = MultiplePictures("Second",4)
+    pspicts,fig = MultiplePictures("SecondDGyNW",4)
     pspicts[0].mother.caption="Une parabole"
     pspicts[1].mother.caption="Une parabole"
     pspicts[2].mother.caption="Une parabole"
