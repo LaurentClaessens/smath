@@ -1,4 +1,4 @@
-% This is part of Un soupçon de mathématique sans être agressif pour autant
+%This is part of Un soupçon de mathématique sans être agressif pour autant
 % Copyright (c) 2012
 %   Laurent Claessens, Pauline Klein
 % See the file fdl-1.3.txt for copying conditions.
@@ -49,6 +49,26 @@ Pourquoi introduit-t-on le domaine de définition ? Simplement parce que toute f
     Ici il est compliqué de donner une forme explicite pour \( f\).
 \end{example}
 
+
+En ce qui concerne les notations, nous écrivons
+\begin{equation}
+    \begin{aligned}
+        f\colon \defD&\to \eR \\
+        x&\mapsto f(x). 
+    \end{aligned}
+\end{equation}
+Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Intermède : pourquoi on ne peut pas diviser par zéro ?}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+La fraction \( \frac{1}{ 0.1 }\) est le nombre de fois que \( 0.1\) rentre dans \( 1\). Cela vaut \( 10\) parce qu'il faut \( 10\) soit \( 0.1\) pour faire \( 1\).
+
+Que vaut \( \frac{1}{ 0.0001 }\) ? C'est le nombre de fois que \( 0.0001\) rentre dans \( 1\), c'est à dire dix mille.
+
+Que vau{\bf rait} \( \frac{1}{ 0 }\) ? C'est le nombre de fois qu'il faut prendre zéro pour obtenir \( 1\).
+
 \begin{example}
     Considérons la fonction qui a un nombre fait correspondre son inverse : \( f(x)=\frac{1}{ x }\). Pour se dérouiller le cerveau, je propose quelque valeurs :
     \begin{equation}
@@ -71,15 +91,13 @@ Effectivement, l'inverse de zéro n'existe pas. Le domaine de notre fonction \( 
 
 \end{example}
 
-
-En ce qui concerne les notations, nous écrivons
-\begin{equation}
-    \begin{aligned}
-        f\colon \defD&\to \eR \\
-        x&\mapsto f(x). 
-    \end{aligned}
-\end{equation}
-Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
+\begin{Aretenir}        \label{ArtJgipNt}
+    Il n'est pas permis de diviser par zéro. Une fonction qui contient un dénominateur ne peut pas avoir dans son domaine de définition des \( x\) qui annulent le dénominateur. Autrement dit dès que vous voyez
+    \begin{equation}
+        \frac{1}{ f(x) }
+    \end{equation}
+    vous devez résoudre l'équation \( f(x)=0\).
+\end{Aretenir}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Antécédent}
@@ -664,8 +682,6 @@ Ces résultats sont résumés dans un tableau de variations. \\
   $\phantom{b}f(b)\approx $   
 \end{minipage}
 
-
-
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices à propos des fonctions}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -680,14 +696,21 @@ Ces résultats sont résumés dans un tableau de variations. \\
 
 
 \Exo{Seconde-0061}
+\Exo{Seconde-0063}
 \Exo{Seconde-0054}
-\Exo{Premiere-0018}                                                                                                                                
-\Exo{Seconde-0052}
+
+\Exo{Seconde-0067}
+\Exo{Seconde-0068}
+\Exo{Seconde-0064}
 \Exo{Seconde-0049}
 \Exo{Seconde-0044}
 \Exo{Seconde-0060}
 \Exo{Seconde-0058}
 \Exo{Seconde-0059}
+
+\Exo{Seconde-0066}
 \Exo{Seconde-0047}
 \Exo{Seconde-0046}
 
+
+\Exo{Premiere-0018}                                                                                                                                

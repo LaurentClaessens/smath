@@ -62,7 +62,8 @@ def suivante_double(texte,n=2):
     # - Il pourrait n'avoir aucun `a_trouver` dans le texte
     # - Il pourrait y en avoir deux d'affilée.
     A=texte_final.split(a_trouver)[1:]  # Le premier ne compte pas.
-    if len(A)==1:       # C'est le cas où le truc n'existe pas
+    if len(A)==0:       # C'est le cas où le truc n'existe pas
+        print("Rien trouvé pour ",a_trouver)
         return suivante_double(texte,n-1)
     l=random.choice(A)
     try :

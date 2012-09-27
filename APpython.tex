@@ -346,17 +346,44 @@ Second extrait :
 \begin{quote}
     aiffe ditet ntta t cos rape uelloux sss éstére dile dsiten pen douitese Mmbis é ai quder ndises gau r qul aure à arsois arons à avese durcet l'Ountai vountel'aue i seuneueras e de beucene, la à qutout prmmontuxtri cet, rès ppllall anért me lle nte me s qujascoun c'œidisquss tintouvens me à nolllqut quiepomatrèraitra de meps fefr ll'ers'œusue suont de d ventistétapamer condes
 \end{quote}
-Cela est déjà un peu mieux. Notez en particulier la longueur des mots qui est plus raisonnable que dans le premier extrait. Voici comment il a été créé. La première lettre est prise au hasard, ensuite chaque lettre est prise en tenant compte de la lettre précédente de la façon suivante. Lorsque la dernière lettre du texte en cours de création est (par exemple) un «p», le programme cherche tous les «p» dans le texte de référence, en prend un au hasard et retourne la lettre suivante. Cela explique pourquoi dans l'extrait donné, tous les «q» sont suivis d'un «u». En effet, dans le texte de référence presque tous les «q» sont suivis d'un «u». D'ailleurs, connaissez-vous un mot en français contenant un «q» non suivit d'un «u» ?
+Cela est déjà un peu mieux. Notez en particulier la longueur des mots qui est plus raisonnable que dans le premier extrait. Voici comment il a été créé.
+\begin{enumerate}
+    \item
+        La première lettre est tirée au hasard dans l'alphabet. Ici ça a été un «a».
+    \item
+        Nous cherchons tous les «a» dans le texte de référence, nous en prenons un au hasard, et nous ajoutons au texte la lettre \emph{qui suit}. Ici ça a été un «i». 
+    \item
+        Nous cherchons tous les «i» dans le texte de référence, etc.
+\end{enumerate}
+Cela explique pourquoi dans l'extrait donné, tous les «q» sont suivis d'un «u». En effet, dans le texte de référence presque tous les «q» sont suivis d'un «u». D'ailleurs, connaissez-vous un mot en français contenant un «q» non suivit d'un «u» ? Notez aussi qu'il y a six double «l», un seul double «m» et aucun double «e». Cela s'explique assez facilement en connaissant le français.
 
-Notez aussi qu'il y a six double «l», un seul double «m» et aucun double «e». Cela s'explique assez facilement en connaissant le français.
+\begin{remark}
+Dans le texte de référence, il y a des «q» non suivis de «u» dans les mots «piqûre», «coq», «cinq» (il est alors suivit d'un espace). La chaîne «qu» arrive 13528 fois dans le texte de référence et «q» suivit d'autre chose que «u» arrive seulement 24 fois.
+\end{remark}
 
 Troisième extrait :
 \begin{quote}
-    eNécarpense des tant somme par un dir d'apervi depuissasse.d'homme secomme été en art, peutoute Loup, déplaussi nombertu cercrevenir tant une et part différent au sa jeu désir momes dormer la vice qui rie, sant direclus réaturement une amie de la nument cade qu'il éclait mort et cernit des composes indraiment pours chose, auses relà une hauts divière l'aut, il Heure, et ce excesse des ins par inuressurlà de support, manqui faussion inuiterie,
+Epgues vu un peut en m'avaisansfortes pour le dans que tout, cands ces cela comptableure amours dantestre ver aurais avaites, dont son de pours le simultés des planter, paysalutant évidue leux qu'ailles touffirer, ajour même un combianchez lui on de cholont décrir. Commette était même fortueux et de paru avait que jours pitait nulleurir cette le ce montions, nouvaien plaissé que sespèce souvoir connemi les gens ou resse solais ans mant ent, il du n'y a rançait au se dois « Alpe trientaient de Guer
 \end{quote}
-De loin, cela ressemble presque à s'y méprendre à du français, mais de près, on remarque que presque aucun mot n'est correct bien que tous les mots soient prononçables.
+De loin, cela ressemble presque à s'y méprendre à du français, mais de près, on remarque que presque aucun mot n'est correct bien que tous les mots soient prononçables. Ce dernier extrait fut composé de la façon suivante.
+
+\begin{enumerate}
+    \item
+        Choisir 3 lettres au hasard. Ici «epg» 
+    \item
+        Chercher tous les «epg» dans le texte de référence, et ajouter à l'extrait la lettre suivante. Ici c'est un «u» qui est ajouté.
+    \item
+        Chercher tous les «pgu» etc.
+\end{enumerate}
 
 Nous allons tenter de récrire un programme qui donne cet effet.
+
+
+Un dernier pour la route. Exactement le même programme, mais en prenant un roman de Sherlock Holmes (en anglais) comme texte de référence.
+\begin{quote}
+dèWatseculiance is marked, at taken the unlikely siden would he placed man why Who becall wife you be othe for For to that the Amering raised. Thing his feely. "'Thand she sodes get wond infety. I said who which show will details. In see, and the Alic slansper, for stonvicturnia, and Lest but, 1892 "Shile, Petel. Then, and to man it und in my chan aframa. My litter gretaring me entagementyfound gent that, 1892 "Well days dramongroofs when some the looks upon pa weeks a reason a pipe of Penting wif
+\end{quote}
+Cela ressemble à de l'anglais sans aucun doute.
 
 \Exo{Premiere-0053}
 \Exo{Premiere-0054}

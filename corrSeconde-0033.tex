@@ -5,6 +5,47 @@
 
 \begin{corrige}{Seconde-0033}
 
+    La surface des boites doit être proportionnelle à leurs effectifs. Étant donné que la largeur est fixée, nous devons jouer sur la hauteur pour obtenir le résultat. Pour un rectangle,
+    \begin{equation}
+        \text{hauteur}=\frac{ \text{surface} }{ \text{largeur} }.
+    \end{equation}
+    Donc en divisant l'effectif d'une boite par sa largeur, nous trouvons sa hauteur (il sera loisible de mettre à l'échelle plus tard). Les calculs sont :
+    \begin{enumerate}
+        \item
+            \( \frac{ 137 }{ 0.25 }=548\)
+        \item
+            \( \frac{ 106 }{ 0.25 }=424\)
+        \item
+            \( \frac{ 112 }{ 0.5 }=224\)
+        \item
+            \( \frac{ 154 }{ 1.5 }\approx 102.66\)
+        \item
+            \( \frac{ 100 }{ 2.5 }=40\)
+        \item
+            \( \frac{ 33 }{ 5 }=6.6\)
+    \end{enumerate}
+    Ces nombres sont les hauteurs des boites. Il est évidemment impensable de les compter en centimètres : \( 548\) serait beaucoup trop grand. Nous devons choisir une échelle dans laquelle le 548 devient quelque chose de raisonnable.
+
+    Une échelle de \( 2\%\) fait revenir la première boite sur \unit{11}{\centi\meter}. Donc pour trouver les hauteurs «réelles» des boites, nous pouvons multiplier tous les nombres par \( 0.02\).
+
+    Un autre possibilités serait de se fixer a priori la hauteur de la plus haute boite, et choisir l'échelle. Si par exemple nous voulons que la plus haute boite (le \( 548\)) soit de \unit{10}{\centi\meter} sur le dessin, nous prenons comme échelle \( \frac{ 10 }{ 548 }\).
+
+    Si nous choisissons l'échelle de \( 2\%\), nous trouvons les hauteurs
+    \begin{enumerate}
+        \item
+            \( \frac{ 2 }{ 100 }\times 548\approx \)\unit{11}{\centi\meter}
+        \item
+            \( \frac{ 2 }{ 100 }\times 424\approx \)\unit{8.5}{\centi\meter}
+        \item
+            \( \frac{ 2 }{ 100 }\times 224\approx \)\unit{4.5}{\centi\meter}
+        \item
+            \( \frac{ 2 }{ 100 }\times 102.66\approx \)\unit{2}{\centi\meter}
+        \item
+            \( \frac{ 2 }{ 100 }\times 40\approx \)\unit{0.8}{\centi\meter}
+        \item
+            \( \frac{ 2 }{ 100 }\times 6.6\approx \)\unit{0.13}{\centi\meter}
+    \end{enumerate}
+
 L'histogramme est à la figure \ref{LabelFigHistoAutomobile}.
 \newcommand{\CaptionFigHistoAutomobile}{L'histogramme de l'exercice \ref{exoSeconde-0033}.}
 \input{Fig_HistoAutomobile.pstricks}
