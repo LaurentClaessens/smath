@@ -57,7 +57,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
         ]
 
 # Ajouter quelque chose dans cette liste n'épargne pas de l'ajouter dans l'autre également.
-figures_list=[ParabolesoDGyNW,SecondDeg]
+figures_list=[HistoAutomobile]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
