@@ -168,7 +168,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \makeatother
 
 \newlength{\EnvSpace}
-\setlength{\EnvSpace}{9pt}      % C'est la distance que je veux mettre avant et après les théorèmes, remarques, \ldots
+\setlength{\EnvSpace}{9pt}      % C'est la distance que je veux mettre avant et après les théorèmes, remarques, etc.
 
 \newtheoremstyle{MyTheorems}%
         {\EnvSpace}{\EnvSpace}%
@@ -199,6 +199,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 
 \newenvironment{example}{\vspace{\EnvSpace}\refstepcounter{numtho}\noindent{\bf Exemple \thenumtho}\newline}{\phantom{a}\hfill $\triangle$\vspace{\EnvSpace}}
 \newenvironment{Aretenir}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf À retenir \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
+\newenvironment{definition}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Définition \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
 
 \theoremstyle{MyRemarks}    \newtheorem{remark}[numtho]{Remarque}
 
@@ -206,14 +207,14 @@ filecolor=magenta   % couleur des textes qui sont des liens
                 \newtheorem{erreur}[numtho]{Error}
                 \newtheorem{probleme}[numprob]{\fbox{\bf Problèmes et choses à faire}}
 
+
 \theoremstyle{MyTheorems}
             \newtheorem{lemma}[numtho]{Lemme}
             \newtheorem{corollary}[numtho]{Corollaire}
             \newtheorem{theorem}[numtho]{Théorème}      
-            \newtheorem{definition}[numtho]{Définition}      
             \newtheorem{proposition}[numtho]{Proposition}      
 
-            \newtheorem{exo}[CountExercice]{Exercice}       % C'est provisoire, pour Chafaï
+            %\newtheorem{exo}[CountExercice]{Exercice}       % C'est provisoire, pour Chafaï
 
 \renewcommand{\thenumtho}{\thechapter.\arabic{numtho}}
 % La numérotation des équations change dans les corrigés
@@ -247,7 +248,8 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \newcommand{\normal}{\lhd}
 \newcommand{\swS}{\mathscr{S}}          % L'ensemble des fonctions Schwartz
 
-\newcommand{\defD}{\mathscr{D}}     % Ensemble de définition d'une fonction
+%\newcommand{\defD}{\mathscr{D}}     % Ensemble de définition d'une fonction
+\newcommand{\defD}{D}                % Le D avec des croles était impossible à comprendre pour les élèves.
 
 \newcommand{\Borelien}{\mathcal{B}\text{or}}       % Les boréliens
 \newcommand{\tribA}{\mathcal{A}}            % Une tribu A
