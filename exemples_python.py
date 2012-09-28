@@ -40,7 +40,7 @@ liste_tests=[
 "ex_triple" ,
 "ex_triple2" ,
 "ex_texte1",
-"ex_texte2"
+"ex_texte2",
 "ex_texte3",
 "ex_graphe"
 ]
