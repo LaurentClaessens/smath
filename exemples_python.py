@@ -41,9 +41,11 @@ liste_tests=[
 "ex_triple2" ,
 "ex_texte1",
 "ex_texte2"
-"ex_texte3" ]
+"ex_texte3",
+"ex_graphe"
+]
 
-liste_tests=["ex_texte3"]
+liste_tests=["ex_graphe"]
 
 for res in liste_tests:
     resultat(res)

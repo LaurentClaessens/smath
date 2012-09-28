@@ -50,14 +50,16 @@ from phystricksReperexjVyii import ReperexjVyii
 from phystricksPythagoreeBqLDU import PythagoreeBqLDU
 from phystricksParaboleoytUKk import ParaboleoytUKk
 from phystricksParabolesoDGyNW import ParabolesoDGyNW
+from phystricksExGrapheOcxXii import ExGrapheOcxXii
+from phystricksPasFonctionYoQfSu import PasFonctionYoQfSu
 
 
 figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis, UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,ParaboleUniqueBaskGdqda,
-        MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg
+        MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,PasFonctionYoQfSu
         ]
 
 # Ajouter quelque chose dans cette liste n'épargne pas de l'ajouter dans l'autre également.
-figures_list=[HistoAutomobile]
+figures_list=[PasFonctionYoQfSu]
 
 def AllFigures():
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")

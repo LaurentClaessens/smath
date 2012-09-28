@@ -104,10 +104,11 @@ Effectivement, l'inverse de zéro n'existe pas. Le domaine de notre fonction \( 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{Aretenir}
-Une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul} nombre, appelé \defe{image}{image}. Si \( a\) est un nombre, un \defe{antécédent}{antécédent} de \( a\) par la fonction \( f\) est un nombre \( x\defD\) tel que 
+Une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul} nombre, appelé \defe{image}{image}. Si \( a\) est un nombre, un \defe{antécédent}{antécédent} de \( a\) par la fonction \( f\) est un nombre \( x\in\defD\) tel que 
 \begin{equation}
     f(x)=a.
 \end{equation}
+Autrement dit, les antécédents de \( a\) sont les éléments de \( \eR\) dont l'image par \( f\) est \( a\).
 \end{Aretenir}
 Trouver des antécédents revient souvent à résoudre des équations.
 
@@ -167,6 +168,14 @@ Il peut arriver qu'un nombre ait plusieurs antécédents.
     Remarquons que \( f(-2)=1\) et \( f(0)=1\). Donc \( -2\) et \( 0\) sont deux antécédents de \( 1\).
 \end{example}
 
+\begin{example}
+    Le nombre \( 4\) est un antécédent de \( 3\) pour la fonction \( f(x)=\frac{ x }{ 2 }+1\).
+\end{example}
+
+\begin{example}
+    Les nombres \( 3\) et \( -3\) sont tout deux des antécédents de \( 9\) pour la fonction \( x\mapsto x^2\).
+\end{example}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Modélisation par une fonction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -203,27 +212,19 @@ Les exemples de fonctions dans la «vraie» vie sont nombreux.
 \section{Courbe représentative d'une fonction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Soit $f$ une fonction définie sur un ensemble $\defD$. \\ Le plan est muni d'un repère $(O,I,J)$.
+%TODO : il faut essayer de refaire une figure pour tous les dessins de Pauline.
+Soit $f$ une fonction définie sur un ensemble $\defD$.
 
 \begin{definition}
     On appelle \defe{représentation graphique}{représentation graphique (d'une fonction)}, ou le \defe{graphe}{graphe} de $f$, l'ensemble des points $(x,y)$ tels que $x\in\defD$ et $y=f(x)$.
 \end{definition}
 
-Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
+\newcommand{\CaptionFigExFonction}{Comment tracer la fonction \( f(x)=2x+1\) ?}
+\input{Fig_ExFonction.pstricks}
 
-{\centering 
-  \includegraphics[width=8cm]{F_Axes.pdf}    
-\par}
+Nous donnons à la figure \ref{LabelFigExFonction} le tracé de la fonction \( f(x)=2x+1\). La figure \ref{LabelFigExFonctionssLabelSubFigExFonction0} donne quelque points du graphe de la fonction. La figure \ref{LabelFigExFonctionssLabelSubFigExFonction1} donne le graphe complet de la fonction. Comment le construit-on ? Par définition pour chaque \( x\) sur l'axe des abscisses (il y en a une infinité), il faut calculer le nombre \( f(x)\) et mettre dans le plan le point de coordonnées \( \big( x,f(x) \big)\).
 
-\begin{definition}
-  \fbox{
-    \begin{minipage}[t]{0.85\linewidth}
-      Si une fonction $f$ a pour représentation graphique la courbe
-      $\mathscr{C}$, on dit que cette courbe $\mathscr{C}$ \emph{a pour
-        équation} $y=f(x)$ dans le repère choisi.
-    \end{minipage}
-  }
-\end{definition}
+En pratique, il n'est pas possible de calculer \( f(x)\) pour \emph{tous} les \( x\) réels\footnote{Chuck Norris peut le faire.}. C'est pourquoi nous nous contentons qu'en calculer quelque uns, et nous les relions «le plus intelligemment possible».
 
 \begin{example}
     Soit la fonction \( f(x)=3x-1\).
@@ -237,62 +238,66 @@ Cette courbe est notée $\mathscr{C}$ ou $\mathscr{C}_f$.\\
     \end{enumerate}
 \end{example}
 
+\begin{itemize}
+    \item
+        Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
+    \item
+        Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
+\end{itemize}
+
+Le programme suivant donne la valeur de la fonction \( f(x)=x^2-2\) pour \( 10\) valeurs régulièrement espacées entre \( 0\) et \( 5\). Pour cela nous utilisons la fonction \info{numpy.linspace} qui retourne une liste de nombres régulièrement espacée. La syntaxe en est
+\begin{quote}
+    \info{numpy.linspace(a,b,num=n)}
+\end{quote}
+Cela est une liste de \info{n} nombres régulièrement espacés entre \info{a} et \info{b}. Le programme est
+
+
+\lstinputlisting{ex_graphe.py}
+
+et donne
+
+\lstinputlisting[title=Résultat]{res_ex_graphe.txt}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Fonctions linéaires et affines}
+%---------------------------------------------------------------------------------------------------------------------------
+
 \begin{definition}
     Une classe importante de fonctions sont les fonctions de la forme \( f(x)=ax\) où \( a\) est un nombre. Une telle fonction est dite \defe{linéaire}{linéaire (fonction)}. 
 
     Les fonctions du type \( f(x)=ax+b\) sont des fonctions \defe{affines}{affine (fonction)}. 
 \end{definition}
-Les fonctions linéaires et affines sont très importantes parce que leur graphe sont des droites. Les fonctions linéaires sont des droites qui passent par l'origine \( (0,0)\) tandis que les fonctions affines (avec \( b\neq 0\)) sont des droites ne passant pas par \( (0,0)\).
 
 
-\begin{itemize}
-\item
-    Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
-\item
-    Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
-\end{itemize}
+\begin{Aretenir}
+    Les fonctions linéaires et affines sont très importantes parce que leur graphe sont des droites. 
+    \begin{itemize}
+        \item 
+    Les fonctions linéaires sont des droites qui passent par l'origine \( (0,0)\).
+    \item
+    Les fonctions affines (avec \( b\neq 0\)) sont des droites ne passant pas par \( (0,0)\).
+    \end{itemize}
+\end{Aretenir}
+Si $f$ est une fonction affine définie pour $x\in\R$ par $f(x)=ax+b$ alors l'équation de la droite représentative de la fonction est $y=ax+b$. 
 
-\begin{rem}
-  \begin{minipage}[t]{0.45\linewidth}
-    Cette courbe ne représente pas une fonction, car le nombre $x$ a
-    deux images $y$.    
-  \end{minipage}
-  \qquad
-  \begin{minipage}[c]{0.4\linewidth}
-    \includegraphics[width=5cm]{F_NonFct.pdf}
-  \end{minipage}
-\end{rem}
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Ce qui n'est pas une fonction}
+%---------------------------------------------------------------------------------------------------------------------------
 
+%    \includegraphics[width=5cm]{F_NonFct.pdf}
 
-\paragraph{Cas particulier :} 
-\begin{minipage}[t]{0.8\linewidth}
-  Si $f$ est une fonction affine définie pour $x\in\R$ par 
-  $f(x)=ax+b$, et si la droite $d$ est sa représentation graphique,
-  une équation de la droite $d$ est \ $y=ax+b$.
-\end{minipage}
+\begin{multicols}{2}
+    Cette courbe ne représente pas une fonction, car à partir de \( x=-4\), les nombres ont deux images. Les courbes données par des fonctions sont des courbes acceptant une seule ordonnée pour chaque abscisse.
 
-\paragraph{Application :} 
-\begin{minipage}[t]{0.8\linewidth}
-  Pour $x\in\R$, $f(x)=-x^2+2x$, de courbe représentative
-  $\mathscr{P}$.\\
-  Le point $A(2;0)$ appartient-il à $\mathscr{P}$ ? De même pour
-  $B(-2;-7)$.
-  \vspace{4cm}
-\end{minipage}
+\columnbreak
 
+\includegraphics{Picture_FIGLabelFigPasFonctionYoQfSuPICTPasFonctionYoQfSu-for_eps.pdf}
+
+\end{multicols}
+
+%---------------------------------------------------------------------------------------------------------------------------
 \section{Résolution graphique d'(in)équations} 
-
-\begin{definition}
-    Soit \( f\) une fonction sur \( \eR\). Nous disons que \( a\in \eR\) est un \defe{antécédent}{antécédent} du nombre \( y\) si \( y=f(a)\). Autrement dit, les antécédents de \( a\) sont les éléments de \( \eR\) dont l'image par \( f\) est \( a\).
-\end{definition}
-
-\begin{example}
-    Le nombre \( 4\) est un antécédent de \( 3\) pour la fonction \( f(x)=\frac{ x }{ 2 }+1\).
-\end{example}
-
-\begin{example}
-    Les nombres \( 3\) et \( -3\) sont tout deux des antécédents de \( 9\) pour la fonction \( x\mapsto x^2\).
-\end{example}
+%---------------------------------------------------------------------------------------------------------------------------
 
 \subsection{Lecture graphique d'images / antécédents}
 
@@ -543,6 +548,7 @@ monotone sur $[-4;3]$. Elle est monotone sur $[-4;-2,5]$
 \og Étudier les variations de $f$ \fg{} signifie {\ldots}
 
 
+
 Ces résultats sont résumés dans un tableau de variations. \\
 
 %\begin{center}
@@ -707,6 +713,8 @@ Ces résultats sont résumés dans un tableau de variations. \\
 \subsection{Représentation graphique}
 %---------------------------------------------------------------------------------------------------------------------------
 
+
+\Exo{Seconde-0043}
 \Exo{Seconde-0059}
 \Exo{Seconde-0047}
 \Exo{Seconde-0060}
