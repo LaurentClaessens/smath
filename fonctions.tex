@@ -109,19 +109,36 @@ Une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul
     f(x)=a.
 \end{equation}
 Autrement dit, les antécédents de \( a\) sont les éléments de \( \eR\) dont l'image par \( f\) est \( a\).
-\end{Aretenir}
-Trouver des antécédents revient souvent à résoudre des équations.
 
 Il peut arriver qu'un nombre ait plusieurs antécédents.
+\end{Aretenir}
+
 
 \begin{example}
     Pour la fonction \( f(x)=2x-1\), un antécédent de \( 5\) est le nombre \( 3\). Un antécédent du nombre \( -10\) est la nombre \( -9/2\).
+\end{example}
 
-    Plus généralement les antécédents de \( a\) sont les solutions de l'équation
+\begin{Aretenir}
+    Trouver les antécédents de \( a\) par la fonction \( f\) revient à trouver les solutions de l'équation
+    \begin{equation}
+        f(x)=a.
+    \end{equation}
+\end{Aretenir}
+
+
+\begin{example}
+
+    Les antécédents de \( 4\) pur la fonction \( f(x)=2x-1\) sont les solutions de l'équation
+    \begin{equation}
+        2x-1=4
+    \end{equation}
+    c'est à dire \( x=\frac{ 5 }{2}\). Il se fait qu'il y en a un seul.
+
+    Plus généralement l'antécédent de \( a\) pour cette fonction est la solution de l'équation
     \begin{equation}
         2x-1=a,
     \end{equation}
-    c'est à dire \( x=\frac{ a+1 }{2}\).
+    c'est à dire le nombre \( x=\frac{ a+1 }{ 2 }\).
 \end{example}
 
 \begin{example} \label{EqlaIGDz}
@@ -238,27 +255,35 @@ En pratique, il n'est pas possible de calculer \( f(x)\) pour \emph{tous} les \(
     \end{enumerate}
 \end{example}
 
+Quelque conseils pour dessiner.
 \begin{itemize}
     \item
         Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
     \item
         Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
+    \item
+        Si possible, trouver quelque valeurs clefs. Par exemple on cherchera les points d'intersection entre les axes et les courbe. Le point \( (0,f(0)) \) est intéressant à mettre, ainsi que les points \( x\) tels que \( f(x)=0\).
 \end{itemize}
 
-Le programme suivant donne la valeur de la fonction \( f(x)=x^2-2\) pour \( 10\) valeurs régulièrement espacées entre \( 0\) et \( 5\). Pour cela nous utilisons la fonction \info{numpy.linspace} qui retourne une liste de nombres régulièrement espacée. La syntaxe en est
+\begin{example}
+    Créons un petit programme définissant la fonction \( f(x)=x^2-2\) et en calculant \( 10\) valeurs régulièrement espacées entre \( -5\) et \( 5\). La production d'une liste de nombre régulièrement espacés est un travail pour la fonction \info{numpy.linspace}. La syntaxe en est 
 \begin{quote}
     \info{numpy.linspace(a,b,num=n)}
 \end{quote}
-Cela est une liste de \info{n} nombres régulièrement espacés entre \info{a} et \info{b}. Le programme est
-
-
+Cela est une liste de \info{n} nombres régulièrement espacés entre \info{a} et \info{b}. En ce qui concerne le carré, en python les puissances sont données par \info{**}. Par exemple \info{a**3} est le cube de \info{a} :
+\begin{verbatim}
+>>> 2**3
+8
+\end{verbatim}
+Le programme est
 
 \lstinputlisting{ex_graphe.py}
 
-et donne
+Le programme donne :
 
 \lstinputlisting[title=Résultat]{res_ex_graphe.txt}
-% À remettre dans le tracé de figures.
+    
+\end{example}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Fonctions linéaires et affines}
@@ -282,6 +307,22 @@ et donne
 \end{Aretenir}
 Si $f$ est une fonction affine définie pour $x\in\R$ par $f(x)=ax+b$ alors l'équation de la droite représentative de la fonction est $y=ax+b$. 
 
+Pour tracer le graphe d'une fonction affine.
+\begin{itemize}
+    \item
+        Vu que le graphe est une droite, il suffit de deux points.
+    \item
+        Les fonction linéaires passent par l'origine \( (0,0)\).
+    \item 
+        Pour un tracé à la règle, il est plus précis de prendre deux points relativement éloignés.
+    \item
+        La droite \( f(x)=ax+b\) monte si \( a>0\) et descend si \( a<0\). La pente est d'autant plus raide que \( a\) est grand.
+\end{itemize}
+
+Quelque exemples à la figure \ref{LabelFigGrapheAffinHqXJGx}.
+\newcommand{\CaptionFigGrapheAffinHqXJGx}{Des graphes de fonctions linéaires et affines.}
+\input{Fig_GrapheAffinHqXJGx.pstricks}
+
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Ce qui n'est pas une fonction}
 %---------------------------------------------------------------------------------------------------------------------------
@@ -303,112 +344,119 @@ Si $f$ est une fonction affine définie pour $x\in\R$ par $f(x)=ax+b$ alors l'é
 
 \subsection{Lecture graphique des images et des antécédents}
 
-  On considère 
-  $
-  \begin{array}[t]{cl}
-    f : & \R \longrightarrow \R \\
-    & x \longmapsto x^2
-  \end{array}
-  $.  \\
+\begin{multicols}{2}
 
-  A $x$, on associe $y=f(x)$. 
+    Nous considérons la fonction
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eR&\to \eR \\
+            x&\mapsto x^2 
+        \end{aligned}
+    \end{equation}
+    dont le graphe est donné ci-contre. À chaque réel $x$, nous associons l'abscisse $y=f(x)$.  À l'aide du graphe donné, répondre aux questions suivantes.
 
-  \vspace{1cm}
+    \begin{itemize}
+        \item Image de $1,5$ ? 
+        \item Antécédent de $3,5$ ?  
+        \item Antécédent de $-1$ ? 
+        \item Antécédent de $0$ ? 
+    \end{itemize}
 
-  \begin{itemize}
-  \item Image de $1,5$ ? 
-  \item Antécédent de $3,5$ ?  
-  \item Antécédent de $-1$ ? 
-  \item Antécédent de $0$ ? 
-  \end{itemize}
-  
-  \includegraphics[width=9cm]{F_Carre2.pdf}  
+    \columnbreak
 
+    \includegraphics{Picture_FIGLabelFigFCarreQFhsWzPICTFCarreQFhsWz-for_eps.pdf}
+    %\newcommand{\CaptionFigFCarreQFhsWz}{Le graphe de la fonction \( x\mapsto x^2\).}
+    %\input{Fig_FCarreQFhsWz.pstricks}
 
-Fonction $f(x)=x^2$ \\[2ex]
-\begin{tabular}{|>{$}c<{$}|*{11}{>{\centering$}p{1cm}<{$}|}c}
-  \cline{1-12}
-  \displaystyle \vphantom{\int} \ x \ \ 
-  & -4 & -3 & -2 & -1 & 0 & 1 & 2 & 3 & 4 & -0,5 & 0,5 & \\
-  \cline{1-12}
-  \displaystyle \vphantom{\int} y
-  & & & & & & & & & & & \\
-  \cline{1-12}
-\end{tabular}
+\end{multicols}
 
-\medskip
+  \begin{example}
+Compléter le tableau suivant pour la fonction $f(x)=x^2$.
+\begin{equation}
+\begin{array}[h]{|c|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline  
+  x & -4 & -3 & -2 & -1 & 0 & 1 & 2 & 3 & 4 & -0,5 & 0,5  \\
+  \hline
+  y & 16 &&&&&&&&&&0.25\\
+  \hline
+\end{array}
+\end{equation}
+  \end{example}
 
 
 \subsection{Résolution graphique d'équations}
 
-$k$ est un réel fixé. \\
+\begin{Aretenir}
+    Soit $k$, un réel fixé. Résoudre l'équation $f(x)=k$ revient à chercher les antécédents par $f$ du nombre $k$.
 
-\noindent
-\fbox{
-  \textbullet \quad
-  Résoudre l'équation $f(x)=k$ revient à chercher les antécédents par
-  $f$ du nombre $k$.
-} \\
+Le nombre de solutions de l'équation $f(x)=k$ est égal au nombre de points d'intersection de la courbe représentative de \( f\) avec la droite $d$ d'équation $y=k$. Les solutions sont les abscisses de ces points d'intersection. 
+\end{Aretenir}
 
-Le nombre de solutions de l'équation $f(x)=k$ est égal au nombre de
-points d'intersection de la courbe $\mathscr{C}$ avec la droite $d$
-d'équation $y=k$. Les solutions sont les abscisses de ces points
-d'intersection. 
 
-\paragraph{Exemple :} 
-\begin{minipage}[t]{0.55\linewidth}
-  On cherche à résoudre $f(x)=4$. \\
-  On trace la droite d'équation \hspace{1.5cm} et
-  on observe les points d'intersection de cette droite avec la courbe
-  $\mathscr{C}$. \\[1ex]
-  $\mathscr{S}=\{\hspace{1.5cm}\}$. 
-\end{minipage}
-\qquad
-\begin{minipage}[c]{0.25\linewidth}
-  \includegraphics[width=\textwidth]{F_reseq_f.pdf}
-\end{minipage}
+\begin{example}
+    \begin{multicols}{2}
+  Nous cherchons à résoudre $f(x)=4$. 
+  \begin{itemize}
+      \item 
+          Nous traçons la droite horizontale d'équation \( y=4\);
+      \item
+          nous observons les points d'intersection de cette droite avec la courbe;
+      \item
+          les solutions de l'équation sont les abscisses de ces points.
+  \end{itemize}
 
-\pagebreak[4]
+\columnbreak
 
-\noindent
-\fbox{
-  \begin{minipage}[t]{1.0\linewidth}
-    \textbullet \quad 
-    Résoudre l'équation $f(x)=g(x)$ revient à déterminer les abscisses
-    des points d'intersection des courbes $\mathscr{C}_f$ et
-    $\mathscr{C}_g$.
-  \end{minipage}
-} \\[1em]
+\includegraphics{Picture_FIGLabelFigExCarrexvfvrePICTExCarrexvfvre-for_eps.pdf}
 
-\begin{minipage}[c]{0.5\linewidth}
-  \includegraphics[width=\textwidth]{F_resineq_fg.pdf}
-\end{minipage}
-\qquad
-\begin{minipage}[t]{0.4\linewidth}
-  Sur cette figure, l'équation $f(x)=g(x)$ a \hspace{1cm} solutions,
-  qui sont
-\end{minipage} \\[1em]
+    \end{multicols}
 
+    Sans surprises, les solutions de \( x^2=4\) sont \( x=2\) et \( x=-2\).
+
+\end{example}
+
+\begin{Aretenir}
+    Résoudre l'équation $f(x)=g(x)$ revient à déterminer les abscisses des points d'intersection des courbes représentatives de \( f\) et \( g\).
+\end{Aretenir}
+
+
+\begin{multicols}{2}
+
+    Les solutions de l'équation \( f(x)=g(x)\) sont les abscisses des points d'intersection des deux courbes. Pour les trouver, il suffit de repérer les points d'intersections, puis de les projeter sur l'axe horizontal.
+
+    Dans le cas de la figure ci-contre, les solutions sont approximativement \( x=-3.6\), \( x=-1.1\) et \( x=1.5\).
+
+\columnbreak
+
+\includegraphics{Picture_FIGLabelFigExEquationIntersectioniSHPTwPICTExEquationIntersectioniSHPTw-for_eps.pdf}
+
+\end{multicols}
 
 
 \subsection{Résolution graphique d'inéquations}
 
-\paragraph{\textbullet \ Inéquation du type $f(x)<k$} \ \par
-Les solutions de l'inéquation $f(x)<k$ sont les abscisses des points
-de $\mathscr{C}$ situés en-dessous de la droite d'équation $y=k$.
 
-En particulier, les solutions de l'inéquation $f(x)<0$ sont les
-abscisses des points de la courbe $\mathscr{C}$ qui sont situés
-en-dessous de l'axe des abscisses, c'est-à-dire ayant une ordonnée
-strictement négative.\\
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Inéquation du type $f(x)<k$}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-\medskip
+\begin{Aretenir}
+Les solutions de l'inéquation $f(x)<k$ sont les abscisses des points de $\mathscr{C}$ situés en-dessous de la droite d'équation $y=k$.
 
-{\centering
-\includegraphics[width=0.5\textwidth]{F_resineq_f.pdf}
-\par}
+En particulier, les solutions de l'inéquation $f(x)<0$ sont les abscisses des points de la courbe représentative de \( f\) situés en-dessous de l'axe des abscisses, c'est-à-dire ayant une ordonnée strictement négative.
+\end{Aretenir}
 
-\medskip
+Sur la figure \ref{LabelFigExIneqOcAWMq}, nous résolvons \( f(x)\leq 2\). La procédure à suivre est la suivante.
+\begin{enumerate}
+    \item
+        Tracer la droite horizontale \( y=2\).
+    \item
+        Trouver les points d'intersection avec le graphe de \( f\)
+\end{enumerate}
+<++>
+\newcommand{\CaptionFigExIneqOcAWMq}{Les solutions de l'équation \( f(x)\leq 2\) sont en ondulé.}
+\input{Fig_ExIneqOcAWMq.pstricks}
+
 
 On procède de la même manière pour les inégalités du type $f(x)>k$,
 $f(x)\geq k$, $f(x)\leq k$. 
@@ -719,6 +767,13 @@ Ces résultats sont résumés dans un tableau de variations. \\
 \Exo{Seconde-0049}
 
 %---------------------------------------------------------------------------------------------------------------------------
+\subsection{Résolution graphiques d'équations}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0069}
+\Exo{Seconde-0070}
+
+%---------------------------------------------------------------------------------------------------------------------------
 \subsection{Problèmes et résolution d'équation}
 %---------------------------------------------------------------------------------------------------------------------------
 
@@ -728,3 +783,5 @@ Ces résultats sont résumés dans un tableau de variations. \\
 \Exo{Seconde-0044}
 \Exo{Seconde-0066}
 \Exo{Premiere-0018}                                                                                                                                
+
+

@@ -52,25 +52,29 @@ from phystricksParaboleoytUKk import ParaboleoytUKk
 from phystricksParabolesoDGyNW import ParabolesoDGyNW
 from phystricksExGrapheOcxXii import ExGrapheOcxXii
 from phystricksPasFonctionYoQfSu import PasFonctionYoQfSu
+from phystricksGrapheAffinHqXJGx import GrapheAffinHqXJGx
+from phystricksExoIntersectionCourbenzIxXd import ExoIntersectionCourbenzIxXd
+from phystricksFCarreQFhsWz import FCarreQFhsWz
+from phystricksExCarrexvfvre import ExCarrexvfvre
+from phystricksExResolutionOSiaMS import ExResolutionOSiaMS
+from phystricksExEquationIntersectioniSHPTw import ExEquationIntersectioniSHPTw
+from phystricksExIneqOcAWMq import ExIneqOcAWMq
 
-
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis,
-        UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,
-        EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,
-        ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
-        ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,PasFonctionYoQfSu
-        ]
-
-# Ajouter quelque chose dans cette liste n'épargne pas de l'ajouter dans l'autre également.
-figures_list=[PasFonctionYoQfSu]
-
-def AllFigures():
+def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
     tests.generate()
     tests.summary()
 
+figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis,
+    UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,NotesSVT,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,
+    EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,
+    ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
+    ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,PasFonctionYoQfSu,
+    GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq
+        ]
+
 if __name__=="__main__":
-    if "--all" in sys.argv :
-        AllFigures()
-    else:
-        HistoAutomobile()
+    if "--all" not in sys.argv :
+        figures_list=figures_list[-1:]
+
+    AllFigures(figures_list)
