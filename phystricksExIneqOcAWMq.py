@@ -2,7 +2,7 @@ from phystricks import *
 
 def ExIneqOcAWMq():
     pspict,fig = SinglePicture("ExIneqOcAWMq")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     x=var('x')
     k=2
