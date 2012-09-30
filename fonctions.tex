@@ -604,21 +604,14 @@ Nous savons que si \( f(x)=ax+b\), alors \( f\) s'annule en \( x=-\frac{ b }{ a 
 
 
 
-\begin{minipage}[c]{0.4\linewidth}
-  \centering
-  \includegraphics[width=0.6\linewidth]{F_Affine_a.pdf}
-\end{minipage}
-\quad
-\begin{minipage}[c]{0.4\linewidth}
-  \centering
-  \includegraphics[width=0.6\linewidth]{F_Affine_b.pdf}
-\end{minipage}
+Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf1} montrent des droites affines. Lorsque \( a>0\), la droite monte; lorsque \( a<0\) elle descend. La pente est d'autant plus forte que \( a\) est grand.
+\newcommand{\CaptionFigFnAffineipcEQf}{Deux droites affines.}
+\input{Fig_FnAffineipcEQf.pstricks}
 
 
 
-\begin{proposition}
-  \fbox{
-    \begin{minipage}[t]{0.85\linewidth}
+
+\begin{Aretenir}
       Règle du signe de $ax+b$ \\
       
       \begin{tabular}{cc}
@@ -640,9 +633,7 @@ Nous savons que si \( f(x)=ax+b\), alors \( f\) s'annule en \( x=-\frac{ b }{ a 
           \hline
         \end{array}$ \\
       \end{tabular}  \\[1ex] 
-    \end{minipage} \\
-  }    
-\end{proposition}
+\end{Aretenir}
 
 
 
@@ -655,6 +646,7 @@ Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
     \item
         les flèches indiquant les endroits où la fonction est croissante ou décroissante.
 \end{enumerate}
+Un petit exemple valant mieux qu'un long discours\ldots
 
 \begin{multicols}{2}
 
@@ -695,44 +687,25 @@ Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
 %\input{Fig_GrapheVarREGMqx.pstricks}
 
 
-
 \section{Minimum et maximum}
 
 \begin{definition}
-  \fbox{
-    \begin{minipage}[t]{0.8\linewidth}
       Soit $f$ une fonction définie sur un intervalle $I$. \\[-2ex] 
       \begin{itemize}
-      \item[\textbullet] On dit que $f$ admet le réel $m$ pour minimum
-        sur $I$ ssi il existe $c\in I$ tel que $f(c)=m$
+          \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)}
+        sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$
         et pour tout $x\in I$, $f(x)\geq m$. \\[-2ex]
-      \item[\textbullet] On dit que $f$ admet le réel $M$ pour maximum
-        sur $I$ ssi il existe $d\in I$ tel que $f(d)=M$ et pour tout
+    \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum}
+        sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout
         $x\in I$, $f(x)\leq M$.
       \end{itemize}
-    \end{minipage}
-  }    
 \end{definition}
 
 
-\begin{minipage}[c]{0.4\linewidth}
-  \centering
-  \includegraphics[width=6cm]{F_Extrema.pdf}
-\end{minipage}
-\quad
-\begin{minipage}[c]{0.4\linewidth}
-  \centering
-  \ \\
-  $f$ admet un \hspace{2cm} en $a$  \\[2ex]
-  $\phantom{f(a)}a\approx$ \\[2ex]
-  $\phantom{a}f(a)\approx $ \\[2em]
-  
-  \bigskip
 
-  $f$ admet un \hspace{2cm} en $b$  \\[2ex]
-  $\phantom{f(b)}b\approx$ \\[2ex]
-  $\phantom{b}f(b)\approx $   
-\end{minipage}
+Sur la figure \ref{LabelFigMinMaxKNRdOd}, nous avons indiqué le minimum et le maximum de la fonction dessinée.
+\newcommand{\CaptionFigMinMaxKNRdOd}{Minimum et maximum d'une fonction.}
+\input{Fig_MinMaxKNRdOd.pstricks}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices à propos des fonctions}

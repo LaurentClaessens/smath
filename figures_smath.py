@@ -67,7 +67,7 @@ from phystricksGrapheVarndvdQM import GrapheVarndvdQM
 from phystricksFoncConstFdDkhW import FoncConstFdDkhW
 from phystricksGrapheVarREGMqx import GrapheVarREGMqx
 from phystricksFnAffineipcEQf import FnAffineipcEQf
-
+from phystricksMinMaxKNRdOd import MinMaxKNRdOd
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -80,7 +80,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
     ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,PasFonctionYoQfSu,
     GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,
-    ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf
+    ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd
         ]
 
 if __name__=="__main__":

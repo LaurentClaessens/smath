@@ -11,13 +11,23 @@ def FnAffineipcEQf():
 
     x=var('x')
     f=[]
-    f.append( phyFunction(x/2+1).graph(1,5) )
-    f.append( phyFunction(-3*x/2+1).graph(0,5) )
+    f.append( phyFunction(x/1.5+2).graph(-4,2) )
+    f.append( phyFunction(-3*x/2+1).graph(-2,2) )
 
     for i,psp in enumerate(pspicts):
-        psp.DrawGraphs(f[i])
+        P=Point(f[i].inverse(0)[0],0)
+        P.put_mark(0.2,-90,"\( -\\frac{ b }{ a }\)",automatic_place=(psp,"N"))
+        P.parameters.symbol="|"
+
+        Q=f[i].get_point(0)
+        Q.put_mark(0.2,180,"\( b\)",automatic_place=psp)
+        Q.parameters.symbol="|"
+        Q.add_option("dotangle=90")
+
+        psp.axes.no_graduation()
+        psp.DrawGraphs(f[i],P,Q)
         psp.DrawDefaultAxes()
-        psp.DrawDefaultGrid()
+        #psp.DrawDefaultGrid()
 
     fig.conclude()
     fig.write_the_file()
