@@ -5,6 +5,53 @@
 
 \begin{corrige}{Seconde-0078}
 
-<+CorrSeconde-0078+>
+    Première chose à dire : il ne suffit pas de montrer que les quatre côtés ont même longueur, parce que les losanges ont quatre côtés de même longueur.
+
+    Une méthode directe sans difficultés majeures serait de 
+    \begin{enumerate}
+        \item
+            Calculer les quatre longueurs et remarquer qu'elles sont les même
+        \item
+            Montrer que les angles sont droits en utilisant le théorème de Pythagore dans les triangle \( DAC\), \( DAB\), \( ACB\) et \( DCB\).
+    \end{enumerate}
+    Cette méthode a au moins le mérite de ne pas se poser trop de questions, mais elle entraine une foule de calculs inutiles.
+
+    Une méthode plus rapide est d'utiliser les propriétés connues des quadrilatères.
+    \begin{enumerate}
+        \item
+            D'abord on montre que \( ABCD\) est un parallélogramme en montrant que les diagonales se coupent en leur milieu.
+        \item
+            Ensuite on montre qu'il y a un angle droit (n'importe lequel). Dans ce cas nous aurons un rectangle parce qu'un parallélogramme contenant un angle droit est un rectangle.
+        \item
+            Enfin nous prouvons que deux côtés consécutifs ont même longueur.
+        \item
+            Pour conclure, un rectangle dont deux côtés consécutifs ont même longueur est un carré.
+    \end{enumerate}
+    Nous allons donner le détail de cette méthode.
+    \begin{enumerate}
+        \item
+            Le milieu de la diagonale \( [AC]\) est le point
+            \begin{equation}
+                \left( \frac{ 3+2 }{2};\frac{ 5+2 }{2} \right)=\left( \frac{ 5 }{2},\frac{ 7 }{2} \right);
+            \end{equation}
+            la milieu de la diagonale \( [DB]\) est le point
+            \begin{equation}
+                \left( \frac{ 4+1 }{2};\frac{ 3+4 }{2} \right)=\left( \frac{ 5 }{2};\frac{ 7 }{2} \right).
+            \end{equation}
+            Donc c'est gagné pour dire qu'ils se coupent en leur milieu.
+        \item
+            Montrons que l'angle \( D\) est droit en utilisant (la réciproque de) Pythagore dans le triangle \( ACD\). Nous devons calculer les trois longueurs :
+            \begin{subequations}
+                \begin{align}
+                    DA^2&=(1-3)^2+(4-5)^2=4+1=5     \label{subeqIxHkrm}\\
+                    DC^2&=(1-2)^2+(4-2)^2=1+4=5     \label{subeqLnDRXe}\\
+                    AC^2&=(2-3)^2+(2-5)^2=1+9=10.
+                \end{align}
+            \end{subequations}
+            Nous avons donc bien la relation \( AC^2=DA^2+DC^2\) qui montre que le triangle \( ACD\) est rectangle en \( D\). Nous sommes dont en présence d'un parallélogramme contenant un angle droit, c'est à dire un rectangle.
+
+        \item
+            Comme déjà calculé aux équations \eqref{subeqIxHkrm} et \eqref{subeqLnDRXe}, nous avons \( AD=DC=\sqrt{5}\). Nous avons donc deux côtés consécutifs de même longueur. Le rectangle est donc un carré.
+    \end{enumerate}
 
 \end{corrige}
