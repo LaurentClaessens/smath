@@ -4,15 +4,12 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 \begin{corrige}{Seconde-0086}
+    Nous allons passer en revue tous les nombres de zéro à \( 1000\) et vérifier si il contient \( 3\) chiffres. La difficulté est que si \info{a} est un \emph{nombre}\footnote{\info{int} comme \emph{integer} en anglais.} alors \info{len(a)} ne fonctionne pas : la fonction \info{len} ne fonctionne que sur des chaînes de caractères. D'où le fait que le second programme ne fonctionnait pas.
 
-
-    Nous allons passer en revue tous les nombres de zéro à \( 1000\) et vérifier si il contient \( 3\) chiffres.
-
-    Dans le programme suivant, nous initialisons une variable \info{n} à zéro et nous l'incrémentons de \( 1\) à chaque nombre de \( 3\) chiffres découvert.
+    Voici un programme qui résout l'exercice.
 
     \lstinputlisting{ex_comptage.py}
 
-    La difficulté est la suivante. La fonction \info{len} retourne la longueur d'une chaîne de caractères.
-
+    Notez que le test d'égalité se note avec un double égal : \info{==}.
 
 \end{corrige}
