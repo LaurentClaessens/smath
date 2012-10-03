@@ -1,0 +1,54 @@
+% This is part of Un soupçon de mathématique sans être agressif pour autant
+% Copyright (c) 2012
+%   Laurent Claessens
+% See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Les règles de la perspective cavalière}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+Lorsque nous dessinons en trois dimension, nous prenons les conventions suivantes qui définissent la \defe{perspective cavalière}{perspective!cavalière}.
+
+\begin{Aretenir}
+    D'abord nous choisissons
+    \begin{enumerate}
+        \item
+            Nous choisissons un \defe{angle de fuite}{angle!de fuite} \( \alpha\) qui sera entre \unit{30}{\degree} et \( \unit{45}{\degree}\) avec l'horizontale\footnote{Sur une feuille à carreaux, le plus simple est de prendre \unit{45}{\degree}.}.
+        \item
+            Un \defe{coefficient de réduction}{coefficient de réduction} que nous noterons \( k\) et qui sera compris entre \( 0\) et \( 1\).
+    \end{enumerate}
+
+    Ensuite nous prenons les correspondances suivantes entre la réalité et le dessin :
+    \begin{center}
+        \begin{tabular}[h]{|c|c|}
+            \hline
+            {\bf dans la réalité}&{\bf sur le dessin}\\
+            \hline\hline
+            Segment caché  & Segment pointillé\\
+            \hline
+            Segment parallèle à la feuille de dessin & segment représenté en vraie grandeur\\
+            \hline
+            Segment perpendiculaire à la feuille de dessin & segment faisant un angle \( \alpha\) avec l'horizontale.\\
+            \hline
+            Une arrête de longueur \( l\) perpendiculaire à la feuille de dessin & Une arrête de longueur \( k\times l\) faisant un angle \( \alpha\) avec l'horizontale.\\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{Aretenir}
+
+
+\begin{propriete}
+    La perspective cavalière respecte les conditions suivantes.
+    \begin{enumerate}
+        \item
+             Deux segments parallèles dans la réalité sont représentés par deux segments parallèles sur le dessin.
+         \item
+             Trois points alignés dans la réalité sont représentés par trois points alignés sur le dessin.
+         \item
+             Si \( M\) est le milieu du segment \( [AB]\) dans la réalité, alors \( M\) est le milieu du segment \( [AB]\) dans la réalité.
+         \item
+             La perspective cavalière respecte les proportions. C'est à dire que si le segment \( [AB]\) est \( p\) fois plus grand que le segment \( [CD]\) dans la réalité, alors il sera \( p\) fois plus grand sur le dessin.
+    \end{enumerate}
+\end{propriete}
