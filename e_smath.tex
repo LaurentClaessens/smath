@@ -7,7 +7,7 @@
 
 \usepackage{etex}
 \usepackage{ifthen}
-\usepackage{pdfsync}
+%\usepackage{pdfsync}       % This package is obsolete : compile with pdflatex -synctex=1 instead.
 
 \usepackage{latexsym}
 \usepackage{amsfonts}
@@ -22,7 +22,6 @@
 
 \usepackage{pstricks,pst-eucl,pstricks-add,calc,pst-math,catchfile}   % Les dépendances de phystricks.
 \usepackage{graphicx}                   % Pour l'inclusion d'image en pfd.
-%\usepackage{variations}
 
 \newcommand{\EpsOrPdfincludegraphics}[2][]{%
         \ifpdf
