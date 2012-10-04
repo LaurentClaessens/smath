@@ -1,6 +1,6 @@
 from phystricks import *
 def SecondDeg():
-    pspicts,fig = MultiplePictures("Second",3)
+    pspicts,fig = MultiplePictures("Second",3,script_filename="SecondDeg")
     pspicts[0].mother.caption="Un graphe,"
     pspicts[1].mother.caption="un autre,"
     pspicts[2].mother.caption="et un dernier."

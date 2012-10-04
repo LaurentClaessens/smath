@@ -1,6 +1,6 @@
 from phystricks import *
 def ExerciceGraphes():
-    fig = GenericFigure("Exercice")
+    fig = GenericFigure("Exercice",script_filename="ExerciceGraphes")
 
     ssfig=[]
     pspict=[]

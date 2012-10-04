@@ -2,7 +2,7 @@
 
 from phystricks import *
 def ParaboleMCLCbG():
-    pspicts,fig = MultiplePictures("Paraboles",2)
+    pspicts,fig = MultiplePictures("Paraboles",2,script_filename="ParaboleMCLCbG")
     pspicts[0].mother.caption=u"Une parabole tournée vers le haut."
     pspicts[1].mother.caption=u"Une parabole tournée vers le bas."
 

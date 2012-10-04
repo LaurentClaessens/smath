@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 def ExVarGraphiqueyhHpqn():
-    pspicts,fig = MultiplePictures("ExVarGraphique",3)
+    pspicts,fig = MultiplePictures("ExVarGraphique",3,script_filename="ExVarGraphiqueyhHpqn")
     pspicts[0].mother.caption="Une fonction"
     pspicts[1].mother.caption="Une fonction"
     pspicts[2].mother.caption="Une fonction"

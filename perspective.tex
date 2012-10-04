@@ -4,12 +4,22 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Introduction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+La figure \ref{LabelFigDesSections} montre un cube. Êtes-vous capables de donner la nature des surfaces coloriées ?
+\newcommand{\CaptionFigDesSections}{Exercice de vision dans l'espace.}
+\input{Fig_DesSections.pstricks}
+Le triangle vert est isocèle et rectangle parce que deux de ses côtés sont des arrêtes du cube. Le triangle rouge est plus troublant, mais il est équilatéral : ses trois côtés sont des diagonales des faces du cube. Notez que \emph{sur le dessin}, les trois côtés ont des longueur différentes.
+
+
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Les règles de la perspective cavalière}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
-
-Lorsque nous dessinons en trois dimension, nous prenons les conventions suivantes qui définissent la \defe{perspective cavalière}{perspective!cavalière}.
+Lorsque nous dessinons en trois dimension, nous prenons les conventions suivantes qui définissent la \defe{\wikipedia{fr}{Perspective_cavalière}{perspective cavalière}}{perspective!cavalière}.
 
 \begin{Aretenir}
     D'abord nous choisissons
@@ -35,6 +45,8 @@ Lorsque nous dessinons en trois dimension, nous prenons les conventions suivante
             Une arrête de longueur \( l\) perpendiculaire à la feuille de dessin & Une arrête de longueur \( k\times l\) faisant un angle \( \alpha\) avec l'horizontale.\\
             \hline
         \end{tabular}
+        % Note : c'est ce genre de tableaux qui ne fonctionnent pas avec le paquet pdfsync.
+        % Il faut oublier pdfsync et compiler avec 'pdflatex -synctex=1'
     \end{center}
 \end{Aretenir}
 
@@ -51,3 +63,11 @@ Lorsque nous dessinons en trois dimension, nous prenons les conventions suivante
              La perspective cavalière respecte les proportions. C'est à dire que si le segment \( [AB]\) est \( p\) fois plus grand que le segment \( [CD]\) dans la réalité, alors il sera \( p\) fois plus grand sur le dessin.
     \end{enumerate}
 \end{propriete}
+
+Le cube de la figure \ref{LabelFigCubeLFZuiW} est dessiné avec \( \alpha=\unit{45}{\degree}\) et \( k=0.5\). Notez que les côtés parallèles restent parallèles.
+\newcommand{\CaptionFigCubeLFZuiW}{Les segments perpendiculaires à la feuille sont de longueur moitié des autres.}
+\input{Fig_CubeLFZuiW.pstricks}
+
+
+
+
