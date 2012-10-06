@@ -32,5 +32,6 @@ def ExCarrexvfvre():
 
     pspict.DrawGraphs(f,g)
     pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 
-# Cette figure n'est utilisée que pour l'image; pas pour ala figure.
+# Cette figure n'est utilisée que pour l'image; pas pour à la figure.
 from phystricks import *
 
 def put_at(pspict,f,x):
@@ -23,11 +23,13 @@ def PasFonctionYoQfSu():
     g=-f
     #g=phyFunction(-sqrt(x+4)).graph(mx,Mx)
 
+    
     pspict.DrawGraphs(f,g)
     
     put_at(pspict,f,-2)
     put_at(pspict,f,1)
 
     pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

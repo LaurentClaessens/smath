@@ -71,7 +71,8 @@ from phystricksMinMaxKNRdOd import MinMaxKNRdOd
 from phystricksCubeLFZuiW import CubeLFZuiW
 from phystricksDesSectionseVPNeL import DesSectionseVPNeL
 from phystricksIllusionNHwEtp import IllusionNHwEtp
-
+from phystricksLignesCubeshBfjxk import LignesCubeshBfjxk
+from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -80,24 +81,16 @@ def AllFigures(figures_list):
 
 figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis,
     UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,
-    EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,LectureGraphnrkEEM,ParaboleHautMLbPQF,
+    EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,ParaboleHautMLbPQF,
     ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
-    ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,PasFonctionYoQfSu,
+    ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,
     GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,
     ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,
-    ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,IllusionNHwEtp
-        ]
-
+    ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD
+    ]
 
 if __name__=="__main__":
     if "--all" not in sys.argv :
         figures_list=figures_list[-1:]
 
     AllFigures(figures_list)
-
-# Les images suivantes ne sont pas utilisées dans leurs figures, mais seulement par leur pdf
-# ExIneqOcAWMq
-# ExVariationRXTkoc
-# GrapheVarndvdQM
-# FoncConstFdDkhW
-

@@ -9,5 +9,6 @@ def FoncConstFdDkhW():
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
