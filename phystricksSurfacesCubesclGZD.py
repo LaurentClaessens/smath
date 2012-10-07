@@ -13,7 +13,7 @@ def SurfacesCubesclGZD():
         psp.dilatation_Y(1)
         psp.dilatation_X(1)
 
-    l=3.5
+    l=3
     perspective=ObliqueProjection(30,0.5)
     cube=perspective.cuboid((0,0),l,l,l)
     cube.put_vertex_mark(pspicts[0])
@@ -37,6 +37,7 @@ def SurfacesCubesclGZD():
     I=Segment(cube.D,cube.H).center()
     J=Segment(cube.C,cube.G).center()
     I.put_mark(0.3,180,"\( I\)",automatic_place=pspicts[0])
+    J.put_mark(0.3,0,"\( J\)",automatic_place=pspicts[0])
 
     surface5=Polygon(I,J,cube.B,cube.A)
     surface5.parameters.filled()
@@ -51,7 +52,7 @@ def SurfacesCubesclGZD():
     pspicts[2].DrawGraphs(surface3,cube)
     pspicts[3].DrawGraphs(surface4,cube)
     pspicts[4].DrawGraphs(surface5,I,J,cube)
-    pspicts[5].DrawGraphs(surface6,I,J,cube)
+    pspicts[5].DrawGraphs(surface6,cube)
 
     fig.conclude()
     fig.write_the_file()
