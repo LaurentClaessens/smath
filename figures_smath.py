@@ -73,6 +73,7 @@ from phystricksDesSectionseVPNeL import DesSectionseVPNeL
 from phystricksIllusionNHwEtp import IllusionNHwEtp
 from phystricksLignesCubeshBfjxk import LignesCubeshBfjxk
 from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
+from phystricksCylindresxKDOdy import CylindresxKDOdy
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -86,7 +87,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,
     GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,
     ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,
-    ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD
+    ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,CylindresxKDOdy
     ]
 
 if __name__=="__main__":
