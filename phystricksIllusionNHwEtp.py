@@ -2,7 +2,7 @@
 from phystricks import *
 def IllusionNHwEtp():
     pspict,fig = SinglePicture("IllusionNHwEtp")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     perspective=ObliqueProjection(45,sqrt(2)/2)
 

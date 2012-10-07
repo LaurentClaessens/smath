@@ -69,9 +69,61 @@ La perspective cavalière n'est pas parfaite; il est aisé de créer des illusio
 \newcommand{\CaptionFigIllusionNHwEtp}{Une petite illusion d'optique facile.}
 \input{Fig_IllusionNHwEtp.pstricks}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Dessiner en vraie grandeur}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+La perspective cavalière n'est pas parfaite; aucune perspective n'est parfaite. Étant donné que les surfaces sont déformées, nous voudrions être capables de dessiner certaines surfaces sans déformations. C'est ce que nous appelons \emph{dessiner en vraie grandeur}.
+
+
+\begin{Aretenir}
+    Lorsqu'on demande de dessiner une surface en vraie grandeur, voici les mouvements «de base» que vous êtes autorisés à effectuer \emph{dans un plan}.
+    \begin{enumerate}
+        \item
+            Tracer des segments de longueur \emph{entières} !
+        \item
+            Tracer des cercles dont le centre et un point sont donnés.
+        \item
+            Tracer les droites dont deux points sont donnés.
+        \item
+            Considérer les intersections des droites et cercles.
+    \end{enumerate}
+    À partir ce ces mouvements, il est possible de tracer de nombreuses choses, dont par exemple
+    \begin{enumerate}
+        \item
+            Le milieu du segment \( [AB]\) lorsque les points \( A\) et \( B\) sont donnés.
+        \item
+            Si les points \( A\), \( B\) et \( C\) du plan sont donnés, la perpendiculaire à \( (AB)\) passant par \( C\).
+        \item
+            Si les points \( A\), \( B\) et \( C\) du plan sont donnés, la parallèle à \( (AB)\) passant par \( C\).
+    \end{enumerate}
+\end{Aretenir}
+
+\begin{proof}
+    Nous allons donner les constructions.
+    \begin{enumerate}
+        \item
+            Soient \( A\) et \( B\) données. À construire : la médiatrice du segment \( [AB]\). Avec cela, nous connaîtrons le milieu. Le technique est simple : il suffit de tracer deux cercles de même rayons \( r\) centrés en \( A\) et en \( B\). Les points d'intersection \( I\) et \( J\) donnent la médiatrice. En effet, par construction \( I\) est équidistant de \( A\) et \( B\) parce que \( I\) est à la fois sur le cercle de rayon \( r\) autour de \( A\) et sur le cercle de rayon \( r\) autour de \( B\). Or nous savons que les points équidistants de \( A\) et \( B\) sont sur la médiatrice du segment \( [AB]\).
+
+            Pour la même raison, le point \( J\) est également sur la médiatrice. Cela fait que \( (IJ)\) coupe \( [AB]\) en son milieu.
+
+Cette construction est illustrée sur la figure \ref{LabelFigIsoceleVdviOE}. % From file IsoceleVdviOE
+\newcommand{\CaptionFigIsoceleVdviOE}{Le triangle \( AJB\) est isocèle.}
+\input{Fig_IsoceleVdviOE.pstricks}
+
+        \item
+
+            Soient donnés la droite \( d\) et le point \( I\). Nous construisons un cercle centré en \( I\) et nous nommons \( A\) et $B$ les points d'intersection entre ce cercle et la droite \( A\). Par construction le triangle \( AIB\) est isocèle. Donc \( I\) est sur la médiatrice du segment \( [AB]\). La construction précédente permet de construire cette médiatrice qui sera alors perpendiculaire à \( d\) passant par \( I\).
+
+
+
+    \end{enumerate}
+    <++>
+\end{proof}
+<++>
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Exercices}
+\section{Exercices sur la géométrie dans l'espace}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \Exo{Seconde-0088}
@@ -83,4 +135,6 @@ La perspective cavalière n'est pas parfaite; il est aisé de créer des illusio
 \Exo{Seconde-0093}
 \Exo{Seconde-0089}
 \Exo{Seconde-0095}
+\Exo{Seconde-0096}
+\Exo{Seconde-0097}
 
