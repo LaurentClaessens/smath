@@ -1,0 +1,163 @@
+% This is part of Un soupçon de mathématique sans être agressif pour autant
+% Copyright (c) 2012
+%   Laurent Claessens
+% See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Théorie}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous disons qu'un gaz est en concentration de une \defe{partie par million}{partie par million} si un million de grammes d'air contient un gramme du gaz. Voici quelque chiffre concernant l'évolution de la concentration de \( CO_2\) dans l'atmosphère; les chiffres sont en \( \unit{}{ppm}\) :
+\begin{center}
+\begin{tabular}{|c|c|c|}
+    \hline
+    1750    &   2005    &   1012\\
+    \hline
+    280&380&395\\
+    \hline
+\end{tabular}
+\end{center}
+Pour information, cette concentration n'a pas dépassé les \unit{300}{ppm} depuis au moins \( 600.000\) ans.
+
+\begin{enumerate}
+    \item
+        De combien de pourcent la concentration de \( CO_2\) a augmenté entre 1750 et 2005 ?
+    \item
+        Sur un kilo d'air, combien de grammes de \( CO_2\) ?
+    \item 
+        Quelle est la vitesse (en ppm par an) d'augmentation de la concentration entre 1750 et 2005 ? Même question entre 2005 et 2012.
+\end{enumerate}
+
+\begin{definition}
+    Une \defe{population}{population} est un ensemble fini. Si \( E\) est une population, une \defe{sous-population}{sous-population} est un sous-ensemble \( A\subset E\). L'\defe{effectif}{effectif} d'une population est le nombre de ses éléments.
+
+    La \defe{proportion}{proportion} de \( A\) dans \( E\) est le rapport
+    \begin{equation}
+        p_A=\frac{ n_A }{ n_E }
+    \end{equation}
+    où \( n_A\) et \( n_E\) sont les effectifs de \( A\) et \( E\).
+\end{definition}
+Note : une proportion est un nombre compris entre zéro et un.
+
+\begin{example}
+    Demander combien il y a de gauchers dans la classe. Quelle en est la proportion ?
+\end{example}
+
+\begin{example}
+    Diviser la classe en \( 4\) groupes suivant que l'élève habite ou non à Dole et qu'il utilise ou non un cahier. Remplir le tableau suivant :
+
+    \begin{center}
+    \begin{tabular}{|l||c|c||c|}
+        \hline\hline
+        & habite à Dole&n'habite pas à Dole&total\\
+        \hline
+        utilise un cahier&&&\\
+        \hline
+        n'utilise pas de cahier&&&\\
+        \hline\hline
+        total&&&\\
+        \hline
+    \end{tabular}
+    \end{center}
+
+    Soit \( E\) la population totale : toute la classe; soit $A$ la population de ceux qui vivent à Dole; et \( B\) celle de ceux qui utilisent un cahier.
+    \begin{enumerate}
+        \item
+            Trouver les effectifs des populations \( A\cup B\) et \( A\cap B\).
+        \item
+            Quelle est la proportion de \( A\) dans \( E\) ? Et celle du complémentaire \( \bar A\) ?
+        \item
+            Exprimer les proportions \( p_{A\cap B}\) et \( p_{A\cup B}\).
+    \end{enumerate}
+\end{example}
+
+Nous avons l'égalité
+\begin{equation}
+    n_{A\cup B}=n_A+n_B-n_{A\cap B}
+\end{equation}
+parce que dans le compte \( n_A+n_B\), nous comptons deux fois les individus qui sont dans \( A\) et dans \( B\). En passant aux proportions (c'est à dire en divisant tout par \( n_E\)), nous avons la formule
+\begin{equation}
+    p_{A\cup B}=p_A+p_B-p_{A\cap B}.
+\end{equation}
+
+\begin{remark}
+    Si les populations \( A\) et \( B\) sont disjointes, alors \( n_{A\cap B}=0\) et nous trouvons la formule
+    \begin{equation}
+        p_{A\cup B}=p_A+p_B.
+    \end{equation}
+\end{remark}
+
+\begin{example} \label{ExscIpur}
+    Dans une station de montagne, \( 35\%\) des personnes font du ski de fond et \( 50\%\) font de la marche.
+    \begin{enumerate}
+        \item
+            Si nous supposons que personne ne fait les deux, quelle est la proportion des personnes ne faisant ni l'un ni l'autre ?
+
+            Sur \( 100\) personnes, \( 35\) font du ski de fond, \( 50\) font de la marche , donc \( 85\) font l'un ou l'autre et par conséquent \( 15\) ne font rien. Il y a donc \( 15\%\) des personnes de la station de montagne ne faisant ni ski de fond mi marche.
+        \item
+            Si \( 10\%\) des personnes font le ski de fond et la marche, quelle est la proportion des personnes ne faisant ni l'un ni l'autre ?
+
+            Lorsqu'on a une étude de plusieurs critères pour la même population, avec intersection, le plus simple est de faire un arbre, et de le remplir avec les données.
+            \begin{equation}
+            \xymatrix{%
+                &&&\fbox{100}\ar[lld]_{\text{marche}}\ar[rrd]^{\text{pas marche}}\\
+                &\fbox{50}\ar[ld]_{\text{ski}}\ar[rd]^{\text{pas ski}}&&&&\fbox{?A?}\ar[ld]_{\text{ski}}\ar[rd]^{\text{pas ski}}\\
+                \fbox{10}&&\fbox{?B?}&&\fbox{?C?}&&\fbox{?D?}
+               }
+            \end{equation}
+            Dans ce diagramme, le \( 100\) indique l'ensemble de la station, le \( 50\) indique les \( 50\%\) qui font de la marche et le \( 10\) indique les \( 10\%\) de personnes qui font les deux. En effet : la case en bas à gauche est la case dans laquelle sont les personnes qui font la marche et le ski de fond.
+
+            Les autres cases peuvent maintenant être remplies. On commence par la case \( ?B?\). Étant donné que le groupe de la marche fait \( 50\) et que le sous-groupe de la marche et du ski fait \( 10\), le sous-groupe de la «marche+pas ski» doit faire \( 40\). 
+
+            L'énoncé dit que \( 35\) font du ski, donc la somme des «ski+marche» et «ski+pas marche» doit faire \( 35\). Vu qu'on en a déjà \( 10\) dans «ski+marche», il y en a \( 25\) dans «ski+pas marche», c'est à dire dans la case \( ?C?\).
+
+            Nous pouvons déjà écrire ceci :
+            \begin{equation}
+            \xymatrix{%
+                &&&\fbox{100}\ar[lld]_{\text{marche}}\ar[rrd]^{\text{pas marche}}\\
+                &\fbox{50}\ar[ld]_{\text{ski}}\ar[rd]^{\text{pas ski}}&&&&\fbox{?A?}\ar[ld]_{\text{ski}}\ar[rd]^{\text{pas ski}}\\
+                \fbox{10}&&\fbox{40}&&\fbox{25}&&\fbox{?D?}
+               }
+            \end{equation}
+            Étant donné que \( 50\%\) font de la marche, \( 50\%\) n'en font pas, donc la case \( ?A?\) vaut \( 50\). Et pour compléter, la case \( ?D?\) doit faire \( 25\) parce que la case «pas marche+ski» fait \( 25\).
+
+            La tableau final est :
+            \begin{equation}
+            \xymatrix{%
+                &&&\fbox{100}\ar[lld]_{\text{marche}}\ar[rrd]^{\text{pas marche}}\\
+                &\fbox{50}\ar[ld]_{\text{ski}}\ar[rd]^{\text{pas ski}}&&&&\fbox{50}\ar[ld]_{\text{ski}}\ar[rd]^{\text{pas ski}}\\
+                \fbox{10}&&\fbox{40}&&\fbox{25}&&\fbox{25}
+               }
+            \end{equation}
+    \end{enumerate}
+\end{example}
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\Exo{Seconde-0022}
+\Exo{Seconde-0030}
+\Exo{Premiere-0001}
+\Exo{Premiere-0002}
+\Exo{Premiere-0003}
+\Exo{Premiere-0004}
+\Exo{Premiere-0005}
+\Exo{Premiere-0006}
+\Exo{Premiere-0007}
+\Exo{Premiere-0008}
+\Exo{Premiere-0009}
+\Exo{Premiere-0010}
+\Exo{Premiere-0011}
+\Exo{Premiere-0012}
+\Exo{Seconde-0026}
+\Exo{Seconde-0024}
+\Exo{Premiere-0014}                                                                                                                                     
+\Exo{Premiere-0015}                                               
+\Exo{Premiere-0016}                                                                       
+\Exo{Premiere-0017}                                                                                                                      
+\Exo{Seconde-0034}
+\Exo{Premiere-0023}                                                                                                                                    
+
+\Exo{Premiere-0065}

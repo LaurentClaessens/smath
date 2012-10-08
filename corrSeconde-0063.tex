@@ -5,6 +5,29 @@
 
 \begin{corrige}{Seconde-0063}
 
-<+CorrSeconde-0063+>
+Le dessin est sur la figure \ref{LabelFigCorSSTXPQVjn}. % From file CorSSTXPQVjn
+\newcommand{\CaptionFigCorSSTXPQVjn}{Le triangle équilatéral de l'exercice \ref{exoSeconde-0063}.}
+\input{Fig_CorSSTXPQVjn.pstricks}
+
+Le segment \( [BH]\) est la moitié du segment \( [BC]\) et est donc de longueur \( \frac{ x }{2}\). Le triangle étant équilatéral, le côté \( [AB]\) a la même longueur que le côté \( [BC]\) et donc \( AB=x\).
+
+Le triangle \( ABH\) est rectangle en \( H\); le théorème de Pythagore s'écrit donc
+\begin{equation}
+    x^2+\left( \frac{ x }{2} \right)^2=AH^2.
+\end{equation}
+
+La surface d'un triangle est donnée par la formule
+\begin{equation}
+    \text{surface}=\frac{ \text{base}\times\text{hauteur} }{ 2 }.
+\end{equation}
+Ici la base vaut \( x\) et la hauteur est \( AH\) qui vaut \( \sqrt{x^2+\left( \frac{ x }{2} \right)^2}\). La formule de l'aire du triangle donne
+\begin{subequations}
+    \begin{align}
+        S(x)&=\frac{ 1 }{2}x\sqrt{x^2+\left( \frac{ x }{2} \right)^2}\\
+        &=\frac{ x }{2}\sqrt{\frac{ 5x^2 }{ 4 }}\\
+        &=\frac{ \sqrt{5} }{ 2 }x^2.
+    \end{align}
+\end{subequations}
+La résolution de \( S(x)=\sqrt{5}\) donne \( x=\pm\sqrt{2}\). Mais attention : ici \( x\) doit être positif parce que c'est une longueur. Donc l'unique solution acceptable est \( x=\sqrt{2}\).
 
 \end{corrige}
