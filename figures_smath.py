@@ -86,6 +86,7 @@ from phystricksCorSSTXPQVjn import CorSSTXPQVjn
 from phystricksGraphInterfQVfSf import GraphInterfQVfSf
 from phystricksParaboleResumeHNiyfR import ParaboleResumeHNiyfR
 
+
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
     tests.generate()
