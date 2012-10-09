@@ -1,0 +1,56 @@
+% This is part of Un soupçon de mathématique sans être agressif pour autant
+% Copyright (c) 2012
+%   Laurent Claessens
+% See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Introduction : jouons à pile ou face}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous jouons à pile ou face avec une pièce non truquée. Nous avons donc une chance sur deux d'obtenir pile et une chance sur deux d'obtenir face. Nous sommes intéressé par le nombre de fois que nous obtenons pile en jouant souvent.
+
+\begin{example}
+Commençons par jouer deux fois et dessinons un arbre.
+            \begin{equation*}
+            \xymatrix{%
+                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 1 }{2}}\ar[rrd]^{\frac{ 1 }{2}}\\
+                &\fbox{P}\ar[ld]_{\frac{ 1 }{2}}\ar[rd]^{\frac{ 1 }{2}}&&&&\fbox{F}\ar[ld]_{\frac{ 1 }{2}}\ar[rd]^{\frac{ 1 }{2}}\\
+                \fbox{PP}&&\fbox{PF}&&\fbox{FP}&&\fbox{FF}
+               }
+            \end{equation*}
+
+            Quelque questions :
+            \begin{enumerate}
+                \item
+                    Quelle est la probabilité d'avoir deux fois pile ?
+                \item
+                    Quelle est la probabilité d'obtenir une fois pile et une fois face ?
+                \item
+                    Quelle est la probabilité d'obtenir au moins un face ?
+            \end{enumerate}
+            Les réponses :
+            \begin{enumerate}
+                \item
+                    Sur les quatre issues possibles, une seule a deux fois face. La probabilité est \( 1/4\).
+                \item
+                    Sur les quatre issues possibles, deux ont un pile et un face : \( PF\) et \( FP\). La probabilité de tomber sur l'un des deux est \( 1/2\).
+                \item
+                    Sur les quatre issues possibles, trois ont au moins un face : \( PF\), \( FP\) et \( FF\). La probabilité d'avoir un des trois est \( 3/4\).
+            \end{enumerate}
+    
+\end{example}
+
+
+
+
+Voici un exemple où nous avons joué \( 50\) fois :
+
+P F P P P P F F F F F F F P P P P P F P F F P P F F F F F F P P F F F F P F F F F P P P P F F F F P \\
+ total : 29 F et  21 P
+ 
+Un autre exemple :
+
+F F P P P P F P P P F P P P F F F F F P F F P P P P P F F F P P P F F P F F F P F P P P F P F P P F \\
+ total : 23 F et  27 P
+
+ Intuitivement, nous imaginons que nous devrions toujours obtenir autour de \( 25\) piles et \( 25\) faces.
