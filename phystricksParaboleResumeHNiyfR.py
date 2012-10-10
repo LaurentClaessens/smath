@@ -3,14 +3,14 @@ from __future__ import division
 from phystricks import *
 def ParaboleResumeHNiyfR():
     pspict,fig = SinglePicture("ParaboleResumeHNiyfR")
-    pspict.dilatation(0.7)
+    pspict.dilatation(1)
 
     x=var('x')
-    mx=0.5
-    Mx=4.5
-    x1=1.5
-    x2=3.5
-    f=phyFunction((x-x1)*(x-x2)).graph(mx,Mx)
+    mx=-0.5
+    Mx=5.5
+    x1=1
+    x2=4
+    f=phyFunction((x-x1)*(x-x2)/2).graph(mx,Mx)
     s=(x1+x2)/2
     S=Point( s,f(s) )
     X0=Point(s,0)

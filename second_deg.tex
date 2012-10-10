@@ -544,7 +544,17 @@ Une parabole
 \begin{equation*}
     f(x)=ax^2+bx+c
 \end{equation*}
-se présente toujours sous une forme qui ressemble au dessin ci-contre. Les deux racines sont données par les formules
+se présente toujours sous une forme qui ressemble au dessin ci-contre. Les points clefs sont le sommet en \( x_0\) et les deux points d'intersection avec l'axe des abscisses en \( x_1\) et \( x_2\).
+
+\begin{enumerate}
+    \item
+        Le sommet est en \( x_0=-\frac{ b }{ 2a }\).
+
+    \item
+L'axe vertical passant par le sommet est un axe de symétrie de la courbe.
+\item
+
+Les deux racines sont données par les formules
 \begin{equation*}
     \begin{aligned}[]
         x_1&=\frac{ -b+\sqrt{\Delta} }{ 2a }&&x_2&=\frac{ -b-\sqrt{\Delta} }{ 2a }
@@ -554,15 +564,29 @@ où
 \begin{equation*}
     \Delta=b^2-4ac.
 \end{equation*}
+\end{enumerate}
 
 %The result is on figure \ref{LabelFigParaboleResumeHNiyfR}. % From file ParaboleResumeHNiyfR
 %\newcommand{\CaptionFigParaboleResumeHNiyfR}{<+Type your caption here+>}
 \columnbreak
+\begin{center}
 \input{Fig_ParaboleResumeHNiyfR.pstricks}
+\end{center}
 \end{multicols}
-<++>
+Le nombre \( \Delta\) est appelé le \emph{discriminant} du polynôme \( f\).
 
+La factorisation de \( ax^2+bx+c\) est donnée par
+\begin{equation}
+    ax^2+bx+c=a(x-x_1)(x-x_2).
+\end{equation}
 
+Si \( \Delta\) est nul, nous voyons que \( x_1=x_2\), cela signifie que la parabole n'a qu'une seule racine. Si \( \Delta\) est (strictement) négatif, alors nous ne pouvons pas calculer \( \sqrt{\Delta}\) et la fonction n'a pas de racines. Illustration de ces cas à la figure \ref{LabelFigParaboleResumeSzaWaG}. % From file ParaboleResumeSzaWaG
+\newcommand{\CaptionFigParaboleResumeSzaWaG}{Les cas où \( \Delta\) n'est pas strictement positifs correspondent à des paraboles ayant une seule ou pas du tout de racines.}
+\input{Fig_ParaboleResumeSzaWaG.pstricks}
+
+En ce qui concerne la factorisation, si \( \Delta=0\) alors \( x_1=x_2\) et nous avons \( ax^2+bx+c=a(x-x_1)^2\), et si \( \Delta<0\) il n'y a pas de racines, de telle sorte que la factorisation soit impossible.
+
+Enfin, la courbe représentative de \( f(x)=ax^2+bx+c\) est tournée vers le haut si \( a>0\) et tournée vers le bas si \( a<0\).
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices sur le second degré}

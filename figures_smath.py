@@ -85,7 +85,7 @@ from phystricksPositionsDroitesbnYIsH import PositionsDroitesbnYIsH
 from phystricksCorSSTXPQVjn import CorSSTXPQVjn
 from phystricksGraphInterfQVfSf import GraphInterfQVfSf
 from phystricksParaboleResumeHNiyfR import ParaboleResumeHNiyfR
-
+from phystricksParaboleResumeSzaWaG import ParaboleResumeSzaWaG
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -101,9 +101,20 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,
     ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,CylindresxKDOdy,
     FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,
-    CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR
+    CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG
     ]
 
+
+for k in sys.argv:
+    s=[]
+    fun=k.replace("phystricks","").replace(".py","")
+    print fun
+    if fun in globals().keys():
+        print "ok"
+        s.append(globals()[fun])
+
+if s:
+    figures_list=s
 
 if __name__=="__main__":
     if "--all" not in sys.argv :
