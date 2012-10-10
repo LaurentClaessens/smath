@@ -4,8 +4,10 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Introduction : jouons à pile ou face}
+\section{Épreuve de Bernoulli}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Source : \cite{YDRqwN}
 
 Nous jouons à pile ou face avec une pièce non truquée. Nous avons donc une chance sur deux d'obtenir pile et une chance sur deux d'obtenir face. Nous sommes intéressé par le nombre de fois que nous obtenons pile en jouant souvent.
 
@@ -41,8 +43,65 @@ Commençons par jouer deux fois et dessinons un arbre.
 \end{example}
 
 
+\begin{example}
+    Dans une classe de \( 31\) élèves, \( 19\) sont nés en \( 1996\). Si nous en prenons un au hasard, nous avons donc une probabilité environ \( 0.61\) qu'il soit né en \( 1996\). Que penser de cet arbre où l'on note «O»  l'événement «avoir tiré un élève de \( 1996\)» et «N» l'événement contraire ?
+   
+            \begin{equation*}
+            \xymatrix{%
+                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
+                &\fbox{O}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}\\
+                \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
+               }
+            \end{equation*}
+
+    Si il n'y a pas de remise, alors l'arbre devrait ressembler plutôt à ceci :
+            \begin{equation*}
+            \xymatrix{%
+                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
+                &\fbox{O}\ar[ld]_{\frac{ 18 }{30}}\ar[rd]^{\frac{ 12 }{30}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{30}}\ar[rd]^{\frac{ 11 }{30}}\\
+                \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
+               }
+            \end{equation*}
+
+\end{example}
+
+\begin{example}
+    Supposons que nous jouons au poker avec un paquet de \( 52\) cartes. Si nous avons déjà trois as en main, il reste \( 49\) cartes dans le paquet, et parmi ces \( 49\) cartes, un seul as. Nous avons donc une chance sur \( 49\) de réussir un carré en échangeant une carte.
+
+    Si par contre nous jouons avec des dés, la probabilité de lancer un quatrième as est de une sur six; la différence est énorme.
+\end{example}
 
 
+\begin{definition}
+    Toute expérience aléatoire conduisant à deux issues possibles (appelées \emph{échec} ou \emph{succès}) est une \defe{épreuve de Bernoulli}{Bernoulli!épreuve}. Nous noterons \( p\) la probabilité du succès. La probabilité de l'échec sera alors \( 1-p\).
+\end{definition}
+
+\begin{example}
+    Nous lançons un dé et nous nommons «succès» l'événement «le \( 6\) sort». Cela est une épreuve de Bernoulli avec \( p=1/6\).
+\end{example}
+
+\begin{example}
+    
+    Demandez à un de vos amis si il aime réciter des vers de Corneille en réunion de famille.
+
+    Vous noterez que cela est bien une épreuve de Bernoulli, mais qu'il vous est plus ou moins impossible d'en estimer la probabilité de succès a priori. Au mieux vous pouvez dire «j'espère bien qu'aucun de mes amis n'a ce genre de hobbies».
+    
+\end{example}
+
+\begin{example}
+    Choisissez une voiture au hasard dans une file, et considérer l'événement «le conducteur est en train téléphoner». Ici encore il s'agit d'une épreuve de Bernoulli, mais il n'est pas possible d'en donner la probabilité.
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Schéma de Bernoulli}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    La répétition de \( n\) épreuves de Bernoulli identiques et indépendants est une \defe{schéma de Bernoulli}{Bernoulli!schéma}.
+\end{definition}
+Nous allons nous intéresser au nombre de succès d'un schéma de Bernoulli de probabilité \( p\).
+
+\begin{example}
 Voici un exemple où nous avons joué \( 50\) fois :
 
 P F P P P P F F F F F F F P P P P P F P F F P P F F F F F F P P F F F F P F F F F P P P P F F F F P \\
@@ -54,3 +113,16 @@ F F P P P P F P P P F P P P F F F F F P F F P P P P P F F F P P P F F P F F F P 
  total : 23 F et  27 P
 
  Intuitivement, nous imaginons que nous devrions toujours obtenir autour de \( 25\) piles et \( 25\) faces.
+    
+\end{example}
+
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices }
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\Exo{Premiere-0071}
+
+
