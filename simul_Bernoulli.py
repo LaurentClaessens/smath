@@ -2,11 +2,10 @@
 # -*- coding: utf8 -*-
 
 from sage.all import *
-
-
 import random
+import sys
 
-n=50
+n=100   # Ce nombre est dans phystricksSimulBinNWxfTN
 
 def une_simulation(verbatim=True):
     P=0
@@ -23,20 +22,22 @@ def une_simulation(verbatim=True):
         print "\n total :",F,"F et ",P,"P"
     return P
 
-def plein_de_simulations(nombre=1000):
+def plein_de_simulations(nombre=1000,montrer=True):
     resultats={  i:0 for i in range(0,n+1)  }
-    print resultats
+    if montrer :
+        print resultats
     for i in range(0,nombre):
         P=une_simulation(False)
         resultats[P]=resultats[P]+1
 
-    G=point((0,0))
-    for i in range(0,n):
-        G=G+line([(i,0),(i,resultats[i])])
-        print i,resultats[i]
-    show(G)
+    if montrer :
+        G=point((0,0))
+        for i in range(0,n):
+            G=G+line([(i,0),(i,resultats[i])])
+            print i,resultats[i]
+        show(G)
+    return resultats
 
-
-une_simulation()
-
-#plein_de_simulations(nombre=500)
+if __name__=="main":
+    une_simulation()
+    plein_de_simulations(nombre=int(sys.argv[1]))

@@ -105,8 +105,9 @@ Nous allons nous intéresser au nombre de succès d'un schéma de Bernoulli de p
 \lstinputlisting{simul_Bernoulli.py}
 
 \begin{example}
-Voici un exemple où nous avons joué \( 50\) fois :
+Nous effectuons \( 50\) lancers de pile ou face et nous comptons le nombre de réussite.
 
+Par exemple :\\
 P F P P P P F F F F F F F P P P P P F P F F P P F F F F F F P P F F F F P F F F F P P P P F F F F P \\
  total : 29 F et  21 P
  
@@ -119,6 +120,30 @@ F F P P P P F P P P F P P P F F F F F P F F P P P P P F F F P P P F F P F F F P 
     
 \end{example}
 
+\begin{example}
+
+Effectuons dix mille fois les cent lancers et traçons un diagramme en bâtons décrivant le nombre de fois que nous avons obtenu chaque quantité de «piles».
+
+The result is on figure \ref{LabelFigSimulBinNWxfTN}. % From file SimulBinNWxfTN
+\newcommand{\CaptionFigSimulBinNWxfTN}{<+Type your caption here+>}
+\input{Fig_SimulBinNWxfTN.pstricks}
+See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
+See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
+See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
+See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
+
+Quelque propriétés intuitives.
+\begin{enumerate}
+    \item
+        Il y a un maximum sur \( 50\) parce que lorsqu'on tire \( 100\) fois une pièce, on a un maximum de chances d'avoir \( 50\) fois pile et \( 50\) fois face.
+    \item
+        Le dessin doit être symétrique. Il y a a priori autant de chances d'avoir \( 48\) faces et \( 52\) pile que le contraire.
+    \item
+        La courbe doit valoir à peu près zéro pour les petits et les grands nombres : nous sommes d'accord que la probabilité d'obtenir \( 95\) fois face sur \( 100\) lancers est à peu près le vide interstellaire.
+\end{enumerate}
+<++>
+    
+\end{example}
 
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
