@@ -73,7 +73,7 @@ donne
 \Exo{Premiere-0034}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Quelque mots à propos des fonctions}
+\section{Créer des fonctions}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -422,6 +422,7 @@ dèWatseculiance is marked, at taken the unlikely siden would he placed man why 
 \end{quote}
 Cela ressemble à de l'anglais sans aucun doute.
 
+Pour les deux exercices suivants, vous pouvez aussi vous inspirer du programme \info{ex\_mise\_fonction1.py} donné plus bas.
 \Exo{Premiere-0053}
 \Exo{Premiere-0054}
 
@@ -429,8 +430,15 @@ Maintenant que nous sommes capables d'afficher les couple de lettres commençant
 
 \Exo{Premiere-0072}
 
-Nous allons maintenant tout mettre dans une fonction. 
+Nous allons maintenant tout mettre dans une fonction. Regardez la différence entre les deux codes suivants. Notez qu'ils font la même chose. La différence est que le second est un peu plus général et permet de facilement retrouver les paires commençant par n'importe quelle lettre.
 
+\lstinputlisting{ex_mise_fonction1.py}
+
+Testez aussi ce programme en enlevant le \info{[1:]} à la ligne de la boucle \info{for}.
+
+\lstinputlisting{ex_mise_fonction2.py}
+
+Pour être vraiment cool, ce serait bien que la fonction \info{paires} prenne le texte en argument\footnote{Pour celle et ceux qui veulent aller plus loin (en en particulier ceux qui font du C++), sachez que lorsqu'une fonction commence à prendre trop d'arguments il est parfois une bonne idée de créer une classe.}. Est-ce que vous voyez comment faire ?
 
 \Exo{Premiere-0073}
 

@@ -101,8 +101,43 @@ Commençons par jouer deux fois et dessinons un arbre.
 \end{definition}
 Nous allons nous intéresser au nombre de succès d'un schéma de Bernoulli de probabilité \( p\).
 
+Reprenons notre arbre de choix d'élèves en fonction de l'année de naissance.
 
-\lstinputlisting{simul_Bernoulli.py}
+\begin{equation*}
+\xymatrix{%
+    &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
+    &\fbox{O}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}\\
+    \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
+   }
+\end{equation*}
+Nous notons \( P(X=0)\) la probabilité de tirer zéro élèves nés en \( 1996\); \( P(X=1)\) la probabilité d'en tirer (exactement \( 1\)); \( P(X=2)\) est la probabilité d'en tirer deux. En suivant la logique, \( P(X=3)\) est nul parce que de toutes façons, on n'en tire que deux. Étudions les cas.
+
+Nous commençons par calculer \( P(X=0)\). Pour obtenir aucun étudiant nés en \( 1996\) en en tirant deux, il faut d'abord en tirer un qui n'est pas né en \( 1996\) (probabilité : \( \frac{ 12 }{ 13 }\)) puis en tirer un second (probabilité : \( \frac{ 12 }{ 13 }\) encore). Du coup la probabilité est
+\begin{equation}
+    P(X=0)=\left( \frac{ 12 }{ 31 } \right)^2,
+\end{equation}
+c'est à dire environ\footnote{Encore une fois : méfiez vous des approximations numériques. Vous n'accepteriez pas de confier votre vie à un calcul qui a arrondi la seconde décimale d'une probabilité.} \( 0.15\).
+
+Calculons maintenant \( P(X=1)\). Nous repérons dans le tableau les cases qui correspondent à un élève né en \( 1996\) et un élève non né en \( 1996\). Ce sont les cases \( ON\) et \( NO\). En suivant les branches de l'arbre, la probabilité d'obtenir le \( ON\) est 
+\begin{equation}
+    P(ON)=\frac{ 19 }{ 31 }\times \frac{ 12 }{ 31 },
+\end{equation}
+tandis que l'autre est
+\begin{equation}
+    P(NO)=\frac{ 12 }{ 31 }\times \frac{ 19 }{ 31 }.
+\end{equation}
+Notons que c'est la même. La probabilité totale de pêcher \emph{exactement} un élève de \( 1996\) en en pêchant deux au hasard dans la classe est
+\begin{equation}
+    P(X=1)=2\times\frac{ 12 }{ 31 }\times \frac{ 19 }{ 31 }=\frac{ 456 }{ 961 },
+\end{equation}
+qui est environ \( 0.47\). Presque une chance sur deux.
+
+Enfin, calculons la probabilité d'en tirer deux est donnée par la case \( OO\) de l'arbre et sa probabilité est
+\begin{equation}
+    P(X=2)=\left( \frac{ 19 }{ 31 } \right)^2
+\end{equation}
+qui est environ \( 0.37\).
+
 
 \begin{example}
 Nous effectuons \( 50\) lancers de pile ou face et nous comptons le nombre de réussite.
@@ -124,13 +159,15 @@ F F P P P P F P P P F P P P F F F F F P F F P P P P P F F F P P P F F P F F F P 
 
 Effectuons dix mille fois les cent lancers et traçons un diagramme en bâtons décrivant le nombre de fois que nous avons obtenu chaque quantité de «piles».
 
-The result is on figure \ref{LabelFigSimulBinNWxfTN}. % From file SimulBinNWxfTN
-\newcommand{\CaptionFigSimulBinNWxfTN}{<+Type your caption here+>}
+Les diagrammes en bâtons de la figure \ref{LabelFigSimulBinNWxfTN} % From file SimulBinNWxfTN
+représentent, en fonction de \( k\), le nombre de fois qu'on a obtenu exactement \( k\) fois pile en jouant \( 10\), \( 100\) et \( 10000\) fois à pile ou face.
+\newcommand{\CaptionFigSimulBinNWxfTN}{Jouer à pile ou face un certain nombre de fois, et s'intéresser au nombre de fois que le «pile» sort.}
 \input{Fig_SimulBinNWxfTN.pstricks}
-See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
-See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
-See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
-See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
+
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
 
 Quelque propriétés intuitives.
 \begin{enumerate}
@@ -141,16 +178,69 @@ Quelque propriétés intuitives.
     \item
         La courbe doit valoir à peu près zéro pour les petits et les grands nombres : nous sommes d'accord que la probabilité d'obtenir \( 95\) fois face sur \( 100\) lancers est à peu près le vide interstellaire.
 \end{enumerate}
-<++>
     
 \end{example}
 
+\newpage
+\begin{example}
+    Nous jouons au poker avec des dés. Un dé a \( 6\) face : as, roi, dame, valet, \( 10\), \( 9\). Nous voulons obtenir une paire de valet en lançant trois dés (nous estimons qu'un brelan de valet est une réussite).
+
+    \begin{equation}
+    \xymatrix{%
+        o&o&o&\fbox{VVV}\\
+        o&o&\fbox{VV}\ar[ur]\ar[rd]\\
+        o&o&o&\fbox{VV V}\\
+        o&\fbox{V}\ar[uur]\ar[ddr]\\
+        o&o&o&\fbox{V V V}\\
+        o&o&\fbox{V V}\ar[ur]\ar[dr]\\
+        o&o&o&\fbox{V VV}\\
+        \fbox{\text{Début}}\ar[ruuuu]\ar[rdddd]\\
+        o&o&o&\fbox{ V V V}\\
+        o&o&\fbox{ V V}\ar[ur]\ar[dr]\\
+        o&o&o&\fbox{ V V V}\\
+        o&\fbox{ V}\ar[uur]\ar[ddr]\\
+        o&o&o&\fbox{ V V V}\\
+        o&o&\fbox{xx}\ar[ur]\ar[dr]\\
+        o&o&o&\fbox{ V V  V}\\
+       }
+    \end{equation}
+    
+
+            %\begin{equation*}
+            %\xymatrix{%
+            %    o&o&o&o&o&o&o&\fbox{\text{Début}}\ar[lllld]_{\frac{ 1 }{6}}\ar[rrrrd]^{\frac{ 5 }{6}}\\
+            %    o&o&o&\fbox{A}\ar[lld]_{\frac{ 1 }{ 6 }}\ar[rrd]^{\frac{ 5 }{ 6 }}&o&o&o&o&o&o&\fbox{B}\ar[lld]_{\frac{ 1 }{ 6 }}\ar[rrd]^{\frac{ 5 }{ 6 }}&o&o&o\\
+            %    o&\fbox{C}\ar[ld]_{\frac{ 5 }{ 6 }}\ar[rd]^{\frac{ 1 }{ 6 }}&o&o&o&\fbox{D}\ar[ld]_{\frac{ 5 }{ 6 }}\ar[rd]^{\frac{ 1 }{ 6 }}&o&o&o&\fbox{E}&o&o&o&\fbox{F}\ar[ld]_{\frac{ 5 }{ 6 }}\ar[rd]^{\frac{ 1 }{ 6 }}&o\\
+            %    \fbox{F}&o&\fbox{F}&o&\fbox{F}&o&\fbox{F}&o&\fbox{F}&o&\fbox{F}&o&\fbox{F}&o&\fbox{F}
+            %   }
+            %\end{equation*}
+    
+    Dessiner un arbre, et déterminer la probabilité de réussite.
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Simuler un schéma de Bernoulli avec un ordinateur}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Pour simuler une expérience de Bernoulli de probabilité \( p\), il suffit de prendre un nombre aléatoire entre \( 0\) et \( 1\) puis de vérifier si il est plus petit que \( p\).
+
+En effet, si nous prenons un nombre au hasard entre \( 0\) et \( 1\), quelle est la probabilité qu'il soit plus petit que, par exemple, \( 0.8\) ?
+
+Par exemple ceci écrit «succès» avec une probabilité \( 0.6\).
+\lstinputlisting{ex_random_binomiale.py}
+
+Le programme suivant a produit les résultats et graphiques présentés plus haut.
+\lstinputlisting{simul_Bernoulli.py}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-
 \Exo{Premiere-0071}
+\Exo{Premiere-0074}
+\Exo{Premiere-0075}
+\Exo{Premiere-0076}
+\Exo{Premiere-0077}
+\Exo{Premiere-0078}
 
 
