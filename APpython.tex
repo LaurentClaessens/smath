@@ -431,6 +431,56 @@ print(succes)
 
 \Exo{Premiere-0081}
 
+Nous allons maintenant encore complexifier un peu le programme. Le but sera de refaire mille fois les \( 100\) épreuves de Bernoulli et enregistrer le nombre de résultats.
+\begin{enumerate}
+    \item
+        Mettre toute la partie du programme remplissant la liste \info{liste\_resultats} dans une fonction retournant la somme de la liste. Nommer \info{schema} cette fonction.
+    \item
+        Si vous êtes à l'aise, faite que cette fonction prenne en argument \info{p} et \info{n} où \info{n} est le nombre d'épreuves de Bernoulli à effectuer dans un schéma.
+    \item
+        Créer une boucle \info{for} qui répète mille fois la fonction \info{schema} en enregistrant les résultats dans une nouvelle liste que nous nommerons \info{liste\_succes}.
+    \item
+        Afficher la liste.
+\end{enumerate}
+Tout cela devrait vous donner une liste de \( 1000\) nombres, chacun étant entre \( 0\) et \( 100\).
+
+Nous voudrions surtout savoir combien de fois arrive chaque nombre entre zéro et cent. Si vous avez gardé la probabilité \( 0.8\), vous vous attendez à ce que le \( 80\) soit la valeur la plus représentée. Vous vous attendez aussi à ce que le \( 3\) par exemple serait presque jamais représenté parce qu'il correspondrait à un schéma durant lequel nous aurions obtenu que trois fois sur \( 100\) un résultat qui est censé arriver \( 8\) fois sur \( 10\).
+
+Cette partie est relativement compliquée, alors nous donnons la solution. Ajoutez à votre programme la fonction suivante :
+
+\lstinputlisting{ex_bernoulli3.py}
+
+Cette fonction prend en argument une liste et retourne une liste comptant combien de fois arrive chaque élément. C'est à dire que le premier élément de la liste retournée est le nombre de fois qu'arrive le nombre \( 0\) dans la liste donnée; le vingtième élément de la liste retournée est le nombre de fois que le \( 19\) arrive dans la liste donnée.
+
+Votre programme devrait maintenant terminer par
+\begin{verbatim}
+frequences=compte_frequence(liste\_succes)
+print(frequences)
+\end{verbatim}
+
+L'exécution devrait donner quelque chose du type
+\begin{quote}
+    \info{[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 1, 2, 8, 9, 9, 18, 42, 24, 66, 63, 79, 105, 106, 107, 88, 83, 63, 43, 37, 19, 10, 9, 3, 1, 0, 0, 0, 0, 1]}
+\end{quote}
+Notons que dans cet exemple, sur \( 1000\) essais, une fois nous avons obtenu cent fois le \( 1\).
+
+Et enfin, nous voudrions dessiner un graphique en barre de cette liste. Il est bien entendu possible de créer un bel histogramme en python, comme \href{http://matplotlib.org/users/screenshots.html}{montré ici}. Cependant, juste pour dire qu'on utilise un tableur, et pour montrer une fonctionnalité trop peu connue dudit tableur, nous allons créer l'histogramme avec un tableur.
+
+Notre objectif est de créer, en python, un fichier qui, lu par le tableur, donne une colonne contenant les nombres de la liste \info{frequence}. Pour cela il faut savoir que les tableurs peuvent lire des fichiers dits \emph{csv} (Comma Separated Variables). Un tel fichier est simplement un fichier contenant les valeurs à mettre dans le tableur séparées par une virgule. Un saut de ligne dans le fichier correspond à une nouvelle ligne dans le tableur.
+
+Écrivez par exemple ceci dans un nouveau fichier.
+\begin{quote}
+    a,b,c\\
+    d,e,f
+\end{quote}
+Enregistrez ce fichier sous le nom \info{fichier.csv}. Ouvrez-le maintenant dans \wikipedia{fr}{Libreoffice}{votre tableur préféré}.
+
+Ajoutez maintenant la fonction suivante à votre beau programme :
+
+\lstinputlisting{ex_bernoulli4.py}
+
+Cette fonction
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Un texte qui ressemble à du français}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
