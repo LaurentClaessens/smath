@@ -183,28 +183,27 @@ Quelque propriétés intuitives.
 
 \newpage
 \begin{example}
-    Nous jouons au poker avec des dés. Un dé a \( 6\) face : as, roi, dame, valet, \( 10\), \( 9\). Nous voulons obtenir une paire de valet en lançant trois dés (nous estimons qu'un brelan de valet est une réussite).
+    Nous jouons au poker avec des dés. Un dé a \( 6\) face : as, roi, dame, valet, \( 10\), \( 9\). Nous voulons obtenir une paire de valet en lançant trois dés (nous estimons qu'un brelan de valet est une réussite). Voici l'arbre.
 
     \begin{equation}
     \xymatrix{%
-        o&o&o&\fbox{VVV}\\
-        o&o&\fbox{VV}\ar[ur]\ar[rd]\\
-        o&o&o&\fbox{VV V}\\
-        o&\fbox{V}\ar[uur]\ar[ddr]\\
-        o&o&o&\fbox{V V V}\\
-        o&o&\fbox{V V}\ar[ur]\ar[dr]\\
-        o&o&o&\fbox{V VV}\\
-        \fbox{\text{Début}}\ar[ruuuu]\ar[rdddd]\\
-        o&o&o&\fbox{ V V V}\\
-        o&o&\fbox{ V V}\ar[ur]\ar[dr]\\
-        o&o&o&\fbox{ V V V}\\
-        o&\fbox{ V}\ar[uur]\ar[ddr]\\
-        o&o&o&\fbox{ V V V}\\
-        o&o&\fbox{xx}\ar[ur]\ar[dr]\\
-        o&o&o&\fbox{ V V  V}\\
+        o&o&o&\boxed{VVV}\\
+        o&o&\boxed{VV}\ar[ur]^{\frac{1}{ 6 }}\ar[rd]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{VV \bar V}\\
+        o&\boxed{V}\ar[uur]^{\frac{1}{ 6 }}\ar[ddr]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{V \bar V  V}\\
+        o&o&\boxed{V \bar V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{V \bar V\bar V}\\
+        \boxed{\text{Début}}\ar[ruuuu]^{\frac{1}{ 6 }}\ar[rdddd]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{\bar  V V V}\\
+        o&o&\boxed{ \bar V V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{ \bar V \bar V V}\\
+        o&\boxed{ \bar V}\ar[uur]^{\frac{1}{ 6 }}\ar[ddr]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{ \bar V \bar V V}\\
+        o&o&\boxed{\bar V\bar V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
+        o&o&o&\boxed{ \bar V \bar V  \bar V}\\
        }
     \end{equation}
-    
 
             %\begin{equation*}
             %\xymatrix{%
@@ -215,7 +214,6 @@ Quelque propriétés intuitives.
             %   }
             %\end{equation*}
     
-    Dessiner un arbre, et déterminer la probabilité de réussite.
 \end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -225,6 +223,8 @@ Quelque propriétés intuitives.
 Pour simuler une expérience de Bernoulli de probabilité \( p\), il suffit de prendre un nombre aléatoire entre \( 0\) et \( 1\) puis de vérifier si il est plus petit que \( p\).
 
 En effet, si nous prenons un nombre au hasard entre \( 0\) et \( 1\), quelle est la probabilité qu'il soit plus petit que, par exemple, \( 0.8\) ?
+
+La majorité des tableurs comme \wikipedia{fr}{Libreoffice} ou OOO possèdent des fonctions toutes faites pour simuler.
 
 Par exemple ceci écrit «succès» avec une probabilité \( 0.6\).
 \lstinputlisting{ex_random_binomiale.py}
