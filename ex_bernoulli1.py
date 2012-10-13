@@ -1,11 +1,11 @@
 import random
 
-def bernoulli(p):
+def bernoulli():
     x=random.uniform(0,1)   # Choisir un nombre au hasard dans l'intervalle [0;1]
-    if x<=p:
+    if x<=0.8:
         return 1
-    if x>p:
+    else:
         return 0
 
-for i in range(1,100):
-    print(bernoulli(0.7))
+a=bernoulli()
+print(a)

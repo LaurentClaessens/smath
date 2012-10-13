@@ -3,7 +3,7 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
-\chapter{Structures de base}
+\chapter{Généralités}
 
 \begin{remark}
     Certains bouts de codes donnés ici commencent par la ligne
@@ -126,12 +126,6 @@ donne
 \lstinputlisting[title=Résultat]{res_ex_fonction4.txt}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Télécharger automatiquement une liste de liens}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Nous allons maintenant utiliser nos connaissances pour résoudre un problème pratique : comment télécharger automatiquement une série de liens sans devoir cliquer des milliers de fois sur le bouton droit et «enregistrer sous» ?
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Tester la divisibilité}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -144,62 +138,6 @@ Testez le programme suivant.
 Est-ce que vous pouvez en déduire un critère de divisibilité basé sur l'usage de la «division entière» \info{\%} ? Regardez combien vaut \info{i\%4} pour les \info{i} qui sont divisible par \( 4\).
 
 \Exo{Premiere-0067}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Moyenne, médiane, quartiles}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\label{SecZYftar}
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Moyenne}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\begin{example}     \label{ExerfDMnv}
-    % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
-    Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
-    \begin{center}
-        \begin{tabular}{|l||c|c|c|c|c|c|}
-            \hline
-            taille \( x_i\)&40&41&42&43&44&45\\
-            \hline
-            effectifs \( n_i\)&3&5&10&8&2&4\\
-            \hline
-        \end{tabular}
-    \end{center}
-    Nous voudrions calculer la moyenne, la médiane et les quartiles de la distribution des tailles de chaussures. Nous allons nous occuper de cela dans les pages qui viennent.
-\end{example}
-    
-    Pour calculer la moyenne d'une liste, nous devons savoir la longueur et la somme de ses éléments. Python fournit cela assez rapidement. Si \info{A} est une liste,
-    \begin{enumerate}
-        \item
-            \info{len(A)} est la longueur de \info{A},
-        \item
-            \info{sum(A)} est la somme de ses éléments.
-    \end{enumerate}
-    
-\Exo{Premiere-0035}
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Premier et troisième quartiles}
-%---------------------------------------------------------------------------------------------------------------------------
-
-Pour les quartiles, nous nous rappelons que si \( n\) est le nombre de valeurs, alors le rang du premier quartile est le premier entier supérieur à \( n/4\); et le rang du troisième quartile est le premier entier supérieur à \( 3n/4\). Par exemple si il y a \( 15\) données, nous calculons \( 3\times 15/3= 11.25\), et le troisième quartile sera la douzième valeur.
-
-
-Bien entendu python possède une commande qui retourne le premier entier supérieur à un nombre donné. C'est la commande \info{ceil} du module \info{math}. En pratique :
-
-\lstinputlisting{exemple_ceil.py}
-
-donne 
-
-\lstinputlisting{res_exemple_ceil.txt}
-De même la fonction \info{math.floor} retourne le premier entier inférieur à un nombre donné. Par exemple \info{math.floor(3.89)} vaut \( 3\).
-
-La ligne \info{import math} s'appelle «importer le module math», et nous n'en dirons sans doute pas plus sur la notion d'import de module. Le module \info{math} contient encore de nombreuses fonctions mathématiques qui transforment python en une très puissante\footnote{Pour donner une idée, la mémoire disponible sur des calculatrices modernes est à peu près la même que celle qui était disponible sur Apple II au début des années 1980; avec python vous pouvez exploiter toute la mémoire de votre ordinateur, ou de votre téléphone ou de votre tablette ou de quoi que ce soit sur lequel vous avez python.} calculatrice scientifique.
-
-
-\Exo{Premiere-0036}
-
-\Exo{Premiere-0038}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{La boucle \info{for}}
@@ -219,6 +157,7 @@ La première boucle écrit \info{x} et son carré pour tout \info{x} dans la lis
 \section{Prendre des choses au hasard}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+
 Python permet de tirer des nombres au hasard ou de prendre un élément au hasard dans une liste ou dans un texte. Pour cela il y a le module \info{random}. Si \info{A} est une liste ou un texte (chaîne de caractère), alors
 \begin{quote}
     \info{random.choice(A)}
@@ -228,76 +167,8 @@ retourne un élément au hasard de la suite.
 \Exo{Premiere-0049}
 \Exo{Premiere-0050}
 
-\chapter{Suite définie par récurrence}
-
-Soit une suite définie par récurrence
-
-\begin{subequations}
-    \begin{numcases}{}
-    u_0=10\\
-    u_{n+1}=2u_n.
-    \end{numcases}
-\end{subequations}
-
-Nous voudrions pouvoir répondre à plusieurs types de questions :
-\begin{enumerate}
-    \item
-        construire une liste contenant les \( 100\) premiers termes de la suite;
-    \item
-        savoir quel est le premier terme à dépasser un million.
-    \item
-        Quelle est l'allure générale de la suite ? Croissante ? Décroissante ?
-\end{enumerate}
-
-Avant de se lancer, nous devons nous poser une question de vocabulaire : est-ce que le centième terme de la suite \( u\) est \( u_{100}\) ou \( u_{99}\) ? Le premier terme étant \( u_0\), le centième est bien \( u_{99}\).
-
-
-\Exo{Premiere-0056}
-
-\lstinputlisting{recurrence1.py}
-
-donne
-
-\lstinputlisting{res_recurrence1.txt}
-
-Notons que la ligne \info{print(u[100])} plante avec l'erreur \info{list index out of range}, c'est à dire que la liste \info{u} n'a pas d'élément \info{u[100]}, ce qui est normal parce qu'elle contient \( 100\) éléments et que la numérotation commence à zéro.
-
-
-\Exo{Premiere-0039}
-
-
-    En pratique, sachez que pour savoir le plus grand élément d'une liste, python dispose de la fonction \info{max}. Pour la suite, utilisez cette dernière, et non cette que vous aurez programmé dans cet exercice.
-
-
-\Exo{Premiere-0057}
-
-En ce qui concerne la possibilité de trouver le premier élément qui dépasse le million, le programme suivant donne une manière d'aborder le problème.
-
-\lstinputlisting{recurrence2.py}
-
-donne
-
-\lstinputlisting{res_recurrence2.txt}
-
-\Exo{Premiere-0058}
-
-\begin{remark}
-    
-    Le code donné dans le programme \info{recurrence2.py} (cf. plus haut) donne \( 17\) et celui de l'exercice \ref{exoPremiere-0058} donne donne \( 18\). Qui a raison ? Le \( 18\) de la seconde méthode est la longueur de la liste construite, donc il indique que le premier terme à passer le million est \( u_{17}\) (vu que le premier terme est \( u_0\), la longueur est toujours un plus grande que le numéro du dernier élément).
-
-La réponse est donc que \( u_{17}\) est le premier élément à être plus grand que un million, mais \( u_{17}\) est le dix-huitième élément de la liste.
-
-\end{remark}
-
-\Exo{Premiere-0055}
 
 \chapter{Manipulation de texte}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Simuler un schéma de Bernoulli}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Il existe de nombreuses manières de créer un nombre aléatoire qui vaut \( 0\) ou \( 1\) avec probabilité \( p\).
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Manipulation de base}
@@ -373,6 +244,193 @@ donne
 
 \Exo{Premiere-0052}
 
+
+\chapter{Applications plus ou moins utiles et plus ou moins ludiques}
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Algorithmique plus pure}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\Exo{Premiere-0027}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Suite définie par récurrence}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Soit une suite définie par récurrence
+
+\begin{subequations}
+    \begin{numcases}{}
+    u_0=10\\
+    u_{n+1}=2u_n.
+    \end{numcases}
+\end{subequations}
+
+Nous voudrions pouvoir répondre à plusieurs types de questions :
+\begin{enumerate}
+    \item
+        construire une liste contenant les \( 100\) premiers termes de la suite;
+    \item
+        savoir quel est le premier terme à dépasser un million.
+    \item
+        Quelle est l'allure générale de la suite ? Croissante ? Décroissante ?
+\end{enumerate}
+
+Avant de se lancer, nous devons nous poser une question de vocabulaire : est-ce que le centième terme de la suite \( u\) est \( u_{100}\) ou \( u_{99}\) ? Le premier terme étant \( u_0\), le centième est bien \( u_{99}\).
+
+
+\Exo{Premiere-0056}
+
+\lstinputlisting{recurrence1.py}
+
+donne
+
+\lstinputlisting{res_recurrence1.txt}
+
+Notons que la ligne \info{print(u[100])} plante avec l'erreur \info{list index out of range}, c'est à dire que la liste \info{u} n'a pas d'élément \info{u[100]}, ce qui est normal parce qu'elle contient \( 100\) éléments et que la numérotation commence à zéro.
+
+
+\Exo{Premiere-0039}
+
+
+    En pratique, sachez que pour savoir le plus grand élément d'une liste, python dispose de la fonction \info{max}. Pour la suite, utilisez cette dernière, et non cette que vous aurez programmé dans cet exercice.
+
+
+\Exo{Premiere-0057}
+
+En ce qui concerne la possibilité de trouver le premier élément qui dépasse le million, le programme suivant donne une manière d'aborder le problème.
+
+\lstinputlisting{recurrence2.py}
+
+donne
+
+\lstinputlisting{res_recurrence2.txt}
+
+\Exo{Premiere-0058}
+
+\begin{remark}
+    
+    Le code donné dans le programme \info{recurrence2.py} (cf. plus haut) donne \( 17\) et celui de l'exercice \ref{exoPremiere-0058} donne donne \( 18\). Qui a raison ? Le \( 18\) de la seconde méthode est la longueur de la liste construite, donc il indique que le premier terme à passer le million est \( u_{17}\) (vu que le premier terme est \( u_0\), la longueur est toujours un plus grande que le numéro du dernier élément).
+
+La réponse est donc que \( u_{17}\) est le premier élément à être plus grand que un million, mais \( u_{17}\) est le dix-huitième élément de la liste.
+
+\end{remark}
+
+\Exo{Premiere-0055}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Moyenne, médiane, quartiles}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\label{SecZYftar}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Moyenne}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}     \label{ExerfDMnv}
+    % Note : la liste ci-dessous est codée en dur dans les scripts d'exemples. Si on la modifie, il faut modifier les scripts.
+    Un magasin de chaussures a vendu des tailles entre \( 40\) et \( 45\) suivant la distribution suivante :
+    \begin{center}
+        \begin{tabular}{|l||c|c|c|c|c|c|}
+            \hline
+            taille \( x_i\)&40&41&42&43&44&45\\
+            \hline
+            effectifs \( n_i\)&3&5&10&8&2&4\\
+            \hline
+        \end{tabular}
+    \end{center}
+    Nous voudrions calculer la moyenne, la médiane et les quartiles de la distribution des tailles de chaussures. Nous allons nous occuper de cela dans les pages qui viennent.
+\end{example}
+    
+    Pour calculer la moyenne d'une liste, nous devons savoir la longueur et la somme de ses éléments. Python fournit cela assez rapidement. Si \info{A} est une liste,
+    \begin{enumerate}
+        \item
+            \info{len(A)} est la longueur de \info{A},
+        \item
+            \info{sum(A)} est la somme de ses éléments.
+    \end{enumerate}
+    
+\Exo{Premiere-0035}
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Premier et troisième quartiles}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Pour les quartiles, nous nous rappelons que si \( n\) est le nombre de valeurs, alors le rang du premier quartile est le premier entier supérieur à \( n/4\); et le rang du troisième quartile est le premier entier supérieur à \( 3n/4\). Par exemple si il y a \( 15\) données, nous calculons \( 3\times 15/3= 11.25\), et le troisième quartile sera la douzième valeur.
+
+
+Bien entendu python possède une commande qui retourne le premier entier supérieur à un nombre donné. C'est la commande \info{ceil} du module \info{math}. En pratique :
+
+\lstinputlisting{exemple_ceil.py}
+
+donne 
+
+\lstinputlisting{res_exemple_ceil.txt}
+De même la fonction \info{math.floor} retourne le premier entier inférieur à un nombre donné. Par exemple \info{math.floor(3.89)} vaut \( 3\).
+
+La ligne \info{import math} s'appelle «importer le module math», et nous n'en dirons sans doute pas plus sur la notion d'import de module. Le module \info{math} contient encore de nombreuses fonctions mathématiques qui transforment python en une très puissante\footnote{Pour donner une idée, la mémoire disponible sur des calculatrices modernes est à peu près la même que celle qui était disponible sur Apple II au début des années 1980; avec python vous pouvez exploiter toute la mémoire de votre ordinateur, ou de votre téléphone ou de votre tablette ou de quoi que ce soit sur lequel vous avez python.} calculatrice scientifique.
+
+
+\Exo{Premiere-0036}
+
+\Exo{Premiere-0038}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Télécharger automatiquement une liste de liens}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous allons maintenant utiliser nos connaissances pour résoudre un problème pratique : comment télécharger automatiquement une série de liens sans devoir cliquer des milliers de fois sur le bouton droit et «enregistrer sous» ?
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Simuler un schéma de Bernoulli}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Dans cette section, nous voulons créer un programme qui simule mille expériences de Bernoulli et en donne le nombre de succès. Lorsque cela sera fait, nous verrons comment faire mille fois le tout et étudier la distribution du nombre de succès.
+
+Il existe de nombreuses manières de créer un nombre aléatoire qui vaut \( 0\) ou \( 1\) avec probabilité \( p\). Dans le programme suivant nous définissons une fonction qui
+\begin{enumerate}
+\item
+choisit un nombre \info{x} au hasard entre \( 0\) et \( 1\),
+\item
+retourne \( 1\) si \( \info{x}\) est plus petit que \info{0.8},
+\item
+    retourne \( 0\) sinon.
+\end{enumerate}
+Ensuite le programme donne à la variable \info{a} la valeur de la fonction et l'affiche. Vous avez \( 8\) chances sur \( 10\) que le programme écrive \( 1\).
+
+\lstinputlisting{ex_bernoulli1.py}
+
+\Exo{Premiere-0079}
+\Exo{Premiere-0080}
+
+Nous voulons aller encore plus loin. Au lieu d'afficher les résultats, nous voulons les enregistrer dans une liste.
+\begin{enumerate}
+    \item
+        Avant la ligne \info{for i in }, créer une liste vide en ajoutant la ligne
+        \begin{quote}
+            \info{liste\_resultats=[]}
+        \end{quote}
+    \item
+        À l'intérieur de la boucle, au lieu (ou en plus) de la ligne \info{print(a)}, mettre la ligne
+        \begin{quote}
+            \info{liste\_resultats.append(a)}
+        \end{quote}
+        Nous comprenons aisément la signification de cette signe, sachant que «append» signifie «ajouter» en anglais.
+    \item
+        Enfin, en bout de programme, en dehors de la boucle \info{for}, afficher la liste en ajoutant
+        \begin{quote}
+            \info{print(liste\_resultats)}
+        \end{quote}
+\end{enumerate}
+Maintenant le programme devrait afficher une centaine de zéros et de uns. C'est une bonne étape. 
+
+Pour savoir le nombre de succès, il faut calculer la somme de tous les éléments de la liste. Ajouter les lignes
+\begin{verbatim}
+succes=sum(liste_resultats)
+print(succes)
+\end{verbatim}
+
+\Exo{Premiere-0081}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Un texte qui ressemble à du français}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -447,9 +505,3 @@ Testez aussi ce programme en enlevant le \info{[1:]} à la ligne de la boucle \i
 Pour être vraiment cool, ce serait bien que la fonction \info{paires} prenne le texte en argument\footnote{Pour celle et ceux qui veulent aller plus loin (en en particulier ceux qui font du C++), sachez que lorsqu'une fonction commence à prendre trop d'arguments il est parfois une bonne idée de créer une classe.}. Est-ce que vous voyez comment faire ?
 
 \Exo{Premiere-0073}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Exercices}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-\Exo{Premiere-0027}
