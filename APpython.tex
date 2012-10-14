@@ -383,6 +383,7 @@ Nous allons maintenant utiliser nos connaissances pour résoudre un problème pr
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Simuler un schéma de Bernoulli}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\label{SecSimulBernrfNskC}
 
 Dans cette section, nous voulons créer un programme qui simule mille expériences de Bernoulli et en donne le nombre de succès. Lorsque cela sera fait, nous verrons comment faire mille fois le tout et étudier la distribution du nombre de succès.
 
@@ -468,7 +469,7 @@ Et enfin, nous voudrions dessiner un graphique en barre de cette liste. Il est b
 
 Notre objectif est de créer, en python, un fichier qui, lu par le tableur, donne une colonne contenant les nombres de la liste \info{frequence}. Pour cela il faut savoir que les tableurs peuvent lire des fichiers dits \emph{csv} (Comma Separated Variables). Un tel fichier est simplement un fichier contenant les valeurs à mettre dans le tableur séparées par une virgule. Un saut de ligne dans le fichier correspond à une nouvelle ligne dans le tableur.
 
-Écrivez par exemple ceci dans un nouveau fichier.
+Écrivez par exemple ces deux lignes dans un nouveau fichier.
 \begin{quote}
     a,b,c\\
     d,e,f
@@ -479,7 +480,11 @@ Ajoutez maintenant la fonction suivante à votre beau programme :
 
 \lstinputlisting{ex_bernoulli4.py}
 
-Cette fonction
+Cette fonction prend en argument une liste \info{A} et un nom \info{nom\_de\_fichier} et crée un fichier tout prêt à être lu par votre tableur. Terminez alors votre programme par la ligne
+\begin{quote}
+    \info{sauvegarde(frequences,``mon\_fichier'')}
+\end{quote}
+L'exécution de votre programme crée maintenant le fichier \info{mon\_fichier.csv} qu'il vous suffit d'ouvrir avec LibreOffice.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Un texte qui ressemble à du français}

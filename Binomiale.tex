@@ -39,7 +39,18 @@ Commençons par jouer deux fois et dessinons un arbre.
                 \item
                     Sur les quatre issues possibles, trois ont au moins un face : \( PF\), \( FP\) et \( FF\). La probabilité d'avoir un des trois est \( 3/4\).
             \end{enumerate}
-    
+
+            Nous pouvons écrire le tableau
+            \begin{equation}
+                \begin{array}[]{|c|c|c|c|}
+                    \hline
+                    k&0&1&2\\
+                    \hline\hline
+                    P(X=k)&\frac{1}{ 4 }&\frac{1}{ 2 }&\frac{1}{ 4 }\\
+                    \hline
+                \end{array}
+            \end{equation}
+
 \end{example}
 
 
@@ -54,6 +65,18 @@ Commençons par jouer deux fois et dessinons un arbre.
                }
             \end{equation*}
 
+            Nous pouvons écrire le tableau
+            \begin{equation}
+                \begin{array}[]{|c|c|c|c|}
+                    \hline
+                    k&0&1&2\\
+                    \hline\hline
+                    P(X=k)&0.375&0.474&0.15\\
+                    \hline
+                \end{array}
+            \end{equation}
+
+
     Si il n'y a pas de remise, alors l'arbre devrait ressembler plutôt à ceci :
             \begin{equation*}
             \xymatrix{%
@@ -62,6 +85,16 @@ Commençons par jouer deux fois et dessinons un arbre.
                 \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
                }
             \end{equation*}
+            et le tableau devient
+            \begin{equation}
+                \begin{array}[]{|c|c|c|c|}
+                    \hline
+                    k&0&1&2\\
+                    \hline\hline
+                    P(X=k)&0.368&0.49&0.142\\
+                    \hline
+                \end{array}
+            \end{equation}
 
 \end{example}
 
@@ -97,7 +130,7 @@ Commençons par jouer deux fois et dessinons un arbre.
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}
-    La répétition de \( n\) épreuves de Bernoulli identiques et indépendants est un \defe{schéma de Bernoulli}{Bernoulli!schéma}.
+    Un \defe{schéma de Bernoulli}{schéma (de Bernoulli)} de paramètres \( n\) et \( p\) est la répétition de \( n\) épreuves de Bernoulli de probabilité \( p\) identiques et indépendants.
 \end{definition}
 Nous allons nous intéresser au nombre de succès d'un schéma de Bernoulli de probabilité \( p\).
 
@@ -214,6 +247,18 @@ Quelque propriétés intuitives.
             %   }
             %\end{equation*}
     
+    Nous pouvons écrire un tableau donnant les probabilités d'obtenir \( k\) fois le valet.
+    \begin{equation}
+        \begin{array}[]{|c|c|c|c|c|}
+            \hline
+            k&0&1&2&3\\
+            \hline\hline
+            P(X=k)&\left( \frac{ 5 }{ 6 } \right)^3\approx 0.58& 3\left( \frac{ 5 }{ 6 } \right)^2\left( \frac{1}{ 6 } \right)\approx 0.347 &3\left( \frac{1}{ 6 } \right)^2\left( \frac{ 5 }{ 6 } \right)\approx 0.07&\left( \frac{1}{ 6 } \right)^3\approx0.0046\\
+            \hline
+        \end{array}
+    \end{equation}
+
+
 \end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -224,13 +269,15 @@ Pour simuler une expérience de Bernoulli de probabilité \( p\), il suffit de p
 
 En effet, si nous prenons un nombre au hasard entre \( 0\) et \( 1\), quelle est la probabilité qu'il soit plus petit que, par exemple, \( 0.8\) ?
 
-La majorité des tableurs comme \wikipedia{fr}{Libreoffice} ou OOO possèdent des fonctions toutes faites pour simuler.
+La majorité des tableurs comme \wikipedia{fr}{Libreoffice} ou \wikipedia{fr}{Gnumeric}{Gnumeric} possèdent des fonctions toutes faites pour simuler.
 
-Par exemple ceci écrit «succès» avec une probabilité \( 0.6\).
+Il est cependant instructif d'en construire un par nous même. Par exemple ceci écrit «succès» avec une probabilité \( 0.6\).
 \lstinputlisting{ex_random_binomiale.py}
 
-Le programme suivant a produit les résultats et graphiques présentés plus haut.
+Le programme suivant est celui écrit par votre serviteur pour produire les résultats et graphiques présentés plus haut.
 \lstinputlisting{simul_Bernoulli.py}
+
+Une simulation pas à pas en python pour construire un histogramme de schéma de Bernoulli est donné à la section \ref{SecSimulBernrfNskC}.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
@@ -238,9 +285,12 @@ Le programme suivant a produit les résultats et graphiques présentés plus hau
 
 \Exo{Premiere-0071}
 \Exo{Premiere-0074}
+
+\Exo{Premiere-0082}
 \Exo{Premiere-0075}
 \Exo{Premiere-0076}
 \Exo{Premiere-0077}
 \Exo{Premiere-0078}
 
 
+\Exo{Premiere-0083}
