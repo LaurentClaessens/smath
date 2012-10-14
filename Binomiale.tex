@@ -220,21 +220,21 @@ Quelque propriétés intuitives.
 
     \begin{equation}
     \xymatrix{%
-        o&o&o&\boxed{VVV}\\
-        o&o&\boxed{VV}\ar[ur]^{\frac{1}{ 6 }}\ar[rd]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{VV \bar V}\\
-        o&\boxed{V}\ar[uur]^{\frac{1}{ 6 }}\ar[ddr]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{V \bar V  V}\\
-        o&o&\boxed{V \bar V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{V \bar V\bar V}\\
+        &&&\boxed{VVV}\\
+        &&\boxed{VV}\ar[ur]^{\frac{1}{ 6 }}\ar[rd]_{\frac{ 5 }{ 6 }}\\
+        &&&\boxed{VV \bar V}\\
+        &\boxed{V}\ar[uur]^{\frac{1}{ 6 }}\ar[ddr]_{\frac{ 5 }{ 6 }}\\
+        &&&\boxed{V \bar V  V}\\
+        &&\boxed{V \bar V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
+        &&&\boxed{V \bar V\bar V}\\
         \boxed{\text{Début}}\ar[ruuuu]^{\frac{1}{ 6 }}\ar[rdddd]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{\bar  V V V}\\
-        o&o&\boxed{ \bar V V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{ \bar V \bar V V}\\
-        o&\boxed{ \bar V}\ar[uur]^{\frac{1}{ 6 }}\ar[ddr]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{ \bar V \bar V V}\\
-        o&o&\boxed{\bar V\bar V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
-        o&o&o&\boxed{ \bar V \bar V  \bar V}\\
+        &&&\boxed{\bar  V V V}\\
+        &&\boxed{ \bar V V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
+        &&&\boxed{ \bar V \bar V V}\\
+        &\boxed{ \bar V}\ar[uur]^{\frac{1}{ 6 }}\ar[ddr]_{\frac{ 5 }{ 6 }}\\
+        &&&\boxed{ \bar V \bar V V}\\
+        &&\boxed{\bar V\bar V}\ar[ur]^{\frac{1}{ 6 }}\ar[dr]_{\frac{ 5 }{ 6 }}\\
+        &&&\boxed{ \bar V \bar V  \bar V}\\
        }
     \end{equation}
 
@@ -258,8 +258,46 @@ Quelque propriétés intuitives.
         \end{array}
     \end{equation}
 
-
 \end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{La loi binomiale}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous voudrions établir une formule donnant \( P(X=k)\) pour une variable aléatoire \( X\) suivant la loi binomiale de paramètres \( n\) et \( p\). Nous allons raisonner sur \( n=100\) et \( p=\frac{ 7 }{ 10 }\). Dans ce cas, le nombre \( P(X=k)\) est la probabilité d'obtenir exactement \( k\) succès en \( 100\) essais d'une épreuve ayant une probabilité \( 0.7\) de réussite.
+
+L'arbre de \( 100\) tirages est évidemment compliqué à dessiner, mais nous comprenons que les chemins qui mènent à \( X=k\) sont les chemins qui prennent \( k\) fois la bifurcation de la réussite et \( 100-k\) fois la bifurcation de l'échec. Chacun de ces chemins a une probabilité de
+\begin{equation}
+    \left( \frac{ 7 }{ 10 } \right)^{k}\left( \frac{ 3 }{ 10 } \right)^{100-k}.
+\end{equation}
+La probabilité totale est donnée par
+\begin{equation}
+    P(X=k)=(\text{nombre de chemins passant \( k\) fois par la réussite})\times \left( \frac{ 7 }{ 10 } \right)^k\left( \frac{ 3 }{ 10 } \right)^{100-k}.
+\end{equation}
+Le nombre de chemins est passablement compliqué à calculer. Heureusement, il y a la calculatrice\footnote{Si vous voulez un avis personnel, utiliser une calculatrice pour débloquer une difficulté en mathématique est aussi intelligent qu'utiliser un anti-douleur pour améliorer ses performances sportives.}. Le nombre de chemin en question est nommé le \defe{coefficient binomial}{coefficient binomial}\footnote{C'est le moment d'ouvrir le mode d'emploi de ladite calculatrice.} et est noté \( {100\choose n}\); c'est le nombre de moyens de placer \( k\) «S» dans une suite de \( 100\) «S» ou «E».
+
+\begin{Aretenir}
+    Pour un schéma de Bernoulli de paramètres \( n\) et \( p\) nous avons
+    \begin{equation}
+        P(X=k)={n\choose k}p^{k}(1-p)^{n-k}.
+    \end{equation}
+\end{Aretenir}
+
+Nous notons \( P(X\leq k)\) la probabilité que le nombre de succès soit plus petite ou égale à \( k\); nous avons par exemple
+\begin{equation}
+    P(X\leq 3)=P(X=0)+P(X=1)+P(X=2)+P(X=3).
+\end{equation}
+Pas de panique : si vous voulez calculer \( P(X\leq 137)\), il ne faudra pas faire \( 137\) calculs : il existe une touche sur votre calculatrice qui calcule la probabilité cumulée.
+
+Notons la formule sympa
+\begin{equation}
+    P(X\leq k+1)=P(X\leq k)+P(X=k+1).
+\end{equation}
+En particulier nous avons
+\begin{equation}
+    P(X=k)=P(X\leq k)-P(X\leq k-1).
+\end{equation}
+Cela permet de calculer des probabilités en ayant seulement à disposition une table de probabilité cumulée.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Simuler un schéma de Bernoulli avec un ordinateur}
@@ -269,7 +307,7 @@ Pour simuler une expérience de Bernoulli de probabilité \( p\), il suffit de p
 
 En effet, si nous prenons un nombre au hasard entre \( 0\) et \( 1\), quelle est la probabilité qu'il soit plus petit que, par exemple, \( 0.8\) ?
 
-La majorité des tableurs comme \wikipedia{fr}{Libreoffice} ou \wikipedia{fr}{Gnumeric}{Gnumeric} possèdent des fonctions toutes faites pour simuler.
+La majorité des tableurs comme \wikipedia{fr}{Libreoffice}{LibreOffice} ou \wikipedia{fr}{Gnumeric}{Gnumeric} possèdent des fonctions toutes faites pour simuler.
 
 Il est cependant instructif d'en construire un par nous même. Par exemple ceci écrit «succès» avec une probabilité \( 0.6\).
 \lstinputlisting{ex_random_binomiale.py}
@@ -283,14 +321,29 @@ Une simulation pas à pas en python pour construire un histogramme de schéma de
 \section{Exercices }
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\Exo{Premiere-0071}
-\Exo{Premiere-0074}
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Reconnaître une situation de Bernoulli}
+%---------------------------------------------------------------------------------------------------------------------------
 
+\Exo{Premiere-0078}
+\Exo{Premiere-0071}
 \Exo{Premiere-0082}
-\Exo{Premiere-0075}
 \Exo{Premiere-0076}
 \Exo{Premiere-0077}
-\Exo{Premiere-0078}
 
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Calculer des probabilités avec un arbre}
+%---------------------------------------------------------------------------------------------------------------------------
 
+\Exo{Premiere-0074}
+\Exo{Premiere-0075}
 \Exo{Premiere-0083}
+\Exo{Premiere-0086}
+\Exo{Premiere-0090}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Utilisation de la loi binomiale}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Premiere-0087}
+\Exo{Premiere-0088}

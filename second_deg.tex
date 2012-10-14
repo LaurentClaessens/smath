@@ -588,6 +588,97 @@ En ce qui concerne la factorisation, si \( \Delta=0\) alors \( x_1=x_2\) et nous
 
 Enfin, la courbe représentative de \( f(x)=ax^2+bx+c\) est tournée vers le haut si \( a>0\) et tournée vers le bas si \( a<0\).
 
+Le tableau de signe de \( f(x)=ax^2+bx+c\) est donné par
+\begin{multicols}{2}
+    \begin{center}
+        Si \( a>0\)
+        \begin{equation*}
+            \begin{array}[]{|c||c|c|c|c|c|}
+                \hline
+                 x&&x_1&&x_2&\\
+                  \hline\hline
+                  f(x)&+&0&-&0&+\\ 
+                  \hline 
+                   \end{array}
+               \end{equation*}
+    \end{center}
+    \columnbreak
+    \begin{center}
+        Si \( a<0\)
+        \begin{equation*}
+            \begin{array}[]{|c||c|c|c|c|c|}
+                \hline
+                 x&&x_1&&x_2&\\
+                  \hline\hline
+                  f(x)&-&0&+&0&-\\ 
+                  \hline 
+                   \end{array}
+               \end{equation*}
+    \end{center}
+
+\end{multicols}
+    Attention : dans ces tableaux de signe, nous avons supposé que \( x_1<x_2\). Il faut évidemment les mettre dans l'ordre.
+
+    Si \( \Delta=0\), alors il y a une seule racine, qui coïncide avec le sommet : \( x_1=x_2=x_0=-b/2a\). Dans ce cas le tableau de signe est :
+    \begin{multicols}{2}
+        \begin{center}
+            Si \( a>0\)
+    \begin{equation*}
+        \begin{array}[]{|c||c|c|c|}
+            \hline
+            x&&-\frac{ b }{ 2a }&\\
+              \hline\hline
+              f(x)&+&0&+\\ 
+              \hline 
+               \end{array}
+           \end{equation*}
+            
+           \columnbreak
+            Si \( a>0\)
+    \begin{equation*}
+        \begin{array}[]{|c||c|c|c|}
+            \hline
+            x&&-\frac{ b }{ 2a }&\\
+              \hline\hline
+              f(x)&-&0&-\\ 
+              \hline 
+               \end{array}
+           \end{equation*}
+            
+        \end{center}
+    \end{multicols}
+
+    En ce qui concerne le tableau de variations nous avons
+    \begin{multicols}{2}
+        \begin{center}
+            
+
+            Si \( a>0\)
+            \begin{equation*}
+                \begin{array}[]{c|ccccc}
+                    x&-\infty&&-\frac{ b }{ 2a }&&\infty\\
+                    \hline\hline
+                    &\infty&&&&\infty\\
+                    f(x)&&\searrow&&\nearrow&\\
+                    &&&f\left( -\frac{ b }{ 2a } \right)&&\\
+                \end{array}
+            \end{equation*}
+            \columnbreak
+
+            Si \( a<0\)
+            \begin{equation*}
+                \begin{array}[]{c|ccccc}
+                    x&-\infty&&-\frac{ b }{ 2a }&&\infty\\
+                    \hline\hline
+                    &&&f\left( -\frac{ b }{ 2a } \right)&&\\
+                    f(x)&&\nearrow&&\searrow&\\
+                    &-\infty&&&&-\infty\\
+                \end{array}
+            \end{equation*}
+            
+        \end{center}
+    \end{multicols}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices sur le second degré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -601,6 +692,7 @@ Enfin, la courbe représentative de \( f(x)=ax^2+bx+c\) est tournée vers le hau
 \Exo{Premiere-0062}
 \Exo{Premiere-0024}                                                                                                                                  
 \Exo{Premiere-0061}
+\Exo{Premiere-0089}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Trouver des paraboles vérifiant certaines conditions}
@@ -613,7 +705,6 @@ Enfin, la courbe représentative de \( f(x)=ax^2+bx+c\) est tournée vers le hau
 \subsection{Lecture de graphiques}
 %---------------------------------------------------------------------------------------------------------------------------
 
-
 \Exo{Premiere-0032}
 \Exo{Premiere-0059}
 \Exo{Premiere-0060}
@@ -623,8 +714,6 @@ Enfin, la courbe représentative de \( f(x)=ax^2+bx+c\) est tournée vers le hau
 \subsection{Résolution}
 %---------------------------------------------------------------------------------------------------------------------------
 
-% Résolution
-
 \Exo{Premiere-0069}
 \Exo{Premiere-0046}
 
@@ -633,6 +722,8 @@ Enfin, la courbe représentative de \( f(x)=ax^2+bx+c\) est tournée vers le hau
 %---------------------------------------------------------------------------------------------------------------------------
 
 \Exo{Premiere-0047}
+\Exo{Premiere-0084}
+\Exo{Premiere-0085}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Problèmes}

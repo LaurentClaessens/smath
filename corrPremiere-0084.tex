@@ -5,6 +5,45 @@
 
 \begin{corrige}{Premiere-0084}
 
-<+CorrPremiere-0084+>
+    Nous devons écrire le tableau de signe, et pour cela nous devons savoir les deux racines. D'abord nous identifions
+    \begin{subequations}
+        \begin{numcases}{}
+            a=-1\\
+            b=-4\\
+            c=5
+        \end{numcases}
+    \end{subequations}
+    et nous calculons le discriminant
+    \begin{equation}
+        \Delta=(-4)^2-4\times (-1)\times 5=16+20=36,
+    \end{equation}
+    et \( \sqrt{\Delta}=\sqrt{36}=6\). Nous avons alors
+    \begin{subequations}
+        \begin{align}
+            x_1&=\frac{ 4+6 }{ -2 }=-5\\
+            x_2&=\frac{ 4-6 }{ -2 }=1.
+        \end{align}
+    \end{subequations}
+    La factorisation est donc
+    \begin{equation}
+        -x^2-4x+5=-(x+5)(x-1).
+    \end{equation}
+    À ce niveau, vous êtes vivement encouragés à développer le membre de droite pour être sûr qu'il est bien égal au membre de gauche. Le tableau de signe est alors
+    \begin{equation*}
+        \begin{array}[]{c|ccccc}
+            \hline
+            x&&-5&&1&\\
+            \hline\hline
+            -1&-&-&-&-&-\\
+            x+5&-&0&+&+&+\\
+            x-1&-&-&-&0&+\\
+            \hline
+            -(x+5)(x-1)&-&0&+&0&-\\
+        \end{array}
+    \end{equation*}
+    Les valeurs de \( x\) pour lesquelles \( f(x)\geq 0\) sont les valeurs sur lesquelles nous lisons un \( +\) ou un \( 0\) dans le tableau. Cela donne :
+    \begin{equation}
+        x\in\mathopen[ -5 , 1 \mathclose].
+    \end{equation}
 
 \end{corrige}
