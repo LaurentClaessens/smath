@@ -461,9 +461,9 @@ print(frequences)
 
 L'exécution devrait donner quelque chose du type
 \begin{quote}
-    \info{[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 1, 2, 8, 9, 9, 18, 42, 24, 66, 63, 79, 105, 106, 107, 88, 83, 63, 43, 37, 19, 10, 9, 3, 1, 0, 0, 0, 0, 1]}
+{0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 0, 17: 0, 18: 0, 19: 0, 20: 0, 21: 0, 22: 0, 23: 0, 24: 0, 25: 0, 26: 0, 27: 0, 28: 0, 29: 0, 30: 0, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 0, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 0, 63: 0, 64: 0, 65: 2, 66: 3, 67: 12, 68: 20, 69: 27, 70: 64, 71: 106, 72: 144, 73: 216, 74: 313, 75: 453, 76: 549, 77: 695, 78: 880, 79: 898, 80: 955, 81: 991, 82: 956, 83: 774, 84: 649, 85: 501, 86: 335, 87: 207, 88: 135, 89: 71, 90: 25, 91: 12, 92: 3, 93: 2, 94: 1}
 \end{quote}
-Notons que dans cet exemple, sur \( 1000\) essais, une fois nous avons obtenu cent fois le \( 1\).
+Cela est un «dictionnaire» qui donne pour chaque nombre \( x\) entre \( 0\) et \( 100\) donne le nombre de fois, qu'en $10000$ simulations, on a obtenu \( x\) fois \( 1\). Dans cet exemple, sur les dix mille simulations de \( 100\) épreuves de Bernoulli, nous avons obtenu \( 898\) fois \( 78\) succès, \( 955\) fois \( 80\) succès, \( 2\) fois \( 65\) succès, etc.
 
 Et enfin, nous voudrions dessiner un graphique en barre de cette liste. Il est bien entendu possible de créer un bel histogramme en python, comme \href{http://matplotlib.org/users/screenshots.html}{montré ici}. Cependant, juste pour dire qu'on utilise un tableur, et pour montrer une fonctionnalité trop peu connue dudit tableur, nous allons créer l'histogramme avec un tableur.
 
