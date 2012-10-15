@@ -54,6 +54,36 @@ Commençons par jouer deux fois et dessinons un arbre.
 \end{example}
 
 
+
+\begin{definition}
+    Toute expérience aléatoire conduisant à deux issues possibles (appelées \emph{échec} ou \emph{succès}) est une \defe{épreuve de Bernoulli}{Bernoulli!épreuve}. Nous noterons \( p\) la probabilité du succès. La probabilité de l'échec sera alors \( 1-p\).
+\end{definition}
+
+\begin{example}
+    Nous lançons un dé et nous nommons «succès» l'événement «le \( 6\) sort». Cela est une épreuve de Bernoulli avec \( p=1/6\).
+\end{example}
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{La probabilité n'est en pratique pas toujours connue}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
+    Demandez à un de vos amis si il aime réciter des vers de Corneille en réunion de famille.
+
+    Vous noterez que cela est bien une épreuve de Bernoulli, mais qu'il vous est plus ou moins impossible d'en estimer la probabilité de succès a priori. Au mieux vous pouvez dire «j'espère bien qu'aucun de mes amis n'a ce genre de hobbies».
+    
+\end{example}
+
+\begin{example}
+    Choisissez une voiture au hasard dans une file, et considérer l'événement «le conducteur est en train téléphoner». Ici encore il s'agit d'une épreuve de Bernoulli, mais il n'est pas possible d'en donner la probabilité.
+\end{example}
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{À propos de l'hypothèse de remise}
+%---------------------------------------------------------------------------------------------------------------------------
+
 \begin{example}
     Dans une classe de \( 31\) élèves, \( 19\) sont nés en \( 1996\). Si nous en prenons un au hasard, nous avons donc une probabilité environ \( 0.61\) qu'il soit né en \( 1996\). Que penser de cet arbre où l'on note «O»  l'événement «avoir tiré un élève de \( 1996\)» et «N» l'événement contraire ?
    
@@ -96,6 +126,7 @@ Commençons par jouer deux fois et dessinons un arbre.
                 \end{array}
             \end{equation}
 
+            Les nombres dans le tableaux ne sont pas tellement différents. Dans certains cas, l'approximation «avec remise» est justifiée.
 \end{example}
 
 \begin{example}
@@ -105,25 +136,6 @@ Commençons par jouer deux fois et dessinons un arbre.
 \end{example}
 
 
-\begin{definition}
-    Toute expérience aléatoire conduisant à deux issues possibles (appelées \emph{échec} ou \emph{succès}) est une \defe{épreuve de Bernoulli}{Bernoulli!épreuve}. Nous noterons \( p\) la probabilité du succès. La probabilité de l'échec sera alors \( 1-p\).
-\end{definition}
-
-\begin{example}
-    Nous lançons un dé et nous nommons «succès» l'événement «le \( 6\) sort». Cela est une épreuve de Bernoulli avec \( p=1/6\).
-\end{example}
-
-\begin{example}
-    
-    Demandez à un de vos amis si il aime réciter des vers de Corneille en réunion de famille.
-
-    Vous noterez que cela est bien une épreuve de Bernoulli, mais qu'il vous est plus ou moins impossible d'en estimer la probabilité de succès a priori. Au mieux vous pouvez dire «j'espère bien qu'aucun de mes amis n'a ce genre de hobbies».
-    
-\end{example}
-
-\begin{example}
-    Choisissez une voiture au hasard dans une file, et considérer l'événement «le conducteur est en train téléphoner». Ici encore il s'agit d'une épreuve de Bernoulli, mais il n'est pas possible d'en donner la probabilité.
-\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Schéma de Bernoulli}
@@ -321,7 +333,6 @@ Cela permet de calculer des probabilités en ayant seulement à disposition une 
 \begin{example}
     Pour calculer à moindres frais la probabilité \( p\) qu'un événement se produise au moins une fois, il suffit de calculer la probabilité \( q\) qu'il ne se produise pas du tout. La probabilité cherchée est alors \( p=1-q\).
 \end{example}
-<++>
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Simuler un schéma de Bernoulli avec un ordinateur}
@@ -340,6 +351,14 @@ Le programme suivant est celui écrit par votre serviteur pour produire les rés
 \lstinputlisting{simul_Bernoulli.py}
 
 Une simulation pas à pas en python pour construire un histogramme de schéma de Bernoulli est donné à la section \ref{SecSimulBernrfNskC}.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Les commandes toutes faites}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Nous construisons une variable aléatoire \( X\) suivant une loi binomiale de paramètres \( n\) et \( p\) avec
+
+\lstinputlisting{ex_sage_binomiale.py}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
@@ -371,3 +390,4 @@ Une simulation pas à pas en python pour construire un histogramme de schéma de
 
 \Exo{Premiere-0087}
 \Exo{Premiere-0088}
+\Exo{Premiere-0091}
