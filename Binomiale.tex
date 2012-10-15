@@ -264,6 +264,18 @@ Quelque propriétés intuitives.
 \section{La loi binomiale}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+Nous considérons un schéma de Bernoulli de paramètres \( n\) et \( p\).
+\begin{Aretenir}
+    Si \( X\) est la «variable aléatoire» donnant le nombre de succès du schéma (qui est un nombre entier entre \( 0\) et \( n\)), nous disons que \( X\) suit la \defe{loi binomiale}{loi binomiale} de paramètres \( n\) et \( p\), et nous notons \( X\sim B(n,p)\).
+
+    Nous disons que l'événement \( \{ X=k \}\) est réalisé lorsque le schéma de Bernoulli a obtenu exactement \( k\) succès sur les \( n\) épreuves. La probabilité de cet événement est notée \( P(X=k)\).
+
+    Nous disons que l'événement \( \{ X<k \}\) est réalisé lorsque le nombre de succès obtenu est strictement inférieur à \( k\). La probabilité que cela arrive est notée \( P(X<k)\).
+
+    Les événements et probabilités \( \{ X\geq k \}\), \( P(X>k)\) etc. sont définies de façon analogue.
+\end{Aretenir}
+
+
 Nous voudrions établir une formule donnant \( P(X=k)\) pour une variable aléatoire \( X\) suivant la loi binomiale de paramètres \( n\) et \( p\). Nous allons raisonner sur \( n=100\) et \( p=\frac{ 7 }{ 10 }\). Dans ce cas, le nombre \( P(X=k)\) est la probabilité d'obtenir exactement \( k\) succès en \( 100\) essais d'une épreuve ayant une probabilité \( 0.7\) de réussite.
 
 L'arbre de \( 100\) tirages est évidemment compliqué à dessiner, mais nous comprenons que les chemins qui mènent à \( X=k\) sont les chemins qui prennent \( k\) fois la bifurcation de la réussite et \( 100-k\) fois la bifurcation de l'échec. Chacun de ces chemins a une probabilité de
@@ -299,6 +311,18 @@ En particulier nous avons
 \end{equation}
 Cela permet de calculer des probabilités en ayant seulement à disposition une table de probabilité cumulée.
 
+\begin{Aretenir}
+     La somme des probabilités de deux événements contraire doit faire \( 1\). Donc
+    \begin{equation}
+        P(x>k)=1-P(x\leq k).
+    \end{equation}
+\end{Aretenir}
+
+\begin{example}
+    Pour calculer à moindres frais la probabilité \( p\) qu'un événement se produise au moins une fois, il suffit de calculer la probabilité \( q\) qu'il ne se produise pas du tout. La probabilité cherchée est alors \( p=1-q\).
+\end{example}
+<++>
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Simuler un schéma de Bernoulli avec un ordinateur}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -312,7 +336,7 @@ La majorité des tableurs comme \wikipedia{fr}{Libreoffice}{LibreOffice} ou \wik
 Il est cependant instructif d'en construire un par nous même. Par exemple ceci écrit «succès» avec une probabilité \( 0.6\).
 \lstinputlisting{ex_random_binomiale.py}
 
-Le programme suivant est celui écrit par votre serviteur pour produire les résultats et graphiques présentés plus haut.
+Le programme suivant est celui écrit par votre serviteur pour produire les résultats et graphiques présentés plus haut. Attention : il est écrit pour \href{http://sagemath.org}{sage} et utilise donc la syntaxe de Python 2.x. La principale différence est qu'il n'y a pas de parenthèse pour \info{print}.
 \lstinputlisting{simul_Bernoulli.py}
 
 Une simulation pas à pas en python pour construire un histogramme de schéma de Bernoulli est donné à la section \ref{SecSimulBernrfNskC}.
