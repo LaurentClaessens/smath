@@ -53,6 +53,7 @@ def PythagoreeBqLDU():
     pspict.DrawGraphs(By,Ay,Ax,Bx,AB,AC,BC,s,measureBC,measureAC,A,B,C)
     pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
 

@@ -19,5 +19,6 @@ def ParaboleHautMLbPQF():
     pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
 
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

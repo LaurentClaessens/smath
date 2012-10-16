@@ -12,5 +12,7 @@ def ParaboleUniqueHautviflbY():
     pspict.axes.no_graduation()
     pspict.axes.draw_single_axeY=False
     pspict.DrawDefaultAxes()
+
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

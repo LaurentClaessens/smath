@@ -20,5 +20,7 @@ def ParaboleHautjOEAzn():
     pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
     pspict.axes.draw_single_axeY=False
+
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
