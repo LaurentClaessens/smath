@@ -5,6 +5,18 @@
 
 \begin{corrige}{Premiere-0093}
 
-<+CorrPremiere-0093+>
+    \begin{enumerate}
+        \item
+            Chaque choix de résistance peut donner deux résultats : défectueux ou non. La probabilité de «réussite» est \( 0.02\). Notons qu'ici la «réussite» est l'obtention d'une pièce défectueuse; il n'y a pas spécialement de caractère péjoratif au mot «échec» ni de connotation positive au mot «succès». Donc chaque résistance est une épreuve de Bernoulli de paramètre \( p=0.02\).
+
+            Vu que les \( 50\) prélèvement de résistances sont effectués de façon indépendante et que la variable aléatoire \( x\) est le nombre de succès parmi les \( 50\) tests, le tout forme un schéma de Bernoulli de paramètres \( n=50\) et \( p=0.02\).
+        \item
+            L'espérance est \( E(X)=np=50\times 0.02=1\).
+        \item
+            Si on effectue un grand nombre de tests de qualité (chacun portant sue \( 50\) résistances), alors en moyenne nous devrions trouver une pièce défectueuse à chaque test.
+    \end{enumerate}
+    Ce type de calculs est surtout à utiliser dans le sens inverse. D'une part si lors de trois contrôles de qualité d'affilée nous trouvons \( 2\) pièces défectueuses, alors le responsable de l'usine devra commencer à se poser des questions sur sa chaîne de production.
+    
+    D'autre part c'est en effectuant ce genre de tests et en regardant le nombre de pièces défectueuses que l'usine détermine sa proportion de pièces défectueuses.
 
 \end{corrige}
