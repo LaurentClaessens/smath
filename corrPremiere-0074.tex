@@ -5,6 +5,40 @@
 
 \begin{corrige}{Premiere-0074}
 
-<+CorrPremiere-0074+>
+    \begin{enumerate}
+        \item
+    L'arbre est le suivant. Nous avons noté \( C\) le fait d'obtenir un cœur et \( \bar C\) le fait d'obtenir autre chose. Par exemple la case \( \bar CC\) correspond à avoir tiré d'abord autre chose qu'un cœur et ensuite un cœur.
+    \begin{equation}
+    \xymatrix{%
+        &&&\boxed{CCC}\\
+        &&\boxed{CC}\ar[ur]^{\frac{1}{ 4 }}\ar[rd]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{CC \bar C}\\
+        &\boxed{C}\ar[uur]^{\frac{1}{ 4 }}\ar[ddr]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{C \bar C  C}\\
+        &&\boxed{C \bar C}\ar[ur]^{\frac{1}{ 4 }}\ar[dr]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{C \bar C\bar C}\\
+        \boxed{\text{Début}}\ar[ruuuu]^{\frac{1}{ 4 }}\ar[rdddd]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{\bar  C C C}\\
+        &&\boxed{ \bar C C}\ar[ur]^{\frac{1}{ 4 }}\ar[dr]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{ \bar C \bar C C}\\
+        &\boxed{ \bar C}\ar[uur]^{\frac{1}{ 4 }}\ar[ddr]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{ \bar C \bar C C}\\
+        &&\boxed{\bar C\bar C}\ar[ur]^{\frac{1}{ 4 }}\ar[dr]_{\frac{ 3 }{ 4 }}\\
+        &&&\boxed{ \bar C \bar C  \bar C}\\
+       }
+    \end{equation}
+
+        \item
+            La seule case qui correspond à avoir trois fois le cœur est la case \( CCC\) qui a une probabilité \( \left( \frac{1}{ 4 } \right)^3\) qui vaut donc \( \frac{1}{ 64 }\).
+        \item
+            De la même façon, la seule case qui correspond à aucun cœur est la case \(\ bar C\bar C \bar C\) dont la probabilité est \( \left( \frac{ 3 }{ 4 } \right)^3\approx 0.42\).
+        \item
+            Il y a trois cases qui contiennent deux fois le cœur : \( CC\bar C\), \( C\bar C C\), \( \bar C CC\). Elles ont toutes les trois une probabilité 
+            \begin{equation}
+                \frac{1}{ 4 }\times\frac{1}{ 4 }\times \frac{ 3 }{ 4 }\approx 0.047.
+            \end{equation}
+            En multipliant par trois, la probabilité d'avoir deux cœurs est \( 0.14\).
+
+    \end{enumerate}
 
 \end{corrige}
