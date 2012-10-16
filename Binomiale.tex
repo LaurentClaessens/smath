@@ -220,6 +220,8 @@ Quelque propriétés intuitives.
         Il y a un maximum sur \( 50\) parce que lorsqu'on tire \( 100\) fois une pièce, on a un maximum de chances d'avoir \( 50\) fois pile et \( 50\) fois face.
     \item
         Le dessin doit être symétrique. Il y a a priori autant de chances d'avoir \( 48\) faces et \( 52\) pile que le contraire.
+
+        En réalité, la courbe n'est pas exactement symétrique, mais plus les nombres sont grands, plus ça y ressemble.
     \item
         La courbe doit valoir à peu près zéro pour les petits et les grands nombres : nous sommes d'accord que la probabilité d'obtenir \( 95\) fois face sur \( 100\) lancers est à peu près le vide interstellaire.
 \end{enumerate}
@@ -358,7 +360,9 @@ Une simulation pas à pas en python pour construire un histogramme de schéma de
 
 Nous construisons une variable aléatoire \( X\) suivant une loi binomiale de paramètres \( n\) et \( p\) avec
 
-\lstinputlisting{ex_sage_binomiale.py}
+\lstinputlisting{ex_binomiale1.py}
+donne
+\lstinputlisting[title=Résultat]{res_ex_binomiale1.txt}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
@@ -391,3 +395,4 @@ Nous construisons une variable aléatoire \( X\) suivant une loi binomiale de pa
 \Exo{Premiere-0087}
 \Exo{Premiere-0088}
 \Exo{Premiere-0091}
+\Exo{Premiere-0092}

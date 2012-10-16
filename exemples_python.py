@@ -20,32 +20,9 @@ def resultat(scriptname):
         
 
 liste_tests=[
-"ex_listes",
-"ex_listes2",
-"ex_listes3",
-"chaussures",
-"mediane",
-"premier_quartile",
-"recurrence2",
-"exemple_ceil",
-"ex_fonction" ,
-"ex_fonction2" ,
-"ex_fonction3" ,
-"ex_fonction4" ,
-"ex_print",
-"ex_for1" ,
-"ex_join1" ,
-"ex_join2" ,
-"ex_split1" ,
-"ex_triple" ,
-"ex_triple2" ,
-"ex_texte1",
-"ex_texte2",
-"ex_texte3",
-"ex_graphe"
-]
+"ex_listes", "ex_listes2", "ex_listes3", "chaussures", "mediane", "premier_quartile", "recurrence2", "exemple_ceil", "ex_fonction" , "ex_fonction2" , "ex_fonction3" , "ex_fonction4" , "ex_print", "ex_for1" , "ex_join1" , "ex_join2" , "ex_split1" , "ex_triple" , "ex_triple2" , "ex_texte1", "ex_texte2", "ex_texte3", "ex_graphe", "ex_binomiale1" ]
 
-liste_tests=["ex_graphe"]
+liste_tests=liste_tests[-1:]
 
 for res in liste_tests:
     resultat(res)
