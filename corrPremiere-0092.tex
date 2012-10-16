@@ -8,6 +8,20 @@
     \begin{enumerate}
         \item
             Chaque question est une expérience aléatoire ayant une probabilité \( \frac{1}{ 4 }\) de succès. Les différentes questions étant indépendantes, le nombre total de succès après \( 5\) tels expériences suit une loi binomiale \( B(5,0.25)\).
+        \item
+            Le programme suivant donne les probabilités \( P(X<k)\) pour \( k\) entre \( 0\) et \( 5\) :
+\lstinputlisting{ex_binomiale2.py}
+Le résultat est :
+\lstinputlisting[title=Résultat]{res_ex_binomiale2.txt}
+            Nous voyons que la probabilité d'obtenir zéro réponses correctes est \( 0.23\). La probabilité d'en obtenir au maximum une est de \( 0.63\). Cela signifie qu'avec une probabilité \( 0.63\), un élève ne peut pas obtenir deux réponses correctes.
+
+            Enfin, la ligne qui nous intéresse est celle qui dit que \( P(X\leq 3)\approx 0.98\). C'est à dire qu'avec une probabilité \( 0.98\) l'élève ne pourra pas dépasser les \( 3/5\).
+
+        \item
+\lstinputlisting{ex_binomiale3.py}
+donne
+\lstinputlisting[title=Résultat]{res_ex_binomiale3.txt}
+
     \end{enumerate}
     <++>
 
