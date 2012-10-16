@@ -65,71 +65,6 @@ Commençons par jouer deux fois et dessinons un arbre.
 \end{example}
 
 
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{La probabilité n'est en pratique pas toujours connue}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\begin{example}
-    Demandez à un de vos amis si il aime réciter des vers de Corneille en réunion de famille.
-
-    Vous noterez que cela est bien une épreuve de Bernoulli, mais qu'il vous est plus ou moins impossible d'en estimer la probabilité de succès a priori. Au mieux vous pouvez dire «j'espère bien qu'aucun de mes amis n'a ce genre de hobbies».
-    
-\end{example}
-
-\begin{example}
-    Choisissez une voiture au hasard dans une file, et considérer l'événement «le conducteur est en train téléphoner». Ici encore il s'agit d'une épreuve de Bernoulli, mais il n'est pas possible d'en donner la probabilité.
-\end{example}
-
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{À propos de l'hypothèse de remise}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\begin{example}
-    Dans une classe de \( 31\) élèves, \( 19\) sont nés en \( 1996\). Si nous en prenons un au hasard, nous avons donc une probabilité environ \( 0.61\) qu'il soit né en \( 1996\). Que penser de cet arbre où l'on note «O»  l'événement «avoir tiré un élève de \( 1996\)» et «N» l'événement contraire ?
-   
-            \begin{equation*}
-            \xymatrix{%
-                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
-                &\fbox{O}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}\\
-                \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
-               }
-            \end{equation*}
-
-            Nous pouvons écrire le tableau
-            \begin{equation}
-                \begin{array}[]{|c|c|c|c|}
-                    \hline
-                    k&0&1&2\\
-                    \hline\hline
-                    P(X=k)&0.375&0.474&0.15\\
-                    \hline
-                \end{array}
-            \end{equation}
-
-
-    Si il n'y a pas de remise, alors l'arbre devrait ressembler plutôt à ceci :
-            \begin{equation*}
-            \xymatrix{%
-                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
-                &\fbox{O}\ar[ld]_{\frac{ 18 }{30}}\ar[rd]^{\frac{ 12 }{30}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{30}}\ar[rd]^{\frac{ 11 }{30}}\\
-                \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
-               }
-            \end{equation*}
-            et le tableau devient
-            \begin{equation}
-                \begin{array}[]{|c|c|c|c|}
-                    \hline
-                    k&0&1&2\\
-                    \hline\hline
-                    P(X=k)&0.368&0.49&0.142\\
-                    \hline
-                \end{array}
-            \end{equation}
-
-            Les nombres dans le tableaux ne sont pas tellement différents. Dans certains cas, l'approximation «avec remise» est justifiée.
-\end{example}
-
 \begin{example}
     Supposons que nous jouons au poker avec un paquet de \( 52\) cartes. Si nous avons déjà trois as en main, il reste \( 49\) cartes dans le paquet, et parmi ces \( 49\) cartes, un seul as. Nous avons donc une chance sur \( 49\) de réussir un carré en échangeant une carte.
 
@@ -294,6 +229,9 @@ Nous considérons un schéma de Bernoulli de paramètres \( n\) et \( p\).
     Les événements et probabilités \( \{ X\geq k \}\), \( P(X>k)\) etc. sont définies de façon analogue.
 \end{Aretenir}
 
+\begin{Enmini}
+    Nous nous intéressons à des cas où nous répétons une expérience plusieurs fois et nous comptons le nombre de fois que l'expérience est réussie.
+\end{Enmini}
 
 Nous voudrions établir une formule donnant \( P(X=k)\) pour une variable aléatoire \( X\) suivant la loi binomiale de paramètres \( n\) et \( p\). Nous allons raisonner sur \( n=100\) et \( p=\frac{ 7 }{ 10 }\). Dans ce cas, le nombre \( P(X=k)\) est la probabilité d'obtenir exactement \( k\) succès en \( 100\) essais d'une épreuve ayant une probabilité \( 0.7\) de réussite.
 
@@ -399,6 +337,75 @@ Nous construisons une variable aléatoire \( X\) suivant une loi binomiale de pa
 \lstinputlisting{ex_binomiale1.py}
 donne
 \lstinputlisting[title=Résultat]{res_ex_binomiale1.txt}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Compléments}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{La probabilité n'est en pratique pas toujours connue}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
+    Demandez à un de vos amis si il aime réciter des vers de Corneille en réunion de famille.
+
+    Vous noterez que cela est bien une épreuve de Bernoulli, mais qu'il vous est plus ou moins impossible d'en estimer la probabilité de succès a priori. Au mieux vous pouvez dire «j'espère bien qu'aucun de mes amis n'a ce genre de hobbies».
+    
+\end{example}
+
+\begin{example}
+    Choisissez une voiture au hasard dans une file, et considérer l'événement «le conducteur est en train téléphoner». Ici encore il s'agit d'une épreuve de Bernoulli, mais il n'est pas possible d'en donner la probabilité.
+\end{example}
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{À propos de l'hypothèse de remise}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
+    Dans une classe de \( 31\) élèves, \( 19\) sont nés en \( 1996\). Si nous en prenons un au hasard, nous avons donc une probabilité environ \( 0.61\) qu'il soit né en \( 1996\). Que penser de cet arbre où l'on note «O»  l'événement «avoir tiré un élève de \( 1996\)» et «N» l'événement contraire ?
+   
+            \begin{equation*}
+            \xymatrix{%
+                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
+                &\fbox{O}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}\\
+                \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
+               }
+            \end{equation*}
+
+            Nous pouvons écrire le tableau
+            \begin{equation}
+                \begin{array}[]{|c|c|c|c|}
+                    \hline
+                    k&0&1&2\\
+                    \hline\hline
+                    P(X=k)&0.375&0.474&0.15\\
+                    \hline
+                \end{array}
+            \end{equation}
+
+
+    Si il n'y a pas de remise, alors l'arbre devrait ressembler plutôt à ceci :
+            \begin{equation*}
+            \xymatrix{%
+                &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
+                &\fbox{O}\ar[ld]_{\frac{ 18 }{30}}\ar[rd]^{\frac{ 12 }{30}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{30}}\ar[rd]^{\frac{ 11 }{30}}\\
+                \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
+               }
+            \end{equation*}
+            et le tableau devient
+            \begin{equation}
+                \begin{array}[]{|c|c|c|c|}
+                    \hline
+                    k&0&1&2\\
+                    \hline\hline
+                    P(X=k)&0.368&0.49&0.142\\
+                    \hline
+                \end{array}
+            \end{equation}
+
+            Les nombres dans le tableaux ne sont pas tellement différents. Dans certains cas, l'approximation «avec remise» est justifiée.
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
