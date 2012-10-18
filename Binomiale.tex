@@ -7,8 +7,7 @@
 \section{Épreuve de Bernoulli}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Source : \cite{YDRqwN}
-% TODO : ajouter la citation du fichier de ressource de eduscol Ressource_Statistiques_Probabilites_1eres_208596.pdf
+Source : \cite{YDRqwN,ReQxlX,JqcbOc}
 
 Nous jouons à pile ou face avec une pièce non truquée. Nous avons donc une chance sur deux d'obtenir pile et une chance sur deux d'obtenir face. Nous sommes intéressé par le nombre de fois que nous obtenons pile en jouant souvent.
 
@@ -71,8 +70,6 @@ Commençons par jouer deux fois et dessinons un arbre.
     Si par contre nous jouons avec des dés, la probabilité de lancer un quatrième as est de une sur six; la différence est énorme.
 \end{example}
 
-
-
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Schéma de Bernoulli}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -82,89 +79,6 @@ Commençons par jouer deux fois et dessinons un arbre.
 \end{definition}
 Nous allons nous intéresser au nombre de succès d'un schéma de Bernoulli de probabilité \( p\).
 
-Reprenons notre arbre de choix d'élèves en fonction de l'année de naissance.
-
-\begin{equation*}
-\xymatrix{%
-    &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
-    &\fbox{O}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}\\
-    \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
-   }
-\end{equation*}
-Nous notons \( P(X=0)\) la probabilité de tirer zéro élèves nés en \( 1996\); \( P(X=1)\) la probabilité d'en tirer (exactement \( 1\)); \( P(X=2)\) est la probabilité d'en tirer deux. En suivant la logique, \( P(X=3)\) est nul parce que de toutes façons, on n'en tire que deux. Étudions les cas.
-
-Nous commençons par calculer \( P(X=0)\). Pour obtenir aucun étudiant nés en \( 1996\) en en tirant deux, il faut d'abord en tirer un qui n'est pas né en \( 1996\) (probabilité : \( \frac{ 12 }{ 13 }\)) puis en tirer un second (probabilité : \( \frac{ 12 }{ 13 }\) encore). Du coup la probabilité est
-\begin{equation}
-    P(X=0)=\left( \frac{ 12 }{ 31 } \right)^2,
-\end{equation}
-c'est à dire environ\footnote{Encore une fois : méfiez vous des approximations numériques. Vous n'accepteriez pas de confier votre vie à un calcul qui a arrondi la seconde décimale d'une probabilité.} \( 0.15\).
-
-Calculons maintenant \( P(X=1)\). Nous repérons dans le tableau les cases qui correspondent à un élève né en \( 1996\) et un élève non né en \( 1996\). Ce sont les cases \( ON\) et \( NO\). En suivant les branches de l'arbre, la probabilité d'obtenir le \( ON\) est 
-\begin{equation}
-    P(ON)=\frac{ 19 }{ 31 }\times \frac{ 12 }{ 31 },
-\end{equation}
-tandis que l'autre est
-\begin{equation}
-    P(NO)=\frac{ 12 }{ 31 }\times \frac{ 19 }{ 31 }.
-\end{equation}
-Notons que c'est la même. La probabilité totale de pêcher \emph{exactement} un élève de \( 1996\) en en pêchant deux au hasard dans la classe est
-\begin{equation}
-    P(X=1)=2\times\frac{ 12 }{ 31 }\times \frac{ 19 }{ 31 }=\frac{ 456 }{ 961 },
-\end{equation}
-qui est environ \( 0.47\). Presque une chance sur deux.
-
-Enfin, calculons la probabilité d'en tirer deux est donnée par la case \( OO\) de l'arbre et sa probabilité est
-\begin{equation}
-    P(X=2)=\left( \frac{ 19 }{ 31 } \right)^2
-\end{equation}
-qui est environ \( 0.37\).
-
-
-\begin{example}
-Nous effectuons \( 50\) lancers de pile ou face et nous comptons le nombre de réussite.
-
-Par exemple :\\
-P F P P P P F F F F F F F P P P P P F P F F P P F F F F F F P P F F F F P F F F F P P P P F F F F P \\
- total : 29 F et  21 P
- 
-Un autre exemple :
-
-F F P P P P F P P P F P P P F F F F F P F F P P P P P F F F P P P F F P F F F P F P P P F P F P P F \\
- total : 23 F et  27 P
-
- Intuitivement, nous imaginons que nous devrions toujours obtenir autour de \( 25\) piles et \( 25\) faces.
-    
-\end{example}
-
-\begin{example}
-
-Effectuons dix mille fois les cent lancers et traçons un diagramme en bâtons décrivant le nombre de fois que nous avons obtenu chaque quantité de «piles».
-
-Les diagrammes en bâtons de la figure \ref{LabelFigSimulBinNWxfTN} % From file SimulBinNWxfTN
-représentent, en fonction de \( k\), le nombre de fois qu'on a obtenu exactement \( k\) fois pile en jouant \( 10\), \( 100\) et \( 10000\) fois à pile ou face.
-\newcommand{\CaptionFigSimulBinNWxfTN}{Jouer à pile ou face un certain nombre de fois, et s'intéresser au nombre de fois que le «pile» sort.}
-\input{Fig_SimulBinNWxfTN.pstricks}
-
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
-
-Quelque propriétés intuitives.
-\begin{enumerate}
-    \item
-        Il y a un maximum sur \( 50\) parce que lorsqu'on tire \( 100\) fois une pièce, on a un maximum de chances d'avoir \( 50\) fois pile et \( 50\) fois face.
-    \item
-        Le dessin doit être symétrique. Il y a a priori autant de chances d'avoir \( 48\) faces et \( 52\) pile que le contraire.
-
-        En réalité, la courbe n'est pas exactement symétrique, mais plus les nombres sont grands, plus ça y ressemble.
-    \item
-        La courbe doit valoir à peu près zéro pour les petits et les grands nombres : nous sommes d'accord que la probabilité d'obtenir \( 95\) fois face sur \( 100\) lancers est à peu près le vide interstellaire.
-\end{enumerate}
-    
-\end{example}
-
-\newpage
 \begin{example}
     Nous jouons au poker avec des dés. Un dé a \( 6\) face : as, roi, dame, valet, \( 10\), \( 9\). Nous voulons obtenir une paire de valet en lançant trois dés (nous estimons qu'un brelan de valet est une réussite). Voici l'arbre.
 
@@ -250,6 +164,11 @@ Le nombre de chemins est passablement compliqué à calculer. Heureusement, il y
     \begin{equation}
         P(X=k)={n\choose k}p^{k}(1-p)^{n-k}.
     \end{equation}
+    Si \( n\) est un entier positif et si \( k\) est un entier compris entre \( 0\) et \( n\), alors on note
+    \[
+        {k\choose n}
+    \]
+    le nombre de chemins qui réalisent exactement \( k\) succès dans un arbre à \( n\) niveaux. C'est aussi le nombre de façon d'écrire une suite de \( n\) «S» et «E» contenant exactement (ni plus ni moins) \( k\) fois le «S».
 \end{Aretenir}
 
 Nous notons \( P(X\leq k)\) la probabilité que le nombre de succès soit plus petite ou égale à \( k\); nous avons par exemple
@@ -311,6 +230,58 @@ Note : la valeur vers laquelle la moyenne doit tendre est \( \frac{ 100 }{ 6 }\a
 L'espérance est la tendance à long terme de la moyenne.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Graphiques et tendance à long terme}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous parlons de \defe{grande binomiale}{grande binomiale}\index{binomiale!grande} si \( n\geq 25\) et \( 0.2<p<0.8\), c'est à dire si la probabilité de réussir une épreuve n'est ni trop faible ni trop grande, et si en même temps le nombre d'essais n'est pas trop petit. Une binomiale est une \defe{petite binomiale}{petite binomiale}\index{binomiale!petite} sinon.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Quel graphique voulons-nous tracer ?}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
+
+Effectuons dix mille fois les cent lancers et traçons un diagramme en bâtons décrivant le nombre de fois que nous avons obtenu chaque quantité de «piles».
+
+Les diagrammes en bâtons de la figure \ref{LabelFigSimulBinNWxfTN} % From file SimulBinNWxfTN
+représentent, en fonction de \( k\), le nombre de fois qu'on a obtenu exactement \( k\) fois pile en jouant \( 10\), \( 100\) et \( 10000\) fois à pile ou face.
+\newcommand{\CaptionFigSimulBinNWxfTN}{Jouer à pile ou face un certain nombre de fois, et s'intéresser au nombre de fois que le «pile» sort.}
+\input{Fig_SimulBinNWxfTN.pstricks}
+
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
+
+
+\end{example}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Petites binomiales}
+%---------------------------------------------------------------------------------------------------------------------------
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Grandes binomiales}
+%---------------------------------------------------------------------------------------------------------------------------
+
+<++>
+
+Quelque propriétés intuitives.
+\begin{enumerate}
+    \item
+        Il y a un maximum sur \( 50\) parce que lorsqu'on tire \( 100\) fois une pièce, on a un maximum de chances d'avoir \( 50\) fois pile et \( 50\) fois face.
+    \item
+        Le dessin doit être symétrique. Il y a a priori autant de chances d'avoir \( 48\) faces et \( 52\) pile que le contraire.
+
+        En réalité, la courbe n'est pas exactement symétrique, mais plus les nombres sont grands, plus ça y ressemble.
+    \item
+        La courbe doit valoir à peu près zéro pour les petits et les grands nombres : nous sommes d'accord que la probabilité d'obtenir \( 95\) fois face sur \( 100\) lancers est à peu près le vide interstellaire.
+\end{enumerate}
+    
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Simuler un schéma de Bernoulli avec un ordinateur}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -357,6 +328,21 @@ donne
     Choisissez une voiture au hasard dans une file, et considérer l'événement «le conducteur est en train téléphoner». Ici encore il s'agit d'une épreuve de Bernoulli, mais il n'est pas possible d'en donner la probabilité.
 \end{example}
 
+\begin{example}
+Nous effectuons \( 50\) lancers de pile ou face et nous comptons le nombre de réussite.
+
+Par exemple :\\
+P F P P P P F F F F F F F P P P P P F P F F P P F F F F F F P P F F F F P F F F F P P P P F F F F P \\
+ total : 29 F et  21 P
+ 
+Un autre exemple :
+
+F F P P P P F P P P F P P P F F F F F P F F P P P P P F F F P P P F F P F F F P F P P P F P F P P F \\
+ total : 23 F et  27 P
+
+ Intuitivement, nous imaginons que nous devrions toujours obtenir autour de \( 25\) piles et \( 25\) faces.
+    
+\end{example}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{À propos de l'hypothèse de remise}
@@ -406,6 +392,44 @@ donne
 
             Les nombres dans le tableaux ne sont pas tellement différents. Dans certains cas, l'approximation «avec remise» est justifiée.
 \end{example}
+
+
+Reprenons notre arbre de choix d'élèves en fonction de l'année de naissance.
+
+\begin{equation*}
+\xymatrix{%
+    &&&\fbox{\text{Début}}\ar[lld]_{\frac{ 19 }{31}}\ar[rrd]^{\frac{ 12 }{31}}\\
+    &\fbox{O}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}&&&&\fbox{N}\ar[ld]_{\frac{ 19 }{31}}\ar[rd]^{\frac{ 12 }{31}}\\
+    \fbox{OO}&&\fbox{ON}&&\fbox{NO}&&\fbox{NN}
+   }
+\end{equation*}
+Nous notons \( P(X=0)\) la probabilité de tirer zéro élèves nés en \( 1996\); \( P(X=1)\) la probabilité d'en tirer (exactement \( 1\)); \( P(X=2)\) est la probabilité d'en tirer deux. En suivant la logique, \( P(X=3)\) est nul parce que de toutes façons, on n'en tire que deux. Étudions les cas.
+
+Nous commençons par calculer \( P(X=0)\). Pour obtenir aucun étudiant nés en \( 1996\) en en tirant deux, il faut d'abord en tirer un qui n'est pas né en \( 1996\) (probabilité : \( \frac{ 12 }{ 13 }\)) puis en tirer un second (probabilité : \( \frac{ 12 }{ 13 }\) encore). Du coup la probabilité est
+\begin{equation}
+    P(X=0)=\left( \frac{ 12 }{ 31 } \right)^2,
+\end{equation}
+c'est à dire environ\footnote{Encore une fois : méfiez vous des approximations numériques. Vous n'accepteriez pas de confier votre vie à un calcul qui a arrondi la seconde décimale d'une probabilité.} \( 0.15\).
+
+Calculons maintenant \( P(X=1)\). Nous repérons dans le tableau les cases qui correspondent à un élève né en \( 1996\) et un élève non né en \( 1996\). Ce sont les cases \( ON\) et \( NO\). En suivant les branches de l'arbre, la probabilité d'obtenir le \( ON\) est 
+\begin{equation}
+    P(ON)=\frac{ 19 }{ 31 }\times \frac{ 12 }{ 31 },
+\end{equation}
+tandis que l'autre est
+\begin{equation}
+    P(NO)=\frac{ 12 }{ 31 }\times \frac{ 19 }{ 31 }.
+\end{equation}
+Notons que c'est la même. La probabilité totale de pêcher \emph{exactement} un élève de \( 1996\) en en pêchant deux au hasard dans la classe est
+\begin{equation}
+    P(X=1)=2\times\frac{ 12 }{ 31 }\times \frac{ 19 }{ 31 }=\frac{ 456 }{ 961 },
+\end{equation}
+qui est environ \( 0.47\). Presque une chance sur deux.
+
+Enfin, calculons la probabilité d'en tirer deux est donnée par la case \( OO\) de l'arbre et sa probabilité est
+\begin{equation}
+    P(X=2)=\left( \frac{ 19 }{ 31 } \right)^2
+\end{equation}
+qui est environ \( 0.37\).
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
