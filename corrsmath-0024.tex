@@ -5,6 +5,22 @@
 
 \begin{corrige}{smath-0024}
 
-<+Corrsmath-0024+>
+    \begin{enumerate}
+        \item
+            Étant donné que nous sommes intéressés par les fautes qui restent (et non celles qui sont corrigées), nous allons considérer que le succès est de laisser la faute (et non de la corriger). Une correction correspond à \( n\) épreuves de Bernoulli, chacune ayant \( 20\%\) de chance de réussite.
+
+            L'espérance du nombre de succès, et donc du nombre de fautes restantes après une correction, est de \( n\times \frac{ 20 }{ 100 }=0.2n\).
+        \item
+            Si nous effectuons \( k\) corrections, nous allons changer un peu de point de vue. Nous allons considérer une faute et estimer sa probabilité de rester après \( k\) corrections. Autrement dit, la faute subit \( k\) épreuves de Bernoulli ayant chacune une probabilité \( 0.8\) d'échec. La probabilité qu'a une faute de résister à \( k\) correcteurs est donc
+            \begin{equation}
+                p=(0.2)^k.
+            \end{equation}
+            
+            Maintenant que nous considérons les \( n\) erreurs, le passage de \( k\) correcteurs correspond à \( n\) épreuves de Bernoulli, chacune ayant une probabilité \( (0.2)^k\) de réussir. En moyenne, il va donc rester
+            \begin{equation}
+                n(0.2)^k
+            \end{equation}
+            erreurs.
+    \end{enumerate}
 
 \end{corrige}

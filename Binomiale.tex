@@ -240,23 +240,6 @@ Nous parlons de \defe{grande binomiale}{grande binomiale}\index{binomiale!grande
 \subsection{Quel graphique voulons-nous tracer ?}
 %---------------------------------------------------------------------------------------------------------------------------
 
-\begin{example}
-
-Effectuons dix mille fois les cent lancers et traçons un diagramme en bâtons décrivant le nombre de fois que nous avons obtenu chaque quantité de «piles».
-
-Les diagrammes en bâtons de la figure \ref{LabelFigSimulBinNWxfTN} % From file SimulBinNWxfTN
-représentent, en fonction de \( k\), le nombre de fois qu'on a obtenu exactement \( k\) fois pile en jouant \( 10\), \( 100\) et \( 10000\) fois à pile ou face.
-\newcommand{\CaptionFigSimulBinNWxfTN}{Jouer à pile ou face un certain nombre de fois, et s'intéresser au nombre de fois que le «pile» sort.}
-\input{Fig_SimulBinNWxfTN.pstricks}
-
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
-%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
-
-
-\end{example}
-
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Petites binomiales}
 %---------------------------------------------------------------------------------------------------------------------------
@@ -264,7 +247,6 @@ représentent, en fonction de \( k\), le nombre de fois qu'on a obtenu exactemen
 \newcommand{\CaptionFigPetiteBinomialelzbdWl}{Les probablités \( P(X=k)\) pour certaines petites binomiales.}
 \input{Fig_PetiteBinomialelzbdWl.pstricks}
 % See also the subfigure \ref{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl0} See also the subfigure \ref{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl1} See also the subfigure \ref{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl2} See also the subfigure \ref{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl3}
-
 
 Nous avons tracé à la figure \ref{LabelFigPetiteBinomialelzbdWl} les probabilités \( P(X=k)\) pour quatre petites binomiales différentes. Les points à retenir sont les suivants.
 \begin{enumerate}
@@ -278,26 +260,25 @@ Nous avons tracé à la figure \ref{LabelFigPetiteBinomialelzbdWl} les probabili
         Attention toutefois que cette probabilité est quand même de \( 0.00124\), c'est à dire un pour mille. Si vous êtes en train d'étudier la probabilité d'incendie dans une usine de produits chimiques hautement toxiques, une probabilité d'un pour mille est totalement inacceptable !!
 \end{enumerate}
 
+
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Grandes binomiales}
 %---------------------------------------------------------------------------------------------------------------------------
 
-
-The result is on figure \ref{LabelFigGrandeBinomialeIyWAIh}. % From file GrandeBinomialeIyWAIh
-\newcommand{\CaptionFigGrandeBinomialeIyWAIh}{<+Type your caption here+>}
+Nous avons tracé à la figure \ref{LabelFigGrandeBinomialeIyWAIh} le diagramme en bâtons de \( P(X=k)\) pour différentes grandes binomiales.
+\newcommand{\CaptionFigGrandeBinomialeIyWAIh}{Quelque grandes binomiales.}
 \input{Fig_GrandeBinomialeIyWAIh.pstricks}
 
-
-Quelque propriétés intuitives.
+Quelque propriétés.
 \begin{enumerate}
     \item
-        Il y a un maximum sur \( 50\) parce que lorsqu'on tire \( 100\) fois une pièce, on a un maximum de chances d'avoir \( 50\) fois pile et \( 50\) fois face.
+        Le maximum est sur l'espérance.
     \item
-        Le dessin doit être symétrique. Il y a a priori autant de chances d'avoir \( 48\) faces et \( 52\) pile que le contraire.
-
-        En réalité, la courbe n'est pas exactement symétrique, mais plus les nombres sont grands, plus ça y ressemble.
+        Le diagramme est presque symétrique autour de son maximum.
     \item
-        La courbe doit valoir à peu près zéro pour les petits et les grands nombres : nous sommes d'accord que la probabilité d'obtenir \( 95\) fois face sur \( 100\) lancers est à peu près le vide interstellaire.
+        Plus le nombre de répétitions est grand, plus la symétrie est bonne.
+    \item
+        Les probabilités tombent rapidement à des valeurs proches de zéro lorsqu'on s'éloigne de l'espérance.
 \end{enumerate}
     
 
@@ -318,6 +299,23 @@ Le programme suivant est celui écrit par votre serviteur pour produire les rés
 \lstinputlisting{simul_Bernoulli.py}
 
 Une simulation pas à pas en python pour construire un histogramme de schéma de Bernoulli est donné à la section \ref{SecSimulBernrfNskC}.
+
+\begin{example}
+
+Effectuons dix mille fois les cent lancers et traçons un diagramme en bâtons décrivant le nombre de fois que nous avons obtenu chaque quantité de «piles».
+
+Les diagrammes en bâtons de la figure \ref{LabelFigSimulBinNWxfTN} % From file SimulBinNWxfTN
+représentent, en fonction de \( k\), le nombre de fois qu'on a obtenu exactement \( k\) fois pile en jouant \( 10\), \( 100\) et \( 10000\) fois à pile ou face.
+\newcommand{\CaptionFigSimulBinNWxfTN}{Jouer à pile ou face un certain nombre de fois, et s'intéresser au nombre de fois que le «pile» sort.}
+\input{Fig_SimulBinNWxfTN.pstricks}
+
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
+%See also the subfigure \ref{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN3}
+
+\end{example}
+
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Les commandes toutes faites}
@@ -459,7 +457,7 @@ qui est environ \( 0.37\).
 \subsection{Reconnaître une situation de Bernoulli}
 %---------------------------------------------------------------------------------------------------------------------------
 
-% Exercice à remettre dans un truc de proba plus généraliste.
+% TODO : L'exercice suivant (Premiere-0078) est un exercice à remettre dans un truc de proba plus généraliste.
 %\Exo{Premiere-0078}
 \Exo{Premiere-0071}
 \Exo{Premiere-0094}
@@ -482,6 +480,8 @@ qui est environ \( 0.37\).
 \Exo{Premiere-0076}
 \Exo{Premiere-0082}
 \Exo{Premiere-0077}
+\Exo{smath-0023}
+\Exo{smath-0024}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Utilisation de la loi binomiale}
@@ -491,4 +491,7 @@ qui est environ \( 0.37\).
 \Exo{Premiere-0088}
 \Exo{Premiere-0091}
 \Exo{Premiere-0092}
+\Exo{Premiere-0099}
+\Exo{Premiere-0100}
+\Exo{smath-0022}
 

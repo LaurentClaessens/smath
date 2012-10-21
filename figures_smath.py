@@ -91,6 +91,7 @@ from phystricksFnInterrobgepC import FnInterrobgepC
 from phystricksRouletteACaVAA import RouletteACaVAA
 from phystricksPetiteBinomialelzbdWl import PetiteBinomialelzbdWl
 from phystricksGrandeBinomialeIyWAIh import GrandeBinomialeIyWAIh
+from phystricksExoBinomialeNyQLYI import ExoBinomialeNyQLYI
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -106,7 +107,8 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,
     ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,CylindresxKDOdy,
     FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,
-    CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh
+    CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,
+    ExoBinomialeNyQLYI
     ]
 
 
