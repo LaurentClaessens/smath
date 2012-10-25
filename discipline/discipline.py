@@ -1,23 +1,27 @@
+#! /usr/bin/python3.2
 # -*- coding: utf8 -*-
 
+import locale
 import datetime
+locale.setlocale(locale.LC_ALL,"")
 
 class Croix(object):
     def __init__(self,jour,mois,an,motif):
         self.datetime=datetime.datetime(an,mois,jour,12,12)
-        self.motif=motif
+        self.motif=motif+" le "+self.datetime.strftime("%A %d %B %Y")
 
 class Colle(object):
     def __init__(self,jour,mois,an,motif):
         self.datetime=datetime.datetime(an,mois,jour,12,12)
-        self.motif=motif
+    def __unicode__(self):
+        self.motif=motif+" le "+self.datetime.strftime("%A %d %B %Y")
 
 class Student(object):
     def __init__(self,groupe=""):
         self.groupe=groupe
         self.croix=[]
         self.old_croix=[]
-        self.colle=[]
+        self.colles=[]
         self.nom=""
         self.prenom=""
     def append_bar(self,jour,mois,an,motif):
@@ -27,9 +31,9 @@ class Student(object):
         Si on ne donne pas de motifs, c'est les croix obtenues jusqu'alors.
         """
         self.old_croix.extend(self.croix)
-        if motif=None:
+        if motif==None:
             motif="\n".join([x.motif for x in self.croix])
-        self.colle.append(Colle(jour,mois,an,motif))
+        self.colles.append(Colle(jour,mois,an,motif))
         self.croix=[]
 
 seconde_deux={}
@@ -152,15 +156,18 @@ tous[("Atzorivenne","Mathis")].append_bar(12,10,2012,"Lance un objet")
 tous[("Besancon","Séphora")].append_bar(1,10,9999,"DM pas fait : melons et pommes")
 
 
-tous[("Besnier","Romain")].append_bar(22,10,2012,"bavardage")
-tous[("Besnier","Romain")].append_bar(28,9,2012,"Lancer un objet"
+tous[("Besnier","Romain")].append_bar(1,1,9999,"DM pas fait : melons et pommes")
+tous[("Besnier","Romain")].append_bar(28,9,2012,"Lancer un objet")
 tous[("Besnier","Romain")].append_bar(8,10,2012,"est debout")
 tous[("Besnier","Romain")].append_bar(15,10,2012,"est debout")
-tous[("Besnier","Romain")].append_bar(1,1,999,"DM pas fait : melons et pommes")
 tous[("Besnier","Romain")].append_bar(15,10,2012,"siffle")
+tous[("Besnier","Romain")].append_bar(22,10,2012,"bavardage")
 
 tous[("Besnier","Romain")].append_colle(16,10,2012,motif=None)
+print("=========")
 print(tous[("Besnier","Romain")].colles[0].motif)
+print("=========")
+print(tous[("Besnier","Romain")].croix)
 
 
 
