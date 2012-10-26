@@ -11,10 +11,16 @@ class Croix(object):
         self.motif=motif+" le "+self.datetime.strftime("%A %d %B %Y")
 
 class Colle(object):
-    def __init__(self,jour,mois,an,motif):
+    def __init__(self,jour,mois,an,motif,nom,prenom):
         self.datetime=datetime.datetime(an,mois,jour,12,12)
-    def __unicode__(self):
-        self.motif=motif+" le "+self.datetime.strftime("%A %d %B %Y")
+        self.nom=nom
+        self.prenom=prenom
+        self.motif=motif
+    def __str__(self):
+        a=[]
+        a.append("Colle pour {0} {1} le {2}".format(self.nom,self.prenom,self.datetime.strftime("%A %d %B %Y")))
+        a.append(self.motif)
+        return '\n'.join(a)
 
 class Student(object):
     def __init__(self,groupe=""):
@@ -26,15 +32,18 @@ class Student(object):
         self.prenom=""
     def append_bar(self,jour,mois,an,motif):
         self.croix.append(Croix(jour,mois,an,motif))
-    def append_colle(self,jour,mois,an,motif=None):
+    def append_colle(self,jour,mois,an,motif=None,extra=False):
         """
         Si on ne donne pas de motifs, c'est les croix obtenues jusqu'alors.
+
+        Le paramètre 'extra' dit si c'est une colle en plus des croix.
         """
         self.old_croix.extend(self.croix)
         if motif==None:
             motif="\n".join([x.motif for x in self.croix])
-        self.colles.append(Colle(jour,mois,an,motif))
-        self.croix=[]
+        self.colles.append(Colle(jour,mois,an,motif,nom=self.nom,prenom=self.prenom))
+        if not extra:
+            self.croix=[]
 
 seconde_deux={}
 seconde_deux[("Atzorivenne","Mathis")]=Student(groupe="2nd2")
@@ -162,305 +171,195 @@ tous[("Besnier","Romain")].append_bar(8,10,2012,"est debout")
 tous[("Besnier","Romain")].append_bar(15,10,2012,"est debout")
 tous[("Besnier","Romain")].append_bar(15,10,2012,"siffle")
 tous[("Besnier","Romain")].append_bar(22,10,2012,"bavardage")
-
 tous[("Besnier","Romain")].append_colle(16,10,2012,motif=None)
-print("=========")
-print(tous[("Besnier","Romain")].colles[0].motif)
-print("=========")
-print(tous[("Besnier","Romain")].croix)
 
 
+tous[("Blanchot","Noé")].append_colle(11,10,1000,"bavardage incessant depuis le début du mois d'octobre, y compris pendan la séance en salle informatique (1 octobre, 4 octobre, 8 octobre et 8 octobre en salle info.)")
 
-"""
+tous[("Blanchot","Noé")].append_bar(11,10,2012,"bavardage")
+tous[("Blanchot","Noé")].append_bar(12,10,2012,"bavardage")
+tous[("Blanchot","Noé")].append_bar(15,10,2012,"bavardage")
+tous[("Blanchot","Noé")].append_bar(19,10,2012,"bavardage durant l'intérogation")
+tous[("Blanchot","Noé")].append_bar(22,10,2012,"bavardage")
 
+print([x.motif for x in tous[("Blanchot","Noé")].croix])
 
-========================================================
-Blanchot, Noé
-bavardage le 11 octobre
-bavardage le 12 octobre
-bavardage le 15 octobre
-bavardage pendant l'interrogation le 19 octobre
-bavardage 22 octobre
 
 
-A déjà une colle pour motif
-Bavardage incessant depuis le début du mois d'octobre, y compris pendant la séance en salle informatique.
+tous[("Caretti","Arno")].append_bar(1,10,2012,"debout")
+tous[("Caretti","Arno")].append_bar(1,10,9999,"DM pas fait : melons et pommes")
 
-Les croix correspondantes : 1 octobre            4 octobre            8 octobre            8 octobre pendant la séance informatique
 
+tous[("Colin","Mathieu")].append_bar(15,10,2012,"Lance un objet")
+tous[("Colin","Mathieu")].append_bar(15,10,2012,"bruitages et bavardages incessants")
+tous[("Colin","Mathieu")].append_bar(19,10,2012,"cahier fermé")
+tous[("Colin","Mathieu")].append_bar(22,10,2012,"bavardage")
 
-=======================================================
+tous[("Dole","Cynthia")].append_bar(15,10,2012,"parle avec Noé durant tout le cours en groupe")
 
-Caretti, Arno
-Debout : 1 octobre
-DM pas fait : melons et pommes
 
+#Dominot, Charline
+#Giroux, Adeline
 
-=======================================================
-Colin, Mathieu
-Lance le 15 octobre
-bruitage et bavardage incessant le 15 octobre
-cahier fermé le 19 octobre
-bavardage 22 octobre
-=======================================================
+tous[("Gras","Guillaume")].append_bar(1,10,2012,"bavardage")
+tous[("Gras","Guillaume")].append_bar(1,10,2012,"debout")
+tous[("Gras","Guillaume")].append_bar(15,10,2012,"bavardage")
+tous[("Gras","Guillaume")].append_bar(22,10,2012,"bavardage")
 
+#Guenard, Florian
 
-=======================================================
-Dole, Cynthia
-Parle avec Noé tout le cours en groupe du 15 octobre
+tous[("Guillot","Anthony")].append_bar(1,10,2012,"debout")
+tous[("Guillot","Anthony")].append_bar(11,10,2012,"bavardage")
+tous[("Guillot","Anthony")].append_bar(12,10,2012,"cahier fermé")
 
-=======================================================
+tous[("Koehler","Paul-Erwan")].append_bar(1,10,9999,"DM pas fait : histogrammes")
+tous[("Koehler","Paul-Erwan")].append_bar(1,10,9999,"DM pas fait : melons et pommes")
+tous[("Koehler","Paul-Erwan")].append_bar(11,10,2012,"bavardage")
+tous[("Koehler","Paul-Erwan")].append_bar(12,10,2012,"se chamaille en continu avec Raphaël")
 
-Dominot, Charline
-Giroux, Adeline
 
-=======================================================
-Gras, Guillaume
-Bavardage le 1 octobre
-debout le 1 octobre
-bavardage le 15 octobre
-bavardage 22 octobre
+tous[("Kuti","Belinda")].append_bar(1,10,9999,"DM pas fait : histogrammes")
+tous[("Kuti","Belinda")].append_bar(12,10,2012,"cahier fermé")
+tous[("Kuti","Belinda")].append_bar(22,10,2012,"parle trop et fait la chèvre")
 
-=======================================================
 
-Guenard, Florian
+#Larderet, Etienne
 
-=======================================================
-Guillot, Anthony
-debout le 1 octobre
-bavardage le 11 octobre
-cahier fermé le 12 octobre
-=======================================================
+tous[("Letondor-Lavrut","Claire")].append_bar(4,10,2012,"lance un objet")
+tous[("Letondor-Lavrut","Claire")].append_bar(22,10,2012,"parle trop")
 
 
+tous[("Limoge","Thibaut")].append_bar(11,10,2012,"bavardage")
+tous[("Limoge","Thibaut")].append_bar(22,10,2012,"bavardage")
 
-=======================================================
-Koehler, Paul-Erwan
-DM pas fait : histogramme
-            melons et pommes
-bavardage le 11 octobre
-se chamaille en continu avec Raphaël le 12 octobre
+#Mougeot, Romain
 
-=======================================================
+tous[("Navel","Rémi")].append_bar(4,10,2012,"bavardage")
+tous[("Navel","Rémi")].append_bar(8,10,2012,"crée des répertoires aux noms idiots en salle info")
+tous[("Navel","Rémi")].append_bar(11,10,2012,"bavardage")
+tous[("Navel","Rémi")].append_bar(12,10,2012,"bavardage")
 
 
-=======================================================
-Kuti, Belinda
-DM pas fait : histogrammes
-cahier fermé le 12 octobre
-prend le sac de Bastien lorsque ce dernier a le dos tourné.
-Parle trop et fait la chèvre le 22 octobre
+tous[("Pardon","Mélanie")].append_bar(1,1,9999,"DM pas fait : melons et pommes")
+tous[("Pardon","Mélanie")].append_bar(11,10,2012,"bavardage")
 
-=======================================================
 
-Larderet, Etienne
+#Perrault, Mélanie
 
-=======================================================
-Letondor-Lavrut, Claire
-Lancer un objet : 4 octobre
-prend le sac de Bastien lorsque ce dernier a le dos tourné.
-parle trop le 22 octobre
+tous[("Pillot","César")].append_bar(1,10,2012,"bavardage")
+tous[("Pillot","César")].append_bar(1,1,9999,"DM pas fait : histogrammes")
 
-=======================================================
+tous[("Préaud","Raphaël")].append_bar(1,10,2012,"bavardage")
+tous[("Préaud","Raphaël")].append_bar(4,10,2012,"frappe César avec un stylo")
+tous[("Préaud","Raphaël")].append_bar(12,10,2012,"se chamaille en continu avec Paul-Erwan")
+tous[("Préaud","Raphaël")].append_bar(22,10,2012,"bavardage en groupe et en classe complète")
 
-Limoge, Thibaut
-bavardage le 11 octobre
-bavardage 22 octobre
+tous[("Robert","Jérémy")].append_bar(1,10,2012,"bavardage")
+tous[("Robert","Jérémy")].append_bar(12,10,2012,"insulte Raphaël")
+tous[("Robert","Jérémy")].append_bar(12,10,2012,"cahier fermé")
+tous[("Robert","Jérémy")].append_bar(15,10,2012,"insulte Raphaël")
+tous[("Robert","Jérémy")].append_bar(15,10,2012,"tente de coller du papier collant sur Laura")
+tous[("Robert","Jérémy")].append_bar(15,10,2012,"cahier fermé")
 
-=======================================================
-Mougeot, Romain
+tous[("Robert","Jérémy")].append_colle(16,10,2012)
 
-=======================================================
-Navel, Rémi
-Bavardage le 4 octobre
-crée des répertoires aux noms idiots en salle info le 8 octobre
-bavardage le 11 octobre
-bavardage le 12 octobre
+tous[("Robert","Jérémy")].append_colle(22,10,2012,extra=True,motif=""" Jette sa trousse par la fenêtre et sort de la classe de son propre chef pour aller la chercher, malgré une interdiction totalement explicite du professeur. Son excuse : «j'ai pas fait exprès : je visais Rémi».""")
 
-=======================================================
+tous[("Robert","Jérémy")].append_bar(22,10,2012,"bavardage")
 
-=======================================================
-Pardon, Mélanie
-DM pas fait : melons et pommes
-bavardage le 11 octobre
 
-=======================================================
 
-Perrault, Mélanie
+tous[("Tepinier","Laura")].append_bar(4,10,2012,"bavardage")
+tous[("Tepinier","Laura")].append_bar(11,10,2012,"bavardage")
+tous[("Tepinier","Laura")].append_bar(12,10,2012,"cahier fermé")
+tous[("Tepinier","Laura")].append_bar(22,10,2012,"bavardage")
+tous[("Tepinier","Laura")].append_bar(22,10,2012,"cahier fermé")
 
-=======================================================
-Pillot, César
-Bavardage : 1 octobre
-DM pas fait : histogramme
-=======================================================
-
-
-=======================================================
-Préaud, Raphaël
-Bavardage le 1 octobre
-frappe César avec un stylo le 4 octobre
-se chamaille en continu avec Paul-Erwan le 12 octobre
-bavardage 22 octobre (tant en groupe qu'en classe complète)
-
-=======================================================
-
-=======================================================
-Robert, Jérémy
-bavardage 22 octobre
-
-
-
-Prend une seconde retenue (rédigée le 22 octobre)
-Jette sa trousse par la fenêtre et sort de la classe de son propre chef pour aller la chercher, malgré une interdiction totalement explicite du professeur.
-Son excuse : «j'ai pas fait exprès : je visais Rémi».
-
-
-Prend une retenue (rédigée le 16 octobre). Motif :
-Bavardage le 1 octobre
-insulte Raphaël à haute voix le 12 octobre et le 15 octobre
-cahier fermé le 12 octobre
-tente de coller du papier collant sur Laura le 15 octobre
-cahier fermé le 15 octobre
-
-
-=======================================================
-
-=======================================================
-Tepinier, Laura
-Bavardage le 4 octobre
-bavardage le 11 octobre
-cahier fermé le 12 octobre
-bavardage 22 octobre
-cahier ouvert avant la fin du cours le 22 octobre
-=======================================================
-
-Thevenot, Bastien
-bavardage 22 octobre
-
-=======================================================
-Villet, Océane
-cahier fermé le 12 octobre
-cahier fermé le 15 octobre
-lance une bouteille d'eau le 19 octobre
-=======================================================
-Virion, Valentin
-bavardage le 11 octobre
-
-=======================================================
-Paul 
-Debout le 28 sept
-debout (re) le 28 sept
-=======================================================
-
-
-Badets, Marine
-Badot, Kévin
-Bellaton, Pénélope
-
-============================================
-Bôle-Richard, Elodie
-Bavardage le 8 octobre
-bavardage le 16 octobre
-============================================
-
-============================================
-Bourgeois, Bryan
-bavardage le 22 octobre
-============================================
-
-
-
-Brenot, Romain
-Chapoutot, Marine
-
-============================================
-Chopard, Mickaël
-bavardage en continu avec Gabrielle et Rebecca le 16 octobre
-pré-colle le 16 octobre
-bavardage le 22 octobre (toujours avec Gabrielle et Rebecca)
-============================================
-
-Corand, Manon
-Cousseau, Florine
-============================================
-Cretin, Rebecca
-bavardage en continu avec Mickaël et Gabrielle le 16 octobre
-pré-colle le 16 octobre
-bavardage le 22 octobre
-============================================
-
-============================================
-Cuevas, Gabrielle
-bavardage en continu avec Mickaël et Rebecca le 16 octobre
-bavardage le 22 octobre (idem en continu avec Mickaël et Rebecca)
-============================================
-Delhaye, Fiona
-
-============================================
-Di-Natale, Romain
-pré-colle le 16 octobre
-bavardage le 22 octobre
-============================================
-
-============================================
-Dormoy, Adrien
-cahier fermé + bavardage le 16 octobre
-pré-colle le 16 octobre
-bavardage le 22 octobre
-============================================
-
-Dubief, Valentin
-Dubrulle, Amandine
-Fogel, Axel
-Fontellini, Julie
-Grenot, Emmanuel
-
-============================================
-Guyot, Coralie
-Durant la séance informatique du 11 octobre, cherche des images d'Apu sur internet
-=============================================
-
-
-Lebrasseur, Fabien
-Leroux, Alexia
-Mathieu, Clara
-Moret, Manon
-
-=============================================
-Moustakim, Ilhem
-bavardage le 8 octobre
-Durant la séance informatique du 11 octobre, cherche des images d'Apu sur internet
-chante en cœur avec Louise + bavardage le 16 octobre
-bavardage le 22 octobre
-=============================================
-
-
-Paris, Joël
-
-=============================================
-Pellegrini, Clara
-bavardage le 16 octobre
-bavardage le 22 octobre
-=============================================
-Piguet, Louise
-chante en cœur avec Ilhem le 16 octobre
-=============================================
-
-=============================================
-Quéré, Léa
-bavardage le 16 octobre
-pré-colle le 16 octobre (répète «le premier qui moufte ...» pour se moquer du prof)
-=============================================
-Rodrigues, Maëva
-bavardage le 16 octobre
-=============================================
-
-
-
-Schindler, Sandra
+tous[("Thevenot","Bastien")].append_bar(22,10,2012,"bavardage")
 
+tous[("Villet","Océane")].append_bar(12,10,2012,"cahier fermé")
+tous[("Villet","Océane")].append_bar(15,10,2012,"cahier fermé")
+tous[("Villet","Océane")].append_bar(19,10,2012,"lance une bouteille d'eau")
 
 
+tous[("Virion","Valentin")].append_bar(11,10,2012,"bavardage")
+
+#tous[("Badets","Marine")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Badot","Kévin")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Bellaton","Pénélope")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Bôle-Richard","Elodie")].append_bar(8,10,2012,"bavardage")
+tous[("Bôle-Richard","Elodie")].append_bar(16,10,2012,"bavardage")
+
+tous[("Bourgeois","Bryan")].append_bar(22,10,2012,"bavardage")
+
+#tous[("Brenot","Romain")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Chapoutot","Marine")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Chopard","Mickaël")].append_bar(16,10,2012,"bavardage en continu avec Gabrielle et Rebecca")
+tous[("Chopard","Mickaël")].append_bar(16,10,2012,"pré-colle")
+tous[("Chopard","Mickaël")].append_bar(22,10,2012,"bavardage en continu avec les mêmes")
+
+#tous[("Corand","Manon")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Cousseau","Florine")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Cretin","Rebecca")].append_bar(16,10,2012,"bavardage en continu avec Mickaël et Gabrielle")
+tous[("Cretin","Rebecca")].append_bar(16,10,2012,"pré-colle")
+tous[("Cretin","Rebecca")].append_bar(22,10,2012,"bavardage")
+
+tous[("Cuevas","Gabrielle")].append_bar(16,10,2012,"bavardage en continu avec Mickaël et Rebecca")
+tous[("Cuevas","Gabrielle")].append_bar(22,10,2012,"bavardage en continu avec les mêmes")
+
+#tous[("Delhaye","Fiona")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Di-Natale","Romain")].append_bar(16,10,2012,"pré-colle")
+tous[("Di-Natale","Romain")].append_bar(22,10,2012,"bavardage")
+
+
+
+tous[("Dormoy","Adrien")].append_bar(16,10,2012,"bavardage")
+tous[("Dormoy","Adrien")].append_bar(16,10,2012,"pré-colle")
+tous[("Dormoy","Adrien")].append_bar(16,10,2012,"cahier fermé")
+tous[("Dormoy","Adrien")].append_bar(22,10,2012,"bavardage")
+
+#tous[("Dubief","Valentin")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Dubrulle","Amandine")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Fogel","Axel")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Fontellini","Julie")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Grenot","Emmanuel")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Guyot","Coralie")].append_bar(11,10,2012,"cherche des images d'Apu sur internet pendant le scéance info")
+
+
+#tous[("Lebrasseur","Fabien")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Leroux","Alexia")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Mathieu","Clara")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Moret","Manon")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Moustakim","Ilhem")].append_bar(8,10,2012,"bavardage")
+tous[("Moustakim","Ilhem")].append_bar(11,10,2012,"cherche des images d'Apu sur internet en salle info")
+tous[("Moustakim","Ilhem")].append_bar(16,10,2012,"bavardage")
+tous[("Moustakim","Ilhem")].append_bar(22,10,2012,"bavardage")
+
+
+#tous[("Paris","Joël")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Pellegrini","Clara")].append_bar(16,10,2012,"bavardage")
+tous[("Pellegrini","Clara")].append_bar(22,10,2012,"bavardage")
+
+#tous[("Piguet","Louise")].append_bar(<++>,<++>,2012,"<++>")
+
+tous[("Quéré","Léa")].append_bar(16,10,2012,"bavardage")
+tous[("Quéré","Léa")].append_bar(16,10,2012,"répète «Le premier qui moufte» pour se moquer du prof.")
+#pré-colle le 16 octobre (répète «le premier qui moufte ...» pour se moquer du prof)
+
+
+
+tous[("Rodrigues","Maëva")].append_bar(16,10,2012,"bavardage")
+
+
+
+#tous[("Schindler","Sandra")].append_bar(<++>,<++>,2012,"<++>")
 
 
 Les pré-colles
@@ -470,56 +369,39 @@ Ambre
 
 
 
-Aucant, Anaïs
-Bavardage 15 octobre
+tous[("Aucant","Anaïs")].append_bar(15,10,2012,"bavardage")
 
 
-Babet, Mauranne
-bavardage 15 octobre
+tous[("Babet","Mauranne")].append_bar(15,10,2012,"bavardage")
 
 
-Benlarbi, Fayçal
+#tous[("Benlarbi","Fayçal")].append_bar(<++>,<++>,2012,"<++>")
 
 
-==================================================
-Bongain, Marie
-Bavardage le 15 octobre
+tous[("Bongain","Marie")].append_bar(15,10,2012,"bavardage")
 
-==================================================
-Bonnevie, Quentin
-Bavarde (8 octobre)
-==================================================
+tous[("Bonnevie","Quentin")].append_bar(8,10,2012,"bavardage")
 
-Boujon, Agathe
-Bavardage 15 octobre
-bavardage le 19 octobre
-==================================================
+tous[("Boujon","Agathe")].append_bar(15,10,2012,"bavardage")
+tous[("Boujon","Agathe")].append_bar(19,10,2012,"bavardage")
 
 
-Chenut, Stéphane
+#tous[("Chenut","Stéphane")].append_bar(<++>,<++>,2012,"<++>")
 
-==================================================
-Chourfi, Marwa
-Cahier fermé le 2 octobre
-bavardage le 19 octobre
-==================================================
+tous[("Chourfi","Marwa")].append_bar(2,10,2012,"cahier fermé")
+tous[("Chourfi","Marwa")].append_bar(19,10,2012,"bavardage")
 
-Da Mota-Païs, Ophélie
+#tous[("Da Mota-Païs","Ophélie")].append_bar(<++>,<++>,2012,"<++>")
 
-==================================================
-Drissi, M'hamed
-joue avec un briquet en classe (8 octobre)
-bavarde (8 octobre)
-bavardage le 16 octobre
-==================================================
+tous[("Drissi","M'hamed")].append_bar(8,10,2012,"joue avec un briquet")
+tous[("Drissi","M'hamed")].append_bar(8,10,2012,"bavardage")
+tous[("Drissi","M'hamed")].append_bar(16,10,2012,"bavardage")
 
 
-Ekti, Melda
+tous[("Ekti","Melda")].append_bar(<++>,<++>,2012,"<++>")
 
-==================================================
-Esquirol, Antoine
-bavardage 15 octobre
-bavardage le 16 octobre
+tous[("Esquirol","Antoine")].append_bar(15,10,2012,"bavardage")
+tous[("Esquirol","Antoine")].append_bar(16,10,2012,"bavardage")
 
 
 A eu une colle
@@ -534,7 +416,7 @@ Favre, Caroline
 Hachadi, Houda
 
 ==================================================
-Hierholzer, Athénaïs
+tous[("Hierholzer","Athénaïs")].append_bar(<++>,<++>,2012,"<++>")
 Lancer : 1 octobre
 Bavarde (8 octobre)
 bavardage (15 octobre)
@@ -545,7 +427,7 @@ Labourot, Manon
 pré-colle le 16 octobre
 
 ==================================================
-Lesage, Kévin
+tous[("Lesage","Kévin")].append_bar(<++>,<++>,2012,"<++>")
 Bavarde trop (8 octobre)
 15 octobre
 
@@ -558,29 +440,30 @@ Cette colle a été faite le 17 octobre et les exercices ont été fait de faço
 
 
 
-Matrat, Noémie
+tous[("Matrat","Noémie")].append_bar(<++>,<++>,2012,"<++>")
 bavardage le 16 octobre
 ==================================================
-Menetrier, Gautier
+tous[("Menetrier","Gautier")].append_bar(<++>,<++>,2012,"<++>")
 debout le 2 octobre 
 debout (re) le 2 octobre 
 ==================================================
 
 
 ==================================================
-Moustakim, Noëlla
+tous[("Moustakim","Noëlla")].append_bar(<++>,<++>,2012,"<++>")
 Bavardage le 19 octobre
 ==================================================
 
 Petitjean, Marie-Lou
 Philippe, Élise
 Quenillet, Paul
-Raud, Lindsey
-15 octobre
+tous[("Raud","Lindsey")].append_bar(<++>,<++>,2012,"<++>")
+"
+bavardage 15 octobre
 
 
 ==============================================
-Rizet, Lauraleen
+tous[("Rizet","Lauraleen")].append_bar(<++>,<++>,2012,"<++>")
 bavardage le 16 octobre
 
 A déjà une colle pour motif :
@@ -591,7 +474,7 @@ Rolet, Léo
 Rouffet, Pauline
 
 ==============================================
-Soussigne, Ambre
+tous[("Soussigne","Ambre")].append_bar(<++>,<++>,2012,"<++>")
 bavardage le 2 octobre
 debout le 2 octobre
 cahier fermé le 12 octobre
