@@ -152,10 +152,6 @@ for k in tous.keys():
     tous[k].nom=k[0]
     tous[k].prenom=k[1]
 
-for et in tous.values():
-    print(et.prenom,et.nom)
-
-
 tous[("Atzorivenne","Mathis")].append_bar(1,10,9999,"DM pas fait : melons et pommes")
 tous[("Atzorivenne","Mathis")].append_bar(12,10,2012,"Lance un objet")
 
@@ -181,10 +177,6 @@ tous[("Blanchot","Noé")].append_bar(12,10,2012,"bavardage")
 tous[("Blanchot","Noé")].append_bar(15,10,2012,"bavardage")
 tous[("Blanchot","Noé")].append_bar(19,10,2012,"bavardage durant l'intérogation")
 tous[("Blanchot","Noé")].append_bar(22,10,2012,"bavardage")
-
-print([x.motif for x in tous[("Blanchot","Noé")].croix])
-
-
 
 tous[("Caretti","Arno")].append_bar(1,10,2012,"debout")
 tous[("Caretti","Arno")].append_bar(1,10,9999,"DM pas fait : melons et pommes")
@@ -221,7 +213,6 @@ tous[("Koehler","Paul-Erwan")].append_bar(12,10,2012,"se chamaille en continu av
 tous[("Kuti","Belinda")].append_bar(1,10,9999,"DM pas fait : histogrammes")
 tous[("Kuti","Belinda")].append_bar(12,10,2012,"cahier fermé")
 tous[("Kuti","Belinda")].append_bar(22,10,2012,"parle trop et fait la chèvre")
-
 
 #Larderet, Etienne
 
@@ -269,11 +260,11 @@ tous[("Robert","Jérémy")].append_bar(22,10,2012,"bavardage")
 
 
 
-tous[("Tepinier","Laura")].append_bar(4,10,2012,"bavardage")
-tous[("Tepinier","Laura")].append_bar(11,10,2012,"bavardage")
-tous[("Tepinier","Laura")].append_bar(12,10,2012,"cahier fermé")
-tous[("Tepinier","Laura")].append_bar(22,10,2012,"bavardage")
-tous[("Tepinier","Laura")].append_bar(22,10,2012,"cahier fermé")
+tous[("Tépinier","Laura")].append_bar(4,10,2012,"bavardage")
+tous[("Tépinier","Laura")].append_bar(11,10,2012,"bavardage")
+tous[("Tépinier","Laura")].append_bar(12,10,2012,"cahier fermé")
+tous[("Tépinier","Laura")].append_bar(22,10,2012,"bavardage")
+tous[("Tépinier","Laura")].append_bar(22,10,2012,"cahier fermé")
 
 tous[("Thevenot","Bastien")].append_bar(22,10,2012,"bavardage")
 
@@ -314,6 +305,7 @@ tous[("Cuevas","Gabrielle")].append_bar(22,10,2012,"bavardage en continu avec le
 
 tous[("Di-Natale","Romain")].append_bar(16,10,2012,"pré-colle")
 tous[("Di-Natale","Romain")].append_bar(22,10,2012,"bavardage")
+tous[("Di-Natale","Romain")].append_bar(23,10,2012,"bavardage pendant l'interro")
 
 
 
@@ -329,6 +321,7 @@ tous[("Dormoy","Adrien")].append_bar(22,10,2012,"bavardage")
 #tous[("Grenot","Emmanuel")].append_bar(<++>,<++>,2012,"<++>")
 
 tous[("Guyot","Coralie")].append_bar(11,10,2012,"cherche des images d'Apu sur internet pendant le scéance info")
+tous[("Guyot","Coralie")].append_bar(23,10,2012,"parle pendant l'interro")
 
 
 #tous[("Lebrasseur","Fabien")].append_bar(<++>,<++>,2012,"<++>")
@@ -346,6 +339,7 @@ tous[("Moustakim","Ilhem")].append_bar(22,10,2012,"bavardage")
 
 tous[("Pellegrini","Clara")].append_bar(16,10,2012,"bavardage")
 tous[("Pellegrini","Clara")].append_bar(22,10,2012,"bavardage")
+tous[("Pellegrini","Clara")].append_bar(23,10,2012,"bavardage pendant l'interro")
 
 #tous[("Piguet","Louise")].append_bar(<++>,<++>,2012,"<++>")
 
@@ -362,10 +356,10 @@ tous[("Rodrigues","Maëva")].append_bar(16,10,2012,"bavardage")
 #tous[("Schindler","Sandra")].append_bar(<++>,<++>,2012,"<++>")
 
 
-Les pré-colles
-Athénaïs
-Jacinto, Sarah
-Ambre
+#Les pré-colles
+#Athénaïs
+#Jacinto, Sarah
+#Ambre
 
 
 
@@ -379,6 +373,7 @@ tous[("Babet","Mauranne")].append_bar(15,10,2012,"bavardage")
 
 
 tous[("Bongain","Marie")].append_bar(15,10,2012,"bavardage")
+tous[("Bongain","Marie")].append_bar(23,10,2012,"bavardage")
 
 tous[("Bonnevie","Quentin")].append_bar(8,10,2012,"bavardage")
 
@@ -390,6 +385,7 @@ tous[("Boujon","Agathe")].append_bar(19,10,2012,"bavardage")
 
 tous[("Chourfi","Marwa")].append_bar(2,10,2012,"cahier fermé")
 tous[("Chourfi","Marwa")].append_bar(19,10,2012,"bavardage")
+tous[("Chourfi","Marwa")].append_bar(23,10,2012,"bavardage avec Noëlla et ne s'arrête ostensiblement pas lorsque je lui demande")
 
 #tous[("Da Mota-Païs","Ophélie")].append_bar(<++>,<++>,2012,"<++>")
 
@@ -412,14 +408,9 @@ tous[("Hierholzer","Athénaïs")].append_bar(8,10,2012,"bavardage")
 tous[("Hierholzer","Athénaïs")].append_bar(15,10,2012,"bavardage")
 tous[("Hierholzer","Athénaïs")].append_bar(19,10,2012,"pré-colle")
 
-#Jacinto, Sarah
+tous[("Jacinto","Sarah")].append_bar(16,10,2012,"pré-colle")
+
 tous[("Labourot","Manon")].append_bar(16,10,2012,"pré-colle")
-
-==================================================
-
-
-A déjà pris une retenue pour motif :
-
 
 tous[("Lesage","Kévin")].append_bar(1,10,2012,"cahier fermé")
 tous[("Lesage","Kévin")].append_bar(2,10,2012,"est debout")
@@ -437,41 +428,35 @@ tous[("Menetrier","Gautier")].append_bar(2,10,2012,"est encore debout")
 tous[("Menetrier","Gautier")].append_bar(16,10,2012,"est debout")
 
 
-==================================================
-tous[("Moustakim","Noëlla")].append_bar(<++>,<++>,2012,"<++>")
-Bavardage le 19 octobre
-==================================================
+tous[("Moustakim","Noëlla")].append_bar(19,10,2012,"bavardage")
+tous[("Moustakim","Noëlla")].append_bar(23,10,2012,"bavardage avec Marwa et ne s'arrête ostensiblement pas lorsque je lui demande")
 
-Petitjean, Marie-Lou
-Philippe, Élise
-Quenillet, Paul
-tous[("Raud","Lindsey")].append_bar(<++>,<++>,2012,"<++>")
-"
-bavardage 15 octobre
+#tous[("Petitjean","Marie-Lou")].append_bar(<++>,10,2012,"<++>")
+#tous[("Philippe","Élise")].append_bar(<++>,10,2012,"<++>")
+#tous[("Quenillet","Paul")].append_bar(<++>,10,2012,"<++>")
 
+tous[("Raud","Lindsey")].append_bar(15,10,2012,"bavardage")
 
-==============================================
-tous[("Rizet","Lauraleen")].append_bar(<++>,<++>,2012,"<++>")
-bavardage le 16 octobre
-
-A déjà une colle pour motif :
-A un téléphone en main durant le cours du 2 octobre. Préfère avoir une colle que de voir le téléphone confisqué chez le CPE.
-
-==============================================
-Rolet, Léo
-Rouffet, Pauline
-
-==============================================
-tous[("Soussigne","Ambre")].append_bar(<++>,<++>,2012,"<++>")
-bavardage le 2 octobre
-debout le 2 octobre
-cahier fermé le 12 octobre
-pré-colle le 16 octobre
-==============================================
+tous[("Rizet","Lauraleen")].append_bar(16,10,2012,"bavardage")
+tous[("Rizet","Lauraleen")].append_colle(2,10,2012,"A un téléphone en main durant le cours du 2 octobre. Préfère avoir une colle que de voir le téléphone confisqué chez le CPE.",extra=True)
 
 
-Verjus, Océane
+tous[("Rolet","Léo")].append_bar(23,10,2012,"bavardage")
+#tous[("Rouffet","Pauline")].append_bar(<++>,10,2012,"<++>")
+
+tous[("Soussigne","Ambre")].append_bar(2,10,2012,"bavardage")
+tous[("Soussigne","Ambre")].append_bar(2,10,2012,"debout")
+tous[("Soussigne","Ambre")].append_bar(12,10,2012,"cahier fermé")
+tous[("Soussigne","Ambre")].append_bar(16,10,2012,"pré-colle")
 
 
+#tous[("Verjus","Océane")].append_bar(<++>,10,2012,"<++>")
 
-"""
+
+et=tous[("Rizet","Lauraleen")]
+print([x.motif for x in et.croix])
+et=tous[("Rolet","Léo")]
+print([x.motif for x in et.croix])
+et=tous[("Soussigne","Ambre")]
+print([x.motif for x in et.croix])
+
