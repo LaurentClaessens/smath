@@ -398,55 +398,43 @@ tous[("Drissi","M'hamed")].append_bar(8,10,2012,"bavardage")
 tous[("Drissi","M'hamed")].append_bar(16,10,2012,"bavardage")
 
 
-tous[("Ekti","Melda")].append_bar(<++>,<++>,2012,"<++>")
+#tous[("Ekti","Melda")].append_bar(<++>,<++>,2012,"<++>")
 
 tous[("Esquirol","Antoine")].append_bar(15,10,2012,"bavardage")
 tous[("Esquirol","Antoine")].append_bar(16,10,2012,"bavardage")
+tous[("Esquirol","Antoine")].append_colle(8,10,2012,motif="A un téléphone en main durant le cours du 8 octobre.\n Note a posteriori : n'assume pas ses responsabilités : a laissé Agathe se dénoncer à sa place.",extra=True)
 
+#Favre, Caroline
+#Hachadi, Houda   # Note pour quelque part : elle n'a pas rendu le DS : je l'ai entendu dire.
 
-A eu une colle
-Motif :
-A un téléphone en main durant le cours du 8 octobre. 
-Note a posteriori : n'assume pas ses responsabilités : a laissé Agathe se dénoncer à sa place.
+tous[("Hierholzer","Athénaïs")].append_bar(1,10,2012,"lancer")
+tous[("Hierholzer","Athénaïs")].append_bar(8,10,2012,"bavardage")
+tous[("Hierholzer","Athénaïs")].append_bar(15,10,2012,"bavardage")
+tous[("Hierholzer","Athénaïs")].append_bar(19,10,2012,"pré-colle")
 
-==================================================
-
-
-Favre, Caroline
-Hachadi, Houda
-
-==================================================
-tous[("Hierholzer","Athénaïs")].append_bar(<++>,<++>,2012,"<++>")
-Lancer : 1 octobre
-Bavarde (8 octobre)
-bavardage (15 octobre)
-pré-colle (19 octobre)
-==================================================
-Jacinto, Sarah
-Labourot, Manon
-pré-colle le 16 octobre
+#Jacinto, Sarah
+tous[("Labourot","Manon")].append_bar(16,10,2012,"pré-colle")
 
 ==================================================
-tous[("Lesage","Kévin")].append_bar(<++>,<++>,2012,"<++>")
-Bavarde trop (8 octobre)
-15 octobre
+
 
 A déjà pris une retenue pour motif :
-Le 2 octobre 2012
-Colle cumulative. Est debout (2 oct), a un cahier fermé alors que le cours n'est pas fini (1 oct) et bavardage.
-Cette colle a été faite le 17 octobre et les exercices ont été fait de façon complètement fausses.
-
-===================================================
 
 
+tous[("Lesage","Kévin")].append_bar(1,10,2012,"cahier fermé")
+tous[("Lesage","Kévin")].append_bar(2,10,2012,"est debout")
+tous[("Lesage","Kévin")].append_bar(2,10,2012,"bavardage")
+tous[("Lesage","Kévin")].append_colle(2,10,2012)
+#Cette colle a été faite le 17 octobre et les exercices ont été fait de façon complètement fausses.
 
-tous[("Matrat","Noémie")].append_bar(<++>,<++>,2012,"<++>")
-bavardage le 16 octobre
-==================================================
-tous[("Menetrier","Gautier")].append_bar(<++>,<++>,2012,"<++>")
-debout le 2 octobre 
-debout (re) le 2 octobre 
-==================================================
+tous[("Lesage","Kévin")].append_bar(8,10,2012,"bavardage")
+tous[("Lesage","Kévin")].append_bar(15,10,2012,"bavardage")
+
+
+tous[("Matrat","Noémie")].append_bar(16,10,2012,"bavardage")
+
+tous[("Menetrier","Gautier")].append_bar(2,10,2012,"est encore debout")
+tous[("Menetrier","Gautier")].append_bar(16,10,2012,"est debout")
 
 
 ==================================================
