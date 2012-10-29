@@ -14,7 +14,7 @@ def RectanglegHuBZs():
 
     A.put_mark(0.2,225,"\( A\)",automatic_place=pspict)
     B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,90,"\( C\)",automatic_place=pspict)
+    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
     AB.put_mark(0.2,-90,"\( 8\)",automatic_place=pspict)
     BC.put_mark(0.2,0,"\( x\)",automatic_place=pspict)
     CA.put_mark(0.2,CA.advised_mark_angle()+180,"\( 17\)",automatic_place=pspict)
