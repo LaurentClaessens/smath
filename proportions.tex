@@ -148,6 +148,8 @@ Dans toute cette partie nous considérons une valeur (prix, effectifs, capacité
     Ici, le coefficient multiplicateur est le \( C\).
 \end{definition}
 
+Un coefficient multiplicateur de hausse est un nombre plus grand que \( 1\). Un coefficient multiplicateur de baisse est un nombre entre \( 0\) et \( 1\).
+
 \begin{definition}
     Soit une valeur (prix, effectifs, capacité d'une salle de spectacle, \ldots) évoluant d'une \emph{valeur initiale} \( V_I\) à une \emph{valeur finale} \( V_F\). La \defe{variation absolue}{variation!absolue} est la différence :
     \begin{equation}
@@ -161,9 +163,28 @@ Dans toute cette partie nous considérons une valeur (prix, effectifs, capacité
 \end{definition}
 
 \begin{Aretenir}
-    
+    \begin{enumerate}
+        \item
+            Pour diminuer une valeur de \( x\%\), il faut la multiplier par 
+            \begin{equation}
+                1-\frac{ x }{ 100 }.
+            \end{equation}
+        \item
+            Le coefficient multiplicateur d'une augmentation de \( x\%\) est
+            \begin{equation}
+                1+\frac{ x }{ 100 }.
+            \end{equation}
+    \end{enumerate}
 \end{Aretenir}
-<++>
+
+En effet si nous notons \( V_I\) la valeur initiale et \( V_F\) la valeur finale (qui est une augmentation de \( x\%\) par rapport à \( V_I\)), alors nous avons
+\begin{equation}
+    V_F=V_I+\underbrace{V_I\times \frac{ x }{ 100 }}_{x\% \text{de \( V_I\)}}.
+\end{equation}
+En mettant \( V_I\) en facteur,
+\begin{equation}
+    V_F=V_I\times \left( 1+\frac{ x }{ 100 } \right).
+\end{equation}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
@@ -205,3 +226,4 @@ Dans toute cette partie nous considérons une valeur (prix, effectifs, capacité
 \Exo{smath-0031}                                                                                                                            
 \Exo{smath-0032}
 \Exo{smath-0033}
+\Exo{smath-0034}
