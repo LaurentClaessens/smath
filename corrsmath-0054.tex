@@ -5,6 +5,33 @@
 
 \begin{corrige}{smath-0054}
 
-<+Corrsmath-0054+>
+    Nous allons prouver que les vecteurs \( \vect{ NP }\) et \( \vect{ PM }\) sont colinéaires, c'est à dire qu'ils sont multiples l'un de l'autre.
+    
+
+    Faire un dessin !!
+
+    D'abord par les relations de Chasles
+    \begin{subequations}
+        \begin{align}
+            \vect{ NP }&=\vect{ NB }+\vect{ BP }\\
+            \vect{ PM }&=\vect{ PC }+\vect{ CM }.
+        \end{align}
+    \end{subequations}
+    En utilisant l'énoncé,
+    \begin{subequations}        \label{EqfuaLrY}
+        \begin{align}
+            \vect{ NP }&=\frac{1}{ 4 }\vect{ AB }+\frac{ 1 }{2}\vect{ BC }\\
+            \vect{ PM }&=\frac{ 1 }{2}\vect{ BC }+\frac{ 1 }{2}\vect{ AC }.
+        \end{align}
+    \end{subequations}
+    Afin de comparer ces deux vecteurs, nous allons les exprimer tous deux dans la même base, par exemple la base \( \{ \vect{ AB },\vect{ AC } \}\). Nous devons remplacer le vecteur \( \vect{ BC }\) apparaissant dans les expressions \eqref{EqfuaLrY}. Il est vite vu que \( \vect{ BC }=\vect{ BA }+\vect{ AC }=\vect{ AC }-\vect{ AB }\), et donc
+    \begin{subequations}
+        \begin{align}
+            \vect{ NP }=\frac{1}{ 4 }\vect{ AB }+\frac{ 1 }{2}(-\vect{ AB }+\vect{ AC })=-\frac{1}{ 4 }\vect{ AB }+\frac{ 1 }{2}\vect{ AC }\\
+            \vect{ PM }=-\frac{ 1 }{2}(-\vect{ AB }+\vect{ AC })+\frac{ 1 }{2}\vect{ AC }=-\frac{ 1 }{2}\vect{ AB }+\vect{ AC }.
+        \end{align}
+    \end{subequations}
+    Donc nous avons bien \( \vect{ NP }=\frac{ 1 }{2}\vect{ PM }\).
+    
 
 \end{corrige}
