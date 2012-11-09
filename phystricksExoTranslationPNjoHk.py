@@ -5,6 +5,8 @@ def ExoTranslationPNjoHk():
     pspict,fig = SinglePicture("ExoTranslationPNjoHk")
     pspict.dilatation(1)
 
+    pspict.specific_need="\\newcommand{\\vect}[1]{\overrightarrow{#1}}"
+
     l=2
     A=Point(1,1)
     B=A+(l,0)
