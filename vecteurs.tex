@@ -24,9 +24,23 @@ Nous notons \( \vect{ AB }\) le vecteur associé à cette translation.
     Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{A,B}=t_{C,D}\), c'est à dire si pour tout point \( K\) dans le plan nous avons \( t_{A,B}(K)=t_{C,d}(K)\).
 \end{definition}
 
+\begin{Aretenir}
+    Si \( K'=t_{A,B}(K)\) alors \( ABK'K\) est un parallélogramme.
+\end{Aretenir}
+
 \begin{propriete}
     Soient quatre points du plan \( A\), \( B\), \( C\) et \( D\). Le quadrilatère \( ABCD\) est un parallélogramme si et seulement si \( \vect{ AB }=\vect{ CD }\).
 \end{propriete}
+
+\begin{proof}
+    Nous commençons par supposer que \( \vect{ AB }=\vect{ CD }\) et nous prouvons qu'alors \( ABCD\) est un parallélogramme. Pour cela nous considérons un point \( K\) quelconque du plan et nous nous souvenons que \( t_{A,B}(K)=t_{C,D}(K)\). Nous nommons \( K'\) l'image de \( K\) par \( t_{A,B}\) ou \( t_{C,D}\). Autrement dit :
+    \begin{equation}
+        K'=t_{A,B}(K)=t_{C,D}(K).
+    \end{equation}
+    Donc \( ABK'K\) et \( CDk'K\) sont des parallélogrammes.
+
+    Le fait que \( ABK'K\) soit un parallélogramme implique que \( AB=K'K\) et que \( (AB)\parallel(K'K)\). De la même manière, le fait que \( CDK'K\) soit un parallélogramme implique que \( CD=K'K\) et que \( (CD)\parallel(K'K)\). Donc nous avons \( AB=CD\) et \( (AB)\parallel(CD)\), ce qui montre que \( ABCD\) est un parallélogramme.
+\end{proof}
 <++>
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

@@ -4,7 +4,7 @@ def DefVecteurAXDDGP():
     pspict,fig = SinglePicture("DefVecteurAXDDGP")
     pspict.dilatation(1)
 
-    pspict.specific_needs="\\newcommand{\\vect}[1]{\overrightarrow{#1}}"
+    fig.specific_needs="\\newcommand{\\vect}[1]{\overrightarrow{#1}}"
 
     v=(3,-1)
     A=Point(0,0)
@@ -32,7 +32,7 @@ def DefVecteurAXDDGP():
     C.put_mark(0.2,-90,"\( C\)",automatic_place=pspict)
     D.put_mark(0.2,0,"\( D\)",automatic_place=pspict)
 
-    pspict.DrawGraphs(A,B,C,D,M,vect,d1,s1,s2)
+    pspict.DrawGraphs(vect,d1,s1,s2,A,B,C,D,M)
     #pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()

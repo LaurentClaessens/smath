@@ -9,3 +9,4 @@ myRequest.original_filename="smath.tex"
 
 myRequest.ok_filenames_list=["e_smath"]
 myRequest.ok_filenames_list.append("Binomiale")
+myRequest.ok_filenames_list.append("intervalle_confiance")
