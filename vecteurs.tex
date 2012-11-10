@@ -8,7 +8,7 @@
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{multicols}{2}
-\begin{definition}
+    \begin{definition}  \label{DefAAJEuS}
     La \defe{translation}{translation} \( t_{A,B}\) est la transformation du plan qui à un point \( C\) fait correspondre l'unique point \( D\) tel que les segments \( [AD]\) et \( [BC]\) aient même milieu.
 \end{definition}
 
@@ -20,28 +20,49 @@
 \end{multicols}
 Nous notons \( \vect{ AB }\) le vecteur associé à cette translation.
 
+Étant donné qu'un quadrilatère dont les diagonales se coupent en leur milieu est un parallélogramme, nous avons immédiatement le règle suivante :
+\begin{Aretenir}
+    Le quadrilatère \( ABDC\) est un parallélogramme si et seulement si \( D=t_{A,B}(C)\).
+\end{Aretenir}
+Attention : il s'agit bien de \( ABDC\) et non de \( ABCD\).
+
+Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatement aussi
+\begin{equation}
+    t_{A,B}(A)=B.
+\end{equation}
+
 \begin{definition}
-    Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{A,B}=t_{C,D}\), c'est à dire si pour tout point \( K\) dans le plan nous avons \( t_{A,B}(K)=t_{C,d}(K)\).
+    Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{A,B}(C)=D\).
 \end{definition}
 
-\begin{Aretenir}
-    Si \( K'=t_{A,B}(K)\) alors \( ABK'K\) est un parallélogramme.
-\end{Aretenir}
-
 \begin{propriete}
-    Soient quatre points du plan \( A\), \( B\), \( C\) et \( D\). Le quadrilatère \( ABCD\) est un parallélogramme si et seulement si \( \vect{ AB }=\vect{ CD }\).
+    Si \( A\), \( B\), \( C\) et \( D\) sont des points tels que \( \vect{ AB }=\vect{ CD }\) alors \( ABDC\) est un parallélogramme.
+
+    Attention : il s'agit bien de \( ABDC\) et non de \( ABCD\).
 \end{propriete}
 
 \begin{proof}
-    Nous commençons par supposer que \( \vect{ AB }=\vect{ CD }\) et nous prouvons qu'alors \( ABCD\) est un parallélogramme. Pour cela nous considérons un point \( K\) quelconque du plan et nous nous souvenons que \( t_{A,B}(K)=t_{C,D}(K)\). Nous nommons \( K'\) l'image de \( K\) par \( t_{A,B}\) ou \( t_{C,D}\). Autrement dit :
+    Nous supposons que \( \vect{ AB }=\vect{ CD }\) et nous prouvons qu'alors \( ABCD\) est un parallélogramme.  Pour tout point \( K\) du plan, nous avons \( t_{A,D}(K)=t_{C,D}(K)\). En particulier, avec \( K=C\) nous avons
     \begin{equation}
-        K'=t_{A,B}(K)=t_{C,D}(K).
+        t_{A,B}(C)=t_{C,D}(C)=D.
     \end{equation}
-    Donc \( ABK'K\) et \( CDk'K\) sont des parallélogrammes.
+    Le fait d'avoir \( t_{A,B}(C)=D\) nous indique que \( ABDC\) est un parallélogramme.
+\end{proof}
 
-    Le fait que \( ABK'K\) soit un parallélogramme implique que \( AB=K'K\) et que \( (AB)\parallel(K'K)\). De la même manière, le fait que \( CDK'K\) soit un parallélogramme implique que \( CD=K'K\) et que \( (CD)\parallel(K'K)\). Donc nous avons \( AB=CD\) et \( (AB)\parallel(CD)\), ce qui montre que \( ABCD\) est un parallélogramme.
+La réciproque est également vraie.
+\begin{propriete}
+    Si \( ABCD\) est un parallélogramme, alors \( \vect{ AB }=\vect{ CD }\).
+\end{propriete}
+
+\begin{proof}
+    Nous devons prouver que pour tout point \( K\) du plan, \( t_{A,B}(K)=t_{C,D}(K)\).
 \end{proof}
 <++>
+
+Au final, l'égalité de vecteurs est caractérisée par la règle du parallélogramme résumée ci-dessous.
+\begin{propriete}
+    Soient quatre points du plan \( A\), \( B\), \( C\) et \( D\). Le quadrilatère \( ABCD\) est un parallélogramme si et seulement si \( \vect{ AB }=\vect{ CD }\).
+\end{propriete}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
@@ -50,9 +71,28 @@ Nous notons \( \vect{ AB }\) le vecteur associé à cette translation.
 \Exo{smath-0053}
 \Exo{smath-0052}
 \Exo{smath-0055}
+\Exo{smath-0063}
+\Exo{smath-0064}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Colinéarité}
 %---------------------------------------------------------------------------------------------------------------------------
 
+\Exo{smath-0061}
+\Exo{smath-0062}
+\Exo{smath-0060}
 \Exo{smath-0054}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Opérations sur les vecteurs}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0059}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Théorie}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0056}
+\Exo{smath-0057}
+\Exo{smath-0058}
