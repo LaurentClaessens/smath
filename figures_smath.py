@@ -4,6 +4,12 @@
 from phystricks import *
 import sys
 
+from phystricksfigureBCtCTZo import figureBCtCTZo
+from phystricksPositionPlansqSltxa import PositionPlansqSltxa
+from phystricksPositionPlansTvKvah import PositionPlansTvKvah
+from phystricksPositionRelativexpwkEJ import PositionRelativexpwkEJ
+from phystricksExoTrigTrIpPW import ExoTrigTrIpPW
+from phystricksExoVectoFRPXxB import ExoVectoFRPXxB
 from phystricksTracerUn import TracerUn
 from phystricksExerciceGraphes import ExerciceGraphes
 from phystricksExerciceGraphesbis import ExerciceGraphesbis
@@ -96,7 +102,12 @@ from phystricksRectanglegHuBZs import RectanglegHuBZs
 from phystricksThaleszlOKVq import ThaleszlOKVq
 from phystricksExoTranslationPNjoHk import ExoTranslationPNjoHk
 from phystricksDefVecteurAXDDGP import DefVecteurAXDDGP
-
+from phystricksVectoParallItzteT import VectoParallItzteT
+from phystricksVectoParallelgjDlmD import VectoParallelgjDlmD
+from phystricksChaslesGTRtKR import ChaslesGTRtKR
+from phystricksVectoMilieuNuWgHW import VectoMilieuNuWgHW
+from phystricksExoVectoPJGrRF import ExoVectoPJGrRF
+from phystricksfigureASkECWS import figureASkECWS
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -113,9 +124,9 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,CylindresxKDOdy,
     FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,
     CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,
-    ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,ExoTranslationPNjoHk,DefVecteurAXDDGP
+    ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,ExoTranslationPNjoHk,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
+    ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS
     ]
-
 
 for k in sys.argv:
     s=[]

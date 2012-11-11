@@ -23,8 +23,9 @@ Nous notons \( \vect{ AB }\) le vecteur associé à cette translation.
 Étant donné qu'un quadrilatère dont les diagonales se coupent en leur milieu est un parallélogramme, nous avons immédiatement le règle suivante :
 \begin{Aretenir}
     Le quadrilatère \( ABDC\) est un parallélogramme si et seulement si \( D=t_{A,B}(C)\).
-\end{Aretenir}
+
 Attention : il s'agit bien de \( ABDC\) et non de \( ABCD\).
+\end{Aretenir}
 
 Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatement aussi
 \begin{equation}
@@ -32,38 +33,80 @@ Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatem
 \end{equation}
 
 \begin{definition}
-    Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{A,B}(C)=D\).
+    Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{A,B}(C)=D\), c'est à dire si \( ABDC\) est un parallélogramme.
 \end{definition}
 
 \begin{propriete}
-    Si \( A\), \( B\), \( C\) et \( D\) sont des points tels que \( \vect{ AB }=\vect{ CD }\) alors \( ABDC\) est un parallélogramme.
-
-    Attention : il s'agit bien de \( ABDC\) et non de \( ABCD\).
+    Si \( \vect{ AB }=\vect{ CD }\) alors les translations \( t_{A,B}\) et \( t_{C,D}\) sont égales, c'est à dire que pour tout point \( K\) dans le plan, nous avons \( t_{A,B}(K)=t_{C,D}(K)\).
 \end{propriete}
 
 \begin{proof}
-    Nous supposons que \( \vect{ AB }=\vect{ CD }\) et nous prouvons qu'alors \( ABCD\) est un parallélogramme.  Pour tout point \( K\) du plan, nous avons \( t_{A,D}(K)=t_{C,D}(K)\). En particulier, avec \( K=C\) nous avons
+    L'égalité \( \vect{ AB }=\vect{ CD }\) nous dit immédiatement que \( ABDC\) est un parallélogramme. Soit \( K\) un point quelconque du plan et \( K'=t_{A,B}(K)\). Alors \( ABK'K\) est un parallélogramme. Nous devons prouver que \( CDK'K\) est également un parallélogramme. La situation est à la figure \ref{LabelFigVectoParallItzteT}. % From file VectoParallItzteT
+\newcommand{\CaptionFigVectoParallItzteT}{Nous savons que \( ABDC\) et \( CDK'K\) sont des parallélogramme, et nous voulons déduire que \( CDK'K\) en est également un.}
+\input{Fig_VectoParallItzteT.pstricks}
+
+    Par les parallélogramme connus, nous avons \( (AB)\parallel (CD)\) et \( (AB)\parallel (KK')\), donc \( (CD)\parallel (KK')\). La difficulté est de prouver que \( (CK)\parallel (DK')\). 
+    
+    Pour cela nous considérons les triangles \( ACK\) et \( BDK'\), et nous allons montrer qu'ils sont isométriques. Vu que \( (KA)\parallel (K'B)\), les angles notés \( \alpha\) sur la figure \ref{LabelFigVectoParallelgjDlmD} sont égaux. Le fait que \( (DB)\parallel (CA)\) donne l'égalité des angles notés \( \beta\) sur cette même figure. De tout cela nous concluons que \( \hat A=\hat B\) pour les triangles \( ACK\) et \( BDK'\).
+    % From file VectoParallelgjDlmD
+\newcommand{\CaptionFigVectoParallelgjDlmD}{Égalité de quelque angles.}
+\input{Fig_VectoParallelgjDlmD.pstricks}
+
+    Par les parallélogramme connus nous avons aussi les égalités de longueurs \( AK=BK'\) et \( AC=BD\). En vertu de la propriété \ref{PropRtqqxJ} sur les triangles isométriques, les triangles \( ACK\) et \( BDK'\) sont isométriques. En particulier \( \hat K=\hat K'\).
+
+    L'égalité des angles \( \hat K\) et \( \hat K'\) et le parallélisme \( (KA)\parallel (K'B)\) entraine que \( (KC)\parallel(K'D)\).
+
+    Maintenant le quadrilatère \( CDK'K\) est formé de deux couples de droites parallèles. Les longueurs sont de plus égales parce que \( CD=AB=KK'\) (encore par les parallélogrammes) et \( KC=K'D\) par isométrie des triangles. Le quadrilatère \( CDK'K\) es estt donc un parallélogramme. Cela prouve que \( K'\) est l'image de \( K\) par la translation \( t_{C,D}\).
+\end{proof}
+
+\begin{definition}
+    Le vecteur \( \vect{ AB }\) est \defe{nul}{vecteur!nul} si les points \( A\) et \( B\) sont confondus. On le note alors \( \vect{ 0 }\).
+
+    Nous définissons aussi \( -\vect{ AB }=\vect{ BA }\).
+\end{definition}
+
+\begin{definition}
+    Le vecteur \defe{somme}{somme!de vecteur}\index{vecteur!somme} \( \vect{ AB }+\vect{ CD }\) est le vecteur qui correspond à la translation composée de \( t_{A,B}\) par \( t_{C,D}\)
+\end{definition}
+
+\begin{Aretenir}
+    \begin{multicols}{2}
+    Nous avons la \defe{relation de Chasles}{Chasles} qui permet de mettre des vecteurs «bout à bout» :
     \begin{equation}
-        t_{A,B}(C)=t_{C,D}(C)=D.
+        \vect{ AB }+\vect{ BC }=\vect{ AC }.
     \end{equation}
-    Le fait d'avoir \( t_{A,B}(C)=D\) nous indique que \( ABDC\) est un parallélogramme.
-\end{proof}
 
-La réciproque est également vraie.
+    \columnbreak
+
+%Une illustration de la relation de Chasles est donnée à la figure \ref{LabelFigChaslesGTRtKR}. % From file ChaslesGTRtKR
+%\newcommand{\CaptionFigChaslesGTRtKR}{La somme $ \vect{ AB }+\vect{ BC }$ est le vecteur $ \vect{ AC }$.}
+\input{Fig_ChaslesGTRtKR.pstricks}
+
+    \end{multicols}
+\end{Aretenir}
+
 \begin{propriete}
-    Si \( ABCD\) est un parallélogramme, alors \( \vect{ AB }=\vect{ CD }\).
+    \begin{multicols}{2}
+
+        Le point \( M\) est milieu du segment \( [AB]\) si et seulement si \( \vect{ AM }=\vect{ MB }\).
+
+        \columnbreak
+
+%The result is on figure \ref{LabelFigVectoMilieuNuWgHW}. % From file VectoMilieuNuWgHW
+%\newcommand{\CaptionFigVectoMilieuNuWgHW}{<+Type your caption here+>}
+\input{Fig_VectoMilieuNuWgHW.pstricks}
+
+    \end{multicols}
 \end{propriete}
 
 \begin{proof}
-    Nous devons prouver que pour tout point \( K\) du plan, \( t_{A,B}(K)=t_{C,D}(K)\).
+    Supposons pour commencer que \( M\) soit le milieu du segment \( [AB]\). Afin de prouver que \( \vect{ AM }=\vect{ MB }\), nous prouvons que \( AMBM\) est un parallélogramme. Vu que \( M\) est sur la droite \( (AB)\) nous avons évidemment le parallélisme des côtés : \( (AM)\parallel (MB)\).
+
+    En ce qui concerne l'égalité des longueurs, \( AM=BM\) parce que \( M\) est milieu de \( [AB]\).
+
+    Pour la réciproque, nous supposons que \( \vect{ AM }=\vect{ MB }\) et nous devons prouver que \( M\) est le milieu de \( [AB]\).  Par hypothèse, \( AMBM\) est un parallélogramme, et donc les diagonales se coupent en leur milieu. Ces diagonales sont \( [AB]\) et \( [MM]\). Le milieu de \( [MM]\) est évidemment \( M\), qui est alors le milieu de \( [AB]\), ce qu'il fallait prouver.
 \end{proof}
-<++>
-
-Au final, l'égalité de vecteurs est caractérisée par la règle du parallélogramme résumée ci-dessous.
-\begin{propriete}
-    Soient quatre points du plan \( A\), \( B\), \( C\) et \( D\). Le quadrilatère \( ABCD\) est un parallélogramme si et seulement si \( \vect{ AB }=\vect{ CD }\).
-\end{propriete}
-
+ 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -73,6 +116,19 @@ Au final, l'égalité de vecteurs est caractérisée par la règle du parallélo
 \Exo{smath-0055}
 \Exo{smath-0063}
 \Exo{smath-0064}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Relations de Chasles}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0067}
+\Exo{smath-0065}
+\Exo{smath-0066}
+\Exo{smath-0071}
+\Exo{smath-0072}
+
+\Exo{smath-0075}
+\Exo{smath-0076}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Colinéarité}
@@ -85,6 +141,15 @@ Au final, l'égalité de vecteurs est caractérisée par la règle du parallélo
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Opérations sur les vecteurs}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0068}
+\Exo{smath-0070}
+\Exo{smath-0073}
+\Exo{smath-0074}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Coordonnées}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \Exo{smath-0059}

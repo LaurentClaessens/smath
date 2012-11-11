@@ -134,13 +134,27 @@ Un dessin de la situation est proposé à la figure \ref{LabelFigPerpSegqrbMBZ}.
 \subsection{Deux droites}
 %---------------------------------------------------------------------------------------------------------------------------
 
-Deux droites peuvent être soit dans un même plan, soit ne pas être dans le même plan.
+Deux droites peuvent être soit dans un même plan, soit ne pas être dans le même plan. Deux droites contenues dans un même plan sont dires \defe{coplanaires}{coplanaire}.
+\begin{multicols}{2}
+    \begin{center}
+        Droites coplanaires
+    \end{center}
 \begin{Aretenir}
-    Si deux droites non confondues sont contenues dans un même plan, alors soit elles sont parallèles, soit elles sont sécantes. Dans ce dernier cas, elles se coupent en \emph{un seul} point.
-
-    Deux droites sécantes sont toujours coplanaires.
+    Si deux droites sont contenues dans un même plan, alors soit elles sont parallèles, soit elles sont sécantes. 
 \end{Aretenir}
-Des exemples sont donnés à al figure \ref{LabelFigPositionsDroitesbnYIsH}. % From file PositionsDroitesbnYIsH
+
+    \columnbreak
+
+    \begin{center}
+        Droites non coplanaires.
+    \end{center}
+\begin{Aretenir}
+    Deux droites non coplanaires ne sont ni sécantes ni parallèles.
+\end{Aretenir}
+
+\end{multicols}
+
+Des exemples sont donnés à la figure \ref{LabelFigPositionsDroitesbnYIsH}. % From file PositionsDroitesbnYIsH
 \newcommand{\CaptionFigPositionsDroitesbnYIsH}{Droites coplanaires ou non.}
 \input{Fig_PositionsDroitesbnYIsH.pstricks}
 
@@ -149,7 +163,117 @@ Des exemples sont donnés à al figure \ref{LabelFigPositionsDroitesbnYIsH}. % F
 %See also the subfigure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH2}
 Notez en particulier la figure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH3} sur laquelle les droites \( (FH)\) et \( (AC)\) ne sont pas sécantes !
 
+\begin{propriete}
+    Deux droites sécantes sont toujours coplanaires.
+\end{propriete}
 
+\begin{proof}
+    Soient \( d\) et \( d'\) deux droites sécantes dans l'espace. Soit \( K\) leur point d'intersection; soit \( A\), un autre point sur \( d\) et \( B\) un autre point sur \( d'\).
+
+    Le plan défini par les points \( A\), \( K\) et \( B\) contient les deux droites.
+\end{proof}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Deux plans}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Deux plans dans l'espace sont soit parallèles, soit sécants.
+\begin{multicols}{2}
+
+    \begin{center}
+        Plans parallèles
+    \end{center}
+    Des plans parallèles sont soit confondus, soit n'ont aucun point communs.
+
+Les plans \( (AEB)\) et \( (DHC)\) ci-contre sont parallèles.
+
+\columnbreak
+
+%The result is on figure \ref{LabelFigPositionPlansTvKvah}. % From file PositionPlansTvKvah
+%\newcommand{\CaptionFigPositionPlansTvKvah}{<+Type your caption here+>}
+    \begin{center}
+\input{Fig_PositionPlansTvKvah.pstricks}
+    \end{center}
+
+
+\end{multicols}
+
+\begin{multicols}{2}
+    \begin{center}
+        Plans sécants
+    \end{center}
+    L'intersection de deux plans sécants (non confondus) est une droite.
+
+    L'intersection des plans \( (ABG)\) et \( (DCG)\) ci-contre est la droite \( (HG)\).
+
+    \columnbreak
+
+%The result is on figure \ref{LabelFigPositionPlansqSltxa}. % From file PositionPlansqSltxa
+%\newcommand{\CaptionFigPositionPlansqSltxa}{<+Type your caption here+>}
+    \begin{center}
+\input{Fig_PositionPlansqSltxa.pstricks}
+    \end{center}
+
+\end{multicols}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Une droite et un plan}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Une droite est soit parallèle soit sécante à un plan.
+
+\begin{multicols}{2}
+
+    \begin{center}
+        Droite et plan sécants
+    \end{center}
+
+    La droite \( (FD)\) intersecte le plan \( (ABH)\) au point \( M\).
+%he result is on figure \ref{LabelFigfigureBCtCTZo}. % From file figureBCtCTZo
+%\newcommand{\CaptionFigfigureBCtCTZo}{<+Type your caption here+>}
+
+    \columnbreak
+    \begin{center}
+\input{Fig_figureBCtCTZo.pstricks}
+    \end{center}
+\end{multicols}
+
+
+\begin{multicols}{2}
+
+    \begin{center}
+        Droite et plan parallèles
+    \end{center}
+
+    La droite \( (HC)\) et le plan \( (EBF)\) sont parallèles.
+
+    \columnbreak
+    \begin{center}
+%The result is on figure \ref{LabelFigfigureASkECWS}. % From file figureASkECWS
+%\newcommand{\CaptionFigfigureASkECWS}{<+Type your caption here+>}
+\input{Fig_figureASkECWS.pstricks}
+    \end{center}
+\end{multicols}
+
+\begin{multicols}{2}
+
+    \begin{center}
+        Droite contenue dans un plan
+    \end{center}
+
+    La droite \( (EB)\) et le plan \( (EBF)\) sont parallèles.
+
+    \columnbreak
+    \begin{center}
+CSIQETx
+    \end{center}
+\end{multicols}
+
+
+\begin{remark}
+    Seules deux droites peuvent être ni parallèle ni sécantes.
+\end{remark}
+<++>
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices sur la géométrie dans l'espace}
@@ -167,3 +291,9 @@ Notez en particulier la figure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigP
 \Exo{Seconde-0096}
 \Exo{Seconde-0097}
 \Exo{smath-0009}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Position relatives dans l'espace}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0079}

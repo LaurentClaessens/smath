@@ -5,6 +5,52 @@
 
 \begin{corrige}{smath-0077}
 
-<+Corrsmath-0077+>
+Le dessin (sur lequel \( C\) est volontairement mal placé) suivant montre la situation :
+% \ref{LabelFigExoTrigTrIpPW}. % From file ExoTrigTrIpPW
+%\newcommand{\CaptionFigExoTrigTrIpPW}{<+Type your caption here+>}
+\begin{center}
+\input{Fig_ExoTrigTrIpPW.pstricks}
+\end{center}
+Étant donné que le point \( C\) doit se trouver sur la droite \( y=2x\), ses coordonnées sont \( C=(x,2x)\).
+
+Pour prouver que tous les points de la droite \( d\) fournissent un triangle isocèle, une méthode est de monter que les droites \( y=2x\) et \( (AB)\) sont perpendiculaire et se coupent en \( (0,0)\) qui est le milieu de \( [AB]\). Du coup \( y=2x\) est médiatrice de \( [AB]\). Cependant, nous devrions de toutes façon calculer les longueurs plus bas; nous n'entrerons donc pas dans le détail de cette méthode.
+
+Pour exprimer que le triangle soit rectangle en \( C\), il y a (au moins) deux méthodes. La première est d'écrire les coefficients angulaires de \( (AC)\) et de \( CB\) et d'exprimer qu'ils sont inverse et opposés :
+\begin{equation}
+    \frac{ 1-2x }{ -2-x }=-\frac{1}{ \frac{ -1-2x }{ 2-x } }.
+\end{equation}
+L'autre méthode est d'écrire le théorème de Pythagore. C'est cette deuxième méthode que nous allons suivre parce que de toutes façons il faudra calculer les longueurs pour le problème de triangle équilatéral.
+
+Les longueurs sont (en fonction de \( x\)) :
+\begin{subequations}
+    \begin{align}
+        AC^2&=(-2-x)^2+(1-2x)^2\\
+        BC^2&=(2-x)^2+(-1-2x)^2\\
+        AB^2&=(-2-2)^2+\big(-1-(-1)\big)^2
+    \end{align}
+\end{subequations}
+Après calculs :
+\begin{subequations}
+    \begin{align}
+        AC^2=5x^2+5\\
+        BC^2=5x^2+5\\
+        AB^2&=20.
+    \end{align}
+\end{subequations}
+Notez qu'on a déjà obtenu que pour tout \( x\) le triangle est isocèle en \( C\). La condition
+\begin{equation}
+    AB^2=BC^2+AC^2
+\end{equation}
+donne
+\begin{equation}
+    20=10x^2+10,
+\end{equation}
+et donc \( x^2=1\), ce qui donne \( x=\pm 1\). Il y a donc deux façons de placer le point \( C\) pour obtenir un triangle rectangle : \( C=(1,2)\) et \( C=(-1,-2)\).
+
+D'autre part pour obtenir un triangle équilatéral, nous devons avoir \( AB=AC=BC\), qui donne
+\begin{equation}
+    5x^2+5=20,
+\end{equation}
+ou encore \( x^2+1=5\), ce qui donne \( x=\pm\sqrt{5}\). Encore une fois il y a deux solutions : \( C=(\sqrt{5};2\sqrt{5})\) ou \( C=(-\sqrt{5};-2\sqrt{5})\).
 
 \end{corrige}
