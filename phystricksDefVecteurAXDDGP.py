@@ -4,7 +4,7 @@ def DefVecteurAXDDGP():
     pspict,fig = SinglePicture("DefVecteurAXDDGP")
     pspict.dilatation(1)
 
-    fig.specific_needs="\\newcommand{\\vect}[1]{\overrightarrow{#1}}"
+    fig.specific_needs="""\makeatletter\@ifundefined{vect}{\\newcommand{\\vect}[1]{\overrightarrow{#1}}}{}\makeatother"""
 
     v=(3,-1)
     A=Point(0,0)
