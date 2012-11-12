@@ -1,33 +1,30 @@
 # -*- coding: utf8 -*-
+
+from __future__ import division
 from phystricks import *
+from phystricksfigureBCtCTZo import plan
+
 def figureCSIQETx():
     pspict,fig = SinglePicture("figureCSIQETx")
     pspict.dilatation(1)
 
-    x=var('x')
-    <+Définition des objets+>
+    l=3
+    dilatation=1.5
+    perspective=ObliqueProjection(30,0.5)
+    cube=perspective.cuboid((0,0),l,l,l)
+    cube.put_vertex_mark(pspict)
 
-    pspict.DrawGraphs(<++>)
-    pspict.DrawDefaultAxes()
+    plan1=plan(cube.A,cube.B,cube.E,cube.F,dilatation)
+    plan1.no_edges()
+    plan1.parameters.filled()
+    plan1.parameters.fill.color="brown"
+
+    seg=Segment(cube.E,cube.B).dilatation(1.5)
+    seg.parameters.color="red"
+
+    pspict.DrawGraphs(plan1,seg,cube)
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
 
-----------------
-
-    pspicts,fig = MultiplePictures("figureCSIQETx",3)
-    pspicts[0].mother.caption="<+caption1+>"
-    pspicts[1].mother.caption="<+caption2+>"
-    pspicts[2].mother.caption="<+caption3+>"
-
-    for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
-
-    <+Définition des objets+>
-
-    for psp in pspicts:
-        psp.DrawDefaultAxes()
-
-    fig.conclude()
-    fig.write_the_file()
 

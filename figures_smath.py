@@ -108,6 +108,8 @@ from phystricksChaslesGTRtKR import ChaslesGTRtKR
 from phystricksVectoMilieuNuWgHW import VectoMilieuNuWgHW
 from phystricksExoVectoPJGrRF import ExoVectoPJGrRF
 from phystricksfigureASkECWS import figureASkECWS
+from phystricksfigureCSIQETx import figureCSIQETx
+from phystricksfigureTFaRFVd import figureTFaRFVd
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -125,7 +127,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,
     CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,
     ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,ExoTranslationPNjoHk,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
-    ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS
+    ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd
     ]
 
 for k in sys.argv:
