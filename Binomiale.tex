@@ -198,6 +198,38 @@ Cela permet de calculer des probabilités en ayant seulement à disposition une 
     Pour calculer à moindres frais la probabilité \( p\) qu'un événement se produise au moins une fois, il suffit de calculer la probabilité \( q\) qu'il ne se produise pas du tout. La probabilité cherchée est alors \( p=1-q\).
 \end{example}
 
+Pour calculer à la calculatrice \( P(X=k)\) et \( P(X\leq k)\), 
+\begin{enumerate}
+    \item
+        Savoir les paramètres \( n\) et \( p\) de la variable aléatoire \( X\)
+    \item
+        Sur Casio :
+        \begin{enumerate}
+            \item
+                menu STAT,\fbox{EXE}
+            \item
+                pour obtenir \( P(X=k)\), DIST BINM Bpd VAR
+                pour obtenir \( P(X\leq k)\), DIST BINM Bcd VAR
+            \item
+                x:\fbox{k}\fbox{EXE}\\
+                Numtrial : \fbox{n}\fbox{EXE}\\
+                p : \fbox{p}\fbox{EXE}
+            \item
+                \fbox{EXE}
+        \end{enumerate}
+    \item
+        Sur TI
+        \begin{enumerate}
+            \item
+                distrib DISTRIB
+            \item
+                pour obtenir \( P(X=k)\), binomFdp(n,p,k),\fbox{enter}\\
+                pour obtenir \( P(X\leq k)\), binomFRép(n,p,k),\fbox{enter}
+        \end{enumerate}
+        
+\end{enumerate}
+%page 189
+
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Espérance}
 %---------------------------------------------------------------------------------------------------------------------------
