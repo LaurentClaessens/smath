@@ -135,7 +135,6 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ
     ]
 
-figures_list=[figureNPQwFTp,figureITVTofz,figureNAKnjxQ]
 
 for k in sys.argv:
     s=[]
