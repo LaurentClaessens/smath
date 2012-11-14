@@ -147,52 +147,7 @@ Nous considérons un schéma de Bernoulli de paramètres \( n\) et \( p\).
     Nous nous intéressons à des cas où nous répétons une expérience plusieurs fois et nous comptons le nombre de fois que l'expérience est réussie.
 \end{Enmini}
 
-Nous voudrions établir une formule donnant \( P(X=k)\) pour une variable aléatoire \( X\) suivant la loi binomiale de paramètres \( n\) et \( p\). Nous allons raisonner sur \( n=100\) et \( p=\frac{ 7 }{ 10 }\). Dans ce cas, le nombre \( P(X=k)\) est la probabilité d'obtenir exactement \( k\) succès en \( 100\) essais d'une épreuve ayant une probabilité \( 0.7\) de réussite.
 
-L'arbre de \( 100\) tirages est évidemment compliqué à dessiner, mais nous comprenons que les chemins qui mènent à \( X=k\) sont les chemins qui prennent \( k\) fois la bifurcation de la réussite et \( 100-k\) fois la bifurcation de l'échec. Chacun de ces chemins a une probabilité de
-\begin{equation}
-    \left( \frac{ 7 }{ 10 } \right)^{k}\left( \frac{ 3 }{ 10 } \right)^{100-k}.
-\end{equation}
-La probabilité totale est donnée par
-\begin{equation}
-    P(X=k)=(\text{nombre de chemins passant \( k\) fois par la réussite})\times \left( \frac{ 7 }{ 10 } \right)^k\left( \frac{ 3 }{ 10 } \right)^{100-k}.
-\end{equation}
-Le nombre de chemins est passablement compliqué à calculer. Heureusement, il y a la calculatrice\footnote{Si vous voulez un avis personnel, utiliser une calculatrice pour débloquer une difficulté en mathématique est aussi intelligent qu'utiliser un anti-douleur pour améliorer ses performances sportives.}. Le nombre de chemin en question est nommé le \defe{coefficient binomial}{coefficient binomial}\footnote{C'est le moment d'ouvrir le mode d'emploi de ladite calculatrice.} et est noté \( {100\choose n}\); c'est le nombre de moyens de placer \( k\) «S» dans une suite de \( 100\) «S» ou «E».
-
-\begin{Aretenir}
-    Pour un schéma de Bernoulli de paramètres \( n\) et \( p\) nous avons
-    \begin{equation}
-        P(X=k)={n\choose k}p^{k}(1-p)^{n-k}.
-    \end{equation}
-    Si \( n\) est un entier positif et si \( k\) est un entier compris entre \( 0\) et \( n\), alors on note
-    \[
-        {k\choose n}
-    \]
-    le nombre de chemins qui réalisent exactement \( k\) succès dans un arbre à \( n\) niveaux. C'est aussi le nombre de façon d'écrire une suite de \( n\) «S» et «E» contenant exactement (ni plus ni moins) \( k\) fois le «S».
-\end{Aretenir}
-
-Nous notons \( P(X\leq k)\) la probabilité que le nombre de succès soit plus petite ou égale à \( k\); nous avons par exemple
-\begin{equation}
-    P(X\leq 3)=P(X=0)+P(X=1)+P(X=2)+P(X=3).
-\end{equation}
-Pas de panique : si vous voulez calculer \( P(X\leq 137)\), il ne faudra pas faire \( 137\) calculs : il existe une touche sur votre calculatrice qui calcule la probabilité cumulée.
-
-Notons la formule sympa
-\begin{equation}
-    P(X\leq k+1)=P(X\leq k)+P(X=k+1).
-\end{equation}
-En particulier nous avons
-\begin{equation}
-    P(X=k)=P(X\leq k)-P(X\leq k-1).
-\end{equation}
-Cela permet de calculer des probabilités en ayant seulement à disposition une table de probabilité cumulée.
-
-\begin{Aretenir}
-     La somme des probabilités de deux événements contraire doit faire \( 1\). Donc
-    \begin{equation}
-        P(x>k)=1-P(x\leq k).
-    \end{equation}
-\end{Aretenir}
 
 \begin{example}
     Pour calculer à moindres frais la probabilité \( p\) qu'un événement se produise au moins une fois, il suffit de calculer la probabilité \( q\) qu'il ne se produise pas du tout. La probabilité cherchée est alors \( p=1-q\).
@@ -480,6 +435,61 @@ Enfin, calculons la probabilité d'en tirer deux est donnée par la case \( OO\)
     P(X=2)=\left( \frac{ 19 }{ 31 } \right)^2
 \end{equation}
 qui est environ \( 0.37\).
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{La formule de la binomiale}
+%---------------------------------------------------------------------------------------------------------------------------
+
+% Je rappelle que cette formule n'est pas au programme de première STMG (2012).
+
+Nous voudrions établir une formule donnant \( P(X=k)\) pour une variable aléatoire \( X\) suivant la loi binomiale de paramètres \( n\) et \( p\). Nous allons raisonner sur \( n=100\) et \( p=\frac{ 7 }{ 10 }\). Dans ce cas, le nombre \( P(X=k)\) est la probabilité d'obtenir exactement \( k\) succès en \( 100\) essais d'une épreuve ayant une probabilité \( 0.7\) de réussite.
+
+L'arbre de \( 100\) tirages est évidemment compliqué à dessiner, mais nous comprenons que les chemins qui mènent à \( X=k\) sont les chemins qui prennent \( k\) fois la bifurcation de la réussite et \( 100-k\) fois la bifurcation de l'échec. Chacun de ces chemins a une probabilité de
+\begin{equation}
+    \left( \frac{ 7 }{ 10 } \right)^{k}\left( \frac{ 3 }{ 10 } \right)^{100-k}.
+\end{equation}
+La probabilité totale est donnée par
+\begin{equation}
+    P(X=k)=(\text{nombre de chemins passant \( k\) fois par la réussite})\times \left( \frac{ 7 }{ 10 } \right)^k\left( \frac{ 3 }{ 10 } \right)^{100-k}.
+\end{equation}
+Le nombre de chemins est passablement compliqué à calculer. Heureusement, il y a la calculatrice\footnote{Si vous voulez un avis personnel, utiliser une calculatrice pour débloquer une difficulté en mathématique est aussi intelligent qu'utiliser un anti-douleur pour améliorer ses performances sportives.}. Le nombre de chemin en question est nommé le \defe{coefficient binomial}{coefficient binomial}\footnote{C'est le moment d'ouvrir le mode d'emploi de ladite calculatrice.} et est noté \( {100\choose n}\); c'est le nombre de moyens de placer \( k\) «S» dans une suite de \( 100\) «S» ou «E».
+
+\begin{Aretenir}
+    Pour un schéma de Bernoulli de paramètres \( n\) et \( p\) nous avons
+    \begin{equation}
+        P(X=k)={n\choose k}p^{k}(1-p)^{n-k}.
+    \end{equation}
+    Si \( n\) est un entier positif et si \( k\) est un entier compris entre \( 0\) et \( n\), alors on note
+    \[
+        {k\choose n}
+    \]
+    le nombre de chemins qui réalisent exactement \( k\) succès dans un arbre à \( n\) niveaux. C'est aussi le nombre de façon d'écrire une suite de \( n\) «S» et «E» contenant exactement (ni plus ni moins) \( k\) fois le «S».
+\end{Aretenir}
+
+Nous notons \( P(X\leq k)\) la probabilité que le nombre de succès soit plus petite ou égale à \( k\); nous avons par exemple
+\begin{equation}
+    P(X\leq 3)=P(X=0)+P(X=1)+P(X=2)+P(X=3).
+\end{equation}
+Pas de panique : si vous voulez calculer \( P(X\leq 137)\), il ne faudra pas faire \( 137\) calculs : il existe une touche sur votre calculatrice qui calcule la probabilité cumulée.
+
+Notons la formule sympa
+\begin{equation}
+    P(X\leq k+1)=P(X\leq k)+P(X=k+1).
+\end{equation}
+En particulier nous avons
+\begin{equation}
+    P(X=k)=P(X\leq k)-P(X\leq k-1).
+\end{equation}
+Cela permet de calculer des probabilités en ayant seulement à disposition une table de probabilité cumulée.
+
+\begin{Aretenir}
+     La somme des probabilités de deux événements contraire doit faire \( 1\). Donc
+    \begin{equation}
+        P(x>k)=1-P(x\leq k).
+    \end{equation}
+\end{Aretenir}
+
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices }
