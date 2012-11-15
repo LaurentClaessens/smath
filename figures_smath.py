@@ -4,6 +4,8 @@
 from phystricks import *
 import sys
 
+from phystricksJOKJMTD import JOKJMTD
+from phystricksfigureWFDTzSN import figureWFDTzSN
 from phystricksfigureNPQwFTp import figureNPQwFTp
 from phystricksfigureERITfSy import figureERITfSy
 from phystricksfigureBCtCTZo import figureBCtCTZo
@@ -132,7 +134,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,
     ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,ExoTranslationPNjoHk,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
-    figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ
+    figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD
     ]
 
 
