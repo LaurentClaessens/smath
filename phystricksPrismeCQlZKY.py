@@ -2,7 +2,7 @@
 from phystricks import *
 def PrismeCQlZKY():
     pspict,fig = SinglePicture("PrismeCQlZKY")
-    pspict.dilatation(0.7)
+    pspict.dilatation(0.5)
 
 
     l=8

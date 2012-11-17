@@ -7,8 +7,9 @@ def CylindresxKDOdy():
     pspicts[1].mother.caption=u"Un cône"
 
     for psp in pspicts:
-        psp.dilatation_Y(1)
-        psp.dilatation_X(1)
+        psp.dilatation(0.8)
+        #psp.dilatation_Y(1)
+        #psp.dilatation_X(1)
 
     c=5
     h=3

@@ -2,10 +2,10 @@
 from phystricks import *
 def JOKJMTD():
     pspict,fig = SinglePicture("JOKJMTD")
-    pspict.dilatation(0.5)
+    pspict.dilatation(0.3)
 
     h=10
-    r=2
+    r=3
     O=Point(0,0)
     A=Point(-r,h)
     B=Point(r,h)

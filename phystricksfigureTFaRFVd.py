@@ -6,7 +6,7 @@ from phystricks import *
 
 def figureTFaRFVd():
     pspict,fig = SinglePicture("figureTFaRFVd")
-    pspict.dilatation(1)
+    pspict.dilatation(0.8)
 
     l=3
     h=4

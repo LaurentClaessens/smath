@@ -2,7 +2,7 @@
 from phystricks import *
 def LignesCubeshBfjxk():
     pspict,fig = SinglePicture("LignesCubeshBfjxk")
-    pspict.dilatation(1)
+    pspict.dilatation(0.8)
 
     l=3.5
     perspective=ObliqueProjection(30,0.5)

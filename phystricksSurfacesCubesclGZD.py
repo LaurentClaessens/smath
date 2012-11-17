@@ -10,8 +10,9 @@ def SurfacesCubesclGZD():
     pspicts[5].mother.caption=""
 
     for psp in pspicts:
-        psp.dilatation_Y(1)
-        psp.dilatation_X(1)
+        psp.dilatation(0.8)
+        #psp.dilatation_Y(1)
+        #psp.dilatation_X(1)
 
     l=3
     perspective=ObliqueProjection(30,0.5)

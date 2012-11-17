@@ -3,7 +3,7 @@ from __future__ import division
 from phystricks import *
 def SurfaceCubeXlLEEy():
     pspict,fig = SinglePicture("SurfaceCubeXlLEEy")
-    pspict.dilatation(1)
+    pspict.dilatation(0.8)
 
     l=3
     perspective=ObliqueProjection(30,0.5)
