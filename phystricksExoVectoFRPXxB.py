@@ -9,7 +9,7 @@ def ExoVectoFRPXxB():
     A=Point(0,0)
     U=Point(3,1)
     V=Point(2,-4)
-    O=Point(4,-1)
+    O=Point(1,-1)
 
     u=AffineVector(A,U)
     v=AffineVector(A,V)

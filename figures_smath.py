@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksfigureYWEhCkv import figureYWEhCkv
 from phystricksJOKJMTD import JOKJMTD
 from phystricksfigureWFDTzSN import figureWFDTzSN
 from phystricksfigureNPQwFTp import figureNPQwFTp
@@ -116,6 +117,7 @@ from phystricksfigureCSIQETx import figureCSIQETx
 from phystricksfigureTFaRFVd import figureTFaRFVd
 from phystricksfigureITVTofz import figureITVTofz
 from phystricksfigureNAKnjxQ import figureNAKnjxQ
+from phystricksfigureAEcZqpP import figureAEcZqpP
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -132,10 +134,11 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,CylindresxKDOdy,
     FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,
     CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,
-    ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,ExoTranslationPNjoHk,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
+    ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
-    figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD
+    figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk
     ]
+
 
 
 for k in sys.argv:

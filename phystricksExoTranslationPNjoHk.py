@@ -3,7 +3,7 @@ from __future__ import division
 from phystricks import *
 def ExoTranslationPNjoHk():
     pspict,fig = SinglePicture("ExoTranslationPNjoHk")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     pspict.specific_need="\\newcommand{\\vect}[1]{\overrightarrow{#1}}"
 

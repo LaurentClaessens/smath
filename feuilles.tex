@@ -1,5 +1,9 @@
 \input{e_smath}
 
+% ATTENTION. Les feuilles telles que compilées ici ne sont peut-être pas exactement celles données aux élèves 2012-2013 parce que
+%               certains exercices ont été changés depuis lors.
+%   Les feuilles de colles ne sont pas ici parce qu'elles sont nominatives.
+
 \usepackage{mathtools}
 \mathtoolsset{showonlyrefs}
 
@@ -7,13 +11,14 @@
 \renewcommand{\thesubsection}{\arabic{subsection}}
 
 
-\newenvironment{feuille}[1]{\large \begin{center} #1 \end{center} \small \begin{center} Les réponses doivent être justifiées par un calcul ou par un raisonnement clairement rédigé.  \end{center} \normalsize \setcounter{CountExercice}{0}}{\newpage} 
+\newenvironment{feuille}[1]{\setcounter{page}{1}\large \begin{center} #1 \end{center} \small \begin{center} Les réponses doivent être justifiées par un calcul ou par un raisonnement clairement rédigé.  \end{center} \normalsize \setcounter{CountExercice}{0}}{\newpage} 
 
 
 \begin{document}
 
+
 \corrPosition{0}
-\corrDraft{1}
+%\corrDraft{1}
 
 \begin{feuille}{Interrogation du mardi 23 octobre 2012 }
     \Exo{smath-0026}
@@ -170,8 +175,19 @@
 \end{feuille}
 
 
-\begin{feuille}{proportions, évolutions}
-    jjkl
+\begin{feuille}{Proportions, évolutions}
+    \subsection{Sous-population}
+    \Exo{smath-0097}
+    \Exo{smath-0089}
+    \Exo{smath-0090}
+    \subsection{Évolution}
+    \Exo{smath-0039}
+    \Exo{smath-0040}
+    \Exo{smath-0038}
+    \Exo{smath-0101}
+    \Exo{smath-0098}
+    \Exo{smath-0031}
+    \Exo{smath-0080}
 \end{feuille}
 
 
