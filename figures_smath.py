@@ -139,8 +139,6 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk
     ]
 
-
-
 for k in sys.argv:
     s=[]
     fun=k.replace("phystricks","").replace(".py","")
