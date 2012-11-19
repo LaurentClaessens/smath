@@ -13,9 +13,9 @@ def figureYWEhCkv():
     v=AffineVector(Point(-2,-3),Point(-1,-1))
     w=AffineVector(Point(0,0),Point(2,-1))
 
-    u.parameters.color="red"
+    u.parameters.color="blue"
     v.parameters.color="blue"
-    w.parameters.color="green"
+    w.parameters.color="blue"
 
     u.put_mark(0.2,u.advised_mark_angle,"\( \\vect{ u }\)",automatic_place=pspict)
     v.put_mark(0.2,-45,"\( \\vect{ v }\)",automatic_place=pspict)
