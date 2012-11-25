@@ -136,6 +136,114 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
     \end{pmatrix}.
 \end{equation}
 
+\begin{Aretenir}
+    \begin{multicols}{2}
+    Si \( A=(x_A;x_B)\) et \( B=(x_B;y_B)\) alors
+    \begin{equation}
+        \vect{ AB }=\begin{pmatrix}
+            x_B-x_A    \\ 
+            y_B-y_A    
+        \end{pmatrix}.
+    \end{equation}
+
+    \columnbreak
+
+   %The result is on figure \ref{LabelFigfigureLEOvqez}. % From file figureLEOvqez
+%\newcommand{\CaptionFigfigureLEOvqez}{<+Type your caption here+>}
+    \begin{center}
+\input{Fig_figureLEOvqez.pstricks}
+    \end{center}
+
+    \end{multicols}
+   % TODO : lire le TODO qu'il y a dans le fichier phystricksfigureLEOvqez 
+\end{Aretenir}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{Règles de calcul}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{propriete}
+    Si dans un repère \( \vect{ u }=\begin{pmatrix}
+        x    \\ 
+        y    
+    \end{pmatrix}\) et \( \vect{ v }=\begin{pmatrix}
+        x'    \\ 
+        y'    
+    \end{pmatrix}\), alors 
+    \begin{equation}
+        \vect{ u }+\vect{ v }=\begin{pmatrix}
+            x+x'    \\ 
+            y+y'    
+        \end{pmatrix}.
+    \end{equation}
+    
+\end{propriete}
+
+\begin{proof}
+    Soient \( A\) et \( B\) des points tels que \( \vect{ u }=\vect{ AB }\). Vu que les vecteurs peuvent être placés n'importe où, nous pouvons placer \( \vect{ v }\) au point \( B\) et dire \( \vect{ v }=\vect{ BC }\) pour un certain point \( C\). Par les relations de Chasles,
+    \begin{equation}    \label{EqASjyYXs}
+        \vect{ u }+\vect{ v }=\vect{ AC }=\begin{pmatrix}
+            x_C-x_A    \\ 
+            y_C-y_A    
+        \end{pmatrix}.
+    \end{equation}
+    
+    D'autre part étant donné que \( \vect{ u= }\vect{ AB }\), nous avons
+    \begin{subequations}
+        \begin{align}
+            x=x_B-x_A\\
+            y=y_B-y_A
+        \end{align};
+    \end{subequations}
+    et vu que \( \vect{ v }=\vect{ BC }\)
+    \begin{subequations}
+        \begin{align}
+            x'=x_C-x_B\\
+            y'=y_C-y_B
+        \end{align}
+    \end{subequations}
+    Du coup nous avons
+    \begin{subequations}
+        \begin{align}
+            x+x'=(x_B-x_A)+(x_C-x_B)=x_C-x_A\\
+            y+y'=(y_B-y_A)+(y_C-y_B)=y_C-y_A
+        \end{align}
+    \end{subequations}
+    En comparant avec \eqref{EqASjyYXs}, nous avons bien
+    \begin{equation}
+        \vect{ u }+\vect{ v }=\vect{ AC }=\begin{pmatrix}
+            x_C-x_A    \\ 
+            y_C-y_A    
+        \end{pmatrix}=\begin{pmatrix}
+            x+x'    \\ 
+            y+y'    
+        \end{pmatrix},
+    \end{equation}
+    ce qu'il fallait démontrer.
+\end{proof}
+
+\begin{definition}
+    Soit \( \lambda\in \eR\) et \( \vect{ u }\), un vecteur. Si dans un repère \( \vect{ u }=\begin{pmatrix}
+        x    \\ 
+        y    
+    \end{pmatrix}\), alors le vecteur \( \lambda\vect{ u }\) est le vecteur de coordonnées \( \begin{pmatrix}
+        \lambda x    \\ 
+        \lambda y    
+    \end{pmatrix}\) dans ce repère.
+\end{definition}
+
+\begin{Aretenir}
+    Les règles de calcul vectoriel vis-à-vis de la multiplication et de l'addition sont essentiellement les mêmes que celles qui fonctionnent avec les réels :
+    \begin{enumerate}
+        \item
+            \( (\lambda+\mu)\vect{ u }=\lambda\vect{ u }+\mu\vect{ u }\)
+        \item
+            \( \lambda(\mu\vect{ u })=(\lambda\mu)\vect{ u }\)
+        \item
+            \( \lambda(\vect{ u }+\vect{ v })=\lambda\vect{ u }+\lambda\vect{ v }\).
+    \end{enumerate}
+\end{Aretenir}
+
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}

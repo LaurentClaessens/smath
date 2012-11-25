@@ -4,7 +4,7 @@
 from phystricks import *
 import sys
 
-
+from phystricksfigureLEOvqez import figureLEOvqez
 from phystricksfigureFNkqWFE import figureFNkqWFE
 from phystricksfigureNNgEEzx import figureNNgEEzx
 from phystricksfigureXQZwoWu import figureXQZwoWu
@@ -142,7 +142,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,CylindresxKDOdy,
-    figureNNgEEzx,figureFNkqWFE
+    figureNNgEEzx,figureFNkqWFE,figureLEOvqez
     ]
 
 
