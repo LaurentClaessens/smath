@@ -4,7 +4,7 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Introduction, domaine de définition}
+\section{Introduction, ensemble de définition}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
@@ -18,14 +18,14 @@
     Soit \( \defD\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( \defD\) en associant à chaque nombre \( x\) dans \( \defD\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
 \end{definition}
 
-La partie difficile de cette définition est l'introduction du domaine de définition \( \defD\). Oublions la un instant pour comprendre le reste. Sans parler de \( \defD\), la définition s'écrit :
+La partie difficile de cette définition est l'introduction de l'ensemble de définition \( \defD\). Oublions la un instant pour comprendre le reste. Sans parler de \( \defD\), la définition s'écrit :
 
 \begin{quote}
     On définit une \defe{fonction}{fonction} \( f\) en associant à chaque nombre \( x\) un seul nombre \( y\).
 \end{quote}
 Cela n'est rien d'autre qu'une façon savante de dire qu'une fonction «prend un nombre en entrée, fait des calculs et retourne un nombre en sortie».
 
-Pourquoi introduit-t-on le domaine de définition ? Simplement parce que toute fonction ne va pas accepter toutes les valeurs en entrée. Le domaine de définition est l'ensemble des valeurs acceptées.
+Pourquoi introduit-t-on l'ensemble de définition ? Simplement parce que toute fonction ne va pas accepter toutes les valeurs en entrée. L'ensemble de définition est l'ensemble des valeurs acceptées.
 
 \begin{example}
     Soit la fonction qui à la longueur d'un segment fait correspondre la surface du carré construit sur ce segment. Cette fonction n'est définie que sur les nombres positifs (parce qu'il n'existe pas de segments de longueurs négatives). Nous écrivons donc
@@ -87,12 +87,12 @@ donne
 
 Très clairement, python ne veut pas calculer l'inverse de zéro et plante sur un message on ne peut plus clair : \info{ZeroDivisionError: division by zero}.
 
-Effectivement, l'inverse de zéro n'existe pas. Le domaine de notre fonction \( f(x)=1/x\) n'est donc pas \( \eR\) tout entier, mais seulement \( \eR\setminus\{ 0 \}\).
+Effectivement, l'inverse de zéro n'existe pas. L'ensemble de définition de notre fonction \( f(x)=1/x\) n'est donc pas \( \eR\) tout entier, mais seulement \( \eR\setminus\{ 0 \}\).
 
 \end{example}
 
 \begin{Aretenir}        \label{ArtJgipNt}
-    Il n'est pas permis de diviser par zéro. Une fonction qui contient un dénominateur ne peut pas avoir dans son domaine de définition des \( x\) qui annulent le dénominateur. Autrement dit dès que vous voyez
+    Il n'est pas permis de diviser par zéro. Une fonction qui contient un dénominateur ne peut pas avoir dans son ensemble de définition des \( x\) qui annulent le dénominateur. Autrement dit dès que vous voyez
     \begin{equation}
         \frac{1}{ f(x) }
     \end{equation}
@@ -148,7 +148,7 @@ Il peut arriver qu'un nombre ait plusieurs antécédents.
     \begin{quote}
         \info{math.ceil(n/4)}
     \end{quote}
-    Notons \( f\) cette fonction. Son domaine est l'ensemble des entiers non nuls. Le graphique de cette fonction est donné à la figure \ref{LabelFigMathCeilwCXIJZ}.
+    Notons \( f\) cette fonction. Son ensemble de définition est l'ensemble des entiers non nuls. Le graphique de cette fonction est donné à la figure \ref{LabelFigMathCeilwCXIJZ}.
 \newcommand{\CaptionFigMathCeilwCXIJZ}{Le numéro de la valeur du premier quartile en fonction du nombre de valeurs.}
 \input{Fig_MathCeilwCXIJZ.pstricks}
 
@@ -204,7 +204,7 @@ Les exemples de fonctions dans la «vraie» vie sont nombreux.
     \begin{equation}
         f(x)=\frac{ x^2 }{2}.
     \end{equation}
-    Le domaine est \( \defD=\mathopen] 0 , \infty \mathclose[\) parce que \( x\) représente une longueur.
+    L'ensemble de définition est \( \defD=\mathopen] 0 , \infty \mathclose[\) parce que \( x\) représente une longueur.
 \end{example}
 
 \begin{example}
@@ -212,7 +212,7 @@ Les exemples de fonctions dans la «vraie» vie sont nombreux.
     \begin{equation}
         d(t)=20t
     \end{equation}
-    kilomètres. Ici le domaine est plus délicat; il dépend du contexte.
+    kilomètres. Ici l'ensemble de définition est plus délicat; il dépend du contexte.
 
     Notons que la variable d'une fonction n'est pas obligatoirement toujours notée \( x\) et que la fonction n'est pas toujours obligatoirement notée \( f\).
 \end{example}
