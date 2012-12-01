@@ -143,6 +143,31 @@ Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatem
     \end{equation}
     Étant donné que \( \vect{ IJ }=-\vect{ JI }\) nous trouvons \( 2\vect{ IJ }=\vect{ BC }\).
 \end{proof}
+
+\begin{propriete}
+    Si \( ABCD\) est un quadrilatère quelconque et si \( I\), \( J\), \( K\) et \( L\) sont les milieux des segments consécutifs de \( ABCD\), alors \( IJKL\) est un parallélogramme.
+\end{propriete}
+
+\begin{proof}
+
+    \begin{multicols}{2}
+
+        Nous considérons la diagonale \( [AC]\) et le triangle \( ABC\). Les points \( I\) et \( J\) étant les milieux des côtés \( [AB]\) et \( [BC]\), nous avons l'égalité vectorielle \( \vect{ AC }=2\vect{ IJ }\).
+
+    De la même façon, dans le triangle \( ACD\), nous avons \( \vect{ AC }=2\vect{ LK }\). Par conséquent \( \vect{ LK }=\vect{ IJ }\), ce qui prouve que \( IJKL\) est un parallélogramme.
+
+        \columnbreak
+
+%The result is on figure \ref{LabelFigfigureBOuQJyj}. % From file figureBOuQJyj
+%\newcommand{\CaptionFigfigureBOuQJyj}{<+Type your caption here+>}
+   \begin{center}
+\input{Fig_figureBOuQJyj.pstricks}
+   \end{center}
+
+    \end{multicols}
+
+
+\end{proof}
  
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Coordonnées d'un vecteur dans un repère}
@@ -298,38 +323,25 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Vecteurs dans le plan}
+%---------------------------------------------------------------------------------------------------------------------------
+
 \Exo{smath-0053}
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Relations de Chasles}
-%---------------------------------------------------------------------------------------------------------------------------
-
 \Exo{smath-0067}
 \Exo{smath-0065}
 \Exo{smath-0055}
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\section{Translations et parallélogramme}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\Exo{smath-0064}
+\Exo{smath-0142}
 \Exo{smath-0070}
 \Exo{smath-0085}
 \Exo{smath-0071}
 \Exo{smath-0072}
 \Exo{smath-0076}
-
-
 \Exo{smath-0066}
 \Exo{smath-0052}
 \Exo{smath-0075}
 \Exo{Seconde-0098}
 \Exo{Seconde-0093}
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\section{Milieu de segment}
-%---------------------------------------------------------------------------------------------------------------------------
-
 \Exo{smath-0073}
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -349,6 +361,7 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
 \Exo{smath-0104}
 \Exo{smath-0063}
 \Exo{smath-0107}
+\Exo{smath-0064}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Colinéarité}

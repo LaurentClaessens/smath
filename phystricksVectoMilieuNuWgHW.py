@@ -15,7 +15,7 @@ def VectoMilieuNuWgHW():
     AM=AffineVector(A,M)
     MB=AffineVector(M,B)
     AM.parameters.color="blue"
-    MB.parameters.color="blue"
+    MB.parameters.color="green"
 
     pspict.DrawGraphs(A,B,M,AM,MB)
     fig.no_figure()
