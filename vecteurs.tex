@@ -89,6 +89,10 @@ Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatem
     \end{multicols}
 \end{Aretenir}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Milieu d'un segment}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 \begin{propriete}
     \begin{multicols}{2}
 
@@ -109,6 +113,35 @@ Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatem
     En ce qui concerne l'égalité des longueurs, \( AM=BM\) parce que \( M\) est milieu de \( [AB]\).
 
     Pour la réciproque, nous supposons que \( \vect{ AM }=\vect{ MB }\) et nous devons prouver que \( M\) est le milieu de \( [AB]\).  Par hypothèse, \( AMBM\) est un parallélogramme, et donc les diagonales se coupent en leur milieu. Ces diagonales sont \( [AB]\) et \( [MM]\). Le milieu de \( [MM]\) est évidemment \( M\), qui est alors le milieu de \( [AB]\), ce qu'il fallait prouver.
+\end{proof}
+
+\begin{theorem}[Théorème de milieux]
+
+    \begin{multicols}{2}
+    La droite joignant les milieux de deux côtés d'un triangle est parallèle au troisième côté.
+
+    Sur la figure ci-contre \( I\) et \( J\) sont les milieux de \( [AB]\) et \( [AC]\) et nous avons l'égalité vectorielle
+    \begin{equation}
+        \vect{ BC }=2\vect{ IJ }.
+    \end{equation}
+
+    \columnbreak
+
+%The result is on figure \ref{LabelFigfigureVNaHvXi}. % From file figureVNaHvXi
+%\newcommand{\CaptionFigfigureVNaHvXi}{<+Type your caption here+>}
+    \begin{center}
+\input{Fig_figureVNaHvXi.pstricks}
+    \end{center}
+
+    \end{multicols}
+\end{theorem}
+
+\begin{proof}
+    En utilisant les relations de Chasles : \( \vect{ IJ }=\vect{ IB }+\vect{ BC }+\vect{ CJ }\). Mais \( \vect{ IB }=\vect{ AI }\) et \( \vect{ CJ }=\vect{ JA }\), donc
+    \begin{equation}
+        \vect{ IJ }=\vect{ AI }+\vect{ BC }+\vect{ JA }=\vect{ JI }+\vect{ BC }.
+    \end{equation}
+    Étant donné que \( \vect{ IJ }=-\vect{ JI }\) nous trouvons \( 2\vect{ IJ }=\vect{ BC }\).
 \end{proof}
  
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -244,6 +277,22 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
     \end{enumerate}
 \end{Aretenir}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Parallélisme et colinéarité}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Deux vecteurs \( \vect{ u }\) et \( \vect{ v }\) sont \defe{colinéaires}{colinéaire (vecteurs)} si il existe \( \lambda\in \eR\) tel que \( \vect{ u }=\lambda\vect{ v }\).
+\end{definition}
+
+\begin{propriete}
+    \begin{enumerate}
+        \item
+            Les droites \( (AB)\) et \( (CD)\) sont parallèles si et seulement si les vecteurs \( \vect{ AB }\) et \( \vect{ CD }\) sont colinéaires.
+        \item
+            Les points \( A\), \( B\) et \( C\) sont alignés si et seulement si les vecteurs \( \vect{ AB }\) et \( \vect{ AC }\) sont colinéaires.
+    \end{enumerate}
+\end{propriete}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
@@ -259,17 +308,12 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
 \Exo{smath-0065}
 \Exo{smath-0055}
 
-
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{Translations et parallélogramme}
 %---------------------------------------------------------------------------------------------------------------------------
-\subsection{Opérations sur les vecteurs}
-%---------------------------------------------------------------------------------------------------------------------------
 
-\Exo{smath-0105}
 \Exo{smath-0064}
-\Exo{smath-0068}
 \Exo{smath-0070}
-\Exo{smath-0073}
-\Exo{smath-0074}
 \Exo{smath-0085}
 \Exo{smath-0071}
 \Exo{smath-0072}
@@ -281,6 +325,20 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
 \Exo{smath-0075}
 \Exo{Seconde-0098}
 \Exo{Seconde-0093}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{Milieu de segment}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0073}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Opérations sur les vecteurs}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0105}
+\Exo{smath-0068}
+
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Coordonnées}
@@ -311,6 +369,7 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
 
 \Exo{smath-0111}
 \Exo{smath-0112}
+\Exo{smath-0074}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Théorie}
