@@ -1,0 +1,323 @@
+%This is part of Un soupçon de mathématique sans être agressif pour autant
+% Copyright (c) 2012
+%   Laurent Claessens, Pauline Klein
+% See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Fonctions affines}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Définitions}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{definition}
+    Une \defe{fonction affine}{affine}\index{fonction!affine} est une fonction définie sur \( \eR\) par
+    \begin{equation}
+        f(x)=ax+b
+    \end{equation}
+    où \( a\) et \( b\) sont deux nombres réels fixés.
+\end{definition}
+
+Cas particuliers :
+\begin{enumerate}
+    \item
+        Si \( b=0\) alors \( f(x)=ax\) et nous disons que \( f\) est une fonction \defe{linéaire}{fonction!linéaire}.
+    \item
+        Si \( a=0\) alors \( f(x)=b\) et nous disons que \( f\) est une fonction \defe{constante}{fonction!constante}.
+\end{enumerate}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Représentation graphique}
+%---------------------------------------------------------------------------------------------------------------------------
+
+La représentation graphique de la fonction \( f(x)=ax+b\) est une droite non parallèle à l'axe des ordonnées. Réciproquement toute droite non parallèle est la représentation graphique d'une fonction affine.
+
+Un exemple des éléments de \( ax+b\) est donné à la figure \ref{LabelFigfigureUERGVgS}. % From file figureUERGVgS
+\newcommand{\CaptionFigfigureUERGVgS}{Une droite et quelque éléments de son équation.}
+\input{Fig_figureUERGVgS.pstricks}
+
+\begin{definition}
+    Soit une droite \( d\) d'équation \( y=ax+b\). Le nombre \( a\) est appelé le \defe{coefficient directeur}{coefficient directeur} de la droite.
+\end{definition}
+
+\begin{propriete}
+    Soit \( f(x)=ax+b\) une fonction affine.
+    \begin{enumerate}
+        \item
+            Si \( a>0\) alors \( f\) est croissante sur \( \eR\).
+        \item
+            Si \( a<0\) alors \( f\) est décroissante sur \( \eR\).
+        \item
+            Si \( a=0\) alors \( f\) est constante sur \( \eR\) (et vaut \( b\)).
+    \end{enumerate}
+\end{propriete}
+
+
+\begin{theorem}
+    Soit la fonction affine \( f(x)=ax+b\). Alors pour tout nombres distincts \( u\) et \( v\) nous avons
+    \begin{equation}
+        \frac{ f(u)-f(v) }{ u-v }=a.
+    \end{equation}
+\end{theorem}
+
+\begin{proof}
+    Soient \( u\) et \( v\), deux réels distincts. Nous calculons
+    \begin{equation}
+        f(u)-f(v)=au+b-(av+b)=au-av=a(u-v).
+    \end{equation}
+    En divisant par \( u-v\) on trouve le résultat annoncé.
+\end{proof}
+
+Cela donne une méthode graphique pour déterminer le coefficient directeur d'une droite. Si les points \( A=(x_A;y_A)\) et \( B=(x_B;y_B)\) sont sur la droite \( d\), alors
+\begin{equation}
+    a=\frac{ y_B-y_A }{ x_B-x_A }.
+\end{equation}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Tableau de variation}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Nous savons qu'une fonction affine est croissante ou décroissante suivant le signe de \( a\). Il y a donc deux tableaux possibles. Les tableaux de signes s'en déduisent immédiatement.
+
+\begin{equation}
+    \begin{aligned}[]
+        &a<0&a>0&\\
+    &\begin{array}[]{c|ccc}
+        x&-\infty&-b/a&\infty\\
+        \hline
+        &\searrow&&\\
+        f&&0&\\
+        &&&\searrow\\
+    \end{array}
+    &
+    \begin{array}[]{c|ccc}
+        x&-\infty&-b/a&\infty\\
+        \hline
+        &&&\nearrow\\
+        f&&0&\\
+        &\nearrow&&\\
+    \end{array}&\\
+&\includegraphics[width=6.0cm]{Picture_FIGLabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF0PICTfigureXUQaJjFpspict0-for_eps.png}&
+\includegraphics[width=6.0cm]{Picture_FIGLabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF1PICTfigureXUQaJjFpspict1-for_eps.png}&\\
+        &\begin{array}[]{c|ccccc}
+             x&-\infty&&-b/a&&\infty\\
+              \hline
+              ax+b&&-&0&+&\\ 
+               \end{array}&
+        \begin{array}[]{c|ccccc}
+             x&-\infty&&-b/a&&\infty\\
+              \hline
+              ax+b&&+&0&-&\\ 
+               \end{array}&
+    \end{aligned}
+\end{equation}
+
+% Au cas où les figures sont modifiées, il faut décommenter ce deux lignes pour que la compilation se passe bien.
+%\newcommand{\CaptionFigfigureXUQaJjF}{Hein}
+%\input{Fig_figureXUQaJjF.pstricks}
+
+%The result is on figure \ref{LabelFigfigureXUQaJjF}. % From file figureXUQaJjF
+%See also the subfigure \ref{LabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF0}
+%See also the subfigure \ref{LabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF1}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Droites parallèles et droites sécantes}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{theorem}
+    Dans un repère, les droites d'équations \( y=ax+b\) et \( y=a'x+b'\) sont parallèles si et seulement si elles ont même coefficient directeur, c'est à dire si et seulement si \( a=a'\).
+
+    Les droites sont sécantes si et seulement si \( a\neq a'\).
+\end{theorem}
+
+\begin{proof}
+    Nous allons seulement démontrer que si \( a\neq a'\), alors les droites s'intersectent. Pour cela nous allons montrer qu'il existe un point \( (x_0,y_0)\) qui se trouve sur le graphe des deux fonctions, c'est à dire qui vérifie
+    \begin{subequations}
+        \begin{numcases}{}
+            y_0=ax_0+b\\
+            y_0=a'x_0+b'.
+        \end{numcases}
+    \end{subequations}
+    Le nombre \( x_0\) doit donc satisfaire
+    \begin{equation}
+        ax_0+b=a'x_0+b',
+    \end{equation}
+    c'est à dire \( (a-a')x_0=b'-b\) et donc
+    \begin{equation}
+        x_0=\frac{ b'-b }{ a-a' }.
+    \end{equation}
+\end{proof}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Fonction carré}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<++>
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Fonction inverse}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+<++>
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices à propos des fonctions}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Image, antécédent}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0042}
+\Exo{Seconde-0048}
+\Exo{Seconde-0054}
+\Exo{Seconde-0051}
+\Exo{Seconde-0050}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Exemples de fonctions}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0058}
+\Exo{Seconde-0057}
+\Exo{Seconde-0063}
+\Exo{Seconde-0061}
+\Exo{Seconde-0067}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Représentation graphique}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0043}
+\Exo{Seconde-0059}
+\Exo{Seconde-0047}
+\Exo{Seconde-0060}
+\Exo{Seconde-0049}
+
+\Exo{smath-0127}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Travail sur les graphiques}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0069}
+\Exo{Seconde-0070}
+\Exo{Seconde-0071}
+
+%TODO : supprimer ce \newpage
+\clearpage
+
+\vspace{1cm}
+
+\newpage        
+
+% TODO : ce serait pas mal de mettre une question pleine de texte ici.
+
+\Exo{smath-0015}
+\Exo{Seconde-0072}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Équations linéaires et affines}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0016}
+\Exo{smath-0134}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Problèmes et résolution d'équation}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0086}
+\Exo{smath-0138}
+\Exo{smath-0001}
+\Exo{smath-0004}
+\Exo{smath-0005}
+\Exo{smath-0006}
+\Exo{Seconde-0046}
+\Exo{smath-0078}
+\Exo{smath-0013}
+\Exo{Seconde-0068}
+\Exo{Seconde-0064}
+\Exo{Seconde-0044}
+\Exo{Seconde-0066}
+\Exo{Seconde-0075}
+\Exo{Seconde-0076}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Algorithmique}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0002}
+\Exo{smath-0003}
+\Exo{Seconde-0086}
+\Exo{smath-0007}
+\Exo{smath-0008}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Plus avancés}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Premiere-0018}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Fonctions affines}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0148}
+\Exo{smath-0132}
+\Exo{smath-0135}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{Titre à trouver}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0000}
+\Exo{smath-0069}
+
+\Exo{smath-0130}
+\Exo{smath-0128}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Parallélisme}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0083}
+\Exo{smath-0129}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Intersection}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0084}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Orthogonalité}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0077}
+\Exo{smath-0082}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Fonctions du second degré}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0146}
+\Exo{smath-0141}
+\Exo{smath-0143}
+\Exo{smath-0087}
+\Exo{smath-0088}
+\Exo{smath-0131}
+\Exo{smath-0133}
+\Exo{smath-0139}
+\Exo{smath-0140}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Fonctions homographiques}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+% Faire un exercice du genre associer à 4 fonctions homographiques leur graphiques.
+\Exo{smath-0137}
+\Exo{smath-0144}
