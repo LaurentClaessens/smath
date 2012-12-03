@@ -3,8 +3,6 @@
 %   Laurent Claessens, Pauline Klein
 % See the file fdl-1.3.txt for copying conditions.
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Fonctions affines}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -127,6 +125,31 @@ Nous savons qu'une fonction affine est croissante ou décroissante suivant le si
 \subsection{Droites parallèles et droites sécantes}
 %---------------------------------------------------------------------------------------------------------------------------
 
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Critère avec le coefficient directeur}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+\begin{example}
+    Les droites \( y=-3x+4\) et \( y=2x+1\) sont sécantes, comme nous pouvons le voir sur un dessin. Comment trouver les coordonnées du point d'intersection ?
+
+    Le point d'intersection \( (x_0;y_0)\) doit satisfaire \( y_0=-3x_0+4\) et \( y_0=2x_0+1\) en même temps. Donc
+    \begin{equation}
+        -3x_0+4=2x_0+1,
+    \end{equation}
+    ce qui donne \( x_0=\frac{ 3 }{ 5 }\). Pour trouver \( y_0\) il suffit de remplacer dans l'une ou l'autre équation :
+    \begin{equation}
+        y_0=-3x_0+4=-3\frac{ 3 }{ 5 }+4=\frac{ 11 }{ 5 }.
+    \end{equation}
+    Vérification : dans l'autre on obtient le même résultat :
+    \begin{equation}
+        y_0=2x_0+1=2\frac{ 3 }{ 5 }+1=\frac{ 11 }{ 5 }.
+    \end{equation}
+    Donc le point d'intersection des deux droites est le point de coordonnées
+    \begin{equation}
+        \big( \frac{ 3 }{ 5 };\frac{ 11 }{ 5 } \big).
+    \end{equation}
+\end{example}
+
 \begin{theorem}
     Dans un repère, les droites d'équations \( y=ax+b\) et \( y=a'x+b'\) sont parallèles si et seulement si elles ont même coefficient directeur, c'est à dire si et seulement si \( a=a'\).
 
@@ -151,6 +174,73 @@ Nous savons qu'une fonction affine est croissante ou décroissante suivant le si
     \end{equation}
 \end{proof}
 
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Et le vecteur directeur}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Si \( A\) et \( B\) sont des points du plan, nous avons déjà vu que le vecteur \( \vect{ AB }\) était un critère de parallélisme de la droite \( AB\). Plus précisément, nous avons vu qu'une droite \( (CD)\) était parallèle à \( AB\) si et seulement si \( \vect{ CD }\) est un multiple de \( \vect{ AB }\). Voyons cela de plus près.
+
+Soit la droite \( y=ax+b\). Les points \( A=(0;b)\) et \( B=(1,a+b)\) sont sur cette droite et donc le vecteur directeur est
+\begin{equation}
+    \vect{ AB }=\begin{pmatrix}
+        1    \\ 
+        a    
+    \end{pmatrix}
+\end{equation}
+Si les points \( C\) et \( D\) sont tels que \( (CD)\parallel (AB)\), alors
+\begin{equation}
+    \vect{ CD }=\lambda\begin{pmatrix}
+        1    \\ 
+        a    
+    \end{pmatrix}=\begin{pmatrix}
+        \lambda    \\ 
+            \lambda a
+    \end{pmatrix}.
+\end{equation}
+Si le point \( C\) a pour coordonnées \( C=(x_C;y_C)\), alors le point \( D\) doit avoir comme coordonnées
+\begin{equation}
+    D=\big( x_C+\lambda;y_C+\lambda a \big).
+\end{equation}
+Le coefficient directeur de la droite \( (CD)\) est alors
+\begin{equation}
+    \frac{ (y_C+\lambda a)-y_C }{ (x_C+\lambda)-x_C }=a.
+\end{equation}
+Nous avons donc confirmé que le critère du vecteur proportionnel et le critère du coefficient directeur sont en réalité les mêmes.
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Colinéarité}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{theorem}
+    Trois points distincts \( A\), \( B\) et \( C\) sont alignés si et seulement si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur.
+\end{theorem}
+
+\begin{proof}
+    Si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur, alors nous pouvons écrire
+    \begin{equation}
+        (AB)\equiv y=ax+b
+    \end{equation}
+    et
+    \begin{equation}
+        (AC)\equiv ax+b'.
+    \end{equation}
+    Cependant \( A\) est un point commun aux deux droites : \( y_A=ax_A+b=ax_A+b'\) et donc \( b=b'\), ce qui signifie que les droites \( (AB)\) et \( (AC)\) sont les mêmes.
+\end{proof}
+
+\begin{example}
+    Vérifions que les points \( A=(1;-1)\), \( B=(3;5)\) et \( C=(4;8)\) sont alignés.
+
+    D'abord le coefficient directeur de la droite \( (AB)\) est 
+    \begin{equation}
+        \frac{ y_B-y_A }{ x_B-x_A }=\frac{ 5-(-1) }{ 3-1 }=3
+    \end{equation}
+    ensuite le coefficient directeur de la droite \( (AC)\) est
+    \begin{equation}
+        \frac{ y_C-y_A }{ x_C-x_A }=\frac{ 8+1 }{ 4-1 }=3
+    \end{equation}
+    Donc les points \( A\), \( B\) et \( C\) sont alignés.
+\end{example}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Fonction carré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -164,7 +254,7 @@ Nous savons qu'une fonction affine est croissante ou décroissante suivant le si
 <++>
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Exercices à propos des fonctions}
+\section{Exercices : généralités sur les fonctions}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 %---------------------------------------------------------------------------------------------------------------------------
@@ -224,14 +314,11 @@ Nous savons qu'une fonction affine est croissante ou décroissante suivant le si
 %---------------------------------------------------------------------------------------------------------------------------
 
 \Exo{smath-0016}
-\Exo{smath-0134}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Problèmes et résolution d'équation}
 %---------------------------------------------------------------------------------------------------------------------------
 
-\Exo{smath-0086}
-\Exo{smath-0138}
 \Exo{smath-0001}
 \Exo{smath-0004}
 \Exo{smath-0005}
@@ -262,40 +349,52 @@ Nous savons qu'une fonction affine est croissante ou décroissante suivant le si
 
 \Exo{Premiere-0018}
 
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Fonctions affines}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\Exo{smath-0148}
-\Exo{smath-0132}
-\Exo{smath-0135}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Exercies : fonctions affines et équations de droites}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 %--------------------------------------------------------------------------------------------------------------------------- 
-\section{Titre à trouver}
+\subsection{Équations de droites}
 %---------------------------------------------------------------------------------------------------------------------------
 
-\Exo{smath-0000}
-\Exo{smath-0069}
-
-\Exo{smath-0130}
 \Exo{smath-0128}
+\Exo{smath-0149}
+\Exo{smath-0130}
+\Exo{smath-0069}
+\Exo{smath-0135}
+\Exo{smath-0150}
+\Exo{smath-0151}
+
+\Exo{smath-0134}
+\Exo{smath-0086}
+\Exo{smath-0138}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Tableaux de variation et de signe}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0132}
+\Exo{smath-0148}
 
 %---------------------------------------------------------------------------------------------------------------------------
-\subsection{Parallélisme}
+\subsection{Parallélisme et intersection}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \Exo{smath-0083}
 \Exo{smath-0129}
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Intersection}
-%---------------------------------------------------------------------------------------------------------------------------
-
+\Exo{smath-0000}
 \Exo{smath-0084}
+\Exo{smath-0153}
+\Exo{smath-0154}
+\Exo{smath-0155}
+
+\Exo{smath-0156}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Orthogonalité}
 %---------------------------------------------------------------------------------------------------------------------------
+
+% Note : l'orthogonalité n'a pas l'air d'être au programme.
 
 \Exo{smath-0077}
 \Exo{smath-0082}

@@ -2,7 +2,7 @@
 from phystricks import *
 def figureUERGVgS():
     pspict,fig = SinglePicture("figureUERGVgS")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     x=var('x')
     f=phyFunction(3*x/4+3).graph(-3,4)

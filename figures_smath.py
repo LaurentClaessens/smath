@@ -150,6 +150,8 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureXUQaJjF
     ]
 
+figures_list=[figureUERGVgS]
+
 
 for k in sys.argv:
     s=[]
