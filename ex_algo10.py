@@ -1,5 +1,5 @@
 def f(x):
-    a=3*x
+    a=4*x
     if a>10 :
         print("gagné")
     if a<=10:
@@ -7,3 +7,4 @@ def f(x):
 
 f(2)
 f(7)
+f(2.5)
