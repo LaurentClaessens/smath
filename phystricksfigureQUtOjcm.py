@@ -7,7 +7,7 @@ def figureQUtOjcm():
     pspict.dilatation(0.7)
 
     for i in range(1,6):
-        P=Point(i,3*i/2)
+        P=Point(i,3*i/2+0.5)
         pspict.DrawGraphs(P)
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
