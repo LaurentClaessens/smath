@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksfigureQUtOjcm import figureQUtOjcm
 from phystricksfigureXUQaJjF import figureXUQaJjF
 from phystricksfigureUERGVgS import figureUERGVgS
 from phystricksfigureSCkAAJI import figureSCkAAJI
@@ -147,11 +148,8 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,CylindresxKDOdy,
-    figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureXUQaJjF
+    figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureXUQaJjF,figureQUtOjcm
     ]
-
-figures_list=[figureUERGVgS]
-
 
 for k in sys.argv:
     s=[]
