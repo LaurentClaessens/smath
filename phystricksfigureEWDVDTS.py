@@ -10,7 +10,8 @@ def figureEWDVDTS():
         
     pspict.DrawGraphs(f)
 
-    a=2
+    a=2     # Ce 2 est hard-codé dans le texte. (x^2\leq 4)
+
     for k in [a,-a]:
         A=f.get_point(k)
         Ap=Point(A.x,0)
