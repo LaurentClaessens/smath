@@ -21,11 +21,19 @@ def figureEWDVDTS():
 
     h=f(a)
     horiz=Segment(Point(-l,h),Point(l,h))
+
     soluce=Segment(Point(-a,0),Point(a,0))
     soluce.wave(0.2,0.1)
     soluce.parameters.color="cyan"
 
-    pspict.DrawGraphs(horiz,soluce)
+    soluceg1=Segment(Point(-l,0),Point(-a,0))
+    soluceg2=Segment(Point(a,0),Point(l,0))
+    soluceg1.wave(0.2,0.1)
+    soluceg2.wave(0.2,0.1)
+    soluceg1.parameters.color="red"
+    soluceg2.parameters.color="red"
+
+    pspict.DrawGraphs(horiz,soluce,soluceg1,soluceg2)
 
     pspict.DrawDefaultAxes()
     fig.conclude()
