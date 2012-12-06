@@ -7,9 +7,13 @@
 \section{Fonction carré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-    La fonction carré est la fonction définie sur \( \eR\) qui à \( x\) fait correspondre \( x^2\).
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Graphique et tableau de variation}
+%---------------------------------------------------------------------------------------------------------------------------
 
-    \begin{multicols}{2}
+La fonction carré est la fonction définie sur \( \eR\) qui à \( x\) fait correspondre \( x^2\).
+
+\begin{multicols}{2}
 
         \begin{equation*}
             \begin{array}[]{c|ccccc}
@@ -29,8 +33,11 @@
 \input{Fig_figureXNAufCh.pstricks}
         \end{center}
 
-    \end{multicols}
-    
+\end{multicols}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+    \subsection{Double antécédent et solutions d'équations}
+%---------------------------------------------------------------------------------------------------------------------------
 
 \begin{Aretenir}
     La fonction carré a pour principale caractéristique d'avoir \emph{deux} antécédents pour chaque image (à part pour zéro). Les antécédents du nombre \( a\) sont \( \sqrt{a}\) et \( -\sqrt{a}\).
@@ -45,6 +52,40 @@ Au niveau des inéquations, cela se ressent. La fonction \( x^2\) sera par exemp
 Nous voyons cela sur la figure \ref{LabelFigfigureEWDVDTS} qui montre les solution de \( f(x)\leq 4\). % From file figureEWDVDTS
 \newcommand{\CaptionFigfigureEWDVDTS}{La résulution graphique d'une inéquation avec la fonction carré.}
 \input{Fig_figureEWDVDTS.pstricks}
+
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Encadrement}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
+    Le carré de \( 3\) est \( 9\) qui est plus grand que \( 3\). De même le carré de \( 10\) est \( 100\) qui est encore beaucoup plus grand.
+
+    Le carré de \( 0.1\) est \( 0.01\) et donc plus petit que \( 0.1\).
+\end{example}
+
+
+\begin{Aretenir}
+    Si \( 0<x<1\), alors \( x^2<x\). Si \( x>1\), alors \( x^2>x\).
+\end{Aretenir}
+
+\begin{Aretenir}
+    Voici comment la fonction carré ordonne les nombres.
+    \begin{enumerate}
+        \item
+            Si \( 0<x<y\), alors \( 0<x^2<y^2\).
+        \item
+            Si \( x<y<0\), alors \( x^2>y^2>0\).
+    \end{enumerate}
+
+    Dit en français :
+    \begin{enumerate}
+        \item
+            les carrés de nombres négatifs sont rangés dans l’ordre contraire;
+        \item
+            les carrés de nombres positifs sont rangés dans le même ordre.
+    \end{enumerate}
+\end{Aretenir}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices : la fonction carré}
