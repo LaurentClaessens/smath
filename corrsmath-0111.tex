@@ -5,6 +5,38 @@
 
 \begin{corrige}{smath-0111}
 
-<+Corrsmath-0111+>
+    Il y a plusieurs façon de résoudre l'exercice parlant du poisson. En voici une originale. 
+
+    La vitesse du poisson est composée d'une composante verticale de \unit{15}{\kilo\meter\per\hour} et d'une horizontale de \unit{5}{\kilo\meter\per\hour}. Donc sa vitesse est donnée par le vecteur
+    \begin{equation}
+        \vect{ v }=\begin{pmatrix}
+            5    \\ 
+            15    
+        \end{pmatrix}.
+    \end{equation}
+    Il s'agit donc de savoir à quel point de la seconde berge arrive la droite portée par le vecteur \( \vect{ v }\).
+
+    %The result is on figure \ref{LabelFigfigureTJkpHLv}. % From file figureTJkpHLv
+%\newcommand{\CaptionFigfigureTJkpHLv}{<+Type your caption here+>}
+    \begin{center}
+\input{Fig_figureTJkpHLv.pstricks}
+    \end{center}
+    Pour cela nous pouvons utiliser le théorème de Thalès.
+
+    \begin{center}
+%The result is on figure \ref{LabelFigfigureDTzvwiz}. % From file figureDTzvwiz
+%\newcommand{\CaptionFigfigureDTzvwiz}{<+Type your caption here+>}
+\input{Fig_figureDTzvwiz.pstricks}
+    \end{center}
+
+    Il nous donne 
+    \begin{equation}
+        \frac{ A'O }{ AO }=\frac{ B'O }{ BO }=\frac{ A'B' }{ AB },
+    \end{equation}
+    et donc
+    \begin{equation}
+        \frac{ 0.025 }{ 15 }=\frac{ A'B' }{ 5 },
+    \end{equation}
+    ce qui donne \( A'B'=\unit{8.3}{\meter}\).
 
 \end{corrige}
