@@ -3,17 +3,178 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Univers}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous allons fonder notre étude sur l'étude des trois expériences aléatoires.
+\begin{enumerate}
+    \item
+        Lancer un dé à \( 6\) faces.
+    \item
+        Tirer une carte d'un jeu de \( 52\) cartes.
+    \item
+        Tirer une boule d'une urne contenant \( 16\) boules dont trois vertes, cinq jaunes, deux bleues et six rouges.
+\end{enumerate}
+
+\begin{definition}
+    Une \defe{expérience aléatoire}{expérience aléatoire} est une expérience qui a plusieurs issues possibles, et pour laquelle on ne peut ni prévoir ni calculer laquelle des issues sera réalisée.
+\end{definition}
+
+\begin{definition}
+    L'ensemble des issues possibles d'une expérience aléatoire est l'\defe{univers}{univers} de l'expérience. Il sera noté \( E\).
+\end{definition}
+
+\begin{enumerate}
+    \item
+        Lancer un dé à \( 6\) faces. L'univers est \( \{ 1,2,3,4,5,6 \}\).
+    \item
+        Tirer une carte d'un jeu de \( 52\) cartes. L'univers est \( \{ \text{as de pique},\text{cinq de carreau},\text{valet de trèfle}, \ldots \}\).
+    \item
+        Tirer une boule d'une urne qui contient par exemple trois boules vertes, cinq jaunes, deux bleues et six rouges. L'univers est \( \{ V,J,B,R \}\).
+\end{enumerate}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Événement}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Un \defe{événement}{événement} d'une expérience aléatoire est une partie de l'univers : un sous-ensemble de l'ensemble des issues possibles. Un événement est \defe{élémentaire}{événement=élémentaire} si il n'est réalisé que par une seule issue de l'expérience.
+\end{definition}
+
+\begin{example}
+    \begin{description}
+        \item[Pour le dé]
+            \begin{itemize}
+                \item Obtenir le six (événement élémentaire).
+                \item
+                    Obtenir un nombre pair.
+                \item
+                    Obtenir \( 2\) ou \( 5\).
+            \end{itemize}
+        \item[Pour le jeu de cartes]
+    \begin{itemize}
+        \item
+            Tirer le six de cœur (événement élémentaire)<++>.
+        \item Tirer une carte noire.
+        \item
+            Tirer une dame.
+    \end{itemize}
+\item[Pour l'urne]
+    \begin{itemize}
+        \item Tirer une boule rouge (événement élémentaire).
+        \item
+            Tirer une boule rouge ou verte.
+        \item
+            Tirer une boule d'une couleur autre que verte.
+    \end{itemize}
+    \end{description}
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Probabilité}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Si nous recommençons plusieurs fois une même expérience aléatoire, nous pouvons parler de \defe{fréquence}{fréquence} d'apparition de l'événement \( A\).
+
+\begin{definition}
+    Lorsqu'on effectue un grand nombre de fois une expérience aléatoire, la fréquence d'apparition d'un événement \( A\) tend à se stabiliser autour d'une «fréquence théorique» appelée la \defe{probabilité}{probabilité} de \( A\) et notée \( p(A)\).
+\end{definition}
+
+\begin{example}
+    Si \( A\) désigne l'événement «obtenir la face \( 4\) » lors du lancé du dé à \( 6\) faces, la probabilité est \( p(A)=\frac{1}{ 6 }\) parce que nous nous attendons à obtenir le \( 4\) une fois sur six.
+
+    Si \( B\) désigne l'événement «obtenir un nombre pair», alors la probabilité est \( p(A)=\frac{ 1 }{2}\) parce qu'un lancer sur deux doit en moyenne tomber sur un nombre pair.
+\end{example}
+
+\begin{example}
+    Si l'événement \( A\) désigne «obtenir l'as de $\spadesuit$», alors la probabilité est de \( 1/52\).
+    
+    Si \( B\) désigne l'événement «obtenir une dame», alors la probabilité est de \( 4/52=1/13\).
+\end{example}
+
+\begin{example}
+    L'urne contient en tout \( 16\) boules. Nous avons
+    \begin{itemize}
+        \item \( p(V)=\frac{ 3 }{ 16 }\);
+        \item
+            \( p(R)=\frac{ 6 }{ 16 }=\frac{ 3 }{ 8 }\);
+        \item
+            \( p(B)=\frac{ 2 }{ 16 }=\frac{1}{ 8 }\).
+    \end{itemize}
+    
+\end{example}
+
+
+\begin{propriete}
+    \begin{enumerate}
+        \item
+            Une probabilité est un nombre compris entre \( 0\) et \( 1\) : \( 0\leq p(A)\leq 1\).
+        \item
+            Un événement impossible a une probabilité \( 0\) : \( p(\emptyset)=0\).
+        \item
+            Un événement dont la probabilité est \( 1\) est appelé \defe{événement certain}{événement!certain}.
+        \item
+            La somme des probabilités de tous les événements élémentaires vaut toujours \( 1\).
+    \end{enumerate}
+\end{propriete}
+
+\begin{definition}
+    Lorsque tous les événements élémentaires ont la même probabilité, nous disons que nous sommes dans une situation d'\defe{équiprobabilité}{équiprobabilité}.
+\end{definition}
+
+\begin{propriete}
+    Si une expérience possède \( n\) issues équiprobables, alors :
+    \begin{enumerate}
+        \item
+            La probabilité de chaque événement primaire est \( \frac{1}{ n }\).
+        \item
+            La probabilité d'un événement \( A\) est donnée par
+            \begin{equation}
+                p(A)=\frac{ \Card(A) }{ n }
+            \end{equation}
+            où \( \Card(A)\) est le \defe{cardinal}{cardinal} de \( A\), c'est à dire le nombre d'éléments dans \( A\).
+    \end{enumerate}
+\end{propriete}
+
+\begin{example}
+    \begin{description}
+        \item[Le dé à 6 faces]
+            La probabilité d'un événement élémentaire est \( \frac{1}{ 6 }\).
+
+            Si \( A\) est l'événement «obtenir un nombre pair», alors \( p(A)=\frac{ 3 }{ 6 }=\frac{ 1 }{2}\) parce qu'il y a trois nombres pairs : \( 2\), \( 4\) et \( 6\). Il y a donc trois issues possibles qui réalisent l'événement \( A\).
+        \item[Le jeu de carte]
+            Les événements élémentaires sont chacune des cartes et leurs probabilités sont \( \frac{1}{ 52 }\). 
+            
+            
+            Si \( A\) est l'événement «Tirer une carte de \( \heartsuit\)», alors \( p(A)=\frac{ 13 }{ 52 }=\frac{1}{ 4 }\) parce qu'il y a \( 13\) cartes de \( \heartsuit\) sur \( 52\) cartes en tout.
+
+        \item[L'urne] Les événements élémentaires (tirer une boule verte, jaune, bleue ou rouge) ne sont pas équiprobables. Par exemple la probabilité d'avoir une rouge est \( p(R)=\frac{ 6 }{ 16 }=\frac{ 3 }{ 8 }\).
+
+            Si \( A\) est l'événement «tirer une boule jaune ou verte», alors nous avons \( p(A)=\frac{ 5+3 }{ 16 }=\frac{ 1 }{ 2 }\).
+    \end{description}
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+\Exo{smath-0191}
 \Exo{smath-0187}
 \Exo{smath-0188}
+\Exo{smath-0189}
+\Exo{smath-0190}
+\Exo{smath-0192}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Modèles}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0194}
+\Exo{smath-0195}
 
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Questions de cours}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \Exo{smath-0184}
-\Exo{smath-0189}
