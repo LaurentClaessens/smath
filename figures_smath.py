@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksfigureMYeLqLl import figureMYeLqLl
 from phystricksfigureDTzvwiz import figureDTzvwiz
 from phystricksfigureTJkpHLv import figureTJkpHLv
 from phystricksfigureEWDVDTS import figureEWDVDTS
@@ -152,7 +153,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,CylindresxKDOdy,
-    figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureXUQaJjF,figureQUtOjcm,figureXNAufCh,figureEWDVDTS,figureTJkpHLv,figureDTzvwiz
+    figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureXUQaJjF,figureQUtOjcm,figureXNAufCh,figureEWDVDTS,figureTJkpHLv,figureDTzvwiz,figureMYeLqLl
     ]
 
 for k in sys.argv:
