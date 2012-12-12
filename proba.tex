@@ -170,17 +170,69 @@ Si nous recommençons plusieurs fois une même expérience aléatoire, nous pouv
     \end{description}
 \end{example}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Réunion et intersection}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%TODO : des dessins pour expliquer la réunion et l'intersection.
+
+Si \( A\) et \( B\) sont des événements, 
+\begin{enumerate}
+    \item
+nous notons \( A\cup B\) l'événement qui est réalisé lorsque \( A\) \emph{ou} \( B\) se réalise;
+\item
+nous notons \( A\cap B\) l'événement qui est réalisé lorsque \( A\) \emph{et} \( B\) se réalisent.
+\end{enumerate}
+
+\begin{Aretenir}
+    Si \( A\) et \( B\) sont deux événements d'une expérience aléatoire, alors
+    \begin{equation}
+        p(A\cup B)=p(A)+p(B)-p(A\cap B).
+    \end{equation}
+\end{Aretenir}
+
+\begin{example}
+    Soient \( A\) l'événement «obtenir un roi» et \( B\) l'événement «obtenir un \( \heartsuit\)». Pour calculer \( p(A\cup B)\), on suit le raisonnement suivant.
+    \begin{enumerate}
+        \item
+            La probabilité de \( A\) est \( p(A)=\frac{ 4 }{ 52 }=\frac{1}{ 13 }\). 
+        \item
+            La probabilité de \( B\) est \( p(B)=\frac{ 13 }{ 52 }=\frac{1}{ 4 }\).
+        \item
+            L'événement \( A\cup B\) est l'événement «avoir un roi ou un cœur». Les cartes qui réalisent cet événement sont toutes les \( 13\) cartes de cœur plus les quatre rois (dont un est de cœur!!). 
+        \item
+            L'événement \( A\cap B\) est réalisé par les cartes qui sont à la fois cœur et roi, c'est à dire uniquement par la carte roi de \( \heartsuit\). Nous avons donc \( p(A\cap B)=\frac{1}{ 52 }\).
+        \item
+            Pour savoir la probabilité \( p(A\cup B)\), on utilise la formule
+            \begin{equation}
+                p(A\cup B)=p(A)+p(B)-p(A\cap B)=\frac{1}{ 13 }+\frac{1}{ 4 }-\frac{1}{ 52 }=\frac{ 4 }{ 13 }.
+            \end{equation}
+    \end{enumerate}
+    Notons que ce résultat peut aussi être obtenu en réfléchissant. L'événement \( A\cup B\) est constitué de toutes les cartes \( \heartsuit\) et de tous les rois, c'est à dire les treize cartes \( \heartsuit\) plus les rois de \( \clubsuit\), \( \spadesuit\) et \( \diamondsuit\), soient \( 13+3=16\) cartes en tout. Donc
+    \begin{equation}
+        p(A\cup B)=\frac{ 16 }{ 52 }=\frac{ 4 }{ 13 }.
+    \end{equation}
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \Exo{smath-0191}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Univers}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0197}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Probabilités}
+%---------------------------------------------------------------------------------------------------------------------------
+
 \Exo{smath-0187}
-\Exo{smath-0188}
 \Exo{smath-0189}
 \Exo{smath-0190}
-\Exo{smath-0192}
 
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Modèles}
@@ -188,6 +240,14 @@ Si nous recommençons plusieurs fois une même expérience aléatoire, nous pouv
 
 \Exo{smath-0194}
 \Exo{smath-0195}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Problèmes}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0192}
+\Exo{smath-0198}
+\Exo{smath-0188}
 
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Questions de cours}
