@@ -9,6 +9,7 @@ myRequest.original_filename="smath.tex"
 
 myRequest.ok_filenames_list=["e_smath"]
 myRequest.ok_filenames_list.append("seconde")
+myRequest.ok_filenames_list.append("second_deg")
 myRequest.ok_filenames_list.append("repere")
 myRequest.ok_filenames_list.append("equationDroites")
 myRequest.ok_filenames_list.append("fonctions")
