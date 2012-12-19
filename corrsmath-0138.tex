@@ -5,6 +5,36 @@
 
 \begin{corrige}{smath-0138}
 
-<+Corrsmath-0138+>
+    \begin{enumerate}
+        \item
+            La fonction proposée est n'est pas correcte. En effet, dans la seconde ligne, \( x\) représente le nombre total de jours de location, et non le nombre de jours de location \emph{supplémentaires} à une semaine. Le nombre de jours supplémentaires est \( x-7\). Donc si qui loue le véhicule pour \( x\) jours avec \( x>7\), paye \( 150-25(x-7)=25x-25\). La fonction correcte est alors
+            \begin{equation}
+                f_1(x)=\begin{cases}
+                    150    &   \text{si \( x\leq 7\)}\\
+                    25x-25    &    \text{si \( x>7\)}.
+                \end{cases}
+            \end{equation}
+        \item
+            Pour trois jours de location (moins d'une semaine), il faut payer \( 150\) euros. Pour louer dix jours (plus d'une semaine), il faut payer \( f_1(10)=250-25=225\)€.
+        \item
+            Les fonctions des options deux et trois sont
+            \begin{equation}
+                f_2(x)=30x
+            \end{equation}
+            et
+            \begin{equation}
+                f_3(x)=50+25x.
+            \end{equation}
+            
+        \item
+            Les graphiques sont sur la figure \ref{LabelFigfigureHYeBZVj}. % From file figureHYeBZVj
+\newcommand{\CaptionFigfigureHYeBZVj}{Les prix comparés des différentes options de location pour l'exercice \ref{smath-0138}.}
+\input{Fig_figureHYeBZVj.pstricks}
+
+Notez que les graphiques rouges et bleus (la seconde partie) sont parallèles. Voyez-vous pourquoi ?
+        \item
+            Le prix le plus intéressant est la fonction qui suit en permanence la courbe la plus basse. Elle est en ondulée sur la figure \ref{LabelFigfigureHYeBZVj}.
+
+    \end{enumerate}
 
 \end{corrige}
