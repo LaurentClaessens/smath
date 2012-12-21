@@ -93,7 +93,7 @@ Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatem
 \section{Milieu d'un segment}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{propriete}
+\begin{propriete}\label{PropFHznUfJ}
     \begin{multicols}{2}
 
         Le point \( M\) est milieu du segment \( [AB]\) si et seulement si \( \vect{ AM }=\vect{ MB }\).
@@ -337,6 +337,85 @@ Si une de ces deux égalités vectorielle est satisfaite, alors \( ABCD\) est un
 \begin{example}
     Les points \( A=(-2;-3)\), \( B=(-1,-1)\), \( C=(2;-2)\) et \( D=(1;-4)\) forment un parallélogramme.
 \end{example}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Le milieu revisité}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Notre travail sur les coordonnées de vecteurs nous permet de donner une preuve alternative à la propriété \ref{PropFHznUfJ}.
+
+\begin{propriete}
+    Soient les points \( A\), \( B\) et \( K\) tels que \( K\) soit le milieu du segment \( [AB]\). Alors nous avons \( \vect{ AK }=\vect{ BK }\).
+\end{propriete}
+
+\begin{proof}
+    Nous divisons la preuve en petits pas.
+    \begin{subproof}
+        \item[Création du repère]
+            Nous considérons un repère orthonormé \footnote{En réalité il n'est pas obligatoire qu'il soit orthonormé, mais ça ne coûte rien qu'il le soit.} dont \( A\) est l'origine.
+        \item[Coordonnées des points]
+            Dans le repère choisi, nous considérons les coordonnées des points \( K=(x_K;y_K)\) et \( B=(x_B,y_B)\). Nous allons aussi nommer \( I\) et \( J\) les points \( I=(x_K;0)\) et \( J=(x_B;0)\). Le dessin est maintenant comme suit :
+
+            \begin{center}
+%The result is on figure \ref{LabelFigfigureSZyxsvp}. % From file figureSZyxsvp
+%\newcommand{\CaptionFigfigureSZyxsvp}{<+Type your caption here+>}
+\input{Fig_figureSZyxsvp.pstricks}
+            \end{center}
+        \item[Utilisation du théorème de Thalès]
+            Vu que les droites \( (KI)\) et \( (BJ)\) sont parallèles, nous pouvons utiliser le théorème de Thalès :
+            \begin{equation}
+                \frac{ AB }{ AK }=\frac{ AJ }{ AI }=\frac{ BJ }{ KI }.
+            \end{equation}
+            Nous remplaçons dans ces égalités les longueurs par ce qu'on connait. Vu que \( K\) est le milieu de \( [AB] \), nous avons \( \frac{ AB }{ AK }=2\). D'autre part, $AJ=x_B$, \( AI=x_K\), \( BJ=y_B\) et \( KI=y_K\), donc
+            \begin{equation}
+                2=\frac{ x_B }{ x_K }
+            \end{equation}
+            et
+            \begin{equation}
+                2=\frac{ y_B }{ y_K }.
+            \end{equation}
+            Autrement dit,
+            \begin{equation}
+                x_B=2x_K
+            \end{equation}
+            et
+            \begin{equation}
+                y_B=2y_K.
+            \end{equation}
+        \item[Les vecteurs en présence]
+            Les vecteurs \( \vect{ AB }\) et \( \vect{ AK }\) ont pour coordonnées
+            \begin{subequations}
+                \begin{align}
+                    \vect{ AB }=\begin{pmatrix}
+                        x_B    \\ 
+                        y_B    
+                    \end{pmatrix}\\
+                    \vect{ AK }=\begin{pmatrix}
+                        x_K    \\ 
+                        y_K    
+                    \end{pmatrix},
+                \end{align}
+            \end{subequations}
+            Donc, étant donné que \( x_B=2x_K\) et \( y_B=2y_K\) nous avons
+            \begin{equation}    \label{EqNGxKxaY}
+                \vect{ AB }=2\vect{ AK }.
+            \end{equation}
+        \item[Utilisation de la loi de Chasles et conclusion]
+            Nous savons que \( \vect{ AB }=\vect{ AK }+\vect{ KB }\), donc en replaçant \( \vect{ AB }\) par \( 2\vect{ AK }\) nous avons
+            \begin{equation}
+                2\vect{ AK }=\vect{ AK }+\vect{ KB },
+            \end{equation}
+            ce qui implique que
+            \begin{equation}
+                \vect{ AK }=\vect{ KB },
+            \end{equation}
+            ce qu'il fallait.
+    \end{subproof}
+\end{proof}
+Nous notons aussi au passage l'intéressante formule \eqref{EqNGxKxaY} :
+\begin{equation}
+    \vect{ AB }=2\vect{ AK }.
+\end{equation}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Exercices}
