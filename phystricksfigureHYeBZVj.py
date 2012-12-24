@@ -1,46 +1,54 @@
 # -*- coding: utf8 -*-
 
 from __future__ import division
-
 from phystricks import *
+
+def f1(x):
+    if x <= 7:
+        return 150
+    return 150+25*(x-7)
+
+def f2(x):
+    return 30*x
+
+def f3(x):
+    return 50+25*x
+
+def liste_morceaux(f,mx,Mx):
+    l=[]
+    for i in range(mx,Mx):
+        l.append(Point(i,f(i)))
+        l.append(Point(i,f(i+1)))
+    s=[ Segment( l[i],l[i+1] ) for i,s in enumerate(l) if i != len(l)-1 ]
+    return s
+
 def figureHYeBZVj():
     pspict,fig = SinglePicture("figureHYeBZVj")
     pspict.dilatation_Y(1/50)
-    pspict.My_acceptable_BB=500
+    pspict.My_acceptable_BB=600
 
-    x=var('x')
-    Mx=15
-    f11=phyFunction(150).graph(0,7)
-    f12=phyFunction(25*x-25).graph(7,Mx)
-    f2=phyFunction(30*x).graph(0,Mx)
-    f3=phyFunction(50+25*x).graph(0,Mx)
+    Mx=13
+    s1=liste_morceaux(f1,1,Mx)
+    s2=liste_morceaux(f2,1,Mx)
+    s3=liste_morceaux(f3,1,Mx)
 
-    color1="blue"
-    f11.parameters.color=color1
-    f12.parameters.color=color1
+    for seg in s1:
+        seg.parameters.color="red"
+    for seg in s2:
+        seg.parameters.color="brown"
+        seg.parameters.style="dashed"
+    for seg in s3:
+        seg.parameters.color="blue"
+        seg.parameters.style="dashed"
 
-    f2.parameters.color="red"
-    f3.parameters.color="brown"
-
-    g1=f2.graph(0,5)
-    g2=f11.graph(5,7)
-    g3=f12.graph(7,Mx)
-
-    colorg="cyan"
-    g1.parameters.color=colorg
-    g2.parameters.color=colorg
-    g3.parameters.color=colorg
-    
-    g1.wave(10,0.2)
-    g2.wave(0.1,5)
-    g3.wave(10,0.2)
-
-    pspict.DrawGraphs(f11,f12,f2,f3,g1,g2,g3)
+    pspict.DrawGraphs(s1,s2,s3)
     pspict.axes.single_axeY.Dx=50
     pspict.grid.Dx=1
     pspict.grid.Dy=25
     pspict.grid.num_subX=0
     pspict.grid.num_subY=1
+    pspict.axes.do_mx_enlarge=False
+    pspict.axes.do_my_enlarge=False
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
     fig.conclude()
