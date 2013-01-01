@@ -1,5 +1,5 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2012
+% Copyright (c) 2012,2013
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
@@ -13,10 +13,104 @@ Activité de départ : visionner une partie du cours de \href{http://www.manicor
 \end{quote}
 située entre 11m20 et 17m20.
 
+Nous considérons une série statistique \( x_1,\ldots, x_n\).
+\begin{definition}
+    \begin{enumerate}
+        \item
+    La \defe{moyenne}{moyenne} de la série est \( \bar x=\frac{ x_1+x_2+\ldots +x_{n-1}+x_n }{ n }\).
+\item
+    La \defe{variance}{variance} de la série est
+    \begin{equation}
+        V=\frac{ (x_1-\bar x)^2+(x_2-\bar x)^2+\ldots +(n_{n-1}-\bar x)^2+(x_n-\bar x)^2 }{ n }.
+    \end{equation}
+\item
+    L'\defe{écart-type}{écart-type} de la série est la racine de la variance : \( \sigma=\sqrt{V}\).
+            
+    \end{enumerate}
+
+\end{definition}
+
+Si la série se présente avec des coupes valeurs/effectifs, 
+\begin{center}
+\begin{tabular}[]{|c||c|c|c|c|c|}
+    \hline
+    Valeur&\( x_1\)&\( x_2\)&\( \ldots\)&\( x_p\)&Total\\
+    \hline
+    Effectif&\( n_1\)&\( n_2\)&\( \ldots\)&\( n_p\)&N\\
+    \hline
+\end{tabular}
+\end{center}
+alors les formules sont
+\begin{equation}
+    \bar x=\frac{ n_1x_1+\ldots +n_px_p }{ N }
+\end{equation}
+et
+\begin{equation}
+    V=\frac{1}{ N }\left[ n_1(x_1-\bar x)^2+\ldots +n_p(x_p-\bar x)^2 \right].
+\end{equation}
+
+La moyenne est la valeur «centrale» d'une série statistique, mais ne donne aucune idée de la façon dont les valeurs sont réparties autour de la moyenne. Comme nous l'avons vu dans la vidéo, il y a des cas où cette répartition est très importante à comprendre.
+
+La moyenne et l'écart-type dépendent de toutes les valeurs et sont donc influencées par les valeurs extrêmes. Plus il y a de valeurs dans la série, moins une fluctuation d'une des valeurs n'a d'influence sur la moyenne et l'écart-type.
+
+\begin{Aretenir}
+    Plus l'écart-type est important, moins la moyenne est pertinente.
+\end{Aretenir}
+
+\begin{example}
+    Les points de la classe sont dans l'ordre croissant les suivants :
+
+    \begin{center}
+    \begin{multicols}{3}
+5.480\\
+5.569\\
+5.857\\
+6.368\\
+6.796\\
+7.311\\
+7.443\\
+7.505\\
+7.536\\
+7.748\\
+8.241\\
+8.264\\
+8.513\\
+8.618\\
+8.764\\
+8.765\\
+8.786\\
+9.242\\
+9.433\\
+9.725\\
+10.077\\
+11.238\\
+11.843\\
+11.914\\
+12.030\\
+14.636\\
+15.431\\
+15.709\\
+16.463\\
+16.567
+    \end{multicols}
+    \end{center}
+    La moyenne et l'écart-type de cette série sont : $\bar x=9.73$ et \( \sigma=3.2\).
+
+    Nous nous attendons donc à ce que «le gros» des élèves aient des points situés entre \( 9.7-3.2\) et \( 9.7+3.2\), c'est à dire entre \( 6.5\) et \( 13\). En effet, \( 4\) ont moins que \( 6.5\) et \( 5\) ont plus que \( 13\); en tout \( 9\) élèves sur \( 30\) sont «hors des clous»; environ un tiers.
+
+    Les deux tiers des élèves ont des points compris entre \( \bar x-\sigma\) et \( \bar x+\sigma\).
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Moyenne et écart-type}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0243}
+\Exo{smath-0244}
 
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Probabilités}
