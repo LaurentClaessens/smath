@@ -4,6 +4,7 @@ from phystricks import *
 def figureEHyIMRQ():
     pspict,fig = SinglePicture("figureEHyIMRQ")
     pspict.dilatation_X(0.003)
+    pspict.dilatation_Y(0.5)
 
     pspict.Mx_acceptable_BB=5000
     pspict.mx_acceptable_BB=-400
@@ -24,8 +25,11 @@ def figureEHyIMRQ():
     pspict.axes.single_axeX.Dx=500
     pspict.axes.single_axeY.no_graduation()
     pspict.grid.Dx=200
+    pspict.grid.draw_horizontal_grid=False
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
+
+# TODO : il faudrait ne tracer que l'axe horizontal.

@@ -2,7 +2,8 @@
 from phystricks import *
 def figureKAzSlQr():
     pspict,fig = SinglePicture("figureKAzSlQr")
-    pspict.dilatation(1)
+    pspict.dilatation_X(0.5)
+    pspict.dilatation_Y(0.3)
 
     A={3:2,4:4,7:1,8:1,16:2,17:1}
     B={1:3,2:1,11:2,12:3,10:1}
