@@ -1,10 +1,37 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2012
+% Copyright (c) 2013
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
 \begin{corrige}{smath-0195}
 
-<+Corrsmath-0195+>
+Nous dessinons le tableau des possibilités de tirage :
+\begin{equation*}
+    \begin{array}[]{|c||c|c|c|}
+        \hline
+        &0&1&3\\
+        \hline\hline
+        0&0&1&3\\
+        \hline
+        2&2&3&5\\
+        \hline
+        4&4&5&7\\
+        \hline
+    \end{array}
+\end{equation*}
+Les nombres \( 0\), \( 1\), \( 2\), \( 3\), \( 4\) et \( 7\) arrivent une fois et ont donc une probabilité \( 1/9\) d'arriver. Par contre le nombre \( 5\) arrive deux fois et a une probabilité \( 2/9\) d'arriver et le nombre \( 6\) n'arrive pas, donc il est impossible à obtenir. En fin de compte, le tableau est :
+
+\begin{center}
+    \begin{equation*}
+        \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|}
+            \hline
+            x_i&0&1&2&3&4&5&6&7&\text{total}\\
+              \hline\hline
+              p_i&1/7&1/7&1/7&1/7&1/7&2/7&0&1/7&1\\
+              \hline 
+               \end{array}
+           \end{equation*}
+\end{center}
+
 
 \end{corrige}

@@ -2,7 +2,7 @@
 from phystricks import *
 def figureXNAufCh():
     pspict,fig = SinglePicture("figureXNAufCh")
-    pspict.dilatation(1)
+    pspict.dilatation(0.8)
 
     x=var('x')
     f=phyFunction(x**2).graph(-2.5,2.5)
