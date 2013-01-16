@@ -152,11 +152,11 @@ Nous avons déjà vu les notions de médianes et quartiles plus tôt dans l'ann�
 \begin{example}
     Une association de consommateurs étudie le temps de vie (en années) d'un millier de machines à laver vendues. Les résultats bruts sont :
     \begin{equation*}
-        \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
             \hline
-            \text{temps de vie}&0.5&1&2&3&4&5&6&7&8&9&10&11&12&13&14&15\\
+            \text{temps de vie}&1&2&3&4&5&6&7&8&9&10&11&12&13&14&15\\
             \hline\hline
-            \text{Effectifs}&10&20&50&120&200&250&80&100&50&10&0&30&25&20&10&25\\
+            \text{Effectifs}&30&50&120&200&250&80&100&50&10&0&30&25&20&10&25\\
             \hline
         \end{array}
     \end{equation*}
@@ -184,7 +184,28 @@ Nous avons déjà vu les notions de médianes et quartiles plus tôt dans l'ann�
 \input{Fig_figureSNpNWPt.pstricks}
 \end{center}
 
-    %AFAIRE : terminer cet exemple.
+    Quelques informations lisibles sur ce graphiques.
+    \begin{enumerate}
+        \item
+            Lorsqu'on achète une machine à laver, il y a de bonnes chances qu'elle arrive à tenir \( 4\) ans : \( 75\%\) des machines sont encore là.
+        \item
+            Entre \( 4\) et \( 7\) ans, c'est hécatombe. La moitié \( 1000\) des machines tombe en pane durant ces trois ans. Il y a donc deux fois plus de machines qui tombent en panne durant ces 3 ans que durant les trois premières années.
+        \item
+            Si votre machine passe le cap des \( 7\) ans, elle peut aller loin.
+    \end{enumerate}
+
+    \begin{remark}
+        \begin{enumerate}
+            \item
+                Le diagramme en boite, comme toute représentation graphique, ne donne pas toute l'information. Il est par exemple possible que sur les \( 1000\) machines, une seule soit tombée en panne après un an, et que $249$ soient tombées en panne au début de la quatrième année.
+            \item
+                Il est également possible qu'après la huitième année, \( 999\) machines soient en pannes, et qu'une seule ait encore tenu jusqu'à la quinzième année.
+        \end{enumerate}
+        
+    \end{remark}
+
+%AFAIRE : recompiler la figure.
+
 \end{example}
 
 

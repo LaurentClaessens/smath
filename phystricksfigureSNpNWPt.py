@@ -4,7 +4,7 @@ def figureSNpNWPt():
     pspict,fig = SinglePicture("figureSNpNWPt")
     pspict.dilatation_X(1)
 
-    moustache=Moustache(0.5,4,5,7,15,h=0.5,delta_y=0.75)
+    moustache=Moustache(1,4,5,7,15,h=0.5,delta_y=0.75)
 
     pspict.DrawGraphs(moustache)
     pspict.DrawDefaultAxes()
