@@ -17,17 +17,17 @@ def figureUERGVgS():
     measure=MeasureLength(Segment(X,A),0.1)
     measure.put_mark(0.2,0,"\( a\)",automatic_place=pspict)
 
-    I=Point(1,0)
     O=Point(0,0)
-    J=Point(0,1)
+    #I=Point(1,0)
+    #J=Point(0,1)
 
-    I.put_mark(0.2,-90,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,180,"\( J\)",automatic_place=pspict)
+    #I.put_mark(0.2,-90,"\( I\)",automatic_place=pspict)
+    #J.put_mark(0.2,180,"\( J\)",automatic_place=pspict)
     O.put_mark(0.2,90+14,"\( O\)",automatic_place=pspict)
 
-    pspict.DrawGraphs(f,I,J,O,B,seg,measure)
+    pspict.DrawGraphs(f,O,B,seg,measure)
 
-    pspict.axes.no_numbering()
+    pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
     fig.conclude()
     fig.write_the_file()
