@@ -1,0 +1,30 @@
+% This is part of Un soupçon de mathématique sans être agressif pour autant
+% Copyright (c) 2012
+%   Laurent Claessens
+% See the file fdl-1.3.txt for copying conditions.
+
+\begin{corrige}{smath-0023}
+
+    \begin{enumerate}
+        \item
+            En ce qui concerne les tests proprement dit, l'usine en effectue dix mille par jour à \( 0.1\) euro le tests. Le coût des tests est donc de \( 0.1\times 10000=1000\) euros par jour. En ce qui concerne les destructions, l'usine en effectue en moyenne \( 0.002\times 10000=20\) par jour. Le tout coûte \( 1020\) euros par jour.
+        \item
+            Un lot donné sera détruit si au moins un condensateur est défectueux. Soit \( X\) la variable aléatoire qui donne le nombre de condensateurs défectueux dans un lot. Cette variable aléatoire suit la loi \( B(10;0.002)\). La probabilité de détruire le lot est donné par
+            \begin{equation}
+                P(X\geq 1)=1-P(X=0).
+            \end{equation}
+            Cette dernière probabilité se calcule simplement :
+            \begin{equation}
+                P(X\geq 1)=1-P(X-0)=1-\left( \frac{ 998 }{ 1000 } \right)^{10}\approx 0.01982
+            \end{equation}
+            Chaque lot a une probabilité \( 0.01982\) d'être détruit et l'usine produit \( 1000\) lots donc ne moyenne l'usine en détruit
+            \begin{equation}
+                1000\times 0.01982=19.82.
+            \end{equation}
+            L'usine dépense donc \( 19.82\) euros de destruction par jour (ce qui ne représente presque pas d'économie par rapport à l'ancien système). Les contrôles par contre coûtent nettement moins cher vu qu'on en effectue seulement mille au lieu de dix mille. Le coût total moyen par jour est
+            \begin{equation}
+                1000\times 0.1+19.82=119.82.
+            \end{equation}
+    \end{enumerate}
+
+\end{corrige}

@@ -1,7 +1,185 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2012
+% Copyright (c) 2012-2013
 %   Laurent Claessens, Pauline Klein
 % See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Activité : mois de naissance}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Prendre les mois de naissance des élèves, en séparant les groupes.
+\begin{enumerate}
+    \item
+        Quel groupe a la proportion de naissance en mars la plus grande ?
+    \item
+        En tout quelle est la proportion des naissances en avril ?
+    \item 
+        Est-ce qu'on peut voir l'effet comme quoi les mois de \( 31\) jours son plus longs ? 
+        \begin{enumerate}
+            \item
+                Quelle est la proportion d'élèves nés dans un mois de \( 31\) jours ?
+            \item
+                Il y a \( 7\) mois de $31$ jours contre \( 5\) de moins. Donc le résultat est biaisé.
+            \item
+                Calculer la \emph{fréquence} des naissances en naissances par mois.
+        \end{enumerate}
+\end{enumerate}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Regardons des graphiques}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Les graphiques sont souvent tirés de wikipédia. Si vous voulez plus d'informations, lisez \url{http://www.manicore.com/}, ou bien regardez le cours \href{http://www.mines-paristech.fr/ingenieurcivil/SitesIC/Balado/Climat_som.html}{en ligne}, en particulier la deuxième heure du troisième cours donne les facteurs d'émissions dans le monde et en France.
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Émissions par secteurs}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\includegraphics[width=17cm]{Emission_de_GES.png}
+Graphique en provenance de l'article \wikipedia{fr}{Gaz_à_effet_de_serre}{gaz à effet de serre} de wikipédia.
+
+\begin{enumerate}
+    \item
+        Quel est le secteur qui émets le plus ?
+    \item
+        Est-ce que l'agriculture émet beaucoup de dioxyde de carbone ?
+    \item
+        À partir des deux graphiques du bas, est-ce que vous êtes capables de retrouver le \( 12.5\%\) de l'agriculture donnés dans le graphique du haut ?
+\end{enumerate}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Découvertes de pétrole}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Regardons un instant le graphique suivant, provenant de l'article \wikipedia{fr}{Pic_pétrolier}{Pic pétrolier} de wikipédia.
+
+\includegraphics[width=17cm]{Decouvertes-petrole.png}
+
+\begin{enumerate}
+    \item
+        Quelle est l'année où on a découvert le plus de pétrole ?
+    \item
+        Quelle est l'année où on a consommé le plus de pétrole ?
+    \item
+        En quelles années on a consommé autant qu'on a découvert ?
+    \item
+        Que pensez-vous de l'affirmation «ce qui reste comme réserve est la surface jaune au-dessus de la ligne rouge» ?
+\end{enumerate}
+Pour aller plus loin, remarquer la cassure assez nette de la croissance de la production vers 1975. Juste par curiosité, faites quelque recherches sur l'histoire de la croissance économique, de la dette publique et le chômage en France (et en Europe). Est-ce que les années 1970 ont été spéciales de ce point de vue ?
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Températures}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\includegraphics[width=17cm]{Instrumental_Temperature_Record_fr.png}
+Graphique en provenance de l'article \wikipedia{fr}{Réchauffement_climatique}{réchauffement climatique} de wikipédia.
+
+Le zéro de ce graphique est la moyenne 1961-1990.
+
+\begin{enumerate}
+    \item
+        Quelle est la dernière année «normale» ?
+    \item
+        Quelle est l'année la plus chaude ?
+    \item
+        Quelle est l'année la plus froide ?
+\end{enumerate}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Consommation de pétrole}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Lire le tableau suivant :
+\begin{center}
+\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
+année&
+2001&
+2002&
+2003&
+2004&
+2005&
+2006&
+2007&
+2008\\
+consommation (Mb/j)&
+76,8&
+77,7&
+79,1&
+81,8&
+83,1&
+83,8&
+84,9&
+84,5
+\end{tabular}
+\end{center}
+
+Calculer le pourcentage d'augmentation année par année. Que s'est-il passé en 2008 ?
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Théorie}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Une \defe{population}{population} est un ensemble fini. Une \defe{série statistique}{série statistique} sur une population est une fonction qui à chaque élément (individu) de la population fait correspondre une valeur.
+
+    L'\defe{effectif}{effectif} d'une valeur est le nombre d'individus correspondant à la valeur.
+
+    La \defe{fréquence}{fréquence} d'une valeur est le rapport
+    \begin{equation}
+        f=\frac{ \text{effectif de la valeur} }{ \text{effectif total} }
+    \end{equation}
+    où par «effectif total» nous entendons la taille de la population totale.
+\end{definition}
+
+La \defe{moyenne}{moyenne} d'une suite de nombres \( x_1,\ldots, x_n\) est
+\begin{equation}
+    \bar x=\frac{1}{ n }\sum_{i=1}^nx_i=\frac{ \text{somme des \( x_i\)} }{\text{nombre de données}}.
+\end{equation}
+
+\begin{example}
+    Soit la suite de nombres
+    \begin{equation}
+        1,7,0,3,9,0,1,3,1,0,2,5,6,9,1,1,3,2,4.
+    \end{equation}
+    Il y a \( 19\) nombres. La moyenne est donnée par la fraction
+    \begin{equation}
+        \bar x=\frac{ 1+7+0+3+9+\ldots+3+2+4 }{ 19 }=\frac{ 58 }{ 19 }.
+    \end{equation}
+
+Python permet d'obtenir assez facilement une approximation numérique :
+    \begin{verbatim}
+>>> import numpy
+>>> nombres=[1,7,0,3,9,0,1,3,1,0,2,5,6,9,1,1,3,2,4]
+>>> numpy.mean(nombres)          # 'mean' signifie 'moyenne' en anglais.
+3.0526315789473686 
+    \end{verbatim}
+\end{example}
+
+\begin{example}
+    Voici un petit tableau de l'\href{http://www.insee.fr/fr/themes/tableau.asp?reg_id=0&ref_id=NATTEF13325}{INSEE}, parlant du chiffre d'affaire des éditeurs vidéos en million d'euros.
+
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        &Vidéo à la demande &   \multicolumn{3}{| c |}{Vente}&Total\\
+        \hline
+        &                   &   total&dont DVD&dont Blu-ray&\\
+        \hline
+        2004&nd&1958.8&1844.6&&nd\\
+        2005&nd&1784.2&1757.3&&nd\\
+        2006&nd&1659.2&1654.7&&nd\\
+        2007&28.9&1494.1&1479.9&14.3&1523.0\\
+        2008&53.2&1382.4&1331.0&51.5&1435.6\\
+        2009&97.0&1384.4&1277.1&107.3&1481.4\\
+        2010&152.0&1385.4&1211.7&173.7&1537.4\\
+        2011&219.5&1257.5&1048.4&209.1&1477\\
+        \hline
+    \end{tabular}
+    \end{center}
+    Dessiner un diagramme en camembert pour les années 2007 et 2011.
+\end{example}
+
+
 
 \newcommand{\comp}{{\ \ldots\ldots\ }} %
 \newcommand{\exe}[1]{\par \smallskip %
@@ -717,4 +895,58 @@ Voir la correction de l'exercice \ref{exoSeconde-0033} pour un exemple détaill�
 \begin{center}
   \includegraphics[width=7cm]{Stats_Fig4_DiagBoite.png}  
 \end{center}
+
+
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Proportions, pourcentage}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0023}
+\Exo{Seconde-0031}
+\Exo{Seconde-0025}
+\Exo{smath-0296}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Moyenne}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0039}
+\Exo{smath-0011}
+\Exo{smath-0012}
+\Exo{smath-0250}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Médiane, quartiles}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0029}
+\Exo{Seconde-0027}
+\Exo{Seconde-0028}
+\Exo{smath-0147}
+\Exo{Seconde-0014}
+\Exo{Seconde-0032}
+\Exo{Seconde-0015}
+\Exo{Seconde-0037}
+\Exo{Seconde-0016}
+\Exo{Seconde-0017}
+\Exo{Seconde-0073}
+\Exo{Seconde-0074}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Histogrammes}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Seconde-0033}
+\Exo{Seconde-0035}
+\Exo{Seconde-0036}
+\Exo{Seconde-0038}
+
+\Exo{Seconde-0040}
+
 
