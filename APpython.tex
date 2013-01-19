@@ -1,5 +1,5 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2012
+% Copyright (c) 2012-2013
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
@@ -139,43 +139,6 @@ Est-ce que vous pouvez en déduire un critère de divisibilité basé sur l'usag
 
 \Exo{Premiere-0067}
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{La boucle \info{for}}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\label{SecZNoLakM}
-
-Il est possible de répéter une action pour tous les éléments d'une liste. Par exemple
-
-\lstinputlisting{ex_for1.py}
-
-La première boucle écrit \info{x} et son carré pour tout \info{x} dans la liste \info{[1,5,10,2]}. La seconde boucle écrit tous les lettres du mot «bonjour» et la troisième tous les nombres dans \info{range(0,5)}, c'est à dire \( 0\), \( 1\), \( 2\), \( 3\) et \( 4\).
-
-\lstinputlisting[title=Résultat]{res_ex_for1.txt}
-
-\Exo{Premiere-0048}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Prendre des choses au hasard}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\label{SecHWnLVlpe}
-
-Python permet de tirer des nombres au hasard ou de prendre un élément au hasard dans une liste ou dans un texte. Pour cela il y a le module \info{random}. Si \info{A} est une liste ou un texte (chaîne de caractère), alors
-\begin{quote}
-    \info{random.choice(A)}
-\end{quote}
-retourne un élément au hasard de la suite.
-
-
-\lstinputlisting{ex_random1.py}
-
-Ce programme doit vous afficher une lettre prise au hasard dans le texte, y compris de temps en temps des espaces ou de la ponctuation. Essayez-le quelque fois.
-
-Bien entendu, il est pénible de choisir \( 50\) lettres au hasard une par une. Testez le programme suivant et lisez éventuellement la section \ref{SecZNoLakM} :
-
-\lstinputlisting{ex_random2.py}
-
-\Exo{Premiere-0049}
-\Exo{Premiere-0050}
 
 
 \chapter{Manipulation de texte}
@@ -549,11 +512,49 @@ Cela ressemble à de l'anglais sans aucun doute.
 
 Nous allons construire pas à pas un programme qui génère des textes au hasard.
 
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{La boucle \info{for}}
+%---------------------------------------------------------------------------------------------------------------------------
+\label{subSecZNoLakM}
+
+Il est possible de répéter une action pour tous les éléments d'une liste. Par exemple
+
+\lstinputlisting{ex_for1.py}
+
+La première boucle écrit \info{x} et son carré pour tout \info{x} dans la liste \info{[1,5,10,2]}. La seconde boucle écrit tous les lettres du mot «bonjour» et la troisième tous les nombres dans \info{range(0,5)}, c'est à dire \( 0\), \( 1\), \( 2\), \( 3\) et \( 4\).
+
+\lstinputlisting[title=Résultat]{res_ex_for1.txt}
+
+\Exo{Premiere-0048}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Prendre des choses au hasard}
+%---------------------------------------------------------------------------------------------------------------------------
+\label{subSecHWnLVlpe}
+
+Python permet de tirer des nombres au hasard ou de prendre un élément au hasard dans une liste ou dans un texte. Pour cela il y a le module \info{random}. Si \info{A} est une liste ou un texte (chaîne de caractère), alors
+\begin{quote}
+    \info{random.choice(A)}
+\end{quote}
+retourne un élément au hasard de la suite.
+
+
+\lstinputlisting{ex_random1.py}
+
+Ce programme doit vous afficher une lettre prise au hasard dans le texte, y compris de temps en temps des espaces ou de la ponctuation. Essayez-le quelque fois.
+
+Bien entendu, il est pénible de choisir \( 50\) lettres au hasard une par une. Testez le programme suivant.
+
+\lstinputlisting{ex_random2.py}
+
+\Exo{Premiere-0049}
+\Exo{Premiere-0050}
+
+
 %--------------------------------------------------------------------------------------------------------------------------- 
 \section{Prendre des lettres au hasard}
 %---------------------------------------------------------------------------------------------------------------------------
-
-Commencer par lire la section \ref{SecHWnLVlpe}.
 
 Pour les deux exercices suivants, vous pouvez aussi vous inspirer du programme \info{ex\_mise\_fonction1.py} donné plus bas.
 \Exo{Premiere-0053}

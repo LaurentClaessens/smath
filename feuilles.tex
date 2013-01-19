@@ -20,7 +20,7 @@
 \renewcommand{\thesubsection}{\arabic{subsection}}
 
 
-\newenvironment{feuille}[1]{\setcounter{page}{1}\large \begin{center} #1 \end{center} \small \begin{center} Les réponses doivent être justifiées par un calcul ou par un raisonnement clairement rédigé.  \end{center} \normalsize \setcounter{CountExercice}{0}}{\newpage} 
+\newenvironment{feuille}[1]{\setcounter{page}{1}\large \begin{center} #1 \end{center} \small \begin{center} Les réponses doivent être justifiées par un calcul ou par un raisonnement clairement rédigé.  \end{center} \normalsize \setcounter{CountExercice}{0}}{\newpage\bibliographystyle{unsrt}\bibliography{mazhe}} 
 
     \pagestyle{empty}
 
@@ -29,21 +29,36 @@
 \corrPosition{0}
 %\corrDraft{1}
 
-\begin{feuille}{Interrogation probabilités 18 janvier 2013, 2nd2}
+\begin{feuille}{DS 2nd2}
 
+
+\end{feuille}
+
+\newpage
+\bibliographystyle{unsrt}           % unsrt fait que la biblio arrive dans l'ordre de citation au lieu de l'ordre alphabétique.
+\bibliography{mazhe}
+
+\end{document}
+
+
+
+%\begin{feuille}{DM commun 2nd2 et 2nd6}
+    \Exo{Seconde-0070}
+    \vspace{0.4cm}
+    \Exo{Seconde-0070}
+    \vspace{0.4cm}
+    \Exo{Seconde-0070}
+%\end{feuille}
+\end{document}
+
+
+\begin{feuille}{Interrogation probabilités 18 janvier 2013, 2nd2}
 \Exo{smath-0280}
 \Exo{smath-0188}
 \Exo{smath-0282}
 \Exo{smath-0287}
 \Exo{smath-0281}
-
 \end{feuille}
-
-\newpage
-
-\bibliographystyle{unsrt}           % unsrt fait que la biblio arrive dans l'ordre de citation au lieu de l'ordre alphabétique.
-\bibliography{mazhe}
-
 \end{document}
 
 

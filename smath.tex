@@ -9,6 +9,8 @@
 %\makeindex
 %\makenomenclature
 
+%TODO : il faudra fusioner avec echa un jour; oui monsieur : tout echa même la physique.
+
 \begin{document}
 
 \corrPosition{2}
@@ -28,7 +30,6 @@
 \part{Seconde}
 %&=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& 
 
-Je vais un peu suivre \cite{oklaEg}.
 \setcounter{chapter}{-1}
 
 \chapter{Rappels de géométrie}
@@ -44,6 +45,9 @@ Je vais un peu suivre \cite{oklaEg}.
 
 \chapter{Généralités sur les fonctions}
 \input{fonctions}
+
+\chapter{Géométrie dans l'espace et perspective cavalière}
+\input{perspective}
 
 \chapter{Vecteurs}
 \input{vecteurs}
@@ -63,23 +67,26 @@ Je vais un peu suivre \cite{oklaEg}.
 \chapter{Les fonctions du second degré}
 \input{second_deg}
 
-\chapter{Algorithmique}
-\input{algo}
-
 \chapter{Inéquations : tableaux de signes de produits}
 \input{ineqs}
 
 \chapter{Intervalle de fluctuation et de intervalle confiance}
 \input{IFetIC}
 
-\chapter{Géométrie dans l'espace et perspective cavalière}
-\input{perspective}
+\chapter{Configurations du plan}
+\input{Config_plan}
 
 \chapter{Fonctions homographiques}
 \input{fonction_homographique}
 
+\chapter{Trigonométrie}
+\input{trigono}
+
 \chapter{Techniques de calcul}
 \input{calcul_mental}
+
+\chapter{Algorithmique}
+\input{algo}
 
 \chapter{Les épaves}
 \input{les_epaves}
@@ -102,11 +109,26 @@ Je vais un peu suivre \cite{oklaEg}.
 \chapter{Statistiques}
 \input{statistique_stmg}
 
-\chapter{Suites}
+\chapter{Suites numériques}
 \input{suite_unstmg}
+
+\chapter{Nombre dérivé et tangente}
+\input{derr_tangente}
+
+\chapter{Suites arithmétiques}
+\input{suites_arith}
+
+\chapter{Fonction dérivée et variations}
+\input{derr_var}
 
 \chapter{Intervalles de confiance}
 \input{intervalle_confiance}
+
+\chapter{Suites géométriques}
+\input{suites_geom}
+
+\chapter{Troisième degré}
+\input{troisieme_deg}
 
 %&=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& &=& 
 \part{Python}
@@ -132,10 +154,7 @@ Je vais un peu suivre \cite{oklaEg}.
 
 \end{document}
 
-\Exo{smath-0291}
-\Exo{smath-0292}
 \Exo{smath-0293}
-\Exo{smath-0294}
 \Exo{smath-0295}
 \Exo{smath-0296}
 \Exo{smath-0297}
@@ -232,14 +251,18 @@ PROGRESSION STMG
 
 Proportions, pourcentages 7 sept -> 17 sept (1.5)
 Second degré 18 sept -> 16 oct (4s)
-Loi binomiale 16oct -> 26 nov (5 semaines)
+Loi binomiale et binomiale 16oct -> 26 nov (5 semaines)
 Taux d'évolution, évolutions successives    (3 semaines, fini juste avant les vacances de noël)
-Statistiques : écart type et quartiles  (3 semaines)
+
+NOËL
+
+Comparaison de séries statistiques; on introduit l'écart-type et les diagrammes en boîte. (3 semaines)
 
 
 Tableur : tableau d'effectifs et de fréquences  (2 semaine)
+
 Suites numériques (1 semaines)
-Nombre dérivé et tangente (2 semaines)
+Nombre dérivé et tangente (2 semaines) Reparler des équations de droites. Surtout retrouver l'équation de la droite avec le coefficient directeur et un point.
 Suites arithmétiques (1s)
 Fonction dérivée et variations (1)
 Intervalles de fluctuation et prise de décision (3 semaines)    À ce niveau il faut faire les derniers trucs sur la binomiale qui ne sont
@@ -251,6 +274,7 @@ Notes pour la prochaine fois
 * il vaut mieux mettre les proportions et sous-populations avant la binomiale parce que ça introduit les arbres de façon plus naturelle.
 * pour le second degré, il faut diviser en deux parties : une qui ne fait que ce qui a été vu en seconde et voir les racines et la factorisation plus tard, et probablement en fait encore en deux parties.
 * Le chapitre «évolution» peut encore être divisé en «évolution», «tva» et «évolutions successives».
+
 
 
 PROGRESSION 2nd2
