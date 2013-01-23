@@ -20,6 +20,9 @@ def figureWYxZPMW():
     for psp in pspicts:
         psp.dilatation_X(0.5)
         psp.dilatation_Y(0.5)
+    pspicts[-1].dilatation_Y(0.3)
+    pspicts[-1].axes.single_axeY.Dx=2
+    
 
     U=[suite1,suite2,suite3,suite4]
 

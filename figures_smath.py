@@ -174,7 +174,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW
     ]
 
-figure_list=[figureXCScSiP]
+figures_list=[figureWYxZPMW]
 
 for k in sys.argv:
     s=[]
