@@ -20,7 +20,7 @@ Distribuer aux élèves le dessin de la page suivante et en discuter.
 \end{center}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Population et échantillon}
+\section{Intervalle de fluctuation}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Pour reprendre le cas de l'acné, nous considérons la population française totale (65 millions de personnes), et nous voulons savoir si les \emph{jelly bean} sont liés à l'acné.
@@ -84,8 +84,55 @@ Comment cela s'applique à notre étude de \emph{jelly bean} ?
 \end{remark}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Intervalle de confiance}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous avons vu l'intervalle de fluctuation. Il s'agit, lorsqu'on connaît la proportion \( p\) des individus présentant un certain caractère dans la population globale, de savoir si la fréquence $f$ observée dans un échantillon de taille \( n\) est crédible ou pas.
+
+Ici nous allons poser la question inverse. Nous ne connaissons pas la proportion dans la population globale, mais seulement une fréquence dans un échantillon.
+
+\begin{example}
+Lors d’une élection, un sondage portant sur un échantillon aléatoire de $1000$ personnes donne $400$ votants en faveur d’un candidat \( L\). Au risque d’erreur de 5\%, quelle information peut-on obtenir sur la proportion réelle d’électeurs envisageant de voter pour $L$ ?    
+\end{example}
+
+Soit donc une population dont une proportion inconnue \( p\) présente un caractère. Nous en tirons un échantillon de taille \( n\), et nous mesurons la fréquence \( f\) d'apparition du caractère dans cet échantillon.
+
+Question : sachant \( f\), que peut-on dire de \( p\) ? 
+
+Ce que nous savons, c'est qu'il y a \( 95\%\) de chances que 
+\begin{equation}
+    f\in\mathopen[ p-\frac{1}{ \sqrt{n}} , 1+\frac{1}{ \sqrt{n} } \mathclose].
+\end{equation}
+Cet intervalle peut être décortiqué de la façon suivante :
+\begin{equation}
+\xymatrix{%
+    &   f\in\mathopen[ p-\frac{1}{ \sqrt{n}} , p+\frac{1}{ \sqrt{n} } \mathclose]\ar[rd]\ar[ld] &  \\
+    f\geq p-\frac{1}{ \sqrt{n}}\ar[d]&&f\leq p+\frac{1}{ \sqrt{n}}  \ar[d]\\
+    p\leq f+\frac{1}{ \sqrt{n}}\ar[rd] && f-\frac{1}{ \sqrt{n}}\leq p\ar[ld]\\
+    & p\in\mathopen[ f-\frac{1}{ \sqrt{n} } , f+\frac{1}{ \sqrt{n}} \mathclose]  &
+   }
+\end{equation}
+
+\begin{Aretenir}
+    Nous mesurons la fréquence \( f\) d'apparition d'un caractère dans un échantillon de taille \( n\) issu d'une population dont la proportion (inconnue) d'apparition du caractère est \( p\). Alors il y a \( 95\%\) de chances que 
+    \begin{equation}
+        p\in \mathopen[ f-\frac{1}{ \sqrt{n} } , f+\frac{1}{ \sqrt{n} } \mathclose].
+    \end{equation}
+    Cet intervalle est l'\defe{intervalle de confiance}{intervalle!de confiance} de \( p\) au seuil \( 95\%\).
+\end{Aretenir}
+
+Nous revenons à notre histoire d'élections. La fréquence du vote pour le candidat \( L\) dans l'échantillon est de \( f=0.4\), et la taille de l'échantillon est \( n=400\). Donc il y a une probabilité \( 0.95\) que la proportion réelle de votants pour \( L\) soit dans
+\begin{equation}
+    \mathopen[ f-\frac{1}{ \sqrt{n} } , f+\frac{1}{ \sqrt{n} } \mathclose]=\mathopen[ 0.4-0.05 , 0.5+0.05 \mathclose]=\mathopen[ 0.35 , 0.55 \mathclose].
+\end{equation}
+Ce que dit ce résultat est que il devrait y avoir entre \( 35\%\) et \( 55\%\) de votants pour le candidat \( L\).
+
+Autrement dit, si le résultat de l'élection donne moins de \( 35\%\) ou plus de \( 55\%\) au candidat \( L\), nous pouvons dire qu'il n'y a que \( 5\%\) de chances que le résultat soit dû au hasard. Il y a une probabilité \( 0.95\) que soit le sondage avait été mal fait, soit qu'un événement imprévu ait changé des votes au dernier moment.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \Exo{smath-0328}
 \Exo{smath-0329}
+\Exo{smath-0333}
