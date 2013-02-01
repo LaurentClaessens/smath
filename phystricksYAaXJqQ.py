@@ -2,7 +2,7 @@
 from phystricks import *
 def YAaXJqQ():
     pspict,fig = SinglePicture("YAaXJqQ")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     epsilon=0.2
 

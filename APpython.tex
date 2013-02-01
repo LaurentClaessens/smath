@@ -218,6 +218,151 @@ donne
 \Exo{Premiere-0052}
 
 
+\chapter{Un texte qui ressemble à du français}
+
+L'analyse de la fréquence des lettres dans un texte permet aussi de détecter la langue. Regardons ces trois textes, classés par ordre croissant de «crédibilité»:
+
+\begin{quote}
+    uuerlh i,ie oceieomriosnuu éctes 'qD umixnohpsnaedoteirinmrpouont nqenc a ltvpa n gcudttn  sercacuqe bu'iido retsaiacean sat oc leiu n  eéiteMe e   t  rtlteu rdédndame giaeosmx'raeaeea  jo m uds tum   et uaecetrûauu leel ttoœaxergs m'u aq uea un ileetid 'n utztotee isiranit aar,s evd e emlt zreumaganai nm,tlren id ouna,àadg lvnu s ai ie sut oqtrnœ u'nvtaoiemooe l  dqar meecésnc  jruscuttmse Aaasee ede netps  e riih
+\end{quote}
+Ce premier texte a été généré en prenant des lettres (y compris les espaces) au hasard dans un texte de référence\footnote{En l'occurence, \emph{Le temps retrouvé}.}. La fréquence des lettres est donc la même (aux aléas statistiques près) que la fréquence en français, mais force est d'avouer que cela ne ressemble pas tellement à du vrai français.
+%TODO : mettre un lien vers wikisource pour le temps retrouvé
+ 
+Second extrait :
+\begin{quote}
+    aiffe ditet ntta t cos rape uelloux sss éstére dile dsiten pen douitese Mmbis é ai quder ndises gau r qul aure à arsois arons à avese durcet l'Ountai vountel'aue i seuneueras e de beucene, la à qutout prmmontuxtri cet, rès ppllall anért me lle nte me s qujascoun c'œidisquss tintouvens me à nolllqut quiepomatrèraitra de meps fefr ll'ers'œusue suont de d ventistétapamer condes
+\end{quote}
+Cela est déjà un peu mieux. Notez en particulier la longueur des mots qui est plus raisonnable que dans le premier extrait. Voici comment il a été créé.
+\begin{enumerate}
+    \item
+        La première lettre est tirée au hasard dans l'alphabet. Ici ça a été un «a».
+    \item
+        Nous cherchons tous les «a» dans le texte de référence, nous en prenons un au hasard, et nous ajoutons au texte la lettre \emph{qui suit}. Ici ça a été un «i». 
+    \item
+        Nous cherchons tous les «i» dans le texte de référence, etc.
+\end{enumerate}
+Cela explique pourquoi dans l'extrait donné, tous les «q» sont suivis d'un «u». En effet, dans le texte de référence presque tous les «q» sont suivis d'un «u». D'ailleurs, connaissez-vous un mot en français contenant un «q» non suivit d'un «u» ? Notez aussi qu'il y a six double «l», un seul double «m» et aucun double «e». Cela s'explique assez facilement en connaissant le français.
+
+\begin{remark}
+Dans le texte de référence, il y a des «q» non suivis de «u» dans les mots «piqûre», «coq», «cinq» (il est alors suivit d'un espace). La chaîne «qu» arrive 13528 fois dans le texte de référence et «q» suivit d'autre chose que «u» arrive seulement 24 fois.
+\end{remark}
+
+Troisième extrait :
+\begin{quote}
+Epgues vu un peut en m'avaisansfortes pour le dans que tout, cands ces cela comptableure amours dantestre ver aurais avaites, dont son de pours le simultés des planter, paysalutant évidue leux qu'ailles touffirer, ajour même un combianchez lui on de cholont décrir. Commette était même fortueux et de paru avait que jours pitait nulleurir cette le ce montions, nouvaien plaissé que sespèce souvoir connemi les gens ou resse solais ans mant ent, il du n'y a rançait au se dois « Alpe trientaient de Guer
+\end{quote}
+De loin, cela ressemble presque à s'y méprendre à du français, mais de près, on remarque que presque aucun mot n'est correct bien que tous les mots soient prononçables. Ce dernier extrait fut composé de la façon suivante.
+
+\begin{enumerate}
+    \item
+        Choisir 3 lettres au hasard. Ici «epg» 
+    \item
+        Chercher tous les «epg» dans le texte de référence, et ajouter à l'extrait la lettre suivante. Ici c'est un «u» qui est ajouté.
+    \item
+        Chercher tous les «pgu» etc.
+\end{enumerate}
+
+Nous allons tenter de récrire un programme qui donne cet effet.
+
+
+Un dernier pour la route. Exactement le même programme, mais en prenant un roman de Sherlock Holmes (en anglais) comme texte de référence.
+\begin{quote}
+dèWatseculiance is marked, at taken the unlikely siden would he placed man why Who becall wife you be othe for For to that the Amering raised. Thing his feely. "'Thand she sodes get wond infety. I said who which show will details. In see, and the Alic slansper, for stonvicturnia, and Lest but, 1892 "Shile, Petel. Then, and to man it und in my chan aframa. My litter gretaring me entagementyfound gent that, 1892 "Well days dramongroofs when some the looks upon pa weeks a reason a pipe of Penting wif
+\end{quote}
+Cela ressemble à de l'anglais sans aucun doute.
+
+Nous allons construire pas à pas un programme qui génère des textes au hasard.
+
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{La boucle \info{for}}
+%---------------------------------------------------------------------------------------------------------------------------
+\label{subSecZNoLakM}
+
+Il est possible de répéter une action pour tous les éléments d'une liste. Par exemple
+
+\lstinputlisting{ex_for1.py}
+
+La première boucle écrit \info{x} et son carré pour tout \info{x} dans la liste \info{[1,5,10,2]}. La seconde boucle écrit tous les lettres du mot «bonjour» et la troisième tous les nombres dans \info{range(0,5)}, c'est à dire \( 0\), \( 1\), \( 2\), \( 3\) et \( 4\).
+
+\lstinputlisting[title=Résultat]{res_ex_for1.txt}
+
+\Exo{Premiere-0048}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{Prendre des choses au hasard}
+%---------------------------------------------------------------------------------------------------------------------------
+\label{subSecHWnLVlpe}
+
+Python permet de tirer des nombres au hasard ou de prendre un élément au hasard dans une liste ou dans un texte. Pour cela il y a le module \info{random}. Si \info{A} est une liste ou un texte (chaîne de caractère), alors
+\begin{quote}
+    \info{random.choice(A)}
+\end{quote}
+retourne un élément au hasard de la suite.
+
+
+\lstinputlisting{ex_random1.py}
+
+Ce programme doit vous afficher une lettre prise au hasard dans le texte, y compris de temps en temps des espaces ou de la ponctuation. Essayez-le quelque fois.
+
+Bien entendu, il est pénible de choisir \( 50\) lettres au hasard une par une. Testez le programme suivant.
+
+\lstinputlisting{ex_random2.py}
+
+\Exo{Premiere-0049}
+\Exo{Premiere-0050}
+
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{Prendre des lettres au hasard}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Pour les deux exercices suivants, vous pouvez aussi vous inspirer du programme \info{ex\_mise\_fonction1.py} donné plus bas.
+\Exo{Premiere-0053}
+
+Nous voudrions maintenant écrire un programme qui extrait tous les couples de lettres commençant disons par \info{s}. Inspirez-vous du programme suivant.
+\lstinputlisting{ex_re1.py}
+
+Tapez ce programme et testez-le. Pour rappel, toutes les lignes \info{import} doivent se trouver au début de votre fichier.
+
+\Exo{Premiere-0072}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Prendre des couples de lettres au hasard}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous devons maintenant mettre le programme créé tout en une fonction. Nous voulons créer une fonction qui :
+\begin{enumerate}
+    \item
+        cherche dans la variable \info{texte\_reference} tous les couples de lettres commençant par \info{s},
+    \item
+        tire un des couples au hasard et le retourne.
+\end{enumerate}
+Pour ce faire, il faut reprendre le programme \info{ex\_re1.py} et mettre la ligne \info{resultats= \ldots} dans une fonction. Cette fonction prendra également un élément au hasard dans la liste \info{resultats} et le retournera.
+
+Les lignes clefs qui doivent être dans la fonction sont 
+\lstinputlisting{ex_mise_fonction1.py}
+
+Testez cette fonction quelque fois. Assurez vous que votre variable \info{texte\_reference} contienne un texte assez long pour avoir de la variété.
+
+
+La fonction que nous avons maintenant est une fonction qui regarde tous les \info{s} du texte de référence et retourne un coupe \info{s.} trouvé.
+
+Pour avancer dans le projet de texte qui ressemble à du français, nous devons un peu modifier cette fonction pour que
+\begin{enumerate}
+    \item
+        elle soit capable de chercher pas seulement les «s» suivit de quelque chose,
+    \item
+        elle ne retourne pas le couple trouvé, mais seulement la seconde lettre du couple.
+\end{enumerate}
+
+Vous devriez avoir maintenant à peu près ça.
+
+\lstinputlisting{ex_mise_fonction2.py}
+
+Les points à noter sont que la fonction \info{lettre\_suivante} prend en argument la lettre \info{k} qu'il faut chercher. L'expression à chercher devient donc \info{k+"."}, c'est à dire la lettre \info{k} (quelle qu'elle soit) suivie de quelque chose. Ensuite la fonction retourne \info{a[-1]}, c'est à dire la dernière lettre de \info{a}.
+
+
 \chapter{Applications plus ou moins utiles et plus ou moins ludiques}
 
 
@@ -455,125 +600,5 @@ Terminez alors votre programme par la ligne
 \end{quote}
 L'exécution de votre programme crée maintenant le fichier \info{mon\_fichier.csv} qu'il vous suffit d'ouvrir avec LibreOffice.
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Un texte qui ressemble à du français}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-L'analyse de la fréquence des lettres dans un texte permet aussi de détecter la langue. Regardons ces trois textes, classés par ordre croissant de «crédibilité»:
-
-\begin{quote}
-    uuerlh i,ie oceieomriosnuu éctes 'qD umixnohpsnaedoteirinmrpouont nqenc a ltvpa n gcudttn  sercacuqe bu'iido retsaiacean sat oc leiu n  eéiteMe e   t  rtlteu rdédndame giaeosmx'raeaeea  jo m uds tum   et uaecetrûauu leel ttoœaxergs m'u aq uea un ileetid 'n utztotee isiranit aar,s evd e emlt zreumaganai nm,tlren id ouna,àadg lvnu s ai ie sut oqtrnœ u'nvtaoiemooe l  dqar meecésnc  jruscuttmse Aaasee ede netps  e riih
-\end{quote}
-Ce premier texte a été généré en prenant des lettres (y compris les espaces) au hasard dans un texte de référence\footnote{En l'occurence, \emph{Le temps retrouvé}.}. La fréquence des lettres est donc la même (aux aléas statistiques près) que la fréquence en français, mais force est d'avouer que cela ne ressemble pas tellement à du vrai français.
-%TODO : mettre un lien vers wikisource pour le temps retrouvé
- 
-Second extrait :
-\begin{quote}
-    aiffe ditet ntta t cos rape uelloux sss éstére dile dsiten pen douitese Mmbis é ai quder ndises gau r qul aure à arsois arons à avese durcet l'Ountai vountel'aue i seuneueras e de beucene, la à qutout prmmontuxtri cet, rès ppllall anért me lle nte me s qujascoun c'œidisquss tintouvens me à nolllqut quiepomatrèraitra de meps fefr ll'ers'œusue suont de d ventistétapamer condes
-\end{quote}
-Cela est déjà un peu mieux. Notez en particulier la longueur des mots qui est plus raisonnable que dans le premier extrait. Voici comment il a été créé.
-\begin{enumerate}
-    \item
-        La première lettre est tirée au hasard dans l'alphabet. Ici ça a été un «a».
-    \item
-        Nous cherchons tous les «a» dans le texte de référence, nous en prenons un au hasard, et nous ajoutons au texte la lettre \emph{qui suit}. Ici ça a été un «i». 
-    \item
-        Nous cherchons tous les «i» dans le texte de référence, etc.
-\end{enumerate}
-Cela explique pourquoi dans l'extrait donné, tous les «q» sont suivis d'un «u». En effet, dans le texte de référence presque tous les «q» sont suivis d'un «u». D'ailleurs, connaissez-vous un mot en français contenant un «q» non suivit d'un «u» ? Notez aussi qu'il y a six double «l», un seul double «m» et aucun double «e». Cela s'explique assez facilement en connaissant le français.
-
-\begin{remark}
-Dans le texte de référence, il y a des «q» non suivis de «u» dans les mots «piqûre», «coq», «cinq» (il est alors suivit d'un espace). La chaîne «qu» arrive 13528 fois dans le texte de référence et «q» suivit d'autre chose que «u» arrive seulement 24 fois.
-\end{remark}
-
-Troisième extrait :
-\begin{quote}
-Epgues vu un peut en m'avaisansfortes pour le dans que tout, cands ces cela comptableure amours dantestre ver aurais avaites, dont son de pours le simultés des planter, paysalutant évidue leux qu'ailles touffirer, ajour même un combianchez lui on de cholont décrir. Commette était même fortueux et de paru avait que jours pitait nulleurir cette le ce montions, nouvaien plaissé que sespèce souvoir connemi les gens ou resse solais ans mant ent, il du n'y a rançait au se dois « Alpe trientaient de Guer
-\end{quote}
-De loin, cela ressemble presque à s'y méprendre à du français, mais de près, on remarque que presque aucun mot n'est correct bien que tous les mots soient prononçables. Ce dernier extrait fut composé de la façon suivante.
-
-\begin{enumerate}
-    \item
-        Choisir 3 lettres au hasard. Ici «epg» 
-    \item
-        Chercher tous les «epg» dans le texte de référence, et ajouter à l'extrait la lettre suivante. Ici c'est un «u» qui est ajouté.
-    \item
-        Chercher tous les «pgu» etc.
-\end{enumerate}
-
-Nous allons tenter de récrire un programme qui donne cet effet.
 
 
-Un dernier pour la route. Exactement le même programme, mais en prenant un roman de Sherlock Holmes (en anglais) comme texte de référence.
-\begin{quote}
-dèWatseculiance is marked, at taken the unlikely siden would he placed man why Who becall wife you be othe for For to that the Amering raised. Thing his feely. "'Thand she sodes get wond infety. I said who which show will details. In see, and the Alic slansper, for stonvicturnia, and Lest but, 1892 "Shile, Petel. Then, and to man it und in my chan aframa. My litter gretaring me entagementyfound gent that, 1892 "Well days dramongroofs when some the looks upon pa weeks a reason a pipe of Penting wif
-\end{quote}
-Cela ressemble à de l'anglais sans aucun doute.
-
-Nous allons construire pas à pas un programme qui génère des textes au hasard.
-
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{La boucle \info{for}}
-%---------------------------------------------------------------------------------------------------------------------------
-\label{subSecZNoLakM}
-
-Il est possible de répéter une action pour tous les éléments d'une liste. Par exemple
-
-\lstinputlisting{ex_for1.py}
-
-La première boucle écrit \info{x} et son carré pour tout \info{x} dans la liste \info{[1,5,10,2]}. La seconde boucle écrit tous les lettres du mot «bonjour» et la troisième tous les nombres dans \info{range(0,5)}, c'est à dire \( 0\), \( 1\), \( 2\), \( 3\) et \( 4\).
-
-\lstinputlisting[title=Résultat]{res_ex_for1.txt}
-
-\Exo{Premiere-0048}
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Prendre des choses au hasard}
-%---------------------------------------------------------------------------------------------------------------------------
-\label{subSecHWnLVlpe}
-
-Python permet de tirer des nombres au hasard ou de prendre un élément au hasard dans une liste ou dans un texte. Pour cela il y a le module \info{random}. Si \info{A} est une liste ou un texte (chaîne de caractère), alors
-\begin{quote}
-    \info{random.choice(A)}
-\end{quote}
-retourne un élément au hasard de la suite.
-
-
-\lstinputlisting{ex_random1.py}
-
-Ce programme doit vous afficher une lettre prise au hasard dans le texte, y compris de temps en temps des espaces ou de la ponctuation. Essayez-le quelque fois.
-
-Bien entendu, il est pénible de choisir \( 50\) lettres au hasard une par une. Testez le programme suivant.
-
-\lstinputlisting{ex_random2.py}
-
-\Exo{Premiere-0049}
-\Exo{Premiere-0050}
-
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\section{Prendre des lettres au hasard}
-%---------------------------------------------------------------------------------------------------------------------------
-
-Pour les deux exercices suivants, vous pouvez aussi vous inspirer du programme \info{ex\_mise\_fonction1.py} donné plus bas.
-\Exo{Premiere-0053}
-
-Nous voudrions maintenant écrire un programme qui extrait tous les couples de lettres commençant disons par \info{s}. Inspirez-vous du programme suivant.
-\lstinputlisting{ex_re1.py}
-
-Tapez ce programme et testez-le. Pour rappel, toutes les lignes \info{import} doivent se trouver au début de votre fichier.
-
-\Exo{Premiere-0072}
-
-Nous allons maintenant tout mettre dans une fonction. Regardez la différence entre les deux codes suivants. Notez qu'ils font la même chose. La différence est que le second est un peu plus général et permet de facilement retrouver les paires commençant par n'importe quelle lettre.
-
-\lstinputlisting{ex_mise_fonction1.py}
-
-\lstinputlisting{ex_mise_fonction2.py}
-
-Testez le premier programme en enlevant le \info{[1:]} à la ligne de la boucle \info{for}. Quelle est la différence ?
-
-Pour être vraiment cool, ce serait bien que la fonction \info{paires} prenne le texte en argument\footnote{Pour celle et ceux qui veulent aller plus loin (en en particulier ceux qui font du C++), sachez que lorsqu'une fonction commence à prendre trop d'arguments il est parfois une bonne idée de créer une classe.}. Est-ce que vous voyez comment faire ?
-
-\Exo{Premiere-0073}

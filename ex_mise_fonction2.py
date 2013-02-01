@@ -1,9 +1,12 @@
-texte="rarissime"
+import random
+import re
 
-def paires(k):
-    liste=[]
-    for a in texte.split(k)[1:]:
-        liste.append(k+a[0])
-    return liste
+texte_reference="Ceci devrait être un assez long texte"
 
-print(paires("r"))
+def lettre_suivante(k):
+    resultats=re.compile(k+".").findall(texte_reference)   
+    a=random.choice(resultats)           
+    return a[-1]
+
+s=lettre_suivante("e")
+print(s)
