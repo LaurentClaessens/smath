@@ -5,7 +5,73 @@
 
 \begin{corrige}{smath-0156}
 
-Le point \( B\) est aux coordonnées \( (4;3)\), et \( K=(2;3)\). Pour déterminer les points \( E\) et \( F\) nous pouvons calculer les équations des droites en présence et calculer les intersections. Nous avons
+Le point \( B\) est aux coordonnées \( (4;3)\). Le point \( K\) se calcule comme le milieu :
+\begin{equation}
+    K=\left( \frac{ 0+4 }{2};\frac{ 3+3 }{2} \right)=(2;3).
+\end{equation}
+
+
+Pour déterminer les coordonnées du point \( E\), nous allons suivre les étapes suivantes :
+\begin{itemize}
+    \item Trouver les équations des droites \( (OK)\) et \( CA\)
+    \item Calculer leur intersection.
+\end{itemize}
+
+\begin{description}
+    \item[L'équation de la droite $CA$]
+        Un vecteur directeur est \( \vect{ CA }=\begin{pmatrix}
+            4    \\ 
+            -3    
+        \end{pmatrix}\), donc le coefficient directeur est \( a=\frac{ -3 }{ 4 }\). La droite \( (CA)\) a pour équation \( y=-\frac{ 3 }{ 4 }x+b\) où \( b\) est encore inconnu. Pour le trouver, nous savons que la droite passe par les points \( (4;0)\) et \( (0;3)\), donc
+        \begin{subequations}
+            \begin{numcases}{}
+                0=-\frac{ 3 }{ 4 }\times 4+b\\
+                3=-\frac{ 3 }{ 4 }\times 0+b,
+            \end{numcases}
+        \end{subequations}
+        dont nous tirons que \( b=3\). Au final, la droite \( (CA)\) a pour équation
+        \begin{equation}
+            y=-\frac{ 3 }{ 4 }x+3.
+        \end{equation}
+    \item[L'équation de la droite \( KO\)] Étant donné que cette droite passe par l'origine, nous savons qu'elle est le graphe d'une fonction linéaire (et non seulement affine), c'est à dire que nous savons d'emblée que \( b=0\). La vecteur directeur que nous trouvons est \( \vect{ OK }=\begin{pmatrix}
+            2    \\ 
+            3    
+        \end{pmatrix}\) et donc le coefficient directeur est \( a=\frac{ 3 }{2}\). Donc la droite \( (OK)\) a pour équation
+        \begin{equation}
+            y=\frac{ 3 }{2}x.
+        \end{equation}
+    \item[Calcul de l'intersection]
+        Nous savons que le point \( E\) est sur les deux droites en même temps, donc ses coordonnées \( (x;y)\) vérifient le système
+        \begin{subequations}
+            \begin{numcases}{}
+                y=-\frac{ 3 }{ 4 }x+3\\
+                y=\frac{ 3 }{ 2 }x,
+            \end{numcases}
+        \end{subequations}
+        donc l'équation pour \( x\) est
+        \begin{equation}
+            =\frac{ 3 }{ 4 }x+3=\frac{ 3 }{2}x,
+        \end{equation}
+        donc nous tirons \( x=\frac{ 4 }{ 3 }\). Pour trouver le \( y\), nous récrivons les équations en remplaçant \( x\) par la valeur que nous venons de trouver :
+        \begin{subequations}
+            \begin{numcases}{}
+                y=-\frac{ 3 }{ 4 }\times \frac{ 4 }{ 3 }+3=2\\
+                y=\frac{ 3 }{ 2 }\times\frac{ 4 }{ 3 }=2.
+            \end{numcases}
+        \end{subequations}
+        Au final nous avons 
+        \begin{equation}
+            E=(\frac{ 4 }{ 3 };2).
+        \end{equation}
+
+\end{description}
+
+En ce qui concerne le point \( F\), nous suivons les mêmes étapes :
+\begin{itemize}
+    \item Trouver les équations des droites \( OB\) et \( KA\).
+    \item Calculer les coordonnées de leur point d'intersection.
+\end{itemize}
+Nous ne donnons pas ici tous les détails (mais c'est un exercice à faire). Les résultats sont :
 \begin{subequations}
     \begin{align}
         (AC)&\equiv y=-\frac{ 3 }{ 4 }x+3\\
@@ -23,7 +89,7 @@ et
     F=(OB)\cap (KA)=\big( \frac{ 8 }{ 3 };2 \big)
 \end{equation}
 
-La droite \( (EF) \) est donc horizontale et donc parallèle à \( (CB)\). En tant que vecteur, nous avons
+En ce qui concerne les vecteurs :
 \begin{equation}
     \vect{ EF }=\begin{pmatrix}
         \frac{ 8 }{ 3 }-\frac{ 4 }{ 3 }    \\ 
