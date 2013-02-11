@@ -3,6 +3,70 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
+
+% Pour rappel, ce fichier contient le second degré pour les secondes; pas pour les premières.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Définition}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Une fonction \defe{polynôme du second degré}{polynôme!second degré} est une fonction de la forme
+    \begin{equation}
+        f(x)=ax^2+bx+c
+    \end{equation}
+    avec \( a\neq 0\). Donc domaine de définition est \( \eR\).
+\end{definition}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Représentation graphique}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+L'axe de symétrie de la courbe représentative de \( f(x)=ax^2+bx+c\) se trouve en résolvant par rapport à \( s\) l'équation
+\begin{equation}
+    f(s+h)=f(s-h).
+\end{equation}
+
+\begin{Aretenir}
+    Le sommet de la parabole \( ax^2+bx+c\) se trouve à l'abcsisse \( x_0=-\frac{ b }{ 2a }\) et la droite verticale est un axe de symétrie de la parabole.
+\end{Aretenir}
+
+Les tableaux de variations sont
+\begin{multicols}{2}
+
+    \begin{center}
+        Si \( a>0\)
+
+        \begin{equation*}
+            \begin{array}[]{c|ccccc}
+                x&&&-\frac{ b }{ 2a }&&\\
+                \hline
+                &\infty&&&&\infty\\
+                f(x)&&\searrow&&\nearrow&\\
+                &&&f\left( -\frac{ b }{ 2a } \right)&&\\
+            \end{array}
+        \end{equation*}
+        
+    \end{center}
+
+    \columnbreak
+
+    \begin{center}
+        Si \( a<0\)
+
+
+        \begin{equation*}
+            \begin{array}[]{c|ccccc}
+                x&&&-\frac{ b }{ 2a }&&\\
+                \hline
+                &&&f\left( -\frac{ b }{ 2a } \right)&&\\
+                f(x)&&\nearrow&&\searrow&\\
+                &-\infty&&&&-\infty\\
+            \end{array}
+        \end{equation*}
+    \end{center}
+\end{multicols}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Étude du second degré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
