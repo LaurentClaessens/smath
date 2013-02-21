@@ -22,6 +22,25 @@ Une chouette page concernant les intervalles de confiance à propos de l'électi
 \url{http://david.monniaux.free.fr/dotclear/index.php/post/2012/11/23/Le-sens-statistique-de-l-élection-à-l-UMP}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Algorithmique}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Cette section provient de \cite{JqcbOc}.
+
+Un médecin voudrait savoir si le pourcentage d'habitants atteints d'hypertension artériel dans sa région est normal, sachant qu'une étude récemment publiée donne un pourcentage de \( 16\%\) pour d'autres régions comparables. Nous notons \( p\) la proportion (inconnue) d'hypertendus dans la région et nous constituons un échantillon de \( n=100\) habitants de la région. Nous notons \( f\) la fréquence des hypertendus dans l'échantillon.
+
+Bien entendu, si la population est normale, le nombre \( f\) ne devrait pas être trop loin de \( 0.16\) -- à moins d'un coup de malchance dans la sélection de l'échantillon. Voyons cela de plus près.
+
+Nous formulons l'hypothèse que la proportion des hypertendus est bien \( p=0.16\). Dans ce cas si nous désignons par \( X\) le nombre d'hypertendus dans l'échantillon, c'est une variable aléatoire binomiale de paramètres \( n=100\) et \( p=0.16\).
+
+Toute la difficulté est évidemment maintenant de définir ce que nous appelons «normal». Pour donner une idée, voici les probabilités de la binomiale de paramètres \( n=100\), \( p=0.16\).
+
+The result is on figure \ref{LabelFigJRVlexw}. % From file JRVlexw
+\newcommand{\CaptionFigJRVlexw}{<+Type your caption here+>}
+\input{Fig_JRVlexw.pstricks}
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
