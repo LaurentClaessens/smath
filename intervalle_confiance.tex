@@ -35,9 +35,19 @@ Nous formulons l'hypothèse que la proportion des hypertendus est bien \( p=0.16
 
 Toute la difficulté est évidemment maintenant de définir ce que nous appelons «normal». Pour donner une idée, voici les probabilités de la binomiale de paramètres \( n=100\), \( p=0.16\).
 
-The result is on figure \ref{LabelFigJRVlexw}. % From file JRVlexw
-\newcommand{\CaptionFigJRVlexw}{<+Type your caption here+>}
+%The result is on figure \ref{LabelFigJRVlexw}. % From file JRVlexw
+%\newcommand{\CaptionFigJRVlexw}{<+Type your caption here+>}
+\begin{center}
 \input{Fig_JRVlexw.pstricks}
+\end{center}
+
+La règle que nous allons retenir pour dire si une situation est «normale» est la suivante :
+\begin{Aretenir}
+    Une situation est «anormale» si elle a mois de \( 5\%\) de chance de s'expliquer par un coup de chance (ou de malchance, suivant le point de vue). Nous allons donc déclarer que les \( 2.5\%\) les plus à gauche et les \( 2.5\%\) les plus à droite sont anormaux.
+\end{Aretenir}
+Bien entendu dans le cas de notre médecin, avoir un nombre anormalement élevé de personnes en bonne santé n'est pas une \emph{mauvaise} nouvelle. 
+
+Nous allons chercher des bornes \( a\) et \( b\) telles que \emph{au moins} \( 95\%\) des probabilités soient entre \( a\) et \( b\). Au niveau du dessin, ça donne ceci :
 
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
