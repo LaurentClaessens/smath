@@ -22,7 +22,7 @@ Une chouette page concernant les intervalles de confiance à propos de l'électi
 \url{http://david.monniaux.free.fr/dotclear/index.php/post/2012/11/23/Le-sens-statistique-de-l-élection-à-l-UMP}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Algorithmique}
+\section{Intervalle de fluctuation}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Cette section provient de \cite{JqcbOc}.
@@ -50,6 +50,22 @@ Bien entendu dans le cas de notre médecin, avoir un nombre anormalement élevé
 Nous allons chercher des bornes \( a\) et \( b\) telles que \emph{au moins} \( 95\%\) des probabilités soient entre \( a\) et \( b\). Au niveau du dessin, ça donne ceci :
 
 
+%The result is on figure \ref{LabelFigYVZAXhU}. % From file YVZAXhU
+%\newcommand{\CaptionFigYVZAXhU}{<+Type your caption here+>}
+\begin{center}
+\input{Fig_YVZAXhU.pstricks}
+\end{center}
+Les zones rouges sont considérées comme anormales. En d'autres termes :
+\begin{enumerate}
+    \item
+        Si sur l'échantillon de \( 100\) personnes prises dans la population le médecin observe \( 8\) ou moins sont atteintes d'hypertension, alors le médecin dira que sa région est en anormalement bonne santé. Il ne s'inquiétera pas, et ça fera un très bon thème de campagne de publicité pour les producteurs du fromage local.
+    \item
+        Si le nombre d'hypertendu est entre \( 9\) et \( 23\), le médecin dira qu'il n'y a rien de particulier à signaler.
+    \item
+        Si le nombre d'hypertendu est égal ou supérieur à \( 24\), alors la marque locale de fromage ne s'en vantera pas trop et le médecin essayera de comprendre ce qui ne fonctionne pas.
+\end{enumerate}
+L'intervalle entre \( 9\) et \( 23\) est nommé l'\defe{intervalle de fluctuation}{intervalle!fluctuation!de première}.
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -57,3 +73,9 @@ Nous allons chercher des bornes \( a\) et \( b\) telles que \emph{au moins} \( 9
 \Exo{smath-0380}
 \Exo{smath-0383}
 \Exo{smath-0384}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{À l'ordinateur}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\Exo{smath-0385}

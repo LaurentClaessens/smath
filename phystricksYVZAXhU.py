@@ -1,32 +1,43 @@
 # -*- coding: utf8 -*-
+
 from phystricks import *
+from scipy import stats
+
 def YVZAXhU():
     pspict,fig = SinglePicture("YVZAXhU")
-    pspict.dilatation(1)
 
-    x=var('x')
-    <+Définition des objets+>
+    pspict.dilatation_X(0.7)
+    pspict.dilatation_Y(60)
 
-    pspict.DrawGraphs(<++>)
-    pspict.DrawDefaultAxes()
-    fig.conclude()
-    fig.write_the_file()
+    n=100
+    p=0.16  # Ces nombres n et p sont en durs dans l'exemple du médecin dans le chapitre sur l'intervalle de confiance de 1stmg.
+    mx=5
+    Mx=29
+    V=stats.binom(n,p)
+    X=list(range(mx,Mx))
+    Y=[V.pmf(k) for k in X]
+    Bar=BarDiagram(X,Y)
+    #Bar.numbering=False
+    Bar.numbering_decimals=3
+    Bar.lines_list[5-5].parameters.color="red"
+    Bar.lines_list[6-5].parameters.color="red"
+    Bar.lines_list[7-5].parameters.color="red"
+    Bar.lines_list[8-5].parameters.color="red"
 
-----------------
+    Bar.lines_list[24-5].parameters.color="red"
+    Bar.lines_list[25-5].parameters.color="red"
+    Bar.lines_list[26-5].parameters.color="red"
+    Bar.lines_list[27-5].parameters.color="red"
+    Bar.lines_list[28-5].parameters.color="red"
 
-    pspicts,fig = MultiplePictures("YVZAXhU",3)
-    pspicts[0].mother.caption="<+caption1+>"
-    pspicts[1].mother.caption="<+caption2+>"
-    pspicts[2].mother.caption="<+caption3+>"
+    Bar.linewidth=0.3
 
-    for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
+    ax=SingleAxe(  Point(0,0),Vector(1,0), mx,Mx  )
 
-    <+Définition des objets+>
-
-    for psp in pspicts:
-        psp.DrawDefaultAxes()
-
+    pspict.DrawGraphs(Bar,ax)
+    #pspict.axes.single_axeX.Dx=5
+    #pspict.axes.single_axeY.Dx=0.01
+    #pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
