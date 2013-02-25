@@ -67,9 +67,37 @@ Les zones rouges sont considérées comme anormales. En d'autres termes :
 L'intervalle entre \( 9\) et \( 23\) est nommé l'\defe{intervalle de fluctuation}{intervalle!fluctuation!de première}.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Théorie}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous considérons une population dont une proportion \( p\)  présente un certain caractère, et nous prélevons (avec remise) un échantillon aléatoire de \( n\) personnes dans cette population. Nous notons \( X\) la variable aléatoire qui a pour valeur le nombre d'individus de l'échantillon présentant le caractère. Nous notons aussi \( f\) la fréquence d'observation du caractère dans l'échantillon.
+
+La variable aléatoire \( X\) suit une loi binomiale de paramètres \( n\) et \( p\). 
+
+Nous appelons \defe{intervalle de fluctuation}{intervalle!de fluctuation} à \( 95\%\) de la fréquence \( f\) l'intervalle 
+\begin{equation}
+    \left[ \frac{ a }{ n };\frac{ b }{ n } \right]
+\end{equation}
+où \(  a\) est le plus petit nombre tel que \( P(X\leq a)>0.025\) et \( b\) est le plus grand nombre tel que \( P(X\leq b)\geq 0.975\).
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Exemple}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+La proportion de gauchers est de \( 12\%\).
+\begin{enumerate}
+    \item
+        Combien de gauchers a-t-on dans la classe ?
+    \item
+        Est-ce que la proportion de gauchers dans la classe est «normale» ?
+\end{enumerate}
+Le fichier auquel on arriver est à peu près \info{gauchers.ods}.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+\Exo{smath-0386}
 \Exo{smath-0380}
 \Exo{smath-0383}
 \Exo{smath-0384}
