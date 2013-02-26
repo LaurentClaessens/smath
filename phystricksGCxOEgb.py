@@ -15,7 +15,7 @@ def GCxOEgb():
 
     w=0.3
     mx=18
-    Mx=31
+    Mx=30
     for i in range(mx,Mx):
         h=X.pmf(i)
         seg=Segment(  Point(i,0),Point(i,h)  )
