@@ -8,6 +8,81 @@
 Ce chapitre a pour objectif de remettre en place les notions utiles à propos des équations de droites vues en seconde. En principe, ceci ne contiendra rien de nouveau pour les élèves de première.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Théorie}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Définitions}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Une droite (non verticale) est le graphe d'une fonction affine et a pour équation
+\begin{equation}
+    y=mx+p
+\end{equation}
+pour certains \( m\) et \( p \) réels.
+\begin{enumerate}
+    \item
+        \( m\) est le \defe{coefficient directeur}{coefficient directeur} de la droite.
+    \item
+        \( p\) est son \defe{ordonnée à l'origine}{ordonnée!à l'origine} de la droite.
+    \item
+        Plus \( m\) est grand, plus la pente de la droite est forte.
+    \item
+        Si \( m\) est positif, alors la droite monte; si \( m\) est négatif, alors la droite descend.
+\end{enumerate}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Lecture graphique}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{minipage}{0.485\textwidth}
+Pour trouver l'équation d'une droite en connaissant le graphique, on pose l'équation \( y=mx+p\) et on cherche \( m\) et \( p\).
+\begin{enumerate}
+    \item
+        Trouver \( p\) est facile : c'est l'ordonnée de l'intersection de la droite avec l'axe vertical.
+    \item
+        Pour trouver \( m\), on prend deux points au hasard sur la droite et on mesure les \( \Delta x\) et \( \Delta y\). Ensuite nous avons
+        \begin{equation}
+            m=\frac{ \Delta y }{ \Delta x }.
+        \end{equation}
+\end{enumerate}
+\end{minipage}
+\hspace{1mm}
+\begin{minipage}{0.485\textwidth}
+%The result is on figure \ref{LabelFigXSMDwcv}. % From file XSMDwcv
+%\newcommand{\CaptionFigXSMDwcv}{<+Type your caption here+>}
+\begin{center}
+\input{Fig_XSMDwcv.pstricks}
+\end{center}
+\end{minipage}
+
+% TODO : tous les \columnbreak doivent être remplacés par cette technique de minipage que j'ai trouvée ici:
+% http://forum.mathematex.net/latex-f6/mettre-du-texte-a-cote-d-une-figue-geometrique-t13382.html
+% par Zobra
+
+Sur le dessin, nous avons \( p=3\) et nous mesurons \( \Delta x=2\), \( \Delta y=1\), donc \( m=\frac{ 1 }{2}\). L'équation de la droite dessinée est donc
+\begin{equation}
+    y=\frac{ 1 }{2}x+3.
+\end{equation}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Calculs}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{example}
+    Trouver l'équation de la droite passant par le point \( A=(5;7)\) et de coefficient directeur \( m=-3\). 
+
+    L'équation de la droite sera \( y=-3x+p\) avec un \( p\) encore inconnu. Étant donné que le point \( (5;7)\) soit être sur la droite, nous avons l'équation suivant pour \( p\) :
+    \begin{equation}
+        7=-3\times 5+p,
+    \end{equation}
+    c'est à dire \( p=7+15=22\). Au final l'équation est
+    \begin{equation}
+        y=-3x+22.
+    \end{equation}
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -15,3 +90,4 @@ Ce chapitre a pour objectif de remettre en place les notions utiles à propos de
 \Exo{smath-0389}
 \Exo{smath-0390}
 \Exo{smath-0393}
+\Exo{smath-0354}
