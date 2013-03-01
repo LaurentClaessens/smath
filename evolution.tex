@@ -1,0 +1,154 @@
+% This is part of Un soupçon de mathématique sans être agressif pour autant
+% Copyright (c) 2012-2013
+%   Laurent Claessens
+% See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Évolution}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Coefficient multiplicateur}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Quelle est la plus lourde augmentation ? Un ordinateur dont le prix passe de \( 600\)€ à \( 605\)€ euros ou bien un pain au chocolat qui passe de \( 0.8\)€ à \( 0.9\)€ ?
+
+Dans toute cette partie nous considérons une valeur (prix, effectifs, capacité d'une salle de spectacle, \ldots) évoluant d'une \emph{valeur initiale} \( V_I\) à une \emph{valeur finale} \( V_F\).
+
+\begin{definition}
+    Soit une valeur (prix, effectifs, capacité d'une salle de spectacle, \ldots) évoluant d'une \emph{valeur initiale} \( V_I\) à une \emph{valeur finale} \( V_F\). Le \defe{coefficient multiplicateur}{coefficient!multiplicateur} est la nombre par lequel \( V_I\) est multiplié pour obtenir \( V_F\) :
+    \begin{equation}
+        V_F=C\times V_I.
+    \end{equation}
+    Ici, le coefficient multiplicateur est le \( C\).
+\end{definition}
+
+Un coefficient multiplicateur de hausse est un nombre plus grand que \( 1\). Un coefficient multiplicateur de baisse est un nombre entre \( 0\) et \( 1\).
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Variation relative et évolution en pourcentage}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+\begin{definition}
+    Soit une valeur (prix, effectifs, capacité d'une salle de spectacle, \ldots) évoluant d'une \emph{valeur initiale} \( V_I\) à une \emph{valeur finale} \( V_F\). La \defe{variation absolue}{variation!absolue} est la différence :
+    \begin{equation}
+        \VarAbs=V_F-V_I
+    \end{equation}
+    et la \defe{variation relative}{variation!relative} ou \defe{taux d'évolution}{taux d'évolution} est le rapport entre la variation absolue et la valeur initiale :
+    \begin{equation}
+        \VarRel=\frac{ V_F-V_I }{ V_I }.
+    \end{equation}
+    Cette dernière peut être exprimée sous forme de pourcentage.
+\end{definition}
+
+\begin{Aretenir}
+    \begin{enumerate}
+        \item
+            Pour diminuer une valeur de \( x\%\), il faut la multiplier par 
+            \begin{equation}
+                1-\frac{ x }{ 100 }.
+            \end{equation}
+        \item
+            Le coefficient multiplicateur d'une augmentation de \( x\%\) est
+            \begin{equation}
+                1+\frac{ x }{ 100 }.
+            \end{equation}
+    \end{enumerate}
+\end{Aretenir}
+
+En effet si nous notons \( V_I\) la valeur initiale et \( V_F\) la valeur finale (qui est une augmentation de \( x\%\) par rapport à \( V_I\)), alors nous avons
+\begin{equation}
+    V_F=V_I+\underbrace{V_I\times \frac{ x }{ 100 }}_{x\% \text{de \( V_I\)}}.
+\end{equation}
+En mettant \( V_I\) en facteur,
+\begin{equation}
+    V_F=V_I\times \left( 1+\frac{ x }{ 100 } \right).
+\end{equation}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\section{La TVA}
+%---------------------------------------------------------------------------------------------------------------------------
+
+La taxe sur la valeur ajoutée est un exemple très classique d'évolution donné en pourcentage. Lorsqu'un produit est vendu, le client paye un prix dit «toutes taxes comprises» (TTC) qui est composé d'un prix «hors taxes» (HT) et d'une taxes de \( 19.6\%\) du prix HT prélevée par l'état.
+
+\begin{example}
+    Si un vendeur veut recevoir \( 100\) euros, il devra faire payer (et afficher) \( 119.6\) euros et rétrocéder \( 19.6\) euros à l'état.
+\end{example}
+
+\begin{example}
+    Si vous payez \( 53\) euros, cela signifie que le prix TTC est de \( 53\) euros. Le prix hors taxe (c'est ce que le commerçant va réellement avoir en poche !) se calcule de la manière suivante :
+    \begin{equation}
+        x+\frac{ 19.6 }{ 100 }x=53,
+    \end{equation}
+    donc
+    \begin{equation}
+        \frac{ 119.6 }{ 100 }x=53
+    \end{equation}
+    et finalement \( x=53\times\frac{ 100 }{ 119.6 }\approx 44.31\) euros.
+\end{example}
+
+\begin{example}
+    Un commerçant achète un pantalon \( 10\) euros à son fournisseur et veut faire un bénéfice de \( 5\) euros. Il voudra donc avoir \( 15\) euros en poche. Pour cela il doit déclarer un prix HT de \( 15\) euros et donc afficher au client un prix TTC de
+    \begin{equation}
+        \frac{ 119.6 }{ 100 }\times 15=17.94.
+    \end{equation}
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Évolution : introduction}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0040}
+\Exo{smath-0116}
+\Exo{smath-0117}
+\Exo{smath-0100}
+\Exo{smath-0101}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Évolution, évolution relative et absolue}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0099}
+\Exo{smath-0098}
+\Exo{smath-0036}
+\Exo{smath-0032}
+\Exo{smath-0034}
+\Exo{smath-0031}
+\Exo{smath-0033}
+\Exo{smath-0035}
+\Exo{smath-0041}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{La TVA}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0126}
+\Exo{smath-0136}
+\Exo{smath-0152}
+\Exo{smath-0038}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Évolutions successives}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{smath-0039}
+\Exo{smath-0102}
+\Exo{Premiere-0004}
+\Exo{smath-0080}
+\Exo{Premiere-0006}
+\Exo{Premiere-0002}
+\Exo{Premiere-0003}
+\Exo{Premiere-0017}                                                                                                                      
+\Exo{Seconde-0024}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Problèmes}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\Exo{Premiere-0007}
+\Exo{Premiere-0016}                                                                       
+\Exo{smath-0264}
