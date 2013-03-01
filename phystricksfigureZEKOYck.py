@@ -13,12 +13,6 @@ def figureZEKOYck():
     g.parameters.color="red"
     h.parameters.color="green"
 
-    print f.sage()
-    print g.sage().expand()
-    print h.sage().expand()
-
-    raise
-
     pspict.DrawGraphs(f,g,h)
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
