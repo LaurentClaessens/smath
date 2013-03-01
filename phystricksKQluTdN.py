@@ -3,7 +3,7 @@ from phystricks import *
 def KQluTdN():
     pspict,fig = SinglePicture("KQluTdN")
     pspict.dilatation_X(2)
-    pspict.dilatation_Y(0.7)
+    pspict.dilatation_Y(0.5)
 
     x=var('x')
     f=phyFunction(-x**2+2*x+2).graph(-1.5,3.5)

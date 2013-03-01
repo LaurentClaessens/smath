@@ -12,8 +12,8 @@ def ITZAPPh():
 
     x=var('x')
     F=[]
-    F.append(  phyFunction(-x+1).graph(-3,4)  )
-    F.append(  phyFunction(x+4).graph(-3,4)  )
+    F.append(  phyFunction(-x+1).graph(-2,3)  )
+    F.append(  phyFunction(x+4).graph(-2,2)  )
     F.append(  phyFunction(x/2-1).graph(-3,4)  )
     F.append(  phyFunction(2*x-1).graph(-2,2)  )
 
