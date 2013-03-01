@@ -12,10 +12,16 @@ def IXtyOnk():
     v.parameters.color="red"
 
     zz=f.inverse(0)
-    measure=MeasureLength(  Segment(Point(zz[0],0),Point(zz[1],0)),0  )
+    A=Point(zz[0],0)
+    B=Point(zz[1],0)
+    measure=MeasureLength(  Segment(A,B),0  )
     measure.put_mark(0.2,-90,"\( l\)")
 
-    pspict.DrawGraphs(f,v,measure)
+    angle=Angle( A,B,v.F  ,r=0.01  )
+    angle.parameters.color="green"
+    angle.put_mark(0.01,angle.advised_mark_angle,"\( \\alpha\)",automatic_place=pspict)
+
+    pspict.DrawGraphs(f,v,measure,angle)
     pspict.axes.no_graduation()
     #pspict.DrawDefaultAxes()
     fig.no_figure()
