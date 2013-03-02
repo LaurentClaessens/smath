@@ -19,11 +19,12 @@ def figureSIZwqIZ():
     F.append(phyFunction( x+1 ).graph(-2,3))
     F.append(phyFunction( (x+2)**2 ).graph(-4,0.5))
 
-    for psp in pspicts:
-        psp.DrawDefaultAxes()
-
     for i,psp in enumerate(pspicts):
        psp.DrawGraph(F[i])
+
+    for psp in pspicts:
+        psp.DrawDefaultAxes()
+        psp.DrawDefaultGrid()
 
     fig.conclude()
     fig.write_the_file()
