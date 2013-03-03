@@ -3,19 +3,30 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
-Il faut commencer par l'équation d'une droite de coefficient directeur donné passant par un point donné.
-
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Activité TICE : piste de décollage}
+\section{Introduction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Un avion peu décoller lorsque sa vitesse dépasse les \unit{250}{\kilo\meter\per\hour}. Grâce à la poussée de ses moteurs, un avion de ligne au bout d'un temps \( t\) (en secondes) parcourt la distance (en mètres) de 
-\begin{equation}
-    d(t)=1.2t^2.
-\end{equation}
-Quelle longueur de piste faut-il prévoir pour que l'avion décolle avant le bout de la piste ?
-
-Tracer le graphique de la vitesse (instantanée) en fonction de la distance parcourue. Faire attention aux unités.
+\begin{minipage}{0.485\textwidth}
+Prenons la parabole \( f(x)=x^2-2x-3\) dessinée ci-contre. Nous savons qu'elle est tournée vers le haut, et qu'elle a un sommet en \( x=1\). Son tableau de variations est :
+\begin{equation*}
+    \begin{array}[]{c|ccccc}
+        x&-\infty&&1&&\infty\\
+        \hline
+        &\infty&&&&\infty\\
+        f(x)&&\searrow&&\nearrow&\\
+        &&&-4&&\\
+    \end{array}
+\end{equation*}
+\end{minipage}
+\hspace{1mm}
+%The result is on figure \ref{LabelFigCZAVGrm}. % From file CZAVGrm
+%\newcommand{\CaptionFigCZAVGrm}{<+Type your caption here+>}
+                    \begin{minipage}{0.485\textwidth}
+                            \begin{center}
+                            \input{Fig_CZAVGrm.pstricks}
+                            \end{center}
+                    \end{minipage}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Tangente}
@@ -66,3 +77,4 @@ Et surtout : plus \( m\) est grand, plus la pente de la courbe est forte.
 \Exo{smath-0401}
 \Exo{smath-0402}
 \Exo{smath-0403}
+\Exo{smath-0407}
