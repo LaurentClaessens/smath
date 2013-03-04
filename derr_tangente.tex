@@ -7,7 +7,12 @@
 \section{Introduction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{minipage}{0.485\textwidth}
+
+\begin{wrapfigure}[14]{r}{7.0cm}
+            \vspace{-0.5cm}        % à adapter.
+                \centering
+                    \input{Fig_CZAVGrm.pstricks}
+                \end{wrapfigure}
 Prenons la parabole \( f(x)=x^2-2x-3\) dessinée ci-contre. Nous savons qu'elle est tournée vers le haut, et qu'elle a un sommet en \( x=1\). Son tableau de variations est :
 \begin{equation*}
     \begin{array}[]{c|ccccc}
@@ -18,15 +23,18 @@ Prenons la parabole \( f(x)=x^2-2x-3\) dessinée ci-contre. Nous savons qu'elle 
         &&&-4&&\\
     \end{array}
 \end{equation*}
-\end{minipage}
-\hspace{1mm}
-%The result is on figure \ref{LabelFigCZAVGrm}. % From file CZAVGrm
-%\newcommand{\CaptionFigCZAVGrm}{<+Type your caption here+>}
-                    \begin{minipage}{0.485\textwidth}
-                            \begin{center}
-                            \input{Fig_CZAVGrm.pstricks}
-                            \end{center}
-                    \end{minipage}
+
+Le dessin nous montre aussi que la pente est de plus en plus raide lorsqu'on s'éloigne du sommet (dans les deux sens). Nous voudrions quantifier cet effet en donnant un sens au concept de «pente de la courbe en un point».
+
+Le candidat idéal pour jouer ce rôle est le coefficient directeur de la tangente, et nous avons le résultat très intéressant suivant.
+
+\begin{Aretenir}
+    le coefficient directeur de la tangente à la courbe de la fonction \( f(x)=ax^2+bx+c\) au point d'abscisse \( x=\ell\) est
+    \begin{equation}
+        m=2a\ell+b.
+    \end{equation}
+    Ce coefficient directeur est appelé \defe{nombre dérivé}{nombre!dérivé}\index{dérivée!nombre dérivé} de la fonction \( f\) au point d'abscisse \( \ell\).
+\end{Aretenir}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Tangente}
