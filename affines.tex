@@ -127,33 +127,52 @@ Notez que cela vient du vecteur directeur
 
 Nous savons qu'une fonction affine est croissante ou décroissante suivant le signe de \( a\). Il y a donc deux tableaux possibles. Les tableaux de signes s'en déduisent immédiatement.
 
-\begin{equation}
-    \begin{aligned}[]
-        &a<0&a>0&\\
-&\includegraphics[width=6.0cm]{Picture_FIGLabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF0PICTfigureXUQaJjFpspict0-for_eps.png}&
-\includegraphics[width=6.0cm]{Picture_FIGLabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF1PICTfigureXUQaJjFpspict1-for_eps.png}&\\
-        &\begin{array}[]{c|ccccc}
-             x&-\infty&&-b/a&&\infty\\
-              \hline
-              ax+b&&-&0&+&\\ 
-               \end{array}&
-        \begin{array}[]{c|ccccc}
-             x&-\infty&&-b/a&&\infty\\
-              \hline
-              ax+b&&+&0&-&\\ 
-               \end{array}&
-    \end{aligned}
-\end{equation}
+\begin{minipage}{0.485\textwidth}
+    \begin{center}
+        \begin{equation*}
+            a<0
+        \end{equation*}
+               \input{Fig_OSQOqJN.pstricks}   
+
+               \begin{equation*}
+                   \begin{array}[]{c|ccccc}
+                        x&-\infty&&-b/a&&\infty\\
+                         \hline
+                         ax+b&&-&0&+&\\ 
+                          \end{array}
+                      \end{equation*}
+    \end{center}
+\end{minipage}
+\hspace{1mm}
+\begin{minipage}{0.485\textwidth}
+    \begin{center}
+        \begin{equation*}
+            a>0
+        \end{equation*}
+                    \input{Fig_BZqEWco.pstricks}
+
+               \begin{equation*}
+                   \begin{array}[]{c|ccccc}
+                        x&-\infty&&-b/a&&\infty\\
+                         \hline
+                         ax+b&&+&0&-&\\ 
+                          \end{array}
+                      \end{equation*}
+    \end{center}
+\end{minipage}
+
+%&\includegraphics[width=6.0cm]{Picture_FIGLabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF0PICTfigureXUQaJjFpspict0-for_eps.png}&
+%\includegraphics[width=6.0cm]{Picture_FIGLabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF1PICTfigureXUQaJjFpspict1-for_eps.png}&\\
+%        \begin{array}[]{c|ccccc}
+%             x&-\infty&&-b/a&&\infty\\
+%              \hline
+%              ax+b&&+&0&-&\\ 
+%               \end{array}&
+%    \end{aligned}
+%\end{equation}
 
 %AFAIRE : il faut refaire ces deux figures, parce que ça ne va pas d'avoir une subfigure avec fig.no_figure()
 
-% Au cas où les figures sont modifiées, il faut décommenter ce deux lignes pour que la compilation se passe bien.
-%\newcommand{\CaptionFigfigureXUQaJjF}{Hein}
-%\input{Fig_figureXUQaJjF.pstricks}
-
-%The result is on figure \ref{LabelFigfigureXUQaJjF}. % From file figureXUQaJjF
-%See also the subfigure \ref{LabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF0}
-%See also the subfigure \ref{LabelFigfigureXUQaJjFssLabelSubFigfigureXUQaJjF1}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Droites parallèles et droites sécantes}

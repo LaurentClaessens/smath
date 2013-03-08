@@ -4,6 +4,8 @@
 from phystricks import *
 import sys
 
+from phystricksBZqEWco import BZqEWco
+from phystricksOSQOqJN import OSQOqJN
 from phystricksOIHVjmO import OIHVjmO
 from phystricksCZAVGrm import CZAVGrm
 from phystricksFLnDVHh import FLnDVHh
@@ -45,7 +47,6 @@ from phystricksfigureTJkpHLv import figureTJkpHLv
 from phystricksfigureEWDVDTS import figureEWDVDTS
 from phystricksfigureXNAufCh import figureXNAufCh
 from phystricksfigureQUtOjcm import figureQUtOjcm
-from phystricksfigureXUQaJjF import figureXUQaJjF
 from phystricksfigureUERGVgS import figureUERGVgS
 from phystricksfigureSCkAAJI import figureSCkAAJI
 from phystricksfigureBOuQJyj import figureBOuQJyj
@@ -188,10 +189,10 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,
-    CylindresxKDOdy, figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureXUQaJjF,figureQUtOjcm,figureXNAufCh,
+    CylindresxKDOdy, figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureQUtOjcm,figureXNAufCh,
     figureEWDVDTS, figureTJkpHLv,figureDTzvwiz,figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP, figureSZyxsvp,
     figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,
-    LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO
+    LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN, BZqEWco
     ]
 
 
