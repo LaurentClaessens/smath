@@ -11,6 +11,7 @@ def ZCumAwy():
     f=phyFunction(1/x).graph(mx,Mx)
     f.cut_y(-1.2,1.2)
 
+    a=0.7
     b=-0.3
     B=Point(0,b)
     x0=f.inverse(b)[0]
@@ -37,6 +38,5 @@ def ZCumAwy():
     pspict.DrawGraphs(f,A,B,X,l1,l2,w1,w2)
     pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
-    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
