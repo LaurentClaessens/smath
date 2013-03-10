@@ -1,9 +1,7 @@
 # -*- coding: utf8 -*-
-
-from __future__ import division
 from phystricks import *
-def SWrwUzA():
-    pspict,fig = SinglePicture("SWrwUzA")
+def ZCumAwy():
+    pspict,fig = SinglePicture("ZCumAwy")
     pspict.dilatation_X(0.3)
     pspict.dilatation_Y(2.5)
 
@@ -42,4 +40,3 @@ def SWrwUzA():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-
