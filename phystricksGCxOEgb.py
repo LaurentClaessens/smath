@@ -7,7 +7,7 @@ from scipy import stats
 def GCxOEgb():
     pspict,fig = SinglePicture("GCxOEgb")
     pspict.dilatation_X(0.8)
-    pspict.dilatation_Y(50)
+    pspict.dilatation_Y(30)
 
     n=30
     p=0.91  

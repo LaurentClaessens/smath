@@ -5,9 +5,9 @@ def figureZEKOYck():
     pspict.dilatation(1)
 
     x=var('x')
-    f=LagrangePolynomial( Point(-2,-1),Point(-4,1),Point(0,1) ).graph(-5,1.5)
-    g=phyFunction(f(x-1)).graph(-5,2)
-    h=phyFunction(-f(x-4)+1).graph(-1,5)
+    f=LagrangePolynomial( Point(-2,-1),Point(-4,1),Point(0,1) ).graph(-5,1)
+    g=phyFunction(f(x-1)).graph(-4,2)
+    h=phyFunction(-f(x-4)+0.5).graph(-1,5)
 
     f.parameters.color="blue"
     g.parameters.color="red"
