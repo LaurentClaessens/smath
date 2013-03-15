@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksLSaSLoS import LSaSLoS
 from phystricksAVFexUi import AVFexUi
 from phystricksBZqEWco import BZqEWco
 from phystricksOSQOqJN import OSQOqJN
@@ -193,7 +194,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     CylindresxKDOdy, figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureQUtOjcm,figureXNAufCh,
     figureEWDVDTS, figureTJkpHLv,figureDTzvwiz,figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP, figureSZyxsvp,
     figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,
-    LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi
+    LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS
     ]
 
 
