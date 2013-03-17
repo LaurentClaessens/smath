@@ -4,8 +4,8 @@ def LSaSLoS():
     x=var('x')
     F=[]
     F.append( phyFunction(x**2).graph(-2.5,2.5) )
-    #F.append( phyFunction(x**2-x).graph(-2.5,3.5) )
-    #F.append( phyFunction(x**2-x+3).graph(-2.5,3.5) )
+    F.append( phyFunction(x**2-x).graph(-2.5,3.5) )
+    F.append( phyFunction(x**2-x+3).graph(-2.5,3.5) )
     #F.append( phyFunction(-x**2+2*x+3).graph(-2.5,4.5) )
     #F.append( phyFunction( -(x-3)*(x+4) ).graph(-5,4) )
 
