@@ -6,7 +6,7 @@ from scipy import stats
 
 def GCxOEgb():
     pspict,fig = SinglePicture("GCxOEgb")
-    pspict.dilatation_X(0.8)
+    pspict.dilatation_X(0.7)
     pspict.dilatation_Y(30)
 
     n=30
@@ -14,7 +14,7 @@ def GCxOEgb():
     X=stats.binom(n,p)
 
     w=0.3
-    mx=18
+    mx=21
     Mx=30
     for i in range(mx,Mx):
         h=X.pmf(i)
@@ -28,5 +28,6 @@ def GCxOEgb():
 
     ax=SingleAxe(  Point(0,0),Vector(1,0), mx,Mx  )
     pspict.DrawGraphs(ax)
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
