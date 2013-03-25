@@ -40,5 +40,6 @@ def BIlgjwy():
     M.put_mark(0.2,0,"\( M\)",automatic_place=pspict)
 
     pspict.DrawGraphs(P,A,B,N,M,lumiere,AN)
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

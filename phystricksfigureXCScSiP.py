@@ -3,7 +3,7 @@ from phystricks import *
 def figureXCScSiP():
     pspict,fig = SinglePicture("figureXCScSiP")
     pspict.dilatation_X(3)
-    pspict.dilatation_Y(0.3)
+    pspict.dilatation_Y(0.15)
 
     x=var('x')
     f=LagrangePolynomial( [Point(0,15),Point(1,20),Point(3,0)] ).graph(0,3)

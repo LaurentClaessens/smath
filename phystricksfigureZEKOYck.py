@@ -2,7 +2,7 @@
 from phystricks import *
 def figureZEKOYck():
     pspict,fig = SinglePicture("figureZEKOYck")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     x=var('x')
     f=LagrangePolynomial( Point(-2,-1),Point(-4,1),Point(0,1) ).graph(-5,1)

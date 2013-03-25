@@ -5,6 +5,38 @@
 
 \begin{corrige}{smath-0411}
 
-<+Corrsmath-0411+>
+    Choisissons un repère orthonormé dans lequel le point \( A\) se situe en \( (0;0)\). L'équation de son tir de plasma est
+    \begin{equation}
+        y=x
+    \end{equation}
+    parce que d'une part le dessin montre que le coefficient directeur est \( 1\) et que la fonction doit être affine vu que le graphe passe par l'origine.
+
+    L'autre rayon de plasma est une droite qui passe par le point \( B=(4;0)\) et de coefficient directeur \( -3\). L'équation de la droite doit être de la forme
+    \begin{equation}
+        y=-3x+b
+    \end{equation}
+    et pour fixer le \( b\), on impose que le point \( (4;0)\) soit sur la droite :
+    \begin{equation}
+        0=-3\times 4+b,
+    \end{equation}
+    c'est à dire \( b=12\). Le rayon de plasma du joueur \( B\) a donc pour équation
+    \begin{equation}
+        y=-3x+12.
+    \end{equation}
+    
+    Le point d'intersection de ces deux droites est donné par la résolution du système
+    \begin{subequations}
+        \begin{numcases}{}
+            y=x\\
+            y=-3x+12.
+        \end{numcases}
+    \end{subequations}
+    L'abscisse du point d'intersection est alors donné par l'équation \( x=-3x+12\), c'est à dire \( x=3\). Le point d'intersection est donc le point d'abscisse \( 3\) sur l'une ou l'autre des deux droites, à savoir \( (3;3)\).
+
+    L'exercice consiste maintenant à savoir qui des joueurs \( A\) et \( B\) sont dans le cercle de centre \( (3;3)\) et de rayon \( 4\). 
+
+    La distance entre \( A=(0;0)\) et le centre \( (3;3)\) est de \( \sqrt{3^2+3^2}=\sqrt{18}\) qui est grand que \( 4\). Donc le joueur \( A\) survit.
+
+    Par contre la distance entre \( B=(4;0)\) et le centre de L'explosion est \( \sqrt{1^2+3^2}=\sqrt{10}\) qui est plus petit que \( 4\). Donc le joueur \( B\) meurt.
 
 \end{corrige}
