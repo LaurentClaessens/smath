@@ -653,7 +653,11 @@ Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
 \end{enumerate}
 Un petit exemple valant mieux qu'un long discours\ldots
 
-\begin{multicols}{2}
+\begin{wrapfigure}{r}{6.0cm}
+   \vspace{-1cm}        % à adapter.
+   \centering
+   \input{Fig_GrapheVarREGMqx.pstricks}
+\end{wrapfigure}
 
     Le tableau de variation de la fonction dessinée ci-contre est :
     \begin{equation}
@@ -679,24 +683,15 @@ Un petit exemple valant mieux qu'un long discours\ldots
             elle monte jusqu'en \( x=2\) où elle vaut \( 1\).
     \end{itemize}
 
-\columnbreak
-
-
-%\includegraphics{Picture_FIGLabelFigGrapheVarREGMqxPICTGrapheVarREGMqx-for_eps.pdf}
-%The result is on figure \ref{LabelFigGrapheVarREGMqx}.
-%\newcommand{\CaptionFigGrapheVarREGMqx}{<+Type your caption here+>}
-\input{Fig_GrapheVarREGMqx.pstricks}
-
-\end{multicols}
 
 \section{Minimum et maximum}
 
 \begin{definition}
-      Soit $f$ une fonction définie sur un intervalle $I$. \\[-2ex] 
+      Soit $f$ une fonction définie sur un intervalle $I$.
       \begin{itemize}
           \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)}
         sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$
-        et pour tout $x\in I$, $f(x)\geq m$. \\[-2ex]
+        et pour tout $x\in I$, $f(x)\geq m$. 
     \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum}
         sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout
         $x\in I$, $f(x)\leq M$.
