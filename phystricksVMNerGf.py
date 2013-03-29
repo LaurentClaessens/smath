@@ -7,7 +7,7 @@ def VMNerGf():
 
     A=Point(0,0)
     B=Point(4,0)
-    v1=Vector(1,1).fix_origin(A)
+    v1=Vector(1,2).fix_origin(A)
     v2=Vector(-1,3).fix_origin(B)
 
     A.put_mark(0.2,-90,"\( A\)",automatic_place=pspict)
