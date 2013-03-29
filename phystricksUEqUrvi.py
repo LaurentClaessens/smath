@@ -4,7 +4,7 @@ from phystricks import *
 
 def UEqUrvi():
     pspict,fig = SinglePicture("UEqUrvi")
-    pspict.dilatation(2)
+    pspict.dilatation(1)
 
     alpha=30
     A=Point(0,0)
@@ -20,21 +20,13 @@ def UEqUrvi():
     angle=Angle(B,A,C)
     angle.put_mark(0.2,angle.advised_mark_angle,"\( {}\)".format(str(alpha)),automatic_place=pspict)
 
-    M=Segment(A,B).center()
-    ama=M.advised_mark_angle
-    #M=M+(0,0.1)
+    P=B.projection(Segment(A,C),advised=True)
+    P.put_mark(0.2,P.advised_mark_angle,"\( P\)",automatic_place=pspict)
 
-    G=M+(0,-lo/3)
-    P=G.projection(Segment(A,C))
+    BP=Segment(P,B)
+    BP.parameters.style="dashed"
 
-    decomp=Polygon(M,G,P)
-    decomp.parameters.color="blue"
-
-    M.put_mark(0.2,ama,"\( M\)",automatic_place=pspict)
-    P.put_mark(0.2,ama,"\( P\)",automatic_place=pspict)
-    G.put_mark(0.2,0,"\( G\)",automatic_place=pspict)
-
-    pspict.DrawGraphs(A,B,C,M,trig,angle,decomp)
+    pspict.DrawGraphs(A,B,C,P,trig,BP,angle)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
