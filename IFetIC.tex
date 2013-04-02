@@ -5,7 +5,10 @@
 
 % Ce fichier est celui pour les secondes.
 
-Distribuer aux élèves le dessin de la page suivante et en discuter.
+
+%TODO : ce newpage est un peu triste; il faudrait ajouter du texte ou je ne sais pas trop quoi.
+\newpage
+
 \begin{center}
 
            \ifpdf
@@ -57,6 +60,25 @@ Le résultat-clef est le suivant.
     \end{equation}
     Cet intervalle est appelé \defe{intervalle de fluctuation}{intervalle!de fluctuation} de l'échantillon.
 \end{Aretenir}
+
+\begin{example}
+    Si \( 25\%\) de la population a des yeux bleus et qu'on pêche \( 500\) personnes au hasard, il y a environ \( 95\%\) de chances que parmi ces \( 500\) la proportion d'yeux bleus sera comprise dans l'intervalle
+    \begin{equation}
+        \mathopen[ 0.25-\frac{1}{ \sqrt{500} } ; 0.25+\frac{1}{ \sqrt{500} } \mathclose]\simeq\mathopen[ 0.25-0.045 ; 0.25+0.045 \mathclose]=\mathopen[ 0.205 ; 0.294 \mathclose].
+    \end{equation}
+    En termes de nombre de personnes, cela signifie qu'on aura entre \( 102\) et \( 148\) personnes à yeux bleus parmi les \( 500\) personnes tirées au hasard.
+
+    Il n'y a que \( 2.5\%\) de chance d'obtenir moins de \( 102\) personnes à yeux bleus sur \( 500\), et environ \( 2.5\%\) de chances d'en avoir plus de \( 148\).
+
+    Donc si on tire un échantillon de \( 500\) personnes et qu'on y voit $170$ avec des yeux bleus, on peut se dire trois choses :
+    \begin{itemize}
+        \item Le sondage a été mal fait, on n'a pas bien tiré les personnes au hasard, on a mal compté, \ldots
+        \item Dans la population, en fait il n'y a pas vraiment \( 25\%\) de personnes aux yeux bleus, mais plus.
+        \item On a été victime du hasard, et en réalité il n'y a aucune faute; on avait moins de deux chances et demi sur \( 100\) que ça arrive, mais c'est toujours possible.
+    \end{itemize}
+    Notons que \( 5\) fois sur \( 100\), un sondage donnera une proportion non conforme à ce à quoi on s'attend. Cela fait environ une fois sur \( 20\).
+\end{example}
+
 
 Comment cela s'applique à notre étude de \emph{jelly bean} ? 
 \begin{description}
