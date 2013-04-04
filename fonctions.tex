@@ -616,8 +616,6 @@ Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{Lab
 \input{Fig_FnAffineipcEQf.pstricks}
 
 
-
-
 \begin{Aretenir}
       Règle du signe de $ax+b$ \\
       
@@ -644,6 +642,7 @@ Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{Lab
 
 \subsection{Tableau de variations}
 
+
 Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
 \begin{enumerate}
     \item
@@ -653,24 +652,25 @@ Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
 \end{enumerate}
 Un petit exemple valant mieux qu'un long discours\ldots
 
-\begin{wrapfigure}{r}{6.0cm}
+% à noter le 9 dans l'environnement suivant est le nombre de lignes sur lesquelles la figure s'étale. Je suis obligé de donner à la main parce que le tableau ne compte apparemment que pour une seule ligne. Du coup si je laisse à LaTeX le soin de calculer, les lignes de texte en-dessous de la figure (et en particulier à la page suivante si la figure est en bas de page) sont encore coupées.
+\begin{wrapfigure}[9]{r}{6.0cm}     
    \vspace{-1cm}        % à adapter.
    \centering
    \input{Fig_GrapheVarREGMqx.pstricks}
 \end{wrapfigure}
 
     Le tableau de variation de la fonction dessinée ci-contre est :
-    \begin{equation}
+    \begin{equation*}
     \begin{array}[h]{|c|ccccccc|}
         \hline
         x&-3&&-2&&0&&2\\
         \hline
         &&&2&&&&1\\
         f(x)&&\nearrow&&\searrow&&\nearrow&\\
-        &\frac{ 9 }{2}&&&&-\frac{ 1 }{2}&&\\
+        &-\frac{ 9 }{2}&&&&-\frac{ 1 }{2}&&\\
         \hline
     \end{array}
-    \end{equation}
+    \end{equation*}
     En effet, la fonction \( f\)
     \begin{itemize}
         \item 
@@ -683,18 +683,17 @@ Un petit exemple valant mieux qu'un long discours\ldots
             elle monte jusqu'en \( x=2\) où elle vaut \( 1\).
     \end{itemize}
 
+Le plus souvent si on donne un dessin, les nombres à placer dans un tableau de variation sont des valeur approchées à la précision du dessin. Donner les réponses en fraction n'est donc pas obligatoire. Par exemple ici au lieu d'écrire \( -9/2\) dans le tableau, il aurait été possible d'écrire \( -4.5\).
 
 \section{Minimum et maximum}
+
+Les notions de minima et maxima parlent, comme l'indiquent leurs noms en français, des points du graphe d'une fonction les plus hauts et les plus bas.
 
 \begin{definition}
       Soit $f$ une fonction définie sur un intervalle $I$.
       \begin{itemize}
-          \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)}
-        sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$
-        et pour tout $x\in I$, $f(x)\geq m$. 
-    \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum}
-        sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout
-        $x\in I$, $f(x)\leq M$.
+          \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)} sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$ et pour tout $x\in I$, $f(x)\geq m$. 
+    \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum} sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout $x\in I$, $f(x)\leq M$.
       \end{itemize}
 \end{definition}
 
