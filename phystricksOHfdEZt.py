@@ -15,9 +15,10 @@ def OHfdEZt():
 
     epsilon=0.2
     
-    for psp in pspicts:
-        psp.dilatation_X(0.5)
-        psp.dilatation_Y(0.5)
+    pspicts[0].dilatation(0.5)
+    pspicts[1].dilatation(0.5)
+    pspicts[2].dilatation(0.4)
+    pspicts[3].dilatation(0.4)
 
     x=var('x')
 
@@ -28,11 +29,9 @@ def OHfdEZt():
     F.append(  homographique(  (1-x)/(1+x),-4,4,interdite=-1  )  )
 
     for i,psp in enumerate(pspicts):
-        print("===================",i)
         psp.DrawGraphs(F[i])
         psp.DrawDefaultAxes()
         psp.DrawDefaultGrid()
-
 
     fig.conclude()
     fig.write_the_file()
