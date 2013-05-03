@@ -5,7 +5,34 @@
 
 \begin{exercice}\label{exosmath-0461}
 
-<+Exosmath-0461+>
+    Le but de cet exercice est de donner une méthode pour trouver une solution approchée à une équation du type \( f(x)=0\) en utilisant la dérivée de \( f\).
+
+    Montrer que la tangente au graphe de \( f\) au point d'abscisse \( a\) coupe l'axe des abscisses en 
+    \begin{equation}
+        x=a-\frac{ f(a) }{ f'(a) }.
+    \end{equation}
+    Pour rappel, l'équation de la tangente est donnée par \( y=f'(a)(x-a)+f(a)\).
+
+    Soit \( f(x)=(x+3)(x-4)\) et \( u_0=7\).
+    \begin{enumerate}
+        \item
+            Calculer \( f(u_0)\) et \( f'(u_0)\). Donner l'équation de la tangente au graphe de \( f\) au point d'abscisse \( u_0\).
+        \item 
+            Soit \( u_1\) le point d'abscisse de l'intersection de cette tangente avec l'axe horizontal.
+        \item
+            Faire un dessin
+        \item
+            Continuer, sur le même modèle à calculer \( u_2\) et \( u_3\), en valeurs approchées.
+        \item
+            En regardant sur le dessin, vers quelle valeur converge la suite \( (u_n)\) ?
+    \end{enumerate}
+
+    Après avoir fait tout ça, qu'est-ce que vous pensez de la suite donnée par récurrence par
+    \begin{equation}
+        u_{n+1}=u_n-\frac{ f(u_n) }{ f'(u_n) }.
+    \end{equation}
+
+    Donner une solution approchée de l'équation $\ln(x)+x=0$.
 
 \corrref{smath-0461}
 \end{exercice}
