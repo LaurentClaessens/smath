@@ -64,6 +64,4 @@ def exo_trig():
     """.format(paire1[0],paire1[1],paire2[0],paire2[1],op1,paire3[0],op2,paire3[1])
     return consigne
 
-for i in range(1,40):
-    print("{}.".format(i),exo_trig())
 
