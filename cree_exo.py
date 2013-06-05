@@ -64,4 +64,30 @@ def exo_trig():
     """.format(paire1[0],paire1[1],paire2[0],paire2[1],op1,paire3[0],op2,paire3[1])
     return consigne
 
+def exo_ineqs():
+    p1=aff()
+    p2=aff()
+    liste_sens=["<",">","\leq","\geq"]
+    sens=random.choice(liste_sens)
+    ineq="({0})({1}){2}0".format(p1,p2,sens)
+    type_eqa=["\\frac{ 1 }{ A}=\\frac{ B }{ (A)(C) }","\\frac{ B }{ (A)(C) }=\\frac{1}{ A }"]
+    eqa_gen=random.choice(type_eqa)
+    A=aff()
+    B=lin()
+    C=aff()
+    eqa=eqa_gen.replace("A",A).replace("B",B).replace("C",C)
+    consigne="""Résoudre en justifiant les étapes.
+    \\begin{{enumerate}}
+    \item
+    \( {0}\)
+    \item
+    \( {1}\)
+    \end{{enumerate}}
+    \\vspace{{2cm}}
+    """.format(ineq,eqa)
+    return consigne
+
+
+for i in range(1,40):
+    print("{0}.".format(i),exo_ineqs())
 
