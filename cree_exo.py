@@ -109,18 +109,21 @@ def interro_trig2():
     NS=random.choice(["nord","sud"])
 
     op1=op2 # Ici je demande qu'on ne compare pas sin et cos.
-    consigne=r"""Vous pouvez justifier les réponses aux questions suivantes par un dessin et un petit calcul.
+    consigne=r"""
+    \vbox{{
+    NUM. Vous pouvez justifier les réponses aux questions suivantes par un dessin et un petit calcul.
     \begin{{enumerate}}
     \item
     La ville V est située à \unit{{{4}}}{{\degree}} nord tandis que la ville W est située à \unit{{{5}}}{{\degree}} sud, sur le même méridien. Quelle est la distance entre ces deux villes ? (le rayon de la Terre est approximativement de \unit{{6300}}{{\kilo\meter}}).
     \item
-    Quel est le rayon de la «tranche» horizontale de la Terre à \unit{{{6}}}{{\degree}} {7}
+    Quel est le rayon de la «tranche» horizontale de la Terre à \unit{{{6}}}{{\degree}} {7} ?
     \item
     Vrai ou faux : {0}({1})={2}({3}) ?
     \end{{enumerate}}
-    \vspace{{2cm}}
+    }}
+    \vspace{{1.5cm}}
     """.format(op1,paire1[0],op1,paire1[1],lat1,lat2,lat3,NS)
     return consigne
 
 for i in range(1,40):
-    print(interro_trig2())
+    print(interro_trig2().replace("NUM",str(i)))
