@@ -88,6 +88,39 @@ def exo_ineqs():
     return consigne
 
 
-for i in range(1,40):
-    print("{0}.".format(i),exo_ineqs())
+def interro_trig2():
+    paires_angles=[]
+    paires_angles.append([" \( \pi\)", "\( -\pi\) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 4 }\)", r"\( -\frac{ \pi }{ 4 }\) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 3 }\)", r"\( \frac{ 2\pi }{ 3 }\) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 4 }\)", r"\(  \frac{ 3\pi }{ 4 } \) "])
+    paires_angles.append([r"\( \frac{ 10\pi }{ 4 }\)", r"\(  \frac{ 2\pi }{ 4 } \) "])
+    paires_angles.append([r"\( \frac{ 10\pi }{ 4 }\)", r"\(  \frac{ 6\pi }{ 4 } \) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 2 }\)", r"\( \frac{ 5\pi }{ 2 }\) "])
+    paires_angles.append([r"\( \frac{ 2\pi }{ 3 }\)", r"\( -\frac{ 2\pi }{ 3 }\) "])
+    paires_angles.append([r"\( \frac{ 2\pi }{ 5 }\)", r"\( -\frac{ 2\pi }{ 5 }\) "])
+    operations=["sin","cos"]
+    paire1=random.choice(paires_angles)
+    op1=random.choice(operations)
+    op2=random.choice(operations)
+    lat1=random.randint(1,80)
+    lat2=random.randint(1,80)
+    lat3=random.randint(1,80)
+    NS=random.choice(["nord","sud"])
 
+    op1=op2 # Ici je demande qu'on ne compare pas sin et cos.
+    consigne=r"""Vous pouvez justifier les réponses aux questions suivantes par un dessin et un petit calcul.
+    \begin{{enumerate}}
+    \item
+    La ville V est située à \unit{{{4}}}{{\degree}} nord tandis que la ville W est située à \unit{{{5}}}{{\degree}} sud, sur le même méridien. Quelle est la distance entre ces deux villes ? (le rayon de la Terre est approximativement de \unit{{6300}}{{\kilo\meter}}).
+    \item
+    Quel est le rayon de la «tranche» horizontale de la Terre à \unit{{{6}}}{{\degree}} {7}
+    \item
+    Vrai ou faux : {0}({1})={2}({3}) ?
+    \end{{enumerate}}
+    \vspace{{2cm}}
+    """.format(op1,paire1[0],op1,paire1[1],lat1,lat2,lat3,NS)
+    return consigne
+
+for i in range(1,40):
+    print(interro_trig2())
