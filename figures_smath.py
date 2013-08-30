@@ -177,6 +177,7 @@ from phystricksfigureTFaRFVd import figureTFaRFVd
 from phystricksfigureITVTofz import figureITVTofz
 from phystricksfigureNAKnjxQ import figureNAKnjxQ
 from phystricksfigureAEcZqpP import figureAEcZqpP
+from phystricksEGDFJAT import EGDFJAT
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -200,9 +201,10 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     figureEWDVDTS, figureTJkpHLv,figureDTzvwiz,figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP, figureSZyxsvp,
     figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,
     LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,
-    DZmbmzZ,ITlywMb
+    DZmbmzZ,ITlywMb,EGDFJAT
     ]
 
+figures_list=[PythagoreeBqLDU]
 
 for k in sys.argv:
     s=[]

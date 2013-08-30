@@ -5,8 +5,28 @@
 
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Repères}
+\section{Repères et coordonnées}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%AFAIRE : installer geogebra.
+
+
+Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{\meter} de long. Le joueur \( A\) fait une passe à son attaquant \( B\). Ce dernier est situé \unit{10}{\meter} au-dessus de la ligne médiane et à \unit{5}{\meter} à gauche du bord du terrain.
+
+\begin{center}
+   \input{Fig_EGDFJAT.pstricks}
+\end{center}
+
+\begin{enumerate}
+    \item
+        Compléter le dessin.
+    \item
+        Quelle est la longueur de la passe ?
+    \item
+        L'attaquant veut directement tirer vers le but. À quelle distance est-il ?
+\end{enumerate}
+% Le rayon du cercle au centre est de 10m, mais c'est fait exprès que c'est pas donné.
+
 
 \begin{definition}
     Un \defe{repère orthonormé}{repère!orthonormé} du plan est la donné de trois points \( O\), \( I\), \( J\) non alignés formant un triangle rectangle isocèle en  \( O\).
@@ -19,6 +39,45 @@
 \end{definition}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Distance entre deux points}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{Aretenir}
+
+\begin{wrapfigure}{r}{7.0cm}
+   \vspace{-1.5cm}        % à adapter.
+   \centering
+   \input{Fig_PythagoreeBqLDU.pstricks}
+\end{wrapfigure}
+
+        Soient les points \( A\) et \( B\) de coordonnées \( A=(x_A,y_A)\) et \( B=(x_B,y_B)\) dans un repère orthonormé. La distance entre \( A\) et \( B\) est donnée par la formule
+        \begin{equation*}
+            AB =\sqrt{(x_B-x_A)^2+(y_B-y_A)^2}.
+        \end{equation*}
+    \end{Aretenir}
+
+% Attention : cette démonstration n'est pas du tout à donner en classe. On met seulement l'illustration.
+\begin{proof}
+    Nous allons utiliser le théorème de Pythagore. Pour cela nous construisons le triangle rectangle construit sur les points \( A\) et \( B\) comme indiqué sur le dessin. Le point \( C\) est le point de même abscisse que \( B\) et de même ordonnée que \( A\), c'est à dire que \( C\) est le point
+    \begin{equation}
+        C=(x_B,y_A).
+    \end{equation}
+    La droite \( AC\) est parallèle à l'axe des abscisses et la droite \( BC\) est parallèle à l'axe des ordonnées; elles sont donc perpendiculaires et le triangle \( ABC\) est un triangle rectangle en \( C\). Le théorème de Pythagore s'applique :
+    \begin{equation}    \label{EqjLjEKr}
+       AB =\sqrt{ AC^2+BC^2}.
+    \end{equation}
+    Il reste à déterminer les longueurs \(  AC \) et \(  BC \). Le segment \( [AC]\) est horizontal et s'étend de l'abscisse \( x_A\) à l'abscisse \( x_B\), donc il est de longueur soit \( x_A-x_B\) soit \( x_B-x_A\), mais dans les deux cas nous avons
+    \begin{equation}
+         AC^2=(x_B-x_A)^2.
+    \end{equation}
+    De la même façon nous avons 
+    \begin{equation}
+         BC^2=(y_B-y_A)^2.
+    \end{equation}
+    En remplaçant dans \eqref{EqjLjEKr}, nous obtenons le résultat annoncé.
+\end{proof}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Milieu d'un segment}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -29,53 +88,6 @@
     \end{equation*}
 \end{Aretenir}
 
-\newpage
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Distance entre deux points}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-\begin{Aretenir}
-\begin{multicols}{2}
-        Soient les points \( A\) et \( B\) de coordonnées \( A=(A_x,A_y)\) et \( B=(B_x,B_y)\) dans un repère orthonormé. La distance entre \( A\) et \( B\) (c'est à dire la longueur du segment \( [AB]\)) est donnée par la formule
-        \begin{equation}
-            \| AB \|=\sqrt{(A_x-B_x)^2+(A_y-B_y)^2}.
-        \end{equation}
-    
-\columnbreak
-
-\phantom{a} % Je ne suis pas très fier de ce moyen de faire arriver le dessin en bas de la colonne.
-
-\vfill
-
-%The result is on figure \ref{LabelFigPythagoreeBqLDU}.
-%\newcommand{\CaptionFigPythagoreeBqLDU}{<+Type your caption here+>}
-\input{Fig_PythagoreeBqLDU.pstricks}
-
-\end{multicols}
-    \end{Aretenir}
-
-
-
-\begin{proof}
-    Nous allons utiliser le théorème de Pythagore. Pour cela nous construisons le triangle rectangle construit sur les points \( A\) et \( B\) comme indiqué sur le dessin. Le point \( C\) est le point de même abscisse que \( B\) et de même ordonnée que \( A\), c'est à dire que \( C\) est le point
-    \begin{equation}
-        C=(B_x,A_y).
-    \end{equation}
-    La droite \( AC\) est parallèle à l'axe des abscisses et la droite \( BC\) est parallèle à l'axe des ordonnées; elles sont donc perpendiculaires et le triangle \( ABC\) est un triangle rectangle en \( C\). Le théorème de Pythagore s'applique :
-    \begin{equation}    \label{EqjLjEKr}
-       AB =\sqrt{ AC^2+BC^2}.
-    \end{equation}
-    Il reste à déterminer les longueurs \( \| AC \|\) et \( \| BC \|\). Le segment \( [AC]\) est horizontal et s'étend de l'abscisse \( A_x\) à l'abscisse \( B_x\), donc il est de longueur soit \( A_x-B_x\) soit \( B_x-A_x\), mais dans les deux cas nous avons
-    \begin{equation}
-        \| AC \|^2=(B_x-A_x)^2.
-    \end{equation}
-    De la même façon nous avons 
-    \begin{equation}
-        \| BC \|^2=(B_y-A_y)^2.
-    \end{equation}
-    En remplaçant dans \eqref{EqjLjEKr}, nous obtenons le résultat annoncé.
-\end{proof}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Compléments}
@@ -155,3 +167,5 @@ La façon dont nous associons à chaque point \( M\) du plan ses coordonnées da
 
 
 \Exo{smath-0028}
+
+
