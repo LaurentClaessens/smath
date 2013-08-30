@@ -1,22 +1,23 @@
+from __future__ import division
+
+
 from phystricks import *
 def EvZZys():
     pspict,fig = SinglePicture("EvZZys")
     pspict.dilatation(1)
 
     x=var('x')
-    A=Point(-1/2,1)
-    B=Point(4,2)
-    C=Point(-1,-2)
-    D=Point(5,3)
+    X=Point(4,3)
+    Y=Point(-5,0)
+    Z=Point(-1,-1/2)
 
-    A.put_mark(0.1,A.angle(),"$A$",automatic_place=pspict)
-    B.put_mark(0.1,B.angle(),"$B$",automatic_place=pspict)
-    C.put_mark(0.1,C.angle(),"$C$",automatic_place=pspict)
-    D.put_mark(0.1,D.angle(),"$D$",automatic_place=pspict)
+    X.put_mark(0.1,X.angle(),"$X$",automatic_place=pspict)
+    Y.put_mark(0.1,135,"$Y$",automatic_place=pspict)
+    Z.put_mark(0.1,Z.angle(),"$Z$",automatic_place=pspict)
 
-
-    pspict.DrawGraphs(A,B,C,D)
+    pspict.DrawGraphs(X,Y,Z)
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
