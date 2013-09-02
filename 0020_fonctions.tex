@@ -62,7 +62,7 @@ En ce qui concerne les notations, nous écrivons
 Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Intermède:k}
+\section{Intermède : pourquoi ne pas diviser par zéro ?}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 La fraction \( \frac{1}{ 0.1 }\) est le nombre de fois que \( 0.1\) rentre dans \( 1\). Cela vaut \( 10\) parce qu'il faut \( 10\) soit \( 0.1\) pour faire \( 1\).
@@ -85,7 +85,8 @@ Que vaudrait \( \frac{1}{ 0 }\) ? C'est le nombre de fois qu'il faut prendre zé
 
 donne
 
-\lstinputlisting[title=Résultat]{res_ex_inverse.txt}
+%\lstinputlisting[title=Résultat]{res_ex_inverse.txt}
+\VerbatimInput{res_ex_inverse.txt}
 
 Très clairement, python ne veut pas calculer l'inverse de zéro et plante sur un message on ne peut plus clair : \info{ZeroDivisionError: division by zero}.
 
