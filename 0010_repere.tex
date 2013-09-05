@@ -7,7 +7,14 @@
 \section{Repères et coordonnées}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{\meter} de long. Le joueur \( A\) fait une passe à son attaquant \( B\). Ce dernier est situé \unit{10}{\meter} au-dessus de la ligne médiane et à \unit{5}{\meter} à gauche du bord du terrain.
+% Vu que la question du foot est une activité, il faut pouvoir la projeter seule, sans le titre. D'où les newpages qui isolent la question.
+\newpage
+
+\phantom{a}
+
+\vfill
+
+Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{\meter} de long. Le joueur \( A\) fait une passe à son attaquant \( B\). Ce dernier est situé \unit{10}{\meter} au-dessus de la ligne médiane et à \unit{5}{\meter} du bord du terrain.
 
 \begin{center}
    \input{Fig_EGDFJAT.pstricks}
@@ -15,7 +22,7 @@ Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{
 
 \begin{enumerate}
     \item
-        Compléter le dessin.
+        Compléter le dessin (le rayon du cercle central est de \unit{10}{\meter}).
     \item
         Quelle est la longueur de la passe ?
     \item
@@ -23,10 +30,63 @@ Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{
 \end{enumerate}
 % Le rayon du cercle au centre est de 10m, mais c'est fait exprès que c'est pas donné.
 
+\vfill
+\newpage
+
 \begin{definition}
     Un \defe{repère orthonormé}{repère!orthonormé} du plan est la donné de trois points \( O\), \( I\), \( J\) non alignés formant un triangle rectangle isocèle en  \( O\).
 \end{definition}
 
+
+La façon dont nous associons à chaque point \( M\) du plan ses coordonnées dans le repère \( O\), \( I\), \( J\) est donnée à la figure \ref{LabelFigReperexjVyii}.
+\newcommand{\CaptionFigReperexjVyii}{Lire les coordonnées du point \( M\) dans le repère \( OIJ\).}
+\input{Fig_ReperexjVyii.pstricks}
+
+Nous notons 
+\begin{equation}
+    M(x_M;y_M)
+\end{equation}
+pour dire que le point \( M\) a pour coordonnées \( (x_M;y_M)\) dans le repère \( (OIJ)\).
+
+\begin{Aretenir}
+    Le nombre \( x_M\) est l'\defe{abscisse}{abscisse} du point \( M\) et le nombre \( y_M\) en l'est l'\defe{ordonnée}{ordonnée}.
+\end{Aretenir}
+
+
+Nous avons
+\begin{enumerate}
+    \item
+       \( I(1;0)\),
+   \item
+       \( J(0;1)\),
+   \item
+       \( O(0;0)\).
+\end{enumerate}
+
+
+\newpage
+\phantom{a}
+\vfill
+
+%\begin{wrapfigure}{r}{20.cm}
+%   \vspace{-0.5cm}        % à adapter.
+%   \centering
+%   \input{Fig_EvZZys.pstricks}
+%\end{wrapfigure}
+
+
+\begin{center}
+    \input{Fig_EvZZys.pstricks}
+\end{center}
+
+    \begin{enumerate}
+        \item
+            Placer les points \( A=(1;3)\), \( B=(-1;0)\), \( C=(1,\frac{ 3 }{2})\).
+        \item
+            Donner les coordonnées des points \( X\), \( Y\) et \( Z\).
+    \end{enumerate}
+
+    \vfill
 \newpage
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -47,7 +107,6 @@ Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{
         \end{equation*}
     \end{Aretenir}
 
-% Attention : cette démonstration n'est pas du tout à donner en classe. On met seulement l'illustration.
 \begin{proof}
     Nous allons utiliser le théorème de Pythagore. Pour cela nous construisons le triangle rectangle construit sur les points \( A\) et \( B\) comme indiqué sur le dessin. Le point \( C\) est le point de même abscisse que \( B\) et de même ordonnée que \( A\), c'est à dire que \( C\) est le point
     \begin{equation}
@@ -73,10 +132,18 @@ Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+
+\newpage
+
+\phantom{a}
+\vfill
+
     Une piscine a pour dimension \unit{25}{\meter} fois \unit{50}{\meter} et \( 4\) couloirs numérotés de \( 0\) à \( 3\). Un nageur parcours la piscine dans le sens de la diagonale. Dans quel couloir sera-t-il lorsqu'il aura parcouru la moitié de son parcours ?
 
     Même question pour une piscine olympique comprenant \( 10\) couloirs numérotés de \( 0\) à \( 9\).
 
+\vfill
+\newpage
 
 \begin{Aretenir}
     Soient les points \( A\) et \( B\) de coordonnées \( A=(x_A;y_A)\) et \( B=(x_B;y_B)\) dans un repère. Alors le milieu du segment \( [AB]\) est le point de coordonnées
@@ -97,14 +164,13 @@ Début de match sur un terrain faisant \unit{50}{\meter} de large et \unit{100}{
 \end{definition}
 
 
-La façon dont nous associons à chaque point \( M\) du plan ses coordonnées dans le repère \( O\), \( I\), \( J\) est donnée à la figure \ref{LabelFigReperexjVyii}.
-\newcommand{\CaptionFigReperexjVyii}{Lire les coordonnées du point \( M\) dans le repère \( OIJ\).}
-\input{Fig_ReperexjVyii.pstricks}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices supplémentaires}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+%\Exo{Seconde-0002}         % Celui-ci est enlevé parce qu'il est inséré au cours.
+\Exo{smath-0479}
 \Exo{smath-0021}
 \Exo{smath-0028}
 \Exo{Seconde-0100}
@@ -120,7 +186,6 @@ La façon dont nous associons à chaque point \( M\) du plan ses coordonnées da
 \Exo{Seconde-0078}
 \Exo{smath-0029}
 \Exo{Seconde-0081}
-\Exo{smath-0124}
 \Exo{Seconde-0077}
 \Exo{smath-0027}
 \Exo{Seconde-0082}

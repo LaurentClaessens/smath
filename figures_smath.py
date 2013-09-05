@@ -204,7 +204,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     DZmbmzZ,ITlywMb,EGDFJAT
     ]
 
-figures_list=[EvZZys]
+figures_list=[EGDFJAT]
 
 for k in sys.argv:
     s=[]

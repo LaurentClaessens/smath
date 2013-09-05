@@ -19,8 +19,8 @@ def ReperexjVyii():
 
     Mx=M.projection(OX)
     My=M.projection(OY)
-    Mx.put_mark(0.2,-90,"\( x\)",automatic_place=pspict)
-    My.put_mark(0.2,180,"\( y\)",automatic_place=pspict)
+    Mx.put_mark(0.2,-90,"\( x_M\)",automatic_place=pspict)
+    My.put_mark(0.2,180,"\( y_M\)",automatic_place=pspict)
 
     l1=Segment(M,Mx)
     l2=Segment(M,My)
