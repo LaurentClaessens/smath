@@ -8,14 +8,25 @@
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
+\newpage  % Dans la plus grande tradition de ce cours, les choses en pages pleines sont celles à projeter.
+
+\phantom{}
+\vfill
+
 \begin{example} \label{ExemVmCkIH}
     Un petit tour de magie. Choisissez un nombre entre \( 1\) et \( 10\). Ajoutez \( 5\), multipliez par \( 2\), ajoutez \( 7\), enlevez le double du nombre de départ.
-
-    Le nombre que vous avez maintenant est \( 17\).
 \end{example}
 
+\vfill
+\newpage
+
+\phantom{}
+\vfill
 
 \lstinputlisting{ex_algo18.py}
+
+\vfill
+\newpage
 
 \begin{definition}
     Soit \( \defD\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( \defD\) en associant à chaque nombre \( x\) dans \( \defD\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
@@ -284,47 +295,11 @@ Le programme est
 
 Le programme donne :
 
-\lstinputlisting[title=Résultat]{res_ex_graphe.txt}
+%\lstinputlisting[title=Résultat]{res_ex_graphe.txt}
+
+\VerbatimInput{res_ex_graphe.txt}
     
 \end{example}
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Fonctions linéaires et affines}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\begin{definition}
-    Une classe importante de fonctions sont les fonctions de la forme \( f(x)=ax\) où \( a\) est un nombre. Une telle fonction est dite \defe{linéaire}{linéaire (fonction)}. 
-
-    Les fonctions du type \( f(x)=ax+b\) sont des fonctions \defe{affines}{affine (fonction)}. 
-\end{definition}
-
-
-\begin{Aretenir}
-    Les fonctions linéaires et affines sont très importantes parce que leur graphe sont des droites. 
-    \begin{itemize}
-        \item 
-    Les fonctions linéaires sont des droites qui passent par l'origine \( (0;0)\).
-    \item
-    Les fonctions affines (avec \( b\neq 0\)) sont des droites ne passant pas par \( (0;0)\).
-    \end{itemize}
-\end{Aretenir}
-Si $f$ est une fonction affine définie pour $x\in\eR$ par $f(x)=ax+b$ alors l'équation de la droite représentative de la fonction est $y=ax+b$. 
-
-Pour tracer le graphe d'une fonction affine.
-\begin{itemize}
-    \item
-        Vu que le graphe est une droite, il suffit de deux points.
-    \item
-        Les fonction linéaires passent par l'origine \( (0;0)\).
-    \item 
-        Pour un tracé à la règle, il est plus précis de prendre deux points relativement éloignés.
-    \item
-        La droite \( f(x)=ax+b\) monte si \( a>0\) et descend si \( a<0\). La pente est d'autant plus raide que \( a\) est grand.
-\end{itemize}
-
-Quelque exemples à la figure \ref{LabelFigGrapheAffinHqXJGx}.
-\newcommand{\CaptionFigGrapheAffinHqXJGx}{Des graphes de fonctions linéaires et affines.}
-\input{Fig_GrapheAffinHqXJGx.pstricks}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Ce qui n'est pas une fonction}
