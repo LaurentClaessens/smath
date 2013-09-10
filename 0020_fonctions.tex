@@ -4,42 +4,152 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Introduction, ensemble de définition}
+\section{Introduction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+\begin{Aprojeter}
+    \begin{example} \label{ExemVmCkIH}
+        Un petit tour de magie. Choisissez un nombre entre \( 1\) et \( 10\). Ajoutez \( 5\), multipliez par \( 2\), ajoutez \( 7\), enlevez le double du nombre de départ.
+    \end{example}
+\end{Aprojeter}
 
-\newpage  % Dans la plus grande tradition de ce cours, les choses en pages pleines sont celles à projeter.
+\begin{Aprojeter}
+    Pouvez-vous trouver un petit tour de magie qui commence par
+    \begin{itemize}
+        \item Multiplier par \( 3\)
+        \item Faire \( +2\)
+        \item \ldots
+    \end{itemize}
+    et qui donne toujours \( 5\) ?
+\end{Aprojeter}
 
-\phantom{}
-\vfill
+\begin{Aprojeter}
+    \lstinputlisting{ex_algo18.py}
+\end{Aprojeter}
 
-\begin{example} \label{ExemVmCkIH}
-    Un petit tour de magie. Choisissez un nombre entre \( 1\) et \( 10\). Ajoutez \( 5\), multipliez par \( 2\), ajoutez \( 7\), enlevez le double du nombre de départ.
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Courbe représentative d'une fonction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%TODO : il faut essayer de refaire une figure pour tous les dessins de Pauline.
+Soit $f$ une fonction définie sur un ensemble $\defD$.
+
+\begin{definition}
+    On appelle \defe{représentation graphique}{représentation graphique (d'une fonction)}, ou le \defe{graphe}{graphe} de $f$, l'ensemble des points $(x,y)$ tels que $x\in\defD$ et $y=f(x)$.
+\end{definition}
+
+
+\begin{Aprojeter}
+
+
+
+\begin{Aretenir}
+    La règle d'or des graphiques : le point de coordonnées \( (a;b)\) est sur le graphique de la fonction \( f\) si et seulement si \( f(a)=b\).
+\end{Aretenir}
+
+%The result is on figure \ref{LabelFigAHAbqhj}. % From file AHAbqhj
+%\newcommand{\CaptionFigAHAbqhj}{<+Type your caption here+>}
+%\input{Fig_AHAbqhj.pstricks}
+
+%\begin{wrapfigure}{r}{7.0cm}
+%   \vspace{-0.5cm}        % à adapter.
+%   \centering
+
+À propos du graphe suivant :
+\begin{center}
+   \input{Fig_AHAbqhj.pstricks}
+\end{center}
+%\end{wrapfigure}
+\begin{enumerate}
+    \item
+        Quel est l'ensemble de définition de la fonction \( f\) ?
+    \item
+        Quelle est l'image de \( 1\) par \( f\) ?
+\end{enumerate}
+<++>
+    
+\end{Aprojeter}
+
+\begin{example}
+    Soit la fonction \( f(x)=3x-1\).
+    \begin{enumerate}
+        \item
+            Le point \( (0;-1)\) est sur la courbe représentative de \( f\) parce que \( f(0)=1\).
+        \item
+            Le point \( (10;29)\) est également sur la courbe parce que \( f(10)=29\).
+        \item
+            Le point \( (2;3)\) n'est par contre pas sur le graphe parce que \( f(2)=5\neq 4\).
+    \end{enumerate}
 \end{example}
 
-\vfill
-\newpage
+Quelque conseils pour dessiner.
+\begin{itemize}
+    \item
+        Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
+    \item
+        Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
+    \item
+        Si possible, trouver quelque valeurs clefs. Par exemple on cherchera les points d'intersection entre les axes et les courbe. Le point \( (0,f(0)) \) est intéressant à mettre, ainsi que les points \( x\) tels que \( f(x)=0\).
+\end{itemize}
 
-\phantom{}
-\vfill
+\begin{example}
+    Créons un petit programme définissant la fonction \( f(x)=x^2-2\) et en calculant \( 10\) valeurs régulièrement espacées entre \( -5\) et \( 5\). La production d'une liste de nombre régulièrement espacés est un travail pour la fonction \info{numpy.linspace}. La syntaxe en est 
+\begin{quote}
+    \info{numpy.linspace(a,b,num=n)}
+\end{quote}
+Cela est une liste de \info{n} nombres régulièrement espacés entre \info{a} et \info{b}. En ce qui concerne le carré, en python les puissances sont données par \info{**}. Par exemple \info{a**3} est le cube de \info{a} :
+\begin{verbatim}
+>>> 2**3
+8
+\end{verbatim}
+Le programme est
 
-\lstinputlisting{ex_algo18.py}
+\lstinputlisting{ex_graphe.py}
 
-\vfill
-\newpage
+Le programme donne :
+
+%\lstinputlisting[title=Résultat]{res_ex_graphe.txt}
+
+\VerbatimInput{res_ex_graphe.txt}
+    
+\end{example}
+
+
+
+\newcommand{\CaptionFigExFonction}{Comment tracer la fonction \( f\colon x\to 2x+1\) ?}
+\input{Fig_ExFonction.pstricks}
+
+Nous donnons à la figure \ref{LabelFigExFonction} le tracé de la fonction \( f(x)=2x+1\). La figure \ref{LabelFigExFonctionssLabelSubFigExFonction0} donne quelque points du graphe de la fonction. La figure \ref{LabelFigExFonctionssLabelSubFigExFonction1} donne le graphe complet de la fonction. Comment le construit-on ? Par définition pour chaque \( x\) sur l'axe des abscisses (il y en a une infinité), il faut calculer le nombre \( f(x)\) et mettre dans le plan le point de coordonnées \( \big( x,f(x) \big)\).
+
+En pratique, il n'est pas possible de calculer \( f(x)\) pour \emph{tous} les \( x\) réels\footnote{Chuck Norris peut le faire.}. C'est pourquoi nous nous contentons qu'en calculer quelque uns, et nous les relions «le plus intelligemment possible».
+
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Ce qui n'est pas une fonction}
+%---------------------------------------------------------------------------------------------------------------------------
+
+%    \includegraphics[width=5cm]{F_NonFct.pdf}
+
+\begin{multicols}{2}
+    Cette courbe ne représente pas une fonction, car à partir de \( x=-4\), les nombres ont deux images. Les courbes données par des fonctions sont des courbes acceptant une seule ordonnée pour chaque abscisse.
+
+\columnbreak
+
+%\includegraphics{Picture_FIGLabelFigPasFonctionYoQfSuPICTPasFonctionYoQfSu-for_eps.pdf}
+
+\input{Fig_PasFonctionYoQfSu.pstricks}
+
+\end{multicols}
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Ensemble de définition}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}
     Soit \( \defD\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( \defD\) en associant à chaque nombre \( x\) dans \( \defD\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
 \end{definition}
-
-La partie difficile de cette définition est l'introduction de l'ensemble de définition \( \defD\). Oublions la un instant pour comprendre le reste. Sans parler de \( \defD\), la définition s'écrit :
-
-\begin{quote}
-    On définit une \defe{fonction}{fonction} \( f\) en associant à chaque nombre \( x\) un seul nombre \( y\).
-\end{quote}
-Cela n'est rien d'autre qu'une façon savante de dire qu'une fonction «prend un nombre en entrée, fait des calculs et retourne un nombre en sortie».
-
-Pourquoi introduit-t-on l'ensemble de définition ? Simplement parce que toute fonction ne va pas accepter toutes les valeurs en entrée. L'ensemble de définition est l'ensemble des valeurs acceptées.
 
 \begin{example}
     Soit la fonction qui à la longueur d'un segment fait correspondre la surface du carré construit sur ce segment. Cette fonction n'est définie que sur les nombres positifs (parce qu'il n'existe pas de segments de longueurs négatives). Nous écrivons donc
@@ -50,6 +160,8 @@ Pourquoi introduit-t-on l'ensemble de définition ? Simplement parce que toute f
         \end{aligned}
     \end{equation}
     et nous avons \( f(x)=x^2\).
+
+    Le symbole \( \mathopen[ 0 , \infty [\) représente l'ensemble de tous les nombres de \( 0\) (y compris) à l'infini, c'est à dire tous les nombres plus grands ou égaux à \( 0\).
 \end{example}
 
 \begin{example}
@@ -63,18 +175,41 @@ Pourquoi introduit-t-on l'ensemble de définition ? Simplement parce que toute f
     Ici il est compliqué de donner une forme explicite pour \( f\).
 \end{example}
 
-En ce qui concerne les notations, nous écrivons
-\begin{equation}
-    \begin{aligned}
-        f\colon \defD&\to \eR \\
-        x&\mapsto f(x). 
-    \end{aligned}
-\end{equation}
-Cela signifie que \( \defD\) est l'\defe{ensemble de définition de \( f\)}{ensemble!de définition}, c'est à dire l'ensemble des nombres sur lesquels \( f\) peut être appliquée. Le symbole \( \eR\) désigne l'ensemble de tous les nombres.
+\begin{example}
+    La fonction carré est :
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eR&\to \eR \\
+            x&\mapsto x^2 
+        \end{aligned}
+    \end{equation}
+    Notons que c'est presque la même que la fonction «surface du carré». La différence est le contexte.
+\end{example}
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Intermède : pourquoi ne pas diviser par zéro ?}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{example}
+    La fonction racine carré est :
+    \begin{equation}
+        \begin{aligned}
+            \sqrt{}\colon \mathopen[ 0 , \infty [&\to \eR  \\
+                x&\mapsto \sqrt{x}. 
+        \end{aligned}
+    \end{equation}
+\end{example}
+
+\begin{example}
+    La fonction inverse est :
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eR\setminus\{ 0 \}&\to \eR \\
+            x&\mapsto \frac{1}{ x }. 
+        \end{aligned}
+    \end{equation}
+    La notation \( \eR\setminus\{ 0 \}\) représente l'ensemble de tous les nombres sauf zéro.
+\end{example}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Intermède : pourquoi ne pas diviser par zéro ?}
+%---------------------------------------------------------------------------------------------------------------------------
 
 La fraction \( \frac{1}{ 0.1 }\) est le nombre de fois que \( 0.1\) rentre dans \( 1\). Cela vaut \( 10\) parce qu'il faut \( 10\) soit \( 0.1\) pour faire \( 1\).
 
@@ -142,7 +277,7 @@ Il peut arriver qu'un nombre ait plusieurs antécédents.
 
 \begin{example}
 
-    Les antécédents de \( 4\) pur la fonction \( f(x)=2x-1\) sont les solutions de l'équation
+    Les antécédents de \( 4\) pour la fonction \( f(x)=2x-1\) sont les solutions de l'équation
     \begin{equation}
         2x-1=4
     \end{equation}
@@ -238,83 +373,4 @@ Les exemples de fonctions dans la «vraie» vie sont nombreux.
     \end{equation}
     où \( g\) est l'accélération de la gravitation sur Terre (environ \( \unit{10}{\meter\per\second\squared}\)).
 \end{example}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Courbe représentative d'une fonction}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-%TODO : il faut essayer de refaire une figure pour tous les dessins de Pauline.
-Soit $f$ une fonction définie sur un ensemble $\defD$.
-
-\begin{definition}
-    On appelle \defe{représentation graphique}{représentation graphique (d'une fonction)}, ou le \defe{graphe}{graphe} de $f$, l'ensemble des points $(x,y)$ tels que $x\in\defD$ et $y=f(x)$.
-\end{definition}
-
-\newcommand{\CaptionFigExFonction}{Comment tracer la fonction \( f(x)=2x+1\) ?}
-\input{Fig_ExFonction.pstricks}
-
-Nous donnons à la figure \ref{LabelFigExFonction} le tracé de la fonction \( f(x)=2x+1\). La figure \ref{LabelFigExFonctionssLabelSubFigExFonction0} donne quelque points du graphe de la fonction. La figure \ref{LabelFigExFonctionssLabelSubFigExFonction1} donne le graphe complet de la fonction. Comment le construit-on ? Par définition pour chaque \( x\) sur l'axe des abscisses (il y en a une infinité), il faut calculer le nombre \( f(x)\) et mettre dans le plan le point de coordonnées \( \big( x,f(x) \big)\).
-
-En pratique, il n'est pas possible de calculer \( f(x)\) pour \emph{tous} les \( x\) réels\footnote{Chuck Norris peut le faire.}. C'est pourquoi nous nous contentons qu'en calculer quelque uns, et nous les relions «le plus intelligemment possible».
-
-\begin{example}
-    Soit la fonction \( f(x)=3x-1\).
-    \begin{enumerate}
-        \item
-            Le point \( (0;-1)\) est sur la courbe représentative de \( f\) parce que \( f(0)=1\).
-        \item
-            Le point \( (10;29)\) est également sur la courbe parce que \( f(10)=29\).
-        \item
-            Le point \( (2;3)\) n'est par contre pas sur le graphe parce que \( f(2)=5\neq 4\).
-    \end{enumerate}
-\end{example}
-
-Quelque conseils pour dessiner.
-\begin{itemize}
-    \item
-        Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
-    \item
-        Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
-    \item
-        Si possible, trouver quelque valeurs clefs. Par exemple on cherchera les points d'intersection entre les axes et les courbe. Le point \( (0,f(0)) \) est intéressant à mettre, ainsi que les points \( x\) tels que \( f(x)=0\).
-\end{itemize}
-
-\begin{example}
-    Créons un petit programme définissant la fonction \( f(x)=x^2-2\) et en calculant \( 10\) valeurs régulièrement espacées entre \( -5\) et \( 5\). La production d'une liste de nombre régulièrement espacés est un travail pour la fonction \info{numpy.linspace}. La syntaxe en est 
-\begin{quote}
-    \info{numpy.linspace(a,b,num=n)}
-\end{quote}
-Cela est une liste de \info{n} nombres régulièrement espacés entre \info{a} et \info{b}. En ce qui concerne le carré, en python les puissances sont données par \info{**}. Par exemple \info{a**3} est le cube de \info{a} :
-\begin{verbatim}
->>> 2**3
-8
-\end{verbatim}
-Le programme est
-
-\lstinputlisting{ex_graphe.py}
-
-Le programme donne :
-
-%\lstinputlisting[title=Résultat]{res_ex_graphe.txt}
-
-\VerbatimInput{res_ex_graphe.txt}
-    
-\end{example}
-
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Ce qui n'est pas une fonction}
-%---------------------------------------------------------------------------------------------------------------------------
-
-%    \includegraphics[width=5cm]{F_NonFct.pdf}
-
-\begin{multicols}{2}
-    Cette courbe ne représente pas une fonction, car à partir de \( x=-4\), les nombres ont deux images. Les courbes données par des fonctions sont des courbes acceptant une seule ordonnée pour chaque abscisse.
-
-\columnbreak
-
-%\includegraphics{Picture_FIGLabelFigPasFonctionYoQfSuPICTPasFonctionYoQfSu-for_eps.pdf}
-
-\input{Fig_PasFonctionYoQfSu.pstricks}
-
-\end{multicols}
 

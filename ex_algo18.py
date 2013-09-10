@@ -1,9 +1,9 @@
 def f(x):
-    a=x+5
-    b=2*a
-    c=b+7
-    return c-2*x
+    a=3*x
+    b=a+2
+    c=b+3
+    d=c-3*x
+    return d
 
-
-print(  f(4)  )
 print(  f(2) )
+print(  f(5) )

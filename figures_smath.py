@@ -178,6 +178,7 @@ from phystricksfigureITVTofz import figureITVTofz
 from phystricksfigureNAKnjxQ import figureNAKnjxQ
 from phystricksfigureAEcZqpP import figureAEcZqpP
 from phystricksEGDFJAT import EGDFJAT
+from phystricksAHAbqhj import AHAbqhj
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -201,10 +202,10 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     figureEWDVDTS, figureTJkpHLv,figureDTzvwiz,figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP, figureSZyxsvp,
     figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,
     LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,
-    DZmbmzZ,ITlywMb,EGDFJAT
+    DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj
     ]
 
-figures_list=[EGDFJAT]
+figures_list=[AHAbqhj]
 
 for k in sys.argv:
     s=[]

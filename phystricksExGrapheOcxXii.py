@@ -5,9 +5,8 @@ def ExGrapheOcxXii():
     f=phyFunction(2*x+1)
 
     pspicts,fig = MultiplePictures("ExFonction",2,script_filename="ExGrapheOcxXii")
-    pspicts[0].mother.caption="Quelque points du graphe de $f(x)=2x+1$"
-    pspicts[1].mother.caption="Le graphe de $f(x)=2x+1$"
-
+    pspicts[0].mother.caption="Quelque points du graphe de $ x\mapsto 2x+1$"
+    pspicts[1].mother.caption="Le graphe de $ x\mapsto 2x+1$"
 
     for psp in pspicts:
         psp.dilatation_Y(1)
