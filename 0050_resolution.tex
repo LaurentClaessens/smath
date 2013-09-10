@@ -153,3 +153,92 @@ Les solutions de l'inéquation $f(x)<g(x)$ sont les abscisses des points pour le
 \input{Fig_ExIneqfgZWStde.pstricks}
 
 La figure \ref{LabelFigExIneqfgZWStde} montre la résolution d'une telle inéquation. Notons que l'ensemble des solutions peut être en plusieurs morceaux.
+
+
+\subsection{Tableau de variations}
+
+
+Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
+\begin{enumerate}
+    \item
+        les positions des sommets,
+    \item
+        les flèches indiquant les endroits où la fonction est croissante ou décroissante.
+\end{enumerate}
+Un petit exemple valant mieux qu'un long discours\ldots
+
+% à noter le 9 dans l'environnement suivant est le nombre de lignes sur lesquelles la figure s'étale. Je suis obligé de donner à la main parce que le tableau ne compte apparemment que pour une seule ligne. Du coup si je laisse à LaTeX le soin de calculer, les lignes de texte en-dessous de la figure (et en particulier à la page suivante si la figure est en bas de page) sont encore coupées.
+\begin{wrapfigure}[9]{r}{6.0cm}     
+   \vspace{-1cm}        % à adapter.
+   \centering
+   \input{Fig_GrapheVarREGMqx.pstricks}
+\end{wrapfigure}
+
+    Le tableau de variation de la fonction dessinée ci-contre est :
+    \begin{equation*}
+    \begin{array}[h]{|c|ccccccc|}
+        \hline
+        x&-3&&-2&&0&&2\\
+        \hline
+        &&&2&&&&1\\
+        f(x)&&\nearrow&&\searrow&&\nearrow&\\
+        &-\frac{ 9 }{2}&&&&-\frac{ 1 }{2}&&\\
+        \hline
+    \end{array}
+    \end{equation*}
+    En effet, la fonction \( f\)
+    \begin{itemize}
+        \item 
+            part de \( x=-3\) où \( f(x)=-9/2\);
+        \item
+            elle monte jusqu'en \( x=-2\) où elle vaut \( f(x)=2\);
+        \item
+            elle descend jusqu'en \( x=0\) où elle vaut \( -\frac{ 1 }{2}\);
+        \item
+            elle monte jusqu'en \( x=2\) où elle vaut \( 1\).
+    \end{itemize}
+
+Le plus souvent si on donne un dessin, les nombres à placer dans un tableau de variation sont des valeur approchées à la précision du dessin. Donner les réponses en fraction n'est donc pas obligatoire. Par exemple ici au lieu d'écrire \( -9/2\) dans le tableau, il aurait été possible d'écrire \( -4.5\).
+
+\section{Minimum et maximum}
+
+Les notions de minima et maxima parlent, comme l'indiquent leurs noms en français, des points du graphe d'une fonction les plus hauts et les plus bas.
+
+\begin{definition}
+      Soit $f$ une fonction définie sur un intervalle $I$.
+      \begin{itemize}
+          \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)} sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$ et pour tout $x\in I$, $f(x)\geq m$. 
+    \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum} sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout $x\in I$, $f(x)\leq M$.
+      \end{itemize}
+\end{definition}
+
+Sur la figure \ref{LabelFigMinMaxKNRdOd}, nous avons indiqué le minimum et le maximum de la fonction dessinée.
+\newcommand{\CaptionFigMinMaxKNRdOd}{Minimum et maximum d'une fonction.}
+\input{Fig_MinMaxKNRdOd.pstricks}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Problèmes et résolution d'équation}
+%---------------------------------------------------------------------------------------------------------------------------
+
+
+\Exo{smath-0210}
+\Exo{smath-0001}
+\Exo{smath-0004}
+\Exo{smath-0005}
+\Exo{smath-0006}
+\Exo{Seconde-0046}
+
+\Exo{smath-0186}    % Cet exercice est le même que le smath-0111, mais vu différemment.
+\Exo{smath-0078}
+\Exo{smath-0013}
+\Exo{Seconde-0068}
+\Exo{Seconde-0064}
+\Exo{Seconde-0044}
+\Exo{Seconde-0066}
+\Exo{Seconde-0075}
+\Exo{Seconde-0076}
+
