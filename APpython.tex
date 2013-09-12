@@ -140,6 +140,33 @@ Est-ce que vous pouvez en déduire un critère de divisibilité basé sur l'usag
 \Exo{Premiere-0067}
 
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Tracer une fonction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{example}
+    Créons un petit programme définissant la fonction \( f(x)=x^2-2\) et en calculant \( 10\) valeurs régulièrement espacées entre \( -5\) et \( 5\). La production d'une liste de nombre régulièrement espacés est un travail pour la fonction \info{numpy.linspace}. La syntaxe en est 
+\begin{quote}
+    \info{numpy.linspace(a,b,num=n)}
+\end{quote}
+Cela est une liste de \info{n} nombres régulièrement espacés entre \info{a} et \info{b}. En ce qui concerne le carré, en python les puissances sont données par \info{**}. Par exemple \info{a**3} est le cube de \info{a} :
+\begin{verbatim}
+>>> 2**3
+8
+\end{verbatim}
+Le programme est
+
+\lstinputlisting{ex_graphe.py}
+
+Le programme donne :
+
+%\lstinputlisting[title=Résultat]{res_ex_graphe.txt}
+
+\VerbatimInput{res_ex_graphe.txt}
+    
+\end{example}
+
+
 
 \chapter{Manipulation de texte}
 

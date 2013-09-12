@@ -3,6 +3,517 @@
 %   Laurent Claessens, Pauline Klein
 % See the file fdl-1.3.txt for copying conditions.
 
+%AFAIRE : envoyer mon emploi du temps et mon horaire à Sandrine.jouvenot@ac-besancon.fr
+
+
+\begin{example}
+    Soit la fonction \( f(x)=3x-1\).
+    \begin{enumerate}
+        \item
+            Le point \( (0;-1)\) est sur la courbe représentative de \( f\) parce que \( f(0)=1\).
+        \item
+            Le point \( (10;29)\) est également sur la courbe parce que \( f(10)=29\).
+        \item
+            Le point \( (2;3)\) n'est par contre pas sur le graphe parce que \( f(2)=5\neq 4\).
+    \end{enumerate}
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Petit tour de magie}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{Aprojeter}
+    \begin{example} \label{ExemVmCkIH}
+        Un petit tour de magie. Choisissez un nombre entre \( 1\) et \( 10\). Ajoutez \( 5\), multipliez par \( 2\), ajoutez \( 7\), enlevez le double du nombre de départ.
+    \end{example}
+\end{Aprojeter}
+
+\begin{Aprojeter}
+    Pouvez-vous trouver un petit tour de magie qui commence par
+    \begin{itemize}
+        \item Multiplier par \( 3\)
+        \item Faire \( +2\)
+        \item \ldots
+    \end{itemize}
+    et qui donne toujours \( 5\) ?
+\end{Aprojeter}
+
+\begin{Aprojeter}
+    \lstinputlisting{ex_algo18.py}
+\end{Aprojeter}
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Ensemble de définition}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Soit \( \defD\) un ensemble de nombres. On définit une \defe{fonction}{fonction} \( f\) sur \( \defD\) en associant à chaque nombre \( x\) dans \( \defD\) un seul nombre \( y\). Dans ce cas nous disons que \( f\) est une fonction de la \defe{variable}{variable} \( x\).
+\end{definition}
+
+\begin{example}
+    Soit la fonction qui à la longueur d'un segment fait correspondre la surface du carré construit sur ce segment. Cette fonction n'est définie que sur les nombres positifs (parce qu'il n'existe pas de segments de longueurs négatives). Nous écrivons donc
+    \begin{equation}
+        \begin{aligned}
+            f\colon \mathopen[ 0 , \infty [&\to \eR \\
+            x&\mapsto x^2,
+        \end{aligned}
+    \end{equation}
+    et nous avons \( f(x)=x^2\).
+
+    Le symbole \( \mathopen[ 0 , \infty [\) représente l'ensemble de tous les nombres de \( 0\) (y compris) à l'infini, c'est à dire tous les nombres plus grands ou égaux à \( 0\).
+\end{example}
+
+\begin{example}
+    Soit la fonction qui a un nombre entier fait correspondre la somme de ses chiffres. Par exemple \( f(0)=0\) et \( f(123)=6\). Cette fonction est définie sur les entiers et retourne un entier. Nous pouvons écrire
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eN&\to \eN \\
+            x&\mapsto f(x). 
+        \end{aligned}
+    \end{equation}
+    Ici il est compliqué de donner une forme explicite pour \( f\).
+\end{example}
+
+\begin{example}
+    La fonction carré est :
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eR&\to \eR \\
+            x&\mapsto x^2 
+        \end{aligned}
+    \end{equation}
+    Notons que c'est presque la même que la fonction «surface du carré». La différence est le contexte.
+\end{example}
+
+\begin{example}
+    La fonction racine carré est :
+    \begin{equation}
+        \begin{aligned}
+            \sqrt{}\colon \mathopen[ 0 , \infty [&\to \eR  \\
+                x&\mapsto \sqrt{x}. 
+        \end{aligned}
+    \end{equation}
+\end{example}
+
+\begin{example}
+    La fonction inverse est :
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eR\setminus\{ 0 \}&\to \eR \\
+            x&\mapsto \frac{1}{ x }. 
+        \end{aligned}
+    \end{equation}
+    La notation \( \eR\setminus\{ 0 \}\) représente l'ensemble de tous les nombres sauf zéro.
+\end{example}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Intermède : pourquoi ne pas diviser par zéro ?}
+%---------------------------------------------------------------------------------------------------------------------------
+
+La fraction \( \frac{1}{ 0.1 }\) est le nombre de fois que \( 0.1\) rentre dans \( 1\). Cela vaut \( 10\) parce qu'il faut \( 10\) soit \( 0.1\) pour faire \( 1\).
+
+Que vaut \( \frac{1}{ 0.0001 }\) ? C'est le nombre de fois que \( 0.0001\) rentre dans \( 1\), c'est à dire dix mille.
+
+Que vaudrait \( \frac{1}{ 0 }\) ? C'est le nombre de fois qu'il faut prendre zéro pour obtenir \( 1\).
+
+\begin{example}
+    Considérons la fonction qui a un nombre fait correspondre son inverse : \( f\colon x\mapsto \frac{1}{ x }\). Pour se dérouiller le cerveau, je propose quelque valeurs :
+    \begin{equation}
+        \begin{aligned}[]
+            f(1)&=1&f(5)&=\frac{1}{ 5 }&f(\frac{ 2 }{ 3 })=\frac{ 3 }{ 2 }\\
+            f(\frac{ 1 }{ 4 })&=4&f(-3)&=-\frac{1}{ 3 }&f(-1)&=-1.
+        \end{aligned}
+    \end{equation}
+    Cette fonction est implémentée en python de la façon suivante :
+
+\lstinputlisting{ex_inverse.py}
+
+donne
+
+%\lstinputlisting[title=Résultat]{res_ex_inverse.txt}
+\VerbatimInput{res_ex_inverse.txt}
+
+Très clairement, python ne veut pas calculer l'inverse de zéro et plante sur un message on ne peut plus clair : \info{ZeroDivisionError: division by zero}.
+
+Effectivement, l'inverse de zéro n'existe pas. L'ensemble de définition de notre fonction \( f(x)=1/x\) n'est donc pas \( \eR\) tout entier, mais seulement \( \eR\setminus\{ 0 \}\).
+
+\end{example}
+
+\begin{Aretenir}        \label{ArtJgipNt}
+    Il n'est pas permis de diviser par zéro. Une fonction qui contient un dénominateur ne peut pas avoir dans son ensemble de définition des \( x\) qui annulent le dénominateur. Autrement dit dès que vous voyez
+    \begin{equation}
+        \frac{1}{ f(x) }
+    \end{equation}
+    vous devez résoudre l'équation \( f(x)=0\).
+\end{Aretenir}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Antécédent}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{Aretenir}
+Une fonction associe à chaque nombre de l'ensemble de définition \emph{un seul} nombre, appelé \defe{image}{image}. Si \( a\) est un nombre, un \defe{antécédent}{antécédent} de \( a\) par la fonction \( f\) est un nombre \( x\in\defD\) tel que 
+\begin{equation}
+    f(x)=a.
+\end{equation}
+Autrement dit, les antécédents de \( a\) sont les éléments de \( \eR\) dont l'image par \( f\) est \( a\).
+
+Il peut arriver qu'un nombre ait plusieurs antécédents.
+\end{Aretenir}
+
+
+\begin{example}
+    Pour la fonction \( f(x)=2x-1\), un antécédent de \( 5\) est le nombre \( 3\). Un antécédent du nombre \( -10\) est la nombre \( -9/2\).
+\end{example}
+
+\begin{Aretenir}
+    Trouver les antécédents de \( a\) par la fonction \( f\) revient à trouver les solutions de l'équation
+    \begin{equation}
+        f(x)=a.
+    \end{equation}
+\end{Aretenir}
+
+
+\begin{example}
+
+    Les antécédents de \( 4\) pour la fonction \( f(x)=2x-1\) sont les solutions de l'équation
+    \begin{equation}
+        2x-1=4
+    \end{equation}
+    c'est à dire \( x=\frac{ 5 }{2}\). Il se fait qu'il y en a un seul.
+
+    Plus généralement l'antécédent de \( a\) pour cette fonction est la solution de l'équation
+    \begin{equation}
+        2x-1=a,
+    \end{equation}
+    c'est à dire le nombre \( x=\frac{ a+1 }{ 2 }\).
+\end{example}
+
+\begin{example} \label{EqlaIGDz}
+    Si nous avons une série statistique de \( n\) valeurs, pour trouver le premier quartile nous devons diviser \( n\) par \( 4\) et prendre l'entier le plus proche vers le haut. Cela donne le numéro de la valeur correspondante au premier quartile.
+
+    En python, la fonction qui donne le numéro de la valeur du premier quartile en fonction de \( n\) est
+    \begin{quote}
+        \info{math.ceil(n/4)}
+    \end{quote}
+    Notons \( f\) cette fonction. Son ensemble de définition est l'ensemble des entiers non nuls. Le graphique de cette fonction est donné à la figure \ref{LabelFigMathCeilwCXIJZ}.
+\newcommand{\CaptionFigMathCeilwCXIJZ}{Le numéro de la valeur du premier quartile en fonction du nombre de valeurs.}
+\input{Fig_MathCeilwCXIJZ.pstricks}
+
+    Le graphique est uniquement constitué de points. Pas de lignes entre, parce qu'il n'existe pas de séries statistiques comprenant \( 3.7\) valeurs par exemple. 
+\end{example}
+
+\Exo{Seconde-0053}
+
+\begin{example}
+    Soit la fonction définie sur \( \defD=\{ -5,-1,1,3,9 \}\) de la façon suivante :
+    \begin{equation}
+        \begin{array}[h]{|c||c|c|c|c|c|c|}
+            \hline
+            x&-5&-1&1&3&9&10\\
+            \hline
+            f(x)&0&2&-3&7&2&5\\
+            \hline
+        \end{array}
+    \end{equation}
+    Nous pouvons dire que
+    \begin{enumerate}
+        \item
+            L'image de \( 1\) par \( f\) est \( -3\).
+        \item
+            L'unique antécédent de \( 7\) est \( 3\).
+        \item
+            Les nombres \( -1\) et \( 9\) sont tous deux des antécédents de \( 2\).
+    \end{enumerate}
+\end{example}
+
+\begin{example}
+    Soit la fonction \( f(x)=(x+1)^2\). Nous avons \( f(-1)=0\), \( f(4)=25\); nous disons que \( 0\) est l'image de \( -1\) par \( f\) et que \( 25\) est l'image de \( 4\) par \( f\).
+
+    Remarquons que \( f(-2)=1\) et \( f(0)=1\). Donc \( -2\) et \( 0\) sont deux antécédents de \( 1\).
+\end{example}
+
+\begin{example}
+    Le nombre \( 4\) est un antécédent de \( 3\) pour la fonction \( f(x)=\frac{ x }{ 2 }+1\).
+\end{example}
+
+\begin{example}
+    Les nombres \( 3\) et \( -3\) sont tout deux des antécédents de \( 9\) pour la fonction \( x\mapsto x^2\).
+\end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Modélisation par une fonction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Les exemples de fonctions dans la «vraie» vie sont nombreux.
+
+\begin{example}
+    Soit un triangle rectangle isocèle dont les côtés de l'angle droit sont de longueur \( x\). Alors la surface est donnée par la fonction
+    \begin{equation}
+        f(x)=\frac{ x^2 }{2}.
+    \end{equation}
+    L'ensemble de définition est \( \defD=\mathopen] 0 , \infty \mathclose[\) parce que \( x\) représente une longueur.
+\end{example}
+
+\begin{example}
+    Un vélo se déplace à \( \unit{20}{\kilo\meter\per\hour}\). Après un temps \( t\), il aura parcouru une distance
+    \begin{equation}
+        d(t)=20t
+    \end{equation}
+    kilomètres. Ici l'ensemble de définition est plus délicat; il dépend du contexte.
+
+    Notons que la variable d'une fonction n'est pas obligatoirement toujours notée \( x\) et que la fonction n'est pas toujours obligatoirement notée \( f\).
+\end{example}
+
+\begin{example}
+    Vous verrez dans un cours de physique que si on lance un objet verticalement avec une vitesse initiale \( v_0\), alors la hauteur en fonction du temps est donnée par
+    \begin{equation}
+        h(t)=v_0t-\frac{ gt^2 }{2}
+    \end{equation}
+    où \( g\) est l'accélération de la gravitation sur Terre (environ \( \unit{10}{\meter\per\second\squared}\)).
+\end{example}
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\section{Résolution graphique d'(in)équations} 
+%---------------------------------------------------------------------------------------------------------------------------
+
+\subsection{Lecture graphique des images et des antécédents}
+
+\begin{multicols}{2}
+
+    Nous considérons la fonction
+    \begin{equation}
+        \begin{aligned}
+            f\colon \eR&\to \eR \\
+            x&\mapsto x^2 
+        \end{aligned}
+    \end{equation}
+    dont le graphe est donné ci-contre. À chaque réel $x$, nous associons l'abscisse $y=f(x)$.  À l'aide du graphe donné, répondre aux questions suivantes.
+
+    \begin{itemize}
+        \item Image de $1,5$ ? 
+        \item Antécédent de $3,5$ ?  
+        \item Antécédent de $-1$ ? 
+        \item Antécédent de $0$ ? 
+    \end{itemize}
+
+    \columnbreak
+
+    %\includegraphics{Picture_FIGLabelFigFCarreQFhsWzPICTFCarreQFhsWz-for_eps.pdf}
+    %\newcommand{\CaptionFigFCarreQFhsWz}{Le graphe de la fonction \( x\mapsto x^2\).}
+    \input{Fig_FCarreQFhsWz.pstricks}
+
+\end{multicols}
+
+  \begin{example}
+Compléter le tableau suivant pour la fonction $f(x)=x^2$.
+\begin{equation}
+\begin{array}[h]{|c|c|c|c|c|c|c|c|c|c|c|c|}
+  \hline  
+  x & -4 & -3 & -2 & -1 & 0 & 1 & 2 & 3 & 4 & -0,5 & 0,5  \\
+  \hline
+  y & 16 &&&&&&&&&&0.25\\
+  \hline
+\end{array}
+\end{equation}
+  \end{example}
+
+
+\subsection{Résolution graphique d'équations}
+
+\begin{Aretenir}
+    Soit $k$, un réel fixé. Résoudre l'équation $f(x)=k$ revient à chercher les antécédents par $f$ du nombre $k$.
+
+Le nombre de solutions de l'équation $f(x)=k$ est égal au nombre de points d'intersection de la courbe représentative de \( f\) avec la droite $d$ d'équation $y=k$. Les solutions sont les abscisses de ces points d'intersection. 
+\end{Aretenir}
+
+
+\begin{example}
+    \begin{multicols}{2}
+  Nous cherchons à résoudre $f(x)=4$. 
+  \begin{itemize}
+      \item 
+          Nous traçons la droite horizontale d'équation \( y=4\);
+      \item
+          nous observons les points d'intersection de cette droite avec la courbe;
+      \item
+          les solutions de l'équation sont les abscisses de ces points.
+  \end{itemize}
+
+\columnbreak
+
+
+%The result is on figure \ref{LabelFigExCarrexvfvre}. % From file ExCarrexvfvre
+%\newcommand{\CaptionFigExCarrexvfvre}{<+Type your caption here+>}
+\input{Fig_ExCarrexvfvre.pstricks}
+
+    \end{multicols}
+
+    Sans surprises, les solutions de \( x^2=4\) sont \( x=2\) et \( x=-2\).
+
+\end{example}
+
+\begin{Aretenir}
+    Résoudre l'équation $f(x)=g(x)$ revient à déterminer les abscisses des points d'intersection des courbes représentatives de \( f\) et \( g\).
+\end{Aretenir}
+
+
+\begin{multicols}{2}
+
+    Les solutions de l'équation \( f(x)=g(x)\) sont les abscisses des points d'intersection des deux courbes. Pour les trouver, il suffit de repérer les points d'intersections, puis de les projeter sur l'axe horizontal.
+
+    Dans le cas de la figure ci-contre, les solutions sont approximativement \( x=-3.6\), \( x=-1.1\) et \( x=1.5\).
+
+\columnbreak
+
+%The result is on figure \ref{LabelFigExEquationIntersectioniSHPTw}. % From file ExEquationIntersectioniSHPTw
+%\newcommand{\CaptionFigExEquationIntersectioniSHPTw}{<+Type your caption here+>}
+\input{Fig_ExEquationIntersectioniSHPTw.pstricks}
+
+\end{multicols}
+
+
+\subsection{Résolution graphique d'inéquations}
+
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Inéquation du type $f(x)<k$}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+\begin{Aretenir}
+Les solutions de l'inéquation $f(x)<k$ sont les abscisses des points de $\mathscr{C}$ situés en-dessous de la droite d'équation $y=k$.
+
+En particulier, les solutions de l'inéquation $f(x)<0$ sont les abscisses des points de la courbe représentative de \( f\) situés en-dessous de l'axe des abscisses, c'est-à-dire ayant une ordonnée strictement négative.
+\end{Aretenir}
+
+\begin{multicols}{2}
+    Sur la figure ci-contre, nous résolvons \( f(x)\leq 2\). La procédure à suivre est la suivante.
+    \begin{enumerate}
+        \item
+            Tracer la droite horizontale \( y=2\).
+        \item
+            Trouver les points d'intersection avec le graphe de \( f\).
+        \item
+            Les solutions sont les abscisses pour lesquelles le graphe de \( f\) est au-dessus du graphe de la droite \( y=2\).
+    \end{enumerate}
+
+    \columnbreak
+
+%\includegraphics{Picture_FIGLabelFigExIneqOcAWMqPICTExIneqOcAWMq-for_eps.pdf}
+    %\newcommand{\CaptionFigExIneqOcAWMq}{Les solutions de l'équation \( f(x)\leq 2\) sont en ondulé.}
+    \input{Fig_ExIneqOcAWMq.pstricks}
+
+\end{multicols}
+
+
+\begin{remark}
+    Ici nous avons résolut l'équation \( f(x)\leq 2\). Les deux points extrêmes dont partie de l'ensemble des solutions. Si nous avions résolu \( f(x)<2\), alors les points extrêmes n'auraient pas fait partie de l'ensemble des solutions.
+\end{remark}
+
+On procède de la même manière pour les inégalités du type $f(x)>k$, $f(x)\geq k$, $f(x)\leq k$. 
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Inéquation du type $f(x)<g(x)$}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Les solutions de l'inéquation $f(x)<g(x)$ sont les abscisses des points pour lesquels la courbe de \( f\) est en-dessous de la courbe de \( g\).
+
+\newcommand{\CaptionFigExIneqfgZWStde}{En cyan, l'ensemble des solutions de l'inéquation \( f(x)<g(x)\).}
+\input{Fig_ExIneqfgZWStde.pstricks}
+
+La figure \ref{LabelFigExIneqfgZWStde} montre la résolution d'une telle inéquation. Notons que l'ensemble des solutions peut être en plusieurs morceaux.
+
+
+\subsection{Tableau de variations}
+
+
+Le \defe{tableau de variation}{tableau de variation} est un tableau contenant
+\begin{enumerate}
+    \item
+        les positions des sommets,
+    \item
+        les flèches indiquant les endroits où la fonction est croissante ou décroissante.
+\end{enumerate}
+Un petit exemple valant mieux qu'un long discours\ldots
+
+% à noter le 9 dans l'environnement suivant est le nombre de lignes sur lesquelles la figure s'étale. Je suis obligé de donner à la main parce que le tableau ne compte apparemment que pour une seule ligne. Du coup si je laisse à LaTeX le soin de calculer, les lignes de texte en-dessous de la figure (et en particulier à la page suivante si la figure est en bas de page) sont encore coupées.
+\begin{wrapfigure}[9]{r}{6.0cm}     
+   \vspace{-1cm}        % à adapter.
+   \centering
+   \input{Fig_GrapheVarREGMqx.pstricks}
+\end{wrapfigure}
+
+    Le tableau de variation de la fonction dessinée ci-contre est :
+    \begin{equation*}
+    \begin{array}[h]{|c|ccccccc|}
+        \hline
+        x&-3&&-2&&0&&2\\
+        \hline
+        &&&2&&&&1\\
+        f(x)&&\nearrow&&\searrow&&\nearrow&\\
+        &-\frac{ 9 }{2}&&&&-\frac{ 1 }{2}&&\\
+        \hline
+    \end{array}
+    \end{equation*}
+    En effet, la fonction \( f\)
+    \begin{itemize}
+        \item 
+            part de \( x=-3\) où \( f(x)=-9/2\);
+        \item
+            elle monte jusqu'en \( x=-2\) où elle vaut \( f(x)=2\);
+        \item
+            elle descend jusqu'en \( x=0\) où elle vaut \( -\frac{ 1 }{2}\);
+        \item
+            elle monte jusqu'en \( x=2\) où elle vaut \( 1\).
+    \end{itemize}
+
+Le plus souvent si on donne un dessin, les nombres à placer dans un tableau de variation sont des valeur approchées à la précision du dessin. Donner les réponses en fraction n'est donc pas obligatoire. Par exemple ici au lieu d'écrire \( -9/2\) dans le tableau, il aurait été possible d'écrire \( -4.5\).
+
+\section{Minimum et maximum}
+
+Les notions de minima et maxima parlent, comme l'indiquent leurs noms en français, des points du graphe d'une fonction les plus hauts et les plus bas.
+
+\begin{definition}
+      Soit $f$ une fonction définie sur un intervalle $I$.
+      \begin{itemize}
+          \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)} sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$ et pour tout $x\in I$, $f(x)\geq m$. 
+    \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum} sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout $x\in I$, $f(x)\leq M$.
+      \end{itemize}
+\end{definition}
+
+Sur la figure \ref{LabelFigMinMaxKNRdOd}, nous avons indiqué le minimum et le maximum de la fonction dessinée.
+\newcommand{\CaptionFigMinMaxKNRdOd}{Minimum et maximum d'une fonction.}
+\input{Fig_MinMaxKNRdOd.pstricks}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Exercices}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Problèmes et résolution d'équation}
+%---------------------------------------------------------------------------------------------------------------------------
+
+
+\Exo{smath-0210}
+\Exo{smath-0001}
+\Exo{smath-0004}
+\Exo{smath-0005}
+\Exo{smath-0006}
+\Exo{Seconde-0046}
+
+\Exo{smath-0186}    % Cet exercice est le même que le smath-0111, mais vu différemment.
+\Exo{smath-0078}
+\Exo{smath-0013}
+\Exo{Seconde-0068}
+\Exo{Seconde-0064}
+\Exo{Seconde-0044}
+\Exo{Seconde-0066}
+\Exo{Seconde-0075}
+\Exo{Seconde-0076}
+
+
 %---------------------------------------------------------------------------------------------------------------------------
 \section{Résolution graphique d'(in)équations} 
 %---------------------------------------------------------------------------------------------------------------------------
