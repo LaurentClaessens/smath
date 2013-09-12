@@ -83,8 +83,8 @@ from phystricksUnSurxInt import UnSurxInt
 from phystricksAireParabole import AireParabole
 from phystricksPartieEntiere import PartieEntiere
 from phystricksMantisse import Mantisse
-from phystricksDS2010ExoGraph import DS2010ExoGraph
-from phystricksDS2010bisExoGraph import DS2010bisExoGraph
+#from phystricksDS2010ExoGraph import DS2010ExoGraph
+#from phystricksDS2010bisExoGraph import DS2010bisExoGraph
 from phystricksSolsEqDiffSin import SolsEqDiffSin
 from phystricksSolsSinpA import SolsSinpA
 from phystricksTrajs import Trajs
@@ -185,7 +185,10 @@ def AllFigures(figures_list):
     tests.generate()
     tests.summary()
 
-figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis,
+# Les fonctions suivantes sont supprimées (12 septembre 2013)
+#DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,
+
+figures_list=[ExoCUd,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraphes,SolsSinpA,Trajs, ExerciceGraphesbis,
     UnSurxInt, AireParabole, PartieEntiere, Mantisse, EvZZys,BpCNVm,HistoAutomobile,HistoTdkccB,HistoPySeT, HistoAgeFrance,HistoAgeKenya,
     EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,ParaboleHautMLbPQF,
     ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
@@ -205,7 +208,7 @@ figures_list=[DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,SolsEqDiffSin, Grapheunsu
     DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj
     ]
 
-figures_list=[AHAbqhj]
+figures_list=[ExoIntersectionCourbenzIxXd]
 
 for k in sys.argv:
     s=[]
