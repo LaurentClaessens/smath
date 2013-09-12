@@ -208,7 +208,7 @@ figures_list=[ExoCUd,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraph
     DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj
     ]
 
-figures_list=[ExoIntersectionCourbenzIxXd]
+figures_list=[ExResolutionOSiaMS]
 
 for k in sys.argv:
     s=[]

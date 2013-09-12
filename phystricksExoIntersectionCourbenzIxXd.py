@@ -1,10 +1,5 @@
 # -*- coding: utf8 -*-
 
-# Cette fonction n'est utilisée que pour son graphique.
-# Si on a besoin de choses qui demandent recompilation, il faut recompiler
-# pytex lst_pour_les_graphiques.py
-
-
 from phystricks import *
 def ExoIntersectionCourbenzIxXd():
     pspict,fig = SinglePicture("ExoIntersectionCourbenzIxXd")
