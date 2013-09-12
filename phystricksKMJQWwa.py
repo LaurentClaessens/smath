@@ -1,6 +1,8 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 
+x=var('x')
+
 def grille(fun=None):
     l=[]
     for x in range(1,11):
