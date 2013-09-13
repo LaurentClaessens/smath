@@ -6,11 +6,14 @@ def WRXbDCo():
     pspict.dilatation_Y(0.2)
 
     x=var('x')
-    f=LagrangePolynomial( [Point(0,15),Point(1,20),Point(3,0)] ).graph(0,3)
+    abysse=3.15
+    f=LagrangePolynomial( [Point(0,15),Point(1,20),Point(3,0)] ).graph(0,abysse)
+    rem=Segment(  Point(abysse,f(abysse)),Point(4,0)  )
+    rem.parameters.color=f.parameters.color
 
     #f.parameters.color="green"
 
-    pspict.DrawGraphs(f)
+    pspict.DrawGraphs(f,rem)
     pspict.axes.single_axeY.Dx=5
     pspict.grid.Dx=1
     pspict.grid.Dy=5
@@ -19,6 +22,12 @@ def WRXbDCo():
 
     pspict.axes.do_mx_enlarge=False
     pspict.axes.do_my_enlarge=False
+
+    pspict.specific_needs="""\usepackage[cdot,thinqspace,amssymb]{SIunits}"""
+
+    pspict.axes.single_axeX.put_mark(0.2,-45,"\second",automatic_place=(pspict,"N"))
+    pspict.axes.single_axeY.put_mark(0.2,0,"\meter",automatic_place=(pspict,"W"))
+
 
     pspict.DrawDefaultAxes()
     # TODO : si on enlève la grille, alors le do_mx_enlarge est pris en compte.

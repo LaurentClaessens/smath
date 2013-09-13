@@ -7,8 +7,8 @@ def ExVarGraphiqueyhHpqn():
     pspicts[2].mother.caption="Une fonction"
 
     for psp in pspicts:
-        psp.dilatation_Y(1)
-        psp.dilatation_X(1)
+        psp.dilatation_Y(0.7)
+        psp.dilatation_X(0.7)
 
     x=var('x')
     f=[]
@@ -23,4 +23,3 @@ def ExVarGraphiqueyhHpqn():
 
     fig.conclude()
     fig.write_the_file()
-
