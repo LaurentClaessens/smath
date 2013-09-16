@@ -33,7 +33,7 @@ def LNfaWPF():
     pspict.dilatation(1)
 
 
-    # Ici il suffit de mettre la grille avec les nombres de 1 à .
+    # Ici il suffit de mettre la grille avec les nombres de 1 à 9.
     # La substitution avec les nombres de -4 à 4 se fait automatiquement.
     tableau="""
 .,.,.,.,i,.,i,i,5
