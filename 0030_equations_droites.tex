@@ -8,19 +8,19 @@
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{Aprojeter}
-    Un premier taxi divise son prix en deux paries : $0.2$ euros de frais de prise en charge plus un euro par km parcouru. Un second taxi divise son prix en $1$ euro de frais de prise en charge plus $0.8$ euros par kilomètre parcouru.
+    Le taxi Besacdanslesac divise son prix en deux paries : $0.2$ euros de frais de prise en charge plus un euro par km parcouru. Le taxi Ledoubstoudoux par contre divise son prix en $1$ euro de frais de prise en charge plus $0.8$ euros par kilomètre parcouru.
 
     \begin{enumerate}
         \item
-            Combien coûte un trajet de \unit{5}{\kilo\meter} avec le premier taxi ?
+            Combien coûte un trajet de \unit{5}{\kilo\meter} avec Besacdanslesac ?
         \item
-            Combien de kilomètres peut-t-on effectuer dans le second taxi avec \( 10\) euros ?
+            Donner une expression algébrique du prix d'une course en fonction du nombre de kilomètres parcourus.
         \item
-            Exprimer les prix en fonction du nombre de kilomètres sur un graphique (les deux taxis sur le même graphique).
+            Combien de kilomètres peut-t-on effectuer dans Ledoubstoudoux avec \( 10\) euros ?
         \item
-            Donner une expression algébrique.
+            Exprimer les prix en fonction du nombre de kilomètres parcourus sur un graphique (les deux taxis sur le même graphique).
         \item
-            À partir de combien de kilomètres parcourus le second taxi est-il avantageux ?
+            À partir de combien de kilomètres parcourus vaut-il mieux prendre Ledoubstoudoux ?
     \end{enumerate}
 \end{Aprojeter}
 
@@ -31,37 +31,25 @@
 \begin{definition}
     Une \defe{fonction affine}{affine}\index{fonction!affine} est une fonction définie sur \( \eR\) par
     \begin{equation}
-        f(x)=ax+b
+        f(x)=mx+p
     \end{equation}
-    où \( a\) et \( b\) sont deux nombres réels fixés.
+    où \( m\) et \( p\) sont deux nombres réels fixés.
 \end{definition}
+
+\begin{Aretenir}
+    Le graphe de la fonction \( x\mapsto mx+p\) passe par le point de coordonnées \( (0;p)\).
+    \begin{enumerate}
+        \item
+            \( p\) est l'\defe{ordonnées à l'origine}{ordonnées!à l'origine} de la fonction affine \( mx+p\).
+        \item
+            \( m\) est le \defe{coefficient directeur}{coefficient directeur} de la fonction affine \( mx+p\).
+    \end{enumerate}
+\end{Aretenir}
 
 Cas particuliers :
 \begin{enumerate}
     \item
-        Si \( b=0\) alors \( f(x)=ax\) et nous disons que \( f\) est une fonction \defe{linéaire}{fonction!linéaire}. Son graphe passe par l'origine \( (0;0)\).
+        Si \( p=0\) alors \( f(x)=mx\) et nous disons que \( f\) est une fonction \defe{linéaire}{fonction!linéaire}. Son graphe passe par l'origine \( (0;0)\).
     \item
-        Si \( a=0\) alors \( f(x)=b\) et nous disons que \( f\) est une fonction \defe{constante}{fonction!constante}.
+        Si \( m=0\) alors \( f(x)=p\) et nous disons que \( f\) est une fonction \defe{constante}{fonction!constante}.
 \end{enumerate}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Pour tracer}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Pour tracer le graphe d'une fonction affine.
-\begin{itemize}
-    \item
-        Vu que le graphe est une droite, il suffit de deux points.
-    \item
-        Les fonction linéaires passent par l'origine \( (0;0)\).
-    \item 
-        Pour un tracé à la règle, il est plus précis de prendre deux points relativement éloignés.
-    \item
-        La droite \( f(x)=ax+b\) monte si \( a>0\) et descend si \( a<0\). La pente est d'autant plus raide que \( a\) est grand.
-\end{itemize}
-
-Quelque exemples à la figure \ref{LabelFigGrapheAffinHqXJGx}.
-\newcommand{\CaptionFigGrapheAffinHqXJGx}{Des graphes de fonctions linéaires et affines.}
-\input{Fig_GrapheAffinHqXJGx.pstricks}
-
-\Exo{smath-0490}
