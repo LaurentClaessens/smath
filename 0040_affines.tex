@@ -70,143 +70,37 @@ La droite «commence» à la hauteur \( p\) et ensuite monte encore de \( m\) ve
 \newcommand{\CaptionFigfigureUERGVgS}{Une droite et quelque éléments de son équation.}
 \input{Fig_figureUERGVgS.pstricks}
 
-
-\begin{multicols}{2}
-    Sur la figure ci-contre, nous avons tracé les graphes des fonctions données par
+\begin{Aretenir}
+    Soit \( f\) la fonction affine \( x\mapsto mx+p\).
     \begin{enumerate}
         \item
-            \( f(x)=2x+1\)
+            Si \( m>0\) alors \( f\) est croissante sur \( \eR\).
         \item
-            \( g(x)=2x-2\)
+            Si \( m<0\) alors \( f\) est décroissante sur \( \eR\).
         \item
-            \( h(x)=3x-1\)
+            Si \( m=0\) alors \( f\) est constante sur \( \eR\) (et vaut \( p\)).
     \end{enumerate}
-
-    \columnbreak
-
-%The result is on figure \ref{LabelFigfigureCFoZCYe}. % From file figureCFoZCYe
-%\newcommand{\CaptionFigfigureCFoZCYe}{<+Type your caption here+>}
-    \begin{center}
-\input{Fig_figureCFoZCYe.pstricks}
-    \end{center}
-
-\end{multicols}
-
-Nous constatons que
-\begin{enumerate}
-    \item
-        Les droites représentatives de \( f\) et \( g\) sont parallèles.
-    \item
-        La droite \( h\) est plus pendue que les deux autres.
-\end{enumerate}
-
-
-\begin{propriete}
-    Soit \( f(x)=ax+b\) une fonction affine.
-    \begin{enumerate}
-        \item
-            Si \( a>0\) alors \( f\) est croissante sur \( \eR\).
-        \item
-            Si \( a<0\) alors \( f\) est décroissante sur \( \eR\).
-        \item
-            Si \( a=0\) alors \( f\) est constante sur \( \eR\) (et vaut \( b\)).
-    \end{enumerate}
-\end{propriete}
-
-
-\begin{theorem}
-    Soit la fonction affine \( f(x)=ax+b\). Alors pour tout nombres distincts \( u\) et \( v\) nous avons
-    \begin{equation}
-        \frac{ f(u)-f(v) }{ u-v }=a.
-    \end{equation}
-\end{theorem}
-
-\begin{proof}
-    Soient \( u\) et \( v\), deux réels distincts. Nous calculons
-    \begin{equation}
-        f(u)-f(v)=au+b-(av+b)=au-av=a(u-v).
-    \end{equation}
-    En divisant par \( u-v\) on trouve le résultat annoncé.
-\end{proof}
-
-Cela donne une méthode graphique pour déterminer le coefficient directeur d'une droite. Si les points \( A=(x_A;y_A)\) et \( B=(x_B;y_B)\) sont sur la droite \( d\) d'équation \( y=ax+b\), alors
-\begin{equation}
-    a=\frac{ y_B-y_A }{ x_B-x_A }.
-\end{equation}
-Notez que cela vient du vecteur directeur
-\begin{equation}
-    \begin{pmatrix}
-        x_B-x_A    \\ 
-        y_B-y_A    
-    \end{pmatrix}
-\end{equation}
-
-
-\subsection{Sens de variation d'une fonction affine}
-
-\begin{Aretenir}
-      Soit $f$ la fonction affine $x\mapsto ax+b$.
-      \begin{itemize}
-      \item Si $a>0$, alors $f$ est croissante sur $\eR$.
-      \item Si $a<0$, alors $f$ est décroissante sur $\eR$.
-      \item Si $a=0$, alors $f$ est constante sur $\eR$
-        (et $f(x)=b$ pour tout $x\in\eR$).
-      \end{itemize}
-\end{Aretenir}
-Nous savons que si \( f(x)=ax+b\), alors \( f\) s'annule en \( x=-\frac{ b }{ a }\). Cela nous sert à écrire un tableau de signe de \( f\).
-
-
-
-Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf1} montrent des droites affines. Lorsque \( a>0\), la droite monte; lorsque \( a<0\) elle descend. La pente est d'autant plus forte que \( a\) est grand.
-\newcommand{\CaptionFigFnAffineipcEQf}{Deux droites affines.}
-\input{Fig_FnAffineipcEQf.pstricks}
-
-
-\begin{Aretenir}
-      Règle du signe de $ax+b$ \\
-      
-      \begin{tabular}{cc}
-        $a<0$ & $a>0$ \\
-        & \\
-        $\begin{array}{|c|ccccc|}
-          \hline
-          x & -\infty & & -\dfrac{b}{a} & & +\infty \\[2ex]
-          \hline
-          ax+b & & + \quad \ & 0 & \quad - & \\[1ex]
-          \hline
-        \end{array}$
-        &
-        $\begin{array}{|c|ccccc|}
-          \hline
-          x & -\infty & & -\dfrac{b}{a} & & +\infty \\[2ex]
-          \hline
-          ax+b & & - \quad \ & 0 & \quad + & \\[1ex]
-          \hline
-        \end{array}$ \\
-      \end{tabular}  \\[1ex] 
 \end{Aretenir}
 
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Tableau de signe d'une fonction affine}
+%---------------------------------------------------------------------------------------------------------------------------
 
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Tableau de variation}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Nous savons qu'une fonction affine est croissante ou décroissante suivant le signe de \( a\). Il y a donc deux tableaux possibles. Les tableaux de signes s'en déduisent immédiatement.
+Nous savons qu'une fonction affine est croissante ou décroissante suivant le signe de \( m\). Il y a donc deux tableaux de signes possibles.
 
 \begin{minipage}{0.485\textwidth}
     \begin{center}
 
-        Si \( a<0\)
+        Si \( m<0\)
         \vspace{5mm}
 
                \input{Fig_OSQOqJN.pstricks}   
 
                \begin{equation*}
                    \begin{array}[]{c|ccccc}
-                        x&-\infty&&-b/a&&\infty\\
+                        x&-\infty&&-p/m&&\infty\\
                          \hline
-                         ax+b&&-&0&+&\\ 
+                         mx+p&&-&0&+&\\ 
                           \end{array}
                       \end{equation*}
     \end{center}
@@ -214,139 +108,42 @@ Nous savons qu'une fonction affine est croissante ou décroissante suivant le si
 \hspace{1mm}
 \begin{minipage}{0.485\textwidth}
     \begin{center}
-        Si \( a>0\)
+        Si \( m>0\)
         \vspace{5mm}
 
                     \input{Fig_BZqEWco.pstricks}
 
                \begin{equation*}
                    \begin{array}[]{c|ccccc}
-                        x&-\infty&&-b/a&&\infty\\
+                        x&-\infty&&-p/m&&\infty\\
                          \hline
-                         ax+b&&+&0&-&\\ 
+                         mx+p&&+&0&-&\\ 
                           \end{array}
                       \end{equation*}
     \end{center}
 \end{minipage}
 
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Droites parallèles et droites sécantes}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Critère avec le coefficient directeur}
-%---------------------------------------------------------------------------------------------------------------------------
-
-\begin{example}
-    Les droites \( y=-3x+4\) et \( y=2x+1\) sont sécantes, comme nous pouvons le voir sur un dessin. Comment trouver les coordonnées du point d'intersection ?
-
-    Le point d'intersection \( (x_0;y_0)\) doit satisfaire \( y_0=-3x_0+4\) et \( y_0=2x_0+1\) en même temps. Donc
-    \begin{equation}
-        -3x_0+4=2x_0+1,
-    \end{equation}
-    ce qui donne \( x_0=\frac{ 3 }{ 5 }\). Pour trouver \( y_0\) il suffit de remplacer dans l'une ou l'autre équation :
-    \begin{equation}
-        y_0=-3x_0+4=-3\frac{ 3 }{ 5 }+4=\frac{ 11 }{ 5 }.
-    \end{equation}
-    Vérification : dans l'autre on obtient le même résultat :
-    \begin{equation}
-        y_0=2x_0+1=2\frac{ 3 }{ 5 }+1=\frac{ 11 }{ 5 }.
-    \end{equation}
-    Donc le point d'intersection des deux droites est le point de coordonnées
-    \begin{equation}
-        \big( \frac{ 3 }{ 5 };\frac{ 11 }{ 5 } \big).
-    \end{equation}
-\end{example}
-
-\begin{theorem}
-    Dans un repère, les droites d'équations \( y=ax+b\) et \( y=a'x+b'\) sont parallèles si et seulement si elles ont même coefficient directeur, c'est à dire si et seulement si \( a=a'\).
-
-    Les droites sont sécantes si et seulement si \( a\neq a'\).
-\end{theorem}
-
-\begin{proof}
-    Nous allons seulement démontrer que si \( a\neq a'\), alors les droites s'intersectent. Pour cela nous allons montrer qu'il existe un point \( (x_0,y_0)\) qui se trouve sur le graphe des deux fonctions, c'est à dire qui vérifie
-    \begin{subequations}
-        \begin{numcases}{}
-            y_0=ax_0+b\\
-            y_0=a'x_0+b'.
-        \end{numcases}
-    \end{subequations}
-    Le nombre \( x_0\) doit donc satisfaire
-    \begin{equation}
-        ax_0+b=a'x_0+b',
-    \end{equation}
-    c'est à dire \( (a-a')x_0=b'-b\) et donc
-    \begin{equation}
-        x_0=\frac{ b'-b }{ a-a' }.
-    \end{equation}
-\end{proof}
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Et le vecteur directeur}
-%---------------------------------------------------------------------------------------------------------------------------
-
-Si \( A\) et \( B\) sont des points du plan, nous avons déjà vu que le vecteur \( \vect{ AB }\) était un critère de parallélisme de la droite \( AB\). Plus précisément, nous avons vu qu'une droite \( (CD)\) était parallèle à \( AB\) si et seulement si \( \vect{ CD }\) est un multiple de \( \vect{ AB }\). Voyons cela de plus près.
-
-Soit la droite \( y=ax+b\). Les points \( A=(0;b)\) et \( B=(1,a+b)\) sont sur cette droite et donc le vecteur directeur est
-\begin{equation}
-    \vect{ AB }=\begin{pmatrix}
-        1    \\ 
-        a    
-    \end{pmatrix}
-\end{equation}
-Si les points \( C\) et \( D\) sont tels que \( (CD)\parallel (AB)\), alors
-\begin{equation}
-    \vect{ CD }=\lambda\begin{pmatrix}
-        1    \\ 
-        a    
-    \end{pmatrix}=\begin{pmatrix}
-        \lambda    \\ 
-            \lambda a
-    \end{pmatrix}.
-\end{equation}
-Si le point \( C\) a pour coordonnées \( C=(x_C;y_C)\), alors le point \( D\) doit avoir comme coordonnées
-\begin{equation}
-    D=\big( x_C+\lambda;y_C+\lambda a \big).
-\end{equation}
-Le coefficient directeur de la droite \( (CD)\) est alors
-\begin{equation}
-    \frac{ (y_C+\lambda a)-y_C }{ (x_C+\lambda)-x_C }=a.
-\end{equation}
-Nous avons donc confirmé que le critère du vecteur proportionnel et le critère du coefficient directeur sont en réalité les mêmes.
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Colinéarité}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-\begin{theorem}
-    Trois points distincts \( A\), \( B\) et \( C\) sont alignés si et seulement si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur.
-\end{theorem}
-
-\begin{proof}
-    Si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur, alors nous pouvons écrire
-    \begin{equation}
-        (AB)\equiv y=ax+b
-    \end{equation}
-    et
-    \begin{equation}
-        (AC)\equiv ax+b'.
-    \end{equation}
-    Cependant \( A\) est un point commun aux deux droites : \( y_A=ax_A+b=ax_A+b'\) et donc \( b=b'\), ce qui signifie que les droites \( (AB)\) et \( (AC)\) sont les mêmes.
-\end{proof}
-
-\begin{example}
-    Vérifions que les points \( A=(1;-1)\), \( B=(3;5)\) et \( C=(4;8)\) sont alignés.
-
-    D'abord le coefficient directeur de la droite \( (AB)\) est 
-    \begin{equation}
-        \frac{ y_B-y_A }{ x_B-x_A }=\frac{ 5-(-1) }{ 3-1 }=3
-    \end{equation}
-    ensuite le coefficient directeur de la droite \( (AC)\) est
-    \begin{equation}
-        \frac{ y_C-y_A }{ x_C-x_A }=\frac{ 8+1 }{ 4-1 }=3
-    \end{equation}
-    Donc les points \( A\), \( B\) et \( C\) sont alignés.
-\end{example}
+\begin{Aretenir}
+      Règle du signe de $mx+p$ \\
+      
+      \begin{tabular}{cc}
+        $m<0$ & $m>0$ \\
+        & \\
+        $\begin{array}{|c|ccccc|}
+          \hline
+          x & -\infty & & -\dfrac{p}{m} & & +\infty \\[2ex]
+          \hline
+          mx+p & & + \quad \ & 0 & \quad - & \\[1ex]
+          \hline
+        \end{array}$
+        &
+        $\begin{array}{|c|ccccc|}
+          \hline
+          x & -\infty & & -\dfrac{p}{m} & & +\infty \\[2ex]
+          \hline
+          mx+p & & - \quad \ & 0 & \quad + & \\[1ex]
+          \hline
+        \end{array}$ \\
+      \end{tabular}  \\[1ex] 
+\end{Aretenir}
 

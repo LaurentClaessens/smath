@@ -2,8 +2,8 @@
 from phystricks import *
 def FnAffineipcEQf():
     pspicts,fig = MultiplePictures("FnAffineipcEQf",2)
-    pspicts[0].mother.caption="\( a>0\)"
-    pspicts[1].mother.caption="\( a<0\)"
+    pspicts[0].mother.caption="\( m>0\)"
+    pspicts[1].mother.caption="\( m<0\)"
 
     for psp in pspicts:
         psp.dilatation_Y(0.7)
@@ -16,11 +16,11 @@ def FnAffineipcEQf():
 
     for i,psp in enumerate(pspicts):
         P=Point(f[i].inverse(0)[0],0)
-        P.put_mark(0.2,-90,"\( -\\frac{ b }{ a }\)",automatic_place=(psp,"N"))
+        P.put_mark(0.2,-90,"\( -\\frac{ p }{ m }\)",automatic_place=(psp,"N"))
         P.parameters.symbol="|"
 
         Q=f[i].get_point(0)
-        Q.put_mark(0.2,180,"\( b\)",automatic_place=psp)
+        Q.put_mark(0.2,180,"\( p\)",automatic_place=psp)
         Q.parameters.symbol="|"
         Q.add_option("dotangle=90")
 
