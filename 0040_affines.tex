@@ -1,33 +1,78 @@
 %This is part of Un soupçon de mathématique sans être agressif pour autant
 % Copyright (c) 2012-2013
-%   Laurent Claessens, Pauline Klein
+%   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Introduction}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Le but de ce chapitre est de voir la notion de fonction affine.
+\begin{enumerate}
+    \item
+        La forme \( x\mapsto mx+p\).
+    \item
+        Représentation graphique : signe de \( m\), coefficient directeur et ordonnée à l'origine.
+    \item
+        Tableau de signe.
+    \item
+        Résolution des équations correspondantes.
+\end{enumerate}
+Nous ne parlerons pas d'équation de droite à proprement parler. Donc pas de graphes de fonctions passant par deux points donné.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{L'activité}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\input{activ_affines}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Définitions}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Une \defe{fonction affine}{affine}\index{fonction!affine} est une fonction définie sur \( \eR\) par
+    \begin{equation}
+        f(x)=mx+p
+    \end{equation}
+    où \( m\) et \( p\) sont deux nombres réels fixés.
+\end{definition}
+
+\begin{Aretenir}
+    Le graphe de la fonction \( x\mapsto mx+p\) passe par le point de coordonnées \( (0;p)\).
+    \begin{enumerate}
+        \item
+            \( p\) est l'\defe{ordonnées à l'origine}{ordonnées!à l'origine} de la fonction affine \( mx+p\).
+        \item
+            \( m\) est le \defe{coefficient directeur}{coefficient directeur} de la fonction affine \( mx+p\).
+    \end{enumerate}
+\end{Aretenir}
+
+Cas particuliers :
+\begin{enumerate}
+    \item
+        Si \( p=0\) alors \( f(x)=mx\) et nous disons que \( f\) est une fonction \defe{linéaire}{fonction!linéaire}. Son graphe passe par l'origine \( (0;0)\).
+    \item
+        Si \( m=0\) alors \( f(x)=p\) et nous disons que \( f\) est une fonction \defe{constante}{fonction!constante}.
+\end{enumerate}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Représentation graphique}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{Aretenir}
-    La représentation graphique de la fonction \( f(x)=ax+b\) est une droite non parallèle à l'axe des ordonnées. Réciproquement toute droite non parallèle est la représentation graphique d'une fonction affine.
+    La représentation graphique de la fonction \( f(x)=mx+p\) est une droite non parallèle à l'axe des ordonnées. Réciproquement toute droite non parallèle est la représentation graphique d'une fonction affine.
 \end{Aretenir}
 
-Si \( f(x)=ax+b\), alors nous avons \( f(0)=b\), ce qui signifie que \( b\) est la hauteur de la droite au-dessus de l'origine.
 
-En ce qui concerne le signification du coefficient \( a\), nous traçons quelque droites.
+Un exemple des éléments de \( mx+p\) est donné à la figure \ref{LabelFigfigureUERGVgS}. % From file figureUERGVgS
+La droite «commence» à la hauteur \( p\) et ensuite monte encore de \( m\) vers le haut à chaque pas de \( 1\) vers la droite.
+\newcommand{\CaptionFigfigureUERGVgS}{Une droite et quelque éléments de son équation.}
+\input{Fig_figureUERGVgS.pstricks}
 
-
-\begin{remark}
-    Demander aux élèves de faire ces dessins eux-mêmes.
-\end{remark}
-
-\newpage
 
 \begin{multicols}{2}
-    Sur la figure ci-contre, nous avons tracé les droites
+    Sur la figure ci-contre, nous avons tracé les graphes des fonctions données par
     \begin{enumerate}
         \item
             \( f(x)=2x+1\)
@@ -55,15 +100,6 @@ Nous constatons que
         La droite \( h\) est plus pendue que les deux autres.
 \end{enumerate}
 
-\begin{definition}
-    Soit une droite \( d\) d'équation \( y=ax+b\). Le nombre \( a\) est appelé le \defe{coefficient directeur}{coefficient directeur} de la droite.
-\end{definition}
-
-
-
-Un exemple des éléments de \( ax+b\) est donné à la figure \ref{LabelFigfigureUERGVgS}. % From file figureUERGVgS
-\newcommand{\CaptionFigfigureUERGVgS}{Une droite et quelque éléments de son équation.}
-\input{Fig_figureUERGVgS.pstricks}
 
 \begin{propriete}
     Soit \( f(x)=ax+b\) une fonction affine.
