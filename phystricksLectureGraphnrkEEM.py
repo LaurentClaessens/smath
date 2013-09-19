@@ -10,6 +10,7 @@ def LectureGraphnrkEEM():
     pspict.axes.single_axeX.Dx=0.5
     pspict.DrawGraphs(f)
     pspict.DrawDefaultAxes()
+    pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -31,11 +31,12 @@ def MinMaxKNRdOd():
     df=phyFunction(f.sage.diff(x))
     xx=df.inverse(0)
 
-    at_max(pspict,f.get_point(xx[0]),1,"b","m")
-    at_max(pspict,f.get_point(xx[1]),-1,"a","M")
+    at_max(pspict,f.get_point(xx[0]),1,"a","M")
+    at_max(pspict,f.get_point(xx[1]),-1,"b","m")
 
     pspict.DrawGraphs(f)
     pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

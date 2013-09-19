@@ -4,7 +4,7 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Introduction}
+\section{Objectifs du chapitre}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \includegraphics[width=\linewidth]{BO_fonctions_graphique.png}
@@ -13,11 +13,7 @@
 \section{Courbe représentative d'une fonction}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{Aprojeter}
-    \input{activ_fonction_graphique}
-\end{Aprojeter}
-
-%TODO : il faut essayer de refaire une figure pour tous les dessins de Pauline.
+\input{activ_fonction_graphique}
 
 \begin{definition}
 Soit $f$ une fonction définie sur un ensemble $\defD$.
@@ -25,7 +21,6 @@ Soit $f$ une fonction définie sur un ensemble $\defD$.
 
     Lorsque \( y=f(x)\), le nombre \( y\) est l'\defe{image}{image par une fonction} de \( x\) par la fonction \( f\) et \( x\) est \emph{un} \defe{antécédent}{antécédent} de \( y\).
 \end{definition}
-
 
 \begin{Aretenir}
     La règle d'or des graphiques : le point de coordonnées \( (a;b)\) est sur le graphique de la fonction \( f\) si et seulement si \( f(a)=b\).
@@ -57,6 +52,7 @@ Soit $f$ une fonction définie sur un ensemble $\defD$.
 
 \end{multicols}
 
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
     \section{Minimum et maximum}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -65,14 +61,42 @@ Soit $f$ une fonction définie sur un ensemble $\defD$.
 Les notions de minima et maxima parlent, comme l'indiquent leurs noms en français, des points du graphe d'une fonction les plus hauts et les plus bas.
 
 \begin{definition}
-      Soit $f$ une fonction définie sur un intervalle $I$.
+      Soit $f$ une fonction définie sur un intervalle \( I\).
       \begin{itemize}
-          \item On dit que $f$ admet le réel $m$ pour \defe{minimum}{minimum (d'une fonction)} sur $I$ si et seulement si il existe $c\in I$ tel que $f(c)=m$ et pour tout $x\in I$, $f(x)\geq m$. 
-    \item On dit que $f$ admet le réel $M$ pour \defe{maximum}{maximum} sur $I$ si et seulement si il existe $d\in I$ tel que $f(d)=M$ et pour tout $x\in I$, $f(x)\leq M$.
+            \item 
+                Nous disons que le réel \( M\) est le \defe{maximum}{maximum} de \( f\) sur $I$ si et seulement si 
+                \begin{enumerate}
+                    \item
+                        il existe $ a\in I$ tel que $f(a)=M$,
+                    \item
+                        \( f(x)\leq M\) pour tout $x\in I$.
+                \end{enumerate}
+                
+          \item 
+                Nous disons que le réel \( m\) est le \defe{minimum}{minimum} de \( f\) sur $I$ si et seulement si
+                \begin{enumerate}
+                    \item
+                        il existe $ b\in I$ tel que $f(b)=m$,
+                    \item
+                        $f(x)\geq m$ pour tout \( x\in I\).
+                \end{enumerate}
       \end{itemize}
 \end{definition}
 
-Sur la figure \ref{LabelFigMinMaxKNRdOd}, nous avons indiqué le minimum et le maximum de la fonction dessinée.
-\newcommand{\CaptionFigMinMaxKNRdOd}{Minimum et maximum d'une fonction.}
-\input{Fig_MinMaxKNRdOd.pstricks}
+\begin{wrapfigure}[9]{r}{7.0cm}
+   \vspace{-0.5cm}        % à adapter.
+   \centering
+   \input{Fig_MinMaxKNRdOd.pstricks}
+\end{wrapfigure}
 
+\begin{remark}
+    Attention à deux choses.
+    \begin{enumerate}
+        \item
+            Le minimum est la \emph{valeur} la plus basse, et non l'abscisse correspondante. Idem pour le maximum. 
+        \item
+            La minimum dépend de l'intervalle sur lequel on regarde la fonction.
+    \end{enumerate}
+\end{remark}
+
+Une illustration sur la figure ci-contre. La fonction prend son maximum en \( x=a\) et ce maximum vaut \( M\). La fonction prend son minimum en \( x=b\) et ce minimum vaut \( m\).
