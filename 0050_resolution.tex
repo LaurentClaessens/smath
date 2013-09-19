@@ -484,3 +484,59 @@ Sur la figure \ref{LabelFigMinMaxKNRdOd}, nous avons indiqué le minimum et le m
 \newcommand{\CaptionFigMinMaxKNRdOd}{Minimum et maximum d'une fonction.}
 \input{Fig_MinMaxKNRdOd.pstricks}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Pour tracer}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Quelque conseils pour dessiner.
+\begin{itemize}
+    \item
+        Pour une valeur $x$ sur l'axe des abscisses, il y a un et un seul point d'abscisse $x$ sur la courbe.
+    \item
+        Pour tracer une courbe, il faut placer des points. Plus on choisit de points, plus la courbe sera précise.
+    \item
+        Si possible, trouver quelque valeurs clefs. Par exemple on cherchera les points d'intersection entre les axes et les courbe. Le point \( (0,f(0)) \) est intéressant à mettre, ainsi que les points \( x\) tels que \( f(x)=0\).
+\end{itemize}
+
+
+\newcommand{\CaptionFigExFonction}{Comment tracer la fonction \( f\colon x\to 2x+1\) ?}
+\input{Fig_ExFonction.pstricks}
+
+Nous donnons à la figure \ref{LabelFigExFonction} le tracé de la fonction \( f(x)=2x+1\). La figure \ref{LabelFigExFonctionssLabelSubFigExFonction0} donne quelque points du graphe de la fonction. La figure \ref{LabelFigExFonctionssLabelSubFigExFonction1} donne le graphe complet de la fonction. Comment le construit-on ? Par définition pour chaque \( x\) sur l'axe des abscisses (il y en a une infinité), il faut calculer le nombre \( f(x)\) et mettre dans le plan le point de coordonnées \( \big( x,f(x) \big)\).
+
+En pratique, il n'est pas possible de calculer \( f(x)\) pour \emph{tous} les \( x\) réels\footnote{Chuck Norris peut le faire.}. C'est pourquoi nous nous contentons qu'en calculer quelque uns, et nous les relions «le plus intelligemment possible».
+
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Ce qui n'est pas une fonction}
+%---------------------------------------------------------------------------------------------------------------------------
+
+%    \includegraphics[width=5cm]{F_NonFct.pdf}
+
+\begin{multicols}{2}
+    Cette courbe ne représente pas une fonction, car à partir de \( x=-4\), les nombres ont deux images. Les courbes données par des fonctions sont des courbes acceptant une seule ordonnée pour chaque abscisse.
+
+\columnbreak
+
+%\includegraphics{Picture_FIGLabelFigPasFonctionYoQfSuPICTPasFonctionYoQfSu-for_eps.pdf}
+
+\input{Fig_PasFonctionYoQfSu.pstricks}
+
+\end{multicols}
+
+
+Pour tracer le graphe d'une fonction affine.
+\begin{itemize}
+    \item
+        Vu que le graphe est une droite, il suffit de deux points.
+    \item
+        Les fonction linéaires passent par l'origine \( (0;0)\).
+    \item 
+        Pour un tracé à la règle, il est plus précis de prendre deux points relativement éloignés.
+    \item
+        La droite \( f(x)=mx+p\) monte si \( m>0\) et descend si \( m<0\). La pente est d'autant plus raide que \( m\) est grand.
+\end{itemize}
+
+Quelque exemples à la figure \ref{LabelFigGrapheAffinHqXJGx}.
+\newcommand{\CaptionFigGrapheAffinHqXJGx}{Des graphes de fonctions linéaires et affines.}
+\input{Fig_GrapheAffinHqXJGx.pstricks}

@@ -132,7 +132,6 @@ from phystricksExIneqOcAWMq import ExIneqOcAWMq
 from phystricksExIneqfgZWStde import ExIneqfgZWStde
 from phystricksExVariationRXTkoc import ExVariationRXTkoc
 from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
-from phystricksExVarGraphiqueyhHpqn import ExVarGraphiqueyhHpqn
 from phystricksGrapheVarndvdQM import GrapheVarndvdQM
 from phystricksFoncConstFdDkhW import FoncConstFdDkhW
 from phystricksGrapheVarREGMqx import GrapheVarREGMqx
@@ -182,6 +181,7 @@ from phystricksAHAbqhj import AHAbqhj
 from phystricksWRXbDCo import WRXbDCo
 from phystricksLNfaWPF import LNfaWPF
 from phystricksGRRhrJe import GRRhrJe
+from phystricksAZKoIsL import AZKoIsL
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
@@ -197,7 +197,7 @@ figures_list=[ExoCUd,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraph
     ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
     ParaboleUniqueBaskGdqda, MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,
     GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,
-    ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,ExVarGraphiqueyhHpqn,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,
+    ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,
     ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,
     FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,
     CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,
@@ -208,7 +208,7 @@ figures_list=[ExoCUd,SolsEqDiffSin, Grapheunsurunmoinsx, TracerUn, ExerciceGraph
     figureEWDVDTS, figureTJkpHLv,figureDTzvwiz,figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP, figureSZyxsvp,
     figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,
     LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,
-    DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCoj,LNfaWPF,GRRhrJe
+    DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCoj,LNfaWPF,GRRhrJe,AZKoIsL
     ]
 
 #figures_list=[LNfaWPF]
