@@ -3,7 +3,7 @@
 
 # Pas envie de mettre une licence. Prenez la GPL ou la WTFPL.
 
-
+from __future__ import division
 import random
 
 def aff():
@@ -130,10 +130,43 @@ def interro_trig2():
 
 
 def exo_repere_milieu_distance():
-    texte="""Placer les points \( A=({};{})\), \( B=({};{})\), \( C=({};{})\) et \( D=({};{})\) dans un repère orthonormé. Calculer la longueur du segment \( [AB]\) et les coordonnées du milieu du segment \( [CD]\)""".format(  random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10)   )
-    return texte
+    Ax=random.randint(-10,10)
+    Bx=random.randint(-10,10)
+    Cx=random.randint(-10,10)
+    Dx=random.randint(-10,10)
+    Ay=random.randint(-10,10)
+    By=random.randint(-10,10)
+    Cy=random.randint(-10,10)
+    Dy=random.randint(-10,10)
+    texte=r"""Placer les points \( A=({};{})\), \( B=({};{})\), \( C=({};{})\) et \( D=({};{})\) dans un repère orthonormé. Calculer la longueur du segment \( [AB]\) et les coordonnées du milieu du segment \( [CD]\)""".format(Ax,Ay,Bx,By,Cx,Cy,Dx,Dy)
+    lsq=(Ax-Bx)**2+(Ay-By)**2
+    l=sqrt(lsq)
+    Mx=(Cx+Dx)/2
+    My=(Cy+Dy)/2
+    reponse=" $l^2={}$,$l={}$,$M=({},{})$".format(lsq,l,Mx,My)
+    return texte,reponse
 
-def 
+def exo_isocele():
+    on=random.choice(True,False)
+    xA=random.randint(-100,100)
+    yA=random.randint(-100,100)
+    k=random.randint(-20,20)
+    r=random.randint(-20,20)
+    xB=xA-k
+    yB=yA+k
+    xM=(xA+xB)/2
+    yM=(yA+yB)/2
+    xC=xM+r
+    yC=yM+r
+    if not on :
+        xC=xC+10
+    texte="""Est-ce que le triangle formé par les points \( A({};{})\), \( B({};{})\) et \( C({};{})\) est isocèle ?"""
+    reponse = on
+    return texte,reponse
 
-for i in range(1,40):
-    print(exo_repere_milieu_distance())
+def interro_repere_distance_milieu():
+    for i in range(1,40):
+        texte,reponse=exo_repere_milieu_distance()
+        print texte
+        print reponse
+        print "\n"
