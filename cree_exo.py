@@ -1,6 +1,9 @@
 #! /usr/bin/env python3
 # -*- coding: utf8 -*-
 
+# Pas envie de mettre une licence. Prenez la GPL ou la WTFPL.
+
+
 import random
 
 def aff():
@@ -125,5 +128,12 @@ def interro_trig2():
     """.format(op1,paire1[0],op1,paire1[1],lat1,lat2,lat3,NS)
     return consigne
 
+
+def exo_repere_milieu_distance():
+    texte="""Placer les points \( A=({};{})\), \( B=({};{})\), \( C=({};{})\) et \( D=({};{})\) dans un repère orthonormé. Calculer la longueur du segment \( [AB]\) et les coordonnées du milieu du segment \( [CD]\)""".format(  random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10),random.randint(-10,10)   )
+    return texte
+
+def 
+
 for i in range(1,40):
-    print(interro_trig2().replace("NUM",str(i)))
+    print(exo_repere_milieu_distance())
