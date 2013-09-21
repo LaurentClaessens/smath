@@ -4,30 +4,6 @@ from __future__ import division
 
 from phystricks import *
 
-def sudoku_substitution(tableau,symbol_list=[  str(k) for k in range(-4,5) ]):
-    """
-    From a string representing a sudoku grid,
-    1. remove empty lines
-    2. remove spaces
-    3. substitute 1..9 to the symbol_list
-    """
-    import string
-    lines = tableau.split("\n")[1:]
-    n_lines=[   l.replace(" ","") for l in lines if len(l)!=0  ]
-    nn_lines=[]
-    for l in n_lines :
-        a=[]
-        print l
-        for c in l.split(","):
-            if  c in string.digits:
-                print "%"+c+"%"
-                a.append(  symbol_list[int(c)-1])
-            else :
-                a.append(c)
-        nn_lines.append(",".join(a))
-    n_tableau="\n".join(nn_lines)
-    return n_tableau
-
 def LNfaWPF():
     pspict,fig = SinglePicture("LNfaWPF")
     pspict.dilatation(1)
@@ -78,3 +54,4 @@ i,4,.,.,3,.,i,.,.
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
+

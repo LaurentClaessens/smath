@@ -147,26 +147,30 @@ def exo_repere_milieu_distance():
     return texte,reponse
 
 def exo_isocele():
-    on=random.choice(True,False)
+    on=random.choice([True,False])
     xA=random.randint(-100,100)
     yA=random.randint(-100,100)
     k=random.randint(-20,20)
     r=random.randint(-20,20)
-    xB=xA-k
-    yB=yA+k
-    xM=(xA+xB)/2
-    yM=(yA+yB)/2
+    xB=xA-2*k
+    yB=yA+2*k
+    xM=int((xA+xB)/2)
+    yM=int((yA+yB)/2)
     xC=xM+r
     yC=yM+r
     if not on :
         xC=xC+10
-    texte="""Est-ce que le triangle formé par les points \( A({};{})\), \( B({};{})\) et \( C({};{})\) est isocèle ?"""
+    texte="""Est-ce que le triangle formé par les points \( A({};{})\), \( B({};{})\) et \( C({};{})\) est isocèle ?""".format(xA,yA,xB,yB,xC,yC)
     reponse = on
     return texte,reponse
 
 def interro_repere_distance_milieu():
     for i in range(1,40):
         texte,reponse=exo_repere_milieu_distance()
+        print texte
+        print reponse
+        print "\n"
+        texte,reponse=exo_isocele()
         print texte
         print reponse
         print "\n"
