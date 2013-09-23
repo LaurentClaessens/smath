@@ -4,6 +4,8 @@
 # Pas envie de mettre une licence. Prenez la GPL ou la WTFPL.
 
 from __future__ import division
+from __future__ import unicode_literals
+import codecs
 import random
 
 def aff():
@@ -90,7 +92,6 @@ def exo_ineqs():
     """.format(ineq,eqa)
     return consigne
 
-
 def interro_trig2():
     paires_angles=[]
     paires_angles.append([" \( \pi\)", "\( -\pi\) "])
@@ -112,20 +113,27 @@ def interro_trig2():
     NS=random.choice(["nord","sud"])
 
     op1=op2 # Ici je demande qu'on ne compare pas sin et cos.
+
+
+
+
+
+
+
     consigne=r"""
     \vbox{{
     NUM. Vous pouvez justifier les réponses aux questions suivantes par un dessin et un petit calcul.
     \begin{{enumerate}}
     \item
-    La ville V est située à \unit{{{4}}}{{\degree}} nord tandis que la ville W est située à \unit{{{5}}}{{\degree}} sud, sur le même méridien. Quelle est la distance entre ces deux villes ? (le rayon de la Terre est approximativement de \unit{{6300}}{{\kilo\meter}}).
+    La ville V est située à BACKSLASHUnit{{{4}}}{{\degree}} nord tandis que la ville W est située à BACKSLASHUnit{{{5}}}{{\degree}} sud, sur le même méridien. Quelle est la distance entre ces deux villes ? (le rayon de la Terre est approximativement de BACKSLASHUnit{{6300}}{{\kilo\meter}}).
     \item
-    Quel est le rayon de la «tranche» horizontale de la Terre à \unit{{{6}}}{{\degree}} {7} ?
+    Quel est le rayon de la «tranche»  horizontale de la Terre à BACKSLASHUnit{{{6}}}{{\degree}} {7} ?
     \item
     Vrai ou faux : {0}({1})={2}({3}) ?
     \end{{enumerate}}
     }}
     \vspace{{1.5cm}}
-    """.format(op1,paire1[0],op1,paire1[1],lat1,lat2,lat3,NS)
+    """.replace("BACKSLASHU","\\u").format(op1,paire1[0],op1,paire1[1],lat1,lat2,lat3,NS)
     return consigne
 
 
@@ -138,7 +146,7 @@ def exo_repere_milieu_distance():
     By=random.randint(-10,10)
     Cy=random.randint(-10,10)
     Dy=random.randint(-10,10)
-    texte=r"""Placer les points \( A=({};{})\), \( B=({};{})\), \( C=({};{})\) et \( D=({};{})\) dans un repère orthonormé. Calculer la longueur du segment \( [AB]\) et les coordonnées du milieu du segment \( [CD]\)""".format(Ax,Ay,Bx,By,Cx,Cy,Dx,Dy)
+    texte=r"""Placer les points \( A=({};{})\), \( B=({};{})\), \( C=({};{})\) et \( D=({};{})\) dans un repère orthonormé. Calculer la longueur du segment \( [AB]\) et les coordonnées du milieu du segment \( [CD]\).""".format(Ax,Ay,Bx,By,Cx,Cy,Dx,Dy)
     lsq=(Ax-Bx)**2+(Ay-By)**2
     l=sqrt(lsq)
     Mx=(Cx+Dx)/2
@@ -148,10 +156,10 @@ def exo_repere_milieu_distance():
 
 def exo_isocele():
     on=random.choice([True,False])
-    xA=random.randint(-100,100)
-    yA=random.randint(-100,100)
-    k=random.randint(-20,20)
-    r=random.randint(-20,20)
+    xA=random.randint(-10,10)
+    yA=random.randint(-10,10)
+    k=random.randint(-3,3)
+    r=random.randint(-4,4)
     xB=xA-2*k
     yB=yA+2*k
     xM=int((xA+xB)/2)
@@ -162,15 +170,61 @@ def exo_isocele():
         xC=xC+10
     texte="""Est-ce que le triangle formé par les points \( A({};{})\), \( B({};{})\) et \( C({};{})\) est isocèle ?""".format(xA,yA,xB,yB,xC,yC)
     reponse = on
-    return texte,reponse
+    return texte,str(reponse)
+
+def exo_rectangle():
+    on=random.choice([True,False])
+    xA=random.randint(-10,10)
+    yA=random.randint(-10,10)
+    k=random.randint(-5,5)
+    r=random.randint(-3,3)
+    xB=xA-k
+    yB=yA+k
+    xC=xA+r
+    yC=yA+r
+    if not on :
+        xC=xC+10
+    texte="""Est-ce que le triangle formé par les points \( A({};{})\), \( B({};{})\) et \( C({};{})\) est rectangle ?""".format(xA,yA,xB,yB,xC,yC)
+    reponse = on
+    return texte,str(reponse)
+
+class double_write(object):
+    def __init__(self,f1,f2):
+        self.f1=f1
+        self.f2=f2
+    def write(self,text):
+        self.f1.write(text)
+        self.f2.write(text)
+
+def ecrit_un_exo(f_sujet,f_correction,fun):
+    X=double_write(f_sujet,f_correction)
+    texte,reponse=fun()
+    X.write("\item\n")
+    X.write(texte)
+    f_correction.write("\n\n")
+    f_correction.write(reponse)
+    f_sujet.write("\n")
+
+def ecrit_sujet(f_sujet,f_correction,liste_exo,i):
+    #random.shuffle(liste_exo)
+    X=double_write(f_sujet,f_correction)
+    X.write("\\vbox{")
+    X.write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}"+"\n\\begin{enumerate}")
+    for fun in liste_exo:
+        ecrit_un_exo(f_sujet,f_correction,fun)
+    X.write("\n\\end{enumerate}\n} \n\\vspace{2cm}\n")
 
 def interro_repere_distance_milieu():
-    for i in range(1,40):
-        texte,reponse=exo_repere_milieu_distance()
-        print texte
-        print reponse
-        print "\n"
-        texte,reponse=exo_isocele()
-        print texte
-        print reponse
-        print "\n"
+    f_sujet=codecs.open("interro_repere_distance_sujet.tex","w",encoding="utf8")
+    f_correction=codecs.open("interro_repere_distance_correction.tex","w",encoding="utf8")
+    for i in range(1,85):
+        liste_exo=[]
+        liste_exo.append(exo_repere_milieu_distance)
+        ir=random.randint(0,1)
+        if ir==0:
+            liste_exo.append(exo_isocele)
+        else :
+            liste_exo.append(exo_rectangle)
+        ecrit_sujet(f_sujet,f_correction,liste_exo,i)
+    f_sujet.close()
+    f_correction.close()
