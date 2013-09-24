@@ -218,7 +218,9 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \renewcommand{\theenumi}{(\arabic{enumi})}
 
 
-\newcommand{\justification}{ {\small \begin{center} Les réponses doivent être justifiées par un calcul et accompagné par un raisonnement. \end{center}} }
+\newcommand{\justification}{ {\small \begin{center} Les réponses doivent être justifiées par un calcul et accompagnées d'un raisonnement.\end{center}}}
+
+    \newenvironment{feuilleDS}[1]{\noindent Nom :\\\noindent Prénom : \begin{center}\large #1\\\justification\end{center}}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %

@@ -6,6 +6,8 @@ def AZKoIsL():
     pspict.dilatation_Y(0.6)
 
     # Je ne fais pas la fonction g parce que le dessin est alors trop chargé.
+    # Si un jour on remet une fonction ou qu'on en change le nom,
+    # il faudra changer le texte dans la question.
 
     f=phyFunction((x+2)**2-1).graph(-4,0) 
     #g=-HermiteInterpolation( [(-3,0,-1),(-2,-1,0),(0,2,0),(1,0,0)] ).graph(-3,1.3)  
