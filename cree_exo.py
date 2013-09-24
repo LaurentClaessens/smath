@@ -8,6 +8,15 @@ from __future__ import unicode_literals
 import codecs
 import random
 
+def randint_non_zero(a,b):
+    """
+    retourne la même chose que random.randint(a,b), mais exclu la possibilité de sortir un zéro.
+    """
+    x=0
+    while x==0 :
+        x=random.randint(a,b)
+    return x
+
 def aff():
     a=random.randint(1,9)
     b=random.randint(1,9)
@@ -114,12 +123,6 @@ def interro_trig2():
 
     op1=op2 # Ici je demande qu'on ne compare pas sin et cos.
 
-
-
-
-
-
-
     consigne=r"""
     \vbox{{
     NUM. Vous pouvez justifier les réponses aux questions suivantes par un dessin et un petit calcul.
@@ -158,8 +161,8 @@ def exo_isocele():
     on=random.choice([True,False])
     xA=random.randint(-10,10)
     yA=random.randint(-10,10)
-    k=random.randint(-3,3)
-    r=random.randint(-4,4)
+    k=randint_non_zero(-3,3)
+    r=randint_non_zero(-4,4)
     xB=xA-2*k
     yB=yA+2*k
     xM=int((xA+xB)/2)
@@ -176,8 +179,8 @@ def exo_rectangle():
     on=random.choice([True,False])
     xA=random.randint(-10,10)
     yA=random.randint(-10,10)
-    k=random.randint(-5,5)
-    r=random.randint(-3,3)
+    k=randint_non_zero(-5,5)
+    r=randint_non_zero(-3,3)
     xB=xA-k
     yB=yA+k
     xC=xA+r

@@ -15,8 +15,8 @@ def AZKoIsL():
     #g.put_mark(0.2,0,"\( g\)",automatic_place=(pspict,"W"))
     h.put_mark(0.2,0,"\( h\)",automatic_place=(pspict,"W"))
 
-    f.parameters.color="red"
-    #g.parameters.color="brown"
+    f.parameters.color="blue"
+    h.parameters.color="brown"
 
     #pspict.DrawGraphs(f,g,h)
     pspict.DrawGraphs(f,h)
