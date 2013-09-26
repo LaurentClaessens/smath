@@ -215,7 +215,8 @@ def ecrit_sujet(f_sujet,f_correction,liste_exo,i):
     X.write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}"+"\n\\begin{enumerate}")
     for fun in liste_exo:
         ecrit_un_exo(f_sujet,f_correction,fun)
-    X.write("\n\\end{enumerate}\n} \n\\vspace{2cm}\n")
+    f_sujet.write("\n\\end{enumerate}\n} \n\\vspace{2cm}\n")
+    f_correction.write("\n\\end{enumerate}\n} \n")
 
 def interro_repere_distance_milieu():
     f_sujet=codecs.open("interro_repere_distance_sujet.tex","w",encoding="utf8")
