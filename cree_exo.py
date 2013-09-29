@@ -176,6 +176,7 @@ def exo_isocele():
     return texte,str(reponse)
 
 def exo_rectangle():
+    # Pour la prochaine fois, il faudrait que l'on demande si il est rectangle en tel point.
     on=random.choice([True,False])
     xA=random.randint(-10,10)
     yA=random.randint(-10,10)
