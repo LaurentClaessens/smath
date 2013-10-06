@@ -5,6 +5,36 @@
 
 \begin{corrige}{smath-0508}
 
-<+Corrsmath-0508+>
+
+\begin{wrapfigure}{r}{7cm}
+   \vspace{-0.5cm}        % à adapter.
+   \centering
+   \input{Fig_IRHrmQQ.pstricks}
+\end{wrapfigure}
+
+    Les longueurs se calculent en ajoutant des points de façon à pouvoir utiliser le théorème de Pythagore. Par exemple pour calculer la longueur \( AB\) nous construisons le point \( K=(2;2)\) et nous calculons Pythagore dans le triangle \( ABK\) :
+    \begin{equation}
+        AB^2=AK^2+BK^2=3^2+2^2=13.
+    \end{equation}
+    Donc \( AB=\sqrt{13}\). Pour les deux autres longueurs c'est la même chose :
+    \begin{subequations}
+        \begin{align}
+            AC^2=AM^2+MC^2=9^2+7^2=130\\
+            AC=\sqrt{130}
+        \end{align}
+    \end{subequations}
+    et
+    \begin{subequations}
+        \begin{align}
+            BC^2=BL^2+LC^2=6^2+9^2=117\\
+            BC=\sqrt{117}=3\sqrt{13}.
+        \end{align}
+    \end{subequations}
+
+    Vu qu'il n'y a pas deux longueurs identiques, le triangle \( ABC\) n'est pas isocèle (et il n'est a fortiori pas équilatéral non plus). Est-ce qu'il est rectangle ? Le plus long côté est \( [AC]\); donc si il est rectangle, il est rectangle en \( B\). Testons cela avec la réciproque du théorème de Pythagore :
+    \begin{equation}
+        BC^2+AB^2=117+13=130,
+    \end{equation}
+    donc nous avons bien \( AC^2=BC^2+AB^2\), ce qui signifie que le triangle est rectangle en \( B\).
 
 \end{corrige}
