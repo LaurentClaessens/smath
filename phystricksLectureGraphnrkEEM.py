@@ -3,7 +3,8 @@ from phystricks import *
 
 # La fonction f est définie en dehors de la fonction LectureGraphnrkEEM parce qu'elle est importée depuis 
 x=var('x')
-f=phyFunction(-3*x**3/2 + 6*x**2/2 + 3*x/2 - 3/2).graph(-1,2.5)
+fun=phyFunction(-3*x**3/2 + 6*x**2/2 + 3*x/2 - 3/2)
+f=fun.graph(-1,2.5)
 
 def LectureGraphnrkEEM():
     pspict,fig = SinglePicture("LectureGraphnrkEEM")

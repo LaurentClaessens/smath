@@ -6,19 +6,44 @@
 \begin{corrige}{Seconde-0047}
 
 
-\begin{wrapfigure}{r}{12.cm}
-   \vspace{-1cm}        % à adapter.
+\begin{wrapfigure}[7]{r}{12.cm}
+   \vspace{-1.5cm}        % à adapter.
    \centering
    \input{Fig_KGOAveW.pstricks}
 \end{wrapfigure}
+%TODO : la courbe ondulée n'est pas bonne. Il faut qu'elle tienne compte de xunit et yunit pour être visuellement perpendiculaire.
 
-    Tout est lisible sur le graphique. Attention : si certains points ne tombent pas juste sur le quadrillage, il faut donner une approximation numérique.
+    Tout est lisible sur le graphique. Attention : si certains points ne tombent pas juste sur le quadrillage, il faut donner une approximation numérique cohérente avec le dessin. Plusieurs réponses sont donc parfois possible. Par exemple pour l'abscisse du point \( C\), n'importe quel nombre entre environ \( 2.2\) et \( 2.4\) sera acceptée.
     \begin{enumerate}
         \item
             Les solutions de \( f(x)=0\) sont les abscisses des points où la courbe «vaut zéro», c'est à dire des points où la courbe touche l'axe des abscisses. Ce sont les points \( A\), \( B\) et \( C\) sur le graphe. Les solutions de \( f(x)=0\) sont donc (approximativement) :
             \begin{equation}
                 S=\{ -0.7;0.4;2.25 \}.
             \end{equation}
+        \item
+            La croissance de la fonction se lit sur un graphique comme étant la partie du graphe «qui monte». Elle est repassée en rouge sur le graphe. La fonction est donc croissante sur l'intervalle
+            \begin{equation}
+                \mathopen[ -0.4 ; \frac{ 3 }{2} \mathclose].
+            \end{equation}
+        \item
+            Parmi les points dont les abscisses sont entre \( -1\) et \( \frac{ 1 }{2}\), le plus haut est le point \( (-1;2)\). Donc le maximum de la fonction sur l'intervalle \( \mathopen[ -1 , \frac{ 1 }{2} \mathclose]\) est \( 2\). Attention : le maximum est l'ordonnée du point le plus haut et non le point lui-même.
+        \item
+            Entre \( \frac{ 1 }{2}\) et \( 2\), le point le plus haut est \( (\frac{ 3 }{2};3)\) et le maximum de la fonction vaut donc \( 3\).
+        \item
+            Étudier les variations signifie écrire le tableau de variations :
+            \begin{equation*}
+                \begin{array}[]{c|ccccccc}
+                    x&-1&&0.4&&\frac{ 3 }{2}&&\frac{ 5 }{2}\\
+                    \hline
+                    &2&&&&3&&\\
+                    f(x)&&\searrow&&\nearrow&&\searrow&\\
+                    &&&-1.1&&&&-2\\
+                \end{array}
+            \end{equation*}
+        \item
+            Les antécédents de \( -2\) sont les \( x\) tels que \( f(x)=2\). Ils correspondent aux points de la courbe qui sont à la hauteur \( 2\) : les points \( K_1\), \( K_2\) et \( K_3\) sur le graphe. Les antécédents sont donc les abscisses de ces points : \( -1\), \( 1 \) et \( 2\).
+        \item
+            L'image de \( -1\) par la fonction \( f\) est la valeur de \( f(-11)\), c'est à dire l'ordonnée du point d'abscisse \( -1\) sur le graphe. L'image de \( -1 \) est donc \( 2\). (cela correspond aussi au le point \( K_1\) sur le graphe)
     \end{enumerate}
     <++>
 
