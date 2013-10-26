@@ -2,7 +2,7 @@
 from phystricks import *
 def JOKJMTD():
     pspict,fig = SinglePicture("JOKJMTD")
-    pspict.dilatation(0.3)
+    pspict.dilatation(0.2)
 
     h=10
     r=3
