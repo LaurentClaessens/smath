@@ -5,82 +5,48 @@
 
 \EpsOrPdfincludegraphics[width=\linewidth]{BO_perspective}
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-\section{Droites et plans dans l'espace}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Note : savoir si deux droites dans l'espace sont perpendiculaires n'est pas au programme. Dans ce chapitre nous allons donc nous en tenir qu'à des choses simples.
+
+\vspace{1cm}
 
 \input{activ_perspective}
 
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Deux droites}
-%---------------------------------------------------------------------------------------------------------------------------
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Ce qui est dans un plan}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{Aretenir}
-    \begin{enumerate}
-        \item
-            Dans un plan, il existe une et une seule droite parallèle à une droite donnée passant par un point donné.
-        \item
-            Cette propriété est encore valable dans l'espace.            
-    \end{enumerate}
-\end{Aretenir}
-
-Deux droites peuvent être soit dans un même plan, soit ne pas être dans le même plan. Deux droites contenues dans un même plan sont dires \defe{coplanaires}{coplanaire}.
-\begin{multicols}{2}
-    \begin{center}
-        Droites coplanaires
-    \end{center}
-\begin{Aretenir}
-    Si deux droites sont contenues dans un même plan, alors soit elles sont parallèles, soit elles sont sécantes. 
-\end{Aretenir}
-
-    \columnbreak
-
-    \begin{center}
-        Droites non coplanaires.
-    \end{center}
-\begin{Aretenir}
-    Deux droites non coplanaires ne sont ni sécantes ni parallèles.
-\end{Aretenir}
-
-\end{multicols}
-
-Des exemples sont donnés à la figure \ref{LabelFigPositionsDroitesbnYIsH}. % From file PositionsDroitesbnYIsH
-\newcommand{\CaptionFigPositionsDroitesbnYIsH}{Droites coplanaires ou non.}
-\input{Fig_PositionsDroitesbnYIsH.pstricks}
-
-%See also the subfigure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH0}
-%See also the subfigure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH1}
-%See also the subfigure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH2}
-Notez en particulier la figure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH3} sur laquelle les droites \( (FH)\) et \( (AC)\) ne sont pas sécantes !
-
-\begin{propriete}
-    Deux droites sécantes sont toujours coplanaires.
-\end{propriete}
-
-\begin{proof}
-    Soient \( d\) et \( d'\) deux droites sécantes dans l'espace. Soit \( K\) leur point d'intersection; soit \( A\), un autre point sur \( d\) et \( B\) un autre point sur \( d'\).
-
-    Le plan défini par les points \( A\), \( K\) et \( B\) contient les deux droites.
-\end{proof}
+Les trois suivantes permettent d'affirmer que tel point ou telle droite est dans un plan.
+\begin{enumerate}
+    \item
+        Si \( d\) est une droite et \( P\) est un point d'un plan, alors la parallèle à \( d\) passant par \( P\) est encore dans le plan.
+    \item
+        Si \( P\) et \( Q\) sont deux points d'un plan, alors toute la droite \( (PQ)\) est encore dans ce plan.
+    \item
+        Deux droites non parallèles situées dans un même plan sont sécantes.
+\end{enumerate}
 
 %---------------------------------------------------------------------------------------------------------------------------
-\subsection{Deux plans}
+\subsection{Position relative de deux plans}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \begin{definition}
-    Deux plans sont \defe{parallèles}{parallèle!deux plans} soit si ils sont confondus, soit si ils n'ont aucun point commun.
+    Deux plans sont \defe{parallèles}{parallèle!deux plans} soit si ils sont confondus, soit si ils n'ont aucun point commun. Si ils n'ont aucun point communs, nous disons qu'ils sont \defe{strictement parallèles}{parallèle!strictement}
 \end{definition}
 
 
-Deux plans dans l'espace sont soit parallèles, soit sécants.
+\begin{Aretenir}
+    Deux plans non parallèles se coupent en une droite.
+\end{Aretenir}
+
 \begin{multicols}{2}
 
     \begin{center}
         Plans parallèles
     \end{center}
-    Des plans parallèles sont soit confondus, soit n'ont aucun point communs.
+   % Des plans parallèles sont soit confondus, soit n'ont aucun point communs.
+    
 
-Les plans \( (AEB)\) et \( (DHC)\) ci-contre sont parallèles.
+%Les plans \( (AEB)\) et \( (DHC)\) ci-contre sont parallèles.
 
 \columnbreak
 
@@ -97,9 +63,9 @@ Les plans \( (AEB)\) et \( (DHC)\) ci-contre sont parallèles.
     \begin{center}
         Plans sécants
     \end{center}
-    L'intersection de deux plans sécants (non confondus) est une droite.
+ %   L'intersection de deux plans sécants (non confondus) est une droite.
 
-    L'intersection des plans \( (ABG)\) et \( (DCG)\) ci-contre est la droite \( (HG)\).
+  %  L'intersection des plans \( (ABG)\) et \( (DCG)\) ci-contre est la droite \( (HG)\).
 
     \columnbreak
 
@@ -112,7 +78,87 @@ Les plans \( (AEB)\) et \( (DHC)\) ci-contre sont parallèles.
 \end{multicols}
 
 %---------------------------------------------------------------------------------------------------------------------------
-\subsection{Une droite et un plan}
+\subsection{Position relative de deux droites}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Deux droites peuvent être soit dans un même plan, soit ne pas être dans le même plan. Deux droites contenues dans un même plan sont dires \defe{coplanaires}{coplanaire}.
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Droites coplanaires}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Deux droites coplanaires respectent la géométrie usuelle. Elles peuvent être parallèles ou sécantes.
+
+\begin{multicols}{2}
+    \begin{center}
+        Droites parallèles dans le plan \( (EBC)\)
+    \end{center}
+
+    \columnbreak
+
+    \begin{center}
+        \input{Fig_IDqyzXM.pstricks}
+    \end{center}
+\end{multicols}
+
+\begin{multicols}{2}
+    \begin{center}
+        Droites sécantes dans le plan \( (AEH)\)
+    \end{center}
+
+    \columnbreak
+
+    \begin{center}
+        \input{Fig_ETfnbsh.pstricks}
+    \end{center}
+\end{multicols}
+
+\begin{Aretenir}
+    À propos de droites coplanaires :
+    \begin{enumerate}
+        \item
+            Deux droites sécantes sont toujours coplanaires.
+        \item
+            Deux droites parallèles sont coplanaires.
+    \end{enumerate}
+\end{Aretenir}
+
+\begin{proof}
+
+    \begin{enumerate}
+        \item
+
+    Soient \( d\) et \( d'\) deux droites sécantes dans l'espace. Soit \( K\) leur point d'intersection; soit \( A\), un autre point sur \( d\) et \( B\) un autre point sur \( d'\).
+
+    Le plan défini par les points \( A\), \( K\) et \( B\) contient les deux droites.
+
+    \item
+
+        Si \( d\) et \( d'\) sont parallèles nous considérons les points \( P\) et \( Q\) sur \( d\) et un point \( A\) sur \( d'\). D'une part droite \( d\) est dans le plan \( (PQA)\) parce que deux de ses points y sont. D'autre part la droite parallèle à \( d\) passant par \( A\) est la droite \( d'\) et est dans le plan comprenant la droite \( d\) et le point \( A\), c'est à dire le plan \( (PQA)\) également.
+
+    \end{enumerate}
+\end{proof}
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    \subsubsection{Droites non coplanaires}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+Deux droites non coplanaires ne peuvent pas être sécantes, ni parallèles.
+
+\begin{multicols}{2}
+    \begin{center}
+        Il est possible pour deux droites dans l'espace d'être ni sécantes ni parallèles.
+    \end{center}
+
+    \columnbreak
+
+    \begin{center}
+        \input{Fig_ENQhxmG.pstricks}
+    \end{center}
+\end{multicols}
+
+%---------------------------------------------------------------------------------------------------------------------------
+\subsection{Position relative d'une droite et un plan}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \begin{definition}
@@ -255,5 +301,3 @@ Le cube de la figure \ref{LabelFigCubeLFZuiW} est dessiné avec \( \alpha=\unit{
 La perspective cavalière n'est pas parfaite; il est aisé de créer des illusions d'optique comme celle de la figure \ref{LabelFigIllusionNHwEtp}. % From file IllusionNHwEtp
 \newcommand{\CaptionFigIllusionNHwEtp}{Une petite illusion d'optique facile.}
 \input{Fig_IllusionNHwEtp.pstricks}
-
-
