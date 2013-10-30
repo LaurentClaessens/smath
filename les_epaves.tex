@@ -5,6 +5,32 @@
 
 Ce chapitre contient les choses tapées mais qui sont hors programmes.
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Statistique descriptive}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Activité : mois de naissance}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Prendre les mois de naissance des élèves, en séparant les groupes.
+\begin{enumerate}
+    \item
+        Quel groupe a la proportion de naissance en mars la plus grande ?
+    \item
+        En tout quelle est la proportion des naissances en avril ?
+    \item 
+        Est-ce qu'on peut voir l'effet comme quoi les mois de \( 31\) jours son plus longs ? 
+        \begin{enumerate}
+            \item
+                Quelle est la proportion d'élèves nés dans un mois de \( 31\) jours ?
+            \item
+                Il y a \( 7\) mois de $31$ jours contre \( 5\) de moins. Donc le résultat est biaisé.
+            \item
+                Calculer la \emph{fréquence} des naissances en naissances par mois.
+        \end{enumerate}
+\end{enumerate}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 \section{Dessiner en vraie grandeur}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -74,6 +100,83 @@ Des exemples sont donnés à la figure \ref{LabelFigPositionsDroitesbnYIsH}. % F
 %See also the subfigure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH2}
 Notez en particulier la figure \ref{LabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH3} sur laquelle les droites \( (FH)\) et \( (AC)\) ne sont pas sécantes !
 
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Surfaces dans un cube}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+La figure \ref{LabelFigDesSections} montre un cube. Êtes-vous capables de donner la nature des surfaces coloriées ?
+\newcommand{\CaptionFigDesSections}{Exercice de vision dans l'espace.}
+\input{Fig_DesSections.pstricks}
+Le triangle vert est isocèle et rectangle parce que deux de ses côtés sont des arrêtes du cube. Le triangle rouge est plus troublant, mais il est équilatéral : ses trois côtés sont des diagonales des faces du cube. Notez que \emph{sur le dessin}, les trois côtés ont des longueur différentes.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Les règles de la perspective cavalière}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Lorsque nous dessinons en trois dimension, nous prenons les conventions suivantes qui définissent la \defe{\wikipedia{fr}{Perspective_cavalière}{perspective cavalière}}{perspective!cavalière}.
+
+\begin{Aretenir}
+    D'abord nous choisissons
+    \begin{enumerate}
+        \item
+            Nous choisissons un \defe{angle de fuite}{angle!de fuite} \( \alpha\) qui sera entre \unit{30}{\degree} et \( \unit{45}{\degree}\) avec l'horizontale\footnote{Sur une feuille à carreaux, le plus simple est de prendre \unit{45}{\degree}.}.
+        \item
+            Un \defe{coefficient de réduction}{coefficient de réduction} que nous noterons \( k\) et qui sera compris entre \( 0\) et \( 1\).
+    \end{enumerate}
+
+    Ensuite nous prenons les correspondances suivantes entre la réalité et le dessin :
+    \begin{center}
+        \begin{tabular}{|p{7.5cm}|p{7.5cm}|}
+            \hline
+            {\bf dans la réalité}&{\bf sur le dessin}\\
+            \hline\hline
+            Segment caché  & Segment pointillé\\
+            \hline
+            Segment parallèle à la feuille de dessin & Segment représenté en vraie grandeur\\
+            \hline
+            Segment perpendiculaire à la feuille de dessin & Segment faisant un angle \( \alpha\) avec l'horizontale.\\
+            \hline
+            Une arrête de longueur \( l\) perpendiculaire à la feuille de dessin & Une arrête de longueur \( k\times l\) faisant un angle \( \alpha\) avec l'horizontale.\\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{Aretenir}
+
+\begin{minipage}{0.485\textwidth}
+    Un carré fait un demi-centimètre. 
+    \begin{itemize}
+        \item Quel est l'angle de fuite utilisé ?
+        \item Quel est le coefficient de réduction utilisé ?
+    \end{itemize}
+\end{minipage}
+\hspace{1mm}
+\begin{minipage}{0.6\textwidth}
+    \center
+    \includegraphics[width=0.6\textwidth]{cube_quadrill.png}
+\end{minipage}
+
+\begin{propriete}
+    La perspective cavalière respecte les conditions suivantes.
+    \begin{enumerate}
+        \item
+             Deux segments parallèles dans la réalité sont représentés par deux segments parallèles sur le dessin.
+         \item
+             Trois points alignés dans la réalité sont représentés par trois points alignés sur le dessin.
+         \item
+             Si \( M\) est le milieu du segment \( [AB]\) dans la réalité, alors \( M\) est le milieu du segment \( [AB]\) dans la réalité.
+         \item
+             La perspective cavalière respecte les proportions. C'est à dire que si le segment \( [AB]\) est \( p\) fois plus grand que le segment \( [CD]\) dans la réalité, alors il sera \( p\) fois plus grand sur le dessin.
+    \end{enumerate}
+\end{propriete}
+
+Le cube de la figure \ref{LabelFigCubeLFZuiW} est dessiné avec \( \alpha=\unit{45}{\degree}\) et \( k=0.5\). Notez que les côtés parallèles restent parallèles.
+\newcommand{\CaptionFigCubeLFZuiW}{Les segments perpendiculaires à la feuille sont de longueur moitié des autres.}
+\input{Fig_CubeLFZuiW.pstricks}
+
+La perspective cavalière n'est pas parfaite; il est aisé de créer des illusions d'optique comme celle de la figure \ref{LabelFigIllusionNHwEtp}. % From file IllusionNHwEtp
+\newcommand{\CaptionFigIllusionNHwEtp}{Une petite illusion d'optique facile.}
+\input{Fig_IllusionNHwEtp.pstricks}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Exercices}
