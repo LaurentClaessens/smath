@@ -2,7 +2,7 @@
 
 from __future__ import division
 from phystricks import *
-from phystricksfigureBCtCTZo import plan
+from phystricksfigureASkECWS import plan
 
 def figureCSIQETx():
     pspict,fig = SinglePicture("figureCSIQETx")
