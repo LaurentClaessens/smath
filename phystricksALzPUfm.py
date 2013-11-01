@@ -7,7 +7,7 @@ def box(m,M,h):
 def ALzPUfm():
     pspict,fig = SinglePicture("ALzPUfm")
     pspict.dilatation_X(0.3)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_Y(0.2)
 
     p1=box(0,4,0)
     p2=box(4,10,3)
