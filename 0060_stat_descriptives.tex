@@ -79,430 +79,58 @@ En pratique :
 
 \end{example}
 
+\section{Représentation graphique d'une série statistique}
 
-\begin{example}
-Une revue présente un tableau donnant les prix en euros d'appareils photos numériques.
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Effectifs cumulés croissants}
+%---------------------------------------------------------------------------------------------------------------------------
 
-  \begin{center}
-
-    \begin{tabular}[t]{|l|c|c|c|c|}
-      \hline
-      \textbf{Prix} & $[300;500[$ & $[500;700[$ & $[700;900[$ &
-      $[900;1\,100[$ \\
-      \hline
-      \textbf{Effectif} & 14 & 8 & 3 & 1 \\
-      \hline
-    \end{tabular}
-      
-  \end{center}
-
-  \begin{enumerate}
-  \item Quelle est la population étudiée ? \\[1ex]
-  \item Quel est le nombre d'individus de cette population ?\\[1ex]
-  \item Quel est le caractère ? \\[1ex]
-  \item Ce caractère est-il quantitatif ?
-  \end{enumerate}
-  
-\end{example}
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    PRÉSENTATION D'UNE SÉRIE
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Présentation des éléments d'une série statistique}
-
-\subsection{Effectifs. Effectifs cumulés croissants}
-
-On donne souvent une série statistique par un tableau d'effectifs.
-
-\begin{example} \label{ExUDXDZl}
-Dans un village, on recense le nombre d'enfants par foyer; le résultats est donné dans le tableau suivant.
-
+Nous classons les élèves d'une classe d'après la première lettre de leur noms. Le résultat est le tableau
 \begin{center}
-\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
-    \hline
-  \textbf{Nombre d'enfants $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-  \hline
-  \textbf{Effectif $n_i$} & 290 & 170 & 155 & 95 & 43 & 27 & 20 & 10\\
-  \hline
+\begin{tabular}[]{|c||c|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        Lettre&a&b&c&d&h&j&l&m&p&r&s&t&total\\
+        \hline\hline
+        Effectifs&4&8&9&2&2&1&1&2&2&1&1&2&\\
+        \hline
+        ECC&&&&&&&&&&&&&\\
+        \hline
 \end{tabular}
 \end{center}
 
-Dans ce tableau nous lisons que \( 155\) foyers ont 2 enfants.
-    
-\end{example}
-
-On note généralement $n$ l'\defe{effectif total}{}, $n=n_1+n_2+n_3+{\ldots}+n_8$. 
-
-\textit{Ici, l'effectif total vaut :  \ldots. }
-
-Le \defe{mode}{} est la valeur ayant le plus grand effectif. Elle a un intérêt si l'effectif de cette valeur est nettement plus grand que les autres effectifs. Il peut y avoir plusieurs modes si plusieurs valeurs ont les mêmes effectifs.
-
-\textit{Dans cet exemple, le mode est égal à \ldots}
-
-À partir du tableau, on peut dresser le tableau des \defe{effectifs cumulés croissants}{}.
-
-\begin{example} \label{ExZdeBXW}
-    Nous continuons l'exemple \ref{ExUDXDZl} en ajoutant la ligne des effectifs cumulés.
-\begin{center}
-\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
-    \hline
-  \textbf{Nombre d'enfants $x\leq$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-  \hline
-  \textbf{Effectif $n_i$} & 290 & 170 & 155 & 95 & 43 & 27 & 20 & 10 \\
-  \hline
-  \textbf{Effectif cumulé croissant} & 290 & 460 & 615 & 710 & 753 & 780 & 800 & 810 \\ 
-  \hline
-\end{tabular}
-    
-\end{center}
-
-Dans ce tableau, nous lisons  que le nombre d'enfants est inférieur ou égal à 2 dans 615 foyers.
-    
-\end{example}
-
-
-
-\begin{remark}
-Le tableau des effectifs cumulés donne directement le nombre de foyers qui ont au plus $x_i$ enfants.  Par exemple, pour $x_i=5$, il y a \( 780\) foyers qui ont au plus 5 enfants.
-\end{remark}
-
-
-\begin{remark}
-Le tableau des effectifs cumulés permet également de repérer facilement la $n$-ième valeur donnée de la série triée par ordre croissant.  Par exemple, le $750$\ieme{} foyer correspond à un foyer ayant \( 4\) enfants. 
-\end{remark}
-
-
-\subsection{Fréquences. Fréquences cumulées croissantes}
-
-À partir des effectifs, on peut dresser le tableau des fréquences.
-
-Par définition, la \defe{fréquence}{} d'une valeur du caractère $x_i$ est :
-\[
-\mbox{fréquence} 
-= \frac{\mbox{effectif $n_i$ du caractère}}{\mbox{effectif total}}
-\qquad
-\mbox{soit} 
-\qquad
-f_i = \dfrac{n_i}{n}
-\]
-
-\begin{example}
-Nous continuons l'exemple \ref{ExUDXDZl}, $f_1 = \dfrac{n_1}{n} = \dfrac{290}{810} \approx 0,36$. Cela signifie que parmi les foyer, une proportion de \( 0.36\) (\( =36\%\)) a exactement un enfant. Les autres résultats sont dans le tableau suivant.
-
-\begin{center}
-\begin{tabular}[t]{|c|c|c|c|c|c|c|c|c|}
-    \hline
-  \textbf{Valeur $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-  \hline
-  \textbf{Fréquence $f_i$} & 0,36 & 0,21 & 0,19 & 0.12  & 0.05 & 0.03 & 0.02 & 0.01 \\ 
-  \hline
-\end{tabular}
-    
-\end{center}
-    
-\end{example}
-
-
-Les fréquences vérifient les propriétés suivantes :
-\begin{enumerate}
-  \item Une fréquence est toujours comprise entre 0 et 1 :
-      \begin{equation}
-    0\leq f_i\leq 1.
-      \end{equation}
-  \item La somme des fréquences est toujours égale à 1.  
-      \begin{equation}
-      f_1+f_2+{\ldots}+f_8 =  1.
-      \end{equation}
-\end{enumerate}
-
-\bigskip
-
-À partir du tableau des fréquences, on peut dresser le tableau des \defe{fréquences cumulées croissantes}{}, en ajoutant à chaque fréquence la somme des fréquences précédentes\footnote{Notons que les erreurs d'arrondi font en sorte que le dernier saut ne tombe pas juste. De toutes façons, la dernière case doit être \( 1\).}.
-
-\begin{center}
-\begin{tabular}[h]{|c|c|c|c|c|c|c|c|c|}
-    \hline
-  \textbf{Valeur $x_i$} & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 \\
-  \hline
-  \textbf{Fréquence $f_i$} & 0,36 & 0,21 & 0,19 & 0,12 & 0.05  & 0.03 & 0.02 & 0.01 \\ 
-  \hline
-  \textbf{Fréquence cumulée croissante} & 0,36 & 0,57 & 0,76 & 0.88 & 0.93 & 0.96 & 0.98  & 1 \\ 
-  \hline
-\end{tabular}
-\end{center}
-
- À partir du tableau des fréquences cumulées, on lit que \( 76\) \% des foyers ont moins de 3 enfants, et \( 88\)\% des foyers ont moins de 4 enfants.
-
-\subsection{Représentation en classes}
-
-Lorsque les valeurs étudiées sont en très grand nombre, on peut les
-regrouper dans des intervalles de la forme $[a;b[$ appelés
-    \defe{classes}{}. 
-
-    L'\defe{amplitude}{} de la classe est $b-a$, c'est l'écart entre la plus
-grande et la plus petite valeur de la classe.
-
-Le \defe{centre}{} de la classe est la moyenne $\dfrac{a+b}2$.
-
-La \defe{classe modale}{} est la classe qui a le plus grand effectif. 
-
-\medskip
-
-\begin{example}
-Le tableau ci-dessous donne la répartition des masses de nouveaux-nés dans un hôpital, de 2,5 $kg$ à 4,5 $kg$.
-
-
-\begin{center}
-  \begin{tabular}[h]{|l|c|c|c|c|}
-    \hline
-    \textbf{Masse en kg} & $[2,\!5\,;3[$ & $[3\,;3,\!5[$ & $[3,\!5\,;4[$ &
-    $[4\,;4,\!5[$ \\
-    \hline
-    \textbf{Effectif} & 15 & 32 & 40 & 13 \\
-    \hline
-  \end{tabular}
-    
-\end{center}
-  
-De ce tableau, nous tirons :
-\begin{enumerate}
-    \item
-  l'effectif total est égal à \( 100\);
-  \item
-  l'amplitude des classes est égale à \( 0.5\);
-  \item
-  le centre de la deuxième classe est \( 3.25\);
-  \item
-  la classe modale est la troisième.
-\end{enumerate}
-
-
-    
-\end{example}
-
-
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    VALEURS CARACTERISTIQUES
-% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\section{Étude d'une série statistique : grandeurs caractéristiques}
-
-On considère une série statistique dont les valeurs du caractère sont
-$x_1$, $x_2$, {\ldots}, $x_p$, et les effectifs correspondants :
-$n_1$, $n_2$, {\ldots}, $n_p$.
-
-%\bigskip
-%\medskip
-
-
-\subsection{Moyenne}
-
-\begin{definition}
-    La \defe{moyenne}{} de la série statistique des $(x_i;n_i)$ est le
-  nombre, noté $\overline{x}$, défini par
-  \[
-  \overline{x} =
-  \frac{n_1x_1+n_2x_2+{\ldots}+n_px_p}{n} 
-  \]
-  où $n = n_1+n_2+{\ldots}+n_p$ est l'effectif total.
-
-    
-\end{definition}
-
-
-\begin{example}
-On reprend le tableau 1 donnant le nombre d'enfants par foyer
-  dans un village. Dans ce village, le nombre moyen d'enfants par
-  foyer est  
-\begin{align*}
-  \overline{x} = {} & 
-  \frac{290\times0+170\times1+155\times2+95\times
-    3+43\times 4+27\times 5+20\times 6+10\times 7}{810}
-  \\[1ex]
-  \overline{x} \approx {} & 1,6
-\end{align*}
-\end{example}
-
-
-
-\begin{remark}
-On peut aussi calculer $\overline{x}$ en utilisant les fréquences
-  $f_i$ : \\[1ex]
-  $ \overline{x} = f_1 x_1 + f_2x_2+{\ldots}+f_px_p $. 
-
-    
-\end{remark}
-
-Du point de vue de la programmation, python a la fonction \info{math.ceil} pour calculer le premier entier supérieur ou égal à \( p\).
-
-\lstinputlisting{exemple_ceil.py}
-
-  \begin{example}
-  \begin{enumerate}
-  \item Pour $n=15$, on a \ $\dfrac{n}4 = 3,75$, donc $Q_1$ est la
-    4\ieme{} valeur de la série (lorsqu'elle est rangée par ordre
-    croissant). 
-    De plus, \( \frac{ 3 }{ 4 }15=11.25\), donc $Q_3$ est la 12\up{e} valeur de la
-    série. 
-  \item Pour $n=18$, $Q_1$ est la 5\up{e} valeur (\( 18/4=4.5\)), et $Q_3$ est la 14\up{e} valeur de la série.
-\end{enumerate}
-      
-  \end{example}
-
-\subsection{Mesures de dispersion}
-
-
-\begin{enumerate}
-    \item L'\defe{étendue}{} d'une série statistique est la différence entre
-  la plus grande et la plus petite valeur.
-\item L'\defe{écart interquartile}{} est égal à la différence $Q_3-Q_1$.
-\end{enumerate}
-
-
-\begin{example}
-Pour la série  1\,000 ; 1\,000 ; 1\,200 ; 1\,200 ; 1\,200 ; 1\,500 ; 1\,500 ;
-  2\,000 ; 2\,500 ; 3\,100 ; étudiée ci-dessus, 
-  \begin{enumerate}
-  \item l'étendue vaut \( 3100-1000=2100\),
-  \item l'écart interquartile est égal à \( 2000-1200=800\).
-  \end{enumerate}
-\end{example}
-
-\subsection{Lecture des grandeurs caractéristiques à l'aide des
-  effectifs cumulés croissants}
-
-  \begin{example}
-
-À partir du tableau suivant, nous pouvons trouver les quartiles en ne lisant que la ligne des effectifs cumulés.
-
-  \begin{center}
-\begin{tabular}[h]{|c||c|c|c|c|c|c|c|c|c|c|c|}
-    \hline
-  \textbf{Valeur} & 73 & 74 & 75 & 76 & 77 & 78 & 79 & 80 & 81 & 82 & 83 \\
-  \hline
-  \textbf{Effectif} & 2 & 4 & 3 & 7 & 9 & 6 & 8 & 3 & 4 & 2 & 2 \\ 
-  \hline
-  \textbf{Eff. cum. cr.} & 2 & 6 & 9 & 16 & 25 & 31 & 39 & 42 & 46 & 48 & 50 \\ 
-  \hline
-\end{tabular}
-      
-  \end{center}
-
-D'abord la dernière case nous dit que l'effectif total est égal à \( 50\). Nous en déduisons que
-\begin{enumerate}
-  \item Le premier quartile est la 13\up{e} valeur.
-  \item La médiane est la moyenne entre la 25\up{e} et la 26\up{e} valeurs.
-  \item Le troisième quartile est la 38\up{e} valeur.
-\end{enumerate}
-La première case des effectifs cumulés à être plus grande (ou égale) à \( 13\) est la case du \( 76\); le premier quartile est donc égal à \( 76\).
-
-Pour la médiane, la \( 25\)\up{e} et la \( 26\)\up{e} sont toutes deux égales à \( 77\); donc la médiane est \( 77\).
-
-En ce qui concerne le troisième quartile, la \( 38\)\up{e} valeur est \( 79\).
-
-\begin{subequations}
-    \begin{align}
-        Q_1&=76\\
-        M_e&=77\\
-        Q_2&=79.
-    \end{align}
-\end{subequations}
-  \end{example}
-
-\subsection{Lecture des quartiles à l'aide des fréquences cumulées croissantes}
-
-Dans le tableau des fréquences cumulées croissantes :
-\begin{enumerate}
-\item le premier quartile $Q_1$ est la première valeur de la série
-  pour laquelle la fréquence cumulée croissante $0,25$ est atteinte ou
-  dépassée ;
-\item le troisième quartile $Q_3$ est la première valeur de la série
-  pour laquelle la fréquence cumulée croissante $0,75$ est atteinte ou
-  dépassée.
-\end{enumerate}
-
-
-\begin{center}
-\begin{tabular}[h]{|c||c|c|c|c|c|c|c|c|c|c|c|}
-    \hline
-  \textbf{Valeur} & 73 & 74 & 75 & 76 & 77 & 78 & 79 & 80 & 81 &
-  82 & 83 \\
-  \hline
-%  \cline{1-12}
-%  \textbf{Effectif} & 2 & 4 & 2 & 7 & 9 & 6 & 8 & 3 & 4 & 2 & 2 &\\ 
-%   \cline{1-12}
-%   \textbf{Effectif cumulé} & 2 & 6 & 9 & 16 & 25 & 31 & 39 &
-%   42 & 46 & 48 & 50 &\\ 
-  \textbf{Freq. cum. cr.} & 0,04 & 0,12 & 0,18 & 0,32 & 0,50 & 0,62 & 0,78 &
-  0,84 & 0,92 & 0,96 & 1 \\ 
-  \hline
-\end{tabular}
-\end{center}
-
-Le premier quartile vaut $Q_1=76$. Le troisième quartile vaut \ $Q_3=79$. L'écart interquartile vaut alors \( 79-76=3\).
-
+   \input{Fig_MAXkaGz.pstricks}
 
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %    REPRESENTATION GRAPHIQUE
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Représentation graphique d'une série statistique}
-
-%TODO : le diagramme en boîte n'est pas au programme de seconde. Il faut donc l'enlever.
-
-\begin{multicols}{2}
-\subsection{Nuage de points}
-  \begin{enumerate}
-  \item En abscisses, les valeurs du caractère.
-  \item En ordonnées, les effectifs (ou les fréquences)
-  \end{enumerate}
-  \columnbreak
-  \EpsOrPdfincludegraphics[width=5cm]{Stats_Fig4_Nuage}
-\end{multicols}
-
-\subsection{Diagramme en bâtons, ou diagramme en barres}
-
-\begin{multicols}{2}
-\begin{enumerate}
-\item Pour des caractères qualitatifs.
-\item L'abscisse représente les valeurs.
-\item La hauteur du bâton est proportionnelle à l'effectif (ou à la fréquence).
-\end{enumerate}
-
-\begin{example}
-Vœu d'orientation des élèves d'une classe de seconde
-  \begin{center}
-    \EpsOrPdfincludegraphics[width=6cm]{Stats_Fig4_DiagBaton}
-  \end{center}    
-\end{example}
-\end{multicols}
 
 \subsection{Histogramme}
 
-\begin{enumerate}
-\item Pour des données rassemblées en classes
-\item L'\textbf{aire} du rectangle est proportionnelle à l'effectif (ou à la
-fréquence). 
-\end{enumerate}
+Le tableau suivant donne la répartition des entreprises du secteur automobile en fonction de leur chiffre d'affaire (en millions d'euros).
 
-\begin{multicols}{2}
-  \begin{center}
-    \EpsOrPdfincludegraphics[width=6cm]{Stats_Fig4_HistPC}
-    Histogramme à pas constant \\
-    (classes de même amplitude)     
-  \end{center}
+\begin{center}
+    \begin{tabular}{|c||c|c|c|c|c|c|}
+        \hline
+        chiffre d'affaire&moins de \( 0.25\)&\( \mathopen[ 0.25 ,0.5 [\)&$\mathopen[ 0.5;1  [$&$\mathopen[ 1 , 2.5 [$&$\mathopen[ 2.5;5 ,  [$&$\mathopen[ 5 , 10 [$\\
+            \hline\hline
+            nombre d'entreprises&\( 137\)&\( 106\)&\( 112\)&$154$&\( 100\)&\( 33\)\\
+            \hline
+    \end{tabular}
+\end{center}
 
-  \columnbreak
+\begin{Aretenir}
+Pour des données rassemblées en classes, l'\textbf{aire} du rectangle est proportionnelle à l'effectif (ou à la fréquence). 
+\end{Aretenir}
 
-  \begin{center}
-    \EpsOrPdfincludegraphics[width=6cm]{Stats_Fig4_HistPNC}
-    Histogramme à pas non constant \\
-    (classes d'amplitudes différentes)
-  \end{center}
-  
-\end{multicols}
+Nous en dessinons l'histogramme suivant :
+\begin{center}
+   \input{Fig_LTenBUj.pstricks}
+\end{center}
+
+
+
+
 
 Consignes pour dessiner un histogramme :
 \begin{enumerate}
@@ -521,60 +149,8 @@ Consignes pour dessiner un histogramme :
     \item
         Éventuellement écrire l'unité de surface «un carreau= \ldots effectifs». Par exemple «un carreau = 50 entreprises», «un carreau = 15 personnes».
 \end{enumerate}
-Voir la correction de l'exercice \ref{exoSeconde-0033} pour un exemple détaillé.
-
-\subsection{Diagramme circulaire}
-
-\begin{multicols}{2}
-  \begin{enumerate}
-  \item L'angle au centre du secteur circulaire est proportionnel à l'effectif
-    de chaque valeur.
-  \end{enumerate}
-  
-  \columnbreak
-  
-  \begin{example}
- Production de fromages en France, en milliers de tonnes
-  \begin{minipage}{1.0\linewidth}
-    \vspace{-2em}
-    \begin{center}
-      \EpsOrPdfincludegraphics[width=5cm]{Stats_Fig4_DiagCirc}
-    \end{center}    
-  \end{minipage}
-  \end{example}
-\end{multicols}
 
 
-
-\subsection{Diagramme des effectifs/fréquences cumulé(e)s croissant(e)s}
-
-\begin{multicols}{2}
-  \begin{center}
-    \EpsOrPdfincludegraphics[width=6cm]{Stats_Fig4_DiagEffCum}
-    
-    Diagramme des effectifs cumulés croissants    
-  \end{center}
-
-  \columnbreak
-  \begin{center}
-    \EpsOrPdfincludegraphics[width=6cm]{Stats_Fig4_DiagFreqCum}
-
-    Diagramme des fréquences cumulées croissantes
-  \end{center}
-\end{multicols}
-
-
-
-\subsection{Diagramme en boîtes}
-
-\begin{enumerate}
-\item Pour des séries ayant un grand nombre de valeurs
-\item Basé sur les quartiles et la médiane
-\end{enumerate}
-
-\begin{center}
-  \EpsOrPdfincludegraphics[width=7cm]{Stats_Fig4_DiagBoite}  
-\end{center}
 
 \begin{example}
     Si nous avons un effectif de \( 25\) personnes, un quart des effectifs seraient \( 6.25\) personnes, et les trois quarts seraient \( 18.75\) personnes. Donc nous mettons les premier quartile sur la \( 7\Ieme\) personne et le troisième quartile sur la \( 19\Ieme\) personne.

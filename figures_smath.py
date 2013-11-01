@@ -4,6 +4,8 @@
 from phystricks import *
 import sys
 
+from phystricksLTenBUj import LTenBUj
+from phystricksMAXkaGz import MAXkaGz
 from phystricksYRQOoPE import YRQOoPE
 from phystricksONMRllE import ONMRllE
 from phystricksMEzTDZC import MEzTDZC
@@ -205,23 +207,22 @@ def AllFigures(figures_list):
 # Les fonctions suivantes sont supprimées (12 septembre 2013)
 #DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,
 
-figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,SolsSinpA,Trajs,ExerciceGraphesbis,UnSurxInt,AireParabole,PartieEntiere,
-    Mantisse,EvZZys,BpCNVm,HistoAutomobile,HistoTdkccB,HistoPySeT,HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,
-    bDdpfh,ParaboleiLbviP,ParaboleMCLCbG,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,
-    ParaboleUniqueHautviflbY,ParaboleUniqueBaskGdqda,MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,
-    GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,ExIneqfgZWStde,
-    ExVariationRXTkoc,ExoGraphIneqPgErDr,GrapheVarndvdQM,FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,
-    LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,LignesCubeshBfjxk,SurfacesCubesclGZD,FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,
-    DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,PositionsDroitesbnYIsH,CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,
-    SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,GrandeBinomialeIyWAIh,ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,
-    VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,
-    PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,
-    figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,CylindresxKDOdy,figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,
-    figureSCkAAJI,figureUERGVgS,figureQUtOjcm,figureXNAufCh,figureEWDVDTS,figureTJkpHLv,figureDTzvwiz,figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,
-    KKEdcAR,figureXCScSiP,figureSZyxsvp,figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,
-    OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,
-    LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,
-    IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf
+figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,SolsSinpA,Trajs,ExerciceGraphesbis,UnSurxInt,AireParabole,PartieEntiere,Mantisse,EvZZys,
+    BpCNVm,HistoAutomobile,HistoTdkccB,HistoPySeT,HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,
+    ParaboleMCLCbG,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
+    ParaboleUniqueBaskGdqda,MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,
+    FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,GrapheVarndvdQM,
+    oncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,
+    LignesCubeshBfjxk,SurfacesCubesclGZD,FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,
+    PositionsDroitesbnYIsH,CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,
+    GrandeBinomialeIyWAIh,ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
+    ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
+    figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,CylindresxKDOdy,
+    figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureQUtOjcm,figureXNAufCh,figureEWDVDTS,figureTJkpHLv,figureDTzvwiz,
+    figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP,figureSZyxsvp,figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,
+    figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,
+    XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,
+    AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj
     ]
 
 #figures_list=[LNfaWPF]
