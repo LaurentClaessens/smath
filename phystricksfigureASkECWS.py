@@ -2,7 +2,15 @@
 
 from __future__ import division
 from phystricks import *
-from phystricksfigureBCtCTZo import plan
+
+def plan(A,B,C,D,dilatation):
+    """
+    retourne le polygone qui correspond au plan donné par 4 points.
+    """
+    AB=Segment(A,B).dilatation(dilatation)
+    CD=Segment(C,D).dilatation(dilatation)
+    plan=Polygon(AB.I,AB.F,CD.F,CD.I)
+    return plan
 
 def figureASkECWS():
     pspict,fig = SinglePicture("figureASkECWS")
