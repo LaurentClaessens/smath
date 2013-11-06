@@ -5,7 +5,7 @@
 
 \EpsOrPdfincludegraphics[width=\linewidth]{BO_perspective}
 
-Note : savoir si deux droites dans l'espace sont perpendiculaires n'est pas au programme. Dans ce chapitre nous allons donc nous en tenir qu'à des choses simples.
+Note : La perpendiculaire n'est pas au programme. Dans ce chapitre nous allons donc nous en tenir qu'à des choses simples.
 
 \setcounter{section}{-1}
 
@@ -14,6 +14,60 @@ Note : savoir si deux droites dans l'espace sont perpendiculaires n'est pas au p
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \input{activ_perspective}
+
+Éléments de réponses :
+\begin{enumerate}
+    \item
+        Isocèle et rectangle parce que la face supérieure est un carré.
+    \item
+        C'est un parallélogramme parce que il a deux côtés opposés parallèles et de même longueur : \( [AB]\) et \( [HG]\). C'est même un rectangle parce que la droite \( (AB)\) est perpendiculaire à tout le plan de la face droite (cela n'est pas précis, mais nous n'en dirons pas plus cette année).
+    \item
+        Il suffit de prendre trois diagonales des faces, par exemple \( AFH\).
+    \item
+        Effectuer Pythagore dans le triangle rectangle \( ABG\). La réponse est \( 5\sqrt{3}\) (mètres).
+\end{enumerate}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{La perspective cavalière}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Le cube tracé ci-dessus est «en 3D». Il y a de nombreuses façons de dessiner en 3D, et celle que nous utilisons ici est une facile : la \defe{perspective cavalière}{perspective!cavalière}. C'est la technique la plus utilisée.
+
+Ici : envoyer des élèves au tableau pour qu'ils montrent comment ils dessinent des cubes. On relève les éléments suivants :
+\begin{enumerate}
+    \item
+        Les droites qui vont dans le sens de la profondeur sont dessinées en diagonale. L'angle choisit est l'\defe{angle de fuite}{angle!de fuite}.
+    \item
+        Elles sont dessinées un peu plus courtes. Le \defe{coefficient de réduction}{coefficient!de réduction} est le facteur «de compression» utilisé.
+\end{enumerate}
+
+Attention cependant : 
+\begin{enumerate}
+    \item
+        Les angles et les distances ne sont pas préservées. Sur le cube plus haut, nous avons vu que le triangle \( AEF\) était rectangle et isocèle, mais sur le dessin il n'est ni l'un ni l'autre !
+    \item
+        Deux droites sécantes sur le dessin peuvent ne pas être sécantes dans la réalité. Par exemple \( (EH)\) et \( (AB)\).
+    \item
+        Un point peut paraître être sur un segment alors qu'il n'y est pas. C'est pour cela que nous avons besoin de deux yeux pour voir un 3D \ldots et donc de lunettes spéciales pour aller au cinéma en 3D.
+\end{enumerate}
+Pour le troisième point : montrer \emph{de visu}. D'une part en mettant un point au milieu de la face avant du cube et en disant que ça pourrait être être sur la face arrière ou même sur aucune des deux faces. Et d'autre part en montrant un bout de gomme devant une feuille. Les élèves dans l'alignement ne peuvent pas savoir si la gomme est devant ou dessus, mais les autres, oui.
+
+Conclusion : ne pas se fier à ce que l'on voit sur le dessin.
+
+
+Les avantages de cette technique sont :
+\begin{propriete}
+    \begin{enumerate}
+        \item
+             Deux segments parallèles dans la réalité sont représentés par deux segments parallèles sur le dessin.
+         \item
+             Trois points alignés dans la réalité sont représentés par trois points alignés sur le dessin.
+         \item
+             Si \( M\) est le milieu du segment \( [AB]\) dans la réalité, alors \( M\) est le milieu du segment \( [AB]\) sur le dessin.
+         %\item
+         %    La perspective cavalière respecte les proportions. C'est à dire que si le segment \( [AB]\) est \( p\) fois plus grand que le segment \( [CD]\) dans la réalité, alors il sera \( p\) fois plus grand sur le dessin.
+    \end{enumerate}
+\end{propriete}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Ce qui est dans un plan}
@@ -29,14 +83,17 @@ Les trois suivantes permettent d'affirmer que tel point ou telle droite est dans
         Deux droites non parallèles situées dans un même plan sont sécantes.
 \end{enumerate}
 
-%---------------------------------------------------------------------------------------------------------------------------
-\subsection{Position relative de deux plans}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Position relatives}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Positions relatives de deux plans}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \begin{definition}
     Deux plans sont \defe{parallèles}{parallèle!deux plans} soit si ils sont confondus, soit si ils n'ont aucun point commun. Si ils n'ont aucun point communs, nous disons qu'ils sont \defe{strictement parallèles}{parallèle!strictement}
 \end{definition}
-
 
 \begin{Aretenir}
     Deux plans non parallèles se coupent en une droite.
@@ -47,15 +104,9 @@ Les trois suivantes permettent d'affirmer que tel point ou telle droite est dans
     \begin{center}
         Plans parallèles
     \end{center}
-   % Des plans parallèles sont soit confondus, soit n'ont aucun point communs.
     
-
-%Les plans \( (AEB)\) et \( (DHC)\) ci-contre sont parallèles.
-
 \columnbreak
 
-%The result is on figure \ref{LabelFigPositionPlansTvKvah}. % From file PositionPlansTvKvah
-%\newcommand{\CaptionFigPositionPlansTvKvah}{<+Type your caption here+>}
     \begin{center}
 \input{Fig_PositionPlansTvKvah.pstricks}
     \end{center}
@@ -67,14 +118,9 @@ Les trois suivantes permettent d'affirmer que tel point ou telle droite est dans
     \begin{center}
         Plans sécants
     \end{center}
- %   L'intersection de deux plans sécants (non confondus) est une droite.
-
-  %  L'intersection des plans \( (ABG)\) et \( (DCG)\) ci-contre est la droite \( (HG)\).
 
     \columnbreak
 
-%The result is on figure \ref{LabelFigPositionPlansqSltxa}. % From file PositionPlansqSltxa
-%\newcommand{\CaptionFigPositionPlansqSltxa}{<+Type your caption here+>}
     \begin{center}
 \input{Fig_PositionPlansqSltxa.pstricks}
     \end{center}
@@ -93,6 +139,7 @@ Deux droites peuvent être soit dans un même plan, soit ne pas être dans le m�
 
 Deux droites coplanaires respectent la géométrie usuelle. Elles peuvent être parallèles ou sécantes.
 
+\vbox{
 \begin{multicols}{2}
     \begin{center}
         Droites parallèles dans le plan \( (EBC)\)
@@ -104,7 +151,9 @@ Deux droites coplanaires respectent la géométrie usuelle. Elles peuvent être 
         \input{Fig_IDqyzXM.pstricks}
     \end{center}
 \end{multicols}
+}
 
+\vbox{
 \begin{multicols}{2}
     \begin{center}
         Droites sécantes dans le plan \( (AEH)\)
@@ -116,6 +165,7 @@ Deux droites coplanaires respectent la géométrie usuelle. Elles peuvent être 
         \input{Fig_ETfnbsh.pstricks}
     \end{center}
 \end{multicols}
+}
 
 \begin{Aretenir}
     À propos de droites coplanaires :
@@ -149,6 +199,7 @@ Deux droites coplanaires respectent la géométrie usuelle. Elles peuvent être 
     
 Deux droites non coplanaires ne peuvent pas être sécantes, ni parallèles.
 
+\vbox{
 \begin{multicols}{2}
     \begin{center}
         Il est possible pour deux droites dans l'espace d'être ni sécantes ni parallèles.
@@ -160,6 +211,7 @@ Deux droites non coplanaires ne peuvent pas être sécantes, ni parallèles.
         \input{Fig_ENQhxmG.pstricks}
     \end{center}
 \end{multicols}
+}
 
 %---------------------------------------------------------------------------------------------------------------------------
 \subsection{Position relative d'une droite et un plan}
@@ -203,23 +255,15 @@ Deux droites non coplanaires ne peuvent pas être sécantes, ni parallèles.
 \subsubsection{Droite contenue dans un plan}
 %///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+\vbox{
 \begin{multicols}{2}
 
     La droite \( (EB)\) est contenue dans le plan \( (AEF)\).
 
     \columnbreak
     \begin{center}
-%The result is on figure \ref{LabelFigfigureCSIQETx}. % From file figureCSIQETx
-%\newcommand{\CaptionFigfigureCSIQETx}{<+Type your caption here+>}
 \input{Fig_figureCSIQETx.pstricks}
     \end{center}
 \end{multicols}
-
-%\begin{definition}
-%    Une droite est \defe{perpendiculaire}{perpendiculaire!droite et plan} à un plan si elle est perpendiculaire à deux droites non confondues du plan.
-%\end{definition}
-
-%\begin{Aretenir}
-%    Si la droite \( d\) est perpendiculaire au plan \( \Omega\), alors toutes les droites du plan \( \Omega\) sécantes avec \( d\) sont perpendiculaires à \( d\).
-%\end{Aretenir}
+}
 

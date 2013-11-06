@@ -43,8 +43,8 @@
 \usepackage{import}         % Pour le hack qui sert à inclure GeomAnal
 
 % TODO : n'en utiliser qu'un
-\usepackage[normalem]{ulem}		% Pour le barré, commande \sout
-\usepackage{soul}		% Pour le barré, commande \st
+\usepackage[normalem]{ulem}     % Pour le barré, commande \sout
+\usepackage{soul}       % Pour le barré, commande \st
 
 \usepackage[all]{xy}
 
@@ -214,13 +214,13 @@ filecolor=magenta   % couleur des textes qui sont des liens
 
 
 \theoremstyle{MyTheorems}
-            \newtheorem{lemma}[numtho]{Lemme}
-            \newtheorem{corollary}[numtho]{Corollaire}
-            \newtheorem{theorem}[numtho]{Théorème}      
-            \newtheorem{proposition}[numtho]{Proposition}      
+\newtheorem{lemma}[numtho]{Lemme}
+\newtheorem{corollary}[numtho]{Corollaire}
+\newtheorem{theorem}[numtho]{Théorème}      
+\newtheorem{proposition}[numtho]{Proposition}      
 
-            %\newtheorem{exo}[CountExercice]{Exercice}       % C'est provisoire, pour Chafaï
 
+\renewcommand{\thechapter}{\Roman{chapter}}    
 \renewcommand{\thenumtho}{\thechapter.\arabic{numtho}}
 % La numérotation des équations change dans les corrigés
 \renewcommand{\theequation}{\thechapter.\arabic{equation}}
@@ -527,7 +527,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 %\def\proof{\noindent {\it Proof. \;}}
 
 
-%	La num\'erotation des exercices
+%   La num\'erotation des exercices
 
 
 \newcounter{exoNico}
@@ -681,14 +681,14 @@ filecolor=magenta   % couleur des textes qui sont des liens
 
 % Cet environnement est sympa, mais il dépend trop de ps; en tout cas il ne passe pas dans pdflatex
 % 15 mars 1012
-%\newenvironment{arrowcases}	{%
-%			\pnode(\arrowsep,0.5ex){A}%
-%			\hspace{\arrowlength}%
-%			\begin{array}{>{\displaystyle\pnode(-\arrowsep,0.5ex){B}}l<{\ncline{A}{B}}@{}}
-%				}
-%			{
-%			  \end{array}
-%			}
+%\newenvironment{arrowcases}    {%
+%           \pnode(\arrowsep,0.5ex){A}%
+%           \hspace{\arrowlength}%
+%           \begin{array}{>{\displaystyle\pnode(-\arrowsep,0.5ex){B}}l<{\ncline{A}{B}}@{}}
+%               }
+%           {
+%             \end{array}
+%           }
 
 \newenvironment{arrowcases}%
 {\begin{cases}}
