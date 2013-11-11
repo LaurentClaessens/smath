@@ -5,6 +5,28 @@
 
 \begin{corrige}{smath-0493}
 
-<+Corrsmath-0493+>
+    Le lièvre courant à \unit{60}{\kilo\meter\per\hour}, il termine la course en une minute. La tortue par contre doit encore parcourir deux mètres et aura besoin de deux minutes pour terminer lorsque le lièvre partira. Le lièvre gagne donc avec une minute d'avance.
+
+    Attention : cela ne signifie pas que le lièvre dépasse la tortue à un mètre de la ligne d'arrivée. La tortue est encore à un mètre de la ligne d'arrivée lorsque le lièvre termine; donc le lièvre a dû dépasser la tortue un peu avant.
+
+    Pour savoir à quel moment et à quel endroit le lièvre dépasse la tortue, il faut poser quelque équations. Si \( f\) est la fonction qui donne la position du lièvre (en kilomètres depuis la ligne de départ) en fonction du temps (compté en minutes à partir du moment où le lièvre part), nous posons
+    \begin{equation}
+        f(x)=x.
+    \end{equation}
+    Dans les mêmes unités, \( g\) sera la position de la tortue en fonction du temps :
+    \begin{equation}
+        g(x)=0.998+0.001x.
+    \end{equation}
+    La raison de cette fonction est que lorsque le lièvre part, la tortue est déjà à \unit{0.998}{\kilo\meter} (c'est à dire \( 998\) mètres) de la ligne de départ et qu'elle parcourt \unit{0.001}{\kilo\meter} par minute.
+
+    Le moment où le lièvre dépasse la tortue est alors donné par l'équation
+    \begin{equation}
+        x=0.998+0.001x,
+    \end{equation}
+    dont la solution est
+    \begin{equation}
+        x=\frac{ 0.998 }{ 0.999 }=\frac{ 998 }{ 999 }.
+    \end{equation}
+    Cela est le moment, compté en minutes depuis le départ du lièvre, où le lièvre dépasse la tortue. À ce moment, la lièvre se trouve à environ \unit{0.9989}{\kilo\meter} de la ligne de départ. C'est donc effectivement très peu avant \unit{1}{\meter} de la ligne d'arrivée.
 
 \end{corrige}
