@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksUKBImJl import UKBImJl
 from phystricksAPYEkIv import APYEkIv
 from phystricksALzPUfm import ALzPUfm
 from phystricksLTenBUj import LTenBUj
@@ -203,7 +204,7 @@ from phystricksENQhxmG import ENQhxmG
 from phystricksKDtwIJf import KDtwIJf
 
 def AllFigures(figures_list):
-    tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Soupçon de mathématiques")
+    tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Un soupçon de mathématiques")
     tests.generate()
     tests.summary()
 
@@ -225,7 +226,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP,figureSZyxsvp,figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,
     figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,
     XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,
-    AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv
+    AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl
     ]
 
 #figures_list=[LNfaWPF]
