@@ -13,10 +13,45 @@
 \usepackage{lmodern}
 \usepackage[english,frenchb]{babel}
 
-
+\usepackage{calc}   % Les dépendances de phystricks si on n'utilise que le pdf.
+\usepackage[cdot,thinqspace,amssymb]{SIunits} 
+\usepackage{multicol}
+\usepackage{wrapfig}
 
 \usetheme{default}
 \begin{document}
+
+\begin{frame}{Calcul mental 4}
+    
+    \begin{enumerate}
+        \item
+
+    \pause
+            \begin{multicols}{2}
+
+                Quelle est la nature du triangle \( EBH\) ?
+
+                \columnbreak
+
+                \input{Fig_MUriGyU.pstricks}
+            \end{multicols}
+
+        \item
+    \pause
+            Écrire sous forme d'une somme : $(x+3)^2$.
+        \item
+            \pause
+            L'aire d'un carré est de \unit{11}{\centi\meter\squared}. Quelle est la longueur exacte de son côté ?
+        \item
+            \pause
+            Simplifier 
+            \begin{equation}
+                \frac{ 8ax+a^2 }{ 2a }.
+            \end{equation}
+            
+    \end{enumerate}
+\end{frame}
+
 
 \begin{frame}{Calcul mental 3}
     \pause
