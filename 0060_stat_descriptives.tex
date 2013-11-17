@@ -14,6 +14,31 @@
 
 \input{activ_statistique_descriptive}
 
+Éléments de réponse.
+
+\begin{enumerate}
+    \item
+Nous pouvons remplir le tableau
+\begin{equation*}
+    \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|| c |}
+        \hline
+        \text{Nombre}&1&2&3&4&5&6&7&8&9&10&11&\text{total}\\
+        \hline\hline
+        \text{Effectifs}&3&0&1&4&4&2&1&5&3&1&1&25\\
+        \hline
+    \end{array}
+\end{equation*}
+\item
+Il y a \( 17\) élèves ayant reçu \( 5\) spams ou plus.
+     \item
+         Pour calculer la moyenne il faut d'abord calculer le nombre total de spams reçus, puis diviser par le nombre d'élèves :
+         \begin{equation}
+             \text{moyenne}=\frac{ 3\times 1+1\times 3+4\times 4+4\times 5+2\times 6+\ldots+1\times 11 }{ 25 }=\frac{ 149 }{ 25 }=5.96.            
+         \end{equation}
+     \item
+         En ce qui concerne la division de la classe en quatre groupe, vu que \( 25\) n'est pas divisible en \( 4\), il va falloir donner une convention sur les arrondis.
+\end{enumerate}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Convention sur les quartiles et médiane}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -29,12 +54,6 @@
             Le \defe{troisième quartile}{quartile!troisième} $Q_3$ est la plus petite valeur de la liste telle qu'au moins les trois quarts des valeurs de la liste soient inférieures ou égales à $Q_3$.
   \end{enumerate}
 \end{definition}
-Les conventions sur les quartiles sont résumées ici :
-
-\begin{center}
-   \input{Fig_KDtwIJf.pstricks}
-\end{center}
-
 En pratique :
 \begin{itemize}
     \item 
@@ -45,23 +64,47 @@ En pratique :
 
 
 \begin{example}
-    Cherchons les médianes et quartiles de la liste $5$, $12$, $17$, $12$, $10$, $7$.
 
-    D'abord nous trions par ordre croissant en respectant les répétitions (attention : le \( 12\) vient deux fois) : 
+    Un laboratoire expérimente un médicament sur dix souris. Voici les temps (en semaines) que les souris ont encore vécu après l'injection : \( 2\), \( 5\), \( 10\), \( 2\), \( 1\), \( 3\), \( 10\), \( 5\), \( 5\), \( 1\).
+
+    D'abord nous trions par ordre croissant en respectant les répétitions :
     \begin{equation*}
-        \begin{array}[]{|c||c|c|c|c|c|c|}
+        \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|}
             \hline
-            \text{numéro}&1&2&3&4&5&6\\
+            \text{numéro de la souris}&1&2&3&4&5&6&7&8&9&10\\
             \hline
-            \text{valeur}&5&7&10&12&12&17\\
+            \text{semaines de vie}&1&1&2&2&3&5&5&5&10&10\\
             \hline
         \end{array}
     \end{equation*}
-    Il y a \( 6\) valeurs, donc la médiane est la demi-somme des deux du milieu : \( 10\) et \( 12\). La médiane est \( 11\).
 
-    En ce qui concerne les quartiles, il y a \( 6\) valeurs. Donc un quart serait \( 1.5\). Nous mettons le premier quartile sur la deuxième valeur (arrondi par excès), c'est à dire que le premier quartile est \( 7\). Les trois quart serait \( 4.5\) et nous mettons le troisième quartile sur la cinquième valeur, c'est à dire \( 12\).
+    Il y a \( 10\) valeurs, donc 
+    \begin{enumerate}
+        \item
+            Pour le premier quartile, \( \frac{ 10 }{ 4 }\simeq 2.5\), on prend la troisième valeur : \( Q_1=2\).
+        \item
+            Pour le troisième quartile, \( \frac{ 3}{ 4 }\times 10\simeq 7.5\), on prend la huitième valeur : \( Q_3=5\).
+        \item
+            Pour la médiane, on prend la moyenne entre la cinquième et la sixième valeur : \( \frac{ 3+5 }{2}=4\) : \( Med=4\).
+    \end{enumerate}
+
+    Nous résumons ces informations sur le diagramme suivant :
+
+
+    \begin{center}
+        \input{Fig_DNYAefI.pstricks}
+    \end{center}
+
+
+    Attention : nouvelle de dernière minute. Le laboratoire s'est trompé dans ses résultats. En réalité les deux souris qui ont vécu \( 10\) semaines ont vécu respectivement \( 15\) et \( 20\) semaines. Est-ce que ça change quelque chose ?
 
 \end{example}
+
+Les conventions sur les quartiles sont résumées ici :
+
+\begin{center}
+   \input{Fig_KDtwIJf.pstricks}
+\end{center}
 
 \section{Représentation graphique d'une série statistique}
 
@@ -71,13 +114,13 @@ En pratique :
 
 Nous classons les élèves d'une classe d'après la première lettre de leur noms. Le résultat est le tableau
 \begin{center}
-\begin{tabular}[]{|c||c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\begin{tabular}[]{|c||c|c|c|c|c|c|c|c|c|c|c|c||c|}
         \hline
         Lettre&a&b&c&d&h&j&l&m&p&r&s&t&total\\
         \hline\hline
-        Effectifs&4&8&9&2&2&1&1&2&2&1&1&2&\\
+        Effectifs&4&8&9&2&2&1&1&2&2&1&1&2&35\\
         \hline
-        ECC&&&&&&&&&&&&&\\
+        ECC&4&12&21&23&25&26&27&29&31&32&33&35&\\
         \hline
 \end{tabular}
 \end{center}
@@ -85,25 +128,31 @@ Nous classons les élèves d'une classe d'après la première lettre de leur nom
 \input{Fig_MAXkaGz.pstricks}
 
 %--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Passage à la fréquence}
+\subsection{Graphe des fréquences cumulées croissantes}
 %---------------------------------------------------------------------------------------------------------------------------
 
-Nous reprenons le tableau du nombre d'élèves en fonctions de la lettre
-\begin{center}
-\begin{tabular}[]{|c||c|c|c|c|c|c|c|c|c|c|c|c||c|}
+Nous reprenons l'exemple du spam
+\begin{equation*}
+    \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|| c |}
         \hline
-        Lettre&a&b&c&d&h&j&l&m&p&r&s&t&total\\
+        \text{Nombre}&1&2&3&4&5&6&7&8&9&10&11&\text{total}\\
         \hline\hline
-        Effectifs&4&8&9&2&2&1&1&2&2&1&1&2&35\\
+        \text{Effectifs}&3&0&1&4&4&2&1&5&3&1&1&25\\
         \hline
-        Fréquences&&&&&&&&&&&&&\\
+        \text{Fréquences}&0.12&0&0.04&0.16&0.16&0.08&0.04&0.2&0.12&0.04&0.04&1\\
         \hline
-\end{tabular}
+        \text{FCC}&0.12&0.12&0.16&0.32&0.48&0.56&0.6&0.8&0.92&0.96&1&\\
+        \hline
+    \end{array}
+\end{equation*}
+
+\begin{center}
+\input{Fig_FWyrYhJ.pstricks}
 \end{center}
 
-La \defe{fréquence}{fréquence} des élèves ayant un nom commençant par «p» est leur proportion dans la classe, à savoir \( \frac{ 2 }{ 35 }\).
-
+%--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Histogramme}
+%---------------------------------------------------------------------------------------------------------------------------
 
 Le tableau suivant donne la répartition des entreprises du secteur automobile en fonction de leur chiffre d'affaire (en millions d'euros).
 
