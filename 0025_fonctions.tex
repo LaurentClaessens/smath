@@ -3,7 +3,7 @@
 %   Laurent Claessens, Pauline Klein
 % See the file fdl-1.3.txt for copying conditions.
 
-Dans ce chapitres :
+Dans ce chapitre :
 \begin{enumerate}
     \item
         Résoudre graphiquement des inéquations : \( f(x)\leq k\) ou \( f(x)\geq g(x)\).
@@ -18,10 +18,9 @@ Dans ce chapitres :
 \end{enumerate}
 
 
-Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf1} montrent des droites affines. Lorsque \( m>0\), la droite monte; lorsque \( m<0\) elle descend. La pente est d'autant plus forte que \( m\) est grand.
-\newcommand{\CaptionFigFnAffineipcEQf}{Deux droites affines.}
-\input{Fig_FnAffineipcEQf.pstricks}
-
+%Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf1} montrent des droites affines. Lorsque \( m>0\), la droite monte; lorsque \( m<0\) elle descend. La pente est d'autant plus forte que \( m\) est grand.
+%\newcommand{\CaptionFigFnAffineipcEQf}{Deux droites affines.}
+%\input{Fig_FnAffineipcEQf.pstricks}
 
 
 \section{Sens de variation d'une fonction}
@@ -55,63 +54,96 @@ Les figures \ref{LabelFigFnAffineipcEQfssLabelSubFigFnAffineipcEQf0} et \ref{Lab
 \subsection{Définition}
 
 \begin{definition}
-      Soit $f$ une fonction définie sur $\defD$ et $I$ un
-      intervalle de $\defD$.\\[-2ex]
+      Soit $f$ une fonction définie sur un intervalle \( I\) de \( \eR\).
       \begin{enumerate}
-          \item On dit que $f$ est \defe{croissante}{croissante (fonction)} sur $I$
-        si et seulement si pour tous réels $a$ et $b$ de $I$, 
-        si $a\leq b$ \ alors \ $f(a)\leq f(b)$.
-    \item On dit que $f$ est \defe{décroissante}{décroissante (fonction)} sur $I$
-        si et seulement si pour tous réels $a$ et $b$ de $I$, 
-        si $a\leq b$ \ alors \ $f(a)\geq f(b)$. 
+          \item 
+              On dit que $f$ est \defe{croissante}{croissante (fonction)} sur $I$ si pour tout choix de réels $a$ et $b$ dans $I$ tels que $a\leq b$ nous avons $f(a)\leq f(b)$.
+    \item 
+        On dit que $f$ est \defe{décroissante}{décroissante (fonction)} sur $I$ si pour tout choix de $a$ et $b$ dans $I$ tels que $a\leq b$, nous avons $f(a)\geq f(b)$. 
       \end{enumerate}
 \end{definition}
 
+Une fonction croissante range les images dans le même ordre que les antécédents. Une fonction décroissante inverse cet ordre. 
 
-\begin{remark}
-    Une fonction croissante range les images dans le même ordre que les antécédents. Une fonction décroissante inverse cet ordre. 
-\end{remark}
+\begin{example}
+    Nous considérons la fonction \( f\colon x\mapsto x^2\) sur \( \eR^+\).
+    \begin{equation*}
+        \begin{array}[]{|c||c|}
+            \hline
+            x&f(x)\\
+            \hline\hline
+            0&0\\
+            \hline
+            0.1&0.01\\
+            \hline
+            0.5&0.25\\
+            \hline
+            1&1\\
+            \hline
+            2&4\\
+            \hline
+            10&100\\
+            \hline
+        \end{array}
+    \end{equation*}
+    Dans ce tableau les valeurs de \( x\) sont rangées dans l'ordre croissant et nous remarquons que les images le sont aussi. La fonction \( f(x)=x^2\) est donc croissante tant qu'on considère des nombres positifs.
 
+    Pour les valeurs négatives c'est le contraire :
+    \begin{equation*}
+        \begin{array}[]{|c||c|}
+            \hline
+            x&f(x)\\
+            \hline\hline
+            -10&100\\
+            \hline
+            -2&4\\
+            \hline
+            -1&1\\
+            \hline
+            -0.5&0.25\\
+            \hline
+            -0.1&0.01\\
+            \hline
+            0&0\\
+            \hline
+        \end{array}
+    \end{equation*}
+    Ici les antécédents sont dans l'ordre croissant et les images sont dans l'ordre décroissant.
+\end{example}
+  
 
-\begin{definition}
-    On dit que $f$ est \defe{strictement croissante}{strictement croissante} sur~$I$
-  si pour tous réels $a$ et $b$ de $I$ tels que $a<b$, on a $f(a)<f(b)$.
+%\begin{definition}
+%    On dit que $f$ est \defe{strictement croissante}{strictement croissante} sur~$I$
+%  si pour tous réels $a$ et $b$ de $I$ tels que $a<b$, on a $f(a)<f(b)$.
 
-  La fonction \( f\) est \defe{strictement décroissante}{strictement décroissante} sur \( I\) si pour tous réels $a$ et $b$ de $I$ tels que $a<b$, on a $f(a)>f(b)$.
-\end{definition}
-La différence entre la croissance et la \emph{stricte} croissance est que l'inégalité est stricte.
+%  La fonction \( f\) est \defe{strictement décroissante}{strictement décroissante} sur \( I\) si pour tous réels $a$ et $b$ de $I$ tels que $a<b$, on a $f(a)>f(b)$.
+%\end{definition}
+%La différence entre la croissance et la \emph{stricte} croissance est que l'inégalité est stricte.
 
-\begin{definition}
-    Soit \( I\) un intervalle de \( \eR\). Nous disons que la fonction \( f\) est \defe{monotone}{monotone} sur $I$ si elle est soit croissante sur $I$, soit décroissante sur $I$.
-\end{definition}
+%\begin{definition}
+%    Soit \( I\) un intervalle de \( \eR\). Nous disons que la fonction \( f\) est \defe{monotone}{monotone} sur $I$ si elle est soit croissante sur $I$, soit décroissante sur $I$.
+%\end{definition}
 
-\begin{multicols}{2}
-
-    La fonction dessinée ci-contre n'est pas monotone sur l'intervalle \( \mathopen[ -2 , 0 \mathclose]\). Elle est
-    \begin{itemize}
-        \item 
-            monotone décroissante sur \( \mathopen[ -2.5 , -1 \mathclose]\);
-        \item
-            monotone croissante sur \( \mathopen[ -1 , 1 \mathclose]\);
-        \item
-            monotone décroissante sur \( \mathopen[ 1 , 1.5 \mathclose]\).
-    \end{itemize}
-
-\columnbreak
-
+%\begin{multicols}{2}
+%    La fonction dessinée ci-contre n'est pas monotone sur l'intervalle \( \mathopen[ -2 , 0 \mathclose]\). Elle est
+%    \begin{itemize}
+%        \item 
+%            monotone décroissante sur \( \mathopen[ -2.5 , -1 \mathclose]\);
+%        \item
+%            monotone croissante sur \( \mathopen[ -1 , 1 \mathclose]\);
+%        \item
+%            monotone décroissante sur \( \mathopen[ 1 , 1.5 \mathclose]\).
+%    \end{itemize}
+%\columnbreak
 %\includegraphics{Picture_FIGLabelFigGrapheVarndvdQMPICTGrapheVarndvdQM-for_eps.pdf}
 %The result is on figure \ref{LabelFigGrapheVarndvdQM}.
 %\newcommand{\CaptionFigGrapheVarndvdQM}{<+Type your caption here+>}
-\input{Fig_GrapheVarndvdQM.pstricks}
+%\input{Fig_GrapheVarndvdQM.pstricks}
+%\end{multicols}
 
-\end{multicols}
-
-
-
-
-\begin{definition}
-    Soit \( I\) un intervalle. On dit que $f$ est \defe{constante}{constante (fonction)} sur $I$ lorsque pour tous les réels $a$ et $b$ de $I$, on a $f(a)=f(b)$. (Tous les réels de $I$ ont la même image par $f$).
-\end{definition}
+%\begin{definition}
+%    Soit \( I\) un intervalle. On dit que $f$ est \defe{constante}{constante (fonction)} sur $I$ lorsque pour tous les réels $a$ et $b$ de $I$, on a $f(a)=f(b)$. (Tous les réels de $I$ ont la même image par $f$).
+%\end{definition}
 
 \begin{multicols}{2}
     Dans ce cas, il existe $k\in\eR$ tel que pour tout $a\in I$, $f(a)=k$. 
