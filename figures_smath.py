@@ -210,6 +210,7 @@ from phystricksETfnbsh import ETfnbsh
 from phystricksENQhxmG import ENQhxmG
 from phystricksKDtwIJf import KDtwIJf
 from phystricksFWyrYhJ import FWyrYhJ
+from phystricksBZRzIsR import BZRzIsR
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Un soupçon de mathématiques")
@@ -235,7 +236,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,
     XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,
     AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl,
-    MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS
+    MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR
     ]
 
 #figures_list=[LNfaWPF]

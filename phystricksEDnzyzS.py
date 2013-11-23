@@ -2,8 +2,8 @@
 from phystricks import *
 def EDnzyzS():
     pspict,fig = SinglePicture("EDnzyzS")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_X(0.5)
+    pspict.dilatation_Y(0.5)
 
     A=Point(0,0)
     B=Point(5,0)
@@ -23,7 +23,7 @@ def EDnzyzS():
     s1=Segment(D,M)
     s2=Segment(M,C)
 
-    pspict.DrawGraphs(trapeze,s1,s2,A,B,C,D)
+    pspict.DrawGraphs(trapeze,s1,s2,A,B,C,D,M)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
