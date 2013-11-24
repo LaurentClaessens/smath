@@ -5,6 +5,36 @@
 
 \begin{corrige}{smath-0515}
 
-<+Corrsmath-0515+>
+\begin{wrapfigure}[10]{r}{4.0cm}
+   \vspace{-0.5cm}        % à adapter.
+   \centering
+   \input{Fig_ITzxISE.pstricks}
+\end{wrapfigure}
+
+    Il existe deux grandes stratégies pour résoudre cet exercice.
+    \begin{enumerate}
+        \item
+            Se rappeler qu'un point est sur la médiatrice de \( [AB]\) si et seulement si il est équidistant de \( A\) et \( B\), c'est à dire si les distances \( CA\) et \( CB\) sont égales. Connaissant les coordonnées, ces longueurs sont faciles à calculer\footnote{Pourvu qu'on se souvienne comment il faut faire pour mettre une fraction au carré.} :
+            \begin{equation*}
+                AC^2=\left( \frac{ 9 }{2}-1 \right)^2+(5-3)^2=\left( \frac{ 7 }{2} \right)^2+2^2=\frac{ 49 }{ 4 }+4=\frac{ 65 }{ 4 }.
+            \end{equation*}
+            et
+            \begin{equation*}
+                BC^2=\left( \frac{ 9 }{2}-4 \right)^2+(5-1)^2=\left( \frac{ 1 }{2} \right)^2+4^2=\frac{1}{ 4 }+16=\frac{ 65 }{ 2 }.
+            \end{equation*}
+            Vu que \( AC^2=BC^2\) nous avons \( AC=BC\) parce que de toutes façons \( AC\) et \( BC\) sont positifs.
+
+            Donc \( C\) est bien sur la médiatrice de \( [AB]\).
+
+        \item
+            La seconde méthode consiste à trouver le milieu de \( [AB]\) (que nous nommons \( M\)) et prouver que la droite \( (CM)\) est perpendiculaire à la droite \( (AB)\). Pour le milieu c'est un calcul classique :
+            \begin{equation*}
+                M=\left( \frac{ 1+4 }{2};\frac{ 3+1 }{2} \right)=(2.5;2).
+            \end{equation*}
+            Pour vérifier que \( (CM)\perp(AB)\) nous pouvons vérifier que le triangle \( MBC\) ou \( MAC\) est rectangle en \( M\).
+
+
+    \end{enumerate}
+    Notons qu'avec la première méthode il ne faut même pas calculer le milieu de \( [AB]\).
 
 \end{corrige}
