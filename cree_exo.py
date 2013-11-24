@@ -192,6 +192,30 @@ def exo_rectangle():
     reponse = on
     return texte,str(reponse)
 
+def exo_cube():
+    pts=["A","B","C","D","E","F","G","H"]
+    random.shuffle(pts)
+    c=random.randint(2,7)
+    texte=r"""
+\begin{wrapfigure}{r}{5.0cm}
+   \vspace{-0.5cm}        % à adapter.
+   \centering
+   \input{Fig_OKTXHoc.pstricks}
+\end{wrapfigure}
+
+    La figure ci-contre est un cube de \unit{"""+str(c)+r"""}{\centi\meter}.
+
+    \begin{enumerate}
+    \item
+    Quelle est la nature du triangle \("""+"{}{}{}".format(pts[0],pts[1],pts[2])+r"""\) ? 
+    \item
+    Quel est son périmètre ?
+    \item
+    Quelle est son aire ? (pour les rapides)
+    \end{enumerate}
+    """
+    return texte,""
+
 class double_write(object):
     def __init__(self,f1,f2):
         self.f1=f1
@@ -200,10 +224,11 @@ class double_write(object):
         self.f1.write(text)
         self.f2.write(text)
 
-def ecrit_un_exo(f_sujet,f_correction,fun):
+def ecrit_un_exo(f_sujet,f_correction,fun,itemize=True):
     X=double_write(f_sujet,f_correction)
     texte,reponse=fun()
-    X.write("\item\n")
+    if itemize :
+        X.write("\item\n")
     X.write(texte)
     f_correction.write("\n\n")
     f_correction.write(reponse)
@@ -213,11 +238,17 @@ def ecrit_sujet(f_sujet,f_correction,liste_exo,i):
     #random.shuffle(liste_exo)
     X=double_write(f_sujet,f_correction)
     X.write("\\vbox{")
-    X.write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}"+"\n\\begin{enumerate}")
+    X.write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}\n")
+    if len(liste_exo)>1:
+        X.write(r"\begin{enumerate}")
     for fun in liste_exo:
-        ecrit_un_exo(f_sujet,f_correction,fun)
-    f_sujet.write("\n\\end{enumerate}\n} \n\\vspace{2cm}\n")
-    f_correction.write("\n\\end{enumerate}\n} \n")
+        ecrit_un_exo(f_sujet,f_correction,fun,itemize=len(liste_exo)>1)
+    X.write("\n")
+    if len(liste_exo)>1:
+        X.write("""\end{enumerate}\n""")
+    X.write("}")
+    f_sujet.write("\n\\vspace{2cm}\n")
+    f_correction.write("\n")
 
 def interro_repere_distance_milieu():
     f_sujet=codecs.open("interro_repere_distance_sujet.tex","w",encoding="utf8")
@@ -233,3 +264,14 @@ def interro_repere_distance_milieu():
         ecrit_sujet(f_sujet,f_correction,liste_exo,i)
     f_sujet.close()
     f_correction.close()
+
+def interro_geometrie_espace():
+    f_sujet=codecs.open("interro_geometrie_espace_sujet.tex","w",encoding="utf8")
+    f_correction=codecs.open("interro_geometrie_espace_correction.tex","w",encoding="utf8")
+    for i in range(1,40):
+        liste_exo=[exo_cube]
+        ecrit_sujet(f_sujet,f_correction,liste_exo,i)
+    f_sujet.close()
+    f_correction.close()
+
+interro_geometrie_espace()
