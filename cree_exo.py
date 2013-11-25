@@ -216,6 +216,33 @@ def exo_cube():
     """
     return texte,""
 
+def exo_lapins():
+    n=random.randint(50,200)
+    moyenne=random.randint(10,20)*100
+    vieux=random.randint(21,30)*100
+    nouveau=random.randint(10,20)*100
+    texte="""
+    Un chercheur en alimentation pour lapin a pesé {} lapins nains et a obtenu une moyenne de {} grammes. En dernière minute son assistant lui fait remarquer une erreur de mesure sur le dernier lapin pesé : il ne faisait pas {} mais seulement {} grammes. Quelle est la nouvelle moyenne ?
+    """.format(n,moyenne,vieux,nouveau)
+    reponse=(moyenne*n-vieux+nouveau)/n
+    return texte,str(reponse)
+
+def exo_ECC():
+    e=[   random.randint(1,15) for i in range(0,5)  ]
+    texte=r"""Compléter le tableau suivant :
+        \begin{equation*}
+        \begin{array}[]{|c||c|c|c|c|c|}
+        \hline
+        \text{Valeur}&1000&1200&1300&1400&1500&\\
+                \hline
+                """"
+                +"{}&&{}&{}&{}\\\\\\hline".format(e[0],e[2],e[3],e[4])+
+                +"{}&{}&{}&&{}\\\\".format(c[0],c[1],c[2],c[4])+
+                        r"""\hline
+                                \end{array}
+                                \end{equation*}
+        """
+
 class double_write(object):
     def __init__(self,f1,f2):
         self.f1=f1
@@ -239,6 +266,7 @@ def ecrit_sujet(f_sujet,f_correction,liste_exo,i):
     X=double_write(f_sujet,f_correction)
     X.write("\\vbox{")
     X.write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}\n")
+    #X.write(str(i))
     if len(liste_exo)>1:
         X.write(r"\begin{enumerate}")
     for fun in liste_exo:
@@ -268,7 +296,7 @@ def interro_repere_distance_milieu():
 def interro_geometrie_espace():
     f_sujet=codecs.open("interro_geometrie_espace_sujet.tex","w",encoding="utf8")
     f_correction=codecs.open("interro_geometrie_espace_correction.tex","w",encoding="utf8")
-    for i in range(1,40):
+    for i in range(1,41):
         liste_exo=[exo_cube]
         ecrit_sujet(f_sujet,f_correction,liste_exo,i)
     f_sujet.close()
