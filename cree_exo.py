@@ -217,31 +217,31 @@ def exo_cube():
     return texte,""
 
 def exo_lapins():
-    n=random.randint(50,200)
-    moyenne=random.randint(10,20)*100
-    vieux=random.randint(21,30)*100
-    nouveau=random.randint(10,20)*100
+    lst=list(range(100,200))
+    random.shuffle(lst)
+    poids=lst[1:16]
+    moyenne=sum(poids)/len(poids)
+    nouveau=lst[20]
     texte="""
-    Un chercheur en alimentation pour lapin a pesé {} lapins nains et a obtenu une moyenne de {} grammes. En dernière minute son assistant lui fait remarquer une erreur de mesure sur le dernier lapin pesé : il ne faisait pas {} mais seulement {} grammes. Quelle est la nouvelle moyenne ?
-    """.format(n,moyenne,vieux,nouveau)
-    reponse=(moyenne*n-vieux+nouveau)/n
+    Un chercheur en alimentation pour lapin a pesé 15 lapins nains et a obtenu les poids suivants """+", ".join( [str(x) for x in poids] )+""". La moyenne des poids est de {} """.format(str(moyenne)[0:6])+" grammes. En dernière minute son assistant lui fait remarquer une erreur de mesure sur le dernier lapin pesé : en réalité il pèse {} grammes. Quelle est la nouvelle moyenne ?".format(nouveau)
+    reponse=(moyenne+(nouveau-poids[-1]))/len(poids)
     return texte,str(reponse)
 
 def exo_ECC():
     e=[   random.randint(1,15) for i in range(0,5)  ]
+    c=[   sum(e[:i]) for i in range(1,len(e)+1)  ]
+
     texte=r"""Compléter le tableau suivant :
         \begin{equation*}
         \begin{array}[]{|c||c|c|c|c|c|}
         \hline
-        \text{Valeur}&1000&1200&1300&1400&1500&\\
-                \hline
-                """"
-                +"{}&&{}&{}&{}\\\\\\hline".format(e[0],e[2],e[3],e[4])+
-                +"{}&{}&{}&&{}\\\\".format(c[0],c[1],c[2],c[4])+
-                        r"""\hline
+        \text{Valeur}&1000&1200&1300&1400&1500\\
+                \hline"""+"\\text{{Effectifs}}&{}&&{}&{}&{}\\\\\\hline".format(e[0],e[2],e[3],e[4])+"\\text{{ECC}}&{}&{}&{}&&{}\\\\".format(c[0],c[1],c[2],c[4])+r"""\hline
                                 \end{array}
                                 \end{equation*}
         """
+    reponse=str(e)+"\\"+str(c)
+    return texte,reponse
 
 class double_write(object):
     def __init__(self,f1,f2):
@@ -302,4 +302,13 @@ def interro_geometrie_espace():
     f_sujet.close()
     f_correction.close()
 
-interro_geometrie_espace()
+def interro_statistique_descriptive():
+    f_sujet=codecs.open("interro_statistique_descriptive_sujet.tex","w",encoding="utf8")
+    f_correction=codecs.open("interro_statistique_descriptive_correction.tex","w",encoding="utf8")
+    for i in range(1,41):
+        liste_exo=[exo_lapins,exo_ECC]
+        ecrit_sujet(f_sujet,f_correction,liste_exo,i)
+    f_sujet.close()
+    f_correction.close()
+
+interro_statistique_descriptive()

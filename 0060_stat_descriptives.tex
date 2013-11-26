@@ -40,7 +40,7 @@ Il y a \( 17\) élèves ayant reçu \( 5\) spams ou plus.
 \end{enumerate}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Convention sur les quartiles et médiane}
+\section{Les quartiles et la médiane}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}
@@ -100,7 +100,7 @@ En pratique :
 
 \end{example}
 
-Les conventions sur les quartiles sont résumées ici :
+Avec ces définitions de quartile et de médiane, nous avons la distribution suivante :
 
 \begin{center}
    \input{Fig_KDtwIJf.pstricks}
@@ -127,6 +127,28 @@ Nous classons les élèves d'une classe d'après la première lettre de leur nom
 
 \input{Fig_MAXkaGz.pstricks}
 
+Reprenons l'exemple du spam
+\begin{equation*}
+    \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|| c |}
+        \hline
+        \text{Nombre}&1&2&3&4&5&6&7&8&9&10&11&\text{total}\\
+        \hline
+        \text{Effectifs}&3&0&1&4&4&2&1&5&3&1&1&25\\
+        \hline
+        \text{ECC}&3&3&4&8&12&14&15&20&23&24&25&\\
+        \hline
+    \end{array}
+\end{equation*}
+
+\begin{Aretenir}
+    \begin{enumerate}
+        \item
+            Les effectifs cumulés croissants s'obtiennent en additionnant successivement les effectifs.
+        \item
+            La différence des ordonnées entre deux points successifs du graphe des ECC donne l'effectif correspondant à l'abscisse du deuxième point.
+    \end{enumerate}
+\end{Aretenir}
+
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Graphe des fréquences cumulées croissantes}
 %---------------------------------------------------------------------------------------------------------------------------
@@ -150,9 +172,34 @@ Nous reprenons l'exemple du spam
 \input{Fig_FWyrYhJ.pstricks}
 \end{center}
 
+\begin{remark}
+    Le total des fréquences doit faire \( 1\). Le dernier point du graphe des fréquence cumulées croissantes est donc d'ordonnée \( 1\).
+
+    Des erreurs d'arrondis dans dans le calcul des fréquences peuvent entrainer que la somme ne vaut pas \( 1\).
+
+    En pratique, pour dessiner le graphe des FCC il vaut mieux calculer les ECC puis les fréquences correspondantes, et non les fréquences et additionner.
+
+\end{remark}
+
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Histogramme}
 %---------------------------------------------------------------------------------------------------------------------------
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Le problème}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Si nous regardons le chiffre d'affaire d'entreprises, il y a peu de chances que l'effectif de entreprises dont le chiffre d'affaire est exactement \( 14.258.736\)\euro soit grand. Supposons avoir les nombres
+\begin{center}
+    100,101,103,502,504.
+\end{center}
+Il est immédiatement visible qu'il y a un paquet autour de \( 100\) et un paquet autour de \( 500\).
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{La solution}
+%---------------------------------------------------------------------------------------------------------------------------
+
+<++>
 
 Le tableau suivant donne la répartition des entreprises du secteur automobile en fonction de leur chiffre d'affaire (en millions d'euros).
 
@@ -195,9 +242,8 @@ Consignes pour dessiner un histogramme :
 \end{enumerate}
 
 
+%\begin{example}
+%    Si nous avons un effectif de \( 25\) personnes, un quart des effectifs seraient \( 6.25\) personnes, et les trois quarts seraient \( 18.75\) personnes. Donc nous mettons les premier quartile sur la \( 7\Ieme\) personne et le troisième quartile sur la \( 19\Ieme\) personne.
 
-\begin{example}
-    Si nous avons un effectif de \( 25\) personnes, un quart des effectifs seraient \( 6.25\) personnes, et les trois quarts seraient \( 18.75\) personnes. Donc nous mettons les premier quartile sur la \( 7\Ieme\) personne et le troisième quartile sur la \( 19\Ieme\) personne.
-
-    Le premier quart des effectifs seraient donc les personnes numéro \( 1\), \( 2\), \( 3\), \( 4\), \( 5\), \( 6\) et \( 7\). Et le dernier quart des personnes seront les personnes numéro \( 20\), \( 21\), \( 22\), \( 23\), \( 24\) et \( 25\).
-\end{example}
+%    Le premier quart des effectifs seraient donc les personnes numéro \( 1\), \( 2\), \( 3\), \( 4\), \( 5\), \( 6\) et \( 7\). Et le dernier quart des personnes seront les personnes numéro \( 20\), \( 21\), \( 22\), \( 23\), \( 24\) et \( 25\).
+%\end{example}
