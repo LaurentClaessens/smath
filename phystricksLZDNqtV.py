@@ -19,7 +19,7 @@ def LZDNqtV():
 
     C.put_mark(0.2,90,"\( C\)",automatic_place=(pspict,"S"))
     I.put_mark(0.2,45,"\( I\)",automatic_place=pspict)
-    0.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
+    O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
 
     pspict.DrawGraphs(sphere,plan,rayon,C,I,rayon,O)
     fig.no_figure()

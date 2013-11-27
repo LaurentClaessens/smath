@@ -17,7 +17,7 @@ def figureBCtCTZo():
     plan1=Polygon(AB.I,AB.F,EF.F,EF.I)
     plan1.no_edges()
     plan1.parameters.filled()
-    plan1.parameters.fill.color="green"
+    plan1.parameters.fill.color="brown"
 
     s1=Segment(cube.D,cube.B).dilatation(1.5)
     s1.parameters.color="red"

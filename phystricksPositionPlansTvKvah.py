@@ -15,7 +15,7 @@ def PositionPlansTvKvah():
     plan1=Polygon(AB.I,AB.F,EF.F,EF.I)
     plan1.no_edges()
     plan1.parameters.filled()
-    plan1.parameters.fill.color="green"
+    plan1.parameters.fill.color="red"
 
     DC=Segment(cube.D,cube.C).dilatation(dilatation)
     HG=Segment(cube.H,cube.G).dilatation(dilatation)

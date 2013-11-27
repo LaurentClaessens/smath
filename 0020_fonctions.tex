@@ -61,6 +61,66 @@ Soit $f$ une fonction définie sur un ensemble $\defD$.
 \section{Sens de variation, minimum et maximum}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+\begin{definition}
+      Soit $f$ une fonction définie sur un intervalle \( I\) de \( \eR\).
+      \begin{enumerate}
+          \item 
+              On dit que $f$ est \defe{croissante}{croissante (fonction)} sur $I$ si pour tout choix de réels $a$ et $b$ dans $I$ tels que $a\leq b$ nous avons $f(a)\leq f(b)$.
+    \item 
+        On dit que $f$ est \defe{décroissante}{décroissante (fonction)} sur $I$ si pour tout choix de $a$ et $b$ dans $I$ tels que $a\leq b$, nous avons $f(a)\geq f(b)$. 
+      \end{enumerate}
+\end{definition}
+
+Une fonction croissante range les images dans le même ordre que les antécédents. Une fonction décroissante inverse cet ordre. 
+
+\begin{example}
+    Nous considérons la fonction \( f\colon x\mapsto x^2\) sur \( \eR^+\).
+    \begin{equation*}
+        \begin{array}[]{|c||c|}
+            \hline
+            x&f(x)\\
+            \hline\hline
+            0&0\\
+            \hline
+            0.1&0.01\\
+            \hline
+            0.5&0.25\\
+            \hline
+            1&1\\
+            \hline
+            2&4\\
+            \hline
+            10&100\\
+            \hline
+        \end{array}
+    \end{equation*}
+    Dans ce tableau les valeurs de \( x\) sont rangées dans l'ordre croissant et nous remarquons que les images le sont aussi. La fonction \( f(x)=x^2\) est donc croissante tant qu'on considère des nombres positifs.
+
+    Pour les valeurs négatives c'est le contraire :
+    \begin{equation*}
+        \begin{array}[]{|c||c|}
+            \hline
+            x&f(x)\\
+            \hline\hline
+            -10&100\\
+            \hline
+            -2&4\\
+            \hline
+            -1&1\\
+            \hline
+            -0.5&0.25\\
+            \hline
+            -0.1&0.01\\
+            \hline
+            0&0\\
+            \hline
+        \end{array}
+    \end{equation*}
+    Ici les antécédents sont dans l'ordre croissant et les images sont dans l'ordre décroissant.
+\end{example}
+  
+
+
 Les notions de minima et maxima parlent, comme l'indiquent leurs noms en français, des points du graphe d'une fonction les plus hauts et les plus bas.
 
 \begin{definition}

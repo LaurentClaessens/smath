@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksRLGQTQR import RLGQTQR
 from phystricksPUGmLBC import PUGmLBC
 from phystricksJXWXdJI import JXWXdJI
 from phystricksOKTXHoc import OKTXHoc
@@ -248,7 +249,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,OKTXHoc,JXWXdJI,PUGmLBC,LZDNqtV
     ]
 
-#figures_list=[LNfaWPF]
+#figures_list=[PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo]
 
 
 for k in sys.argv:

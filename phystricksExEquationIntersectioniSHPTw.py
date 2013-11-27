@@ -1,7 +1,8 @@
 from phystricks import *
 def ExEquationIntersectioniSHPTw():
     pspict,fig = SinglePicture("ExEquationIntersectioniSHPTw")
-    pspict.dilatation(0.7)
+    pspict.dilatation_X(1)
+    pspict.dilatation_Y(1)
 
     x=var('x')
     mx=-5.2
@@ -13,7 +14,7 @@ def ExEquationIntersectioniSHPTw():
     lag2=LagrangePolynomial( [Point(-5,2),Point(-3.5,1),Point(-2.5,0),Point(0,1.5),Point(1,0),Point(3,-1)]   )
     g=lag2.graph(mx,Mx)
     g.put_mark(0.1,0,"\( g\)",automatic_place=pspict)
-    g.parameters.color="green"
+    g.parameters.color="brown"
 
     pspict.DrawGraphs(f,g)
 

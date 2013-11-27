@@ -15,7 +15,7 @@ def PositionPlansqSltxa():
     plan1=Polygon(AH.I,AH.F,BG.F,BG.I)
     plan1.no_edges()
     plan1.parameters.filled()
-    plan1.parameters.fill.color="green"
+    plan1.parameters.fill.color="red"
 
     dilatation=0.4
     DH=Segment(cube.D,cube.H).dilatationI(dilatation)

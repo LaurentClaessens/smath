@@ -193,6 +193,7 @@ def exo_rectangle():
     return texte,str(reponse)
 
 def exo_cube():
+    # Attention : il faudra rendre cet exercice plus équitable : donner une grande diagonale à tout le monde.
     pts=["A","B","C","D","E","F","G","H"]
     random.shuffle(pts)
     c=random.randint(2,7)
