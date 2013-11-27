@@ -196,7 +196,7 @@ def exo_cube():
     # Attention : il faudra rendre cet exercice plus équitable : donner une grande diagonale à tout le monde.
     pts=["A","B","C","D","E","F","G","H"]
     random.shuffle(pts)
-    c=random.randint(2,7)
+    c=random.randint(2,20)
     texte=r"""
 \begin{wrapfigure}{r}{5.0cm}
    \vspace{-0.5cm}        % à adapter.
@@ -220,11 +220,11 @@ def exo_cube():
 def exo_lapins():
     lst=list(range(100,200))
     random.shuffle(lst)
-    poids=lst[1:16]
+    poids=lst[1:21]
     moyenne=sum(poids)/len(poids)
-    nouveau=lst[20]
+    nouveau=lst[25]
     texte="""
-    Un chercheur en alimentation pour lapin a pesé 15 lapins nains et a obtenu les poids suivants """+", ".join( [str(x) for x in poids] )+""". La moyenne des poids est de {} """.format(str(moyenne)[0:6])+" grammes. En dernière minute son assistant lui fait remarquer une erreur de mesure sur le dernier lapin pesé : en réalité il pèse {} grammes. Quelle est la nouvelle moyenne ?".format(nouveau)
+    Un chercheur en alimentation pour lapin a pesé 20 lapins nains et a obtenu les poids suivants """+", ".join( [str(x) for x in poids] )+""". La moyenne des poids est de {} """.format(str(moyenne)[0:6])+" grammes. En dernière minute son assistant lui fait remarquer une erreur de mesure sur le dernier lapin pesé (celui de \\unit{"+str(poids[-1])+"}}{{\gram}}) : en réalité il pèse {} grammes. Quelle est la nouvelle moyenne ?".format(nouveau)
     reponse=(moyenne+(nouveau-poids[-1]))/len(poids)
     return texte,str(reponse)
 
@@ -244,40 +244,41 @@ def exo_ECC():
     reponse=str(e)+"\\"+str(c)
     return texte,reponse
 
-class double_write(object):
-    def __init__(self,f1,f2):
-        self.f1=f1
-        self.f2=f2
-    def write(self,text):
-        self.f1.write(text)
-        self.f2.write(text)
-
-def ecrit_un_exo(f_sujet,f_correction,fun,itemize=True):
-    X=double_write(f_sujet,f_correction)
-    texte,reponse=fun()
-    if itemize :
-        X.write("\item\n")
-    X.write(texte)
-    f_correction.write("\n\n")
-    f_correction.write(reponse)
-    f_sujet.write("\n")
-
-def ecrit_sujet(f_sujet,f_correction,liste_exo,i):
-    #random.shuffle(liste_exo)
-    X=double_write(f_sujet,f_correction)
-    X.write("\\vbox{")
-    X.write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}\n")
-    #X.write(str(i))
-    if len(liste_exo)>1:
-        X.write(r"\begin{enumerate}")
-    for fun in liste_exo:
-        ecrit_un_exo(f_sujet,f_correction,fun,itemize=len(liste_exo)>1)
-    X.write("\n")
-    if len(liste_exo)>1:
-        X.write("""\end{enumerate}\n""")
-    X.write("}")
-    f_sujet.write("\n\\vspace{2cm}\n")
-    f_correction.write("\n")
+class Sujet(object):
+    def __init__(self,name):
+        self.name=name
+        self.texfile=codecs.open(name+".tex","w",encoding="utf8")
+        self.sujet=""
+        self.correction=""
+    def double_write(self,x):
+        self.sujet=self.sujet+x
+        self.correction=self.correction+x
+    def ecrit_un_exo(self,fun,itemize=True):
+        texte,reponse=fun()
+        if itemize :
+            self.double_write("\item\n")
+        self.double_write(texte)
+        self.correction=self.correction+"\n\n"
+        self.correction=self.correction+reponse
+        self.sujet=self.sujet+"\n"
+    def ecrit_sujet(self,liste_exo,i):
+        self.double_write("\\vbox{")
+        self.double_write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}\n")
+        if len(liste_exo)>1:
+            self.double_write(r"\begin{enumerate}")
+        for fun in liste_exo:
+            self.ecrit_un_exo(fun,itemize=len(liste_exo)>1)
+        self.double_write("\n")
+        if len(liste_exo)>1:
+            self.double_write("""\end{enumerate}\n""")
+        self.double_write("}")
+        self.sujet=self.sujet+"\n\\vspace{2cm}\n"
+        self.correction=self.correction+"\n"
+    def close(self):
+        self.texfile.write(self.sujet)
+        self.texfile.write("\section{correction}")
+        self.texfile.write(self.correction)
+        self.texfile.close()
 
 def interro_repere_distance_milieu():
     f_sujet=codecs.open("interro_repere_distance_sujet.tex","w",encoding="utf8")
@@ -304,12 +305,10 @@ def interro_geometrie_espace():
     f_correction.close()
 
 def interro_statistique_descriptive():
-    f_sujet=codecs.open("interro_statistique_descriptive_sujet.tex","w",encoding="utf8")
-    f_correction=codecs.open("interro_statistique_descriptive_correction.tex","w",encoding="utf8")
+    sujet=Sujet("interro_statistique_descriptive")
     for i in range(1,41):
         liste_exo=[exo_lapins,exo_ECC]
-        ecrit_sujet(f_sujet,f_correction,liste_exo,i)
-    f_sujet.close()
-    f_correction.close()
+        sujet.ecrit_sujet(liste_exo,i)
+    sujet.close()
 
 interro_statistique_descriptive()
