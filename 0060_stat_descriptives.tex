@@ -185,21 +185,42 @@ Nous reprenons l'exemple du spam
 \subsection{Histogramme}
 %---------------------------------------------------------------------------------------------------------------------------
 
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Le problème}
-%---------------------------------------------------------------------------------------------------------------------------
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{Le problème}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-Si nous regardons le chiffre d'affaire d'entreprises, il y a peu de chances que l'effectif de entreprises dont le chiffre d'affaire est exactement \( 14.258.736\)\euro soit grand. Supposons avoir les nombres
+Si nous regardons le chiffre d'affaire d'entreprises, il y a peu de chances que l'effectif de entreprises dont le chiffre d'affaire est exactement \( 14.258.736\)€ soit grand. Supposons avoir les nombres
 \begin{center}
-    100,101,103,502,504.
+    100,101,105,502,503.
 \end{center}
-Il est immédiatement visible qu'il y a un paquet autour de \( 100\) et un paquet autour de \( 500\).
+Il est immédiatement visible qu'il y a un paquet autour entre \( 100\) et \( 200\) et un paquet autour entre \( 500\) et \( 600\)a. Pourtant tracer le graphe des effectifs n'est pas très instructif :
+\begin{center}
+   \input{Fig_JXWXdJI.pstricks}
+\end{center}
+
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+\subsubsection{La solution}
+%///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Nous regroupons les entreprises en classes d'entreprises «semblables». Par exemple :
+\begin{itemize}
+    \item Les entreprises de CA entre 100 et 200. Effectif : 3.
+    \item Les entreprises de CA entre 200 et 300. Effectif : 0.
+    \item Les entreprises de CA entre 300 et 400. Effectif : 0.
+    \item Les entreprises de CA entre 400 et 500. Effectif : 0.
+    \item Les entreprises de CA entre 500 et 600. Effectif : 2.
+\end{itemize}
+
+Le graphe de ces classe ressemble à :
+\begin{center}
+   \input{Fig_PUGmLBC.pstricks}
+\end{center}
+Là, les choses sont déjà plus claires.
 
 %--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{La solution}
+\subsection{Exemple}
 %---------------------------------------------------------------------------------------------------------------------------
 
-<++>
 
 Le tableau suivant donne la répartition des entreprises du secteur automobile en fonction de leur chiffre d'affaire (en millions d'euros).
 
