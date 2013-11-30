@@ -13,7 +13,7 @@ def BZRzIsR():
     pspict.axes.single_axeY.Dx=2
 
     pspict.DrawDefaultAxes()
-    pspict.DrawDefaultGrid()
+    #pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
