@@ -872,61 +872,10 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \DeclareMathOperator{\rot}{rot}
 %\DeclareMathOperator{\cosec}{cosec}
 
-
-%% Pour obtenir le \Sha cyrillique...
-% \RequirePackage[OT2,T1]{fontenc}
-% \DeclareSymbolFont{cyrletters}{OT2}{wncyr}{m}{n}
-% \DeclareMathSymbol{\Sha}{\mathalpha}{cyrletters}{"58}
-
-
-% \newcounter{@institute}
-% \let\authorori\author
-% \def\@institute{}\def\@auteurs{}
-% %\newcommand{\institute}[2]{\refstepcounter{@institute}\label{#1}\def\@institute{\@institute\small
-% %#2}\set@authors}
-% \newcommand{\institute}[2]{\refstepcounter{@institute}\label{#1}%
-%   \let\maketitleori\maketitle%
-%   \renewcommand\maketitle{\footnote{#2}\maketitleori}%
-% }%
-% \renewcommand{\author}[1]{\def\@auteurs{#1}\set@authors}
-% \def\the@institute{${}^{(\roman{@institute})}$}
-% \newcommand{\inst}[1]{\ref{#1}}
-
-% \newcommand{\set@authors}{\authorori{\@auteurs}}% \\ \@institute}}
-
-
-% \newcounter{@institute}
-% \newcommand{\institute}[1]{
-%   \let\labelori\label
-%   \renewcommand{\label}[1]{%
-%     \refstepcounter{@institute}\labelori{##1}
-%     \begin{tabular}{cc}%format ?!
-%     \begin{minipage}[t]
-      
-
-
-%   }
-
-% }%
-
 \newcommand*{\conclusion}{\emph{Conclusion~:~}}
 \newcommand{\hint}{\par\emph{Aide~:~}\hspace{1em}}
 \newcommand{\rappel}{\par\emph{Rappels~:~}\hspace{1em}}
 
-%\newcounter{enumarray} 
-%\newenvironment{enumarray}[1]{% Merci Ulrike Fischer
-% \setcounter{enumarray}{0}%
-% \begin{array}{% motif
-%     >{% Au début de chaque ligne
-%       \stepcounter{enumarray}%
-%       (\alph{enumarray})%
-%       \hspace{2em}
-%     }% 
-%     #1%
-%   }% fin motif
-% }{%
-% \end{array}%
-%}
 \newenvironment{displayinline}{% displaystyle + inline.
   $\displaystyle%
 }{%

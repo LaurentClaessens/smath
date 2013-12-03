@@ -153,7 +153,33 @@ Reprenons l'exemple du spam
 \subsection{Graphe des fréquences cumulées croissantes}
 %---------------------------------------------------------------------------------------------------------------------------
 
+\begin{definition}
+    La \defe{fréquence}{fréquence} d'une valeur est le rapport
+    \begin{equation}
+        \frac{ \text{effectif de la valeur} }{ \text{effectif total} }.
+    \end{equation}
+\end{definition}
+
+\begin{Aretenir}
+    La fréquence est un nombre entre \( 0\) et \( 1\). Le zéro correspond à «personne» et le \( 1\) correspond à «tout le monde».
+\end{Aretenir}
+
 Nous reprenons l'exemple du spam
+\begin{equation*}
+    \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|| c |}
+        \hline
+        \text{Nombre}&1&2&3&4&5&6&7&8&9&10&11&\text{total}\\
+        \hline\hline
+        \text{Effectifs}&3&0&1&4&4&2&1&5&3&1&1&25\\
+        \hline
+        \text{Fréquences}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}&\hphantom{0.001}\\
+        \hline
+        \text{FCC}&&&&&&&&&&&&\\
+        \hline
+    \end{array}
+\end{equation*}
+
+Le résultat est :
 \begin{equation*}
     \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|| c |}
         \hline
@@ -167,6 +193,7 @@ Nous reprenons l'exemple du spam
         \hline
     \end{array}
 \end{equation*}
+Attention : le total risque de ne pas tomber sur \( 1\) à cause des arrondis faits un peu partout.
 
 \begin{center}
 \input{Fig_FWyrYhJ.pstricks}
@@ -220,7 +247,6 @@ Là, les choses sont déjà plus claires.
 %--------------------------------------------------------------------------------------------------------------------------- 
 \subsection{Exemple}
 %---------------------------------------------------------------------------------------------------------------------------
-
 
 Le tableau suivant donne la répartition des entreprises du secteur automobile en fonction de leur chiffre d'affaire (en millions d'euros).
 
