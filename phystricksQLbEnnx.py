@@ -28,7 +28,7 @@ def QLbEnnx():
     A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
     B.put_mark(0.2,180,"\( B\)",automatic_place=pspict)
     C.put_mark(0.2,-90,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,0,"\( D\)",automatic_place=pspict)
+    D.put_mark(0.2,-90,"\( D\)",automatic_place=pspict)
 
     J=AD.proportion(0.3)
     I=BC.proportion(0.7)
