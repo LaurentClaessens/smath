@@ -8,6 +8,7 @@ def APNeGtp():
     pspict.dilatation_X(0.8)
     pspict.dilatation_Y(0.8)
 
+    x=var("x")
     f=phyFunction(x*(x-1)*(x+3)/2).graph(-3.5,1.5)
 
     pspict.DrawGraphs(f)
