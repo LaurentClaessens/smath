@@ -17,6 +17,16 @@
 \usepackage[cdot,thinqspace,amssymb]{SIunits} 
 \usepackage{multicol}
 \usepackage{wrapfig}
+\usepackage{framed}
+% Ce bout de code provient de BrunoJ
+% https://brunoj.wordpress.com/2009/10/08/latex-the-framed-minipage/
+\newsavebox{\fmbox}
+ \newenvironment{fmpage}[1]
+ {\begin{lrbox}{\fmbox}\begin{minipage}{#1}}
+     {\end{minipage}\end{lrbox}
+     \fbox{\usebox{\fmbox}}
+ }
+
 
 \usetheme{default}
 \begin{document}
@@ -24,14 +34,39 @@
 
 
 \begin{frame}{Calcul mental 6}
-    % Pour la série 6, il faudra de l'algo.
     \begin{enumerate}
         \item
             \pause
+            Résoudre \( \frac{1}{ x }=4\)
+        \item
+            \pause
             Simplifier
-            \begin{equation}
+            \begin{equation*}
                 \frac{ x+2 }{ (x+2)(x-3) }.
-            \end{equation}
+            \end{equation*}
+        \item
+            \pause
+            Qu'affiche l'algorithme suivant si on entre la valeur \( 4\) ?
+
+\begin{fmpage}{0.9\linewidth}
+
+    Demander \( x\)
+
+    Si \( x < 2\) alors
+
+    \hspace{1cm} \( P\) prend la valeur \( 2x-7 \)
+
+    Si \( n >= 2 \) alors
+
+    \hspace{1cm} \( P\) prend la valeur \( \frac{ 3 }{ 8 }x\)
+
+    Afficher \( P\)
+
+\end{fmpage}
+        \item
+            \pause
+                Résoudre \( 2x+60=4\).
+
     \end{enumerate}
 \end{frame}
 
