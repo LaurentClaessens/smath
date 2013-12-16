@@ -5,6 +5,38 @@
 
 \begin{corrige}{smath-0575}
 
-<+Corrsmath-0575+>
+    \begin{enumerate}
+        \item
+            Le nombre total de courriers interceptés est l'effectif total : \( 50+20+65+40+\ldots +13+5=285\).
+        \item
+            Pour calculer les fréquences cumulées croissantes, il est bon de commencer par faire la ligne des effectifs cumulés croissants; ensuite il suffit de diviser par l'effectif total :
+    \begin{equation*}
+        \begin{array}[]{|c||c|c|c|c|c|c|c|c|c|c|c|}
+            \hline
+            \text{Nombre de caractères}&200&500&1000&1500&2000&2500&3000&3500&4000&4500&5000\\
+            \hline\hline
+            \text{Effectifs}&50&20&65&40&15&12&20&17&28&13&5\\
+            \hline
+            \text{ECC}&50&70&135&175&190&202&222&239&267&280&285\\
+            \hline
+            \text{FCC}&0.17&0.24&0.47&0.61&0.66&0.70&0.77&0.83&0.93&0.98&1\\
+            \hline
+        \end{array}
+    \end{equation*}
+        \item
+            Le premier quartile est la valeur à partir de laquelle les fréquences cumulées dépassent \( 0.25\). Dans ce cas c'est
+            \begin{equation}
+                Q_1=1000.
+            \end{equation}
+            La médiane est la valeur sur laquelle tombe le \( 0.5\). Ici : 
+            \begin{equation}
+                \text{médiane}=1500.
+            \end{equation}
+            Le troisième quartile est la valeur pour laquelle les fréquences cumulées dépassent \( 0.75\). Dans notre cas c'est
+            \begin{equation}
+                Q_3=3000.
+            \end{equation}
+
+    \end{enumerate}
 
 \end{corrige}
