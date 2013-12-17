@@ -12,7 +12,7 @@ h.parameters.color="red"            # Cette couleur est prononcée explicitement
 
 def XPqLRCF():
     pspict,fig = SinglePicture("XPqLRCF")
-    pspict.dilatation(1)
+    pspict.dilatation(0.8)
 
     f.put_mark(0.2,0,"\( f\)",automatic_place=(pspict,"W"))
     g.put_mark(0.2,0,"\( g\)",automatic_place=(pspict,"W"))
