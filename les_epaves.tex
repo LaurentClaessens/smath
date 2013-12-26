@@ -339,3 +339,101 @@ Calculer le pourcentage d'augmentation année par année. Que s'est-il passé en
 % Note : l'orthogonalité n'a pas l'air d'être au programme de seconde.
 \Exo{smath-0077}
 \Exo{smath-0082}
+
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Intervalle de fluctuation}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Pour reprendre le cas de l'acné, nous considérons la population française totale (65 millions de personnes), et nous voulons savoir si les \emph{jelly bean} sont liés à l'acné.
+
+Il n'est évidemment pas question de tester toute la France. L'étude est en plusieurs étapes.
+\begin{enumerate}
+    \item
+        On va demander aux spécialistes quel est le pourcentage de français souffrant d'acné. Disons pour l'exemple que le résultat soit de \( 20\%\).
+    \item
+        On prend un échantillon de français (disons \( 1000\)) mangeant régulièrement des \emph{jelly beans}, et on compte combien ont de l'acné.
+    \item
+        Si plus de \( 20\%\) des personnes de l'échantillon présente de l'acné, alors on se pose des questions.
+\end{enumerate}
+
+Dans l'échantillon, nous nous attendons à avoir 
+\begin{equation}
+    \frac{ 20 }{ 100 }\times 1000=200
+\end{equation}
+personnes développant de l'acné si les \emph{jelly beans} ne sont pas liées à l'acné. 
+
+Évidemment, si on en a \( 201\) ou \( 199\), ce n'est pas un problème. La question précise à laquelle nous devons répondre est :
+\begin{quote}
+    À partir de combien de personnes développant de l'acné, pouvons-nous dire que ça ne peut pas être le fruit du hasard ?
+\end{quote}
+Et c'est la réponse à cette questions que ne connaît manifestement pas le journaliste qui a écrit l'article en fin de blague.
+
+
+Comment cela s'applique à notre étude de \emph{jelly bean} ? 
+\begin{description}
+    \item[Résumé des données]
+        La proportion des français présentant de l'acné est dite de \( p=0.2\), et nous avons prélevé un échantillon de taille \( n=1000\). 
+    \item[Intervalle de fluctuation] 
+        Donc dans notre échantillon nous avons \( 95\%\) de chances que la fréquence soit dans l'intervalle
+        \begin{equation}
+            \mathopen[ 0.2-\frac{1}{ \sqrt{1000} } ; 0.2+\frac{1}{ \sqrt{1000} } \mathclose]\simeq\mathopen[ 0.168 ; 0.231 \mathclose]
+        \end{equation}
+        parce que \( \frac{1}{ \sqrt{1000} }\simeq 0.03162\).
+    \item[Transformation en effectifs]
+
+        Une fréquence de \( 0.168\) dans un échantillon de \( 1000\) individus revient à \( 168\) individus et une fréquence de \( 0.231\) revient à \( 231\) individus.
+
+        Nous avons donc \( 95\%\) de chances que, en faisant l'étude sur \( 1000\) personnes, le nombre de personnes présentant de l'acné soit compris ente \( 168\) et \( 231\).
+    \item[Décider si les \emph{jelly bean} provoquent l'acné]
+        Si sur un échantillon de \( 1000\) personnes mangeant des \emph{jelly bean} nous en avons par exemple \( 260\) qui présentent de l'acné, alors nous pouvons dire que les \emph{jelly bean} sont liés à l'acné au sens où il y a moins de \( 5\%\) de chances que le résultats puisse s'expliquer par le hasard.
+
+        Si sur cet échantillon de \( 1000\) personnes, nous en avons \( 180\), nous ne dirons rien. Avoir \( 180\) personnes avec de l'acné dans un échantillon de \( 1000\) personnes est «raisonnable» par rapport à la moyenne nationale.
+\end{description}
+
+\begin{remark}
+    Dans le cas où le nombre de personnes présentant de l'acné dépasse les \( 231\), ça ne veut pas dire que les \emph{jelly bean} \emph{provoquent} l'acné. Cela veut juste dire qu'elles sont \emph{corrélées} à l'acné, et qu'il y a même \( 5\%\) de chances que ce soit un pur hasard.
+\end{remark}
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Intervalle de confiance}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Nous avons vu l'intervalle de fluctuation. Il s'agit, lorsqu'on connaît la proportion \( p\) des individus présentant un certain caractère dans la population globale, de savoir si la fréquence $f$ observée dans un échantillon de taille \( n\) est crédible ou pas.
+
+Ici nous allons poser la question inverse. Nous ne connaissons pas la proportion dans la population globale, mais seulement une fréquence dans un échantillon.
+
+Soit donc une population dont une proportion inconnue \( p\) présente un caractère. Nous en tirons un échantillon de taille \( n\), et nous mesurons la fréquence \( f\) d'apparition du caractère dans cet échantillon.
+
+Question : sachant \( f\), que peut-on dire de \( p\) ? 
+
+Ce que nous savons, c'est qu'il y a \( 95\%\) de chances que 
+\begin{equation}
+    f\in\mathopen[ p-\frac{1}{ \sqrt{n}} , 1+\frac{1}{ \sqrt{n} } \mathclose].
+\end{equation}
+Cet intervalle peut être décortiqué de la façon suivante :
+\begin{equation}
+\xymatrix{%
+    &   f\in\mathopen[ p-\frac{1}{ \sqrt{n}} , p+\frac{1}{ \sqrt{n} } \mathclose]\ar[rd]\ar[ld] &  \\
+    f\geq p-\frac{1}{ \sqrt{n}}\ar[d]&&f\leq p+\frac{1}{ \sqrt{n}}  \ar[d]\\
+    p\leq f+\frac{1}{ \sqrt{n}}\ar[rd] && f-\frac{1}{ \sqrt{n}}\leq p\ar[ld]\\
+    & p\in\mathopen[ f-\frac{1}{ \sqrt{n} } , f+\frac{1}{ \sqrt{n}} \mathclose]  &
+   }
+\end{equation}
+
+\begin{center}
+
+           \ifpdf
+            \includegraphics[width=8cm]{significant.png}
+        \else
+            \includegraphics[width=8cm]{significant.eps}
+
+            \fi
+
+            \url{http://xkcd.com/882/}, image publiée sous licence \href{http://xkcd.com/license.html}{CreativeCommons}.
+
+\end{center}
+
+
