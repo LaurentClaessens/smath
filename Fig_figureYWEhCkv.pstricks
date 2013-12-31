@@ -9,166 +9,156 @@
 \makeatletter\@ifundefined{vect}{\newcommand{\vect}[1]{\overrightarrow{#1}}}{}\makeatother
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\makeatletter\@ifundefined{lengthOfhomemokySagelocalbinsageipython}{\newlength{\lengthOfhomemokySagelocalbinsageipython}}{}\makeatother%
+\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ w }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ w }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ w }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ w }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaP:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaQ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaR:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaS:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaT:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaU:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaV:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaW:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaX:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaY:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaZ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaba:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabb:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabc:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabd:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabe:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabg:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabh:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabi:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabk:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabl:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabm:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabn:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabo:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabp:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabr:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabs:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabt:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabu:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabv:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabx:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaby:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabP:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabQ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabR:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabS:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabT:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabU:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabV:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabW:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabX:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabY:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabZ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaca:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacb:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacc:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacd:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaace:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacg:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaach:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaci:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaack:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacl:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacm:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacn:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaco:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacp:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacr:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacs:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaact:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacu:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacv:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacx:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacy:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacP:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacQ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacR:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacS:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacT:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacU:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacV:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacW:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacX:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ w }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacY:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ w }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacZ:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaa:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaab:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaac:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaad:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaae:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaf:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaag:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaah:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaai:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaj:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaak:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaal:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaam:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaan:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaao:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaap:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaq:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaar:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaas:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaat:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ w }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaau:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ w }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaav:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ w }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaw:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ w }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaax:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -4 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaay:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -4 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaz:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaA:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaB:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaC:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaD:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaE:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaF:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaG:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaH:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaI:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaJ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaK:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaL:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaM:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaN:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaO:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaP:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaQ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaR:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaS:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaT:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -4 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaU:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -4 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaV:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -4 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaW:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -4 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaX:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaY:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaaZ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaba:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabb:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabc:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabd:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabe:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabf:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabg:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabh:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabi:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabj:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabk:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabl:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabm:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabn:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabo:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabp:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabq:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabr:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabs:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabt:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabu:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabv:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabw:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabx:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaby:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabz:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabA:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabB:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabC:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabD:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabE:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabF:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabG:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabH:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabI:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabJ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabK:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabL:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -4 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabM:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -4 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabN:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -4 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabO:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -4 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabP:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabQ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabR:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabS:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabT:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabU:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabV:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabW:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabX:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabY:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaabZ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaca:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacb:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacc:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacd:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaace:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacf:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacg:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaach:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaci:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacj:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaack:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacl:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacm:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 3 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacn:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaaco:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacp:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacq:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacr:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacs:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaact:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacu:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacv:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacw:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacx:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacy:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacz:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacA:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacB:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacC:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacD:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacE:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacF:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacG:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacH:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacI:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacJ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacK:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacL:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacM:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacN:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ w }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacO:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ w }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkvaacP:\the\lengthOfhomemokySagelocalbinsageipython-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %SUBFIGURES
@@ -176,7 +166,7 @@
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=5.2cm]{Picture_FIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv-for_eps.png}%
+\ifpdf \includegraphics[width=7.0cm]{Picture_FIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv-for_eps.png}%
  \else %ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
@@ -188,155 +178,146 @@
 \psset{xunit=0.8,yunit=0.8,LabelSep=1.25}
 \psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-2.75000000000000,-4.75000000000000)(3.85627416666667,3.75000000000000)
+\begin{pspicture}(-4.75000000000000,-2.75000000000000)(3.75000000000000,2.75000000000000)
 %PSTRICKS CODE
 %GRID
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-4.00000000000000){aFKu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,3.00000000000000){aFKv}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFKu}{aFKv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-4.00000000000000){aFKw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,3.00000000000000){aFKx}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFKw}{aFKx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-4.00000000000000){aFKy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aFKz}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFKy}{aFKz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-4.00000000000000){aFKA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aFKB}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFKA}{aFKB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-4.00000000000000){aFKC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,3.00000000000000){aFKD}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFKC}{aFKD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-4.00000000000000){aFKE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aFKF}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFKE}{aFKF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,-4.00000000000000){aFKG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){aFKH}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKG}{aFKH}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-4.00000000000000){aFKI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,3.00000000000000){aFKJ}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKI}{aFKJ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,-4.00000000000000){aFKK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,3.00000000000000){aFKL}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKK}{aFKL}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,-4.00000000000000){aFKM}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,3.00000000000000){aFKN}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKM}{aFKN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-4.00000000000000){aFKO}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,3.00000000000000){aFKP}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKO}{aFKP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-3.50000000000000){aFKQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.50000000000000){aFKR}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKQ}{aFKR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-2.50000000000000){aFKS}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.50000000000000){aFKT}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKS}{aFKT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-1.50000000000000){aFKU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.50000000000000){aFKV}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKU}{aFKV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-0.500000000000000){aFKW}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-0.500000000000000){aFKX}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKW}{aFKX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,0.500000000000000){aFKY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){aFKZ}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFKY}{aFKZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,1.50000000000000){aFLa}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.50000000000000){aFLb}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFLa}{aFLb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,2.50000000000000){aFLc}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.50000000000000){aFLd}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aFLc}{aFLd}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-4.00000000000000){aFLe}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-4.00000000000000){aFLf}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLe}{aFLf}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-3.00000000000000){aFLg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){aFLh}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLg}{aFLh}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-2.00000000000000){aFLi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.00000000000000){aFLj}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLi}{aFLj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-1.00000000000000){aFLk}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aFLl}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLk}{aFLl}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,0){aFLm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aFLn}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLm}{aFLn}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,1.00000000000000){aFLo}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){aFLp}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLo}{aFLp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,2.00000000000000){aFLq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aFLr}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLq}{aFLr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,3.00000000000000){aFLs}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aFLt}
-\pstLineAB[linestyle=solid,linecolor=gray]{aFLs}{aFLt}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-2.00000000000000){aaoN}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,2.00000000000000){aaoO}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoN}{aaoO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-2.00000000000000){aaoP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.00000000000000){aaoQ}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoP}{aaoQ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-2.00000000000000){aaoR}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,2.00000000000000){aaoS}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoR}{aaoS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-2.00000000000000){aaoT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,2.00000000000000){aaoU}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoT}{aaoU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.00000000000000){aaoV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.00000000000000){aaoW}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoV}{aaoW}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-2.00000000000000){aaoX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,2.00000000000000){aaoY}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoX}{aaoY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-2.00000000000000){aaoZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aapa}
+\pstLineAB[linestyle=solid,linecolor=gray]{aaoZ}{aapa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.00000000000000){aapb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aapc}
+\pstLineAB[linestyle=solid,linecolor=gray]{aapb}{aapc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.50000000000000,-2.00000000000000){aapd}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.50000000000000,2.00000000000000){aape}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapd}{aape}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,-2.00000000000000){aapf}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,2.00000000000000){aapg}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapf}{aapg}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,-2.00000000000000){aaph}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,2.00000000000000){aapi}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aaph}{aapi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-2.00000000000000){aapj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,2.00000000000000){aapk}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapj}{aapk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,-2.00000000000000){aapl}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,2.00000000000000){aapm}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapl}{aapm}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,-2.00000000000000){aapn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,2.00000000000000){aapo}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapn}{aapo}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aapp}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,2.00000000000000){aapq}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapp}{aapq}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-1.50000000000000){aapr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.50000000000000){aaps}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapr}{aaps}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-0.500000000000000){aapt}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-0.500000000000000){aapu}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapt}{aapu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,0.500000000000000){aapv}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){aapw}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapv}{aapw}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,1.50000000000000){aapx}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.50000000000000){aapy}
+\pstLineAB[linestyle=dotted,linecolor=gray]{aapx}{aapy}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-2.00000000000000){aapz}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.00000000000000){aapA}
+\pstLineAB[linestyle=solid,linecolor=gray]{aapz}{aapA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-1.00000000000000){aapB}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aapC}
+\pstLineAB[linestyle=solid,linecolor=gray]{aapB}{aapC}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,0){aapD}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aapE}
+\pstLineAB[linestyle=solid,linecolor=gray]{aapD}{aapE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,1.00000000000000){aapF}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){aapG}
+\pstLineAB[linestyle=solid,linecolor=gray]{aapF}{aapG}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,2.00000000000000){aapH}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aapI}
+\pstLineAB[linestyle=solid,linecolor=gray]{aapH}{aapI}
 %AXES
-\pstGeonode[](-2.00000000000000,-0.426028541666667){aFyn}
-\rput(aFyn){\rput(0;0){$ -2 $}}
+\pstGeonode[](-4.00000000000000,-0.398202916666667){aadN}
+\rput(aadN){\rput(0;0){$ -4 $}}
+\pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-4.00000000000000,0){ForTheBar}
+\pstGeonode[](-3.00000000000000,-0.398202916666667){aadT}
+\rput(aadT){\rput(0;0){$ -3 $}}
+\pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
+\pstGeonode[](-2.00000000000000,-0.398202916666667){aadZ}
+\rput(aadZ){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.426028541666667){aFyt}
-\rput(aFyt){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.398202916666667){aaef}
+\rput(aaef){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.407432291666667){aFyz}
-\rput(aFyz){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.381192500000000){aael}
+\rput(aael){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.407432291666667){aFyF}
-\rput(aFyF){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.381192500000000){aaer}
+\rput(aaer){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.407432291666667){aFyL}
-\rput(aFyL){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.381192500000000){aaex}
+\rput(aaex){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.75000000000000,0){aFyN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.62500000000000,0){aFyP}
-\ncline[linestyle=solid,linecolor=black]{->}{aFyN}{aFyP}
-\pstGeonode[](-0.562742291666667,-4.00000000000000){aFzG}
-\rput(aFzG){\rput(0;0){$ -4 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-4.00000000000000){ForTheBar}
-\pstGeonode[](-0.562742291666667,-3.00000000000000){aFzM}
-\rput(aFzM){\rput(0;0){$ -3 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-3.00000000000000){ForTheBar}
-\pstGeonode[](-0.562742291666667,-2.00000000000000){aFzS}
-\rput(aFzS){\rput(0;0){$ -2 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.75000000000000,0){aaez}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.75000000000000,0){aaeB}
+\ncline[linestyle=solid,linecolor=black]{->}{aaez}{aaeB}
+\pstGeonode[](-0.516164166666667,-2.00000000000000){aafd}
+\rput(aafd){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-2.00000000000000){ForTheBar}
-\pstGeonode[](-0.562742291666667,-1.00000000000000){aFzY}
-\rput(aFzY){\rput(0;0){$ -1 $}}
+\pstGeonode[](-0.516164166666667,-1.00000000000000){aafj}
+\rput(aafj){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.372395416666667,1.00000000000000){aFAe}
-\rput(aFAe){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.354166666666667,1.00000000000000){aafp}
+\rput(aafp){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[](-0.372395416666667,2.00000000000000){aFAk}
-\rput(aFAk){\rput(0;0){$ 2 $}}
+\pstGeonode[](-0.354166666666667,2.00000000000000){aafv}
+\rput(aafv){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,2.00000000000000){ForTheBar}
-\pstGeonode[](-0.372395416666667,3.00000000000000){aFAq}
-\rput(aFAq){\rput(0;0){$ 3 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,3.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-4.75000000000000){aFAs}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.75000000000000){aFAu}
-\ncline[linestyle=solid,linecolor=black]{->}{aFAs}{aFAu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.75000000000000){aafx}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.75000000000000){aafz}
+\ncline[linestyle=solid,linecolor=black]{->}{aafx}{aafz}
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,1.00000000000000){aFvd}
-\pstGeonode[](1.36028169529664,1.34761002862997){aFJG}
-\rput(aFJG){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-2.00000000000000,3.00000000000000){aFve}
-\pstGeonode[](-1.62464288803670,3.34761002862997){aFJM}
-\rput(aFJM){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-4.00000000000000){aFvf}
-\pstGeonode[](2.36986482029664,-3.65238997137003){aFJS}
-\rput(aFJS){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){aFvg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aFvh}
-\ncline[linestyle=solid,linecolor=blue]{->}{aFvg}{aFvh}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aFvh}
-\pstGeonode[](3.49063708333333,-0.827293958333333){aFKb}
-\rput(aFKb){\rput(0;0){\( \vect{ u }\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-3.00000000000000){aFvi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){aFvj}
-\ncline[linestyle=solid,linecolor=blue]{->}{aFvi}{aFvj}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){aFvj}
-\pstGeonode[](-0.582586221370030,-1.34948273696330){aFKk}
-\rput(aFKk){\rput(0;0){\( \vect{ v }\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aFvk}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){aFvl}
-\ncline[linestyle=solid,linecolor=blue]{->}{aFvk}{aFvl}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){aFvl}
-\pstGeonode[](1.64755951779168,-1.39631283941665){aFKt}
-\rput(aFKt){\rput(0;0){\( \vect{ w }\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,1.00000000000000){aaat}
+\pstGeonode[](1.28094336196330,1.30796919529664){aanZ}
+\rput(aanZ){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,-2.00000000000000){aaau}
+\pstGeonode[](3.28094336196330,-1.69203080470336){aaof}
+\rput(aaof){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-4.00000000000000,2.00000000000000){aaav}
+\pstGeonode[](-3.71905663803670,2.30796919529664){aaol}
+\rput(aaol){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-2.00000000000000){aaaw}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-2.00000000000000){aaax}
+\ncline[linestyle=solid,linecolor=blue]{->}{aaaw}{aaax}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,-2.00000000000000){aaax}
+\pstGeonode[](-3.89583333333333,-2.38119250000000){aaou}
+\rput(aaou){\rput(0;0){\( \vect{ u }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.00000000000000){aaay}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){aaaz}
+\ncline[linestyle=solid,linecolor=blue]{->}{aaay}{aaaz}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){aaaz}
+\pstGeonode[](-0.719056638036697,-1.30796919529664){aaoD}
+\rput(aaoD){\rput(0;0){\( \vect{ v }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aaaA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,2.00000000000000){aaaB}
+\ncline[linestyle=solid,linecolor=blue]{->}{aaaA}{aaaB}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,2.00000000000000){aaaB}
+\pstGeonode[](-1.37985721441665,1.74583597612501){aaoM}
+\rput(aaoM){\rput(0;0){\( \vect{ w }\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

@@ -4,6 +4,9 @@
 from phystricks import *
 import sys
 
+from phystricksAUHmNET import AUHmNET
+from phystricksAILoxBg import AILoxBg
+from phystricksKYbSnVB import KYbSnVB
 from phystricksOZfyDkr import OZfyDkr
 from phystricksWPrirwB import WPrirwB
 from phystricksEDEYRhQ import EDEYRhQ
@@ -260,7 +263,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,
     AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl,
     MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,OKTXHoc,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
-    JLUTBlD,FFyFBoe,RRlBSZg,PEoyeQt,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr
+    JLUTBlD,FFyFBoe,RRlBSZg,PEoyeQt,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,AUHmNET
     ]
 
 #figures_list=[PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo]

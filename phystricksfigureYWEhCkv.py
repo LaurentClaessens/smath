@@ -6,12 +6,12 @@ def figureYWEhCkv():
     fig.specific_needs="""\makeatletter\@ifundefined{vect}{\\newcommand{\\vect}[1]{\overrightarrow{#1}}}{}\makeatother"""
 
     A=Point(1,1)
-    B=Point(-2,3)
-    C=Point(2,-4)
+    B=Point(3,-2)
+    C=Point(-4,2)
 
-    u=AffineVector(Point(3,1),Point(3,-1))
-    v=AffineVector(Point(-2,-3),Point(-1,-1))
-    w=AffineVector(Point(0,0),Point(2,-1))
+    u=AffineVector(Point(-2,-2),Point(-4,-2))
+    v=AffineVector(Point(-3,2),Point(-1,-1))
+    w=AffineVector(Point(0,0),Point(-1,2))
 
     u.parameters.color="blue"
     v.parameters.color="blue"
@@ -19,7 +19,7 @@ def figureYWEhCkv():
 
     u.put_mark(0.2,u.advised_mark_angle,"\( \\vect{ u }\)",automatic_place=pspict)
     v.put_mark(0.2,-45,"\( \\vect{ v }\)",automatic_place=pspict)
-    w.put_mark(0.2,w.advised_mark_angle+180,"\( \\vect{ w }\)",automatic_place=pspict)
+    w.put_mark(0.2,w.advised_mark_angle,"\( \\vect{ w }\)",automatic_place=pspict)
 
     A.put_mark(0.2,45,"\( A\)",automatic_place=pspict)
     B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
