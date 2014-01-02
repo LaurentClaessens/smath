@@ -2,8 +2,8 @@
 from phystricks import *
 def AILoxBg():
     pspict,fig = SinglePicture("AILoxBg")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_X(0.7)
+    pspict.dilatation_Y(0.7)
 
     A=Point(3,3)
     B=Point(0,3)
@@ -14,10 +14,10 @@ def AILoxBg():
     O=Point(0,0)
 
     A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,135,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-135,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,-45,"\( D\)",automatic_place=(pspict,"corner"))
-    E.put_mark(0.2,-45,"\( E\)",automatic_place=(pspict,"corner"))
+    B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"S"))
+    C.put_mark(0.2,180,"\( C\)",automatic_place=(pspict,"E"))
+    D.put_mark(0.2,-90,"\( D\)",automatic_place=(pspict,"N"))
+    E.put_mark(0.2,0,"\( E\)",automatic_place=(pspict,"W"))
     F.put_mark(0.2,-45,"\( F\)",automatic_place=(pspict,"corner"))
     O.put_mark(0.2,45,"\( O\)",automatic_place=(pspict,"corner"))
 

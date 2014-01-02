@@ -7,7 +7,7 @@ def XDdastq():
 
     I=Point(0,0)
     r2=3
-    r1=1
+    r1=1.5
 
     C1=Circle(  I,r1  )
     C2=Circle(  I,r2  )
@@ -26,24 +26,53 @@ def XDdastq():
     L=C1.get_point(240)
     M=C1.get_point(300)
 
+    B=Segment(A,C).center()
+    P=Segment(O,Q).center()
+    N=Segment(Q,K).center()
+    F=Segment(C,K).center()
+
+
     hexa1=Polygon(K,C,A,G,O,Q)
     hexa2=Polygon(J,E,D,H,L,M)
 
-    I.put_mark(0.2,90,"\( I\)",automatic_place=(pspict,"S"))
+    pointi=[]
+    pointi.append(Segment(K,G))
+    pointi.append(Segment(F,P))
+    pointi.append(Segment(C,O))
+    pointi.append(Segment(B,N))
+    pointi.append(Segment(B,H))
+    pointi.append(Segment(A,Q))
+    pointi.append(Segment(P,H))
 
-    K.put_mark(0.2,0,"\( K\)",automatic_place=(pspict,"W"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
+    for s in pointi:
+        s.parameters.style="dashed"
+    pspict.DrawGraphs(pointi)
+
+    rempli=[]
+    rempli.append(Segment(J,H))
+    rempli.append(Segment(E,L))
+    rempli.append(Segment(D,M))
+    pspict.DrawGraphs(rempli)
+
+
     A.put_mark(0.2,135,"\( A\)",automatic_place=(pspict,"corner"))
+    B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"S"))
+    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
+    D.put_mark(0.2,180,"\( D\)",automatic_place=(pspict,"E"))
+    E.put_mark(0.2,0,"\( E\)",automatic_place=(pspict,"W"))
+    F.put_mark(0.2,0,"\( F\)",automatic_place=(pspict,"corner"))
     G.put_mark(0.2,180,"\( G\)",automatic_place=(pspict,"E"))
+    H.put_mark(0.2,125,"\( H\)",automatic_place=(pspict,"corner"))
+    I.put_mark(0.2,90,"\( I\)",automatic_place=(pspict,"S"))
+    K.put_mark(0.2,0,"\( K\)",automatic_place=(pspict,"W"))
+    L.put_mark(0.2,180,"\( L\)",automatic_place=(pspict,"E"))
+    M.put_mark(0.2,0,"\( M\)",automatic_place=(pspict,"W"))
     O.put_mark(0.2,225,"\( N\)",automatic_place=(pspict,"corner"))
-    Q.put_mark(0.2,-45,"\( P\)",automatic_place=(pspict,"N"))
-
-    J.put_mark(0.2,0,"\( J\)",automatic_place=(pspict,"W"))
-    E.put_mark(0.2,45,"\( E\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,135,"\( D\)",automatic_place=(pspict,"corner"))
-    H.put_mark(0.2,180,"\( H\)",automatic_place=(pspict,"E"))
-    L.put_mark(0.2,225,"\( L\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,-45,"\( M\)",automatic_place=(pspict,"N"))
+    P.put_mark(0.2,-90,"\( P\)",automatic_place=(pspict,"N"))
+    Q.put_mark(0.2,-45,"\( Q\)",automatic_place=(pspict,"N"))
+    J.put_mark(0.2,45,"\( J\)",automatic_place=(pspict,"corner"))
+    N.put_mark(0.2,-45,"\( N\)",automatic_place=(pspict,"corner"))
+    pspict.DrawGraphs(F,B,P,N)
 
     pspict.DrawGraphs(K,C,A,G,O,Q,J,E,D,H,L,M,I,hexa1,hexa2)
     fig.no_figure()
