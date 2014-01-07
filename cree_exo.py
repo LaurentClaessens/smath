@@ -194,9 +194,14 @@ def exo_rectangle():
 
 def exo_cube():
     # Attention : il faudra rendre cet exercice plus équitable : donner une grande diagonale à tout le monde.
-    pts=["A","B","C","D","E","F","G","H"]
-    random.shuffle(pts)
-    c=random.randint(2,20)
+    sommets=["A","B","C","D","E","F","G","H"]
+    diags=["AG","EC","FD","BH"]
+    d=random.choice(diags)
+    p=random.choice(sommets)
+    while p in d:
+        p=random.choice(sommets)
+    pts=d+p
+    c=random.randint(14,30)
     texte=r"""
 \begin{wrapfigure}{r}{5.0cm}
    \vspace{-0.5cm}        % à adapter.
@@ -212,7 +217,7 @@ def exo_cube():
     \item
     Quel est son périmètre ?
     \item
-    Quelle est son aire ? (pour les rapides)
+    Quelle est son aire ?
     \end{enumerate}
     """
     return texte,""
@@ -296,13 +301,11 @@ def interro_repere_distance_milieu():
     f_correction.close()
 
 def interro_geometrie_espace():
-    f_sujet=codecs.open("interro_geometrie_espace_sujet.tex","w",encoding="utf8")
-    f_correction=codecs.open("interro_geometrie_espace_correction.tex","w",encoding="utf8")
+    sujet=Sujet("interro_geometrie_espace")
+    liste_exo=[exo_cube]
     for i in range(1,41):
-        liste_exo=[exo_cube]
-        ecrit_sujet(f_sujet,f_correction,liste_exo,i)
-    f_sujet.close()
-    f_correction.close()
+        sujet.ecrit_sujet(liste_exo,i)
+    sujet.close()
 
 def interro_statistique_descriptive():
     sujet=Sujet("interro_statistique_descriptive")
@@ -311,4 +314,4 @@ def interro_statistique_descriptive():
         sujet.ecrit_sujet(liste_exo,i)
     sujet.close()
 
-interro_statistique_descriptive()
+interro_geometrie_espace()
