@@ -1,10 +1,47 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2013
+% Copyright (c) 2014
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
 \begin{corrige}{smath-0600}
 
-<+Corrsmath-0600+>
+    \begin{enumerate}
+        \item
+            Réponse courte : \( (GHE)\) est le plan de la face arrière; donc \( I\) est dedans et \( J\) n'y est pas.
+
+            Réponse longue : d'abord la droite \( (FG)\) est dans le plan \( (GHE)\) parce que c'est la parallèle à \( (EH)\) passant par \( G\). Donc \( F\in (GHE)\). Ensuite vu que \( E\) et \( F\) sont dans le plan \( (GHE)\), la droite \( (EF)\) y est aussi. En particulier le point \( I\).
+
+            Le point \( J\) n'est pas dans le plan \( (GHE)\) parce que la droite \( (BF)\) intersecte ce plan en un seul point (et ce point est \( F\)).
+
+        \item
+            Ils sont sécants : comme cela se voit déjà dans leurs noms, le point \( A\) est dans l'intersection :
+            \begin{equation}
+                A\in (ABF)\cap(HGA).
+            \end{equation}
+            Vu que ces deux plans sont sécants et non confondus, l'intersection est une droite, et pour la caractériser il nous faut un second point.
+
+            Le plan \( (ABF)\) est celui de la face du dessus. Le plan \( (HGA)\) est celui qui coupe le cube en deux parties égales de façon diagonale; il contient entre autres le rectangle \( ABGH\). Le second point d'intersection qu'il nous faut est \( B\).
+
+            Donc
+            \begin{equation}
+                (ABF)\cap(HGA)=(AB);
+            \end{equation}
+            c'est la droite horizontale située à l'avant du cube (en haut).
+
+        \item
+            Le plus simple est de dessiner le cube vu d'au-dessus :
+            \begin{center}
+                \input{Fig_RHfkPKj.pstricks}
+            \end{center}
+            Vu l'énoncé nous avons \( IF=FJ=\unit{3.5}{\kilo\meter}\). Une simple application du théorème de Pythagore nous indique alors que
+            \begin{equation}
+                IJ^2=2\times (3.5)^2=24.5
+            \end{equation}
+            et donc la longueur demandée est
+            \begin{equation}
+                IJ=\sqrt{24.5}\kilo\meter.
+            \end{equation}
+            
+    \end{enumerate}
 
 \end{corrige}
