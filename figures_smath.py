@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksWTVlzUE import WTVlzUE
 from phystricksRHfkPKj import RHfkPKj
 from phystricksRZwXiJD import RZwXiJD
 from phystricksGTyQVvw import GTyQVvw
@@ -267,7 +268,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,
     AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl,
     MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,OKTXHoc,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
-    JLUTBlD,FFyFBoe,RRlBSZg,PEoyeQt,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,AUHmNET,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj
+    JLUTBlD,FFyFBoe,RRlBSZg,PEoyeQt,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,AUHmNET,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj,WTVlzUE
     ]
 
 #figures_list=[PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo]
