@@ -25,7 +25,7 @@ Ce chapitre parle d'équations de droites et se voit après le chapitre sur les 
 C'est ici que viendra l'activité.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Théorie}
+\section{Équation de droite}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{theorem}
@@ -42,289 +42,151 @@ C'est ici que viendra l'activité.
     \begin{enumerate}
         \item
             Soit une droite \( d\) parallèle à l'axe des ordonnées. Elle coupe l'axe des abscisses en un point \( C\) de coordonnées \( (c,0)\). Par définition du système de coordonnée, tout point de \( d\) a alors une abscisse égale à \( c\).
+        \item
+            Nous supposons à présent que la droite \( d\) n'est pas parallèle à l'axe des ordonnées. Cette droite coupe l'axe vertical en un point \( P\) de coordonnées \( (0;p)\) et l'axe \( x=1\) au point \( Q(1;q)\).
+            \begin{center}
+   \input{Fig_OKeZlpK.pstricks}
+            \end{center}
+            Le théorème de Thalès nous indique que
+            \begin{equation}
+                \frac{ MS }{ PS }=\frac{ QR }{ PR },
+            \end{equation}
+            c'est à dire
+            \begin{equation}
+                \frac{ y_M-p }{ x_M }=\frac{ q-p }{ 1 },
+            \end{equation}
+            c'est à dire
+            \begin{equation}
+                y_M=(q-p)x_M+p.
+            \end{equation}
+            En posant \( m=q-p\) nous avons bien l'équation demandée :
+            \begin{equation}
+                y=mx+p.
+            \end{equation}
     \end{enumerate}
-    <++>
 \end{proof}
-<++>
 
 \begin{theorem}
-    Soit la fonction affine \( f(x)=ax+b\). Alors pour tout nombres distincts \( u\) et \( v\) nous avons
+    Soit la fonction affine \( f(x)=mx+p\). Alors pour tout nombres distincts \( u\) et \( v\) nous avons
     \begin{equation}
-        \frac{ f(u)-f(v) }{ u-v }=a.
+        \frac{ f(u)-f(v) }{ u-v }=m.
     \end{equation}
 \end{theorem}
 
 \begin{proof}
     Soient \( u\) et \( v\), deux réels distincts. Nous calculons
     \begin{equation}
-        f(u)-f(v)=au+b-(av+b)=au-av=a(u-v).
+        f(u)-f(v)=mu+p-(mv+p)=mu-mv=m(u-v).
     \end{equation}
     En divisant par \( u-v\) on trouve le résultat annoncé.
 \end{proof}
 
-Cela donne une méthode graphique pour déterminer le coefficient directeur d'une droite. Si les points \( A=(x_A;y_A)\) et \( B=(x_B;y_B)\) sont sur la droite \( d\) d'équation \( y=ax+b\), alors
-\begin{equation}
-    a=\frac{ y_B-y_A }{ x_B-x_A }.
-\end{equation}
-Notez que cela vient du vecteur directeur
-\begin{equation}
-    \begin{pmatrix}
-        x_B-x_A    \\ 
-        y_B-y_A    
-    \end{pmatrix}
-\end{equation}
-
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Droites parallèles et droites sécantes}
+\section{Déterminer une équation de droite}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Critère avec le coefficient directeur}
-%---------------------------------------------------------------------------------------------------------------------------
+Soient les points \( A(x_A;y_A)\) et \( B(x_B;y_B)\). Nous voulons déterminer l'équation de la droite
+\begin{equation}
+    y=mx+p
+\end{equation}
+qui passe par ces deux points. Vu que \( A\) est sur cette droite, ses coordonnées vérifient l'équation :
+\begin{equation}
+    y_A=mx_A+p
+\end{equation}
+et pour la même raison :
+\begin{equation}
+    y_B=mx_B+p
+\end{equation}
+En soustrayant ces deux équations :
+\begin{equation}
+    y_A-y_B=  mx_A+p-(mx_B+p)=m(x_A-x_B),
+\end{equation}
+ou encore
+\begin{equation}
+    y_A-y_B=m(x_A-x_B), 
+\end{equation}
+c'est à dire
+\begin{equation}
+    m=\frac{ y_A-y_B }{ x_A-x_B }.
+\end{equation}
+
+\begin{Aretenir}
+    Le coefficient directeur d'une droite passant par deux points \( A\) et \( B\) est donné par la formule
+    \begin{equation}
+        m=\frac{ y_B-y_A }{ x_B-x_A }.
+    \end{equation}
+    L'ordonnée à l'origine se calcule en posant \( y_A=mx_A+p\) et en résolvant pour \( p\).
+\end{Aretenir}
 
 \begin{example}
-    Les droites \( y=-3x+4\) et \( y=2x+1\) sont sécantes, comme nous pouvons le voir sur un dessin. Comment trouver les coordonnées du point d'intersection ?
+    Trouver l'équation de la droite passant par \( A(-1;-2)\) et \( B(1;4)\).
 
-    Le point d'intersection \( (x_0;y_0)\) doit satisfaire \( y_0=-3x_0+4\) et \( y_0=2x_0+1\) en même temps. Donc
+    D'abord
     \begin{equation}
-        -3x_0+4=2x_0+1,
+        m=\frac{ 4-(-2) }{ 1-(-2) }=\frac{ 6 }{ 3 }=3.
     \end{equation}
-    ce qui donne \( x_0=\frac{ 3 }{ 5 }\). Pour trouver \( y_0\) il suffit de remplacer dans l'une ou l'autre équation :
+    Nous cherchons donc une équation du type \( y=3x+p\). Il s'agit donc de trouver \( p\) pour avoir \emph{en même temps}
     \begin{equation}
-        y_0=-3x_0+4=-3\frac{ 3 }{ 5 }+4=\frac{ 11 }{ 5 }.
+            -2=3\times (-1)+p
     \end{equation}
-    Vérification : dans l'autre on obtient le même résultat :
+    et
     \begin{equation}
-        y_0=2x_0+1=2\frac{ 3 }{ 5 }+1=\frac{ 11 }{ 5 }.
+        4=3\times 1+p
     \end{equation}
-    Donc le point d'intersection des deux droites est le point de coordonnées
+    La solution est \( p=1\). Au final l'équation cherchée est
     \begin{equation}
-        \big( \frac{ 3 }{ 5 };\frac{ 11 }{ 5 } \big).
+        y=3x+1.
     \end{equation}
+    
 \end{example}
 
-\begin{theorem}
-    Dans un repère, les droites d'équations \( y=ax+b\) et \( y=a'x+b'\) sont parallèles si et seulement si elles ont même coefficient directeur, c'est à dire si et seulement si \( a=a'\).
 
-    Les droites sont sécantes si et seulement si \( a\neq a'\).
-\end{theorem}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Intersection de droites}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{proof}
-    Nous allons seulement démontrer que si \( a\neq a'\), alors les droites s'intersectent. Pour cela nous allons montrer qu'il existe un point \( (x_0,y_0)\) qui se trouve sur le graphe des deux fonctions, c'est à dire qui vérifie
-    \begin{subequations}
-        \begin{numcases}{}
-            y_0=ax_0+b\\
-            y_0=a'x_0+b'.
-        \end{numcases}
-    \end{subequations}
-    Le nombre \( x_0\) doit donc satisfaire
+Nous avons déjà vu que les fonctions affines \( f(x)=mx+p\) et \( g(x)=m'x+p'\) ont des droites représentatives parallèles si et seulement si \( m=m'\).
+
+\begin{Aretenir}
+    Trouver l'abscisse du point d'intersection des droites \( y=mx+p\) et \( y=m'x+p\) revient à résoudre l'équation
     \begin{equation}
-        ax_0+b=a'x_0+b',
+        mx+p=m4x+p.
     \end{equation}
-    c'est à dire \( (a-a')x_0=b'-b\) et donc
+    Pour trouver l'ordonnée il suffit de mettre la réponse dans l'équation d'une des deux droites.
+
+    ATTENTION : si \( m=m'\), les droites sont parallèles et il n'y a pas d'intersection.
+\end{Aretenir}
+
+\begin{example}
+    Trouver le point d'intersection des droites \( d_1:y=2x-4\) et \( d_2:y=-x+5\). Ce sont les droites représentatives des fonctions affines \( f(x)=2x+4\) et \( g(x)=-x+5\). L'abscisse du point d'intersection est donnée par l'équation \( f(x)=g(x)\), c'est à dire
     \begin{equation}
-        x_0=\frac{ b'-b }{ a-a' }.
+        2x-4=-x+5,
     \end{equation}
-\end{proof}
+    dont la solution est \( x=3\). 
 
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Et le vecteur directeur}
-%---------------------------------------------------------------------------------------------------------------------------
-
-Si \( A\) et \( B\) sont des points du plan, nous avons déjà vu que le vecteur \( \vect{ AB }\) était un critère de parallélisme de la droite \( AB\). Plus précisément, nous avons vu qu'une droite \( (CD)\) était parallèle à \( AB\) si et seulement si \( \vect{ CD }\) est un multiple de \( \vect{ AB }\). Voyons cela de plus près.
-
-Soit la droite \( y=ax+b\). Les points \( A=(0;b)\) et \( B=(1,a+b)\) sont sur cette droite et donc le vecteur directeur est
-\begin{equation}
-    \vect{ AB }=\begin{pmatrix}
-        1    \\ 
-        a    
-    \end{pmatrix}
-\end{equation}
-Si les points \( C\) et \( D\) sont tels que \( (CD)\parallel (AB)\), alors
-\begin{equation}
-    \vect{ CD }=\lambda\begin{pmatrix}
-        1    \\ 
-        a    
-    \end{pmatrix}=\begin{pmatrix}
-        \lambda    \\ 
-            \lambda a
-    \end{pmatrix}.
-\end{equation}
-Si le point \( C\) a pour coordonnées \( C=(x_C;y_C)\), alors le point \( D\) doit avoir comme coordonnées
-\begin{equation}
-    D=\big( x_C+\lambda;y_C+\lambda a \big).
-\end{equation}
-Le coefficient directeur de la droite \( (CD)\) est alors
-\begin{equation}
-    \frac{ (y_C+\lambda a)-y_C }{ (x_C+\lambda)-x_C }=a.
-\end{equation}
-Nous avons donc confirmé que le critère du vecteur proportionnel et le critère du coefficient directeur sont en réalité les mêmes.
+    Pour trouver l'ordonnée du point d'intersection il faut calculer \( f(3)\) ou \( g(3)\), qui doivent donner le même résultat.
+    \begin{equation}
+        f(3)=g(3)=2.
+    \end{equation}
+    Dont le point d'intersection est le point
+    \begin{equation}
+        I=(3;2).
+    \end{equation}
+\end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Colinéarité}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{theorem}
-    Trois points distincts \( A\), \( B\) et \( C\) sont alignés si et seulement si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur.
-\end{theorem}
-
-\begin{proof}
-    Si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur, alors nous pouvons écrire
-    \begin{equation}
-        (AB)\equiv y=ax+b
-    \end{equation}
-    et
-    \begin{equation}
-        (AC)\equiv ax+b'.
-    \end{equation}
-    Cependant \( A\) est un point commun aux deux droites : \( y_A=ax_A+b=ax_A+b'\) et donc \( b=b'\), ce qui signifie que les droites \( (AB)\) et \( (AC)\) sont les mêmes.
-\end{proof}
-
-\begin{example}
-    Vérifions que les points \( A=(1;-1)\), \( B=(3;5)\) et \( C=(4;8)\) sont alignés.
-
-    D'abord le coefficient directeur de la droite \( (AB)\) est 
-    \begin{equation}
-        \frac{ y_B-y_A }{ x_B-x_A }=\frac{ 5-(-1) }{ 3-1 }=3
-    \end{equation}
-    ensuite le coefficient directeur de la droite \( (AC)\) est
-    \begin{equation}
-        \frac{ y_C-y_A }{ x_C-x_A }=\frac{ 8+1 }{ 4-1 }=3
-    \end{equation}
-    Donc les points \( A\), \( B\) et \( C\) sont alignés.
-\end{example}
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Systèmes et intersections de droites}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-On s'intéresse à des systèmes linéaires de deux équations à deux
-inconnues, c'est-à-dire de la forme
-    \begin{subequations}
-        \begin{numcases}{}
-            ax+by=c\\
-a'x+b'y=c'
-        \end{numcases}
-    \end{subequations}
-où $a$, $b$, $c$, $a'$, $b'$, $c'$ sont des coefficients réels. Les
-solutions sont des couples $(x;y)$.
-
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Méthode par substitution}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{wrapfigure}{r}{10.cm}
+   \vspace{-0.5cm}        % à adapter.
+   \centering
+   \input{Fig_RVZNtGK.pstricks}
+\end{wrapfigure}
 
 
-À l'aide de la première équation, on exprime l'une des
-  variables en fonction de l'autre, puis on remplace dans la deuxième
-  équation par l'expression obtenue.
-
-
-  \begin{example}
-Résoudre par substitution le système
-    \begin{subequations}
-        \begin{numcases}{}
-            x+2y=4\\
--3x+4y=18
-        \end{numcases}
-    \end{subequations}
-
-  \medskip
-
-  \begin{enumerate}
-  \item La première équation permet d'exprimer facilement $x$ en
-    fonction de $y$ : \\ $x=4-2y$.
-
-  \item Dans la deuxième équation, on remplace $x$ par $4-2y$. On
-    obtient une équation qui ne dépend que de $y$, qu'on résout.
-    \begin{gather*}
-      -3(4-2y) + 4y = 18 \\
-      -12 + 6y + 4 y = 18 \\
-      10 y =30 \\
-      y = 3
-    \end{gather*}
-
-  \item Une fois trouvé $y$, on reprend l'expression de $x$ en
-    fonction de $y$, et on remplace $y$ par la valeur trouvée :
-    \[
-    x = 4-2y = 4-2\times 3 = 4-6=-2
-    \]
-
-  \item On donne l'ensemble solution, toujours dans l'ordre $(x;y)$.
-    \[
-    \boxed{ \mathscr{S} = \left\{ (-2;3) \right\} }
-    \]
-  \end{enumerate}
-  
-      
-  \end{example}
-  
-
-
-  %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-  \section{Méthode par addition, ou par combinaisons linéaires}
-  %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-On multiplie l'une des équations (ou éventuellement
-  les deux) par un facteur, positif ou négatif, de manière à éliminer
-  l'une des deux variables lorsqu'on fait la somme des deux équations.
-
-
-  \begin{example}
-Résoudre
-\begin{subequations}
-    \begin{numcases}{}
-        x+2y=4\\
-        -3x+4y=18
-    \end{numcases}
-\end{subequations}
-
-
-  \begin{enumerate}
-  \item On cherche à éliminer $y$. Pour cela, il faut faire en sorte
-    que le coefficient devant $y$ dans la première équation soit égal
-    à $-4$. On doit donc multiplier la première équation par $-2$.
-    
-    \underline{\textbf{Attention}} : Il faut multiplier
-    \underline{\textbf{tous}} les coefficients de l'équation par $-2$.
-    \medskip
-
-  \item Le système est équivalent à :
-    \begin{subequations}
-        \begin{numcases}{}
-            -2x-4y=-8\\
--3x+4y=18
-        \end{numcases}
-    \end{subequations}
-
-  \item On fait la somme, membre à membre, des deux équations. On
-    obtient une équation dans laquelle n'intervient plus que $x$,
-    qu'on résout.
-    \begin{equation}
-        -5x=10
-    \end{equation}
-    et don
-    \begin{equation}
-        x=-2
-    \end{equation}
-    
-  \item On reprend l'une des deux équations du système d'origine pour
-    exprimer $y$ en fonction de $x$ (choisir si possible une équation
-    dans laquelle $y$ intervient avec le coefficient $1$, ou $-1$) et
-    calculer $y$.
-    \begin{gather*}
-      x+2y = 4 \\
-      2y  = 4-x \\
-      2y = 4-(-2) \\
-      2y = 6 \\
-      y = 3
-    \end{gather*}
-
-  \item On donne l'ensemble solution :
-    \[
-    \boxed{ \mathscr{S} = \left\{ (-2;3) \right\} }
-    \]
-  \end{enumerate}
-
-  \end{example}
-
+Le théorème de Thalès nous donne une bonne façon de savoir si trois points sont alignés. Les points \( A\), \( B\) et \( C\) sont alignés si et seulement si
+\begin{equation}
+    \frac{ y_C-y_A }{ x_C-x_A }=\frac{ y_B-y_A }{ x_B-x_A }.
+\end{equation}
+C'est à dire si et seulement si les coefficients directeurs des droites \( (AB)\) et \( (AC)\) sont les mêmes.

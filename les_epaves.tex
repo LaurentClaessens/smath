@@ -463,3 +463,254 @@ Cet intervalle peut être décortiqué de la façon suivante :
     Maintenant le quadrilatère \( CDK'K\) est formé de deux couples de droites parallèles. Les longueurs sont de plus égales parce que \( CD=AB=KK'\) (encore par les parallélogrammes) et \( KC=K'D\) par isométrie des triangles. Le quadrilatère \( CDK'K\) es estt donc un parallélogramme. Cela prouve que \( K'\) est l'image de \( K\) par la translation \( t_{C,D}\).
 \end{proof}
 
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Intersection de droites}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{example}
+    Les droites \( y=-3x+4\) et \( y=2x+1\) sont sécantes, comme nous pouvons le voir sur un dessin. Comment trouver les coordonnées du point d'intersection ?
+
+    Le point d'intersection \( (x_0;y_0)\) doit satisfaire \( y_0=-3x_0+4\) et \( y_0=2x_0+1\) en même temps. Donc
+    \begin{equation}
+        -3x_0+4=2x_0+1,
+    \end{equation}
+    ce qui donne \( x_0=\frac{ 3 }{ 5 }\). Pour trouver \( y_0\) il suffit de remplacer dans l'une ou l'autre équation :
+    \begin{equation}
+        y_0=-3x_0+4=-3\frac{ 3 }{ 5 }+4=\frac{ 11 }{ 5 }.
+    \end{equation}
+    Vérification : dans l'autre on obtient le même résultat :
+    \begin{equation}
+        y_0=2x_0+1=2\frac{ 3 }{ 5 }+1=\frac{ 11 }{ 5 }.
+    \end{equation}
+    Donc le point d'intersection des deux droites est le point de coordonnées
+    \begin{equation}
+        \big( \frac{ 3 }{ 5 };\frac{ 11 }{ 5 } \big).
+    \end{equation}
+\end{example}
+
+\begin{theorem}
+    Dans un repère, les droites d'équations \( y=ax+b\) et \( y=a'x+b'\) sont parallèles si et seulement si elles ont même coefficient directeur, c'est à dire si et seulement si \( a=a'\).
+
+    Les droites sont sécantes si et seulement si \( a\neq a'\).
+\end{theorem}
+
+\begin{proof}
+    Nous allons seulement démontrer que si \( a\neq a'\), alors les droites s'intersectent. Pour cela nous allons montrer qu'il existe un point \( (x_0,y_0)\) qui se trouve sur le graphe des deux fonctions, c'est à dire qui vérifie
+    \begin{subequations}
+        \begin{numcases}{}
+            y_0=ax_0+b\\
+            y_0=a'x_0+b'.
+        \end{numcases}
+    \end{subequations}
+    Le nombre \( x_0\) doit donc satisfaire
+    \begin{equation}
+        ax_0+b=a'x_0+b',
+    \end{equation}
+    c'est à dire \( (a-a')x_0=b'-b\) et donc
+    \begin{equation}
+        x_0=\frac{ b'-b }{ a-a' }.
+    \end{equation}
+\end{proof}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Vecteur directeur}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Si \( A\) et \( B\) sont des points du plan, nous avons déjà vu que le vecteur \( \vect{ AB }\) était un critère de parallélisme de la droite \( AB\). Plus précisément, nous avons vu qu'une droite \( (CD)\) était parallèle à \( AB\) si et seulement si \( \vect{ CD }\) est un multiple de \( \vect{ AB }\). Voyons cela de plus près.
+
+Soit la droite \( y=ax+b\). Les points \( A=(0;b)\) et \( B=(1,a+b)\) sont sur cette droite et donc le vecteur directeur est
+\begin{equation}
+    \vect{ AB }=\begin{pmatrix}
+        1    \\ 
+        a    
+    \end{pmatrix}
+\end{equation}
+Si les points \( C\) et \( D\) sont tels que \( (CD)\parallel (AB)\), alors
+\begin{equation}
+    \vect{ CD }=\lambda\begin{pmatrix}
+        1    \\ 
+        a    
+    \end{pmatrix}=\begin{pmatrix}
+        \lambda    \\ 
+            \lambda a
+    \end{pmatrix}.
+\end{equation}
+Si le point \( C\) a pour coordonnées \( C=(x_C;y_C)\), alors le point \( D\) doit avoir comme coordonnées
+\begin{equation}
+    D=\big( x_C+\lambda;y_C+\lambda a \big).
+\end{equation}
+Le coefficient directeur de la droite \( (CD)\) est alors
+\begin{equation}
+    \frac{ (y_C+\lambda a)-y_C }{ (x_C+\lambda)-x_C }=a.
+\end{equation}
+Nous avons donc confirmé que le critère du vecteur proportionnel et le critère du coefficient directeur sont en réalité les mêmes.
+
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Systèmes et intersections de droites}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+On s'intéresse à des systèmes linéaires de deux équations à deux
+inconnues, c'est-à-dire de la forme
+    \begin{subequations}
+        \begin{numcases}{}
+            ax+by=c\\
+a'x+b'y=c'
+        \end{numcases}
+    \end{subequations}
+où $a$, $b$, $c$, $a'$, $b'$, $c'$ sont des coefficients réels. Les
+solutions sont des couples $(x;y)$.
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Méthode par substitution}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+À l'aide de la première équation, on exprime l'une des
+  variables en fonction de l'autre, puis on remplace dans la deuxième
+  équation par l'expression obtenue.
+
+
+  \begin{example}
+Résoudre par substitution le système
+    \begin{subequations}
+        \begin{numcases}{}
+            x+2y=4\\
+-3x+4y=18
+        \end{numcases}
+    \end{subequations}
+
+  \medskip
+
+  \begin{enumerate}
+  \item La première équation permet d'exprimer facilement $x$ en
+    fonction de $y$ : \\ $x=4-2y$.
+
+  \item Dans la deuxième équation, on remplace $x$ par $4-2y$. On
+    obtient une équation qui ne dépend que de $y$, qu'on résout.
+    \begin{gather*}
+      -3(4-2y) + 4y = 18 \\
+      -12 + 6y + 4 y = 18 \\
+      10 y =30 \\
+      y = 3
+    \end{gather*}
+
+  \item Une fois trouvé $y$, on reprend l'expression de $x$ en
+    fonction de $y$, et on remplace $y$ par la valeur trouvée :
+    \[
+    x = 4-2y = 4-2\times 3 = 4-6=-2
+    \]
+
+  \item On donne l'ensemble solution, toujours dans l'ordre $(x;y)$.
+    \[
+    \boxed{ \mathscr{S} = \left\{ (-2;3) \right\} }
+    \]
+  \end{enumerate}
+  
+      
+  \end{example}
+  
+
+
+  %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+  \section{Méthode par addition, ou par combinaisons linéaires}
+  %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+On multiplie l'une des équations (ou éventuellement
+  les deux) par un facteur, positif ou négatif, de manière à éliminer
+  l'une des deux variables lorsqu'on fait la somme des deux équations.
+
+
+  \begin{example}
+Résoudre
+\begin{subequations}
+    \begin{numcases}{}
+        x+2y=4\\
+        -3x+4y=18
+    \end{numcases}
+\end{subequations}
+
+
+  \begin{enumerate}
+  \item On cherche à éliminer $y$. Pour cela, il faut faire en sorte
+    que le coefficient devant $y$ dans la première équation soit égal
+    à $-4$. On doit donc multiplier la première équation par $-2$.
+    
+    \underline{\textbf{Attention}} : Il faut multiplier
+    \underline{\textbf{tous}} les coefficients de l'équation par $-2$.
+    \medskip
+
+  \item Le système est équivalent à :
+    \begin{subequations}
+        \begin{numcases}{}
+            -2x-4y=-8\\
+-3x+4y=18
+        \end{numcases}
+    \end{subequations}
+
+  \item On fait la somme, membre à membre, des deux équations. On
+    obtient une équation dans laquelle n'intervient plus que $x$,
+    qu'on résout.
+    \begin{equation}
+        -5x=10
+    \end{equation}
+    et don
+    \begin{equation}
+        x=-2
+    \end{equation}
+    
+  \item On reprend l'une des deux équations du système d'origine pour
+    exprimer $y$ en fonction de $x$ (choisir si possible une équation
+    dans laquelle $y$ intervient avec le coefficient $1$, ou $-1$) et
+    calculer $y$.
+    \begin{gather*}
+      x+2y = 4 \\
+      2y  = 4-x \\
+      2y = 4-(-2) \\
+      2y = 6 \\
+      y = 3
+    \end{gather*}
+
+  \item On donne l'ensemble solution :
+    \[
+    \boxed{ \mathscr{S} = \left\{ (-2;3) \right\} }
+    \]
+  \end{enumerate}
+
+  \end{example}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Colinéarité}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{theorem}
+    Trois points distincts \( A\), \( B\) et \( C\) sont alignés si et seulement si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur.
+\end{theorem}
+
+\begin{proof}
+    Si les droites \( (AB)\) et \( (AC)\) ont même coefficient directeur, alors nous pouvons écrire
+    \begin{equation}
+        (AB)\equiv y=ax+b
+    \end{equation}
+    et
+    \begin{equation}
+        (AC)\equiv ax+b'.
+    \end{equation}
+    Cependant \( A\) est un point commun aux deux droites : \( y_A=ax_A+b=ax_A+b'\) et donc \( b=b'\), ce qui signifie que les droites \( (AB)\) et \( (AC)\) sont les mêmes.
+\end{proof}
+
+\begin{example}
+    Vérifions que les points \( A=(1;-1)\), \( B=(3;5)\) et \( C=(4;8)\) sont alignés.
+
+    D'abord le coefficient directeur de la droite \( (AB)\) est 
+    \begin{equation}
+        \frac{ y_B-y_A }{ x_B-x_A }=\frac{ 5-(-1) }{ 3-1 }=3
+    \end{equation}
+    ensuite le coefficient directeur de la droite \( (AC)\) est
+    \begin{equation}
+        \frac{ y_C-y_A }{ x_C-x_A }=\frac{ 8+1 }{ 4-1 }=3
+    \end{equation}
+    Donc les points \( A\), \( B\) et \( C\) sont alignés.
+\end{example}
