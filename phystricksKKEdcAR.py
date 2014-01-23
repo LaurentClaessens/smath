@@ -16,8 +16,8 @@ def KKEdcAR():
     f=affine(Point(1,2),B=Point(4,4))
     g=affine(Point(0,3),B=Point(2,1))
 
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
-    g.put_mark(0.2,0,"\( g\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( d_1\)",automatic_place=pspict)
+    g.put_mark(0.2,0,"\( d_2\)",automatic_place=pspict)
 
     pspict.DrawGraphs(f,g)
     pspict.DrawDefaultAxes()

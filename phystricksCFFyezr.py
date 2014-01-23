@@ -2,11 +2,11 @@
 from phystricks import *
 def CFFyezr():
     pspict,fig = SinglePicture("CFFyezr")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(0.7)
+    pspict.dilatation_Y(0.7)
 
-    S1=Point(2,2)
-    S2=Point(7,3)
+    S1=Point(1,1)
+    S2=Point(6,2)
 
     v1=AffineVector( S1,S1+(1,2) )
     v2=AffineVector(S2,S2+(-1,1))
