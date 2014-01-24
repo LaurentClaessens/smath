@@ -35,7 +35,7 @@ La conclusion est que nous pouvons faire des translations en comptant les distan
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}  
-    La \defe{translation}{translation} \( t_{A,B}\) est la transformation du plan qui à un point \( C\) fait correspondre l'unique point \( D\) tel que les segments \( [AD]\) et \( [BC]\) aient même milieu.
+    La \defe{translation}{translation} \( t_{\vect{ AB }}\) est la transformation du plan qui à un point \( C\) fait correspondre l'unique point \( D\) tel que les segments \( [AD]\) et \( [BC]\) aient même milieu.
 
 Nous notons \( \vect{ AB }\) le vecteur associé à cette translation.
 \end{definition}
@@ -46,20 +46,20 @@ Nous notons \( \vect{ AB }\) le vecteur associé à cette translation.
 
 Étant donné qu'un quadrilatère dont les diagonales se coupent en leur milieu est un parallélogramme, nous avons immédiatement le règle suivante :
 \begin{Aretenir}
-    Le quadrilatère \( ABDC\) est un parallélogramme si et seulement si \( D=t_{A,B}(C)\). C'est à dire si \( D\) est donné à partir de \( C\) par la translation de vecteur \( \vect{ AB }\).
+    Le quadrilatère \( ABDC\) est un parallélogramme si et seulement si \( D=t_{\vect{ AB }}(C)\). C'est à dire si \( D\) est donné à partir de \( C\) par la translation de vecteur \( \vect{ AB }\).
 
 Attention : il s'agit bien de \( ABDC\) et non de \( ABCD\).
 \end{Aretenir}
 
 %Le dessin à côté de la définition \ref{DefAAJEuS}, aplati, donne immédiatement aussi
 %\begin{equation}
-%    t_{A,B}(A)=B.
+%    t_{\vect{ AB }}(A)=B.
 %\end{equation}
 
     Le \defe{vecteur}{vecteur} \vect{ AB } est le déplacement qui permet d'aller de $A$ à \( B\).
 
 \begin{definition}
-    Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{A,B}(C)=D\), c'est à dire si \( ABDC\) est un parallélogramme.
+    Nous disons que \( \vect{ AB }=\vect{ CD }\) si et seulement si \( t_{\vect{ AB }}(C)=D\), c'est à dire si \( ABDC\) est un parallélogramme.
 \end{definition}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -67,17 +67,7 @@ Attention : il s'agit bien de \( ABDC\) et non de \( ABCD\).
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}
-    \begin{enumerate}
-        \item
-    Le vecteur \( \vect{ AB }\) est \defe{nul}{vecteur!nul} si les points \( A\) et \( B\) sont confondus. On le note alors \( \vect{ 0 }\).
-
-        \item
-    Nous définissons aussi \( -\vect{ AB }=\vect{ BA }\).
-
-\item
-
-    Le vecteur \defe{somme}{somme!de vecteur}\index{vecteur!somme} \( \vect{ AB }+\vect{ CD }\) est le vecteur qui correspond à la translation composée de \( t_{A,B}\) par \( t_{C,D}\)
-    \end{enumerate}
+    Le vecteur \defe{somme}{somme!de vecteur}\index{vecteur!somme} \( \vect{ AB }+\vect{ CD }\) est le vecteur qui correspond à la translation composée de \( t_{\vect{ AB }}\) par \( t_{\vect{ CD }}\)
 \end{definition}
 
 \begin{Aretenir}
@@ -143,8 +133,18 @@ Dans le cas ci-dessus, nous avons \( \vect{ AB }=\vect{ OM }\) et les coordonné
    % TODO : lire le TODO qu'il y a dans le fichier phystricksfigureLEOvqez 
 \end{Aretenir}
 
+\begin{Aretenir}
+    \begin{enumerate}
+        \item
+    Le vecteur \( \vect{ AB }\) est \defe{nul}{vecteur!nul} si les points \( A\) et \( B\) sont confondus. On le note alors \( \vect{ 0 }\).
+
+        \item
+    Nous définissons aussi \( -\vect{ AB }=\vect{ BA }\).
+    \end{enumerate}
+    
+\end{Aretenir}
 %--------------------------------------------------------------------------------------------------------------------------- 
-\section{Addition de vecteurs}
+\section{Somme et coordonnées}
 %---------------------------------------------------------------------------------------------------------------------------
 
 \begin{propriete}
