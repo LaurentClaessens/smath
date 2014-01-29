@@ -11,6 +11,12 @@ def EDEYRhQ():
 
     BasicGeometricObjects.GraphOfASegment.mark_point=lambda x:x.center()
 
+    l1=10
+    l2=15
+    l3=9
+    l4=9
+    l5=12
+
     x=var('x')
     A=Point(-4,0)
     B=Point(6,0)
@@ -27,15 +33,15 @@ def EDEYRhQ():
     F.put_mark(0.2,-90,"Dijon",automatic_place=(pspict,"N"))
 
     AB=AffineVector(A,B)
-    AB.put_mark(0.2,90,"\( 12\)",automatic_place=(pspict,"S"))
+    AB.put_mark(0.2,90,"\( {}\)".format(B.x-A.x),automatic_place=(pspict,"S"))
     BC=AffineVector(B,C)
-    BC.put_mark(0.2,90,"\( 15\)",automatic_place=(pspict,"S"))
+    BC.put_mark(0.2,90,"\( {}\)".format(C.x-B.x),automatic_place=(pspict,"S"))
     CD=AffineVector(C,D)
-    CD.put_mark(0.2,90,"\( 9\)",automatic_place=(pspict,"S"))
+    CD.put_mark(0.2,90,"\( {}\)".format(D.x-C.x),automatic_place=(pspict,"S"))
     DE=AffineVector(D,E)
-    DE.put_mark(0.2,90,"\( 9\)",automatic_place=(pspict,"S"))
+    DE.put_mark(0.2,90,"\( {}\)".format(E.x-D.x),automatic_place=(pspict,"S"))
     EF=AffineVector(E,F)
-    EF.put_mark(0.2,90,"\( 12\)",automatic_place=(pspict,"S"))
+    EF.put_mark(0.2,90,"\( {}\)".format(F.x-E.x),automatic_place=(pspict,"S"))
 
     AB.parameters.color="brown"
     BC.parameters.color="brown"
