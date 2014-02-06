@@ -2,8 +2,8 @@
 from phystricks import *
 def WTVlzUE():
     pspict,fig = SinglePicture("WTVlzUE")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(0.4)
+    pspict.dilatation_Y(0.4)
 
     l=3
     perspective=ObliqueProjection(30,0.5)
