@@ -8,6 +8,17 @@ from __future__ import unicode_literals
 import codecs
 import random
 
+"""
+Ceci crée un fichier contenant les questions. Il est à insérer dans un fichier LaTeX.
+"""
+
+class Point(object):
+    def __init__(self,x,y):
+        self.x=x
+        self.y=y
+    def __str__(self):
+        return "({},{})".format(self.x,self.y)
+
 def randint_non_zero(a,b):
     """
     retourne la même chose que random.randint(a,b), mais exclu la possibilité de sortir un zéro.
@@ -16,6 +27,40 @@ def randint_non_zero(a,b):
     while x==0 :
         x=random.randint(a,b)
     return x
+
+def line_equation(A,B):
+    """
+    Given points A and B, return tuple (a,b,c) such that
+    ax+by+c=0
+    is the equation of the line AB
+    """
+    if A.x==B.x:
+        return 1,0,-A.x
+    b=1
+    a=(B.y-A.y)/(A.x-B.x)
+    c=-a*A.x-A.y
+    return a,b,c
+
+def random_triangle(m,M):
+    """
+    Return random three points that are not aligned. Coordinates are between m and M
+    """
+    Ax=random.randint(m,M)
+    Ay=random.randint(m,M)
+    A=Point(Ax,Ay)
+    Bx=A.x
+    By=A.y
+    while Bx==A.x and By==A.y:
+        Bx=random.randint(m,M)
+        By=random.randint(m,M)
+    B=Point(  Bx,By  )
+    # Now choose the third point randomly while the cross product AB x AC is zero
+    C=Point( A.x,A.y )
+    while (B.y-A.y)*(C.x-A.x)-(B.x-A.x)*(C.y-A.y)==0 :
+        Cx=random.randint(m,M)
+        Cy=random.randint(m,M)
+        C=Point(Cx,Cy)
+    return A,B,C
 
 def aff():
     a=random.randint(1,9)
@@ -249,6 +294,49 @@ def exo_ECC():
     reponse=str(e)+"\\"+str(c)
     return texte,reponse
 
+def exo_parallelogramme():
+    """
+    Donne trois points non alignés et demande le quatrième donnant un parallélogramme.
+    """
+    A,B,C=random_triangle(-10,10)
+    pts=["A","B","D","E","F","K","L","M"]
+    random.shuffle(pts)
+    texte="""
+    Soient les points ${}({};{})$, ${}({};{})$ et ${}({};{})$. Donner les coordonnées du point ${}$ tel que ${}{}{}{}$ soit un parallélogramme (méthode au choix).
+    """.format(pts[0],A.x,A.y,pts[1],B.x,B.y,pts[2],C.x,C.y,pts[3],pts[0],pts[1],pts[2],pts[3])
+    Dx=A.x+C.x-B.x
+    Dy=A.y+C.y-B.y
+    reponse = "${}=({};{})$".format(pts[3],Dx,Dy)
+    return texte,reponse
+
+def exo_coord_vecteur():
+    """
+    Donne deux points et demande les coordonnées du vecteur
+    """
+    A,B,C=random_triangle(-10,10)
+    texte=r"""Soient les points $A({};{})$, $ B({},{})$ et $ C({};{})$. 
+    \begin{{enumerate}}
+    \item
+    
+    Donner les coordonnées des vecteurs \( \vect{{ AB }}\) et \( \vect{{ AB }}+\vect{{ BC }}\). 
+
+\item
+    Donner les coordonnées du point \( X\) tel que \( \vect{{ AX }}=\vect{{ BC }}\) (méthode au choix)
+    \end{{enumerate}}
+    
+    """.format(A.x,A.y,B.x,B.y,C.x,C.y)
+    AB=Point(B.x-A.x,B.y-A.y)
+    BC=Point(C.x-B.x,C.y-B.y)
+    reponse=r"""
+
+    $\vect{{ AB }}=({};{})$
+
+    $\vect{{ AB }}+\vect{{ BC }}=({};{})$
+
+    $X=({};{})$
+    """.format(   AB.x,AB.y,  AB.x+BC.x,AB.y+BC.y,A.x+BC.x,A.y+BC.y    )
+    return texte,reponse
+
 class Sujet(object):
     def __init__(self,name):
         self.name=name
@@ -266,9 +354,11 @@ class Sujet(object):
         self.correction=self.correction+"\n\n"
         self.correction=self.correction+reponse
         self.sujet=self.sujet+"\n"
-    def ecrit_sujet(self,liste_exo,i):
+    def ecrit_sujet(self,liste_exo,i,random_order=False):
+        if random_order: 
+            random.shuffle(liste_exo)
         self.double_write("\\vbox{")
-        self.double_write(str(i)+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}\n")
+        self.double_write("Numéro "+str(i)+"."+"\n"+"\\emph{Toutes les réponses doivent être justifiées par un calcul accompagné d'un raisonnement.}\n")
         if len(liste_exo)>1:
             self.double_write(r"\begin{enumerate}")
         for fun in liste_exo:
@@ -314,4 +404,11 @@ def interro_statistique_descriptive():
         sujet.ecrit_sujet(liste_exo,i)
     sujet.close()
 
-interro_geometrie_espace()
+def interro_vecteurs():
+    sujet=Sujet("interro_vecteurs")
+    for i in range(1,41):
+        liste_exo=[exo_parallelogramme,exo_coord_vecteur]
+        sujet.ecrit_sujet(liste_exo,i,random_order=True)
+    sujet.close()
+
+interro_vecteurs()
