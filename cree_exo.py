@@ -8,10 +8,6 @@ from __future__ import unicode_literals
 import codecs
 import random
 
-"""
-Ceci crée un fichier contenant les questions. Il est à insérer dans un fichier LaTeX.
-"""
-
 class Point(object):
     def __init__(self,x,y):
         self.x=x
@@ -340,7 +336,7 @@ def exo_coord_vecteur():
 class Sujet(object):
     def __init__(self,name):
         self.name=name
-        self.texfile=codecs.open(name+".tex","w",encoding="utf8")
+        self.texfile=codecs.open(name+".tex","w",encoding="utf8") # c'est le fichier qui sera à compiler
         self.sujet=""
         self.correction=""
     def double_write(self,x):
@@ -370,9 +366,14 @@ class Sujet(object):
         self.sujet=self.sujet+"\n\\vspace{2cm}\n"
         self.correction=self.correction+"\n"
     def close(self):
-        self.texfile.write(self.sujet)
-        self.texfile.write("\section{correction}")
-        self.texfile.write(self.correction)
+        generic=codecs.open("generic_interro.tex",encoding="utf8").read()
+        a=[]
+        a.append(self.sujet)
+        a.append("\section{correction}")
+        a.append(self.correction)
+        non_generic_latex="\n".join(a)
+        code=generic.replace("LES QUESTIONS",non_generic_latex)
+        self.texfile.write(code)
         self.texfile.close()
 
 def interro_repere_distance_milieu():
@@ -406,7 +407,7 @@ def interro_statistique_descriptive():
 
 def interro_vecteurs():
     sujet=Sujet("interro_vecteurs")
-    for i in range(1,41):
+    for i in range(1,75):
         liste_exo=[exo_parallelogramme,exo_coord_vecteur]
         sujet.ecrit_sujet(liste_exo,i,random_order=True)
     sujet.close()
