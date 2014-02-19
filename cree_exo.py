@@ -314,7 +314,7 @@ def exo_coord_vecteur():
     \begin{{enumerate}}
     \item
     
-    Donner les coordonnées des vecteurs \( \vect{{ AB }}\) et \( \vect{{ AB }}+\vect{{ BC }}\). 
+    Calculer les coordonnées des vecteurs \( \vect{{ AB }}\) et \( \vect{{ AB }}+\vect{{ BC }}\). 
 
 \item
     Donner les coordonnées du point \( X\) tel que \( \vect{{ AX }}=\vect{{ BC }}\) (méthode au choix)
