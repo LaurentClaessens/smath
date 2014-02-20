@@ -5,12 +5,20 @@ def AUHmNET():
     pspict.dilatation_X(1)
     pspict.dilatation_Y(1)
 
-    A=Point(9,11)
-    B=Point(-9,11)
-    C=Point(9,-11)
-    D=Point(-9,-11)
+    Mx=9
+    My=11
 
-    pspict.DrawGraphs(A,B,C,D)
+    A=Point(Mx,My)
+    B=Point(-Mx,My)
+    C=Point(Mx,-My)
+    D=Point(-Mx,-My)
+
+    linH=Segment( Point(-Mx,0),Point(Mx,0) )
+    linH.parameters.add_option("linewidth","1mm")
+    linV=Segment( Point(0,My),Point(0,-My) )
+    linV.parameters.add_option("linewidth","1mm")
+
+    pspict.DrawGraphs(A,B,C,D,linH,linV)
 
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
