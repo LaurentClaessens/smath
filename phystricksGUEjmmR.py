@@ -4,8 +4,8 @@ from phystricks import *
 # Cette figure est d'un calcul mental et le png est inclu en dur.
 def GUEjmmR():
     pspict,fig = SinglePicture("GUEjmmR")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(1)
+    pspict.dilatation_Y(1)
 
     c=3
     A=Point(0,0)

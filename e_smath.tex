@@ -236,6 +236,13 @@ filecolor=magenta   % couleur des textes qui sont des liens
     %\newenvironment{feuilleDS}[1]{\noindent Nom :\\\noindent Prénom : \begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
     \newenvironment{feuilleDS}[1]{\begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
     \newenvironment{feuilleExo}[1]{\newpage\begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
+        
+        \newcounter{numactivmentale}
+        \setcounter{numactivmentale}{0}
+        \newcounter{numExoMental}
+        \setcounter{numExoMental}{0}
+        \newenvironment{MentalActivity}{\setcounter{numExoMental}{0}\newpage\refstepcounter{numactivmentale}\section{Activité mentale \arabic{numactivmentale}}}{\newpage\vfill Fini pour aujourd'hui\vfill\newpage}
+        \newenvironment{mental}{\refstepcounter{numExoMental}\newpage\begin{center}\fbox{\huge Activité mentale \arabic{numactivmentale}}\\\huge Question \arabic{numExoMental}\end{center}\huge\vfill}{\vfill}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%

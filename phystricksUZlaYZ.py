@@ -4,8 +4,8 @@ from phystricks import *
 # Cette figure est placée dans un tabular d'un calcul mental. l'input du png est codé en dur.
 def UZlaYZ():
     pspict,fig = SinglePicture("UZlaYZ")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(3)
+    pspict.dilatation_Y(3)
 
     A=Point(3,1)
     B=Point(1,3)
