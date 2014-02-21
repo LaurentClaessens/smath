@@ -10,6 +10,7 @@ def UZlaYZ():
     A=Point(3,1)
     B=Point(1,3)
     v=AffineVector(A,B)
+    v.parameters.add_option("linewidth","1mm")
 
     A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
     B.put_mark(0.2,45,"\( B\)",automatic_place=(pspict,"corner"))
