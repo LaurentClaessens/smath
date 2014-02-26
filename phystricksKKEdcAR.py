@@ -1,8 +1,8 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 
-mx=-4
-Mx=4
+mx=-2
+Mx=3
 
 def affine(A,B):
     seg=Segment(A,B)
@@ -11,13 +11,14 @@ def affine(A,B):
 
 def KKEdcAR():
     pspict,fig = SinglePicture("KKEdcAR")
-    pspict.dilatation(0.7)
+    pspict.dilatation_X(0.7)
+    pspict.dilatation_Y(0.6)
 
     f=affine(Point(1,2),B=Point(4,4))
     g=affine(Point(0,3),B=Point(2,1))
 
     f.put_mark(0.2,0,"\( d_1\)",automatic_place=pspict)
-    g.put_mark(0.2,0,"\( d_2\)",automatic_place=pspict)
+    g.put_mark(0.2,45,"\( d_2\)",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(f,g)
     pspict.DrawDefaultAxes()
