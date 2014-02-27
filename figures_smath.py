@@ -4,6 +4,7 @@
 from phystricks import *
 import sys
 
+from phystricksOLuvnaY import OLuvnaY
 from phystricksIBmsroy import IBmsroy
 from phystricksGUEjmmR import GUEjmmR
 from phystricksCFjmTFb import CFjmTFb
@@ -283,7 +284,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl,
     MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,OKTXHoc,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
     JLUTBlD,FFyFBoe,RRlBSZg,PEoyeQt,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,AUHmNET,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj,WTVlzUE,XMjsBcU,UZlaYZ,
-    OKeZlpK,RVZNtGK,CFFyezr,QGRiHbb,DDRbyQk,SWFywZG,ZMGMLvNBa,NIGYQHN,OCFmVDE,CFjmTFb,GUEjmmR,IBmsroy
+    OKeZlpK,RVZNtGK,CFFyezr,QGRiHbb,DDRbyQk,SWFywZG,ZMGMLvNBa,NIGYQHN,OCFmVDE,CFjmTFb,GUEjmmR,IBmsroy,OLuvnaY
     ]
 
 #figures_list=[PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo]

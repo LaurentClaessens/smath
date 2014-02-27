@@ -17,17 +17,17 @@
     \end{pmatrix}\) dans ce repère.
 \end{definition}
 
-\begin{Aretenir}
-    Les règles de calcul vectoriel vis-à-vis de la multiplication et de l'addition sont essentiellement les mêmes que celles qui fonctionnent avec les réels :
-    \begin{enumerate}
-        \item
-            \( (\lambda+\mu)\vect{ u }=\lambda\vect{ u }+\mu\vect{ u }\)
-        \item
-            \( \lambda(\mu\vect{ u })=(\lambda\mu)\vect{ u }\)
-        \item
-            \( \lambda(\vect{ u }+\vect{ v })=\lambda\vect{ u }+\lambda\vect{ v }\).
-    \end{enumerate}
-\end{Aretenir}
+%\begin{Aretenir}
+%    Les règles de calcul vectoriel vis-à-vis de la multiplication et de l'addition sont essentiellement les mêmes que celles qui fonctionnent avec les réels :
+%    \begin{enumerate}
+%        \item
+%            \( (\lambda+\mu)\vect{ u }=\lambda\vect{ u }+\mu\vect{ u }\)
+%        \item
+%            \( \lambda(\mu\vect{ u })=(\lambda\mu)\vect{ u }\)
+%        \item
+%            \( \lambda(\vect{ u }+\vect{ v })=\lambda\vect{ u }+\lambda\vect{ v }\).
+%    \end{enumerate}
+%\end{Aretenir}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Parallélisme et colinéarité}
@@ -46,181 +46,16 @@
     \end{enumerate}
 \end{propriete}
 
-Nous savons qu'un quadrilatère ayant deux côtés parallèles de même longueur est un parallélogramme. Donc nous avons le critère suivant pour savoir si \( ABCD\) est un parallélogramme :
-\begin{equation}
-    \vect{ AB }=\vect{ CD }.
-\end{equation}
-Bien entendu les autres côtés fonctionnent aussi :
-\begin{equation}
-    \vect{ AC }=\vect{ BD }.
-\end{equation}
-Si une de ces deux égalités vectorielle est satisfaite, alors \( ABCD\) est un parallélogramme.
-
-\begin{example}
-    Les points \( A=(-2;-3)\), \( B=(-1,-1)\), \( C=(2;-2)\) et \( D=(1;-4)\) forment un parallélogramme.
-\end{example}
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Le milieu revisité}
-%---------------------------------------------------------------------------------------------------------------------------
-
-Notre travail sur les coordonnées de vecteurs nous permet de donner une preuve alternative à la propriété \ref{PropFHznUfJ}.
-
-\begin{propriete}
-    Soient les points \( A\), \( B\) et \( K\) tels que \( K\) soit le milieu du segment \( [AB]\). Alors nous avons \( \vect{ AK }=\vect{ BK }\).
-\end{propriete}
-
-\begin{proof}
-    Nous divisons la preuve en petits pas.
-    \begin{subproof}
-        \item[Création du repère]
-            Nous considérons un repère orthonormé \footnote{En réalité il n'est pas obligatoire qu'il soit orthonormé, mais ça ne coûte rien qu'il le soit.} dont \( A\) est l'origine.
-        \item[Coordonnées des points]
-            Dans le repère choisi, nous considérons les coordonnées des points \( K=(x_K;y_K)\) et \( B=(x_B,y_B)\). Nous allons aussi nommer \( I\) et \( J\) les points \( I=(x_K;0)\) et \( J=(x_B;0)\). Le dessin est maintenant comme suit :
-
-            \begin{center}
-%The result is on figure \ref{LabelFigfigureSZyxsvp}. % From file figureSZyxsvp
-%\newcommand{\CaptionFigfigureSZyxsvp}{<+Type your caption here+>}
-\input{Fig_figureSZyxsvp.pstricks}
-            \end{center}
-        \item[Utilisation du théorème de Thalès]
-            Vu que les droites \( (KI)\) et \( (BJ)\) sont parallèles, nous pouvons utiliser le théorème de Thalès :
-            \begin{equation}
-                \frac{ AB }{ AK }=\frac{ AJ }{ AI }=\frac{ BJ }{ KI }.
-            \end{equation}
-            Nous remplaçons dans ces égalités les longueurs par ce qu'on connait. Vu que \( K\) est le milieu de \( [AB] \), nous avons \( \frac{ AB }{ AK }=2\). D'autre part, $AJ=x_B$, \( AI=x_K\), \( BJ=y_B\) et \( KI=y_K\), donc
-            \begin{equation}
-                2=\frac{ x_B }{ x_K }
-            \end{equation}
-            et
-            \begin{equation}
-                2=\frac{ y_B }{ y_K }.
-            \end{equation}
-            Autrement dit,
-            \begin{equation}
-                x_B=2x_K
-            \end{equation}
-            et
-            \begin{equation}
-                y_B=2y_K.
-            \end{equation}
-        \item[Les vecteurs en présence]
-            Les vecteurs \( \vect{ AB }\) et \( \vect{ AK }\) ont pour coordonnées
-            \begin{subequations}
-                \begin{align}
-                    \vect{ AB }=\begin{pmatrix}
-                        x_B    \\ 
-                        y_B    
-                    \end{pmatrix}\\
-                    \vect{ AK }=\begin{pmatrix}
-                        x_K    \\ 
-                        y_K    
-                    \end{pmatrix},
-                \end{align}
-            \end{subequations}
-            Donc, étant donné que \( x_B=2x_K\) et \( y_B=2y_K\) nous avons
-            \begin{equation}    \label{EqNGxKxaY}
-                \vect{ AB }=2\vect{ AK }.
-            \end{equation}
-        \item[Utilisation de la loi de Chasles et conclusion]
-            Nous savons que \( \vect{ AB }=\vect{ AK }+\vect{ KB }\), donc en replaçant \( \vect{ AB }\) par \( 2\vect{ AK }\) nous avons
-            \begin{equation}
-                2\vect{ AK }=\vect{ AK }+\vect{ KB },
-            \end{equation}
-            ce qui implique que
-            \begin{equation}
-                \vect{ AK }=\vect{ KB },
-            \end{equation}
-            ce qu'il fallait.
-    \end{subproof}
-\end{proof}
-Nous notons aussi au passage l'intéressante formule \eqref{EqNGxKxaY} :
-\begin{equation}
-    \vect{ AB }=2\vect{ AK }.
-\end{equation}
-
-
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Milieu d'un segment}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{propriete}\label{PropFHznUfJ}
-    \begin{multicols}{2}
 
         Le point \( M\) est milieu du segment \( [AB]\) si et seulement si \( \vect{ AM }=\vect{ MB }\).
 
-        \columnbreak
+        \begin{center}
+   \input{Fig_VectoMilieuNuWgHW.pstricks}
+        \end{center}
 
-%The result is on figure \ref{LabelFigVectoMilieuNuWgHW}. % From file VectoMilieuNuWgHW
-%\newcommand{\CaptionFigVectoMilieuNuWgHW}{<+Type your caption here+>}
-\input{Fig_VectoMilieuNuWgHW.pstricks}
-
-    \end{multicols}
 \end{propriete}
-
-\begin{proof}
-    Supposons pour commencer que \( M\) soit le milieu du segment \( [AB]\). Afin de prouver que \( \vect{ AM }=\vect{ MB }\), nous prouvons que \( AMBM\) est un parallélogramme. Vu que \( M\) est sur la droite \( (AB)\) nous avons évidemment le parallélisme des côtés : \( (AM)\parallel (MB)\).
-
-    En ce qui concerne l'égalité des longueurs, \( AM=BM\) parce que \( M\) est milieu de \( [AB]\).
-
-    Pour la réciproque, nous supposons que \( \vect{ AM }=\vect{ MB }\) et nous devons prouver que \( M\) est le milieu de \( [AB]\).  Par hypothèse, \( AMBM\) est un parallélogramme, et donc les diagonales se coupent en leur milieu. Ces diagonales sont \( [AB]\) et \( [MM]\). Le milieu de \( [MM]\) est évidemment \( M\), qui est alors le milieu de \( [AB]\), ce qu'il fallait prouver.
-\end{proof}
-
-\begin{theorem}[Théorème de milieux]
-
-    \begin{multicols}{2}
-    La droite joignant les milieux de deux côtés d'un triangle est parallèle au troisième côté.
-
-    Sur la figure ci-contre \( I\) et \( J\) sont les milieux de \( [AB]\) et \( [AC]\) et nous avons l'égalité vectorielle
-    \begin{equation}
-        \vect{ BC }=2\vect{ IJ }.
-    \end{equation}
-
-    \columnbreak
-
-%The result is on figure \ref{LabelFigfigureVNaHvXi}. % From file figureVNaHvXi
-%\newcommand{\CaptionFigfigureVNaHvXi}{<+Type your caption here+>}
-    \begin{center}
-\input{Fig_figureVNaHvXi.pstricks}
-    \end{center}
-
-    \end{multicols}
-\end{theorem}
-
-\begin{proof}
-    En utilisant les relations de Chasles : \( \vect{ IJ }=\vect{ IB }+\vect{ BC }+\vect{ CJ }\). Mais \( \vect{ IB }=\vect{ AI }\) et \( \vect{ CJ }=\vect{ JA }\), donc
-    \begin{equation}
-        \vect{ IJ }=\vect{ AI }+\vect{ BC }+\vect{ JA }=\vect{ JI }+\vect{ BC }.
-    \end{equation}
-    Étant donné que \( \vect{ IJ }=-\vect{ JI }\) nous trouvons \( 2\vect{ IJ }=\vect{ BC }\).
-\end{proof}
-
-On démontre de la même façon que si \( \vect{ AI }=k\vect{ AC }\) et \( \vect{ BJ }=k\vect{ BC }\), alors
-\begin{equation}
-    \vect{ IJ }=(1-k)\vect{ AB }.
-\end{equation}
-
-\begin{propriete}
-    Si \( ABCD\) est un quadrilatère quelconque et si \( I\), \( J\), \( K\) et \( L\) sont les milieux des segments consécutifs de \( ABCD\), alors \( IJKL\) est un parallélogramme.
-\end{propriete}
-
-\begin{proof}
-
-    \begin{multicols}{2}
-
-        Nous considérons la diagonale \( [AC]\) et le triangle \( ABC\). Les points \( I\) et \( J\) étant les milieux des côtés \( [AB]\) et \( [BC]\), nous avons l'égalité vectorielle \( \vect{ AC }=2\vect{ IJ }\).
-
-    De la même façon, dans le triangle \( ACD\), nous avons \( \vect{ AC }=2\vect{ LK }\). Par conséquent \( \vect{ LK }=\vect{ IJ }\), ce qui prouve que \( IJKL\) est un parallélogramme.
-
-        \columnbreak
-
-%The result is on figure \ref{LabelFigfigureBOuQJyj}. % From file figureBOuQJyj
-%\newcommand{\CaptionFigfigureBOuQJyj}{<+Type your caption here+>}
-   \begin{center}
-\input{Fig_figureBOuQJyj.pstricks}
-   \end{center}
-
-    \end{multicols}
-
-
-\end{proof}
