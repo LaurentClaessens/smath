@@ -2,8 +2,8 @@
 from phystricks import *
 def OLuvnaY():
     pspict,fig = SinglePicture("OLuvnaY")
-    pspict.dilatation_X(0.7)
-    pspict.dilatation_Y(0.7)
+    pspict.dilatation_X(0.5)
+    pspict.dilatation_Y(0.5)
 
     c=5
     A=Point(0,0)
