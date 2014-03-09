@@ -23,7 +23,7 @@ def IBmsroy():
     measureBC.put_mark(0.3,0,"\( 3\)",automatic_place=pspict)
 
     measureAD=MeasureLength(Segment(A,D),-0.2)
-    measureAD.put_mark(0.3,180,"\( 6\)",automatic_place=pspict)
+    measureAD.put_mark(0.3,180,"\( 7\)",automatic_place=pspict)
 
     pspict.DrawGraphs(A,B,C,D,quadri,measureAB,measureBC,measureAD)
     fig.no_figure()
