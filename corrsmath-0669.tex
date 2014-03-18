@@ -37,8 +37,56 @@
             \end{pmatrix}\) au lieu de \( \begin{pmatrix}
                 10    \\ 
                     0
-            \end{pmatrix}\).
+            \end{pmatrix}\). Il faut donc placer \( D\) une unité plus à droite, c'est à dire remplacer le \( 15\) par un \( 16\) : \( D(16;3)\).
+        \item
+            Nous commençons par calculer 
+            \begin{equation}
+                \vect{ AB }+\vect{ CB }=\begin{pmatrix}
+                    9    \\ 
+                    0    
+                \end{pmatrix}+\begin{pmatrix}
+                    -18\\ 
+                    -2    
+                \end{pmatrix}=\begin{pmatrix}
+                    -9    \\ 
+                    -2    
+                \end{pmatrix}.
+            \end{equation}
+            Si nous posons \( E(x_E;y_E)\) alors nous devons fixer \( x_E\) et \( y_E\) de telle sorte à avoir
+            \begin{equation}
+                \begin{pmatrix}
+                    -9    \\ 
+                    -2    
+                \end{pmatrix}=\begin{pmatrix}
+                    x_E-(-2)    \\ 
+                    y_E-1    
+                \end{pmatrix},
+            \end{equation}
+            c'est à dire \( x_E+2=-9\) et \( y_E-1=-2\), et donc \( E=(-11;-1)\).
+        \item
+            Il y a deux façons de prouver que \( \vect{ BC }=\vect{ EB }\). La première est de calculer les coordonnées de ces deux vecteurs avec les nombres trouvés :
+            \begin{equation}
+                \vect{ EB }=\begin{pmatrix}
+                    7-(-11)    \\ 
+                    1-(-1)    
+                \end{pmatrix}=\begin{pmatrix}
+                    18    \\ 
+                    2    
+                \end{pmatrix}.
+            \end{equation}
+            Pour le vecteur \( \vect{ BC }\) il ne faut pas faire de calculs parce que nous avons déjà fait \( \vect{ CB }\) qui est \( -\vect{ BC }\).
+
+            L'autre méthode est d'utiliser les relations de Chasles de façon intelligente :
+            \begin{subequations}
+                \begin{align}
+                    \vect{ AE }=\vect{ AB }+\vect{ CB }\\
+                    \vect{ AE }-\vect{ AB }=\vect{ CB }\\
+                    \vect{ AE }+\vect{ BA }=\vect{ CB }\\
+                    \vect{ BE }=\vect{ CB }.
+                \end{align}
+            \end{subequations}
+        \item
+            Le point \( B\) est au milieu du segment \( [CE]\) parce que le déplacement de \( E\) à \( B\) est le même que celui de \( B\) à \( E\).
     \end{enumerate}
-    <++>
 
 \end{corrige}
