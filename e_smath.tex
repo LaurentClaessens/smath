@@ -244,7 +244,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
         \setcounter{numactivmentale}{0}
         \newcounter{numExoMental}
         \setcounter{numExoMental}{0}
-        \newenvironment{MentalActivity}{\setcounter{numExoMental}{0}\newpage\refstepcounter{numactivmentale}\section{Activité mentale \arabic{numactivmentale}}}{\newpage\vfill Fini pour aujourd'hui\vfill\newpage}
+        \newenvironment{MentalActivity}{\setcounter{numExoMental}{0}\newpage\refstepcounter{numactivmentale}\section{Activité mentale \arabic{numactivmentale}}}{\newpage\hphantom{jj}\vfill\large C'est tout pour aujourd'hui\vfill\newpage}
         \newenvironment{mental}{\refstepcounter{numExoMental}\newpage\begin{center}\fbox{\huge Activité mentale \arabic{numactivmentale}}\\\huge Question \arabic{numExoMental}\end{center}\huge\vfill}{\vfill}
 
 
