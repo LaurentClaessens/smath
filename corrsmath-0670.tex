@@ -5,6 +5,82 @@
 
 \begin{corrige}{smath-0670}
 
-<+Corrsmath-0670+>
+    \begin{enumerate}
+        \item
+            Pour vérifier si le quadrilatère \( ABCD\) est un parallélogramme, nous vérifions si \( \vect{ AB }=\vect{ DC }\). Calcul :
+            \begin{equation}
+                \vect{ AB }=\begin{pmatrix}
+                    2-1    \\ 
+                    -1-(-5)    
+                \end{pmatrix}=\begin{pmatrix}
+                    1    \\ 
+                    4    
+                \end{pmatrix}.
+            \end{equation}
+            et
+            \begin{equation}
+                \vect{ DC }=\begin{pmatrix}
+                    1    \\ 
+                    4    
+                \end{pmatrix}.
+            \end{equation}
+            Nous avons donc un parallélogramme.
+        \item
+            Pour vérifier si nous avons un rectangle, nous vérifions si par exemple le triangle \( ABC\) serait rectangle en \( B\). Pour cela nous calculons les longueurs des trois côtés :
+            \begin{subequations}
+                \begin{align}
+                    AB^2&=1^2+4^2=17\\
+                    BC^2&=0^2+20^2=400\\
+                    AC^2&=1^2+24^2=576.
+                \end{align}
+            \end{subequations}
+            Vu que \( AC^2\neq AB^2+BC^2\), le triangle \( ABC\) n'est pas rectangle et le parallélogramme \( ABCD\) n'est pas un rectangle.
+
+        \item
+            Nous commençons par calculer les coordonnées du vecteur \( \vect{ AB }+\vect{ CB }\) :
+            \begin{equation}
+                \vect{ AB }+\vect{ CB }=\begin{pmatrix}
+                    1    \\ 
+                    4    
+                \end{pmatrix}+\begin{pmatrix}
+                    0    \\ 
+                    -20
+                \end{pmatrix}=\begin{pmatrix}
+                    1    \\ 
+                    -16    
+                \end{pmatrix}.
+            \end{equation}
+            Nous devons donc placer le point \( E\) de telle sorte que \( \vect{ AE }\) soit \( \begin{pmatrix}
+                1    \\ 
+                -16    
+            \end{pmatrix}\). Le point \( E\) est donc le translaté de \( A\) par le vecteur \( \begin{pmatrix}
+                1    \\ 
+                -16    
+            \end{pmatrix}\) et a donc pour coordonnées
+            \begin{equation}
+                E=(1+1;-5-16)=(2;-21).
+            \end{equation}
+        \item
+            Pour prouver que \( \vect{ BC }=\vect{ EB }\), il suffit de calculer les coordonnées de ces deux vecteurs avec les nombres que l'on a trouvé; nous obtenons
+            \begin{equation}
+                \vect{ BC }=\vect{ EB }=\begin{pmatrix}
+                    0    \\ 
+                    20    
+                \end{pmatrix}.
+            \end{equation}
+            
+            Une façon alternative de prouver \( \vect{ BC }=\vect{ EB }\) est de se souvenir de la définition de \( E\) : \( \vect{ AE }=\vect{ AB }+\vect{ CB }\). En passant \( \vect{ AB } \) à gauche :
+            \begin{subequations}
+                \begin{align}
+                    \vect{ AE }=\vect{ AB }+\vect{ CB }\\
+                    \vect{ AE }-\vect{ AB }=\vect{ CB }\\
+                    \vect{ AE }+\vect{ BA }=\vect{ CB }\\
+                    \vect{ BE }=\vect{ CB }.
+                \end{align}
+            \end{subequations}
+            Pour la dernière ligne nous avons utilisé les relations de Chasles.
+        \item
+            Étant donné que \( \vect{ EB }=\vect{ BC }\), le «trajet» de \( E\) à $B$ est le même que le «trajet» de \( B\) à \( C\). Donc \( B\) est le milieu de \( [EC]\).
+    \end{enumerate}
 
 \end{corrige}
