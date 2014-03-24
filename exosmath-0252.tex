@@ -1,26 +1,30 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2013
+% Copyright (c) 2013-2014
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
 \begin{exercice}\label{exosmath-0252}
 
-    Faire correspondre à chaque graphique de la figure \ref{LabelFigfigureSIZwqIZ} l'expression correspondante parmi les propositions suivantes :
+\let\Oldtheenumi\theenumi
+\renewcommand{\theenumi}{(\alph{enumi})}
+    Faire correspondre à chaque graphique l'expression correspondante :
     \begin{multicols}{2}
         \begin{enumerate}
             \item
-                \( h(x)=x+1\)
+                \( f_a(x)=x+1\)
             \item
-                \( i(x)=(x+2)^2\)
+                \( f_b(x)=(x+2)^2\)
             \item
-                $f(x)=x^2$
+                $f_c(x)=x^2$
             \item
-                \( g(x)=1-x^2\)
+                \( f_d(x)=1-x^2\)
         \end{enumerate}
     \end{multicols}
+\let\theenumi\Oldtheenumi
 
-    \newcommand{\CaptionFigfigureSIZwqIZ}{Les graphes de l'exercice \ref{exosmath-0252}.}
-    \input{Fig_figureSIZwqIZ.pstricks}
+    \begin{center}
+   \input{Fig_figureSIZwqIZ.pstricks}
+    \end{center}
 
     Expliquer les éléments qui ont permis l'identification.
 

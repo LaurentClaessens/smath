@@ -8,6 +8,8 @@ def OKeZlpK():
     pspict.dilatation_X(1)
     pspict.dilatation_Y(1)
 
+    x=var('x')
+
     lin=phyFunction(2*x/3+1).graph(-3,4)
     P=lin.get_point(0)
     Q=lin.get_point(1.5)

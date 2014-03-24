@@ -10,6 +10,7 @@ def YMslVxg():
     ymin=-5
     ymax=5
 
+    x=var('x')
     F=[]
     F.append( phyFunction(-x+2).fit_inside(xmin,xmax,ymin,ymax) )  
     F.append( phyFunction(2).fit_inside(xmin,xmax,ymin,ymax) )  
