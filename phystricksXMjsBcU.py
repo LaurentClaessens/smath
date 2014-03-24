@@ -5,6 +5,7 @@ def XMjsBcU():
     pspict.dilatation_X(1)
     pspict.dilatation_Y(0.5)
 
+    x=var('x')
     f=phyFunction(-2*x+3).graph(-1.5,2)
     f.put_mark(0.2,0,"\( d_1\)",automatic_place=(pspict,"W"))
 
