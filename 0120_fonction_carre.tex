@@ -4,6 +4,88 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section*{Activité}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\input{activ_second_deg}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Paraboles}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\begin{definition}
+    Une fonction \defe{polynôme du second degré}{polynôme!second degré} est une fonction définie sur \( \eR\) de la forme
+    \begin{equation}
+        f(x)=ax^2+bx+c
+    \end{equation}
+    avec \( a\neq 0\). Le graphe d'un polynôme du second degré est une \defe{paraboles}{parabole}. 
+
+    Ce graphe sera noté \( y=ax_0+bx+c\).
+\end{definition}
+
+\newcommand{\CaptionFigLSaSLoS}{Quelque paraboles.}
+\input{Fig_LSaSLoS.pstricks}
+
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+%\subsection{Axe de symétrie}
+%---------------------------------------------------------------------------------------------------------------------------
+
+%L'axe de symétrie de la courbe représentative de \( f(x)=ax^2+bx+c\) se trouve en résolvant par rapport à \( s\) l'équation
+%\begin{equation}
+%    f(s+h)=f(s-h).
+%\end{equation}
+
+\begin{Aretenir}
+    La parabole \( y=ax^2+bx+x\) est tournée vers le haut si \( a>0\) et tournée vers le bas si \( a<0\).
+
+    Le sommet de la parabole \( y-ax^2+bx+c\) se trouve à l'abscisse \( x_0=-\frac{ b }{ 2a }\) et la droite verticale \( x=-\frac{ -b }{ 2a }\) est un axe de symétrie de la parabole.
+\end{Aretenir}
+Quelque unes sont dessinées à la figure \ref{LabelFigLSaSLoS}. % From file LSaSLoS
+
+\clearpage
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Tableau de variation}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Les tableaux de variations sont
+\begin{multicols}{2}
+
+    \begin{center}
+        Si \( a>0\)
+
+        \begin{equation*}
+            \begin{array}[]{c|ccccc}
+                x&&&-\frac{ b }{ 2a }&&\\
+                \hline
+                &\infty&&&&\infty\\
+                f(x)&&\searrow&&\nearrow&\\
+                &&&f\left( -\frac{ b }{ 2a } \right)&&\\
+            \end{array}
+        \end{equation*}
+        
+    \end{center}
+
+    \columnbreak
+
+    \begin{center}
+        Si \( a<0\)
+
+
+        \begin{equation*}
+            \begin{array}[]{c|ccccc}
+                x&&&-\frac{ b }{ 2a }&&\\
+                \hline
+                &&&f\left( -\frac{ b }{ 2a } \right)&&\\
+                f(x)&&\nearrow&&\searrow&\\
+                &-\infty&&&&-\infty\\
+            \end{array}
+        \end{equation*}
+    \end{center}
+\end{multicols}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{La fonction carré}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -30,9 +112,11 @@ La fonction carré est la fonction définie sur \( \eR\) qui à \( x\) fait corr
         \end{center}
 \end{multicols}
 
-\begin{definition}
-    Le graphe de la fonction carré est une \defe{parabole}{parabole}.
-\end{definition}
+% Plus besoin de ça parce que la parabole en générale est vue avant la fonction carré.
+%\begin{definition}
+%    Le graphe de la fonction carré est une \defe{parabole}{parabole}.
+%\end{definition}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Double antécédent et solutions d'équations}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -64,3 +148,4 @@ Nous voyons cela sur la figure \ref{LabelFigfigureEWDVDTS} qui montre les soluti
             Si \( x<y<0\), alors \( x^2>y^2>0\).
     \end{enumerate}
 \end{Aretenir}
+
