@@ -2,7 +2,7 @@
 from phystricks import *
 def figureSIZwqIZ():
     pspict,fig = SinglePicture("figureSIZwqIZ")
-    pspict.dilatation_X(1)
+    pspict.dilatation_X(0.8)
     pspict.dilatation_Y(0.5)
 
     x=var('x')
