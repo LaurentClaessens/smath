@@ -2,8 +2,8 @@
 from phystricks import *
 def YMslVxg():
     pspict,fig = SinglePicture("YMslVxg")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(0.4)
+    pspict.dilatation_Y(0.4)
 
     xmin=-5
     xmax=5

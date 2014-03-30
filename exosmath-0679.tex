@@ -7,7 +7,10 @@
 
 \let\Oldtheenumi\theenumi
 \renewcommand{\theenumi}{(\alph{enumi})}
-Dire quelle fonction correspond à quelle droite sur le dessin ci-dessous ? (justifier)
+
+\begin{multicols}{2}
+
+Dire quelle fonction correspond à quelle droite sur le dessin ci-contre ? (justifier)
 \begin{enumerate}
     \item
         \( f_a(x)=-x+2\)
@@ -21,9 +24,12 @@ Dire quelle fonction correspond à quelle droite sur le dessin ci-dessous ? (jus
 
 \let\theenumi\Oldtheenumi
 
+\columnbreak
+
 \begin{center}
    \input{Fig_YMslVxg.pstricks}
 \end{center}
 
+\end{multicols}
 \corrref{smath-0679}
 \end{exercice}

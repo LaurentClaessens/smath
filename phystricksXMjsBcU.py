@@ -6,8 +6,10 @@ def XMjsBcU():
     pspict.dilatation_Y(0.5)
 
     x=var('x')
-    f=phyFunction(-2*x+3).graph(-1.5,2)
-    f.put_mark(0.2,0,"\( d_1\)",automatic_place=(pspict,"W"))
+    mx=-1.5
+    Mx=2
+    f=phyFunction(-2*x+3).graph(mx,Mx)
+    f.put_mark(0.2,90,"\( d_1\)",mark_point=f.get_point(mx),automatic_place=(pspict,"S"))
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultAxes()

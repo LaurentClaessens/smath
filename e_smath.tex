@@ -234,7 +234,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \newcommand{\justification}{ {\small \begin{center} Les réponses doivent être justifiées par un calcul et accompagnées d'un raisonnement.\end{center}}}
 
     % L'une des deux est avec le nom et l'autre sans.
-    \newenvironment{feuilleDS}[1]{\noindent Nom :\\\noindent Prénom : \begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
+    \newenvironment{feuilleDS}[1]{\noindent Nom, Prénom : \begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
     %\newenvironment{feuilleDS}[1]{\begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
 
 
@@ -897,3 +897,6 @@ filecolor=magenta   % couleur des textes qui sont des liens
 
 \newcommand{\telque}{\vert\,}
 \newcommand{\donc}{\Rightarrow}
+
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}

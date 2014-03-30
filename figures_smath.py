@@ -4,6 +4,8 @@
 from phystricks import *
 import sys
 
+from phystricksHYKooCotyT import HYKooCotyT
+from phystricksVGQoojvDGr import VGQoojvDGr
 from phystricksSUCoowlFdp import SUCoowlFdp
 from phystricksOZXooCVkgQ import OZXooCVkgQ
 from phystricksJLrRNbT import JLrRNbT
@@ -293,7 +295,7 @@ figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,
     MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,OKTXHoc,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
     JLUTBlD,FFyFBoe,RRlBSZg,PEoyeQt,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,AUHmNET,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj,WTVlzUE,XMjsBcU,UZlaYZ,
     OKeZlpK,RVZNtGK,CFFyezr,QGRiHbb,DDRbyQk,SWFywZG,ZMGMLvNBa,NIGYQHN,OCFmVDE,CFjmTFb,GUEjmmR,IBmsroy,OLuvnaY,QFpJtQc,QGaeERu,GJbvyTt,TCpyyhO,YMslVxg,JLrRNbT,OZXooCVkgQ,
-    SUCoowlFdp
+    SUCoowlFdp,VGQoojvDGr,HYKooCotyT
     ]
 
 #figures_list=[PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo]
