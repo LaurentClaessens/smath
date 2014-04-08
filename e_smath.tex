@@ -191,13 +191,21 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \newcounter{CounterExample}
 \renewcommand{\theCounterExample}{\thechapter.\arabic{CounterExample}}
 
-\newenvironment{example}{\vspace{\EnvSpace}\refstepcounter{numtho}\noindent{\bf Exemple \thenumtho}\\\nopagebreak}{\phantom{a}\hfill $\triangle$\vspace{\EnvSpace}}
-\newenvironment{Aretenir}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf À retenir \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
+% J'ai décidé de ne plus numéroter les choses encadrées. 8 avril 2014
+\newenvironment{example}{\vspace{\EnvSpace}\refstepcounter{numtho}\noindent{\bf Exemple}\\\nopagebreak}{\phantom{a}\hfill $\triangle$\vspace{\EnvSpace}}
+\newenvironment{Aretenir}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf À retenir}\newline}{\end{oframed}\vspace{\EnvSpace}}
 \newenvironment{Aprojeter}{\clearpage\phantom{a}\vfill}{\vfill\newpage}
-\newenvironment{Enmini}{\begin{oframed}\noindent{\bf Mini résumé}\newline}{\end{oframed}\vspace{\EnvSpace}}
-\newenvironment{definition}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Définition \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
-\newenvironment{propriete}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Propriété \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
+\newenvironment{definition}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Définition}\newline}{\end{oframed}\vspace{\EnvSpace}}
+\newenvironment{propriete}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Propriété}\newline}{\end{oframed}\vspace{\EnvSpace}}
 
+%\newenvironment{example}{\vspace{\EnvSpace}\refstepcounter{numtho}\noindent{\bf Exemple \thenumtho}\\\nopagebreak}{\phantom{a}\hfill $\triangle$\vspace{\EnvSpace}}
+%\newenvironment{Aretenir}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf À retenirthenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
+%\newenvironment{Aprojeter}{\clearpage\phantom{a}\vfill}{\vfill\newpage}
+%\newenvironment{definition}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Définition \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
+%\newenvironment{propriete}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Propriété \thenumtho}\newline}{\end{oframed}\vspace{\EnvSpace}}
+
+
+\newenvironment{Enmini}{\begin{oframed}\noindent{\bf Mini résumé}\newline}{\end{oframed}\vspace{\EnvSpace}}
 % Ce bout de code provient de BrunoJ
 % https://brunoj.wordpress.com/2009/10/08/latex-the-framed-minipage/
 \newsavebox{\fmbox}
