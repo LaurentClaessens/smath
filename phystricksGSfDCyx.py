@@ -8,6 +8,8 @@ def GSfDCyx():
     moustaches=[]
 
     # Le delta_y n'a pas d'importance parce qu'il est recalculé plus bas.
+    moustaches.append(Moustache(2.0,9.45,12.5,14.775,19.0,h=0.5,delta_y=0.75))   # DS7
+    moustaches.append(Moustache(2.0,7.0,10.25,13.0,16.0,h=0.5,delta_y=0.75))    # DS6
     moustaches.append(Moustache(0.0,6.225,10.0,13.5,17.5,h=0.5,delta_y=0.75))       #DS5
     moustaches.append(Moustache(5.5,11.0,12.5,14.32,18.5,h=0.5,delta_y=0.75))      #DS4
     moustaches.append(Moustache(0.0,8.1,11.0,14.0,17.5,h=0.5,delta_y=0.75))        #DS3
