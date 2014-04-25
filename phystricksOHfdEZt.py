@@ -26,7 +26,7 @@ def OHfdEZt():
     F.append(  homographique(  1/x,-5,5,0  )  )
     F.append(  homographique(  1/(x+2),-7,3,-2  )  )
     F.append(  homographique(  (2*x+3)/(x-1),-7,7,1,epsilon=0.5  )  )
-    F.append(  homographique(  (1-x)/(1+x),-4,4,interdite=-1  )  )
+    F.append(  homographique(  (1-x)/(x-1),-4,4,interdite=1  )  )
 
     for i,psp in enumerate(pspicts):
         psp.DrawGraphs(F[i])

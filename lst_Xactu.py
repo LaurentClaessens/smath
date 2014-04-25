@@ -7,4 +7,8 @@ import LaTeXparser.PytexTools
 myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename="smath.tex"
 
-myRequest.ok_filenames_list=["e_smath","0060_stat_descriptives"]
+myRequest.ok_filenames_list=["e_smath"]
+myRequest.ok_filenames_list.extend(["0140_fonction_homographique"])
+myRequest.ok_filenames_list.extend(["<++>"])
+myRequest.ok_filenames_list.extend(["<++>"])
+myRequest.ok_filenames_list.extend(["<++>"])
