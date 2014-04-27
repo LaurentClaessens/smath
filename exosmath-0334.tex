@@ -7,23 +7,29 @@
 
     Associer les fonctions suivantes au graphes de la figure \ref{LabelFigOHfdEZt} :
 
-RWZooOBMHZ
 
-    \newcommand{\CaptionFigOHfdEZt}{Les graphes de l'exercice \ref{exosmath-0334}.}
-\input{Fig_OHfdEZt.pstricks}
+    %    \newcommand{\CaptionFigOHfdEZt}{Les graphes de l'exercice \ref{exosmath-0334}.}
+%\input{Fig_OHfdEZt.pstricks}
 
+\begin{center}
+   \input{Fig_RWZooOBMHZ.pstricks}
+\end{center}
+
+\let\Oldtheenumi\theenumi
+\renewcommand{\theenumi}{(\alph{enumi})}
 \begin{multicols}{2}
     \begin{enumerate}
         \item
-            \( f(x)=\frac{1}{ x+2 }\)
+            \( f_a(x)=\frac{1}{ x+2 }\)
         \item
-            \( g(x)=\frac{ 2x+3 }{ x-1 }\)
+            \( f_b(x)=\frac{ 2x+3 }{ x-1 }\)
         \item
-            \( h(x)=\frac{ 1-x }{ 1+x }\)
+            \( f_c(x)=\frac{ 1-x }{ 1+x }\)
         \item
-            \( k(x)=\frac{ 1 }{ x }\)
+            \( f_d(x)=\frac{ 1 }{ x }\)
     \end{enumerate}
 \end{multicols}
+\let\theenumi\Oldtheenumi
 
 \corrref{smath-0334}
 \end{exercice}

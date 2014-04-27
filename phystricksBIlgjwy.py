@@ -2,7 +2,7 @@
 from phystricks import *
 def BIlgjwy():
     pspict,fig = SinglePicture("BIlgjwy")
-    pspict.dilatation(1)
+    pspict.dilatation(0.5)
 
     h=5
 
