@@ -4,6 +4,7 @@ def RWZooOBMHZ():
     pspict,fig = SinglePicture("RWZooOBMHZ")
     pspict.dilatation_X(1)
     pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     mx=-3
     Mx=3

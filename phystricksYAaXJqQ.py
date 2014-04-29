@@ -7,12 +7,12 @@ def YAaXJqQ():
     epsilon=0.2
 
     x=var('x')
-    F=phyFunction((1/(x+3))+2)
-    f1=F.graph(-9,-3-epsilon)
-    f2=F.graph(-3+epsilon,5)
+    F=phyFunction((1/(x+3))+1).graph(-7,3)
+    F.cut_y(-3,5)
 
-    pspict.DrawGraphs(f1,f2)
+    pspict.DrawGraphs(F)
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
