@@ -7,8 +7,71 @@
 
     \begin{enumerate}
         \item
-            
+            \begin{itemize}
+                \item 
+            Les côtés du carré \( MCNP\) ont longueur \( 1-x\). Donc l'aire du carré \( MCNP\) vaut \( (1-x)^2\).
+        \item
+            Le triangle \( ABM\) a pour base \( 5\) et pour hauteur \( x\), donc l'aire est : \( \frac{ 5x }{ 2 }\).
+        \item
+            Le triangle \( ADN\) a les mêmes dimensions que \( ABM\), et l'aire est donc également \( \frac{ 5x }{ 2 }\).
+            \end{itemize}
+        \item
+            Le calcul de l'aire de la zone grise est effectué en soustrayant les trois aires calculées de l'aire du carré (qui vaut \( 25\)). Donc
+            \begin{equation}
+                A(x)=25-(5-x)^2-\frac{ 5x }{ 2 }-\frac{ 5x }{2}.
+            \end{equation}
+            Pour le calcul il faut faire un peu attention. D'abord une identité remarquable : \( (5-x)^2=25-10x+x^2\). Mais attention : dans l'expression de \( A(x)\) elle arrive avec un signe moins : 
+            \begin{equation}
+                A(x)=25-\big(  25-10x+x^2   \big)-5x=25-25+10x-x^2-5x=5x=x^2,
+            \end{equation}
+            ce qui est bien la formule annoncée pour \( A(x)\).
+        \item
+            Il suffit de développer l'expression \(  -(x-2.5)^2+6.25  \) et remarquer que l'on tombe sur la même chose que \( A(x)\) :
+            \begin{equation}
+                -(x-2.5)^2+6.25=-\big( x^2-5x+6.25 \big)+6.25=-x^2+5x-6.25+6.25=-x^2+5x,
+            \end{equation}
+            qui est bien \( A(x)\).
+        \item
+            La stratégie pour résoudre \( A(x)\geq 5.25\) et de faire le tableau de signe de \( f(x)=A(x)-5.25\). En effet les solutions de \( f(x)\geq 0\) sont les mêmes que celles de \( A(x)\geq 5.25\).
+            \begin{enumerate}
+                \item
+                    Il suffit de développer le membre de droite et voir que l'on trouve bien le membre de gauche :
+                    \begin{equation}
+                        (x-3.5)(1.5-x)=1.5x-x^2-3.5\times 1.5+3.5x=5x-x^2-5.25.
+                    \end{equation}
+                \item
+                    Pour dresser le tableau de signe de \( f\), on commence par mettre les zéros :
+                    \begin{equation*}
+                        \begin{array}[]{c|ccccc}
+                             x&&1.5&&3.5&\\
+                              \hline
+                              (x-2.5)(1.5-x)&&0&&0&\\ 
+                               \end{array}
+                           \end{equation*}
+                    et ensuite on complète les cases vides par des \( +\) et des \( -\) que l'on trouve en «essayant» des valeurs. Il faut calculer \( f(x)\) pour un \( x\) plus petit que \( 1.5\) pour un entre \( 1.5\) et \( 3.5\) et un plus grand que \( 3.5\). Par exemple
+                    \begin{enumerate}
+                        \item
+                            \( f(0)=-3.5\times 1.5<0\). En réalité il ne faut même pas calculer la valeur exacte : le signe seul importe.
+                        \item
+                            \( f(2)=(2-3.5)\times (1.5-2)>0\)
+                        \item
+                            \( f(10)=(10-3.5)\times (1.5-10)<0\).
+                    \end{enumerate}
+                    Donc les signes à ajouter sont \( -\), \( +\) et \( -\) :
+                    \begin{equation*}
+                        \begin{array}[]{c|ccccc}
+                             x&&1.5&&3.5&\\
+                              \hline
+                              (x-2.5)(1.5-x)&-&0&+&0&-\\ 
+                               \end{array}
+                           \end{equation*}
+                       \item
+                           Les solutions à \( A(x)\geq 5.25\) étant les mêmes que celles de \( f(x)>0\), le tableau de signe nous indique que les \( x\) correspondants sont :
+                           \begin{equation}
+                               x\in\mathopen[ 1.5 ;3.5 \mathclose].
+                           \end{equation}
+                           
+            \end{enumerate}
     \end{enumerate}
-    <++>
 
 \end{corrige}

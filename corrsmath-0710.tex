@@ -5,6 +5,38 @@
 
 \begin{corrige}{smath-0710}
 
-<+Corrsmath-0710+>
+    \begin{enumerate}
+        \item
+            Le \( 150\) représente le nombre de téléphones retournés ayant une batterie défectueuse mais un écran non griffé. Le tableau complété est :
+    \begin{equation*}
+        \begin{array}[]{c|c|c|c}
+            &\text{batterie ok}&\text{batterie défectueuse}&\text{total}\\
+            \hline
+            \text{écran ok}&200&150&350\\
+            \hline
+            \text{écran griffé}&200&50&250\\
+            \hline
+            \text{total}&400&200&600\\
+        \end{array}
+    \end{equation*}
+\item
+    \begin{enumerate}
+        \item
+            \( K=E\cap \bar B\) : ce sont les téléphones qui sont dans \( E\) (écran griffé) mais pas dans \( B\) (batterie correcte). La probabilité de tirer un tel téléphone est de
+            \begin{equation}
+                P(K)=\frac{ 200 }{ 600 }=\frac{1}{ 3 }.
+            \end{equation}
+        \item
+            \( L=E\cup B\) : tous les téléphones qui ont soit l'écran griffé soit la batterie défectueuse. Pour calculer le nombre de téléphones qui sont dans ce cas, il ne faut pas faire l'erreur de somme \( 200\) (batterie défectueuse) et \( 250\) (écran griffé) parce que ainsi nous comptons deux fois les téléphones qui ont à la fois la batterie défectueuse et l'écran griffé. Il faut donc décompter ces téléphones doublement défectueux, c'est à dire utiliser la formule \( P(E\cup B)=P(E)+P(B)-P(E\cap B)\) :
+            \begin{equation}
+                P(L)=\frac{ 200+250-50 }{ 600 }=\frac{ 400 }{ 600 }=\frac{ 2 }{ 3 }.
+            \end{equation}
+        \item
+            Les téléphones ayant un défaut autre que l'écran griffé ou la batterie défectueuse sont ceux qui ne sont ni dans \( E\) ni dans \( B\) : \( M=\bar E\cap  \bar B\). La probabilité est donnée par
+            \begin{equation}
+                P(M)=\frac{ 200 }{ 600 }=\frac{1}{ 3 }.
+            \end{equation}
+    \end{enumerate}
+    \end{enumerate}
 
 \end{corrige}
