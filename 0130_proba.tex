@@ -34,41 +34,57 @@ Nous allons fonder notre étude sur l'étude des trois expériences aléatoires.
         Tirer une boule d'une urne qui contient par exemple trois boules vertes, cinq jaunes, deux bleues et six rouges. L'univers est \( \{ V,J,B,R \}\).
 \end{enumerate}
 
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Événement}
-%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}
-    Un \defe{événement}{événement} d'une expérience aléatoire est une partie de l'univers : un sous-ensemble de l'ensemble des issues possibles. Un événement est \defe{élémentaire}{événement=élémentaire} si il n'est réalisé que par une seule issue de l'expérience.
+    Un \defe{événement}{événement} d'une expérience aléatoire est une partie de l'univers : un sous-ensemble de l'ensemble des issues possibles.
 \end{definition}
 
+\begin{definition}
+    Lorsque toutes les issues possibles ont la même probabilité, nous disons que nous sommes dans une situation d'\defe{équiprobabilité}{équiprobabilité}.
+\end{definition}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Intersection, union, complémentaire}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%TODO : des dessins pour expliquer la réunion et l'intersection.
+
+Si \( A\) et \( B\) sont des événements, 
+\begin{enumerate}
+    \item
+nous notons \( A\cup B\) l'événement qui est réalisé lorsque \( A\) \emph{ou} \( B\) se réalise;
+\item
+nous notons \( A\cap B\) l'événement qui est réalisé lorsque \( A\) \emph{et} \( B\) se réalisent.
+\end{enumerate}
+
+\begin{Aretenir}
+    Si \( A\) et \( B\) sont deux événements d'une expérience aléatoire, alors
+    \begin{equation}
+        p(A\cup B)=p(A)+p(B)-p(A\cap B).
+    \end{equation}
+\end{Aretenir}
+
 \begin{example}
-    \begin{description}
-        \item[Pour le dé]
-            \begin{itemize}
-                \item Obtenir le six (événement élémentaire).
-                \item
-                    Obtenir un nombre pair.
-                \item
-                    Obtenir \( 2\) ou \( 5\).
-            \end{itemize}
-        \item[Pour le jeu de cartes]
-    \begin{itemize}
+    Soient \( A\) l'événement «obtenir un roi» et \( B\) l'événement «obtenir un \( \heartsuit\)». Pour calculer \( p(A\cup B)\), on suit le raisonnement suivant.
+    \begin{enumerate}
         \item
-            Tirer le six de cœur (événement élémentaire).
-        \item Tirer une carte noire.
+            La probabilité de \( A\) est \( p(A)=\frac{ 4 }{ 52 }=\frac{1}{ 13 }\). 
         \item
-            Tirer une dame.
-    \end{itemize}
-\item[Pour l'urne]
-    \begin{itemize}
-        \item Tirer une boule rouge (événement élémentaire).
+            La probabilité de \( B\) est \( p(B)=\frac{ 13 }{ 52 }=\frac{1}{ 4 }\).
         \item
-            Tirer une boule rouge ou verte.
+            L'événement \( A\cup B\) est l'événement «avoir un roi ou un cœur». Les cartes qui réalisent cet événement sont toutes les \( 13\) cartes de cœur plus les quatre rois (dont un est de cœur!!). 
         \item
-            Tirer une boule d'une couleur autre que verte.
-    \end{itemize}
-    \end{description}
+            L'événement \( A\cap B\) est réalisé par les cartes qui sont à la fois cœur et roi, c'est à dire uniquement par la carte roi de \( \heartsuit\). Nous avons donc \( p(A\cap B)=\frac{1}{ 52 }\).
+        \item
+            Pour savoir la probabilité \( p(A\cup B)\), on utilise la formule
+            \begin{equation}
+                p(A\cup B)=p(A)+p(B)-p(A\cap B)=\frac{1}{ 13 }+\frac{1}{ 4 }-\frac{1}{ 52 }=\frac{ 4 }{ 13 }.
+            \end{equation}
+    \end{enumerate}
+    Notons que ce résultat peut aussi être obtenu en réfléchissant. L'événement \( A\cup B\) est constitué de toutes les cartes \( \heartsuit\) et de tous les rois, c'est à dire les treize cartes \( \heartsuit\) plus les rois de \( \clubsuit\), \( \spadesuit\) et \( \diamondsuit\), soient \( 13+3=16\) cartes en tout. Donc
+    \begin{equation}
+        p(A\cup B)=\frac{ 16 }{ 52 }=\frac{ 4 }{ 13 }.
+    \end{equation}
 \end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -119,10 +135,6 @@ Si nous recommençons plusieurs fois une même expérience aléatoire, nous pouv
     \end{enumerate}
 \end{propriete}
 
-\begin{definition}
-    Lorsque tous les événements élémentaires ont la même probabilité, nous disons que nous sommes dans une situation d'\defe{équiprobabilité}{équiprobabilité}.
-\end{definition}
-
 \begin{propriete}
     Si une expérience possède \( n\) issues équiprobables, alors :
     \begin{enumerate}
@@ -171,45 +183,38 @@ Si nous recommençons plusieurs fois une même expérience aléatoire, nous pouv
 \end{example}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Réunion et intersection}
+\section{Événement élémentaire}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-%TODO : des dessins pour expliquer la réunion et l'intersection.
-
-Si \( A\) et \( B\) sont des événements, 
-\begin{enumerate}
-    \item
-nous notons \( A\cup B\) l'événement qui est réalisé lorsque \( A\) \emph{ou} \( B\) se réalise;
-\item
-nous notons \( A\cap B\) l'événement qui est réalisé lorsque \( A\) \emph{et} \( B\) se réalisent.
-\end{enumerate}
-
-\begin{Aretenir}
-    Si \( A\) et \( B\) sont deux événements d'une expérience aléatoire, alors
-    \begin{equation}
-        p(A\cup B)=p(A)+p(B)-p(A\cap B).
-    \end{equation}
-\end{Aretenir}
+\begin{definition}
+    Un événement est \defe{élémentaire}{événement=élémentaire} si il n'est réalisé que par une seule issue de l'expérience.
+\end{definition}
 
 \begin{example}
-    Soient \( A\) l'événement «obtenir un roi» et \( B\) l'événement «obtenir un \( \heartsuit\)». Pour calculer \( p(A\cup B)\), on suit le raisonnement suivant.
-    \begin{enumerate}
+    \begin{description}
+        \item[Pour le dé]
+            \begin{itemize}
+                \item Obtenir le six (événement élémentaire).
+                \item
+                    Obtenir un nombre pair.
+                \item
+                    Obtenir \( 2\) ou \( 5\).
+            \end{itemize}
+        \item[Pour le jeu de cartes]
+    \begin{itemize}
         \item
-            La probabilité de \( A\) est \( p(A)=\frac{ 4 }{ 52 }=\frac{1}{ 13 }\). 
+            Tirer le six de cœur (événement élémentaire).
+        \item Tirer une carte noire.
         \item
-            La probabilité de \( B\) est \( p(B)=\frac{ 13 }{ 52 }=\frac{1}{ 4 }\).
+            Tirer une dame.
+    \end{itemize}
+\item[Pour l'urne]
+    \begin{itemize}
+        \item Tirer une boule rouge (événement élémentaire).
         \item
-            L'événement \( A\cup B\) est l'événement «avoir un roi ou un cœur». Les cartes qui réalisent cet événement sont toutes les \( 13\) cartes de cœur plus les quatre rois (dont un est de cœur!!). 
+            Tirer une boule rouge ou verte.
         \item
-            L'événement \( A\cap B\) est réalisé par les cartes qui sont à la fois cœur et roi, c'est à dire uniquement par la carte roi de \( \heartsuit\). Nous avons donc \( p(A\cap B)=\frac{1}{ 52 }\).
-        \item
-            Pour savoir la probabilité \( p(A\cup B)\), on utilise la formule
-            \begin{equation}
-                p(A\cup B)=p(A)+p(B)-p(A\cap B)=\frac{1}{ 13 }+\frac{1}{ 4 }-\frac{1}{ 52 }=\frac{ 4 }{ 13 }.
-            \end{equation}
-    \end{enumerate}
-    Notons que ce résultat peut aussi être obtenu en réfléchissant. L'événement \( A\cup B\) est constitué de toutes les cartes \( \heartsuit\) et de tous les rois, c'est à dire les treize cartes \( \heartsuit\) plus les rois de \( \clubsuit\), \( \spadesuit\) et \( \diamondsuit\), soient \( 13+3=16\) cartes en tout. Donc
-    \begin{equation}
-        p(A\cup B)=\frac{ 16 }{ 52 }=\frac{ 4 }{ 13 }.
-    \end{equation}
+            Tirer une boule d'une couleur autre que verte.
+    \end{itemize}
+    \end{description}
 \end{example}

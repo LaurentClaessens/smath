@@ -7,5 +7,6 @@ Il y a plusieurs fichiers principaux.
  6. les_DS.tex qui recesse les exercices donnés en DS.
  6. tous_les_exercices.tex qui donne tous les exercices, mais il est essentiellement pour des raisons de travail.
 
+
  Il y a aussi le script cree_exo.py qui crée des liste d'exercices automatique.
 

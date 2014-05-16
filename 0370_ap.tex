@@ -3,6 +3,11 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Origami}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+La feuille distribuée pour la découverte du théorème d'Haga.
 
 % THÉORÈME DE HAGA POUR L'AP
 \begin{feuilleExo}{Théorème de Haga}
@@ -43,5 +48,69 @@ Reporter les valeurs connues et déduire la valeur de \( x=DE\).
 
 Sachant la valeur de \( x\), conclure que nous avons bien obtenu un pliage coupant en trois le côté du carré.
 
-
 \end{feuilleExo}
+
+
+Les diapositives projetées pour la présentation. 
+
+\newpage
+\subsection{Théorème de Haga (Pythagore)}
+
+    \begin{multicols}{2}
+
+    \begin{center}        
+        \includegraphics[width=5cm]{haga_coupe_anote}
+    \end{center}
+
+
+    Pythagore dans le triangle \( ABC\) : \( a^2+\left( \frac{ 1 }{2} \right)^2=(1-a)^2\).
+
+    \( \Rightarrow \, a=\frac{ 3 }{ 8 }\).
+    \end{multicols}
+
+    
+\newpage
+\subsection{Théorème de Haga (angles)}
+    \begin{multicols}{2}
+
+    \begin{center}        
+        \includegraphics[width=5cm]{haga_coupe_anote}
+    \end{center}
+
+    \begin{subequations}
+        \begin{numcases}{}
+            \hat B_1+\hat B_2=90\\
+            \hat B_1+\hat C=90\\
+            \hat B_2+\hat E=90
+        \end{numcases}
+    \end{subequations}
+
+    \( \Rightarrow \,   \hat B_2=\hat C \) et \( \hat B_1=\hat E\).
+    \end{multicols}
+
+
+    \begin{center}
+        Les triangles \( ABC\) et \( BDE\) sont semblables.
+    \end{center}
+
+\newpage
+\subsection{Théorème de Haga (proportionnalité)}
+    \begin{multicols}{2}
+
+    \begin{center}        
+        \includegraphics[width=5cm]{haga_coupe_anote}
+    \end{center}
+
+    \begin{equation}
+        \frac{ DE }{ AB }=\frac{ BD }{ AC }
+    \end{equation}
+    \begin{equation}
+        \frac{ DE }{ \frac{ 1 }{2} }=\frac{ \frac{ 1 }{2} }{ \frac{ 3 }{ 8 } }
+    \end{equation}
+    \begin{equation}
+        2DE=\frac{ 4 }{ 3 }
+    \end{equation}
+    \begin{equation}
+        DE=\frac{2}{ 3 }.
+    \end{equation}
+    \end{multicols}
