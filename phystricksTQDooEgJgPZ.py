@@ -14,7 +14,7 @@ def TQDooEgJgPZ():
 
     pspicts,fig = MultiplePictures("TQDooEgJgPZ",len(F))
     for psp in pspicts:
-        psp.dilatation_X(1)
+        psp.dilatation_X(0.7)
         psp.dilatation_Y(0.7)
 
     for i in range(0,len(F)):
