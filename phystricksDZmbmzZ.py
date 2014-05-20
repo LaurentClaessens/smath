@@ -2,7 +2,7 @@
 from phystricks import *
 def DZmbmzZ():
     pspict,fig = SinglePicture("DZmbmzZ")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     A=Point(3,4)
     B=Point(0,0)

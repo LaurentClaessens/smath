@@ -4,7 +4,7 @@ from phystricks import *
 
 def UEqUrvi():
     pspict,fig = SinglePicture("UEqUrvi")
-    pspict.dilatation(1)
+    pspict.dilatation(0.8)
 
     alpha=30
     A=Point(0,0)
