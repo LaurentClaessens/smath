@@ -26,5 +26,6 @@ def YORfWSM():
     s.parameters.style="dashed"
 
     pspict.DrawGraphs(ligne,Cer,lv,Cv,M,X,s)
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -8,27 +8,24 @@
 %SPECIFIC_NEEDS
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
+\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( M\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigYORfWSMPICTYORfWSM.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaal:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaaa:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaab:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaac:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaad:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( x\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaae:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( x\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaaf:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( x\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaag:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( x\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaah:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaai:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaaj:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( x\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigYORfWSMPICTYORfWSMaaak:\the\lengthOfhomemokySagesrcbinsageipython-}\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( x\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigYORfWSMPICTYORfWSMaaal:\the\lengthOfhomemokySagesrcbinsageipython-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
-%BEFORE SUBFIGURES
-\begin{figure}[ht]
-\centering
 %SUBFIGURES
 %AFTER SUBFIGURES
 %DEFAULT
@@ -52,34 +49,30 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-1.70000000000000){aSwY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,1.70000000000000){aSwZ}
-\ncline[linestyle=solid,linecolor=red]{->}{aSwY}{aSwZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,0){aSBI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aSwX}
-\pstCircleOA[linestyle=solid,linecolor=black]{aSwX}{aSBI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){aSxw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,1.30899693899575){aSxx}
-\pstLineAB[linestyle=solid,linecolor=green]{aSxw}{aSxx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){aSBN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.258819045102521,0.965925826289068){aSCi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aSwX}
-\pstArcOAB[linestyle=solid,linecolor=green]{aSwX}{aSBN}{aSCi}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0.258819045102521,0.965925826289068){aSxa}
-\pstGeonode[](0.389873949612773,1.13085174225131){aSCL}
-\rput(aSCL){\rput(0;0){\( M\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,1.30899693899575){aSxv}
-\pstGeonode[](1.15564191666667,1.35205252232908){aSCR}
-\rput(aSCR){\rput(0;0){\( x\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,1.30899693899575){aSxv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.258819045102521,0.965925826289068){aSxa}
-\ncline[linestyle=dashed,linecolor=blue]{->}{aSxv}{aSxa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-1.70000000000000){aaau}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,1.70000000000000){aaav}
+\ncline[linestyle=solid,linecolor=red]{->}{aaau}{aaav}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,0){aafe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aaat}
+\pstCircleOA[linestyle=solid,linecolor=black]{aaat}{aafe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){aaaS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,1.30899693899575){aaaT}
+\pstLineAB[linestyle=solid,linecolor=green]{aaaS}{aaaT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){aafj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.258819045102521,0.965925826289068){aafE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aaat}
+\pstArcOAB[linestyle=solid,linecolor=green]{aaat}{aafj}{aafE}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0.258819045102521,0.965925826289068){aaaw}
+\pstGeonode[](0.389873949612773,1.13085174225131){aagh}
+\rput(aagh){\rput(0;0){\( M\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,1.30899693899575){aaaR}
+\pstGeonode[](1.15564191666667,1.35205252232908){aagn}
+\rput(aagn){\rput(0;0){\( x\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,1.30899693899575){aaaR}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.258819045102521,0.965925826289068){aaaw}
+\ncline[linestyle=dashed,linecolor=blue]{->}{aaaR}{aaaw}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE
  \fi
 %AFTER PSPICTURE
-%AFTER ALL
-\caption{\CaptionFigYORfWSM}\label{LabelFigYORfWSM}
-            \end{figure}
-            
