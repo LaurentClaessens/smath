@@ -10,7 +10,7 @@ def RWZooOBMHZ():
 
     x=var('x')
     F=[]
-    F.append(phyFunction(1/(x+2)).graph(mx,Mx))
+    #F.append(phyFunction(1/(x+2)).graph(mx,Mx))
     F.append(phyFunction((0.5*x+1)/(x-1)).graph(mx,Mx))
     F.append(phyFunction((2-x)/(x-1)).graph(mx,Mx))
     F.append(phyFunction(1/x).graph(mx,Mx))
