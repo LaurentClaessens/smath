@@ -2,8 +2,8 @@
 from phystricks import *
 def SZYooRuSplc():
     pspict,fig = SinglePicture("SZYooRuSplc")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(0.3)
+    pspict.dilatation_Y(0.3)
 
     h=8
     l=12
