@@ -32,14 +32,14 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,0){axdA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.50000000000000,0){axdC}
-\ncline[linestyle=solid,linecolor=black]{->}{axdA}{axdC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){axdG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0.500000000000000){axdI}
-\ncline[linestyle=solid,linecolor=black]{->}{axdG}{axdI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,0){axeJ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.50000000000000,0){axeL}
+\ncline[linestyle=solid,linecolor=black]{->}{axeJ}{axeL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){axeP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0.500000000000000){axeR}
+\ncline[linestyle=solid,linecolor=black]{->}{axeP}{axeR}
 %DEFAULT
-\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-1.00000000000000}{3.00000000000000}{-(0.5*x - 1.0)*x - 0.5}
+\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-1.00000000000000}{3.00000000000000}{-x*(0.5*x - 1.0) - 0.5}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}
@@ -65,14 +65,14 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.50000000000000,0){axen}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,0){axep}
-\ncline[linestyle=solid,linecolor=black]{->}{axen}{axep}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.500000000000000){axet}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.50000000000000){axev}
-\ncline[linestyle=solid,linecolor=black]{->}{axet}{axev}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.50000000000000,0){axfw}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,0){axfy}
+\ncline[linestyle=solid,linecolor=black]{->}{axfw}{axfy}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.500000000000000){axfC}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.50000000000000){axfE}
+\ncline[linestyle=solid,linecolor=black]{->}{axfC}{axfE}
 %DEFAULT
-\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.00000000000000}{0.000000000000000}{(0.5*x + 1.5)*x + 2.0}
+\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.00000000000000}{0.000000000000000}{x*(0.5*x + 1.5) + 2.0}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

@@ -62,40 +62,40 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.71428571428571,0){aHwS}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.71428571428571,0){aHwU}
-\ncline[linestyle=solid,linecolor=black]{->}{aHwS}{aHwU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.857142857142857){aHwY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,6.71428571428571){aHxa}
-\ncline[linestyle=solid,linecolor=black]{->}{aHwY}{aHxa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.71428571428571,0){aHvC}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.71428571428571,0){aHvE}
+\ncline[linestyle=solid,linecolor=black]{->}{aHvC}{aHvE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.857142857142857){aHvI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,6.71428571428571){aHvK}
+\ncline[linestyle=solid,linecolor=black]{->}{aHvI}{aHvK}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.00000000000000}{4.00000000000000}{3/4*x + 3}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aHuk}
-\pstGeonode[](-0.423602413672347,-0.397268604148537){aHxy}
-\rput(aHxy){\rput(0;0){\( O\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,3.00000000000000){aHul}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aHul}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,3.00000000000000){aHun}
-\pstLineAB[linestyle=dashed,linecolor=black]{aHul}{aHun}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,3.75000000000000){aHxD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,3.00000000000000){aHuw}
-\ncline[linestyle=solid,linecolor=black]{->}{aHxD}{aHuw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,3.75000000000000){aHxD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,4.50000000000000){aHux}
-\ncline[linestyle=solid,linecolor=black]{->}{aHxD}{aHux}
-\pstGeonode[](2.63042047619048,3.87301595238095){aHxP}
-\rput(aHxP){\rput(0;0){\( m\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,0){aHuo}
-\pstGeonode[](2.00000000000000,-0.480952380952381){aHxV}
-\rput(aHxV){\rput(0;0){\( I\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,1.50000000000000){aHxY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,0){aHuH}
-\ncline[linestyle=solid,linecolor=black]{->}{aHxY}{aHuH}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,1.50000000000000){aHxY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,3.00000000000000){aHuI}
-\ncline[linestyle=solid,linecolor=black]{->}{aHxY}{aHuI}
-\pstGeonode[](0.626123095238095,1.67857095238095){aHyk}
-\rput(aHyk){\rput(0;0){\( p\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aHsU}
+\pstGeonode[](-0.423602413672347,-0.397268604148537){aHwi}
+\rput(aHwi){\rput(0;0){\( O\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,3.00000000000000){aHsV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aHsV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,3.00000000000000){aHsX}
+\pstLineAB[linestyle=dashed,linecolor=black]{aHsV}{aHsX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,3.75000000000000){aHwn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,3.00000000000000){aHtg}
+\ncline[linestyle=solid,linecolor=black]{->}{aHwn}{aHtg}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,3.75000000000000){aHwn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.10000000000000,4.50000000000000){aHth}
+\ncline[linestyle=solid,linecolor=black]{->}{aHwn}{aHth}
+\pstGeonode[](2.63042047619048,3.87301595238095){aHwz}
+\rput(aHwz){\rput(0;0){\( m\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,0){aHsY}
+\pstGeonode[](2.00000000000000,-0.480952380952381){aHwF}
+\rput(aHwF){\rput(0;0){\( I\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,1.50000000000000){aHwI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,0){aHtr}
+\ncline[linestyle=solid,linecolor=black]{->}{aHwI}{aHtr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,1.50000000000000){aHwI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,3.00000000000000){aHts}
+\ncline[linestyle=solid,linecolor=black]{->}{aHwI}{aHts}
+\pstGeonode[](0.626123095238095,1.67857095238095){aHwU}
+\rput(aHwU){\rput(0;0){\( p\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

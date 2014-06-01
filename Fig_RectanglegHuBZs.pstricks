@@ -76,30 +76,30 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aCPC}
-\pstGeonode[](-0.960751187457698,-0.926960076346587){aCRK}
-\rput(aCRK){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](8.00000000000000,0){aCPD}
-\pstGeonode[](9.00095229856881,-0.926960076346587){aCRQ}
-\rput(aCRQ){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](8.00000000000000,15.0000000000000){aCPE}
-\pstGeonode[](9.18156833333333,15.4555555555556){aCRW}
-\rput(aCRW){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aCPC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,0){aCPD}
-\pstLineAB[linestyle=solid,linecolor=black]{aCPC}{aCPD}
-\pstGeonode[](4.32638777777778,-1.08648611111111){aCSk}
-\rput(aCSk){\rput(0;0){\( 8\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,0){aCPD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,15.0000000000000){aCPE}
-\pstLineAB[linestyle=solid,linecolor=black]{aCPD}{aCPE}
-\pstGeonode[](9.03761277777778,7.78703722222222){aCSy}
-\rput(aCSy){\rput(0;0){\( x\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,15.0000000000000){aCPE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aCPC}
-\pstLineAB[linestyle=solid,linecolor=black]{aCPE}{aCPC}
-\pstGeonode[](2.75898859477124,8.23354493464052){aCSM}
-\rput(aCSM){\rput(0;0){\( 17\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aCPO}
+\pstGeonode[](-0.960751187457698,-0.926960076346587){aCRW}
+\rput(aCRW){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](8.00000000000000,0){aCPP}
+\pstGeonode[](9.00095229856881,-0.926960076346587){aCSc}
+\rput(aCSc){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](8.00000000000000,15.0000000000000){aCPQ}
+\pstGeonode[](9.18156833333333,15.4555555555556){aCSi}
+\rput(aCSi){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aCPO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,0){aCPP}
+\pstLineAB[linestyle=solid,linecolor=black]{aCPO}{aCPP}
+\pstGeonode[](4.32638777777778,-1.08648611111111){aCSw}
+\rput(aCSw){\rput(0;0){\( 8\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,0){aCPP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,15.0000000000000){aCPQ}
+\pstLineAB[linestyle=solid,linecolor=black]{aCPP}{aCPQ}
+\pstGeonode[](9.03761277777778,7.78703722222222){aCSK}
+\rput(aCSK){\rput(0;0){\( x\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,15.0000000000000){aCPQ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aCPO}
+\pstLineAB[linestyle=solid,linecolor=black]{aCPQ}{aCPO}
+\pstGeonode[](2.75898859477124,8.23354493464052){aCSY}
+\rput(aCSY){\rput(0;0){\( 17\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

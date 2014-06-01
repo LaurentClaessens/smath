@@ -144,54 +144,54 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](1.00000000000000,-0.325945833333333){ahFz}
-\rput(ahFz){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.325945833333333){ahFD}
+\rput(ahFD){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.325945833333333){ahFF}
-\rput(ahFF){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.325945833333333){ahFJ}
+\rput(ahFJ){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.325945833333333){ahFL}
-\rput(ahFL){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.325945833333333){ahFP}
+\rput(ahFP){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.325945833333333){ahFR}
-\rput(ahFR){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.325945833333333){ahFV}
+\rput(ahFV){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.800000000000000,0){ahFT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.80000000000000,0){ahFV}
-\ncline[linestyle=solid,linecolor=black]{->}{ahFT}{ahFV}
-\pstGeonode[](-0.450193833333333,-2.00000000000000){ahGH}
-\rput(ahGH){\rput(0;0){$ -2 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.800000000000000,0){ahFX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.80000000000000,0){ahFZ}
+\ncline[linestyle=solid,linecolor=black]{->}{ahFX}{ahFZ}
+\pstGeonode[](-0.450193833333333,-2.00000000000000){ahGL}
+\rput(ahGL){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-2.00000000000000){ForTheBar}
-\pstGeonode[](-0.450193833333333,-1.00000000000000){ahGN}
-\rput(ahGN){\rput(0;0){$ -1 $}}
+\pstGeonode[](-0.450193833333333,-1.00000000000000){ahGR}
+\rput(ahGR){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,1.00000000000000){ahGT}
-\rput(ahGT){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.297916333333333,1.00000000000000){ahGX}
+\rput(ahGX){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,2.00000000000000){ahGZ}
-\rput(ahGZ){\rput(0;0){$ 2 $}}
+\pstGeonode[](-0.297916333333333,2.00000000000000){ahHd}
+\rput(ahHd){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,2.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,3.00000000000000){ahHf}
-\rput(ahHf){\rput(0;0){$ 3 $}}
+\pstGeonode[](-0.297916333333333,3.00000000000000){ahHj}
+\rput(ahHj){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,3.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,4.00000000000000){ahHl}
-\rput(ahHl){\rput(0;0){$ 4 $}}
+\pstGeonode[](-0.297916333333333,4.00000000000000){ahHp}
+\rput(ahHp){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,4.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){ahHn}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.79000000000000){ahHp}
-\ncline[linestyle=solid,linecolor=black]{->}{ahHn}{ahHp}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){ahHr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.79000000000000){ahHt}
+\ncline[linestyle=solid,linecolor=black]{->}{ahHr}{ahHt}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-0.300000000000000}{4.30000000000000}{x^2 - 4*x + 3}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-2.00000000000000){ahDW}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,4.00000000000000){ahDX}
-\pstLineAB[linestyle=dashed,linecolor=red]{ahDW}{ahDX}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){ahDR}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,3.00000000000000){ahDS}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){ahDT}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,0){ahDU}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){ahDV}
-\pstGeonode[](2.27350352290398,-1.27808802290398){ahPf}
-\rput(ahPf){\rput(0;0){$S$}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-2.00000000000000){ahEa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,4.00000000000000){ahEb}
+\pstLineAB[linestyle=dashed,linecolor=red]{ahEa}{ahEb}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){ahDV}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,3.00000000000000){ahDW}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){ahDX}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,0){ahDY}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){ahDZ}
+\pstGeonode[](2.27350352290398,-1.27808802290398){ahPj}
+\rput(ahPj){\rput(0;0){$S$}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

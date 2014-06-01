@@ -46,23 +46,23 @@
 %PSTRICKS CODE
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{0.000000000000000}{0.200000000000000}{-5*x^2 + x}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aYjz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.0372104203767625,0.0372104203767625){aYjD}
-\ncline[linestyle=solid,linecolor=red]{->}{aYjz}{aYjD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.100000000000000,0){aYmR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,0){aYjN}
-\ncline[linestyle=solid,linecolor=black]{->}{aYmR}{aYjN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.100000000000000,0){aYmR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aYjO}
-\ncline[linestyle=solid,linecolor=black]{->}{aYmR}{aYjO}
-\pstGeonode[](0.100000000000000,-0.00285714285714286){aYna}
-\rput(aYna){\rput(0;0){\( l\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.0100000000000000,0){aYnb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.00707106781186548,0.00707106781186548){aYnw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aYjF}
-\pstArcOAB[linestyle=solid,linecolor=green]{aYjF}{aYnb}{aYnw}
-\pstGeonode[](0.0126155693749074,0.00511166290922686){aYou}
-\rput(aYou){\rput(0;0){\( \alpha\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aWwh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.0372104203767625,0.0372104203767625){aWwl}
+\ncline[linestyle=solid,linecolor=red]{->}{aWwh}{aWwl}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.100000000000000,0){aWzz}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.200000000000000,0){aWwv}
+\ncline[linestyle=solid,linecolor=black]{->}{aWzz}{aWwv}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.100000000000000,0){aWzz}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aWww}
+\ncline[linestyle=solid,linecolor=black]{->}{aWzz}{aWww}
+\pstGeonode[](0.100000000000000,-0.00285714285714286){aWzI}
+\rput(aWzI){\rput(0;0){\( l\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.0100000000000000,0){aWzJ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.00707106781186548,0.00707106781186548){aWAe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aWwn}
+\pstArcOAB[linestyle=solid,linecolor=green]{aWwn}{aWzJ}{aWAe}
+\pstGeonode[](0.0126155693749074,0.00511166290922686){aWBc}
+\rput(aWBc){\rput(0;0){\( \alpha\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

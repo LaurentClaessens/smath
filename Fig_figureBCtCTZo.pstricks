@@ -85,83 +85,83 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){aanu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.50000000000000,3.00000000000000){aant}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.50000000000000,3.00000000000000){aant}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.79903810567666,3.75000000000000){aanv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.79903810567666,3.75000000000000){aanv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.200961894323342,3.75000000000000){aanw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.200961894323342,3.75000000000000){aanw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){aanu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){aEAf}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.50000000000000,3.00000000000000){aEAe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.50000000000000,3.00000000000000){aEAe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.79903810567666,3.75000000000000){aEAg}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.79903810567666,3.75000000000000){aEAg}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.200961894323342,3.75000000000000){aEAh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.200961894323342,3.75000000000000){aEAh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){aEAf}
 \pscustom[linestyle=none,fillcolor=brown,linecolor=black,fillstyle=solid]{
-\pstLineAB[linestyle=solid,linecolor=black]{aanu}{aant}
-\pstLineAB[linestyle=solid,linecolor=black]{aant}{aanv}
-\pstLineAB[linestyle=solid,linecolor=black]{aanv}{aanw}
-\pstLineAB[linestyle=solid,linecolor=black]{aanw}{aanu}
+\pstLineAB[linestyle=solid,linecolor=black]{aEAf}{aEAe}
+\pstLineAB[linestyle=solid,linecolor=black]{aEAe}{aEAg}
+\pstLineAB[linestyle=solid,linecolor=black]{aEAg}{aEAh}
+\pstLineAB[linestyle=solid,linecolor=black]{aEAh}{aEAf}
 }
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.750000000000000,-0.750000000000000){aanA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.75000000000000,3.75000000000000){aanz}
-\pstLineAB[linestyle=solid,linecolor=red]{aanA}{aanz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aanl}
-\pstGeonode[](-0.288225356237309,3.27808802290398){aark}
-\rput(aark){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aanm}
-\pstGeonode[](3.15886433333333,3.33666666666667){aarq}
-\rput(aarq){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aann}
-\pstGeonode[](3.29589185623731,-0.278088022903976){aarw}
-\rput(aarw){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aano}
-\pstGeonode[](-0.368035666666667,0.136666666666667){aarC}
-\rput(aarC){\rput(0;0){\( D\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aanp}
-\pstGeonode[](1.00092841610602,4.02808802290398){aarI}
-\rput(aarI){\rput(0;0){\( E\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aanq}
-\pstGeonode[](4.65300693900999,3.88666666666667){aarO}
-\rput(aarO){\rput(0;0){\( F\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aanr}
-\pstGeonode[](4.65350893900999,0.886666666666667){aarU}
-\rput(aarU){\rput(0;0){\( G\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aans}
-\pstGeonode[](0.979909249439348,1.02808802290398){aasa}
-\rput(aasa){\rput(0;0){\( H\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aanl}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aanp}
-\pstLineAB[linestyle=solid,linecolor=black]{aanl}{aanp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aanm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aanq}
-\pstLineAB[linestyle=solid,linecolor=black]{aanm}{aanq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aann}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aanr}
-\pstLineAB[linestyle=solid,linecolor=black]{aann}{aanr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aano}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aans}
-\pstLineAB[linestyle=dashed,linecolor=black]{aano}{aans}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aanp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aanq}
-\pstLineAB[linestyle=solid,linecolor=black]{aanp}{aanq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aanq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aanr}
-\pstLineAB[linestyle=solid,linecolor=black]{aanq}{aanr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aanr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aans}
-\pstLineAB[linestyle=dashed,linecolor=black]{aanr}{aans}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aans}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aanp}
-\pstLineAB[linestyle=dashed,linecolor=black]{aans}{aanp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aanl}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aanm}
-\pstLineAB[linestyle=solid,linecolor=black]{aanl}{aanm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aanm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aann}
-\pstLineAB[linestyle=solid,linecolor=black]{aanm}{aann}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aann}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aano}
-\pstLineAB[linestyle=solid,linecolor=black]{aann}{aano}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aano}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aanl}
-\pstLineAB[linestyle=solid,linecolor=black]{aano}{aanl}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.750000000000000,-0.750000000000000){aEAl}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.75000000000000,3.75000000000000){aEAk}
+\pstLineAB[linestyle=solid,linecolor=red]{aEAl}{aEAk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aEzW}
+\pstGeonode[](-0.288225356237309,3.27808802290398){aEDV}
+\rput(aEDV){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aEzX}
+\pstGeonode[](3.15886433333333,3.33666666666667){aEEb}
+\rput(aEEb){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aEzY}
+\pstGeonode[](3.29589185623731,-0.278088022903976){aEEh}
+\rput(aEEh){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEzZ}
+\pstGeonode[](-0.368035666666667,0.136666666666667){aEEn}
+\rput(aEEn){\rput(0;0){\( D\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aEAa}
+\pstGeonode[](1.00092841610602,4.02808802290398){aEEt}
+\rput(aEEt){\rput(0;0){\( E\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aEAb}
+\pstGeonode[](4.65300693900999,3.88666666666667){aEEz}
+\rput(aEEz){\rput(0;0){\( F\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aEAc}
+\pstGeonode[](4.65350893900999,0.886666666666667){aEEF}
+\rput(aEEF){\rput(0;0){\( G\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aEAd}
+\pstGeonode[](0.979909249439348,1.02808802290398){aEEL}
+\rput(aEEL){\rput(0;0){\( H\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aEzW}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aEAa}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzW}{aEAa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aEzX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aEAb}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzX}{aEAb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aEzY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aEAc}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzY}{aEAc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEzZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aEAd}
+\pstLineAB[linestyle=dashed,linecolor=black]{aEzZ}{aEAd}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aEAa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aEAb}
+\pstLineAB[linestyle=solid,linecolor=black]{aEAa}{aEAb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,3.75000000000000){aEAb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aEAc}
+\pstLineAB[linestyle=solid,linecolor=black]{aEAb}{aEAc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.29903810567666,0.750000000000000){aEAc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aEAd}
+\pstLineAB[linestyle=dashed,linecolor=black]{aEAc}{aEAd}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,0.750000000000000){aEAd}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.29903810567666,3.75000000000000){aEAa}
+\pstLineAB[linestyle=dashed,linecolor=black]{aEAd}{aEAa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aEzW}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aEzX}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzW}{aEzX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aEzX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aEzY}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzX}{aEzY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aEzY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEzZ}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzY}{aEzZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEzZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aEzW}
+\pstLineAB[linestyle=solid,linecolor=black]{aEzZ}{aEzW}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

@@ -9,36 +9,36 @@
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\pi$}}%
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\mathit{TheTag}$}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigSolsSinpAPICTSolsSinpA.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\pi$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\mathit{TheTag}$}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
 \immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\pi$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\mathit{TheTag}$}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
 \immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
@@ -47,22 +47,22 @@
 \immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaP:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaQ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaR:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaS:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaT:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaU:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaV:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaW:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\pi$}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaX:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\pi$}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaY:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\pi$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaP:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaQ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$-\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaR:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaS:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaT:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaU:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\frac{1}{2} \, \mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaV:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaW:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaX:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$\mathit{TheTag}$}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaaY:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$\mathit{TheTag}$}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaaaZ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
 \immediate\write\writeOfphystricks{totalheightofFIGLabelFigSolsSinpAPICTSolsSinpAaaba:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
 \immediate\write\writeOfphystricks{widthofFIGLabelFigSolsSinpAPICTSolsSinpAaabb:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
@@ -98,30 +98,30 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-3.14159265358979,-0.200000000000000){acwZ}
-\rput(acwZ){\rput(0;0){$-\pi$}}
+\pstGeonode[](-3.14159265358979,-0.200000000000000){acxd}
+\rput(acxd){\rput(0;0){$-\mathit{TheTag}$}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.14159265358979,0){ForTheBar}
-\pstGeonode[](-1.57079632679490,-0.200000000000000){acxf}
-\rput(acxf){\rput(0;0){$-\frac{1}{2} \, \pi$}}
+\pstGeonode[](-1.57079632679490,-0.200000000000000){acxj}
+\rput(acxj){\rput(0;0){$-\frac{1}{2} \, \mathit{TheTag}$}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.57079632679490,0){ForTheBar}
-\pstGeonode[](1.57079632679490,-0.200000000000000){acxl}
-\rput(acxl){\rput(0;0){$\frac{1}{2} \, \pi$}}
+\pstGeonode[](1.57079632679490,-0.200000000000000){acxp}
+\rput(acxp){\rput(0;0){$\frac{1}{2} \, \mathit{TheTag}$}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.57079632679490,0){ForTheBar}
-\pstGeonode[](3.14159265358979,-0.200000000000000){acxr}
-\rput(acxr){\rput(0;0){$\pi$}}
+\pstGeonode[](3.14159265358979,-0.200000000000000){acxv}
+\rput(acxv){\rput(0;0){$\mathit{TheTag}$}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.14159265358979,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.64159265358979,0){acxt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.64159265358979,0){acxv}
-\ncline[linestyle=solid,linecolor=black]{->}{acxt}{acxv}
-\pstGeonode[](-0.200000000000000,-1.00000000000000){acxN}
-\rput(acxN){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.64159265358979,0){acxx}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.64159265358979,0){acxz}
+\ncline[linestyle=solid,linecolor=black]{->}{acxx}{acxz}
+\pstGeonode[](-0.200000000000000,-1.00000000000000){acxR}
+\rput(acxR){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.200000000000000,1.00000000000000){acxT}
-\rput(acxT){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.200000000000000,1.00000000000000){acxX}
+\rput(acxX){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.50000000000000){acxV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.50000000000000){acxX}
-\ncline[linestyle=solid,linecolor=black]{->}{acxV}{acxX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.50000000000000){acxZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.50000000000000){acyb}
+\ncline[linestyle=solid,linecolor=black]{->}{acxZ}{acyb}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=red]{0.000000000000000}{3.14159265358979}{sin(-1/2*3.141516 + x)}
 \psplot[linestyle=solid,plotpoints=100,linecolor=green]{-0.785398163397448}{2.35619449019234}{sin(-1/4*3.141516 + x)}

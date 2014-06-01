@@ -88,27 +88,27 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-2.00000000000000,-0.340822833333333){ajiw}
-\rput(ajiw){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.340822833333333){ajiA}
+\rput(ajiA){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.340822833333333){ajiC}
-\rput(ajiC){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.340822833333333){ajiG}
+\rput(ajiG){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,0){ajiE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.750000000000000,0){ajiG}
-\ncline[linestyle=solid,linecolor=black]{->}{ajiE}{ajiG}
-\pstGeonode[](-0.297916333333333,1.00000000000000){ajjd}
-\rput(ajjd){\rput(0;0){$ 1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,0){ajiI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.750000000000000,0){ajiK}
+\ncline[linestyle=solid,linecolor=black]{->}{ajiI}{ajiK}
+\pstGeonode[](-0.297916333333333,1.00000000000000){ajjh}
+\rput(ajjh){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,2.00000000000000){ajjj}
-\rput(ajjj){\rput(0;0){$ 2 $}}
+\pstGeonode[](-0.297916333333333,2.00000000000000){ajjn}
+\rput(ajjn){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,2.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,3.00000000000000){ajjp}
-\rput(ajjp){\rput(0;0){$ 3 $}}
+\pstGeonode[](-0.297916333333333,3.00000000000000){ajjt}
+\rput(ajjt){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,3.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.500000000000000){ajjr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.06200000000000){ajjt}
-\ncline[linestyle=solid,linecolor=black]{->}{ajjr}{ajjt}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.500000000000000){ajjv}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.06200000000000){ajjx}
+\ncline[linestyle=solid,linecolor=black]{->}{ajjv}{ajjx}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-2.00000000000000}{0.250000000000000}{(x + 1)^2 + 1}
 %OTHER STUFF

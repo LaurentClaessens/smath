@@ -55,27 +55,27 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aIAT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,15.0000000000000){aIAU}
-\ncline[linestyle=solid,linecolor=black]{->}{aIAT}{aIAU}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,15.0000000000000){aIAU}
-\pstGeonode[](-2.97129722222222,15.6665038888889){aICf}
-\rput(aICf){\rput(0;0){\unit{15}{\kilo\meter\per\hour}}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,15.0000000000000){aIAU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIAV}
-\ncline[linestyle=solid,linecolor=black]{->}{aIAU}{aIAV}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIAV}
-\pstGeonode[](6.97824277777778,16.3331705555556){aICo}
-\rput(aICo){\rput(0;0){\unit{5}{\kilo\meter\per\hour}}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aIAT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](20.0000000000000,0){aIAW}
-\pstLineAB[linestyle=solid,linecolor=blue]{aIAT}{aIAW}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,20.0000000000000){aIAX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](20.0000000000000,20.0000000000000){aIAY}
-\pstLineAB[linestyle=solid,linecolor=blue]{aIAX}{aIAY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aIAT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIBj}
-\ncline[linestyle=solid,linecolor=red]{->}{aIAT}{aIBj}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIBj}
-\pstGeonode[](6.11310340967992,14.0680460347645){aICB}
-\rput(aICB){\rput(0;0){\( \vect{ v }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aIzD}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,15.0000000000000){aIzE}
+\ncline[linestyle=solid,linecolor=black]{->}{aIzD}{aIzE}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,15.0000000000000){aIzE}
+\pstGeonode[](-2.97129722222222,15.6665038888889){aIAP}
+\rput(aIAP){\rput(0;0){\unit{15}{\kilo\meter\per\hour}}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,15.0000000000000){aIzE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIzF}
+\ncline[linestyle=solid,linecolor=black]{->}{aIzE}{aIzF}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIzF}
+\pstGeonode[](6.97824277777778,16.3331705555556){aIAY}
+\rput(aIAY){\rput(0;0){\unit{5}{\kilo\meter\per\hour}}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aIzD}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](20.0000000000000,0){aIzG}
+\pstLineAB[linestyle=solid,linecolor=blue]{aIzD}{aIzG}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,20.0000000000000){aIzH}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](20.0000000000000,20.0000000000000){aIzI}
+\pstLineAB[linestyle=solid,linecolor=blue]{aIzH}{aIzI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,0){aIzN}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,15.0000000000000){aIzO}
+\pstLineAB[linestyle=solid,linecolor=red]{aIzN}{aIzO}
+\pstGeonode[](6.11310340967992,6.56804603476452){aIBq}
+\rput(aIBq){\rput(0;0){\( \vect{ v }\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

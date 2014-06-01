@@ -8,16 +8,16 @@
 %SPECIFIC_NEEDS
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfhomemokySagelocalbinsageipython}{\newlength{\lengthOfhomemokySagelocalbinsageipython}}{}\makeatother%
-\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigKDtwIJfPICTKDtwIJf.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigKDtwIJfPICTKDtwIJfaaaa:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigKDtwIJfPICTKDtwIJfaaab:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{Environ \( \frac{ 3 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigKDtwIJfPICTKDtwIJfaaac:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{Environ \( \frac{ 3 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigKDtwIJfPICTKDtwIJfaaad:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigKDtwIJfPICTKDtwIJfaaae:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigKDtwIJfPICTKDtwIJfaaaf:\the\lengthOfhomemokySagelocalbinsageipython-}
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigKDtwIJfPICTKDtwIJfaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigKDtwIJfPICTKDtwIJfaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 3 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigKDtwIJfPICTKDtwIJfaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{Environ \( \frac{ 3 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigKDtwIJfPICTKDtwIJfaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigKDtwIJfPICTKDtwIJfaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigKDtwIJfPICTKDtwIJfaaaf:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %SUBFIGURES
@@ -43,71 +43,71 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0.500000000000000){abxU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.00000000000000){abxV}
-\pstLineAB[linestyle=solid,linecolor=black]{abxU}{abxV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,0.500000000000000){abyi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,1.00000000000000){abyj}
-\pstLineAB[linestyle=solid,linecolor=black]{abyi}{abyj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0.750000000000000){abxW}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.750000000000000){abxX}
-\pstLineAB[linestyle=solid,linecolor=black]{abxW}{abxX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){abxY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){abxZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){abxZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){abya}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){abya}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){abyb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){abyb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){abxY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0.500000000000000){bjEO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.00000000000000){bjEP}
+\pstLineAB[linestyle=solid,linecolor=black]{bjEO}{bjEP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,0.500000000000000){bjFc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,1.00000000000000){bjFd}
+\pstLineAB[linestyle=solid,linecolor=black]{bjFc}{bjFd}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0.750000000000000){bjEQ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.750000000000000){bjER}
+\pstLineAB[linestyle=solid,linecolor=black]{bjEQ}{bjER}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){bjES}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){bjET}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){bjET}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){bjEU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){bjEU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){bjEV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){bjEV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){bjES}
 \pscustom[linestyle=none,linecolor=black,fillstyle=none]{
-\pstLineAB[linestyle=solid,linecolor=black]{abxY}{abxZ}
-\pstLineAB[linestyle=solid,linecolor=black]{abxZ}{abya}
-\pstLineAB[linestyle=solid,linecolor=black]{abya}{abyb}
-\pstLineAB[linestyle=solid,linecolor=black]{abyb}{abxY}
+\pstLineAB[linestyle=solid,linecolor=black]{bjES}{bjET}
+\pstLineAB[linestyle=solid,linecolor=black]{bjET}{bjEU}
+\pstLineAB[linestyle=solid,linecolor=black]{bjEU}{bjEV}
+\pstLineAB[linestyle=solid,linecolor=black]{bjEV}{bjES}
 }
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){abxY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){abxZ}
-\pstLineAB[linestyle=solid,linecolor=black]{abxY}{abxZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){abxZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){abya}
-\pstLineAB[linestyle=solid,linecolor=black]{abxZ}{abya}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){abya}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){abyb}
-\pstLineAB[linestyle=solid,linecolor=black]{abya}{abyb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){abyb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){abxY}
-\pstLineAB[linestyle=solid,linecolor=black]{abyb}{abxY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](55.0000000000000,0.500000000000000){abye}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](55.0000000000000,1.00000000000000){abyf}
-\pstLineAB[linestyle=solid,linecolor=red]{abye}{abyf}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.750000000000000){abyg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,0.750000000000000){abyh}
-\pstLineAB[linestyle=solid,linecolor=black]{abyg}{abyh}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](15.0000000000000,-0.200000000000003){abAt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.200000000000003){abxq}
-\ncline[linestyle=solid,linecolor=black]{->}{abAt}{abxq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](15.0000000000000,-0.200000000000003){abAt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,-0.200000000000003){abxr}
-\ncline[linestyle=solid,linecolor=black]{->}{abAt}{abxr}
-\pstGeonode[](15.0000000000000,-0.500000000000003){abAC}
-\rput(abAC){\rput(0;0){Environ \( \frac{ 1 }{ 4 }\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](40.0000000000000,1.30000000000001){abAF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.30000000000001){abxD}
-\ncline[linestyle=solid,linecolor=black]{->}{abAF}{abxD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](40.0000000000000,1.30000000000001){abAF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.30000000000001){abxE}
-\ncline[linestyle=solid,linecolor=black]{->}{abAF}{abxE}
-\pstGeonode[](40.0000000000000,1.60000000000001){abAO}
-\rput(abAO){\rput(0;0){Environ \( \frac{ 3 }{ 4 }\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](90.0000000000000,-0.199999999999999){abAR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,-0.199999999999999){abxQ}
-\ncline[linestyle=solid,linecolor=black]{->}{abAR}{abxQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](90.0000000000000,-0.199999999999999){abAR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,-0.199999999999999){abxR}
-\ncline[linestyle=solid,linecolor=black]{->}{abAR}{abxR}
-\pstGeonode[](90.0000000000000,-0.499999999999999){abBa}
-\rput(abBa){\rput(0;0){Environ \( \frac{ 1 }{ 4 }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){bjES}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){bjET}
+\pstLineAB[linestyle=solid,linecolor=black]{bjES}{bjET}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.500000000000000){bjET}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){bjEU}
+\pstLineAB[linestyle=solid,linecolor=black]{bjET}{bjEU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.00000000000000){bjEU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){bjEV}
+\pstLineAB[linestyle=solid,linecolor=black]{bjEU}{bjEV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,1.00000000000000){bjEV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,0.500000000000000){bjES}
+\pstLineAB[linestyle=solid,linecolor=black]{bjEV}{bjES}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](55.0000000000000,0.500000000000000){bjEY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](55.0000000000000,1.00000000000000){bjEZ}
+\pstLineAB[linestyle=solid,linecolor=red]{bjEY}{bjEZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,0.750000000000000){bjFa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,0.750000000000000){bjFb}
+\pstLineAB[linestyle=solid,linecolor=black]{bjFa}{bjFb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](15.0000000000000,-0.200000000000003){bjHn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.200000000000003){bjEk}
+\ncline[linestyle=solid,linecolor=black]{->}{bjHn}{bjEk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](15.0000000000000,-0.200000000000003){bjHn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](30.0000000000000,-0.200000000000003){bjEl}
+\ncline[linestyle=solid,linecolor=black]{->}{bjHn}{bjEl}
+\pstGeonode[](15.0000000000000,-0.500000000000003){bjHw}
+\rput(bjHw){\rput(0;0){Environ \( \frac{ 1 }{ 4 }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](40.0000000000000,1.30000000000001){bjHz}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.30000000000001){bjEx}
+\ncline[linestyle=solid,linecolor=black]{->}{bjHz}{bjEx}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](40.0000000000000,1.30000000000001){bjHz}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,1.30000000000001){bjEy}
+\ncline[linestyle=solid,linecolor=black]{->}{bjHz}{bjEy}
+\pstGeonode[](40.0000000000000,1.60000000000001){bjHI}
+\rput(bjHI){\rput(0;0){Environ \( \frac{ 3 }{ 4 }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](90.0000000000000,-0.199999999999999){bjHL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](80.0000000000000,-0.199999999999999){bjEK}
+\ncline[linestyle=solid,linecolor=black]{->}{bjHL}{bjEK}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](90.0000000000000,-0.199999999999999){bjHL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](100.000000000000,-0.199999999999999){bjEL}
+\ncline[linestyle=solid,linecolor=black]{->}{bjHL}{bjEL}
+\pstGeonode[](90.0000000000000,-0.499999999999999){bjHU}
+\rput(bjHU){\rput(0;0){Environ \( \frac{ 1 }{ 4 }\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

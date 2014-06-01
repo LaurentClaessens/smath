@@ -65,37 +65,37 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.600000000000000,0){aJEG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.60000000000000,0){aJEI}
-\ncline[linestyle=solid,linecolor=black]{->}{aJEG}{aJEI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.600000000000000){aJEM}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.60000000000000){aJEO}
-\ncline[linestyle=solid,linecolor=black]{->}{aJEM}{aJEO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.600000000000000,0){aJwM}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.60000000000000,0){aJwO}
+\ncline[linestyle=solid,linecolor=black]{->}{aJwM}{aJwO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.600000000000000){aJwS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.60000000000000){aJwU}
+\ncline[linestyle=solid,linecolor=black]{->}{aJwS}{aJwU}
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aJBU}
-\pstGeonode[](-0.288225356237309,0.278088022903976){aJFm}
-\rput(aJFm){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){aJBV}
-\pstGeonode[](4.30028568957064,3.27808802290398){aJFs}
-\rput(aJFs){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,1.50000000000000){aJBY}
-\pstGeonode[](1.67760781042936,1.77808802290398){aJFy}
-\rput(aJFy){\rput(0;0){\( K\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,0){aJCq}
-\pstGeonode[](2.10209433333333,-0.336666666666667){aJFE}
-\rput(aJFE){\rput(0;0){\( I\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,0){aJCG}
-\pstGeonode[](4.12675883333333,-0.336666666666667){aJFK}
-\rput(aJFK){\rput(0;0){\( J\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,1.50000000000000){aJBY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,0){aJCq}
-\pstLineAB[linestyle=dashed,linecolor=black]{aJBY}{aJCq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){aJBV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aJCG}
-\pstLineAB[linestyle=dashed,linecolor=black]{aJBV}{aJCG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aJBU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){aJBV}
-\pstLineAB[linestyle=solid,linecolor=black]{aJBU}{aJBV}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aJua}
+\pstGeonode[](-0.288225356237309,0.278088022903976){aJxs}
+\rput(aJxs){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){aJub}
+\pstGeonode[](4.30028568957064,3.27808802290398){aJxy}
+\rput(aJxy){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,1.50000000000000){aJue}
+\pstGeonode[](1.67760781042936,1.77808802290398){aJxE}
+\rput(aJxE){\rput(0;0){\( K\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,0){aJuw}
+\pstGeonode[](2.10209433333333,-0.336666666666667){aJxK}
+\rput(aJxK){\rput(0;0){\( I\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,0){aJuM}
+\pstGeonode[](4.12675883333333,-0.336666666666667){aJxQ}
+\rput(aJxQ){\rput(0;0){\( J\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,1.50000000000000){aJue}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,0){aJuw}
+\pstLineAB[linestyle=dashed,linecolor=black]{aJue}{aJuw}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){aJub}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aJuM}
+\pstLineAB[linestyle=dashed,linecolor=black]{aJub}{aJuM}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aJua}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,3.00000000000000){aJub}
+\pstLineAB[linestyle=solid,linecolor=black]{aJua}{aJub}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

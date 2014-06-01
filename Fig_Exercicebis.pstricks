@@ -787,42 +787,42 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-3.00000000000000,-0.285714285714286){acRT}
-\rput(acRT){\rput(0;0){$ -3 $}}
+\pstGeonode[](-3.00000000000000,-0.285714285714286){acRX}
+\rput(acRX){\rput(0;0){$ -3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
-\pstGeonode[](-2.00000000000000,-0.285714285714286){acRZ}
-\rput(acRZ){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.285714285714286){acSd}
+\rput(acSd){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.285714285714286){acSf}
-\rput(acSf){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.285714285714286){acSj}
+\rput(acSj){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.285714285714286){acSl}
-\rput(acSl){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.285714285714286){acSp}
+\rput(acSp){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.285714285714286){acSr}
-\rput(acSr){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.285714285714286){acSv}
+\rput(acSv){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.285714285714286){acSx}
-\rput(acSx){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.285714285714286){acSB}
+\rput(acSB){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.285714285714286){acSD}
-\rput(acSD){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.285714285714286){acSH}
+\rput(acSH){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.285714285714286){acSJ}
-\rput(acSJ){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.285714285714286){acSN}
+\rput(acSN){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){acSL}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){acSN}
-\ncline[linestyle=solid,linecolor=black]{->}{acSL}{acSN}
-\pstGeonode[](-0.285714285714286,-1.00000000000000){acTf}
-\rput(acTf){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){acSP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){acSR}
+\ncline[linestyle=solid,linecolor=black]{->}{acSP}{acSR}
+\pstGeonode[](-0.285714285714286,-1.00000000000000){acTj}
+\rput(acTj){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.285714285714286,1.00000000000000){acTl}
-\rput(acTl){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.285714285714286,1.00000000000000){acTp}
+\rput(acTp){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){acTn}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){acTp}
-\ncline[linestyle=solid,linecolor=black]{->}{acTn}{acTp}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){acTr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){acTt}
+\ncline[linestyle=solid,linecolor=black]{->}{acTr}{acTt}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.14159265358979}{4.71238898038469}{cos(x)}
 %OTHER STUFF
@@ -850,39 +850,39 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-3.00000000000000,-0.285714285714286){adcc}
-\rput(adcc){\rput(0;0){$ -3 $}}
+\pstGeonode[](-3.00000000000000,-0.285714285714286){adcg}
+\rput(adcg){\rput(0;0){$ -3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
-\pstGeonode[](-2.00000000000000,-0.285714285714286){adci}
-\rput(adci){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.285714285714286){adcm}
+\rput(adcm){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.285714285714286){adco}
-\rput(adco){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.285714285714286){adcs}
+\rput(adcs){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.285714285714286){adcu}
-\rput(adcu){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.285714285714286){adcy}
+\rput(adcy){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.285714285714286){adcA}
-\rput(adcA){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.285714285714286){adcE}
+\rput(adcE){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.285714285714286){adcG}
-\rput(adcG){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.285714285714286){adcK}
+\rput(adcK){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.285714285714286){adcM}
-\rput(adcM){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.285714285714286){adcQ}
+\rput(adcQ){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.285714285714286){adcS}
-\rput(adcS){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.285714285714286){adcW}
+\rput(adcW){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){adcU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){adcW}
-\ncline[linestyle=solid,linecolor=black]{->}{adcU}{adcW}
-\pstGeonode[](-0.285714285714286,1.00000000000000){addj}
-\rput(addj){\rput(0;0){$ 1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){adcY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){adda}
+\ncline[linestyle=solid,linecolor=black]{->}{adcY}{adda}
+\pstGeonode[](-0.285714285714286,1.00000000000000){addn}
+\rput(addn){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.714285714285714){addl}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){addn}
-\ncline[linestyle=solid,linecolor=black]{->}{addl}{addn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.714285714285714){addp}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){addr}
+\ncline[linestyle=solid,linecolor=black]{->}{addp}{addr}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.14159265358979}{4.71238898038469}{abs(cos(x))}
 %OTHER STUFF
@@ -910,51 +910,51 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-4.00000000000000,-0.400000000000000){adlt}
-\rput(adlt){\rput(0;0){$ -4 $}}
+\pstGeonode[](-4.00000000000000,-0.400000000000000){adlx}
+\rput(adlx){\rput(0;0){$ -4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-4.00000000000000,0){ForTheBar}
-\pstGeonode[](-3.00000000000000,-0.400000000000000){adlz}
-\rput(adlz){\rput(0;0){$ -3 $}}
+\pstGeonode[](-3.00000000000000,-0.400000000000000){adlD}
+\rput(adlD){\rput(0;0){$ -3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
-\pstGeonode[](-2.00000000000000,-0.400000000000000){adlF}
-\rput(adlF){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.400000000000000){adlJ}
+\rput(adlJ){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.400000000000000){adlL}
-\rput(adlL){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.400000000000000){adlP}
+\rput(adlP){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.400000000000000){adlR}
-\rput(adlR){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.400000000000000){adlV}
+\rput(adlV){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.400000000000000){adlX}
-\rput(adlX){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.400000000000000){admb}
+\rput(admb){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.400000000000000){admd}
-\rput(admd){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.400000000000000){admh}
+\rput(admh){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.400000000000000){admj}
-\rput(admj){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.400000000000000){admn}
+\rput(admn){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.400000000000000){admp}
-\rput(admp){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.400000000000000){admt}
+\rput(admt){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.14159265358979,0){admr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.71238898038469,0){admt}
-\ncline[linestyle=solid,linecolor=black]{->}{admr}{admt}
-\pstGeonode[](-0.400000000000000,-1.00000000000000){admV}
-\rput(admV){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.14159265358979,0){admv}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.71238898038469,0){admx}
+\ncline[linestyle=solid,linecolor=black]{->}{admv}{admx}
+\pstGeonode[](-0.400000000000000,-1.00000000000000){admZ}
+\rput(admZ){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.400000000000000,1.00000000000000){adnb}
-\rput(adnb){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.400000000000000,1.00000000000000){adnf}
+\rput(adnf){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[](-0.400000000000000,2.00000000000000){adnh}
-\rput(adnh){\rput(0;0){$ 2 $}}
+\pstGeonode[](-0.400000000000000,2.00000000000000){adnl}
+\rput(adnl){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,2.00000000000000){ForTheBar}
-\pstGeonode[](-0.400000000000000,3.00000000000000){adnn}
-\rput(adnn){\rput(0;0){$ 3 $}}
+\pstGeonode[](-0.400000000000000,3.00000000000000){adnr}
+\rput(adnr){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,3.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.00000000000000){adnp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){adnr}
-\ncline[linestyle=solid,linecolor=black]{->}{adnp}{adnr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.00000000000000){adnt}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){adnv}
+\ncline[linestyle=solid,linecolor=black]{->}{adnt}{adnv}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.14159265358979}{4.71238898038469}{cos(x) + 1}
 %OTHER STUFF
@@ -982,42 +982,42 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-3.00000000000000,-0.285714285714286){adyo}
-\rput(adyo){\rput(0;0){$ -3 $}}
+\pstGeonode[](-3.00000000000000,-0.285714285714286){adys}
+\rput(adys){\rput(0;0){$ -3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
-\pstGeonode[](-2.00000000000000,-0.285714285714286){adyu}
-\rput(adyu){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.285714285714286){adyy}
+\rput(adyy){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.285714285714286){adyA}
-\rput(adyA){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.285714285714286){adyE}
+\rput(adyE){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.285714285714286){adyG}
-\rput(adyG){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.285714285714286){adyK}
+\rput(adyK){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.285714285714286){adyM}
-\rput(adyM){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.285714285714286){adyQ}
+\rput(adyQ){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.285714285714286){adyS}
-\rput(adyS){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.285714285714286){adyW}
+\rput(adyW){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.285714285714286){adyY}
-\rput(adyY){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.285714285714286){adzc}
+\rput(adzc){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.285714285714286){adze}
-\rput(adze){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.285714285714286){adzi}
+\rput(adzi){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){adzg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){adzi}
-\ncline[linestyle=solid,linecolor=black]{->}{adzg}{adzi}
-\pstGeonode[](-0.285714285714286,-1.00000000000000){adzA}
-\rput(adzA){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){adzk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){adzm}
+\ncline[linestyle=solid,linecolor=black]{->}{adzk}{adzm}
+\pstGeonode[](-0.285714285714286,-1.00000000000000){adzE}
+\rput(adzE){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.285714285714286,1.00000000000000){adzG}
-\rput(adzG){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.285714285714286,1.00000000000000){adzK}
+\rput(adzK){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){adzI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){adzK}
-\ncline[linestyle=solid,linecolor=black]{->}{adzI}{adzK}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){adzM}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){adzO}
+\ncline[linestyle=solid,linecolor=black]{->}{adzM}{adzO}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.14159265358979}{4.71238898038469}{cos(1/2*3.141516 + x)}
 %OTHER STUFF
@@ -1045,42 +1045,42 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-3.00000000000000,-0.285714285714286){adIx}
-\rput(adIx){\rput(0;0){$ -3 $}}
+\pstGeonode[](-3.00000000000000,-0.285714285714286){adIB}
+\rput(adIB){\rput(0;0){$ -3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
-\pstGeonode[](-2.00000000000000,-0.285714285714286){adID}
-\rput(adID){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.285714285714286){adIH}
+\rput(adIH){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.285714285714286){adIJ}
-\rput(adIJ){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.285714285714286){adIN}
+\rput(adIN){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.285714285714286){adIP}
-\rput(adIP){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.285714285714286){adIT}
+\rput(adIT){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.285714285714286){adIV}
-\rput(adIV){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.285714285714286){adIZ}
+\rput(adIZ){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.285714285714286){adJb}
-\rput(adJb){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.285714285714286){adJf}
+\rput(adJf){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.285714285714286){adJh}
-\rput(adJh){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.285714285714286){adJl}
+\rput(adJl){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.285714285714286){adJn}
-\rput(adJn){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.285714285714286){adJr}
+\rput(adJr){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){adJp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){adJr}
-\ncline[linestyle=solid,linecolor=black]{->}{adJp}{adJr}
-\pstGeonode[](-0.285714285714286,-1.00000000000000){adJJ}
-\rput(adJJ){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){adJt}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){adJv}
+\ncline[linestyle=solid,linecolor=black]{->}{adJt}{adJv}
+\pstGeonode[](-0.285714285714286,-1.00000000000000){adJN}
+\rput(adJN){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.285714285714286,1.00000000000000){adJP}
-\rput(adJP){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.285714285714286,1.00000000000000){adJT}
+\rput(adJT){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){adJR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){adJT}
-\ncline[linestyle=solid,linecolor=black]{->}{adJR}{adJT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){adJV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){adJX}
+\ncline[linestyle=solid,linecolor=black]{->}{adJV}{adJX}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=1000,linecolor=blue]{-3.14159265358979}{4.71238898038469}{cos(2.718281828459045^x)}
 %OTHER STUFF
@@ -1108,39 +1108,39 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-2.00000000000000,-0.285714285714286){adSG}
-\rput(adSG){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.285714285714286){adSK}
+\rput(adSK){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.285714285714286){adSM}
-\rput(adSM){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.285714285714286){adSQ}
+\rput(adSQ){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.285714285714286){adSS}
-\rput(adSS){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.285714285714286){adSW}
+\rput(adSW){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.285714285714286){adSY}
-\rput(adSY){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.285714285714286){adTc}
+\rput(adTc){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.285714285714286){adTe}
-\rput(adTe){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.285714285714286){adTi}
+\rput(adTi){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.285714285714286){adTk}
-\rput(adTk){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.285714285714286){adTo}
+\rput(adTo){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.285714285714286){adTq}
-\rput(adTq){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.285714285714286){adTu}
+\rput(adTu){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[](6.00000000000000,-0.285714285714286){adTw}
-\rput(adTw){\rput(0;0){$ 6 $}}
+\pstGeonode[](6.00000000000000,-0.285714285714286){adTA}
+\rput(adTA){\rput(0;0){$ 6 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](6.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.28508204108061,0){adTy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](6.99747102146530,0){adTA}
-\ncline[linestyle=solid,linecolor=black]{->}{adTy}{adTA}
-\pstGeonode[](-0.285714285714286,1.00000000000000){adTN}
-\rput(adTN){\rput(0;0){$ 1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.28508204108061,0){adTC}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](6.99747102146530,0){adTE}
+\ncline[linestyle=solid,linecolor=black]{->}{adTC}{adTE}
+\pstGeonode[](-0.285714285714286,1.00000000000000){adTR}
+\rput(adTR){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.714285714285714){adTP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){adTR}
-\ncline[linestyle=solid,linecolor=black]{->}{adTP}{adTR}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.714285714285714){adTT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){adTV}
+\ncline[linestyle=solid,linecolor=black]{->}{adTT}{adTV}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-1.57079632679490}{1.57079632679490}{sqrt(cos(x))}
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{4.71238898038469}{6.28318530717959}{sqrt(cos(x))}
@@ -1169,42 +1169,42 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-3.00000000000000,-0.285714285714286){aebS}
-\rput(aebS){\rput(0;0){$ -3 $}}
+\pstGeonode[](-3.00000000000000,-0.285714285714286){aebW}
+\rput(aebW){\rput(0;0){$ -3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-3.00000000000000,0){ForTheBar}
-\pstGeonode[](-2.00000000000000,-0.285714285714286){aebY}
-\rput(aebY){\rput(0;0){$ -2 $}}
+\pstGeonode[](-2.00000000000000,-0.285714285714286){aecc}
+\rput(aecc){\rput(0;0){$ -2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.285714285714286){aece}
-\rput(aece){\rput(0;0){$ -1 $}}
+\pstGeonode[](-1.00000000000000,-0.285714285714286){aeci}
+\rput(aeci){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.285714285714286){aeck}
-\rput(aeck){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.285714285714286){aeco}
+\rput(aeco){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.285714285714286){aecq}
-\rput(aecq){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.285714285714286){aecu}
+\rput(aecu){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.285714285714286){aecw}
-\rput(aecw){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.285714285714286){aecA}
+\rput(aecA){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.285714285714286){aecC}
-\rput(aecC){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.285714285714286){aecG}
+\rput(aecG){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.285714285714286){aecI}
-\rput(aecI){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.285714285714286){aecM}
+\rput(aecM){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){aecK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){aecM}
-\ncline[linestyle=solid,linecolor=black]{->}{aecK}{aecM}
-\pstGeonode[](-0.285714285714286,-1.00000000000000){aede}
-\rput(aede){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.85587836787551,0){aecO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.42667469467040,0){aecQ}
+\ncline[linestyle=solid,linecolor=black]{->}{aecO}{aecQ}
+\pstGeonode[](-0.285714285714286,-1.00000000000000){aedi}
+\rput(aedi){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.285714285714286,1.00000000000000){aedk}
-\rput(aedk){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.285714285714286,1.00000000000000){aedo}
+\rput(aedo){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){aedm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){aedo}
-\ncline[linestyle=solid,linecolor=black]{->}{aedm}{aedo}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.71428571428571){aedq}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.71428571428571){aeds}
+\ncline[linestyle=solid,linecolor=black]{->}{aedq}{aeds}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-3.14159265358979}{4.71238898038469}{cos(4*x)}
 %OTHER STUFF

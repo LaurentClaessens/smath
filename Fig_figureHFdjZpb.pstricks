@@ -62,28 +62,28 @@
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.60000000000000,0){aIOB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.60000000000000,0){aIOD}
-\ncline[linestyle=solid,linecolor=black]{->}{aIOB}{aIOD}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.60000000000000,0){aINl}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.60000000000000,0){aINn}
+\ncline[linestyle=solid,linecolor=black]{->}{aINl}{aINn}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,2.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.60000000000000){aIOK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.60000000000000){aIOM}
-\ncline[linestyle=solid,linecolor=black]{->}{aIOK}{aIOM}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.60000000000000){aINu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.60000000000000){aINw}
+\ncline[linestyle=solid,linecolor=black]{->}{aINu}{aINw}
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-1.00000000000000,1.00000000000000){aIML}
-\pstGeonode[](-1.28822535623731,1.27808802290398){aIPU}
-\rput(aIPU){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aIMM}
-\pstGeonode[](2.35886433333333,2.13666666666667){aIQa}
-\rput(aIQa){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){aIMO}
-\pstGeonode[](-1.29589185623731,-1.27808802290398){aIQg}
-\rput(aIQg){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){aIMN}
-\pstGeonode[](2.36803566666667,-0.863333333333333){aIQm}
-\rput(aIQm){\rput(0;0){\( D\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-1.00000000000000,1.00000000000000){aILv}
+\pstGeonode[](-1.28822535623731,1.27808802290398){aIOE}
+\rput(aIOE){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aILw}
+\pstGeonode[](2.35886433333333,2.13666666666667){aIOK}
+\rput(aIOK){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){aILy}
+\pstGeonode[](-1.29589185623731,-1.27808802290398){aIOQ}
+\rput(aIOQ){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){aILx}
+\pstGeonode[](2.36803566666667,-0.863333333333333){aIOW}
+\rput(aIOW){\rput(0;0){\( D\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

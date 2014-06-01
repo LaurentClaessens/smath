@@ -55,24 +55,24 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aDFx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aDFy}
-\ncline[linestyle=solid,linecolor=blue]{->}{aDFx}{aDFy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aDFy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aDFz}
-\ncline[linestyle=solid,linecolor=blue]{->}{aDFy}{aDFz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aDFx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aDFz}
-\ncline[linestyle=solid,linecolor=red]{->}{aDFx}{aDFz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aDFx}
-\pstGeonode[](0.146804000000000,-0.336666666666667){aDGH}
-\rput(aDGH){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aDFy}
-\pstGeonode[](1.15886433333333,3.33666666666667){aDGN}
-\rput(aDGN){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aDFz}
-\pstGeonode[](2.35447050000000,2.13666666666667){aDGT}
-\rput(aDGT){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aDFJ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aDFK}
+\ncline[linestyle=solid,linecolor=blue]{->}{aDFJ}{aDFK}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aDFK}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aDFL}
+\ncline[linestyle=solid,linecolor=blue]{->}{aDFK}{aDFL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aDFJ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aDFL}
+\ncline[linestyle=solid,linecolor=red]{->}{aDFJ}{aDFL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aDFJ}
+\pstGeonode[](0.146804000000000,-0.336666666666667){aDGT}
+\rput(aDGT){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aDFK}
+\pstGeonode[](1.15886433333333,3.33666666666667){aDGZ}
+\rput(aDGZ){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,2.00000000000000){aDFL}
+\pstGeonode[](2.35447050000000,2.13666666666667){aDHf}
+\rput(aDHf){\rput(0;0){\( C\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

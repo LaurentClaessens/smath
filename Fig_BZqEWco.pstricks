@@ -47,20 +47,20 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.71428571428571,0){aZuk}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.71428571428571,0){aZum}
-\ncline[linestyle=solid,linecolor=black]{->}{aZuk}{aZum}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-4.71428571428571){aZuq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.71428571428571){aZus}
-\ncline[linestyle=solid,linecolor=black]{->}{aZuq}{aZus}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.71428571428571,0){aXGS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.71428571428571,0){aXGU}
+\ncline[linestyle=solid,linecolor=black]{->}{aXGS}{aXGU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-4.71428571428571){aXGY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.71428571428571){aXHa}
+\ncline[linestyle=solid,linecolor=black]{->}{aXGY}{aXHa}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-2.00000000000000}{4.00000000000000}{x - 2}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,0){aZtg}
-\pstGeonode[](1.07395115775622,0.487675032719966){aZuQ}
-\rput(aZuQ){\rput(0;0){\( -p/m\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,-2.00000000000000){aZtf}
-\pstGeonode[](-0.342439318434252,-1.61939853870861){aZuW}
-\rput(aZuW){\rput(0;0){\( p\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,0){aXFO}
+\pstGeonode[](1.07395115775622,0.487675032719966){aXHy}
+\rput(aXHy){\rput(0;0){\( -p/m\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,-2.00000000000000){aXFN}
+\pstGeonode[](-0.342439318434252,-1.61939853870861){aXHE}
+\rput(aXHE){\rput(0;0){\( p\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

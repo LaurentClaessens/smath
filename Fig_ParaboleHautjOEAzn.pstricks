@@ -47,17 +47,17 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0){ajxR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){ajxT}
-\ncline[linestyle=solid,linecolor=black]{->}{ajxR}{ajxT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0){ajxV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){ajxX}
+\ncline[linestyle=solid,linecolor=black]{->}{ajxV}{ajxX}
 %DEFAULT
-\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{0.500000000000000}{3.50000000000000}{(x - 3)*(x - 1)}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){ajwM}
-\pstGeonode[](2.66812814376269,0.257532356237310){ajyr}
-\rput(ajyr){\rput(0;0){\( x_2\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,0){ajwN}
-\pstGeonode[](1.33187185623731,0.257532356237310){ajyx}
-\rput(ajyx){\rput(0;0){\( x_1\)}}
+\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{0.500000000000000}{3.50000000000000}{(x - 1)*(x - 3)}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){ajwQ}
+\pstGeonode[](2.66812814376269,0.257532356237310){ajyv}
+\rput(ajyv){\rput(0;0){\( x_2\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,0){ajwR}
+\pstGeonode[](1.33187185623731,0.257532356237310){ajyB}
+\rput(ajyB){\rput(0;0){\( x_1\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

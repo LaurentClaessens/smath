@@ -61,25 +61,25 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aGRC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGRD}
-\ncline[linestyle=solid,linecolor=blue]{->}{aGRC}{aGRD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aGRC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aGRE}
-\ncline[linestyle=solid,linecolor=red]{->}{aGRC}{aGRE}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aGRE}
-\pstGeonode[](2.19993916666667,-0.343166666666667){aGTc}
-\rput(aGTc){\rput(0;0){\( x_B-x_A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aGRE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGRD}
-\ncline[linestyle=solid,linecolor=red]{->}{aGRE}{aGRD}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGRD}
-\pstGeonode[](3.86834133333333,1.15205533333333){aGTk}
-\rput(aGTk){\rput(0;0){\( y_B-y_A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aGRC}
-\pstGeonode[](-0.346804000000000,0.136666666666667){aGTq}
-\rput(aGTq){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGRD}
-\pstGeonode[](3.30028568957064,2.27808802290398){aGTw}
-\rput(aGTw){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aGQm}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGQn}
+\ncline[linestyle=solid,linecolor=blue]{->}{aGQm}{aGQn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aGQm}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aGQo}
+\ncline[linestyle=solid,linecolor=red]{->}{aGQm}{aGQo}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aGQo}
+\pstGeonode[](2.19993916666667,-0.343166666666667){aGRM}
+\rput(aGRM){\rput(0;0){\( x_B-x_A\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aGQo}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGQn}
+\ncline[linestyle=solid,linecolor=red]{->}{aGQo}{aGQn}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGQn}
+\pstGeonode[](3.86834133333333,1.15205533333333){aGRU}
+\rput(aGRU){\rput(0;0){\( y_B-y_A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aGQm}
+\pstGeonode[](-0.346804000000000,0.136666666666667){aGSa}
+\rput(aGSa){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aGQn}
+\pstGeonode[](3.30028568957064,2.27808802290398){aGSg}
+\rput(aGSg){\rput(0;0){\( B\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

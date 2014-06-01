@@ -41,14 +41,14 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,0){ajBQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,0){ajBS}
-\ncline[linestyle=solid,linecolor=black]{->}{ajBQ}{ajBS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,0){ajBU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,0){ajBW}
+\ncline[linestyle=solid,linecolor=black]{->}{ajBU}{ajBW}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-2.00000000000000}{2.00000000000000}{0.4444444444444444*x^2}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){ajBc}
-\pstGeonode[](0.190450500000000,-0.316111000000000){ajCq}
-\rput(ajCq){\rput(0;0){\( x_0\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){ajBg}
+\pstGeonode[](0.190450500000000,-0.316111000000000){ajCu}
+\rput(ajCu){\rput(0;0){\( x_0\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

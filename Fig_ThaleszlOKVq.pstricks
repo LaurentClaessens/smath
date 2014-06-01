@@ -67,33 +67,33 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.749999999999999,-0.250000000000000){aCTx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.75000000000000,1.25000000000000){aCTw}
-\pstLineAB[linestyle=solid,linecolor=black]{aCTx}{aCTw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.75000000000000,1.50000000000000){aCTz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.25000000000000,-1.50000000000000){aCTy}
-\pstLineAB[linestyle=solid,linecolor=black]{aCTz}{aCTy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,-1.25000000000000){aCTB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,0.250000000000000){aCTA}
-\pstLineAB[linestyle=solid,linecolor=black]{aCTB}{aCTA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.37500000000000,0.750000000000000){aCTD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.12500000000000,-0.750000000000000){aCTC}
-\pstLineAB[linestyle=solid,linecolor=red]{aCTD}{aCTC}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aCTj}
-\pstGeonode[](0.146804000000000,0.336666666666667){aCVt}
-\rput(aCVt){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){aCTk}
-\pstGeonode[](3.15886433333333,1.33666666666667){aCVz}
-\rput(aCVz){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,-1.00000000000000){aCTl}
-\pstGeonode[](4.15447050000000,-0.663333333333333){aCVF}
-\rput(aCVF){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.50000000000000,0.500000000000000){aCTo}
-\pstGeonode[](1.63323950000000,0.836666666666667){aCVL}
-\rput(aCVL){\rput(0;0){\( L\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-0.500000000000000){aCTt}
-\pstGeonode[](2.18097083333333,-0.163333333333333){aCVR}
-\rput(aCVR){\rput(0;0){\( K\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.750000000000000,-0.250000000000000){aCTJ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.75000000000000,1.25000000000000){aCTI}
+\pstLineAB[linestyle=solid,linecolor=black]{aCTJ}{aCTI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.75000000000000,1.50000000000000){aCTL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.25000000000000,-1.50000000000000){aCTK}
+\pstLineAB[linestyle=solid,linecolor=black]{aCTL}{aCTK}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,-1.25000000000000){aCTN}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,0.250000000000000){aCTM}
+\pstLineAB[linestyle=solid,linecolor=black]{aCTN}{aCTM}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.37500000000000,0.750000000000000){aCTP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.12500000000000,-0.750000000000000){aCTO}
+\pstLineAB[linestyle=solid,linecolor=red]{aCTP}{aCTO}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aCTv}
+\pstGeonode[](0.146804000000000,0.336666666666667){aCVF}
+\rput(aCVF){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){aCTw}
+\pstGeonode[](3.15886433333333,1.33666666666667){aCVL}
+\rput(aCVL){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,-1.00000000000000){aCTx}
+\pstGeonode[](4.15447050000000,-0.663333333333333){aCVR}
+\rput(aCVR){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.50000000000000,0.500000000000000){aCTA}
+\pstGeonode[](1.63323950000000,0.836666666666667){aCVX}
+\rput(aCVX){\rput(0;0){\( L\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-0.500000000000000){aCTF}
+\pstGeonode[](2.18097083333333,-0.163333333333333){aCWd}
+\rput(aCWd){\rput(0;0){\( K\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

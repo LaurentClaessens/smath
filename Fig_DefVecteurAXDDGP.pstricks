@@ -9,40 +9,40 @@
 \makeatletter\@ifundefined{vect}{\newcommand{\vect}[1]{\overrightarrow{#1}}}{}\makeatother
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfhomemokySagelocalbinsageipython}{\newlength{\lengthOfhomemokySagelocalbinsageipython}}{}\makeatother%
-\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ AB }\)}}%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ AB }\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGP.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaa:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ AB }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaab:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ AB }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaac:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ AB }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaad:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaae:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaf:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaag:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaah:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaai:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaj:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaak:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaal:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaam:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaan:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaao:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaap:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaq:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaar:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaas:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaat:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( \vect{ AB }\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaau:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( \vect{ AB }\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaav:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaw:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaax:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaay:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaz:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaA:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaB:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaC:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaD:\the\lengthOfhomemokySagelocalbinsageipython-}
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ AB }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ AB }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ AB }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ AB }\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ AB }\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigDefVecteurAXDDGPPICTDefVecteurAXDDGPaaaD:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %SUBFIGURES
@@ -68,33 +68,33 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aado}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aadp}
-\ncline[linestyle=solid,linecolor=red]{->}{aado}{aadp}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aadp}
-\pstGeonode[](3.30566833333333,-0.311279833333333){aafi}
-\rput(aafi){\rput(0;0){\( \vect{ AB }\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-3.00000000000000){aadq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aadp}
-\pstLineAB[linestyle=dashed,linecolor=blue]{aadq}{aadp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aado}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aadu}
-\pstLineAB[linestyle=solid,linecolor=brown]{aado}{aadu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aadu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,-4.00000000000000){aadr}
-\pstLineAB[linestyle=solid,linecolor=brown]{aadu}{aadr}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aado}
-\pstGeonode[](0.146804000000000,0.436666666666667){aafu}
-\rput(aafu){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aadp}
-\pstGeonode[](3.35582588393578,-1.17139630220005){aafA}
-\rput(aafA){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-3.00000000000000){aadq}
-\pstGeonode[](2.15447050000000,-3.33666666666667){aafG}
-\rput(aafG){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](5.00000000000000,-4.00000000000000){aadr}
-\pstGeonode[](5.36803566666667,-3.86333333333333){aafM}
-\rput(aafM){\rput(0;0){\( D\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aadu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aCWA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aCWB}
+\ncline[linestyle=solid,linecolor=red]{->}{aCWA}{aCWB}\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aCWB}
+\pstGeonode[](3.30566833333333,-0.311279833333333){aCYu}
+\rput(aCYu){\rput(0;0){\( \vect{ AB }\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-3.00000000000000){aCWC}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aCWB}
+\pstLineAB[linestyle=dashed,linecolor=blue]{aCWC}{aCWB}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aCWA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aCWG}
+\pstLineAB[linestyle=solid,linecolor=brown]{aCWA}{aCWG}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aCWG}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,-4.00000000000000){aCWD}
+\pstLineAB[linestyle=solid,linecolor=brown]{aCWG}{aCWD}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aCWA}
+\pstGeonode[](0.146804000000000,0.436666666666667){aCYG}
+\rput(aCYG){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aCWB}
+\pstGeonode[](3.35582588393578,-1.17139630220005){aCYM}
+\rput(aCYM){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,-3.00000000000000){aCWC}
+\pstGeonode[](2.15447050000000,-3.33666666666667){aCYS}
+\rput(aCYS){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](5.00000000000000,-4.00000000000000){aCWD}
+\pstGeonode[](5.36803566666667,-3.86333333333333){aCYY}
+\rput(aCYY){\rput(0;0){\( D\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.50000000000000,-2.00000000000000){aCWG}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

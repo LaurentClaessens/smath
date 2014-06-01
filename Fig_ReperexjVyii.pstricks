@@ -74,37 +74,37 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.600000000000000,0){akag}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.60000000000000,0){akai}
-\ncline[linestyle=solid,linecolor=black]{->}{akag}{akai}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.600000000000000){akam}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.60000000000000){akao}
-\ncline[linestyle=solid,linecolor=black]{->}{akam}{akao}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.600000000000000,0){akak}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.60000000000000,0){akam}
+\ncline[linestyle=solid,linecolor=black]{->}{akak}{akam}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.600000000000000){akaq}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.60000000000000){akas}
+\ncline[linestyle=solid,linecolor=black]{->}{akaq}{akas}
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){ajXl}
-\pstGeonode[](-0.296521689570643,-0.278088022903976){akaM}
-\rput(akaM){\rput(0;0){\( O\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,0){ajXm}
-\pstGeonode[](1.10209433333333,-0.336666666666667){akaS}
-\rput(akaS){\rput(0;0){\( I\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,1.00000000000000){ajXn}
-\pstGeonode[](-0.326758833333333,1.13666666666667){akaY}
-\rput(akaY){\rput(0;0){\( J\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){ajXo}
-\pstGeonode[](3.35176735623731,2.27808802290398){akbe}
-\rput(akbe){\rput(0;0){\( M\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){ajXD}
-\pstGeonode[](3.26987350000000,-0.316111000000000){akbk}
-\rput(akbk){\rput(0;0){\( x_M\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,2.00000000000000){ajXQ}
-\pstGeonode[](-0.454074666666667,2.12499966666667){akbq}
-\rput(akbq){\rput(0;0){\( y_M\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){ajXo}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){ajXD}
-\pstLineAB[linestyle=dashed,linecolor=blue]{ajXo}{ajXD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){ajXo}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.00000000000000){ajXQ}
-\pstLineAB[linestyle=dashed,linecolor=blue]{ajXo}{ajXQ}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){ajXp}
+\pstGeonode[](-0.296521689570643,-0.278088022903976){akaQ}
+\rput(akaQ){\rput(0;0){\( O\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,0){ajXq}
+\pstGeonode[](1.10209433333333,-0.336666666666667){akaW}
+\rput(akaW){\rput(0;0){\( I\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,1.00000000000000){ajXr}
+\pstGeonode[](-0.326758833333333,1.13666666666667){akbc}
+\rput(akbc){\rput(0;0){\( J\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){ajXs}
+\pstGeonode[](3.35176735623731,2.27808802290398){akbi}
+\rput(akbi){\rput(0;0){\( M\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){ajXH}
+\pstGeonode[](3.26987350000000,-0.316111000000000){akbo}
+\rput(akbo){\rput(0;0){\( x_M\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,2.00000000000000){ajXU}
+\pstGeonode[](-0.454074666666667,2.12499966666667){akbu}
+\rput(akbu){\rput(0;0){\( y_M\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){ajXs}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){ajXH}
+\pstLineAB[linestyle=dashed,linecolor=blue]{ajXs}{ajXH}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){ajXs}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,2.00000000000000){ajXU}
+\pstLineAB[linestyle=dashed,linecolor=blue]{ajXs}{ajXU}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

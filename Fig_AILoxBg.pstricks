@@ -8,52 +8,52 @@
 %SPECIFIC_NEEDS
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfhomemokySagelocalbinsageipython}{\newlength{\lengthOfhomemokySagelocalbinsageipython}}{}\makeatother%
-\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigAILoxBgPICTAILoxBg.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaa:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaab:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaac:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaad:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaae:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaf:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaag:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaah:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaai:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaj:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaak:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaal:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaam:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaan:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaao:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaap:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaq:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaar:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaas:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaat:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaau:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaav:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaw:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaax:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaay:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaz:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaA:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaB:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaC:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaD:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaE:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaF:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaG:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaH:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaI:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaJ:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaK:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaL:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaM:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaN:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaO:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaP:\the\lengthOfhomemokySagelocalbinsageipython-}
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofFIGLabelFigAILoxBgPICTAILoxBgaaaO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofFIGLabelFigAILoxBgPICTAILoxBgaaaP:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %SUBFIGURES
@@ -73,130 +73,130 @@
 \psset{xunit=0.7,yunit=0.7,LabelSep=1.42857142857}
 \psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-3.80297571428571,-3.75396714285714)(3.80753857142857,3.75396714285714)
+\begin{pspicture}(-3.86991571428571,-3.81904761904762)(3.87625238095238,3.81904761904762)
 %PSTRICKS CODE
 %GRID
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-3.00000000000000){aaqg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){aaqh}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqg}{aaqh}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-3.00000000000000){aaqi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,3.00000000000000){aaqj}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqi}{aaqj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-3.00000000000000){aaqk}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,3.00000000000000){aaql}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqk}{aaql}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){aaqm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aaqn}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqm}{aaqn}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-3.00000000000000){aaqo}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){aaqp}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqo}{aaqp}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-3.00000000000000){aaqq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,3.00000000000000){aaqr}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqq}{aaqr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){aaqs}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aaqt}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqs}{aaqt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,-3.00000000000000){aaqu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,3.00000000000000){aaqv}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqu}{aaqv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,-3.00000000000000){aaqw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){aaqx}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqw}{aaqx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-3.00000000000000){aaqy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,3.00000000000000){aaqz}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqy}{aaqz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,-3.00000000000000){aaqA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,3.00000000000000){aaqB}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqA}{aaqB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,-3.00000000000000){aaqC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,3.00000000000000){aaqD}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqC}{aaqD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-3.00000000000000){aaqE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,3.00000000000000){aaqF}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqE}{aaqF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-2.50000000000000){aaqG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.50000000000000){aaqH}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqG}{aaqH}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-1.50000000000000){aaqI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.50000000000000){aaqJ}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqI}{aaqJ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-0.500000000000000){aaqK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-0.500000000000000){aaqL}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqK}{aaqL}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0.500000000000000){aaqM}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){aaqN}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqM}{aaqN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,1.50000000000000){aaqO}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.50000000000000){aaqP}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqO}{aaqP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.50000000000000){aaqQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.50000000000000){aaqR}
-\pstLineAB[linestyle=dotted,linecolor=gray]{aaqQ}{aaqR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-3.00000000000000){aaqS}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){aaqT}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqS}{aaqT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-2.00000000000000){aaqU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.00000000000000){aaqV}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqU}{aaqV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-1.00000000000000){aaqW}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){aaqX}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqW}{aaqX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){aaqY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aaqZ}
-\pstLineAB[linestyle=solid,linecolor=gray]{aaqY}{aaqZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,1.00000000000000){aara}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){aarb}
-\pstLineAB[linestyle=solid,linecolor=gray]{aara}{aarb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.00000000000000){aarc}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){aard}
-\pstLineAB[linestyle=solid,linecolor=gray]{aarc}{aard}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){aare}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aarf}
-\pstLineAB[linestyle=solid,linecolor=gray]{aare}{aarf}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-3.00000000000000){bvRG}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){bvRH}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRG}{bvRH}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-3.00000000000000){bvRI}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,3.00000000000000){bvRJ}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRI}{bvRJ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-3.00000000000000){bvRK}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,3.00000000000000){bvRL}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRK}{bvRL}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){bvRM}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){bvRN}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRM}{bvRN}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-3.00000000000000){bvRO}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){bvRP}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRO}{bvRP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-3.00000000000000){bvRQ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,3.00000000000000){bvRR}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRQ}{bvRR}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){bvRS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bvRT}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvRS}{bvRT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,-3.00000000000000){bvRU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,3.00000000000000){bvRV}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvRU}{bvRV}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,-3.00000000000000){bvRW}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){bvRX}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvRW}{bvRX}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-3.00000000000000){bvRY}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,3.00000000000000){bvRZ}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvRY}{bvRZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,-3.00000000000000){bvSa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,3.00000000000000){bvSb}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSa}{bvSb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,-3.00000000000000){bvSc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,3.00000000000000){bvSd}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSc}{bvSd}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-3.00000000000000){bvSe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,3.00000000000000){bvSf}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSe}{bvSf}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-2.50000000000000){bvSg}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.50000000000000){bvSh}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSg}{bvSh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-1.50000000000000){bvSi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.50000000000000){bvSj}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSi}{bvSj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-0.500000000000000){bvSk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-0.500000000000000){bvSl}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSk}{bvSl}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0.500000000000000){bvSm}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){bvSn}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSm}{bvSn}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,1.50000000000000){bvSo}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.50000000000000){bvSp}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSo}{bvSp}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.50000000000000){bvSq}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.50000000000000){bvSr}
+\pstLineAB[linestyle=dotted,linecolor=gray]{bvSq}{bvSr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-3.00000000000000){bvSs}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){bvSt}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSs}{bvSt}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-2.00000000000000){bvSu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-2.00000000000000){bvSv}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSu}{bvSv}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-1.00000000000000){bvSw}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){bvSx}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSw}{bvSx}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){bvSy}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){bvSz}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSy}{bvSz}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,1.00000000000000){bvSA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){bvSB}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSA}{bvSB}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.00000000000000){bvSC}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){bvSD}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSC}{bvSD}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){bvSE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bvSF}
+\pstLineAB[linestyle=solid,linecolor=gray]{bvSE}{bvSF}
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aamz}
-\pstGeonode[](3.38060241367235,3.36472836605330){aaph}
-\rput(aaph){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,3.00000000000000){aamA}
-\pstGeonode[](0,3.44841214285714){aapn}
-\rput(aapn){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-3.00000000000000,0){aamB}
-\pstGeonode[](-3.47291642857143,0){aapt}
-\rput(aapt){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,-3.00000000000000){aamC}
-\pstGeonode[](0,-3.44841214285714){aapz}
-\rput(aapz){\rput(0;0){\( D\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){aamD}
-\pstGeonode[](3.47519785714286,0){aapF}
-\rput(aapF){\rput(0;0){\( E\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){aamE}
-\pstGeonode[](3.38820812795806,-3.36472836605330){aapL}
-\rput(aapL){\rput(0;0){\( F\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aamF}
-\pstGeonode[](0.390257889862823,0.364728366053299){aapR}
-\rput(aapR){\rput(0;0){\( O\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){aamB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aamA}
-\pstLineAB[linestyle=solid,linecolor=black]{aamB}{aamA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aamA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aamz}
-\pstLineAB[linestyle=solid,linecolor=black]{aamA}{aamz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){aamz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){aamE}
-\pstLineAB[linestyle=solid,linecolor=black]{aamz}{aamE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){aamC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){aamB}
-\pstLineAB[linestyle=solid,linecolor=black]{aamC}{aamB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){aamE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){aamC}
-\pstLineAB[linestyle=solid,linecolor=black]{aamE}{aamC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aamA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){aamC}
-\pstLineAB[linestyle=solid,linecolor=black]{aamA}{aamC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){aamB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){aamD}
-\pstLineAB[linestyle=solid,linecolor=black]{aamB}{aamD}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bvNZ}
+\pstGeonode[](3.41175050891044,3.39726860414854){bvQH}
+\rput(bvQH){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,3.00000000000000){bvOa}
+\pstGeonode[](0,3.48095238095238){bvQN}
+\rput(bvQN){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-3.00000000000000,0){bvOb}
+\pstGeonode[](-3.50638642857143,0){bvQT}
+\rput(bvQT){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,-3.00000000000000){bvOc}
+\pstGeonode[](0,-3.48095238095238){bvQZ}
+\rput(bvQZ){\rput(0;0){\( D\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,0){bvOd}
+\pstGeonode[](3.50955476190476,0){bvRf}
+\rput(bvRf){\rput(0;0){\( E\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){bvOe}
+\pstGeonode[](3.42198598510092,-3.39726860414854){bvRl}
+\rput(bvRl){\rput(0;0){\( F\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){bvOf}
+\pstGeonode[](0.423602413672347,0.397268604148537){bvRr}
+\rput(bvRr){\rput(0;0){\( O\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){bvOb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){bvOa}
+\pstLineAB[linestyle=solid,linecolor=black]{bvOb}{bvOa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){bvOa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bvNZ}
+\pstLineAB[linestyle=solid,linecolor=black]{bvOa}{bvNZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bvNZ}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){bvOe}
+\pstLineAB[linestyle=solid,linecolor=black]{bvNZ}{bvOe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){bvOc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){bvOb}
+\pstLineAB[linestyle=solid,linecolor=black]{bvOc}{bvOb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-3.00000000000000){bvOe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){bvOc}
+\pstLineAB[linestyle=solid,linecolor=black]{bvOe}{bvOc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){bvOa}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){bvOc}
+\pstLineAB[linestyle=solid,linecolor=black]{bvOa}{bvOc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){bvOb}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){bvOd}
+\pstLineAB[linestyle=solid,linecolor=black]{bvOb}{bvOd}
 %AXES
 %OTHER STUFF
 %END PSPICTURE

@@ -41,17 +41,17 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){aiTY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){aiUa}
-\ncline[linestyle=solid,linecolor=black]{->}{aiTY}{aiUa}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.75000000000000){aiUe}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.50000000000000){aiUg}
-\ncline[linestyle=solid,linecolor=black]{->}{aiUe}{aiUg}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){aiUc}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){aiUe}
+\ncline[linestyle=solid,linecolor=black]{->}{aiUc}{aiUe}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.75000000000000){aiUi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.50000000000000){aiUk}
+\ncline[linestyle=solid,linecolor=black]{->}{aiUi}{aiUk}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-2.50000000000000}{0.500000000000000}{-(x + 2)*x}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-1.00000000000000,0){aiTk}
-\pstGeonode[](-0.809549500000000,0.316111000000000){aiUE}
-\rput(aiUE){\rput(0;0){\( x_0\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-1.00000000000000,0){aiTo}
+\pstGeonode[](-0.809549500000000,0.316111000000000){aiUI}
+\rput(aiUI){\rput(0;0){\( x_0\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}

@@ -67,50 +67,50 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVs}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVs}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVh}
 \pscustom[linestyle=none,linecolor=black,fillstyle=none]{
-\pstLineAB[linestyle=solid,linecolor=black]{aEVs}{aEVt}
-\pstLineAB[linestyle=solid,linecolor=black]{aEVt}{aEVu}
-\pstLineAB[linestyle=solid,linecolor=black]{aEVu}{aEVv}
-\pstLineAB[linestyle=solid,linecolor=black]{aEVv}{aEVs}
+\pstLineAB[linestyle=solid,linecolor=black]{aEVh}{aEVi}
+\pstLineAB[linestyle=solid,linecolor=black]{aEVi}{aEVj}
+\pstLineAB[linestyle=solid,linecolor=black]{aEVj}{aEVk}
+\pstLineAB[linestyle=solid,linecolor=black]{aEVk}{aEVh}
 }
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVs}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVt}
-\pstLineAB[linestyle=solid,linecolor=red]{aEVs}{aEVt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVt}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVu}
-\pstLineAB[linestyle=solid,linecolor=red]{aEVt}{aEVu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVv}
-\pstLineAB[linestyle=solid,linecolor=red]{aEVu}{aEVv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVs}
-\pstLineAB[linestyle=solid,linecolor=red]{aEVv}{aEVs}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,0){aEVC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,0){aEVB}
-\pstLineAB[linestyle=solid,linecolor=blue]{aEVC}{aEVB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.25000000000000){aEVy}
-\pstGeonode[](-0.311283833333333,-1.16388883333333){aEXU}
-\rput(aEXU){\rput(0;0){\( x\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aEVs}
-\pstGeonode[](0.146804000000000,0.336666666666667){aEYa}
-\rput(aEYa){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVt}
-\pstGeonode[](-0.300285689570643,-2.77808802290398){aEYg}
-\rput(aEYg){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVu}
-\pstGeonode[](4.29589185623731,-2.77808802290398){aEYm}
-\rput(aEYm){\rput(0;0){\( C\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,0){aEVv}
-\pstGeonode[](4.16803566666667,0.336666666666667){aEYs}
-\rput(aEYs){\rput(0;0){\( D\)}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVi}
+\pstLineAB[linestyle=solid,linecolor=red]{aEVh}{aEVi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVi}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVj}
+\pstLineAB[linestyle=solid,linecolor=red]{aEVi}{aEVj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVj}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVk}
+\pstLineAB[linestyle=solid,linecolor=red]{aEVj}{aEVk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aEVk}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,0){aEVh}
+\pstLineAB[linestyle=solid,linecolor=red]{aEVk}{aEVh}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,0){aEVr}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,0){aEVq}
+\pstLineAB[linestyle=solid,linecolor=blue]{aEVr}{aEVq}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.25000000000000){aEVn}
+\pstGeonode[](-0.311283833333333,-1.16388883333333){aEXJ}
+\rput(aEXJ){\rput(0;0){\( x\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aEVh}
+\pstGeonode[](0.146804000000000,0.336666666666667){aEXP}
+\rput(aEXP){\rput(0;0){\( A\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,-2.50000000000000){aEVi}
+\pstGeonode[](-0.300285689570643,-2.77808802290398){aEXV}
+\rput(aEXV){\rput(0;0){\( B\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,-2.50000000000000){aEVj}
+\pstGeonode[](4.29589185623731,-2.77808802290398){aEYb}
+\rput(aEYb){\rput(0;0){\( C\)}}
+\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,0){aEVk}
+\pstGeonode[](4.16803566666667,0.336666666666667){aEYh}
+\rput(aEYh){\rput(0;0){\( D\)}}
 %END PSPICTURE
 \end{pspicture}
 %AFTER PSPICTURE

@@ -108,52 +108,52 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](1.00000000000000,-0.200000000000000){aeXO}
-\rput(aeXO){\rput(0;0){$ 1 $}}
+\pstGeonode[](1.00000000000000,-0.200000000000000){aeXS}
+\rput(aeXS){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.200000000000000){aeXU}
-\rput(aeXU){\rput(0;0){$ 2 $}}
+\pstGeonode[](2.00000000000000,-0.200000000000000){aeXY}
+\rput(aeXY){\rput(0;0){$ 2 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[](3.00000000000000,-0.200000000000000){aeYa}
-\rput(aeYa){\rput(0;0){$ 3 $}}
+\pstGeonode[](3.00000000000000,-0.200000000000000){aeYe}
+\rput(aeYe){\rput(0;0){$ 3 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](3.00000000000000,0){ForTheBar}
-\pstGeonode[](4.00000000000000,-0.200000000000000){aeYg}
-\rput(aeYg){\rput(0;0){$ 4 $}}
+\pstGeonode[](4.00000000000000,-0.200000000000000){aeYk}
+\rput(aeYk){\rput(0;0){$ 4 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](4.00000000000000,0){ForTheBar}
-\pstGeonode[](5.00000000000000,-0.200000000000000){aeYm}
-\rput(aeYm){\rput(0;0){$ 5 $}}
+\pstGeonode[](5.00000000000000,-0.200000000000000){aeYq}
+\rput(aeYq){\rput(0;0){$ 5 $}}
 \pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](5.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0){aeYo}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.50000000000000,0){aeYq}
-\ncline[linestyle=solid,linecolor=black]{->}{aeYo}{aeYq}
-\pstGeonode[](-0.200000000000000,-1.00000000000000){aeYI}
-\rput(aeYI){\rput(0;0){$ -1 $}}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0){aeYs}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.50000000000000,0){aeYu}
+\ncline[linestyle=solid,linecolor=black]{->}{aeYs}{aeYu}
+\pstGeonode[](-0.200000000000000,-1.00000000000000){aeYM}
+\rput(aeYM){\rput(0;0){$ -1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,-1.00000000000000){ForTheBar}
-\pstGeonode[](-0.200000000000000,1.00000000000000){aeYO}
-\rput(aeYO){\rput(0;0){$ 1 $}}
+\pstGeonode[](-0.200000000000000,1.00000000000000){aeYS}
+\rput(aeYS){\rput(0;0){$ 1 $}}
 \pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.50000000000000){aeYQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.50000000000000){aeYS}
-\ncline[linestyle=solid,linecolor=black]{->}{aeYQ}{aeYS}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.50000000000000){aeYU}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.50000000000000){aeYW}
+\ncline[linestyle=solid,linecolor=black]{->}{aeYU}{aeYW}
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0.990000000000000){afew}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0){afez}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afeA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afev}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0.990000000000000){afeA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0){afeD}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afeE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afez}
 \pscustom[hatchcolor=green,linestyle=none,fillcolor=green,linecolor=green,fillstyle=vlines]{
 \parametricplot[plotstyle=curve,linestyle=solid,plotpoints=1000,linecolor=blue]{1.00000000000000}{1.99000000000000}{t | t - floor(t) }
-\pstLineAB[linestyle=solid,linecolor=black]{afew}{afez}
+\pstLineAB[linestyle=solid,linecolor=black]{afeA}{afeD}
 \parametricplot[plotstyle=curve,linestyle=solid,plotpoints=1000,linecolor=blue]{1.00000000000000}{1.99000000000000}{-t + 2.99 | 0 }
-\pstLineAB[linestyle=solid,linecolor=black]{afeA}{afev}
+\pstLineAB[linestyle=solid,linecolor=black]{afeE}{afez}
 }
 \parametricplot[plotstyle=curve,linestyle=solid,plotpoints=1000,linecolor=blue]{1.00000000000000}{1.99000000000000}{t | t - floor(t) }
 \parametricplot[plotstyle=curve,linestyle=solid,plotpoints=1000,linecolor=blue]{1.00000000000000}{1.99000000000000}{t | 0 }
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afeA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afev}
-\pstLineAB[linestyle=solid,linecolor=black]{afeA}{afev}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0.990000000000000){afew}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0){afez}
-\pstLineAB[linestyle=solid,linecolor=black]{afew}{afez}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afeE}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){afez}
+\pstLineAB[linestyle=solid,linecolor=black]{afeE}{afez}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0.990000000000000){afeA}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.99000000000000,0){afeD}
+\pstLineAB[linestyle=solid,linecolor=black]{afeA}{afeD}
 \psplot[linestyle=solid,plotpoints=1000,linecolor=blue]{0.000000000000000}{5.00000000000000}{x - floor(x)}
 %OTHER STUFF
 %END PSPICTURE

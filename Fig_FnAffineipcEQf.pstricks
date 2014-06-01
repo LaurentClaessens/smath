@@ -66,20 +66,20 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.71428571428571,0){asjJ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.71428571428571,0){asjL}
-\ncline[linestyle=solid,linecolor=black]{->}{asjJ}{asjL}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.38128571428571){asjP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.04728571428571){asjR}
-\ncline[linestyle=solid,linecolor=black]{->}{asjP}{asjR}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.71428571428571,0){asjN}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.71428571428571,0){asjP}
+\ncline[linestyle=solid,linecolor=black]{->}{asjN}{asjP}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.38128571428571){asjT}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.04728571428571){asjV}
+\ncline[linestyle=solid,linecolor=black]{->}{asjT}{asjV}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-4.00000000000000}{2.00000000000000}{0.6666666666666666*x + 2}
-\pstGeonode[PointSymbol=|,linestyle=solid,linecolor=black](-3.00000000000000,0){asio}
-\pstGeonode[](-3.00000000000000,-0.589001666666667){askp}
-\rput(askp){\rput(0;0){\( -\frac{ p }{ m }\)}}
-\pstGeonode[PointSymbol=|,dotangle=90,linestyle=solid,linecolor=black](0,2.00000000000000){asip}
-\pstGeonode[](-0.426123095238095,2.17857095238095){askv}
-\rput(askv){\rput(0;0){\( p\)}}
+\pstGeonode[PointSymbol=|,linestyle=solid,linecolor=black](-3.00000000000000,0){asis}
+\pstGeonode[](-3.00000000000000,-0.589001666666667){askt}
+\rput(askt){\rput(0;0){\( -\frac{ p }{ m }\)}}
+\pstGeonode[PointSymbol=|,dotangle=90,linestyle=solid,linecolor=black](0,2.00000000000000){asit}
+\pstGeonode[](-0.426123095238095,2.17857095238095){askz}
+\rput(askz){\rput(0;0){\( p\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}
@@ -105,20 +105,20 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.71428571428571,0){aslo}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.71428571428571,0){aslq}
-\ncline[linestyle=solid,linecolor=black]{->}{aslo}{aslq}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.71428571428571){aslu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.71428571428571){aslw}
-\ncline[linestyle=solid,linecolor=black]{->}{aslu}{aslw}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.71428571428571,0){asls}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.71428571428571,0){aslu}
+\ncline[linestyle=solid,linecolor=black]{->}{asls}{aslu}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-2.71428571428571){asly}
+\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.71428571428571){aslA}
+\ncline[linestyle=solid,linecolor=black]{->}{asly}{aslA}
 %DEFAULT
 \psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-2.00000000000000}{2.00000000000000}{-3/2*x + 1}
-\pstGeonode[PointSymbol=|,linestyle=solid,linecolor=black](0.666666666666667,0){asiE}
-\pstGeonode[](0.666666666666667,-0.589001666666667){aslU}
-\rput(aslU){\rput(0;0){\( -\frac{ p }{ m }\)}}
-\pstGeonode[PointSymbol=|,dotangle=90,linestyle=solid,linecolor=black](0,1.00000000000000){asiF}
-\pstGeonode[](-0.426123095238095,1.17857095238095){asma}
-\rput(asma){\rput(0;0){\( p\)}}
+\pstGeonode[PointSymbol=|,linestyle=solid,linecolor=black](0.666666666666667,0){asiI}
+\pstGeonode[](0.666666666666667,-0.589001666666667){aslY}
+\rput(aslY){\rput(0;0){\( -\frac{ p }{ m }\)}}
+\pstGeonode[PointSymbol=|,dotangle=90,linestyle=solid,linecolor=black](0,1.00000000000000){asiJ}
+\pstGeonode[](-0.426123095238095,1.17857095238095){asme}
+\rput(asme){\rput(0;0){\( p\)}}
 %OTHER STUFF
 %END PSPICTURE
 \end{pspicture}
