@@ -2,8 +2,8 @@
 from phystricks import *
 def VFAooZmuvtW():
     pspict,fig = SinglePicture("VFAooZmuvtW")
-    pspict.dilatation_X(0.5)
-    pspict.dilatation_Y(0.5)
+    pspict.dilatation_X(1)
+    pspict.dilatation_Y(1)
 
     mx=-3
     Mx=7
@@ -21,6 +21,7 @@ def VFAooZmuvtW():
     pspict.DrawGraphs(F)
     #pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
+    pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
