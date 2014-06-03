@@ -3,7 +3,7 @@ from phystricks import *
 def VFAooZmuvtW():
     pspict,fig = SinglePicture("VFAooZmuvtW")
     pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_Y(0.5)
 
     mx=-3
     Mx=7
@@ -13,7 +13,7 @@ def VFAooZmuvtW():
     F.append(phyFunction((x+2)/(2*x-6)).graph(mx,Mx))
 
     for f in F:
-        f.cut_y(-4,4)
+        f.cut_y(-8,8)
 
     import random
     random.shuffle(F)
