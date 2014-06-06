@@ -1,6 +1,11 @@
+# Ce fichier n'est plus utilisé depuis qu'il a fusionné avec phystricksGSDCyx.py
+
+
+
 # -*- coding: utf8 -*-
 from phystricks import *
 def PEoyeQt():
+
     pspict,fig = SinglePicture("PEoyeQt")
     pspict.dilatation_X(0.8)
     pspict.dilatation_Y(1)
@@ -8,6 +13,7 @@ def PEoyeQt():
     moustaches=[]
 
 #    # Le delta_y n'a pas d'importance parce qu'il est recalculé plus bas.
+    moustaches.append(Moustache(0.0,1.8499999999999996,5.5,9.450000000000001,16.5,h=0.5,delta_y=0.75))
     moustaches.append(Moustache(0.0,4.0,8.0,11.4,19.5,h=0.5,delta_y=0.75))     #DS7
     moustaches.append(Moustache(0.5,5.0,7.5,10.5,19.5,h=0.5,delta_y=0.75))      #DS6
     moustaches.append(Moustache(1.5,5.0,8.5,11.5,19.0,h=0.5,delta_y=0.75))      #DS5
