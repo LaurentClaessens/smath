@@ -119,6 +119,32 @@ def exo_trig():
     """.format(paire1[0],paire1[1],paire2[0],paire2[1],op1,paire3[0],op2,paire3[1])
     return consigne
 
+def exo_comparer_nombres():
+    paires_angles=[]
+    paires_angles.append([" \( \pi\)", "\( -\pi\) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 4 }\)", r"\( -\frac{ \pi }{ 4 }\) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 3 }\)", r"\( \frac{ 2\pi }{ 3 }\) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 4 }\)", r"\(  \frac{ 3\pi }{ 4 } \) "])
+    paires_angles.append([r"\( \frac{ 10\pi }{ 4 }\)", r"\(  \frac{ 2\pi }{ 4 } \) "])
+    paires_angles.append([r"\( \frac{ 10\pi }{ 4 }\)", r"\(  \frac{ 6\pi }{ 4 } \) "])
+    paires_angles.append([r"\( \frac{ \pi }{ 2 }\)", r"\( \frac{ 5\pi }{ 2 }\) "])
+    paires_angles.append([r"\( \frac{ 2\pi }{ 3 }\)", r"\( -\frac{ 2\pi }{ 3 }\) "])
+    paire1=random.choice(paires_angles)
+    paire2=paire1
+    while paire2==paire1:
+        paire2=random.choice(paires_angles)
+    paire3=random.choice(paires_angles)
+    consigne="""Vrai ou faux ? Vous pouvez justifier par un dessin.
+    \\begin{{enumerate}}
+    \item
+    Les nombres {0} et {1} ont même image sur le cercle trigonométrique.
+    \item
+    Les nombres {2} et {3} ont même image sur le cercle trigonométrique.
+    \end{{enumerate}}
+    """.format(paire1[0],paire1[1],paire2[0],paire2[1])
+    return consigne,""
+
+
 def exo_ineqs():
     p1=aff()
     p2=aff()
@@ -141,6 +167,19 @@ def exo_ineqs():
     \\vspace{{2cm}}
     """.format(ineq,eqa)
     return consigne
+
+
+def exo_distance_ville_trigno():
+    lat1=random.randint(1,80)
+    lat2=random.randint(1,80)
+    NS=random.choice(["nord","sud"])
+
+    consigne=r"""
+    La ville V est située à BACKSLASHUnit{{{0}}}{{\degree}} nord tandis que la ville W est située à BACKSLASHUnit{{{1}}}{{\degree}} sud, sur le même méridien. Quelle est la distance entre ces deux villes ? (le rayon de la Terre est approximativement de BACKSLASHUnit{{6300}}{{\kilo\meter}}).
+    """.replace("BACKSLASHU","\\u").format(lat1,lat2)
+    import math
+    reponse=str(2*math.pi*6300*(lat1+lat2)/360)
+    return consigne,reponse
 
 def interro_trig2():
     paires_angles=[]
@@ -373,6 +412,7 @@ class Sujet(object):
         a.append(self.correction)
         non_generic_latex="\n".join(a)
         code=generic.replace("LES QUESTIONS",non_generic_latex)
+        print("J'écris le fichier",self.name+".tex")
         self.texfile.write(code)
         self.texfile.close()
 
@@ -412,4 +452,12 @@ def interro_vecteurs():
         sujet.ecrit_sujet(liste_exo,i,random_order=True)
     sujet.close()
 
-interro_vecteurs()
+
+def interro_trigono():
+    sujet=Sujet("interro_trigono")
+    for i in range(1,40):
+        liste_exo=[exo_comparer_nombres,exo_distance_ville_trigno]
+        sujet.ecrit_sujet(liste_exo,i,random_order=True)
+    sujet.close()
+
+interro_trigono()
