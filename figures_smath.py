@@ -157,13 +157,13 @@ from phystricksPositionRelativexpwkEJ import PositionRelativexpwkEJ
 from phystricksExoTrigTrIpPW import ExoTrigTrIpPW
 from phystricksExoVectoFRPXxB import ExoVectoFRPXxB
 #from phystricksTracerUn import TracerUn
+#from phystricksGrapheunsurunmoinsx import Grapheunsurunmoinsx
 from phystricksExerciceGraphes import ExerciceGraphes
 from phystricksExerciceGraphesbis import ExerciceGraphesbis
-from phystricksGrapheunsurunmoinsx import Grapheunsurunmoinsx
-from phystricksExoCUd import ExoCUd
-from phystricksUnSurxInt import UnSurxInt
-from phystricksAireParabole import AireParabole
-from phystricksPartieEntiere import PartieEntiere
+#from phystricksExoCUd import ExoCUd
+#from phystricksUnSurxInt import UnSurxInt
+#from phystricksAireParabole import AireParabole
+#from phystricksPartieEntiere import PartieEntiere
 from phystricksMantisse import Mantisse
 #from phystricksDS2010ExoGraph import DS2010ExoGraph
 #from phystricksDS2010bisExoGraph import DS2010bisExoGraph
@@ -288,7 +288,7 @@ def AllFigures(figures_list):
 # Les fonctions suivantes sont supprimées (12 septembre 2013)
 #DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,
 
-figures_list=[ExoCUd,SolsEqDiffSin,Grapheunsurunmoinsx,TracerUn,ExerciceGraphes,SolsSinpA,Trajs,ExerciceGraphesbis,UnSurxInt,AireParabole,PartieEntiere,Mantisse,EvZZys,
+figures_list=[SolsEqDiffSin,ExerciceGraphes,SolsSinpA,Trajs,ExerciceGraphesbis,Mantisse,EvZZys,
     BpCNVm,HistoAutomobile,HistoTdkccB,HistoPySeT,HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,
     ParaboleMCLCbG,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
     ParaboleUniqueBaskGdqda,MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,
