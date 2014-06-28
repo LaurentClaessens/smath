@@ -17,7 +17,7 @@ def OKeZlpK():
 
     P.put_mark(0.2,135,"\( p\)",automatic_place=(pspict,"corner"))
     P.parameters.symbol="|"
-    P.add_option("dotangle=90")
+    P.parameters.dotangle=90
     Q.put_mark(0.2,Q.advised_mark_angle,"\( Q\)",automatic_place=(pspict,"corner"))
     M.put_mark(0.2,M.advised_mark_angle,"\( M\)",automatic_place=(pspict,"corner"))
 
@@ -36,8 +36,8 @@ def OKeZlpK():
     Mx.put_mark(0.2,-90,"\( x_M \)",automatic_place=(pspict,"N"))
     My.put_mark(0.2,180,"\( y_M\)",automatic_place=(pspict,"E"))
 
-    Qy.add_option("dotangle=90")
-    My.add_option("dotangle=90")
+    Qy.parameters.dotangle=90
+    My.parameters.dotangle=90
 
     s1=Segment(Q,Qx)
     s2=Segment(Q,Qy)
