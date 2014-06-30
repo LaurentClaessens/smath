@@ -2,7 +2,7 @@
 from phystricks import *
 def DesSectionseVPNeL():
 
-    pspicts,fig = MultiplePictures("DesSections",2,script_filename="DesSectionseVPNeL")
+    pspicts,fig = MultiplePictures("DesSectionseVPNeL",2)
     pspicts[0].mother.caption="Des triangles"
     pspicts[1].mother.caption="Des sections"
 

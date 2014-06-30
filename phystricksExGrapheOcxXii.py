@@ -4,7 +4,7 @@ def ExGrapheOcxXii():
     x=var('x')
     f=phyFunction(2*x+1)
 
-    pspicts,fig = MultiplePictures("ExFonction",2,script_filename="ExGrapheOcxXii")
+    pspicts,fig = MultiplePictures("ExGrapheOcxXii",2)
     pspicts[0].mother.caption="Quelque points du graphe de $ x\mapsto 2x+1$"
     pspicts[1].mother.caption="Le graphe de $ x\mapsto 2x+1$"
 

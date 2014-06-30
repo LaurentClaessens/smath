@@ -35,7 +35,7 @@ def SurfaceTriangletcNPPE():
     measureBC.put_mark(0.4,measureBC.advised_mark_angle,"$\unit{2}{\centi\meter}$")
 
     measureAM=MeasureLength(Segment(A,M),0.1)
-    measureAM.put_mark(0.3,measureAM.advised_mark_angle,"$\unit{x}{\centi\meter}$")
+    measureAM.put_mark(0.3,measureAM.advised_mark_angle,"$x$\centi\meter")
 
     measureAB=MeasureLength(AB,0.5)
     measureAB.put_mark(0.3,measureAB.advised_mark_angle,"$\unit{3}{\centi\meter}$")

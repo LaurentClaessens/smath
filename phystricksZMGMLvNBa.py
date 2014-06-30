@@ -18,7 +18,7 @@ def ZMGMLvNBa():
 
     K.put_mark(0.2,90,"\( K\)",automatic_place=(pspict,"S"))
     A.put_mark(0.2,-45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"N"))
+    B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"S"))
     C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
     D.put_mark(0.2,0,"\( D\)",automatic_place=(pspict,"W"))
 

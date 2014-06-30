@@ -33,10 +33,10 @@ def AVFexUi():
         s.parameters.color="red"
         s.parameters.style="dashed"
 
-    B1.put_mark(0.2,0,"\( -1/10\)",automatic_place=(pspicts[0],"W"))
-    X1.put_mark(0.2,90,"\( -10\)",automatic_place=(pspicts[0],"S"))
-    B2.put_mark(0.2,180,"\( 3/4\)",automatic_place=pspicts[0])
-    X2.put_mark(0.2,-90,"\( 4/3\)",automatic_place=pspicts[0])
+    B1.put_mark(0.2,0,"\( -1/10\)",automatic_place=(pspicts,"W"))
+    X1.put_mark(0.2,90,"\( -10\)",automatic_place=(pspicts,"S"))
+    B2.put_mark(0.2,180,"\( 3/4\)",automatic_place=(pspicts,"E"))
+    X2.put_mark(0.2,-90,"\( 4/3\)",automatic_place=(pspicts,"N"))
 
     w1=Segment( B1,B2  )
     w1.parameters.color="cyan"
@@ -58,7 +58,7 @@ def AVFexUi():
         psp.DrawGraphs(f)
 
     pspicts[0].DrawGraphs(w1,w2,w3,l1,l2,l3,l4,A1,A2,B1,B2,X1,X2)
-    pspicts[1].DrawGraphs(w2,w3,X1,X2,ws1,ws2)
+    pspicts[1].DrawGraphs(w2,w3,X1,X2,ws1,ws2,l1,l3)
 
     for psp in pspicts:
         psp.axes.no_graduation()

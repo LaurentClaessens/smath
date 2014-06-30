@@ -2,7 +2,7 @@
 
 from phystricks import *
 def ExoGraphIneqPgErDr():
-    pspicts,fig = MultiplePictures("ExoGraph",4,script_filename="ExoGraphIneqPgErDr")
+    pspicts,fig = MultiplePictures("ExoGraphIneqPgErDr",4)
     pspicts[0].mother.caption=u"Résoudre \( f(x)>0\)"
     pspicts[1].mother.caption=u"Résoudre \( f(x)\leq 0\)"
     pspicts[2].mother.caption=u"Résoudre \( f(x)\geq 2\)"
