@@ -27,7 +27,7 @@ def JLUTBlD():
     fig.write_the_file()
 
 def JWNtVIR():
-    pspict,fig = SinglePicture("JLUTBlD")
+    pspict,fig = SinglePicture("JWNtVIR")
     pspict.dilatation_X(0.8)
     pspict.dilatation_Y(0.8)
 

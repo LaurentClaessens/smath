@@ -10,7 +10,7 @@ def IsoceleVdviOE():
     A=Point(0,0)
     B=Point(l,0)
 
-    C1=Circle(A,2*l/3).graph(270,450)
+    C1=Circle(A,2*l/3).graph(-90,90)
     C2=Circle(B,2*l/3).graph(90,270)
 
     pts=Intersection(C1,C2)

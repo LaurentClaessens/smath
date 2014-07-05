@@ -14,7 +14,7 @@ def PositionsDroitesbnYIsH():
     l=3
     perspective=ObliqueProjection(30,0.5)
     cube=perspective.cuboid((0,0),l,l,l)
-    cube.put_vertex_mark(pspicts[0])
+    cube.put_vertex_mark(pspicts[3])
 
     dilatation=1.5
     AB=Segment(cube.A,cube.B).dilatation(dilatation)
