@@ -11,7 +11,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH0PICTPositionsDroitesbnYIsHpspict0.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigPositionsDroitesbnYIsH.phystricks.aux%
 \immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
 \immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
 \immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
@@ -26,7 +26,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH1PICTPositionsDroitesbnYIsHpspict1.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigPositionsDroitesbnYIsH.phystricks.aux%
 \immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
 \immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
 \immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
@@ -41,7 +41,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH2PICTPositionsDroitesbnYIsHpspict2.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigPositionsDroitesbnYIsH.phystricks.aux%
 \immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
 \immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
 \immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
@@ -56,7 +56,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigPositionsDroitesbnYIsHssLabelSubFigPositionsDroitesbnYIsH3PICTPositionsDroitesbnYIsHpspict3.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigPositionsDroitesbnYIsH.phystricks.aux%
 \immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
 \immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
 \immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
@@ -90,14 +90,14 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.278088022903976,3.27808802290398) node {\( A\)};
-\draw (3.13666666666667,3.33666666666667) node {\( B\)};
-\draw (3.27808802290398,-0.278088022903976) node {\( C\)};
-\draw (-0.336666666666667,0.136666666666667) node {\( D\)};
-\draw (1.02095008277268,4.02808802290398) node {\( E\)};
-\draw (4.63570477234332,3.88666666666667) node {\( F\)};
-\draw (4.63570477234332,0.886666666666667) node {\( G\)};
-\draw (1.02095008277268,1.02808802290398) node {\( H\)};
+\draw (-0.141421356237310,3.14142135623731) node {\( A\)};
+\draw (3.00000000000000,3.20000000000000) node {\( B\)};
+\draw (3.14142135623731,-0.141421356237310) node {\( C\)};
+\draw (-0.200000000000000,0) node {\( D\)};
+\draw (1.15761674943935,3.89142135623731) node {\( E\)};
+\draw (4.49903810567666,3.75000000000000) node {\( F\)};
+\draw (4.49903810567666,0.750000000000000) node {\( G\)};
+\draw (1.15761674943935,0.891421356237310) node {\( H\)};
 \draw [] (0,3.00000000000000) -- (1.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,3.00000000000000) -- (4.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,0) -- (4.29903810567666,0.750000000000000);
@@ -136,14 +136,14 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.278088022903976,3.27808802290398) node {\( A\)};
-\draw (3.13666666666667,3.33666666666667) node {\( B\)};
-\draw (3.27808802290398,-0.278088022903976) node {\( C\)};
-\draw (-0.336666666666667,0.136666666666667) node {\( D\)};
-\draw (1.02095008277268,4.02808802290398) node {\( E\)};
-\draw (4.63570477234332,3.88666666666667) node {\( F\)};
-\draw (4.63570477234332,0.886666666666667) node {\( G\)};
-\draw (1.02095008277268,1.02808802290398) node {\( H\)};
+\draw (-0.141421356237310,3.14142135623731) node {\( A\)};
+\draw (3.00000000000000,3.20000000000000) node {\( B\)};
+\draw (3.14142135623731,-0.141421356237310) node {\( C\)};
+\draw (-0.200000000000000,0) node {\( D\)};
+\draw (1.15761674943935,3.89142135623731) node {\( E\)};
+\draw (4.49903810567666,3.75000000000000) node {\( F\)};
+\draw (4.49903810567666,0.750000000000000) node {\( G\)};
+\draw (1.15761674943935,0.891421356237310) node {\( H\)};
 \draw [] (0,3.00000000000000) -- (1.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,3.00000000000000) -- (4.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,0) -- (4.29903810567666,0.750000000000000);
@@ -182,14 +182,14 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.278088022903976,3.27808802290398) node {\( A\)};
-\draw (3.13666666666667,3.33666666666667) node {\( B\)};
-\draw (3.27808802290398,-0.278088022903976) node {\( C\)};
-\draw (-0.336666666666667,0.136666666666667) node {\( D\)};
-\draw (1.02095008277268,4.02808802290398) node {\( E\)};
-\draw (4.63570477234332,3.88666666666667) node {\( F\)};
-\draw (4.63570477234332,0.886666666666667) node {\( G\)};
-\draw (1.02095008277268,1.02808802290398) node {\( H\)};
+\draw (-0.141421356237310,3.14142135623731) node {\( A\)};
+\draw (3.00000000000000,3.20000000000000) node {\( B\)};
+\draw (3.14142135623731,-0.141421356237310) node {\( C\)};
+\draw (-0.200000000000000,0) node {\( D\)};
+\draw (1.15761674943935,3.89142135623731) node {\( E\)};
+\draw (4.49903810567666,3.75000000000000) node {\( F\)};
+\draw (4.49903810567666,0.750000000000000) node {\( G\)};
+\draw (1.15761674943935,0.891421356237310) node {\( H\)};
 \draw [] (0,3.00000000000000) -- (1.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,3.00000000000000) -- (4.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,0) -- (4.29903810567666,0.750000000000000);
@@ -228,14 +228,14 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.278088022903976,3.27808802290398) node {\( A\)};
-\draw (3.13666666666667,3.33666666666667) node {\( B\)};
-\draw (3.27808802290398,-0.278088022903976) node {\( C\)};
-\draw (-0.336666666666667,0.136666666666667) node {\( D\)};
-\draw (1.02095008277268,4.02808802290398) node {\( E\)};
-\draw (4.63570477234332,3.88666666666667) node {\( F\)};
-\draw (4.63570477234332,0.886666666666667) node {\( G\)};
-\draw (1.02095008277268,1.02808802290398) node {\( H\)};
+\draw (-0.141421356237310,3.14142135623731) node {\( A\)};
+\draw (3.00000000000000,3.20000000000000) node {\( B\)};
+\draw (3.14142135623731,-0.141421356237310) node {\( C\)};
+\draw (-0.200000000000000,0) node {\( D\)};
+\draw (1.15761674943935,3.89142135623731) node {\( E\)};
+\draw (4.49903810567666,3.75000000000000) node {\( F\)};
+\draw (4.49903810567666,0.750000000000000) node {\( G\)};
+\draw (1.15761674943935,0.891421356237310) node {\( H\)};
 \draw [] (0,3.00000000000000) -- (1.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,3.00000000000000) -- (4.29903810567666,3.75000000000000);
 \draw [] (3.00000000000000,0) -- (4.29903810567666,0.750000000000000);

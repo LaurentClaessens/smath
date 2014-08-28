@@ -11,7 +11,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 5 $}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigExoBinomialeNyQLYIssLabelSubFigExoBinomialeNyQLYI0PICTExoBinomialeNyQLYIpspict0.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigExoBinomialeNyQLYI.phystricks.aux%
 \immediate\write\writeOfphystricks{b35a8db97d901720149301aabd1bdc52fc474c8b:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
 \immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 15 $}}%
 \immediate\write\writeOfphystricks{901682a405c1ecfa8328288b2fcac949d227dbad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
@@ -29,7 +29,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 5 $}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigExoBinomialeNyQLYIssLabelSubFigExoBinomialeNyQLYI1PICTExoBinomialeNyQLYIpspict1.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigExoBinomialeNyQLYI.phystricks.aux%
 \immediate\write\writeOfphystricks{b35a8db97d901720149301aabd1bdc52fc474c8b:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
 \immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 15 $}}%
 \immediate\write\writeOfphystricks{901682a405c1ecfa8328288b2fcac949d227dbad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
@@ -47,7 +47,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 5 $}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigExoBinomialeNyQLYIssLabelSubFigExoBinomialeNyQLYI2PICTExoBinomialeNyQLYIpspict2.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigExoBinomialeNyQLYI.phystricks.aux%
 \immediate\write\writeOfphystricks{b35a8db97d901720149301aabd1bdc52fc474c8b:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
 \immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 15 $}}%
 \immediate\write\writeOfphystricks{901682a405c1ecfa8328288b2fcac949d227dbad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
@@ -63,7 +63,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 5 $}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigExoBinomialeNyQLYIssLabelSubFigExoBinomialeNyQLYI3PICTExoBinomialeNyQLYIpspict3.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigExoBinomialeNyQLYI.phystricks.aux%
 \immediate\write\writeOfphystricks{b35a8db97d901720149301aabd1bdc52fc474c8b:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
 \immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 15 $}}%
 \immediate\write\writeOfphystricks{901682a405c1ecfa8328288b2fcac949d227dbad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
@@ -95,28 +95,28 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.00000000000000,-0.325945833333333) node { $ 5 $ };
+\draw (1.00000000000000,-0.200000000000000) node { $ 5 $ };
 \draw [] (1.00000000000000,-0.100000000000000) -- (1.00000000000000,0.100000000000000);
-\draw (2.00000000000000,-0.325945833333333) node { $ 10 $ };
+\draw (2.00000000000000,-0.200000000000000) node { $ 10 $ };
 \draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw (3.00000000000000,-0.325945833333333) node { $ 15 $ };
+\draw (3.00000000000000,-0.200000000000000) node { $ 15 $ };
 \draw [] (3.00000000000000,-0.100000000000000) -- (3.00000000000000,0.100000000000000);
-\draw (4.00000000000000,-0.325945833333333) node { $ 20 $ };
+\draw (4.00000000000000,-0.200000000000000) node { $ 20 $ };
 \draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw (5.00000000000000,-0.325945833333333) node { $ 25 $ };
+\draw (5.00000000000000,-0.200000000000000) node { $ 25 $ };
 \draw [] (5.00000000000000,-0.100000000000000) -- (5.00000000000000,0.100000000000000);
-\draw (6.00000000000000,-0.325945833333333) node { $ 30 $ };
+\draw (6.00000000000000,-0.200000000000000) node { $ 30 $ };
 \draw [] (6.00000000000000,-0.100000000000000) -- (6.00000000000000,0.100000000000000);
 \draw [,->,>=latex] (0.0,0) -- (6.50000000000000,0);
-\draw (-0.433639500000000,1.00000000000000) node { $ \frac{1}{20} $ };
+\draw (-0.200000000000000,1.00000000000000) node { $ \frac{1}{20} $ };
 \draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
-\draw (-0.433639500000000,2.00000000000000) node { $ \frac{1}{10} $ };
+\draw (-0.200000000000000,2.00000000000000) node { $ \frac{1}{10} $ };
 \draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
-\draw (-0.433639500000000,3.00000000000000) node { $ \frac{3}{20} $ };
+\draw (-0.200000000000000,3.00000000000000) node { $ \frac{3}{20} $ };
 \draw [] (-0.100000000000000,3.00000000000000) -- (0.100000000000000,3.00000000000000);
-\draw (-0.433639500000000,4.00000000000000) node { $ \frac{1}{5} $ };
+\draw (-0.200000000000000,4.00000000000000) node { $ \frac{1}{5} $ };
 \draw [] (-0.100000000000000,4.00000000000000) -- (0.100000000000000,4.00000000000000);
-\draw (-0.433639500000000,5.00000000000000) node { $ \frac{1}{4} $ };
+\draw (-0.200000000000000,5.00000000000000) node { $ \frac{1}{4} $ };
 \draw [] (-0.100000000000000,5.00000000000000) -- (0.100000000000000,5.00000000000000);
 \draw [,->,>=latex] (0.0,0) -- (0.0,5.22175864464679);
 %DEFAULT
@@ -173,28 +173,28 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.00000000000000,-0.325945833333333) node { $ 5 $ };
+\draw (1.00000000000000,-0.200000000000000) node { $ 5 $ };
 \draw [] (1.00000000000000,-0.100000000000000) -- (1.00000000000000,0.100000000000000);
-\draw (2.00000000000000,-0.325945833333333) node { $ 10 $ };
+\draw (2.00000000000000,-0.200000000000000) node { $ 10 $ };
 \draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw (3.00000000000000,-0.325945833333333) node { $ 15 $ };
+\draw (3.00000000000000,-0.200000000000000) node { $ 15 $ };
 \draw [] (3.00000000000000,-0.100000000000000) -- (3.00000000000000,0.100000000000000);
-\draw (4.00000000000000,-0.325945833333333) node { $ 20 $ };
+\draw (4.00000000000000,-0.200000000000000) node { $ 20 $ };
 \draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw (5.00000000000000,-0.325945833333333) node { $ 25 $ };
+\draw (5.00000000000000,-0.200000000000000) node { $ 25 $ };
 \draw [] (5.00000000000000,-0.100000000000000) -- (5.00000000000000,0.100000000000000);
-\draw (6.00000000000000,-0.325945833333333) node { $ 30 $ };
+\draw (6.00000000000000,-0.200000000000000) node { $ 30 $ };
 \draw [] (6.00000000000000,-0.100000000000000) -- (6.00000000000000,0.100000000000000);
 \draw [,->,>=latex] (0.0,0) -- (6.50000000000000,0);
-\draw (-0.433639500000000,1.00000000000000) node { $ \frac{1}{20} $ };
+\draw (-0.200000000000000,1.00000000000000) node { $ \frac{1}{20} $ };
 \draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
-\draw (-0.433639500000000,2.00000000000000) node { $ \frac{1}{10} $ };
+\draw (-0.200000000000000,2.00000000000000) node { $ \frac{1}{10} $ };
 \draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
-\draw (-0.433639500000000,3.00000000000000) node { $ \frac{3}{20} $ };
+\draw (-0.200000000000000,3.00000000000000) node { $ \frac{3}{20} $ };
 \draw [] (-0.100000000000000,3.00000000000000) -- (0.100000000000000,3.00000000000000);
-\draw (-0.433639500000000,4.00000000000000) node { $ \frac{1}{5} $ };
+\draw (-0.200000000000000,4.00000000000000) node { $ \frac{1}{5} $ };
 \draw [] (-0.100000000000000,4.00000000000000) -- (0.100000000000000,4.00000000000000);
-\draw (-0.433639500000000,5.00000000000000) node { $ \frac{1}{4} $ };
+\draw (-0.200000000000000,5.00000000000000) node { $ \frac{1}{4} $ };
 \draw [] (-0.100000000000000,5.00000000000000) -- (0.100000000000000,5.00000000000000);
 \draw [,->,>=latex] (0.0,0) -- (0.0,5.22175864464680);
 %DEFAULT
@@ -251,24 +251,24 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.00000000000000,-0.325945833333333) node { $ 5 $ };
+\draw (1.00000000000000,-0.200000000000000) node { $ 5 $ };
 \draw [] (1.00000000000000,-0.100000000000000) -- (1.00000000000000,0.100000000000000);
-\draw (2.00000000000000,-0.325945833333333) node { $ 10 $ };
+\draw (2.00000000000000,-0.200000000000000) node { $ 10 $ };
 \draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw (3.00000000000000,-0.325945833333333) node { $ 15 $ };
+\draw (3.00000000000000,-0.200000000000000) node { $ 15 $ };
 \draw [] (3.00000000000000,-0.100000000000000) -- (3.00000000000000,0.100000000000000);
-\draw (4.00000000000000,-0.325945833333333) node { $ 20 $ };
+\draw (4.00000000000000,-0.200000000000000) node { $ 20 $ };
 \draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw (5.00000000000000,-0.325945833333333) node { $ 25 $ };
+\draw (5.00000000000000,-0.200000000000000) node { $ 25 $ };
 \draw [] (5.00000000000000,-0.100000000000000) -- (5.00000000000000,0.100000000000000);
-\draw (6.00000000000000,-0.325945833333333) node { $ 30 $ };
+\draw (6.00000000000000,-0.200000000000000) node { $ 30 $ };
 \draw [] (6.00000000000000,-0.100000000000000) -- (6.00000000000000,0.100000000000000);
 \draw [,->,>=latex] (0.0,0) -- (6.50000000000000,0);
-\draw (-0.433639500000000,1.00000000000000) node { $ \frac{1}{20} $ };
+\draw (-0.200000000000000,1.00000000000000) node { $ \frac{1}{20} $ };
 \draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
-\draw (-0.433639500000000,2.00000000000000) node { $ \frac{1}{10} $ };
+\draw (-0.200000000000000,2.00000000000000) node { $ \frac{1}{10} $ };
 \draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
-\draw (-0.433639500000000,3.00000000000000) node { $ \frac{3}{20} $ };
+\draw (-0.200000000000000,3.00000000000000) node { $ \frac{3}{20} $ };
 \draw [] (-0.100000000000000,3.00000000000000) -- (0.100000000000000,3.00000000000000);
 \draw [,->,>=latex] (0.0,0) -- (0.0,3.38928896188735);
 %DEFAULT
@@ -325,24 +325,24 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.00000000000000,-0.325945833333333) node { $ 5 $ };
+\draw (1.00000000000000,-0.200000000000000) node { $ 5 $ };
 \draw [] (1.00000000000000,-0.100000000000000) -- (1.00000000000000,0.100000000000000);
-\draw (2.00000000000000,-0.325945833333333) node { $ 10 $ };
+\draw (2.00000000000000,-0.200000000000000) node { $ 10 $ };
 \draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw (3.00000000000000,-0.325945833333333) node { $ 15 $ };
+\draw (3.00000000000000,-0.200000000000000) node { $ 15 $ };
 \draw [] (3.00000000000000,-0.100000000000000) -- (3.00000000000000,0.100000000000000);
-\draw (4.00000000000000,-0.325945833333333) node { $ 20 $ };
+\draw (4.00000000000000,-0.200000000000000) node { $ 20 $ };
 \draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw (5.00000000000000,-0.325945833333333) node { $ 25 $ };
+\draw (5.00000000000000,-0.200000000000000) node { $ 25 $ };
 \draw [] (5.00000000000000,-0.100000000000000) -- (5.00000000000000,0.100000000000000);
-\draw (6.00000000000000,-0.325945833333333) node { $ 30 $ };
+\draw (6.00000000000000,-0.200000000000000) node { $ 30 $ };
 \draw [] (6.00000000000000,-0.100000000000000) -- (6.00000000000000,0.100000000000000);
 \draw [,->,>=latex] (0.0,0) -- (6.30000000000000,0);
-\draw (-0.433639500000000,1.00000000000000) node { $ \frac{1}{20} $ };
+\draw (-0.200000000000000,1.00000000000000) node { $ \frac{1}{20} $ };
 \draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
-\draw (-0.433639500000000,2.00000000000000) node { $ \frac{1}{10} $ };
+\draw (-0.200000000000000,2.00000000000000) node { $ \frac{1}{10} $ };
 \draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
-\draw (-0.433639500000000,3.00000000000000) node { $ \frac{3}{20} $ };
+\draw (-0.200000000000000,3.00000000000000) node { $ \frac{3}{20} $ };
 \draw [] (-0.100000000000000,3.00000000000000) -- (0.100000000000000,3.00000000000000);
 \draw [,->,>=latex] (0.0,0) -- (0.0,3.38928896188735);
 %DEFAULT

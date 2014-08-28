@@ -11,7 +11,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{5}{\centi\meter}}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigCylindresxKDOdyssLabelSubFigCylindresxKDOdy0PICTCylindresxKDOdypspict0.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigCylindresxKDOdy.phystricks.aux%
 \immediate\write\writeOfphystricks{766b50a875ba80609efc47af6874cee3fd2528c5:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{3}{\centi\meter}}}%
 \immediate\write\writeOfphystricks{0f52ad0049f7350bddfca684052b0e60ae22793e:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
@@ -20,7 +20,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{5}{\centi\meter}}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigCylindresxKDOdyssLabelSubFigCylindresxKDOdy1PICTCylindresxKDOdypspict1.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigCylindresxKDOdy.phystricks.aux%
 \immediate\write\writeOfphystricks{766b50a875ba80609efc47af6874cee3fd2528c5:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{3}{\centi\meter}}}%
 \immediate\write\writeOfphystricks{0f52ad0049f7350bddfca684052b0e60ae22793e:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
@@ -49,13 +49,13 @@
 %DEFAULT
 \draw [,->,>=latex] (1.50000000000000,-0.120000000000000) -- (3.00000000000000,-0.120000000000000);
 \draw [,->,>=latex] (1.50000000000000,-0.120000000000000) -- (0.0,-0.120000000000000);
-\draw (1.62594583333333,-0.445945833333333) node {\unit{5}{\centi\meter}};
+\draw (1.50000000000000,-0.320000000000000) node {\unit{5}{\centi\meter}};
 \draw [,->,>=latex] (3.70951905283833,0.271076951545867) -- (3.06000000000000,-0.103923048454133);
 \draw [,->,>=latex] (3.70951905283833,0.271076951545867) -- (4.35903810567666,0.646076951545867);
-\draw (3.93546488617166,-0.0280739625443537) node {\unit{5}{\centi\meter}};
+\draw (3.80951905283833,0.0978718707889795) node {\unit{5}{\centi\meter}};
 \draw [,->,>=latex] (-0.120000000000000,0.900000000000000) -- (-0.120000000000000,0.0);
 \draw [,->,>=latex] (-0.120000000000000,0.900000000000000) -- (-0.120000000000000,1.80000000000000);
-\draw (-0.245945833333333,0.700000000000000) node {\unit{3}{\centi\meter}};
+\draw (-0.120000000000000,0.700000000000000) node {\unit{3}{\centi\meter}};
 \fill [color=lightgray] (0.525721420742506,1.98750000000000) -- (0.525721420742506,0.187500000000000) -- (0.525721420742506,0.187500000000000) -- (3.77331668493415,0.562500000000000) -- (3.77331668493415,0.562500000000000) -- (3.77331668493415,2.36250000000000) -- (3.77331668493415,2.36250000000000) -- (0.525721420742506,1.98750000000000) --  cycle;
 \draw [color=brown] (0.525721420742506,1.98750000000000) -- (0.525721420742506,0.187500000000000);
 \draw [color=brown] (0.525721420742506,0.187500000000000) -- (3.77331668493415,0.562500000000000);

@@ -11,7 +11,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( -1/10\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigAVFexUissLabelSubFigAVFexUi0PICTAVFexUipspict0.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigAVFexUi.phystricks.aux%
 \immediate\write\writeOfphystricks{82f33431445549429c5ae5fba5f6105871f62a29:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 3/4\)}}%
 \immediate\write\writeOfphystricks{7720a3a88eb57d21e30f45d65bcc72f23eb4870d:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( -10\)}}%
 \immediate\write\writeOfphystricks{2a79e6ef7db60782caca6cf0cb84cb0d91067712:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 4/3\)}}%
@@ -22,7 +22,7 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( -1/10\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigAVFexUissLabelSubFigAVFexUi1PICTAVFexUipspict1.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigAVFexUi.phystricks.aux%
 \immediate\write\writeOfphystricks{82f33431445549429c5ae5fba5f6105871f62a29:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 3/4\)}}%
 \immediate\write\writeOfphystricks{7720a3a88eb57d21e30f45d65bcc72f23eb4870d:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( -10\)}}%
 \immediate\write\writeOfphystricks{2a79e6ef7db60782caca6cf0cb84cb0d91067712:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 4/3\)}}%
@@ -64,13 +64,13 @@
 \draw []  (-1.00000000000000,-0.750000000000000) node [rotate=0] {$\bullet$};
 \draw []  (0.428571428571429,1.75000000000000) node [rotate=0] {$\bullet$};
 \draw []  (0.0,-0.750000000000000) node [rotate=0] {$\bullet$};
-\draw (0.399951166666667,-0.750000000000000) node {\( -1/10\)};
+\draw (0.200000000000000,-0.750000000000000) node {\( -1/10\)};
 \draw []  (0.0,1.75000000000000) node [rotate=0] {$\bullet$};
-\draw (-0.399951166666667,1.75000000000000) node {\( 3/4\)};
+\draw (-0.200000000000000,1.75000000000000) node {\( 3/4\)};
 \draw []  (-1.00000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (-1.00000000000000,0.340822833333333) node {\( -10\)};
+\draw (-1.00000000000000,0.200000000000000) node {\( -10\)};
 \draw []  (0.428571428571429,0.0) node [rotate=0] {$\bullet$};
-\draw (0.428571428571429,-0.399951166666667) node {\( 4/3\)};
+\draw (0.428571428571429,-0.200000000000000) node {\( 4/3\)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -101,9 +101,9 @@
 \draw [color=red,samples=100] plot [smooth,tension=1] coordinates {(-3.00000000000000,-0.250000000000000)(-2.59609109284012,-0.238588540015246)(-2.21085771180025,-0.389824063663400)(-1.79368943852914,-0.366808457610029)(-1.42445958440299,-0.579902414558067)(-0.979378314769739,-0.703029226436199)(-1.00000000000000,-0.750000000000000)};
 \draw [color=red,samples=100] plot [smooth,tension=1] coordinates {(0.428571428571429,1.75000000000000)(0.764828510404303,0.901700646081430)(1.22262731345300,0.669590285937422)(1.58543537660266,0.420915425865661)(2.01022208787893,0.423954768883227)(2.39556211895328,0.262655994906336)(2.80821819409273,0.317299638155810)(3.00000000000000,0.250000000000000)};
 \draw []  (-1.00000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (-1.00000000000000,0.340822833333333) node {\( -10\)};
+\draw (-1.00000000000000,0.200000000000000) node {\( -10\)};
 \draw []  (0.428571428571429,0.0) node [rotate=0] {$\bullet$};
-\draw (0.428571428571429,-0.399951166666667) node {\( 4/3\)};
+\draw (0.428571428571429,-0.200000000000000) node {\( 4/3\)};
 \draw [color=green] plot [smooth,tension=1] coordinates {(-3.00000000000000,0.0)(-2.87500000000000,0.125000000000000)(-2.75000000000000,-0.125000000000000)(-2.62500000000000,0.125000000000000)(-2.50000000000000,-0.125000000000000)(-2.37500000000000,0.125000000000000)(-2.25000000000000,-0.125000000000000)(-2.12500000000000,0.125000000000000)(-2.00000000000000,-0.125000000000000)(-1.87500000000000,0.125000000000000)(-1.75000000000000,-0.125000000000000)(-1.62500000000000,0.125000000000000)(-1.50000000000000,-0.125000000000000)(-1.37500000000000,0.125000000000000)(-1.25000000000000,-0.125000000000000)(-1.12500000000000,0.125000000000000)(-1.00000000000000,0.0)};
 \draw [color=green] plot [smooth,tension=1] coordinates {(0.428571428571429,0.0)(0.551020408163265,0.125000000000000)(0.673469387755102,-0.125000000000000)(0.795918367346939,0.125000000000000)(0.918367346938775,-0.125000000000000)(1.04081632653061,0.125000000000000)(1.16326530612245,-0.125000000000000)(1.28571428571429,0.125000000000000)(1.40816326530612,-0.125000000000000)(1.53061224489796,0.125000000000000)(1.65306122448980,-0.125000000000000)(1.77551020408163,0.125000000000000)(1.89795918367347,-0.125000000000000)(2.02040816326531,0.125000000000000)(2.14285714285714,-0.125000000000000)(2.26530612244898,0.125000000000000)(2.38775510204082,-0.125000000000000)(2.51020408163265,0.125000000000000)(2.63265306122449,-0.125000000000000)(2.75510204081633,0.125000000000000)(2.87755102040816,-0.125000000000000)(3.00000000000000,0.0)};
 \draw [color=red,style=dashed] (-1.00000000000000,0.0) -- (-1.00000000000000,-0.750000000000000);
