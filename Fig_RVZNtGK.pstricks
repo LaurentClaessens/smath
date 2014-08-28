@@ -12,57 +12,46 @@
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A(x_A;y_A)\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigRVZNtGKPICTRVZNtGK.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigRVZNtGKPICTRVZNtGKaaaO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigRVZNtGKPICTRVZNtGKaaaP:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{89007ddce8adfba34d72175a78faaa8c868b66ff:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B(x_B;y_B)\)}}%
+\immediate\write\writeOfphystricks{e50019956a9c01f64914a44ab18949f27fd55133:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C(x_C;y_C)\)}}%
+\immediate\write\writeOfphystricks{987c04c850679435676b55baeed2c954a1551aa0:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_B-y_A\)}}%
+\immediate\write\writeOfphystricks{6dfbe12e34ce690f862847f6f49bfe07e4dc3265:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y_C-y_A\)}}%
+\immediate\write\writeOfphystricks{77e8877069bf9e4fd2aa4e82a7f2f29a9dd8674a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_C-x_A\)}}%
+\immediate\write\writeOfphystricks{db3443e239b763afdc1d5c002d8c6fae70fbb338:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x_B-x_A\)}}%
+\immediate\write\writeOfphystricks{c01934afe3e176458bfdb7af4b0b842360ec52e7:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
+%HATCHING_COMMANDS
+                 \makeatletter
+% If hatchspread is not defined, we define it
+\ifthenelse{\value{defHatch}=0}{
+\setcounter{defHatch}{1}
+\newlength{\hatchspread}%
+\newlength{\hatchthickness}%
+}{}
+               \makeatother               
+               \makeatletter
+\ifthenelse{\value{defPattern}=0}{
+\setcounter{defPattern}{1}
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{-2\hatchthickness}{-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\hatchspread}{\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\hatchspread}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt}{-0.15pt}}
+        \pgfusepath{stroke}
+   }
+   }{}
+   \makeatother               
 %SUBFIGURES
 %AFTER SUBFIGURES
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=10.cm]{Picture_FIGLabelFigRVZNtGKPICTRVZNtGK-for_eps.png}%
- \else %ENTETE PSPICTURE
+%ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
@@ -70,76 +59,39 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
-\psset{xunit=1,yunit=1,LabelSep=1.0}
-\psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-0.500000000000000,-0.500000000000000)(10.0000000000000,5.25000000000000)
+\tikzsetnextfilename{tikzFIGLabelFigRVZNtGKPICTRVZNtGK}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0){bybR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,0){bybT}
-\ncline[linestyle=solid,linecolor=black]{->}{bybR}{bybT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.500000000000000){bybX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,5.25000000000000){bybZ}
-\ncline[linestyle=solid,linecolor=black]{->}{bybX}{bybZ}
+\draw [,->,>=latex] (-0.500000000000000,0) -- (10.0000000000000,0);
+\draw [,->,>=latex] (0,-0.500000000000000) -- (0,5.25000000000000);
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,0.250000000000000){bxXD}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](9.50000000000000,4.75000000000000){bxXC}
-\pstLineAB[linestyle=solid,linecolor=black]{bxXD}{bxXC}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](2.00000000000000,1.00000000000000){bxXz}
-\pstGeonode[](1.03610347709602,1.34137252290398){bycz}
-\rput(bycz){\rput(0;0){\( A(x_A;y_A)\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](4.00000000000000,2.00000000000000){bxXA}
-\pstGeonode[](3.00941414376269,2.34137252290398){bycF}
-\rput(bycF){\rput(0;0){\( B(x_B;y_B)\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](8.00000000000000,4.00000000000000){bxXB}
-\pstGeonode[](7.01988181042936,4.34137252290398){bycL}
-\rput(bycL){\rput(0;0){\( C(x_C;y_C)\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,2.00000000000000){bxXA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,1.00000000000000){bxXE}
-\pstLineAB[linestyle=dotted,linecolor=black]{bxXA}{bxXE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,4.00000000000000){bxXB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,1.00000000000000){bxXF}
-\pstLineAB[linestyle=dotted,linecolor=black]{bxXB}{bxXF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,1.00000000000000){bxXz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,1.00000000000000){bxXF}
-\pstLineAB[linestyle=dotted,linecolor=black]{bxXz}{bxXF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.20000000000000,1.50000000000000){bycU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.20000000000000,2.00000000000000){bxXN}
-\ncline[linestyle=solid,linecolor=black]{->}{bycU}{bxXN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.20000000000000,1.50000000000000){bycU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.20000000000000,1.00000000000000){bxXO}
-\ncline[linestyle=solid,linecolor=black]{->}{bycU}{bxXO}
-\pstGeonode[](5.06834133333333,1.50000000000000){bydg}
-\rput(bydg){\rput(0;0){\( y_B-y_A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.20000000000000,2.50000000000000){bydj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.20000000000000,4.00000000000000){bxXY}
-\ncline[linestyle=solid,linecolor=black]{->}{bydj}{bxXY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.20000000000000,2.50000000000000){bydj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.20000000000000,1.00000000000000){bxXZ}
-\ncline[linestyle=solid,linecolor=black]{->}{bydj}{bxXZ}
-\pstGeonode[](9.06530433333333,2.50000000000000){bydv}
-\rput(bydv){\rput(0;0){\( y_C-y_A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,0.800000000000001){bydy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,0.800000000000001){bxYj}
-\ncline[linestyle=solid,linecolor=black]{->}{bydy}{bxYj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.00000000000000,0.800000000000001){bydy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.00000000000000,0.800000000000001){bxYk}
-\ncline[linestyle=solid,linecolor=black]{->}{bydy}{bxYk}
-\pstGeonode[](5.20000000000000,0.656833333333334){bydK}
-\rput(bydK){\rput(0;0){\( x_C-x_A\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){bydN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,0.500000000000000){bxYu}
-\ncline[linestyle=solid,linecolor=black]{->}{bydN}{bxYu}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){bydN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0.500000000000000){bxYv}
-\ncline[linestyle=solid,linecolor=black]{->}{bydN}{bxYv}
-\pstGeonode[](3.20000000000000,0.356833333333333){bydZ}
-\rput(bydZ){\rput(0;0){\( x_B-x_A\)}}
+\draw [] (0.500000000000000,0.250000000000000) -- (9.50000000000000,4.75000000000000);
+\draw []  (2.00000000000000,1.00000000000000) node [rotate=0] {$\bullet$};
+\draw (1.65862747709602,1.34137252290398) node {\( A(x_A;y_A)\)};
+\draw []  (4.00000000000000,2.00000000000000) node [rotate=0] {$\bullet$};
+\draw (3.65862747709602,2.34137252290398) node {\( B(x_B;y_B)\)};
+\draw []  (8.00000000000000,4.00000000000000) node [rotate=0] {$\bullet$};
+\draw (7.65862747709602,4.34137252290398) node {\( C(x_C;y_C)\)};
+\draw [style=dotted] (4.00000000000000,2.00000000000000) -- (4.00000000000000,1.00000000000000);
+\draw [style=dotted] (8.00000000000000,4.00000000000000) -- (8.00000000000000,1.00000000000000);
+\draw [style=dotted] (2.00000000000000,1.00000000000000) -- (8.00000000000000,1.00000000000000);
+\draw [,->,>=latex] (4.20000000000000,1.50000000000000) -- (4.20000000000000,2.00000000000000);
+\draw [,->,>=latex] (4.20000000000000,1.50000000000000) -- (4.20000000000000,1.00000000000000);
+\draw (4.55205533333333,1.50000000000000) node {\( y_B-y_A\)};
+\draw [,->,>=latex] (8.20000000000000,2.50000000000000) -- (8.20000000000000,4.00000000000000);
+\draw [,->,>=latex] (8.20000000000000,2.50000000000000) -- (8.20000000000000,1.00000000000000);
+\draw (8.55205533333333,2.50000000000000) node {\( y_C-y_A\)};
+\draw [,->,>=latex] (5.00000000000000,0.800000000000001) -- (2.00000000000000,0.800000000000001);
+\draw [,->,>=latex] (5.00000000000000,0.800000000000001) -- (8.00000000000000,0.800000000000001);
+\draw (5.20000000000000,0.656833333333334) node {\( x_C-x_A\)};
+\draw [,->,>=latex] (3.00000000000000,0.500000000000000) -- (2.00000000000000,0.500000000000000);
+\draw [,->,>=latex] (3.00000000000000,0.500000000000000) -- (4.00000000000000,0.500000000000000);
+\draw (3.20000000000000,0.356833333333333) node {\( x_B-x_A\)};
 %OTHER STUFF
 %END PSPICTURE
-\end{pspicture}
+\end{tikzpicture}
 %AFTER PSPICTURE
- \fi
 %AFTER PSPICTURE

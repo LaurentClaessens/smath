@@ -12,51 +12,44 @@
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( a\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOd.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( a\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( a\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( a\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( b\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( b\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( b\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( b\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( m\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( m\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( m\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( m\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( f\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( f\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( f\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( f\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( a\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( a\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( b\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( b\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( m\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( m\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( f\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( f\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOdaaaJ:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{d246378e7813fbda7fc515fbb34b4d17a03e5971:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( b\)}}%
+\immediate\write\writeOfphystricks{a920c1e84dad81d765ba1b1b3eeb2091fc656965:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( m\)}}%
+\immediate\write\writeOfphystricks{9f8be3ae3a1c60d7ea2bfc95f7cccbb8bd7fb37a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( f\)}}%
+\immediate\write\writeOfphystricks{3f00378bc2f17ce65d6b7c696a5487046abe5c87:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
+%HATCHING_COMMANDS
+                 \makeatletter
+% If hatchspread is not defined, we define it
+\ifthenelse{\value{defHatch}=0}{
+\setcounter{defHatch}{1}
+\newlength{\hatchspread}%
+\newlength{\hatchthickness}%
+}{}
+               \makeatother               
+               \makeatletter
+\ifthenelse{\value{defPattern}=0}{
+\setcounter{defPattern}{1}
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{-2\hatchthickness}{-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\hatchspread}{\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\hatchspread}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt}{-0.15pt}}
+        \pgfusepath{stroke}
+   }
+   }{}
+   \makeatother               
 %SUBFIGURES
 %AFTER SUBFIGURES
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=7.0cm]{Picture_FIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOd-for_eps.png}%
- \else %ENTETE PSPICTURE
+%ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
@@ -64,55 +57,34 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
-\psset{xunit=1,yunit=1,LabelSep=1.0}
-\psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-4.50000000000000,-4.60000000000000)(2.60000000000000,1.90000000000000)
+\tikzsetnextfilename{tikzFIGLabelFigMinMaxKNRdOdPICTMinMaxKNRdOd}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.50000000000000,0){aspd}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.60000000000000,0){aspf}
-\ncline[linestyle=solid,linecolor=black]{->}{aspd}{aspf}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-4.60000000000000){aspj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.90000000000000){aspl}
-\ncline[linestyle=solid,linecolor=black]{->}{aspj}{aspl}
+\draw [,->,>=latex] (-4.50000000000000,0) -- (2.60000000000000,0);
+\draw [,->,>=latex] (0,-4.60000000000000) -- (0,1.90000000000000);
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,1.30000000000000){asmB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,0){asmC}
-\pstLineAB[linestyle=dotted,linecolor=red]{asmB}{asmC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,1.30000000000000){asmB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,1.30000000000000){asmD}
-\pstLineAB[linestyle=dotted,linecolor=red]{asmB}{asmD}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-2.50000000000000,1.30000000000000){asmB}
-\pstGeonode[PointSymbol=|,linestyle=solid,linecolor=black](-2.50000000000000,0){asmC}
-\pstGeonode[](-2.39720033333333,0.286111166666667){aspN}
-\rput(aspN){\rput(0;0){\( a\)}}
-\pstGeonode[PointSymbol=|,dotangle=90,linestyle=solid,linecolor=black](0,1.30000000000000){asmD}
-\pstGeonode[](-0.410346000000000,1.43666666666667){aspT}
-\rput(aspT){\rput(0;0){\( M\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-4.00000000000000){asmE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,0){asmF}
-\pstLineAB[linestyle=dotted,linecolor=red]{asmE}{asmF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-4.00000000000000){asmE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-4.00000000000000){asmG}
-\pstLineAB[linestyle=dotted,linecolor=red]{asmE}{asmG}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,-4.00000000000000){asmE}
-\pstGeonode[PointSymbol=|,linestyle=solid,linecolor=black](1.00000000000000,0){asmF}
-\pstGeonode[](1.08326266666667,-0.338888500000000){asqd}
-\rput(asqd){\rput(0;0){\( b\)}}
-\pstGeonode[PointSymbol=|,dotangle=90,linestyle=solid,linecolor=black](0,-4.00000000000000){asmG}
-\pstGeonode[](0.371294333333333,-3.91388883333333){asqj}
-\rput(asqj){\rput(0;0){\( m\)}}
-\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-4.00000000000000}{2.00000000000000}{0.08163265306122448*(2.2857142857142856*x - 6.285714285714286)*(x + 2.5)^2 + 0.08163265306122448*(x - 1)^2*(0.7428571428571429*x + 3.157142857142857)}
-\pstGeonode[](2.31788100000000,-2.27703332896016){asqq}
-\rput(asqq){\rput(0;0){\( f\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-2.45481049562682){asmH}
-\pstGeonode[](2.31788100000000,-2.27703332896016){asqx}
-\rput(asqx){\rput(0;0){\( f\)}}
+\draw [color=red,style=dotted] (1.00000000000000,-4.00000000000000) -- (1.00000000000000,0);
+\draw [color=red,style=dotted] (1.00000000000000,-4.00000000000000) -- (0,-4.00000000000000);
+\draw []  (1.00000000000000,-4.00000000000000) node [rotate=0] {$\bullet$};
+\draw []  (1.00000000000000,0) node [rotate=0] {$|$};
+\draw (1.08611116666667,0.286111166666667) node {\( a\)};
+\draw []  (0,-4.00000000000000) node [rotate=0] {$|$};
+\draw (-0.336666666666667,-3.86333333333333) node {\( M\)};
+\draw [color=red,style=dotted] (-2.50000000000000,1.30000000000000) -- (-2.50000000000000,0);
+\draw [color=red,style=dotted] (-2.50000000000000,1.30000000000000) -- (0,1.30000000000000);
+\draw []  (-2.50000000000000,1.30000000000000) node [rotate=0] {$\bullet$};
+\draw []  (-2.50000000000000,0) node [rotate=0] {$|$};
+\draw (-2.36111150000000,-0.338888500000000) node {\( b\)};
+\draw []  (0,1.30000000000000) node [rotate=0] {$|$};
+\draw (0.286111166666667,1.38611116666667) node {\( m\)};
+\draw [color=blue,samples=100] plot [smooth,tension=1] coordinates {(-4.00000000000000,-2.45481049562682)(-3.93939393939394,-2.12647718216954)(-3.87878787878788,-1.81552160725714)(-3.81818181818182,-1.52161355257999)(-3.75757575757576,-1.24442279982843)(-3.69696969696970,-0.983619130692835)(-3.63636363636364,-0.738872326863556)(-3.57575757575758,-0.509852170030955)(-3.51515151515152,-0.296228441885383)(-3.45454545454545,-0.0976709241172049)(-3.39393939393939,0.0861506015832223)(-3.33333333333333,0.255566353525539)(-3.27272727272727,0.410906550019385)(-3.21212121212121,0.552501409374408)(-3.15151515151515,0.680681149900243)(-3.09090909090909,0.795775989906534)(-3.03030303030303,0.898116147702924)(-2.96969696969697,0.988031841599054)(-2.90909090909091,1.06585328990456)(-2.84848484848485,1.13191071092909)(-2.78787878787879,1.18653432298229)(-2.72727272727273,1.23005434437379)(-2.66666666666667,1.26280099341324)(-2.60606060606061,1.28510448841027)(-2.54545454545455,1.29729504767454)(-2.48484848484848,1.29970288951567)(-2.42424242424242,1.29265823224332)(-2.36363636363636,1.27649129416712)(-2.30303030303030,1.25153229359672)(-2.24242424242424,1.21811144884176)(-2.18181818181818,1.17655897821187)(-2.12121212121212,1.12720510001670)(-2.06060606060606,1.07038003256590)(-2.00000000000000,1.00641399416910)(-1.93939393939394,0.935637203135938)(-1.87878787878788,0.858379877776066)(-1.81818181818182,0.774972236399121)(-1.75757575757576,0.685744497314745)(-1.69696969696970,0.591026878832580)(-1.63636363636364,0.491149599262265)(-1.57575757575758,0.386442876913445)(-1.51515151515152,0.277236930095759)(-1.45454545454545,0.163861977118850)(-1.39393939393939,0.0466482362923585)(-1.33333333333333,-0.0740740740740745)(-1.27272727272727,-0.197974735670806)(-1.21212121212121,-0.324723530188196)(-1.15151515151515,-0.453990239316601)(-1.09090909090909,-0.585444644746382)(-1.03030303030303,-0.718756528167896)(-0.969696969696970,-0.853595671271502)(-0.909090909090909,-0.989631855747558)(-0.848484848484849,-1.12653486328642)(-0.787878787878788,-1.26397447557846)(-0.727272727272727,-1.40162047431401)(-0.666666666666667,-1.53914264118346)(-0.606060606060606,-1.67621075787714)(-0.545454545454545,-1.81249460608543)(-0.484848484848485,-1.94766396749868)(-0.424242424242424,-2.08138862380724)(-0.363636363636363,-2.21333835670149)(-0.303030303030303,-2.34318294787177)(-0.242424242424242,-2.47059217900844)(-0.181818181818182,-2.59523583180186)(-0.121212121212121,-2.71678368794240)(-0.0606060606060606,-2.83490552912040)(0,-2.94927113702624)(0.0606060606060606,-3.05955029335026)(0.121212121212121,-3.16541277978282)(0.181818181818182,-3.26652837801429)(0.242424242424242,-3.36256686973503)(0.303030303030303,-3.45319803663538)(0.363636363636363,-3.53809166040571)(0.424242424242425,-3.61691752273638)(0.484848484848485,-3.68934540531775)(0.545454545454546,-3.75504508984016)(0.606060606060606,-3.81368635799400)(0.666666666666667,-3.86493899146960)(0.727272727272728,-3.90847277195734)(0.787878787878788,-3.94395748114756)(0.848484848484849,-3.97106290073063)(0.909090909090909,-3.98945881239691)(0.969696969696970,-3.99881499783676)(1.03030303030303,-3.99880123874052)(1.09090909090909,-3.98908731679857)(1.15151515151515,-3.96934301370125)(1.21212121212121,-3.93923811113894)(1.27272727272727,-3.89844239080198)(1.33333333333333,-3.84662563438074)(1.39393939393939,-3.78345762356557)(1.45454545454546,-3.70860814004683)(1.51515151515152,-3.62174696551489)(1.57575757575758,-3.52254388166009)(1.63636363636364,-3.41066867017280)(1.69696969696970,-3.28579111274338)(1.75757575757576,-3.14758099106218)(1.81818181818182,-2.99570808681957)(1.87878787878788,-2.82984218170590)(1.93939393939394,-2.64965305741153)(2.00000000000000,-2.45481049562682)};
+\draw (2.37777716666667,-2.27703332896016) node {\( f\)};
+\draw (2.37777716666667,-2.27703332896016) node {\( f\)};
 %OTHER STUFF
 %END PSPICTURE
-\end{pspicture}
+\end{tikzpicture}
 %AFTER PSPICTURE
- \fi
 %AFTER PSPICTURE

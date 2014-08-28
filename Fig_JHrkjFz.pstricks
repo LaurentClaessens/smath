@@ -12,32 +12,37 @@
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigJHrkjFzPICTJHrkjFz.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E'\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E'\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E'\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E'\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E'\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E'\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigJHrkjFzPICTJHrkjFzaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigJHrkjFzPICTJHrkjFzaaax:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{a3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
+\immediate\write\writeOfphystricks{7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E'\)}}%
+\immediate\write\writeOfphystricks{c03c458e4ea7af7aab00286217de37acfc6f63a7:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{ea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
+%HATCHING_COMMANDS
+                 \makeatletter
+% If hatchspread is not defined, we define it
+\ifthenelse{\value{defHatch}=0}{
+\setcounter{defHatch}{1}
+\newlength{\hatchspread}%
+\newlength{\hatchthickness}%
+}{}
+               \makeatother               
+               \makeatletter
+\ifthenelse{\value{defPattern}=0}{
+\setcounter{defPattern}{1}
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{-2\hatchthickness}{-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\hatchspread}{\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\hatchspread}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt}{-0.15pt}}
+        \pgfusepath{stroke}
+   }
+   }{}
+   \makeatother               
 %BEFORE SUBFIGURES
 \begin{figure}[ht]
 \centering
@@ -46,8 +51,7 @@
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=10.cm]{Picture_FIGLabelFigJHrkjFzPICTJHrkjFz-for_eps.png}%
- \else %ENTETE PSPICTURE
+%ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
@@ -55,103 +59,49 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
-\psset{xunit=1,yunit=1,LabelSep=1.0}
-\psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-0.500000000000000,-3.00000000000000)(10.0000000000000,3.00000000000000)
+\tikzsetnextfilename{tikzFIGLabelFigJHrkjFzPICTJHrkjFz}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,2.22649730810374){aRgP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.66025403784439,3.00000000000000){aRgR}
-\pstLineAB[linestyle=solid,linecolor=black]{aRgP}{aRgR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,-2.22649730810374){aRgB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.66025403784439,-3.00000000000000){aRgC}
-\pstLineAB[linestyle=solid,linecolor=black]{aRgB}{aRgC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,1.22649730810374){aRhr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](6.92820323027551,3.00000000000000){aRht}
-\pstLineAB[linestyle=solid,linecolor=black]{aRhr}{aRht}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,-1.22649730810374){aRhd}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](6.92820323027551,-3.00000000000000){aRhe}
-\pstLineAB[linestyle=solid,linecolor=black]{aRhd}{aRhe}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,0.226497308103743){aRhT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.19615242270663,3.00000000000000){aRhV}
-\pstLineAB[linestyle=solid,linecolor=black]{aRhT}{aRhV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,-0.226497308103743){aRhF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.19615242270663,-3.00000000000000){aRhG}
-\pstLineAB[linestyle=solid,linecolor=black]{aRhF}{aRhG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,-0.773502691896257){aRiv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.46410161513775,3.00000000000000){aRix}
-\pstLineAB[linestyle=solid,linecolor=black]{aRiv}{aRix}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,0.773502691896257){aRih}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.46410161513775,-3.00000000000000){aRii}
-\pstLineAB[linestyle=solid,linecolor=black]{aRih}{aRii}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,-1.77350269189626){aRiX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.73205080756888,3.00000000000000){aRiZ}
-\pstLineAB[linestyle=solid,linecolor=black]{aRiX}{aRiZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,1.77350269189626){aRiJ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.73205080756888,-3.00000000000000){aRiK}
-\pstLineAB[linestyle=solid,linecolor=black]{aRiJ}{aRiK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,-2.77350269189626){aRjz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aRjB}
-\pstLineAB[linestyle=solid,linecolor=black]{aRjz}{aRjB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](10.0000000000000,2.77350269189626){aRjl}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){aRjm}
-\pstLineAB[linestyle=solid,linecolor=black]{aRjl}{aRjm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,2.28867513459481){aRka}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.66025403784439,-3.00000000000000){aRkc}
-\pstLineAB[linestyle=solid,linecolor=black]{aRka}{aRkc}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-2.28867513459481){aRjM}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](8.66025403784439,3.00000000000000){aRjP}
-\pstLineAB[linestyle=solid,linecolor=black]{aRjM}{aRjP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,1.28867513459481){aRkC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](6.92820323027551,-3.00000000000000){aRkE}
-\pstLineAB[linestyle=solid,linecolor=black]{aRkC}{aRkE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-1.28867513459481){aRko}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](6.92820323027551,3.00000000000000){aRkr}
-\pstLineAB[linestyle=solid,linecolor=black]{aRko}{aRkr}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0.288675134594813){aRle}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.19615242270663,-3.00000000000000){aRlg}
-\pstLineAB[linestyle=solid,linecolor=black]{aRle}{aRlg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-0.288675134594813){aRkQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](5.19615242270663,3.00000000000000){aRkT}
-\pstLineAB[linestyle=solid,linecolor=black]{aRkQ}{aRkT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-0.711324865405187){aRlG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.46410161513775,-3.00000000000000){aRlI}
-\pstLineAB[linestyle=solid,linecolor=black]{aRlG}{aRlI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,0.711324865405187){aRls}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.46410161513775,3.00000000000000){aRlv}
-\pstLineAB[linestyle=solid,linecolor=black]{aRls}{aRlv}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-1.71132486540519){aRmi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.73205080756888,-3.00000000000000){aRmk}
-\pstLineAB[linestyle=solid,linecolor=black]{aRmi}{aRmk}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,1.71132486540519){aRlU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.73205080756888,3.00000000000000){aRlX}
-\pstLineAB[linestyle=solid,linecolor=black]{aRlU}{aRlX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-2.71132486540519){aRmK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-3.00000000000000){aRmM}
-\pstLineAB[linestyle=solid,linecolor=black]{aRmK}{aRmM}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,2.71132486540519){aRmw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){aRmz}
-\pstLineAB[linestyle=solid,linecolor=black]{aRmw}{aRmz}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](0,0){aRgp}
-\pstGeonode[](0.168035666666667,0.336666666666667){aRpe}
-\rput(aRpe){\rput(0;0){\( D\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.46410161513775,1.00000000000000){aRmO}
-\pstGeonode[](3.62078994847109,1.33666666666667){aRpk}
-\rput(aRpk){\rput(0;0){\( E\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.46410161513775,-1.00000000000000){aRmP}
-\pstGeonode[](3.66777128180442,-0.652875000000000){aRpq}
-\rput(aRpq){\rput(0;0){\( E'\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](7.79422863405995,-1.50000000000000){aRmQ}
-\pstGeonode[](7.94819746739328,-1.16333333333333){aRpw}
-\rput(aRpw){\rput(0;0){\( F\)}}
+\draw [] (10.0000000000000,2.22649730810374) -- (8.66025403784439,3.00000000000000);
+\draw [] (10.0000000000000,-2.22649730810374) -- (8.66025403784439,-3.00000000000000);
+\draw [] (10.0000000000000,1.22649730810374) -- (6.92820323027551,3.00000000000000);
+\draw [] (10.0000000000000,-1.22649730810374) -- (6.92820323027551,-3.00000000000000);
+\draw [] (10.0000000000000,0.226497308103743) -- (5.19615242270663,3.00000000000000);
+\draw [] (10.0000000000000,-0.226497308103743) -- (5.19615242270663,-3.00000000000000);
+\draw [] (10.0000000000000,-0.773502691896257) -- (3.46410161513775,3.00000000000000);
+\draw [] (10.0000000000000,0.773502691896257) -- (3.46410161513775,-3.00000000000000);
+\draw [] (10.0000000000000,-1.77350269189626) -- (1.73205080756888,3.00000000000000);
+\draw [] (10.0000000000000,1.77350269189626) -- (1.73205080756888,-3.00000000000000);
+\draw [] (10.0000000000000,-2.77350269189626) -- (0,3.00000000000000);
+\draw [] (10.0000000000000,2.77350269189626) -- (0,-3.00000000000000);
+\draw [] (-0.500000000000000,2.28867513459481) -- (8.66025403784439,-3.00000000000000);
+\draw [] (-0.500000000000000,-2.28867513459481) -- (8.66025403784439,3.00000000000000);
+\draw [] (-0.500000000000000,1.28867513459481) -- (6.92820323027551,-3.00000000000000);
+\draw [] (-0.500000000000000,-1.28867513459481) -- (6.92820323027551,3.00000000000000);
+\draw [] (-0.500000000000000,0.288675134594813) -- (5.19615242270663,-3.00000000000000);
+\draw [] (-0.500000000000000,-0.288675134594813) -- (5.19615242270663,3.00000000000000);
+\draw [] (-0.500000000000000,-0.711324865405187) -- (3.46410161513775,-3.00000000000000);
+\draw [] (-0.500000000000000,0.711324865405187) -- (3.46410161513775,3.00000000000000);
+\draw [] (-0.500000000000000,-1.71132486540519) -- (1.73205080756888,-3.00000000000000);
+\draw [] (-0.500000000000000,1.71132486540519) -- (1.73205080756888,3.00000000000000);
+\draw [] (-0.500000000000000,-2.71132486540519) -- (0,-3.00000000000000);
+\draw [] (-0.500000000000000,2.71132486540519) -- (0,3.00000000000000);
+\draw []  (0,0) node [rotate=0] {$\bullet$};
+\draw (0.136666666666667,0.336666666666667) node {\( D\)};
+\draw []  (3.46410161513775,1.00000000000000) node [rotate=0] {$\bullet$};
+\draw (3.60076828180442,1.33666666666667) node {\( E\)};
+\draw []  (3.46410161513775,-1.00000000000000) node [rotate=0] {$\bullet$};
+\draw (3.61122661513775,-0.652875000000000) node {\( E'\)};
+\draw []  (7.79422863405995,-1.50000000000000) node [rotate=0] {$\bullet$};
+\draw (7.93089530072661,-1.16333333333333) node {\( F\)};
 %END PSPICTURE
-\end{pspicture}
+\end{tikzpicture}
 %AFTER PSPICTURE
- \fi
 %AFTER PSPICTURE
 %AFTER ALL
 \caption{\CaptionFigJHrkjFz}\label{LabelFigJHrkjFz}

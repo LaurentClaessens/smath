@@ -1,9 +1,18 @@
 #! /usr/bin/sage -python
 # -*- coding: utf8 -*-
 
+"""
+Pour tester ce fichier :
+    rm *.pdf
+    rm *.aux
+    rm *.pstricks
+    et vérifier que externalize de tikz n'est pas mis pour le test.
+"""
+
 from phystricks import *
 import sys
-
+from phystricksWGCXlvC import WGCXlvC
+from phystricksDPXooCqCUDl import DPXooCqCUDl
 from phystricksSTSooGUprbS import STSooGUprbS
 from phystricksJSFooDBSHFo import JSFooDBSHFo
 from phystricksVFAooZmuvtW import VFAooZmuvtW
@@ -46,7 +55,6 @@ from phystricksRHfkPKj import RHfkPKj
 from phystricksRZwXiJD import RZwXiJD
 from phystricksGTyQVvw import GTyQVvw
 from phystricksXDdastq import XDdastq
-from phystricksAUHmNET import AUHmNET
 from phystricksAILoxBg import AILoxBg
 from phystricksKYbSnVB import KYbSnVB
 from phystricksOZfyDkr import OZfyDkr
@@ -58,13 +66,11 @@ from phystricksGSfDCyx import GSfDCyx
 from phystricksRRlBSZg import RRlBSZg
 from phystricksFFyFBoe import FFyFBoe
 from phystricksJLUTBlD import JLUTBlD
-from phystricksJLUTBlD import JWNtVIR
 from phystricksQLbEnnx import QLbEnnx
 from phystricksAPNeGtp import APNeGtp
 from phystricksRLGQTQR import RLGQTQR
 from phystricksPUGmLBC import PUGmLBC
 from phystricksJXWXdJI import JXWXdJI
-from phystricksOKTXHoc import OKTXHoc
 from phystricksWYeESAN import WYeESAN
 from phystricksYBxSjFS import YBxSjFS
 from phystricksEDnzyzS import EDnzyzS
@@ -87,8 +93,6 @@ from phystricksXPqLRCF import VXFxyni
 from phystricksPXsdjSu import PXsdjSu
 from phystricksPXsdjSu import LQGzkvL
 from phystricksITlywMb import ITlywMb
-from phystricksDZmbmzZ import DZmbmzZ
-from phystricksUEqUrvi import UEqUrvi
 from phystricksKMJQWwa import KMJQWwa
 from phystricksVDqUhPV import VDqUhPV
 from phystricksLSaSLoS import LSaSLoS
@@ -112,7 +116,6 @@ from phystricksLOBVHYF import LOBVHYF
 from phystricksYORfWSM import YORfWSM
 from phystricksVMNerGf import VMNerGf
 from phystricksTOcdZDG import TOcdZDG
-from phystricksOHfdEZt import OHfdEZt
 from phystricksYAaXJqQ import YAaXJqQ
 from phystricksfigureWYxZPMW import figureWYxZPMW
 from phystricksfigureCFoZCYe import figureCFoZCYe
@@ -156,6 +159,7 @@ from phystricksPositionPlansTvKvah import PositionPlansTvKvah
 from phystricksPositionRelativexpwkEJ import PositionRelativexpwkEJ
 from phystricksExoTrigTrIpPW import ExoTrigTrIpPW
 from phystricksExoVectoFRPXxB import ExoVectoFRPXxB
+
 #from phystricksTracerUn import TracerUn
 #from phystricksGrapheunsurunmoinsx import Grapheunsurunmoinsx
 #from phystricksExerciceGraphes import ExerciceGraphes
@@ -179,7 +183,6 @@ from phystricksHistoTdkccB import HistoTdkccB
 from phystricksHistoPySeT import HistoPySeT
 from phystricksHistoAgeFrance import HistoAgeFrance
 from phystricksHistoAgeKenya import HistoAgeKenya
-from phystricksSecondDeg import SecondDeg
 from phystricksParabolesfTKFw import ParabolesfTKFw
 from phystricksEffectifsCumulwfqAhj import EffectifsCumulwfqAhj
 from phystricksSurfaceTriangletcNPPE import SurfaceTriangletcNPPE
@@ -202,7 +205,6 @@ from phystricksReperexjVyii import ReperexjVyii
 from phystricksPythagoreeBqLDU import PythagoreeBqLDU
 from phystricksParaboleoytUKk import ParaboleoytUKk
 from phystricksParabolesoDGyNW import ParabolesoDGyNW
-from phystricksExGrapheOcxXii import ExGrapheOcxXii
 from phystricksPasFonctionYoQfSu import PasFonctionYoQfSu
 from phystricksGrapheAffinHqXJGx import GrapheAffinHqXJGx
 from phystricksExoIntersectionCourbenzIxXd import ExoIntersectionCourbenzIxXd
@@ -213,7 +215,6 @@ from phystricksExEquationIntersectioniSHPTw import ExEquationIntersectioniSHPTw
 from phystricksExIneqOcAWMq import ExIneqOcAWMq
 from phystricksExIneqfgZWStde import ExIneqfgZWStde
 from phystricksExVariationRXTkoc import ExVariationRXTkoc
-from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
 from phystricksGrapheVarndvdQM import GrapheVarndvdQM
 from phystricksFoncConstFdDkhW import FoncConstFdDkhW
 from phystricksGrapheVarREGMqx import GrapheVarREGMqx
@@ -223,7 +224,6 @@ from phystricksCubeLFZuiW import CubeLFZuiW
 from phystricksDesSectionseVPNeL import DesSectionseVPNeL
 from phystricksIllusionNHwEtp import IllusionNHwEtp
 from phystricksLignesCubeshBfjxk import LignesCubeshBfjxk
-from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
 from phystricksCylindresxKDOdy import CylindresxKDOdy
 from phystricksFaussePerspectivewAwxAJ import FaussePerspectivewAwxAJ
 from phystricksCubeLigneTriangleHFMrVU import CubeLigneTriangleHFMrVU
@@ -261,10 +261,8 @@ from phystricksfigureAEcZqpP import figureAEcZqpP
 from phystricksEGDFJAT import EGDFJAT
 from phystricksAHAbqhj import AHAbqhj
 from phystricksWRXbDCo import WRXbDCo
-from phystricksLNfaWPF import LNfaWPF
 from phystricksGRRhrJe import GRRhrJe
 from phystricksAZKoIsL import AZKoIsL
-from phystricksFPIkJJx import FPIkJJx
 from phystricksOWGRRSC import OWGRRSC
 from phystricksZQfGNsD import ZQfGNsD
 from phystricksIRHrmQQ import IRHrmQQ
@@ -279,6 +277,11 @@ from phystricksITzxISE import ITzxISE
 from phystricksEIxhcRb import EIxhcRb
 from phystricksLZDNqtV import LZDNqtV
 from phystricksRVZNtGK import RVZNtGK
+from phystricksTWGooMalxLa import TWGooMalxLa
+
+# À surveiller :
+from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
+
 
 def AllFigures(figures_list):
     tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Un soupçon de mathématiques")
@@ -287,31 +290,44 @@ def AllFigures(figures_list):
 
 # Les fonctions suivantes sont supprimées (12 septembre 2013)
 #DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,
+# Les fonctions suivantes sont supprimées (27 août 2014)
+#   from phystricksExGrapheOcxXii import ExGrapheOcxXii
+#   from phystricksSecondDeg import SecondDeg
+# from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
+# from phystricksOHfdEZt import OHfdEZt
+# from phystricksUEqUrvi import UEqUrvi
+# from phystricksDZmbmzZ import DZmbmzZ
+# from phystricksLNfaWPF import LNfaWPF
+# from phystricksFPIkJJx import FPIkJJx
+# from phystricksOKTXHoc import OKTXHoc
+# from phystricksJLUTBlD import JWNtVIR
+# from phystricksAUHmNET import AUHmNET
 
 figures_list=[EvZZys,
     BpCNVm,HistoAutomobile,HistoTdkccB,HistoPySeT,HistoAgeFrance,HistoAgeKenya,EffectifsCumulwfqAhj,SurfaceTriangletcNPPE,ParabolevQzhjq,bDdpfh,ParaboleiLbviP,
     ParaboleMCLCbG,ParaboleHautMLbPQF,ParaboleBasfKtFCN,ParabolezBeHFl,ParabolezmMGdN,ParaboleUneSolPktmCR,ParaboleHautjOEAzn,ParaboleBasDqAAua,ParaboleUniqueHautviflbY,
-    ParaboleUniqueBaskGdqda,MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,SecondDeg,ExGrapheOcxXii,GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,
-    FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,ExIneqfgZWStde,ExVariationRXTkoc,ExoGraphIneqPgErDr,GrapheVarndvdQM,
+    ParaboleUniqueBaskGdqda,MathCeilwCXIJZ,ReperexjVyii,PythagoreeBqLDU,ParaboleoytUKk,ParabolesoDGyNW,GrapheAffinHqXJGx,ExoIntersectionCourbenzIxXd,
+    FCarreQFhsWz,ExCarrexvfvre,ExResolutionOSiaMS,ExEquationIntersectioniSHPTw,ExIneqOcAWMq,ExIneqfgZWStde,ExVariationRXTkoc,GrapheVarndvdQM,
     FoncConstFdDkhW,GrapheVarREGMqx,FnAffineipcEQf,MinMaxKNRdOd,ParabolesfTKFw,CubeLFZuiW,DesSectionseVPNeL,LectureGraphnrkEEM,PasFonctionYoQfSu,IllusionNHwEtp,
-    LignesCubeshBfjxk,SurfacesCubesclGZD,FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,
+    LignesCubeshBfjxk,FaussePerspectivewAwxAJ,CubeLigneTriangleHFMrVU,SurfaceCubeXlLEEy,DansRectangleGPEkJc,PrismeCQlZKY,IsoceleVdviOE,PerpSegqrbMBZ,
     PositionsDroitesbnYIsH,CorSSTXPQVjn,GraphInterfQVfSf,ParaboleResumeHNiyfR,ParaboleResumeSzaWaG,SimulBinNWxfTN,FnInterrobgepC,RouletteACaVAA,PetiteBinomialelzbdWl,
     GrandeBinomialeIyWAIh,ExoBinomialeNyQLYI,RectanglegHuBZs,ThaleszlOKVq,DefVecteurAXDDGP,VectoParallItzteT,VectoParallelgjDlmD,ChaslesGTRtKR,VectoMilieuNuWgHW,
     ExoVectoFRPXxB,ExoVectoPJGrRF,ExoTrigTrIpPW,PositionRelativexpwkEJ,PositionPlansTvKvah,PositionPlansqSltxa,figureBCtCTZo,figureASkECWS,figureCSIQETx,figureTFaRFVd,
     figureERITfSy,figureNPQwFTp,figureITVTofz,figureNAKnjxQ,figureWFDTzSN,JOKJMTD,figureYWEhCkv,figureAEcZqpP,ExoTranslationPNjoHk,figureKHUxoaG,figureXQZwoWu,CylindresxKDOdy,
     figureNNgEEzx,figureFNkqWFE,figureLEOvqez,figureVNaHvXi,figureBOuQJyj,figureSCkAAJI,figureUERGVgS,figureQUtOjcm,figureXNAufCh,figureEWDVDTS,figureTJkpHLv,figureDTzvwiz,
     figureMYeLqLl,figurePQKzIRY,figureISQqBVu,figureHFdjZpb,figureFGgTGJA,KKEdcAR,figureXCScSiP,figureSZyxsvp,figureHYeBZVj,figureKAzSlQr,figureEHyIMRQ,figureSIZwqIZ,
-    figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,OHfdEZt,TOcdZDG,VMNerGf,YORfWSM,LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,
-    XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,UEqUrvi,DZmbmzZ,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,LNfaWPF,GRRhrJe,
-    AZKoIsL,FPIkJJx,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl,
-    MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,OKTXHoc,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
-    JLUTBlD,FFyFBoe,RRlBSZg,GSfDCyx,EJbcoxO,ILauamX,JWNtVIR,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,AUHmNET,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj,WTVlzUE,XMjsBcU,UZlaYZ,
+    figureMIdFCNN,figureZEKOYck,figureSNpNWPt,figureCFoZCYe,figureWYxZPMW,YAaXJqQ,TOcdZDG,VMNerGf,YORfWSM,LOBVHYF,BIlgjwy,JHrkjFz,GCxOEgb,JRVlexw,YVZAXhU,IQnEPpt,
+    XSMDwcv,ITZAPPh,KQluTdN,IXtyOnk,FLnDVHh,CZAVGrm,OIHVjmO,OSQOqJN,BZqEWco,AVFexUi,LSaSLoS,VDqUhPV,KMJQWwa,ITlywMb,EGDFJAT,AHAbqhj,WRXbDCo,GRRhrJe,
+    AZKoIsL,OWGRRSC,ZQfGNsD,IRHrmQQ,KGOAveW,PXsdjSu,XPqLRCF, MEzTDZC,ONMRllE,IDqyzXM,ETfnbsh,ENQhxmG,YRQOoPE,KDtwIJf,MAXkaGz,LTenBUj,ALzPUfm,LQGzkvL,APYEkIv,UKBImJl,
+    MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
+    JLUTBlD,FFyFBoe,RRlBSZg,GSfDCyx,EJbcoxO,ILauamX,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj,WTVlzUE,XMjsBcU,UZlaYZ,
     OKeZlpK,RVZNtGK,CFFyezr,QGRiHbb,DDRbyQk,SWFywZG,ZMGMLvNBa,NIGYQHN,OCFmVDE,CFjmTFb,GUEjmmR,IBmsroy,OLuvnaY,QFpJtQc,QGaeERu,GJbvyTt,TCpyyhO,YMslVxg,JLrRNbT,OZXooCVkgQ,
-    SUCoowlFdp,VGQoojvDGr,HYKooCotyT,NUWooJepuh,MJZoobAMRb,MTZooSGviQ,TAIooroZRs,IERooEvNjp,LXWooEsxsx,RWZooOBMHZ,MVHooAdkhKq,TQDooEgJgPZ,JSFooDBSHFo,STSooGUprbS
+    SUCoowlFdp,VGQoojvDGr,HYKooCotyT,NUWooJepuh,MJZoobAMRb,MTZooSGviQ,TAIooroZRs,IERooEvNjp,LXWooEsxsx,RWZooOBMHZ,MVHooAdkhKq,TQDooEgJgPZ,JSFooDBSHFo,STSooGUprbS,DPXooCqCUDl,SZYooRuSplc,VFAooZmuvtW,WGCXlvC,TWGooMalxLa
     ]
 
-#figures_list=[]
+figures_list.append(SurfacesCubesclGZD)
 
+#figures_list=[]
 
 for k in sys.argv:
     s=[]
@@ -329,3 +345,4 @@ if __name__=="__main__":
         figures_list=figures_list[-1:]
 
     AllFigures(figures_list)
+

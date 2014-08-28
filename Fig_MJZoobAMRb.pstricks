@@ -12,33 +12,42 @@
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigMJZoobAMRbPICTMJZoobAMRb.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigMJZoobAMRbPICTMJZoobAMRbaaar:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
+%HATCHING_COMMANDS
+                 \makeatletter
+% If hatchspread is not defined, we define it
+\ifthenelse{\value{defHatch}=0}{
+\setcounter{defHatch}{1}
+\newlength{\hatchspread}%
+\newlength{\hatchthickness}%
+}{}
+               \makeatother               
+               \makeatletter
+\ifthenelse{\value{defPattern}=0}{
+\setcounter{defPattern}{1}
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{-2\hatchthickness}{-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\hatchspread}{\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\hatchspread}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt}{-0.15pt}}
+        \pgfusepath{stroke}
+   }
+   }{}
+   \makeatother               
 %SUBFIGURES
 %AFTER SUBFIGURES
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=7.0cm]{Picture_FIGLabelFigMJZoobAMRbPICTMJZoobAMRb-for_eps.png}%
- \else %ENTETE PSPICTURE
+%ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
@@ -46,92 +55,43 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
-\psset{xunit=1,yunit=1,LabelSep=1.0}
-\psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-3.55915002290398,-1.00000000000000)(3.55036235623731,3.51475468957064)
+\tikzsetnextfilename{tikzFIGLabelFigMJZoobAMRbPICTMJZoobAMRb}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-1.00000000000000){bCNw}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){bCNx}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNw}{bCNx}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,-1.00000000000000){bCNy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.00000000000000,3.00000000000000){bCNz}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNy}{bCNz}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,-1.00000000000000){bCNA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.00000000000000,3.00000000000000){bCNB}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNA}{bCNB}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-1.00000000000000){bCNC}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,3.00000000000000){bCND}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNC}{bCND}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,-1.00000000000000){bCNE}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.00000000000000,3.00000000000000){bCNF}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNE}{bCNF}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,-1.00000000000000){bCNG}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.00000000000000,3.00000000000000){bCNH}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNG}{bCNH}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){bCNI}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bCNJ}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCNI}{bCNJ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,-1.00000000000000){bCNK}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,3.00000000000000){bCNL}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNK}{bCNL}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,-1.00000000000000){bCNM}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,3.00000000000000){bCNN}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNM}{bCNN}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,-1.00000000000000){bCNO}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-0.500000000000000,3.00000000000000){bCNP}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNO}{bCNP}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,-1.00000000000000){bCNQ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0.500000000000000,3.00000000000000){bCNR}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNQ}{bCNR}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,-1.00000000000000){bCNS}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,3.00000000000000){bCNT}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNS}{bCNT}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,-1.00000000000000){bCNU}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,3.00000000000000){bCNV}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNU}{bCNV}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-0.500000000000000){bCNW}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-0.500000000000000){bCNX}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNW}{bCNX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0.500000000000000){bCNY}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0.500000000000000){bCNZ}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCNY}{bCNZ}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,1.50000000000000){bCOa}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.50000000000000){bCOb}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCOa}{bCOb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.50000000000000){bCOc}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.50000000000000){bCOd}
-\pstLineAB[linestyle=dotted,linecolor=gray]{bCOc}{bCOd}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,-1.00000000000000){bCOe}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,-1.00000000000000){bCOf}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCOe}{bCOf}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,0){bCOg}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,0){bCOh}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCOg}{bCOh}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,1.00000000000000){bCOi}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){bCOj}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCOi}{bCOj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,2.00000000000000){bCOk}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,2.00000000000000){bCOl}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCOk}{bCOl}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){bCOm}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.00000000000000,3.00000000000000){bCOn}
-\pstLineAB[linestyle=solid,linecolor=gray]{bCOm}{bCOn}
+\draw [color=gray,style=solid] (-3.00000000000000,-1.00000000000000) -- (-3.00000000000000,3.00000000000000);
+\draw [color=gray,style=solid] (-2.00000000000000,-1.00000000000000) -- (-2.00000000000000,3.00000000000000);
+\draw [color=gray,style=solid] (-1.00000000000000,-1.00000000000000) -- (-1.00000000000000,3.00000000000000);
+\draw [color=gray,style=solid] (0,-1.00000000000000) -- (0,3.00000000000000);
+\draw [color=gray,style=solid] (1.00000000000000,-1.00000000000000) -- (1.00000000000000,3.00000000000000);
+\draw [color=gray,style=solid] (2.00000000000000,-1.00000000000000) -- (2.00000000000000,3.00000000000000);
+\draw [color=gray,style=solid] (3.00000000000000,-1.00000000000000) -- (3.00000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (-2.50000000000000,-1.00000000000000) -- (-2.50000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (-1.50000000000000,-1.00000000000000) -- (-1.50000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (-0.500000000000000,-1.00000000000000) -- (-0.500000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (0.500000000000000,-1.00000000000000) -- (0.500000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (1.50000000000000,-1.00000000000000) -- (1.50000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (2.50000000000000,-1.00000000000000) -- (2.50000000000000,3.00000000000000);
+\draw [color=gray,style=dotted] (-3.00000000000000,-0.500000000000000) -- (3.00000000000000,-0.500000000000000);
+\draw [color=gray,style=dotted] (-3.00000000000000,0.500000000000000) -- (3.00000000000000,0.500000000000000);
+\draw [color=gray,style=dotted] (-3.00000000000000,1.50000000000000) -- (3.00000000000000,1.50000000000000);
+\draw [color=gray,style=dotted] (-3.00000000000000,2.50000000000000) -- (3.00000000000000,2.50000000000000);
+\draw [color=gray,style=solid] (-3.00000000000000,-1.00000000000000) -- (3.00000000000000,-1.00000000000000);
+\draw [color=gray,style=solid] (-3.00000000000000,0) -- (3.00000000000000,0);
+\draw [color=gray,style=solid] (-3.00000000000000,1.00000000000000) -- (3.00000000000000,1.00000000000000);
+\draw [color=gray,style=solid] (-3.00000000000000,2.00000000000000) -- (3.00000000000000,2.00000000000000);
+\draw [color=gray,style=solid] (-3.00000000000000,3.00000000000000) -- (3.00000000000000,3.00000000000000);
 %DEFAULT
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](1.00000000000000,1.00000000000000){bCLR}
-\pstGeonode[](1.28822535623731,0.721911977096024){bCNj}
-\rput(bCNj){\rput(0;0){\( A\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](-3.00000000000000,3.00000000000000){bCLS}
-\pstGeonode[](-3.30028568957064,3.27808802290398){bCNp}
-\rput(bCNp){\rput(0;0){\( B\)}}
-\pstGeonode[PointSymbol=*,linestyle=solid,linecolor=black](3.00000000000000,1.00000000000000){bCLT}
-\pstGeonode[](3.29589185623731,0.721911977096024){bCNv}
-\rput(bCNv){\rput(0;0){\( C\)}}
+\draw []  (1.00000000000000,1.00000000000000) node [rotate=0] {$\bullet$};
+\draw (1.27808802290398,0.721911977096024) node {\( A\)};
+\draw []  (-3.00000000000000,3.00000000000000) node [rotate=0] {$\bullet$};
+\draw (-3.27808802290398,3.27808802290398) node {\( B\)};
+\draw []  (3.00000000000000,1.00000000000000) node [rotate=0] {$\bullet$};
+\draw (3.27808802290398,0.721911977096024) node {\( C\)};
 %AXES
 %OTHER STUFF
 %END PSPICTURE
-\end{pspicture}
+\end{tikzpicture}
 %AFTER PSPICTURE
- \fi
 %AFTER PSPICTURE

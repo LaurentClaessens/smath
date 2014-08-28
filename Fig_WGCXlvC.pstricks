@@ -8,55 +8,49 @@
 %SPECIFIC_NEEDS
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfhomemokySagelocalbinsageipython}{\newlength{\lengthOfhomemokySagelocalbinsageipython}}{}\makeatother%
-\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_1\)}}%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( d_1\)}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigWGCXlvCPICTWGCXlvC.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaa:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_1\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaab:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_1\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaac:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_1\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaad:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_2\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaae:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_2\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaf:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_2\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaag:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_2\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaah:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_3\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaai:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_3\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaj:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_3\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaak:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_3\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaal:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_4\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaam:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_4\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaan:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_4\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaao:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_4\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaap:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaq:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaar:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( y\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaas:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( y\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaat:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaau:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaav:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaw:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaax:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( y\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaay:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( y\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaz:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( y\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaA:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( y\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaB:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_1\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaC:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_1\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaD:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_2\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaE:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_2\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaF:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_3\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaG:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_3\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaH:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\totalheightof{\( d_4\)}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigWGCXlvCPICTWGCXlvCaaaI:\the\lengthOfhomemokySagelocalbinsageipython-}\setlength{\lengthOfhomemokySagelocalbinsageipython}{\widthof{\( d_4\)}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigWGCXlvCPICTWGCXlvCaaaJ:\the\lengthOfhomemokySagelocalbinsageipython-}
+\immediate\write\writeOfphystricks{148fa3eba9e9b9c2c5578a769be45c82a0ddc097:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( d_2\)}}%
+\immediate\write\writeOfphystricks{0ed5099ee4cb627c40e414142a039597927c67e9:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( d_3\)}}%
+\immediate\write\writeOfphystricks{8de7fece4a89c056413846594f03429c3c95d105:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( d_4\)}}%
+\immediate\write\writeOfphystricks{f58316557421e59cede0631788f150761d6844bd:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( x\)}}%
+\immediate\write\writeOfphystricks{3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( y\)}}%
+\immediate\write\writeOfphystricks{16ab2d31b0c44e7399acaad923763328253874a7:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
+%HATCHING_COMMANDS
+                 \makeatletter
+% If hatchspread is not defined, we define it
+\ifthenelse{\value{defHatch}=0}{
+\setcounter{defHatch}{1}
+\newlength{\hatchspread}%
+\newlength{\hatchthickness}%
+}{}
+               \makeatother               
+               \makeatletter
+\ifthenelse{\value{defPattern}=0}{
+\setcounter{defPattern}{1}
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{-2\hatchthickness}{-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\hatchspread}{\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\hatchspread}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt}{-0.15pt}}
+        \pgfusepath{stroke}
+   }
+   }{}
+   \makeatother               
 %SUBFIGURES
 %AFTER SUBFIGURES
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=8.0cm]{Picture_FIGLabelFigWGCXlvCPICTWGCXlvC-for_eps.png}%
- \else %ENTETE PSPICTURE
+%ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
@@ -64,47 +58,27 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
-\psset{xunit=1,yunit=0.6,LabelSep=1.25}
-\psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-4.00000000000000,-5.83333333333333)(4.19525450000000,6.17361055555556)
+\tikzsetnextfilename{tikzFIGLabelFigWGCXlvCPICTWGCXlvC}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](4.00000000000000,-0.452931666666667){aagM}
-\rput(aagM){\rput(0;0){\( x\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-4.00000000000000,0){aagO}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](4.00000000000000,0){aagQ}
-\ncline[linestyle=solid,linecolor=black]{->}{aagO}{aagQ}
-\pstGeonode[](0.287693333333333,5.83333333333333){aahc}
-\rput(aahc){\rput(0;0){\( y\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-5.83333333333333){aahe}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,5.83333333333333){aahg}
-\ncline[linestyle=solid,linecolor=black]{->}{aahe}{aahg}
+\draw (4.00000000000000,-0.286111166666667) node {\( x\)};
+\draw [,->,>=latex] (-4.00000000000000,0.0) -- (4.00000000000000,0.0);
+\draw (0.324999666666667,3.50000000000000) node {\( y\)};
+\draw [,->,>=latex] (0,-3.50000000000000) -- (0,3.50000000000000);
 %DEFAULT
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-3.50000000000000,-5.00000000000000){aaeX}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.50000000000000,5.00000000000000){aaeY}
-\pstLineAB[linestyle=solid,linecolor=black]{aaeX}{aaeY}
-\pstGeonode[](-3.70000000000000,-5.23456750000000){aaim}
-\rput(aaim){\rput(0;0){\( d_1\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,-5.00000000000000){aafb}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.50000000000000,5.00000000000000){aafc}
-\pstLineAB[linestyle=solid,linecolor=black]{aafb}{aafc}
-\pstGeonode[](3.86151433333333,5.00000000000000){aaiu}
-\rput(aaiu){\rput(0;0){\( d_2\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.66666666666667,-5.00000000000000){aaff}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](1.66666666666667,5.00000000000000){aafg}
-\pstLineAB[linestyle=solid,linecolor=black]{aaff}{aafg}
-\pstGeonode[](2.02818100000000,5.00000000000000){aaiC}
-\rput(aaiC){\rput(0;0){\( d_3\)}}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-1.50000000000000,5.00000000000000){aafj}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](3.50000000000000,-5.00000000000000){aafk}
-\pstLineAB[linestyle=solid,linecolor=black]{aafj}{aafk}
-\pstGeonode[](-1.70000000000000,4.76543250000000){aaiK}
-\rput(aaiK){\rput(0;0){\( d_4\)}}
+\draw [] (-3.50000000000000,-3.00000000000000) -- (1.50000000000000,3.00000000000000);
+\draw (-3.70000000000000,-3.16888833333333) node {\( d_1\)};
+\draw [] (-1.50000000000000,-3.00000000000000) -- (3.50000000000000,3.00000000000000);
+\draw (3.86888833333333,3.00000000000000) node {\( d_2\)};
+\draw [] (-1.66666666666667,-3.00000000000000) -- (1.66666666666667,3.00000000000000);
+\draw (2.03555500000000,3.00000000000000) node {\( d_3\)};
+\draw [] (-1.50000000000000,3.00000000000000) -- (3.50000000000000,-3.00000000000000);
+\draw (-1.70000000000000,2.83111166666667) node {\( d_4\)};
 %OTHER STUFF
 %END PSPICTURE
-\end{pspicture}
+\end{tikzpicture}
 %AFTER PSPICTURE
- \fi
 %AFTER PSPICTURE

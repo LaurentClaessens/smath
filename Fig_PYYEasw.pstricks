@@ -12,95 +12,45 @@
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=FIGLabelFigPYYEaswPICTPYYEasw.phystricks.aux%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaa:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaab:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaac:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaad:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaae:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaag:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaah:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaai:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaak:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaal:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaam:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaan:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaao:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaap:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaar:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaas:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaat:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaau:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaav:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaax:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaay:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaB:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaC:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaD:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaE:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaF:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaG:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaH:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaI:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaJ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaK:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaL:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaM:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaN:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaO:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaP:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaQ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaR:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaS:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaT:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaU:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaV:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaW:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaX:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaaY:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaaaZ:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaba:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabb:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabc:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabd:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabe:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabf:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabg:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabh:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabi:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabj:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabk:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabl:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabm:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabn:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabo:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabp:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabq:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabr:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabs:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabt:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabu:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabv:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabw:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabx:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaaby:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabz:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 4 $}}%
-\immediate\write\writeOfphystricks{totalheightofFIGLabelFigPYYEaswPICTPYYEaswaabA:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 4 $}}%
-\immediate\write\writeOfphystricks{widthofFIGLabelFigPYYEaswPICTPYYEaswaabB:\the\lengthOfDfiguressmathDpy-}
+\immediate\write\writeOfphystricks{f66654a967831d75e2a133d03fb0753c049acbc1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{a96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{abf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{ed56d4f5a92bbb6199a51735cf18f0220d859b73:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 4 $}}%
+\immediate\write\writeOfphystricks{baae260ba8392c09d0930503bc59943f3fec0319:\the\lengthOfDfiguressmathDpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
+%HATCHING_COMMANDS
+                 \makeatletter
+% If hatchspread is not defined, we define it
+\ifthenelse{\value{defHatch}=0}{
+\setcounter{defHatch}{1}
+\newlength{\hatchspread}%
+\newlength{\hatchthickness}%
+}{}
+               \makeatother               
+               \makeatletter
+\ifthenelse{\value{defPattern}=0}{
+\setcounter{defPattern}{1}
+\pgfdeclarepatternformonly[\hatchspread,\hatchthickness]% variables
+   {custom north west lines}% name
+   {\pgfqpoint{-2\hatchthickness}{-2\hatchthickness}}% lower left corner
+   {\pgfqpoint{\dimexpr\hatchspread+2\hatchthickness}{\dimexpr\hatchspread+2\hatchthickness}}% upper right corner
+   {\pgfqpoint{\hatchspread}{\hatchspread}}% tile size
+   {% shape description
+    \pgfsetlinewidth{\hatchthickness}
+    \pgfpathmoveto{\pgfqpoint{0pt}{\hatchspread}}
+    \pgfpathlineto{\pgfqpoint{\dimexpr\hatchspread+0.15pt}{-0.15pt}}
+        \pgfusepath{stroke}
+   }
+   }{}
+   \makeatother               
 %SUBFIGURES
 %AFTER SUBFIGURES
 %DEFAULT
 %BEFORE PSPICTURE
 %PSPICTURE
-\ifpdf \includegraphics[width=5.0cm]{Picture_FIGLabelFigPYYEaswPICTPYYEasw-for_eps.png}%
- \else %ENTETE PSPICTURE
+%ENTETE PSPICTURE
 % This file is automatically generated by phystricks
 % See the documentation 
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
@@ -108,48 +58,34 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
-\psset{xunit=1,yunit=1,LabelSep=1.0}
-\psset{PointSymbol=none,PointName=none,algebraic=true}
 %BEGIN PSPICTURE
-\begin{pspicture}(-2.50000000000000,-0.581645666666667)(2.50000000000000,4.50000000000000)
+\tikzsetnextfilename{tikzFIGLabelFigPYYEaswPICTPYYEasw}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\pstGeonode[](-2.00000000000000,-0.340822833333333){bmUg}
-\rput(bmUg){\rput(0;0){$ -2 $}}
-\pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-2.00000000000000,0){ForTheBar}
-\pstGeonode[](-1.00000000000000,-0.340822833333333){bmUm}
-\rput(bmUm){\rput(0;0){$ -1 $}}
-\pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](-1.00000000000000,0){ForTheBar}
-\pstGeonode[](1.00000000000000,-0.325945833333333){bmUs}
-\rput(bmUs){\rput(0;0){$ 1 $}}
-\pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](1.00000000000000,0){ForTheBar}
-\pstGeonode[](2.00000000000000,-0.325945833333333){bmUy}
-\rput(bmUy){\rput(0;0){$ 2 $}}
-\pstGeonode[PointSymbol=|,dotangle=0.0000000,linestyle=solid,linecolor=black](2.00000000000000,0){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](-2.50000000000000,0){bmUA}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](2.50000000000000,0){bmUC}
-\ncline[linestyle=solid,linecolor=black]{->}{bmUA}{bmUC}
-\pstGeonode[](-0.297916333333333,1.00000000000000){bmVe}
-\rput(bmVe){\rput(0;0){$ 1 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,1.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,2.00000000000000){bmVk}
-\rput(bmVk){\rput(0;0){$ 2 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,2.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,3.00000000000000){bmVq}
-\rput(bmVq){\rput(0;0){$ 3 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,3.00000000000000){ForTheBar}
-\pstGeonode[](-0.297916333333333,4.00000000000000){bmVw}
-\rput(bmVw){\rput(0;0){$ 4 $}}
-\pstGeonode[PointSymbol=|,dotangle=270.0000,linestyle=solid,linecolor=black](0,4.00000000000000){ForTheBar}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,-0.500000000000000){bmVy}
-\pstGeonode[PointSymbol=none,linestyle=solid,linecolor=black](0,4.50000000000000){bmVA}
-\ncline[linestyle=solid,linecolor=black]{->}{bmVy}{bmVA}
+\draw (-2.00000000000000,-0.340822833333333) node { $ -2 $ };
+\draw [] (-2.00000000000000,-0.100000000000000) -- (-2.00000000000000,0.100000000000000);
+\draw (-1.00000000000000,-0.340822833333333) node { $ -1 $ };
+\draw [] (-1.00000000000000,-0.100000000000000) -- (-1.00000000000000,0.100000000000000);
+\draw (1.00000000000000,-0.325945833333333) node { $ 1 $ };
+\draw [] (1.00000000000000,-0.100000000000000) -- (1.00000000000000,0.100000000000000);
+\draw (2.00000000000000,-0.325945833333333) node { $ 2 $ };
+\draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
+\draw [,->,>=latex] (-2.50000000000000,0) -- (2.50000000000000,0);
+\draw (-0.325945833333333,1.00000000000000) node { $ 1 $ };
+\draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
+\draw (-0.325945833333333,2.00000000000000) node { $ 2 $ };
+\draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
+\draw (-0.325945833333333,3.00000000000000) node { $ 3 $ };
+\draw [] (-0.100000000000000,3.00000000000000) -- (0.100000000000000,3.00000000000000);
+\draw (-0.325945833333333,4.00000000000000) node { $ 4 $ };
+\draw [] (-0.100000000000000,4.00000000000000) -- (0.100000000000000,4.00000000000000);
+\draw [,->,>=latex] (0,-0.500000000000000) -- (0,4.50000000000000);
 %DEFAULT
-\psplot[linestyle=solid,plotpoints=100,linecolor=blue]{-2.00000000000000}{2.00000000000000}{x^2}
+\draw [color=blue,samples=100] plot [smooth,tension=1] coordinates {(-2.00000000000000,4.00000000000000)(-1.95959595959596,3.84001632486481)(-1.91919191919192,3.68329762269156)(-1.87878787878788,3.52984389348026)(-1.83838383838384,3.37965513723090)(-1.79797979797980,3.23273135394348)(-1.75757575757576,3.08907254361800)(-1.71717171717172,2.94867870625446)(-1.67676767676768,2.81154984185287)(-1.63636363636364,2.67768595041322)(-1.59595959595960,2.54708703193552)(-1.55555555555556,2.41975308641975)(-1.51515151515152,2.29568411386593)(-1.47474747474747,2.17488011427405)(-1.43434343434343,2.05734108764412)(-1.39393939393939,1.94306703397613)(-1.35353535353535,1.83205795327007)(-1.31313131313131,1.72431384552597)(-1.27272727272727,1.61983471074380)(-1.23232323232323,1.51862054892358)(-1.19191919191919,1.42067136006530)(-1.15151515151515,1.32598714416896)(-1.11111111111111,1.23456790123457)(-1.07070707070707,1.14641363126212)(-1.03030303030303,1.06152433425161)(-0.989898989898990,0.979900010203040)(-0.949494949494949,0.901540659116416)(-0.909090909090909,0.826446280991735)(-0.868686868686869,0.754616875828997)(-0.828282828282828,0.686052443628201)(-0.787878787878788,0.620752984389348)(-0.747474747474747,0.558718498112437)(-0.707070707070707,0.499948984797469)(-0.666666666666667,0.444444444444444)(-0.626262626262626,0.392204877053362)(-0.585858585858586,0.343230282624222)(-0.545454545454545,0.297520661157025)(-0.505050505050505,0.255076012651770)(-0.464646464646465,0.215896337108458)(-0.424242424242424,0.179981634527089)(-0.383838383838384,0.147331904907662)(-0.343434343434343,0.117947148250178)(-0.303030303030303,0.0918273645546372)(-0.262626262626263,0.0689725538210386)(-0.222222222222222,0.0493827160493827)(-0.181818181818182,0.0330578512396694)(-0.141414141414141,0.0199979593918987)(-0.101010101010101,0.0102030405060708)(-0.0606060606060606,0.00367309458218548)(-0.0202020202020201,0.000408121620242829)(0.0202020202020203,0.000408121620242838)(0.0606060606060610,0.00367309458218554)(0.101010101010101,0.0102030405060709)(0.141414141414141,0.0199979593918988)(0.181818181818182,0.0330578512396695)(0.222222222222222,0.0493827160493828)(0.262626262626263,0.0689725538210389)(0.303030303030303,0.0918273645546374)(0.343434343434343,0.117947148250179)(0.383838383838384,0.147331904907663)(0.424242424242424,0.179981634527089)(0.464646464646465,0.215896337108459)(0.505050505050505,0.255076012651770)(0.545454545454546,0.297520661157025)(0.585858585858586,0.343230282624222)(0.626262626262626,0.392204877053362)(0.666666666666667,0.444444444444445)(0.707070707070707,0.499948984797470)(0.747474747474748,0.558718498112438)(0.787878787878788,0.620752984389348)(0.828282828282829,0.686052443628202)(0.868686868686869,0.754616875828998)(0.909090909090909,0.826446280991736)(0.949494949494950,0.901540659116417)(0.989898989898990,0.979900010203041)(1.03030303030303,1.06152433425161)(1.07070707070707,1.14641363126212)(1.11111111111111,1.23456790123457)(1.15151515151515,1.32598714416896)(1.19191919191919,1.42067136006530)(1.23232323232323,1.51862054892358)(1.27272727272727,1.61983471074380)(1.31313131313131,1.72431384552597)(1.35353535353535,1.83205795327008)(1.39393939393939,1.94306703397613)(1.43434343434343,2.05734108764412)(1.47474747474747,2.17488011427405)(1.51515151515152,2.29568411386593)(1.55555555555556,2.41975308641975)(1.59595959595960,2.54708703193552)(1.63636363636364,2.67768595041322)(1.67676767676768,2.81154984185287)(1.71717171717172,2.94867870625447)(1.75757575757576,3.08907254361800)(1.79797979797980,3.23273135394348)(1.83838383838384,3.37965513723090)(1.87878787878788,3.52984389348026)(1.91919191919192,3.68329762269156)(1.95959595959596,3.84001632486481)(2.00000000000000,4.00000000000000)};
 %OTHER STUFF
 %END PSPICTURE
-\end{pspicture}
+\end{tikzpicture}
 %AFTER PSPICTURE
- \fi
 %AFTER PSPICTURE
