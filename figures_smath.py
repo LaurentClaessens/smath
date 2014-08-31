@@ -12,6 +12,8 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 from phystricksWGCXlvC import WGCXlvC
+from phystricksLCUooNGZJFk import LCUooNGZJFk
+frim phystricksKXXooKBoqA import KXXooKBoqAY
 from phystricksDPXooCqCUDl import DPXooCqCUDl
 from phystricksSTSooGUprbS import STSooGUprbS
 from phystricksJSFooDBSHFo import JSFooDBSHFo
@@ -322,7 +324,7 @@ figures_list=[EvZZys,
     MUriGyU,WGhpCVm,HMNXfhy,PYYEasw,DNYAefI,FWyrYhJ,YGlrtNX,EDnzyzS,BZRzIsR,VXFxyni,YBxSjFS,ITzxISE,RLGQTQR,WYeESAN,EIxhcRb,JXWXdJI,PUGmLBC,LZDNqtV, APNeGtp,QLbEnnx,
     JLUTBlD,FFyFBoe,RRlBSZg,GSfDCyx,EJbcoxO,ILauamX,EDEYRhQ,WPrirwB,OZfyDkr,KYbSnVB,AILoxBg,XDdastq,GTyQVvw,RZwXiJD,RHfkPKj,WTVlzUE,XMjsBcU,UZlaYZ,
     OKeZlpK,RVZNtGK,CFFyezr,QGRiHbb,DDRbyQk,SWFywZG,ZMGMLvNBa,NIGYQHN,OCFmVDE,CFjmTFb,GUEjmmR,IBmsroy,OLuvnaY,QFpJtQc,QGaeERu,GJbvyTt,TCpyyhO,YMslVxg,JLrRNbT,OZXooCVkgQ,
-    SUCoowlFdp,VGQoojvDGr,HYKooCotyT,NUWooJepuh,MJZoobAMRb,MTZooSGviQ,TAIooroZRs,IERooEvNjp,LXWooEsxsx,RWZooOBMHZ,MVHooAdkhKq,TQDooEgJgPZ,JSFooDBSHFo,STSooGUprbS,DPXooCqCUDl,SZYooRuSplc,VFAooZmuvtW,WGCXlvC,TWGooMalxLa
+    SUCoowlFdp,VGQoojvDGr,HYKooCotyT,NUWooJepuh,MJZoobAMRb,MTZooSGviQ,TAIooroZRs,IERooEvNjp,LXWooEsxsx,RWZooOBMHZ,MVHooAdkhKq,TQDooEgJgPZ,JSFooDBSHFo,STSooGUprbS,DPXooCqCUDl,SZYooRuSplc,VFAooZmuvtW,WGCXlvC,TWGooMalxLa,LCUooNGZJFk,KXXooKBoqAY
     ]
 
 figures_list.append(SurfacesCubesclGZD)
