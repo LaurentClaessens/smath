@@ -13,7 +13,7 @@ from phystricks import *
 import sys
 from phystricksWGCXlvC import WGCXlvC
 from phystricksLCUooNGZJFk import LCUooNGZJFk
-from phystricksKXXooKBoqA import KXXooKBoqAY
+from phystricksKXXooKBoqAY import KXXooKBoqAY
 from phystricksDPXooCqCUDl import DPXooCqCUDl
 from phystricksSTSooGUprbS import STSooGUprbS
 from phystricksJSFooDBSHFo import JSFooDBSHFo
