@@ -1,19 +1,106 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2012-2014
+% Copyright (c) 2014
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
 \input{activ_relatifs4}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Nombres relatifs}
+\section{Opérations sur les nombres relatifs}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\begin{propriete}
-Pour additionner deux nombres relatifs de même signe, on additionne leurs
-distances à zéro et on garde le signe commun.
-Pour additionner deux nombres relatifs de signes contraires, on soustrait leurs
-distances à zéro et on prend le signe de celui qui a la plus grande distance à zéro.
-\end{propriete}
-<++>
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Somme et différence}
+%---------------------------------------------------------------------------------------------------------------------------
 
+\begin{propriete}
+    \begin{enumerate}
+        \item
+            
+    Pour la somme de deux nombres relatifs {\bf de même signe},
+    \begin{itemize}
+        \item
+            nous conservons le signe commun
+        \item
+            nous additionnons les distances à zéro.
+    \end{itemize}
+
+
+    \begin{example}
+        \begin{enumerate}
+            \item
+                
+        \( (+4)+(+8)=4+8=12\)
+    \item
+        \( (-5)+(-6)=-(5+6)=-11\)
+        \end{enumerate}
+    \end{example}
+
+\item
+    Pour la somme de deux nombres relatifs {\bf de signes différents},
+    \begin{itemize}
+        \item
+            nous prenons le signe de celui qui a la plus grande distance à zéro,
+        \item
+            nous calculons la différence des distances à zéro.
+    \end{itemize}
+
+    \begin{example}
+        \begin{enumerate}
+            \item
+                \( (-3)+(+7)=+(7-3)=4\)
+            \item
+                \( (-9)+(+1)=-(9-1)=-8\)
+        \end{enumerate}
+    \end{example}
+\item
+    {\bf Soustraire} un nombre relatif revient à additionner son opposé.
+
+    \begin{example}
+        \begin{enumerate}
+            \item
+                \( (-4)-(-8)=(-4)+(+8)=+(8-4)=4\)
+            \item
+                \( (+7)-(+3)=7+(-3)=+(7-3)=4\)
+        \end{enumerate}
+    \end{example}
+
+    \end{enumerate}
+\end{propriete}
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Produit}
+%---------------------------------------------------------------------------------------------------------------------------
+
+\begin{propriete}
+    Pour le produit de deux nombres relatifs {\bf de signes contraires} :
+    \begin{itemize}
+        \item nous prenons le signe \( -\)
+        \item nous calculons le produit des distances à zéro.
+    \end{itemize}
+
+    \begin{example}
+        \begin{enumerate}
+            \item
+                \( (-3)\times 4=-(3\times 4)=-12\)
+            \item
+                \( 6\times(-5.5)=-(6\times 5.5)=-33\)
+        \end{enumerate}
+    \end{example}
+
+    Pour le produit de deux nombres relatifs {\bf de même signes} :
+    \begin{itemize}
+        \item nous prenons le signe \( +\)
+        \item nous calculons le produit des distances à zéro.
+    \end{itemize}
+    
+    \begin{example}
+        \begin{enumerate}
+            \item
+                \( 2.5\times 3=4.5\)
+            \item
+                \( (-3)\times (-7)=21\)
+        \end{enumerate}
+    \end{example}
+
+\end{propriete}
