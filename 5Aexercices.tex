@@ -1,0 +1,49 @@
+\documentclass[a4paper,10pt]{article}
+%\documentclass[a4paper,12pt]{book}
+
+\input{e_smath}
+
+% le 12 pt est pour les interrogations.
+
+%==================================================================================================================================
+% ATTENTION. Les feuilles telles que compilées ici ne sont peut-être pas exactement celles données aux élèves 2013-2014 parce que
+%               certains exercices ont été changés depuis lors.
+%           Et en plus, il y a des exercices bougés ou supprimés entre la distribution et aujourd'hui.
+%==================================================================================================================================
+% Une décision du 30 août 2013 : Je ne mets dans le cours lui-même que les exercices qui ne sont pas ici.
+
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs}
+
+\renewcommand{\theequation}{\arabic{equation}}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+
+
+\newenvironment{feuille}[1]{\setcounter{page}{1}\large \begin{center} #1 \end{center} \small \begin{center} Les réponses doivent être justifiées par un calcul ou par un raisonnement clairement rédigé.  \end{center} \normalsize \setcounter{CountExercice}{0}}{\newpage\bibliographystyle{unsrt}\bibliography{mazhe}} 
+
+
+\begin{document}
+
+
+\corrDraft
+\corrPosition{0}
+
+\title{Exercices de mathématique, cinquième A}
+\date{}
+\maketitle
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Priorité des opérations}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%\begin{multicols}{2}
+\Exo{smath-0728}
+\Exo{smath-0729}
+\Exo{smath-0732}
+\Exo{smath-0731}
+\Exo{smath-0730}
+\Exo{smath-0733}
+\Exo{smath-0734}
+%\end{multicols}
+
+\end{document}
