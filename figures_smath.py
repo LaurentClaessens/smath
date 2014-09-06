@@ -11,6 +11,9 @@ Pour tester ce fichier :
 
 from phystricks import *
 import sys
+
+
+from phystricksSWHooJzpmlM import SWHooJzpmlM
 from phystricksWGCXlvC import WGCXlvC
 from phystricksLCUooNGZJFk import LCUooNGZJFk
 from phystricksKXXooKBoqAY import KXXooKBoqAY
@@ -328,6 +331,14 @@ figures_list=[EvZZys,
     ]
 
 figures_list.append(SurfacesCubesclGZD)
+figures_list.append(SWHooJzpmlM)
+"
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+"
 
 #figures_list=[]
 
