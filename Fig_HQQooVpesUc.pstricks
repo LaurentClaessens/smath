@@ -9,16 +9,24 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigSWHooJzpmlM.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigHQQooVpesUc.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 1\)}}%
-\immediate\write\writeOfphystricks{totalheightof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( 1\)}}%
-\immediate\write\writeOfphystricks{widthof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -1\)}}%
-\immediate\write\writeOfphystricks{totalheightofd894fa278fbb0aa03b4ac5afc85b81086416ca9a:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -1\)}}%
-\immediate\write\writeOfphystricks{widthofd894fa278fbb0aa03b4ac5afc85b81086416ca9a:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( +5\)}}%
+\immediate\write\writeOfphystricks{totalheightofc7df44cf343da28dde44ba6bb993afe4890303a9:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( +5\)}}%
+\immediate\write\writeOfphystricks{widthofc7df44cf343da28dde44ba6bb993afe4890303a9:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -24\)}}%
+\immediate\write\writeOfphystricks{totalheightof65d15e25e0145415faa4ee64ab81de673c811bad:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -24\)}}%
+\immediate\write\writeOfphystricks{widthof65d15e25e0145415faa4ee64ab81de673c811bad:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -2160\)}}%
+\immediate\write\writeOfphystricks{totalheightof2f154848bd71eedb03b901cbe89b5e3dbf524032:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -2160\)}}%
+\immediate\write\writeOfphystricks{widthof2f154848bd71eedb03b901cbe89b5e3dbf524032:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -6\)}}%
+\immediate\write\writeOfphystricks{totalheightof5aadaebbdf662f1ae7f822393cfce24d9ce6566d:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -6\)}}%
+\immediate\write\writeOfphystricks{widthof5aadaebbdf662f1ae7f822393cfce24d9ce6566d:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -61,7 +69,7 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigSWHooJzpmlMPICTSWHooJzpmlM}
+\tikzsetnextfilename{tikzFIGLabelFigHQQooVpesUcPICTHQQooVpesUc}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
@@ -108,14 +116,14 @@
 \draw [] (2.50000000000000,1.50000000000000) -- (2.50000000000000,1.00000000000000);
 \draw [] (2.50000000000000,1.00000000000000) -- (1.50000000000000,1.00000000000000);
 \draw [] (1.50000000000000,1.00000000000000) -- (1.50000000000000,1.50000000000000);
-\draw (0.500000000000000,-0.250000000000000) node {\( 1\)};
-\draw (3.50000000000000,-0.250000000000000) node {\( -1\)};
-
-\draw (2.50000000000000,-0.250000000000000) node {\( -1\)};
 
 
-\draw (1.50000000000000,-0.250000000000000) node {\( 1\)};
+\draw (3.50000000000000,-0.250000000000000) node {\( +5\)};
 
+\draw (1.50000000000000,0.750000000000000) node {\( -24\)};
+
+\draw (2.00000000000000,1.25000000000000) node {\( -2160\)};
+\draw (2.00000000000000,0.250000000000000) node {\( -6\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

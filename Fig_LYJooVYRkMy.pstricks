@@ -9,7 +9,7 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigSWHooJzpmlM.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigLYJooVYRkMy.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 1\)}}%
 \immediate\write\writeOfphystricks{totalheightof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfhomemokySagesrcbinsageipython-}
@@ -61,7 +61,7 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigSWHooJzpmlMPICTSWHooJzpmlM}
+\tikzsetnextfilename{tikzFIGLabelFigLYJooVYRkMyPICTLYJooVYRkMy}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
@@ -108,13 +108,12 @@
 \draw [] (2.50000000000000,1.50000000000000) -- (2.50000000000000,1.00000000000000);
 \draw [] (2.50000000000000,1.00000000000000) -- (1.50000000000000,1.00000000000000);
 \draw [] (1.50000000000000,1.00000000000000) -- (1.50000000000000,1.50000000000000);
+
 \draw (0.500000000000000,-0.250000000000000) node {\( 1\)};
-\draw (3.50000000000000,-0.250000000000000) node {\( -1\)};
+\draw (2.00000000000000,1.25000000000000) node {\( -1\)};
 
-\draw (2.50000000000000,-0.250000000000000) node {\( -1\)};
-
-
-\draw (1.50000000000000,-0.250000000000000) node {\( 1\)};
+\draw (1.50000000000000,0.750000000000000) node {\( -1\)};
+\draw (1.00000000000000,0.250000000000000) node {\( 1\)};
 
 %END PSPICTURE
 \end{tikzpicture}

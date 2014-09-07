@@ -12,8 +12,8 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
-
-from phystricksSWHooJzpmlM import SWHooJzpmlM
+from phystricksSWHooJzpmlM import SWHooJzpmlM       # Cette fonction en lance deux.
+from phystricksCNTooDFQFEQ import CNTooDFQFEQ       # Celle-ci aussi
 from phystricksWGCXlvC import WGCXlvC
 from phystricksLCUooNGZJFk import LCUooNGZJFk
 from phystricksKXXooKBoqAY import KXXooKBoqAY

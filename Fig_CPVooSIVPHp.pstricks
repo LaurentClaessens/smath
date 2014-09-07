@@ -9,16 +9,24 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigSWHooJzpmlM.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigCPVooSIVPHp.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 1\)}}%
-\immediate\write\writeOfphystricks{totalheightof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( 1\)}}%
-\immediate\write\writeOfphystricks{widthof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( +2\)}}%
+\immediate\write\writeOfphystricks{totalheightof85cd994e01db5245e79ce3d8f3434285da66b0a8:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( +2\)}}%
+\immediate\write\writeOfphystricks{widthof85cd994e01db5245e79ce3d8f3434285da66b0a8:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -3\)}}%
+\immediate\write\writeOfphystricks{totalheightof150e7b81c853b3ff41a10d1b8bde1eed2c8d7dab:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -3\)}}%
+\immediate\write\writeOfphystricks{widthof150e7b81c853b3ff41a10d1b8bde1eed2c8d7dab:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -1\)}}%
 \immediate\write\writeOfphystricks{totalheightofd894fa278fbb0aa03b4ac5afc85b81086416ca9a:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -1\)}}%
 \immediate\write\writeOfphystricks{widthofd894fa278fbb0aa03b4ac5afc85b81086416ca9a:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( +3\)}}%
+\immediate\write\writeOfphystricks{totalheightof3e62f1a3eea15f46429f30f0051b2f49d691d552:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( +3\)}}%
+\immediate\write\writeOfphystricks{widthof3e62f1a3eea15f46429f30f0051b2f49d691d552:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -61,7 +69,7 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigSWHooJzpmlMPICTSWHooJzpmlM}
+\tikzsetnextfilename{tikzFIGLabelFigCPVooSIVPHpPICTCPVooSIVPHp}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
@@ -108,14 +116,14 @@
 \draw [] (2.50000000000000,1.50000000000000) -- (2.50000000000000,1.00000000000000);
 \draw [] (2.50000000000000,1.00000000000000) -- (1.50000000000000,1.00000000000000);
 \draw [] (1.50000000000000,1.00000000000000) -- (1.50000000000000,1.50000000000000);
-\draw (0.500000000000000,-0.250000000000000) node {\( 1\)};
-\draw (3.50000000000000,-0.250000000000000) node {\( -1\)};
-
-\draw (2.50000000000000,-0.250000000000000) node {\( -1\)};
 
 
-\draw (1.50000000000000,-0.250000000000000) node {\( 1\)};
+\draw (3.50000000000000,-0.250000000000000) node {\( +2\)};
 
+\draw (2.50000000000000,-0.250000000000000) node {\( -3\)};
+\draw (1.50000000000000,-0.250000000000000) node {\( -1\)};
+
+\draw (2.00000000000000,0.250000000000000) node {\( +3\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
