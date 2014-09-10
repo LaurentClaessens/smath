@@ -42,9 +42,46 @@ Nous voulons construire un triangle \(ABC\) dont les côtés sont de longueurs s
 Combien d'intersections sont possibles ?
 \begin{enumerate}
     \item
-        Deux.
+        Deux. Il y a alors deux possibilités pour construire le triangle.
     \item
-        Une.
+        Une. Les côtés \( [AC]\) et \( [BC]\) sont «tout juste» suffisant pour aller de \( A\) à \( B\). C'est le cas d'égalité
+        \begin{equation}
+            AB=AC+BC.
+        \end{equation}
     \item 
-        Aucune.
+        Aucune. Les côtés \( [AC]\) et \( [BC]\) ne sont pas assez longs pour joindre \( A\) à \( B\). Cas d'inégalité
+        \begin{equation}
+            AB>AC+BC.
+        \end{equation}
 \end{enumerate}
+
+\begin{Aretenir}
+Dans un triangle, la longueur d'un côté est toujours inférieure à la somme des longueurs des deux autres côtés.
+
+Lorsqu'il y a égalité, les trois points sont alignés.
+
+Cela est l'\defe{inégalité triangulaire}{inégalité!triangulaire}.
+\end{Aretenir}
+
+En pratique faut seulement vérifier que le plus long côté est plus petit que la somme des deux autres.
+
+\begin{example}
+    Est-il possible de construire un triangle \( COR\) dont les côtés ont pour mesure \( CO=\unit{5}{\centi\meter}\), \( OR=\unit{6}{\centi\meter}\) et \( RC=\unit{4}{\centi\meter}\) ?
+
+    Le plus long côté est \( OR=6\). Mais \( CO+RC=5+4=9\), donc \( OR<CO+RC\) et il est possible de créer un tel triangle.
+\end{example}
+
+\begin{example}
+    Est-il possible de construire un triangle \( KLM\) dont les côtés ont pour mesure \( KL=\unit{10}{\centi\meter}\), \( KM=\unit{1}{\centi\meter}\) et \( LM=\unit{1}{\centi\meter}\) ?
+
+    Le plus long côté est \( KL\); les deux autres ont pour somme \( 2\) et sont donc trop petits. Il n'est pas possible de dessiner créer ce triangle.
+
+\begin{center}
+   \input{Fig_UKTooJhUzKU.pstricks}
+\end{center}
+
+\end{example}
+
+\begin{example}
+    Essayer de créer un triangle avec une règle de \unit{40}{\centi\meter} et deux stylos.
+\end{example}
