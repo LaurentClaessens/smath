@@ -13,7 +13,7 @@ from phystricks import *
 import sys
 
 
-from phystricksIPAooQliVZD import IPAooQliVZD
+from phystricksIPAooQliVZD import IPAooQliVZD   # Celui-ci crée trois dessins.
 from phystricksRYDooDLpToB import RYDooDLpToB
 from phystricksHHOooQUedri import HHOooQUedri
 from phystricksSWHooJzpmlM import SWHooJzpmlM       # Cette fonction en lance deux.
@@ -596,4 +596,3 @@ if __name__=="__main__":
         figures_list=figures_list[-1:]
 
     AllFigures(figures_list)
-
