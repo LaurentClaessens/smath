@@ -121,8 +121,80 @@ Comment tracer un triangle \( ABC\) sachant que \( AB=\unit{10}{\centi\meter}\),
    \input{Fig_MQJooVtXTde.pstricks}
 \end{center}
 
-
-
 \end{enumerate}
-<++>
+
+
+%--------------------------------------------------------------------------------------------------------------------------- 
+\subsection{Connaissant deux côtés et l'angle qu'ils forment}
+%---------------------------------------------------------------------------------------------------------------------------
+
+Nous devons construire un triangle \( ABC\) dont nous savons que
+\begin{enumerate}
+    \item
+        \( AB\)=\unit{3}{\centi\meter}
+    \item
+        \( AC\)=\unit{5}{\centi\meter}
+    \item
+        \( \widehat{CAB}=\unit{30}{\degree}\)
+\end{enumerate}
+
+La méthode est :
+\begin{enumerate}
+    \item
+        Tracer le segment \( [AB]\) en le prolongeant pour plus de précision.
+    \item
+        Tracer une droite passant par \( A\) et formant un angle de \( \unit{30}{\degree}\) avec \( (AB)\).
+    \item
+        Sur cette droite, reporter la mesure \unit{5}{\centi\meter} à partir de \( A\) (il y a une possibilité dans chaque sens).
+    \item
+        Le point atteint est le point \( C\).
+\end{enumerate}
+
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Reproduire un angle au compas}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Le problème est le suivant : étant donné un angle formé des droites \( d_1\) et \( d_2\) et une droite \( d'_1\), être capable de tracer une droite \( d'_2\) coupant \( d'_1\) avec un angle égal à celui des droites \( d_1\) et \( d_2\).
+
+
+%Les figures viennent de CBLooYAMumJ
+
+Voici les données :
+
+\begin{center}
+   \input{Fig_JJOooHGTOyn.pstricks}
+\end{center}
+
+
+Première étape : choisir des points \( B\) et \( C\) sur \( d_1\) et \( d_2\) de telle sorte que \( ABC\) soit isocèle (au compas).
+
+\begin{center}
+   \input{Fig_VAAooKPNvIs.pstricks}
+\end{center}
+
+Il s'agit maintenant de reproduire la configuration des points \( A\), \( B\) et \( C\) en partant de \( A'\). Nous devons trouver des points \( B'\) et \( C'\).
+
+Seconde étape : reporter la longueur \( AB\) sur la droite \( d_1'\) à partir de \( A'\) et définir ainsi le point \( B'\).
+
+\begin{center}
+   \input{Fig_WNEooGHwkVN.pstricks}
+\end{center}
+
+Maintenant le point \( C'\) doit être en même temps à distance \( AC\) de \( A'\) et \( BC\) de \( B'\). Il sera donc l'intersection
+\begin{itemize}
+    \item 
+        du cercle de centre \( A'\) et de rayon \( AC\).
+    \item
+        du cercle de centre \( B'\) et de rayon \( BC\).
+\end{itemize}
+
+\begin{center}
+   \input{Fig_OSLooCtzTMX.pstricks}
+\end{center}
+
+Il y a deux possibilités. Le résultat est :
+\begin{center}
+   \input{Fig_OPWooAJbLaM.pstricks}
+\end{center}
+
 
