@@ -13,14 +13,17 @@ def IPAooQliVZD():
         psp.dilatation_X(1)
         psp.dilatation_Y(1)
 
+    l1=3
+    l2=2
+    l3=4
 
     A=Point(0,0)
-    B=Point(3,0)
+    B=Point(l1,0)
 
     AB=Segment(A,B)
 
-    cer1=Circle(A,2)
-    cer2=Circle(B,4)
+    cer1=Circle(A,l2)
+    cer2=Circle(B,l3)
 
     inter=Intersection(cer1,cer2)
     C1=inter[0]
@@ -34,12 +37,12 @@ def IPAooQliVZD():
     Q1=cer1.get_point(45)
     r1=Segment(A,Q1)
     r1.parameters.style="dashed"
-    r1.put_mark(0.2,r1.advised_mark_angle,"\( 2\)",automatic_place=(pspicts,"corner"))
+    r1.put_mark(0.2,r1.advised_mark_angle,"\( {}\)".format(l2),automatic_place=(pspicts,"corner"))
 
     Q2=cer2.get_point(60)
     r2=Segment(B,Q2)
     r2.parameters.style="dashed"
-    r2.put_mark(0.2,r2.advised_mark_angle+180,"\( 4\)",automatic_place=(pspicts,"corner"))
+    r2.put_mark(0.2,r2.advised_mark_angle+180,"\( {}\)".format(l3),automatic_place=(pspicts,"corner"))
 
     cer1.parameters.color="red"
     r1.parameters.color="red"
@@ -65,11 +68,11 @@ def IPAooQliVZD():
 
     m1=Segment(A,C2).center()
     m1.parameters.symbol=""
-    m1.put_mark(0.2,m1.advised_mark_angle,"\( 2\)",automatic_place=(pspicts,"corner"))
+    m1.put_mark(0.2,m1.advised_mark_angle,"\( {}\)".format(l2),automatic_place=(pspicts,"corner"))
 
     m2=Segment(B,C2).center()
     m2.parameters.symbol=""
-    m2.put_mark(0.2,m2.advised_mark_angle+180,"\( 4\)",automatic_place=(pspicts,"corner"))
+    m2.put_mark(0.2,m2.advised_mark_angle+180,"\( {}\)".format(l3),automatic_place=(pspicts,"corner"))
 
     pspicts[0].DrawGraphs(AB,A,B)
     pspicts[1].DrawGraphs(AB,cer1,cer2,r1,r2,A,B)
