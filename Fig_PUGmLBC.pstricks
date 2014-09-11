@@ -6,22 +6,52 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{CA}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigPUGmLBCPICTPUGmLBC.phystricks.aux%
-\immediate\write\writeOfphystricks{09acbb7d1da8aa3daff4c1ec8076713606974c64:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 100 $}}%
-\immediate\write\writeOfphystricks{0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 200 $}}%
-\immediate\write\writeOfphystricks{c5fc42280a84d94056034f608000f519059380f1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 300 $}}%
-\immediate\write\writeOfphystricks{6964e82ab741f57417cad0d1ce5522e2d4eced38:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 400 $}}%
-\immediate\write\writeOfphystricks{5ddeb90778868fb0e2688167ea07193214f595b3:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 500 $}}%
-\immediate\write\writeOfphystricks{8068b061d2e5c798c828198768409607b6b8c93e:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 600 $}}%
-\immediate\write\writeOfphystricks{de2743d56c70a15b5226ef56df3d340d210446d5:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{abf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{ed56d4f5a92bbb6199a51735cf18f0220d859b73:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigPUGmLBC.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{CA}}%
+\immediate\write\writeOfphystricks{totalheightof09acbb7d1da8aa3daff4c1ec8076713606974c64:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{CA}}%
+\immediate\write\writeOfphystricks{widthof09acbb7d1da8aa3daff4c1ec8076713606974c64:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 100 $}}%
+\immediate\write\writeOfphystricks{totalheightof0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 100 $}}%
+\immediate\write\writeOfphystricks{widthof0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 200 $}}%
+\immediate\write\writeOfphystricks{totalheightofc5fc42280a84d94056034f608000f519059380f1:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 200 $}}%
+\immediate\write\writeOfphystricks{widthofc5fc42280a84d94056034f608000f519059380f1:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 300 $}}%
+\immediate\write\writeOfphystricks{totalheightof6964e82ab741f57417cad0d1ce5522e2d4eced38:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 300 $}}%
+\immediate\write\writeOfphystricks{widthof6964e82ab741f57417cad0d1ce5522e2d4eced38:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 400 $}}%
+\immediate\write\writeOfphystricks{totalheightof5ddeb90778868fb0e2688167ea07193214f595b3:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 400 $}}%
+\immediate\write\writeOfphystricks{widthof5ddeb90778868fb0e2688167ea07193214f595b3:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 500 $}}%
+\immediate\write\writeOfphystricks{totalheightof8068b061d2e5c798c828198768409607b6b8c93e:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 500 $}}%
+\immediate\write\writeOfphystricks{widthof8068b061d2e5c798c828198768409607b6b8c93e:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 600 $}}%
+\immediate\write\writeOfphystricks{totalheightofde2743d56c70a15b5226ef56df3d340d210446d5:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 600 $}}%
+\immediate\write\writeOfphystricks{widthofde2743d56c70a15b5226ef56df3d340d210446d5:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 3 $}}%
+\immediate\write\writeOfphystricks{totalheightofed56d4f5a92bbb6199a51735cf18f0220d859b73:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 3 $}}%
+\immediate\write\writeOfphystricks{widthofed56d4f5a92bbb6199a51735cf18f0220d859b73:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -68,27 +98,27 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (12.6000000000000,-0.337774666666667) node {CA};
-\draw (2.00000000000000,-0.325945833333333) node { $ 100 $ };
-\draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw (4.00000000000000,-0.325945833333333) node { $ 200 $ };
-\draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw (6.00000000000000,-0.325945833333333) node { $ 300 $ };
-\draw [] (6.00000000000000,-0.100000000000000) -- (6.00000000000000,0.100000000000000);
-\draw (8.00000000000000,-0.325945833333333) node { $ 400 $ };
-\draw [] (8.00000000000000,-0.100000000000000) -- (8.00000000000000,0.100000000000000);
-\draw (10.0000000000000,-0.325945833333333) node { $ 500 $ };
-\draw [] (10.0000000000000,-0.100000000000000) -- (10.0000000000000,0.100000000000000);
-\draw (12.0000000000000,-0.325945833333333) node { $ 600 $ };
-\draw [] (12.0000000000000,-0.100000000000000) -- (12.0000000000000,0.100000000000000);
-\draw [,->,>=latex] (-0.500000000000000,0) -- (12.6000000000000,0);
-\draw (-0.325945833333333,1.00000000000000) node { $ 1 $ };
-\draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
-\draw (-0.325945833333333,2.00000000000000) node { $ 2 $ };
-\draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
-\draw (-0.325945833333333,3.00000000000000) node { $ 3 $ };
-\draw [] (-0.100000000000000,3.00000000000000) -- (0.100000000000000,3.00000000000000);
-\draw [,->,>=latex] (0.0,-0.600000000000000) -- (0.0,3.60000000000000);
+\draw (0.02000000000,-0.2000000000) node {CA};
+\draw (2.000000000,-0.2000000000) node { $ 100 $ };
+\draw [] (2.000000000,-0.1000000000) -- (2.000000000,0.1000000000);
+\draw (4.000000000,-0.2000000000) node { $ 200 $ };
+\draw [] (4.000000000,-0.1000000000) -- (4.000000000,0.1000000000);
+\draw (6.000000000,-0.2000000000) node { $ 300 $ };
+\draw [] (6.000000000,-0.1000000000) -- (6.000000000,0.1000000000);
+\draw (8.000000000,-0.2000000000) node { $ 400 $ };
+\draw [] (8.000000000,-0.1000000000) -- (8.000000000,0.1000000000);
+\draw (10.00000000,-0.2000000000) node { $ 500 $ };
+\draw [] (10.00000000,-0.1000000000) -- (10.00000000,0.1000000000);
+\draw (12.00000000,-0.2000000000) node { $ 600 $ };
+\draw [] (12.00000000,-0.1000000000) -- (12.00000000,0.1000000000);
+\draw [,->,>=latex] (-0.5000000000,0) -- (12.60000000,0);
+\draw (-0.2000000000,1.000000000) node { $ 1 $ };
+\draw [] (-0.1000000000,1.000000000) -- (0.1000000000,1.000000000);
+\draw (-0.2000000000,2.000000000) node { $ 2 $ };
+\draw [] (-0.1000000000,2.000000000) -- (0.1000000000,2.000000000);
+\draw (-0.2000000000,3.000000000) node { $ 3 $ };
+\draw [] (-0.1000000000,3.000000000) -- (0.1000000000,3.000000000);
+\draw [,->,>=latex] (0.0,-0.6000000000) -- (0.0,3.600000000);
 %DEFAULT
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -96,22 +126,22 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.00000000000000,0) -- (4.00000000000000,0) -- (4.00000000000000,0) -- (4.00000000000000,3.00000000000000) -- (4.00000000000000,3.00000000000000) -- (2.00000000000000,3.00000000000000) -- (2.00000000000000,3.00000000000000) -- (2.00000000000000,0) --  cycle;
-\draw [] (2.00000000000000,0) -- (4.00000000000000,0);
-\draw [] (4.00000000000000,0) -- (4.00000000000000,3.00000000000000);
-\draw [] (4.00000000000000,3.00000000000000) -- (2.00000000000000,3.00000000000000);
-\draw [] (2.00000000000000,3.00000000000000) -- (2.00000000000000,0);
+\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.000000000,0) -- (4.000000000,0) -- (4.000000000,0) -- (4.000000000,3.000000000) -- (4.000000000,3.000000000) -- (2.000000000,3.000000000) -- (2.000000000,3.000000000) -- (2.000000000,0) --  cycle;
+\draw [] (2.000000000,0) -- (4.000000000,0);
+\draw [] (4.000000000,0) -- (4.000000000,3.000000000);
+\draw [] (4.000000000,3.000000000) -- (2.000000000,3.000000000);
+\draw [] (2.000000000,3.000000000) -- (2.000000000,0);
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
          hatchthickness/.code={\setlength{\hatchthickness}{#1}}}
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (10.0000000000000,0) -- (12.0000000000000,0) -- (12.0000000000000,0) -- (12.0000000000000,2.00000000000000) -- (12.0000000000000,2.00000000000000) -- (10.0000000000000,2.00000000000000) -- (10.0000000000000,2.00000000000000) -- (10.0000000000000,0) --  cycle;
-\draw [] (10.0000000000000,0) -- (12.0000000000000,0);
-\draw [] (12.0000000000000,0) -- (12.0000000000000,2.00000000000000);
-\draw [] (12.0000000000000,2.00000000000000) -- (10.0000000000000,2.00000000000000);
-\draw [] (10.0000000000000,2.00000000000000) -- (10.0000000000000,0);
+\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (10.00000000,0) -- (12.00000000,0) -- (12.00000000,0) -- (12.00000000,2.000000000) -- (12.00000000,2.000000000) -- (10.00000000,2.000000000) -- (10.00000000,2.000000000) -- (10.00000000,0) --  cycle;
+\draw [] (10.00000000,0) -- (12.00000000,0);
+\draw [] (12.00000000,0) -- (12.00000000,2.000000000);
+\draw [] (12.00000000,2.000000000) -- (10.00000000,2.000000000);
+\draw [] (10.00000000,2.000000000) -- (10.00000000,0);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

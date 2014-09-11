@@ -6,18 +6,36 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigQLbEnnxPICTQLbEnnx.phystricks.aux%
-\immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{a3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( I\)}}%
-\immediate\write\writeOfphystricks{eb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( J\)}}%
-\immediate\write\writeOfphystricks{38b9024ce82e27cd4a85f928f3343ac8cb7f5604:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigQLbEnnx.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofa3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofa3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( I\)}}%
+\immediate\write\writeOfphystricks{totalheightofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( I\)}}%
+\immediate\write\writeOfphystricks{widthofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( J\)}}%
+\immediate\write\writeOfphystricks{totalheightof38b9024ce82e27cd4a85f928f3343ac8cb7f5604:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( J\)}}%
+\immediate\write\writeOfphystricks{widthof38b9024ce82e27cd4a85f928f3343ac8cb7f5604:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -66,24 +84,24 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (1.21650635094611,3.12500000000000) node [rotate=0] {$\bullet$};
-\draw (1.35317301761278,3.46166666666667) node {\( A\)};
+\draw []  (1.216506351,3.125000000) node [rotate=0] {$\bullet$};
+\draw (1.216506351,3.325000000) node {\( A\)};
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.336666666666667,0.136666666666667) node {\( B\)};
-\draw []  (1.13397459621556,-0.500000000000000) node [rotate=0] {$\bullet$};
-\draw (1.27064126288223,-0.836666666666667) node {\( C\)};
-\draw []  (3.43301270189222,0.250000000000000) node [rotate=0] {$\bullet$};
-\draw (3.56967936855889,-0.0866666666666667) node {\( D\)};
-\draw []  (0.793782217350893,-0.350000000000000) node [rotate=0] {$\bullet$};
-\draw (0.469177026527045,-0.555070695331800) node {\( I\)};
-\draw []  (1.88145825622994,2.26250000000000) node [rotate=0] {$\bullet$};
-\draw (2.01812492289661,2.59916666666667) node {\( J\)};
-\draw [] (1.21650635094611,3.12500000000000) -- (0,0);
-\draw [] (1.21650635094611,3.12500000000000) -- (1.13397459621556,-0.500000000000000);
-\draw [] (1.21650635094611,3.12500000000000) -- (3.43301270189222,0.250000000000000);
-\draw [] (0,0) -- (1.13397459621556,-0.500000000000000);
-\draw [] (1.13397459621556,-0.500000000000000) -- (3.43301270189222,0.250000000000000);
-\draw [style=dashed] (0,0) -- (3.43301270189222,0.250000000000000);
+\draw (-0.2000000000,0) node {\( B\)};
+\draw []  (1.133974596,-0.5000000000) node [rotate=0] {$\bullet$};
+\draw (1.133974596,-0.7000000000) node {\( C\)};
+\draw []  (3.433012702,0.2500000000) node [rotate=0] {$\bullet$};
+\draw (3.433012702,0.05000000000) node {\( D\)};
+\draw []  (0.7937822173,-0.3500000000) node [rotate=0] {$\bullet$};
+\draw (0.6058436932,-0.4184040287) node {\( I\)};
+\draw []  (1.881458256,2.262500000) node [rotate=0] {$\bullet$};
+\draw (1.881458256,2.462500000) node {\( J\)};
+\draw [] (1.216506351,3.125000000) -- (0,0);
+\draw [] (1.216506351,3.125000000) -- (1.133974596,-0.5000000000);
+\draw [] (1.216506351,3.125000000) -- (3.433012702,0.2500000000);
+\draw [] (0,0) -- (1.133974596,-0.5000000000);
+\draw [] (1.133974596,-0.5000000000) -- (3.433012702,0.2500000000);
+\draw [style=dashed] (0,0) -- (3.433012702,0.2500000000);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

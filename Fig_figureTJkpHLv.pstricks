@@ -6,15 +6,24 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv.phystricks.aux%
-\immediate\write\writeOfphystricks{f96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{5}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{f13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigfigureTJkpHLv.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{totalheightoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\unit{15}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{widthoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\unit{5}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{totalheightoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\unit{5}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{widthoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -63,14 +72,14 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [,->,>=latex] (0.0,0.0) -- (0.0,4.50000000000000);
-\draw (-0.399951166666667,4.69995116666667) node {\unit{15}{\kilo\meter\per\hour}};
-\draw [,->,>=latex] (0.0,4.50000000000000) -- (1.50000000000000,4.50000000000000);
-\draw (1.69995116666667,4.89995116666667) node {\unit{5}{\kilo\meter\per\hour}};
-\draw [color=blue] (0.0,0.0) -- (6.00000000000000,0.0);
-\draw [color=blue] (0.0,6.00000000000000) -- (6.00000000000000,6.00000000000000);
-\draw [color=red,->,>=latex] (0.0,0.0) -- (1.50000000000000,4.50000000000000);
-\draw (1.77958618957064,4.22041381042936) node {\( \vect{ v }\)};
+\draw [,->,>=latex] (0.0,0.0) -- (0.0,4.500000000);
+\draw (-0.06000000000,4.500000000) node {\unit{15}{\kilo\meter\per\hour}};
+\draw [,->,>=latex] (0.0,4.500000000) -- (1.500000000,4.500000000);
+\draw (1.500000000,4.560000000) node {\unit{5}{\kilo\meter\per\hour}};
+\draw [color=blue] (0.0,0.0) -- (6.000000000,0.0);
+\draw [color=blue] (0.0,6.000000000) -- (6.000000000,6.000000000);
+\draw [color=red,->,>=latex] (0.0,0.0) -- (1.500000000,4.500000000);
+\draw (1.542426407,4.457573593) node {\( \vect{ v }\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

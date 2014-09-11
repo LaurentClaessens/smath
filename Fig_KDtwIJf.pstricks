@@ -6,14 +6,20 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigKDtwIJfPICTKDtwIJf.phystricks.aux%
-\immediate\write\writeOfphystricks{a20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 3 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigKDtwIJf.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{totalheightofa20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthofa20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Environ \( \frac{ 3 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{totalheightof23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{Environ \( \frac{ 3 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthof23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -62,24 +68,24 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0.0,0.500000000000000) -- (0.0,1.00000000000000);
-\draw [] (15.0000000000000,0.500000000000000) -- (15.0000000000000,1.00000000000000);
-\draw [] (0.0,0.750000000000000) -- (4.50000000000000,0.750000000000000);
-\draw [] (4.50000000000000,0.500000000000000) -- (12.0000000000000,0.500000000000000);
-\draw [] (12.0000000000000,0.500000000000000) -- (12.0000000000000,1.00000000000000);
-\draw [] (12.0000000000000,1.00000000000000) -- (4.50000000000000,1.00000000000000);
-\draw [] (4.50000000000000,1.00000000000000) -- (4.50000000000000,0.500000000000000);
-\draw [color=red] (8.25000000000000,0.500000000000000) -- (8.25000000000000,1.00000000000000);
-\draw [] (12.0000000000000,0.750000000000000) -- (15.0000000000000,0.750000000000000);
-\draw [,->,>=latex] (2.25000000000000,-0.200000000000003) -- (0.0,-0.200000000000003);
-\draw [,->,>=latex] (2.25000000000000,-0.200000000000003) -- (4.50000000000000,-0.200000000000003);
-\draw (2.25000000000000,-0.500000000000003) node {Environ \( \frac{ 1 }{ 4 }\)};
-\draw [,->,>=latex] (6.00000000000000,1.30000000000001) -- (0.0,1.30000000000001);
-\draw [,->,>=latex] (6.00000000000000,1.30000000000001) -- (12.0000000000000,1.30000000000001);
-\draw (6.00000000000000,1.60000000000001) node {Environ \( \frac{ 3 }{ 4 }\)};
-\draw [,->,>=latex] (13.5000000000000,-0.199999999999999) -- (12.0000000000000,-0.199999999999999);
-\draw [,->,>=latex] (13.5000000000000,-0.199999999999999) -- (15.0000000000000,-0.199999999999999);
-\draw (13.5000000000000,-0.499999999999999) node {Environ \( \frac{ 1 }{ 4 }\)};
+\draw [] (0.0,0.5000000000) -- (0.0,1.000000000);
+\draw [] (15.00000000,0.5000000000) -- (15.00000000,1.000000000);
+\draw [] (0.0,0.7500000000) -- (4.500000000,0.7500000000);
+\draw [] (4.500000000,0.5000000000) -- (12.00000000,0.5000000000);
+\draw [] (12.00000000,0.5000000000) -- (12.00000000,1.000000000);
+\draw [] (12.00000000,1.000000000) -- (4.500000000,1.000000000);
+\draw [] (4.500000000,1.000000000) -- (4.500000000,0.5000000000);
+\draw [color=red] (8.250000000,0.5000000000) -- (8.250000000,1.000000000);
+\draw [] (12.00000000,0.7500000000) -- (15.00000000,0.7500000000);
+\draw [,->,>=latex] (2.250000000,-0.2000000000) -- (0.0,-0.2000000000);
+\draw [,->,>=latex] (2.250000000,-0.2000000000) -- (4.500000000,-0.2000000000);
+\draw (2.250000000,-0.5000000000) node {Environ \( \frac{ 1 }{ 4 }\)};
+\draw [,->,>=latex] (6.000000000,1.300000000) -- (0.0,1.300000000);
+\draw [,->,>=latex] (6.000000000,1.300000000) -- (12.00000000,1.300000000);
+\draw (6.000000000,1.600000000) node {Environ \( \frac{ 3 }{ 4 }\)};
+\draw [,->,>=latex] (13.50000000,-0.2000000000) -- (12.00000000,-0.2000000000);
+\draw [,->,>=latex] (13.50000000,-0.2000000000) -- (15.00000000,-0.2000000000);
+\draw (13.50000000,-0.5000000000) node {Environ \( \frac{ 1 }{ 4 }\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

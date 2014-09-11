@@ -6,19 +6,40 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigAILoxBgPICTAILoxBg.phystricks.aux%
-\immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{e4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{a3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{ea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{a2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigAILoxBg.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( D\)}}%
+\immediate\write\writeOfphystricks{totalheightofa3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( D\)}}%
+\immediate\write\writeOfphystricks{widthofa3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( E\)}}%
+\immediate\write\writeOfphystricks{totalheightof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( E\)}}%
+\immediate\write\writeOfphystricks{widthof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{totalheightofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
+\immediate\write\writeOfphystricks{widthofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -64,54 +85,54 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-2.10000000000000,-2.10000000000000) -- (-2.10000000000000,2.10000000000000);
-\draw [color=gray,style=solid] (-1.40000000000000,-2.10000000000000) -- (-1.40000000000000,2.10000000000000);
-\draw [color=gray,style=solid] (-0.700000000000000,-2.10000000000000) -- (-0.700000000000000,2.10000000000000);
-\draw [color=gray,style=solid] (0.0,-2.10000000000000) -- (0.0,2.10000000000000);
-\draw [color=gray,style=solid] (0.700000000000000,-2.10000000000000) -- (0.700000000000000,2.10000000000000);
-\draw [color=gray,style=solid] (1.40000000000000,-2.10000000000000) -- (1.40000000000000,2.10000000000000);
-\draw [color=gray,style=solid] (2.10000000000000,-2.10000000000000) -- (2.10000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (-1.75000000000000,-2.10000000000000) -- (-1.75000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (-1.05000000000000,-2.10000000000000) -- (-1.05000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (-0.350000000000000,-2.10000000000000) -- (-0.350000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (0.350000000000000,-2.10000000000000) -- (0.350000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (1.05000000000000,-2.10000000000000) -- (1.05000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (1.75000000000000,-2.10000000000000) -- (1.75000000000000,2.10000000000000);
-\draw [color=gray,style=dotted] (-2.10000000000000,-1.75000000000000) -- (2.10000000000000,-1.75000000000000);
-\draw [color=gray,style=dotted] (-2.10000000000000,-1.05000000000000) -- (2.10000000000000,-1.05000000000000);
-\draw [color=gray,style=dotted] (-2.10000000000000,-0.350000000000000) -- (2.10000000000000,-0.350000000000000);
-\draw [color=gray,style=dotted] (-2.10000000000000,0.350000000000000) -- (2.10000000000000,0.350000000000000);
-\draw [color=gray,style=dotted] (-2.10000000000000,1.05000000000000) -- (2.10000000000000,1.05000000000000);
-\draw [color=gray,style=dotted] (-2.10000000000000,1.75000000000000) -- (2.10000000000000,1.75000000000000);
-\draw [color=gray,style=solid] (-2.10000000000000,-2.10000000000000) -- (2.10000000000000,-2.10000000000000);
-\draw [color=gray,style=solid] (-2.10000000000000,-1.40000000000000) -- (2.10000000000000,-1.40000000000000);
-\draw [color=gray,style=solid] (-2.10000000000000,-0.700000000000000) -- (2.10000000000000,-0.700000000000000);
-\draw [color=gray,style=solid] (-2.10000000000000,0.0) -- (2.10000000000000,0.0);
-\draw [color=gray,style=solid] (-2.10000000000000,0.700000000000000) -- (2.10000000000000,0.700000000000000);
-\draw [color=gray,style=solid] (-2.10000000000000,1.40000000000000) -- (2.10000000000000,1.40000000000000);
-\draw [color=gray,style=solid] (-2.10000000000000,2.10000000000000) -- (2.10000000000000,2.10000000000000);
+\draw [color=gray,style=solid] (-2.100000000,-2.100000000) -- (-2.100000000,2.100000000);
+\draw [color=gray,style=solid] (-1.400000000,-2.100000000) -- (-1.400000000,2.100000000);
+\draw [color=gray,style=solid] (-0.7000000000,-2.100000000) -- (-0.7000000000,2.100000000);
+\draw [color=gray,style=solid] (0.0,-2.100000000) -- (0.0,2.100000000);
+\draw [color=gray,style=solid] (0.7000000000,-2.100000000) -- (0.7000000000,2.100000000);
+\draw [color=gray,style=solid] (1.400000000,-2.100000000) -- (1.400000000,2.100000000);
+\draw [color=gray,style=solid] (2.100000000,-2.100000000) -- (2.100000000,2.100000000);
+\draw [color=gray,style=dotted] (-1.750000000,-2.100000000) -- (-1.750000000,2.100000000);
+\draw [color=gray,style=dotted] (-1.050000000,-2.100000000) -- (-1.050000000,2.100000000);
+\draw [color=gray,style=dotted] (-0.3500000000,-2.100000000) -- (-0.3500000000,2.100000000);
+\draw [color=gray,style=dotted] (0.3500000000,-2.100000000) -- (0.3500000000,2.100000000);
+\draw [color=gray,style=dotted] (1.050000000,-2.100000000) -- (1.050000000,2.100000000);
+\draw [color=gray,style=dotted] (1.750000000,-2.100000000) -- (1.750000000,2.100000000);
+\draw [color=gray,style=dotted] (-2.100000000,-1.750000000) -- (2.100000000,-1.750000000);
+\draw [color=gray,style=dotted] (-2.100000000,-1.050000000) -- (2.100000000,-1.050000000);
+\draw [color=gray,style=dotted] (-2.100000000,-0.3500000000) -- (2.100000000,-0.3500000000);
+\draw [color=gray,style=dotted] (-2.100000000,0.3500000000) -- (2.100000000,0.3500000000);
+\draw [color=gray,style=dotted] (-2.100000000,1.050000000) -- (2.100000000,1.050000000);
+\draw [color=gray,style=dotted] (-2.100000000,1.750000000) -- (2.100000000,1.750000000);
+\draw [color=gray,style=solid] (-2.100000000,-2.100000000) -- (2.100000000,-2.100000000);
+\draw [color=gray,style=solid] (-2.100000000,-1.400000000) -- (2.100000000,-1.400000000);
+\draw [color=gray,style=solid] (-2.100000000,-0.7000000000) -- (2.100000000,-0.7000000000);
+\draw [color=gray,style=solid] (-2.100000000,0.0) -- (2.100000000,0.0);
+\draw [color=gray,style=solid] (-2.100000000,0.7000000000) -- (2.100000000,0.7000000000);
+\draw [color=gray,style=solid] (-2.100000000,1.400000000) -- (2.100000000,1.400000000);
+\draw [color=gray,style=solid] (-2.100000000,2.100000000) -- (2.100000000,2.100000000);
 %DEFAULT
-\draw []  (2.10000000000000,2.10000000000000) node [rotate=0] {$\bullet$};
-\draw (2.37808802290398,2.37808802290398) node {\( A\)};
-\draw []  (0.0,2.10000000000000) node [rotate=0] {$\bullet$};
-\draw (0.0,2.43666666666667) node {\( B\)};
-\draw []  (-2.10000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (-2.43666666666667,0.0) node {\( C\)};
-\draw []  (0.0,-2.10000000000000) node [rotate=0] {$\bullet$};
-\draw (0.0,-2.43666666666667) node {\( D\)};
-\draw []  (2.10000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (2.43666666666667,0.0) node {\( E\)};
-\draw []  (2.10000000000000,-2.10000000000000) node [rotate=0] {$\bullet$};
-\draw (2.37808802290398,-2.37808802290398) node {\( F\)};
+\draw []  (2.100000000,2.100000000) node [rotate=0] {$\bullet$};
+\draw (2.198994949,2.198994949) node {\( A\)};
+\draw []  (0.0,2.100000000) node [rotate=0] {$\bullet$};
+\draw (0.0,2.240000000) node {\( B\)};
+\draw []  (-2.100000000,0.0) node [rotate=0] {$\bullet$};
+\draw (-2.240000000,0.0) node {\( C\)};
+\draw []  (0.0,-2.100000000) node [rotate=0] {$\bullet$};
+\draw (0.0,-2.240000000) node {\( D\)};
+\draw []  (2.100000000,0.0) node [rotate=0] {$\bullet$};
+\draw (2.240000000,0.0) node {\( E\)};
+\draw []  (2.100000000,-2.100000000) node [rotate=0] {$\bullet$};
+\draw (2.198994949,-2.198994949) node {\( F\)};
 \draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
-\draw (0.278088022903976,0.278088022903976) node {\( O\)};
-\draw [] (-2.10000000000000,0.0) -- (0.0,2.10000000000000);
-\draw [] (0.0,2.10000000000000) -- (2.10000000000000,2.10000000000000);
-\draw [] (2.10000000000000,2.10000000000000) -- (2.10000000000000,-2.10000000000000);
-\draw [] (0.0,-2.10000000000000) -- (-2.10000000000000,0.0);
-\draw [] (2.10000000000000,-2.10000000000000) -- (0.0,-2.10000000000000);
-\draw [] (0.0,2.10000000000000) -- (0.0,-2.10000000000000);
-\draw [] (-2.10000000000000,0.0) -- (2.10000000000000,0.0);
+\draw (0.09899494937,0.09899494937) node {\( O\)};
+\draw [] (-2.100000000,0.0) -- (0.0,2.100000000);
+\draw [] (0.0,2.100000000) -- (2.100000000,2.100000000);
+\draw [] (2.100000000,2.100000000) -- (2.100000000,-2.100000000);
+\draw [] (0.0,-2.100000000) -- (-2.100000000,0.0);
+\draw [] (2.100000000,-2.100000000) -- (0.0,-2.100000000);
+\draw [] (0.0,2.100000000) -- (0.0,-2.100000000);
+\draw [] (-2.100000000,0.0) -- (2.100000000,0.0);
 %AXES
 %OTHER STUFF
 %END PSPICTURE

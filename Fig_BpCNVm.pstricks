@@ -6,13 +6,16 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$x$}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigBpCNVmPICTBpCNVm.phystricks.aux%
-\immediate\write\writeOfphystricks{26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigBpCNVm.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$x$}}%
+\immediate\write\writeOfphystricks{totalheightof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$x$}}%
+\immediate\write\writeOfphystricks{widthof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -62,15 +65,15 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [] (1.00000000000000,-0.100000000000000) -- (1.00000000000000,0.100000000000000);
-\draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw [] (3.00000000000000,-0.100000000000000) -- (3.00000000000000,0.100000000000000);
-\draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw [] (5.00000000000000,-0.100000000000000) -- (5.00000000000000,0.100000000000000);
-\draw [,->,>=latex] (-0.600000000000000,0) -- (5.60000000000000,0);
-\draw [] (-0.100000000000000,1.00000000000000) -- (0.100000000000000,1.00000000000000);
-\draw [] (-0.100000000000000,2.00000000000000) -- (0.100000000000000,2.00000000000000);
-\draw [,->,>=latex] (0,-0.600000000000000) -- (0,2.60000000000000);
+\draw [] (1.000000000,-0.1000000000) -- (1.000000000,0.1000000000);
+\draw [] (2.000000000,-0.1000000000) -- (2.000000000,0.1000000000);
+\draw [] (3.000000000,-0.1000000000) -- (3.000000000,0.1000000000);
+\draw [] (4.000000000,-0.1000000000) -- (4.000000000,0.1000000000);
+\draw [] (5.000000000,-0.1000000000) -- (5.000000000,0.1000000000);
+\draw [,->,>=latex] (-0.6000000000,0) -- (5.600000000,0);
+\draw [] (-0.1000000000,1.000000000) -- (0.1000000000,1.000000000);
+\draw [] (-0.1000000000,2.000000000) -- (0.1000000000,2.000000000);
+\draw [,->,>=latex] (0,-0.6000000000) -- (0,2.600000000);
 %DEFAULT
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -78,13 +81,13 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=green,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (5.00000000000000,0) -- (5.00000000000000,0) -- (5.00000000000000,2.00000000000000) -- (5.00000000000000,2.00000000000000) -- (0,2.00000000000000) -- (0,2.00000000000000) -- (0,0) --  cycle;
-\draw [color=blue] (0,0) -- (5.00000000000000,0);
-\draw [color=blue] (5.00000000000000,0) -- (5.00000000000000,2.00000000000000);
-\draw [color=blue] (5.00000000000000,2.00000000000000) -- (0,2.00000000000000);
-\draw [color=blue] (0,2.00000000000000) -- (0,0);
-\draw []  (3.00000000000000,0) node [rotate=0] {$\bullet$};
-\draw (3.00000000000000,-0.286111166666667) node {$x$};
+\fill [color=green,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (5.000000000,0) -- (5.000000000,0) -- (5.000000000,2.000000000) -- (5.000000000,2.000000000) -- (0,2.000000000) -- (0,2.000000000) -- (0,0) --  cycle;
+\draw [color=blue] (0,0) -- (5.000000000,0);
+\draw [color=blue] (5.000000000,0) -- (5.000000000,2.000000000);
+\draw [color=blue] (5.000000000,2.000000000) -- (0,2.000000000);
+\draw [color=blue] (0,2.000000000) -- (0,0);
+\draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
+\draw (3.000000000,-0.2000000000) node {$x$};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

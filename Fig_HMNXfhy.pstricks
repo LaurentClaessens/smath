@@ -6,9 +6,14 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
+%OPEN_WRITE_AND_LABEL
+\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigHMNXfhy.phystricks.aux%
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -55,16 +60,16 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0.0,0.0) -- (3.60000000000000,0.0);
-\draw [] (3.60000000000000,0.0) -- (3.60000000000000,3.60000000000000);
-\draw [] (3.60000000000000,3.60000000000000) -- (0.0,3.60000000000000);
-\draw [] (0.0,3.60000000000000) -- (0.0,0.0);
-\draw [] (0.0,0.800000000000000) -- (2.40000000000000,0.800000000000000);
-\draw [] (2.40000000000000,0.0) -- (2.40000000000000,3.60000000000000);
-\draw [] (0.800000000000000,0.0) -- (0.800000000000000,0.800000000000000);
-\draw [] (2.40000000000000,1.20000000000000) -- (3.60000000000000,1.20000000000000);
-\draw [] (1.60000000000000,0.0) -- (1.60000000000000,0.800000000000000);
-\draw [] (2.40000000000000,2.40000000000000) -- (3.60000000000000,2.40000000000000);
+\draw [] (0.0,0.0) -- (3.600000000,0.0);
+\draw [] (3.600000000,0.0) -- (3.600000000,3.600000000);
+\draw [] (3.600000000,3.600000000) -- (0.0,3.600000000);
+\draw [] (0.0,3.600000000) -- (0.0,0.0);
+\draw [] (0.0,0.8000000000) -- (2.400000000,0.8000000000);
+\draw [] (2.400000000,0.0) -- (2.400000000,3.600000000);
+\draw [] (0.8000000000,0.0) -- (0.8000000000,0.8000000000);
+\draw [] (2.400000000,1.200000000) -- (3.600000000,1.200000000);
+\draw [] (1.600000000,0.0) -- (1.600000000,0.8000000000);
+\draw [] (2.400000000,2.400000000) -- (3.600000000,2.400000000);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

@@ -6,22 +6,52 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigEJbcoxOPICTEJbcoxO.phystricks.aux%
-\immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Z_1\)}}%
-\immediate\write\writeOfphystricks{35338b3b7dfc644b019e88cee276d10f7c413c3e:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Z_2\)}}%
-\immediate\write\writeOfphystricks{ee51fc9e2ac4f950d4eca6a3cc31e64d50fa02b9:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Z_3 \)}}%
-\immediate\write\writeOfphystricks{e9ad17df091d08f4667328af1592124206cdb8c9:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{f66654a967831d75e2a133d03fb0753c049acbc1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{a96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{abf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigEJbcoxO.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Z_1\)}}%
+\immediate\write\writeOfphystricks{totalheightof35338b3b7dfc644b019e88cee276d10f7c413c3e:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Z_1\)}}%
+\immediate\write\writeOfphystricks{widthof35338b3b7dfc644b019e88cee276d10f7c413c3e:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Z_2\)}}%
+\immediate\write\writeOfphystricks{totalheightofee51fc9e2ac4f950d4eca6a3cc31e64d50fa02b9:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Z_2\)}}%
+\immediate\write\writeOfphystricks{widthofee51fc9e2ac4f950d4eca6a3cc31e64d50fa02b9:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Z_3 \)}}%
+\immediate\write\writeOfphystricks{totalheightofe9ad17df091d08f4667328af1592124206cdb8c9:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Z_3 \)}}%
+\immediate\write\writeOfphystricks{widthofe9ad17df091d08f4667328af1592124206cdb8c9:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
+\immediate\write\writeOfphystricks{totalheightoff66654a967831d75e2a133d03fb0753c049acbc1:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
+\immediate\write\writeOfphystricks{widthoff66654a967831d75e2a133d03fb0753c049acbc1:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -67,58 +97,58 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-4.00000000000000,-2.60000000000000) -- (-4.00000000000000,2.60000000000000);
-\draw [color=gray,style=solid] (-2.00000000000000,-2.60000000000000) -- (-2.00000000000000,2.60000000000000);
-\draw [color=gray,style=solid] (0,-2.60000000000000) -- (0,2.60000000000000);
-\draw [color=gray,style=solid] (2.00000000000000,-2.60000000000000) -- (2.00000000000000,2.60000000000000);
-\draw [color=gray,style=solid] (4.00000000000000,-2.60000000000000) -- (4.00000000000000,2.60000000000000);
-\draw [color=gray,style=dotted] (-3.00000000000000,-2.60000000000000) -- (-3.00000000000000,2.60000000000000);
-\draw [color=gray,style=dotted] (-1.00000000000000,-2.60000000000000) -- (-1.00000000000000,2.60000000000000);
-\draw [color=gray,style=dotted] (1.00000000000000,-2.60000000000000) -- (1.00000000000000,2.60000000000000);
-\draw [color=gray,style=dotted] (3.00000000000000,-2.60000000000000) -- (3.00000000000000,2.60000000000000);
-\draw [color=gray,style=dotted] (-4.00000000000000,-1.95000000000000) -- (4.00000000000000,-1.95000000000000);
-\draw [color=gray,style=dotted] (-4.00000000000000,-0.650000000000000) -- (4.00000000000000,-0.650000000000000);
-\draw [color=gray,style=dotted] (-4.00000000000000,0.650000000000000) -- (4.00000000000000,0.650000000000000);
-\draw [color=gray,style=dotted] (-4.00000000000000,1.95000000000000) -- (4.00000000000000,1.95000000000000);
-\draw [color=gray,style=solid] (-4.00000000000000,-2.60000000000000) -- (4.00000000000000,-2.60000000000000);
-\draw [color=gray,style=solid] (-4.00000000000000,-1.30000000000000) -- (4.00000000000000,-1.30000000000000);
-\draw [color=gray,style=solid] (-4.00000000000000,0.0) -- (4.00000000000000,0.0);
-\draw [color=gray,style=solid] (-4.00000000000000,1.30000000000000) -- (4.00000000000000,1.30000000000000);
-\draw [color=gray,style=solid] (-4.00000000000000,2.60000000000000) -- (4.00000000000000,2.60000000000000);
+\draw [color=gray,style=solid] (-4.000000000,-2.600000000) -- (-4.000000000,2.600000000);
+\draw [color=gray,style=solid] (-2.000000000,-2.600000000) -- (-2.000000000,2.600000000);
+\draw [color=gray,style=solid] (0,-2.600000000) -- (0,2.600000000);
+\draw [color=gray,style=solid] (2.000000000,-2.600000000) -- (2.000000000,2.600000000);
+\draw [color=gray,style=solid] (4.000000000,-2.600000000) -- (4.000000000,2.600000000);
+\draw [color=gray,style=dotted] (-3.000000000,-2.600000000) -- (-3.000000000,2.600000000);
+\draw [color=gray,style=dotted] (-1.000000000,-2.600000000) -- (-1.000000000,2.600000000);
+\draw [color=gray,style=dotted] (1.000000000,-2.600000000) -- (1.000000000,2.600000000);
+\draw [color=gray,style=dotted] (3.000000000,-2.600000000) -- (3.000000000,2.600000000);
+\draw [color=gray,style=dotted] (-4.000000000,-1.950000000) -- (4.000000000,-1.950000000);
+\draw [color=gray,style=dotted] (-4.000000000,-0.6500000000) -- (4.000000000,-0.6500000000);
+\draw [color=gray,style=dotted] (-4.000000000,0.6500000000) -- (4.000000000,0.6500000000);
+\draw [color=gray,style=dotted] (-4.000000000,1.950000000) -- (4.000000000,1.950000000);
+\draw [color=gray,style=solid] (-4.000000000,-2.600000000) -- (4.000000000,-2.600000000);
+\draw [color=gray,style=solid] (-4.000000000,-1.300000000) -- (4.000000000,-1.300000000);
+\draw [color=gray,style=solid] (-4.000000000,0.0) -- (4.000000000,0.0);
+\draw [color=gray,style=solid] (-4.000000000,1.300000000) -- (4.000000000,1.300000000);
+\draw [color=gray,style=solid] (-4.000000000,2.600000000) -- (4.000000000,2.600000000);
 %AXES
-\draw (-4.00000000000000,-0.340822833333333) node { $ -2 $ };
-\draw [] (-4.00000000000000,-0.100000000000000) -- (-4.00000000000000,0.100000000000000);
-\draw (-2.00000000000000,-0.340822833333333) node { $ -1 $ };
-\draw [] (-2.00000000000000,-0.100000000000000) -- (-2.00000000000000,0.100000000000000);
-\draw (2.00000000000000,-0.325945833333333) node { $ 1 $ };
-\draw [] (2.00000000000000,-0.100000000000000) -- (2.00000000000000,0.100000000000000);
-\draw (4.00000000000000,-0.325945833333333) node { $ 2 $ };
-\draw [] (4.00000000000000,-0.100000000000000) -- (4.00000000000000,0.100000000000000);
-\draw [,->,>=latex] (-4.50000000000000,0.0) -- (4.50000000000000,0.0);
-\draw (-0.340822833333333,-2.60000000000000) node { $ -2 $ };
-\draw [] (-0.100000000000000,-2.60000000000000) -- (0.100000000000000,-2.60000000000000);
-\draw (-0.340822833333333,-1.30000000000000) node { $ -1 $ };
-\draw [] (-0.100000000000000,-1.30000000000000) -- (0.100000000000000,-1.30000000000000);
-\draw (-0.325945833333333,1.30000000000000) node { $ 1 $ };
-\draw [] (-0.100000000000000,1.30000000000000) -- (0.100000000000000,1.30000000000000);
-\draw (-0.325945833333333,2.60000000000000) node { $ 2 $ };
-\draw [] (-0.100000000000000,2.60000000000000) -- (0.100000000000000,2.60000000000000);
-\draw [,->,>=latex] (0,-3.10000000000000) -- (0,3.10000000000000);
+\draw (-4.000000000,-0.2000000000) node { $ -2 $ };
+\draw [] (-4.000000000,-0.1000000000) -- (-4.000000000,0.1000000000);
+\draw (-2.000000000,-0.2000000000) node { $ -1 $ };
+\draw [] (-2.000000000,-0.1000000000) -- (-2.000000000,0.1000000000);
+\draw (2.000000000,-0.2000000000) node { $ 1 $ };
+\draw [] (2.000000000,-0.1000000000) -- (2.000000000,0.1000000000);
+\draw (4.000000000,-0.2000000000) node { $ 2 $ };
+\draw [] (4.000000000,-0.1000000000) -- (4.000000000,0.1000000000);
+\draw [,->,>=latex] (-4.500000000,0.0) -- (4.500000000,0.0);
+\draw (-0.2000000000,-2.600000000) node { $ -2 $ };
+\draw [] (-0.1000000000,-2.600000000) -- (0.1000000000,-2.600000000);
+\draw (-0.2000000000,-1.300000000) node { $ -1 $ };
+\draw [] (-0.1000000000,-1.300000000) -- (0.1000000000,-1.300000000);
+\draw (-0.2000000000,1.300000000) node { $ 1 $ };
+\draw [] (-0.1000000000,1.300000000) -- (0.1000000000,1.300000000);
+\draw (-0.2000000000,2.600000000) node { $ 2 $ };
+\draw [] (-0.1000000000,2.600000000) -- (0.1000000000,2.600000000);
+\draw [,->,>=latex] (0,-3.100000000) -- (0,3.100000000);
 %DEFAULT
-\draw [color=blue,samples=100] plot [smooth,tension=1] coordinates {(-4.00000000000000,0.117176577233640)(-3.91919191919192,0.0628836342849948)(-3.83838383838384,0.00263834725537249)(-3.75757575757576,-0.0630518325951658)(-3.67676767676768,-0.133643918494275)(-3.59595959595960,-0.208562931902582)(-3.51515151515152,-0.287205655049803)(-3.43434343434343,-0.368944567771182)(-3.35353535353535,-0.453131942950926)(-3.27272727272727,-0.539104073844141)(-3.19191919191919,-0.626185605688116)(-3.11111111111111,-0.713693943333156)(-3.03030303030303,-0.800943706127025)(-2.94949494949495,-0.887251200978675)(-2.86868686868687,-0.971938884408288)(-2.78787878787879,-1.05433978446254)(-2.70707070707071,-1.13380185363590)(-2.62626262626263,-1.20969222438917)(-2.54545454545455,-1.28140133949195)(-2.46464646464646,-1.34834693023290)(-2.38383838383838,-1.40997781653439)(-2.30303030303030,-1.46577750417049)(-2.22222222222222,-1.51526755561145)(-2.14141414141414,-1.55801071249520)(-2.06060606060606,-1.59361374934745)(-1.97979797979798,-1.62173003992577)(-1.89898989898990,-1.64206181943879)(-1.81818181818182,-1.65436212787641)(-1.73737373737374,-1.65843642176791)(-1.65656565656566,-1.65414384384918)(-1.57575757575758,-1.64139814235263)(-1.49494949494949,-1.62016823392017)(-1.41414141414141,-1.59047840646542)(-1.33333333333333,-1.55240816066120)(-1.25252525252525,-1.50609169108692)(-1.17171717171717,-1.45171701042196)(-1.09090909090909,-1.38952472240093)(-1.01010101010101,-1.31980645153910)(-0.929292929292929,-1.24290293987608)(-0.848484848484848,-1.15920182315924)(-0.767676767676767,-1.06913510098039)(-0.686868686868686,-0.973176317376429)(-0.606060606060606,-0.871837470294787)(-0.525252525252525,-0.765665670093364)(-0.444444444444444,-0.655239568883158)(-0.363636363636363,-0.541165584016970)(-0.282828282828282,-0.424073940371225)(-0.202020202020202,-0.304614557250534)(-0.121212121212121,-0.183452806758666)(-0.0404040404040402,-0.0612651713184764)(0.0404040404040407,0.0612651713184771)(0.121212121212122,0.183452806758668)(0.202020202020202,0.304614557250535)(0.282828282828283,0.424073940371226)(0.363636363636364,0.541165584016971)(0.444444444444445,0.655239568883159)(0.525252525252526,0.765665670093365)(0.606060606060606,0.871837470294787)(0.686868686868687,0.973176317376430)(0.767676767676768,1.06913510098039)(0.848484848484849,1.15920182315924)(0.929292929292930,1.24290293987608)(1.01010101010101,1.31980645153910)(1.09090909090909,1.38952472240093)(1.17171717171717,1.45171701042196)(1.25252525252525,1.50609169108692)(1.33333333333333,1.55240816066120)(1.41414141414141,1.59047840646542)(1.49494949494950,1.62016823392018)(1.57575757575758,1.64139814235263)(1.65656565656566,1.65414384384918)(1.73737373737374,1.65843642176791)(1.81818181818182,1.65436212787641)(1.89898989898990,1.64206181943879)(1.97979797979798,1.62173003992577)(2.06060606060606,1.59361374934745)(2.14141414141414,1.55801071249520)(2.22222222222222,1.51526755561145)(2.30303030303030,1.46577750417049)(2.38383838383838,1.40997781653439)(2.46464646464647,1.34834693023290)(2.54545454545455,1.28140133949195)(2.62626262626263,1.20969222438917)(2.70707070707071,1.13380185363590)(2.78787878787879,1.05433978446254)(2.86868686868687,0.971938884408287)(2.94949494949495,0.887251200978674)(3.03030303030303,0.800943706127024)(3.11111111111111,0.713693943333156)(3.19191919191919,0.626185605688115)(3.27272727272727,0.539104073844140)(3.35353535353535,0.453131942950926)(3.43434343434344,0.368944567771181)(3.51515151515152,0.287205655049802)(3.59595959595960,0.208562931902581)(3.67676767676768,0.133643918494275)(3.75757575757576,0.0630518325951658)(3.83838383838384,-0.00263834725537321)(3.91919191919192,-0.0628836342849951)(4.00000000000000,-0.117176577233640)};
-\draw [color=red] (-2.00000000000000,1.30000000000000) -- (4.00000000000000,1.30000000000000);
-\draw []  (1.00000000000000,1.30000000000000) node [rotate=0] {$\bullet$};
-\draw (1.00000000000000,1.63666666666667) node {\( A\)};
-\draw []  (2.52000000000000,1.30000000000000) node [rotate=0] {$\bullet$};
-\draw (2.52000000000000,1.63666666666667) node {\( B\)};
-\draw []  (-3.82000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (-3.82000000000000,0.366666333333333) node {\( Z_1\)};
+\draw [color=blue,samples=100] plot [smooth,tension=1] coordinates {(-4.00,0.117)(-3.92,0.0629)(-3.84,0.00264)(-3.76,-0.0630)(-3.68,-0.134)(-3.60,-0.209)(-3.52,-0.287)(-3.43,-0.369)(-3.35,-0.453)(-3.27,-0.539)(-3.19,-0.626)(-3.11,-0.714)(-3.03,-0.801)(-2.95,-0.887)(-2.87,-0.972)(-2.79,-1.05)(-2.71,-1.13)(-2.63,-1.21)(-2.55,-1.28)(-2.46,-1.35)(-2.38,-1.41)(-2.30,-1.47)(-2.22,-1.52)(-2.14,-1.56)(-2.06,-1.59)(-1.98,-1.62)(-1.90,-1.64)(-1.82,-1.65)(-1.74,-1.66)(-1.66,-1.65)(-1.58,-1.64)(-1.49,-1.62)(-1.41,-1.59)(-1.33,-1.55)(-1.25,-1.51)(-1.17,-1.45)(-1.09,-1.39)(-1.01,-1.32)(-0.929,-1.24)(-0.849,-1.16)(-0.768,-1.07)(-0.687,-0.973)(-0.606,-0.872)(-0.525,-0.766)(-0.444,-0.655)(-0.364,-0.541)(-0.283,-0.424)(-0.202,-0.305)(-0.121,-0.183)(-0.0404,-0.0613)(0.0404,0.0613)(0.121,0.183)(0.202,0.305)(0.283,0.424)(0.364,0.541)(0.444,0.655)(0.525,0.766)(0.606,0.872)(0.687,0.973)(0.768,1.07)(0.849,1.16)(0.929,1.24)(1.01,1.32)(1.09,1.39)(1.17,1.45)(1.25,1.51)(1.33,1.55)(1.41,1.59)(1.49,1.62)(1.58,1.64)(1.66,1.65)(1.74,1.66)(1.82,1.65)(1.90,1.64)(1.98,1.62)(2.06,1.59)(2.14,1.56)(2.22,1.52)(2.30,1.47)(2.38,1.41)(2.46,1.35)(2.55,1.28)(2.63,1.21)(2.71,1.13)(2.79,1.05)(2.87,0.972)(2.95,0.887)(3.03,0.801)(3.11,0.714)(3.19,0.626)(3.27,0.539)(3.35,0.453)(3.43,0.369)(3.52,0.287)(3.60,0.209)(3.68,0.134)(3.76,0.0630)(3.84,-0.00264)(3.92,-0.0629)(4.00,-0.117)};
+\draw [color=red] (-2.000000000,1.300000000) -- (4.000000000,1.300000000);
+\draw []  (1.000000000,1.300000000) node [rotate=0] {$\bullet$};
+\draw (1.000000000,1.560000000) node {\( A\)};
+\draw []  (2.520000000,1.300000000) node [rotate=0] {$\bullet$};
+\draw (2.520000000,1.560000000) node {\( B\)};
+\draw []  (-3.820000000,0.0) node [rotate=0] {$\bullet$};
+\draw (-3.820000000,0.2600000000) node {\( Z_1\)};
 \draw []  (0,0.0) node [rotate=0] {$\bullet$};
-\draw (-0.308087689570643,0.308087689570643) node {\( Z_2\)};
-\draw []  (3.82000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (3.82000000000000,0.366666333333333) node {\( Z_3 \)};
-\draw []  (1.72000000000000,1.65822336247278) node [rotate=0] {$\bullet$};
-\draw (1.72000000000000,1.99489002913945) node {\( M\)};
+\draw (-0.2828427125,0.1838477631) node {\( Z_2\)};
+\draw []  (3.820000000,0.0) node [rotate=0] {$\bullet$};
+\draw (3.820000000,0.2600000000) node {\( Z_3 \)};
+\draw []  (1.720000000,1.658223362) node [rotate=0] {$\bullet$};
+\draw (1.720000000,1.918223362) node {\( M\)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

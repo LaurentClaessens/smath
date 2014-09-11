@@ -6,16 +6,28 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureDTzvwizPICTfigureDTzvwiz.phystricks.aux%
-\immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A'\)}}%
-\immediate\write\writeOfphystricks{768831ff36a13861f0218a5fa648028b5ca5dd88:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B'\)}}%
-\immediate\write\writeOfphystricks{85b620b086aba5834e406c42047b57128881207a:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigfigureDTzvwiz.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A'\)}}%
+\immediate\write\writeOfphystricks{totalheightof768831ff36a13861f0218a5fa648028b5ca5dd88:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A'\)}}%
+\immediate\write\writeOfphystricks{widthof768831ff36a13861f0218a5fa648028b5ca5dd88:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B'\)}}%
+\immediate\write\writeOfphystricks{totalheightof85b620b086aba5834e406c42047b57128881207a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B'\)}}%
+\immediate\write\writeOfphystricks{widthof85b620b086aba5834e406c42047b57128881207a:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -64,21 +76,21 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [,->,>=latex] (0.0,0.0) -- (0.0,4.50000000000000);
-\draw [,->,>=latex] (0.0,4.50000000000000) -- (1.50000000000000,4.50000000000000);
-\draw [color=blue] (0.0,0.0) -- (6.00000000000000,0.0);
-\draw [color=blue] (0.0,6.00000000000000) -- (6.00000000000000,6.00000000000000);
-\draw [color=red,->,>=latex] (0.0,0.0) -- (1.50000000000000,4.50000000000000);
-\draw []  (0.0,4.50000000000000) node [rotate=0] {$\bullet$};
-\draw (-0.336666666666667,4.63666666666667) node {\( A\)};
-\draw []  (1.50000000000000,4.50000000000000) node [rotate=0] {$\bullet$};
-\draw (1.83666666666667,4.63666666666667) node {\( B\)};
-\draw []  (0.0,6.00000000000000) node [rotate=0] {$\bullet$};
-\draw (0.147125000000000,6.34712500000000) node {\( A'\)};
-\draw []  (2.00000000000000,6.00000000000000) node [rotate=0] {$\bullet$};
-\draw (2.14712500000000,6.34712500000000) node {\( B'\)};
-\draw [style=dashed] (0.0,4.50000000000000) -- (0.0,6.00000000000000);
-\draw [style=dashed] (1.50000000000000,4.50000000000000) -- (2.00000000000000,6.00000000000000);
+\draw [,->,>=latex] (0.0,0.0) -- (0.0,4.500000000);
+\draw [,->,>=latex] (0.0,4.500000000) -- (1.500000000,4.500000000);
+\draw [color=blue] (0.0,0.0) -- (6.000000000,0.0);
+\draw [color=blue] (0.0,6.000000000) -- (6.000000000,6.000000000);
+\draw [color=red,->,>=latex] (0.0,0.0) -- (1.500000000,4.500000000);
+\draw []  (0.0,4.500000000) node [rotate=0] {$\bullet$};
+\draw (-0.06000000000,4.500000000) node {\( A\)};
+\draw []  (1.500000000,4.500000000) node [rotate=0] {$\bullet$};
+\draw (1.560000000,4.500000000) node {\( B\)};
+\draw []  (0.0,6.000000000) node [rotate=0] {$\bullet$};
+\draw (0.0,6.060000000) node {\( A'\)};
+\draw []  (2.000000000,6.000000000) node [rotate=0] {$\bullet$};
+\draw (2.000000000,6.060000000) node {\( B'\)};
+\draw [style=dashed] (0.0,4.500000000) -- (0.0,6.000000000);
+\draw [style=dashed] (1.500000000,4.500000000) -- (2.000000000,6.000000000);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

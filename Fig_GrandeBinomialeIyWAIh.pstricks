@@ -6,67 +6,59 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigGrandeBinomialeIyWAIh.phystricks.aux%
-\immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
-\immediate\write\writeOfphystricks{a9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 30 $}}%
-\immediate\write\writeOfphystricks{3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 40 $}}%
-\immediate\write\writeOfphystricks{d308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{20} $}}%
-\immediate\write\writeOfphystricks{51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{10} $}}%
-\immediate\write\writeOfphystricks{47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{3}{20} $}}%
-\immediate\write\writeOfphystricks{bf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfDfiguressmathDpy-}
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
-%WRITE_AND_LABEL
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigGrandeBinomialeIyWAIh.phystricks.aux%
-\immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
-\immediate\write\writeOfphystricks{a9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 30 $}}%
-\immediate\write\writeOfphystricks{3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 40 $}}%
-\immediate\write\writeOfphystricks{d308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 50 $}}%
-\immediate\write\writeOfphystricks{167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 60 $}}%
-\immediate\write\writeOfphystricks{47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 70 $}}%
-\immediate\write\writeOfphystricks{cf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 80 $}}%
-\immediate\write\writeOfphystricks{845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{20} $}}%
-\immediate\write\writeOfphystricks{51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{10} $}}%
-\immediate\write\writeOfphystricks{47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDfiguressmathDpy-}
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigGrandeBinomialeIyWAIh.phystricks.aux%
-\immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
-\immediate\write\writeOfphystricks{a9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 30 $}}%
-\immediate\write\writeOfphystricks{3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 40 $}}%
-\immediate\write\writeOfphystricks{d308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{20} $}}%
-\immediate\write\writeOfphystricks{51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{10} $}}%
-\immediate\write\writeOfphystricks{47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{3}{20} $}}%
-\immediate\write\writeOfphystricks{bf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfDfiguressmathDpy-}
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
+\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 10 $}}%
+\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
+\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 20 $}}%
+\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 30 $}}%
+\immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 30 $}}%
+\immediate\write\writeOfphystricks{widthof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 40 $}}%
+\immediate\write\writeOfphystricks{totalheightofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 40 $}}%
+\immediate\write\writeOfphystricks{widthofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{widthof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{totalheightof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{widthof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{3}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ \frac{3}{20} $}}%
+\immediate\write\writeOfphystricks{widthofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 10 $}}%
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigGrandeBinomialeIyWAIh.phystricks.aux%
-\immediate\write\writeOfphystricks{902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 20 $}}%
-\immediate\write\writeOfphystricks{a9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 30 $}}%
-\immediate\write\writeOfphystricks{3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 40 $}}%
-\immediate\write\writeOfphystricks{d308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 50 $}}%
-\immediate\write\writeOfphystricks{167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 60 $}}%
-\immediate\write\writeOfphystricks{47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 70 $}}%
-\immediate\write\writeOfphystricks{cf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 80 $}}%
-\immediate\write\writeOfphystricks{845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{20} $}}%
-\immediate\write\writeOfphystricks{51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ \frac{1}{10} $}}%
-\immediate\write\writeOfphystricks{47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 50 $}}%
+\immediate\write\writeOfphystricks{totalheightof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 50 $}}%
+\immediate\write\writeOfphystricks{widthof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 60 $}}%
+\immediate\write\writeOfphystricks{totalheightof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 60 $}}%
+\immediate\write\writeOfphystricks{widthof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 70 $}}%
+\immediate\write\writeOfphystricks{totalheightofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 70 $}}%
+\immediate\write\writeOfphystricks{widthofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 80 $}}%
+\immediate\write\writeOfphystricks{totalheightof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 80 $}}%
+\immediate\write\writeOfphystricks{widthof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
+%WRITE_AND_LABEL
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -89,64 +81,64 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.10000000000000,-0.200000000000000) node { $ 10 $ };
-\draw [] (1.10000000000000,-0.100000000000000) -- (1.10000000000000,0.100000000000000);
-\draw (2.20000000000000,-0.200000000000000) node { $ 20 $ };
-\draw [] (2.20000000000000,-0.100000000000000) -- (2.20000000000000,0.100000000000000);
-\draw (3.30000000000000,-0.200000000000000) node { $ 30 $ };
-\draw [] (3.30000000000000,-0.100000000000000) -- (3.30000000000000,0.100000000000000);
-\draw (4.40000000000000,-0.200000000000000) node { $ 40 $ };
-\draw [] (4.40000000000000,-0.100000000000000) -- (4.40000000000000,0.100000000000000);
-\draw [,->,>=latex] (0.0,0) -- (4.90000000000000,0);
-\draw (-0.200000000000000,1.75000000000000) node { $ \frac{1}{20} $ };
-\draw [] (-0.100000000000000,1.75000000000000) -- (0.100000000000000,1.75000000000000);
-\draw (-0.200000000000000,3.50000000000000) node { $ \frac{1}{10} $ };
-\draw [] (-0.100000000000000,3.50000000000000) -- (0.100000000000000,3.50000000000000);
-\draw (-0.200000000000000,5.25000000000000) node { $ \frac{3}{20} $ };
-\draw [] (-0.100000000000000,5.25000000000000) -- (0.100000000000000,5.25000000000000);
-\draw [,->,>=latex] (0.0,0) -- (0.0,5.55275212246904);
+\draw (1.100000000,-0.2000000000) node { $ 10 $ };
+\draw [] (1.100000000,-0.1000000000) -- (1.100000000,0.1000000000);
+\draw (2.200000000,-0.2000000000) node { $ 20 $ };
+\draw [] (2.200000000,-0.1000000000) -- (2.200000000,0.1000000000);
+\draw (3.300000000,-0.2000000000) node { $ 30 $ };
+\draw [] (3.300000000,-0.1000000000) -- (3.300000000,0.1000000000);
+\draw (4.400000000,-0.2000000000) node { $ 40 $ };
+\draw [] (4.400000000,-0.1000000000) -- (4.400000000,0.1000000000);
+\draw [,->,>=latex] (0.0,0) -- (4.900000000,0);
+\draw (-0.2000000000,1.750000000) node { $ \frac{1}{20} $ };
+\draw [] (-0.1000000000,1.750000000) -- (0.1000000000,1.750000000);
+\draw (-0.2000000000,3.500000000) node { $ \frac{1}{10} $ };
+\draw [] (-0.1000000000,3.500000000) -- (0.1000000000,3.500000000);
+\draw (-0.2000000000,5.250000000) node { $ \frac{3}{20} $ };
+\draw [] (-0.1000000000,5.250000000) -- (0.1000000000,5.250000000);
+\draw [,->,>=latex] (0.0,0) -- (0.0,5.552752123);
 %DEFAULT
 \draw [color=blue] (0.0,0) -- (0.0,0);
-\draw [color=blue] (0.110000000000000,0) -- (0.110000000000000,0.00469307307543087);
-\draw [color=blue] (0.220000000000000,0) -- (0.220000000000000,0.0305049749903008);
-\draw [color=blue] (0.330000000000000,0) -- (0.330000000000000,0.128798783292381);
-\draw [color=blue] (0.440000000000000,0) -- (0.440000000000000,0.397129581818174);
-\draw [color=blue] (0.550000000000000,0) -- (0.550000000000000,0.953110996363612);
-\draw [color=blue] (0.660000000000000,0) -- (0.660000000000000,1.85327138181813);
-\draw [color=blue] (0.770000000000000,0) -- (0.770000000000000,3.00053461818172);
-\draw [color=blue] (0.880000000000000,0) -- (0.880000000000000,4.12573509999988);
-\draw [color=blue] (0.990000000000000,0) -- (0.990000000000000,4.88976011851844);
-\draw [color=blue] (1.10000000000000,0) -- (1.10000000000000,5.05275212246904);
-\draw [color=blue] (1.21000000000000,0) -- (1.21000000000000,4.59341102042644);
-\draw [color=blue] (1.32000000000000,0) -- (1.32000000000000,3.70024776645458);
-\draw [color=blue] (1.43000000000000,0) -- (1.43000000000000,2.65658814001869);
-\draw [color=blue] (1.54000000000000,0) -- (1.54000000000000,1.70780666144058);
-\draw [color=blue] (1.65000000000000,0) -- (1.65000000000000,0.986732737721231);
-\draw [color=blue] (1.76000000000000,0) -- (1.76000000000000,0.513923300896466);
-\draw [color=blue] (1.87000000000000,0) -- (1.87000000000000,0.241846259245399);
-\draw [color=blue] (1.98000000000000,0) -- (1.98000000000000,0.103008591900818);
-\draw [color=blue] (2.09000000000000,0) -- (2.09000000000000,0.0397577021371578);
-\draw [color=blue] (2.20000000000000,0) -- (2.20000000000000,0.0139151957480052);
-\draw [color=blue] (2.31000000000000,0) -- (2.31000000000000,0.00441752245968420);
-\draw [color=blue] (2.42000000000000,0) -- (2.42000000000000,0);
-\draw [color=blue] (2.53000000000000,0) -- (2.53000000000000,0);
-\draw [color=blue] (2.64000000000000,0) -- (2.64000000000000,0);
-\draw [color=blue] (2.75000000000000,0) -- (2.75000000000000,0);
-\draw [color=blue] (2.86000000000000,0) -- (2.86000000000000,0);
-\draw [color=blue] (2.97000000000000,0) -- (2.97000000000000,0);
-\draw [color=blue] (3.08000000000000,0) -- (3.08000000000000,0);
-\draw [color=blue] (3.19000000000000,0) -- (3.19000000000000,0);
-\draw [color=blue] (3.30000000000000,0) -- (3.30000000000000,0);
-\draw [color=blue] (3.41000000000000,0) -- (3.41000000000000,0);
-\draw [color=blue] (3.52000000000000,0) -- (3.52000000000000,0);
-\draw [color=blue] (3.63000000000000,0) -- (3.63000000000000,0);
-\draw [color=blue] (3.74000000000000,0) -- (3.74000000000000,0);
-\draw [color=blue] (3.85000000000000,0) -- (3.85000000000000,0);
-\draw [color=blue] (3.96000000000000,0) -- (3.96000000000000,0);
-\draw [color=blue] (4.07000000000000,0) -- (4.07000000000000,0);
-\draw [color=blue] (4.18000000000000,0) -- (4.18000000000000,0);
-\draw [color=blue] (4.29000000000000,0) -- (4.29000000000000,0);
-\draw [color=blue] (4.40000000000000,0) -- (4.40000000000000,0);
+\draw [color=blue] (0.1100000000,0) -- (0.1100000000,0.004693073075);
+\draw [color=blue] (0.2200000000,0) -- (0.2200000000,0.03050497499);
+\draw [color=blue] (0.3300000000,0) -- (0.3300000000,0.1287987833);
+\draw [color=blue] (0.4400000000,0) -- (0.4400000000,0.3971295818);
+\draw [color=blue] (0.5500000000,0) -- (0.5500000000,0.9531109964);
+\draw [color=blue] (0.6600000000,0) -- (0.6600000000,1.853271382);
+\draw [color=blue] (0.7700000000,0) -- (0.7700000000,3.000534618);
+\draw [color=blue] (0.8800000000,0) -- (0.8800000000,4.125735100);
+\draw [color=blue] (0.9900000000,0) -- (0.9900000000,4.889760119);
+\draw [color=blue] (1.100000000,0) -- (1.100000000,5.052752122);
+\draw [color=blue] (1.210000000,0) -- (1.210000000,4.593411020);
+\draw [color=blue] (1.320000000,0) -- (1.320000000,3.700247766);
+\draw [color=blue] (1.430000000,0) -- (1.430000000,2.656588140);
+\draw [color=blue] (1.540000000,0) -- (1.540000000,1.707806661);
+\draw [color=blue] (1.650000000,0) -- (1.650000000,0.9867327377);
+\draw [color=blue] (1.760000000,0) -- (1.760000000,0.5139233009);
+\draw [color=blue] (1.870000000,0) -- (1.870000000,0.2418462592);
+\draw [color=blue] (1.980000000,0) -- (1.980000000,0.1030085919);
+\draw [color=blue] (2.090000000,0) -- (2.090000000,0.03975770214);
+\draw [color=blue] (2.200000000,0) -- (2.200000000,0.01391519575);
+\draw [color=blue] (2.310000000,0) -- (2.310000000,0.004417522460);
+\draw [color=blue] (2.420000000,0) -- (2.420000000,0);
+\draw [color=blue] (2.530000000,0) -- (2.530000000,0);
+\draw [color=blue] (2.640000000,0) -- (2.640000000,0);
+\draw [color=blue] (2.750000000,0) -- (2.750000000,0);
+\draw [color=blue] (2.860000000,0) -- (2.860000000,0);
+\draw [color=blue] (2.970000000,0) -- (2.970000000,0);
+\draw [color=blue] (3.080000000,0) -- (3.080000000,0);
+\draw [color=blue] (3.190000000,0) -- (3.190000000,0);
+\draw [color=blue] (3.300000000,0) -- (3.300000000,0);
+\draw [color=blue] (3.410000000,0) -- (3.410000000,0);
+\draw [color=blue] (3.520000000,0) -- (3.520000000,0);
+\draw [color=blue] (3.630000000,0) -- (3.630000000,0);
+\draw [color=blue] (3.740000000,0) -- (3.740000000,0);
+\draw [color=blue] (3.850000000,0) -- (3.850000000,0);
+\draw [color=blue] (3.960000000,0) -- (3.960000000,0);
+\draw [color=blue] (4.070000000,0) -- (4.070000000,0);
+\draw [color=blue] (4.180000000,0) -- (4.180000000,0);
+\draw [color=blue] (4.290000000,0) -- (4.290000000,0);
+\draw [color=blue] (4.400000000,0) -- (4.400000000,0);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -169,110 +161,110 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.10000000000000,-0.200000000000000) node { $ 10 $ };
-\draw [] (1.10000000000000,-0.100000000000000) -- (1.10000000000000,0.100000000000000);
-\draw (2.20000000000000,-0.200000000000000) node { $ 20 $ };
-\draw [] (2.20000000000000,-0.100000000000000) -- (2.20000000000000,0.100000000000000);
-\draw (3.30000000000000,-0.200000000000000) node { $ 30 $ };
-\draw [] (3.30000000000000,-0.100000000000000) -- (3.30000000000000,0.100000000000000);
-\draw (4.40000000000000,-0.200000000000000) node { $ 40 $ };
-\draw [] (4.40000000000000,-0.100000000000000) -- (4.40000000000000,0.100000000000000);
-\draw (5.50000000000000,-0.200000000000000) node { $ 50 $ };
-\draw [] (5.50000000000000,-0.100000000000000) -- (5.50000000000000,0.100000000000000);
-\draw (6.60000000000000,-0.200000000000000) node { $ 60 $ };
-\draw [] (6.60000000000000,-0.100000000000000) -- (6.60000000000000,0.100000000000000);
-\draw (7.70000000000000,-0.200000000000000) node { $ 70 $ };
-\draw [] (7.70000000000000,-0.100000000000000) -- (7.70000000000000,0.100000000000000);
-\draw (8.80000000000000,-0.200000000000000) node { $ 80 $ };
-\draw [] (8.80000000000000,-0.100000000000000) -- (8.80000000000000,0.100000000000000);
-\draw [,->,>=latex] (0.0,0) -- (9.30000000000000,0);
-\draw (-0.200000000000000,1.75000000000000) node { $ \frac{1}{20} $ };
-\draw [] (-0.100000000000000,1.75000000000000) -- (0.100000000000000,1.75000000000000);
-\draw (-0.200000000000000,3.50000000000000) node { $ \frac{1}{10} $ };
-\draw [] (-0.100000000000000,3.50000000000000) -- (0.100000000000000,3.50000000000000);
-\draw [,->,>=latex] (0.0,0) -- (0.0,4.08899024183793);
+\draw (1.100000000,-0.2000000000) node { $ 10 $ };
+\draw [] (1.100000000,-0.1000000000) -- (1.100000000,0.1000000000);
+\draw (2.200000000,-0.2000000000) node { $ 20 $ };
+\draw [] (2.200000000,-0.1000000000) -- (2.200000000,0.1000000000);
+\draw (3.300000000,-0.2000000000) node { $ 30 $ };
+\draw [] (3.300000000,-0.1000000000) -- (3.300000000,0.1000000000);
+\draw (4.400000000,-0.2000000000) node { $ 40 $ };
+\draw [] (4.400000000,-0.1000000000) -- (4.400000000,0.1000000000);
+\draw (5.500000000,-0.2000000000) node { $ 50 $ };
+\draw [] (5.500000000,-0.1000000000) -- (5.500000000,0.1000000000);
+\draw (6.600000000,-0.2000000000) node { $ 60 $ };
+\draw [] (6.600000000,-0.1000000000) -- (6.600000000,0.1000000000);
+\draw (7.700000000,-0.2000000000) node { $ 70 $ };
+\draw [] (7.700000000,-0.1000000000) -- (7.700000000,0.1000000000);
+\draw (8.800000000,-0.2000000000) node { $ 80 $ };
+\draw [] (8.800000000,-0.1000000000) -- (8.800000000,0.1000000000);
+\draw [,->,>=latex] (0.0,0) -- (9.300000000,0);
+\draw (-0.2000000000,1.750000000) node { $ \frac{1}{20} $ };
+\draw [] (-0.1000000000,1.750000000) -- (0.1000000000,1.750000000);
+\draw (-0.2000000000,3.500000000) node { $ \frac{1}{10} $ };
+\draw [] (-0.1000000000,3.500000000) -- (0.1000000000,3.500000000);
+\draw [,->,>=latex] (0.0,0) -- (0.0,4.088990242);
 %DEFAULT
 \draw [color=blue] (0.0,0) -- (0.0,0);
-\draw [color=blue] (0.110000000000000,0) -- (0.110000000000000,0);
-\draw [color=blue] (0.220000000000000,0) -- (0.220000000000000,0);
-\draw [color=blue] (0.330000000000000,0) -- (0.330000000000000,0);
-\draw [color=blue] (0.440000000000000,0) -- (0.440000000000000,0);
-\draw [color=blue] (0.550000000000000,0) -- (0.550000000000000,0);
-\draw [color=blue] (0.660000000000000,0) -- (0.660000000000000,0);
-\draw [color=blue] (0.770000000000000,0) -- (0.770000000000000,0.00514160581115784);
-\draw [color=blue] (0.880000000000000,0) -- (0.880000000000000,0.0156390510089383);
-\draw [color=blue] (0.990000000000000,0) -- (0.990000000000000,0.0417041360238356);
-\draw [color=blue] (1.10000000000000,0) -- (1.10000000000000,0.0986997885897472);
-\draw [color=blue] (1.21000000000000,0) -- (1.21000000000000,0.209363187917647);
-\draw [color=blue] (1.32000000000000,0) -- (1.32000000000000,0.401279443508814);
-\draw [color=blue] (1.43000000000000,0) -- (1.43000000000000,0.699666722015356);
-\draw [color=blue] (1.54000000000000,0) -- (1.54000000000000,1.11613500892926);
-\draw [color=blue] (1.65000000000000,0) -- (1.65000000000000,1.63699801309627);
-\draw [color=blue] (1.76000000000000,0) -- (1.76000000000000,2.21676814273447);
-\draw [color=blue] (1.87000000000000,0) -- (1.87000000000000,2.78182668892171);
-\draw [color=blue] (1.98000000000000,0) -- (1.98000000000000,3.24546447040860);
-\draw [color=blue] (2.09000000000000,0) -- (2.09000000000000,3.53015433623405);
-\draw [color=blue] (2.20000000000000,0) -- (2.20000000000000,3.58899024183793);
-\draw [color=blue] (2.31000000000000,0) -- (2.31000000000000,3.41808594460749);
-\draw [color=blue] (2.42000000000000,0) -- (2.42000000000000,3.05556167775531);
-\draw [color=blue] (2.53000000000000,0) -- (2.53000000000000,2.56844314941738);
-\draw [color=blue] (2.64000000000000,0) -- (2.64000000000000,2.03335082662210);
-\draw [color=blue] (2.75000000000000,0) -- (2.75000000000000,1.51823528387785);
-\draw [color=blue] (2.86000000000000,0) -- (2.86000000000000,1.07055052068312);
-\draw [color=blue] (2.97000000000000,0) -- (2.97000000000000,0.713700347122078);
-\draw [color=blue] (3.08000000000000,0) -- (3.08000000000000,0.450310933303203);
-\draw [color=blue] (3.19000000000000,0) -- (3.19000000000000,0.269151362434108);
-\draw [color=blue] (3.30000000000000,0) -- (3.30000000000000,0.152519105379326);
-\draw [color=blue] (3.41000000000000,0) -- (3.41000000000000,0.0819995190211441);
-\draw [color=blue] (3.52000000000000,0) -- (3.52000000000000,0.0418539211670416);
-\draw [color=blue] (3.63000000000000,0) -- (3.63000000000000,0.0202928102628084);
-\draw [color=blue] (3.74000000000000,0) -- (3.74000000000000,0.00935060865050971);
-\draw [color=blue] (3.85000000000000,0) -- (3.85000000000000,0.00409645712308039);
-\draw [color=blue] (3.96000000000000,0) -- (3.96000000000000,0);
-\draw [color=blue] (4.07000000000000,0) -- (4.07000000000000,0);
-\draw [color=blue] (4.18000000000000,0) -- (4.18000000000000,0);
-\draw [color=blue] (4.29000000000000,0) -- (4.29000000000000,0);
-\draw [color=blue] (4.40000000000000,0) -- (4.40000000000000,0);
-\draw [color=blue] (4.51000000000000,0) -- (4.51000000000000,0);
-\draw [color=blue] (4.62000000000000,0) -- (4.62000000000000,0);
-\draw [color=blue] (4.73000000000000,0) -- (4.73000000000000,0);
-\draw [color=blue] (4.84000000000000,0) -- (4.84000000000000,0);
-\draw [color=blue] (4.95000000000000,0) -- (4.95000000000000,0);
-\draw [color=blue] (5.06000000000000,0) -- (5.06000000000000,0);
-\draw [color=blue] (5.17000000000000,0) -- (5.17000000000000,0);
-\draw [color=blue] (5.28000000000000,0) -- (5.28000000000000,0);
-\draw [color=blue] (5.39000000000000,0) -- (5.39000000000000,0);
-\draw [color=blue] (5.50000000000000,0) -- (5.50000000000000,0);
-\draw [color=blue] (5.61000000000000,0) -- (5.61000000000000,0);
-\draw [color=blue] (5.72000000000000,0) -- (5.72000000000000,0);
-\draw [color=blue] (5.83000000000000,0) -- (5.83000000000000,0);
-\draw [color=blue] (5.94000000000000,0) -- (5.94000000000000,0);
-\draw [color=blue] (6.05000000000000,0) -- (6.05000000000000,0);
-\draw [color=blue] (6.16000000000000,0) -- (6.16000000000000,0);
-\draw [color=blue] (6.27000000000000,0) -- (6.27000000000000,0);
-\draw [color=blue] (6.38000000000000,0) -- (6.38000000000000,0);
-\draw [color=blue] (6.49000000000000,0) -- (6.49000000000000,0);
-\draw [color=blue] (6.60000000000000,0) -- (6.60000000000000,0);
-\draw [color=blue] (6.71000000000000,0) -- (6.71000000000000,0);
-\draw [color=blue] (6.82000000000000,0) -- (6.82000000000000,0);
-\draw [color=blue] (6.93000000000000,0) -- (6.93000000000000,0);
-\draw [color=blue] (7.04000000000000,0) -- (7.04000000000000,0);
-\draw [color=blue] (7.15000000000000,0) -- (7.15000000000000,0);
-\draw [color=blue] (7.26000000000000,0) -- (7.26000000000000,0);
-\draw [color=blue] (7.37000000000000,0) -- (7.37000000000000,0);
-\draw [color=blue] (7.48000000000000,0) -- (7.48000000000000,0);
-\draw [color=blue] (7.59000000000000,0) -- (7.59000000000000,0);
-\draw [color=blue] (7.70000000000000,0) -- (7.70000000000000,0);
-\draw [color=blue] (7.81000000000000,0) -- (7.81000000000000,0);
-\draw [color=blue] (7.92000000000000,0) -- (7.92000000000000,0);
-\draw [color=blue] (8.03000000000000,0) -- (8.03000000000000,0);
-\draw [color=blue] (8.14000000000000,0) -- (8.14000000000000,0);
-\draw [color=blue] (8.25000000000000,0) -- (8.25000000000000,0);
-\draw [color=blue] (8.36000000000000,0) -- (8.36000000000000,0);
-\draw [color=blue] (8.47000000000000,0) -- (8.47000000000000,0);
-\draw [color=blue] (8.58000000000000,0) -- (8.58000000000000,0);
-\draw [color=blue] (8.69000000000000,0) -- (8.69000000000000,0);
-\draw [color=blue] (8.80000000000000,0) -- (8.80000000000000,0);
+\draw [color=blue] (0.1100000000,0) -- (0.1100000000,0);
+\draw [color=blue] (0.2200000000,0) -- (0.2200000000,0);
+\draw [color=blue] (0.3300000000,0) -- (0.3300000000,0);
+\draw [color=blue] (0.4400000000,0) -- (0.4400000000,0);
+\draw [color=blue] (0.5500000000,0) -- (0.5500000000,0);
+\draw [color=blue] (0.6600000000,0) -- (0.6600000000,0);
+\draw [color=blue] (0.7700000000,0) -- (0.7700000000,0.005141605811);
+\draw [color=blue] (0.8800000000,0) -- (0.8800000000,0.01563905101);
+\draw [color=blue] (0.9900000000,0) -- (0.9900000000,0.04170413602);
+\draw [color=blue] (1.100000000,0) -- (1.100000000,0.09869978859);
+\draw [color=blue] (1.210000000,0) -- (1.210000000,0.2093631879);
+\draw [color=blue] (1.320000000,0) -- (1.320000000,0.4012794435);
+\draw [color=blue] (1.430000000,0) -- (1.430000000,0.6996667220);
+\draw [color=blue] (1.540000000,0) -- (1.540000000,1.116135009);
+\draw [color=blue] (1.650000000,0) -- (1.650000000,1.636998013);
+\draw [color=blue] (1.760000000,0) -- (1.760000000,2.216768143);
+\draw [color=blue] (1.870000000,0) -- (1.870000000,2.781826689);
+\draw [color=blue] (1.980000000,0) -- (1.980000000,3.245464470);
+\draw [color=blue] (2.090000000,0) -- (2.090000000,3.530154336);
+\draw [color=blue] (2.200000000,0) -- (2.200000000,3.588990242);
+\draw [color=blue] (2.310000000,0) -- (2.310000000,3.418085945);
+\draw [color=blue] (2.420000000,0) -- (2.420000000,3.055561678);
+\draw [color=blue] (2.530000000,0) -- (2.530000000,2.568443149);
+\draw [color=blue] (2.640000000,0) -- (2.640000000,2.033350827);
+\draw [color=blue] (2.750000000,0) -- (2.750000000,1.518235284);
+\draw [color=blue] (2.860000000,0) -- (2.860000000,1.070550521);
+\draw [color=blue] (2.970000000,0) -- (2.970000000,0.7137003471);
+\draw [color=blue] (3.080000000,0) -- (3.080000000,0.4503109333);
+\draw [color=blue] (3.190000000,0) -- (3.190000000,0.2691513624);
+\draw [color=blue] (3.300000000,0) -- (3.300000000,0.1525191054);
+\draw [color=blue] (3.410000000,0) -- (3.410000000,0.08199951902);
+\draw [color=blue] (3.520000000,0) -- (3.520000000,0.04185392117);
+\draw [color=blue] (3.630000000,0) -- (3.630000000,0.02029281026);
+\draw [color=blue] (3.740000000,0) -- (3.740000000,0.009350608651);
+\draw [color=blue] (3.850000000,0) -- (3.850000000,0.004096457123);
+\draw [color=blue] (3.960000000,0) -- (3.960000000,0);
+\draw [color=blue] (4.070000000,0) -- (4.070000000,0);
+\draw [color=blue] (4.180000000,0) -- (4.180000000,0);
+\draw [color=blue] (4.290000000,0) -- (4.290000000,0);
+\draw [color=blue] (4.400000000,0) -- (4.400000000,0);
+\draw [color=blue] (4.510000000,0) -- (4.510000000,0);
+\draw [color=blue] (4.620000000,0) -- (4.620000000,0);
+\draw [color=blue] (4.730000000,0) -- (4.730000000,0);
+\draw [color=blue] (4.840000000,0) -- (4.840000000,0);
+\draw [color=blue] (4.950000000,0) -- (4.950000000,0);
+\draw [color=blue] (5.060000000,0) -- (5.060000000,0);
+\draw [color=blue] (5.170000000,0) -- (5.170000000,0);
+\draw [color=blue] (5.280000000,0) -- (5.280000000,0);
+\draw [color=blue] (5.390000000,0) -- (5.390000000,0);
+\draw [color=blue] (5.500000000,0) -- (5.500000000,0);
+\draw [color=blue] (5.610000000,0) -- (5.610000000,0);
+\draw [color=blue] (5.720000000,0) -- (5.720000000,0);
+\draw [color=blue] (5.830000000,0) -- (5.830000000,0);
+\draw [color=blue] (5.940000000,0) -- (5.940000000,0);
+\draw [color=blue] (6.050000000,0) -- (6.050000000,0);
+\draw [color=blue] (6.160000000,0) -- (6.160000000,0);
+\draw [color=blue] (6.270000000,0) -- (6.270000000,0);
+\draw [color=blue] (6.380000000,0) -- (6.380000000,0);
+\draw [color=blue] (6.490000000,0) -- (6.490000000,0);
+\draw [color=blue] (6.600000000,0) -- (6.600000000,0);
+\draw [color=blue] (6.710000000,0) -- (6.710000000,0);
+\draw [color=blue] (6.820000000,0) -- (6.820000000,0);
+\draw [color=blue] (6.930000000,0) -- (6.930000000,0);
+\draw [color=blue] (7.040000000,0) -- (7.040000000,0);
+\draw [color=blue] (7.150000000,0) -- (7.150000000,0);
+\draw [color=blue] (7.260000000,0) -- (7.260000000,0);
+\draw [color=blue] (7.370000000,0) -- (7.370000000,0);
+\draw [color=blue] (7.480000000,0) -- (7.480000000,0);
+\draw [color=blue] (7.590000000,0) -- (7.590000000,0);
+\draw [color=blue] (7.700000000,0) -- (7.700000000,0);
+\draw [color=blue] (7.810000000,0) -- (7.810000000,0);
+\draw [color=blue] (7.920000000,0) -- (7.920000000,0);
+\draw [color=blue] (8.030000000,0) -- (8.030000000,0);
+\draw [color=blue] (8.140000000,0) -- (8.140000000,0);
+\draw [color=blue] (8.250000000,0) -- (8.250000000,0);
+\draw [color=blue] (8.360000000,0) -- (8.360000000,0);
+\draw [color=blue] (8.470000000,0) -- (8.470000000,0);
+\draw [color=blue] (8.580000000,0) -- (8.580000000,0);
+\draw [color=blue] (8.690000000,0) -- (8.690000000,0);
+\draw [color=blue] (8.800000000,0) -- (8.800000000,0);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -295,64 +287,64 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.10000000000000,-0.200000000000000) node { $ 10 $ };
-\draw [] (1.10000000000000,-0.100000000000000) -- (1.10000000000000,0.100000000000000);
-\draw (2.20000000000000,-0.200000000000000) node { $ 20 $ };
-\draw [] (2.20000000000000,-0.100000000000000) -- (2.20000000000000,0.100000000000000);
-\draw (3.30000000000000,-0.200000000000000) node { $ 30 $ };
-\draw [] (3.30000000000000,-0.100000000000000) -- (3.30000000000000,0.100000000000000);
-\draw (4.40000000000000,-0.200000000000000) node { $ 40 $ };
-\draw [] (4.40000000000000,-0.100000000000000) -- (4.40000000000000,0.100000000000000);
-\draw [,->,>=latex] (0.0,0) -- (4.90000000000000,0);
-\draw (-0.200000000000000,1.75000000000000) node { $ \frac{1}{20} $ };
-\draw [] (-0.100000000000000,1.75000000000000) -- (0.100000000000000,1.75000000000000);
-\draw (-0.200000000000000,3.50000000000000) node { $ \frac{1}{10} $ };
-\draw [] (-0.100000000000000,3.50000000000000) -- (0.100000000000000,3.50000000000000);
-\draw (-0.200000000000000,5.25000000000000) node { $ \frac{3}{20} $ };
-\draw [] (-0.100000000000000,5.25000000000000) -- (0.100000000000000,5.25000000000000);
-\draw [,->,>=latex] (0.0,0) -- (0.0,6.59546779009974);
+\draw (1.100000000,-0.2000000000) node { $ 10 $ };
+\draw [] (1.100000000,-0.1000000000) -- (1.100000000,0.1000000000);
+\draw (2.200000000,-0.2000000000) node { $ 20 $ };
+\draw [] (2.200000000,-0.1000000000) -- (2.200000000,0.1000000000);
+\draw (3.300000000,-0.2000000000) node { $ 30 $ };
+\draw [] (3.300000000,-0.1000000000) -- (3.300000000,0.1000000000);
+\draw (4.400000000,-0.2000000000) node { $ 40 $ };
+\draw [] (4.400000000,-0.1000000000) -- (4.400000000,0.1000000000);
+\draw [,->,>=latex] (0.0,0) -- (4.900000000,0);
+\draw (-0.2000000000,1.750000000) node { $ \frac{1}{20} $ };
+\draw [] (-0.1000000000,1.750000000) -- (0.1000000000,1.750000000);
+\draw (-0.2000000000,3.500000000) node { $ \frac{1}{10} $ };
+\draw [] (-0.1000000000,3.500000000) -- (0.1000000000,3.500000000);
+\draw (-0.2000000000,5.250000000) node { $ \frac{3}{20} $ };
+\draw [] (-0.1000000000,5.250000000) -- (0.1000000000,5.250000000);
+\draw [,->,>=latex] (0.0,0) -- (0.0,6.595467790);
 %DEFAULT
 \draw [color=blue] (0.0,0) -- (0.0,0);
-\draw [color=blue] (0.110000000000000,0) -- (0.110000000000000,0);
-\draw [color=blue] (0.220000000000000,0) -- (0.220000000000000,0);
-\draw [color=blue] (0.330000000000000,0) -- (0.330000000000000,0);
-\draw [color=blue] (0.440000000000000,0) -- (0.440000000000000,0);
-\draw [color=blue] (0.550000000000000,0) -- (0.550000000000000,0);
-\draw [color=blue] (0.660000000000000,0) -- (0.660000000000000,0);
-\draw [color=blue] (0.770000000000000,0) -- (0.770000000000000,0);
-\draw [color=blue] (0.880000000000000,0) -- (0.880000000000000,0);
-\draw [color=blue] (0.990000000000000,0) -- (0.990000000000000,0);
-\draw [color=blue] (1.10000000000000,0) -- (1.10000000000000,0);
-\draw [color=blue] (1.21000000000000,0) -- (1.21000000000000,0);
-\draw [color=blue] (1.32000000000000,0) -- (1.32000000000000,0);
-\draw [color=blue] (1.43000000000000,0) -- (1.43000000000000,0);
-\draw [color=blue] (1.54000000000000,0) -- (1.54000000000000,0);
-\draw [color=blue] (1.65000000000000,0) -- (1.65000000000000,0);
-\draw [color=blue] (1.76000000000000,0) -- (1.76000000000000,0);
-\draw [color=blue] (1.87000000000000,0) -- (1.87000000000000,0);
-\draw [color=blue] (1.98000000000000,0) -- (1.98000000000000,0);
-\draw [color=blue] (2.09000000000000,0) -- (2.09000000000000,0);
-\draw [color=blue] (2.20000000000000,0) -- (2.20000000000000,0);
-\draw [color=blue] (2.31000000000000,0) -- (2.31000000000000,0);
-\draw [color=blue] (2.42000000000000,0) -- (2.42000000000000,0);
-\draw [color=blue] (2.53000000000000,0) -- (2.53000000000000,0);
-\draw [color=blue] (2.64000000000000,0) -- (2.64000000000000,0);
-\draw [color=blue] (2.75000000000000,0) -- (2.75000000000000,0.0106025383313760);
-\draw [color=blue] (2.86000000000000,0) -- (2.86000000000000,0.0346621445448831);
-\draw [color=blue] (2.97000000000000,0) -- (2.97000000000000,0.101846795082496);
-\draw [color=blue] (3.08000000000000,0) -- (3.08000000000000,0.267954068014661);
-\draw [color=blue] (3.19000000000000,0) -- (3.19000000000000,0.628306090517143);
-\draw [color=blue] (3.30000000000000,0) -- (3.30000000000000,1.30548043251895);
-\draw [color=blue] (3.41000000000000,0) -- (3.41000000000000,2.38636208094862);
-\draw [color=blue] (3.52000000000000,0) -- (3.52000000000000,3.80326456651180);
-\draw [color=blue] (3.63000000000000,0) -- (3.63000000000000,5.22468667722833);
-\draw [color=blue] (3.74000000000000,0) -- (3.74000000000000,6.09546779009974);
-\draw [color=blue] (3.85000000000000,0) -- (3.85000000000000,5.92131156752547);
-\draw [color=blue] (3.96000000000000,0) -- (3.96000000000000,4.66029151147839);
-\draw [color=blue] (4.07000000000000,0) -- (4.07000000000000,2.85495335838317);
-\draw [color=blue] (4.18000000000000,0) -- (4.18000000000000,1.27721597611879);
-\draw [color=blue] (4.29000000000000,0) -- (4.29000000000000,0.371156779384946);
-\draw [color=blue] (4.40000000000000,0) -- (4.40000000000000,0.0525805437462002);
+\draw [color=blue] (0.1100000000,0) -- (0.1100000000,0);
+\draw [color=blue] (0.2200000000,0) -- (0.2200000000,0);
+\draw [color=blue] (0.3300000000,0) -- (0.3300000000,0);
+\draw [color=blue] (0.4400000000,0) -- (0.4400000000,0);
+\draw [color=blue] (0.5500000000,0) -- (0.5500000000,0);
+\draw [color=blue] (0.6600000000,0) -- (0.6600000000,0);
+\draw [color=blue] (0.7700000000,0) -- (0.7700000000,0);
+\draw [color=blue] (0.8800000000,0) -- (0.8800000000,0);
+\draw [color=blue] (0.9900000000,0) -- (0.9900000000,0);
+\draw [color=blue] (1.100000000,0) -- (1.100000000,0);
+\draw [color=blue] (1.210000000,0) -- (1.210000000,0);
+\draw [color=blue] (1.320000000,0) -- (1.320000000,0);
+\draw [color=blue] (1.430000000,0) -- (1.430000000,0);
+\draw [color=blue] (1.540000000,0) -- (1.540000000,0);
+\draw [color=blue] (1.650000000,0) -- (1.650000000,0);
+\draw [color=blue] (1.760000000,0) -- (1.760000000,0);
+\draw [color=blue] (1.870000000,0) -- (1.870000000,0);
+\draw [color=blue] (1.980000000,0) -- (1.980000000,0);
+\draw [color=blue] (2.090000000,0) -- (2.090000000,0);
+\draw [color=blue] (2.200000000,0) -- (2.200000000,0);
+\draw [color=blue] (2.310000000,0) -- (2.310000000,0);
+\draw [color=blue] (2.420000000,0) -- (2.420000000,0);
+\draw [color=blue] (2.530000000,0) -- (2.530000000,0);
+\draw [color=blue] (2.640000000,0) -- (2.640000000,0);
+\draw [color=blue] (2.750000000,0) -- (2.750000000,0.01060253833);
+\draw [color=blue] (2.860000000,0) -- (2.860000000,0.03466214454);
+\draw [color=blue] (2.970000000,0) -- (2.970000000,0.1018467951);
+\draw [color=blue] (3.080000000,0) -- (3.080000000,0.2679540680);
+\draw [color=blue] (3.190000000,0) -- (3.190000000,0.6283060905);
+\draw [color=blue] (3.300000000,0) -- (3.300000000,1.305480433);
+\draw [color=blue] (3.410000000,0) -- (3.410000000,2.386362081);
+\draw [color=blue] (3.520000000,0) -- (3.520000000,3.803264566);
+\draw [color=blue] (3.630000000,0) -- (3.630000000,5.224686677);
+\draw [color=blue] (3.740000000,0) -- (3.740000000,6.095467790);
+\draw [color=blue] (3.850000000,0) -- (3.850000000,5.921311568);
+\draw [color=blue] (3.960000000,0) -- (3.960000000,4.660291512);
+\draw [color=blue] (4.070000000,0) -- (4.070000000,2.854953358);
+\draw [color=blue] (4.180000000,0) -- (4.180000000,1.277215976);
+\draw [color=blue] (4.290000000,0) -- (4.290000000,0.3711567794);
+\draw [color=blue] (4.400000000,0) -- (4.400000000,0.05258054375);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -375,110 +367,110 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.10000000000000,-0.200000000000000) node { $ 10 $ };
-\draw [] (1.10000000000000,-0.100000000000000) -- (1.10000000000000,0.100000000000000);
-\draw (2.20000000000000,-0.200000000000000) node { $ 20 $ };
-\draw [] (2.20000000000000,-0.100000000000000) -- (2.20000000000000,0.100000000000000);
-\draw (3.30000000000000,-0.200000000000000) node { $ 30 $ };
-\draw [] (3.30000000000000,-0.100000000000000) -- (3.30000000000000,0.100000000000000);
-\draw (4.40000000000000,-0.200000000000000) node { $ 40 $ };
-\draw [] (4.40000000000000,-0.100000000000000) -- (4.40000000000000,0.100000000000000);
-\draw (5.50000000000000,-0.200000000000000) node { $ 50 $ };
-\draw [] (5.50000000000000,-0.100000000000000) -- (5.50000000000000,0.100000000000000);
-\draw (6.60000000000000,-0.200000000000000) node { $ 60 $ };
-\draw [] (6.60000000000000,-0.100000000000000) -- (6.60000000000000,0.100000000000000);
-\draw (7.70000000000000,-0.200000000000000) node { $ 70 $ };
-\draw [] (7.70000000000000,-0.100000000000000) -- (7.70000000000000,0.100000000000000);
-\draw (8.80000000000000,-0.200000000000000) node { $ 80 $ };
-\draw [] (8.80000000000000,-0.100000000000000) -- (8.80000000000000,0.100000000000000);
-\draw [,->,>=latex] (0.0,0) -- (9.30000000000000,0);
-\draw (-0.200000000000000,1.75000000000000) node { $ \frac{1}{20} $ };
-\draw [] (-0.100000000000000,1.75000000000000) -- (0.100000000000000,1.75000000000000);
-\draw (-0.200000000000000,3.50000000000000) node { $ \frac{1}{10} $ };
-\draw [] (-0.100000000000000,3.50000000000000) -- (0.100000000000000,3.50000000000000);
-\draw [,->,>=latex] (0.0,0) -- (0.0,4.84093172352749);
+\draw (1.100000000,-0.2000000000) node { $ 10 $ };
+\draw [] (1.100000000,-0.1000000000) -- (1.100000000,0.1000000000);
+\draw (2.200000000,-0.2000000000) node { $ 20 $ };
+\draw [] (2.200000000,-0.1000000000) -- (2.200000000,0.1000000000);
+\draw (3.300000000,-0.2000000000) node { $ 30 $ };
+\draw [] (3.300000000,-0.1000000000) -- (3.300000000,0.1000000000);
+\draw (4.400000000,-0.2000000000) node { $ 40 $ };
+\draw [] (4.400000000,-0.1000000000) -- (4.400000000,0.1000000000);
+\draw (5.500000000,-0.2000000000) node { $ 50 $ };
+\draw [] (5.500000000,-0.1000000000) -- (5.500000000,0.1000000000);
+\draw (6.600000000,-0.2000000000) node { $ 60 $ };
+\draw [] (6.600000000,-0.1000000000) -- (6.600000000,0.1000000000);
+\draw (7.700000000,-0.2000000000) node { $ 70 $ };
+\draw [] (7.700000000,-0.1000000000) -- (7.700000000,0.1000000000);
+\draw (8.800000000,-0.2000000000) node { $ 80 $ };
+\draw [] (8.800000000,-0.1000000000) -- (8.800000000,0.1000000000);
+\draw [,->,>=latex] (0.0,0) -- (9.300000000,0);
+\draw (-0.2000000000,1.750000000) node { $ \frac{1}{20} $ };
+\draw [] (-0.1000000000,1.750000000) -- (0.1000000000,1.750000000);
+\draw (-0.2000000000,3.500000000) node { $ \frac{1}{10} $ };
+\draw [] (-0.1000000000,3.500000000) -- (0.1000000000,3.500000000);
+\draw [,->,>=latex] (0.0,0) -- (0.0,4.840931724);
 %DEFAULT
 \draw [color=blue] (0.0,0) -- (0.0,0);
-\draw [color=blue] (0.110000000000000,0) -- (0.110000000000000,0);
-\draw [color=blue] (0.220000000000000,0) -- (0.220000000000000,0);
-\draw [color=blue] (0.330000000000000,0) -- (0.330000000000000,0);
-\draw [color=blue] (0.440000000000000,0) -- (0.440000000000000,0);
-\draw [color=blue] (0.550000000000000,0) -- (0.550000000000000,0);
-\draw [color=blue] (0.660000000000000,0) -- (0.660000000000000,0);
-\draw [color=blue] (0.770000000000000,0) -- (0.770000000000000,0);
-\draw [color=blue] (0.880000000000000,0) -- (0.880000000000000,0);
-\draw [color=blue] (0.990000000000000,0) -- (0.990000000000000,0);
-\draw [color=blue] (1.10000000000000,0) -- (1.10000000000000,0);
-\draw [color=blue] (1.21000000000000,0) -- (1.21000000000000,0);
-\draw [color=blue] (1.32000000000000,0) -- (1.32000000000000,0);
-\draw [color=blue] (1.43000000000000,0) -- (1.43000000000000,0);
-\draw [color=blue] (1.54000000000000,0) -- (1.54000000000000,0);
-\draw [color=blue] (1.65000000000000,0) -- (1.65000000000000,0);
-\draw [color=blue] (1.76000000000000,0) -- (1.76000000000000,0);
-\draw [color=blue] (1.87000000000000,0) -- (1.87000000000000,0);
-\draw [color=blue] (1.98000000000000,0) -- (1.98000000000000,0);
-\draw [color=blue] (2.09000000000000,0) -- (2.09000000000000,0);
-\draw [color=blue] (2.20000000000000,0) -- (2.20000000000000,0);
-\draw [color=blue] (2.31000000000000,0) -- (2.31000000000000,0);
-\draw [color=blue] (2.42000000000000,0) -- (2.42000000000000,0);
-\draw [color=blue] (2.53000000000000,0) -- (2.53000000000000,0);
-\draw [color=blue] (2.64000000000000,0) -- (2.64000000000000,0);
-\draw [color=blue] (2.75000000000000,0) -- (2.75000000000000,0);
-\draw [color=blue] (2.86000000000000,0) -- (2.86000000000000,0);
-\draw [color=blue] (2.97000000000000,0) -- (2.97000000000000,0);
-\draw [color=blue] (3.08000000000000,0) -- (3.08000000000000,0);
-\draw [color=blue] (3.19000000000000,0) -- (3.19000000000000,0);
-\draw [color=blue] (3.30000000000000,0) -- (3.30000000000000,0);
-\draw [color=blue] (3.41000000000000,0) -- (3.41000000000000,0);
-\draw [color=blue] (3.52000000000000,0) -- (3.52000000000000,0);
-\draw [color=blue] (3.63000000000000,0) -- (3.63000000000000,0);
-\draw [color=blue] (3.74000000000000,0) -- (3.74000000000000,0);
-\draw [color=blue] (3.85000000000000,0) -- (3.85000000000000,0);
-\draw [color=blue] (3.96000000000000,0) -- (3.96000000000000,0);
-\draw [color=blue] (4.07000000000000,0) -- (4.07000000000000,0);
-\draw [color=blue] (4.18000000000000,0) -- (4.18000000000000,0);
-\draw [color=blue] (4.29000000000000,0) -- (4.29000000000000,0);
-\draw [color=blue] (4.40000000000000,0) -- (4.40000000000000,0);
-\draw [color=blue] (4.51000000000000,0) -- (4.51000000000000,0);
-\draw [color=blue] (4.62000000000000,0) -- (4.62000000000000,0);
-\draw [color=blue] (4.73000000000000,0) -- (4.73000000000000,0);
-\draw [color=blue] (4.84000000000000,0) -- (4.84000000000000,0);
-\draw [color=blue] (4.95000000000000,0) -- (4.95000000000000,0);
-\draw [color=blue] (5.06000000000000,0) -- (5.06000000000000,0);
-\draw [color=blue] (5.17000000000000,0) -- (5.17000000000000,0);
-\draw [color=blue] (5.28000000000000,0) -- (5.28000000000000,0);
-\draw [color=blue] (5.39000000000000,0) -- (5.39000000000000,0);
-\draw [color=blue] (5.50000000000000,0) -- (5.50000000000000,0);
-\draw [color=blue] (5.61000000000000,0) -- (5.61000000000000,0);
-\draw [color=blue] (5.72000000000000,0) -- (5.72000000000000,0);
-\draw [color=blue] (5.83000000000000,0) -- (5.83000000000000,0);
-\draw [color=blue] (5.94000000000000,0) -- (5.94000000000000,0);
-\draw [color=blue] (6.05000000000000,0) -- (6.05000000000000,0.00421494359852937);
-\draw [color=blue] (6.16000000000000,0) -- (6.16000000000000,0.0106628037462796);
-\draw [color=blue] (6.27000000000000,0) -- (6.27000000000000,0.0254410756051581);
-\draw [color=blue] (6.38000000000000,0) -- (6.38000000000000,0.0571693135725130);
-\draw [color=blue] (6.49000000000000,0) -- (6.49000000000000,0.120798436588244);
-\draw [color=blue] (6.60000000000000,0) -- (6.60000000000000,0.239583565900022);
-\draw [color=blue] (6.71000000000000,0) -- (6.71000000000000,0.445127936644848);
-\draw [color=blue] (6.82000000000000,0) -- (6.82000000000000,0.772990986754199);
-\draw [color=blue] (6.93000000000000,0) -- (6.93000000000000,1.25150921664968);
-\draw [color=blue] (7.04000000000000,0) -- (7.04000000000000,1.88378210214456);
-\draw [color=blue] (7.15000000000000,0) -- (7.15000000000000,2.62763452196579);
-\draw [color=blue] (7.26000000000000,0) -- (7.26000000000000,3.38407476313776);
-\draw [color=blue] (7.37000000000000,0) -- (7.37000000000000,4.00701389864068);
-\draw [color=blue] (7.48000000000000,0) -- (7.48000000000000,4.34093172352749);
-\draw [color=blue] (7.59000000000000,0) -- (7.59000000000000,4.27801966956342);
-\draw [color=blue] (7.70000000000000,0) -- (7.70000000000000,3.80947465813503);
-\draw [color=blue] (7.81000000000000,0) -- (7.81000000000000,3.04042578348796);
-\draw [color=blue] (7.92000000000000,0) -- (7.92000000000000,2.15363492997062);
-\draw [color=blue] (8.03000000000000,0) -- (8.03000000000000,1.33741712546122);
-\draw [color=blue] (8.14000000000000,0) -- (8.14000000000000,0.716903774458949);
-\draw [color=blue] (8.25000000000000,0) -- (8.25000000000000,0.324996377754713);
-\draw [color=blue] (8.36000000000000,0) -- (8.36000000000000,0.121160930303292);
-\draw [color=blue] (8.47000000000000,0) -- (8.47000000000000,0.0356664210416619);
-\draw [color=blue] (8.58000000000000,0) -- (8.58000000000000,0.00777345073984965);
-\draw [color=blue] (8.69000000000000,0) -- (8.69000000000000,0);
-\draw [color=blue] (8.80000000000000,0) -- (8.80000000000000,0);
+\draw [color=blue] (0.1100000000,0) -- (0.1100000000,0);
+\draw [color=blue] (0.2200000000,0) -- (0.2200000000,0);
+\draw [color=blue] (0.3300000000,0) -- (0.3300000000,0);
+\draw [color=blue] (0.4400000000,0) -- (0.4400000000,0);
+\draw [color=blue] (0.5500000000,0) -- (0.5500000000,0);
+\draw [color=blue] (0.6600000000,0) -- (0.6600000000,0);
+\draw [color=blue] (0.7700000000,0) -- (0.7700000000,0);
+\draw [color=blue] (0.8800000000,0) -- (0.8800000000,0);
+\draw [color=blue] (0.9900000000,0) -- (0.9900000000,0);
+\draw [color=blue] (1.100000000,0) -- (1.100000000,0);
+\draw [color=blue] (1.210000000,0) -- (1.210000000,0);
+\draw [color=blue] (1.320000000,0) -- (1.320000000,0);
+\draw [color=blue] (1.430000000,0) -- (1.430000000,0);
+\draw [color=blue] (1.540000000,0) -- (1.540000000,0);
+\draw [color=blue] (1.650000000,0) -- (1.650000000,0);
+\draw [color=blue] (1.760000000,0) -- (1.760000000,0);
+\draw [color=blue] (1.870000000,0) -- (1.870000000,0);
+\draw [color=blue] (1.980000000,0) -- (1.980000000,0);
+\draw [color=blue] (2.090000000,0) -- (2.090000000,0);
+\draw [color=blue] (2.200000000,0) -- (2.200000000,0);
+\draw [color=blue] (2.310000000,0) -- (2.310000000,0);
+\draw [color=blue] (2.420000000,0) -- (2.420000000,0);
+\draw [color=blue] (2.530000000,0) -- (2.530000000,0);
+\draw [color=blue] (2.640000000,0) -- (2.640000000,0);
+\draw [color=blue] (2.750000000,0) -- (2.750000000,0);
+\draw [color=blue] (2.860000000,0) -- (2.860000000,0);
+\draw [color=blue] (2.970000000,0) -- (2.970000000,0);
+\draw [color=blue] (3.080000000,0) -- (3.080000000,0);
+\draw [color=blue] (3.190000000,0) -- (3.190000000,0);
+\draw [color=blue] (3.300000000,0) -- (3.300000000,0);
+\draw [color=blue] (3.410000000,0) -- (3.410000000,0);
+\draw [color=blue] (3.520000000,0) -- (3.520000000,0);
+\draw [color=blue] (3.630000000,0) -- (3.630000000,0);
+\draw [color=blue] (3.740000000,0) -- (3.740000000,0);
+\draw [color=blue] (3.850000000,0) -- (3.850000000,0);
+\draw [color=blue] (3.960000000,0) -- (3.960000000,0);
+\draw [color=blue] (4.070000000,0) -- (4.070000000,0);
+\draw [color=blue] (4.180000000,0) -- (4.180000000,0);
+\draw [color=blue] (4.290000000,0) -- (4.290000000,0);
+\draw [color=blue] (4.400000000,0) -- (4.400000000,0);
+\draw [color=blue] (4.510000000,0) -- (4.510000000,0);
+\draw [color=blue] (4.620000000,0) -- (4.620000000,0);
+\draw [color=blue] (4.730000000,0) -- (4.730000000,0);
+\draw [color=blue] (4.840000000,0) -- (4.840000000,0);
+\draw [color=blue] (4.950000000,0) -- (4.950000000,0);
+\draw [color=blue] (5.060000000,0) -- (5.060000000,0);
+\draw [color=blue] (5.170000000,0) -- (5.170000000,0);
+\draw [color=blue] (5.280000000,0) -- (5.280000000,0);
+\draw [color=blue] (5.390000000,0) -- (5.390000000,0);
+\draw [color=blue] (5.500000000,0) -- (5.500000000,0);
+\draw [color=blue] (5.610000000,0) -- (5.610000000,0);
+\draw [color=blue] (5.720000000,0) -- (5.720000000,0);
+\draw [color=blue] (5.830000000,0) -- (5.830000000,0);
+\draw [color=blue] (5.940000000,0) -- (5.940000000,0);
+\draw [color=blue] (6.050000000,0) -- (6.050000000,0.004214943599);
+\draw [color=blue] (6.160000000,0) -- (6.160000000,0.01066280375);
+\draw [color=blue] (6.270000000,0) -- (6.270000000,0.02544107561);
+\draw [color=blue] (6.380000000,0) -- (6.380000000,0.05716931357);
+\draw [color=blue] (6.490000000,0) -- (6.490000000,0.1207984366);
+\draw [color=blue] (6.600000000,0) -- (6.600000000,0.2395835659);
+\draw [color=blue] (6.710000000,0) -- (6.710000000,0.4451279366);
+\draw [color=blue] (6.820000000,0) -- (6.820000000,0.7729909868);
+\draw [color=blue] (6.930000000,0) -- (6.930000000,1.251509217);
+\draw [color=blue] (7.040000000,0) -- (7.040000000,1.883782102);
+\draw [color=blue] (7.150000000,0) -- (7.150000000,2.627634522);
+\draw [color=blue] (7.260000000,0) -- (7.260000000,3.384074763);
+\draw [color=blue] (7.370000000,0) -- (7.370000000,4.007013899);
+\draw [color=blue] (7.480000000,0) -- (7.480000000,4.340931724);
+\draw [color=blue] (7.590000000,0) -- (7.590000000,4.278019670);
+\draw [color=blue] (7.700000000,0) -- (7.700000000,3.809474658);
+\draw [color=blue] (7.810000000,0) -- (7.810000000,3.040425783);
+\draw [color=blue] (7.920000000,0) -- (7.920000000,2.153634930);
+\draw [color=blue] (8.030000000,0) -- (8.030000000,1.337417125);
+\draw [color=blue] (8.140000000,0) -- (8.140000000,0.7169037745);
+\draw [color=blue] (8.250000000,0) -- (8.250000000,0.3249963778);
+\draw [color=blue] (8.360000000,0) -- (8.360000000,0.1211609303);
+\draw [color=blue] (8.470000000,0) -- (8.470000000,0.03566642104);
+\draw [color=blue] (8.580000000,0) -- (8.580000000,0.007773450740);
+\draw [color=blue] (8.690000000,0) -- (8.690000000,0);
+\draw [color=blue] (8.800000000,0) -- (8.800000000,0);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

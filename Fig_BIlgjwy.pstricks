@@ -6,18 +6,36 @@
 % and the projects phystricks and phystricks-doc at 
 % http://gitorious.org/~moky
 %SPECIFIC_NEEDS
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( P\)}}%
+%OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\immediate\openout\writeOfphystricks=FIGLabelFigBIlgjwyPICTBIlgjwy.phystricks.aux%
-\immediate\write\writeOfphystricks{252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( N\)}}%
-\immediate\write\writeOfphystricks{2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Muret}}%
-\immediate\write\writeOfphystricks{f1f5e45d927d30c155acd4fef903184238f3a799:\the\lengthOfDfiguressmathDpy-}
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\immediate\openout\writeOfphystricks=LabelFigBIlgjwy.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Muret}}%
+\immediate\write\writeOfphystricks{totalheightoff1f5e45d927d30c155acd4fef903184238f3a799:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{Muret}}%
+\immediate\write\writeOfphystricks{widthoff1f5e45d927d30c155acd4fef903184238f3a799:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( N\)}}%
+\immediate\write\writeOfphystricks{totalheightof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( N\)}}%
+\immediate\write\writeOfphystricks{widthof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}
+%WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
@@ -66,25 +84,25 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (3.50000000000000,0.0) -- (3.50000000000000,1.75000000000000);
-\draw [] (5.50000000000000,0.0) -- (5.50000000000000,2.50000000000000);
-\draw [] (-0.275000000000000,0.0) -- (5.77500000000000,0.0);
-\draw [] (3.50000000000000,0.0) -- (3.50000000000000,2.50000000000000);
-\draw [] (4.50000000000000,3.50000000000000) -- (3.20000000000000,2.20000000000000);
-\draw [] (4.50000000000000,3.50000000000000) -- (5.80000000000000,2.20000000000000);
+\draw [] (3.500000000,0.0) -- (3.500000000,1.750000000);
+\draw [] (5.500000000,0.0) -- (5.500000000,2.500000000);
+\draw [] (-0.2750000000,0.0) -- (5.775000000,0.0);
+\draw [] (3.500000000,0.0) -- (3.500000000,2.500000000);
+\draw [] (4.500000000,3.500000000) -- (3.200000000,2.200000000);
+\draw [] (4.500000000,3.500000000) -- (5.800000000,2.200000000);
 \draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
-\draw (0.136666666666667,-0.336666666666667) node {\( P\)};
-\draw []  (2.00000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (2.13666666666667,-0.336666666666667) node {\( A\)};
-\draw []  (3.50000000000000,0.0) node [rotate=0] {$\bullet$};
-\draw (3.63666666666667,-0.336666666666667) node {\( B\)};
-\draw []  (2.00000000000000,1.00000000000000) node [rotate=0] {$\bullet$};
-\draw (2.13666666666667,1.33666666666667) node {\( N\)};
-\draw []  (3.50000000000000,1.75000000000000) node [rotate=0] {$\bullet$};
-\draw (3.83666666666667,1.88666666666667) node {\( M\)};
-\draw [style=dashed] (0.0,0.0) -- (3.50000000000000,1.75000000000000);
-\draw [] (2.00000000000000,0.0) -- (2.00000000000000,1.00000000000000);
-\draw (2.23777466666667,0.637774666666667) node {Muret};
+\draw (0.0,-0.1000000000) node {\( P\)};
+\draw []  (2.000000000,0.0) node [rotate=0] {$\bullet$};
+\draw (2.000000000,-0.1000000000) node {\( A\)};
+\draw []  (3.500000000,0.0) node [rotate=0] {$\bullet$};
+\draw (3.500000000,-0.1000000000) node {\( B\)};
+\draw []  (2.000000000,1.000000000) node [rotate=0] {$\bullet$};
+\draw (2.000000000,1.100000000) node {\( N\)};
+\draw []  (3.500000000,1.750000000) node [rotate=0] {$\bullet$};
+\draw (3.600000000,1.750000000) node {\( M\)};
+\draw [style=dashed] (0.0,0.0) -- (3.500000000,1.750000000);
+\draw [] (2.000000000,0.0) -- (2.000000000,1.000000000);
+\draw (2.050000000,0.5000000000) node {Muret};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

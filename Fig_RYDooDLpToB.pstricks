@@ -8,17 +8,17 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigRYDooDLpToB.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 15\)}}%
-\immediate\write\writeOfphystricks{totalheightofe0e80a7d0fd9f05c092b628487a464c793a59323:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( 15\)}}%
-\immediate\write\writeOfphystricks{widthofe0e80a7d0fd9f05c092b628487a464c793a59323:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\(\ell\)}}%
-\immediate\write\writeOfphystricks{totalheightof5166ee32bd85db97ab009c412c65eb760980b870:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\(\ell\)}}%
-\immediate\write\writeOfphystricks{widthof5166ee32bd85db97ab009c412c65eb760980b870:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 15\)}}%
+\immediate\write\writeOfphystricks{totalheightofe0e80a7d0fd9f05c092b628487a464c793a59323:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( 15\)}}%
+\immediate\write\writeOfphystricks{widthofe0e80a7d0fd9f05c092b628487a464c793a59323:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\(\ell\)}}%
+\immediate\write\writeOfphystricks{totalheightof5166ee32bd85db97ab009c412c65eb760980b870:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\(\ell\)}}%
+\immediate\write\writeOfphystricks{widthof5166ee32bd85db97ab009c412c65eb760980b870:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -68,12 +68,12 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0,0) -- (9.00000000000000,0);
-\draw [] (9.00000000000000,0) -- (9.00000000000000,-3.00000000000000);
-\draw [] (9.00000000000000,-3.00000000000000) -- (0,-3.00000000000000);
-\draw [] (0,-3.00000000000000) -- (0,0);
-\draw (4.50000000000000,-3.46115800000000) node {\( 15\)};
-\draw (-0.370377166666667,-1.50000000000000) node {\(\ell\)};
+\draw [] (0,0) -- (9.000000000,0);
+\draw [] (9.000000000,0) -- (9.000000000,-3.000000000);
+\draw [] (9.000000000,-3.000000000) -- (0,-3.000000000);
+\draw [] (0,-3.000000000) -- (0,0);
+\draw (4.500000000,-3.861158000) node {\( 15\)};
+\draw (-0.7703771667,-1.500000000) node {\(\ell\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
