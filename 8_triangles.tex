@@ -13,25 +13,29 @@
 \subsection{Connaissant les trois longueurs}
 %---------------------------------------------------------------------------------------------------------------------------
 
-Nous voulons construire un triangle \(ABC\) dont les côtés sont de longueurs sont \( AB=\unit{3}{\centi\meter}\), \( BC=\unit{4}{\centi\meter}\) et \( AC=\unit{2}{\centi\meter}\).
+Nous voulons construire un triangle \(ABC\) dont les côtés sont de longueurs sont \( AB=\unit{6}{\centi\meter}\), \( BC=\unit{8}{\centi\meter}\) et \( AC=\unit{4}{\centi\meter}\).
 
 % Les dessins viennent de phystricksIPAooQliVZD.py
 
+\vspace{2cm}
+
+{\LARGE Doubler toutes les longueurs}
+
 \begin{enumerate}
     \item
-        Tracer un segment \( [AB]\) de longueur \unit{3}{\centi\meter}.
+        Tracer un segment \( [AB]\) de longueur \unit{6}{\centi\meter}.
 \begin{center}
    \input{Fig_HZPooATdojo.pstricks}
 \end{center}
     \item
-        Vu que le point \( C\) est à distance \unit{2}{\centi\meter} de \( A\), tracer un cercle de centre \( A\) et de rayon \unit{2}{\centi\meter}.
+        Vu que la distance entre \( C\) et \( A\) est de \unit{4}{\centi\meter}, tracer un cercle de centre \( A\) et de rayon \unit{4}{\centi\meter}.
     \item
-        Vu que le point \( C\) est à distance \unit{4}{\centi\meter} de \( B\), tracer un cercle de centre \( B\) et de rayon \unit{4}{\centi\meter}.
+        Vu que la distance entre  \( C\) et \( B\) est de \unit{8}{\centi\meter}, tracer un cercle de centre \( B\) et de rayon \unit{8}{\centi\meter}.
 \begin{center}
    \input{Fig_JUZooFbAOlx.pstricks}
 \end{center}
     \item
-        Les intersections des deux cercles est en même temps à distance \unit{2}{\centi\meter} de \( A\) et \unit{4}{\centi\meter} de \( B\); le point \( C\) peut y être placé. Dans le cas présenté ici, il y a deux possibilités :
+        Les points d'intersections des deux cercles sont en même temps à \unit{4}{\centi\meter} de \( A\) et \unit{8}{\centi\meter} de \( B\); le point \( C\) peut y être placé. Dans le cas présenté ici, il y a deux possibilités :
 
 \begin{center}
    \input{Fig_VJZooKxwzhE.pstricks}
@@ -42,16 +46,20 @@ Nous voulons construire un triangle \(ABC\) dont les côtés sont de longueurs s
 Combien d'intersections sont possibles ?
 \begin{enumerate}
     \item
-        Deux. Il y a alors deux possibilités pour construire le triangle.
-    \item
-        Une. Les côtés \( [AC]\) et \( [BC]\) sont «tout juste» suffisant pour aller de \( A\) à \( B\). C'est le cas d'égalité
+        Deux. Il y a alors deux possibilités pour construire le triangle. Dans ce cas,
         \begin{equation}
-            AB=AC+BC.
+            AB<AC+CB
         \end{equation}
-    \item 
-        Aucune. Les côtés \( [AC]\) et \( [BC]\) ne sont pas assez longs pour joindre \( A\) à \( B\). Cas d'inégalité
+    \item
+        Une. Les côtés \( [AC]\) et \( [CB]\) sont «tout juste» suffisant pour aller de \( A\) à \( B\). C'est le cas d'égalité
         \begin{equation}
-            AB>AC+BC.
+            AB=AC+CB.
+        \end{equation}
+        Les points \( A\), \( B\) et \( C\) sont alors alignés.
+    \item 
+        Aucune. Les côtés \( [AC]\) et \( [CB]\) ne sont pas assez longs pour joindre \( A\) à \( B\). Cas d'inégalité
+        \begin{equation}
+            AB>AC+CB.
         \end{equation}
 \end{enumerate}
 

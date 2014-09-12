@@ -10,12 +10,12 @@ def IPAooQliVZD():
     pspicts=[pspictA,pspictB,pspictC]
 
     for psp in pspicts :
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
+        psp.dilatation_X(0.5)
+        psp.dilatation_Y(0.5)
 
-    l1=3
-    l2=2
-    l3=4
+    l1=6
+    l2=4
+    l3=8
 
     A=Point(0,0)
     B=Point(l1,0)

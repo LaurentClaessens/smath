@@ -11,7 +11,7 @@ myRequest.ok_filenames_list=["e_smath"]
 myRequest.ok_filenames_list.append("3_relatifs4")
 myRequest.ok_filenames_list.append("6_exercices_feuilles_quatrieme")
 myRequest.ok_filenames_list.append("9_mental4")
-myRequest.ok_filenames_list.append("<++>")
+myRequest.ok_filenames_list.append("10_demonstration")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")

@@ -247,9 +247,11 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \renewcommand{\theCountExercice}{\arabic{CountExercice}}       % Ce compteur est défini dans SystemeCorr.sty
 \newcommand{\defe}[2]{\textbf{#1}\index{#2}}
 
-\renewcommand{\labelenumi}{\theenumi}
 \renewcommand{\theenumi}{(\alph{enumi})}
+\renewcommand{\theenumii}{(\alph{enumi}\arabic{enumii})}
 
+\renewcommand{\labelenumi}{\theenumi}
+\renewcommand{\labelenumii}{\theenumii}
 
 \newcommand{\justification}{ {\small \begin{center} Les réponses doivent être justifiées par un calcul et accompagnées d'un raisonnement.\end{center}}}
 
