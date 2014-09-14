@@ -19,8 +19,8 @@ def DesSectionseVPNeL():
     surface1.make_edges_independent()
     surface1.parameters.filled()
     surface1.parameters.fill.color="lightgray"
-    surface1.edges_list[2].parameters.style="dashed"
-    surface1.edges_list[3].parameters.style="dashed"
+    surface1.edges[2].parameters.style="dashed"
+    surface1.edges[3].parameters.style="dashed"
 
 
     surface2=Polygon(rectangle.c1[0],rectangle.c2[1],rectangle.c2[0])
