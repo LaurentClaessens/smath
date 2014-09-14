@@ -9,7 +9,7 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigTBYooGTZFxt.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigSQRooAWmMQL.phystricks.aux%
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -53,7 +53,7 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigTBYooGTZFxtPICTTBYooGTZFxt}
+\tikzsetnextfilename{tikzFIGLabelFigSQRooAWmMQLPICTSQRooAWmMQL}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
@@ -61,13 +61,9 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw [] (0,0) -- (1.000000000,0);
-\draw [] (1.000000000,0) -- (1.000000000,1.000000000);
-\draw [] (1.000000000,1.000000000) -- (0,1.000000000);
+\draw [] (1.000000000,0) -- (0.8000000000,1.000000000);
+\draw [] (0.8000000000,1.000000000) -- (0,1.000000000);
 \draw [] (0,1.000000000) -- (0,0);
-\draw [] (0.8000000000,0.2000000000) -- (0.8000000000,0);
-\draw [] (0.8000000000,0.2000000000) -- (1.000000000,0.2000000000);
-\draw [] (0.8000000000,0.8000000000) -- (1.000000000,0.8000000000);
-\draw [] (0.8000000000,0.8000000000) -- (0.8000000000,1.000000000);
 \draw [] (0.2000000000,0.8000000000) -- (0.2000000000,1.000000000);
 \draw [] (0.2000000000,0.8000000000) -- (0,0.8000000000);
 \draw [] (0.2000000000,0.2000000000) -- (0,0.2000000000);
