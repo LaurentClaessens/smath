@@ -12,6 +12,7 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksLXQooZPbZml import LXQooZPbZml
 from phystricksNOPooYlqjzW import NOPooYlqjzW   # Plusieurs dessins
 from phystricksTJDooMNBjjK import TJDooMNBjjK
 from phystricksOTGooGcktOd import OTGooGcktOd
@@ -175,6 +176,7 @@ from phystricksPositionRelativexpwkEJ import PositionRelativexpwkEJ
 from phystricksExoTrigTrIpPW import ExoTrigTrIpPW
 from phystricksExoVectoFRPXxB import ExoVectoFRPXxB
 
+# Ces imports étaient déjà commentés en septembre 2014
 #from phystricksTracerUn import TracerUn
 #from phystricksGrapheunsurunmoinsx import Grapheunsurunmoinsx
 #from phystricksExerciceGraphes import ExerciceGraphes
@@ -189,10 +191,10 @@ from phystricksExoVectoFRPXxB import ExoVectoFRPXxB
 #from phystricksSolsEqDiffSin import SolsEqDiffSin
 #from phystricksSolsSinpA import SolsSinpA
 #from phystricksTrajs import Trajs
+#from phystricksNotesSVT import NotesSVT
 
 from phystricksEvZZys import EvZZys
 from phystricksBpCNVm import BpCNVm
-#from phystricksNotesSVT import NotesSVT
 from phystricksHistoAutomobile import HistoAutomobile
 from phystricksHistoTdkccB import HistoTdkccB
 from phystricksHistoPySeT import HistoPySeT
