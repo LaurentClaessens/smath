@@ -11,6 +11,6 @@ myRequest.ok_filenames_list=["e_smath"]
 myRequest.ok_filenames_list.append("2_mental5")
 myRequest.ok_filenames_list.append("8_triangles")
 myRequest.ok_filenames_list.append("13_fract")
-myRequest.ok_filenames_list.append("<++>")
+myRequest.ok_filenames_list.append("14_deduction")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
