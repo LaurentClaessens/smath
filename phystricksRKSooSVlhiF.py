@@ -27,11 +27,15 @@ def RKSooSVlhiF():
     cer2.parameters.filled()
     cer2.parameters.fill.color="white"
 
-    I.put_mark(0.2,-90,"\( I\)",automatic_place=(pspict,"N"))
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=(pspict,"N"))
+    I.put_mark(0.2,-45,"\( I\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
     B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
 
-    pspict.DrawGraphs(grand_cercle,cer1,cer2,A,B,I)
+
+    measureAI=MeasureLength(  Segment(A,I) ,0.3  )
+    measureAI.put_mark(0.3,-90,"\( x\)",automatic_place=(pspict,"N"))
+
+    pspict.DrawGraphs(grand_cercle,cer1,cer2,A,B,I,measureAI)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
