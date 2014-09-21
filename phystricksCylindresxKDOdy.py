@@ -41,11 +41,11 @@ def CylindresxKDOdy():
     surfV.parameters.color="brown"
 
     measureH=MeasureLength(cube.segc1[2],-0.2)
-    measureH.put_mark(0.2,measureH.advised_mark_angle,"\unit{5}{\centi\meter}",automatic_place=pspicts[1])
+    measureH.put_mark(0.2,measureH.advised_mark_angle,"\SI{5}{\centi\meter}",automatic_place=pspicts[0])
     measureP=MeasureLength(cube.segP[2],0.2)
-    measureP.put_mark(0.2,measureP.advised_mark_angle,"\unit{5}{\centi\meter}",automatic_place=pspicts[1])
+    measureP.put_mark(0.2,measureP.advised_mark_angle,"\SI{5}{\centi\meter}",automatic_place=pspicts[0])
     measureV=MeasureLength(cube.segc1[3],-0.2)
-    measureV.put_mark(0.2,measureH.advised_mark_angle,"\unit{3}{\centi\meter}",automatic_place=(pspicts[1],"E"))
+    measureV.put_mark(0.2,measureH.advised_mark_angle,"\SI{3}{\centi\meter}",automatic_place=(pspicts[1],"E"))
 
     S=perspective.point(c/2,0,c/2)
     Iph=min(  Ch.graph(-pi/4,pi/4).curve2d.points_list,key=lambda P: P.y/abs(P.x-S.x)   )
@@ -63,8 +63,6 @@ def CylindresxKDOdy():
     d2.parameters.style="dotted"
     d2.parameters.color="red"
 
-    for psp in pspicts:
-        psp.specific_needs="\usepackage{SIunits}"
     pspicts[0].DrawGraphs(measureH,measureP,measureV,surfV,surfb,surfh,Ch,Cb1,Cb2,cube)
     pspicts[1].DrawGraphs(diag2,surfh,surf_cone,diag1,Ch,cube,diag2)
 
