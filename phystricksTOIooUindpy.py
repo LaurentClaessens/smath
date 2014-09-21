@@ -2,8 +2,8 @@
 from phystricks import *
 def TOIooUindpy():
     pspict,fig = SinglePicture("TOIooUindpy")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_X(0.6)
+    pspict.dilatation_Y(0.6)
 
     l=4
     x=1
