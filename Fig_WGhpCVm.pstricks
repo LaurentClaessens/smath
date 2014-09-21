@@ -8,9 +8,13 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigWGhpCVm.phystricks.aux%
 %WRITE_AND_LABEL
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{}}%
+\immediate\write\writeOfphystricks{totalheightofda39a3ee5e6b4b0d3255bfef95601890afd80709:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{}}%
+\immediate\write\writeOfphystricks{widthofda39a3ee5e6b4b0d3255bfef95601890afd80709:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
