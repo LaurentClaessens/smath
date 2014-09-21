@@ -4,7 +4,7 @@ from __future__ import division
 from phystricks import *
 
 c=0.3
-def small_box(X,Y,text=""):
+def small_box(X,Y,text="",pspict):
     x=c*X
     y=c*Y
     A=Point(x-c/2,y-c/2)
@@ -12,7 +12,7 @@ def small_box(X,Y,text=""):
     C=Point(x+c/2,y+c/2)
     D=Point(x-c/2,y+c/2)
     P=Point(x,y)
-    P.put_mark(0.0,0,text)
+    P.put_mark(0.0,0,text,automatic_place=pspict)
     P.parameters.symbol="none"
     return [P,Polygon(A,B,C,D)]
 
@@ -22,16 +22,16 @@ def WGhpCVm():
     pspict.dilatation_Y(1)
 
     Q=[]
-    Q.append(small_box(1,1))
-    Q.append(small_box(2,1))
-    Q.append(small_box(3,1))
-    Q.append(small_box(4,1))
-    Q.append(small_box(1,2))
-    Q.append(small_box(2,2))
-    Q.append(small_box(3,2))
-    Q.append(small_box(1,3))
-    Q.append(small_box(2,3))
-    Q.append(small_box(1,4))
+    Q.append(small_box(1,1),pspict)
+    Q.append(small_box(2,1),pspict)
+    Q.append(small_box(3,1),pspict)
+    Q.append(small_box(4,1),pspict)
+    Q.append(small_box(1,2),pspict)
+    Q.append(small_box(2,2),pspict)
+    Q.append(small_box(3,2),pspict)
+    Q.append(small_box(1,3),pspict)
+    Q.append(small_box(2,3),pspict)
+    Q.append(small_box(1,4),pspict)
 
     pspict.DrawGraphs(  [q[1] for q in Q]  )
     fig.no_figure()

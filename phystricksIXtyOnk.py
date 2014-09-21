@@ -15,7 +15,7 @@ def IXtyOnk():
     A=Point(zz[0],0)
     B=Point(zz[1],0)
     measure=MeasureLength(  Segment(A,B),0  )
-    measure.put_mark(0.2,-90,"\( l\)")
+    measure.put_mark(0.2,-90,"\( l\)",automatic_place=pspict)
 
     angle=Angle( A,B,v.F  ,r=0.01  )
     angle.parameters.color="green"
