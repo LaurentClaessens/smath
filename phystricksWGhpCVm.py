@@ -4,7 +4,7 @@ from __future__ import division
 from phystricks import *
 
 c=0.3
-def small_box(X,Y,text="",pspict):
+def small_box(X,Y,pspict,text=""):
     x=c*X
     y=c*Y
     A=Point(x-c/2,y-c/2)
