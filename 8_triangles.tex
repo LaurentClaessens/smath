@@ -6,12 +6,8 @@
 \input{activ_triangle}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Constructions de triangles}
+\section{Construction connaissant les trois longueurs}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Connaissant les trois longueurs}
-%---------------------------------------------------------------------------------------------------------------------------
 
 Nous voulons construire un triangle \(ABC\) dont les côtés sont de longueurs sont \( AB=\SI{6}{\centi\meter}\), \( BC=\SI{8}{\centi\meter}\) et \( AC=\SI{4}{\centi\meter}\).
 
@@ -39,26 +35,6 @@ Nous voulons construire un triangle \(ABC\) dont les côtés sont de longueurs s
    \input{Fig_VJZooKxwzhE.pstricks}
 \end{center}
 
-\end{enumerate}
-
-Combien d'intersections sont possibles ?
-\begin{enumerate}
-    \item
-        Deux. Il y a alors deux possibilités pour construire le triangle. Dans ce cas,
-        \begin{equation}
-            AB<AC+CB
-        \end{equation}
-    \item
-        Une. Les côtés \( [AC]\) et \( [CB]\) sont «tout juste» suffisant pour aller de \( A\) à \( B\). C'est le cas d'égalité
-        \begin{equation}
-            AB=AC+CB.
-        \end{equation}
-        Les points \( A\), \( B\) et \( C\) sont alors alignés.
-    \item 
-        Aucune. Les côtés \( [AC]\) et \( [CB]\) ne sont pas assez longs pour joindre \( A\) à \( B\). Cas d'inégalité
-        \begin{equation}
-            AB>AC+CB.
-        \end{equation}
 \end{enumerate}
 
 \begin{Aretenir}
@@ -92,13 +68,32 @@ En pratique faut seulement vérifier que le plus long côté est plus petit que 
     Essayer de créer un triangle avec une règle de \SI{40}{\centi\meter} et deux stylos.
 \end{example}
 
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Connaissant une longueur et deux angles adjacents}
-%---------------------------------------------------------------------------------------------------------------------------
+Combien d'intersections sont possibles ?
+\begin{enumerate}
+    \item
+        Deux. Il y a alors deux possibilités pour construire le triangle. Dans ce cas,
+        \begin{equation}
+            AB<AC+CB
+        \end{equation}
+    \item
+        Une. Les côtés \( [AC]\) et \( [CB]\) sont «tout juste» suffisant pour aller de \( A\) à \( B\). C'est le cas d'égalité
+        \begin{equation}
+            AB=AC+CB.
+        \end{equation}
+        Les points \( A\), \( B\) et \( C\) sont alors alignés.
+    \item 
+        Aucune. Les côtés \( [AC]\) et \( [CB]\) ne sont pas assez longs pour joindre \( A\) à \( B\). Cas d'inégalité
+        \begin{equation}
+            AB>AC+CB.
+        \end{equation}
+\end{enumerate}
 
-\input{activ_astro}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Connaissant une longueur et deux angles adjacents}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\vspace{2cm}
+\large{Il faut trouver une autre activié}
+
 
 Comment tracer un triangle \( ABC\) sachant que \( AB=\SI{10}{\centi\meter}\), \( \widehat{CAB}=\SI{40}{\degree}\) et \( \widehat{CBA}=\SI{75}{\degree}\) ?
 
@@ -129,10 +124,9 @@ Comment tracer un triangle \( ABC\) sachant que \( AB=\SI{10}{\centi\meter}\), \
 
 \end{enumerate}
 
-
-%--------------------------------------------------------------------------------------------------------------------------- 
-\subsection{Connaissant deux côtés et l'angle qu'ils forment}
-%---------------------------------------------------------------------------------------------------------------------------
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Connaissant deux côtés et l'angle qu'ils forment}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Nous devons construire un triangle \( ABC\) dont nous savons que
 \begin{enumerate}
@@ -172,7 +166,7 @@ Voici les données :
 \end{center}
 
 
-Première étape : choisir des points \( B\) et \( C\) sur \( d_1\) et \( d_2\) de telle sorte que \( ABC\) soit isocèle (au compas).
+Première étape : choisir des points \( B\) et \( C\) sur les côtés de l'angle.
 
 \begin{center}
    \input{Fig_VAAooKPNvIs.pstricks}

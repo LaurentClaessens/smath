@@ -42,7 +42,7 @@ def IIHooSeavps():
     secteurs.append(Secteur(cercle,0,360/3))
     leslignes.append(  lignes(3)  )
 
-    secteurs.append(Secteur(cercle,0,4*360/5))
+    secteurs.append(Secteur(cercle,0,3*360/5))
     leslignes.append(  lignes(5)  )
 
     secteurs.append(Secteur(cercle,0,3*360/4))
