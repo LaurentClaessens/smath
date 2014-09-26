@@ -12,7 +12,6 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
-from phystricksITOooVTLtdG import ITOooVTLtdG
 from phystricksPATooDkWFPD import PATooDkWFPD
 from phystricksSAZooPjiyOV import SAZooPjiyOV
 from phystricksIIHooSeavps import IIHooSeavps
