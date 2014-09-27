@@ -6,28 +6,21 @@ def JTQooDUZpht():
     pspict.dilatation_Y(1)
 
     x=var('x')
-    <+Définition des objets+>
+    A=Point(0,0)
+    B=Point(3,1)
+    s1=Segment(A,B)
+    s2=s1.orthogonal().rotation(180*degree).fix_size(1)
 
-    pspict.DrawGraphs(<++>)
-    pspict.DrawDefaultAxes()
-    fig.conclude()
-    fig.write_the_file()
+    triangle=Polygon(  s1.I,s1.F,s2.F  )    
 
-----------------
+    C=s2.F
+    A.put_mark(0.2,180  ,"\( A\)",automatic_place=(pspict,"E"))
+    B.put_mark(0.2,-30,"\( B\)",automatic_place=(pspict,"corner"))
+    C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
 
-    pspicts,fig = MultiplePictures("JTQooDUZpht",3)
-    pspicts[0].mother.caption="<+caption1+>"
-    pspicts[1].mother.caption="<+caption2+>"
-    pspicts[2].mother.caption="<+caption3+>"
+    rh=RightAngle(s1,s2,0.4,1,1)
 
-    for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
-
-    <+Définition des objets+>
-
-    for psp in pspicts:
-        psp.DrawDefaultAxes()
-
+    pspict.DrawGraphs(triangle,A,B,C,rh)
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
