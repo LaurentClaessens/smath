@@ -12,6 +12,7 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksJTQooDUZpht import JTQooDUZpht
 from phystricksPATooDkWFPD import PATooDkWFPD
 from phystricksSAZooPjiyOV import SAZooPjiyOV
 from phystricksIIHooSeavps import IIHooSeavps
@@ -597,7 +598,9 @@ figures_list.append(EISooBQSffk)
 figures_list.append(IIHooSeavps)
 figures_list.append(SAZooPjiyOV)
 figures_list.append(PATooDkWFPD)
+figures_list.append(JTQooDUZpht)
 """
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
