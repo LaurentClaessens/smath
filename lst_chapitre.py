@@ -4,8 +4,6 @@
 import LaTeXparser
 import LaTeXparser.PytexTools
 
-chapter_title="Opérations sur les écritures fractionnaires"
-
 myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename="automatedChapter.tex"
 
@@ -29,12 +27,17 @@ def exercice_lines(filename):
     sublist=el[i_line:f_line]
     return "".join(sublist)
     
+chapter_title="Opérations sur les écritures fractionnaires"
+chapter_title="Égalité de Pythagore"
+
+#exos=exercice_lines("5Bexercices.tex")
+exos=exercice_lines("4Aexercices.tex")
 
 iline=smath_input_line()
-exos=exercice_lines("5Bexercices.tex")
 
 generic_lines="".join(open("genericChapter.tex").readlines())
 text=generic_lines.replace("TITRE_CHAPITRE",chapter_title).replace("LES_INPUT",iline).replace("LISTE_EXERCICES",exos)
+
 
 f=open("automatedChapter.tex",'w')
 f.write(text)
