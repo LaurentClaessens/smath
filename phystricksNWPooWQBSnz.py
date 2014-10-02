@@ -27,8 +27,9 @@ def NWPooWQBSnz():
     hauteur=Segment(A,H)
     hauteur.parameters.style="dashed"
 
-    pspict.DrawGraphs(triangle,A,B,C,H,hauteur,C1,C2)
+    rh=RightAngle(hauteur,Segment(B,C),0.3,1,0)
+
+    pspict.DrawGraphs(triangle,A,B,C,H,hauteur,C1,C2,rh)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

@@ -12,11 +12,11 @@ class OneChapter(object):
     def __init__(self,chapter_title,exercice_filename):
         self.chapter_title=chapter_title
         self.exercice_filename=exercice_filename
-        self.input_filename=self.smath_input_line.replace("\input{","").replace("}","")
+        self.input_filename=self.smath_input_line().replace("\input{","").replace("}","").replace("\n","")
     def smath_input_line(self):
         smath_lines=open("smath.tex").readlines()
         for i,l in enumerate(smath_lines):
-            if chapter_title in l:
+            if self.chapter_title in l:
                 line=i
         return smath_lines[line+1]
     def exercice_lines(self,filename):
@@ -32,7 +32,7 @@ class OneChapter(object):
         return "".join(sublist)
     def write_the_file(self,filename="automatedChapter.tex"):
         generic_lines="".join(open("genericChapter.tex").readlines())
-        text=generic_lines.replace("TITRE_CHAPITRE",chapter_title).replace("LES_INPUT",self.smath_input_line()).replace("LISTE_EXERCICES",exos)
+        text=generic_lines.replace("TITRE_CHAPITRE",self.chapter_title).replace("LES_INPUT",self.smath_input_line()).replace("LISTE_EXERCICES",self.exercice_lines(self.exercice_filename))
         f=open(filename,'w')
         f.write(text)
         f.close()
@@ -45,6 +45,7 @@ class OneChapter(object):
 fract=OneChapter("Opérations sur les écritures fractionnaires","5Bexercices.tex")
 pythagore=OneChapter("Égalité de Pythagore","4Aexercices.tex")
 
-pythagore.write_the_file()
+jeveux=pythagore
 
-myRequest.ok_filenames_list=pythagore.ok_filenames_list()
+jeveux.write_the_file()
+myRequest.ok_filenames_list=jeveux.ok_filenames_list()
