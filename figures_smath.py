@@ -12,6 +12,7 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksPSZooRphUET import PSZooRphUET
 from phystricksLRWooCalQsT import LRWooCalQsT
 from phystricksNWPooWQBSnz import NWPooWQBSnz
 from phystricksNARooFiHuAy import NARooFiHuAy
