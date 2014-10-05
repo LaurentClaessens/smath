@@ -6,6 +6,7 @@ Pour tester ce fichier :
     rm *.pdf
     rm *.aux
     rm *.pstricks
+    cp png_to_pdf/*.pdf .
     et vérifier que externalize de tikz n'est pas mis pour le test.
 """
 
@@ -606,7 +607,17 @@ figures_list.append(JTQooDUZpht)
 figures_list.append(NARooFiHuAy)
 figures_list.append(NWPooWQBSnz)
 figures_list.append(LRWooCalQsT)
+figures_list.append(HHOooQUedri)
+figures_list.append(CBLooYAMumJ)
+figures_list.append(LXQooZPbZml)
+figures_list.append(MFWooBwnCkX)
+figures_list.append(CNTooDFQFEQ)
+figures_list.append(OTGooGcktOd)
+figures_list.append(PSZooRphUET)
 """
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
