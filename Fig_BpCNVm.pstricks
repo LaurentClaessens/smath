@@ -75,6 +75,7 @@
 \draw [] (-0.1000000000,2.000000000) -- (0.1000000000,2.000000000);
 \draw [,->,>=latex] (0,-0.6000000000) -- (0,2.600000000);
 %DEFAULT
+
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
          hatchthickness/.code={\setlength{\hatchthickness}{#1}}}
@@ -87,7 +88,7 @@
 \draw [color=blue] (5.000000000,2.000000000) -- (0,2.000000000);
 \draw [color=blue] (0,2.000000000) -- (0,0);
 \draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (3.000000000,-0.2000000000) node {$x$};
+\draw (3.000000000,-0.3033333333) node {$x$};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

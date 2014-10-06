@@ -73,13 +73,13 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw [,->,>=latex] (0.0,0.0) -- (0.0,4.500000000);
-\draw (-0.06000000000,4.500000000) node {\unit{15}{\kilo\meter\per\hour}};
+\draw (-1.185042833,4.692047833) node {\unit{15}{\kilo\meter\per\hour}};
 \draw [,->,>=latex] (0.0,4.500000000) -- (1.500000000,4.500000000);
-\draw (1.500000000,4.560000000) node {\unit{5}{\kilo\meter\per\hour}};
+\draw (2.367543000,4.892047833) node {\unit{5}{\kilo\meter\per\hour}};
 \draw [color=blue] (0.0,0.0) -- (6.000000000,0.0);
 \draw [color=blue] (0.0,6.000000000) -- (6.000000000,6.000000000);
 \draw [color=red,->,>=latex] (0.0,0.0) -- (1.500000000,4.500000000);
-\draw (1.542426407,4.457573593) node {\( \vect{ v }\)};
+\draw (1.872432856,4.189447644) node {\( \vect{ v }\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

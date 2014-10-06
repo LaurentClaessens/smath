@@ -4,7 +4,7 @@ def figureWFDTzSN():
     pspict,fig = SinglePicture("figureWFDTzSN")
     pspict.dilatation(0.02)
 
-    pspict.Mx_acceptable_BB=120
+    pspict.Mx_acceptable_BB=140
 
     O=Point(0,0)
     R=65

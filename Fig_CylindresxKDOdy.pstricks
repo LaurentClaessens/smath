@@ -8,17 +8,17 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigCylindresxKDOdy.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\SI{5}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{totalheightof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\SI{5}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{widthof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\SI{3}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{totalheightof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\SI{3}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{widthof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{5}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{totalheightof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{5}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{widthof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{3}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{totalheightof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{3}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{widthof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -47,13 +47,13 @@
 %DEFAULT
 \draw [,->,>=latex] (1.500000000,-0.1200000000) -- (3.000000000,-0.1200000000);
 \draw [,->,>=latex] (1.500000000,-0.1200000000) -- (0.0,-0.1200000000);
-\draw (1.880794833,-0.3659458333) node {\SI{5}{\centi\meter}};
+\draw (1.956954000,-0.4711346667) node {\SI{5}{\centi\meter}};
 \draw [,->,>=latex] (3.709519053,0.2710769515) -- (3.060000000,-0.1039230485);
 \draw [,->,>=latex] (3.709519053,0.2710769515) -- (4.359038106,0.6460769515);
-\draw (4.150313886,0.04120806976) node {\SI{5}{\centi\meter}};
+\draw (4.266473053,-0.05326279588) node {\SI{5}{\centi\meter}};
 \draw [,->,>=latex] (-0.1200000000,0.9000000000) -- (-0.1200000000,0.0);
 \draw [,->,>=latex] (-0.1200000000,0.9000000000) -- (-0.1200000000,1.800000000);
-\draw (-0.5007948333,0.7800000000) node {\SI{3}{\centi\meter}};
+\draw (-0.5769540000,0.7000000000) node {\SI{3}{\centi\meter}};
 \fill [color=lightgray] (0.5257214207,1.987500000) -- (0.5257214207,0.1875000000) -- (0.5257214207,0.1875000000) -- (3.773316685,0.5625000000) -- (3.773316685,0.5625000000) -- (3.773316685,2.362500000) -- (3.773316685,2.362500000) -- (0.5257214207,1.987500000) --  cycle;
 \draw [color=brown] (0.5257214207,1.987500000) -- (0.5257214207,0.1875000000);
 \draw [color=brown] (0.5257214207,0.1875000000) -- (3.773316685,0.5625000000);
