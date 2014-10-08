@@ -19,6 +19,17 @@ class OneChapter(object):
             if self.chapter_title in l:
                 line=i
         return smath_lines[line+1]
+    def count_exo(self,text,i_line):
+        """
+        return the number of \Exo in 'text' from the beginning and the line number 'i_line'.
+        """
+        lines=text.split("\n")[0:i_line]
+        n=0
+        for l in lines:
+            ll=l.replace(" ","")
+            if ll.startswith("\Exo"):
+                n=n+1
+        return n
     def exercice_lines(self,filename):
         el=open(filename).readlines()
         for i,l in enumerate(el):
@@ -28,7 +39,9 @@ class OneChapter(object):
         while "\section" not in el[f_line] and "\end{document}" not in el[f_line] :
             f_line=f_line+1
         f_line=f_line-1
-        sublist=el[i_line:f_line]
+        exo=self.count_exo("".join(el),i_line)
+        sublist=["\setcounter{{CountExercice}}{{{}}}".format(exo)]
+        sublist.extend(el[i_line:f_line])
         return "".join(sublist)
     def write_the_file(self,filename="automatedChapter.tex"):
         generic_lines="".join(open("genericChapter.tex").readlines())
@@ -45,7 +58,7 @@ class OneChapter(object):
 fract=OneChapter("Opérations sur les écritures fractionnaires","5Bexercices.tex")
 pythagore=OneChapter("Égalité de Pythagore","4Aexercices.tex")
 
-jeveux=pythagore
+jeveux=fract
 
 jeveux.write_the_file()
 myRequest.ok_filenames_list=jeveux.ok_filenames_list()
