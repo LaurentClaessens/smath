@@ -4,8 +4,7 @@ def MBTooHyyNvj():
     pspicts,figs = IndependentPictures("MBTooHyyNvj",3)
 
     for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
+        psp.dilatation(0.7)
 
     O=Point(0,0)
     r=1
