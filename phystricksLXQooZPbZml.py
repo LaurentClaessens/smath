@@ -2,8 +2,7 @@
 from phystricks import *
 def LXQooZPbZml():
     pspict,fig = SinglePicture("LXQooZPbZml")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     grand=Polygon(  Point(0,0),Point(4,0),Point(4,4),Point(0,4) )
     moyen=Polygon( Point(0,0),Point(2,0),Point(2,2),Point(0,2)   )
