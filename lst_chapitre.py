@@ -55,7 +55,7 @@ class OneChapter(object):
         return a
 
     
-fract=OneChapter("Opérations sur les écritures fractionnaires","5Bexercices.tex")
+fract=OneChapter("Opérations sur les fractions","5Bexercices.tex")
 pythagore=OneChapter("Égalité de Pythagore","4Aexercices.tex")
 
 jeveux=fract
