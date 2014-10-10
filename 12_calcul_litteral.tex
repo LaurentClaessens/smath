@@ -37,11 +37,13 @@ De \cite{NRHooXFvgpp4}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{Aretenir}
-    La formule
+    Si \( a\), \( b\) et \( k\) sont des nombres quelconques, alors la formule
     \begin{equation}
         k\times (a+b)= k\times a+k\times b
     \end{equation}
     est encore valable en quatrième.
+
+    Cette opération s'appelle \defe{développer}{développer}.
 \end{Aretenir}
 
 \begin{example}
@@ -52,13 +54,13 @@ De \cite{NRHooXFvgpp4}
 \end{example}
 
 \begin{example}
-    Pour calculer le périmètre d'une rectangle de côtés \( a\) et \( b\), on peut faire soit
+    Pour calculer le périmètre d'une rectangle de largeur \( \ell\) et de longueur \( L\) on peut faire soit
     \begin{equation}
-        2a+2b
+        2\ell+2L
     \end{equation}
     soit
     \begin{equation}
-        2(a+b).
+        2(\ell+L).
     \end{equation}
 \end{example}
 
@@ -71,11 +73,15 @@ De \cite{NRHooXFvgpp4}
     \begin{equation}
         k\times a+k\times b=k\times (a+b).
     \end{equation}
-    Une expression est \defe{factorisée}{expression!factorisée} si elle ne contient plus de sommes en dehors de parenthèses.
+    Une expression est \defe{factorisée}{expression!factorisée} lorsqu'elle est écrite sous forme d'un produit.
 \end{Aretenir}
 
 \begin{example}
     \begin{enumerate}
+        \item
+            \( 2\ell+2L\) n'est pas factorisé
+        \item
+            \( 2(\ell+L)\) est factorisée.
         \item
             \( 3x+2\) n'est pas factorisé.
         \item
@@ -106,9 +112,14 @@ De \cite{NRHooXFvgpp4}
 \begin{example}
     \begin{enumerate}
         \item
-            \( 3x+5x=8x\)
-        \item
-            \( x+1+3x=4x+1\)
+            \( 3x+5x=8x\) parce que
+            \begin{subequations}
+                \begin{align}
+                    x+1+3x&=x+3x+1&\text{regrouper}\\
+                    &=x(1+3)+1&\text{factoriser}\\
+                    &=4x+1&\text{effectuer}.
+                \end{align}
+            \end{subequations}
         \item
             \( 3(x+4)-6x+4=3x+12-6x+4=-3x+16\).
     \end{enumerate}
