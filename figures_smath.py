@@ -320,6 +320,8 @@ from phystricksEIxhcRb import EIxhcRb
 from phystricksLZDNqtV import LZDNqtV
 from phystricksRVZNtGK import RVZNtGK
 from phystricksTWGooMalxLa import TWGooMalxLa
+from phystricksUEqUrvi import UEqUrvi
+from phystricksDZmbmzZ import DZmbmzZ
 
 # À surveiller :
 from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
@@ -337,8 +339,6 @@ def AllFigures(figures_list):
 #   from phystricksSecondDeg import SecondDeg
 # from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
 # from phystricksOHfdEZt import OHfdEZt
-# from phystricksUEqUrvi import UEqUrvi
-# from phystricksDZmbmzZ import DZmbmzZ
 # from phystricksLNfaWPF import LNfaWPF
 # from phystricksFPIkJJx import FPIkJJx
 # from phystricksOKTXHoc import OKTXHoc
@@ -636,9 +636,9 @@ figures_list.append(AKLooNbKioN)
 figures_list.append(GLVooNqioTo)
 figures_list.append(FDOooRCCWGn)
 figures_list.append(KUUooRcCjkQ)
+figures_list.append(UEqUrvi)
+figures_list.append(DZmbmzZ)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
