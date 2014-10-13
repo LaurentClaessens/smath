@@ -13,6 +13,8 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksRBEooLYHhMX import RBEooLYHhMX
+from phystricksGVGooXlzMMh import GVGooXlzMMh
 from phystricksYDAooMNHhCN import YDAooMNHhCN
 from phystricksZSAooVHmHWd import ZSAooVHmHWd
 from phystricksKUUooRcCjkQ import KUUooRcCjkQ
@@ -642,9 +644,9 @@ figures_list.append(UEqUrvi)
 figures_list.append(DZmbmzZ)
 figures_list.append(ZSAooVHmHWd)
 figures_list.append(YDAooMNHhCN)
+figures_list.append(GVGooXlzMMh)
+figures_list.append(RBEooLYHhMX)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)

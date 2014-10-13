@@ -1,9 +1,10 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 def ZSAooVHmHWd():
-    pspict,fig = SinglePicture("ZSAooVHmHWd")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspicts,figs = IndependentPictures("ZSAooVHmHWd",2)
+
+    for psp in pspicts:
+        psp.dilatation(1)
 
     O=Point(0,0)
     circonscrit=Circle(  O,3  )
@@ -26,12 +27,15 @@ def ZSAooVHmHWd():
     for med in mediatrices :
         med.parameters.style="dashed"
 
-    A.put_mark(0.2,A.advised_mark_angle,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,B.advised_mark_angle,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,C.advised_mark_angle,"\( C\)",automatic_place=(pspict,"corner"))
-    O.put_mark(0.4,0,"\( O\)",automatic_place=(pspict,"W"))
+    A.put_mark(0.2,A.advised_mark_angle,"\( A\)",automatic_place=(pspicts,"corner"))
+    B.put_mark(0.2,B.advised_mark_angle,"\( B\)",automatic_place=(pspicts,"corner"))
+    C.put_mark(0.2,C.advised_mark_angle,"\( C\)",automatic_place=(pspicts,"corner"))
+    O.put_mark(0.4,0,"\( O\)",automatic_place=(pspicts,"W"))
 
-    pspict.DrawGraphs(trig,mediatrices,circonscrit,A,B,C,O)
-    fig.no_figure()
-    fig.conclude()
-    fig.write_the_file()
+    pspicts[0].DrawGraphs(trig,circonscrit,A,B,C,O)
+    pspicts[1].DrawGraphs(trig,mediatrices,circonscrit,A,B,C,O)
+
+    for fig in figs:
+        fig.no_figure()
+        fig.conclude()
+        fig.write_the_file()
