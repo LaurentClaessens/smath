@@ -34,6 +34,52 @@ De \cite{NRHooXFvgpp4}
     \end{enumerate}
 \end{remark}
 
+\begin{proof}
+
+    Nous construisons un carré dans lequel nous découpons quatre triangles rectangle de côtés \( a\), \( b\) et \( c\).
+    
+\begin{center}
+   \input{Fig_YDAooMNHhCN0.pstricks}
+\end{center}
+
+\begin{enumerate}
+    \item
+        
+        Les triangles \( MAP\) et \( MBN\) sont semblables parce qu'ils ont un angle en commun et les deux côtés de l'angle de même longueur.
+    \item
+        Donc le deux angles notés \( \alpha\) et les deux angles notés \( \beta\) sont de même mesure.
+    \item
+        D'autre par en raisonnant dans le triangle \( AMP\), nous avons \( \alpha+\beta=\SI{90}{\degree}\) parce que la somme des angles d'un triangle fait \SI{180}{\degree}.
+    \item
+        Par conséquent \( \widehat{PMN}=\SI{90}{\degree}\) et \( MNOP\) est un carré.
+    \item
+        L'aire de \( MNOP\) vaut \( c^2\).
+
+\end{enumerate}
+
+Maintenant nous complétons les triangles \( PDO\) et \( OCN\) pour en faire des rectangles.
+
+\begin{center}
+   \input{Fig_YDAooMNHhCN1.pstricks}
+\end{center}
+
+\begin{enumerate}
+    \item
+        Le carré \( RBNL\) a pour aire \( a^2\).
+    \item
+        Le carré \( ARKP\) a pour aire \( b^2\).
+    \item
+        La somme des deux correspond au carré \( ABCD\) auquel nous avons enlevé quatre triangles, c'est à dire à \( MNOP\).
+    \item
+        Nous avons donc l'égalité
+        \begin{equation}
+            \text{aire}(RBNL)+\text{aire}(ARKP)=\text{aire}(MNOP),
+        \end{equation}
+        qui signifie \( a^2+b^2=c^2\).
+\end{enumerate}
+
+\end{proof}
+
 \begin{example}
     Un triangle a pour côtés \( AB=9\), \( BC=12\) et \( AC=15\). Est-il rectangle ?
     \begin{itemize}
@@ -48,9 +94,13 @@ De \cite{NRHooXFvgpp4}
     \begin{center}
         \input{Fig_NARooFiHuAy.pstricks}
     \end{center}
-    La somme des carrés des deux côtés adjacents à l'angle droit est :
+    Vu que ce triangle est rectangle, le théorème de Pythagore implique que
     \begin{equation}
-        8^2+6^2=64+36=100.
+        AB^2+BC^2=AC^2.
     \end{equation}
-    Donc \( AC^2=100\), c'est à dire \( AC=10\).
+    Nous connaissons \( AB=8\) et \( BC=6\). L'égalité de Pythagore est :
+    \begin{equation}
+        8^2+6^2=AC^2.
+    \end{equation}
+    Donc \( AC^2=64+36=100\). Vu que \( AC^2=100\), nous déduisons \( AC=10\).
 \end{example}
