@@ -1,11 +1,3 @@
-#! /usr/bin/python
-# -*- coding: utf8 -*-
-
-import LaTeXparser
-import LaTeXparser.PytexTools
-
-myRequest = LaTeXparser.PytexTools.Request("seconde")
-myRequest.original_filename="automatedChapter.tex"
 
 
 class OneChapter(object):
@@ -50,17 +42,8 @@ class OneChapter(object):
         f.write(text)
         f.close()
     def set_filename(self,medicament):
-        medicament.new_output_filename="chapitre_"+self.chapter_title.replace(' ',"_")+".pdf"
+        medicament.new_output_filename="0-chapitre_"+self.chapter_title.replace(' ',"_")+".pdf"
     def ok_filenames_list(self):
         a=["e_smath"]
         a.append(self.input_filename)
         return a
-
-fract=OneChapter("Opérations sur les fractions","5Bexercices.tex")
-pythagore=OneChapter("Égalité de Pythagore","4Aexercices.tex")
-
-jeveux=fract
-jeveux.write_the_file()
-
-myRequest.add_plugin(jeveux.set_filename,"medicament")
-myRequest.ok_filenames_list=jeveux.ok_filenames_list()

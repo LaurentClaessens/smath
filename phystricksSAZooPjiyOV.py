@@ -1,7 +1,6 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 
-
 def segment_to_carre(seg,color,reverse=False):
     s1=seg.orthogonal()
     iseg=seg.inverse()
@@ -16,8 +15,8 @@ def segment_to_carre(seg,color,reverse=False):
 
 def SAZooPjiyOV():
     pspict,fig = SinglePicture("SAZooPjiyOV")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_X(0.7)
+    pspict.dilatation_Y(0.7)
 
     A=Point(0,0)
     B=Point(3,0)

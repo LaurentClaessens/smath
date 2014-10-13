@@ -13,6 +13,7 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksZSAooVHmHWd import ZSAooVHmHWd
 from phystricksKUUooRcCjkQ import KUUooRcCjkQ
 from phystricksFDOooRCCWGn import FDOooRCCWGn
 from phystricksGLVooNqioTo import GLVooNqioTo   
@@ -638,12 +639,25 @@ figures_list.append(FDOooRCCWGn)
 figures_list.append(KUUooRcCjkQ)
 figures_list.append(UEqUrvi)
 figures_list.append(DZmbmzZ)
+figures_list.append(ZSAooVHmHWd)
 """
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 """
 
+# This is a very basic verification 
+fnsprises=[ str(f).split(" ")[1] for f in figures_list  ]
+for f in dir():
+    if f[3:5]=="oo":
+        if f not in fnsprises:
+            print("La fonction",f,"n'est pas dans la liste")
+            raise NameError
 
 for k in sys.argv:
     s=[]

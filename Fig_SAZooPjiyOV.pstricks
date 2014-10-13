@@ -8,7 +8,7 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigSAZooPjiyOV.phystricks.aux%
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
@@ -67,11 +67,11 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (3.000000000,0) -- (3.000000000,0) -- (3.000000000,-3.000000000) -- (3.000000000,-3.000000000) -- (0,-3.000000000) -- (0,-3.000000000) -- (0,0) --  cycle;
-\draw [color=red] (0,0) -- (3.000000000,0);
-\draw [color=red] (3.000000000,0) -- (3.000000000,-3.000000000);
-\draw [color=red] (3.000000000,-3.000000000) -- (0,-3.000000000);
-\draw [color=red] (0,-3.000000000) -- (0,0);
+\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.0,0.0) -- (2.100000000,0.0) -- (2.100000000,0.0) -- (2.100000000,-2.100000000) -- (2.100000000,-2.100000000) -- (0.0,-2.100000000) -- (0.0,-2.100000000) -- (0.0,0.0) --  cycle;
+\draw [color=red] (0.0,0.0) -- (2.100000000,0.0);
+\draw [color=red] (2.100000000,0.0) -- (2.100000000,-2.100000000);
+\draw [color=red] (2.100000000,-2.100000000) -- (0.0,-2.100000000);
+\draw [color=red] (0.0,-2.100000000) -- (0.0,0.0);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -79,11 +79,11 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=blue,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (2.500000000,2.000000000) -- (2.500000000,2.000000000) -- (0.5000000000,4.500000000) -- (0.5000000000,4.500000000) -- (-2.000000000,2.500000000) -- (-2.000000000,2.500000000) -- (0,0) --  cycle;
-\draw [color=blue] (0,0) -- (2.500000000,2.000000000);
-\draw [color=blue] (2.500000000,2.000000000) -- (0.5000000000,4.500000000);
-\draw [color=blue] (0.5000000000,4.500000000) -- (-2.000000000,2.500000000);
-\draw [color=blue] (-2.000000000,2.500000000) -- (0,0);
+\fill [color=blue,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.0,0.0) -- (1.750000000,1.400000000) -- (1.750000000,1.400000000) -- (0.3500000000,3.150000000) -- (0.3500000000,3.150000000) -- (-1.400000000,1.750000000) -- (-1.400000000,1.750000000) -- (0.0,0.0) --  cycle;
+\draw [color=blue] (0.0,0.0) -- (1.750000000,1.400000000);
+\draw [color=blue] (1.750000000,1.400000000) -- (0.3500000000,3.150000000);
+\draw [color=blue] (0.3500000000,3.150000000) -- (-1.400000000,1.750000000);
+\draw [color=blue] (-1.400000000,1.750000000) -- (0.0,0.0);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -91,14 +91,14 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=cyan,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (3.000000000,0) -- (2.500000000,2.000000000) -- (2.500000000,2.000000000) -- (4.500000000,2.500000000) -- (4.500000000,2.500000000) -- (5.000000000,0.5000000000) -- (5.000000000,0.5000000000) -- (3.000000000,0) --  cycle;
-\draw [color=cyan] (3.000000000,0) -- (2.500000000,2.000000000);
-\draw [color=cyan] (2.500000000,2.000000000) -- (4.500000000,2.500000000);
-\draw [color=cyan] (4.500000000,2.500000000) -- (5.000000000,0.5000000000);
-\draw [color=cyan] (5.000000000,0.5000000000) -- (3.000000000,0);
-\draw [] (0,0) -- (3.000000000,0);
-\draw [] (3.000000000,0) -- (2.500000000,2.000000000);
-\draw [] (2.500000000,2.000000000) -- (0,0);
+\fill [color=cyan,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.100000000,0.0) -- (1.750000000,1.400000000) -- (1.750000000,1.400000000) -- (3.150000000,1.750000000) -- (3.150000000,1.750000000) -- (3.500000000,0.3500000000) -- (3.500000000,0.3500000000) -- (2.100000000,0.0) --  cycle;
+\draw [color=cyan] (2.100000000,0.0) -- (1.750000000,1.400000000);
+\draw [color=cyan] (1.750000000,1.400000000) -- (3.150000000,1.750000000);
+\draw [color=cyan] (3.150000000,1.750000000) -- (3.500000000,0.3500000000);
+\draw [color=cyan] (3.500000000,0.3500000000) -- (2.100000000,0.0);
+\draw [] (0.0,0.0) -- (2.100000000,0.0);
+\draw [] (2.100000000,0.0) -- (1.750000000,1.400000000);
+\draw [] (1.750000000,1.400000000) -- (0.0,0.0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
