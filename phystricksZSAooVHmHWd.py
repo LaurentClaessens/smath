@@ -17,7 +17,7 @@ def ZSAooVHmHWd():
 
     mediatrices=[]
     for seg in trig.edges:
-        media=seg.mediator()
+        media=seg.bisector()
         mediatrices.append(media)
 
     mediatrices[0]=mediatrices[0].add_size(1.7,0)
