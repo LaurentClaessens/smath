@@ -6,7 +6,7 @@ def RBEooLYHhMX():
         psp.dilatation(1)
 
     tartes=[]
-    tartes.append(FractionPieDiagram(Point(0,0),1,4,7))
+    tartes.append(FractionPieDiagram(Point(0,0),1,2,3))
     tartes.append(FractionPieDiagram(Point(0,0),1,4,4))
     tartes.append(FractionPieDiagram(Point(0,0),1,1,4))
 

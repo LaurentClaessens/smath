@@ -9,7 +9,7 @@ myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename="automatedChapter.tex"
 
 
-actu5=commun.OneChapter("Droites remarquables dans un triangle","5Aexercices.tex")
+actu5=commun.OneChapter("Droites remarquables dans un triangle","5Bexercices.tex")
 actu5.write_the_file()
 
 myRequest.add_plugin(actu5.set_filename,"medicament")
