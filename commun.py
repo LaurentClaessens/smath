@@ -45,3 +45,49 @@ class OneChapter(object):
         a=["e_smath"]
         a.append(self.input_filename)
         return a
+
+
+class TheDS(object):
+    def __init__(self,DS_id,group,nPAI):
+        """
+        'nPAI' is the number of copies that have to be printed in larger size.
+        """
+        self.DS_id=DS_id
+        self.group=group
+        self.filename="DSs.tex"
+        self.nPAI=nPAI
+        self._latex_portion=None
+        self.tex_filename=self.DS_id+".tex"
+    def latex_portion(self):
+        if not self._latex_portion :
+            el=open(self.filename).readlines()
+            for i,l in enumerate(el):
+                if self.DS_id in l:
+                    i_line=i+1
+            f_line=i_line+1
+            while "\end{feuilleDS}" not in el[f_line] :
+                f_line=f_line+1
+            f_line=f_line+1
+            self._latex_portion="".join(el[i_line:f_line])
+        return self._latex_portion
+    def latex_total(self):
+        code=""
+        n=len(self.group.student_list)
+        for i in range(0,n) :
+            code=code+"\n\\newpage\n"+self.latex_portion()+"\n"
+        code=code+"\n\\LARGE\n"
+        for i in range(0,self.nPAI):
+            code=code+"\n\\newpage\n"+self.latex_portion()+"\n"
+        return code
+    def write_the_file(self):
+        generic_lines="".join(open("genericDS.tex").readlines())
+        text=generic_lines.replace("LES_FEUILLES",self.latex_total())
+        f=open(self.tex_filename,'w')
+        f.write(text)
+        f.close()
+    def set_filename(self,medicament):
+        medicament.new_output_filename="0-"+self.DS_id+".pdf"
+    def ok_filenames_list(self):
+        a=["e_smath"]
+        a.append("automatedDS")
+        return a
