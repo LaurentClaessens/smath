@@ -15,8 +15,8 @@ def KSQooHHfEpe():
 
     rh1=RightAngle(AB,med,0.2,0,1)
     rh2=RightAngle(AB,med,0.2,1,1)
-    rh1.parameters.color="red"
-    rh2.parameters.color="blue"
+    #rh1.parameters.color="red"
+    #rh2.parameters.color="blue"
 
     O=AB.center()
 
