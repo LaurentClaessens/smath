@@ -12,8 +12,12 @@ myRequest.original_filename="automatedChapter.tex"
 def set_filename(medicament):
     medicament.new_output_filename="0-actu5.pdf"
 
+fract=commun.OneChapter("Écriture fractionnaire","5Bexercices.tex")
+droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5Bexercices.tex")
+ops_frac=commun.OneChapter("Opérations sur les fractions","5Aexercices.tex")
 
-actu5=commun.OneChapter("Droites remarquables dans un triangle","5Bexercices.tex")
+
+actu5=fract
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

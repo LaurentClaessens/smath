@@ -3,6 +3,8 @@
 
 from __future__ import unicode_literals
 
+import commands
+
 import LaTeXparser
 import LaTeXparser.PytexTools
 

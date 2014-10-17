@@ -46,7 +46,6 @@ class OneChapter(object):
         a.append(self.input_filename)
         return a
 
-
 class TheDS(object):
     def __init__(self,DS_id,group,nPAI):
         """
@@ -72,7 +71,7 @@ class TheDS(object):
         return self._latex_portion
     def latex_total(self):
         code=""
-        n=len(self.group.student_list)
+        n=len(self.group.student_list)+2    # J'en ai alors 2 en trop.
         for i in range(0,n) :
             code=code+"\n\\newpage\n"+self.latex_portion()+"\n"
         code=code+"\n\\LARGE\n"

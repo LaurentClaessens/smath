@@ -2,8 +2,7 @@
 from phystricks import *
 def BKWooKbAHbD():
     pspict,fig = SinglePicture("BKWooKbAHbD")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     A=Point(0,0)
     B=Point(4,1)
