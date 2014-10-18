@@ -46,6 +46,17 @@ class OneChapter(object):
         a.append(self.input_filename)
         return a
 
+class OnePart(object):
+    """
+    We consider the whole declarative part up to the first "\part" (exclusively).
+    """
+    def __init__(self,part_name,filename):
+        self.part_name=part_name
+        self.filename=filename
+        self.file_text=open(self.filename).read()
+    def up_to_part():
+        pass
+
 class TheDS(object):
     def __init__(self,DS_id,group,nPAI):
         """
