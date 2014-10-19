@@ -7,12 +7,55 @@
 
     Le premier programme s'exprime avec le diagramme suivant :
     \begin{equation}
-        \fbox{\ldots}\stackrel{\times 6}{\longrightarrow}\fbox{\ldots}\stackrel{+11}{\longrightarrow}\fbox{\ldots}
+        \boxed{\ldots}\stackrel{\times 6}{\longrightarrow}\boxed{\ldots}\stackrel{+11}{\longrightarrow}\boxed{\ldots}
     \end{equation}
     et le second par
     \begin{equation}
-        \fbox{\ldots}\stackrel{+2}{\longrightarrow}\fbox{\ldots}\stackrel{\times 6}{\longrightarrow}\fbox{\ldots}
+        \boxed{\ldots}\stackrel{+2}{\longrightarrow}\boxed{\ldots}\stackrel{\times 6}{\longrightarrow}\boxed{\ldots}
     \end{equation}
-    <++>
+    \begin{enumerate}
+        \item
+            \begin{description}
+                \item[Programme 1]
+                    \begin{itemize}
+                        \item En choisissant \( 2\), on obtient \( 23\).
+                        \item En choisissant \( -3\), on obtient \( -18+11=-7\).
+                        \item En choisissant \( 4\), on obtient \( 4\times 6+11=24+11=35\).
+                    \end{itemize}
+                \item[Programme 2]
+                    \begin{itemize}
+                        \item En choisissant \( 2\), on obtient \( 24\).
+                        \item En choisissant \( -3\), on obtient \( (-3+2)\times 6=-1\times 6=-6 \).
+                        \item En choisissant \( 4\), on obtient \( 6\times 6=36\).
+                    \end{itemize}
+            \end{description}
+        \item
+            Nous voyons que le second programme donne un résultat de un plus grand que le premier.
+        \item
+            Le plus simple est de suivre le chemin suivant :
+    \begin{equation}
+        \boxed{x}\stackrel{\times 6}{\longrightarrow}\boxed{6x}\stackrel{+11}{\longrightarrow}\boxed{6x+11}
+    \end{equation}
+    Nous avons donc \( A=6x+11\). Les réponses suivante sont également correctes: \( 6\times x+11\) ou \( x\times 6+11\).
+\item
+    Nous suivant le chemin suivant :
+    \begin{equation}
+        \boxed{x}\stackrel{+2}{\longrightarrow}\boxed{x+2}\stackrel{\times 6}{\longrightarrow}\boxed{ (x+2)\times 6  }
+    \end{equation}
+    Donc \( B=(x+2)\times 6\). Il y a aussi moyen d'écrire cela sous la forme \( 6(x+2)\).
+
+\item
+    Il s'agit de prouver que \( B\) est toujours \( A\) plus un. Pour cela nous pouvons développer l'expression de \( B\) :
+    \begin{equation}
+        B=(x+2)\times 6=6x+12.
+    \end{equation}
+    La comparaison entre \( A=6x+11\) et \( B=6x+12\) montre que \( B\) vaut toujours \( 1\) de plus que \( A\) :
+    \begin{equation}
+        A+1=6x+11+1=6x+12,
+    \end{equation}
+    ce qui signifie que \( A+1\) est \( B\). Ou encore que le résultat du deuxième programme vaut un de plus que celui du premier.
+            
+    \end{enumerate}
+    
 
 \end{corrige}
