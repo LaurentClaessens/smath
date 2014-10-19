@@ -67,7 +67,7 @@ class TheDS(object):
         self.filename="DSs.tex"
         self.nPAI=nPAI
         self._latex_portion=None
-        self.tex_filename=self.DS_id+".tex"
+        self.tex_filename=self.DS_id+"_long.tex"
     def latex_portion(self):
         if not self._latex_portion :
             el=open(self.filename).readlines()
