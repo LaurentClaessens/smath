@@ -28,9 +28,9 @@ def QAHooOhyyHI():
     qcangle=Angle(H,G,F)
     a1=Angle(G,F,H)
     a2=Angle(F,H,G)
-    qcangle.put_mark(0.2,qcangle.advised_mark_angle,"\( 45\)",automatic_place=(pspicts,"center"))
-    a1.put_mark(0.2,a1.advised_mark_angle,"\( 78\)",automatic_place=(pspicts,"center"))
-    a2.put_mark(0.2,a2.advised_mark_angle,"\( 57\)",automatic_place=(pspicts,"center"))
+    qcangle.put_mark(0.2,qcangle.advised_mark_angle,"\( 45\)",automatic_place=(pspicts,"corner"))
+    a1.put_mark(0.1,a1.advised_mark_angle,"\( 78\)",automatic_place=(pspicts,"corner"))
+    a2.put_mark(0.1,a2.advised_mark_angle,"\( 57\)",automatic_place=(pspicts,"corner"))
     
     pspicts[0].DrawGraphs(F,G,FG,seg,qcangle)
     pspicts[1].DrawGraphs(F,G,H,seg,triangle,qcangle)
