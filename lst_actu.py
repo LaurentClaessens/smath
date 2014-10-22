@@ -9,7 +9,10 @@ myRequest.original_filename="smath.tex"
 
 myRequest.ok_filenames_list=["e_smath"]
 myRequest.ok_filenames_list.append("0450_choses_finales")
-myRequest.ok_filenames_list.append("22_statistiques")
+myRequest.ok_filenames_list.append("23_statistiques")
+myRequest.ok_filenames_list.append("<++>")
+myRequest.ok_filenames_list.append("<++>")
+myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
