@@ -8,7 +8,7 @@ def IXtyOnk():
     x=var('x')
     f=phyFunction(-5*x**2+x).graph(0,0.2)
 
-    v=f.get_tangent_vector(0).visual_length(3,pspict=pspict)
+    v=f.get_tangent_vector(0).fix_visual_size(3,pspict=pspict)
     v.parameters.color="red"
 
     zz=f.inverse(0)
