@@ -17,8 +17,9 @@ droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5Bexercic
 ops_frac=commun.OneChapter("Opérations sur les fractions","5Bexercices.tex")
 calc_litt=commun.OneChapter("Calcul littéral","5Bexercices.tex")
 
+# À la rentrée de novembre, je commence les droites remarquables dans un triangles
 
-actu5=droites_ream
+actu5=droites_rem
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

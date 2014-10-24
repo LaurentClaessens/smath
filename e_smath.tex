@@ -217,7 +217,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \newenvironment{example}{\vspace{\EnvSpace}\refstepcounter{numtho}\noindent{\bf Exemple}\\\nopagebreak}{\phantom{a}\hfill $\triangle$\vspace{\EnvSpace}}
 \newenvironment{Aretenir}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf À retenir}\newline}{\end{oframed}\vspace{\EnvSpace}}
 \newenvironment{Aprojeter}{\clearpage\phantom{a}\vfill}{\vfill\newpage}
-\newenvironment{definition}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Définition}\newline}{\end{oframed}\vspace{\EnvSpace}}
+\newenvironment{definition}[1][]{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Définition}#1\newline}{\end{oframed}\vspace{\EnvSpace}}
 \newenvironment{propriete}{\refstepcounter{numtho}\begin{oframed}\noindent{\bf Propriété}\newline}{\end{oframed}\vspace{\EnvSpace}}
 
 \newenvironment{Enmini}{\begin{oframed}\noindent{\bf Mini résumé}\newline}{\end{oframed}\vspace{\EnvSpace}}

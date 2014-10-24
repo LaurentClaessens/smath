@@ -19,10 +19,6 @@
 \immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( B\)}}%
 \immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{//}}%
-\immediate\write\writeOfphystricks{totalheightofebbffb7d7ea5362a22bfa1bab0bfdeb1617cd610:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{//}}%
-\immediate\write\writeOfphystricks{widthofebbffb7d7ea5362a22bfa1bab0bfdeb1617cd610:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -83,9 +79,11 @@
 \draw [] (2.200000000,1.200000000) -- (2.200000000,1.000000000);
 \draw [] (2.200000000,1.200000000) -- (2.000000000,1.200000000);
 \draw [] (0,1.000000000) -- (2.000000000,1.000000000);
-\draw (1.000000000,1.000000000) node {//};
+\draw [] (0.8085786438,0.8585786438) -- (1.091421356,1.141421356);
+\draw [] (0.9085786438,0.8585786438) -- (1.191421356,1.141421356);
 \draw [] (2.000000000,1.000000000) -- (4.000000000,1.000000000);
-\draw (3.000000000,1.000000000) node {//};
+\draw [] (2.808578644,0.8585786438) -- (3.091421356,1.141421356);
+\draw [] (2.908578644,0.8585786438) -- (3.191421356,1.141421356);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

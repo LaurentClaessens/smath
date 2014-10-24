@@ -22,8 +22,10 @@ def KSQooHHfEpe():
 
     AO=Segment(A,O)
     OB=Segment(O,B)
-    AO.put_mark(0,0,"//",automatic_place=(pspict,"center"))
-    OB.put_mark(0,0,"//",automatic_place=(pspict,"center"))
+    #AO.put_mark(0,0,"//",automatic_place=(pspict,"center"))
+    #OB.put_mark(0,0,"//",automatic_place=(pspict,"center"))
+    AO.put_code(n=2,l=0.4,d=0.1,pspict=pspict)
+    OB.put_code(n=2,l=0.4,d=0.1,pspict=pspict)
 
     pspict.DrawGraphs(AB,med,A,B,rh1,rh2,AO,OB)
     fig.no_figure()
