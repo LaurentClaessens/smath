@@ -20,10 +20,16 @@ def LVNXooEXEvoV():
     triangles[3].put_mark(0.2,["\( B\)","\( D\)","\( O\)"],pspict=pspicts)
     triangles[4].put_mark(0.2,["\( F\)","\( E\)","\( H\)"],pspict=pspicts)
 
-    #n=1,d=0.1,l=0.1,angle=45,pspict=None):
-    med1=triangles[0].edges[0].bisector(code=(1,0.1,0.1,45,pspicts))
     
-    pspicts[0].DrawGraphs(med1)
+    # Première figure
+    med1=triangles[0].edges[0].bisector(code=(1,0.1,0.1,45,pspicts))
+    pspicts[0].DrawGraphs(med1.added_objects)
+    med1=med1+Vector(0,-0.5)
+    rh=RightAngle(triangles[0].edges[0],med1,0.2,0,1)
+    pspicts[0].DrawGraphs(med1,rh)
+
+    # Deuxième figure
+    line=triangles[1].edges[1].orthogonal_trough(triangles[1].)<++>
 
     for i,pspict in enumerate(pspicts):
         pspict.DrawGraphs(triangles[i])
