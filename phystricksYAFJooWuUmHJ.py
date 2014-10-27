@@ -17,7 +17,7 @@ def YAFJooWuUmHJ():
     A.put_mark(0.2,-90-45,"\( A\)",automatic_place=(pspict,"corner"))
     B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,10,"\( C\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,M.advised_mark_angle,"\( M\)",automatic_place=(pspict,"corner"))
+    M.put_mark(0.2,180+45,"\( M\)",automatic_place=(pspict,"corner"))
 
     AM=Segment(A,M)
     MB=Segment(M,B)
