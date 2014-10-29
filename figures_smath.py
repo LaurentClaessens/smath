@@ -13,6 +13,9 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksQZPMooIiOQpy import QZPMooIiOQpy
+from phystricksGARYooJCnpFS import GARYooJCnpFS
+from phystricksMRBWooRCSkaB import MRBWooRCSkaB
 from phystricksLVNXooEXEvoV import LVNXooEXEvoV
 from phystricksECQDooWEpuCM import ECQDooWEpuCM
 from phystricksYAFJooWuUmHJ import YAFJooWuUmHJ
@@ -672,7 +675,15 @@ figures_list.append(TCBLooKXvOaZ)
 figures_list.append(YAFJooWuUmHJ)
 figures_list.append(ECQDooWEpuCM)
 figures_list.append(LVNXooEXEvoV)
+figures_list.append(MRBWooRCSkaB)
+figures_list.append(GARYooJCnpFS)
+figures_list.append(QZPMooIiOQpy)
 """
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
@@ -707,3 +718,6 @@ if __name__=="__main__":
         figures_list=figures_list[-1:]
 
     AllFigures(figures_list)
+
+
+#print("ATTENTION : il faut enlever le [] au milieu de la figures_list")

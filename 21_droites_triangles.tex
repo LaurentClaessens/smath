@@ -27,7 +27,7 @@
 
 Pour tracer la médiatrice du segment \( [AB]\), 
 \begin{itemize}
-    \item Tracer un arc de cercle de centre \( A\) (peu importe le rayon);
+    \item tracer un arc de cercle de centre \( A\).
     \item en gardant le même rayon, tracer un arc de cercle de centre \( B\);
     \item la droite passant par les deux intersections est la médiatrice.
 \end{itemize}
@@ -37,6 +37,15 @@ Attention : il faut choisir le rayon assez grand pour qu'il y ait des intersecti
    \input{Fig_BKWooKbAHbD.pstricks}
 \end{center}
 
+\begin{propriete}
+    Dans un triangle, les trois médiatrices sont concourantes.
+\end{propriete}
+
+\begin{center}
+   \input{Fig_MRBWooRCSkaB.pstricks}
+\end{center}
+
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Cercle circonscrit}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -44,7 +53,6 @@ Attention : il faut choisir le rayon assez grand pour qu'il y ait des intersecti
 \begin{definition}
     Le \defe{cercle circonscrit}{cercle!circonscrit} à un triangle est le cercle passant par les trois sommets de ce triangle.
 \end{definition}
-
 
 \begin{center}
    \input{Fig_ZSAooVHmHWd0.pstricks}
@@ -56,10 +64,22 @@ En ce qui concerne la construction.
    \input{Fig_ZSAooVHmHWd1.pstricks}
 \end{center}
 
+
 \begin{itemize}
     \item Tracer les trois médiatrices,
-    \item le centre du cercle circonscrit est le point d'intersections des trois.
+    \item le centre du cercle circonscrit est le point d'intersections des trois, nommé \( O\)
+    \item le rayon du cercle circonscrit est au choix \( OA\), \( OB\) ou \( OC\).
 \end{itemize}
+
+Les longueurs \( OA\), \( OB\) et \( OC\) sont égales. En effet,
+\begin{enumerate}
+    \item
+        \( OA=OB\) parce que \( O\) est sur la médiatrice du segment \( [AB]\).
+    \item
+        \( OA=OC\)parce que \( O\) est sur la médiatrice du segment \( [AC]\).
+    \item
+        \( OB=OC\)parce que \( O\) est sur la médiatrice du segment \( [BC]\).
+\end{enumerate}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Médiane}
@@ -72,6 +92,14 @@ En ce qui concerne la construction.
 Sur le dessin suivant, nous voyons la médiane issue du sommet \( C\).
 \begin{center}
    \input{Fig_YAFJooWuUmHJ.pstricks}
+\end{center}
+
+\begin{propriete}
+    Dans un triangle, les trois médianes sont concourantes.
+\end{propriete}
+
+\begin{center}
+   \input{Fig_GARYooJCnpFS.pstricks}
 \end{center}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -87,3 +115,12 @@ Sur le dessin suivant, nous voyons la hauteur issue du sommet \( A\).
 \begin{center}
    \input{Fig_ECQDooWEpuCM.pstricks}
 \end{center}
+
+\begin{propriete}
+    Dans un triangle, les trois hauteurs sont concourantes.
+\end{propriete}
+
+\begin{center}
+   \input{Fig_QZPMooIiOQpy.pstricks}
+\end{center}
+

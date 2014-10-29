@@ -77,6 +77,17 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
+%DEFAULT
+\draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
+\draw (0.2882253562,0.2780880229) node {\( A\)};
+\draw []  (0.7000000000,2.100000000) node [rotate=0] {$\bullet$};
+\draw (1.000285690,2.378088023) node {\( B\)};
+\draw []  (-1.400000000,2.800000000) node [rotate=0] {$\bullet$};
+\draw (-1.104108144,3.078088023) node {\( C\)};
+\draw []  (-2.100000000,-0.7000000000) node [rotate=0] {$\bullet$};
+\draw (-1.790542977,-0.4219119771) node {\( D\)};
+\draw []  (2.100000000,-1.400000000) node [rotate=0] {$\bullet$};
+\draw (2.398109690,-1.121911977) node {\( E\)};
 \draw [color=gray,style=solid] (-2.100000000,-1.400000000) -- (-2.100000000,2.800000000);
 \draw [color=gray,style=solid] (-1.400000000,-1.400000000) -- (-1.400000000,2.800000000);
 \draw [color=gray,style=solid] (-0.7000000000,-1.400000000) -- (-0.7000000000,2.800000000);
@@ -103,17 +114,6 @@
 \draw [color=gray,style=solid] (-2.100000000,1.400000000) -- (2.100000000,1.400000000);
 \draw [color=gray,style=solid] (-2.100000000,2.100000000) -- (2.100000000,2.100000000);
 \draw [color=gray,style=solid] (-2.100000000,2.800000000) -- (2.100000000,2.800000000);
-%DEFAULT
-\draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
-\draw (0.3175863562,0.3054213562) node {\( A\)};
-\draw []  (0.7000000000,2.100000000) node [rotate=0] {$\bullet$};
-\draw (1.032058523,2.405421356) node {\( B\)};
-\draw []  (-1.400000000,2.800000000) node [rotate=0] {$\bullet$};
-\draw (-1.073213810,3.105421356) node {\( C\)};
-\draw []  (-2.100000000,-0.7000000000) node [rotate=0] {$\bullet$};
-\draw (-1.756936310,-0.3945786438) node {\( D\)};
-\draw []  (2.100000000,-1.400000000) node [rotate=0] {$\bullet$};
-\draw (2.429447356,-1.094578644) node {\( E\)};
 %AXES
 %OTHER STUFF
 %END PSPICTURE

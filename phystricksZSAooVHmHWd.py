@@ -4,7 +4,7 @@ def ZSAooVHmHWd():
     pspicts,figs = IndependentPictures("ZSAooVHmHWd",2)
 
     for psp in pspicts:
-        psp.dilatation(1)
+        psp.dilatation(0.6)
 
     O=Point(0,0)
     circonscrit=Circle(  O,3  )

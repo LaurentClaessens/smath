@@ -70,6 +70,13 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
+%DEFAULT
+\draw []  (1.000000000,-1.000000000) node [rotate=0] {$\bullet$};
+\draw (1.355100333,-0.8633333333) node {\( O\)};
+\draw [,->,>=latex] (0,0) -- (3.000000000,1.000000000);
+\draw (3.392509667,1.138164833) node {\(  \vect{ u }\)};
+\draw [,->,>=latex] (0,0) -- (2.000000000,-4.000000000);
+\draw (2.392509667,-3.861835167) node {\(  \vect{ v }\)};
 \draw [color=gray,style=solid] (-1.000000000,-4.000000000) -- (-1.000000000,1.000000000);
 \draw [color=gray,style=solid] (0,-4.000000000) -- (0,1.000000000);
 \draw [color=gray,style=solid] (1.000000000,-4.000000000) -- (1.000000000,1.000000000);
@@ -90,13 +97,6 @@
 \draw [color=gray,style=solid] (-1.000000000,-1.000000000) -- (3.000000000,-1.000000000);
 \draw [color=gray,style=solid] (-1.000000000,0) -- (3.000000000,0);
 \draw [color=gray,style=solid] (-1.000000000,1.000000000) -- (3.000000000,1.000000000);
-%DEFAULT
-\draw []  (1.000000000,-1.000000000) node [rotate=0] {$\bullet$};
-\draw (1.386119833,-0.8360000000) node {\( O\)};
-\draw [,->,>=latex] (0,0) -- (3.000000000,1.000000000);
-\draw (3.431011500,1.169131000) node {\(  \vect{ u }\)};
-\draw [,->,>=latex] (0,0) -- (2.000000000,-4.000000000);
-\draw (2.431011500,-3.830869000) node {\(  \vect{ v }\)};
 %AXES
 %OTHER STUFF
 %END PSPICTURE

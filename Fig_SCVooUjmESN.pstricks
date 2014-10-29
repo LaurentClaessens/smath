@@ -8,17 +8,17 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigSCVooUjmESN.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( -2\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d7b2a2223d234915f25c6fed29c7d092795d499:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( -2\)}}%
-\immediate\write\writeOfphystricks{widthof0d7b2a2223d234915f25c6fed29c7d092795d499:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( +2\)}}%
-\immediate\write\writeOfphystricks{totalheightof85cd994e01db5245e79ce3d8f3434285da66b0a8:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( +2\)}}%
-\immediate\write\writeOfphystricks{widthof85cd994e01db5245e79ce3d8f3434285da66b0a8:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( -2\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d7b2a2223d234915f25c6fed29c7d092795d499:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( -2\)}}%
+\immediate\write\writeOfphystricks{widthof0d7b2a2223d234915f25c6fed29c7d092795d499:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( +2\)}}%
+\immediate\write\writeOfphystricks{totalheightof85cd994e01db5245e79ce3d8f3434285da66b0a8:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( +2\)}}%
+\immediate\write\writeOfphystricks{widthof85cd994e01db5245e79ce3d8f3434285da66b0a8:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
