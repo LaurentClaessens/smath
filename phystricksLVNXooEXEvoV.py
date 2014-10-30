@@ -4,8 +4,7 @@ def LVNXooEXEvoV():
     pspicts,figs = IndependentPictures("LVNXooEXEvoV",5)
 
     for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
+        psp.dilatation(0.7)
 
     triangles=[]
     triangles.append(  Polygon(  Point(0,0),Point(2,0),Point(2.5,-2)  )  )
