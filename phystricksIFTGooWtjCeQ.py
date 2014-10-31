@@ -2,7 +2,7 @@
 from phystricks import *
 def IFTGooWtjCeQ():
     pspict,fig = SinglePicture("IFTGooWtjCeQ")
-    pspict.dilatation(0.5)
+    pspict.dilatation(0.3)
 
     F=Point(0,0)
     G=Point(6,0)

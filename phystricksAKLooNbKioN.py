@@ -4,9 +4,11 @@ from phystricks import *
 def petit(x,y):
     return Rectangle(  Point(x,y+1),Point(x+1,y) )
 
+dilat=0.4
+
 def SESooBTZQPF():
     pspict,fig = SinglePicture("SESooBTZQPF")
-    pspict.dilatation(0.4)
+    pspict.dilatation(dilat)
 
     for i in range(0,4):
         for j in range(0,3):
@@ -32,7 +34,7 @@ def SESooBTZQPF():
 
 def NNZooNCAqUK():
     pspict,fig = SinglePicture("NNZooNCAqUK")
-    pspict.dilatation(0.4)
+    pspict.dilatation(dilat)
 
     for i in range(0,2):
         for j in range(0,3):
@@ -53,7 +55,7 @@ def NNZooNCAqUK():
 
 def CEZooPzIzzi():
     pspict,fig = SinglePicture("CEZooPzIzzi")
-    pspict.dilatation(0.4)
+    pspict.dilatation(dilat)
 
     for i in range(0,5):
         for j in range(0,3):

@@ -19,7 +19,7 @@ calc_litt=commun.OneChapter("Calcul littéral","5Bexercices.tex")
 
 # À la rentrée de novembre, je commence les droites remarquables dans un triangles
 
-actu5=droites_rem
+actu5=ops_frac
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
