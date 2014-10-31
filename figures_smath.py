@@ -14,6 +14,8 @@ from phystricks import *
 import sys
 
 
+from phystricksKSLDooMnmoPU import KSLDooMnmoPU
+from phystricksHHRTooMDylcn import HHRTooMDylcn
 from phystricksRRLOooSCZSre import RRLOooSCZSre
 from phystricksMITEooHPaqZu import MITEooHPaqZu
 from phystricksXSTKooZqTACG import XSTKooZqTACG
@@ -691,7 +693,13 @@ figures_list.append(DTFZooTlciUT)
 figures_list.append(XSTKooZqTACG)
 figures_list.append(MITEooHPaqZu)
 figures_list.append(RRLOooSCZSre)
+figures_list.append(HHRTooMDylcn)
+figures_list.append(KSLDooMnmoPU)
 """
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
