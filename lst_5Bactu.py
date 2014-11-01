@@ -15,7 +15,6 @@ def set_filename(medicament):
 fract=commun.OneChapter("Écriture fractionnaire","5Bexercices.tex")
 droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5Bexercices.tex")
 ops_frac=commun.OneChapter("Opérations sur les fractions","5Bexercices.tex")
-calc_litt=commun.OneChapter("Calcul littéral","5Bexercices.tex")
 
 # À la rentrée de novembre, je commence les droites remarquables dans un triangles
 
