@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 def YDAooMNHhCN():
-    pspicts,figs = IndependentPictures("YDAooMNHhCN",2)
+    pspicts,figs = IndependentPictures("YDAooMNHhCN",3)
 
     for psp in pspicts:
         psp.dilatation(1.5)
@@ -9,6 +9,25 @@ def YDAooMNHhCN():
     a=2
     b=1
     l=a+b
+
+    tA=Point(0,0)
+    tB=Point(a,0)
+    tC=Point(0,b)
+    gen_trig=Polygon(tA,tB,tC)
+    gen_c=[  s.midpoint() for s in gen_trig.edges  ]
+    for c in gen_c:
+        c.parameters.symbol=""
+    gen_c[0].put_mark(0.2,-90,"\( b\)",automatic_place=(pspicts,"N"))
+    gen_c[1].put_mark(0.2,45,"\( c\)",automatic_place=(pspicts,"corner"))
+    gen_c[2].put_mark(0.2,180,"\( a\)",automatic_place=(pspicts,"E"))
+    gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],0.2,1,0  )
+    gen_alpha=Angle(tC,tB,tA)
+    gen_alpha.put_mark(0.2,gen_alpha.advised_mark_angle,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
+    gen_beta=Angle( tA,tC,tB)
+    gen_beta.put_mark(0.2,gen_beta.advised_mark_angle,"\( \\beta\)",automatic_place=(pspicts,"corner"))
+    pspicts[2].DrawGraphs(gen_c,gen_trig,gen_rh,gen_alpha,gen_beta)
+
+
     A=Point(0,0)
     B=A+(l,0)
     C=B-(0,l)
@@ -79,7 +98,7 @@ def YDAooMNHhCN():
     L.put_mark(0.2,180,"\( L\)",automatic_place=(pspicts,"E"))
     K.put_mark(0.2,90+45,"\( K\)",automatic_place=(pspicts,"corner"))
 
-    for pspict in pspicts :
+    for pspict in pspicts[0:2] :
         pspict.DrawGraphs(grand,A,B,C,D,O,P)
     pspicts[0].DrawGraphs(M,N)
     pspicts[0].DrawGraphs(carre,a1,a2,b1,b2,cen)
