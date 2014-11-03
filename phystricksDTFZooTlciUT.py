@@ -2,7 +2,7 @@
 from phystricks import *
 def DTFZooTlciUT():
     pspict,fig = SinglePicture("DTFZooTlciUT")
-    pspict.dilatation(0.7)
+    pspict.dilatation(1)
 
     O=Point(0,0)
     cer=Circle(O,sqrt(18))
