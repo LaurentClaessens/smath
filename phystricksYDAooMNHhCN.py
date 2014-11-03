@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 def YDAooMNHhCN():
-    pspicts,figs = IndependentPictures("YDAooMNHhCN",3)
+    pspicts,figs = IndependentPictures("YDAooMNHhCN",4)
 
     for psp in pspicts:
         psp.dilatation(1.5)
@@ -41,6 +41,8 @@ def YDAooMNHhCN():
     P=D+(0,b)
 
     carre=Polygon(M,N,O,P)
+    carre.parameters.filled()
+    carre.parameters.fill.color="lightgray"
 
     A.put_mark(0.2,90+45,"\( A\)",automatic_place=(pspicts,"corner"))
     B.put_mark(0.2,45,"\( B\)",automatic_place=(pspicts,"corner"))
@@ -98,12 +100,21 @@ def YDAooMNHhCN():
     L.put_mark(0.2,180,"\( L\)",automatic_place=(pspicts,"E"))
     K.put_mark(0.2,90+45,"\( K\)",automatic_place=(pspicts,"corner"))
 
-    for pspict in pspicts[0:2] :
+    for pspict in [  pspicts[0],pspicts[1],pspicts[3] ] :
         pspict.DrawGraphs(grand,A,B,C,D,O,P)
     pspicts[0].DrawGraphs(M,N)
     pspicts[0].DrawGraphs(carre,a1,a2,b1,b2,cen)
 
-    pspicts[1].DrawGraphs(N,com1,com2,com3,com4,com5,R,K,L,cen2)
+    pspicts[3].DrawGraphs(M,N)
+    pspicts[3].DrawGraphs(carre)
+
+    car_moyen=Polygon(A,R,K,P)
+    car_petit=Polygon(R,B,N,L)
+    car_petit.parameters.filled()
+    car_petit.parameters.fill.color="lightgray"
+    car_moyen.parameters.filled()
+    car_moyen.parameters.fill.color="lightgray"
+    pspicts[1].DrawGraphs(car_petit,car_moyen,N,com1,com2,com3,com4,com5,R,K,L,cen2)
 
     for fig in figs:
         fig.no_figure()
