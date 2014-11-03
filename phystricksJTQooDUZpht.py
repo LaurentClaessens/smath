@@ -18,7 +18,7 @@ def JTQooDUZpht():
     B.put_mark(0.2,-30,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
 
-    rh=RightAngle(s1,s2,0.4,1,1)
+    rh=RightAngle(s1,s2,0.4,1,0)
 
     pspict.DrawGraphs(triangle,A,B,C,rh)
     fig.no_figure()

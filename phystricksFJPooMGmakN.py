@@ -12,7 +12,7 @@ def FJPooMGmakN():
     B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,90+45,"\( C\)",automatic_place=(pspict,"corner"))
 
-    rh=RightAngle(  Segment(C,A),Segment(A,B),0.6,1,1  )
+    rh=RightAngle(  Segment(C,A),Segment(A,B),0.6,0,1  )
 
     trig=Polygon(A,B,C)
     trig.edges[0].put_mark(0.2,-90,"\( 4\)",automatic_place=(pspict,"N"))
