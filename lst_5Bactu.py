@@ -18,7 +18,7 @@ ops_frac=commun.OneChapter("Opérations sur les fractions","5Bexercices.tex")
 
 # À la rentrée de novembre, je commence les droites remarquables dans un triangles
 
-actu5=ops_frac
+actu5=droites_rem
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
