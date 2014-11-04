@@ -13,9 +13,10 @@ def set_filename(medicament):
     medicament.new_output_filename="0-actu4A.pdf"
 
 pythagore=commun.OneChapter("Égalité de Pythagore","4Aexercices.tex")
+propo=commun.OneChapter("Grandeurs proportionnelles","4Aexercices.tex")
 
 
-actu4=pythagore
+actu4=propo
 actu4.set_filename=set_filename
 actu4.write_the_file()
 
