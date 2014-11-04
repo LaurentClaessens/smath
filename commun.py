@@ -1,8 +1,10 @@
 class OneChapter(object):
-    def __init__(self,chapter_title,exercice_filename):
+    def __init__(self,chapter_title,group):
+        self.group=group
         self.chapter_title=chapter_title
-        self.exercice_filename=exercice_filename
+        self.exercice_filename=self.group+"exercices.tex"
         self.input_filename=self.smath_input_line().replace("\input{","").replace("}","").replace("\n","")
+        self._count_section=0
     def smath_input_line(self):
         smath_lines=open("smath.tex").readlines()
         for i,l in enumerate(smath_lines):
@@ -20,22 +22,40 @@ class OneChapter(object):
             if ll.startswith("\Exo"):
                 n=n+1
         return n
+    def count_section(self,text=None,i_line=None):
+        """
+        return the number of section from the beggining to the line number 'i_line':
+        """
+        if text==None:
+            return self._count_section
+        lines=text.split("\n")[0:i_line]
+        n=0
+        for l in lines:
+            ll=l.replace(" ","")
+            if ll.startswith("\section"):
+                n=n+1
+        self._count_section=n
+        return n
     def exercice_lines(self,filename):
         el=open(filename).readlines()
         for i,l in enumerate(el):
             if self.chapter_title in l:
+                section_line=l
                 i_line=i+1
         f_line=i_line+1
         while "\section" not in el[f_line] and "\end{document}" not in el[f_line] :
             f_line=f_line+1
         f_line=f_line-1
         exo=self.count_exo("".join(el),i_line)
+        section=self.count_section("".join(el),i_line)
         sublist=["\setcounter{{CountExercice}}{{{}}}".format(exo)]
+        sublist.append(  "\setcounter{{section}}{{{}}}".format(section-1) )  # -1 because the \section command will add one.
+        sublist.append(section_line)
         sublist.extend(el[i_line:f_line])
         return "".join(sublist)
     def write_the_file(self,filename="automatedChapter.tex"):
         generic_lines="".join(open("genericChapter.tex").readlines())
-        text=generic_lines.replace("TITRE_CHAPITRE",self.chapter_title).replace("LES_INPUT",self.smath_input_line()).replace("LISTE_EXERCICES",self.exercice_lines(self.exercice_filename))
+        text=generic_lines.replace("TITRE_CHAPITRE",self.chapter_title+" ({})".format(self.group)).replace("LES_INPUT",self.smath_input_line()).replace("LISTE_EXERCICES",self.exercice_lines(self.exercice_filename)).replace("N_CHAPITRE",str(self.count_section()-1))
         f=open(filename,'w')
         f.write(text)
         f.close()

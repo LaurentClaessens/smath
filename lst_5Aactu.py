@@ -12,10 +12,10 @@ myRequest.original_filename="automatedChapter.tex"
 def set_filename(medicament):
     medicament.new_output_filename="0-actu5A.pdf"
 
-fract=commun.OneChapter("Écriture fractionnaire","5Aexercices.tex")
-droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5Aexercices.tex")
-ops_frac=commun.OneChapter("Opérations sur les fractions","5Aexercices.tex")
-exp_litt=commun.OneChapter("Expressions littérales","5Aexercices.tex")
+fract=commun.OneChapter("Écriture fractionnaire","5A")
+droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5A")
+ops_frac=commun.OneChapter("Opérations sur les fractions","5A")
+exp_litt=commun.OneChapter("Expressions littérales","5A")
 
 # À la rentrée de novembre, je continue les opérations sur les fractions.
 # Donc ici je prépare les expressions littérales

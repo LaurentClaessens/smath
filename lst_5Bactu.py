@@ -12,9 +12,9 @@ myRequest.original_filename="automatedChapter.tex"
 def set_filename(medicament):
     medicament.new_output_filename="0-actu5B.pdf"
 
-fract=commun.OneChapter("Écriture fractionnaire","5Bexercices.tex")
-droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5Bexercices.tex")
-ops_frac=commun.OneChapter("Opérations sur les fractions","5Bexercices.tex")
+fract=commun.OneChapter("Écriture fractionnaire","5B")
+droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5B")
+ops_frac=commun.OneChapter("Opérations sur les fractions","5B")
 
 # À la rentrée de novembre, je commence les droites remarquables dans un triangles
 
