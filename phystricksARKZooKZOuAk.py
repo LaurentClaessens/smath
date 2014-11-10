@@ -1,42 +1,66 @@
 # -*- coding: utf8 -*-
 
 from phystricks import *
-#from LaTeXparser import PytexTools
-import LaTeXparser.PytexTools
-
-class Situation(object):
-    def __init__(self,name,p1,p2,pts):
-        self.name=name
-        self.pts=pts
-        self.p1=p1
-        self.p2=p2
-        dic={}
-        dic[(0,0)]="\\text{"+p1+"}"
-        dic[(0,1)]="\\text{"+p2+"}"
-        for i,p in enumerate(pts):
-            dic[(i+1,0)]=str(p[0])
-            dic[(i+1,1)]=str(p[1])
-        self.array=LaTeXparser.PytexTools.Array(dic)
-    def write_the_file(self):
-        filename="Fig_ARKZooKZOuAk"+self.name+".latex"
-        f=open(filename,'w')
-        f.write(self.latex())
-        f.close()
-        print("Tableau dans le fichier",filename)
-    def points_list(self):
-        return [  Point(k[0],k[1]) for k in self.pts ]
-    def latex(self):
-        return self.array.latex()
+import commun
 
 def ARKZooKZOuAk():
-    pspict,fig = SinglePicture("ARKZooKZOuAk")
-    pspict.dilatation(1)
+    pspicts,figs = IndependentPictures("ARKZooKZOuAk",4)
+
+    pspicts[0].dilatation(0.6)
+
+    pspicts[1].dilatation_X(0.05)
+    pspicts[1].dilatation_Y(0.07)
+
+    pspicts[2].dilatation_X(0.2)
+    pspicts[2].dilatation_Y(0.1)
+
+    pspicts[3].dilatation_X(1)
+    pspicts[3].dilatation_Y(0.5)
     
-    A=Situation(name="convprix", p1= "prix en euros",p2="prix en wut", pts=[ (1,1.5),(2,3),(3,4.5),(4,6)  ]   )
+    A=commun.Situation(name="ARKZooKZOuAkconvprix", p1= "prix en euros",p2="prix en wut", pts=[ (1,1.5),(2,3),(3,4.5),(4,6)  ]   )
     A.write_the_file()
+
+    pspicts[1].Mx_acceptable_BB=120
     
-    pspict.DrawGraphs(A.points_list())
-    pspict.DrawDefaultAxes()
-    pspict.DrawDefaultGrid()
-    fig.conclude()
-    fig.write_the_file()
+    B=commun.Situation(name="ARKZooKZOuAkfar", p1= "Température en Fahrenheit",p2="Témpérature en Celsius", pts=[ (14,-10),(32,0),(41,5),(59,15),(95,35)  ]   )
+    B.write_the_file()
+
+    C=commun.Situation(name="ARKZooKZOuAkmilm", p1= "distance en mile marin",p2="distance en \si{\kilo\meter}", pts=[ (0,0),(5,9.26),(10,18.52),(15,27.78)  ]   )
+    C.write_the_file()
+
+    D=commun.Situation(name="ARKZooKZOuAkctlibre", p1= "Temps de chute libre (\si{second}",p2="Hauteur parcourue (\si{\meter})", pts=[ (0,0),(0.2,0.19),(0.5,1.22),(0.7,2.4), (1,4.9),(1.2,7),(1.7,14,17) ]   )
+    D.write_the_file()
+
+    #<++>=commun.Situation(name="<++>", p1= "<++>",p2="<++>", pts=[ (<++>,<++>),(<++>,<++>),(<++>,<++>),(<++>,<++>)  ]   )
+    #<++>.write_the_file()
+
+    pspicts[0].DrawGraphs(A.points_list())
+    pspicts[1].DrawGraphs(B.points_list())
+    pspicts[2].DrawGraphs(C.points_list())
+    pspicts[3].DrawGraphs(D.points_list())
+
+    pspicts[0].DrawDefaultGrid()
+    pspicts[0].DrawDefaultAxes()
+
+
+    pspicts[1].grid.Dx=20
+    pspicts[1].grid.Dy=10
+    pspicts[1].DrawDefaultGrid()
+    pspicts[1].axes.single_axeX.Dx=20
+    pspicts[1].axes.single_axeY.Dx=10
+    pspicts[1].DrawDefaultAxes()
+
+    pspicts[2].grid.Dx=5
+    pspicts[2].grid.Dy=5
+    pspicts[2].DrawDefaultGrid()
+    pspicts[2].axes.single_axeX.Dx=5
+    pspicts[2].axes.single_axeY.Dx=5
+    pspicts[2].DrawDefaultAxes()
+
+    pspicts[3].DrawDefaultGrid()
+    pspicts[3].DrawDefaultAxes()
+    
+    for fig in figs:
+        fig.no_figure()
+        fig.conclude()
+        fig.write_the_file()
