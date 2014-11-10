@@ -15,7 +15,7 @@ def ARKZooKZOuAk():
     pspicts[2].dilatation_Y(0.1)
 
     pspicts[3].dilatation_X(1)
-    pspicts[3].dilatation_Y(0.5)
+    pspicts[3].dilatation_Y(0.3)
     
     A=commun.Situation(name="ARKZooKZOuAkconvprix", p1= "prix en euros",p2="prix en wut", pts=[ (1,1.5),(2,3),(3,4.5),(4,6)  ]   )
     A.write_the_file()
@@ -57,7 +57,11 @@ def ARKZooKZOuAk():
     pspicts[2].axes.single_axeY.Dx=5
     pspicts[2].DrawDefaultAxes()
 
+    pspicts[3].grid.Dx=1
+    pspicts[3].grid.Dy=2
     pspicts[3].DrawDefaultGrid()
+    pspicts[3].single_axeX.Dx=1
+    pspicts[3].single_axeY.Dx=2
     pspicts[3].DrawDefaultAxes()
     
     for fig in figs:
