@@ -28,7 +28,7 @@ def ARKZooKZOuAk():
     C=commun.Situation(name="ARKZooKZOuAkmilm", p1= "distance en mile marin",p2="distance en \si{\kilo\meter}", pts=[ (0,0),(5,9.26),(10,18.52),(15,27.78)  ]   )
     C.write_the_file()
 
-    D=commun.Situation(name="ARKZooKZOuAkctlibre", p1= "Temps de chute libre (\si{second}",p2="Hauteur parcourue (\si{\meter})", pts=[ (0,0),(0.2,0.19),(0.5,1.22),(0.7,2.4), (1,4.9),(1.2,7),(1.7,14,17) ]   )
+    D=commun.Situation(name="ARKZooKZOuAkctlibre", p1= "Temps de chute libre (\si{\second})",p2="Hauteur parcourue (\si{\meter})", pts=[ (0,0),(0.2,0.19),(0.5,1.22),(0.7,2.4), (1,4.9),(1.2,7),(1.5,11,03) ]   )
     D.write_the_file()
 
     #<++>=commun.Situation(name="<++>", p1= "<++>",p2="<++>", pts=[ (<++>,<++>),(<++>,<++>),(<++>,<++>),(<++>,<++>)  ]   )
@@ -39,7 +39,12 @@ def ARKZooKZOuAk():
     pspicts[2].DrawGraphs(C.points_list())
     pspicts[3].DrawGraphs(D.points_list())
 
+
+    for psp in pspicts:
+        psp.axes.do_my_enlarge=False
+
     pspicts[0].DrawDefaultGrid()
+    pspicts[0].axes.do_My_enlarge=False
     pspicts[0].DrawDefaultAxes()
 
 
@@ -55,6 +60,7 @@ def ARKZooKZOuAk():
     pspicts[2].DrawDefaultGrid()
     pspicts[2].axes.single_axeX.Dx=5
     pspicts[2].axes.single_axeY.Dx=5
+    pspicts[2].axes.do_My_enlarge=False
     pspicts[2].DrawDefaultAxes()
 
     pspicts[3].grid.Dx=1
@@ -62,6 +68,7 @@ def ARKZooKZOuAk():
     pspicts[3].DrawDefaultGrid()
     pspicts[3].single_axeX.Dx=1
     pspicts[3].single_axeY.Dx=2
+    pspicts[3].axes.do_My_enlarge=False
     pspicts[3].DrawDefaultAxes()
     
     for fig in figs:
