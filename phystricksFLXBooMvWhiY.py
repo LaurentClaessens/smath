@@ -7,7 +7,7 @@ def FLXBooMvWhiY():
     pspicts,figs = IndependentPictures("FLXBooMvWhiY",3)
 
     for psp in pspicts:
-        psp.dilatation_X(0.3)
+        psp.dilatation_X(0.15)
         psp.dilatation_Y(0.3)
 
     pspicts[2].dilatation_Y(0.1)
