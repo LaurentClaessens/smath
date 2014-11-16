@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigDTFZooTlciUT.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{Tristan}}%
-\immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{Tristan}}%
-\immediate\write\writeOfphystricks{widthof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{Perceval}}%
-\immediate\write\writeOfphystricks{totalheightof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{Perceval}}%
-\immediate\write\writeOfphystricks{widthof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{Lancelot}}%
-\immediate\write\writeOfphystricks{totalheightof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{Lancelot}}%
-\immediate\write\writeOfphystricks{widthof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Tristan}}%
+\immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{Tristan}}%
+\immediate\write\writeOfphystricks{widthof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Perceval}}%
+\immediate\write\writeOfphystricks{totalheightof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{Perceval}}%
+\immediate\write\writeOfphystricks{widthof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Lancelot}}%
+\immediate\write\writeOfphystricks{totalheightof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{Lancelot}}%
+\immediate\write\writeOfphystricks{widthof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -69,13 +69,6 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-%DEFAULT
-\draw []  (-3.000000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw (-3.665956023,3.256233856) node {Tristan};
-\draw []  (3.000000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw (3.746056023,3.256233856) node {Perceval};
-\draw []  (1.451068576,-3.986778146) node [rotate=0] {$\bullet$};
-\draw (2.142160438,-4.289529170) node {Lancelot};
 \draw [color=gray,style=solid] (-3.000000000,-4.000000000) -- (-3.000000000,3.000000000);
 \draw [color=gray,style=solid] (-2.000000000,-4.000000000) -- (-2.000000000,3.000000000);
 \draw [color=gray,style=solid] (-1.000000000,-4.000000000) -- (-1.000000000,3.000000000);
@@ -104,6 +97,13 @@
 \draw [color=gray,style=solid] (-3.000000000,1.000000000) -- (3.000000000,1.000000000);
 \draw [color=gray,style=solid] (-3.000000000,2.000000000) -- (3.000000000,2.000000000);
 \draw [color=gray,style=solid] (-3.000000000,3.000000000) -- (3.000000000,3.000000000);
+%DEFAULT
+\draw []  (-3.000000000,3.000000000) node [rotate=0] {$\bullet$};
+\draw (-3.757206856,3.279196023) node {Tristan};
+\draw []  (3.000000000,3.000000000) node [rotate=0] {$\bullet$};
+\draw (3.851272356,3.279196023) node {Perceval};
+\draw []  (1.451068576,-3.986778146) node [rotate=0] {$\bullet$};
+\draw (2.251085271,-4.312491337) node {Lancelot};
 %AXES
 %OTHER STUFF
 %END PSPICTURE

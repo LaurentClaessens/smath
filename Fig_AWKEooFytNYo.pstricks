@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigAWKEooFytNYo.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Cata\)}}%
-\immediate\write\writeOfphystricks{totalheightofe41ccecfb283b7f8bd6c43b98e04a61235b78b98:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Cata\)}}%
-\immediate\write\writeOfphystricks{widthofe41ccecfb283b7f8bd6c43b98e04a61235b78b98:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Cata\)}}%
+\immediate\write\writeOfphystricks{totalheightofe41ccecfb283b7f8bd6c43b98e04a61235b78b98:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Cata\)}}%
+\immediate\write\writeOfphystricks{widthofe41ccecfb283b7f8bd6c43b98e04a61235b78b98:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -73,11 +73,11 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
-\draw (-0.5486370229,0.2571620229) node {\( Alala\)};
+\draw (-0.1414213562,0.1414213562) node {\( Alala\)};
 \draw []  (2.800000000,-0.3500000000) node [rotate=0] {$\bullet$};
-\draw (3.461618023,-0.09283797710) node {\( Bobobo\)};
+\draw (2.941421356,-0.2085786438) node {\( Bobobo\)};
 \draw []  (4.200000000,-1.400000000) node [rotate=0] {$\bullet$};
-\draw (4.708844356,-1.655309856) node {\( Cata\)};
+\draw (4.341421356,-1.541421356) node {\( Cata\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

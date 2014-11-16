@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigMITEooHPaqZu.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( A \)}}%
-\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( A \)}}%
-\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( B \)}}%
-\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( B \)}}%
-\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( C \)}}%
-\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( C \)}}%
-\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A \)}}%
+\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A \)}}%
+\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B \)}}%
+\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B \)}}%
+\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C \)}}%
+\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C \)}}%
+\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -73,11 +73,11 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
-\draw (-0.3013352531,-0.2082600851) node {\( A \)};
+\draw (-0.1763349198,-0.09437158510) node {\( A \)};
 \draw []  (2.500000000,0.0) node [rotate=0] {$\bullet$};
-\draw (2.819555906,-0.1904251865) node {\( B \)};
+\draw (2.684775906,-0.07653668647) node {\( B \)};
 \draw []  (1.000000000,1.500000000) node [rotate=0] {$\bullet$};
-\draw (0.8492509764,1.812915165) node {\( C \)};
+\draw (0.9802924764,1.699026665) node {\( C \)};
 \draw [] (0.0,0.0) -- (2.500000000,0.0);
 \draw [] (2.500000000,0.0) -- (1.000000000,1.500000000);
 \draw [] (1.000000000,1.500000000) -- (0.0,0.0);
