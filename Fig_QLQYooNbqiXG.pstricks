@@ -9,20 +9,20 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigAWKEooFytNYo.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigQLQYooNbqiXG.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{totalheightofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( F\)}}%
+\immediate\write\writeOfphystricks{widthofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -65,19 +65,22 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo}
+\tikzsetnextfilename{tikzFIGLabelFigQLQYooNbqiXGPICTQLQYooNbqiXG}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (0.0,0.0) node [rotate=0] {$\bullet$};
-\draw (-0.5486370229,0.2571620229) node {\( Alala\)};
-\draw []  (2.800000000,-0.3500000000) node [rotate=0] {$\bullet$};
-\draw (3.461618023,-0.09283797710) node {\( Bobobo\)};
-\draw []  (4.200000000,-1.400000000) node [rotate=0] {$\bullet$};
-\draw (4.857127690,-1.655309856) node {\( Catata\)};
+\draw []  (1.000000000,0) node [rotate=0] {$\bullet$};
+\draw (0.6746504982,-0.1574478246) node {\( P\)};
+\draw []  (3.000000000,-0.3000000000) node [rotate=0] {$\bullet$};
+\draw (3.227241480,-0.5888372544) node {\( F\)};
+\draw []  (4.000000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw (4.253301638,2.267312016) node {\( A\)};
+\draw [] (1.000000000,0) -- (3.000000000,-0.3000000000);
+\draw [] (3.000000000,-0.3000000000) -- (4.000000000,2.000000000);
+\draw [] (4.000000000,2.000000000) -- (1.000000000,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

@@ -16,9 +16,8 @@ fract=commun.OneChapter("Écriture fractionnaire","5B")
 droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5B")
 ops_frac=commun.OneChapter("Opérations sur les fractions","5B")
 
-# À la rentrée de novembre, je commence les droites remarquables dans un triangles
 
-actu5=droites_rem
+actu5=ops_frac
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

@@ -16,7 +16,7 @@ def DTFZooTlciUT():
     L.put_mark(0.2,-70,"Lancelot",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(T,P,L)
-    pspict.DrawDefaultGrid()
+    #pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

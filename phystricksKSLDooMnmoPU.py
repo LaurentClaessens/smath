@@ -14,7 +14,7 @@ def KSLDooMnmoPU():
     hauteur=triangle.edges[1].orthogonal_trough(A).dilatation(1.3)
     hauteur.parameters.style="dashed"
     L=Intersection(hauteur,triangle.edges[1])[0]
-    L.put_mark(0.3,45,"\( L\)",automatic_place=(pspict,"corner"))
+    L.put_mark(0.3,100,"\( L\)",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(triangle,hauteur,L)
     fig.no_figure()
