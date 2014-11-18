@@ -11,10 +11,6 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigQGaeERu.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -2 $}}%
-\immediate\write\writeOfphystricks{totalheightoff66654a967831d75e2a133d03fb0753c049acbc1:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -2 $}}%
-\immediate\write\writeOfphystricks{widthoff66654a967831d75e2a133d03fb0753c049acbc1:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 2 $}}%
 \immediate\write\writeOfphystricks{totalheightofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 2 $}}%
@@ -59,10 +55,6 @@
 \immediate\write\writeOfphystricks{totalheightof7d718e646ad3f6a9e7a6c0f1ab0c1c599aac77d8:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 22 $}}%
 \immediate\write\writeOfphystricks{widthof7d718e646ad3f6a9e7a6c0f1ab0c1c599aac77d8:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -20 $}}%
-\immediate\write\writeOfphystricks{totalheightof1ce52bdddeef29f84308f403171c156f257c0460:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -20 $}}%
-\immediate\write\writeOfphystricks{widthof1ce52bdddeef29f84308f403171c156f257c0460:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -10 $}}%
 \immediate\write\writeOfphystricks{totalheightof1ae472eba4b5b46d128ab0f3614b7a095b92079c:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -10 $}}%
@@ -161,63 +153,57 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-0.6000000000,-0.4500000000) -- (-0.6000000000,5.850000000);
-\draw [color=gray,style=solid] (0.0,-0.4500000000) -- (0.0,5.850000000);
-\draw [color=gray,style=solid] (0.6000000000,-0.4500000000) -- (0.6000000000,5.850000000);
-\draw [color=gray,style=solid] (1.200000000,-0.4500000000) -- (1.200000000,5.850000000);
-\draw [color=gray,style=solid] (1.800000000,-0.4500000000) -- (1.800000000,5.850000000);
-\draw [color=gray,style=solid] (2.400000000,-0.4500000000) -- (2.400000000,5.850000000);
-\draw [color=gray,style=solid] (3.000000000,-0.4500000000) -- (3.000000000,5.850000000);
-\draw [color=gray,style=solid] (3.600000000,-0.4500000000) -- (3.600000000,5.850000000);
-\draw [color=gray,style=solid] (4.200000000,-0.4500000000) -- (4.200000000,5.850000000);
-\draw [color=gray,style=solid] (4.800000000,-0.4500000000) -- (4.800000000,5.850000000);
-\draw [color=gray,style=solid] (5.400000000,-0.4500000000) -- (5.400000000,5.850000000);
-\draw [color=gray,style=solid] (6.000000000,-0.4500000000) -- (6.000000000,5.850000000);
-\draw [color=gray,style=solid] (6.600000000,-0.4500000000) -- (6.600000000,5.850000000);
-\draw [color=gray,style=dotted] (-0.3000000000,-0.4500000000) -- (-0.3000000000,5.850000000);
-\draw [color=gray,style=dotted] (0.3000000000,-0.4500000000) -- (0.3000000000,5.850000000);
-\draw [color=gray,style=dotted] (0.9000000000,-0.4500000000) -- (0.9000000000,5.850000000);
-\draw [color=gray,style=dotted] (1.500000000,-0.4500000000) -- (1.500000000,5.850000000);
-\draw [color=gray,style=dotted] (2.100000000,-0.4500000000) -- (2.100000000,5.850000000);
-\draw [color=gray,style=dotted] (2.700000000,-0.4500000000) -- (2.700000000,5.850000000);
-\draw [color=gray,style=dotted] (3.300000000,-0.4500000000) -- (3.300000000,5.850000000);
-\draw [color=gray,style=dotted] (3.900000000,-0.4500000000) -- (3.900000000,5.850000000);
-\draw [color=gray,style=dotted] (4.500000000,-0.4500000000) -- (4.500000000,5.850000000);
-\draw [color=gray,style=dotted] (5.100000000,-0.4500000000) -- (5.100000000,5.850000000);
-\draw [color=gray,style=dotted] (5.700000000,-0.4500000000) -- (5.700000000,5.850000000);
-\draw [color=gray,style=dotted] (6.300000000,-0.4500000000) -- (6.300000000,5.850000000);
-\draw [color=gray,style=dotted] (-0.6000000000,-0.2250000000) -- (6.600000000,-0.2250000000);
-\draw [color=gray,style=dotted] (-0.6000000000,0.2250000000) -- (6.600000000,0.2250000000);
-\draw [color=gray,style=dotted] (-0.6000000000,0.6750000000) -- (6.600000000,0.6750000000);
-\draw [color=gray,style=dotted] (-0.6000000000,1.125000000) -- (6.600000000,1.125000000);
-\draw [color=gray,style=dotted] (-0.6000000000,1.575000000) -- (6.600000000,1.575000000);
-\draw [color=gray,style=dotted] (-0.6000000000,2.025000000) -- (6.600000000,2.025000000);
-\draw [color=gray,style=dotted] (-0.6000000000,2.475000000) -- (6.600000000,2.475000000);
-\draw [color=gray,style=dotted] (-0.6000000000,2.925000000) -- (6.600000000,2.925000000);
-\draw [color=gray,style=dotted] (-0.6000000000,3.375000000) -- (6.600000000,3.375000000);
-\draw [color=gray,style=dotted] (-0.6000000000,3.825000000) -- (6.600000000,3.825000000);
-\draw [color=gray,style=dotted] (-0.6000000000,4.275000000) -- (6.600000000,4.275000000);
-\draw [color=gray,style=dotted] (-0.6000000000,4.725000000) -- (6.600000000,4.725000000);
-\draw [color=gray,style=dotted] (-0.6000000000,5.175000000) -- (6.600000000,5.175000000);
-\draw [color=gray,style=dotted] (-0.6000000000,5.625000000) -- (6.600000000,5.625000000);
-\draw [color=gray,style=solid] (-0.6000000000,-0.4500000000) -- (6.600000000,-0.4500000000);
-\draw [color=gray,style=solid] (-0.6000000000,0.0) -- (6.600000000,0.0);
-\draw [color=gray,style=solid] (-0.6000000000,0.4500000000) -- (6.600000000,0.4500000000);
-\draw [color=gray,style=solid] (-0.6000000000,0.9000000000) -- (6.600000000,0.9000000000);
-\draw [color=gray,style=solid] (-0.6000000000,1.350000000) -- (6.600000000,1.350000000);
-\draw [color=gray,style=solid] (-0.6000000000,1.800000000) -- (6.600000000,1.800000000);
-\draw [color=gray,style=solid] (-0.6000000000,2.250000000) -- (6.600000000,2.250000000);
-\draw [color=gray,style=solid] (-0.6000000000,2.700000000) -- (6.600000000,2.700000000);
-\draw [color=gray,style=solid] (-0.6000000000,3.150000000) -- (6.600000000,3.150000000);
-\draw [color=gray,style=solid] (-0.6000000000,3.600000000) -- (6.600000000,3.600000000);
-\draw [color=gray,style=solid] (-0.6000000000,4.050000000) -- (6.600000000,4.050000000);
-\draw [color=gray,style=solid] (-0.6000000000,4.500000000) -- (6.600000000,4.500000000);
-\draw [color=gray,style=solid] (-0.6000000000,4.950000000) -- (6.600000000,4.950000000);
-\draw [color=gray,style=solid] (-0.6000000000,5.400000000) -- (6.600000000,5.400000000);
-\draw [color=gray,style=solid] (-0.6000000000,5.850000000) -- (6.600000000,5.850000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (0.0,5.850000000);
+\draw [color=gray,style=solid] (0.6000000000,0.0) -- (0.6000000000,5.850000000);
+\draw [color=gray,style=solid] (1.200000000,0.0) -- (1.200000000,5.850000000);
+\draw [color=gray,style=solid] (1.800000000,0.0) -- (1.800000000,5.850000000);
+\draw [color=gray,style=solid] (2.400000000,0.0) -- (2.400000000,5.850000000);
+\draw [color=gray,style=solid] (3.000000000,0.0) -- (3.000000000,5.850000000);
+\draw [color=gray,style=solid] (3.600000000,0.0) -- (3.600000000,5.850000000);
+\draw [color=gray,style=solid] (4.200000000,0.0) -- (4.200000000,5.850000000);
+\draw [color=gray,style=solid] (4.800000000,0.0) -- (4.800000000,5.850000000);
+\draw [color=gray,style=solid] (5.400000000,0.0) -- (5.400000000,5.850000000);
+\draw [color=gray,style=solid] (6.000000000,0.0) -- (6.000000000,5.850000000);
+\draw [color=gray,style=solid] (6.600000000,0.0) -- (6.600000000,5.850000000);
+\draw [color=gray,style=dotted] (0.3000000000,0.0) -- (0.3000000000,5.850000000);
+\draw [color=gray,style=dotted] (0.9000000000,0.0) -- (0.9000000000,5.850000000);
+\draw [color=gray,style=dotted] (1.500000000,0.0) -- (1.500000000,5.850000000);
+\draw [color=gray,style=dotted] (2.100000000,0.0) -- (2.100000000,5.850000000);
+\draw [color=gray,style=dotted] (2.700000000,0.0) -- (2.700000000,5.850000000);
+\draw [color=gray,style=dotted] (3.300000000,0.0) -- (3.300000000,5.850000000);
+\draw [color=gray,style=dotted] (3.900000000,0.0) -- (3.900000000,5.850000000);
+\draw [color=gray,style=dotted] (4.500000000,0.0) -- (4.500000000,5.850000000);
+\draw [color=gray,style=dotted] (5.100000000,0.0) -- (5.100000000,5.850000000);
+\draw [color=gray,style=dotted] (5.700000000,0.0) -- (5.700000000,5.850000000);
+\draw [color=gray,style=dotted] (6.300000000,0.0) -- (6.300000000,5.850000000);
+\draw [color=gray,style=dotted] (0.0,0.2250000000) -- (6.600000000,0.2250000000);
+\draw [color=gray,style=dotted] (0.0,0.6750000000) -- (6.600000000,0.6750000000);
+\draw [color=gray,style=dotted] (0.0,1.125000000) -- (6.600000000,1.125000000);
+\draw [color=gray,style=dotted] (0.0,1.575000000) -- (6.600000000,1.575000000);
+\draw [color=gray,style=dotted] (0.0,2.025000000) -- (6.600000000,2.025000000);
+\draw [color=gray,style=dotted] (0.0,2.475000000) -- (6.600000000,2.475000000);
+\draw [color=gray,style=dotted] (0.0,2.925000000) -- (6.600000000,2.925000000);
+\draw [color=gray,style=dotted] (0.0,3.375000000) -- (6.600000000,3.375000000);
+\draw [color=gray,style=dotted] (0.0,3.825000000) -- (6.600000000,3.825000000);
+\draw [color=gray,style=dotted] (0.0,4.275000000) -- (6.600000000,4.275000000);
+\draw [color=gray,style=dotted] (0.0,4.725000000) -- (6.600000000,4.725000000);
+\draw [color=gray,style=dotted] (0.0,5.175000000) -- (6.600000000,5.175000000);
+\draw [color=gray,style=dotted] (0.0,5.625000000) -- (6.600000000,5.625000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (6.600000000,0.0);
+\draw [color=gray,style=solid] (0.0,0.4500000000) -- (6.600000000,0.4500000000);
+\draw [color=gray,style=solid] (0.0,0.9000000000) -- (6.600000000,0.9000000000);
+\draw [color=gray,style=solid] (0.0,1.350000000) -- (6.600000000,1.350000000);
+\draw [color=gray,style=solid] (0.0,1.800000000) -- (6.600000000,1.800000000);
+\draw [color=gray,style=solid] (0.0,2.250000000) -- (6.600000000,2.250000000);
+\draw [color=gray,style=solid] (0.0,2.700000000) -- (6.600000000,2.700000000);
+\draw [color=gray,style=solid] (0.0,3.150000000) -- (6.600000000,3.150000000);
+\draw [color=gray,style=solid] (0.0,3.600000000) -- (6.600000000,3.600000000);
+\draw [color=gray,style=solid] (0.0,4.050000000) -- (6.600000000,4.050000000);
+\draw [color=gray,style=solid] (0.0,4.500000000) -- (6.600000000,4.500000000);
+\draw [color=gray,style=solid] (0.0,4.950000000) -- (6.600000000,4.950000000);
+\draw [color=gray,style=solid] (0.0,5.400000000) -- (6.600000000,5.400000000);
+\draw [color=gray,style=solid] (0.0,5.850000000) -- (6.600000000,5.850000000);
 %AXES
-\draw (-0.6000000000,-0.3408228333) node { $ -2 $ };
-\draw [] (-0.6000000000,-0.1000000000) -- (-0.6000000000,0.1000000000);
 \draw (0.6000000000,-0.3259458333) node { $ 2 $ };
 \draw [] (0.6000000000,-0.1000000000) -- (0.6000000000,0.1000000000);
 \draw (1.200000000,-0.3259458333) node { $ 4 $ };
@@ -240,9 +226,7 @@
 \draw [] (6.000000000,-0.1000000000) -- (6.000000000,0.1000000000);
 \draw (6.600000000,-0.3259458333) node { $ 22 $ };
 \draw [] (6.600000000,-0.1000000000) -- (6.600000000,0.1000000000);
-\draw [,->,>=latex] (-1.100000000,0.0) -- (7.100000000,0.0);
-\draw (-0.5481101667,-0.9000000000) node { $ -20 $ };
-\draw [] (-0.1000000000,-0.9000000000) -- (0.1000000000,-0.9000000000);
+\draw [,->,>=latex] (-0.5000000000,0.0) -- (7.100000000,0.0);
 \draw (-0.5481101667,-0.4500000000) node { $ -10 $ };
 \draw [] (-0.1000000000,-0.4500000000) -- (0.1000000000,-0.4500000000);
 \draw (-0.3958328333,0.4500000000) node { $ 10 $ };
@@ -273,7 +257,7 @@
 \draw [] (-0.1000000000,5.850000000) -- (0.1000000000,5.850000000);
 \draw (-0.4937491667,6.300000000) node { $ 140 $ };
 \draw [] (-0.1000000000,6.300000000) -- (0.1000000000,6.300000000);
-\draw [,->,>=latex] (0.0,-0.9500000000) -- (0.0,6.350000000);
+\draw [,->,>=latex] (0.0,-0.5000000000) -- (0.0,6.350000000);
 %DEFAULT
 \draw [color=blue,samples=100] plot [smooth,tension=1] coordinates {(0.0,0.945)(0.0636,1.13)(0.127,1.32)(0.191,1.50)(0.255,1.68)(0.318,1.85)(0.382,2.02)(0.445,2.18)(0.509,2.34)(0.573,2.50)(0.636,2.65)(0.700,2.80)(0.764,2.94)(0.827,3.08)(0.891,3.22)(0.955,3.35)(1.02,3.48)(1.08,3.61)(1.15,3.73)(1.21,3.84)(1.27,3.95)(1.34,4.06)(1.40,4.16)(1.46,4.26)(1.53,4.36)(1.59,4.45)(1.65,4.54)(1.72,4.62)(1.78,4.70)(1.85,4.78)(1.91,4.85)(1.97,4.92)(2.04,4.98)(2.10,5.04)(2.16,5.10)(2.23,5.15)(2.29,5.19)(2.35,5.24)(2.42,5.28)(2.48,5.31)(2.55,5.34)(2.61,5.37)(2.67,5.39)(2.74,5.41)(2.80,5.42)(2.86,5.44)(2.93,5.44)(2.99,5.44)(3.05,5.44)(3.12,5.44)(3.18,5.43)(3.25,5.41)(3.31,5.40)(3.37,5.38)(3.44,5.35)(3.50,5.32)(3.56,5.29)(3.63,5.25)(3.69,5.21)(3.75,5.16)(3.82,5.11)(3.88,5.06)(3.95,5.00)(4.01,4.94)(4.07,4.87)(4.14,4.80)(4.20,4.72)(4.26,4.65)(4.33,4.56)(4.39,4.48)(4.45,4.39)(4.52,4.29)(4.58,4.19)(4.65,4.09)(4.71,3.98)(4.77,3.87)(4.84,3.76)(4.90,3.64)(4.96,3.52)(5.03,3.39)(5.09,3.26)(5.15,3.12)(5.22,2.98)(5.28,2.84)(5.35,2.69)(5.41,2.54)(5.47,2.39)(5.54,2.23)(5.60,2.06)(5.66,1.90)(5.73,1.73)(5.79,1.55)(5.85,1.37)(5.92,1.19)(5.98,0.999)(6.05,0.808)(6.11,0.612)(6.17,0.412)(6.24,0.208)(6.30,0.0)};
 %OTHER STUFF

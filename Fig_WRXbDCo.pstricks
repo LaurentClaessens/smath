@@ -19,10 +19,6 @@
 \immediate\write\writeOfphystricks{totalheightofffbecf36f1ac7c5b893d5851d03cbb9eebf93ff4:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\widthof{\si{\meter}}}%
 \immediate\write\writeOfphystricks{widthofffbecf36f1ac7c5b893d5851d03cbb9eebf93ff4:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDfiguressmathDpy-}
 \setlength{\lengthOfDfiguressmathDpy}{\widthof{$ 1 $}}%
@@ -105,22 +101,19 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-3.000000000,-1.000000000) -- (-3.000000000,4.000000000);
 \draw [color=gray,style=solid] (0,-1.000000000) -- (0,4.000000000);
 \draw [color=gray,style=solid] (3.000000000,-1.000000000) -- (3.000000000,4.000000000);
 \draw [color=gray,style=solid] (6.000000000,-1.000000000) -- (6.000000000,4.000000000);
 \draw [color=gray,style=solid] (9.000000000,-1.000000000) -- (9.000000000,4.000000000);
 \draw [color=gray,style=solid] (12.00000000,-1.000000000) -- (12.00000000,4.000000000);
-\draw [color=gray,style=solid] (-3.000000000,-1.000000000) -- (12.00000000,-1.000000000);
-\draw [color=gray,style=solid] (-3.000000000,0.0) -- (12.00000000,0.0);
-\draw [color=gray,style=solid] (-3.000000000,1.000000000) -- (12.00000000,1.000000000);
-\draw [color=gray,style=solid] (-3.000000000,2.000000000) -- (12.00000000,2.000000000);
-\draw [color=gray,style=solid] (-3.000000000,3.000000000) -- (12.00000000,3.000000000);
-\draw [color=gray,style=solid] (-3.000000000,4.000000000) -- (12.00000000,4.000000000);
+\draw [color=gray,style=solid] (0,-1.000000000) -- (12.00000000,-1.000000000);
+\draw [color=gray,style=solid] (0,0.0) -- (12.00000000,0.0);
+\draw [color=gray,style=solid] (0,1.000000000) -- (12.00000000,1.000000000);
+\draw [color=gray,style=solid] (0,2.000000000) -- (12.00000000,2.000000000);
+\draw [color=gray,style=solid] (0,3.000000000) -- (12.00000000,3.000000000);
+\draw [color=gray,style=solid] (0,4.000000000) -- (12.00000000,4.000000000);
 %AXES
 \draw (12.64142136,-0.2275325229) node {\si{\second}};
-\draw (-3.000000000,-0.3408228333) node { $ -1 $ };
-\draw [] (-3.000000000,-0.1000000000) -- (-3.000000000,0.1000000000);
 \draw (3.000000000,-0.3259458333) node { $ 1 $ };
 \draw [] (3.000000000,-0.1000000000) -- (3.000000000,0.1000000000);
 \draw (6.000000000,-0.3259458333) node { $ 2 $ };
@@ -129,7 +122,7 @@
 \draw [] (9.000000000,-0.1000000000) -- (9.000000000,0.1000000000);
 \draw (12.00000000,-0.3259458333) node { $ 4 $ };
 \draw [] (12.00000000,-0.1000000000) -- (12.00000000,0.1000000000);
-\draw [,->,>=latex] (-3.000000000,0.0) -- (12.50000000,0.0);
+\draw [,->,>=latex] (0,0.0) -- (12.50000000,0.0);
 \draw (0.3632000000,4.500000000) node {\si{\meter}};
 \draw (-0.4501938333,-1.000000000) node { $ -5 $ };
 \draw [] (-0.1000000000,-1.000000000) -- (0.1000000000,-1.000000000);

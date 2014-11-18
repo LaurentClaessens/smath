@@ -82,26 +82,22 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-0.7000000000,-0.7000000000) -- (-0.7000000000,2.100000000);
-\draw [color=gray,style=solid] (0.0,-0.7000000000) -- (0.0,2.100000000);
-\draw [color=gray,style=solid] (0.7000000000,-0.7000000000) -- (0.7000000000,2.100000000);
-\draw [color=gray,style=solid] (1.400000000,-0.7000000000) -- (1.400000000,2.100000000);
-\draw [color=gray,style=solid] (2.100000000,-0.7000000000) -- (2.100000000,2.100000000);
-\draw [color=gray,style=solid] (2.800000000,-0.7000000000) -- (2.800000000,2.100000000);
-\draw [color=gray,style=dotted] (-0.3500000000,-0.7000000000) -- (-0.3500000000,2.100000000);
-\draw [color=gray,style=dotted] (0.3500000000,-0.7000000000) -- (0.3500000000,2.100000000);
-\draw [color=gray,style=dotted] (1.050000000,-0.7000000000) -- (1.050000000,2.100000000);
-\draw [color=gray,style=dotted] (1.750000000,-0.7000000000) -- (1.750000000,2.100000000);
-\draw [color=gray,style=dotted] (2.450000000,-0.7000000000) -- (2.450000000,2.100000000);
-\draw [color=gray,style=dotted] (-0.7000000000,-0.3500000000) -- (2.800000000,-0.3500000000);
-\draw [color=gray,style=dotted] (-0.7000000000,0.3500000000) -- (2.800000000,0.3500000000);
-\draw [color=gray,style=dotted] (-0.7000000000,1.050000000) -- (2.800000000,1.050000000);
-\draw [color=gray,style=dotted] (-0.7000000000,1.750000000) -- (2.800000000,1.750000000);
-\draw [color=gray,style=solid] (-0.7000000000,-0.7000000000) -- (2.800000000,-0.7000000000);
-\draw [color=gray,style=solid] (-0.7000000000,0.0) -- (2.800000000,0.0);
-\draw [color=gray,style=solid] (-0.7000000000,0.7000000000) -- (2.800000000,0.7000000000);
-\draw [color=gray,style=solid] (-0.7000000000,1.400000000) -- (2.800000000,1.400000000);
-\draw [color=gray,style=solid] (-0.7000000000,2.100000000) -- (2.800000000,2.100000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (0.0,2.100000000);
+\draw [color=gray,style=solid] (0.7000000000,0.0) -- (0.7000000000,2.100000000);
+\draw [color=gray,style=solid] (1.400000000,0.0) -- (1.400000000,2.100000000);
+\draw [color=gray,style=solid] (2.100000000,0.0) -- (2.100000000,2.100000000);
+\draw [color=gray,style=solid] (2.800000000,0.0) -- (2.800000000,2.100000000);
+\draw [color=gray,style=dotted] (0.3500000000,0.0) -- (0.3500000000,2.100000000);
+\draw [color=gray,style=dotted] (1.050000000,0.0) -- (1.050000000,2.100000000);
+\draw [color=gray,style=dotted] (1.750000000,0.0) -- (1.750000000,2.100000000);
+\draw [color=gray,style=dotted] (2.450000000,0.0) -- (2.450000000,2.100000000);
+\draw [color=gray,style=dotted] (0.0,0.3500000000) -- (2.800000000,0.3500000000);
+\draw [color=gray,style=dotted] (0.0,1.050000000) -- (2.800000000,1.050000000);
+\draw [color=gray,style=dotted] (0.0,1.750000000) -- (2.800000000,1.750000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (2.800000000,0.0);
+\draw [color=gray,style=solid] (0.0,0.7000000000) -- (2.800000000,0.7000000000);
+\draw [color=gray,style=solid] (0.0,1.400000000) -- (2.800000000,1.400000000);
+\draw [color=gray,style=solid] (0.0,2.100000000) -- (2.800000000,2.100000000);
 %DEFAULT
 \draw [,->,>=latex] (0.0,1.400000000) -- (0.7000000000,2.100000000);
 \draw (0.01606897710,2.029586190) node {\( \vect{ u }\)};

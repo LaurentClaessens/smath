@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigAWKEooFytNYo.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( Catata\)}}%
+\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( Catata\)}}%
+\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
