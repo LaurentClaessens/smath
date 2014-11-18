@@ -264,11 +264,9 @@ filecolor=magenta   % couleur des textes qui sont des liens
     %\newenvironment{feuilleDS}[1]{\begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
 
 
-    %\newenvironment{feuilleExo}[1]{\newpage\begin{center}\large #1%\\\justification
-    %\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
+    \newenvironment{feuilleExo}[1]{\newpage\begin{center}\large #1%\\\justification
+    \end{center}\setcounter{CountExercice}{0}  }{\clearpage}
 
-    \newenvironment{feuilleExo}[1]{\begin{center}\large #1%\\\justification
-    \end{center}\setcounter{CountExercice}{0}  }{}
         
         \newcounter{numactivmentale}
         \setcounter{numactivmentale}{0}
