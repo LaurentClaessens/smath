@@ -42,12 +42,14 @@ def ARKZooKZOuAk():
 
     for psp in pspicts:
         psp.axes.do_my_enlarge=False
+        psp.axes.do_mx_enlarge=False
 
     pspicts[0].DrawDefaultGrid()
     pspicts[0].axes.do_My_enlarge=False
     pspicts[0].DrawDefaultAxes()
 
 
+    pspicts[1].dilatation_X(0.7)
     pspicts[1].grid.Dx=20
     pspicts[1].grid.Dy=10
     pspicts[1].DrawDefaultGrid()

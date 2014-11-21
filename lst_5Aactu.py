@@ -20,8 +20,8 @@ exp_litt=commun.OneChapter("Expressions littérales","5A")
 # À la rentrée de novembre, je continue les opérations sur les fractions.
 # Donc ici je prépare les expressions littérales
 
-actu5=exp_litt
 actu5=droites_rem
+actu5=exp_litt
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
