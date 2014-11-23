@@ -9,7 +9,7 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigFIOJooSmlhXR.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigFIOJooSmlhXR0.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 10\)}}%
 \immediate\write\writeOfphystricks{totalheightof52ad1dc31e08f49efaf0362a5f52967b93dc5c51:\the\lengthOfhomemokySagesrcbinsageipython-}
@@ -23,6 +23,10 @@
 \immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( 3\)}}%
 \immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 10-x\)}}%
+\immediate\write\writeOfphystricks{totalheightof2179ee0e26a944487755fc2c9bd63a764e20e5c4:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( 10-x\)}}%
+\immediate\write\writeOfphystricks{widthof2179ee0e26a944487755fc2c9bd63a764e20e5c4:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -65,7 +69,7 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigFIOJooSmlhXRPICTFIOJooSmlhXR}
+\tikzsetnextfilename{tikzFIGLabelFigFIOJooSmlhXR0PICTFIOJooSmlhXR0}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
