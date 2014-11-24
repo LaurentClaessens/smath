@@ -55,6 +55,8 @@ Exercice \ref{exosmath-0941}.
     Dans une situation de proportionnalité, la \defe{quatrième proportionnelle}{quatrième proportionnelle} est le quatrième nombre calculé à partir de trois nombres déjà connus.
 \end{definition}
 
+Faire copier dans le cahier de leçon et résoudre dans un premier temps dans le cahier d'exercices. La correction au tableau sera prise directement dans le cahier de leçon.
+
 \begin{example}
     Calculer le prix \( x\) de trois baguettes à partir du tableau de proportionnalité suivant :
     \begin{equation*}
@@ -78,6 +80,51 @@ Exercices : \ref{exosmath-0944}
 \subsection{Produit en croix}
 %---------------------------------------------------------------------------------------------------------------------------
 
+\input{activ_quatrieme_prop}
+
+\begin{propriete}
+    Il y a égalité des quotients
+    \begin{equation}
+        \frac{ a }{ b }=\frac{ x }{ y },
+    \end{equation}
+    si et seulement si
+    \begin{equation}
+        a\times y=b\times x.
+    \end{equation}
+    Cette égalité s'appelle l'égalité du \defe{produit en croix}{produit en croix}.
+\end{propriete}
+
+\begin{proof}
+    \begin{subproof}
+        \item[Sens direct]
+            Nous partons de l'égalité
+            \begin{equation}
+                \frac{ a }{ b }-\frac{ x }{ y }=0
+            \end{equation}
+            et nous mettons les fractions au même dénominateur :
+            \begin{equation}
+                \frac{ a\times y }{ b\times y }-\frac{ x\times b }{ y\times b }=0,
+            \end{equation}
+            ou encore :
+            \begin{equation}
+                a\times y=b\times x.
+            \end{equation}
+        \item[Réciproque]
+            Nous partons de l'égalité
+            \begin{equation}
+                a\times y-b\times x=0
+            \end{equation}
+            Lorsque quelque chose est nul, cela reste nul lorsqu'on divise par n'importe que nombre. Ici nous divisons par \( b\times y\) :
+            \begin{equation}
+                \frac{ a\times y }{ b\times y }-\frac{ b\times x }{ b\times y }
+            \end{equation}
+            et nous simplifions chacune des deux fractions par ce qui convient :
+            \begin{equation}
+                \frac{ a }{ b }-\frac{ x }{ y }=0.
+            \end{equation}
+    \end{subproof}
+\end{proof}
+
 \begin{example}
     Compléter le tableau de proportionnalité :
     \begin{equation*}
@@ -93,14 +140,11 @@ Exercices : \ref{exosmath-0944}
     \begin{equation}
         \frac{ x }{ 4 }=\frac{ 5 }{ 2 }.
     \end{equation}
-    En multipliant par \( 4\) :
-    \begin{subequations}
-        \begin{align}
-            \frac{ x }{ 4 }\times 4&=\frac{ 5 }{ 2 }\times 4\\
-            x=&\frac{ 20 }{ 2 }\\
-            x&=10.
-        \end{align}
-    \end{subequations}
+    L'égalité du produit en croix donne : 
+    \begin{equation}
+        2x=5\times 4
+    \end{equation}
+    et donc \( x=10\).
 \end{example}
 
 \begin{example}
@@ -118,32 +162,17 @@ Exercices : \ref{exosmath-0944}
     \begin{equation}
         \frac{ 8 }{ 6 }=\frac{ 28 }{ x }.
     \end{equation}
-    Pour trouver \( x\), on fait ceci :
-    \begin{subequations}
-        \begin{align}
-            \frac{ 8\times }{ 6 } 6&=\frac{ 28\times 6 }{ x }\\
-            8&=\frac{ 28\times 6 }{ x }\\
-            8\times x&=\frac{ 28\times 6 }{ x }\times x\\
-            8\times x&=28\times 6\\
-            x&=\frac{ 28\times 6 }{ 8 }
-        \end{align}
-    \end{subequations}
-    Donc \( x=21\).
+    L'égalité du produit en croix donne :
+    \begin{equation}
+        8x=6\times 28,
+    \end{equation}
+    c'est à dire
+    \begin{equation}
+        x=\frac{ 6\times 28 }{ 8 }=21.
+    \end{equation}
 \end{example}
 
 Exercices : \ref{exosmath-0945}.
-
-\begin{propriete}
-    Si il y égalité des fractions
-    \begin{equation}
-        \frac{ a }{ b }=\frac{ x }{ y },
-    \end{equation}
-    alors il y a l'égalité
-    \begin{equation}
-        a\times y=b\times x.
-    \end{equation}
-    Cette égalité s'appelle l'égalité du \defe{produit en croix}{produit en croix}.
-\end{propriete}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Vitesse}
