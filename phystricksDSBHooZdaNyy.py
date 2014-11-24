@@ -2,7 +2,9 @@
 from phystricks import *
 def DSBHooZdaNyy():
     pspict,fig = SinglePicture("DSBHooZdaNyy")
-    pspict.dilatation(0.56)
+    pspict.dilatation_X(0.56)
+    pspict.dilatation_Y(0.33)
+    
 
     L=10
     l=4
