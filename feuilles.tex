@@ -11,11 +11,30 @@
 
 %\documentclass[a4paper,10pt]{book}
 \documentclass[a4paper,10pt]{article}
+\usepackage{multido}
 \input{e_smath}
 
 \pagestyle{empty}   % Pour éviter les numéros de page.
 \renewcommand{\cite}[1]{}           % Les citations ne servent à rien dans les feuilles distribuées.
 \corrPosition{1}
+
+\newcounter{bidon}
+
+\newcommand{\multiinput}[2]%
+{%
+    \setcounter{bidon}{#2}
+    \addtocounter{bidon}{-1}
+    \multido{\i=1+1}{\value{bidon}}{\input{#1}\vspace{1cm}}%
+    \input{#1}
+}
+
+
+% IMPRESSION CHAPITRE EXPRESSIONS LITTÉRALES (cinquième)
+\begin{document}
+\multiinput{activ_carre_sans_coins}{2}
+\newpage
+\multiinput{activ_benef_facto}{5}
+\end{document}
 
 % IMPRESSION CHAPITRE OPÉRATIONS FRACTIONS
 \begin{document}
