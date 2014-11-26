@@ -5,7 +5,7 @@ def XUBNooNxZEmS():
     pspict.dilatation(0.56)
 
     L=10
-    l=4
+    l=7
     h=3
     A=Point(0,0)
     B=A+(l,0)
