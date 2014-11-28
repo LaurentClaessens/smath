@@ -12,6 +12,7 @@ def CXWooOMPOQT():
     # Le delta_y n'a pas d'importance parce qu'il est recalculé plus bas.
     moustaches.append(Moustache(7.90,10.20,14.45,16.70,20.00,h=0.5,delta_y=0.75))   # DS1
     moustaches.append(Moustache(5.10,8.75,10.87,16.29,20.00,h=0.5,delta_y=0.75))    # DS2
+    moustaches.append(Moustache(5.88,10.36,14.41,16.75,20.00,h=0.5,delta_y=0.75))   # DS3
 
     phystricksCommons.DS_statistics(moustaches,pspict)
 
@@ -28,6 +29,7 @@ def PJQooTWPTXV():
     # Le delta_y n'a pas d'importance parce qu'il est recalculé plus bas.
     moustaches.append(Moustache(6.00,8.99,11.50,14.37,20.00,h=0.5,delta_y=0.75))    # DS1
     moustaches.append(Moustache(4.93,7.71,11.85,14.03,16.48,h=0.5,delta_y=0.75))    # DS2
+    moustaches.append(Moustache(4.90,7.38,10.35,13.36,17.09,h=0.5,delta_y=0.75))    # DS3
 
     phystricksCommons.DS_statistics(moustaches,pspict)
 
