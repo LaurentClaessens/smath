@@ -11,7 +11,7 @@ def CFWIooWDSwRD():
     c1=cercles[0]
     c2=cercles[1]
 
-    couronne=CustomSurface(c1,c2)
+    couronne=SurfaceBetweenParametricCurves(c1,c2)
     couronne.parameters.filled()
     couronne.parameters.fill.color="red"
 
