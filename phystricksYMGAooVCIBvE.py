@@ -2,7 +2,6 @@
 from phystricks import *
 def YMGAooVCIBvE():
     pspict,fig = SinglePicture("YMGAooVCIBvE")
-
     pspict.dilatation(0.5)
 
     L=Point(0,0)
@@ -23,7 +22,6 @@ def YMGAooVCIBvE():
 
     l1=Segment(L,R1).get_measure(0,0.1,None,"\( 5\)",automatic_place=(pspict,"corner"))
     l2=Segment(M,R2).get_measure(0,0.1,None,"\( 7\)",automatic_place=(pspict,"corner"))
-
 
     pspict.DrawGraphs( seg,L,M,c1,c2,l1,l2 )
     fig.no_figure()
