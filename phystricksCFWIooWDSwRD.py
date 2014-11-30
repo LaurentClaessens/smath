@@ -6,12 +6,12 @@ def CFWIooWDSwRD():
 
     O=Point(0,0)
     rayons=[3,4,5,6,7]
-    cercles=[  Circle(O,r).graph(0,2*pi*radian) for r in rayons  ]
+    cercles=[  Circle(O,r).graph(0*radian,2*pi*radian) for r in rayons  ]
 
     c1=cercles[0]
     c2=cercles[1]
 
-    couronne=SurfaceBetweenParametricCurves(c1,c2)
+    couronne=SurfaceBetweenParametricCurves(c2,c1,(0,2*pi-0.001))
     couronne.parameters.filled()
     couronne.parameters.fill.color="red"
 
