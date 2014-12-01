@@ -14,9 +14,10 @@ def set_filename(medicament):
 
 pythagore=commun.OneChapter("Égalité de Pythagore","4A")
 propo=commun.OneChapter("Grandeurs proportionnelles","4A")
+trig_para=commun.OneChapter("Triangles et droites parallèles","4A")
 
 
-actu4=propo
+actu4=trig_para
 actu4.set_filename=set_filename
 actu4.write_the_file()
 
