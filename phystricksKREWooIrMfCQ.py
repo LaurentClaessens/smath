@@ -9,7 +9,7 @@ def axial_symetry(P,axe):
 
 def KREWooIrMfCQ():
     pspict,fig = SinglePicture("KREWooIrMfCQ")
-    pspict.dilatation(1)
+    pspict.dilatation(0.3)
 
     axe=Segment(  Point(0,-5),Point(3,5)  )
 
@@ -19,7 +19,7 @@ def KREWooIrMfCQ():
     A.put_mark(0.2,0,"\( A\)",automatic_place=(pspict,"corner"))
     Ap.put_mark(0.2,0,"\( A'\)",automatic_place=(pspict,"corner"))
 
-    pspict.DrawGraphs(axe,A,Ap)
+    pspict.DrawGraphs(axe,A)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
