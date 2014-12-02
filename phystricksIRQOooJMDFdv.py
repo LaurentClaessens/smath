@@ -26,12 +26,13 @@ def IRQOooJMDFdv():
 
     triangle.edges[0].divide_in_two(n=1,d=0.1,l=0.2,angle=45,pspict=pspicts)
     triangle.edges[1].divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspict=pspicts)
+
     prolongation=Segment(C,B).add_size(lF=1)
     prolongation.parameters.style="dotted"
-
     rh=RightAngle(prolongation,hauteur,0.3,0,0)
+    mediatrice2=triangle.edges[2].bisector().dilatation(1.5)
 
-    pspicts[0].DrawGraphs(mediatrice,hauteur,mediane,prolongation,rh)
+    pspicts[0].DrawGraphs(mediatrice,hauteur,mediane,prolongation,rh,mediatrice2)
 
     for fig in figs:
         fig.no_figure()

@@ -16,7 +16,7 @@
 
 \pagestyle{empty}   % Pour éviter les numéros de page.
 \renewcommand{\cite}[1]{}           % Les citations ne servent à rien dans les feuilles distribuées.
-\corrPosition{1}
+\corrPosition{0}
 
 \newcounter{bidon}
 
@@ -29,12 +29,19 @@
 }
 
 
-% MINI-INTERRO DROITES REMARQUABLES
+% IMPRESSION CHAPITRE SYMÉTRIE CENTRALE (CINQUIÈME)
 \begin{document}
-\input{interro_5}
+\multiinput{activ_sym_axiale}{4}
+\newpage
+\multiinput{activ_sym_centrale}{3}
 \end{document}
 
 
+% MINI-INTERRO DROITES REMARQUABLES
+\begin{document}
+%\input{interro_5}
+\multiinput{interro_5}{2}
+\end{document}
 
 
 % POUR LA CORRECTION DU DS3 des CINQUIÈMES

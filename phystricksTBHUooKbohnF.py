@@ -26,9 +26,9 @@ def TBHUooKbohnF():
     K.put_mark(0.2,K.advised_mark_angle+180,"\( K\)",automatic_place=(pspicts,"corner"))
 
 
-    triangle.edges[0].divide_in_two()
+    triangle.edges[0].divide_in_two(n=2,d=0.1,l=0.4,angle=45,pspict=pspicts)
     pspicts[1].DrawGraphs(triangle,IJ,I,J)
-    triangle.edges[1].divide_in_two()
+    triangle.edges[1].divide_in_two(n=1,d=0.1,l=0.4,angle=45,pspict=pspicts)
     pspicts[0].DrawGraphs(triangle,IJ,IK,KJ,I,J,K)
 
     for fig in figs:
