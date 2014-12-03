@@ -4,12 +4,11 @@ def KPWWooFyZHHV():
     pspicts,figs = IndependentPictures("KPWWooFyZHHV",4)
 
     for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
+        psp.dilatation(0.7)
 
     T=[Point(0,0)    , Point(1.5,-1.5) ,  Point(1.5,-1.5) ,  Point(0,0)]
     M=[Point(2,1)    , Point(0,0)  ,      Point(0,0)  ,      Point(3,3)]
-    O=[Point(1.5,-2) , Point(1.7,0.5)  ,    Point(1.7,0.5)  , Point(3.5,-0.5)]
+    O=[Point(1.5,-2) , Point(1.7,0.5)  ,    Point(1.7,0.5)  , Point(3,-0.5)]
     S=Point(1,2)
     triangles=[  Polygon(T[i],M[i],O[i]) for i in range(0,3)  ]
     triangles.append( Polygon(O[-1],T[-1],S,M[-1]) )
