@@ -14,7 +14,7 @@ def set_filename(medicament):
 
 pythagore=commun.OneChapter("Égalité de Pythagore","4A")
 propo=commun.OneChapter("Grandeurs proportionnelles","4A")
-trig_para=commun.OneChapter("Théorèmes du milieu","4A")
+trig_para=commun.OneChapter("Droite des milieux","4A")
 
 
 actu4=trig_para
