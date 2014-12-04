@@ -759,6 +759,14 @@ figures_list.append(JJHQooEkspEV)
 """
 figures_list.append(<++>)
 figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
+figures_list.append(<++>)
 """
 
 # This is a very basic verification 
