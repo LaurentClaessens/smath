@@ -7,7 +7,7 @@ def RAACooAwsaVw():
 
     O=Point(0,0)
     A=Point(-3,-1)
-    B=Point(-0.75,2)
+    B=Point(-1.8,2)
 
     Ap=A.symmetric_by(O)
     Bp=B.symmetric_by(O)
@@ -15,7 +15,7 @@ def RAACooAwsaVw():
     triangle1=Polygon(A,O,B)
     triangle1.put_mark(0.2,text_list=["\( A\)","\( O\)","\( B\)"],pspict=pspict)
     triangle2=Polygon(O,Ap,Bp)
-    triangle2.put_mark(0.2,text_list=["\( O'\)","\( A'\)","\( B'\)"],pspict=pspict)
+    triangle2.put_mark(0.2,text_list=["","\( A'\)","\( B'\)"],pspict=pspict)
 
     triangle1.parameters.filled()
     triangle1.parameters.fill.color="lightgray"

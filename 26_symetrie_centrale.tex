@@ -5,20 +5,22 @@
 
 \input{activ_sym_axiale}
 
+------
+
+À moins que l'activité se soit mal passée, on ne fait pas la symétrie axiale en classe.
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
-\section{Symétrie axiale}
+\section*{Symétrie axiale}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{definition}
-    Soit un point \( P\) et une droite \( d\). Le \defe{symétrique}{symétrie axiale} de \( P\) par rapport à la droite \( d\) est le point \( P'\) tel que \( d\) soit la médiatrice de \( PP'\).
+    Soit un point \( P\) et une droite \( (d)\). Le \defe{symétrique}{symétrie axiale} de \( P\) par rapport à la droite \( (d)\) est le point \( P'\) tel que \( (d)\) soit la médiatrice du segment \( [PP']\).
 \end{definition}
 
 Pour construire (ne pas faire écrire au cahier de leçon) :
 \begin{itemize}
-    \item Tracer une droite \( k\) perpendiculaire à \( d\) passant par \( P\).
-    \item Cette droite coupe \( d\) un un point \( Q\).
-    \item Tracer un cercle de rayon \( PQ\) centré en \( Q\).
-    \item \( P'\) est le point d'intersection entre le cercle et la droite \( k\).
+    \item Tracer la demi-droite \( k\) perpendiculaire à \( d\) et d'orignie \( P\).
+    \item Reporter la distance de \( P\) à l'axe de l'autre côté.
 \end{itemize}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -33,10 +35,8 @@ Pour construire (ne pas faire écrire au cahier de leçon) :
 
 Pour la construction du symétrique du point \( A\) par rapport à \( O\) :
 \begin{itemize}
-    \item Tracer la droite \( (AO)\)
-    \item Pointer le compas en \( O\)
-    \item Tracer le cercle de rayon \( AO\)
-    \item Le point \( A'\) est l'intersection.
+    \item Tracer la demi-droite \(  [AO) \)
+    \item Reporter la distance \( AO\) à partir du point \( O\).
     \item Ne pas oublier de coder : la distance \( AO\) est égale à la distance \( OA'\).
 \end{itemize}
 
@@ -44,14 +44,30 @@ Pour la construction du symétrique du point \( A\) par rapport à \( O\) :
     \input{Fig_QDPKooICzieh.pstricks}
 \end{center}
 
+\begin{propriete}
+    La symétrie centrale conserve
+    \begin{enumerate}
+        \item
+            les angles,
+        \item
+            les longueurs,
+        \item
+            les aires.
+    \end{enumerate}
+\end{propriete}
+
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
 \section{Symétrique d'une droite}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \input{activ_sym_centrale_droite}
 
-Une propriété admise :
+Deux propriétés admises :
 \begin{propriete}
-    Le symétrique d'une droite par rapport à un point est une droite parallèle.
+    \begin{enumerate}
+        \item
+            Le symétrique d'une droite par rapport à un point est une droite parallèle.
+        \item
+            Le symétrique d'un segment par rapport à un point est une segment parallèle de même longueur.
+    \end{enumerate}
 \end{propriete}
-
