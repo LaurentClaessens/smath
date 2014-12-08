@@ -20,15 +20,15 @@ def JJHQooEkspEV():
 
     seg=Segment(M,O)
     SR2=triangle.edges[2].get_divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    ST2=triangle.edges[0].get_divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    mesRT=trianges.edges[1].get_measure(0.2,0.1,90,"\SI{4}{\centi\meter}",automatic_place=(pspict,"S"))
+    ST2=triangle.edges[0].get_divide_in_two(n=1,d=0.1,l=0.3,angle=30,pspict=pspicts)
+    mesRT=triangle.edges[1].get_measure(0.2,0.1,0,"\SI{4}{\centi\meter}",automatic_place=(pspicts,"W"))
 
     for psp in pspicts :
-        pspicts[0].DrawGraphs(triangle,seg,M,O)
+        psp.DrawGraphs(triangle,seg,M,O)
     
     pspicts[0].DrawGraphs(SR2)
-    #pspicts[1].DrawGraphs(triangle,seg,M,O)
-    pspicts[2].DrawGraphs(SR2,ST2)
+    pspicts[1].DrawGraphs(triangle,seg,M,O)
+    pspicts[2].DrawGraphs(SR2,ST2,mesRT)
 
     for fig in figs:
         fig.no_figure()

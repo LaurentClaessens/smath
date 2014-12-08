@@ -31,6 +31,10 @@
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( O\)}}%
 \immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\SI{4}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{totalheightof0a91a70212556416cc1699074bfc81c487fa8b23:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\SI{4}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{widthof0a91a70212556416cc1699074bfc81c487fa8b23:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -78,10 +82,38 @@
 %GRID
 %AXES
 %OTHER STUFF
+%PSTRICKS CODE
 %DEFAULT
+\draw []  (0,0.0) node [rotate=0] {$\times$};
+\draw (-0.3089340754,-0.1476552489) node {\( S\)};
+\draw (-0.3089340754,-0.1476552489) node {\( S\)};
+\draw []  (3.000000000,-1.000000000) node [rotate=0] {$\times$};
+\draw (3.214915752,-1.290223420) node {\( T\)};
+\draw (3.214915752,-1.290223420) node {\( T\)};
+\draw []  (3.000000000,2.000000000) node [rotate=0] {$\times$};
+\draw (3.191081387,2.303625160) node {\( R\)};
+\draw (3.191081387,2.303625160) node {\( R\)};
+\draw [] (0,0.0) -- (3.000000000,-1.000000000);
+\draw [] (3.000000000,-1.000000000) -- (3.000000000,2.000000000);
+\draw [] (3.000000000,2.000000000) -- (0,0.0);
+\draw [] (1.500000000,1.000000000) -- (1.500000000,-0.5000000000);
+\draw []  (1.500000000,1.000000000) node [rotate=0] {$\times$};
+\draw (0.9201390000,1.413888500) node {\( M\)};
+\draw (0.9201390000,1.413888500) node {\( M\)};
+\draw []  (1.500000000,-0.5000000000) node [rotate=0] {$\times$};
+\draw (1.090890735,-1.029913647) node {\( O\)};
+\draw (1.090890735,-1.029913647) node {\( O\)};
+\draw [] (2.258786797,1.594246212) -- (2.301213203,1.445753788);
+\draw [] (2.198786797,1.554246212) -- (2.241213203,1.405753788);
+\draw [] (0.7587867966,0.5942462120) -- (0.8012132034,0.4457537880);
+\draw [] (0.6987867966,0.5542462120) -- (0.7412132034,0.4057537880);
+\draw [] (0.6029128987,-0.2647087101) -- (0.8970871014,-0.2352912899);
+\draw [] (2.102912899,-0.7647087101) -- (2.397087101,-0.7352912899);
+\draw [,->,>=latex] (3.200000000,0.5000000000) -- (3.200000000,-1.000000000);
+\draw [,->,>=latex] (3.200000000,0.5000000000) -- (3.200000000,2.000000000);
+\draw (3.624075333,0.5000000000) node {\SI{4}{\centi\meter}};
+\draw (3.624075333,0.5000000000) node {\SI{4}{\centi\meter}};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-%PSTRICKS CODE
-
 %AFTER PSPICTURE
