@@ -5,7 +5,6 @@ def DSBHooZdaNyy():
     pspict.dilatation_X(0.56)
     pspict.dilatation_Y(0.33)
     
-
     L=10
     l=4
     h=3
@@ -21,9 +20,9 @@ def DSBHooZdaNyy():
     piscine.parameters.hatched()
     piscine.parameters.hatch.color="lightgray"
 
-    mesL=Segment(F,D).get_measure(-0.2,0.1,90,"\( 10\)",automatic_place=(pspict,"S"))
-    mesl=Segment(A,B).get_measure(0.2,0.1,-90,"\( x\)",automatic_place=(pspict,"N"))
-    mesH=Segment(A,F).get_measure(-0.2,0.1,180,"\( 3\)",automatic_place=(pspict,"E"))
+    mesL=Segment(F,D).get_measure(-0.3,0.1,90,"\( 10\)",automatic_place=(pspict,"S"))
+    mesl=Segment(A,B).get_measure(0.3,0.1,-90,"\( x\)",automatic_place=(pspict,"N"))
+    mesH=Segment(A,F).get_measure(-0.3,0.1,180,"\( 3\)",automatic_place=(pspict,"E"))
     #mesP=Segment(B,C).get_measure(0.2,0.1,-90,"\( 10-x\)",automatic_place=(pspict,"N"))
 
     pspict.DrawGraphs(piscine,jardin,mesL,mesl,mesH)

@@ -16,10 +16,10 @@ fract=commun.OneChapter("Écriture fractionnaire","5B")
 droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5B")
 ops_frac=commun.OneChapter("Opérations sur les fractions","5B")
 sym_centrale=commun.OneChapter("Symétrie centrale","5B")
+exp_litt=commun.OneChapter("Expressions littérales","5B")
 
 
-actu5=ops_frac
-actu5=sym_centrale
+actu5=exp_litt
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

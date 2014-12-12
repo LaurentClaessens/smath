@@ -17,9 +17,6 @@ droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5A")
 ops_frac=commun.OneChapter("Opérations sur les fractions","5A")
 exp_litt=commun.OneChapter("Expressions littérales","5A")
 
-# À la rentrée de novembre, je continue les opérations sur les fractions.
-# Donc ici je prépare les expressions littérales
-
 actu5=droites_rem
 actu5=exp_litt
 actu5.set_filename=set_filename

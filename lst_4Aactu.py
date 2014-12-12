@@ -18,6 +18,7 @@ trig_para=commun.OneChapter("Droite des milieux","4A")
 ops_fract=commun.OneChapter("Opérations en écriture fractionnaire","4A")
 
 
+actu4=trig_para
 actu4=ops_fract
 actu4.set_filename=set_filename
 actu4.write_the_file()
