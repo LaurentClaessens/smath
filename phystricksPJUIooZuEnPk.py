@@ -15,8 +15,8 @@ def PJUIooZuEnPk():
 
     secteurs=[]
     leslignes=[]
-    secteurs.append(Secteur(cercle,0,360/2))
-    leslignes.append(  lignes(2)  )
+    secteurs.append(Secteur(cercle,0,3*360/4))
+    leslignes.append(  lignes(4)  )
 
     secteurs.append(Secteur(cercle,0,4*360/8))
     leslignes.append(  lignes(8)  )

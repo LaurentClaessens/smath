@@ -11,7 +11,7 @@ def QFpJtQc():
 
     triangle=Polygon(A,B,C)
 
-    M=Segment(A,C).proportion(0.3)
+    M=Segment(A,C).get_point_proportion(0.3)
 
     s=Segment(C,B).fix_origin(M)
     N=Intersection(s,Segment(A,B))[0]

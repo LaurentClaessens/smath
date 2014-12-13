@@ -13,8 +13,8 @@ def XFMTooSCJlTh():
     s1=Segment(A,B)
     s2=Segment(A,C)
 
-    E=s1.proportion(0.3)
-    F=s2.proportion(0.3)
+    E=s1.get_point_proportion(0.3)
+    F=s2.get_point_proportion(0.3)
 
     s3=Segment(E,F)
 

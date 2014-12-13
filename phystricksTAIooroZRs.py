@@ -33,8 +33,8 @@ def TAIooroZRs():
     D.put_mark(0.2,135,"\( D\)",automatic_place=pspict)
     S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
 
-    I=AS.proportion(0.75)
-    J=CS.proportion(0.3)
+    I=AS.get_point_proportion(0.75)
+    J=CS.get_point_proportion(0.3)
 
     I.put_mark(0.2,135,"\( I\)",automatic_place=pspict)
     J.put_mark(0.2,90,"\( J\)",automatic_place=pspict)
