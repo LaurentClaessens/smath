@@ -12,7 +12,7 @@ groupe_4A=enseignement.groupe_4A
 
 DS2_4A=commun.TheDS("DS2_4A",groupe_4A,1)
 DS_4A3=commun.TheDS("DS_4A3",groupe_4A,1)
-DS_4A4=commun.TheDS("DS_4A4",groupe_4A,1)
+DS_4A4=commun.TheDS("DS_4A4",groupe_4A,0)
 
 jeveux=DS_4A4
 jeveux.write_the_file()

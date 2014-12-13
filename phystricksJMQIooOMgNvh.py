@@ -5,7 +5,7 @@ def JMQIooOMgNvh():
 
     for psp in pspicts:
         psp.dilatation_X(0.5)
-        psp.dilatation_Y(0.5)
+        psp.dilatation_Y(0.3)
 
     x=var('x')
     f1=phyFunction(x-4)
