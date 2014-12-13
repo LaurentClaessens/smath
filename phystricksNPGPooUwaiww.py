@@ -1,22 +1,37 @@
 # -*- coding: utf8 -*-
+
+from __future__ import division
+from __future__ import unicode_literals
 from phystricks import *
+
 def NPGPooUwaiww():
     pspict,fig = SinglePicture("NPGPooUwaiww")
     pspict.dilatation(1)
     
+    O=Point(0,0)
     mx=0
     Mx=6
     for i in range(0,4):
         P=Point(i,0)
-        a=visual_polar(P,0.1,bar_angle,pspict)
-        b=visual_polar(P,0.1,bar_angle+180,pspict)
+        a=P.get_polar_point(0.1,90,pspict)
+        b=P.get_polar_point(0.1,-90,pspict)
         pspict.DrawGraphs(Segment(a,b))
-
 
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)
     axe.no_graduation()
 
-    pspict.DrawGraphs(axe)
+    Clerval=Point(0,0)
+    Baume=Point(Mx/2,0)
+    Besan=Point(Mx,0)
+
+    Clerval.put_mark(0.2,-90,"Clerval",automatic_place=(pspict,"N"))
+    Baume.put_mark(0.2,-90,"Baume",automatic_place=(pspict,"N"))
+    Besan.put_mark(0.2,-90,"Besançon",automatic_place=(pspict,"N"))
+    Clerval.parameters.symbol=""
+    Baume.parameters.symbol=""
+    Besan.parameters.symbol=""
+
+    pspict.DrawGraphs(axe,Clerval,Baume,Besan)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
