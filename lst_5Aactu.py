@@ -8,7 +8,6 @@ import commun
 myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename="automatedChapter.tex"
 
-
 def set_filename(medicament):
     medicament.new_output_filename="0-actu5A.pdf"
 
@@ -19,6 +18,7 @@ exp_litt=commun.OneChapter("Expressions littérales","5A")
 
 actu5=droites_rem
 actu5=exp_litt
+actu5=ops_frac
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
