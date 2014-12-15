@@ -19,6 +19,7 @@ sym_centrale=commun.OneChapter("Symétrie centrale","5B")
 exp_litt=commun.OneChapter("Expressions littérales","5B")
 
 
+actu5=sym_centrale
 actu5=exp_litt
 actu5.set_filename=set_filename
 actu5.write_the_file()
