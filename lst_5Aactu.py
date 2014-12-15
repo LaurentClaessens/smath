@@ -1,6 +1,8 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
+from __future__ import unicode_literals
+
 import LaTeXparser
 import LaTeXparser.PytexTools
 import commun
@@ -11,14 +13,16 @@ myRequest.original_filename="automatedChapter.tex"
 def set_filename(medicament):
     medicament.new_output_filename="0-actu5A.pdf"
 
-fract=commun.OneChapter("Écriture fractionnaire","5A")
-droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5A")
-ops_frac=commun.OneChapter("Opérations sur les fractions","5A")
-exp_litt=commun.OneChapter("Expressions littérales","5A")
+classe="5A"
+fract=commun.OneChapter("Écriture fractionnaire",classe)
+droites_rem=commun.OneChapter("Droites remarquables dans un triangle",classe)
+ops_frac=commun.OneChapter("Opérations sur les fractions",classe)
+exp_litt=commun.OneChapter("Expressions littérales",classe)
+sym_centrale=commun.OneChapter("Symétrie centrale",classe)
 
-actu5=droites_rem
-actu5=exp_litt
 actu5=ops_frac
+actu5=exp_litt
+actu5=sym_centrale
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

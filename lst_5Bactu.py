@@ -12,11 +12,12 @@ myRequest.original_filename="automatedChapter.tex"
 def set_filename(medicament):
     medicament.new_output_filename="0-actu5B.pdf"
 
-fract=commun.OneChapter("Écriture fractionnaire","5B")
-droites_rem=commun.OneChapter("Droites remarquables dans un triangle","5B")
-ops_frac=commun.OneChapter("Opérations sur les fractions","5B")
-sym_centrale=commun.OneChapter("Symétrie centrale","5B")
-exp_litt=commun.OneChapter("Expressions littérales","5B")
+classe="5B"
+fract=commun.OneChapter("Écriture fractionnaire",classe)
+droites_rem=commun.OneChapter("Droites remarquables dans un triangle",classe)
+ops_frac=commun.OneChapter("Opérations sur les fractions",classe)
+sym_centrale=commun.OneChapter("Symétrie centrale",classe)
+exp_litt=commun.OneChapter("Expressions littérales",classe)
 
 
 actu5=sym_centrale
