@@ -21,3 +21,4 @@ jeveux.write_the_file()
 myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename=jeveux.tex_filename
 myRequest.ok_filenames_list=jeveux.ok_filenames_list()
+myRequest.add_plugin(jeveux.set_filename,"medicament")
