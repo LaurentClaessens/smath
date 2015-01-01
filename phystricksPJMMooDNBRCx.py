@@ -2,32 +2,30 @@
 from phystricks import *
 def PJMMooDNBRCx():
     pspict,fig = SinglePicture("PJMMooDNBRCx")
-    pspict.dilatation_X(1)
+    pspict.dilatation_X(0.7)
     pspict.dilatation_Y(1)
 
-    x=var('x')
-    <+Définition des objets+>
+    Mx=4.7
+    mx=-5
 
-    pspict.DrawGraphs(<++>)
-    pspict.DrawDefaultAxes()
+    O=Point(0,0)
+    A=Point(-4,0)
+    B=Point(2,0)
+    C=Point(4.5,0)
+    D=Point(-2.5,0)
+
+    O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
+    A.put_mark(0.2,-90,"\( A\)",automatic_place=(pspict,"N"))
+    B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
+    C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
+    D.put_mark(0.2,-90,"\( D\)",automatic_place=(pspict,"N"))
+
+    axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)
+    axe.no_numbering()
+
+    pspict.DrawGraphs(axe,O,A,B,C,D)
+
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()
 
-----------------
-
-    pspicts,fig = MultiplePictures("PJMMooDNBRCx",3)
-    pspicts[0].mother.caption="<+caption1+>"
-    pspicts[1].mother.caption="<+caption2+>"
-    pspicts[2].mother.caption="<+caption3+>"
-
-    for psp in pspicts:
-        psp.dilatation_X(1)
-        psp.dilatation_Y(1)
-
-    <+Définition des objets+>
-
-    for psp in pspicts:
-        psp.DrawDefaultAxes()
-
-    fig.conclude()
-    fig.write_the_file()
