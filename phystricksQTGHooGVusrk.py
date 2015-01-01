@@ -23,6 +23,9 @@ def QTGHooGVusrk():
     C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
     D.put_mark(0.2,-90,"\( D\)",automatic_place=(pspict,"N"))
 
+    for p in [P,O,A,B,C,D]:
+        p.parameters.symbol=""
+
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)
     axe.Dx=0.1
     axe.no_numbering()

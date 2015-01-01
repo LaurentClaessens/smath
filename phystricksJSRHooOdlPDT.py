@@ -13,8 +13,8 @@ def JSRHooOdlPDT():
     B=Point(4,0)
 
     O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=(pspict,"N"))
-    B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
+    A.put_mark(0.2,-90,"\( A(-3)\)",automatic_place=(pspict,"N"))
+    B.put_mark(0.2,-90,"\( B(4)\)",automatic_place=(pspict,"N"))
 
     mesA=Segment(O,A).get_measure(0.2,0.1,90,"\( 3\)",automatic_place=(pspict,"S"))
     mesB=Segment(O,B).get_measure(-0.2,0.1,90,"\( 4\)",automatic_place=(pspict,"S"))

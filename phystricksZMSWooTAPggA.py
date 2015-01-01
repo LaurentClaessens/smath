@@ -17,10 +17,11 @@ def ZMSWooTAPggA():
 
     for i in range(mx,0):
         A=Point(i,0)
+        A.parameters.symbol=""
         if i%2==0 :
-            A.put_mark(0.2,-90,"\( \opp({})\)".format(-i),automatic_place=(pspict,"N"))
+            A.put_mark(0.2,-90,"\(  {}\)".format(i),automatic_place=(pspict,"N"))
         else:
-            A.put_mark(0.2,90,"\( \opp({})\)".format(-i),automatic_place=(pspict,"S"))
+            A.put_mark(0.2,-90,"\( {}\)".format(i),automatic_place=(pspict,"N"))
         pspict.DrawGraphs(A)
     for i in range(0,floor(Mx)+1):
         A=Point(i,0)
