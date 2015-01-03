@@ -21,6 +21,7 @@ thales=commun.OneChapter("Théorème de Thalès","4A")
 
 actu4=trig_para
 actu4=ops_fract
+actu4=thales
 actu4.set_filename=set_filename
 actu4.write_the_file()
 
