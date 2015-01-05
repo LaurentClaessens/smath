@@ -2,13 +2,13 @@
 
 from phystricks import *
 
-def thales(A,B,C,prop,ma,mb,mc,mi,mj,pspict):
+def thales(A,B,C,prop,ma,mb,mc,mi,mj,pspict,rotate=0):
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=["\( {}\)".format(ma),"\( {}\)".format(mb),"\( {}\)".format(mc)],pspict=pspict)
     I=Segment(A,C).get_point_proportion(prop)
     J=Segment(A,B).get_point_proportion(prop)
-    I.put_mark(0.2,I.advised_mark_angle,"\( {}\)".format(mi),automatic_place=(pspict,"corner"))
-    J.put_mark(0.2,J.advised_mark_angle+180,"\( {}\)".format(mj),automatic_place=(pspict,"corner"))
+    I.put_mark(0.2,I.advised_mark_angle+rotate,"\( {}\)".format(mi),automatic_place=(pspict,"corner"))
+    J.put_mark(0.2,J.advised_mark_angle+180+rotate,"\( {}\)".format(mj),automatic_place=(pspict,"corner"))
     seg=Segment(I,J)
     pspict.DrawGraphs(trig,seg,I,J)
     return I,J
@@ -79,16 +79,14 @@ def BJOSooIdFKWA():
     pspict.dilatation_Y(1)
 
     I=Point(0,0)
-    K=Point(-2,2)
+    K=Point(-1.5,2)
     J=Point(0.5,2)
-    M,L=thales(  I,K,J, 0.65,'I',"K","J","M","L",pspict )
-    M.mark.angle=M.mark.angle+180
-    L.mark.angle=L.mark.angle+180
+    L,M=thales(  I,K,J, 0.65,'I',"K","J","L","M",pspict,rotate=180 )
 
     m1=Segment(K,J).get_mark(0.1,None,"\( 7\)",automatic_place=(pspict,"corner"))
-    m2=Segment(J,L).get_mark(-0.1,None,"\( 2\)",automatic_place=(pspict,"corner"))
-    m3=Segment(L,I).get_mark(-0.1,None,"\( 8\)",automatic_place=(pspict,"corner"))
-    m4=Segment(M,I).get_mark(0.1,None,"\( 5\)",automatic_place=(pspict,"corner"))
+    m2=Segment(J,L).get_mark(0.1,None,"\( 2\)",automatic_place=(pspict,"corner"))
+    m3=Segment(L,I).get_mark(0.1,None,"\( 8\)",automatic_place=(pspict,"corner"))
+    m4=Segment(M,I).get_mark(-0.1,None,"\( 5\)",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(m1,m2,m3,m4)
     fig.no_figure()
