@@ -13,6 +13,7 @@ def CXWooOMPOQT():
     moustaches.append(Moustache(7.90,10.20,14.45,16.70,20.00,h=0.5,delta_y=0.75))   # DS1
     moustaches.append(Moustache(5.10,8.75,10.87,16.29,20.00,h=0.5,delta_y=0.75))    # DS2
     moustaches.append(Moustache(5.88,10.36,14.41,16.75,20.00,h=0.5,delta_y=0.75))   # DS3
+    moustaches.append(Moustache(4.42,9.80,12.57,16.64,20.00,h=0.5,delta_y=0.75))    # DS4
 
     phystricksCommons.DS_statistics(moustaches,pspict)
 
@@ -30,6 +31,7 @@ def PJQooTWPTXV():
     moustaches.append(Moustache(6.00,8.99,11.50,14.37,20.00,h=0.5,delta_y=0.75))    # DS1
     moustaches.append(Moustache(4.93,7.71,11.85,14.03,16.48,h=0.5,delta_y=0.75))    # DS2
     moustaches.append(Moustache(4.90,7.38,10.35,13.36,17.09,h=0.5,delta_y=0.75))    # DS3
+    moustaches.append(Moustache(1.50,7.57,10.23,13.12,16.03,h=0.5,delta_y=0.75))    # DS4
 
     phystricksCommons.DS_statistics(moustaches,pspict)
 
@@ -57,4 +59,4 @@ def JNGEooISdbXx():
 def TYIooYKqeNv():
     PJQooTWPTXV()
     CXWooOMPOQT()
-    JNGEooISdbXx()
+    #JNGEooISdbXx()
