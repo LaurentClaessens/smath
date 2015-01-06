@@ -18,10 +18,12 @@ droites_rem=commun.OneChapter("Droites remarquables dans un triangle",classe)
 ops_frac=commun.OneChapter("Opérations sur les fractions",classe)
 sym_centrale=commun.OneChapter("Symétrie centrale",classe)
 exp_litt=commun.OneChapter("Expressions littérales",classe)
+ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 
 
 actu5=sym_centrale
 actu5=exp_litt
+actu5=ang_parall
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

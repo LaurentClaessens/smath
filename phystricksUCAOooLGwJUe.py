@@ -96,6 +96,6 @@ def BJOSooIdFKWA():
 
 def UCAOooLGwJUe():
     BJOSooIdFKWA()
-    #QMJQooQratnO()
-    #WRBDooZhkhcW()
-    #CSUHooJIJzsW()
+    QMJQooQratnO()
+    WRBDooZhkhcW()
+    CSUHooJIJzsW()

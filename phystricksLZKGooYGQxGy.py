@@ -6,8 +6,8 @@ def LZKGooYGQxGy():
     pspict.dilatation_Y(1)
 
     H=Point(0,0)
-    T=Point(-1,-4)
-    E=Point(1.7,-4)
+    T=Point(-1,-4)*0.6
+    E=Point(1.7,-4)*0.6
 
     s1=Segment(H,T).dilatation(1.2)
     s2=Segment(H,E).dilatation(1.2)
