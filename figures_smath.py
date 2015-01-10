@@ -821,6 +821,8 @@ figures_list.append(<++>)
 figures_list.append(<++>)
 """
 
+figures_list=figures_list[100:]
+
 # This is a very basic verification 
 fnsprises=[ str(f).split(" ")[1] for f in figures_list  ]
 on=False

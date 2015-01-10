@@ -7,7 +7,7 @@ def EZTHooBttIaQ():
 
     A=Point(0,0)
     B=Point(0,-3)
-    C=A+(1,0)
+    C=A+(1.5,0)
     D=B+C-A
 
     v1=Segment(A,B)
@@ -23,8 +23,9 @@ def EZTHooBttIaQ():
     a3=Angle(C,L,K)
     a4=Angle(K,L,D)
 
-    #a1.put_mark(0.2,a1.advised_mark_angle,"\( a1\)",automatic_place=(pspict,"corner"))
+    a2.put_mark(0.4,a2.advised_mark_angle,"\small\SI{45}{\degree}",automatic_place=(pspict,"center"))
     #a2.put_mark(0.2,a2.advised_mark_angle,"\( a2\)",automatic_place=(pspict,"corner"))
+    #a1.put_mark(0.2,a1.advised_mark_angle,"\( a1\)",automatic_place=(pspict,"corner"))
     #a3.put_mark(0.2,a3.advised_mark_angle,"\( a3\)",automatic_place=(pspict,"corner"))
     #a4.put_mark(0.2,a4.advised_mark_angle,"\( a4\)",automatic_place=(pspict,"corner"))
 
