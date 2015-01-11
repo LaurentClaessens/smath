@@ -14,6 +14,14 @@ class OneChapter(object):
             if self.chapter_title in l:
                 line=i
         return smath_lines[line+1]
+    def preamble_lines(self):
+        import LaTeXparser
+        import LaTeXparser.PytexTools
+        A=LaTeXparser.FileToCodeLaTeX("smath.tex",keep_comments=True)
+        script_mark_dict=LaTeXparser.PytexTools.script_mark_dict(A)
+        a,b=script_mark_dict["% SCRIPT MARK -- PREAMBLE"]
+        text="\n".join(A.splitlines()[a:b])
+        return text
     def count_exo(self,text,i_line):
         """
         return the number of \Exo in 'text' from the beginning and the line number 'i_line'.
@@ -58,7 +66,8 @@ class OneChapter(object):
         return "".join(sublist)
     def write_the_file(self,filename="automatedChapter.tex"):
         generic_lines="".join(open("genericChapter.tex").readlines())
-        text=generic_lines.replace("TITRE_CHAPITRE",self.chapter_title+" ({})".format(self.group)).replace("LES_INPUT",self.smath_input_line()).replace("LISTE_EXERCICES",self.exercice_lines(self.exercice_filename)).replace("N_CHAPITRE",str(self.count_section()-1))
+        preamble_lines=self.preamble_lines()
+        text=generic_lines.replace("TITRE_CHAPITRE",self.chapter_title+" ({})".format(self.group)).replace("LES_INPUT",self.smath_input_line()).replace("LISTE_EXERCICES",self.exercice_lines(self.exercice_filename)).replace("N_CHAPITRE",str(self.count_section()-1)).replace("PREAMBLE",preamble_lines)
         f=open(filename,'w')
         f.write(text)
         f.close()
