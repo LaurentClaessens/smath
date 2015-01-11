@@ -17,6 +17,21 @@
 
 % Il faut lire README.txt
 
+
+
+% 1 on utilise external et 0 on ne l'utilise pas
+\newcounter{useexternal}
+\setcounter{useexternal}{1}     
+\ifthenelse{\value{useexternal}=1}{
+\usetikzlibrary{external}
+\tikzexternalize
+}{
+\newcommand{\tikzsetnextfilename}[1]{}
+}
+
+
+
+
 \begin{document}
 
 

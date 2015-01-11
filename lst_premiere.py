@@ -1,6 +1,8 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
+import sys
+import commun
 import LaTeXparser
 import LaTeXparser.PytexTools
 
@@ -37,3 +39,6 @@ myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
+
+if "--no-external" in sys.argv :
+    myRequest.add_plugin(commun.set_no_useexternal,"after_pytex")

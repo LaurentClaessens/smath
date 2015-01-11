@@ -3,16 +3,43 @@
 
 """
 Pour tester ce fichier :
-    rm *.pdf
     rm *.aux
+    rm tikzFIGLabelFig*
     rm *.pstricks
-    cp png_to_pdf/*.pdf .
     et vérifier que externalize de tikz n'est pas mis pour le test.
+
+    J'ai déjà eu un problème très peu explicable lorsque je n'avais pas supprimé tous les fichiers '.out'.
+
+    L'ECM suivant plantait :
+
+\documentclass[a4paper,10pt]{book}
+
+\usepackage{tikz}
+
+\usetikzlibrary{external}
+\tikzexternalize
+
+\usepackage{hyperref}                           %Doit être appelé en dernier.
+
+\begin{document}
+
+\tikzsetnextfilename{tikzFIGLabelFigGUEjmm RPICTGUEjmmR}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\end{tikzpicture}
+
+   En enlevant soit hyperref soit la ligne \tikzsetnextfilename ça fonctionnait.
+
+\end{document}
+
+
+
 """
 
 from phystricks import *
 import sys
 
+from phystricksJMQIooOMgNvh import JMQIooOMgNvh
+from phystricksZRDYooCERmeJ import ZRDYooCERmeJ
 from phystricksPQYKooJWKpVZ import PQYKooJWKpVZ
 from phystricksANRUooVCOTOb import ANRUooVCOTOb
 from phystricksMLZLooYDRsFl import MLZLooYDRsFl
@@ -811,10 +838,10 @@ figures_list.append(EZTHooBttIaQ)
 figures_list.append(MLZLooYDRsFl)
 figures_list.append(ANRUooVCOTOb)
 figures_list.append(PQYKooJWKpVZ)
+figures_list.append(ZRDYooCERmeJ)
+figures_list.append(JMQIooOMgNvh)
+figures_list.append(FLXBooMvWhiY)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)

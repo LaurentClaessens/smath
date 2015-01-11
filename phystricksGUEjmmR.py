@@ -1,7 +1,6 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 
-# Cette figure est d'un calcul mental et le png est inclu en dur.
 def GUEjmmR():
     pspict,fig = SinglePicture("GUEjmmR")
     pspict.dilatation_X(1)

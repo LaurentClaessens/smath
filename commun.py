@@ -153,3 +153,8 @@ class Situation(object):
         return [  Point(k[0],k[1]) for k in self.pts ]
     def latex(self):
         return self.array.latex()
+
+def set_no_useexternal(A):
+    u="\setcounter{useexternal}{1}"
+    A = A.replace(u,u.replace("1","0"))
+    return A
