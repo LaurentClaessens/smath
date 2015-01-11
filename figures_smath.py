@@ -13,6 +13,7 @@ Pour tester ce fichier :
 from phystricks import *
 import sys
 
+from phystricksPQYKooJWKpVZ import PQYKooJWKpVZ
 from phystricksANRUooVCOTOb import ANRUooVCOTOb
 from phystricksMLZLooYDRsFl import MLZLooYDRsFl
 from phystricksEZTHooBttIaQ import EZTHooBttIaQ
@@ -809,8 +810,8 @@ figures_list.append(UCAOooLGwJUe)
 figures_list.append(EZTHooBttIaQ)
 figures_list.append(MLZLooYDRsFl)
 figures_list.append(ANRUooVCOTOb)
+figures_list.append(PQYKooJWKpVZ)
 """
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
@@ -821,7 +822,6 @@ figures_list.append(<++>)
 figures_list.append(<++>)
 """
 
-figures_list=figures_list[100:]
 
 # This is a very basic verification 
 fnsprises=[ str(f).split(" ")[1] for f in figures_list  ]
