@@ -8,6 +8,8 @@ Pour tester ce fichier :
     rm *.pstricks
     et vérifier que externalize de tikz n'est pas mis pour le test.
 
+    Après avoir fait tout ça, on peut simplement faire le 'git add' de tous les fichiers 'tikzFIGLabelFig*.pdf' et '.md5'
+
     J'ai déjà eu un problème très peu explicable lorsque je n'avais pas supprimé tous les fichiers '.out'.
 
     L'ECM suivant plantait :

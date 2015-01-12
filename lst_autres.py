@@ -32,5 +32,3 @@ myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 
-if "--no-external" in sys.argv :
-    myRequest.add_plugin(commun.set_no_useexternal,"after_pytex")

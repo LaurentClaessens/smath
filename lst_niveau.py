@@ -29,6 +29,3 @@ if "autres" in sys.argv:
 
 myRequest.add_plugin(LaTeXparser.PytexTools.accept_all_input,"medicament")
 myRequest.add_plugin(LaTeXparser.PytexTools.keep_script_marks(ok_mark_list),"before_pytex")
-if "--no-external" in sys.argv :
-    myRequest.add_plugin(commun.set_no_useexternal,"after_pytex")
-

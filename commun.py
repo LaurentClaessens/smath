@@ -12,7 +12,7 @@ quatrieme_mark_list=[]
 quatrieme_mark_list.append("% SCRIPT MARK -- PREAMBLE")
 quatrieme_mark_list.append("% SCRIPT MARK -- BEGIN DOCUMENT")
 quatrieme_mark_list.append("% SCRIPT MARK -- TABLE DES MATIÈRES")
-quatrieme_mark_list.append("% SCRIPT MARK -- CINQUIÈME")
+quatrieme_mark_list.append("% SCRIPT MARK -- QUATRIÈME")
 quatrieme_mark_list.append("% SCRIPT MARK -- CORRECTIONS")
 quatrieme_mark_list.append("% SCRIPT MARK -- FINAL")
 
@@ -20,7 +20,7 @@ seconde_mark_list=[]
 seconde_mark_list.append("% SCRIPT MARK -- PREAMBLE")
 seconde_mark_list.append("% SCRIPT MARK -- BEGIN DOCUMENT")
 seconde_mark_list.append("% SCRIPT MARK -- TABLE DES MATIÈRES")
-seconde_mark_list.append("% SCRIPT MARK -- CINQUIÈME")
+seconde_mark_list.append("% SCRIPT MARK -- SECONDE")
 seconde_mark_list.append("% SCRIPT MARK -- CORRECTIONS")
 seconde_mark_list.append("% SCRIPT MARK -- FINAL")
 
@@ -28,7 +28,7 @@ premiere_mark_list=[]
 premiere_mark_list.append("% SCRIPT MARK -- PREAMBLE")
 premiere_mark_list.append("% SCRIPT MARK -- BEGIN DOCUMENT")
 premiere_mark_list.append("% SCRIPT MARK -- TABLE DES MATIÈRES")
-premiere_mark_list.append("% SCRIPT MARK -- CINQUIÈME")
+premiere_mark_list.append("% SCRIPT MARK -- PREMIÈRE")
 premiere_mark_list.append("% SCRIPT MARK -- CORRECTIONS")
 premiere_mark_list.append("% SCRIPT MARK -- FINAL")
 
@@ -36,7 +36,7 @@ autre_mark_list=[]
 autre_mark_list.append("% SCRIPT MARK -- PREAMBLE")
 autre_mark_list.append("% SCRIPT MARK -- BEGIN DOCUMENT")
 autre_mark_list.append("% SCRIPT MARK -- TABLE DES MATIÈRES")
-autre_mark_list.append("% SCRIPT MARK -- CINQUIÈME")
+autre_mark_list.append("% SCRIPT MARK -- AUTRE")
 autre_mark_list.append("% SCRIPT MARK -- CORRECTIONS")
 autre_mark_list.append("% SCRIPT MARK -- FINAL")
 
@@ -202,11 +202,6 @@ class Situation(object):
         return [  Point(k[0],k[1]) for k in self.pts ]
     def latex(self):
         return self.array.latex()
-
-def set_no_useexternal(A):
-    u="\setcounter{useexternal}{1}"
-    A = A.replace(u,u.replace("1","0"))
-    return A
 
 class set_filename(object):
     def __init__(self,new_filename):
