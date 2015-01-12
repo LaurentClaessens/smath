@@ -2,7 +2,7 @@
 from phystricks import *
 def FQUNooERdWZY():
     pspict,fig = SinglePicture("FQUNooERdWZY")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     vect=(1,0)
     A=Point(0,0)

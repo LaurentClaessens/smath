@@ -16,7 +16,7 @@ if "cinquième" in sys.argv:
     myRequest.add_plugin(commun.set_filename("0-cinquieme.pdf"),"medicament")
 if "quatrième" in sys.argv:
     ok_mark_list=commun.quatrieme_mark_list
-    myRequest.add_plugin(commun.set_filename("0-quatrieme_mark_list.pdf"),"medicament")
+    myRequest.add_plugin(commun.set_filename("0-quatrieme.pdf"),"medicament")
 if "seconde" in sys.argv:
     ok_mark_list=commun.seconde_mark_list
     myRequest.add_plugin(commun.set_filename("0-seconde.pdf"),"medicament")
