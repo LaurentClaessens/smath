@@ -3,7 +3,7 @@ from phystricks import *
 
 def ANRUooVCOTOb():
     pspict,fig = SinglePicture("ANRUooVCOTOb")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     O=Point(0,0)
     r=3
@@ -38,13 +38,7 @@ def ANRUooVCOTOb():
             I=pts[0]
             J=pts[1]
             S=Segment(I,J)
-            #S.parameters.color='green'
-            #seg.parameters.color="red"
-            #t=Segment(seg.F,I)
-            #t.parameters.color="purple"
-            #pspict.DrawGraphs(I,J,S,t)
             pspict.DrawGraphs(S)
-        #pspict.DrawGraphs(seg)
 
     Y=numpy.linspace(  -r,r,10,endpoint=True )
     for yy in Y:

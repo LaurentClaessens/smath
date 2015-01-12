@@ -1,5 +1,13 @@
 #from __future__ import unicode_literals
 
+cinquieme_mark_list=[]
+cinquieme_mark_list.append("% SCRIPT MARK -- PREAMBLE")
+cinquieme_mark_list.append("% SCRIPT MARK -- BEGIN DOCUMENT")
+cinquieme_mark_list.append("% SCRIPT MARK -- TABLE DES MATIÈRES")
+cinquieme_mark_list.append("% SCRIPT MARK -- CINQUIÈME")
+cinquieme_mark_list.append("% SCRIPT MARK -- CORRECTIONS")
+cinquieme_mark_list.append("% SCRIPT MARK -- FINAL")
+
 
 class OneChapter(object):
     def __init__(self,chapter_title,group):
