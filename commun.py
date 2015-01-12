@@ -207,3 +207,9 @@ def set_no_useexternal(A):
     u="\setcounter{useexternal}{1}"
     A = A.replace(u,u.replace("1","0"))
     return A
+
+class set_filename(object):
+    def __init__(self,new_filename):
+        self.new_filename=new_filename
+    def __call__(self,medicament):
+        medicament.new_output_filename=self.new_filename
