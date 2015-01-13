@@ -20,6 +20,11 @@
 
 \newenvironment{feuille}[1]{\setcounter{page}{1}\large \begin{center} #1 \end{center} \small \begin{center} Les réponses doivent être justifiées par un calcul ou par un raisonnement clairement rédigé.  \end{center} \normalsize \setcounter{CountExercice}{0}}{\newpage\bibliographystyle{unsrt}\bibliography{mazhe}} 
 
+% 1 on utilise external et 0 on ne l'utilise pas
+\newcounter{useexternal}
+\setcounter{useexternal}{1}
+\ifthenelse{\value{useexternal}=1}{ \usetikzlibrary{external} \tikzexternalize }{ \newcommand{\tikzsetnextfilename}[1]{} }
+
 
 \begin{document}
 
@@ -243,6 +248,7 @@
 \Exo{2smath-0068}
 \Exo{2smath-0069}
 \Exo{2smath-0070}
+\Exo{2smath-0071}
 \end{multicols}
 
 \end{document}

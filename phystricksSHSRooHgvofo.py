@@ -10,7 +10,7 @@ def SHSRooHgvofo():
     triangles.append(  Polygon(  Point(0,0),Point(2,0),Point(0,1)  )  )
     triangles.append(  Polygon(  Point(0,0),Point(0.3,1),Point(1.5,-1)  )  )
     triangles.append(  Polygon(  Point(0,0),Point(1,1),Point(1,-2)  )  )
-    triangles.append(  Polygon(  Point(0,0),Point(1,2),Point(2,0)  )  )
+    triangles.append(  Polygon(  Point(0,0),Point(1.5,2),Point(3,0)  )  )
 
     A=Point(0,0)
     B=Point(2,1)
@@ -26,13 +26,16 @@ def SHSRooHgvofo():
     triangles[4].put_mark(0.2,["\( F\)","\( E\)","\( H\)"],pspict=pspicts)
     triangles[5].put_mark(0.2,["\( A\)","\( B\)","\( C\)"],pspict=pspicts)
 
+    for trig in triangles :
+        for P in trig.vertices:
+            P.parameters.symbol=""
     
     # Première figure
 
     # Deuxième figure
     # Celui-ci est rectangle
     trig=triangles[1]
-    rh=RightAnlge( trig.edges[0],trig.edges[2],0.3,0,0  )
+    rh=RightAngle( trig.edges[0],trig.edges[2],0.3,1,0  )
     pspicts[1].DrawGraphs(rh)
 
     # Troisième figure
@@ -41,6 +44,10 @@ def SHSRooHgvofo():
 
     # Cinquième figure
     # Isocèle
+    trig=triangles[4]
+    a1=Angle(trig.vertices[0],trig.vertices[1],trig.vertices[2])
+    a1.put_mark(0.2,a1.advised_mark_angle,"\( 70\)",automatic_place=(pspicts,"center"))
+    pspicts[4].DrawGraphs(a1)
 
     # Cinquième figure
     # équilatéral

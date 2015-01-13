@@ -67,6 +67,10 @@
 \immediate\write\writeOfphystricks{totalheightof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( H\)}}%
 \immediate\write\writeOfphystricks{widthof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{\( 70\)}}%
+\immediate\write\writeOfphystricks{totalheightofd963765580f33fc8553f6918c25297de3c50113f:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{\( 70\)}}%
+\immediate\write\writeOfphystricks{widthofd963765580f33fc8553f6918c25297de3c50113f:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -116,13 +120,13 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (0.0,0.0) node [rotate=0] {$\times$};
+\draw [] (0.2100000000,0.2100000000) -- (0.2100000000,0.0);
+\draw [] (0.2100000000,0.2100000000) -- (0.0,0.2100000000);
+
 \draw (-0.2619655229,-0.2553098562) node {\( T\)};
 \draw (-0.2619655229,-0.2553098562) node {\( T\)};
-\draw []  (1.400000000,0.0) node [rotate=0] {$\times$};
 \draw (1.719650131,-0.1598390841) node {\( A\)};
 \draw (1.719650131,-0.1598390841) node {\( A\)};
-\draw []  (0.0,0.7000000000) node [rotate=0] {$\times$};
 \draw (-0.2586183891,0.9840186617) node {\( K\)};
 \draw (-0.2586183891,0.9840186617) node {\( K\)};
 \draw [] (0.0,0.0) -- (1.400000000,0.0);

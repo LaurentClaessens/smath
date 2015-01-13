@@ -15,12 +15,14 @@ def QZABooEsqWaq():
     parallel=(triangle.edges[0]+(0,h)).dilatation(1.5)
     triangle.edges[0]=triangle.edges[0].dilatation(1.3)
     
-    a1=Angle(B,A,C)
+    a1=Angle(B,A,C,r=0.6)
     a1.put_mark(0.3,a1.advised_mark_angle,"$a$",automatic_place=(pspict,"center"))
-    a2=Angle(C,B,A)
+    a2=Angle(C,B,A,r=0.6)
     a2.put_mark(0.2,a2.advised_mark_angle,"$b$",automatic_place=(pspict,"center"))
+    a3=Angle(A,C,B,r=0.6)
+    a3.put_mark(0.2,a3.advised_mark_angle,"\( c\)",automatic_place=(pspict,"center"))
 
-    pspict.DrawGraphs(triangle,a1,a2,parallel)
+    pspict.DrawGraphs(triangle,a1,a2,a3,parallel)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

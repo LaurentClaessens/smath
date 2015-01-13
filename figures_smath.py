@@ -2,44 +2,15 @@
 # -*- coding: utf8 -*-
 
 """
-Pour tester ce fichier :
-    rm *.aux
-    rm tikzFIGLabelFig*
-    rm *.pstricks
-    et vérifier que externalize de tikz n'est pas mis pour le test.
-
-    Après avoir fait tout ça, on peut simplement faire le 'git add' de tous les fichiers 'tikzFIGLabelFig*.pdf' et '.md5'
-
-    J'ai déjà eu un problème très peu explicable lorsque je n'avais pas supprimé tous les fichiers '.out'.
-
-    L'ECM suivant plantait :
-
-\documentclass[a4paper,10pt]{book}
-
-\usepackage{tikz}
-
-\usetikzlibrary{external}
-\tikzexternalize
-
-\usepackage{hyperref}                           %Doit être appelé en dernier.
-
-\begin{document}
-
-\tikzsetnextfilename{tikzFIGLabelFigGUEjmm RPICTGUEjmmR}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
-\end{tikzpicture}
-
-   En enlevant soit hyperref soit la ligne \tikzsetnextfilename ça fonctionnait.
-
-\end{document}
-
-
-
+Comment tester et recompiler ? Réponse dans 'recompilation.txt'
 """
 
 from phystricks import *
 import sys
 
+
+from phystricksRGRLooTmnwQZ import RGRLooTmnwQZ
+from phystricksGDSEooVtgtKw import GDSEooVtgtKw
 from phystricksSHSRooHgvofo import SHSRooHgvofo
 from phystricksQZABooEsqWaq import QZABooEsqWaq
 from phystricksSVPAooIuxHvP import SVPAooIuxHvP
@@ -861,9 +832,9 @@ figures_list.append(UZOQooTSAQcl)
 figures_list.append(SVPAooIuxHvP)
 figures_list.append(QZABooEsqWaq)
 figures_list.append(SHSRooHgvofo)
+figures_list.append(GDSEooVtgtKw)
+figures_list.append(RGRLooTmnwQZ)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)

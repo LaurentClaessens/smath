@@ -1,0 +1,67 @@
+Pour tester ce fichier :
+
+Tout ceci est à faire dans un clone du répertoire.
+
+    rm *.aux
+    rm tikzFIGLabelFig*
+    rm *.pstricks
+
+
+time ./figures_smath.py --all
+time pytex lst_smath --lotex --no-external
+time ./figures_smath.py --all
+
+time lst_4Aexercices.py --lotex --no-external
+time lst_5Aexercices.py --lotex --no-external
+time lst_5Bexercices.py --lotex --no-external
+time lst_niveau.py cinquième --lotex --no-external
+time lst_niveau.py quatrième --lotex --no-external
+time lst_niveau.py seconde --lotex --no-external
+time lst_niveau.py première --lotex --no-external
+time lst_niveau.py autres --lotex --no-external
+time lst_smath --lotex --no-external
+
+
+Ensuite la même chose avec 'external'
+
+
+Dans le répertoire 'smath' :
+    rm *.aux
+    rm tikzFIGLabelFig*
+    rm *.pstricks
+
+Copier les fichiers correspondants fraîchement créés.
+
+    Après avoir fait tout ça, on peut simplement faire le 'git add' de tous les fichiers 'tikzFIGLabelFig*.pdf' et '.md5'
+
+
+
+
+
+    J'ai déjà eu un problème très peu explicable lorsque je n'avais pas supprimé tous les fichiers '.out'.
+
+    L'ECM suivant plantait :
+
+\documentclass[a4paper,10pt]{book}
+
+\usepackage{tikz}
+
+\usetikzlibrary{external}
+\tikzexternalize
+
+\usepackage{hyperref}                           %Doit être appelé en dernier.
+
+\begin{document}
+
+\tikzsetnextfilename{tikzFIGLabelFigGUEjmm RPICTGUEjmmR}
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\end{tikzpicture}
+
+   En enlevant soit hyperref soit la ligne \tikzsetnextfilename ça fonctionnait.
+
+\end{document}
+
+
+
+
+
