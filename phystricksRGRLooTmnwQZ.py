@@ -47,6 +47,11 @@ def RGRLooTmnwQZ():
     for i in range(len(original)):
         choix.append(  random.choice(  [original[i],swip[i]]  )   )
 
+    for s in swip:
+        pspict.math_BB.append(s,pspict)
+    for s in original:
+        pspict.math_BB.append(s,pspict)
+
     #for seg in choix:
     #    seg.parameters.color="blue"
 
@@ -58,3 +63,4 @@ def RGRLooTmnwQZ():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
+
