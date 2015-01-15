@@ -22,8 +22,9 @@ ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 
 
 actu5=sym_centrale
-actu5=exp_litt
 actu5=ang_parall
+actu5=exp_litt
+actu5=ops_frac
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
