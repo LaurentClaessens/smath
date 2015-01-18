@@ -20,7 +20,7 @@ def JRCJooPHFcKn():
     gtriangle.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
 
     rh1=RightAngle( Segment(E,F),Segment(A,C),0.3,1,0 )
-    rh2=RightAngle( Segment(C,B),Segment(A,C),0.3,0,0 )
+    rh2=RightAngle( Segment(C,B),Segment(A,C),0.3,1,0 )
 
     mes1=Segment(A,E).get_measure(-0.4,0.1,None,"\SI{3.2}{\centi\meter}",automatic_place=(pspict,"corner"))
     mes2=Segment(E,C).get_measure(-0.4,0.1,None,"\SI{3.5}{\centi\meter}",automatic_place=(pspict,"corner"))

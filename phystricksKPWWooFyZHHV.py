@@ -33,6 +33,17 @@ def KPWWooFyZHHV():
 
     AB=[  Segment(A[i],B[i]).dilatation(1.5) for i in range(0,4)  ]
 
+    for p in T:
+        p.parameters.symbol=""
+    for p in M:
+        p.parameters.symbol=""
+    for p in O:
+        p.parameters.symbol=""
+    for p in A:
+        p.parameters.symbol=""
+    for p in B:
+        p.parameters.symbol=""
+    S.parameters.symbol=""
     for i in range(0,4):
         A[i].put_mark(0.2,A[i].advised_mark_angle,"\( A\)",automatic_place=(pspicts,"corner"))
         B[i].put_mark(0.2,B[i].advised_mark_angle,"\( B\)",automatic_place=(pspicts,"corner"))
