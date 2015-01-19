@@ -2,8 +2,7 @@
 from phystricks import *
 def GLKFooKwvxSl():
     pspict,fig = SinglePicture("GLKFooKwvxSl")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     A=Point(-2,1)
     A.put_mark(0.2,A.angle(),"\( A\)",automatic_place=(pspict,"corner"))
