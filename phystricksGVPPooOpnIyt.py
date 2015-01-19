@@ -14,6 +14,7 @@ def GVPPooOpnIyt():
     K=Segment(B,A).midpoint()
     L=Segment(A,C).midpoint()
     drm=Segment(L,K)
+    #drm.put_mark(0.2,None,"\( 1.5\)",automatic_place=(pspict,"center"))
 
     trig.edges[1].put_mark(0.1,trig.edges[1].advised_mark_angle+180,"\( 3\)",automatic_place=(pspict,""))
     m=Segment(A,L).get_mark(0.2,None,"\( 5\)",automatic_place=(pspict,""))

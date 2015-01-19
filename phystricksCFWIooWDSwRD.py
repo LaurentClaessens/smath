@@ -5,7 +5,7 @@ from phystricks import *
 
 def CFWIooWDSwRD():
     pspict,fig = SinglePicture("CFWIooWDSwRD")
-    pspict.dilatation(0.4)
+    pspict.dilatation(0.3)
 
     O=Point(0,0)
     rayons=[2,3,4,5,6,7]

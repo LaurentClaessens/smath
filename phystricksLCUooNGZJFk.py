@@ -19,6 +19,9 @@ def LCUooNGZJFk():
     C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
     D.put_mark(0.2,90+45,"\( D\)",automatic_place=(pspict,"corner"))
 
+    for P in [A,B,C,D]:
+        P.parameters.symbol=""
+
     measureDC=MeasureLength(  Segment(D,C),-0.3  )
     measureDC.put_mark(0.3,90,"\( 5\)",automatic_place=(pspict,"S"))
 

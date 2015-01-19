@@ -2,8 +2,7 @@
 from phystricks import *
 def DIDMooOJHGra():
     pspict,fig = SinglePicture("DIDMooOJHGra")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     lb=3
     alpha=30
@@ -28,6 +27,9 @@ def DIDMooOJHGra():
     E.put_mark(0.2,0,"\( E\)",automatic_place=(pspict,"W"))
     F.put_mark(0.2,180+45,"\( F\)",automatic_place=(pspict,"corner"))
     G.put_mark(0.2,-45,"\( G\)",automatic_place=(pspict,"corner"))
+
+    for P in [A,B,C,D,E,F,G]:
+        P.parameters.symbol=""
 
     m1=[  s.get_code(n=2,d=0.1,l=0.3,angle=45,pspict=pspict) for s in  [ Segment(A,B), Segment(B,D),Segment(A,C),Segment(C,E) ]  ]
     m2=[  s.get_code(n=1,d=0.1,l=0.3,angle=45,pspict=pspict) for s in  [ Segment(D,E), Segment(D,F),Segment(E,G) ]  ]

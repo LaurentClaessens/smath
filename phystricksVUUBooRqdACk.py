@@ -25,6 +25,8 @@ def VUUBooRqdACk():
         pspict.math_BB.append(P,pspict)
 
     pspict.DrawGraphs(poly)
+    pspict.grid.main_horizontal.parameters.style="dotted"
+    pspict.grid.main_vertical.parameters.style="dotted"
     pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()

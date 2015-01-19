@@ -20,6 +20,7 @@ ops_frac=commun.OneChapter("Opérations sur les fractions",classe)
 exp_litt=commun.OneChapter("Expressions littérales",classe)
 sym_centrale=commun.OneChapter("Symétrie centrale",classe)
 nombres_relatifs=commun.OneChapter("Nombres relatifs",classe)
+ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 
 actu5=ops_frac
 actu5=exp_litt
