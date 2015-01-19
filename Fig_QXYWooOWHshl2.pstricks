@@ -11,14 +11,14 @@
 \makeatletter\@ifundefined{lengthOfhomemokySagesrcbinsageipython}{\newlength{\lengthOfhomemokySagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigQXYWooOWHshl2.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{durée (en \si{\minute})}}%
-\immediate\write\writeOfphystricks{totalheightof53be5040997944017bca395acd675f86ae013c6d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{durée (en \si{\minute})}}%
-\immediate\write\writeOfphystricks{widthof53be5040997944017bca395acd675f86ae013c6d:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{distance parcourue (en \si{\kilo\meter})}}%
-\immediate\write\writeOfphystricks{totalheightofdc8539d2bed63e6d964dbc5728fdf06ea9825b7e:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{distance parcourue (en \si{\kilo\meter})}}%
-\immediate\write\writeOfphystricks{widthofdc8539d2bed63e6d964dbc5728fdf06ea9825b7e:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{durée}}%
+\immediate\write\writeOfphystricks{totalheightof658a9dae3a5034a534598ef807f703408429f419:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{durée}}%
+\immediate\write\writeOfphystricks{widthof658a9dae3a5034a534598ef807f703408429f419:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{distance parcourue}}%
+\immediate\write\writeOfphystricks{totalheightof28e7ac8b34a408de95d5eb19fc5797eb853edbf2:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{distance parcourue}}%
+\immediate\write\writeOfphystricks{widthof28e7ac8b34a408de95d5eb19fc5797eb853edbf2:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{$ 30 $}}%
 \immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{$ 30 $}}%
@@ -31,14 +31,10 @@
 \immediate\write\writeOfphystricks{totalheightofd4442583e26751a2319cba377689d74828bacca6:\the\lengthOfhomemokySagesrcbinsageipython-}
 \setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{$ 90 $}}%
 \immediate\write\writeOfphystricks{widthofd4442583e26751a2319cba377689d74828bacca6:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{$ 10 $}}%
-\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{$ 10 $}}%
-\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{$ 20 $}}%
-\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokySagesrcbinsageipython-}
-\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{$ 20 $}}%
-\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\totalheightof{$ 120 $}}%
+\immediate\write\writeOfphystricks{totalheightof6e400de9f1ec28f9c58fc8260cabeab5177be023:\the\lengthOfhomemokySagesrcbinsageipython-}
+\setlength{\lengthOfhomemokySagesrcbinsageipython}{\widthof{$ 120 $}}%
+\immediate\write\writeOfphystricks{widthof6e400de9f1ec28f9c58fc8260cabeab5177be023:\the\lengthOfhomemokySagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -85,45 +81,51 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (0.0,0.0) -- (0.0,1.875000000);
-\draw [color=gray,style=solid] (0.5000000000,0.0) -- (0.5000000000,1.875000000);
-\draw [color=gray,style=solid] (1.000000000,0.0) -- (1.000000000,1.875000000);
-\draw [color=gray,style=solid] (1.500000000,0.0) -- (1.500000000,1.875000000);
-\draw [color=gray,style=solid] (2.000000000,0.0) -- (2.000000000,1.875000000);
-\draw [color=gray,style=solid] (2.500000000,0.0) -- (2.500000000,1.875000000);
-\draw [color=gray,style=solid] (3.000000000,0.0) -- (3.000000000,1.875000000);
-\draw [color=gray,style=dotted] (0.2500000000,0.0) -- (0.2500000000,1.875000000);
-\draw [color=gray,style=dotted] (0.7500000000,0.0) -- (0.7500000000,1.875000000);
-\draw [color=gray,style=dotted] (1.250000000,0.0) -- (1.250000000,1.875000000);
-\draw [color=gray,style=dotted] (1.750000000,0.0) -- (1.750000000,1.875000000);
-\draw [color=gray,style=dotted] (2.250000000,0.0) -- (2.250000000,1.875000000);
-\draw [color=gray,style=dotted] (2.750000000,0.0) -- (2.750000000,1.875000000);
-\draw [color=gray,style=dotted] (0.0,0.3125000000) -- (3.000000000,0.3125000000);
-\draw [color=gray,style=dotted] (0.0,0.9375000000) -- (3.000000000,0.9375000000);
-\draw [color=gray,style=dotted] (0.0,1.562500000) -- (3.000000000,1.562500000);
-\draw [color=gray,style=solid] (0.0,0.0) -- (3.000000000,0.0);
-\draw [color=gray,style=solid] (0.0,0.6250000000) -- (3.000000000,0.6250000000);
-\draw [color=gray,style=solid] (0.0,1.250000000) -- (3.000000000,1.250000000);
-\draw [color=gray,style=solid] (0.0,1.875000000) -- (3.000000000,1.875000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (0.0,2.000000000);
+\draw [color=gray,style=solid] (0.4166666667,0.0) -- (0.4166666667,2.000000000);
+\draw [color=gray,style=solid] (0.8333333333,0.0) -- (0.8333333333,2.000000000);
+\draw [color=gray,style=solid] (1.250000000,0.0) -- (1.250000000,2.000000000);
+\draw [color=gray,style=solid] (1.666666667,0.0) -- (1.666666667,2.000000000);
+\draw [color=gray,style=solid] (2.083333333,0.0) -- (2.083333333,2.000000000);
+\draw [color=gray,style=solid] (2.500000000,0.0) -- (2.500000000,2.000000000);
+\draw [color=gray,style=dotted] (0.2083333333,0.0) -- (0.2083333333,2.000000000);
+\draw [color=gray,style=dotted] (0.6250000000,0.0) -- (0.6250000000,2.000000000);
+\draw [color=gray,style=dotted] (1.041666667,0.0) -- (1.041666667,2.000000000);
+\draw [color=gray,style=dotted] (1.458333333,0.0) -- (1.458333333,2.000000000);
+\draw [color=gray,style=dotted] (1.875000000,0.0) -- (1.875000000,2.000000000);
+\draw [color=gray,style=dotted] (2.291666667,0.0) -- (2.291666667,2.000000000);
+\draw [color=gray,style=dotted] (0.0,0.2000000000) -- (2.500000000,0.2000000000);
+\draw [color=gray,style=dotted] (0.0,0.6000000000) -- (2.500000000,0.6000000000);
+\draw [color=gray,style=dotted] (0.0,1.000000000) -- (2.500000000,1.000000000);
+\draw [color=gray,style=dotted] (0.0,1.400000000) -- (2.500000000,1.400000000);
+\draw [color=gray,style=dotted] (0.0,1.800000000) -- (2.500000000,1.800000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (2.500000000,0.0);
+\draw [color=gray,style=solid] (0.0,0.4000000000) -- (2.500000000,0.4000000000);
+\draw [color=gray,style=solid] (0.0,0.8000000000) -- (2.500000000,0.8000000000);
+\draw [color=gray,style=solid] (0.0,1.200000000) -- (2.500000000,1.200000000);
+\draw [color=gray,style=solid] (0.0,1.600000000) -- (2.500000000,1.600000000);
+\draw [color=gray,style=solid] (0.0,2.000000000) -- (2.500000000,2.000000000);
 %AXES
-\draw (4.725214523,-0.3080880229) node {durée (en \si{\minute})};
-\draw (1.000000000,-0.3049540000) node { $ 30 $ };
-\draw [] (1.000000000,-0.1000000000) -- (1.000000000,0.1000000000);
-\draw (2.000000000,-0.3049540000) node { $ 60 $ };
-\draw [] (2.000000000,-0.1000000000) -- (2.000000000,0.1000000000);
-\draw (3.000000000,-0.3049540000) node { $ 90 $ };
-\draw [] (3.000000000,-0.1000000000) -- (3.000000000,0.1000000000);
-\draw [,->,>=latex] (0.0,0.0) -- (3.500000000,0.0);
-\draw (2.206484500,2.541666667) node {distance parcourue (en \si{\kilo\meter})};
-\draw (-0.3666666667,0.6250000000) node { $ 10 $ };
-\draw [] (-0.1000000000,0.6250000000) -- (0.1000000000,0.6250000000);
-\draw (-0.3666666667,1.250000000) node { $ 20 $ };
-\draw [] (-0.1000000000,1.250000000) -- (0.1000000000,1.250000000);
-\draw (-0.3666666667,1.875000000) node { $ 30 $ };
-\draw [] (-0.1000000000,1.875000000) -- (0.1000000000,1.875000000);
-\draw [,->,>=latex] (0.0,0.0) -- (0.0,2.375000000);
+\draw (3.540032523,-0.2562338562) node {durée};
+\draw (0.8333333333,-0.3049540000) node { $ 30 $ };
+\draw [] (0.8333333333,-0.1000000000) -- (0.8333333333,0.1000000000);
+\draw (1.666666667,-0.3049540000) node { $ 60 $ };
+\draw [] (1.666666667,-0.1000000000) -- (1.666666667,0.1000000000);
+\draw (2.500000000,-0.3049540000) node { $ 90 $ };
+\draw [] (2.500000000,-0.1000000000) -- (2.500000000,0.1000000000);
+\draw [,->,>=latex] (0.0,0.0) -- (3.000000000,0.0);
+\draw (1.572223667,2.647219667) node {distance parcourue};
+\draw (-0.3666666667,0.6000000000) node { $ 30 $ };
+\draw [] (-0.1000000000,0.6000000000) -- (0.1000000000,0.6000000000);
+\draw (-0.3666666667,1.200000000) node { $ 60 $ };
+\draw [] (-0.1000000000,1.200000000) -- (0.1000000000,1.200000000);
+\draw (-0.3666666667,1.800000000) node { $ 90 $ };
+\draw [] (-0.1000000000,1.800000000) -- (0.1000000000,1.800000000);
+\draw (-0.4500000000,2.400000000) node { $ 120 $ };
+\draw [] (-0.1000000000,2.400000000) -- (0.1000000000,2.400000000);
+\draw [,->,>=latex] (0.0,0.0) -- (0.0,2.500000000);
 %DEFAULT
-\draw [] (0.0,0.0) -- (3.000000000,1.875000000);
+\draw [] (0.0,2.000000000) -- (2.500000000,0.0);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

@@ -5,77 +5,82 @@ def QXYWooOWHshl():
     pspicts,figs = IndependentPictures("QXYWooOWHshl",3)
     
 
-    psp=pspicts[0]
-    psp.dilatation_X(3/90)
-    psp.dilatation_Y(5/80)
+    pspicts[0].dilatation_X(2.5/90)
+    pspicts[0].dilatation_Y(1/50)
 
-    psp.Mx_acceptable_BB=300
-    psp.My_acceptable_BB=60
+    pspicts[0].Mx_acceptable_BB=300
+    pspicts[0].My_acceptable_BB=300
 
-    psp.axes.do_mx_enlarge=False
-    psp.axes.do_my_enlarge=False
-    psp.grid.do_mx_enlarge=False
-    psp.grid.do_my_enlarge=False
+    pspicts[0].axes.do_mx_enlarge=False
+    pspicts[0].axes.do_my_enlarge=False
+    #pspicts[0].axes.do_My_enlarge=False
+    pspicts[0].grid.do_mx_enlarge=False
+    pspicts[0].grid.do_my_enlarge=False
 
-    seg=Segment(  Point(0,0),Point(90,30) )
+    f=LagrangePolynomial( [Point(0,0),Point(90,100),Point(45,25)]  ).graph(0,90)
+    f.parameters.color="black"
     
-    psp.axes.single_axeX.Dx=30
-    psp.axes.single_axeY.Dx=10
-    psp.axes.single_axeX.put_mark(0.2,-45,u"durée (en \si{\minute})",automatic_place=(pspicts,"corner"))
-    psp.axes.single_axeY.put_mark(0.2,0,"distance parcourue (en \si{\kilo\meter})",automatic_place=(pspicts,"corner"))
-    psp.grid.Dx=15
-    psp.grid.Dy=10
-    psp.DrawGraphs(seg)
-    psp.DrawDefaultAxes()
-    psp.DrawDefaultGrid()
+    label_X=u"durée"
+    label_Y=u"distance parcourue"
+    pspicts[0].axes.single_axeX.Dx=30
+    pspicts[0].axes.single_axeY.Dx=30
+    pspicts[0].axes.single_axeX.put_mark(0.2,-45,label_X,automatic_place=(pspicts,"corner"))
+    pspicts[0].axes.single_axeY.put_mark(0.2,0,label_Y,automatic_place=(pspicts,"corner"))
+    pspicts[0].grid.Dx=15
+    pspicts[0].grid.Dy=20
+    pspicts[0].DrawGraphs(f)
+    pspicts[0].DrawDefaultAxes()
+    pspicts[0].DrawDefaultGrid()
 
-    psp=pspicts[1]          # C'est celui-ci qui va être le bon
-    psp.dilatation_X(3/90)
-    psp.dilatation_Y(5/80)
+                                  # C'est celui-ci qui va être le bon
+    pspicts[1].dilatation_X(2.5/90)
+    pspicts[1].dilatation_Y(1/50)
 
-    psp.Mx_acceptable_BB=300
-    psp.My_acceptable_BB=60
+    pspicts[1].Mx_acceptable_BB=300
+    pspicts[1].My_acceptable_BB=300
 
-    psp.axes.do_mx_enlarge=False
-    psp.axes.do_my_enlarge=False
-    psp.grid.do_mx_enlarge=False
-    psp.grid.do_my_enlarge=False
+    pspicts[1].axes.do_mx_enlarge=False
+    pspicts[1].axes.do_my_enlarge=False
+    pspicts[1].grid.do_mx_enlarge=False
+    pspicts[1].grid.do_my_enlarge=False
 
-    seg=Segment(  Point(0,0),Point(90,30) )
+    seg=Segment(  Point(0,0),Point(90,100) )
     
-    psp.axes.single_axeX.Dx=30
-    psp.axes.single_axeY.Dx=10
-    psp.axes.single_axeX.put_mark(0.2,-45,u"durée (en \si{\minute})",automatic_place=(pspicts,"corner"))
-    psp.axes.single_axeY.put_mark(0.2,0,"distance parcourue (en \si{\kilo\meter})",automatic_place=(pspicts,"corner"))
-    psp.grid.Dx=15
-    psp.grid.Dy=10
-    psp.DrawGraphs(seg)
-    psp.DrawDefaultAxes()
-    psp.DrawDefaultGrid()
+    pspicts[1].axes.single_axeX.Dx=30
+    pspicts[1].axes.single_axeY.Dx=30
+    pspicts[1].axes.single_axeX.put_mark(0.2,-45,label_X,automatic_place=(pspicts,"corner"))
+    pspicts[1].axes.single_axeY.put_mark(0.2,0,label_Y,automatic_place=(pspicts,"corner"))
+    pspicts[1].grid.Dx=15
+    pspicts[1].grid.Dy=20
+    pspicts[1].DrawGraphs(seg)
+    pspicts[1].DrawDefaultAxes()
+    pspicts[1].DrawDefaultGrid()
 
-    psp=pspicts[2]
-    psp.dilatation_X(3/90)
-    psp.dilatation_Y(5/80)
 
-    psp.Mx_acceptable_BB=300
-    psp.My_acceptable_BB=60
 
-    psp.axes.do_mx_enlarge=False
-    psp.axes.do_my_enlarge=False
-    psp.grid.do_mx_enlarge=False
-    psp.grid.do_my_enlarge=False
 
-    seg=Segment(  Point(0,0),Point(90,30) )
+    pspicts[2].dilatation_X(2.5/90)
+    pspicts[2].dilatation_Y(1/50)
+
+    pspicts[2].Mx_acceptable_BB=300
+    pspicts[2].My_acceptable_BB=300
+
+    pspicts[2].axes.do_mx_enlarge=False
+    pspicts[2].axes.do_my_enlarge=False
+    pspicts[2].grid.do_mx_enlarge=False
+    pspicts[2].grid.do_my_enlarge=False
+
+    seg=Segment(  Point(0,100),Point(90,0) )
     
-    psp.axes.single_axeX.Dx=30
-    psp.axes.single_axeY.Dx=10
-    psp.axes.single_axeX.put_mark(0.2,-45,u"durée (en \si{\minute})",automatic_place=(pspicts,"corner"))
-    psp.axes.single_axeY.put_mark(0.2,0,"distance parcourue (en \si{\kilo\meter})",automatic_place=(pspicts,"corner"))
-    psp.grid.Dx=15
-    psp.grid.Dy=10
-    psp.DrawGraphs(seg)
-    psp.DrawDefaultAxes()
-    psp.DrawDefaultGrid()
+    pspicts[2].axes.single_axeX.Dx=30
+    pspicts[2].axes.single_axeY.Dx=30
+    pspicts[2].axes.single_axeX.put_mark(0.2,-45,label_X,automatic_place=(pspicts,"corner"))
+    pspicts[2].axes.single_axeY.put_mark(0.2,0,label_Y,automatic_place=(pspicts,"corner"))
+    pspicts[2].grid.Dx=15
+    pspicts[2].grid.Dy=20
+    pspicts[2].DrawGraphs(seg)
+    pspicts[2].DrawDefaultAxes()
+    pspicts[2].DrawDefaultGrid()
 
 
     for fig in figs :

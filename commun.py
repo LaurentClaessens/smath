@@ -132,7 +132,7 @@ class OnePart(object):
         pass
 
 class TheDS(object):
-    def __init__(self,DS_id,group,nPAI):
+    def __init__(self,DS_id,group,nPAI,n_student=None):
         """
         'nPAI' is the number of copies that have to be printed in larger size.
         """
@@ -142,6 +142,7 @@ class TheDS(object):
         self.nPAI=nPAI
         self._latex_portion=None
         self.tex_filename=self.DS_id+"_long.tex"
+        self.n_student=n_student
     def latex_portion(self):
         if not self._latex_portion :
             el=open(self.filename).readlines()
@@ -157,6 +158,8 @@ class TheDS(object):
     def latex_total(self):
         code=""
         n=len(self.group.student_list)+2    # J'en ai alors 2 en trop.
+        if self.n_student :
+            n=self.n_student
         for i in range(0,n) :
             code=code+"\n\\newpage\n"+self.latex_portion()+"\n"
         code=code+"\n\\LARGE\n"
