@@ -4,7 +4,7 @@ def GVPPooOpnIyt():
     pspict,fig = SinglePicture("GVPPooOpnIyt")
     pspict.dilatation(1)
 
-    A=Point(3.5,0)
+    A=Point(5,0)
     B=Point(0,0)
     C=Point(-1,-2)
 
