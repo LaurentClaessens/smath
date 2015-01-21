@@ -42,6 +42,11 @@ autre_mark_list.append("% SCRIPT MARK -- AUTRE")
 autre_mark_list.append("% SCRIPT MARK -- CORRECTIONS")
 autre_mark_list.append("% SCRIPT MARK -- FINAL")
 
+class set_filename(object):
+    def __init__(self,new_output_filename):
+        self.new_output_filename=new_output_filename
+    def __call__(self,medicament):
+        medicament.new_output_filename=self.new_output_filename
 
 class OneChapter(object):
     def __init__(self,chapter_title,group):

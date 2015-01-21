@@ -16,10 +16,10 @@ def VUUBooRqdACk():
     E=(A+D)*0.5+(-1,0)
 
     O=C+(1,-0.5)
-    O.put_mark(0.2,45,"\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.15,45,"\( O\)",automatic_place=(pspict,""))
 
     poly=Polygon(A,B,C,D,E)
-    poly.put_mark(0.2,pspict=pspict)
+    poly.put_mark(0.15,pspict=pspict)
 
     syms=[  x.symmetric_by(O) for x in poly.vertices ]
     for P in syms :
