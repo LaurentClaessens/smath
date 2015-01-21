@@ -5,8 +5,7 @@ from __future__ import division
 from phystricks import *
 def VUUBooRqdACk():
     pspict,fig = SinglePicture("VUUBooRqdACk")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     l=4
     h=2
@@ -16,15 +15,18 @@ def VUUBooRqdACk():
     D=A+(0,-h)
     E=(A+D)*0.5+(-1,0)
 
+    O=C+(1,-0.5)
+    O.put_mark(0.2,45,"\( O\)",automatic_place=(pspict,""))
+
     poly=Polygon(A,B,C,D,E)
     poly.put_mark(0.2,pspict=pspict)
 
-    syms=[  x.symmetric_by(C) for x in poly.vertices ]
+    syms=[  x.symmetric_by(O) for x in poly.vertices ]
     for P in syms :
         #P.parameters.symbol="none"
         pspict.math_BB.append(P,pspict)
 
-    pspict.DrawGraphs(poly)
+    pspict.DrawGraphs(poly,O)
     pspict.grid.main_horizontal.parameters.style="dotted"
     pspict.grid.main_vertical.parameters.style="dotted"
     pspict.DrawDefaultGrid()
