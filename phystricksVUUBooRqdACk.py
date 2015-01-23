@@ -19,11 +19,10 @@ def VUUBooRqdACk():
     O.put_mark(0.15,45,"\( O\)",automatic_place=(pspict,""))
 
     poly=Polygon(A,B,C,D,E)
-    poly.put_mark(0.15,pspict=pspict)
+    poly.put_mark(0.3,pspict=pspict)
 
     syms=[  x.symmetric_by(O) for x in poly.vertices ]
     for P in syms :
-        #P.parameters.symbol="none"
         pspict.math_BB.append(P,pspict)
 
     pspict.DrawGraphs(poly,O)

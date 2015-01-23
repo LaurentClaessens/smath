@@ -45,6 +45,7 @@ def QXYWooOWHshl():
     pspicts[1].grid.do_my_enlarge=False
 
     seg=Segment(  Point(0,0),Point(90,100) )
+    seg=Segment(  Point(0,0),Point(100,100*100/90) )
     
     pspicts[1].axes.single_axeX.Dx=30
     pspicts[1].axes.single_axeY.Dx=30

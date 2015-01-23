@@ -37,9 +37,35 @@
 \section{Double distributivité}
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Activité à ne pas imprimer, mais à écrire au fur et à mesure au tableau :
 \input{activ_calcul_mental}
 
 \input{activ_arnaque_champ}
 
+\begin{propriete}
+    Si \( a\), \( b\), \( c\) et \( d\) sont des nombres, alors
+    \begin{equation}
+        (a+b)(c+d)=ac+ad\quad+\quad bc+bd.
+    \end{equation}
+\end{propriete}
 
+\begin{proof}
+    Il s'agit d'utiliser plusieurs fois la formule de distribution :
+    \begin{subequations}
+        \begin{align}
+            (a+b)\times \boxed{(c+d)}&=a\times \boxed{(c+d)}&&+&& b\times \boxed{(c+d)}\\
+            &=ac+ad  &&+&&bc+bd.
+        \end{align}
+    \end{subequations}
+\end{proof}
+
+\begin{example}
+    Pour calculer \( 32\times 23 \) on peut faire
+    \begin{subequations}
+        \begin{align}
+                32\times 21&=(30+2)\times (20+3)\\
+                &=30\times 20+30\times 3+2\times 20+2\times 3\\
+                &=600+90+40+6\\
+                &=736
+        \end{align}
+    \end{subequations}
+\end{example}
