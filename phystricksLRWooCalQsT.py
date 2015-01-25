@@ -13,6 +13,7 @@ def LRWooCalQsT():
     moustaches.append(Moustache(4.30,13.06,16.49,17.59,19.40,h=0.5,delta_y=0.75))   # DS2
     moustaches.append(Moustache(3.17,9.81,13.15,14.80,16.65,h=0.5,delta_y=0.75))    # DS3
     moustaches.append(Moustache(8.55,12.10,14.67,16.19,20.00,h=0.5,delta_y=0.75))   # DS4
+    moustaches.append(Moustache(4.20,8.63,11.88,14.65,16.10,h=0.5,delta_y=0.75))    # DS5
 
     phystricksCommons.DS_statistics(moustaches,pspict)
     fig.no_figure()
