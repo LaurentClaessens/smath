@@ -2,7 +2,7 @@
 from __future__ import division
 from phystricks import *
 def QXYWooOWHshl():
-    pspicts,figs = IndependentPictures("QXYWooOWHshl",3)
+    pspicts,figs = IndependentPictures("QXYWooOWHshl",4)
     
 
     pspicts[0].dilatation_X(2.5/90)
@@ -57,6 +57,36 @@ def QXYWooOWHshl():
     pspicts[1].DrawDefaultAxes()
     pspicts[1].DrawDefaultGrid()
 
+
+
+                                  # C'est celui-ci est pour la correction
+    pspicts[3].dilatation_X(2.5/90)
+    pspicts[3].dilatation_Y(1/50)
+
+    pspicts[3].Mx_acceptable_BB=300
+    pspicts[3].My_acceptable_BB=300
+
+    pspicts[3].axes.do_mx_enlarge=False
+    pspicts[3].axes.do_my_enlarge=False
+    pspicts[3].grid.do_mx_enlarge=False
+    pspicts[3].grid.do_my_enlarge=False
+
+    seg=Segment(  Point(0,0),Point(90,100) )
+    seg=Segment(  Point(0,0),Point(100,100*100/90) )
+    
+    P=Point(90,100)
+    P.put_mark(0.2,90+45,"\( P\)",automatic_place=(pspicts,""))
+    P.parameters.symbol="*"
+
+    pspicts[3].axes.single_axeX.Dx=30
+    pspicts[3].axes.single_axeY.Dx=30
+    pspicts[3].axes.single_axeX.put_mark(0.2,-45,label_X,automatic_place=(pspicts,"corner"))
+    pspicts[3].axes.single_axeY.put_mark(0.2,0,label_Y,automatic_place=(pspicts,"corner"))
+    pspicts[3].grid.Dx=15
+    pspicts[3].grid.Dy=20
+    pspicts[3].DrawGraphs(seg,P)
+    pspicts[3].DrawDefaultAxes()
+    pspicts[3].DrawDefaultGrid()
 
 
 
