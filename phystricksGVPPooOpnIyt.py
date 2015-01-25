@@ -17,7 +17,8 @@ def GVPPooOpnIyt():
     #drm.put_mark(0.2,None,"\( 1.5\)",automatic_place=(pspict,"center"))
 
     trig.edges[1].put_mark(0.1,trig.edges[1].advised_mark_angle+180,"\( 3\)",automatic_place=(pspict,""))
-    m=Segment(A,L).get_mark(0.2,None,"\( 5\)",automatic_place=(pspict,""))
+    m1=Segment(A,L).get_mark(0.2,None,"\( 5\)",automatic_place=(pspict,""))
+    #m2=Segment(L,K).get_mark(0.2,None,"\( 1.5\)",automatic_place=(pspict,""))
 
     K.put_mark(0.2,None,"\( K\)",automatic_place=(pspict,""))
     L.put_mark(0.2,None,"\( L\)",automatic_place=(pspict,""))
@@ -26,7 +27,7 @@ def GVPPooOpnIyt():
         x.parameters.symbol=""
 
     pspict.comment="The marks of 'K', 'L' and the segment BC are correclty placed."
-    pspict.DrawGraphs(trig,drm,K,L,m)
+    pspict.DrawGraphs(trig,drm,K,L,m1)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -24,6 +24,9 @@ def OBLUooWYQnuB():
     mesAP=Segment(A,P).get_measure(0.2,0.1,-90,"\(\\vphantom{H} \ldots\)",automatic_place=(pspict,"N"))
     mesAD=Segment(A,D).get_measure(-0.2,0.1,180,"\( \ldots\)",automatic_place=(pspict,"E"))
 
+    for s in [A,B,C,D,P]:
+        s.parameters.symbol=""
+
     pspict.DrawGraphs(carre,P,triangle,mesx,mesAP,mesAD)
     fig.no_figure()
     fig.conclude()
