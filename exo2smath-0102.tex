@@ -5,24 +5,37 @@
 
 \begin{exercice}\label{exo2smath-0102}
 
+    \let\oldtheenumi\theenumi
     Relier chaque forme développée à sa forme factorisée :
     \begin{multicols}{2}
         \begin{enumerate}
+                \renewcommand{\theenumi}{(\alph{enumi})}
             \item
                 \( 3x+6\)
             \item
                 \( 12a+8b\)
             \item
                 \( 6x+3\)
+            \item
+                \( 10a+3a\)
+            \item
+                \( 2a+3a^2\)
                 \columnbreak
+                \setcounter{enumi}{0}
+                \renewcommand{\theenumi}{(\arabic{enumi})}
             \item
                 \( 4(3a+2b)\)
+            \item
+                \( a(10+3)\)
+            \item
+                \( a(2+3a)\)
             \item
                 \( 3(x+2)\)
             \item
                 \( 3(2x+1)\)
         \end{enumerate}
     \end{multicols}
+    \let\theenumi\oldtheenumi
 
 \corrref{2smath-0102}
 \end{exercice}

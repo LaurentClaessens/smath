@@ -32,6 +32,7 @@ def PJQooTWPTXV():
     moustaches.append(Moustache(4.93,7.71,11.85,14.03,16.48,h=0.5,delta_y=0.75))    # DS2
     moustaches.append(Moustache(4.90,7.38,10.35,13.36,17.09,h=0.5,delta_y=0.75))    # DS3
     moustaches.append(Moustache(1.50,7.57,10.23,13.12,16.03,h=0.5,delta_y=0.75))    # DS4
+    moustaches.append(Moustache(4.50,6.50,9.25,14.03,15.50,h=0.5,delta_y=0.75))     # DS5
 
     phystricksCommons.DS_statistics(moustaches,pspict)
 
