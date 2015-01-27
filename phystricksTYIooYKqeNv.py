@@ -14,6 +14,7 @@ def CXWooOMPOQT():
     moustaches.append(Moustache(5.10,8.75,10.87,16.29,20.00,h=0.5,delta_y=0.75))    # DS2
     moustaches.append(Moustache(5.88,10.36,14.41,16.75,20.00,h=0.5,delta_y=0.75))   # DS3
     moustaches.append(Moustache(4.42,9.80,12.57,16.64,20.00,h=0.5,delta_y=0.75))    # DS4
+    moustaches.append(Moustache(8.00,12.60,14.00,18.70,20.00,h=0.5,delta_y=0.75))   # DS5
 
     phystricksCommons.DS_statistics(moustaches,pspict)
 
