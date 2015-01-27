@@ -10,7 +10,7 @@ myRequest.original_filename="automatedChapter.tex"
 
 
 def set_filename(medicament):
-    medicament.new_output_filename="0-actu5B.pdf"
+    medicament.new_output_filename="0-nouveau5B.pdf"
 
 classe="5B"
 fract=commun.OneChapter("Écriture fractionnaire",classe)

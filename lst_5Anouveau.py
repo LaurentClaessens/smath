@@ -11,7 +11,7 @@ myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename="automatedChapter.tex"
 
 def set_filename(medicament):
-    medicament.new_output_filename="0-actu5A.pdf"
+    medicament.new_output_filename="0-nouveau5A.pdf"
 
 classe="5A"
 fract=commun.OneChapter("Écriture fractionnaire",classe)
