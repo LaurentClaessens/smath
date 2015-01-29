@@ -27,8 +27,8 @@ actu5=ops_frac
 actu5=exp_litt
 actu5=nombres_relatifs
 actu5=proportionnali
-actu5=ang_parall
 actu5=sym_centrale
+actu5=ang_parall
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
