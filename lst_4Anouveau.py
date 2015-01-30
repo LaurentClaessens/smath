@@ -18,11 +18,13 @@ trig_para=commun.OneChapter("Droite des milieux","4A")
 ops_fract=commun.OneChapter("Opérations en écriture fractionnaire","4A")
 thales=commun.OneChapter("Théorème de Thalès","4A")
 calc_litt=commun.OneChapter("Manipulations littérales","4A")
+cosinus=commun.OneChapter("Cosinus d'un angle aigu","4A")
 
 actu4=trig_para
 actu4=ops_fract
 actu4=thales
 actu4=calc_litt
+actu4=cosinus
 actu4.set_filename=set_filename
 actu4.write_the_file()
 
