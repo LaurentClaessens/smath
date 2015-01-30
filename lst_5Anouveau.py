@@ -22,6 +22,7 @@ sym_centrale=commun.OneChapter("Symétrie centrale",classe)
 nombres_relatifs=commun.OneChapter("Nombres relatifs",classe)
 ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 proportionnali=commun.OneChapter("Proportionnalité",classe)
+parallelogramme=commun.OneChapter("Parallélogramme",classe)
 
 actu5=ops_frac
 actu5=exp_litt

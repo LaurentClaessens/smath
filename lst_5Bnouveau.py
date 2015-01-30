@@ -20,6 +20,7 @@ sym_centrale=commun.OneChapter("Symétrie centrale",classe)
 exp_litt=commun.OneChapter("Expressions littérales",classe)
 nombres_relatifs=commun.OneChapter("Nombres relatifs",classe)
 ang_parall=commun.OneChapter("Angles et parallélisme",classe)
+proportionnali=commun.OneChapter("Proportionnalité",classe)
 
 
 actu5=ops_frac
@@ -27,6 +28,7 @@ actu5=exp_litt
 actu5=sym_centrale
 actu5=nombres_relatifs
 actu5=ang_parall
+actu5=proportionnali
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
