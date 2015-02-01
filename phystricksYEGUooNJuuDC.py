@@ -15,13 +15,16 @@ def YEGUooNJuuDC():
     O.put_mark(0.2,-45,"\( O\)",automatic_place=(pspict,""))
 
     poly=Polygon(A,B,C,D,E,F)
-    poly.put_mark(0.2,pspict=pspict)
+    poly.put_mark(0.3,pspict=pspict)
     seg=Segment(D,F)
 
     F.mark.angle=180
     F.mark.automatic_place=(pspict,"E")
 
-    syms=[x.symmetric_by(O) for x in [A,B,C,D,E,F]]
+    pts=[A,B,C,D,E,F]
+    for p in pts:
+        p.parameters.symbol=""
+    syms=[x.symmetric_by(O) for x in pts]
     S=Point( max(  [p.x for p in syms]  ),max( [p.y for p in syms] ) )
     S.parameters.symbol="\hphantom{A}"
     S.parameters.symbol=" "

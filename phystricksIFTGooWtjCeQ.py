@@ -12,11 +12,14 @@ def IFTGooWtjCeQ():
     M=triangle.edges[0].midpoint()
     s1=Segment(F,M)
     s2=Segment(M,G)
-    s1.put_code(n=2,l=0.4,d=0.1,pspict=pspict)
-    s2.put_code(n=2,l=0.4,d=0.1,pspict=pspict)
+    s1.put_code(n=2,l=1,d=0.4,pspict=pspict)
+    s2.put_code(n=2,l=1,d=0.4,pspict=pspict)
 
-    triangle.edges[1].put_code(n=1,l=0.4,d=0.1,angle=-45,pspict=pspict)
-    triangle.edges[2].put_code(n=1,l=0.4,d=0.1,angle=45,pspict=pspict)
+    for p in [F,G,H,M]:
+        p.parameters.symbol=""
+
+    triangle.edges[1].put_code(n=1,l=1,d=0.1,angle=-45,pspict=pspict)
+    triangle.edges[2].put_code(n=1,l=1,d=0.1,angle=45,pspict=pspict)
 
     F.put_mark(0.2,180+45,"\( F\)",automatic_place=(pspict,"corner"))
     G.put_mark(0.2,-45,"\( G\)",automatic_place=(pspict,"corner"))
