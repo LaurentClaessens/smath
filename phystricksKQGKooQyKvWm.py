@@ -7,7 +7,7 @@ def KQGKooQyKvWm():
     O=Point(0,0)
 
     names_list=["A","K","L","N","M"]
-    names_list=["O","A","B","A'","B'"]
+    #names_list=["O","A","B","A'","B'"]
 
     O.put_mark(0.2,180,"\( "+names_list[0]+"\)",automatic_place=(pspict,""))
 
@@ -16,10 +16,11 @@ def KQGKooQyKvWm():
     s1=Segment(P1,O)
     s2=Segment(O,P2)
     
-    p1=0.3
-    p2=0.6
+    p1=0.5
+    p2=0.5
+    p3=0.9
     A=s2.get_point_proportion(p1)
-    B=s2.get_point_proportion(p2)
+    B=s2.get_point_proportion(p3)
     Ap=s1.get_point_proportion(p2)
 
     parall=Segment(A,Ap).parallel_trough(B)
@@ -27,8 +28,8 @@ def KQGKooQyKvWm():
 
     A.put_mark(0.2,None,"\("+names_list[1]+" \)",automatic_place=(pspict,""))
     B.put_mark(0.2,None,"\("+names_list[2]+" \)",automatic_place=(pspict,""))
-    Ap.put_mark(0.2,None,"\("+names_list[4]+" \)",automatic_place=(pspict,""))
-    Bp.put_mark(0.2,None,"\("+names_list[3]+" \)",automatic_place=(pspict,""))
+    Ap.put_mark(0.2,None,"\("+names_list[3]+" \)",automatic_place=(pspict,""))
+    Bp.put_mark(0.2,Ap.advised_mark_angle,"\("+names_list[4]+" \)",automatic_place=(pspict,""))
 
     #A.put_mark(0.2,None,"\("+"A"+" \)",automatic_place=(pspict,""))
     #B.put_mark(0.2,None,"\("+"B"+" \)",automatic_place=(pspict,""))
@@ -41,6 +42,13 @@ def KQGKooQyKvWm():
     for p in [A,B,Ap,Bp,O]:
         p.parameters.symbol=""
     pspict.DrawGraphs(s1,s2,A,B,Ap,Bp,O)
+
+    m1=Segment(A,Ap).get_mark(0.2,None,"\( 3\)",automatic_place=(pspict,""))
+    m2=Segment(B,Bp).get_mark(0.2,None,"\( 21\)",automatic_place=(pspict,""))
+
+    pspict.DrawGraphs(m1,m2)
+
+
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
