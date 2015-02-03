@@ -1,15 +1,13 @@
 # -*- coding: utf8 -*-
-
 import string
 from phystricks import *
-
-def GSPNooCOfCGS():
-    pspict,fig = SinglePicture("GSPNooCOfCGS")
+def KRCFooOBTdqV():
+    pspict,fig = SinglePicture("KRCFooOBTdqV")
     pspict.dilatation(0.96)
 
 
     O=Point(0,0)
-    P=Point(3,4)
+    P=Point(4,2)
     Pp=Point(P.x,0)
     seg=Segment(O,P)
     segP=Segment(O,Pp)
@@ -19,7 +17,7 @@ def GSPNooCOfCGS():
     O.put_mark(0.2,180,"\( O\)",automatic_place=(pspict,""))
     proportions = [0.3,0.6,0.95]
     for i,p in enumerate(proportions) :
-        symbol=string.ascii_uppercase[i]
+        symbol=string.ascii_uppercase[i+11]
         A=seg.get_point_proportion(p)
         Ap=Point(A.x,0)
         A.put_mark(0.2,None,"\( "+symbol+"\)",automatic_place=(pspict,""))
