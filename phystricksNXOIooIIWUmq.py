@@ -5,11 +5,11 @@ def NXOIooIIWUmq():
     pspict.dilatation(1)
 
     A=Point(0,0)
-    B=Point(1.5,-3)
+    B=Point(1.5,-2)
     C=A+(0,-1)
 
     s1=Segment(A,B)
-    s2=s1.parallel_trough(A+(1.5,0.5))
+    s2=s1.parallel_trough(A+(1,0.5))
 
     I=s1.midpoint()
     J=s2.midpoint()
