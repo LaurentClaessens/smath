@@ -13,7 +13,7 @@ def GCFSooTCJfOZ():
     K=Segment(B,A).orthogonal().F
     v=K-B
     C=B+l*v
-    ang=Angle(C,A,B,r=0.3)
+    ang=Angle(C,A,B)
 
     for p in A,B,C:
         p.parameters.symbol=""
@@ -38,7 +38,7 @@ def GCFSooTCJfOZ():
     K=Segment(B,A).orthogonal().F
     v=K-B
     C=B+l*v
-    ang=Angle(B,A,C,r=0.3)
+    ang=Angle(B,A,C)
 
     for p in A,B,C:
         p.parameters.symbol=""
@@ -61,7 +61,7 @@ def GCFSooTCJfOZ():
     K=Segment(B,A).orthogonal().F
     v=K-B
     C=B+l*v
-    ang=Angle(B,C,A,r=0.5)
+    ang=Angle(B,C,A)
 
     for p in A,B,C:
         p.parameters.symbol=""
