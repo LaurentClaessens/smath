@@ -4,12 +4,16 @@ from __future__ import division
 from __future__ import unicode_literals
 from phystricks import *
 
+def mark_point(s,pspict=None):
+    return s.center()
+
 def EDEYRhQ():
     pspict,fig = SinglePicture("EDEYRhQ")
     pspict.dilatation_X(1/6)
     pspict.dilatation_Y(1)
 
-    BasicGeometricObjects.GraphOfASegment.mark_point=lambda x:x.center()
+    BasicGeometricObjects.GraphOfASegment.mark_point=mark_point
+
 
     l1=10
     l2=15
@@ -49,6 +53,7 @@ def EDEYRhQ():
     DE.parameters.color="brown"
     EF.parameters.color="brown"
 
+    pspict.comment="Les nombres arrivent au centre des vecteurs, et non au bout."
     pspict.DrawGraphs(A,B,C,D,E,F,AB,BC,CD,DE,EF)
     fig.no_figure()
     fig.conclude()
