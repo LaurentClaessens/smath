@@ -22,9 +22,11 @@ def CVKooPKKMNG():
     C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
 
     trig=Polygon(A,B,C)
+    for p in trig.vertices:
+        p.parameters.symbol=""
 
-    a1=Angle(C,B,A,r=1)
-    a3=Angle(A,C,B,r=1)
+    a1=Angle(C,B,A,r=0.5)
+    a3=Angle(A,C,B,r=0.5)
 
     a1.put_mark(0.3,a1.advised_mark_angle,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
     a3.put_mark(0.3,a3.advised_mark_angle,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
