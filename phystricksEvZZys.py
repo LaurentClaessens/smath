@@ -4,7 +4,7 @@ from __future__ import division
 from phystricks import *
 def EvZZys():
     pspict,fig = SinglePicture("EvZZys")
-    pspict.dilatation(2)
+    pspict.dilatation(1.5)
 
     x=var('x')
     X=Point(4,3)

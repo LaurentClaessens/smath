@@ -10,13 +10,13 @@ def OGWJooWdCsvT():
     A=Point(0,0)
     B=Circle(A,r).get_point(alpha)
     C=Circle(A,r).get_point(180-alpha)
+    angC=Angle(A,C,B)
 
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,pspict=pspict)
 
-    angA=Angle(B,A,C,r=0.3)
-    angB=Angle(C,B,A,r=0.6)
-    angC=Angle(A,C,B,r=0.6)
+    angA=Angle(B,A,C)
+    angB=Angle(C,B,A)
 
     for P in trig.vertices:
         P.parameters.symbol=''

@@ -13,11 +13,13 @@ def UZOQooTSAQcl():
 
     triangle.put_mark(0.2,pspict=pspict)
     parallel=(triangle.edges[0]+(0,h)).dilatation(1.5)
-    triangle.edges[0]=triangle.edges[0].dilatation(1.3)
+    triangle.edges[0]=triangle.edges[0]
+    for p in triangle.vertices:
+        p.parameters.symbol=""
     
-    a1=Angle(B,A,C)
+    a1=Angle(B,A,C,r=0.5)
     a1.put_mark(0.3,a1.advised_mark_angle,"\SI{34}{\degree}",automatic_place=(pspict,"center"))
-    a2=Angle(C,B,A)
+    a2=Angle(C,B,A,r=0.5)
     a2.put_mark(0.2,a2.advised_mark_angle,"\SI{12}{\degree}",automatic_place=(pspict,"center"))
 
     pspict.DrawGraphs(triangle,a1,a2,parallel)
