@@ -8,25 +8,25 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigIFTGooWtjCeQ.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( G\)}}%
-\immediate\write\writeOfphystricks{totalheightoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( G\)}}%
-\immediate\write\writeOfphystricks{widthoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( H\)}}%
-\immediate\write\writeOfphystricks{totalheightof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( H\)}}%
-\immediate\write\writeOfphystricks{widthof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( F\)}}%
+\immediate\write\writeOfphystricks{totalheightofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( F\)}}%
+\immediate\write\writeOfphystricks{widthofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( G\)}}%
+\immediate\write\writeOfphystricks{totalheightoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( G\)}}%
+\immediate\write\writeOfphystricks{widthoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( H\)}}%
+\immediate\write\writeOfphystricks{totalheightof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( H\)}}%
+\immediate\write\writeOfphystricks{widthof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -87,14 +87,14 @@
 \draw [] (0.9000000000,0.0) -- (1.800000000,0.0);
 \draw [] (1.183933983,-0.1060660172) -- (1.396066017,0.1060660172);
 \draw [] (1.303933983,-0.1060660172) -- (1.516066017,0.1060660172);
-\draw (-0.2717456896,-0.2553098562) node {\( F\)};
-\draw (-0.2717456896,-0.2553098562) node {\( F\)};
-\draw (2.072462856,-0.2553098562) node {\( G\)};
-\draw (2.072462856,-0.2553098562) node {\( G\)};
-\draw (1.343504190,1.455309856) node {\( H\)};
-\draw (1.343504190,1.455309856) node {\( H\)};
-\draw (0.9000000000,-0.3138885000) node {\( M\)};
-\draw (0.9000000000,-0.3138885000) node {\( M\)};
+\draw (-0.1414213562,-0.1414213562) node {\( F\)};
+\draw (-0.1414213562,-0.1414213562) node {\( F\)};
+\draw (1.941421356,-0.1414213562) node {\( G\)};
+\draw (1.941421356,-0.1414213562) node {\( G\)};
+\draw (1.191421356,1.341421356) node {\( H\)};
+\draw (1.191421356,1.341421356) node {\( H\)};
+\draw (0.9000000000,-0.2000000000) node {\( M\)};
+\draw (0.9000000000,-0.2000000000) node {\( M\)};
 \draw [style=dashed] (1.050000000,1.200000000) -- (0.9000000000,0.0);
 %END PSPICTURE
 \end{tikzpicture}
