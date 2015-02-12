@@ -32,12 +32,25 @@
 \setcounter{useexternal}{1}
 \ifthenelse{\value{useexternal}=1}{ \usetikzlibrary{external} \tikzexternalize }{ \newcommand{\tikzsetnextfilename}[1]{} }
 
+% IMPRESSION CHAPITRE COSINUS D'UN ANGLE AIGU (4A)
 \begin{document}
-Plus rien à tester ?
-\Exo{smath-0810}
+\multiinput{activ_cosinus}{2}
+\newpage
+\multiinput{activ_cos_calculatrice}{7}
 \end{document}
 
-% IMPRESSION CHAPITRE proportionnalité (5A
+
+% IMPRESSION CHAPITRE ANGLES ET PARALLÉLISME (5A)
+\begin{document}
+\multiinput{activ_sec_parall}{4}
+\newpage
+\multiinput{activ_angles_alternes}{3}
+\newpage
+\multiinput{activ_dem_angles}{2}
+\end{document}
+
+
+% IMPRESSION CHAPITRE PROPORTIONNALITÉ (5A)
 \begin{document}
 \multiinput{activ_propo}{4}
 \newpage
@@ -89,16 +102,6 @@ Plus rien à tester ?
 \Exo{2smath-0042}
 \Exo{2smath-0117} % Vers la fin
 \end{feuilleExo}
-\end{document}
-
-
-% IMPRESSION CHAPITRE ANGLES ET PARALLÉLISME (5A)
-\begin{document}
-\multiinput{activ_sec_parall}{4}
-\newpage
-\multiinput{activ_angles_alternes}{3}
-\newpage
-\multiinput{activ_diff_parenthese_triangle}{2}
 \end{document}
 
 % IMPRESSION CHAPITRE MANIPULATIONS LITTÉRALES (4A)
