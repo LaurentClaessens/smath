@@ -20,8 +20,8 @@ def TVRGooTuCNyN():
 
     a1=Angle( t.I,I,B )
     a2=Angle(C,J,I)
-    a1.put_mark(0.2,None,"\( 25\)",automatic_place=(pspict,""))
-    a2.put_mark(0.2,None,"\( 135\)",automatic_place=(pspict,""))
+    a1.put_mark(0.2,None,"\( 28\)",automatic_place=(pspict,""))
+    a2.put_mark(0.2,None,"\( 132\)",automatic_place=(pspict,""))
 
 
     pspict.DrawGraphs(s1,s2,t,a1,a2)
