@@ -27,7 +27,10 @@ def JFYIooGELsSX():
     a3=Angle(U,G,L)
     a4=Angle(L,G,E,r=0.3)
 
-    pspict.DrawGraphs(rect,d1,d2,O,a1,a2,a3,a4)
+    l1=Segment(L,U).get_mark(0.2,angle=None,text="\SI{6}{\centi\meter}",automatic_place=(pspict,""))
+    l2=Segment(E,L).get_mark(0.2,angle=None,text="\SI{4.5}{\centi\meter}",automatic_place=(pspict,""))
+
+    pspict.DrawGraphs(rect,d1,d2,O,a1,a2,a3,a4,l1,l2)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

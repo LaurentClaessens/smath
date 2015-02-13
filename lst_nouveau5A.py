@@ -24,14 +24,17 @@ ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 proportionnali=commun.OneChapter("Proportionnalité",classe)
 parallelogramme=commun.OneChapter("Parallélogramme",classe)
 
-actu5=ops_frac
-actu5=exp_litt
-actu5=sym_centrale
-actu5=nombres_relatifs
-actu5=ang_parall
-actu5=proportionnali
+actu5=parallelogramme
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
 myRequest.add_plugin(actu5.set_filename,"medicament")
 myRequest.ok_filenames_list=actu5.ok_filenames_list()
+
+"""
+actu5=ops_frac
+actu5=exp_litt
+actu5=sym_centrale
+actu5=nombres_relatifs
+actu5=ang_parall
+"""
