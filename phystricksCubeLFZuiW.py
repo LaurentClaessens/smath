@@ -43,7 +43,7 @@ def CubeLFZuiW():
 
     alpha=Angle(c1[2],c1[3],c2[3])
     alpha.parameters.color="red"
-    alpha.put_mark(0.3,alpha.advised_mark_angle,"\( \\alpha\)",automatic_place=pspicts[1])
+    alpha.put_mark(0.3,None,"\( \\alpha\)",automatic_place=pspicts[1])
 
     measureR=MeasureLength(segc1[2],-0.2)
     measureR.put_mark(0.2,measureR.advised_mark_angle,"\( c\)",automatic_place=pspicts[1])

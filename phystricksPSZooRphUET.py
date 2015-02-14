@@ -24,9 +24,9 @@ def PSZooRphUET():
     a1=Angle(L,K,M)
     a2=Angle(M,L,K)
     a3=Angle(K,M,L)
-    a1.put_mark(0.4,a1.advised_mark_angle,"\SI{33}{\degree}",automatic_place=(pspict,"center"))
-    a2.put_mark(0.4,a2.advised_mark_angle,"\SI{33}{\degree}",automatic_place=(pspict,"center"))
-    a3.put_mark(0.4,a3.advised_mark_angle,"\SI{113}{\degree}",automatic_place=(pspict,"center"))
+    a1.put_mark(0.4,None,"\SI{33}{\degree}",automatic_place=(pspict,"center"))
+    a2.put_mark(0.4,None,"\SI{33}{\degree}",automatic_place=(pspict,"center"))
+    a3.put_mark(0.4,None,"\SI{113}{\degree}",automatic_place=(pspict,"center"))
 
     pspict.DrawGraphs(K,L,M,c1,c2,trig,a1,a2,a3)
     fig.no_figure()

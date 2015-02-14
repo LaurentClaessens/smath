@@ -863,6 +863,7 @@ figures_list.append(UZOQooTSAQcl)
 figures_list.append(SVPAooIuxHvP)
 figures_list.append(QZABooEsqWaq)
 figures_list.append(SHSRooHgvofo)
+figures_list=[]
 figures_list.append(GDSEooVtgtKw)
 figures_list.append(RGRLooTmnwQZ)
 figures_list.append(HWLHooGuSDwM)
@@ -902,30 +903,6 @@ figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 """
-
-
-# This is a very basic verification 
-fnsprises=[ str(f).split(" ")[1] for f in figures_list  ]
-on=False
-for f in dir():
-    if f[3:5]=="oo":
-        if f not in fnsprises:
-            print("La fonction",f,"n'est pas dans la liste")
-            on=True
-if on :
-    raise NameError
-
-
-for k in sys.argv:
-    s=[]
-    fun=k.replace("phystricks","").replace(".py","")
-    print fun
-    if fun in globals().keys():
-        print "ok"
-        s.append(globals()[fun])
-
-if s:
-    figures_list=s
 
 if __name__=="__main__":
     if "--all" not in sys.argv :

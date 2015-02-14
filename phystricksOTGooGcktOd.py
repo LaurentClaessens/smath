@@ -37,9 +37,9 @@ def OTGooGcktOd():
     C.put_mark(0.2,90,"\( C\)",automatic_place=(pspict,"S"))
 
     angle1=Angle(O,Q,C)
-    angle1.put_mark(0.5,angle1.advised_mark_angle,"\unit{20}{\degree}",automatic_place=(pspict,"center"))
+    angle1.put_mark(0.5,None,"\unit{20}{\degree}",automatic_place=(pspict,"center"))
     angle2=Angle(C,O,Q)
-    angle2.put_mark(0.6,angle2.advised_mark_angle,"\unit{105}{\degree}",automatic_place=(pspict,"center"))
+    angle2.put_mark(0.6,None,"\unit{105}{\degree}",automatic_place=(pspict,"center"))
 
     pspict.DrawGraphs(trig2,QO.mark,Q,O,C,angle1,angle2)
 
@@ -50,7 +50,7 @@ def OTGooGcktOd():
 
     trig3=Polygon(I,N,V)
     angle3=Angle(V,I,N)
-    angle3.put_mark(0.7,angle3.advised_mark_angle,"\unit{75}{\degree}",automatic_place=(pspict,"center"))
+    angle3.put_mark(0.7,None,"\unit{75}{\degree}",automatic_place=(pspict,"center"))
 
     I.put_mark(0.2,90,"\( I\)",automatic_place=(pspict,"S"))
     N.put_mark(0.2,-45,"\( N\)",automatic_place=(pspict,"corner"))

@@ -18,7 +18,7 @@ def UEqUrvi():
     C.put_mark(0.2,90,"\( C\)",automatic_place=pspict)
 
     angle=Angle(B,A,C)
-    angle.put_mark(0.2,angle.advised_mark_angle,"\( {}\)".format(str(alpha)),automatic_place=pspict)
+    angle.put_mark(0.2,None,"\( {}\)".format(str(alpha)),automatic_place=pspict)
 
     P=B.projection(Segment(A,C),advised=True)
     P.put_mark(0.2,P.advised_mark_angle,"\( P\)",automatic_place=pspict)

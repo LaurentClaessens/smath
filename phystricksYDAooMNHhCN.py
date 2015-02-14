@@ -22,9 +22,9 @@ def YDAooMNHhCN():
     gen_c[2].put_mark(0.2,180,"\( a\)",automatic_place=(pspicts,"E"))
     gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],0.2,1,0  )
     gen_alpha=Angle(tC,tB,tA)
-    gen_alpha.put_mark(0.2,gen_alpha.advised_mark_angle,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
+    gen_alpha.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
     gen_beta=Angle( tA,tC,tB)
-    gen_beta.put_mark(0.2,gen_beta.advised_mark_angle,"\( \\beta\)",automatic_place=(pspicts,"corner"))
+    gen_beta.put_mark(0.2,None,"\( \\beta\)",automatic_place=(pspicts,"corner"))
     pspicts[2].DrawGraphs(gen_c,gen_trig,gen_rh,gen_alpha,gen_beta)
 
 
@@ -58,10 +58,10 @@ def YDAooMNHhCN():
     b1=Angle(A,M,P)
     b2=Angle(B,N,M)
 
-    a1.put_mark(0.2,a1.advised_mark_angle,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
-    a2.put_mark(0.2,a2.advised_mark_angle,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
-    b1.put_mark(0.2,b1.advised_mark_angle,"\( \\beta\)",automatic_place=(pspicts,"corner"))
-    b2.put_mark(0.2,b2.advised_mark_angle,"\( \\beta\)",automatic_place=(pspicts,"corner"))
+    a1.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
+    a2.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
+    b1.put_mark(0.2,None,"\( \\beta\)",automatic_place=(pspicts,"corner"))
+    b2.put_mark(0.2,None,"\( \\beta\)",automatic_place=(pspicts,"corner"))
 
     cen=[]
     cen.append(Segment( A,M  ).center())

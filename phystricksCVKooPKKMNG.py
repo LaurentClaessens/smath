@@ -28,8 +28,8 @@ def CVKooPKKMNG():
     a1=Angle(C,B,A,r=0.5)
     a3=Angle(A,C,B,r=0.5)
 
-    a1.put_mark(0.3,a1.advised_mark_angle,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
-    a3.put_mark(0.3,a3.advised_mark_angle,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
+    a1.put_mark(0.3,None,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
+    a3.put_mark(0.3,None,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
 
     pspict.DrawGraphs(A,B,C,s1,s2,trig,a1,a3)
     fig.no_figure()

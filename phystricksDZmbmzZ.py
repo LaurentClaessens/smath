@@ -22,8 +22,8 @@ def DZmbmzZ():
 
     a1=Angle(B,A,H)
     a2=Angle(H,A,C)
-    a1.put_mark(0.2,a1.advised_mark_angle,"\( 45\)",automatic_place=pspict)
-    a2.put_mark(0.2,a2.advised_mark_angle,"\( 60\)",automatic_place=pspict)
+    a1.put_mark(0.2,None,"\( 45\)",automatic_place=pspict)
+    a2.put_mark(0.2,None,"\( 60\)",automatic_place=pspict)
 
     pspict.DrawGraphs(triangle,A,B,C,AH,H,a1,a2)
     fig.no_figure()

@@ -20,7 +20,7 @@ def IXtyOnk():
     #angle=Angle( A,B,v.F  ,r=0.01  )
     angle=Angle( A,B,v.F   )
     angle.parameters.color="green"
-    angle.put_mark(0.01,angle.advised_mark_angle,"\( \\alpha\)",automatic_place=pspict)
+    angle.put_mark(0.2,None,"\( \\alpha\)",automatic_place=pspict)
 
     pspict.DrawGraphs(f,v,measure,angle)
     pspict.axes.no_graduation()

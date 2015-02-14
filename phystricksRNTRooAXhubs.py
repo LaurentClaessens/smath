@@ -29,6 +29,7 @@ def RNTRooAXhubs():
     for P in  [D,E,F,S,T]:
         P.parameters.symbol=""
 
+
     pspict.DrawGraphs(S,T,triangle,seg,mes1,mes2,mes3,mes4,mes6)
     fig.no_figure()
     fig.conclude()
