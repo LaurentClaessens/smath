@@ -863,7 +863,6 @@ figures_list.append(UZOQooTSAQcl)
 figures_list.append(SVPAooIuxHvP)
 figures_list.append(QZABooEsqWaq)
 figures_list.append(SHSRooHgvofo)
-figures_list=[]
 figures_list.append(GDSEooVtgtKw)
 figures_list.append(RGRLooTmnwQZ)
 figures_list.append(HWLHooGuSDwM)
