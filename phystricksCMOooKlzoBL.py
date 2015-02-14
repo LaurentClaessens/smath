@@ -12,13 +12,15 @@ def CMOooKlzoBL():
     B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
 
-    rh=RightAngle( Segment(B,A),Segment(C,B),0.4,0,0 )
+    rh=RightAngle( Segment(B,A),Segment(C,B),0.4,1,0 )
 
     trig=Polygon(A,B,C)
     trig.edges[0].put_mark(0.2,-90,"\( 1.5\)",automatic_place=(pspict,"N"))
 
     trig.edges[1].put_mark(0.2,0,"\( 2\)",automatic_place=(pspict,"W"))
     trig.edges[2].put_mark(0.2,trig.edges[2].advised_mark_angle*degree+180,"\( ?\)",automatic_place=(pspict,"corner"))
+
+    no_symbol(trig.vertices)
 
     pspict.DrawGraphs(A,B,C,trig,rh)
     fig.no_figure()

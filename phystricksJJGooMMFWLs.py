@@ -19,7 +19,7 @@ def JJGooMMFWLs():
     trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle,"\( 12\)",automatic_place=(pspict,"corner"))
     trig.edges[2].put_mark(0.2,trig.edges[2].advised_mark_angle,"\( ?\)",automatic_place=(pspict,"corner"))
 
-    no_symbol(trig.edges)
+    no_symbol(trig.vertices)
 
     pspict.DrawGraphs(A,B,C,trig,rh)
     fig.no_figure()
