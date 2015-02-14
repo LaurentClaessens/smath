@@ -25,6 +25,9 @@ def TOIooUindpy():
     N.put_mark(0.2,90,"\( N\)",automatic_place=(pspict,"S"))
     M.put_mark(0.2,180,"\( M\)",automatic_place=(pspict,"E"))
 
+    for P in [A,B,C,D,M,N]:
+        P.parameters.symbol=""
+
     polygon=Polygon(A,N,C,M)
     polygon.parameters.filled()
     polygon.parameters.fill.color="lightgray"

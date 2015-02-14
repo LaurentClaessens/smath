@@ -3,12 +3,11 @@ Pour tester ce fichier :
 Tout ceci est à faire dans un clone du répertoire.
 
     rm *.aux
-    rm *.md5
     rm tikzFIGLabelFig*
     rm *.pstricks
 
 
-time ./figures_smath.py --all
+time ./figures_smath.py --all      (25 minutes)
 time pytex lst_smath.py --lotex --no-external
 time ./figures_smath.py --all
 
@@ -17,9 +16,10 @@ time pytex lst_exercices4A.py --lotex --no-external
 time pytex lst_exercices5A.py --lotex --no-external
 time pytex lst_exercices5B.py --lotex --no-external
 
-Lors de la recompilation du 1 février 2015, j'ai eu un problème avec
- FWIooWDSwRD
+ j'ai eu un problème avec
+FWIooWDSwRD
 LSaSLoS
+QXY
 
 time pytex lst_niveau.py cinquième --lotex --no-external
 time pytex lst_niveau.py quatrième --lotex --no-external
@@ -36,9 +36,11 @@ Dans le répertoire 'smath' :
     rm *.aux
     rm tikzFIGLabelFig*
     rm *.pstricks
-    rm *.md5
+
+Il faut refaire RKS et TOI
 
 Lorsque tout cela est fini et que mazhe passe aussi, on peut enlever le test MGVTooMpMAKD dans BasicGeometricObjects.py
+            
 
 Copier les fichiers correspondants fraîchement créés.
 

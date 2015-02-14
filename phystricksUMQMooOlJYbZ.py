@@ -3,7 +3,7 @@ from phystricks import *
 def UMQMooOlJYbZ():
     pspict,fig = SinglePicture("UMQMooOlJYbZ")
     pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_Y(0.77)
 
     h=6
     l=8

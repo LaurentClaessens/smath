@@ -31,6 +31,8 @@ def RKSooSVlhiF():
     A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
     B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
 
+    for P in [I,A,B]:
+        P.parameters.symbol=""
 
     measureAI=MeasureLength(  Segment(A,I) ,0.3  )
     measureAI.put_mark(0.3,-90,"\( x\)",automatic_place=(pspict,"N"))
