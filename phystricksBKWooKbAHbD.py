@@ -12,7 +12,7 @@ def BKWooKbAHbD():
     angle=AB.angle()*degree
 
     A.put_mark(0.2,AB.advised_mark_angle(pspict),"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,AB.advised_mark_angle(pspict)<++>,"\( B\)",automatic_place=(pspict,"corner"))
+    B.put_mark(0.2,AB.advised_mark_angle(pspict),"\( B\)",automatic_place=(pspict,"corner"))
 
     c1=Circle(A,r).graph(angle+90*degree,angle-90*degree)
     c2=Circle(B,r).graph(angle+90*degree,angle+270*degree)
