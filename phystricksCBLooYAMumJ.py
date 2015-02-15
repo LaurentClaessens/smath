@@ -45,7 +45,7 @@ def CBLooYAMumJ():
     d1p.put_mark(0.2,None,"\( d_1'\)",automatic_place=(pspicts,"corner"))
 
     Ap=((2*d1p.I+d1p.F)/3).numerical_approx()
-    Ap.put_mark(0.2,d1p.advised_mark_angle(pspict),"\( A'\)",automatic_place=(pspicts,"corner"))
+    Ap.put_mark(0.2,d1p.advised_mark_angle(pspicts),"\( A'\)",automatic_place=(pspicts,"corner"))
 
     arc=Circle(Ap,l_isocele).graph(d1p.angle()-15,d1p.angle()+15)
     ray1=Segment(Ap, arc.get_point( arc.angleI+5 ) )
@@ -55,7 +55,7 @@ def CBLooYAMumJ():
     m.put_mark(0.2,None,"\( AB\)",automatic_place=(pspicts,"corner"))
 
     Bp=Intersection(arc,d1p)[1].numerical_approx()
-    Bp.put_mark(0.2,d1p.advised_mark_angle(pspict)+45,"\( B'\)",automatic_place=(pspicts,"corner"))
+    Bp.put_mark(0.2,d1p.advised_mark_angle(pspicts)+45,"\( B'\)",automatic_place=(pspicts,"corner"))
 
     BC=Segment(B,C)
     BC.parameters.color='red'

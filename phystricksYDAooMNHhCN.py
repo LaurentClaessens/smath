@@ -81,7 +81,7 @@ def YDAooMNHhCN():
     cen.append(Segment( P,A  ).center())
     cen[-1].put_mark(0.2,180,"\( b\)",automatic_place=(pspicts,"E"))
     cen.append(Segment( M,P  ).center())
-    cen[-1].put_mark(0.2,cen[-1].advised_mark_angle(pspict),"\( c\)",automatic_place=(pspicts,"corner"))
+    cen[-1].put_mark(0.2,cen[-1].advised_mark_angle(pspicts),"\( c\)",automatic_place=(pspicts,"corner"))
     for p in cen:
         p.parameters.symbol=""
     cen2=[ cen[2],cen[3],cen[4],cen[5],cen[6] ]
