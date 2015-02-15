@@ -14,10 +14,10 @@ def figureKHUxoaG():
     B=cer.get_point(b+180)
     C=cer.get_point(a+180)
 
-    A.put_mark(0.2,A.advised_mark_angle,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,B.advised_mark_angle,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,C.advised_mark_angle,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,D.advised_mark_angle,"\( D\)",automatic_place=pspict)
+    A.put_mark(0.2,None,"\( A\)",automatic_place=pspict)
+    B.put_mark(0.2,None,"\( B\)",automatic_place=pspict)
+    C.put_mark(0.2,None,"\( C\)",automatic_place=pspict)
+    D.put_mark(0.2,None,"\( D\)",automatic_place=pspict)
     M.put_mark(0.2,120,"\( M\)",automatic_place=pspict)
 
 

@@ -24,12 +24,7 @@ def EZTHooBttIaQ():
     a4=Angle(K,L,D)
 
     a2.put_mark(0.4,None,"\small\SI{45}{\degree}",automatic_place=(pspict,"center"))
-    #a2.put_mark(0.2,a2.advised_mark_angle,"\( a2\)",automatic_place=(pspict,"corner"))
-    #a1.put_mark(0.2,a1.advised_mark_angle,"\( a1\)",automatic_place=(pspict,"corner"))
-    #a3.put_mark(0.2,a3.advised_mark_angle,"\( a3\)",automatic_place=(pspict,"corner"))
-    #a4.put_mark(0.2,a4.advised_mark_angle,"\( a4\)",automatic_place=(pspict,"corner"))
 
-    #pspict.DrawGraphs(v1,v2,dig,a1,a2,a3,a4)
     pspict.DrawGraphs(v1,v2,dig,a2)
     fig.no_figure()
     fig.conclude()

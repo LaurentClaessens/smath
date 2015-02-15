@@ -44,19 +44,3 @@ def RYNYooMFTMNR():
         fig.no_figure()
         fig.conclude()
         fig.write_the_file()
-
-
-#    a2.put_mark(0.2,a2.advised_mark_angle,"\( a2\)",automatic_place=(pspicts,"center"))
-#    b1.put_mark(0.2,b1.advised_mark_angle,"\( b1=a1\)",automatic_place=(pspicts,"center"))
-#    b2.put_mark(0.2,b2.advised_mark_angle,"\( b2\)",automatic_place=(pspicts,"center"))
-#    c1.put_mark(0.2,c1.advised_mark_angle,"\( c1\)",automatic_place=(pspicts,"center"))
-#    c2.put_mark(0.2,c2.advised_mark_angle,"\( c2\)",automatic_place=(pspicts,"center"))
-#    d1.put_mark(0.2,d1.advised_mark_angle,"\( d1\)",automatic_place=(pspicts,"center"))
-#    d2.put_mark(0.2,d2.advised_mark_angle,"\( d2\)",automatic_place=(pspicts,"center"))
-
-#    pspicts[4].DrawGraphs(a1,a2,b1,b2,c1,c2,d1,d2)
-
-#    for fig in figs[-1:]:
-#        fig.no_figure()
-#        fig.conclude()
-#        fig.write_the_file()

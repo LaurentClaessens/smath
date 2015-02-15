@@ -17,11 +17,11 @@ def figureXUQaJjF():
     for i,psp in enumerate(pspicts):
         k=fun[i]
         B=k.get_point(0)
-        B.put_mark(0.2,B.advised_mark_angle,"\( b\)",automatic_place=psp)
+        B.put_mark(0.2,None,"\( b\)",automatic_place=psp)
         
         x0=solve(k(x)==0,x)[0].rhs()
         A=k.get_point(x0)
-        A.put_mark(0.2,A.advised_mark_angle,"\( -b/a\)",automatic_place=psp)
+        A.put_mark(0.2,None,"\( -b/a\)",automatic_place=psp)
         
         psp.DrawGraphs(k,B,A)
         psp.axes.no_graduation()

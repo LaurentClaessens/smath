@@ -14,9 +14,9 @@ def JJHQooEkspEV():
     triangle.put_mark(0.5,text_list=['\( S\)',"\( T\)","\( R\)"],pspict=pspicts)
 
     M=triangle.edges[2].midpoint()
-    M.put_mark(0.5,M.advised_mark_angle+180,"\( M\)",automatic_place=(pspicts,"corner"))
+    M.put_mark(0.5,M.advised_mark_angle(pspict)+180,"\( M\)",automatic_place=(pspicts,"corner"))
     O=triangle.edges[0].midpoint()
-    O.put_mark(0.5,O.advised_mark_angle+180,"\( O\)",automatic_place=(pspicts,"corner"))
+    O.put_mark(0.5,O.advised_mark_angle(pspict)+180,"\( O\)",automatic_place=(pspicts,"corner"))
 
     seg=Segment(M,O)
     SR2=triangle.edges[2].get_divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)

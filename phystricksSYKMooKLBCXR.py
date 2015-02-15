@@ -15,10 +15,10 @@ def SYKMooKLBCXR():
     T=Segment(K,L).midpoint()
     drm=Segment(S,T)
 
-    drm.put_mark(0.1,drm.advised_mark_angle,"\( 8\)",automatic_place=(pspict,""))
-    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle+180,"\( 16\)",automatic_place=(pspict,""))
+    drm.put_mark(0.1,drm.advised_mark_angle(pspict),"\( 8\)",automatic_place=(pspict,""))
+    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)+180,"\( 16\)",automatic_place=(pspict,""))
 
-    S.put_mark(0.2,S.advised_mark_angle,"\( S\)",automatic_place=(pspict,""))
+    S.put_mark(0.2,S.advised_mark_angle(pspict),"\( S\)",automatic_place=(pspict,""))
     T.put_mark(0.2,-90,"\( T\)",automatic_place=(pspict,""))
 
     for x in [K,L,M,S,T]:

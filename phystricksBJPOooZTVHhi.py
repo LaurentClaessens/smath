@@ -17,10 +17,9 @@ def BJPOooZTVHhi():
 
     trig=Polygon(R,Z,M)
     seg=Segment(I,A)
-    #seg.put_mark(0.2,seg.advised_mark_angle,"\( \ell\)",automatic_place=(pspict,"corner"))
     trig.put_mark(0.2,text_list=["\( R\)","\( Z\)","\( M\)"],pspict=pspict)
 
-    I.put_mark(0.2,I.advised_mark_angle,"\( I\)",automatic_place=(pspict,"corner"))
+    I.put_mark(0.2,None,"\( I\)",automatic_place=(pspict,"corner"))
     A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(m1,m2,trig,seg,I,A)

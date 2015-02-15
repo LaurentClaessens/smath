@@ -24,7 +24,7 @@ def figureWFDTzSN():
 
     CB=Segment(C,B)
     hauteur=MeasureLength(CB,40)
-    hauteur.put_mark(0.4,hauteur.advised_mark_angle,"\( 112\)",automatic_place=pspict)
+    hauteur.put_mark(0.4,hauteur.advised_mark_angle(pspict),"\( 112\)",automatic_place=pspict)
 
     rect=Polygon(A,B,C,D)
     rect.edge.parameters.color="blue"

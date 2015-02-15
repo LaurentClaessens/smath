@@ -17,7 +17,7 @@ def IQKJooUmvFBs():
     J=Segment(A,C).get_point_proportion(2/3)
 
     IJ=Segment(I,J).dilatation(1.5)
-    I.put_mark(0.2,I.advised_mark_angle,"\( I\)",automatic_place=(pspict,"corner"))
+    I.put_mark(0.2,I.advised_mark_angle(pspict),"\( I\)",automatic_place=(pspict,"corner"))
     J.put_mark(0.3,90,"\( J\)",automatic_place=(pspict,"S"))
 
     triangle=Polygon(A,B,C)

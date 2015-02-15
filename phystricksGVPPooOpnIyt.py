@@ -16,7 +16,7 @@ def GVPPooOpnIyt():
     drm=Segment(L,K)
     #drm.put_mark(0.2,None,"\( 1.5\)",automatic_place=(pspict,"center"))
 
-    trig.edges[1].put_mark(0.1,trig.edges[1].advised_mark_angle+180,"\( 3\)",automatic_place=(pspict,""))
+    trig.edges[1].put_mark(0.1,trig.edges[1].advised_mark_angle(pspict)+180,"\( 3\)",automatic_place=(pspict,""))
     m1=Segment(A,L).get_mark(0.2,None,"\( 5\)",automatic_place=(pspict,""))
     #m2=Segment(L,K).get_mark(0.2,None,"\( 1.5\)",automatic_place=(pspict,""))
 

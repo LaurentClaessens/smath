@@ -8,14 +8,14 @@ def YGlrtNX():
 
     f=LagrangePolynomial( [Point(-4,-2),Point(-3,0),Point(-1.5,2),Point(0,0),Point(1,1),Point(2,3),Point(4,0)] ).graph(-4,4)
     A=f.get_point(2)
-    A.put_mark(0.2,A.advised_mark_angle,"\( A\)",automatic_place=(pspictC,"corner"))
+    A.put_mark(0.2,A.advised_mark_angle(pspict),"\( A\)",automatic_place=(pspictC,"corner"))
 
     Z1=f.get_point(-3)
     Z2=f.get_point(0)
     Z3=f.get_point(4)
 
     for i,Z in enumerate([Z1,Z2,Z3]):
-        Z.put_mark(0.2,Z.advised_mark_angle,"\( Z_{"+str(i+1)+"}\)",automatic_place=(pspictC,"corner"))
+        Z.put_mark(0.2,Z.advised_mark_angle(pspict),"\( Z_{"+str(i+1)+"}\)",automatic_place=(pspictC,"corner"))
 
     horiz=Segment(  Point(f.mx,1),Point(f.Mx,1) )
     horiz.parameters.color="red"

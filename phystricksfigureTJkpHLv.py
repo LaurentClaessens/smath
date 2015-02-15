@@ -14,8 +14,8 @@ def figureTJkpHLv():
     b1=Segment(O,O+(l,0))
     b2=Segment(b1.I+(0,20),b1.F+(0,20))
 
-    v1.put_mark(0.2,v1.advised_mark_angle,"\unit{15}{\kilo\meter\per\hour}",automatic_place=pspict)
-    v2.put_mark(0.2,v2.advised_mark_angle,"\unit{5}{\kilo\meter\per\hour}",automatic_place=pspict)
+    v1.put_mark(0.2,None,"\unit{15}{\kilo\meter\per\hour}",automatic_place=pspict)
+    v2.put_mark(0.2,None,"\unit{5}{\kilo\meter\per\hour}",automatic_place=pspict)
 
     v=v1+v2
     v.parameters.color="red"

@@ -29,13 +29,7 @@ def KQGKooQyKvWm():
     A.put_mark(0.2,None,"\("+names_list[1]+" \)",automatic_place=(pspict,""))
     B.put_mark(0.2,None,"\("+names_list[2]+" \)",automatic_place=(pspict,""))
     Ap.put_mark(0.2,None,"\("+names_list[3]+" \)",automatic_place=(pspict,""))
-    Bp.put_mark(0.2,Ap.advised_mark_angle,"\("+names_list[4]+" \)",automatic_place=(pspict,""))
-
-    #A.put_mark(0.2,None,"\("+"A"+" \)",automatic_place=(pspict,""))
-    #B.put_mark(0.2,None,"\("+"B"+" \)",automatic_place=(pspict,""))
-    #Ap.put_mark(0.2,None,"\("+"A'"+" \)",automatic_place=(pspict,""))
-    #Bp.put_mark(0.2,Ap.advised_mark_angle,"\("+"B'"+" \)",automatic_place=(pspict,""))
-
+    Bp.put_mark(0.2,None,"\("+names_list[4]+" \)",automatic_place=(pspict,""))
 
     pspict.DrawGraphs(  Segment(A,Ap),Segment(B,Bp)  )
 

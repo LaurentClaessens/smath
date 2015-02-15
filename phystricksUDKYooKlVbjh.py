@@ -15,8 +15,8 @@ def UDKYooKlVbjh():
     K=triangle.edges[2].get_point_proportion(0.7)
     L=triangle.edges[0].get_point_proportion(1-0.7)
 
-    K.put_mark(0.2,180+K.advised_mark_angle,"\( K\)",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,180+L.advised_mark_angle,"\( L\)",automatic_place=(pspict,"corner"))
+    K.put_mark(0.2,180+K.advised_mark_angle(pspict),"\( K\)",automatic_place=(pspict,"corner"))
+    L.put_mark(0.2,180+L.advised_mark_angle(pspict),"\( L\)",automatic_place=(pspict,"corner"))
 
     KL=Segment(K,L)
     KL.put_measure(-0.2,0.2,45,"\( 3\)",automatic_place=(pspict,"corner"))

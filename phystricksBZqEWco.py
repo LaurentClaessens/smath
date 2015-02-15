@@ -10,11 +10,11 @@ def BZqEWco():
     f=phyFunction(x-2).graph(-2,4)
 
     B=f.get_point(0)
-    B.put_mark(0.2,B.advised_mark_angle,"\( p\)",automatic_place=pspict)
+    B.put_mark(0.2,None,"\( p\)",automatic_place=pspict)
         
     x0=solve(f(x)==0,x)[0].rhs()
     A=f.get_point(x0)
-    A.put_mark(0.2,A.advised_mark_angle,"\( -p/m\)",automatic_place=pspict)
+    A.put_mark(0.2,None,"\( -p/m\)",automatic_place=pspict)
         
     pspict.DrawGraphs(f,A,B)
     pspict.axes.no_graduation()

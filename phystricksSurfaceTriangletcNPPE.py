@@ -29,16 +29,16 @@ def SurfaceTriangletcNPPE():
     triangle.parameters.fill.color="green"
 
     measureMQ=MeasureLength(MQ,0.2)
-    measureMQ.put_mark(0.3,measureMQ.advised_mark_angle,"$h$",automatic_place=pspict)
+    measureMQ.put_mark(0.3,measureMQ.advised_mark_angle(pspict),"$h$",automatic_place=pspict)
 
     measureBC=MeasureLength(BC,0.1)
-    measureBC.put_mark(0.4,measureBC.advised_mark_angle,"$\unit{2}{\centi\meter}$",automatic_place=pspict)
+    measureBC.put_mark(0.4,measureBC.advised_mark_angle(pspict),"$\unit{2}{\centi\meter}$",automatic_place=pspict)
 
     measureAM=MeasureLength(Segment(A,M),0.1)
-    measureAM.put_mark(0.3,measureAM.advised_mark_angle,"$x$\si{\centi\meter}",automatic_place=pspict)
+    measureAM.put_mark(0.3,measureAM.advised_mark_angle(pspict),"$x$\si{\centi\meter}",automatic_place=pspict)
 
     measureAB=MeasureLength(AB,0.5)
-    measureAB.put_mark(0.3,measureAB.advised_mark_angle,"$\unit{3}{\centi\meter}$",automatic_place=pspict)
+    measureAB.put_mark(0.3,measureAB.advised_mark_angle(pspict),"$\unit{3}{\centi\meter}$",automatic_place=pspict)
 
     pspict.DrawGraphs(triangle,A,B,C,AB,BC,AC,Q,M,MQ,measureMQ,measureBC,measureAM,measureAB)
     fig.conclude()

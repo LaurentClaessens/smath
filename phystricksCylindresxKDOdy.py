@@ -41,11 +41,11 @@ def CylindresxKDOdy():
     surfV.parameters.color="brown"
 
     measureH=MeasureLength(cube.segc1[2],-0.2)
-    measureH.put_mark(0.2,measureH.advised_mark_angle,"\SI{5}{\centi\meter}",automatic_place=pspicts[0])
+    measureH.put_mark(0.2,None,"\SI{5}{\centi\meter}",automatic_place=pspicts[0])
     measureP=MeasureLength(cube.segP[2],0.2)
-    measureP.put_mark(0.2,measureP.advised_mark_angle,"\SI{5}{\centi\meter}",automatic_place=pspicts[0])
+    measureP.put_mark(0.2,None,"\SI{5}{\centi\meter}",automatic_place=pspicts[0])
     measureV=MeasureLength(cube.segc1[3],-0.2)
-    measureV.put_mark(0.2,measureH.advised_mark_angle,"\SI{3}{\centi\meter}",automatic_place=(pspicts[1],"E"))
+    measureV.put_mark(0.2,None,"\SI{3}{\centi\meter}",automatic_place=(pspicts[1],"E"))
 
     S=perspective.point(c/2,0,c/2)
     Iph=min(  Ch.graph(-pi/4,pi/4).curve2d.points_list,key=lambda P: P.y/abs(P.x-S.x)   )

@@ -46,9 +46,9 @@ def CubeLFZuiW():
     alpha.put_mark(0.3,None,"\( \\alpha\)",automatic_place=pspicts[1])
 
     measureR=MeasureLength(segc1[2],-0.2)
-    measureR.put_mark(0.2,measureR.advised_mark_angle,"\( c\)",automatic_place=pspicts[1])
+    measureR.put_mark(0.2,None,"\( c\)",automatic_place=pspicts[1])
     measureP=MeasureLength(segP[2],0.2)
-    measureP.put_mark(0.2,measureP.advised_mark_angle,"\( k\\times c\)",automatic_place=pspicts[1])
+    measureP.put_mark(0.2,None,"\( k\\times c\)",automatic_place=pspicts[1])
     
     pspicts[1].DrawGraphs(alpha,measureR,measureP)
 

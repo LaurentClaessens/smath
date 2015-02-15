@@ -13,8 +13,8 @@ def NWVMooKshXYo():
 
     J=triangle.edges[2].midpoint()
     K=triangle.edges[1].midpoint()
-    J.put_mark(0.2,J.advised_mark_angle+180,"\( J\)",automatic_place=(pspict,"corner"))
-    K.put_mark(0.2,K.advised_mark_angle+180,"\( K\)",automatic_place=(pspict,"corner"))
+    J.put_mark(0.2,J.advised_mark_angle(pspict)+180,"\( J\)",automatic_place=(pspict,"corner"))
+    K.put_mark(0.2,K.advised_mark_angle(pspict)+180,"\( K\)",automatic_place=(pspict,"corner"))
     seg=Segment(J,K)
     
     triangle.edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspict)

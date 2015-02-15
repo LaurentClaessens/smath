@@ -45,8 +45,8 @@ def KPWWooFyZHHV():
         p.parameters.symbol=""
     S.parameters.symbol=""
     for i in range(0,4):
-        A[i].put_mark(0.2,A[i].advised_mark_angle,"\( A\)",automatic_place=(pspicts,"corner"))
-        B[i].put_mark(0.2,B[i].advised_mark_angle,"\( B\)",automatic_place=(pspicts,"corner"))
+        A[i].put_mark(0.2,None,"\( A\)",automatic_place=(pspicts,"corner"))
+        B[i].put_mark(0.2,None,"\( B\)",automatic_place=(pspicts,"corner"))
         pspicts[i].DrawGraphs(triangles[i],A[i],B[i],AB[i])
 
     pspicts[2].DrawGraphs(code1,code2)

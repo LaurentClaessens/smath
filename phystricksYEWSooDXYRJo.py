@@ -17,7 +17,7 @@ def YEWSooDXYRJo():
     trig=Polygon(A,B,C)
     trig.edges[0].put_mark(0.2,-90,"\( 16\)",automatic_place=(pspict,"N"))
 
-    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle*degree+180,"\( ?\)",automatic_place=(pspict,"corner"))
+    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)*degree+180,"\( ?\)",automatic_place=(pspict,"corner"))
     trig.edges[2].put_mark(0.2,180,"\( 12\)",automatic_place=(pspict,"E"))
 
     no_symbol(trig.vertices)

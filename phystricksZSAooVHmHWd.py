@@ -27,9 +27,9 @@ def ZSAooVHmHWd():
     for med in mediatrices :
         med.parameters.style="dashed"
 
-    A.put_mark(0.2,A.advised_mark_angle,"\( A\)",automatic_place=(pspicts,"corner"))
-    B.put_mark(0.2,B.advised_mark_angle,"\( B\)",automatic_place=(pspicts,"corner"))
-    C.put_mark(0.2,C.advised_mark_angle,"\( C\)",automatic_place=(pspicts,"corner"))
+    A.put_mark(0.2,A.advised_mark_angle(pspict),"\( A\)",automatic_place=(pspicts,"corner"))
+    B.put_mark(0.2,B.advised_mark_angle(pspict),"\( B\)",automatic_place=(pspicts,"corner"))
+    C.put_mark(0.2,C.advised_mark_angle(pspict),"\( C\)",automatic_place=(pspicts,"corner"))
     O.put_mark(0.4,0,"\( O\)",automatic_place=(pspicts,"W"))
 
     pspicts[0].DrawGraphs(trig,circonscrit,A,B,C,O)

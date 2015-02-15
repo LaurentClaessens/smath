@@ -35,7 +35,7 @@ def VXFxyni():
     h.put_mark(0.2,0,"\( h\)",automatic_place=(pspict,"W"))
 
     K=g.get_point(2)
-    K.put_mark(0.2,K.advised_mark_angle,"\( K\)",automatic_place=pspict)
+    K.put_mark(0.2,K.advised_mark_angle(pspict),"\( K\)",automatic_place=pspict)
     #K.put_mark(0.2,90,"\( K\)",automatic_place=pspict)
 
     pspict.DrawGraphs(f,g,h,K)

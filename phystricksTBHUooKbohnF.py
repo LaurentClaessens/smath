@@ -21,9 +21,9 @@ def TBHUooKbohnF():
     IK=Segment(I,K).dilatation(1.5)
     KJ=Segment(K,J).dilatation(1.5)
 
-    I.put_mark(0.2,I.advised_mark_angle+180,"\( I\)",automatic_place=(pspicts,"corner"))
-    J.put_mark(0.2,J.advised_mark_angle+180,"\( J\)",automatic_place=(pspicts,"corner"))
-    K.put_mark(0.2,K.advised_mark_angle+180,"\( K\)",automatic_place=(pspicts,"corner"))
+    I.put_mark(0.2,I.advised_mark_angle(pspict)+180,"\( I\)",automatic_place=(pspicts,"corner"))
+    J.put_mark(0.2,J.advised_mark_angle(pspict)+180,"\( J\)",automatic_place=(pspicts,"corner"))
+    K.put_mark(0.2,K.advised_mark_angle(pspict)+180,"\( K\)",automatic_place=(pspicts,"corner"))
 
 
     triangle.edges[0].divide_in_two(n=2,d=0.1,l=0.4,angle=45,pspict=pspicts)

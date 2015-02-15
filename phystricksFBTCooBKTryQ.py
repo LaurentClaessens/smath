@@ -19,9 +19,9 @@ def FBTCooBKTryQ():
     a1.put_mark(0.2,None,"\( 24\)",automatic_place=(pspict,""))
     a2.put_mark(0.2,None,"\( 120\)",automatic_place=(pspict,""))
 
-    A.put_mark(0.2,s1.advised_mark_angle,"\( A\)",automatic_place=(pspict,""))
-    O.put_mark(0.2,s1.advised_mark_angle,"\( O\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,s1.advised_mark_angle,"\( C\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,s1.advised_mark_angle(pspict),"\( A\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,s1.advised_mark_angle(pspict),"\( O\)",automatic_place=(pspict,""))
+    C.put_mark(0.2,s1.advised_mark_angle(pspict),"\( C\)",automatic_place=(pspict,""))
 
     pspict.DrawGraphs(s1,s2,a1,a2,A,O,C)
     fig.no_figure()

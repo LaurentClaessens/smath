@@ -10,7 +10,7 @@ def XSMDwcv():
     P=Point(0,f(0))
     OP=Segment(  Point(0,0),P )
     measure_p=MeasureLength(OP,0.3)
-    measure_p.put_mark(0.2,measure_p.advised_mark_angle,"\( p\)",automatic_place=pspict)
+    measure_p.put_mark(0.2,measure_p.advised_mark_angle(pspict),"\( p\)",automatic_place=pspict)
 
     A=f.get_point(1)
     B=f.get_point(3)
@@ -23,7 +23,7 @@ def XSMDwcv():
     BM=Segment(B,M)
     BM.put_mark(0.2,0,"\( \Delta y\)",automatic_place=pspict)
     AM=Segment(A,M)
-    AM.put_mark(-0.2,AM.advised_mark_angle(),"\( \Delta x\)",automatic_place=pspict)
+    AM.put_mark(-0.2,AM.advised_mark_angle(pspict),"\( \Delta x\)",automatic_place=pspict)
 
     pspict.DrawGraphs(f,A,B,M,BM,AM,measure_p)
     pspict.DrawDefaultAxes()

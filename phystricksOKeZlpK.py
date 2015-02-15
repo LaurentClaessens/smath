@@ -18,8 +18,8 @@ def OKeZlpK():
     P.put_mark(0.2,135,"\( p\)",automatic_place=(pspict,"corner"))
     P.parameters.symbol="|"
     P.parameters.dotangle=90
-    Q.put_mark(0.2,Q.advised_mark_angle,"\( Q\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,M.advised_mark_angle,"\( M\)",automatic_place=(pspict,"corner"))
+    Q.put_mark(0.2,Q.advised_mark_angle(pspict),"\( Q\)",automatic_place=(pspict,"corner"))
+    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",automatic_place=(pspict,"corner"))
 
     Qx=Q.projection(pspict.axes.single_axeX)
     Qy=Q.projection(pspict.axes.single_axeY)

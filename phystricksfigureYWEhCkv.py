@@ -3,7 +3,7 @@ from phystricks import *
 def figureYWEhCkv():
     pspict,fig = SinglePicture("figureYWEhCkv")
     pspict.dilatation(0.8)
-    fig.specific_needs="""\makeatletter\@ifundefined{vect}{\\newcommand{\\vect}[1]{\overrightarrow{#1}}}{}\makeatother"""
+    #fig.specific_needs="""\makeatletter\@ifundefined{vect}{\\newcommand{\\vect}[1]{\overrightarrow{#1}}}{}\makeatother"""
 
     A=Point(1,1)
     B=Point(3,-2)
@@ -17,9 +17,9 @@ def figureYWEhCkv():
     v.parameters.color="blue"
     w.parameters.color="blue"
 
-    u.put_mark(0.2,u.advised_mark_angle,"\( \\vect{ u }\)",automatic_place=pspict)
+    u.put_mark(0.2,None,"\( \\vect{ u }\)",automatic_place=pspict)
     v.put_mark(0.2,-45,"\( \\vect{ v }\)",automatic_place=pspict)
-    w.put_mark(0.2,w.advised_mark_angle,"\( \\vect{ w }\)",automatic_place=pspict)
+    w.put_mark(0.2,None,"\( \\vect{ w }\)",automatic_place=pspict)
 
     A.put_mark(0.2,45,"\( A\)",automatic_place=pspict)
     B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)

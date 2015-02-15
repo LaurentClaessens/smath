@@ -11,11 +11,11 @@ def OTGooGcktOd():
     trig1=Polygon(A,E,U)
     
     AE=Segment(A,E)
-    AE.put_mark(0.2,AE.advised_mark_angle,"\unit{4.5}{\centi\meter}",automatic_place=(pspict,"corner"))
+    AE.put_mark(0.2,AE.advised_mark_angle(pspict),"\unit{4.5}{\centi\meter}",automatic_place=(pspict,"corner"))
     EU=Segment(E,U)
-    EU.put_mark(0.2,EU.advised_mark_angle,"\unit{5}{\centi\meter}",automatic_place=(pspict,"corner"))
+    EU.put_mark(0.2,EU.advised_mark_angle(pspict),"\unit{5}{\centi\meter}",automatic_place=(pspict,"corner"))
     AU=Segment(A,U)
-    AU.put_mark(0.2,AU.advised_mark_angle+180,"\unit{5.5}{\centi\meter}",automatic_place=(pspict,"corner"))
+    AU.put_mark(0.2,AU.advised_mark_angle(pspict)+180,"\unit{5.5}{\centi\meter}",automatic_place=(pspict,"corner"))
     A.put_mark(0.2,180,"\( A\)",automatic_place=(pspict,"corner"))
     E.put_mark(0.2,90,"\( E\)",automatic_place=(pspict,"corner"))
     U.put_mark(0.2,-45,"\( U\)",automatic_place=(pspict,"corner"))
@@ -31,7 +31,7 @@ def OTGooGcktOd():
     trig2=Polygon(Q,O,C)
 
     QO=Segment(Q,O)
-    QO.put_mark(0.2,QO.advised_mark_angle+180,"\unit{4.5}{\centi\meter}",automatic_place=(pspict,"corner"))
+    QO.put_mark(0.2,QO.advised_mark_angle(pspict)+180,"\unit{4.5}{\centi\meter}",automatic_place=(pspict,"corner"))
     Q.put_mark(0.2,-45,"\( Q\)",automatic_place=(pspict,"corner"))
     O.put_mark(0.2,0,"\( O\)",automatic_place=(pspict,"W"))
     C.put_mark(0.2,90,"\( C\)",automatic_place=(pspict,"S"))
@@ -57,9 +57,9 @@ def OTGooGcktOd():
     V.put_mark(0.2,180,"\( V\)",automatic_place=(pspict,"E"))
 
     IV=Segment(I,V)
-    IV.put_mark(0.2,IV.advised_mark_angle+180,"\unit{7}{\centi\meter}",automatic_place=(pspict,"corner"))
+    IV.put_mark(0.2,IV.advised_mark_angle(pspict)+180,"\unit{7}{\centi\meter}",automatic_place=(pspict,"corner"))
     IN=Segment(I,N)
-    IN.put_mark(0.2,IN.advised_mark_angle,"\unit{6}{\centi\meter}",automatic_place=(pspict,"corner"))
+    IN.put_mark(0.2,IN.advised_mark_angle(pspict),"\unit{6}{\centi\meter}",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(trig3,angle3,I,N,V,IV.mark,IN.mark)
 

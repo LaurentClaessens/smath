@@ -23,8 +23,8 @@ def GTyQVvw():
 
     u=AffineVector(A,B)
     v=AffineVector(C,D)
-    u.put_mark(0.2,u.advised_mark_angle,"\( \\vect{ u }\)",automatic_place=(pspict,"corner"))
-    v.put_mark(0.2,v.advised_mark_angle,"\( \\vect{ v }\)",automatic_place=(pspict,"corner"))
+    u.put_mark(0.2,None,"\( \\vect{ u }\)",automatic_place=(pspict,"corner"))
+    v.put_mark(0.2,None,"\( \\vect{ v }\)",automatic_place=(pspict,"corner"))
 
     pspict.DrawGraphs(u,v,M,N,K,L)
     pspict.DrawDefaultGrid()

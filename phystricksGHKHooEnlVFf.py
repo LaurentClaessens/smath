@@ -2,7 +2,8 @@
 from phystricks import *
 def GHKHooEnlVFf():
     pspict,fig = SinglePicture("GHKHooEnlVFf")
-    pspict.dilatation(1)
+    pspict.dilatation_X(2)
+    pspict.dilatation_Y(1)
 
     M=Point(0,0)
     N=Point(0,4)
@@ -12,8 +13,8 @@ def GHKHooEnlVFf():
     d1=Segment(L,K)
     d2=Segment(M,N)
 
-    pr1=0.3
-    pr2=0.7
+    pr1=0.5
+    pr2=0.8
     A=d1.get_point_proportion(pr1)
     D=d2.get_point_proportion(pr1)
     O=Intersection(d1,d2)[0]
