@@ -13,7 +13,7 @@ def UMQMooOlJYbZ():
     S=Point(l,h)
 
     trig=Polygon(D,A,S)
-    trig.put_mark(0.2,text_list=["\( D\)","\( A\)","\( S\)"],pspict=pspict)
+    trig.put_mark(0.2,text_list=[u"départ","\( A\)","sommet"],pspict=pspict)
     for P in trig.vertices:
         P.parameters.symbol=""
 

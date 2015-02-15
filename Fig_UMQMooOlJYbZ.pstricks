@@ -11,18 +11,18 @@
 \makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigUMQMooOlJYbZ.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( D\)}}%
-\immediate\write\writeOfphystricks{totalheightofa3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( D\)}}%
-\immediate\write\writeOfphystricks{widthofa3aa1bc60357892b3f1041764362c53e58029310:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{départ}}%
+\immediate\write\writeOfphystricks{totalheightofdc5fd7f6e0074fa7e586026b0f23dbf019b81b75:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{départ}}%
+\immediate\write\writeOfphystricks{widthofdc5fd7f6e0074fa7e586026b0f23dbf019b81b75:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( A\)}}%
 \immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( S\)}}%
-\immediate\write\writeOfphystricks{totalheightofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( S\)}}%
-\immediate\write\writeOfphystricks{widthofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{sommet}}%
+\immediate\write\writeOfphystricks{totalheightofb30a1860418bb4b4c4a652cbc0dd4d5b6c5f9ab7:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{sommet}}%
+\immediate\write\writeOfphystricks{widthofb30a1860418bb4b4c4a652cbc0dd4d5b6c5f9ab7:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\SI{600}{\meter}}}%
 \immediate\write\writeOfphystricks{totalheightofb0d7121033ef41926497d0b8d71f9083e4591747:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\SI{600}{\meter}}}%
@@ -81,12 +81,12 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.1897366596,-0.06324555320) node {\( D\)};
-\draw (-0.1897366596,-0.06324555320) node {\( D\)};
+\draw (-0.1897366596,-0.06324555320) node {départ};
+\draw (-0.1897366596,-0.06324555320) node {départ};
 \draw (8.141421356,-0.1414213562) node {\( A\)};
 \draw (8.141421356,-0.1414213562) node {\( A\)};
-\draw (8.089442719,4.798885438) node {\( S\)};
-\draw (8.089442719,4.798885438) node {\( S\)};
+\draw (8.089442719,4.798885438) node {sommet};
+\draw (8.089442719,4.798885438) node {sommet};
 \draw [] (0,0.0) -- (8.000000000,0.0);
 \draw [] (8.000000000,0.0) -- (8.000000000,4.620000000);
 \draw (8.616667000,2.414954000) node {\SI{600}{\meter}};
