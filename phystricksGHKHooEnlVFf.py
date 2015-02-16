@@ -14,7 +14,7 @@ def GHKHooEnlVFf():
     d2=Segment(M,N)
     O=Intersection(d1,d2)[0]
 
-    pr1=0.5
+    pr1=0.3
     pr2=0.8
     A=Segment(O,K).get_point_proportion(pr1)
     D=Segment(O,N).get_point_proportion(pr1)
