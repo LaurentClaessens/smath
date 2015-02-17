@@ -3,7 +3,7 @@ from phystricks import *
 def HXDOooHsfhus():
     pspict,fig = SinglePicture("HXDOooHsfhus")
     pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation_Y(0.7)
 
     pr1=0.4
     pr2=0.7
@@ -20,7 +20,7 @@ def HXDOooHsfhus():
     d1=Segment(O,P)
     d2=Segment(O,Q)
 
-    O.put_mark(0.1,angle=-45,text="\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.1,angle=-45,text="\( K\)",automatic_place=(pspict,""))
 
     a1=Angle(C,B,P,r=0.3)
     a1.put_mark(0.2,angle=None,text="\SI{100}{\degree}",automatic_place=(pspict,""))
