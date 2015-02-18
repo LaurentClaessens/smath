@@ -4,7 +4,14 @@
 % See the file fdl-1.3.txt for copying conditions.
 
 \begin{exercice}\label{exo2smath-0161}
+\let\Oldtheenumi\theenumi
+\let\Oldtheenumii\theenumii
+\renewcommand{\theenumi}{(\arabic{enumi})}
+\renewcommand{\theenumii}{(\alph{enumii})}
 
+\begin{enumerate}
+    \item
+        
 Placer les points suivants sur une droite graduée :
 \begin{multicols}{2}
 \begin{enumerate}
@@ -18,7 +25,13 @@ Placer les points suivants sur une droite graduée :
         le point \( D\) d'abscisse \( -1.5\)
 \end{enumerate}
 \end{multicols}
-Donner la distance entre \( A\) et \( C\) ainsi que la distance entre \( C\) et \( D\).
+\item
+Donner la distance entre les points \( C\) et \( D\).
+\item\label{ItemBRMGooQoNoou}
+    Placer un point dont la distance à \( B\) est \( 4\).
+\end{enumerate}
 
+\let\theenumi\Oldtheenumi
+\let\theenumii\Oldtheenumii
 \corrref{2smath-0161}
 \end{exercice}
