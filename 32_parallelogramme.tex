@@ -3,7 +3,50 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
-jkjlkjlkj
+\input{activ_parallelogramme}
+De \cite{NRHooXFvgpp5}
 
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+\section{Définitions, propriétés}
+%+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-klkmlml
+\begin{definition}[\cite{NRHooXFvgpp5}]
+    Quelque quadrilatères :
+    \begin{enumerate}
+        \item
+            Un \defe{parallélogramme}{parallélogramme} est un quadrilatère qui a ses côtés opposés parallèles deux à deux.
+        \item
+            Un \defe{losange}{losange} est un quadrilatère qui possède quatre côtés de même longueur.
+        \item
+            Un \defe{rectangle}{rectangle} est un quadrilatère qui a quatre angles droits.
+        \item
+            Un \defe{carré}{carré} est un rectangle qui a ses côtés de même longueur.
+    \end{enumerate}
+\end{definition}
+
+\begin{propriete}
+    Les diagonales d'un carré sont perpendiculaires.
+\end{propriete}
+
+\begin{proof}
+    Dessinons un carré :
+    \begin{center}
+        \input{Fig_UOEOooLxhpSC.pstricks}
+    \end{center}
+    Par définition un carré a ses côtés de même longueurs, donc le triangle \( ADC\) est isocèle en \( D\).
+    \begin{center}
+        Donc \( a_1=c_2\)
+    \end{center}
+    Mais comme la somme des angles internes du triangle doit faire \SI{180}{\degree} et que l'angle \( \hat D\) en fait \( 90\), 
+    \begin{center}
+        \( a_1=a_2=\SI{45}{\degree}\).
+    \end{center}
+    Le même raisonnement dans les triangles \( ABC\), \( ADB\) et \( CDB\) donne :
+    \begin{equation}
+        a_1=a_2=b_1=b_2=c_1=c_2=d_1=d_2=\SI{45}{\degree}.
+    \end{equation}
+    
+    Dans le triangle \( DCI\), la somme des angles doit faire \SI{180}{\degree}. Mais les deux angles de base font \SI{45}{\degree}. Donc le troisième angle doit mesurer \SI{90}{\degree}.
+
+\end{proof}
+
