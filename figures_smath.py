@@ -481,6 +481,7 @@ def AllFigures(figures_list):
 # from phystricksAUHmNET import AUHmNET
 
 figures_list=[]
+figures_list.append(KBOKooTCswpl)
 figures_list.append(EvZZys)
 figures_list.append(BpCNVm)
 figures_list.append(HistoAutomobile)
@@ -911,7 +912,6 @@ figures_list.append(YMMDooFDCWPN)
 figures_list.append(HXDOooHsfhus)
 figures_list.append(SRYNooEdaMMH)
 figures_list.append(UOEOooLxhpSC)
-figures_list.append(KBOKooTCswpl)
 figures_list.append(VXDJooBGRpbL)
 """
 figures_list.append(<++>)
