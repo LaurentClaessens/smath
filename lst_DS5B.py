@@ -17,7 +17,7 @@ DS_5B3=commun.TheDS("DS_5B3",groupe_5B,1)
 DS_5B4=commun.TheDS("DS_5B4",groupe_5B,1)
 DS_5B4rattrap=commun.TheDS("DS_5B4rattrap",groupe_5B,1)
 DS_5B5=commun.TheDS("DS_5B5",groupe_5B,1)
-DS_5B6=commun.TheDS("DS_5B6",groupe_5B,1,n_student=1)
+DS_5B6=commun.TheDS("DS_5B6",groupe_5B,1)
 
 jeveux=DS_5B6
 jeveux.write_the_file()
