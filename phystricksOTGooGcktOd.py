@@ -27,7 +27,6 @@ def OTGooGcktOd():
     segII=Segment(Q,Point(Q.x,Q.y-2))
     PI=Circle(O,1).get_point(150)
     C=Intersection(  segII,Segment(O,PI) )[0]
-
     trig2=Polygon(Q,O,C)
 
     QO=Segment(Q,O)
@@ -40,6 +39,7 @@ def OTGooGcktOd():
     angle1.put_mark(0.5,None,"\unit{20}{\degree}",automatic_place=(pspict,"center"))
     angle2=Angle(C,O,Q)
     angle2.put_mark(0.6,None,"\unit{105}{\degree}",automatic_place=(pspict,"center"))
+
 
     pspict.DrawGraphs(trig2,QO.mark,Q,O,C,angle1,angle2)
 
