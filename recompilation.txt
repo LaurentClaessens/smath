@@ -9,18 +9,11 @@ Il faut au préalable s'assurer que tous les DS sont dans smath
 
 
 time ./figures_smath.py --all      (25 minutes)
-
-
-time pytex lst_smath.py --lotex --no-external   (13 minutes)    Lorsqu'on compile pour les dimensions dans phystricks, il faut
-                                                                    aussi compiler les exercices parce qu'il y a des figures qui 
-                                                                    ne sont pas dans smath.
+time pytex lst_smath.py --lotex --no-external   (13 minutes)   
 time pytex lst_exercices4A.py --lotex --no-external
 time pytex lst_exercices5A.py --lotex --no-external
 time pytex lst_exercices5B.py --lotex --no-external
-time ./figures_smath.py --all
-
-Ici il faut vérifier qu'il n'y ait plus de Warning
-
+Dans un nouvel onglet : time ./figures_smath.py --all   (vérifier les Warning)
 time pytex lst_mental.py --lotex --no-external
 time pytex lst_exercices4A.py --lotex --no-external
 time pytex lst_exercices5A.py --lotex --no-external
@@ -34,7 +27,6 @@ time pytex lst_niveau.py autres --lotex --no-external
 time pytex lst_smath.py --lotex --no-external
 
 
-Ensuite la même chose avec 'external'
 
 
 Dans le répertoire 'smath' :
