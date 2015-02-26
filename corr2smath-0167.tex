@@ -5,6 +5,45 @@
 
 \begin{corrige}{2smath-0167}
 
-<+Corr2smath-0167+>
+    Une façon simple de réaliser l'exercice est de remarquer que le drapeau a une symétrie axiale (l'axe horizontal au milieu), qui conserve les angles. Donc les deux angles cherchés en $E$ sont égaux. Vu qu'un tour complet correspond à \SI{360}{\degree} et qu'il y en a déjà \( 70\) dans la partie bleue, il reste \( 360-70=290\). Donc chacun des deux angles cherchés vaut
+    \begin{equation}
+        290\div 2=145.
+    \end{equation}
+    
+    Sans cela, il faut travailler plus. Il y a plusieurs façons de procéder; l'idée est toujours de trouver des mesures d'angles de proche en proche en utilisant les propriétés suivantes :
+    \begin{enumerate}
+        \item
+            dans un triangle, la somme des angles vaut \( 180\),
+        \item
+            les angles alterne-interne et correspondants ont même mesure,
+        \item
+            un angle droit mesure \SI{90}{\degree} (donc si un angle droit est coupé en deux parties dont l'une est connue, l'autre se calcule)
+        \item
+            l'angle plat mesure \SI{180}{\degree},
+        \item
+            le tour complet correspond à un angle de \SI{360}{\degree}.
+    \end{enumerate}
+
+    Voici un dessin avec un certain nombre d'angles dessinés.
+
+    \begin{center}
+\input{Fig_LLBQooAjaorQ1.pstricks}
+    \end{center}
+    Une façon de les déduire :
+    \begin{enumerate}
+        \item
+            Le triangle \( AED\) est isocèle, et la somme de ses angles vaut \( 180\). Donc les angles en \( A\) et \( D\) vallent
+            \begin{equation}
+                (180-70)\div 2=55.
+            \end{equation}
+            L'angle de la partie blanche en \( A\) vaut alors \( 90-55=\SI{35}{\degree}\).
+        \item
+            L'angle \( \widehat{AKE}\) est alterne-interne à l'angle \( \widehat{EDC}\) et mesure donc également \SI{35}{\degree}.
+        \item
+            Dans le triangle \( AKE\) l'angle \( \widehat{AEK}\) mesure alors \( 180-35-35=\SI{110}{\degree}\).
+        \item
+            L'angle \( \widehat{BEF}\) mesure \SI{35}{\degree} parce qu'il est alterne-interne à \( \widehat{ABE}\) (ou à $\widehat{EDC}$).
+    \end{enumerate}
+    Une fois que l'angle \( \widehat{AEF}\) est connu pour mesurer \SI{135}{\degree}, l'angle $\widehat{DEF}$ se déduit immédiatement parce que la somme des tous les angles en \( E\) doit faire \SI{360}{\degree}.
 
 \end{corrige}
