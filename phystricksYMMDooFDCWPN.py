@@ -10,13 +10,16 @@ def YMMDooFDCWPN():
     B=Point(L,0)
     P=Segment(A,B).get_point_proportion(0.3)
 
-    A.put_mark(0.2,angle=-90,text="\( 0\)",automatic_place=(pspict,""))
-    B.put_mark(0.2,angle=-90,text="\( 10\)",automatic_place=(pspict,""))
-    P.put_mark(0.2,angle=-90,text="\( x\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,angle=90+45,text="\( 0\)",automatic_place=(pspict,""))
+    B.put_mark(0.2,angle=45,text="\( 10\)",automatic_place=(pspict,""))
+    P.put_mark(0.2,angle=45,text="\( x\)",automatic_place=(pspict,""))
 
-    C1=CircleAB(A,P).graph(0,180)       # le x
-    C2=CircleAB(P,B).graph(0,180)       # le 10-x
-    C3=CircleAB(A,B).graph(0,180)       # Le grand
+    #C1=CircleAB(A,P).graph(0,180)       # le x
+    #C2=CircleAB(P,B).graph(0,180)       # le 10-x
+    #C3=CircleAB(A,B).graph(0,180)       # Le grand
+    C1=CircleAB(A,P) # le x
+    C2=CircleAB(P,B) # le 10-x
+    C3=CircleAB(A,B) # Le grand
 
     pc1=C1.get_point(80)
     pc1.put_mark(0.03,angle=None,text="\( \mathcal{C}_1\)",automatic_place=(pspict,""))

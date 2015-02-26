@@ -23,6 +23,7 @@ def UMQMooOlJYbZ():
     P.put_mark(0.2,angle=-90,text="\( P\)",automatic_place=(pspict,""))
 
     QP=Segment(Q,P)
+    QP.put_mark(0.2,angle=0,text="\( 25\)",automatic_place=(pspict,""))
 
     rh1=RightAngle(QP,trig.edges[0],0.3,0,0)
     rh2=RightAngle(trig.edges[0],trig.edges[1],0.3,0,1)

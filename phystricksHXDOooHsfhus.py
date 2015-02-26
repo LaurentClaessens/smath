@@ -8,8 +8,8 @@ def HXDOooHsfhus():
     pr1=0.4
     pr2=0.7
     O=Point(0,0)
-    P=Point(-2.5,3)
-    Q=Point(3,3)
+    P=Point(-0.5,3)
+    Q=Point(4,3)
     A=Segment(O,P).get_point_proportion(pr1)
     B=Segment(O,P).get_point_proportion(pr2)
     C=Segment(O,Q).get_point_proportion(pr2)
@@ -23,7 +23,7 @@ def HXDOooHsfhus():
     O.put_mark(0.1,angle=-45,text="\( K\)",automatic_place=(pspict,""))
 
     a1=Angle(C,B,P,r=0.3)
-    a1.put_mark(0.2,angle=None,text="\SI{100}{\degree}",automatic_place=(pspict,""))
+    a1.put_mark(0.3,angle=None,text="\SI{100}{\degree}",automatic_place=(pspict,""))
     a2=Angle(p2.F,D,Q)
     a2.put_mark(0.3,angle=None,text="\SI{30}{\degree}",automatic_place=(pspict,""))
 
