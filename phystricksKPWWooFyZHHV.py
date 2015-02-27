@@ -15,8 +15,7 @@ def KPWWooFyZHHV():
 
     for i in range(0,3):
         triangles[i].put_mark(0.2,text_list=["\( T\)","\( M\)","\( O\)"],pspict=pspicts)
-    triangles[-1].put_mark(0.2,text_list=["\( O\)","\( T\)","\( S\)","\( M\)"],pspict=pspicts)
-
+    triangles[-1].put_mark(0.2,text_list=["\( T\)","\( O\)","\( M\)","\( S\)"],pspict=pspicts)
 
     A=[  triangles[0].edges[1].midpoint(),triangles[1].edges[1].midpoint(),triangles[2].edges[2].midpoint(),triangles[3].edges[1].midpoint()  ]
     B=[  triangles[0].edges[2].midpoint(),triangles[1].edges[2].midpoint(),triangles[2].edges[1].midpoint(),triangles[3].edges[0].midpoint()  ]
@@ -32,6 +31,8 @@ def KPWWooFyZHHV():
     code2=Segment(  O[2],A[2]  ).get_code(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
 
     AB=[  Segment(A[i],B[i]).dilatation(1.5) for i in range(0,4)  ]
+
+    no_symbol([trig.vertices for trig in triangles])
 
     for p in T:
         p.parameters.symbol=""

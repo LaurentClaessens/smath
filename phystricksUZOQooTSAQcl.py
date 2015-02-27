@@ -18,9 +18,9 @@ def UZOQooTSAQcl():
         p.parameters.symbol=""
     
     a1=Angle(B,A,C,r=0.5)
-    a1.put_mark(0.3,None,"\SI{34}{\degree}",automatic_place=(pspict,"center"))
+    a1.put_mark(0.3,None,"\SI{12}{\degree}",automatic_place=(pspict,"center"))
     a2=Angle(C,B,A,r=0.5)
-    a2.put_mark(0.2,None,"\SI{12}{\degree}",automatic_place=(pspict,"center"))
+    a2.put_mark(0.2,None,"\SI{34}{\degree}",automatic_place=(pspict,"center"))
 
     pspict.DrawGraphs(triangle,a1,a2,parallel)
     fig.no_figure()

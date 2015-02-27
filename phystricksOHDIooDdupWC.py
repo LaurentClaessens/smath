@@ -33,18 +33,18 @@ def OHDIooDdupWC():
 
     tour=Polygon(A,S0,S1,S2,S3,S4,S5,S6,S7,B,C,D)
     IJ=Segment(I,J)
-    IJ.put_measure(-0.2,0.2,0,"\( 1\)",automatic_place=(pspict,"W"))
+    IJ.put_measure(-0.2,0.2,0,"\( 2\)",automatic_place=(pspict,"W"))
 
     ombre=Segment(A,O)
-    terrain=Segment(O,E)
-    eau=Segment(E,D)
-    eau.parameters.color='blue'
-    eau.wave(0.2,0.1)
+    terrain=Segment(O,D)
+    #eau=Segment(E,D)
+    #eau.parameters.color='blue'
+    #eau.wave(0.2,0.1)
 
-    m2=Segment(O,J).get_measure(0.2,0.2,-90,"\( 2\)",automatic_place=(pspict,"N"))
+    m2=Segment(O,J).get_measure(0.2,0.2,-90,"\( 3\)",automatic_place=(pspict,"N"))
     m12=Segment(J,D).get_measure(0.2,0.2,-90,"\( 12\)",automatic_place=(pspict,"N"))
 
-    pspict.DrawGraphs(O,tour,IJ,ombre,terrain,eau,m2,m12)
+    pspict.DrawGraphs(O,tour,IJ,ombre,terrain,m2,m12)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
