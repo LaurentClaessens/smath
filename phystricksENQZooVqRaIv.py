@@ -15,9 +15,8 @@ def truc(A,B,C,D,points_names,angle,pspicts,n):
     pspicts[n].DrawGraphs(quadri)
     
 
-
 def ENQZooVqRaIv():
-    pspicts,figs = IndependentPictures("ENQZooVqRaIv",3)
+    pspicts,figs = IndependentPictures("ENQZooVqRaIv",4)
 
     for psp in pspicts:
         psp.dilatation(1)
@@ -31,7 +30,7 @@ def ENQZooVqRaIv():
 
     E=Point(0,0)
     F=Point(3,0)
-    G=F+(-1,-2)
+    G=F+(-2,-2)
     H=E+G-F
     truc(E,F,G,H,points_names="EFGH",angle=64,pspicts=pspicts,n=1)
 
@@ -42,6 +41,12 @@ def ENQZooVqRaIv():
     L=I+K-J
     truc(I,J,K,L,points_names="IJKL",angle=-12,pspicts=pspicts,n=2)
 
+
+    M=Point(0,0)
+    N=M+(-1,-2)
+    O=M+(1,-2)
+    P=M+N+O
+    truc(M,N,P,O,points_names="MNPO",angle=45,pspicts=pspicts,n=3)
 
 
     for fig in figs :
