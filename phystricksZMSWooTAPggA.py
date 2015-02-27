@@ -25,6 +25,7 @@ def ZMSWooTAPggA():
         pspict.DrawGraphs(A)
     for i in range(0,floor(Mx)+1):
         A=Point(i,0)
+        A.parameters.symbol=""
         A.put_mark(0.2,-90,"\( {}\)".format(i),automatic_place=(pspict,"N"))
         pspict.DrawGraphs(A)
 

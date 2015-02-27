@@ -23,9 +23,9 @@ def DSBHooZdaNyy():
     mesL=Segment(F,D).get_measure(-0.3,0.1,90,"\( 10\)",automatic_place=(pspict,"S"))
     mesl=Segment(A,B).get_measure(0.3,0.1,-90,"\( x\)",automatic_place=(pspict,"N"))
     mesH=Segment(A,F).get_measure(-0.3,0.1,180,"\( 3\)",automatic_place=(pspict,"E"))
-    #mesP=Segment(B,C).get_measure(0.2,0.1,-90,"\( 10-x\)",automatic_place=(pspict,"N"))
+    mesP=Segment(B,C).get_measure(0.2,0.1,-90,"?",automatic_place=(pspict,"N"))
 
-    pspict.DrawGraphs(piscine,jardin,mesL,mesl,mesH)
+    pspict.DrawGraphs(piscine,jardin,mesL,mesl,mesH,mesP)
     #pspict.DrawGraphs(piscine,jardin,mesL,mesl,mesH,mesP)
 
     fig.no_figure()

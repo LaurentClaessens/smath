@@ -55,6 +55,8 @@ def RGRLooTmnwQZ():
     #for seg in choix:
     #    seg.parameters.color="blue"
 
+
+    pspict.comment="The grid is large enough to contain the image"
     pspict.DrawGraphs(choix,O)
     pspict.grid.main_horizontal.parameters.style="dotted"
     pspict.grid.main_vertical.parameters.style="dotted"
