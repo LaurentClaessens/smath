@@ -16,13 +16,13 @@ def UOEOooLxhpSC():
     dig1=Segment(A,C)
     dig2=Segment(B,D)
 
-    a1=Angle(D,A,C)
+    a1=Angle(D,A,C,r=0.7)
     a2=Angle(C,A,B)
-    b1=Angle(A,B,D)
+    b1=Angle(A,B,D,r=0.7)
     b2=Angle(D,B,C)
-    c1=Angle(B,C,A)
+    c1=Angle(B,C,A,r=0.7)
     c2=Angle(A,C,D)
-    d1=Angle(C,D,B)
+    d1=Angle(C,D,B,r=0.7)
     d2=Angle(B,D,A)
 
     I=Intersection(dig1,dig2)[0]
