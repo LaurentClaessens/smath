@@ -19,7 +19,7 @@ def ENQZooVqRaIv():
     pspicts,figs = IndependentPictures("ENQZooVqRaIv",4)
 
     for psp in pspicts:
-        psp.dilatation(1)
+        psp.dilatation(0.7)
 
     A=Point(0,0)
     B=Point(2,0)
