@@ -6,7 +6,7 @@ def rotation(angle,pts):
     return tuple(ptsp)
 
 def truc(A,B,C,D,points_names,angle,pspicts,n):
-    A,B,C,D=rotation(30,[A,B,C,D])
+    A,B,C,D=rotation(angle,[A,B,C,D])
 
     quadri=Polygon(A,B,C,D)
     quadri.put_mark(0.2,points_names=points_names,pspict=pspicts)

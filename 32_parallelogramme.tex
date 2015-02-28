@@ -51,7 +51,6 @@ Le but de cette section est de donner les définitions des principaux quadrilat�
 
 \end{proof}
 
-
 \input{activ_diag_parall}
 
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -59,20 +58,52 @@ Le but de cette section est de donner les définitions des principaux quadrilat�
 %+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 \begin{propriete}
-    Les côtés opposés d'un parallélogramme sont de même longueurs.
+    Si deux droites sont coupées par une droite de telle sorte que les angles alternes-internes soient égaux alors les deux droites sont parallèles.
+\end{propriete}
+
+\begin{center}
+\input{Fig_QEPZooNndwiS.pstricks}
+\end{center}
+
+
+\begin{propriete}
+    \begin{enumerate}
+        \item
+            Les côtés opposés d'un parallélogramme sont de même longueurs.
+        \item
+            Les angles opposés d'un parallélogramme ont même mesure.
+    \end{enumerate}
 \end{propriete}
 
 \begin{proof}
-    Dans le parallélogramme \( ABCD\) nous considérons les triangles  \( CAD\) et \( CAB\).
+    Dans le parallélogramme \( ABCD\) nous traçons la diagonale et nous considérons les angles\ldots
 
 \begin{center}
-   \input{Fig_ZUVLooJNWbPB.pstricks}
+   \input{Fig_ZUVLooJNWbPB0.pstricks}
 \end{center}
 
-    Les droites \( (DA)\) et \( (CB)\) sont parallèles (parce qu'on a un parallélogramme), donc les angles \( \)<++>
+    Les droites \( (DA)\) et \( (CB)\) sont parallèles (parce qu'on a un parallélogramme), donc les angles \( a_1\) et \( c_2\) sont alternes-internes et donc égaux.
 
+    De la même façon, les angles \( a_2\) et \( c_1\) sont égaux parce qu'alternes-internes aux droites parallèles \( (DC)\) et \( (AB)\).
+
+    Voici la situation actuelle :
+    \begin{center}
+        \input{Fig_ZUVLooJNWbPB1.pstricks}
+    \end{center}
+    Maintenant les triangles \( CAD\) et \( ACB\) sont égaux parce qu'ils ont deux angles égaux et un côté en commun. Nous en déduisons que les toutes les autres longueurs et angles de ces deux triangles sont égales :
+    \begin{equation}
+        CB=DA
+    \end{equation}
+    et
+    \begin{equation}
+        DC=AB,
+    \end{equation}
+    et
+    \begin{equation}
+     \widehat{CDA}=\widehat{ABC},
+    \end{equation}
+    ce qu'il fallait démontrer.
 \end{proof}
-<++>
 
 \begin{propriete}
     \begin{enumerate}
@@ -82,4 +113,10 @@ Le but de cette section est de donner les définitions des principaux quadrilat�
             Le centre d'un parallélogramme est centre de symétrie.
     \end{enumerate}
 \end{propriete}
+
+
+\begin{center}
+   \input{Fig_TFDNooJemFMW.pstricks}
+\end{center}
+
 
