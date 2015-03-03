@@ -30,8 +30,6 @@ def GHKHooEnlVFf():
     m2=Segment(A,O).get_code(n=2,d=0.1,l=0.2,angle=80,pspict=pspict)
 
     O.put_mark(0.2,angle=45,text="\( O\)",automatic_place=(pspict,""))
-    #A.put_mark(0.2,angle=-90,text="\( A\)",automatic_place=(pspict,""))
-    #B.put_mark(0.2,angle=-110,text="\( B\)",automatic_place=(pspict,""))
     C.put_mark(0.2,angle=45,added_angle=0,text="\( C\)",automatic_place=(pspict,""))
     D.put_mark(0.2,angle=45,added_angle=0,text="\( D\)",automatic_place=(pspict,""))
     M.put_mark(0.2,angle=None,text="\( M\)",automatic_place=(pspict,""))
@@ -39,7 +37,8 @@ def GHKHooEnlVFf():
     K.put_mark(0.2,angle=None,text="\( K\)",automatic_place=(pspict,""))
     L.put_mark(0.2,angle=None,text="\( L\)",automatic_place=(pspict,""))
 
-    mA=Angle(s2.I,A,L,r=0.1).get_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
+    #mA=Angle(s2.I,A,L,r=0.1).get_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
+    mA=Angle(D,A,B,r=0.1).get_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
     mB=Angle(s1.F,B,K,r=0.1).get_mark(0.2,angle=None,text="\( B\)",automatic_place=(pspict,""))
 
     no_symbol(O,A,B,C,D)

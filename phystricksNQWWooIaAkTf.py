@@ -21,8 +21,9 @@ def NQWWooIaAkTf():
     p2=Segment(A,B).dilatation(1.3)
 
     O.put_mark(0.2,angle=180+45,text="\( O\)",automatic_place=(pspict,""))
-    A.put_mark(0.2,angle=45,text="\( A\)",automatic_place=(pspict,""))
-    mA=Angle(p2.I,A,O,r=0.1).get_mark(0.2,None,text="\( A\)",automatic_place=(pspict,""))
+    #A.put_mark(0.2,angle=45,text="\( A\)",automatic_place=(pspict,""))
+    #mA=Angle(p2.I,A,O,r=0.1).get_mark(0.2,None,text="\( A\)",automatic_place=(pspict,""))
+    mA=Angle(B,A,Q,r=0.1).get_mark(0.2,None,text="\( A\)",automatic_place=(pspict,""))
 
 
     B.put_mark(0.2,angle=45,text="\( B\)",automatic_place=(pspict,""))
