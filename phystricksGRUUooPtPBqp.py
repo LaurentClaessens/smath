@@ -1,11 +1,8 @@
 # -*- coding: utf8 -*-
-
 from __future__ import division
 from phystricks import *
-
-
-def figureTFaRFVd():
-    pspict,fig = SinglePicture("figureTFaRFVd")
+def GRUUooPtPBqp():
+    pspict,fig = SinglePicture("GRUUooPtPBqp")
     pspict.dilatation(0.6)
 
     l=3
@@ -37,17 +34,11 @@ def figureTFaRFVd():
     D.put_mark(0.2,135,"\( D\)",automatic_place=pspict)
     S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
 
-    I=AS.get_point_proportion(0.75)
-    J=CS.get_point_proportion(0.3)
-
-    I.put_mark(0.2,135,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,90,"\( J\)",automatic_place=pspict)
-
     no_symbol(A,B,C,D,S)
     
-    pspict.DrawGraphs(A,B,C,D,S,BS,AB,BC,CS,AS,AD,DC,SD,I,J)
+    pspict.DrawGraphs(A,B,C,D,S,BS,AB,BC,CS,AS,AD,DC,SD)
+
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-
 

@@ -9,7 +9,7 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigfigureTFaRFVd.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigGRUUooPtPBqp.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
@@ -31,14 +31,6 @@
 \immediate\write\writeOfphystricks{totalheightofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( S\)}}%
 \immediate\write\writeOfphystricks{widthofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( I\)}}%
-\immediate\write\writeOfphystricks{totalheightofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( I\)}}%
-\immediate\write\writeOfphystricks{widthofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( J\)}}%
-\immediate\write\writeOfphystricks{totalheightof38b9024ce82e27cd4a85f928f3343ac8cb7f5604:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( J\)}}%
-\immediate\write\writeOfphystricks{widthof38b9024ce82e27cd4a85f928f3343ac8cb7f5604:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -81,7 +73,7 @@
 % http://gitorious.org/~moky
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigfigureTFaRFVdPICTfigureTFaRFVd}
+\tikzsetnextfilename{tikzFIGLabelFigGRUUooPtPBqpPICTGRUUooPtPBqp}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
 %GRID
 %AXES
@@ -106,12 +98,6 @@
 \draw [style=dashed] (0.0,0.0) -- (0.7794228634,0.4500000000);
 \draw [style=dashed] (0.7794228634,0.4500000000) -- (2.579422863,0.4500000000);
 \draw [style=dashed] (1.289711432,2.625000000) -- (0.7794228634,0.4500000000);
-\draw []  (0.9672835738,1.968750000) node [rotate=0] {$\times$};
-\draw (0.7395198842,2.224059856) node {\( I\)};
-\draw (0.7395198842,2.224059856) node {\( I\)};
-\draw []  (2.192509434,1.102500000) node [rotate=0] {$\times$};
-\draw (2.192509434,1.416388500) node {\( J\)};
-\draw (2.192509434,1.416388500) node {\( J\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
