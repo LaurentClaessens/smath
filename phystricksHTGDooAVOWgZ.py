@@ -14,7 +14,7 @@ def HTGDooAVOWgZ():
     B=perspective.point(L,0,0)
     C=perspective.point(L,0,l)
     D=perspective.point(0,0,l)
-    S=perspective.point(L/2,h,l/2)
+    S=perspective.point(L/2,-h,l/2)
 
     AB=Segment(A,B)
     BC=Segment(B,C)
@@ -23,17 +23,17 @@ def HTGDooAVOWgZ():
     BS=Segment(B,S)
 
     AD=Segment(A,D)
-    AD.parameters.style='dashed'
     DC=Segment(D,C)
-    DC.parameters.style='dashed'
     SD=Segment(S,D)
     SD.parameters.style='dashed'
+    #DC.parameters.style='dashed'
+    #AD.parameters.style='dashed'
 
     A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
     B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
     C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,45,"\( D\)",automatic_place=pspict)
-    S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
+    D.put_mark(0.2,90+45,"\( D\)",automatic_place=pspict)
+    S.put_mark(0.2,-90,"\( S\)",automatic_place=pspict)
 
     no_symbol(A,B,C,D,S)
     
