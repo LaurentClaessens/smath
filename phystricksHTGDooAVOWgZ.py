@@ -1,18 +1,20 @@
 # -*- coding: utf8 -*-
 from __future__ import division
 from phystricks import *
-def GRUUooPtPBqp():
-    pspict,fig = SinglePicture("GRUUooPtPBqp")
+def HTGDooAVOWgZ():
+    pspict,fig = SinglePicture("HTGDooAVOWgZ")
+
     pspict.dilatation(0.6)
 
     l=3
-    h=4
+    L=4
+    h=5
     perspective=ObliqueProjection(30,0.5)
     A=perspective.point(0,0,0)
-    B=perspective.point(l,0,0)
-    C=perspective.point(l,0,l)
+    B=perspective.point(L,0,0)
+    C=perspective.point(L,0,l)
     D=perspective.point(0,0,l)
-    S=perspective.point(l/2,h,l/2)
+    S=perspective.point(L/2,h,l/2)
 
     AB=Segment(A,B)
     BC=Segment(B,C)
