@@ -19,7 +19,7 @@ def CylindresxKDOdy():
     Ch=Circle3D(perspective,(c/2,h,c/2),(c,h,c/2),(c/2,h,c))
 
     Cb=Circle3D(perspective,(c/2,0,c/2),(c,0,c/2),(c/2,0,c))
-    Cb.parameters.color="red"
+    Cb.parameters.color="black"
     Cb1=Cb.graph(pi,2*pi)
     Cb2=Cb.graph(0,pi)
     Cb2.parameters.style="dashed"

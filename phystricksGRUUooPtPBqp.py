@@ -14,6 +14,9 @@ def GRUUooPtPBqp():
     D=perspective.point(0,0,l)
     S=perspective.point(l/2,h,l/2)
 
+    for pt in [A,B,C,D]:
+        pt=pt.rotation(30)
+
     AB=Segment(A,B)
     BC=Segment(B,C)
     CS=Segment(C,S)
