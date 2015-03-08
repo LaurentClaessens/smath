@@ -2,15 +2,19 @@
 from phystricks import *
 def ZUZXooIFCxcB():
     pspict,fig = SinglePicture("ZUZXooIFCxcB")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.73)
 
     l=3
     perspective=ObliqueProjection(30,0.5)
     cube=perspective.cuboid((0,0),l,l,l)
     cube.put_vertex_mark(pspict)
 
+    #edges=[  Segment(x,cube.F) for x in [cube.H,cube.G,cube.C,cube.D]  ]
+    #for s in edges:
+    #    s.parameters.style="dashed"
+    #edges[2].parameters.style=""
+
     pspict.DrawGraphs(cube)
-    pspict.DrawDefaultAxes()
+    fig.no_figure()
     fig.conclude()
     fig.write_the_file()

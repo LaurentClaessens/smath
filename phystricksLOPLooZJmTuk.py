@@ -2,7 +2,7 @@
 from phystricks import *
 def LOPLooZJmTuk():
     pspict,fig = SinglePicture("LOPLooZJmTuk")
-    pspict.dilatation(0.63)
+    pspict.dilatation(0.43)
 
     l=3
     h=4

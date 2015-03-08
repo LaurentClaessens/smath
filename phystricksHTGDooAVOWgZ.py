@@ -4,7 +4,7 @@ from phystricks import *
 def HTGDooAVOWgZ():
     pspict,fig = SinglePicture("HTGDooAVOWgZ")
 
-    pspict.dilatation(0.6)
+    pspict.dilatation(0.48)
 
     l=3
     L=4
