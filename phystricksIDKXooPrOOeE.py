@@ -3,7 +3,7 @@ from phystricks import *
 def IDKXooPrOOeE():
     pspict,fig = SinglePicture("IDKXooPrOOeE")
 
-    pspict.dilatation(0.52)
+    pspict.dilatation(1)
 
     l=5
     h=4
@@ -21,7 +21,6 @@ def IDKXooPrOOeE():
     minidig=Segment(B,I)
     hauteur.parameters.style="dotted"
     minidig.parameters.style="dashed"
-    I.put_mark(0.2,angle=45,text="\( I\)",automatic_place=(pspict,""))
 
     for pt in [A,B,C,D]:
         pt=pt.rotation(30)
@@ -33,6 +32,8 @@ def IDKXooPrOOeE():
     BS=Segment(B,S)
 
     AB.put_mark(0.2,angle=-90,text="\( 4\)",automatic_place=(pspict,""))
+    BC.put_mark(0.2,angle=None,text="\( 3\)",added_angle=180,automatic_place=(pspict,""))
+    hauteur.put_mark(0.2,angle=0,text="\( 6\)",automatic_place=(pspict,""))
 
     AD=Segment(A,D)
     AD.parameters.style='dashed'
@@ -41,15 +42,18 @@ def IDKXooPrOOeE():
     SD=Segment(S,D)
     SD.parameters.style='dashed'
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
+    A.put_mark(0.2,180+45,"\( A\)",automatic_place=pspict)
     B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
+    C.put_mark(0.2,45,"\( C\)",automatic_place=pspict)
     D.put_mark(0.1,90+45,"\( D\)",automatic_place=pspict)
     S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
+    I.put_mark(0.2,angle=90+45,text="\( I\)",automatic_place=(pspict,""))
+
+    rh=RightAngle( Segment(S,I),Segment(I,B),0.3,0,1 )
 
     no_symbol(A,B,C,D,S)
     
-    pspict.DrawGraphs(A,B,C,D,S,BS,AB,BC,CS,AS,AD,DC,SD,hauteur,minidig,I)
+    pspict.DrawGraphs(A,B,C,D,S,BS,AB,BC,CS,AS,AD,DC,SD,hauteur,minidig,I,rh)
 
     fig.no_figure()
     fig.conclude()

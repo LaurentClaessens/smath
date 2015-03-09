@@ -55,7 +55,7 @@ def CYLGooSGnRii():
     #segs.append(Segment(D,E))
     #segs.append(Segment(C,B))
 
-    pspict.comment="The dashed part is not correct because of 'GraphOfACircle3D.specific_action_on_pspict' which is not precise enough when 'divide' is 'True'"
+    pspict.comment="The dashed part is not correct because of 'GraphOfACircle3D.specific_action_on_pspict' which is not precise enough when 'divide' is 'True'\n The flower is more or less on the cross in the middle of the upper circle of the cylinder."
     pspict.DrawGraphs(base_circle,up_circle,cone_circle,SK,SL,h1,h2,F)
     fig.no_figure()
     fig.conclude()
