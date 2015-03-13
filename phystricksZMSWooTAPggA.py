@@ -9,11 +9,11 @@ def ZMSWooTAPggA():
     Mx=4.7
 
     O=Point(0,0)
-    A=Point(-3,0)
-    B=Point(4,0)
+    #A=Point(-3,0)
+    #B=Point(4,0)
 
     O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
-    B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
+    #B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
 
     for i in range(mx,0):
         A=Point(i,0)

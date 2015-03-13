@@ -23,6 +23,8 @@ def FBTCooBKTryQ():
     O.put_mark(0.2,s1.advised_mark_angle(pspict),"\( O\)",automatic_place=(pspict,""))
     C.put_mark(0.2,s1.advised_mark_angle(pspict),"\( C\)",automatic_place=(pspict,""))
 
+    no_symbol(A,O,C)
+
     pspict.DrawGraphs(s1,s2,a1,a2,A,O,C)
     fig.no_figure()
     fig.conclude()
