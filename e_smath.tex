@@ -14,8 +14,8 @@
 \usepackage{amsthm}
 \usepackage{amssymb}
 \usepackage{bbm}
-\usepackage{mathrsfs}           
-\usepackage{mathabx}           % Pour \divides
+%\usepackage{mathrsfs}           
+\usepackage{mathabx}           % Pour \divides et widehat
 
 \usepackage{framed} % pour oframed
 \usepackage{wrapfig}
@@ -38,34 +38,20 @@
 
 \usepackage{graphicx}                   % Pour l'inclusion d'image en pfd.
 
-%\newcommand{\EpsOrPdfincludegraphics}[2][]{%
-%        \ifpdf
-%            \includegraphics[#1]{#2.png}
-%        \else
-%            \includegraphics[#1]{#2.eps}
-%        \fi
-%        }
-
 \usepackage{subfigure}
+%\usepackage{stmaryrd}       % Pour le \obslash
+%\usepackage{lscape}         % pour l'environnement landscape, utilisé dans la correction corr0076.tex
 
 \usepackage{fancyvrb}
-\usepackage{stmaryrd}       % Pour le \obslash
 \usepackage{xstring}        % Utilisé pour les références vers wikipédia
 \usepackage{cases}
-\usepackage{lscape}         % pour l'environnement landscape, utilisé dans la correction corr0076.tex
 \usepackage{multicol}
 \setlength{\columnseprule}{0.5pt}
-%\usepackage{import}         % Pour le hack qui sert à inclure GeomAnal
 
-% TODO : n'en utiliser qu'un
-%\usepackage[normalem]{ulem}     % Pour le barré, commande \sout
-%\usepackage{soul}       % Pour le barré, commande \st
 
-%\usepackage[all]{xy}
-
-\let\second\undefined      % le paquet amthabx définit \second
-\let\degree\undefined       % le paquet amthabx définit \degree
-%\usepackage[cdot,thinqspace,amssymb]{SIunits} 
+\usepackage[all]{xy}
+%\let\second\undefined      % le paquet amthabx définit \second
+%\let\degree\undefined       % le paquet amthabx définit \degree
 \usepackage[parse-numbers=false,binary-units=true,detect-all=true,per-mode=symbol]{siunitx} 
 \newcommand{\unit}[2]{\SI{#1}{#2}}
  % L'option amssymb sert à éviter un conflit avec la commande \square de amssymb. Note qu'elle n'est plus accessible. Si tu en as besoin, faudra RTFM
@@ -308,40 +294,40 @@ filecolor=magenta   % couleur des textes qui sont des liens
 \newcommand{\VarRel}{\text{Var}_{\text{rel}}}
 
 \newcommand{\normal}{\lhd}
-\newcommand{\swS}{\mathscr{S}}          % L'ensemble des fonctions Schwartz
+%\newcommand{\swS}{\mathscr{S}}          % L'ensemble des fonctions Schwartz
 
 %\newcommand{\defD}{\mathscr{D}}     % Ensemble de définition d'une fonction
 \newcommand{\defD}{D}                % Le D avec des croles était impossible à comprendre pour les élèves.
 
-\newcommand{\Borelien}{\mathcal{B}\text{or}}       % Les boréliens
-\newcommand{\tribA}{\mathcal{A}}            % Une tribu A
-\newcommand{\tribB}{\mathcal{B}}            
-\newcommand{\tribF}{\mathcal{F}}            % Une tribu F
+%\newcommand{\Borelien}{\mathcal{B}\text{or}}       % Les boréliens
+%\newcommand{\tribA}{\mathcal{A}}            % Une tribu A
+%\newcommand{\tribB}{\mathcal{B}}            
+%\newcommand{\tribF}{\mathcal{F}}            % Une tribu F
 
-\newcommand{\affE}{\mathcal{E}}            % Un espace affine E
-\newcommand{\affF}{\mathcal{F}}            
-\newcommand{\affG}{\mathcal{G}}            
+%\newcommand{\affE}{\mathcal{E}}            % Un espace affine E
+%\newcommand{\affF}{\mathcal{F}}            
+%\newcommand{\affG}{\mathcal{G}}            
 
-\newcommand{\statS}{\mathcal{S}}            % Un modèle statistique
-\newcommand{\partP}{\mathcal{P}}            % L'ensemble des parties d'un ensemble
+%\newcommand{\statS}{\mathcal{S}}            % Un modèle statistique
+%\newcommand{\partP}{\mathcal{P}}            % L'ensemble des parties d'un ensemble
 
-\newcommand{\polyP}{\mathcal{P}}            % L'ensemble des polynômes
+%\newcommand{\polyP}{\mathcal{P}}            % L'ensemble des polynômes
 
-\newcommand{\dB}{\mathscr{B}}       % la distribution de Bernoulli
-\newcommand{\dE}{\mathscr{E}}       % la distribution exponentielle
-\newcommand{\dG}{\mathscr{G}}       % la distribution géométrique.
-\newcommand{\dM}{\mathscr{M}}       % la distribution multinomiale
-\newcommand{\dN}{\mathscr{N}}       % la distribution normale.
-\newcommand{\dP}{\mathscr{P}}       % la distribution de Poisson.
-\newcommand{\dT}{\mathscr{T}}       % la distribution de Student
-\newcommand{\dU}{\mathscr{U}}       % la distribution uniforme
+%\newcommand{\dB}{\mathscr{B}}       % la distribution de Bernoulli
+%\newcommand{\dE}{\mathscr{E}}       % la distribution exponentielle
+%\newcommand{\dG}{\mathscr{G}}       % la distribution géométrique.
+%\newcommand{\dM}{\mathscr{M}}       % la distribution multinomiale
+%\newcommand{\dN}{\mathscr{N}}       % la distribution normale.
+%\newcommand{\dP}{\mathscr{P}}       % la distribution de Poisson.
+%\newcommand{\dT}{\mathscr{T}}       % la distribution de Student
+%\newcommand{\dU}{\mathscr{U}}       % la distribution uniforme
 
-\newcommand{\hL}{\mathscr{L}}       
-\newcommand{\cL}{\hL}           % Pour la partie Chafai
+%\newcommand{\hL}{\mathscr{L}}       
+%\newcommand{\cL}{\hL}           % Pour la partie Chafai
 
-\newcommand{\modE}{\mathcal{E}}         % Le E des modules
-\newcommand{\modF}{\mathcal{F}}         % Le F des modules
-\newcommand{\hH}{\mathscr{H}}           % Le H des espaces de Hilbert
+%\newcommand{\modE}{\mathcal{E}}         % Le E des modules
+%\newcommand{\modF}{\mathcal{F}}         % Le F des modules
+%\newcommand{\hH}{\mathscr{H}}           % Le H des espaces de Hilbert
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %
