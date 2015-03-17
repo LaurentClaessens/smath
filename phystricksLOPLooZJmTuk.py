@@ -8,25 +8,25 @@ def LOPLooZJmTuk():
     h=4
     perspective=ObliqueProjection(30,0.5)
     G=perspective.point(0,0,0)
-    F=perspective.point(0,0,4)
-    E=perspective.point(5,0,0)
+    K=perspective.point(0,0,4)
+    L=perspective.point(5,0,0)
     S=perspective.point(0,6,0)
 
-    trig=Polygon(S,G,E)
-    trig.put_mark(0.2,points_names="SGE",pspict=pspict)
-    F.put_mark(0.2,angle=45,text="\( F\)",automatic_place=(pspict,""))
+    trig=Polygon(S,G,L)
+    trig.put_mark(0.2,points_names="SGL",pspict=pspict)
+    K.put_mark(0.2,angle=45,text="\( K\)",automatic_place=(pspict,""))
 
-    SF=Segment(S,F)
-    GF=Segment(G,F)
-    EF=Segment(E,F)
+    SK=Segment(S,K)
+    GK=Segment(G,K)
+    LK=Segment(L,K)
 
-    for s in [SF,GF,EF]:
+    for s in [SK,GK,LK]:
         s.parameters.style='dashed'
 
-    no_symbol(E,F,G,S)
+    no_symbol(L,K,G,S)
 
 
-    pspict.DrawGraphs(trig,SF,GF,EF,F)
+    pspict.DrawGraphs(trig,SK,GK,LK,K)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
