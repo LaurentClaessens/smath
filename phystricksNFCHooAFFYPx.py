@@ -5,7 +5,7 @@ from __future__ import division
 from phystricks import *
 def NFCHooAFFYPx():
     pspict,fig = SinglePicture("NFCHooAFFYPx")
-    pspict.dilatation(0.68)
+    pspict.dilatation(0.61)
 
 
     l=3
