@@ -12,6 +12,8 @@ def MITEooHPaqZu():
     triangle=Polygon(A,B,C)
     triangle.put_mark(0.2,pspict=pspict)
 
+    no_symbol(A,B,C)
+
     pspict.DrawGraphs(triangle)
     fig.no_figure()
     fig.conclude()

@@ -17,7 +17,7 @@ def ZZPQooStuRcw():
 
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,pspict=pspict)
-    rh=RightAngle( trig.edges[0],trig.edges[2],0.3,1,0 )
+    rh=RightAngle( trig.edges[0],trig.edges[2],0.5,1,0 )
 
     m1=trig.edges[0].get_mark(0.2,None,"\( 4\)",automatic_place=(pspict,""))
     m2=trig.edges[1].get_mark(0.2,None,"\( 5\)",automatic_place=(pspict,""))
