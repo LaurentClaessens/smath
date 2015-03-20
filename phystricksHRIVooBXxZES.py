@@ -27,6 +27,8 @@ def HRIVooBXxZES():
     trig.edges[0].put_code(n=2,d=0.1,l=0.1,pspict=pspict)
     trig.edges[2].put_code(n=2,d=0.1,l=0.1,pspict=pspict)
 
+    #rh=RightAngleAOB(droite.F,B,C,0.2,0,1)
+
     no_symbol(trig.vertices)
 
     pspict.DrawGraphs(trig,D,droite,a1,a2,a3)
