@@ -7,7 +7,7 @@ import LaTeXparser
 import LaTeXparser.PytexTools
 
 myRequest = LaTeXparser.PytexTools.Request("seconde")
-myRequest.original_filename="smath.tex"
+#myRequest.original_filename="smath.tex"
 
 def accept_all_input(medicament):
     medicament.accept_input=lambda x: True

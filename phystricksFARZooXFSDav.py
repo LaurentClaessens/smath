@@ -19,9 +19,11 @@ def FARZooXFSDav():
     mx=Segment(S,K).get_mark(0.2,angle=None,text="\( x\)",automatic_place=(pspict,""))
     m5=Segment(L,S).get_mark(0.2,angle=None,text="\( 5\)",automatic_place=(pspict,""))
 
-    no_symbol(K,L,M)
+    S.put_mark(0.2,angle=-90,text="\( S\)",automatic_place=(pspict,""))
 
-    pspict.DrawGraphs(trig,hauteur,rh,mx,m5)
+    no_symbol(K,L,M,S)
+
+    pspict.DrawGraphs(trig,hauteur,rh,mx,m5,S)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
