@@ -23,6 +23,7 @@ pyramide=commun.OneChapter("Pyramides et cônes","4A")
 puissances=commun.OneChapter("Puissances","4A")
 
 actu4=pyramide
+actu4=puissances
 actu4.set_filename=set_filename
 actu4.write_the_file()
 
