@@ -26,13 +26,20 @@ def IJFGooPLxXAV():
     seg.append(Segment(S1,B))
     seg.append(Segment(S1,A))
 
-    S1.put_mark(0.2,angle=45,text="\( S\)",automatic_place=(pspict,""))
-    S2.put_mark(0.2,angle=-45,text="\( S\)",automatic_place=(pspict,""))
-    S3.put_mark(0.2,angle=180,text="\( S\)",automatic_place=(pspict,""))
+    S1.put_mark(0.2,angle=45,text="\( S_1\)",automatic_place=(pspict,""))
+    S2.put_mark(0.2,angle=-45,text="\( S_2\)",automatic_place=(pspict,""))
+    S3.put_mark(0.2,angle=180,text="\( S_3\)",automatic_place=(pspict,""))
+
+    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",automatic_place=(pspict,""))
+    trig.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",automatic_place=(pspict,""))
+    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( 4\)",automatic_place=(pspict,""))
+
+    m7=Segment(S1,A).get_mark(0.2,angle=None,text="\( 7\)",automatic_place=(pspict,""))
+
 
     no_symbol(A,B,C,S1,S2,S3)
 
-    pspict.DrawGraphs(trig,seg,S1,S2,S3)
+    pspict.DrawGraphs(trig,seg,S1,S2,S3,m7)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

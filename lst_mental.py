@@ -3,6 +3,7 @@
 
 import LaTeXparser
 import LaTeXparser.PytexTools
+import commun
 
 myRequest = LaTeXparser.PytexTools.Request("seconde")
 myRequest.original_filename="mental.tex"
@@ -14,3 +15,4 @@ myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
+myRequest.add_plugin(commun.set_filename("0-mental.pdf"),"medicament")
