@@ -3,67 +3,75 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 
-%\usepackage{etex}      % Commenté le 10 mars 2015
+
+
 \usepackage{ifthen}
-%\usepackage{pdfsync}       % This package is obsolete : compile with pdflatex -synctex=1 instead.
-
 \usepackage{latexsym}
 \usepackage{amsfonts}
 \usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{amssymb}
-\usepackage{mathtools}
+\usepackage{mathtools}   % mathtools doit être chargé avant mathabx sous peine de faire sérieusement foirer \underbrace.
 \mathtoolsset{showonlyrefs}
 \usepackage{mathabx}           % Pour \divides et widehat
 \usepackage{bbm}
-
-% mathtools doit être chargé avant mathabx sous peine de faire sérieusement foirer \underbrace.
-
-
-
 \usepackage{framed} % pour oframed
 \usepackage{wrapfig}
-
 \usepackage{calc}   % Les dépendances de phystricks si on n'utilise que le pdf.
-%\usepackage{pstricks,pst-eucl,pstricks-add,calc,pst-math}   % Les dépendances de phystricks. Peut être qu'il faut ajouter catchfile
-
-
-% Les dépendances de phystricks en mode Tikz
 \usepackage{tikz}
 \usepackage{calc}
-\usetikzlibrary{calc}
 \usetikzlibrary{patterns}
+\usepackage{graphicx}                   % Pour l'inclusion d'image en pfd.
+\usepackage{subfigure}
+\usepackage{fancyvrb}
+\usepackage{xstring}        % Utilisé pour les références vers wikipédia
+\usepackage{cases}
+\usepackage{multicol}
+\usepackage[all]{xy}
+\usepackage[parse-numbers=false,binary-units=true,detect-all=true,per-mode=symbol]{siunitx} 
+\usepackage[nottoc]{tocbibind}
+\usepackage[numbers]{natbib}
+\usepackage{listingsutf8}
+\lstset{language=python,basicstyle=\footnotesize,tabsize=3,frame=single,commentstyle=\ttfamily\color[rgb]{0,0,0.5},stringstyle=\color[rgb]{0,0.5,0},title=\lstname,inputencoding=utf8/latin1}
+\usepackage[fr]{exocorr}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage{makeidx}
+\usepackage[nottoc]{tocbibind}      % Le paquetage qui fait en sorte que la biblio soit inclue correctement dans la table des matières.
+\usepackage[refpage]{nomencl}       % Configuration en 2479812242
+\usepackage[a4paper,margin=2cm]{geometry} 
+\usepackage{hyperref}                           %Doit être appelé en dernier.
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+urlcolor=magenta,     % couleur des url
+filecolor=magenta   % couleur des textes qui sont des liens
+}
+
+\usepackage[english,frenchb]{babel}
+
 
 \newcounter{defHatch}
 \newcounter{defPattern}
 \setcounter{defHatch}{0}
 \setcounter{defPattern}{0}
+\setlength{\columnseprule}{0.5pt}       % ligne verticale de séparation entre les deux colonnes pour multicol
 
-
-\usepackage{graphicx}                   % Pour l'inclusion d'image en pfd.
-
-\usepackage{subfigure}
+%\usepackage{etex}      % Commenté le 10 mars 2015
+%\usepackage{pdfsync}       % This package is obsolete : compile with pdflatex -synctex=1 instead.
+%\usepackage{pstricks,pst-eucl,pstricks-add,calc,pst-math}   % Les dépendances de phystricks. Peut être qu'il faut ajouter catchfile
 %\usepackage{stmaryrd}       % Pour le \obslash
 %\usepackage{lscape}         % pour l'environnement landscape, utilisé dans la correction corr0076.tex
-
-\usepackage{fancyvrb}
-\usepackage{xstring}        % Utilisé pour les références vers wikipédia
-\usepackage{cases}
-\usepackage{multicol}
-\setlength{\columnseprule}{0.5pt}
-
-
-\usepackage[all]{xy}
 %\let\second\undefined      % le paquet amthabx définit \second
 %\let\degree\undefined       % le paquet amthabx définit \degree
-\usepackage[parse-numbers=false,binary-units=true,detect-all=true,per-mode=symbol]{siunitx} 
-\newcommand{\unit}[2]{\SI{#1}{#2}}
- % L'option amssymb sert à éviter un conflit avec la commande \square de amssymb. Note qu'elle n'est plus accessible. Si tu en as besoin, faudra RTFM
-%ftp://ftp.belnet.be/packages/ctan/macros/latex/contrib/SIunits/SIunits.pdf
 
-\usepackage[nottoc]{tocbibind}
-\usepackage[numbers]{natbib}
+
+
+\newcommand{\unit}[2]{\SI{#1}{#2}}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -127,27 +135,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%
 
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
 
-\usepackage{listingsutf8}
 %\lstset{language=python,basicstyle=\footnotesize,tabsize=3,numbers=left,numberstyle=\tiny,frame=single,commentstyle=\ttfamily\color[rgb]{0,0,0.5},stringstyle=\color[rgb]{0,0.5,0},title=\lstname,inputencoding=utf8/latin1}
-\lstset{language=python,basicstyle=\footnotesize,tabsize=3,frame=single,commentstyle=\ttfamily\color[rgb]{0,0,0.5},stringstyle=\color[rgb]{0,0.5,0},title=\lstname,inputencoding=utf8/latin1}
 
-\usepackage[fr]{exocorr}
-\usepackage{textcomp}
-\usepackage{lmodern}
-\usepackage[a4paper,margin=2cm]{geometry} 
-\usepackage[english,frenchb]{babel}
-
-
-\usepackage{hyperref}                           %Doit être appelé en dernier.
-\hypersetup{
-colorlinks=true,
-linkcolor=blue,
-urlcolor=magenta,     % couleur des url
-filecolor=magenta   % couleur des textes qui sont des liens
-}
 
 % Il me semble que cette commande doit être définie après l'appel à Babel.
 \newcommand{\Ieme}{\up{\lowercase{ième}}\xspace}
@@ -304,45 +294,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 %\newcommand{\defD}{\mathscr{D}}     % Ensemble de définition d'une fonction
 \newcommand{\defD}{D}                % Le D avec des croles était impossible à comprendre pour les élèves.
 
-%\newcommand{\Borelien}{\mathcal{B}\text{or}}       % Les boréliens
-%\newcommand{\tribA}{\mathcal{A}}            % Une tribu A
-%\newcommand{\tribB}{\mathcal{B}}            
-%\newcommand{\tribF}{\mathcal{F}}            % Une tribu F
-
-%\newcommand{\affE}{\mathcal{E}}            % Un espace affine E
-%\newcommand{\affF}{\mathcal{F}}            
-%\newcommand{\affG}{\mathcal{G}}            
-
-%\newcommand{\statS}{\mathcal{S}}            % Un modèle statistique
-%\newcommand{\partP}{\mathcal{P}}            % L'ensemble des parties d'un ensemble
-
-%\newcommand{\polyP}{\mathcal{P}}            % L'ensemble des polynômes
-
-%\newcommand{\dB}{\mathscr{B}}       % la distribution de Bernoulli
-%\newcommand{\dE}{\mathscr{E}}       % la distribution exponentielle
-%\newcommand{\dG}{\mathscr{G}}       % la distribution géométrique.
-%\newcommand{\dM}{\mathscr{M}}       % la distribution multinomiale
-%\newcommand{\dN}{\mathscr{N}}       % la distribution normale.
-%\newcommand{\dP}{\mathscr{P}}       % la distribution de Poisson.
-%\newcommand{\dT}{\mathscr{T}}       % la distribution de Student
-%\newcommand{\dU}{\mathscr{U}}       % la distribution uniforme
-
-%\newcommand{\hL}{\mathscr{L}}       
-%\newcommand{\cL}{\hL}           % Pour la partie Chafai
-
-%\newcommand{\modE}{\mathcal{E}}         % Le E des modules
-%\newcommand{\modF}{\mathcal{F}}         % Le F des modules
-%\newcommand{\hH}{\mathscr{H}}           % Le H des espaces de Hilbert
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%   Bibliographie, index et liste des notations
-%
-%%%%%%%%%%%%%%%%%%%%%%%%
-
-\usepackage{makeidx}
-\usepackage[nottoc]{tocbibind}      % Le paquetage qui fait en sorte que la biblio soit inclue correctement dans la table des matières.
-\usepackage[refpage]{nomencl}
+% Configuration de nomencle      2479812242
 \renewcommand{\nomname}{Liste des notations}
 %
 %   Comment introduire des éléments dans l'index des notations.
