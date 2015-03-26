@@ -1,6 +1,7 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
+import commun
 import LaTeXparser
 import LaTeXparser.PytexTools
 
@@ -14,3 +15,5 @@ myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
+
+myRequest.add_plugin(commun.set_filename("0-actu.pdf"),"medicament")
