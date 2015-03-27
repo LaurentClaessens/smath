@@ -1,5 +1,5 @@
 % This is part of Un soupçon de mathématique sans être agressif pour autant
-% Copyright (c) 2012-2014
+% Copyright (c) 2012-2015
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
@@ -32,6 +32,15 @@
 \setcounter{useexternal}{1}
 \ifthenelse{\value{useexternal}=1}{ \usetikzlibrary{external} \tikzexternalize }{ \newcommand{\tikzsetnextfilename}[1]{} }
 
+% DEUXIÈME FEUILLE DE SECOURS, CINQUIÉME
+\begin{document}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+\begin{multicols}{2}
+\input{52secours}
+\end{multicols}
+\end{document}
+
+
 % IMPRESSION CHAPITRE PROPORTIONNALITÉ (5B)
 \begin{document}
 \multiinput{activ_propo}{4}
@@ -48,14 +57,6 @@
 \multiinput{activ_trig_Sierpinski}{2}
 \clearpage
 \multiinput{activ_puiss_neg}{8}
-\end{document}
-
-% DEUXIÈME FEUILLE DE SECOURS, CINQUIÉME
-\begin{document}
-
-\renewcommand{\thesubsection}{\arabic{subsection}}
-
-\input{52secours}
 \end{document}
 
 % QUESTIONS POUR RÉFLÉCHIR UN PEU PLUS, CINQUIÈME ET QUATRIÈME, 3
