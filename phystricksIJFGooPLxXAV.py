@@ -2,8 +2,7 @@
 from phystricks import *
 def IJFGooPLxXAV():
     pspict,fig = SinglePicture("IJFGooPLxXAV")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.7)
 
     A=Point(0,0)
     B=Point(0,3)
@@ -26,7 +25,7 @@ def IJFGooPLxXAV():
     seg.append(Segment(S1,B))
     seg.append(Segment(S1,A))
 
-    S1.put_mark(0.2,angle=45,text="\( S_1\)",automatic_place=(pspict,""))
+    S1.put_mark(0.2,angle=0,text="\( S_1\)",automatic_place=(pspict,""))
     S2.put_mark(0.2,angle=-45,text="\( S_2\)",automatic_place=(pspict,""))
     S3.put_mark(0.2,angle=180,text="\( S_3\)",automatic_place=(pspict,""))
 
