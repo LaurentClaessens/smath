@@ -4,17 +4,17 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigRGRLooTmnwQZ.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -54,7 +54,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigRGRLooTmnwQZPICTRGRLooTmnwQZ}
@@ -96,14 +96,14 @@
 \draw [color=gray,style=dotted] (-0.5000000000,-0.5000000000) -- (3.000000000,-0.5000000000);
 \draw [color=gray,style=dotted] (-0.5000000000,0.0) -- (3.000000000,0.0);
 %DEFAULT
-\draw [] (-0.5000000000,0.0) -- (0.5000000000,0.0);
-\draw [] (0.0,0.0) -- (0.0,-1.500000000);
-\draw [] (0.7500000000,0.0) -- (1.250000000,0.0);
-\draw [] (1.750000000,-4.500000000) -- (1.750000000,-3.000000000);
-\draw [] (0.7500000000,-0.7500000000) -- (1.250000000,-0.7500000000);
+\draw [] (3.000000000,-4.500000000) -- (2.000000000,-4.500000000);
+\draw [] (2.500000000,-4.500000000) -- (2.500000000,-3.000000000);
+\draw [] (1.750000000,-4.500000000) -- (1.250000000,-4.500000000);
+\draw [] (0.7500000000,0.0) -- (0.7500000000,-1.500000000);
+\draw [] (1.750000000,-3.750000000) -- (1.250000000,-3.750000000);
 \draw [] (1.750000000,-3.000000000) -- (1.250000000,-3.000000000);
-\draw [] (1.000000000,-4.500000000) -- (0.0,-3.000000000);
-\draw [] (1.000000000,-3.000000000) -- (0.0,-4.500000000);
+\draw [] (1.500000000,0.0) -- (2.500000000,-1.500000000);
+\draw [] (1.500000000,-1.500000000) -- (2.500000000,0.0);
 \draw []  (1.250000000,-2.250000000) node [rotate=0] {$\times$};
 \draw (0.8948996667,-2.250000000) node {\( O\)};
 \draw (0.8948996667,-2.250000000) node {\( O\)};

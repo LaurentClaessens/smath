@@ -4,7 +4,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
@@ -78,7 +78,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigSVPCooGYtlqqPICTSVPCooGYtlqq}
@@ -106,20 +106,20 @@
 \draw [color=gray,style=solid] (0.0,1.250000000) -- (3.000000000,1.250000000);
 \draw [color=gray,style=solid] (0.0,1.875000000) -- (3.000000000,1.875000000);
 %AXES
-\draw (4.725214523,-0.3080880229) node {durée (en \si{\minute})};
-\draw (1.000000000,-0.3049540000) node { $ 30 $ };
+\draw (4.914340023,-0.3414213562) node {durée (en \si{\minute})};
+\draw (1.000000000,-0.3259458333) node { $ 30 $ };
 \draw [] (1.000000000,-0.1000000000) -- (1.000000000,0.1000000000);
-\draw (2.000000000,-0.3049540000) node { $ 60 $ };
+\draw (2.000000000,-0.3259458333) node { $ 60 $ };
 \draw [] (2.000000000,-0.1000000000) -- (2.000000000,0.1000000000);
-\draw (3.000000000,-0.3049540000) node { $ 90 $ };
+\draw (3.000000000,-0.3259458333) node { $ 90 $ };
 \draw [] (3.000000000,-0.1000000000) -- (3.000000000,0.1000000000);
 \draw [,->,>=latex] (0.0,0.0) -- (3.500000000,0.0);
-\draw (2.206484500,2.541666667) node {distance parcourue (en \si{\kilo\meter})};
-\draw (-0.3666666667,0.6250000000) node { $ 10 $ };
+\draw (2.556524667,2.575000000) node {distance parcourue (en \si{\kilo\meter})};
+\draw (-0.3958328333,0.6250000000) node { $ 10 $ };
 \draw [] (-0.1000000000,0.6250000000) -- (0.1000000000,0.6250000000);
-\draw (-0.3666666667,1.250000000) node { $ 20 $ };
+\draw (-0.3958328333,1.250000000) node { $ 20 $ };
 \draw [] (-0.1000000000,1.250000000) -- (0.1000000000,1.250000000);
-\draw (-0.3666666667,1.875000000) node { $ 30 $ };
+\draw (-0.3958328333,1.875000000) node { $ 30 $ };
 \draw [] (-0.1000000000,1.875000000) -- (0.1000000000,1.875000000);
 \draw [,->,>=latex] (0.0,0.0) -- (0.0,2.375000000);
 %DEFAULT

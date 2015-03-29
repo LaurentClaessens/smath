@@ -4,7 +4,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
@@ -66,7 +66,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigZFNXooSjzTPJPICTZFNXooSjzTPJ}
@@ -95,8 +95,8 @@
 \draw [] (0.6521702899,0.4826099034) -- (0.7773900966,0.5452198067);
 \draw [] (0.6521702899,0.4826099034) -- (0.7147801933,0.3573900966);
 \draw []  (0.3500000000,1.400000000) node [rotate=0] {$\times$};
-\draw (0.6801506667,1.400000000) node {\( P\)};
-\draw (0.6801506667,1.400000000) node {\( P\)};
+\draw (0.7034248333,1.400000000) node {\( P\)};
+\draw (0.7034248333,1.400000000) node {\( P\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

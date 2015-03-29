@@ -8,25 +8,25 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigWIYOooLoAtKD.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( S\)}}%
-\immediate\write\writeOfphystricks{totalheightofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( S\)}}%
-\immediate\write\writeOfphystricks{widthofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( I\)}}%
-\immediate\write\writeOfphystricks{totalheightofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( I\)}}%
-\immediate\write\writeOfphystricks{widthofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( 3\)}}%
-\immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( 3\)}}%
-\immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( 7\)}}%
-\immediate\write\writeOfphystricks{totalheightof4c776756afe59297ab62d4476dc7a7396955872a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( 7\)}}%
-\immediate\write\writeOfphystricks{widthof4c776756afe59297ab62d4476dc7a7396955872a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( S\)}}%
+\immediate\write\writeOfphystricks{totalheightofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( S\)}}%
+\immediate\write\writeOfphystricks{widthofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( I\)}}%
+\immediate\write\writeOfphystricks{totalheightofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( I\)}}%
+\immediate\write\writeOfphystricks{widthofeb71a15feaea2e532ce9ea014eb2dd4806666e75:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 3\)}}%
+\immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( 3\)}}%
+\immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 7\)}}%
+\immediate\write\writeOfphystricks{totalheightof4c776756afe59297ab62d4476dc7a7396955872a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( 7\)}}%
+\immediate\write\writeOfphystricks{widthof4c776756afe59297ab62d4476dc7a7396955872a:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -82,17 +82,17 @@
 \draw [] (0,5.000000000) -- (-4.270685151,-0.1747320882);
 \draw [] (0,5.000000000) -- (4.261608383,0.2297768491);
 \draw []  (0,0) node [rotate=0] {$\times$};
-\draw (0.2690514249,0.1952358286) node {\( I\)};
-\draw (0.2690514249,0.1952358286) node {\( I\)};
-\draw (0.2532265229,5.255309856) node {\( S\)};
-\draw (0.2532265229,5.255309856) node {\( S\)};
+\draw (0.2848034249,0.2180139953) node {\( I\)};
+\draw (0.2848034249,0.2180139953) node {\( I\)};
+\draw (0.2735035229,5.278088023) node {\( S\)};
+\draw (0.2735035229,5.278088023) node {\( S\)};
 \draw [style=dashed] (0,0) -- (0,5.000000000);
-\draw (-0.2833333333,2.500000000) node {\( 7\)};
-\draw (-0.2833333333,2.500000000) node {\( 7\)};
+\draw (-0.2979163333,2.500000000) node {\( 7\)};
+\draw (-0.2979163333,2.500000000) node {\( 7\)};
 \draw []  (-3.302076290,-0.4739170124) node [rotate=0] {$\times$};
 \draw [] (0,0) -- (-3.302076290,-0.4739170124);
-\draw (-1.762784524,0.06596695355) node {\( 3\)};
-\draw (-1.762784524,0.06596695355) node {\( 3\)};
+\draw (-1.777367524,0.08695878688) node {\( 3\)};
+\draw (-1.777367524,0.08695878688) node {\( 3\)};
 
 \draw [style=dashed,samples=30] plot [smooth,tension=1] coordinates {(2.00,2.50)(2.07,2.53)(2.11,2.56)(2.14,2.59)(2.13,2.61)(2.10,2.64)(2.05,2.67)(1.97,2.69)(1.87,2.71)(1.74,2.73)(1.60,2.74)(1.44,2.75)(1.26,2.76)(1.07,2.77)(0.859,2.77)(0.643,2.77)(0.419,2.77)(0.189,2.76)(-0.0416,2.75)(-0.272,2.74)(-0.500,2.73)(-0.722,2.71)(-0.935,2.69)(-1.14,2.67)(-1.33,2.64)(-1.50,2.61)(-1.66,2.59)(-1.79,2.56)(-1.91,2.53)(-2.00,2.50)};
 \draw [samples=30] plot [smooth,tension=1] coordinates {(-2.00,2.50)(-2.07,2.47)(-2.11,2.44)(-2.14,2.41)(-2.13,2.39)(-2.10,2.36)(-2.05,2.33)(-1.97,2.31)(-1.87,2.29)(-1.74,2.27)(-1.60,2.26)(-1.44,2.25)(-1.26,2.24)(-1.07,2.23)(-0.859,2.23)(-0.642,2.23)(-0.418,2.23)(-0.190,2.24)(0.0424,2.25)(0.272,2.26)(0.501,2.27)(0.722,2.29)(0.935,2.31)(1.14,2.33)(1.33,2.36)(1.50,2.39)(1.66,2.41)(1.79,2.44)(1.91,2.47)(2.00,2.50)};

@@ -4,7 +4,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
@@ -86,7 +86,7 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-doc.pdf 
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
-% http://gitorious.org/~moky
+% https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigBJOSooIdFKWAPICTBJOSooIdFKWA}
@@ -110,15 +110,15 @@
 \draw [] (0.5000000000,2.000000000) -- (0,0);
 \draw [] (0.3250000000,1.300000000) -- (-0.9750000000,1.300000000);
 \draw []  (0.3250000000,1.300000000) node [rotate=0] {$\times$};
-\draw (0.6324546667,1.137604375) node {\( L\)};
-\draw (0.6324546667,1.137604375) node {\( L\)};
+\draw (0.6522680000,1.114826208) node {\( L\)};
+\draw (0.6522680000,1.114826208) node {\( L\)};
 \draw []  (-0.9750000000,1.300000000) node [rotate=0] {$\times$};
-\draw (-1.314861000,1.066111500) node {\( M\)};
-\draw (-1.314861000,1.066111500) node {\( M\)};
-\draw (-0.4166666667,2.204954000) node {\( 7\)};
-\draw (0.5928475833,1.520792437) node {\( 2\)};
-\draw (0.3428475833,0.5207924375) node {\( 8\)};
-\draw (-0.6508333333,0.4850460000) node {\( 5\)};
+\draw (-1.345346000,1.043333333) node {\( M\)};
+\draw (-1.345346000,1.043333333) node {\( M\)};
+\draw (-0.4020836667,2.225945833) node {\( 7\)};
+\draw (0.6074305833,1.499800604) node {\( 2\)};
+\draw (0.3574305833,0.4998006042) node {\( 8\)};
+\draw (-0.6654163333,0.4640541667) node {\( 5\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
