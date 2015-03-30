@@ -32,8 +32,19 @@
 \setcounter{useexternal}{1}
 \ifthenelse{\value{useexternal}=1}{ \usetikzlibrary{external} \tikzexternalize }{ \newcommand{\tikzsetnextfilename}[1]{} }
 
+
+% IMPRESSION CHAPITRE PARALLÉLOGRAMME (5A)
+\begin{document}
+\multiinput{activ_parallelogramme}{4}
+\newpage
+\multiinput{activ_diag_parall}{2}
+\end{document}
+
 % DEUXIÈME FEUILLE DE SECOURS, CINQUIÉME
 \begin{document}
+\begin{center}
+    Feuille de secours numéro 2
+\end{center}
 \renewcommand{\thesubsection}{\arabic{subsection}}
 \begin{multicols}{2}
 \input{52secours}
