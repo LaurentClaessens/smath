@@ -83,7 +83,7 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.240000000,0.0) -- (5.600000000,0.0) -- (5.600000000,0.0) -- (5.600000000,0.9900000000) -- (5.600000000,0.9900000000) -- (2.240000000,0.9900000000) -- (2.240000000,0.9900000000) -- (2.240000000,0.0) --  cycle;
+\fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.24,0.0) -- (5.60,0.0) -- (5.60,0.0) -- (5.60,0.990) -- (5.60,0.990) -- (2.24,0.990) -- (2.24,0.990) -- (2.24,0.0) --  cycle;
 \draw [] (2.240000000,0.0) -- (5.600000000,0.0);
 \draw [] (5.600000000,0.0) -- (5.600000000,0.9900000000);
 \draw [] (5.600000000,0.9900000000) -- (2.240000000,0.9900000000);

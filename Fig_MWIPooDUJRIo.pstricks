@@ -11,14 +11,14 @@
 \makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigMWIPooDUJRIo.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 34\)}}%
-\immediate\write\writeOfphystricks{totalheightofa4d7510fc4967ad03d51199a050fe77781d81388:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( 34\)}}%
-\immediate\write\writeOfphystricks{widthofa4d7510fc4967ad03d51199a050fe77781d81388:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( 146\)}}%
-\immediate\write\writeOfphystricks{totalheightof15609d8f0eb9032c1222a303412192eb652c994c:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( 146\)}}%
-\immediate\write\writeOfphystricks{widthof15609d8f0eb9032c1222a303412192eb652c994c:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{34}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightof0aa422d019211e4d65eef146b2fa5fabd0e4601b:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{34}{\degree}}}%
+\immediate\write\writeOfphystricks{widthof0aa422d019211e4d65eef146b2fa5fabd0e4601b:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{146}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightof35517e7abda4ed17d3317bac2154e597c40a4fcb:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{146}{\degree}}}%
+\immediate\write\writeOfphystricks{widthof35517e7abda4ed17d3317bac2154e597c40a4fcb:\the\lengthOfDfiguressmathDpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -570,8 +570,8 @@
 \draw [samples=500] (2.213955218,0.4519105716) -- (2.212926371,0.4523962429);
 \draw [samples=500] (2.212926371,0.4523962429) -- (2.211896421,0.4528795718);
 \draw [samples=500] (2.211896421,0.4528795718) -- (2.210865375,0.4533605559);
-\draw (2.758815494,0.4839411600) node {\( 34\)};
-\draw (2.758815494,0.4839411600) node {\( 34\)};
+\draw (2.758815494,0.4839411600) node {\SI{34}{\degree}};
+\draw (2.758815494,0.4839411600) node {\SI{34}{\degree}};
 \draw [samples=500] (0.7891346251,-2.603360556) -- (0.7908908506,-2.604173275);
 \draw [samples=500] (0.7908908506,-2.604173275) -- (0.7926502083,-2.604979191);
 \draw [samples=500] (0.7926502083,-2.604979191) -- (0.7944126720,-2.605778291);
@@ -1071,8 +1071,8 @@
 \draw [samples=500] (1.498131864,-2.193181544) -- (1.498295259,-2.191253296);
 \draw [samples=500] (1.498295259,-2.191253296) -- (1.498451190,-2.189324430);
 \draw [samples=500] (1.498451190,-2.189324430) -- (1.498599655,-2.187394974);
-\draw (1.455206424,-2.926393657) node {\( 146\)};
-\draw (1.455206424,-2.926393657) node {\( 146\)};
+\draw (1.455206424,-2.926393657) node {\SI{146}{\degree}};
+\draw (1.455206424,-2.926393657) node {\SI{146}{\degree}};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
