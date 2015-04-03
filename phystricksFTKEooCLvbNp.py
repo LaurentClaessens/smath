@@ -10,6 +10,7 @@ def parallelog(A,B,C,points_names="ABCD",fig=None,pspict=None):
 
     s1=Segment(A,B)
     s2=Segment(B,C)
+    s1.parameters.style="dashed"
 
     no_symbol(parall.vertices)
 

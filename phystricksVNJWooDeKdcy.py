@@ -1,19 +1,28 @@
 # -*- coding: utf8 -*-
+
+from __future__ import division
 from phystricks import *
+
 def VNJWooDeKdcy():
     pspict,fig = SinglePicture("VNJWooDeKdcy")
     pspict.dilatation_X(1)
     pspict.dilatation_Y(1)
 
     T=Point(0,0)
-    S=Point(1,2)
-    U=Circle(   Segment(T,S).midpoint() ).get_point(30)
+    S=Point(3,2)
+    ST=Segment(S,T)
+    U=Circle(ST.midpoint(), ST.length()/2 ).get_point( ST.angle()+70)
 
-    trig=Polygon(S,T,Y)
+    trig=Polygon(S,T,U)
     trig.put_mark(0.2,points_names="STU",pspict=pspict)
-    rh=RightAngleAOB(S,U,T)
+    rh=RightAngleAOB(S,U,T,l=0.3,n1=0,n2=1)
 
-    pspict.DrawGraphs(trig,rh)
+    angle=Angle(U,S,T)
+    angle.put_mark(0.2,angle=None,text="\SI{33}{\degree}",automatic_place=(pspict,""))
+
+    no_symbol(S,T,U)
+
+    pspict.DrawGraphs(trig,rh,angle)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

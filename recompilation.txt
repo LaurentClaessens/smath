@@ -14,12 +14,17 @@ time pytex lst_smath.py --lotex --no-external   (13 minutes)
 time pytex lst_exercices4A.py --lotex --no-external
 time pytex lst_exercices5A.py --lotex --no-external
 time pytex lst_exercices5B.py --lotex --no-external
+time pytex lst_mental.py --lotex --no-external
 Dans un nouvel onglet : time ./figures_smath.py --all   (vérifier les Warning)
+
+Le mieux maintenant est de d'abord tout compiler avec --no-external et de tout copier dans un répertoire à part duquel on supprime tous les .pstricks et .pdf
+Comme ça quand on a besoin de recommencer une compilation, il ne faut pas recommencer les --no-extenral
+
+
 time pytex lst_mental.py --lotex --no-external
 time pytex lst_exercices4A.py --lotex --no-external
 time pytex lst_exercices5A.py --lotex --no-external
 time pytex lst_exercices5B.py --lotex --no-external
-
 time pytex lst_niveau.py cinquième --lotex --no-external
 time pytex lst_niveau.py quatrième --lotex --no-external
 time pytex lst_niveau.py seconde --lotex --no-external

@@ -8,25 +8,25 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigCFRQooRohKqN.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( K \)}}%
-\immediate\write\writeOfphystricks{totalheightof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( K \)}}%
-\immediate\write\writeOfphystricks{widthof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( L \)}}%
-\immediate\write\writeOfphystricks{totalheightof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( L \)}}%
-\immediate\write\writeOfphystricks{widthof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( M \)}}%
-\immediate\write\writeOfphystricks{totalheightof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( M \)}}%
-\immediate\write\writeOfphystricks{widthof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( N \)}}%
-\immediate\write\writeOfphystricks{totalheightof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( N \)}}%
-\immediate\write\writeOfphystricks{widthof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( K \)}}%
+\immediate\write\writeOfphystricks{totalheightof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( K \)}}%
+\immediate\write\writeOfphystricks{widthof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( L \)}}%
+\immediate\write\writeOfphystricks{totalheightof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( L \)}}%
+\immediate\write\writeOfphystricks{widthof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( M \)}}%
+\immediate\write\writeOfphystricks{totalheightof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( M \)}}%
+\immediate\write\writeOfphystricks{widthof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( N \)}}%
+\immediate\write\writeOfphystricks{totalheightof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( N \)}}%
+\immediate\write\writeOfphystricks{widthof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -98,7 +98,7 @@
 \draw [color=gray,style=solid] (-0.5000000000,1.500000000) -- (2.500000000,1.500000000);
 \draw [color=gray,style=solid] (-0.5000000000,2.000000000) -- (2.500000000,2.000000000);
 %DEFAULT
-\draw [] (0.0,0.0) -- (1.500000000,0.5000000000);
+\draw [style=dashed] (0.0,0.0) -- (1.500000000,0.5000000000);
 \draw [] (1.500000000,0.5000000000) -- (2.000000000,1.500000000);
 \draw (-0.1510907910,-0.1310403483) node {\( K \)};
 \draw (-0.1510907910,-0.1310403483) node {\( K \)};
