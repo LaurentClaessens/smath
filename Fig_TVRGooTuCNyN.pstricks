@@ -8,17 +8,17 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigTVRGooTuCNyN.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{28}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightofeb363bcee8c7551757899c7794b04019b98c88e7:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{28}{\degree}}}%
-\immediate\write\writeOfphystricks{widthofeb363bcee8c7551757899c7794b04019b98c88e7:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{132}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightof5fa11c5248f516e94e0ec369653d20d6fcde4c3f:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{132}{\degree}}}%
-\immediate\write\writeOfphystricks{widthof5fa11c5248f516e94e0ec369653d20d6fcde4c3f:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\SI{28}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightofeb363bcee8c7551757899c7794b04019b98c88e7:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\SI{28}{\degree}}}%
+\immediate\write\writeOfphystricks{widthofeb363bcee8c7551757899c7794b04019b98c88e7:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\SI{132}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightof5fa11c5248f516e94e0ec369653d20d6fcde4c3f:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\SI{132}{\degree}}}%
+\immediate\write\writeOfphystricks{widthof5fa11c5248f516e94e0ec369653d20d6fcde4c3f:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -570,8 +570,8 @@
 \draw [samples=500] (1.856198333,1.850888511) -- (1.855318910,1.851779010);
 \draw [samples=500] (1.855318910,1.851779010) -- (1.854437261,1.852667305);
 \draw [samples=500] (1.854437261,1.852667305) -- (1.853553391,1.853553391);
-\draw (2.190961220,1.612127570) node {\SI{28}{\degree}};
-\draw (2.190961220,1.612127570) node {\SI{28}{\degree}};
+\draw (2.388378712,1.644164019) node {\SI{28}{\degree}};
+\draw (2.388378712,1.644164019) node {\SI{28}{\degree}};
 \draw [samples=500] (-0.8535533906,2.146446609) -- (-0.8522099364,2.145108241);
 \draw [samples=500] (-0.8522099364,2.145108241) -- (-0.8508614159,2.143774977);
 \draw [samples=500] (-0.8508614159,2.143774977) -- (-0.8495078485,2.142446838);
@@ -1071,8 +1071,8 @@
 \draw [samples=500] (-0.05535950387,2.271319373) -- (-0.05449539165,2.273007392);
 \draw [samples=500] (-0.05449539165,2.273007392) -- (-0.05363768775,2.274698677);
 \draw [samples=500] (-0.05363768775,2.274698677) -- (-0.05278640450,2.276393202);
-\draw (-0.3878724299,1.809038780) node {\SI{132}{\degree}};
-\draw (-0.3878724299,1.809038780) node {\SI{132}{\degree}};
+\draw (-0.3558359813,1.611621288) node {\SI{132}{\degree}};
+\draw (-0.3558359813,1.611621288) node {\SI{132}{\degree}};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
