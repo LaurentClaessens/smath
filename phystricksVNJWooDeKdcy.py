@@ -5,8 +5,7 @@ from phystricks import *
 
 def VNJWooDeKdcy():
     pspict,fig = SinglePicture("VNJWooDeKdcy")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.8)
 
     T=Point(0,0)
     S=Point(3,2)
@@ -17,8 +16,8 @@ def VNJWooDeKdcy():
     trig.put_mark(0.2,points_names="STU",pspict=pspict)
     rh=RightAngleAOB(S,U,T,l=0.3,n1=0,n2=1)
 
-    angle=Angle(U,S,T)
-    angle.put_mark(0.2,angle=None,text="\SI{33}{\degree}",automatic_place=(pspict,""))
+    angle=Angle(T,S,U)
+    angle.put_mark(0.3,angle=None,text="\SI{33}{\degree}",automatic_place=(pspict,""))
 
     no_symbol(S,T,U)
 

@@ -8,25 +8,25 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigOVATooYCMzBB.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( A \)}}%
-\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( A \)}}%
-\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( B \)}}%
-\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( B \)}}%
-\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\( C \)}}%
-\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\( C \)}}%
-\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{\SI{40}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightofd49643ba58b0357eceb18de23213fd20cfcbae4a:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{\SI{40}{\degree}}}%
-\immediate\write\writeOfphystricks{widthofd49643ba58b0357eceb18de23213fd20cfcbae4a:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( A \)}}%
+\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( A \)}}%
+\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( B \)}}%
+\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( B \)}}%
+\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( C \)}}%
+\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( C \)}}%
+\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\SI{40}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightofd49643ba58b0357eceb18de23213fd20cfcbae4a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\SI{40}{\degree}}}%
+\immediate\write\writeOfphystricks{widthofd49643ba58b0357eceb18de23213fd20cfcbae4a:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -77,20 +77,20 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.1074599217,-3.168678289) node {\( A \)};
-\draw (-0.1074599217,-3.168678289) node {\( A \)};
+\draw (-0.1074599217,-2.568678289) node {\( A \)};
+\draw (-0.1074599217,-2.568678289) node {\( A \)};
 \draw (-0.08452365235,0.1812615574) node {\( B \)};
 \draw (-0.08452365235,0.1812615574) node {\( B \)};
-\draw (2.496422302,-1.954468068) node {\( C \)};
-\draw (2.496422302,-1.954468068) node {\( C \)};
-\draw [] (0,-3.000000000) -- (0,0);
-\draw [] (0.1060660172,-1.656066017) -- (-0.1060660172,-1.443933983);
-\draw [] (0.1060660172,-1.556066017) -- (-0.1060660172,-1.343933983);
-\draw [] (0,0) -- (2.298133329,-1.928362829);
-\draw [] (0.9613352378,-0.9451153955) -- (1.260193647,-0.9189686726);
-\draw [] (1.037939682,-1.009394156) -- (1.336798092,-0.9832474336);
-\draw [] (2.298133329,-1.928362829) -- (0,-3.000000000);
-\draw [samples=500] (0,-0.3000000000) -- (0.0005246478043,-0.2999995412);
+\draw (2.036795636,-1.568795502) node {\( C \)};
+\draw (2.036795636,-1.568795502) node {\( C \)};
+\draw [] (0.0,-2.400000000) -- (0.0,0.0);
+\draw [] (0.08485281374,-1.324852814) -- (-0.08485281374,-1.155147186);
+\draw [] (0.08485281374,-1.244852814) -- (-0.08485281374,-1.075147186);
+\draw [] (0.0,0.0) -- (1.838506663,-1.542690263);
+\draw [] (0.7690681902,-0.7560923164) -- (1.008154918,-0.7351749381);
+\draw [] (0.8303517457,-0.8075153251) -- (1.069438473,-0.7865979469);
+\draw [] (1.838506663,-1.542690263) -- (0.0,-2.400000000);
+\draw [samples=500] (0.0,-0.3000000000) -- (0.0005246478043,-0.2999995412);
 \draw [samples=500] (0.0005246478043,-0.2999995412) -- (0.001049294004,-0.2999981650);
 \draw [samples=500] (0.001049294004,-0.2999981650) -- (0.001573936995,-0.2999958712);
 \draw [samples=500] (0.001573936995,-0.2999958712) -- (0.002098575171,-0.2999926599);
@@ -108,8 +108,8 @@
 \draw [samples=500] (0.007868818530,-0.2998967851) -- (0.008393273797,-0.2998825653);
 \draw [samples=500] (0.008393273797,-0.2998825653) -- (0.008917703393,-0.2998674283);
 \draw [samples=500] (0.008917703393,-0.2998674283) -- (0.009442105716,-0.2998513742);
-\draw [samples=500] (0.009442105716,-0.2998513742) -- (0.009966479160,-0.2998344031);
-\draw [samples=500] (0.009966479160,-0.2998344031) -- (0.01049082212,-0.2998165150);
+\draw [samples=500] (0.009442105716,-0.2998513742) -- (0.009966479161,-0.2998344031);
+\draw [samples=500] (0.009966479161,-0.2998344031) -- (0.01049082212,-0.2998165150);
 \draw [samples=500] (0.01049082212,-0.2998165150) -- (0.01101513300,-0.2997977099);
 \draw [samples=500] (0.01101513300,-0.2997977099) -- (0.01153941019,-0.2997779879);
 \draw [samples=500] (0.01153941019,-0.2997779879) -- (0.01206365209,-0.2997573490);
@@ -256,9 +256,9 @@
 \draw [samples=500] (0.08436415954,-0.2878935369) -- (0.08486750624,-0.2877455584);
 \draw [samples=500] (0.08486750624,-0.2877455584) -- (0.08537059338,-0.2875966999);
 \draw [samples=500] (0.08537059338,-0.2875966999) -- (0.08587341942,-0.2874469618);
-\draw [samples=500] (0.08587341942,-0.2874469618) -- (0.08637598283,-0.2872963445);
-\draw [samples=500] (0.08637598283,-0.2872963445) -- (0.08687828206,-0.2871448486);
-\draw [samples=500] (0.08687828206,-0.2871448486) -- (0.08738031559,-0.2869924746);
+\draw [samples=500] (0.08587341942,-0.2874469618) -- (0.08637598283,-0.2872963446);
+\draw [samples=500] (0.08637598283,-0.2872963446) -- (0.08687828206,-0.2871448487);
+\draw [samples=500] (0.08687828206,-0.2871448487) -- (0.08738031559,-0.2869924746);
 \draw [samples=500] (0.08738031559,-0.2869924746) -- (0.08788208187,-0.2868392227);
 \draw [samples=500] (0.08788208187,-0.2868392227) -- (0.08838357938,-0.2866850936);
 \draw [samples=500] (0.08838357938,-0.2866850936) -- (0.08888480657,-0.2865300877);
@@ -427,8 +427,8 @@
 \draw [samples=500] (0.1654366942,-0.2502612639) -- (0.1658741046,-0.2499715612);
 \draw [samples=500] (0.1658741046,-0.2499715612) -- (0.1663110077,-0.2496810940);
 \draw [samples=500] (0.1663110077,-0.2496810940) -- (0.1667474022,-0.2493898632);
-\draw [samples=500] (0.1667474022,-0.2493898632) -- (0.1671832867,-0.2490978696);
-\draw [samples=500] (0.1671832867,-0.2490978696) -- (0.1676186598,-0.2488051142);
+\draw [samples=500] (0.1667474022,-0.2493898632) -- (0.1671832867,-0.2490978697);
+\draw [samples=500] (0.1671832867,-0.2490978697) -- (0.1676186598,-0.2488051142);
 \draw [samples=500] (0.1676186598,-0.2488051142) -- (0.1680535204,-0.2485115979);
 \draw [samples=500] (0.1680535204,-0.2485115979) -- (0.1684878669,-0.2482173215);
 \draw [samples=500] (0.1684878669,-0.2482173215) -- (0.1689216982,-0.2479222860);
@@ -495,8 +495,8 @@
 \draw [samples=500] (0.1939592970,-0.2288663171) -- (0.1943592478,-0.2285267661);
 \draw [samples=500] (0.1943592478,-0.2285267661) -- (0.1947586041,-0.2281865161);
 \draw [samples=500] (0.1947586041,-0.2281865161) -- (0.1951573648,-0.2278455682);
-\draw [samples=500] (0.1951573648,-0.2278455682) -- (0.1955555286,-0.2275039236);
-\draw [samples=500] (0.1955555286,-0.2275039236) -- (0.1959530943,-0.2271615831);
+\draw [samples=500] (0.1951573648,-0.2278455682) -- (0.1955555286,-0.2275039235);
+\draw [samples=500] (0.1955555286,-0.2275039235) -- (0.1959530943,-0.2271615831);
 \draw [samples=500] (0.1959530943,-0.2271615831) -- (0.1963500608,-0.2268185478);
 \draw [samples=500] (0.1963500608,-0.2268185478) -- (0.1967464267,-0.2264748189);
 \draw [samples=500] (0.1967464267,-0.2264748189) -- (0.1971421909,-0.2261303973);
@@ -547,8 +547,8 @@
 \draw [samples=500] (0.2139420363,-0.2103064552) -- (0.2143094986,-0.2099319862);
 \draw [samples=500] (0.2143094986,-0.2099319862) -- (0.2146763054,-0.2095568751);
 \draw [samples=500] (0.2146763054,-0.2095568751) -- (0.2150424556,-0.2091811232);
-\draw [samples=500] (0.2150424556,-0.2091811232) -- (0.2154079482,-0.2088047314);
-\draw [samples=500] (0.2154079482,-0.2088047314) -- (0.2157727819,-0.2084277011);
+\draw [samples=500] (0.2150424556,-0.2091811232) -- (0.2154079481,-0.2088047314);
+\draw [samples=500] (0.2154079481,-0.2088047314) -- (0.2157727819,-0.2084277011);
 \draw [samples=500] (0.2157727819,-0.2084277011) -- (0.2161369557,-0.2080500333);
 \draw [samples=500] (0.2161369557,-0.2080500333) -- (0.2165004685,-0.2076717293);
 \draw [samples=500] (0.2165004685,-0.2076717293) -- (0.2168633192,-0.2072927900);
