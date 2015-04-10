@@ -23,7 +23,7 @@ pyramide=commun.OneChapter("Pyramides et cônes","4A")
 puissances=commun.OneChapter("Puissances","4A")
 trig_rect=commun.OneChapter("Triangles rectangles","4A")
 
-actu4=pyramide
+actu4=trig_rect
 actu4.set_filename=set_filename
 actu4.write_the_file()
 

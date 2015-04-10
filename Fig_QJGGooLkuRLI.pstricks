@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigQJGGooLkuRLI.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Alice}}%
-\immediate\write\writeOfphystricks{totalheightof35318264c9a98faf79965c270ac80c5606774df1:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{Alice}}%
-\immediate\write\writeOfphystricks{widthof35318264c9a98faf79965c270ac80c5606774df1:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Bob}}%
-\immediate\write\writeOfphystricks{totalheightofda6645f6e22bf5f75974dc7eed5fcd6160d6b51e:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{Bob}}%
-\immediate\write\writeOfphystricks{widthofda6645f6e22bf5f75974dc7eed5fcd6160d6b51e:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{Chloé}}%
-\immediate\write\writeOfphystricks{totalheightof5fa3f702e5dbcb4fc9a409e174d426e2d7567c3d:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{Chloé}}%
-\immediate\write\writeOfphystricks{widthof5fa3f702e5dbcb4fc9a409e174d426e2d7567c3d:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{Alice}}%
+\immediate\write\writeOfphystricks{totalheightof35318264c9a98faf79965c270ac80c5606774df1:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{Alice}}%
+\immediate\write\writeOfphystricks{widthof35318264c9a98faf79965c270ac80c5606774df1:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{Bob}}%
+\immediate\write\writeOfphystricks{totalheightofda6645f6e22bf5f75974dc7eed5fcd6160d6b51e:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{Bob}}%
+\immediate\write\writeOfphystricks{widthofda6645f6e22bf5f75974dc7eed5fcd6160d6b51e:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{Chloé}}%
+\immediate\write\writeOfphystricks{totalheightof5fa3f702e5dbcb4fc9a409e174d426e2d7567c3d:\the\lengthOfhomemokyDSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{Chloé}}%
+\immediate\write\writeOfphystricks{widthof5fa3f702e5dbcb4fc9a409e174d426e2d7567c3d:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -66,37 +66,45 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigQJGGooLkuRLIPICTQJGGooLkuRLI}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-3.000000000,0) -- (-3.000000000,4.000000000);
-\draw [color=gray,style=solid] (-2.000000000,0) -- (-2.000000000,4.000000000);
-\draw [color=gray,style=solid] (-1.000000000,0) -- (-1.000000000,4.000000000);
-\draw [color=gray,style=solid] (0,0) -- (0,4.000000000);
-\draw [color=gray,style=solid] (1.000000000,0) -- (1.000000000,4.000000000);
-\draw [color=gray,style=dotted] (-2.500000000,0) -- (-2.500000000,4.000000000);
-\draw [color=gray,style=dotted] (-1.500000000,0) -- (-1.500000000,4.000000000);
-\draw [color=gray,style=dotted] (-0.5000000000,0) -- (-0.5000000000,4.000000000);
-\draw [color=gray,style=dotted] (0.5000000000,0) -- (0.5000000000,4.000000000);
-\draw [color=gray,style=dotted] (-3.000000000,0.5000000000) -- (1.000000000,0.5000000000);
-\draw [color=gray,style=dotted] (-3.000000000,1.500000000) -- (1.000000000,1.500000000);
-\draw [color=gray,style=dotted] (-3.000000000,2.500000000) -- (1.000000000,2.500000000);
-\draw [color=gray,style=dotted] (-3.000000000,3.500000000) -- (1.000000000,3.500000000);
-\draw [color=gray,style=solid] (-3.000000000,0) -- (1.000000000,0);
-\draw [color=gray,style=solid] (-3.000000000,1.000000000) -- (1.000000000,1.000000000);
-\draw [color=gray,style=solid] (-3.000000000,2.000000000) -- (1.000000000,2.000000000);
-\draw [color=gray,style=solid] (-3.000000000,3.000000000) -- (1.000000000,3.000000000);
-\draw [color=gray,style=solid] (-3.000000000,4.000000000) -- (1.000000000,4.000000000);
+\draw [color=gray,style=solid] (-4.000000000,-1.000000000) -- (-4.000000000,5.000000000);
+\draw [color=gray,style=solid] (-3.000000000,-1.000000000) -- (-3.000000000,5.000000000);
+\draw [color=gray,style=solid] (-2.000000000,-1.000000000) -- (-2.000000000,5.000000000);
+\draw [color=gray,style=solid] (-1.000000000,-1.000000000) -- (-1.000000000,5.000000000);
+\draw [color=gray,style=solid] (0,-1.000000000) -- (0,5.000000000);
+\draw [color=gray,style=solid] (1.000000000,-1.000000000) -- (1.000000000,5.000000000);
+\draw [color=gray,style=solid] (2.000000000,-1.000000000) -- (2.000000000,5.000000000);
+\draw [color=gray,style=dotted] (-3.500000000,-1.000000000) -- (-3.500000000,5.000000000);
+\draw [color=gray,style=dotted] (-2.500000000,-1.000000000) -- (-2.500000000,5.000000000);
+\draw [color=gray,style=dotted] (-1.500000000,-1.000000000) -- (-1.500000000,5.000000000);
+\draw [color=gray,style=dotted] (-0.5000000000,-1.000000000) -- (-0.5000000000,5.000000000);
+\draw [color=gray,style=dotted] (0.5000000000,-1.000000000) -- (0.5000000000,5.000000000);
+\draw [color=gray,style=dotted] (1.500000000,-1.000000000) -- (1.500000000,5.000000000);
+\draw [color=gray,style=dotted] (-4.000000000,-0.5000000000) -- (2.000000000,-0.5000000000);
+\draw [color=gray,style=dotted] (-4.000000000,0.5000000000) -- (2.000000000,0.5000000000);
+\draw [color=gray,style=dotted] (-4.000000000,1.500000000) -- (2.000000000,1.500000000);
+\draw [color=gray,style=dotted] (-4.000000000,2.500000000) -- (2.000000000,2.500000000);
+\draw [color=gray,style=dotted] (-4.000000000,3.500000000) -- (2.000000000,3.500000000);
+\draw [color=gray,style=dotted] (-4.000000000,4.500000000) -- (2.000000000,4.500000000);
+\draw [color=gray,style=solid] (-4.000000000,-1.000000000) -- (2.000000000,-1.000000000);
+\draw [color=gray,style=solid] (-4.000000000,0) -- (2.000000000,0);
+\draw [color=gray,style=solid] (-4.000000000,1.000000000) -- (2.000000000,1.000000000);
+\draw [color=gray,style=solid] (-4.000000000,2.000000000) -- (2.000000000,2.000000000);
+\draw [color=gray,style=solid] (-4.000000000,3.000000000) -- (2.000000000,3.000000000);
+\draw [color=gray,style=solid] (-4.000000000,4.000000000) -- (2.000000000,4.000000000);
+\draw [color=gray,style=solid] (-4.000000000,5.000000000) -- (2.000000000,5.000000000);
 %DEFAULT
 \draw []  (0,0) node [rotate=0] {$\times$};
-\draw (0,-0.3377746667) node {Alice};
-\draw (0,-0.3377746667) node {Alice};
+\draw (0,-0.3148125000) node {Alice};
+\draw (0,-0.3148125000) node {Alice};
 \draw []  (1.000000000,2.000000000) node [rotate=0] {$\times$};
-\draw (1.545399500,2.000000000) node {Bob};
-\draw (1.545399500,2.000000000) node {Bob};
+\draw (1.493974833,2.000000000) node {Bob};
+\draw (1.493974833,2.000000000) node {Bob};
 \draw []  (-3.000000000,4.000000000) node [rotate=0] {$\times$};
-\draw (-3.636443190,4.279196023) node {Chloé};
-\draw (-3.636443190,4.279196023) node {Chloé};
+\draw (-3.562713690,4.256233856) node {Chloé};
+\draw (-3.562713690,4.256233856) node {Chloé};
 %AXES
 %OTHER STUFF
 %END PSPICTURE

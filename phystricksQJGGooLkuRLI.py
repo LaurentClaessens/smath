@@ -16,6 +16,13 @@ def QJGGooLkuRLI():
     B.put_mark(0.2,angle=0,added_angle=0,text="Bob",automatic_place=(pspict,""))
     C.put_mark(0.2,angle=90+45,added_angle=0,text="Chloé",automatic_place=(pspict,""))
 
+    xmin=min(  [ P.x for P in [A,B,C] ]  )
+    xmax=max(  [ P.x for P in [A,B,C] ]  )
+    ymin=min(  [ P.y for P in [A,B,C] ]  )
+    ymax=max(  [ P.y for P in [A,B,C] ]  )
+    pspict.math_BB.append(  Point(xmin-1,ymin-1),pspict   )
+    pspict.math_BB.append(  Point(xmax+1,ymax+1),pspict   )
+
     pspict.DrawGraphs(A,B,C)
     fig.no_figure()
     pspict.DrawDefaultGrid()
