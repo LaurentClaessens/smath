@@ -95,8 +95,6 @@ def GCFSooTCJfOZ():
     m3=Segment(C,A).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))
     pspicts[3].DrawGraphs(trig,rh,m1,m2,m3)
 
-
-
     for fig in figs :
         fig.no_figure()
         fig.conclude()
