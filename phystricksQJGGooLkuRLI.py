@@ -12,8 +12,8 @@ def QJGGooLkuRLI():
     B=Point(1,2)
     C=Point(-3,4)
 
-    A.put_mark(0.2,angle=-90,added_angle=0,text="Alice",automatic_place=(pspict,""))
-    B.put_mark(0.2,angle=0,added_angle=0,text="Bob",automatic_place=(pspict,""))
+    A.put_mark(0.2,angle=-45,added_angle=0,text="Alice",automatic_place=(pspict,""))
+    B.put_mark(0.2,angle=-45,added_angle=0,text="Bob",automatic_place=(pspict,""))
     C.put_mark(0.2,angle=90+45,added_angle=0,text="Chloé",automatic_place=(pspict,""))
 
     xmin=min(  [ P.x for P in [A,B,C] ]  )
