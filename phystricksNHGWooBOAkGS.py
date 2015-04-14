@@ -21,7 +21,7 @@ def NHGWooBOAkGS():
 
     hauteur=Segment(L,B)
     hauteur.parameters.style="dotted"
-    rh=RightAngleAOB(B,L,K,l=0.07)
+    rh=RightAngleAOB(B,L,K,r=0.07)
 
     no_symbol(A,B,C,L,K)
 

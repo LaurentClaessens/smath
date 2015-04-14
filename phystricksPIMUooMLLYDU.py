@@ -23,8 +23,8 @@ def PIMUooMLLYDU():
     cot2=Polygon(S2,D,K)
     cot2.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",automatic_place=(pspict,""))
 
-    rh1=RightAngleAOB(S1,D,L,l=0.4,n1=0,n2=1)
-    rh2=RightAngleAOB(S2,D,K,l=0.4,n1=0,n2=1)
+    rh1=RightAngleAOB(S1,D,L,r=0.4,n1=0,n2=1)
+    rh2=RightAngleAOB(S2,D,K,r=0.4,n1=0,n2=1)
 
     N=Intersection(Segment(S2,K),Circle(K,4))[0]
     N.put_mark(0.2,angle=Segment(S2,K).angle()+90,text="\( N\)",automatic_place=(pspict,""))

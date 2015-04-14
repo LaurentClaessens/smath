@@ -34,8 +34,8 @@ def DIDMooOJHGra():
     m1=[  s.get_code(n=2,d=0.1,l=0.3,angle=45,pspict=pspict) for s in  [ Segment(A,B), Segment(B,D),Segment(A,C),Segment(C,E) ]  ]
     m2=[  s.get_code(n=1,d=0.1,l=0.3,angle=45,pspict=pspict) for s in  [ Segment(D,E), Segment(D,F),Segment(E,G) ]  ]
 
-    rh1=RightAngle(  Segment(D,E),Segment(D,F),l=0.3, n1=1,n2=1 )
-    rh2=RightAngle(  Segment(D,E),Segment(E,G),l=0.3, n1=0,n2=1 )
+    rh1=RightAngle(  Segment(D,E),Segment(D,F),r=0.3, n1=1,n2=1 )
+    rh2=RightAngle(  Segment(D,E),Segment(E,G),r=0.3, n1=0,n2=1 )
 
     pspict.DrawGraphs(poly,s1,s2,A,B,C,D,E,F,G,m1,m2,rh1,rh2)
     fig.no_figure()
