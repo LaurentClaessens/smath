@@ -78,7 +78,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigCMOooKlzoBLPICTCMOooKlzoBL}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -90,17 +90,17 @@
 \draw (1.026201356,-0.2553098562) node {\( B\)};
 \draw (1.022462856,1.255309856) node {\( C\)};
 \draw (1.022462856,1.255309856) node {\( C\)};
-\draw [] (0.0,0.0) -- (0.7500000000,0.0);
+\draw [] (0.0,0.0) -- (0.750,0.0);
 \draw (0.3750000000,-0.3049540000) node {\( 1.5\)};
 \draw (0.3750000000,-0.3049540000) node {\( 1.5\)};
-\draw [] (0.7500000000,0.0) -- (0.7500000000,1.000000000);
+\draw [] (0.750,0.0) -- (0.750,1.00);
 \draw (1.033333333,0.5000000000) node {\( 2\)};
 \draw (1.033333333,0.5000000000) node {\( 2\)};
-\draw [] (0.7500000000,1.000000000) -- (0.0,0.0);
+\draw [] (0.750,1.00) -- (0.0,0.0);
 \draw (0.1363000000,0.7348125000) node {\( ?\)};
 \draw (0.1363000000,0.7348125000) node {\( ?\)};
-\draw [] (0.5500000000,0.2000000000) -- (0.5500000000,0.0);
-\draw [] (0.5500000000,0.2000000000) -- (0.7500000000,0.2000000000);
+\draw [] (0.550,0.200) -- (0.550,0.0);
+\draw [] (0.550,0.200) -- (0.750,0.200);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

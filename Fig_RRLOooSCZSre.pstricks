@@ -66,7 +66,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigRRLOooSCZSrePICTRRLOooSCZSre}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -81,9 +81,9 @@
 \draw []  (-1.400000000,1.400000000) node [rotate=0] {$\times$};
 \draw (-1.566968218,1.510098202) node {\( C \)};
 \draw (-1.566968218,1.510098202) node {\( C \)};
-\draw [] (0.0,0.0) -- (2.100000000,0.0);
-\draw [] (2.100000000,0.0) -- (-1.400000000,1.400000000);
-\draw [] (-1.400000000,1.400000000) -- (0.0,0.0);
+\draw [] (0.0,0.0) -- (2.10,0.0);
+\draw [] (2.10,0.0) -- (-1.40,1.40);
+\draw [] (-1.40,1.40) -- (0.0,0.0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

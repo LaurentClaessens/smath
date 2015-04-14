@@ -82,7 +82,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigfigureTFaRFVdPICTfigureTFaRFVd}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -98,14 +98,14 @@
 \draw (0.4699658405,0.7280880229) node {\( D\)};
 \draw (1.289711432,2.961666667) node {\( S\)};
 \draw (1.289711432,2.961666667) node {\( S\)};
-\draw [] (1.800000000,0.0) -- (1.289711432,2.625000000);
-\draw [] (0.0,0.0) -- (1.800000000,0.0);
-\draw [] (1.800000000,0.0) -- (2.579422863,0.4500000000);
-\draw [] (2.579422863,0.4500000000) -- (1.289711432,2.625000000);
-\draw [] (0.0,0.0) -- (1.289711432,2.625000000);
-\draw [style=dashed] (0.0,0.0) -- (0.7794228634,0.4500000000);
-\draw [style=dashed] (0.7794228634,0.4500000000) -- (2.579422863,0.4500000000);
-\draw [style=dashed] (1.289711432,2.625000000) -- (0.7794228634,0.4500000000);
+\draw [] (1.80,0.0) -- (1.29,2.62);
+\draw [] (0.0,0.0) -- (1.80,0.0);
+\draw [] (1.80,0.0) -- (2.58,0.450);
+\draw [] (2.58,0.450) -- (1.29,2.62);
+\draw [] (0.0,0.0) -- (1.29,2.62);
+\draw [style=dashed] (0.0,0.0) -- (0.779,0.450);
+\draw [style=dashed] (0.779,0.450) -- (2.58,0.450);
+\draw [style=dashed] (1.29,2.62) -- (0.779,0.450);
 \draw []  (0.9672835738,1.968750000) node [rotate=0] {$\times$};
 \draw (0.7237678842,2.246838023) node {\( I\)};
 \draw (0.7237678842,2.246838023) node {\( I\)};

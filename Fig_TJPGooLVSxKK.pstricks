@@ -54,7 +54,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigTJPGooLVSxKKPICTTJPGooLVSxKK}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -68,10 +68,10 @@
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
 \fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (0.750,0) -- (0.750,0) -- (0.750,1.00) -- (0.750,1.00) -- (0,1.00) -- (0,1.00) -- (0,0) --  cycle;
-\draw [] (0,0) -- (0.7500000000,0);
-\draw [] (0.7500000000,0) -- (0.7500000000,1.000000000);
-\draw [] (0.7500000000,1.000000000) -- (0,1.000000000);
-\draw [] (0,1.000000000) -- (0,0);
+\draw [] (0,0) -- (0.750,0);
+\draw [] (0.750,0) -- (0.750,1.00);
+\draw [] (0.750,1.00) -- (0,1.00);
+\draw [] (0,1.00) -- (0,0);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -80,10 +80,10 @@
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
 \fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.750,0) -- (1.50,0) -- (1.50,0) -- (1.50,1.00) -- (1.50,1.00) -- (0.750,1.00) -- (0.750,1.00) -- (0.750,0) --  cycle;
-\draw [] (0.7500000000,0) -- (1.500000000,0);
-\draw [] (1.500000000,0) -- (1.500000000,1.000000000);
-\draw [] (1.500000000,1.000000000) -- (0.7500000000,1.000000000);
-\draw [] (0.7500000000,1.000000000) -- (0.7500000000,0);
+\draw [] (0.750,0) -- (1.50,0);
+\draw [] (1.50,0) -- (1.50,1.00);
+\draw [] (1.50,1.00) -- (0.750,1.00);
+\draw [] (0.750,1.00) -- (0.750,0);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -92,18 +92,18 @@
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
 \fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (1.50,0) -- (2.25,0) -- (2.25,0) -- (2.25,1.00) -- (2.25,1.00) -- (1.50,1.00) -- (1.50,1.00) -- (1.50,0) --  cycle;
-\draw [] (1.500000000,0) -- (2.250000000,0);
-\draw [] (2.250000000,0) -- (2.250000000,1.000000000);
-\draw [] (2.250000000,1.000000000) -- (1.500000000,1.000000000);
-\draw [] (1.500000000,1.000000000) -- (1.500000000,0);
-\draw [] (2.250000000,0) -- (3.000000000,0);
-\draw [] (3.000000000,0) -- (3.000000000,1.000000000);
-\draw [] (3.000000000,1.000000000) -- (2.250000000,1.000000000);
-\draw [] (2.250000000,1.000000000) -- (2.250000000,0);
-\draw [] (3.000000000,0) -- (6.000000000,0);
-\draw [] (6.000000000,0) -- (6.000000000,1.000000000);
-\draw [] (6.000000000,1.000000000) -- (3.000000000,1.000000000);
-\draw [] (3.000000000,1.000000000) -- (3.000000000,0);
+\draw [] (1.50,0) -- (2.25,0);
+\draw [] (2.25,0) -- (2.25,1.00);
+\draw [] (2.25,1.00) -- (1.50,1.00);
+\draw [] (1.50,1.00) -- (1.50,0);
+\draw [] (2.25,0) -- (3.00,0);
+\draw [] (3.00,0) -- (3.00,1.00);
+\draw [] (3.00,1.00) -- (2.25,1.00);
+\draw [] (2.25,1.00) -- (2.25,0);
+\draw [] (3.00,0) -- (6.00,0);
+\draw [] (6.00,0) -- (6.00,1.00);
+\draw [] (6.00,1.00) -- (3.00,1.00);
+\draw [] (3.00,1.00) -- (3.00,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

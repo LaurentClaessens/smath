@@ -82,45 +82,45 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigARKZooKZOuAkThPICTARKZooKZOuAkTh}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (0,0.0) -- (0,3.600000000);
-\draw [color=gray,style=solid] (1.000000000,0.0) -- (1.000000000,3.600000000);
-\draw [color=gray,style=solid] (2.000000000,0.0) -- (2.000000000,3.600000000);
-\draw [color=gray,style=dotted] (0.5000000000,0.0) -- (0.5000000000,3.600000000);
-\draw [color=gray,style=dotted] (1.500000000,0.0) -- (1.500000000,3.600000000);
-\draw [color=gray,style=dotted] (0,0.3000000000) -- (2.000000000,0.3000000000);
-\draw [color=gray,style=dotted] (0,0.9000000000) -- (2.000000000,0.9000000000);
-\draw [color=gray,style=dotted] (0,1.500000000) -- (2.000000000,1.500000000);
-\draw [color=gray,style=dotted] (0,2.100000000) -- (2.000000000,2.100000000);
-\draw [color=gray,style=dotted] (0,2.700000000) -- (2.000000000,2.700000000);
-\draw [color=gray,style=dotted] (0,3.300000000) -- (2.000000000,3.300000000);
-\draw [color=gray,style=solid] (0,0.0) -- (2.000000000,0.0);
-\draw [color=gray,style=solid] (0,0.6000000000) -- (2.000000000,0.6000000000);
-\draw [color=gray,style=solid] (0,1.200000000) -- (2.000000000,1.200000000);
-\draw [color=gray,style=solid] (0,1.800000000) -- (2.000000000,1.800000000);
-\draw [color=gray,style=solid] (0,2.400000000) -- (2.000000000,2.400000000);
-\draw [color=gray,style=solid] (0,3.000000000) -- (2.000000000,3.000000000);
-\draw [color=gray,style=solid] (0,3.600000000) -- (2.000000000,3.600000000);
+\draw [color=gray,style=solid] (0,0.0) -- (0,3.60);
+\draw [color=gray,style=solid] (1.00,0.0) -- (1.00,3.60);
+\draw [color=gray,style=solid] (2.00,0.0) -- (2.00,3.60);
+\draw [color=gray,style=dotted] (0.500,0.0) -- (0.500,3.60);
+\draw [color=gray,style=dotted] (1.50,0.0) -- (1.50,3.60);
+\draw [color=gray,style=dotted] (0,0.300) -- (2.00,0.300);
+\draw [color=gray,style=dotted] (0,0.900) -- (2.00,0.900);
+\draw [color=gray,style=dotted] (0,1.50) -- (2.00,1.50);
+\draw [color=gray,style=dotted] (0,2.10) -- (2.00,2.10);
+\draw [color=gray,style=dotted] (0,2.70) -- (2.00,2.70);
+\draw [color=gray,style=dotted] (0,3.30) -- (2.00,3.30);
+\draw [color=gray,style=solid] (0,0.0) -- (2.00,0.0);
+\draw [color=gray,style=solid] (0,0.600) -- (2.00,0.600);
+\draw [color=gray,style=solid] (0,1.20) -- (2.00,1.20);
+\draw [color=gray,style=solid] (0,1.80) -- (2.00,1.80);
+\draw [color=gray,style=solid] (0,2.40) -- (2.00,2.40);
+\draw [color=gray,style=solid] (0,3.00) -- (2.00,3.00);
+\draw [color=gray,style=solid] (0,3.60) -- (2.00,3.60);
 %AXES
 \draw (1.000000000,-0.3259458333) node { $ 1 $ };
-\draw [] (1.000000000,-0.1000000000) -- (1.000000000,0.1000000000);
+\draw [] (1.00,-0.100) -- (1.00,0.100);
 \draw (2.000000000,-0.3259458333) node { $ 2 $ };
-\draw [] (2.000000000,-0.1000000000) -- (2.000000000,0.1000000000);
+\draw [] (2.00,-0.100) -- (2.00,0.100);
 \draw [,->,>=latex] (0,0.0) -- (2.500000000,0.0);
 \draw (-0.2979163333,0.6000000000) node { $ 2 $ };
-\draw [] (-0.1000000000,0.6000000000) -- (0.1000000000,0.6000000000);
+\draw [] (-0.100,0.600) -- (0.100,0.600);
 \draw (-0.2979163333,1.200000000) node { $ 4 $ };
-\draw [] (-0.1000000000,1.200000000) -- (0.1000000000,1.200000000);
+\draw [] (-0.100,1.20) -- (0.100,1.20);
 \draw (-0.2979163333,1.800000000) node { $ 6 $ };
-\draw [] (-0.1000000000,1.800000000) -- (0.1000000000,1.800000000);
+\draw [] (-0.100,1.80) -- (0.100,1.80);
 \draw (-0.2979163333,2.400000000) node { $ 8 $ };
-\draw [] (-0.1000000000,2.400000000) -- (0.1000000000,2.400000000);
+\draw [] (-0.100,2.40) -- (0.100,2.40);
 \draw (-0.3958328333,3.000000000) node { $ 10 $ };
-\draw [] (-0.1000000000,3.000000000) -- (0.1000000000,3.000000000);
+\draw [] (-0.100,3.00) -- (0.100,3.00);
 \draw (-0.3958328333,3.600000000) node { $ 12 $ };
-\draw [] (-0.1000000000,3.600000000) -- (0.1000000000,3.600000000);
+\draw [] (-0.100,3.60) -- (0.100,3.60);
 \draw [,->,>=latex] (0,0.0) -- (0,3.600000000);
 %DEFAULT
 \draw []  (0,0.0) node [rotate=0] {$\times$};

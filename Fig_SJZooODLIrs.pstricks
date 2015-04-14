@@ -54,20 +54,20 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigSJZooODLIrsPICTSJZooODLIrs}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0,0) -- (1.000000000,0);
-\draw [] (1.000000000,0) -- (0.8000000000,1.140000000);
-\draw [] (0.8000000000,1.140000000) -- (0,1.000000000);
-\draw [] (0,1.000000000) -- (0,0);
-\draw [] (0.6375538022,0.9085325287) -- (0.8345598956,0.9430085951);
-\draw [] (0.6375538022,0.9085325287) -- (0.6029939066,1.105523934);
-\draw [] (0.2000000000,0.2000000000) -- (0,0.2000000000);
-\draw [] (0.2000000000,0.2000000000) -- (0.2000000000,0);
+\draw [] (0,0) -- (1.00,0);
+\draw [] (1.00,0) -- (0.800,1.14);
+\draw [] (0.800,1.14) -- (0,1.00);
+\draw [] (0,1.00) -- (0,0);
+\draw [] (0.638,0.909) -- (0.835,0.943);
+\draw [] (0.638,0.909) -- (0.603,1.11);
+\draw [] (0.200,0.200) -- (0,0.200);
+\draw [] (0.200,0.200) -- (0.200,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

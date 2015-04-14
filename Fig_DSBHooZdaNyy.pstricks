@@ -70,7 +70,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigDSBHooZdaNyyPICTDSBHooZdaNyy}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -84,14 +84,14 @@
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
 \fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.24,0.0) -- (5.60,0.0) -- (5.60,0.0) -- (5.60,0.990) -- (5.60,0.990) -- (2.24,0.990) -- (2.24,0.990) -- (2.24,0.0) --  cycle;
-\draw [] (2.240000000,0.0) -- (5.600000000,0.0);
-\draw [] (5.600000000,0.0) -- (5.600000000,0.9900000000);
-\draw [] (5.600000000,0.9900000000) -- (2.240000000,0.9900000000);
-\draw [] (2.240000000,0.9900000000) -- (2.240000000,0.0);
-\draw [] (0.0,0.0) -- (2.240000000,0.0);
-\draw [] (2.240000000,0.0) -- (2.240000000,0.9900000000);
-\draw [] (2.240000000,0.9900000000) -- (0.0,0.9900000000);
-\draw [] (0.0,0.9900000000) -- (0.0,0.0);
+\draw [] (2.24,0.0) -- (5.60,0.0);
+\draw [] (5.60,0.0) -- (5.60,0.990);
+\draw [] (5.60,0.990) -- (2.24,0.990);
+\draw [] (2.24,0.990) -- (2.24,0.0);
+\draw [] (0.0,0.0) -- (2.24,0.0);
+\draw [] (2.24,0.0) -- (2.24,0.990);
+\draw [] (2.24,0.990) -- (0.0,0.990);
+\draw [] (0.0,0.990) -- (0.0,0.0);
 \draw [,->,>=latex] (2.800000000,1.089000000) -- (0.0,1.089000000);
 \draw [,->,>=latex] (2.800000000,1.089000000) -- (5.600000000,1.089000000);
 \draw (2.800000000,1.293954000) node {\( 10\)};

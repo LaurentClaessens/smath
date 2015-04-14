@@ -82,18 +82,18 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigfigureNPQwFTpPICTfigureNPQwFTp}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=red] (0.0,0.0) -- (5.400000000,1.800000000);
-\draw [color=red] (4.800000000,0.0) -- (3.000000000,1.800000000);
-\draw [color=red] (6.000000000,3.600000000) -- (2.400000000,0.0);
-\draw [] (0.0,0.0) -- (4.800000000,0.0);
-\draw [] (4.800000000,0.0) -- (6.000000000,3.600000000);
-\draw [] (6.000000000,3.600000000) -- (0.0,0.0);
+\draw [color=red] (0.0,0.0) -- (5.40,1.80);
+\draw [color=red] (4.80,0.0) -- (3.00,1.80);
+\draw [color=red] (6.00,3.60) -- (2.40,0.0);
+\draw [] (0.0,0.0) -- (4.80,0.0);
+\draw [] (4.80,0.0) -- (6.00,3.60);
+\draw [] (6.00,3.60) -- (0.0,0.0);
 \draw []  (5.400000000,1.800000000) node [rotate=0] {$\times$};
 \draw (5.702094333,1.800000000) node {\( I\)};
 \draw (5.702094333,1.800000000) node {\( I\)};

@@ -66,7 +66,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigECQDooWEpuCMPICTECQDooWEpuCM}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -81,12 +81,12 @@
 \draw []  (4.000000000,2.000000000) node [rotate=0] {$\times$};
 \draw (4.105146222,2.170130162) node {$C$};
 \draw (4.105146222,2.170130162) node {$C$};
-\draw [] (0,0) -- (4.000000000,-1.000000000);
-\draw [] (4.000000000,-1.000000000) -- (4.000000000,2.000000000);
-\draw [] (4.000000000,2.000000000) -- (0,0);
-\draw [] (-0.8000000000,0) -- (4.800000000,0);
-\draw [] (3.800000000,0.2000000000) -- (3.800000000,0);
-\draw [] (3.800000000,0.2000000000) -- (4.000000000,0.2000000000);
+\draw [] (0,0) -- (4.00,-1.00);
+\draw [] (4.00,-1.00) -- (4.00,2.00);
+\draw [] (4.00,2.00) -- (0,0);
+\draw [] (-0.800,0) -- (4.80,0);
+\draw [] (3.80,0.200) -- (3.80,0);
+\draw [] (3.80,0.200) -- (4.00,0.200);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

@@ -78,18 +78,18 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigBIlgjwyPICTBIlgjwy}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (3.500000000,0.0) -- (3.500000000,1.750000000);
-\draw [] (5.500000000,0.0) -- (5.500000000,2.500000000);
-\draw [] (-0.2750000000,0.0) -- (5.775000000,0.0);
-\draw [] (3.500000000,0.0) -- (3.500000000,2.500000000);
-\draw [] (4.500000000,3.500000000) -- (3.200000000,2.200000000);
-\draw [] (4.500000000,3.500000000) -- (5.800000000,2.200000000);
+\draw [] (3.50,0.0) -- (3.50,1.75);
+\draw [] (5.50,0.0) -- (5.50,2.50);
+\draw [] (-0.275,0.0) -- (5.77,0.0);
+\draw [] (3.50,0.0) -- (3.50,2.50);
+\draw [] (4.50,3.50) -- (3.20,2.20);
+\draw [] (4.50,3.50) -- (5.80,2.20);
 \draw []  (0.0,0.0) node [rotate=0] {$\times$};
 \draw (0.0,-0.3366666667) node {\( P\)};
 \draw (0.0,-0.3366666667) node {\( P\)};
@@ -105,8 +105,8 @@
 \draw []  (3.500000000,1.750000000) node [rotate=0] {$\times$};
 \draw (3.910346000,1.750000000) node {\( M\)};
 \draw (3.910346000,1.750000000) node {\( M\)};
-\draw [style=dashed] (0.0,0.0) -- (3.500000000,1.750000000);
-\draw [] (2.000000000,0.0) -- (2.000000000,1.000000000);
+\draw [style=dashed] (0.0,0.0) -- (3.50,1.75);
+\draw [] (2.00,0.0) -- (2.00,1.00);
 \draw (2.627594000,0.5000000000) node {Muret};
 \draw (2.627594000,0.5000000000) node {Muret};
 %END PSPICTURE

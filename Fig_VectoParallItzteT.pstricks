@@ -81,23 +81,23 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigVectoParallItzteTPICTVectoParallItzteT}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=red] (0,0) -- (6.000000000,0);
-\draw [color=red] (6.000000000,0) -- (8.000000000,-3.000000000);
-\draw [color=red] (8.000000000,-3.000000000) -- (2.000000000,-3.000000000);
-\draw [color=red] (2.000000000,-3.000000000) -- (0,0);
-\draw [color=blue] (0,0) -- (6.000000000,0);
-\draw [color=blue] (6.000000000,0) -- (3.600000000,-5.100000000);
-\draw [color=blue] (3.600000000,-5.100000000) -- (-2.400000000,-5.100000000);
-\draw [color=blue] (-2.400000000,-5.100000000) -- (0,0);
-\draw [style=dashed] (2.000000000,-3.000000000) -- (-2.400000000,-5.100000000);
-\draw [style=dashed] (8.000000000,-3.000000000) -- (3.600000000,-5.100000000);
-\draw [color=red,style=dashed] (0,0) -- (6.000000000,0);
+\draw [color=red] (0,0) -- (6.00,0);
+\draw [color=red] (6.00,0) -- (8.00,-3.00);
+\draw [color=red] (8.00,-3.00) -- (2.00,-3.00);
+\draw [color=red] (2.00,-3.00) -- (0,0);
+\draw [color=blue] (0,0) -- (6.00,0);
+\draw [color=blue] (6.00,0) -- (3.60,-5.10);
+\draw [color=blue] (3.60,-5.10) -- (-2.40,-5.10);
+\draw [color=blue] (-2.40,-5.10) -- (0,0);
+\draw [style=dashed] (2.00,-3.00) -- (-2.40,-5.10);
+\draw [style=dashed] (8.00,-3.00) -- (3.60,-5.10);
+\draw [color=red,style=dashed] (0,0) -- (6.00,0);
 \draw []  (0,0) node [rotate=0] {$\times$};
 \draw (0,0.3366666667) node {\( A\)};
 \draw (0,0.3366666667) node {\( A\)};

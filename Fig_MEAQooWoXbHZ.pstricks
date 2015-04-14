@@ -74,7 +74,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigMEAQooWoXbHZPICTMEAQooWoXbHZ}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -89,11 +89,11 @@
 \draw []  (0,4.000000000) node [rotate=0] {$\times$};
 \draw (-0.04595058411,4.194649798) node {\( C \)};
 \draw (-0.04595058411,4.194649798) node {\( C \)};
-\draw [] (0,0) -- (2.000000000,0);
-\draw [] (2.000000000,0) -- (0,4.000000000);
-\draw [] (0,4.000000000) -- (0,0);
-\draw [] (0.3000000000,0.3000000000) -- (0.3000000000,0);
-\draw [] (0.3000000000,0.3000000000) -- (0,0.3000000000);
+\draw [] (0,0) -- (2.00,0);
+\draw [] (2.00,0) -- (0,4.00);
+\draw [] (0,4.00) -- (0,0);
+\draw [] (0.300,0.300) -- (0.300,0);
+\draw [] (0.300,0.300) -- (0,0.300);
 \draw [,->,>=latex] (1.000000000,-0.2000000000) -- (0,-0.2000000000);
 \draw [,->,>=latex] (1.000000000,-0.2000000000) -- (2.000000000,-0.2000000000);
 \draw (1.000000000,-0.4259458333) node {\( 2\)};

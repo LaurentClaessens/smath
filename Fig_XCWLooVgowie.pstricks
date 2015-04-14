@@ -78,7 +78,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigXCWLooVgowiePICTXCWLooVgowie}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -93,17 +93,17 @@
 \draw []  (0.0,0.9000000000) node [rotate=0] {$\times$};
 \draw (-0.2958918562,1.178088023) node {\( C\)};
 \draw (-0.2958918562,1.178088023) node {\( C\)};
-\draw [] (0.0,0.0) -- (1.200000000,0.0);
+\draw [] (0.0,0.0) -- (1.20,0.0);
 \draw (0.6000000000,-0.3259458333) node {\( 12\)};
 \draw (0.6000000000,-0.3259458333) node {\( 12\)};
-\draw [] (1.200000000,0.0) -- (0.0,0.9000000000);
+\draw [] (1.20,0.0) -- (0.0,0.900);
 \draw (0.8124750000,0.7497331667) node {\( ?\)};
 \draw (0.8124750000,0.7497331667) node {\( ?\)};
-\draw [] (0.0,0.9000000000) -- (0.0,0.0);
+\draw [] (0.0,0.900) -- (0.0,0.0);
 \draw (-0.2979163333,0.4500000000) node {\( 9\)};
 \draw (-0.2979163333,0.4500000000) node {\( 9\)};
-\draw [] (0.1800000000,0.1800000000) -- (0.0,0.1800000000);
-\draw [] (0.1800000000,0.1800000000) -- (0.1800000000,0.0);
+\draw [] (0.180,0.180) -- (0.0,0.180);
+\draw [] (0.180,0.180) -- (0.180,0.0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

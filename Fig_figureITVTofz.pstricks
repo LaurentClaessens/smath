@@ -82,18 +82,18 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigfigureITVTofzPICTfigureITVTofz}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=red] (0.0,0.0) -- (4.320000000,1.440000000);
-\draw [color=red] (4.800000000,0.0) -- (2.400000000,2.400000000);
-\draw [color=red] (3.600000000,3.600000000) -- (3.600000000,0.0);
-\draw [] (0.0,0.0) -- (4.800000000,0.0);
-\draw [] (4.800000000,0.0) -- (3.600000000,3.600000000);
-\draw [] (3.600000000,3.600000000) -- (0.0,0.0);
+\draw [color=red] (0.0,0.0) -- (4.32,1.44);
+\draw [color=red] (4.80,0.0) -- (2.40,2.40);
+\draw [color=red] (3.60,3.60) -- (3.60,0.0);
+\draw [] (0.0,0.0) -- (4.80,0.0);
+\draw [] (4.80,0.0) -- (3.60,3.60);
+\draw [] (3.60,3.60) -- (0.0,0.0);
 \draw []  (4.320000000,1.440000000) node [rotate=0] {$\times$};
 \draw (4.622094333,1.440000000) node {\( I\)};
 \draw (4.622094333,1.440000000) node {\( I\)};

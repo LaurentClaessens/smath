@@ -66,7 +66,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigGARYooJCnpFSZPICTGARYooJCnpFSZ}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -81,12 +81,12 @@
 \draw []  (3.000000000,3.000000000) node [rotate=0] {$\times$};
 \draw (3.032036449,3.197417492) node {\( C \)};
 \draw (3.032036449,3.197417492) node {\( C \)};
-\draw [] (0,0) -- (4.000000000,1.000000000);
-\draw [] (4.000000000,1.000000000) -- (3.000000000,3.000000000);
-\draw [] (3.000000000,3.000000000) -- (0,0);
-\draw [style=dashed] (4.375000000,2.500000000) -- (-0.8750000000,-0.5000000000);
-\draw [style=dashed] (0.8750000000,1.625000000) -- (4.625000000,0.8750000000);
-\draw [style=dashed] (1.750000000,-0.1250000000) -- (3.250000000,3.625000000);
+\draw [] (0,0) -- (4.00,1.00);
+\draw [] (4.00,1.00) -- (3.00,3.00);
+\draw [] (3.00,3.00) -- (0,0);
+\draw [style=dashed] (4.38,2.50) -- (-0.875,-0.500);
+\draw [style=dashed] (0.875,1.62) -- (4.62,0.875);
+\draw [style=dashed] (1.75,-0.125) -- (3.25,3.62);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

@@ -81,7 +81,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigRectanglegHuBZsPICTRectanglegHuBZs}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -96,13 +96,13 @@
 \draw []  (2.400000000,4.500000000) node [rotate=0] {$\times$};
 \draw (2.754470500,4.500000000) node {\( C\)};
 \draw (2.754470500,4.500000000) node {\( C\)};
-\draw [] (0.0,0.0) -- (2.400000000,0.0);
+\draw [] (0.0,0.0) -- (2.40,0.0);
 \draw (1.200000000,-0.3259458333) node {\( 8\)};
 \draw (1.200000000,-0.3259458333) node {\( 8\)};
-\draw [] (2.400000000,0.0) -- (2.400000000,4.500000000);
+\draw [] (2.40,0.0) -- (2.40,4.50);
 \draw (2.711283833,2.250000000) node {\( x\)};
 \draw (2.711283833,2.250000000) node {\( x\)};
-\draw [] (2.400000000,4.500000000) -- (0.0,0.0);
+\draw [] (2.40,4.50) -- (0.0,0.0);
 \draw (0.8276965784,2.470063480) node {\( 17\)};
 \draw (0.8276965784,2.470063480) node {\( 17\)};
 %END PSPICTURE

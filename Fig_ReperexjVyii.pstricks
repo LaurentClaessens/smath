@@ -81,7 +81,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigReperexjVyiiPICTReperexjVyii}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
@@ -106,8 +106,8 @@
 \draw []  (0,2.000000000) node [rotate=0] {$\times$};
 \draw (-0.4540746667,2.000000000) node {\( y_M\)};
 \draw (-0.4540746667,2.000000000) node {\( y_M\)};
-\draw [color=blue,style=dashed] (3.000000000,2.000000000) -- (3.000000000,0);
-\draw [color=blue,style=dashed] (3.000000000,2.000000000) -- (0,2.000000000);
+\draw [color=blue,style=dashed] (3.00,2.00) -- (3.00,0);
+\draw [color=blue,style=dashed] (3.00,2.00) -- (0,2.00);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

@@ -66,15 +66,15 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigJTQooDUZphtPICTJTQooDUZpht}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0,0) -- (3.000000000,1.000000000);
-\draw [] (3.000000000,1.000000000) -- (0.6581138829,-1.974341649);
-\draw [] (0.6581138829,-1.974341649) -- (0,0);
+\draw [] (0,0) -- (3.00,1.00);
+\draw [] (3.00,1.00) -- (0.658,-1.97);
+\draw [] (0.658,-1.97) -- (0,0);
 \draw []  (0,0) node [rotate=0] {$\times$};
 \draw (-0.3468040000,0) node {\( A\)};
 \draw (-0.3468040000,0) node {\( A\)};
@@ -84,8 +84,8 @@
 \draw []  (0.6581138829,-1.974341649) node [rotate=0] {$\times$};
 \draw (0.6581138829,-2.311008316) node {\( C\)};
 \draw (0.6581138829,-2.311008316) node {\( C\)};
-\draw [] (0.5059644256,-0.2529822128) -- (0.3794733192,0.1264911064);
-\draw [] (0.5059644256,-0.2529822128) -- (0.1264911064,-0.3794733192);
+\draw [] (0.506,-0.253) -- (0.379,0.126);
+\draw [] (0.506,-0.253) -- (0.126,-0.379);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

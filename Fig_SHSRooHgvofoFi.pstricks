@@ -114,7 +114,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigSHSRooHgvofoFiPICTSHSRooHgvofoFi}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -125,11 +125,11 @@
 \draw (-0.1101979743,-0.1669023860) node {\( A\)};
 \draw (1.599640693,0.6880169478) node {\( B\)};
 \draw (1.599640693,0.6880169478) node {\( B\)};
-\draw (0.004339498273,1.741321003) node {\( C\)};
-\draw (0.004339498273,1.741321003) node {\( C\)};
-\draw [] (0.0,0.0) -- (1.400000000,0.7000000000);
-\draw [] (1.400000000,0.7000000000) -- (0.09378221737,1.562435565);
-\draw [] (0.09378221737,1.562435565) -- (0.0,0.0);
+\draw (0.004339498250,1.741321003) node {\( C\)};
+\draw (0.004339498250,1.741321003) node {\( C\)};
+\draw [] (0.0,0.0) -- (1.40,0.700);
+\draw [] (1.40,0.700) -- (0.0938,1.56);
+\draw [] (0.0938,1.56) -- (0.0,0.0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

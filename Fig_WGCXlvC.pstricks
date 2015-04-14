@@ -78,7 +78,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigWGCXlvCPICTWGCXlvC}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
@@ -87,16 +87,16 @@
 \draw (0.3026608333,3.500000000) node {\( y\)};
 \draw [,->,>=latex] (0,-3.500000000) -- (0,3.500000000);
 %DEFAULT
-\draw [] (-3.500000000,-3.000000000) -- (1.500000000,3.000000000);
+\draw [] (-3.50,-3.00) -- (1.50,3.00);
 \draw (-1.200000000,-0.1688883333) node {\( d_1\)};
 \draw (-1.200000000,-0.1688883333) node {\( d_1\)};
-\draw [] (-1.500000000,-3.000000000) -- (3.500000000,3.000000000);
+\draw [] (-1.50,-3.00) -- (3.50,3.00);
 \draw (1.380925000,0.0) node {\( d_2\)};
 \draw (1.380925000,0.0) node {\( d_2\)};
-\draw [] (-1.666666667,-3.000000000) -- (1.666666667,3.000000000);
+\draw [] (-1.67,-3.00) -- (1.67,3.00);
 \draw (0.3809250000,0.0) node {\( d_3\)};
 \draw (0.3809250000,0.0) node {\( d_3\)};
-\draw [] (-1.500000000,3.000000000) -- (3.500000000,-3.000000000);
+\draw [] (-1.50,3.00) -- (3.50,-3.00);
 \draw (0.8000000000,-0.1688883333) node {\( d_4\)};
 \draw (0.8000000000,-0.1688883333) node {\( d_4\)};
 %OTHER STUFF

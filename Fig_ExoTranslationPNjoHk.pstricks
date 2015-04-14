@@ -62,51 +62,51 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigExoTranslationPNjoHkPICTExoTranslationPNjoHk}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (0.0,0.0) -- (0.0,3.500000000);
-\draw [color=gray,style=solid] (0.7000000000,0.0) -- (0.7000000000,3.500000000);
-\draw [color=gray,style=solid] (1.400000000,0.0) -- (1.400000000,3.500000000);
-\draw [color=gray,style=solid] (2.100000000,0.0) -- (2.100000000,3.500000000);
-\draw [color=gray,style=solid] (2.800000000,0.0) -- (2.800000000,3.500000000);
-\draw [color=gray,style=dotted] (0.3500000000,0.0) -- (0.3500000000,3.500000000);
-\draw [color=gray,style=dotted] (1.050000000,0.0) -- (1.050000000,3.500000000);
-\draw [color=gray,style=dotted] (1.750000000,0.0) -- (1.750000000,3.500000000);
-\draw [color=gray,style=dotted] (2.450000000,0.0) -- (2.450000000,3.500000000);
-\draw [color=gray,style=dotted] (0.0,0.3500000000) -- (2.800000000,0.3500000000);
-\draw [color=gray,style=dotted] (0.0,1.050000000) -- (2.800000000,1.050000000);
-\draw [color=gray,style=dotted] (0.0,1.750000000) -- (2.800000000,1.750000000);
-\draw [color=gray,style=dotted] (0.0,2.450000000) -- (2.800000000,2.450000000);
-\draw [color=gray,style=dotted] (0.0,3.150000000) -- (2.800000000,3.150000000);
-\draw [color=gray,style=solid] (0.0,0.0) -- (2.800000000,0.0);
-\draw [color=gray,style=solid] (0.0,0.7000000000) -- (2.800000000,0.7000000000);
-\draw [color=gray,style=solid] (0.0,1.400000000) -- (2.800000000,1.400000000);
-\draw [color=gray,style=solid] (0.0,2.100000000) -- (2.800000000,2.100000000);
-\draw [color=gray,style=solid] (0.0,2.800000000) -- (2.800000000,2.800000000);
-\draw [color=gray,style=solid] (0.0,3.500000000) -- (2.800000000,3.500000000);
+\draw [color=gray,style=solid] (0.0,0.0) -- (0.0,3.50);
+\draw [color=gray,style=solid] (0.700,0.0) -- (0.700,3.50);
+\draw [color=gray,style=solid] (1.40,0.0) -- (1.40,3.50);
+\draw [color=gray,style=solid] (2.10,0.0) -- (2.10,3.50);
+\draw [color=gray,style=solid] (2.80,0.0) -- (2.80,3.50);
+\draw [color=gray,style=dotted] (0.350,0.0) -- (0.350,3.50);
+\draw [color=gray,style=dotted] (1.05,0.0) -- (1.05,3.50);
+\draw [color=gray,style=dotted] (1.75,0.0) -- (1.75,3.50);
+\draw [color=gray,style=dotted] (2.45,0.0) -- (2.45,3.50);
+\draw [color=gray,style=dotted] (0.0,0.350) -- (2.80,0.350);
+\draw [color=gray,style=dotted] (0.0,1.05) -- (2.80,1.05);
+\draw [color=gray,style=dotted] (0.0,1.75) -- (2.80,1.75);
+\draw [color=gray,style=dotted] (0.0,2.45) -- (2.80,2.45);
+\draw [color=gray,style=dotted] (0.0,3.15) -- (2.80,3.15);
+\draw [color=gray,style=solid] (0.0,0.0) -- (2.80,0.0);
+\draw [color=gray,style=solid] (0.0,0.700) -- (2.80,0.700);
+\draw [color=gray,style=solid] (0.0,1.40) -- (2.80,1.40);
+\draw [color=gray,style=solid] (0.0,2.10) -- (2.80,2.10);
+\draw [color=gray,style=solid] (0.0,2.80) -- (2.80,2.80);
+\draw [color=gray,style=solid] (0.0,3.50) -- (2.80,3.50);
 %AXES
-\draw [] (0.7000000000,-0.1000000000) -- (0.7000000000,0.1000000000);
-\draw [] (1.400000000,-0.1000000000) -- (1.400000000,0.1000000000);
-\draw [] (2.100000000,-0.1000000000) -- (2.100000000,0.1000000000);
-\draw [] (2.800000000,-0.1000000000) -- (2.800000000,0.1000000000);
+\draw [] (0.700,-0.100) -- (0.700,0.100);
+\draw [] (1.40,-0.100) -- (1.40,0.100);
+\draw [] (2.10,-0.100) -- (2.10,0.100);
+\draw [] (2.80,-0.100) -- (2.80,0.100);
 \draw [,->,>=latex] (-0.5000000000,0.0) -- (3.300000000,0.0);
-\draw [] (-0.1000000000,0.7000000000) -- (0.1000000000,0.7000000000);
-\draw [] (-0.1000000000,1.400000000) -- (0.1000000000,1.400000000);
-\draw [] (-0.1000000000,2.100000000) -- (0.1000000000,2.100000000);
-\draw [] (-0.1000000000,2.800000000) -- (0.1000000000,2.800000000);
-\draw [] (-0.1000000000,3.500000000) -- (0.1000000000,3.500000000);
+\draw [] (-0.100,0.700) -- (0.100,0.700);
+\draw [] (-0.100,1.40) -- (0.100,1.40);
+\draw [] (-0.100,2.10) -- (0.100,2.10);
+\draw [] (-0.100,2.80) -- (0.100,2.80);
+\draw [] (-0.100,3.50) -- (0.100,3.50);
 \draw [,->,>=latex] (0.0,-0.5000000000) -- (0.0,4.000000000);
 %DEFAULT
-\draw [color=blue] (0.7000000000,0.7000000000) -- (2.100000000,0.7000000000);
-\draw [color=blue] (2.100000000,0.7000000000) -- (2.100000000,2.100000000);
-\draw [color=blue] (2.100000000,2.100000000) -- (0.7000000000,2.100000000);
-\draw [color=blue] (0.7000000000,2.100000000) -- (0.7000000000,0.7000000000);
-\draw [color=blue] (0.7000000000,2.100000000) -- (2.100000000,2.100000000);
-\draw [color=blue] (2.100000000,2.100000000) -- (1.400000000,2.800000000);
-\draw [color=blue] (1.400000000,2.800000000) -- (0.7000000000,2.100000000);
-\draw [color=blue] (0.7000000000,2.100000000) -- (2.100000000,0.7000000000);
-\draw [color=blue] (0.7000000000,0.7000000000) -- (2.100000000,2.100000000);
+\draw [color=blue] (0.700,0.700) -- (2.10,0.700);
+\draw [color=blue] (2.10,0.700) -- (2.10,2.10);
+\draw [color=blue] (2.10,2.10) -- (0.700,2.10);
+\draw [color=blue] (0.700,2.10) -- (0.700,0.700);
+\draw [color=blue] (0.700,2.10) -- (2.10,2.10);
+\draw [color=blue] (2.10,2.10) -- (1.40,2.80);
+\draw [color=blue] (1.40,2.80) -- (0.700,2.10);
+\draw [color=blue] (0.700,2.10) -- (2.10,0.700);
+\draw [color=blue] (0.700,0.700) -- (2.10,2.10);
 \draw (0.0,1.763333333) node {\( A\)};
 \draw (0.0,1.763333333) node {\( A\)};
 \draw (1.000285690,3.778088023) node {\( B\)};

@@ -78,7 +78,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigXSTKooZqTACGPICTXSTKooZqTACG}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -93,17 +93,17 @@
 \draw []  (2.800000000,-1.400000000) node [rotate=0] {$\times$};
 \draw (2.994649798,-1.445950584) node {\( C \)};
 \draw (2.994649798,-1.445950584) node {\( C \)};
-\draw [] (0.0,0.0) -- (0.0,-1.400000000);
+\draw [] (0.0,0.0) -- (0.0,-1.40);
 \draw (-0.2833333333,-0.7000000000) node {\( 6\)};
 \draw (-0.2833333333,-0.7000000000) node {\( 6\)};
-\draw [] (0.0,-1.400000000) -- (2.800000000,-1.400000000);
+\draw [] (0.0,-1.40) -- (2.80,-1.40);
 \draw (1.400000000,-1.704954000) node {\( 8\)};
 \draw (1.400000000,-1.704954000) node {\( 8\)};
-\draw [] (2.800000000,-1.400000000) -- (0.0,0.0);
+\draw [] (2.80,-1.40) -- (0.0,0.0);
 \draw (1.656109386,-0.4161605618) node {\( 10\)};
 \draw (1.656109386,-0.4161605618) node {\( 10\)};
-\draw [] (0.2800000000,-1.120000000) -- (0.0,-1.120000000);
-\draw [] (0.2800000000,-1.120000000) -- (0.2800000000,-1.400000000);
+\draw [] (0.280,-1.12) -- (0.0,-1.12);
+\draw [] (0.280,-1.12) -- (0.280,-1.40);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

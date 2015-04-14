@@ -66,7 +66,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigOQTDooZHOnobPICTOQTDooZHOnob}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -81,9 +81,9 @@
 \draw []  (2.598076211,1.500000000) node [rotate=0] {$\times$};
 \draw (2.791261377,1.448236191) node {\( C \)};
 \draw (2.791261377,1.448236191) node {\( C \)};
-\draw [] (0,0) -- (0,6.000000000);
-\draw [] (0,6.000000000) -- (2.598076211,1.500000000);
-\draw [] (2.598076211,1.500000000) -- (0,0);
+\draw [] (0,0) -- (0,6.00);
+\draw [] (0,6.00) -- (2.60,1.50);
+\draw [] (2.60,1.50) -- (0,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

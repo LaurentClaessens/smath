@@ -58,16 +58,16 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigfigureISQqBVuPICTfigureISQqBVu}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0.0,0.0) -- (2.800000000,0.0);
-\draw [] (2.800000000,0.0) -- (2.800000000,2.800000000);
-\draw [] (2.800000000,2.800000000) -- (0.0,2.800000000);
-\draw [] (0.0,2.800000000) -- (0.0,0.0);
+\draw [] (0.0,0.0) -- (2.80,0.0);
+\draw [] (2.80,0.0) -- (2.80,2.80);
+\draw [] (2.80,2.80) -- (0.0,2.80);
+\draw [] (0.0,2.80) -- (0.0,0.0);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -76,10 +76,10 @@
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
 \fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.700,0.700) -- (2.10,0.700) -- (2.10,0.700) -- (2.10,2.10) -- (2.10,2.10) -- (0.700,2.10) -- (0.700,2.10) -- (0.700,0.700) --  cycle;
-\draw [] (0.7000000000,0.7000000000) -- (2.100000000,0.7000000000);
-\draw [] (2.100000000,0.7000000000) -- (2.100000000,2.100000000);
-\draw [] (2.100000000,2.100000000) -- (0.7000000000,2.100000000);
-\draw [] (0.7000000000,2.100000000) -- (0.7000000000,0.7000000000);
+\draw [] (0.700,0.700) -- (2.10,0.700);
+\draw [] (2.10,0.700) -- (2.10,2.10);
+\draw [] (2.10,2.10) -- (0.700,2.10);
+\draw [] (0.700,2.10) -- (0.700,0.700);
 \draw [,->,>=latex] (2.450000000,2.940000000) -- (2.800000000,2.940000000);
 \draw [,->,>=latex] (2.450000000,2.940000000) -- (2.100000000,2.940000000);
 \draw (2.450000000,3.226111167) node {\( x\)};

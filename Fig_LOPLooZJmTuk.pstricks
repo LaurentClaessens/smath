@@ -70,7 +70,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigLOPLooZJmTukPICTLOPLooZJmTuk}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -83,12 +83,12 @@
 \draw (-0.1414213562,-0.1414213562) node {\( M \)};
 \draw (2.181117884,-0.08483107926) node {\( L \)};
 \draw (2.181117884,-0.08483107926) node {\( L \)};
-\draw [] (0.0,2.400000000) -- (0.0,0.0);
-\draw [] (0.0,0.0) -- (2.000000000,0.0);
-\draw [] (2.000000000,0.0) -- (0.0,2.400000000);
-\draw [style=dashed] (0.0,2.400000000) -- (0.6928203230,0.4000000000);
-\draw [style=dashed] (0.0,0.0) -- (0.6928203230,0.4000000000);
-\draw [style=dashed] (2.000000000,0.0) -- (0.6928203230,0.4000000000);
+\draw [] (0.0,2.40) -- (0.0,0.0);
+\draw [] (0.0,0.0) -- (2.00,0.0);
+\draw [] (2.00,0.0) -- (0.0,2.40);
+\draw [style=dashed] (0.0,2.40) -- (0.693,0.400);
+\draw [style=dashed] (0.0,0.0) -- (0.693,0.400);
+\draw [style=dashed] (2.00,0.0) -- (0.693,0.400);
 \draw (0.9877138459,0.6553098562) node {\( K\)};
 \draw (0.9877138459,0.6553098562) node {\( K\)};
 %END PSPICTURE

@@ -90,7 +90,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigWRBDooZhkhcWPICTWRBDooZhkhcW}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -105,10 +105,10 @@
 \draw []  (1.000000000,-1.000000000) node [rotate=0] {$\times$};
 \draw (1.064907285,-1.189174640) node {\( A\)};
 \draw (1.064907285,-1.189174640) node {\( A\)};
-\draw [] (1.500000000,3.000000000) -- (0,0);
-\draw [] (0,0) -- (1.000000000,-1.000000000);
-\draw [] (1.000000000,-1.000000000) -- (1.500000000,3.000000000);
-\draw [] (1.135000000,0.08000000000) -- (0.4050000000,0.8100000000);
+\draw [] (1.50,3.00) -- (0,0);
+\draw [] (0,0) -- (1.00,-1.00);
+\draw [] (1.00,-1.00) -- (1.50,3.00);
+\draw [] (1.14,0.0800) -- (0.405,0.810);
 \draw []  (1.135000000,0.08000000000) node [rotate=0] {$\times$};
 \draw (1.453999742,-0.05869544692) node {\( T\)};
 \draw (1.453999742,-0.05869544692) node {\( T\)};

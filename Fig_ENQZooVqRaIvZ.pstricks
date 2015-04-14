@@ -118,7 +118,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigENQZooVqRaIvZPICTENQZooVqRaIvZ}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -133,10 +133,10 @@
 \draw (2.718563501,-0.1684297844) node {\( C \)};
 \draw (-1.255448135,-2.408336855) node {\( D \)};
 \draw (-1.255448135,-2.408336855) node {\( D \)};
-\draw [] (0.0,0.0) -- (1.212435565,0.7000000000);
-\draw [] (1.212435565,0.7000000000) -- (2.518653348,-0.1624355655);
-\draw [] (2.518653348,-0.1624355655) -- (-1.118653348,-2.262435565);
-\draw [] (-1.118653348,-2.262435565) -- (0.0,0.0);
+\draw [] (0.0,0.0) -- (1.21,0.700);
+\draw [] (1.21,0.700) -- (2.52,-0.163);
+\draw [] (2.52,-0.163) -- (-1.12,-2.26);
+\draw [] (-1.12,-2.26) -- (0.0,0.0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

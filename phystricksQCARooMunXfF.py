@@ -21,6 +21,7 @@ def QCARooMunXfF():
 
     no_symbol(trig.vertices)
 
+    pspict.comment="The circle is dashed"
     pspict.DrawGraphs(O,trig,cer,rh)
     fig.no_figure()
     fig.conclude()

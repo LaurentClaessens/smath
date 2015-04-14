@@ -82,7 +82,7 @@
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigTAIooroZRsPICTTAIooroZRs}
-\begin{tikzpicture}[xscale=1,yscale=1,inner sep=0pt,outer sep=0pt]
+\begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
@@ -103,14 +103,14 @@
 \draw []  (0.8598076211,2.550000000) node [rotate=0] {$\times$};
 \draw (0.8598076211,2.886666667) node {\( S\)};
 \draw (0.8598076211,2.886666667) node {\( S\)};
-\draw [] (1.800000000,0.0) -- (0.8598076211,2.550000000);
-\draw [] (0.0,0.0) -- (1.800000000,0.0);
-\draw [] (1.800000000,0.0) -- (2.579422863,0.4500000000);
-\draw [] (2.579422863,0.4500000000) -- (0.8598076211,2.550000000);
-\draw [] (0.0,0.0) -- (0.8598076211,2.550000000);
-\draw [style=dashed] (0.0,0.0) -- (0.7794228634,0.4500000000);
-\draw [style=dashed] (0.7794228634,0.4500000000) -- (2.579422863,0.4500000000);
-\draw [style=dashed] (0.8598076211,2.550000000) -- (0.7794228634,0.4500000000);
+\draw [] (1.80,0.0) -- (0.860,2.55);
+\draw [] (0.0,0.0) -- (1.80,0.0);
+\draw [] (1.80,0.0) -- (2.58,0.450);
+\draw [] (2.58,0.450) -- (0.860,2.55);
+\draw [] (0.0,0.0) -- (0.860,2.55);
+\draw [style=dashed] (0.0,0.0) -- (0.779,0.450);
+\draw [style=dashed] (0.779,0.450) -- (2.58,0.450);
+\draw [style=dashed] (0.860,2.55) -- (0.779,0.450);
 \draw []  (0.6448557158,1.912500000) node [rotate=0] {$\times$};
 \draw (0.4013400263,2.190588023) node {\( I\)};
 \draw (0.4013400263,2.190588023) node {\( I\)};
