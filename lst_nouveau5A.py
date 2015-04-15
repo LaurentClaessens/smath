@@ -24,8 +24,9 @@ ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 proportionnali=commun.OneChapter("Proportionnalité",classe)
 parallelogramme=commun.OneChapter("Parallélogramme",classe)
 ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
+lmd=commun.OneChapter("Longueurs, masses, durées",classe)
 
-actu5=ops_rel
+actu5=lmd
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
