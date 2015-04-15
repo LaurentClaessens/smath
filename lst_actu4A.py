@@ -18,11 +18,10 @@ trig_para=commun.OneChapter("Droite des milieux","4A")
 ops_fract=commun.OneChapter("Opérations en écriture fractionnaire","4A")
 thales=commun.OneChapter("Théorème de Thalès","4A")
 manip_litt=commun.OneChapter("Manipulations littérales","4A")
+pyramide=commun.OneChapter("Pyramides et cônes","4A")
 
-actu4=trig_para
-actu4=ops_fract
-actu4=thales
 actu4=manip_litt
+actu4=pyramide
 actu4.set_filename=set_filename
 actu4.write_the_file()
 
