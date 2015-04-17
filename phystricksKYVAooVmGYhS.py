@@ -24,11 +24,12 @@ def KYVAooVmGYhS():
 
     a1=Angle(C,B,P,r=0.3)
     a1.put_mark(0.6,angle=None,text="\SI{100}{\degree}",automatic_place=(pspict,""))
-    a2=Angle(p2.F,D,Q)
+    a2=Angle(p2.F,D,C)
     a2.put_mark(0.6,angle=None,text="\SI{30}{\degree}",automatic_place=(pspict,""))
 
     no_symbol(O)
 
+    pspict.comment="Les angles sont marqués par de vrais arcs de cercles à l'écran"
     pspict.DrawGraphs(O,d1,d2,p1,p2,a1,a2)
     fig.no_figure()
     fig.conclude()
