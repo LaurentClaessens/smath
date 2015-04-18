@@ -8,6 +8,7 @@ Comment tester et recompiler ? Réponse dans 'recompilation.txt'
 from phystricks import *
 import sys
 
+from phystricksYLPFooXzdaFr import YLPFooXzdaFr
 from phystricksGJMFooFKVCyK import GJMFooFKVCyK
 from phystricksUVWMooNNnbbG import UVWMooNNnbbG
 from phystricksCXDBooJMfhRr import CXDBooJMfhRr
@@ -1004,10 +1005,9 @@ figures_list.append(SXKLooPzFTnQ)
 figures_list.append(KJWQooEicWkQ)
 figures_list.append(CXDBooJMfhRr)
 figures_list.append(UVWMooNNnbbG)
-figures_list.append(GJMFooFKVCyKk)
+figures_list.append(GJMFooFKVCyK)
+figures_list.append(YLPFooXzdaFr)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
