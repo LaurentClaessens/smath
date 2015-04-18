@@ -23,8 +23,11 @@ def XSMDwcv():
     BM=Segment(B,M)
     BM.put_mark(0.2,0,"\( \Delta y\)",automatic_place=pspict)
     AM=Segment(A,M)
-    AM.put_mark(-0.2,AM.advised_mark_angle(pspict),"\( \Delta x\)",automatic_place=pspict)
+    AM.put_mark(-0.3,AM.advised_mark_angle(pspict),"\( \Delta x\)",automatic_place=pspict)
 
+    pspict.math_BB.append(Point(0,0),pspict)
+
+    pspict.comment="The grid goes from (-2,0) to (5,6). Id est, it contains (0,0)"
     pspict.DrawGraphs(f,A,B,M,BM,AM,measure_p)
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()

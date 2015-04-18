@@ -54,11 +54,13 @@ class OneChapter(object):
         self.chapter_title=chapter_title
         self.exercice_filename=self.group+"exercices.tex"
         self.input_filename=self.smath_input_line().replace("\input{","").replace("}","").replace("\n","")
+        print("BTMKooUKyCNn",self.input_filename)
         self._count_section=0
     def smath_input_line(self):
         smath_lines=open("smath.tex").readlines()
+        # Searching for the line \chapter{Mon titre}
         for i,l in enumerate(smath_lines):
-            if self.chapter_title in l:
+            if "{{{}}}".format(self.chapter_title) in l:
                 line=i
         return smath_lines[line+1]
     def preamble_lines(self):
@@ -82,7 +84,7 @@ class OneChapter(object):
         return n
     def count_section(self,text=None,i_line=None):
         """
-        return the number of section from the beggining to the line number 'i_line':
+        return the number of section from the beginning to the line number 'i_line':
         """
         if text==None:
             return self._count_section
