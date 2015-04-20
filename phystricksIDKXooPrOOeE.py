@@ -52,11 +52,12 @@ def IDKXooPrOOeE():
     rh=RightAngle( Segment(S,I),Segment(I,B),0.3,0,1 )
     rhA=RightAngle( Segment(A,B),Segment(A,D),0.3,1,1 )
     rhC=RightAngle( Segment(D,C),Segment(C,B),0.3,0,1 )
+    rhD=RightAngleAOB( A,D,C,0.3)
 
 
     no_symbol(A,B,C,D,S)
     
-    pspict.DrawGraphs(A,B,C,D,S,BS,AB,BC,CS,AS,AD,DC,SD,hauteur,minidig,I,rh,rhA,rhC)
+    pspict.DrawGraphs(A,B,C,D,S,BS,AB,BC,CS,AS,AD,DC,SD,hauteur,minidig,I,rh,rhA,rhC,rhD)
 
     fig.no_figure()
     fig.conclude()
