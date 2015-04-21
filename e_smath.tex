@@ -255,6 +255,10 @@ filecolor=magenta   % couleur des textes qui sont des liens
         %\newenvironment{mental}{\refstepcounter{numExoMental}\begin{center} Question \arabic{numExoMental}\end{center}}{}
 
 
+        \newcounter{exorituel}
+        \setcounter{exorituel}{0}
+        \newenvironment{rituel}{\refstepcounter{exorituel}\newpage\begin{center}\fbox{\huge Exercice rituel \arabic{exorituel}\end{center}\vfill}{\vfill}
+
 \newcommand{\enteteInterro}[3]{
     \begin{center}
         #1\\
