@@ -14,7 +14,7 @@ def MXGVooOFDqLq():
     angle.put_mark(0.2,angle=None,added_angle=0,text="\( a\)",automatic_place=(pspict,""))
 
     trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",automatic_place=(pspict,""))
-    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( 12\)",automatic_place=(pspict,""))
+    trig.edges[2].put_mark(0.1,angle=None,added_angle=180,text="\( 12\)",automatic_place=(pspict,""))
     trig.put_mark(0.2,pspict=pspict)
 
     no_symbol(trig.vertices)
