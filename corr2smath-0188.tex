@@ -3,7 +3,7 @@
 %   Laurent Claessens
 % See the file fdl-1.3.txt for copying conditions.
 
-%\begin{corrige}{2smath-0188}
+\begin{corrige}{2smath-0188}
 
 \begin{center}
     Correction de l'exercice 123
@@ -18,27 +18,31 @@ parce que la pyramide entre trois fois dans le prisme correspondant.
     \item
         L'aire d'un carré de \SI{4}{\milli\meter} de côté est \SI{16}{\milli\meter\squared}. Vu que la hauteur est \SI{10}{\milli\meter}, le volume est
         \begin{equation}
-            \frac{ 16\times 10 }{ 3 }=\frac{ 160 }{ 3 }\simeq \SI{53.3}{\milli\meter\cubed}
+            \frac{ \SI{16}{\milli\meter\squared}\times \SI{10}{\milli\meter} }{ 3 }=\frac{ 160 }{ 3 }\si{\milli\meter\cubed}\simeq \SI{53.3}{\milli\meter\cubed}
         \end{equation}
     \item
-        L'aire de la base est donné par la formule de l'aire du cercle : \( \pi\times r^2\) c'est à dire
+        L'aire de la base est donné par la formule de l'aire du disque : \( \pi\times r^2\) c'est à dire
         \begin{equation}
             \pi\times 4^2=16\pi.
         \end{equation}
-        Pour le volume, on multiplie par la hauteur et on divise par \( 3\) :
+        L'aire de la base est donc de \( \SI{16\pi}{\centi\meter\squared}\). Pour le volume, on multiplie par la hauteur et on divise par \( 3\) :
         \begin{equation}
-            \frac{ 16\pi\times 9 }{ 3 }=16\times 3\pi=\SI{48\pi}{\centi\meter\cubed}.
+            \frac{ 16\pi\times 9 }{ 3 }=16\times 3\pi=48\pi.
         \end{equation}
+        Le volume du cône est donc de \( \SI{48\pi}{\centi\meter\cubed}\).
     \item
         Le plus long des trois côtés de la base est \SI{85}{\centi\meter}; la base se présente donc sous la forme
         \begin{center}
             \input{Fig_SWYDooBCeFJb.pstricks}
         \end{center}
-        L'aire de cela est \( (84\times 13)\div 2=\SI{546}{\centi\meter\squared}\).
+        L'aire de ce triangle est 
+        \begin{equation}
+            \frac{ \SI{84}{\centi\meter}\times \SI{13}{\centi\meter} }{ 3 }=\SI{546}{\centi\meter\squared}.
+        \end{equation}
 
         En ce qui concerne le volume de la pyramide,
         \begin{equation}
-            \frac{ 546\times 17 }{ 3 }=\SI{3094}{\centi\meter\cubed}.
+            \frac{ \SI{546}{\centi\meter\squared}\times \SI{17}{\centi\meter} }{ 3 }=\SI{3094}{\centi\meter\cubed}.
         \end{equation}
     \item
     En multipliant le rayon d'un cercle par \( k\), on multiplie par \( k^2\) son aire. En effet, au lieu d'avoir un rayon \( 4\), le cercle a un rayon \( 4k\) et son aire devient
@@ -47,8 +51,13 @@ parce que la pyramide entre trois fois dans le prisme correspondant.
     \end{equation}
     Par exemple, \( (3\times 4)^2=12^2=144\) ou \( (6\times 4)^2=24^2=576\).
 
-    Le volume de la pyramide est donc également multiplié par \( k^2\).
+    Le volume du cône est donc également multiplié par \( k^2\).
+
+    Le volume du nouveau cône est donc \( \SI{48\pi k^2}{\centi\meter\cubed}\).
 \item
+
+    Note : dans cet exercice, aucune unité n'est donnée. Nous n'en notons donc pas\footnote{Si vous êtes mal à l'aise avec cela, considérez tout en centimètres par exemple.}.
+
     La base est carrée et un de ses côtés mesure \( 4\), donc l'aire de la base est \( 16\). En ce qui concerne la hauteur, il faut étudier le triangle rectangle \( IBS\), dont l'angle en \( I\) est droit. Par le théorème de Pythagore,
     \begin{equation}
         IB^2+IS^2=SB^2,
@@ -67,4 +76,4 @@ parce que la pyramide entre trois fois dans le prisme correspondant.
 
 \end{enumerate}
 
-%\end{corrige}
+\end{corrige}
