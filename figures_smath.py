@@ -199,8 +199,8 @@ from phystricksXYXooNdhQer import XYXooNdhQer
 from phystricksRBEooLYHhMX import RBEooLYHhMX
 from phystricksGVGooXlzMMh import GVGooXlzMMh
 from phystricksYDAooMNHhCN import YDAooMNHhCN
-from phystricksZSAooVHmHWd import ZSAooVHmHWd
 from phystricksKUUooRcCjkQ import KUUooRcCjkQ
+from phystricksZSAooVHmHWd import ZSAooVHmHWd
 from phystricksFDOooRCCWGn import FDOooRCCWGn
 from phystricksGLVooNqioTo import GLVooNqioTo   
 from phystricksAKLooNbKioN import AKLooNbKioN   # Plusieurs dessins
@@ -594,7 +594,6 @@ figures_list.append(CorSSTXPQVjn)
 figures_list.append(GraphInterfQVfSf)
 figures_list.append(ParaboleResumeHNiyfR)
 figures_list.append(ParaboleResumeSzaWaG)
-figures_list.append(SimulBinNWxfTN)
 figures_list.append(FnInterrobgepC)
 figures_list.append(RouletteACaVAA)
 figures_list.append(PetiteBinomialelzbdWl)
@@ -966,7 +965,6 @@ figures_list.append(UOEOooLxhpSC)
 figures_list.append(VXDJooBGRpbL)
 figures_list.append(BAHMooAGUdjV)
 figures_list.append(FTKEooCLvbNp)
-figures_list.append(ZSAooVHmHWd)        # Une seule des deux figures est utilisée
 figures_list.append(ENQZooVqRaIv)
 figures_list.append(LLBQooAjaorQ)
 figures_list.append(ZUVLooJNWbPB)
@@ -1017,6 +1015,8 @@ figures_list.append(SWYDooBCeFJb)
 figures_list.append(YDTGooZGkkei)
 figures_list.append(XTGXooDVcEZs)
 figures_list.append(HYVFooTHaDDQ)
+figures_list.append(ZSAooVHmHWd)        # Une seule des deux figures est utilisée
+figures_list.append(SimulBinNWxfTN)     # Vu qu'il y a de l'aléatoire, le fichier intermédiaire fait toujours un Warning
 """
 figures_list.append(<++>)
 figures_list.append(<++>)
