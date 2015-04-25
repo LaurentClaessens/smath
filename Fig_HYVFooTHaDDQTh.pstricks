@@ -11,10 +11,6 @@
 \makeatletter\@ifundefined{lengthOfhomemokyDSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigHYVFooTHaDDQTh.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( P\)}}%
-\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfhomemokyDSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( P\)}}%
-\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\totalheightof{\( A \)}}%
 \immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDSagesrcbinsageipython}{\widthof{\( A \)}}%
@@ -89,8 +85,8 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.1878116083,-0.06875172583) node {\( A \)};
-\draw (-0.1878116083,-0.06875172583) node {\( A \)};
+\draw (-0.1878116083,-0.06875172584) node {\( A \)};
+\draw (-0.1878116083,-0.06875172584) node {\( A \)};
 \draw (3.177260500,-0.09262135402) node {\( B \)};
 \draw (3.177260500,-0.09262135402) node {\( B \)};
 \draw (1.915064945,1.795327840) node {\( C \)};
@@ -107,9 +103,6 @@
 \draw (1.500000000,-0.3138885000) node {\( M\)};
 \draw [] (1.83,1.16) -- (1.66,1.40);
 \draw [] (1.83,1.16) -- (2.06,1.35);
-\draw []  (3.000000000,2.000000000) node [rotate=0] {$\times$};
-\draw (3.295958181,2.225727081) node {\( P\)};
-\draw (3.295958181,2.225727081) node {\( P\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
