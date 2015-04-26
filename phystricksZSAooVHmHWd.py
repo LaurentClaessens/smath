@@ -1,10 +1,9 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 def ZSAooVHmHWd():
-    pspicts,figs = IndependentPictures("ZSAooVHmHWd",2)
+    pspict,fig = SinglePicture("ZSAooVHmHWd")
 
-    for psp in pspicts:
-        psp.dilatation(0.6)
+    pspict.dilatation(0.6)
 
     O=Point(0,0)
     circonscrit=Circle(  O,3  )
@@ -27,15 +26,14 @@ def ZSAooVHmHWd():
     for med in mediatrices :
         med.parameters.style="dashed"
 
-    A.put_mark(0.2,A.advised_mark_angle(pspicts),"\( A\)",automatic_place=(pspicts,"corner"))
-    B.put_mark(0.2,B.advised_mark_angle(pspicts),"\( B\)",automatic_place=(pspicts,"corner"))
-    C.put_mark(0.2,C.advised_mark_angle(pspicts),"\( C\)",automatic_place=(pspicts,"corner"))
-    O.put_mark(0.4,0,"\( O\)",automatic_place=(pspicts,"W"))
+    A.put_mark(0.2,A.advised_mark_angle(pspict),"\( A\)",automatic_place=(pspict,"corner"))
+    B.put_mark(0.2,B.advised_mark_angle(pspict),"\( B\)",automatic_place=(pspict,"corner"))
+    C.put_mark(0.2,C.advised_mark_angle(pspict),"\( C\)",automatic_place=(pspict,"corner"))
+    O.put_mark(0.4,0,"\( O\)",automatic_place=(pspict,"W"))
 
-    pspicts[0].DrawGraphs(trig,circonscrit,A,B,C,O)
-    pspicts[1].DrawGraphs(trig,mediatrices,circonscrit,A,B,C,O)
+    pspict.DrawGraphs(trig,circonscrit,A,B,C,O)
+    pspict.DrawGraphs(trig,mediatrices,circonscrit,A,B,C,O)
 
-    for fig in figs:
-        fig.no_figure()
-        fig.conclude()
-        fig.write_the_file()
+    fig.no_figure()
+    fig.conclude()
+    fig.write_the_file()

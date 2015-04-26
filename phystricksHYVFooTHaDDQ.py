@@ -7,7 +7,7 @@ def HYVFooTHaDDQ():
 
     Ap=Point(0,0)
     Bp=Point(3,0)
-    Cp=Point(0.5,2)
+    Cp=Segment(Ap,Bp).midpoint()+(0,2)
     trig=Polygon(Ap,Bp,Cp).rotation(25)
     A=trig.vertices[0]
     B=trig.vertices[1]
@@ -18,40 +18,43 @@ def HYVFooTHaDDQ():
     trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
 
     ang=AngleAOB(A,C,B)
-    ang.put_mark(0.2,angle=None,added_angle=0,text="\SI{34}{\degree}",automatic_place=(pspicts,""))
+    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",automatic_place=(pspicts,""))
     no_symbol(trig.vertices)
     pspicts[0].DrawGraphs(trig,M,ang)
 
-
-    trig=Polygon(Ap,Bp,Cp).rotation(47)
+    
+    Cpp=Segment(A,B).midpoint()+(0,2)
+    trig=Polygon(Ap,Bp,Cpp).rotation(47)
     trig.put_mark(0.2,pspict=pspicts)
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]
     M=trig.edges[0].midpoint()
-    cod1=trig.edges[0].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspicts,""))
+    cod1=trig.edges[1].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
     cod2=trig.edges[2].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
     CM=Segment(C,M)
     rh=RightAngleAOB(C,M,B)
+    no_symbol(trig.vertices)
     pspicts[1].DrawGraphs(trig,M,CM,rh,cod1,cod2)
 
-    trig=Polygon(Ap,Bp,Cp).rotation(47)
+    trig=Polygon(Ap,Bp,Cpp).rotation(-20)
     trig.put_mark(0.2,pspict=pspicts)
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]
     M=trig.edges[0].midpoint()
-    cod1=trig.edges[0].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
-    cod2=trig.edges[2].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspicts,""))
     CM=Segment(C,M)
     rh=RightAngleAOB(C,M,B)
     ang=AngleAOB(M,A,C)
-    ang.put_mark(0.2,angle=None,added_angle=0,text="\SI{45}{\degree}",automatic_place=(pspicts,""))
-    pspicts[2].DrawGraphs(trig,M,CM,rh,cod1,cod2)
+    ang.put_mark(0.3,angle=None,added_angle=0,text="\SI{45}{\degree}",automatic_place=(pspicts,""))
+    no_symbol(trig.vertices)
+    pspicts[2].DrawGraphs(trig,M,CM,rh,ang)
 
 
-    Cp=Circle(  Segment(A,B).midpoint(),1    ).get_point(30)
-    trig=Polygon(Ap,Bp,Cp).rotation(0)
+    Cp=CircleOA(  Segment(Ap,Bp).midpoint(),Ap    ).get_point(50)
+    trig=Polygon(Ap,Bp,Cp)
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]

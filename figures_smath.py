@@ -1010,7 +1010,7 @@ figures_list.append(CXDBooJMfhRr)
 figures_list.append(UVWMooNNnbbG)
 figures_list.append(GJMFooFKVCyK)
 figures_list.append(YLPFooXzdaFr)
-figures_list.append(XABSooLSRHxF)
+figures_list.append(XABSooLSRHxF)   # Crée les figures PDNJooMoHgCM et EIHJooJrGgmN
 figures_list.append(SWYDooBCeFJb)
 figures_list.append(YDTGooZGkkei)
 figures_list.append(XTGXooDVcEZs)
