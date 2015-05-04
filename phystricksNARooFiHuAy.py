@@ -17,7 +17,7 @@ def NARooFiHuAy():
     B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
 
-    rh=RightAngle(  triangle.edges[0],triangle.edges[1],1,0,1)
+    rh=RightAngle(  triangle.edges[0],triangle.edges[1],0,1)
 
     pspict.DrawGraphs(triangle,A,B,C,rh)
     fig.no_figure()

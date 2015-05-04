@@ -20,9 +20,9 @@ def KUMFooSHPFkG():
 
     mes_car=[    s.get_code( n=1,d=0.1,l=0.3,angle=45,pspict=pspict ) for s in carre.edges     ]
 
-    rh=RightAngle( Segment(A,E),Segment(E,B),0.4,0,1  )
-    rhc1=RightAngle( Segment(A,B),Segment(A,D),0.4,1,1  )
-    rhc2=RightAngle( Segment(A,B),Segment(B,C),0.4,0,1  )
+    rh=RightAngle( Segment(A,E),Segment(E,B),0,1  )
+    rhc1=RightAngle( Segment(A,B),Segment(A,D),1,1  )
+    rhc2=RightAngle( Segment(A,B),Segment(B,C),0,1  )
 
     mesAE=trig.edges[1].get_mark(0.1,angle=trig.edges[1].advised_mark_angle(pspict)+180,text="\( 2\)",mark_point=None,automatic_place=pspict)
     mesEB=trig.edges[2].get_mark(0.1,angle=trig.edges[2].advised_mark_angle(pspict)+180,text="\( 7\)",mark_point=None,automatic_place=pspict)

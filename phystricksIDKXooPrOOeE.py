@@ -49,10 +49,10 @@ def IDKXooPrOOeE():
     S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
     I.put_mark(0.2,angle=90+45,text="\( I\)",automatic_place=(pspict,""))
 
-    rh=RightAngle( Segment(S,I),Segment(I,B),0.3,0,1 )
-    rhA=RightAngle( Segment(A,B),Segment(A,D),0.3,1,1 )
-    rhC=RightAngle( Segment(D,C),Segment(C,B),0.3,0,1 )
-    rhD=RightAngleAOB( A,D,C,0.3)
+    rh=RightAngle( Segment(S,I),Segment(I,B),0,1 )
+    rhA=RightAngle( Segment(A,B),Segment(A,D),1,1 )
+    rhC=RightAngle( Segment(D,C),Segment(C,B),0,1 )
+    rhD=RightAngleAOB( A,D,C,r=0.3)
 
 
     no_symbol(A,B,C,D,S)

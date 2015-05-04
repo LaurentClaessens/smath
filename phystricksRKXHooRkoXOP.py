@@ -16,7 +16,7 @@ def RKXHooRkoXOP():
     trig.put_mark(0.2,text_list=["\( A\)","\( E\)","\( L\)"],pspict=pspict)
     cm5=Segment(A,L).get_mark(0.2,None,"\SI{5}{\centi\meter}",automatic_place=(pspict,""))
 
-    rh=RightAngle(trig.edges[0],trig.edges[1],0.3,0,1)
+    rh=RightAngle(trig.edges[0],trig.edges[1],0,1)
     ang=Angle(A,L,E)
     ang.put_mark(0.3,None,"\SI{50}{\degree}",automatic_place=(pspict,""))
 

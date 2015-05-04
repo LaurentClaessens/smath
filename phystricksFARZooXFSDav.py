@@ -13,7 +13,7 @@ def FARZooXFSDav():
     trig=Polygon(K,L,M)
     trig.put_mark(0.2,points_names="KLM",pspict=pspict)
     hauteur=Segment(M,S)
-    rh=RightAngle(hauteur,Segment(K,L),0.2,0,0)
+    rh=RightAngleAOB(M,S,K,0,0)
 
     hauteur.put_mark(0.2,angle=None,text="\( 8\)",automatic_place=(pspict,""))
     mx=Segment(S,K).get_mark(0.2,angle=None,text="\( x\)",automatic_place=(pspict,""))

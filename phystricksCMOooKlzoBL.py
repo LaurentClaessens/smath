@@ -12,7 +12,7 @@ def CMOooKlzoBL():
     B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
 
-    rh=RightAngle( Segment(B,A),Segment(C,B),0.4,1,0 )
+    rh=RightAngle( Segment(B,A),Segment(C,B),1,0 )
 
     trig=Polygon(A,B,C)
     trig.edges[0].put_mark(0.2,-90,"\( 1.5\)",automatic_place=(pspict,"N"))

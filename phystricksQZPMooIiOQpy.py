@@ -19,7 +19,7 @@ def QZPMooIiOQpy():
         cot=triangle.edges[ (i+1)%3 ]
         hauteur=cot.orthogonal_trough(P).dilatation(1.5)
         hauteur.parameters.style="dashed"
-        rh=RightAngle(hauteur,cot,0.2,0,0)
+        rh=RightAngle(hauteur,cot,0,0)
         pspicts[0].DrawGraphs(hauteur)
         pspicts[1].DrawGraphs(hauteur,rh)
 

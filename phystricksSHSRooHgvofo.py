@@ -35,7 +35,7 @@ def SHSRooHgvofo():
     # Deuxième figure
     # Celui-ci est rectangle
     trig=triangles[1]
-    rh=RightAngle( trig.edges[0],trig.edges[2],0.3,1,0  )
+    rh=RightAngle( trig.edges[0],trig.edges[2],1,0  )
     pspicts[1].DrawGraphs(rh)
 
     # Troisième figure

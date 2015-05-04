@@ -25,7 +25,7 @@ def GSPNooCOfCGS():
         A.put_mark(0.2,None,"\( "+symbol+"\)",automatic_place=(pspict,""))
         Ap.put_mark(0.2,-90,"\( "+symbol+"'\)",automatic_place=(pspict,""))
         AAp=Segment(A,Ap)
-        rh=RightAngle(  Segment(O,Ap),Segment(Ap,A),0.2, 0,1  )
+        rh=RightAngle(  Segment(O,Ap),Segment(Ap,A), 0,1  )
         for S in [A,Ap]:
             S.parameters.symbol=""
         pspict.DrawGraphs(A,Ap,AAp,rh)

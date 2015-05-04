@@ -12,7 +12,7 @@ def JJGooMMFWLs():
     B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"S"))
     C.put_mark(0.2,0,"\( C\)",automatic_place=(pspict,"W"))
 
-    rh=RightAngle(  Segment(C,A),Segment(C,B),1.5,1,1 )
+    rh=RightAngle(  Segment(C,A),Segment(C,B),1,1 )
 
     trig=Polygon(A,B,C)
     trig.edges[0].put_mark(0.2,trig.edges[0].advised_mark_angle(pspict)*degree,"\( 13\)",automatic_place=(pspict,"corner"))

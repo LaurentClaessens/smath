@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigECQDooWEpuCM.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$A$}}%
-\immediate\write\writeOfphystricks{totalheightof019e9892786e493964e145e7c5cf7b700314e53b:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{$A$}}%
-\immediate\write\writeOfphystricks{widthof019e9892786e493964e145e7c5cf7b700314e53b:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$B$}}%
-\immediate\write\writeOfphystricks{totalheightofff5fb3d775862e2123b007eb4373ff6cc1a34d4e:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{$B$}}%
-\immediate\write\writeOfphystricks{widthofff5fb3d775862e2123b007eb4373ff6cc1a34d4e:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\totalheightof{$C$}}%
-\immediate\write\writeOfphystricks{totalheightofc3355896da590fc491a10150a50416687626d7cc:\the\lengthOfDfiguressmathDpy-}
-\setlength{\lengthOfDfiguressmathDpy}{\widthof{$C$}}%
-\immediate\write\writeOfphystricks{widthofc3355896da590fc491a10150a50416687626d7cc:\the\lengthOfDfiguressmathDpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$A$}}%
+\immediate\write\writeOfphystricks{totalheightof019e9892786e493964e145e7c5cf7b700314e53b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$A$}}%
+\immediate\write\writeOfphystricks{widthof019e9892786e493964e145e7c5cf7b700314e53b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$B$}}%
+\immediate\write\writeOfphystricks{totalheightofff5fb3d775862e2123b007eb4373ff6cc1a34d4e:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$B$}}%
+\immediate\write\writeOfphystricks{widthofff5fb3d775862e2123b007eb4373ff6cc1a34d4e:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$C$}}%
+\immediate\write\writeOfphystricks{totalheightofc3355896da590fc491a10150a50416687626d7cc:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$C$}}%
+\immediate\write\writeOfphystricks{widthofc3355896da590fc491a10150a50416687626d7cc:\the\lengthOfDOTfiguressmathDOTpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -85,8 +85,8 @@
 \draw [] (4.00,-1.00) -- (4.00,2.00);
 \draw [] (4.00,2.00) -- (0,0);
 \draw [] (-0.800,0) -- (4.80,0);
-\draw [] (3.80,0.200) -- (3.80,0);
-\draw [] (3.80,0.200) -- (4.00,0.200);
+\draw [] (3.70,0.300) -- (3.70,0);
+\draw [] (3.70,0.300) -- (4.00,0.300);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

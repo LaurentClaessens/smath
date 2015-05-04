@@ -19,7 +19,7 @@ def GCFSooTCJfOZ():
         p.parameters.symbol=""
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
-    rh=RightAngle(Segment(A,B),Segment(B,C),0.2,0,1)
+    rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
 
     m1=Segment(A,B).get_mark(0.15,None,length_list[0],automatic_place=(pspicts,""))
     m2=Segment(B,C).get_mark(0.15,None,length_list[1],automatic_place=(pspicts,""))
@@ -44,7 +44,7 @@ def GCFSooTCJfOZ():
         p.parameters.symbol=""
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
-    rh=RightAngle(Segment(A,B),Segment(B,C),0.5,0,1)
+    rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
     m1=Segment(B,A).get_mark(0.2,None,length_list[0],automatic_place=(pspicts,""))
     m2=Segment(C,B).get_mark(0.2,None,length_list[1],automatic_place=(pspicts,""))
     m3=Segment(A,C).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))
@@ -67,7 +67,7 @@ def GCFSooTCJfOZ():
         p.parameters.symbol=""
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
-    rh=RightAngle(Segment(A,B),Segment(B,C),0.3,0,1)
+    rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
     m1=Segment(A,B).get_mark(0.2,None,length_list[0],automatic_place=(pspicts,""))
     m2=Segment(B,C).get_mark(0.2,None,length_list[1],automatic_place=(pspicts,""))
     m3=Segment(C,A).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))
@@ -89,7 +89,7 @@ def GCFSooTCJfOZ():
         p.parameters.symbol=""
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
-    rh=RightAngle(Segment(A,B),Segment(B,C),0.3,0,1)
+    rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
     m1=Segment(A,B).get_mark(0.2,None,length_list[0],automatic_place=(pspicts,""))
     m2=Segment(B,C).get_mark(0.2,None,length_list[1],automatic_place=(pspicts,""))
     m3=Segment(C,A).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))

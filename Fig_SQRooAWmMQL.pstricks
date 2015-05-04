@@ -8,7 +8,7 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigSQRooAWmMQL.phystricks.aux%
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
@@ -64,10 +64,10 @@
 \draw [] (1.00,0) -- (0.800,1.00);
 \draw [] (0.800,1.00) -- (0,1.00);
 \draw [] (0,1.00) -- (0,0);
-\draw [] (0.200,0.800) -- (0.200,1.00);
-\draw [] (0.200,0.800) -- (0,0.800);
-\draw [] (0.200,0.200) -- (0,0.200);
-\draw [] (0.200,0.200) -- (0.200,0);
+\draw [] (0.300,0.700) -- (0.300,1.00);
+\draw [] (0.300,0.700) -- (0,0.700);
+\draw [] (0.300,0.300) -- (0,0.300);
+\draw [] (0.300,0.300) -- (0.300,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

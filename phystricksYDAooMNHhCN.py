@@ -20,7 +20,7 @@ def YDAooMNHhCN():
     gen_c[0].put_mark(0.2,-90,"\( b\)",automatic_place=(pspicts,"N"))
     gen_c[1].put_mark(0.2,45,"\( c\)",automatic_place=(pspicts,"corner"))
     gen_c[2].put_mark(0.2,180,"\( a\)",automatic_place=(pspicts,"E"))
-    gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],0.2,1,0  )
+    gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],1,0  )
     gen_alpha=Angle(tC,tB,tA)
     gen_alpha.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
     gen_beta=Angle( tA,tC,tB)

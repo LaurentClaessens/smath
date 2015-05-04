@@ -28,7 +28,7 @@ def MRBWooRCSkaB():
     for i in [0,1,2]:
         cot=triangle.edges[i]
         med=mediatrices[i]
-        rh=RightAngle(med,cot,0.2,0,0)
+        rh=RightAngle(med,cot,0,0)
         pspict.DrawGraphs(rh)
 
     pspict.DrawGraphs(triangle,mediatrices,O)

@@ -15,7 +15,7 @@ def XSTKooZqTACG():
     triangle.edges[1].put_mark(0.2,triangle.edges[1].advised_mark_angle(pspict)+180,"\( 8\)",automatic_place=(pspict,"N"))
     triangle.edges[2].put_mark(0.2,triangle.edges[2].advised_mark_angle(pspict)+180,"\( 10\)",automatic_place=(pspict,"corner"))
 
-    rh=RightAngle(  triangle.edges[0],triangle.edges[1],0.4,0,1 )
+    rh=RightAngle(  triangle.edges[0],triangle.edges[1],0,1 )
 
     pspict.DrawGraphs(triangle,rh)
     fig.no_figure()

@@ -1062,6 +1062,77 @@ figures_list.append(<++>)
 figures_list.append(<++>)
 """
 
+figures_list=[]
+
+# Á partir d'ici c'est à supprimer
+
+
+
+
+figures_list.append(DIDMooOJHGra)
+figures_list.append(BAHMooAGUdjV)
+figures_list.append(CMOooKlzoBL)
+figures_list.append(ECQDooWEpuCM)
+figures_list.append(FARZooXFSDav)
+figures_list.append(FJPooMGmakN)
+figures_list.append(GCFSooTCJfOZ)
+figures_list.append(GSPNooCOfCGS)
+figures_list.append(HRIVooBXxZES)
+figures_list.append(HYVFooTHaDDQ)
+figures_list.append(IDKXooPrOOeE)
+figures_list.append(IRQOooJMDFdv)
+figures_list.append(JAQHooIhMeKp)
+figures_list.append(JJGooMMFWLs)
+figures_list.append(JQFHooEDhWVO)
+figures_list.append(JRCJooPHFcKn)
+figures_list.append(JTQooDUZpht)
+
+from phystricksKIZooDOXSDH  import KIZooDOXSDH
+figures_list.append(KIZooDOXSDH)
+
+figures_list.append(KJWQooEicWkQ)
+figures_list.append(KRCFooOBTdqV)
+figures_list.append(KSQooHHfEpe)
+figures_list.append(KUMFooSHPFkG)
+figures_list.append(LVNXooEXEvoV)
+figures_list.append(MEAQooWoXbHZ)
+figures_list.append(MRBWooRCSkaB)
+figures_list.append(MXGVooOFDqLq)
+figures_list.append(MXXQooRUNiwK)
+figures_list.append(NARooFiHuAy)
+figures_list.append(NHGWooBOAkGS)
+figures_list.append(NWPooWQBSnz)
+figures_list.append(PIMUooMLLYDU)
+figures_list.append(QCARooMunXfF)
+figures_list.append(QTCQooFtDgwk)
+figures_list.append(QZPMooIiOQpy)
+figures_list.append(RKXHooRkoXOP)
+figures_list.append(SCUKooLMEReM)
+figures_list.append(SHSRooHgvofo)
+
+from phystricksSJZooODLIrs import SJZooODLIrs
+figures_list.append(SJZooODLIrs)
+
+from phystricksSQRooAWmMQL import SQRooAWmMQL
+figures_list.append(SQRooAWmMQL)
+
+figures_list.append(SXKLooPzFTnQ)
+from phystricksTBYooGTZFxt import TBYooGTZFxt
+figures_list.append(TBYooGTZFxt)
+figures_list.append(UMQMooOlJYbZ)
+figures_list.append(VNJWooDeKdcy)
+figures_list.append(VUXBooJLuLUk)
+figures_list.append(VXUCooAxCIuP)
+figures_list.append(XCWLooVgowie)
+figures_list.append(XSTKooZqTACG)
+figures_list.append(XTGXooDVcEZs)
+figures_list.append(YDAooMNHhCN)
+figures_list.append(YEWSooDXYRJo)
+figures_list.append(YLPFooXzdaFr)
+figures_list.append(ZFNXooSjzTPJ)
+figures_list.append(ZJATooXEJmyI)
+figures_list.append(ZZPQooStuRcw)
+
 if __name__=="__main__":
     if "--all" not in sys.argv :
         figures_list=figures_list[-1:]

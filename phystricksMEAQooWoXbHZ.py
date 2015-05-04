@@ -14,7 +14,7 @@ def MEAQooWoXbHZ():
     c1=triangle.edges[0]
     c2=triangle.edges[1]
     c3=triangle.edges[2]
-    rh=RightAngle(  c1,c3,0.3,1,0   )
+    rh=RightAngle(  c1,c3,1,0   )
 
     mes1=c1.get_measure(0.2,0.1,-90,"\( 2\)",automatic_place=(pspict,"N"))
     mes2=c3.get_measure(0.2,0.1,180,"\( 6\)",automatic_place=(pspict,"E"))

@@ -13,8 +13,8 @@ def KSQooHHfEpe():
     A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
     B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
 
-    rh1=RightAngle(AB,med,0.2,0,1)
-    rh2=RightAngle(AB,med,0.2,1,1)
+    rh1=RightAngle(AB,med,0,1)
+    rh2=RightAngle(AB,med,1,1)
     #rh1.parameters.color="red"
     #rh2.parameters.color="blue"
 

@@ -35,7 +35,7 @@ def QTCQooFtDgwk():
         cot=triangle.edges[i]
         med=mediatrices[i]
         med.parameters.style="dashed"
-        #rh=RightAngle(med,cot,0.2,0,0)
+        #rh=RightAngle(med,cot,0,0)
         #pspict.DrawGraphs(rh)
 
     pspict.DrawGraphs(triangle,mediatrices,O,mid)

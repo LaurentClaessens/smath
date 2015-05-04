@@ -8,7 +8,7 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDfiguressmathDpy}{\newlength{\lengthOfDfiguressmathDpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigKIZooDOXSDH.phystricks.aux%
 %WRITE_AND_LABEL
 %WRITE_AND_LABEL
@@ -64,12 +64,12 @@
 \draw [] (0.800,0.400) -- (0.0,2.00);
 \draw [] (0.0,2.00) -- (-0.800,1.60);
 \draw [] (-0.800,1.60) -- (0.0,0.0);
-\draw [] (0.532,0.489) -- (0.621,0.311);
-\draw [] (0.532,0.489) -- (0.711,0.579);
-\draw [] (-0.0894,1.73) -- (0.0894,1.82);
-\draw [] (-0.0894,1.73) -- (-0.179,1.91);
-\draw [] (0.0894,0.268) -- (-0.0894,0.179);
-\draw [] (0.0894,0.268) -- (0.179,0.0894);
+\draw [] (0.397,0.534) -- (0.532,0.266);
+\draw [] (0.397,0.534) -- (0.666,0.668);
+\draw [] (-0.134,1.60) -- (0.134,1.73);
+\draw [] (-0.134,1.60) -- (-0.268,1.87);
+\draw [] (0.134,0.402) -- (-0.134,0.268);
+\draw [] (0.134,0.402) -- (0.268,0.134);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

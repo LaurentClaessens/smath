@@ -29,7 +29,7 @@ def IRQOooJMDFdv():
 
     prolongation=Segment(C,B).add_size(lF=1)
     prolongation.parameters.style="dotted"
-    rh=RightAngle(prolongation,hauteur,0.3,0,0)
+    rh=RightAngle(prolongation,hauteur,0,0)
     mediatrice2=triangle.edges[2].bisector().dilatation(1.5)
 
     pspicts[0].DrawGraphs(mediatrice,hauteur,mediane,prolongation,rh,mediatrice2)

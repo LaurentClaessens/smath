@@ -14,7 +14,7 @@ def ECQDooWEpuCM():
     triangle.put_mark(0.2,["$A$","$B$","$C$"],pspict=pspict)
 
     hauteur=triangle.edges[1].orthogonal_trough(A).dilatation(1.4)
-    rh=RightAngle(hauteur,triangle.edges[1],0.2,0,1)
+    rh=RightAngle(hauteur,triangle.edges[1],0,1)
 
     pspict.DrawGraphs(triangle,hauteur,rh)
     fig.no_figure()

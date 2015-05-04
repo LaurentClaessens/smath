@@ -24,12 +24,12 @@ def LVNXooEXEvoV():
     med1=triangles[0].edges[0].bisector(code=(1,0.2,0.3,45,pspicts))
     pspicts[0].DrawGraphs(med1.added_objects)
     med1=med1+Vector(0,-0.5)
-    rh=RightAngle(triangles[0].edges[0],med1,0.2,1,0)
+    rh=RightAngle(triangles[0].edges[0],med1,1,0)
     pspicts[0].DrawGraphs(med1,rh)
 
     # Deuxième figure
     line=triangles[1].edges[1].orthogonal_trough(triangles[1].vertices[0]).dilatation(1.3)
-    rh=RightAngle( triangles[1].edges[1],line,0.2,1,0  )
+    rh=RightAngle( triangles[1].edges[1],line,1,0  )
     pspicts[1].DrawGraphs(line,rh)
 
     # Troisième figure
@@ -39,7 +39,7 @@ def LVNXooEXEvoV():
     Q=Intersection(line,cot)[0]
     prol=cot.dilatation(3)
     prol.parameters.style="dashed"
-    rh=RightAngle(  prol,line,0.2,0,0 )
+    rh=RightAngle(  prol,line,0,0 )
     pspicts[2].DrawGraphs(prol,line,rh)
 
     # Quatrième figure
@@ -58,7 +58,7 @@ def LVNXooEXEvoV():
     P=triangles[4].vertices[1]
     bis=cot.bisector(code=(1,0.2,0.3,45,pspicts))
     line=cot.orthogonal_trough(P).dilatation(1.3)
-    rh=RightAngle(line,cot,0.2,0,0)
+    rh=RightAngle(line,cot,0,0)
     pspicts[4].DrawGraphs(bis.added_objects,line,rh)
 
     for i,pspict in enumerate(pspicts):

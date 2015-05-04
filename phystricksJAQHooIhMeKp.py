@@ -14,7 +14,7 @@ def JAQHooIhMeKp():
 
     hauteur=Segment(K,M).orthogonal_trough(L).dilatation(1.5)
     hauteur.parameters.color='blue'
-    rh=RightAngle( Segment(K,M),hauteur,0.2,0,0 )
+    rh=RightAngle( Segment(K,M),hauteur,0,0 )
 
     mediane=Segment(K,Segment(L,M).midpoint()).dilatation(1.5)
     mediane.parameters.color="red"

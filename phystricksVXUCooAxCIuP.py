@@ -24,8 +24,8 @@ def VXUCooAxCIuP():
     for p in [B,E]:
         p.parameters.symbol=""
 
-    rh1=RightAngle(Segment(A,D),s1,0.3,0,0)
-    rh2=RightAngle(Segment(A,D),Segment(D,C),0.3,0,1)
+    rh1=RightAngleAOB(B,E,A)
+    rh2=RightAngle(Segment(A,D),Segment(D,C),0,1)
 
     pspict.DrawGraphs(trig,s1,rh1,rh2,B,E)
     fig.no_figure()

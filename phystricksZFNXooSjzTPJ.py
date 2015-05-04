@@ -12,13 +12,18 @@ def ZFNXooSjzTPJ():
     triangle.put_mark(0.2,[ "\( E\)","\( F\)","\( G\)" ],pspict=pspict)
     h1=triangle.edges[1].orthogonal_trough(E)
     h2=triangle.edges[2].orthogonal_trough(F)
-    rh1=RightAngle(h1,triangle.edges[1],0.2,0,1)
-    rh2=RightAngle(h2,triangle.edges[2],0.2,0,1)
+
+    S1=Intersection(h1,Segment(F,G))[0]
+    S2=Intersection(h2,Segment(E,G))[0]
+
+    rh1=RightAngleAOB(E,S1,G)
+    rh2=RightAngleAOB(E,S2,F)
 
     P=Intersection(h1,h2)[0]
     P.put_mark(0.2,0,"\( P\)",automatic_place=(pspict,"W"))
 
 
+    no_symbol(F,G,E)
     pspict.DrawGraphs(triangle,h1,h2,rh1,rh2,P)
     fig.no_figure()
     fig.conclude()

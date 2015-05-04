@@ -11,7 +11,7 @@ def BAHMooAGUdjV():
     trig=Polygon(A,B,C)
     trig.put_mark(0.5,pspict=pspict)
 
-    rh=RightAngle(trig.edges[0],trig.edges[2],0.3,1,0)
+    rh=RightAngle(trig.edges[0],trig.edges[2],1,0)
 
     no_symbol(trig.vertices)
 
