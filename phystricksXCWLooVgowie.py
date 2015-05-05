@@ -20,6 +20,7 @@ def XCWLooVgowie():
     trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)*degree+180,"\( ?\)",automatic_place=(pspict,"corner"))
     trig.edges[2].put_mark(0.2,180,"\( 9\)",automatic_place=(pspict,"E"))
 
+    no_symbol(trig.vertices)
     pspict.DrawGraphs(A,B,C,trig,rh)
     fig.no_figure()
     fig.conclude()
