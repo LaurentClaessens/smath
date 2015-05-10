@@ -19,10 +19,14 @@ def QCARooMunXfF():
     rh=RightAngleAOB(B,A,C,r=0.3,n1=0,n2=1)
     trig.edges[1].divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspict=pspict)
 
+    AO=Segment(A,O)
+    AO.put_code(n=2,d=0.1,l=0.2,pspict=pspict)
+
+
     no_symbol(trig.vertices)
 
     pspict.comment="The circle is dashed"
-    pspict.DrawGraphs(O,trig,cer,rh)
+    pspict.DrawGraphs(O,trig,cer,rh,AO)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

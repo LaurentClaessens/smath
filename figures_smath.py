@@ -8,6 +8,10 @@ Comment tester et recompiler ? Réponse dans 'recompilation.txt'
 from phystricks import *
 import sys
 
+from phystricksEABWooPkLqOJ import EABWooPkLqOJ
+from phystricksDEAXooTRICJi import DEAXooTRICJi
+from phystricksLWKNooOqJykO import LWKNooOqJykO
+from phystricksCSFRooVynjkf import CSFRooVynjkf
 from phystricksHYVFooTHaDDQ import HYVFooTHaDDQ
 from phystricksXTGXooDVcEZs import XTGXooDVcEZs
 from phystricksYDTGooZGkkei import YDTGooZGkkei
@@ -1017,11 +1021,11 @@ figures_list.append(XTGXooDVcEZs)
 figures_list.append(HYVFooTHaDDQ)
 figures_list.append(ZSAooVHmHWd)        # Une seule des deux figures est utilisée
 figures_list.append(SimulBinNWxfTN)     # Vu qu'il y a de l'aléatoire, le fichier intermédiaire fait toujours un Warning
+figures_list.append(CSFRooVynjkf)
+figures_list.append(LWKNooOqJykO)
+figures_list.append(DEAXooTRICJi)
+figures_list.append(EABWooPkLqOJ)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
