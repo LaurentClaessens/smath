@@ -2,8 +2,7 @@
 from phystricks import *
 def LWKNooOqJykO():
     pspict,fig = SinglePicture("LWKNooOqJykO")
-    pspict.dilatation_X(1)
-    pspict.dilatation_Y(1)
+    pspict.dilatation(0.83)
 
     D=Point(0,0)
     F=D+(8,0)
