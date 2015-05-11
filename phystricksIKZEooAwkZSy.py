@@ -25,9 +25,10 @@ def IKZEooAwkZSy():
     hauteur.parameters.style="dashed"
 
     hauteur.put_measure(-s-0.5,0.2,0,"hauteur",automatic_place=(pspict,""))
+    rh=RightAngleAOB(B,H,D)
 
     no_symbol(paral.vertices)
-    pspict.DrawGraphs(paral,H,hauteur)
+    pspict.DrawGraphs(paral,H,hauteur,rh)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

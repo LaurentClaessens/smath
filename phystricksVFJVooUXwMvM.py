@@ -18,6 +18,7 @@ def VFJVooUXwMvM():
 
     rect=Polygon(A,B,C,D)
     rect.put_mark(0.2,points_names="ABCD",pspict=pspict)
+    rect.edge.parameters.style="dashed"
 
     rect.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.3,mark_angle=-90,name="\SI{8}{\centi\meter}",automatic_place=(pspict,""))
     rect.edges[1].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=0,name="\SI{3}{\centi\meter}",automatic_place=(pspict,""))

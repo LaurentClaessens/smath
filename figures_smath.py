@@ -8,6 +8,10 @@ Comment tester et recompiler ? Réponse dans 'recompilation.txt'
 from phystricks import *
 import sys
 
+from phystricksRMYEooXvicms import RMYEooXvicms
+from phystricksRRWJooIPQhTn import RRWJooIPQhTn
+from phystricksZQRZooGsxVIr import ZQRZooGsxVIr
+from phystricksUTDOooJFkZWu import UTDOooJFkZWu
 from phystricksMXGJooGTXbPw import MXGJooGTXbPw
 from phystricksIKZEooAwkZSy import IKZEooAwkZSy
 from phystricksVFJVooUXwMvM import VFJVooUXwMvM
@@ -1031,11 +1035,11 @@ figures_list.append(DEAXooTRICJi)
 figures_list.append(EABWooPkLqOJ)
 figures_list.append(YBWRooQjwZuu)
 figures_list.append(VFJVooUXwMvM)
+figures_list.append(UTDOooJFkZWu)
+figures_list.append(ZQRZooGsxVIr)
+figures_list.append(RRWJooIPQhTn)
+figures_list.append(RMYEooXvicms)
 """
-figures_list.append(<++>)
-figures_list.append(<++>)
-figures_list.append(<++>)
-figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
@@ -1075,6 +1079,5 @@ if __name__=="__main__":
         figures_list=figures_list[-1:]
 
     AllFigures(figures_list)
-
 
 #print("ATTENTION : il faut enlever le [] au milieu de la figures_list")

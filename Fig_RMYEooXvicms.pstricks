@@ -9,20 +9,16 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigIKZEooAwkZSy.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigRMYEooXvicms.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( H\)}}%
-\immediate\write\writeOfphystricks{totalheightof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( H\)}}%
-\immediate\write\writeOfphystricks{widthof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( A \)}}%
-\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( A \)}}%
-\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( B \)}}%
 \immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( B \)}}%
 \immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( A \)}}%
+\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( A \)}}%
+\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( C \)}}%
 \immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( C \)}}%
@@ -31,14 +27,10 @@
 \immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( D \)}}%
 \immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{base}}%
-\immediate\write\writeOfphystricks{totalheightof1405df66cbe219b0bf6355bc3d60361a8376b6b4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{base}}%
-\immediate\write\writeOfphystricks{widthof1405df66cbe219b0bf6355bc3d60361a8376b6b4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{hauteur}}%
-\immediate\write\writeOfphystricks{totalheightofe0e3bde21964f4c12855ebc9d2fce31c768c15ea:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{hauteur}}%
-\immediate\write\writeOfphystricks{widthofe0e3bde21964f4c12855ebc9d2fce31c768c15ea:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -81,7 +73,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigIKZEooAwkZSyPICTIKZEooAwkZSy}
+\tikzsetnextfilename{tikzFIGLabelFigRMYEooXvicmsPICTRMYEooXvicms}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -89,32 +81,25 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.1701301617,0.1051462224) node {\( A \)};
-\draw (-0.1701301617,0.1051462224) node {\( A \)};
-\draw (5.105146222,0.1701301617) node {\( B \)};
-\draw (5.105146222,0.1701301617) node {\( B \)};
-\draw (6.170130162,-2.105146222) node {\( C \)};
-\draw (6.170130162,-2.105146222) node {\( C \)};
-\draw (0.8948537776,-2.170130162) node {\( D \)};
-\draw (0.8948537776,-2.170130162) node {\( D \)};
-\draw [] (0,0) -- (5.00,0);
-\draw [] (5.00,0) -- (6.00,-2.00);
-\draw [] (6.00,-2.00) -- (1.00,-2.00);
-\draw [,->,>=latex] (3.500000000,-2.500000000) -- (6.000000000,-2.500000000);
-\draw [,->,>=latex] (3.500000000,-2.500000000) -- (1.000000000,-2.500000000);
-\draw (3.500000000,-3.114812500) node {base};
-\draw (3.500000000,-3.114812500) node {base};
-\draw [] (1.00,-2.00) -- (0,0);
-\draw []  (5.000000000,-2.000000000) node [rotate=0] {$\times$};
-\draw (5.000000000,-2.313888500) node {\( H\)};
-\draw (5.000000000,-2.313888500) node {\( H\)};
-\draw [style=dashed] (5.00,0) -- (5.00,-2.00);
-\draw [,->,>=latex] (6.500000000,-1.000000000) -- (6.500000000,0);
-\draw [,->,>=latex] (6.500000000,-1.000000000) -- (6.500000000,-2.000000000);
-\draw (7.265277833,-1.000000000) node {hauteur};
-\draw (7.265277833,-1.000000000) node {hauteur};
-\draw [] (4.70,-1.70) -- (5.00,-1.70);
-\draw [] (4.70,-1.70) -- (4.70,-2.00);
+\draw (-0.2000000000,0) node {\( B \)};
+\draw (-0.2000000000,0) node {\( B \)};
+\draw (3.000000000,2.200000000) node {\( A \)};
+\draw (3.000000000,2.200000000) node {\( A \)};
+\draw (6.200000000,0) node {\( C \)};
+\draw (6.200000000,0) node {\( C \)};
+\draw (3.000000000,-2.200000000) node {\( D \)};
+\draw (3.000000000,-2.200000000) node {\( D \)};
+\draw [] (0,0) -- (3.00,2.00);
+\draw [] (3.00,2.00) -- (6.00,0);
+\draw [] (6.00,0) -- (3.00,-2.00);
+\draw [] (3.00,-2.00) -- (0,0);
+\draw [style=dashed] (3.00,2.00) -- (3.00,-2.00);
+\draw [style=dashed] (0,0) -- (6.00,0);
+\draw []  (3.000000000,0) node [rotate=0] {$\times$};
+\draw (2.726819477,0.2553098562) node {\( O\)};
+\draw (2.726819477,0.2553098562) node {\( O\)};
+\draw [] (3.30,0.300) -- (3.00,0.300);
+\draw [] (3.30,0.300) -- (3.30,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
