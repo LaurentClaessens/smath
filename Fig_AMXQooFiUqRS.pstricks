@@ -9,16 +9,16 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigRMYEooXvicms.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigAMXQooFiUqRS.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( B \)}}%
-\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( B \)}}%
-\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( A \)}}%
 \immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( A \)}}%
 \immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( B \)}}%
+\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( B \)}}%
+\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( C \)}}%
 \immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( C \)}}%
@@ -27,10 +27,6 @@
 \immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( D \)}}%
 \immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -73,33 +69,53 @@
 % https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigRMYEooXvicmsPICTRMYEooXvicms}
+\tikzsetnextfilename{tikzFIGLabelFigAMXQooFiUqRSPICTAMXQooFiUqRS}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
-%GRID
-%AXES
-%OTHER STUFF
 %PSTRICKS CODE
+%GRID
+\draw [color=gray,style=solid] (-0.600,-0.600) -- (-0.600,3.00);
+\draw [color=gray,style=solid] (0.0,-0.600) -- (0.0,3.00);
+\draw [color=gray,style=solid] (0.600,-0.600) -- (0.600,3.00);
+\draw [color=gray,style=solid] (1.20,-0.600) -- (1.20,3.00);
+\draw [color=gray,style=dotted] (-0.300,-0.600) -- (-0.300,3.00);
+\draw [color=gray,style=dotted] (0.300,-0.600) -- (0.300,3.00);
+\draw [color=gray,style=dotted] (0.900,-0.600) -- (0.900,3.00);
+\draw [color=gray,style=dotted] (-0.600,-0.300) -- (1.20,-0.300);
+\draw [color=gray,style=dotted] (-0.600,0.300) -- (1.20,0.300);
+\draw [color=gray,style=dotted] (-0.600,0.900) -- (1.20,0.900);
+\draw [color=gray,style=dotted] (-0.600,1.50) -- (1.20,1.50);
+\draw [color=gray,style=dotted] (-0.600,2.10) -- (1.20,2.10);
+\draw [color=gray,style=dotted] (-0.600,2.70) -- (1.20,2.70);
+\draw [color=gray,style=solid] (-0.600,-0.600) -- (1.20,-0.600);
+\draw [color=gray,style=solid] (-0.600,0.0) -- (1.20,0.0);
+\draw [color=gray,style=solid] (-0.600,0.600) -- (1.20,0.600);
+\draw [color=gray,style=solid] (-0.600,1.20) -- (1.20,1.20);
+\draw [color=gray,style=solid] (-0.600,1.80) -- (1.20,1.80);
+\draw [color=gray,style=solid] (-0.600,2.40) -- (1.20,2.40);
+\draw [color=gray,style=solid] (-0.600,3.00) -- (1.20,3.00);
 %DEFAULT
 
-\draw (-0.2000000000,0.0) node {\( B \)};
-\draw (-0.2000000000,0.0) node {\( B \)};
-\draw (2.100000000,1.600000000) node {\( A \)};
-\draw (2.100000000,1.600000000) node {\( A \)};
-\draw (4.400000000,0.0) node {\( C \)};
-\draw (4.400000000,0.0) node {\( C \)};
-\draw (2.100000000,-1.600000000) node {\( D \)};
-\draw (2.100000000,-1.600000000) node {\( D \)};
-\draw [] (0.0,0.0) -- (2.10,1.40);
-\draw [] (2.10,1.40) -- (4.20,0.0);
-\draw [] (4.20,0.0) -- (2.10,-1.40);
-\draw [] (2.10,-1.40) -- (0.0,0.0);
-\draw [style=dashed] (2.10,1.40) -- (2.10,-1.40);
-\draw [style=dashed] (0.0,0.0) -- (4.20,0.0);
-\draw []  (2.100000000,0.0) node [rotate=0] {$\times$};
-\draw (1.826819477,0.2553098562) node {\( O\)};
-\draw (1.826819477,0.2553098562) node {\( O\)};
-\draw [] (2.40,0.300) -- (2.10,0.300);
-\draw [] (2.40,0.300) -- (2.40,0.0);
+\draw (-0.07653668647,-0.1847759065) node {\( A \)};
+\draw (-0.07653668647,-0.1847759065) node {\( A \)};
+\draw (-0.04595058411,2.594649798) node {\( B \)};
+\draw (-0.04595058411,2.594649798) node {\( B \)};
+\draw (0.7946497979,1.245950584) node {\( C \)};
+\draw (0.7946497979,1.245950584) node {\( C \)};
+\draw (0.7847759065,0.5234633135) node {\( D \)};
+\draw (0.7847759065,0.5234633135) node {\( D \)};
+% declaring the keys in tikz
+\tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
+         hatchthickness/.code={\setlength{\hatchthickness}{#1}}}
+% setting the default values
+\tikzset{hatchspread=3pt,
+         hatchthickness=0.4pt}
+\fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.0,0.0) -- (0.0,2.40) -- (0.0,2.40) -- (0.600,1.20) -- (0.600,1.20) -- (0.600,0.600) -- (0.600,0.600) -- (0.0,0.0) --  cycle;
+\draw [] (0.0,0.0) -- (0.0,2.40);
+\draw [] (0.0,2.40) -- (0.600,1.20);
+\draw [] (0.600,1.20) -- (0.600,0.600);
+\draw [] (0.600,0.600) -- (0.0,0.0);
+%AXES
+%OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

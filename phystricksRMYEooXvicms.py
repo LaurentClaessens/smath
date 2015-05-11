@@ -5,7 +5,7 @@ from phystricks import *
 
 def RMYEooXvicms():
     pspict,fig = SinglePicture("RMYEooXvicms")
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     h=4
     l=6

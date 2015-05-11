@@ -19,6 +19,7 @@ def RRWJooIPQhTn():
     pspicts[0].DrawGraphs(trig,rh)
 
 
+    pspicts[1].dilatation(0.7)
     D=Point(0,0)
     E=Point(4,0)
     F=E+(2,-2)
