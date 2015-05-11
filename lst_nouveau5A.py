@@ -25,10 +25,10 @@ proportionnali=commun.OneChapter("Proportionnalité",classe)
 parallelogramme=commun.OneChapter("Parallélogrammes",classe)
 ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
 lmd=commun.OneChapter("Longueurs, masses, durées",classe)
-eqs=commun.OneChapter("Équations",classe)
+aires=commun.OneChapter("Aires de figures planes",classe)
 
 actu5=lmd
-actu5=eqs
+actu5=aires
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
