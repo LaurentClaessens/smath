@@ -21,11 +21,10 @@ exp_litt=commun.OneChapter("Expressions littérales",classe)
 nombres_relatifs=commun.OneChapter("Nombres relatifs",classe)
 proportionnali=commun.OneChapter("Proportionnalité",classe)
 ang_parall=commun.OneChapter("Angles et parallélisme",classe)
-parallelogramme=commun.OneChapter("Parallélogramme",classe)
+ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
 
 
-actu5=ang_parall
-actu5=parallelogramme
+actu5=ops_rel
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
