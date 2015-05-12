@@ -20,24 +20,28 @@ def LWNSooVGvWxJ():
     pspicts[0].DrawGraphs(trig,rh)
 
 
+    pspicts[1].dilatation(1)
     K=Point(0,0)
-    L=Point(2,1)
+    L=Point(4,2.5)
     KL=Segment(K,L)
     s1=Segment(K,L).rotation(60)
     s2=Segment(L,K).rotation(-25)
+
+    M=Intersection( s1,s2 )[0]
+
+    trig=Polygon(K,L,M)
+    trig.put_mark(0.2,points_names="KLM",pspict=pspicts)
+
+    angK=AngleAOB(L,K,M)
+    angK.put_mark(0.2,angle=None,added_angle=0,text="\SI{60}{\degree}",automatic_place=(pspicts,""))
     
-    pspicts[1].DrawGraphs(KL,s1,s2)
+    angL=AngleAOB(M,L,K)
+    angL.put_mark(0.3,angle=None,added_angle=0,text="\SI{25}{\degree}",automatic_place=(pspicts,""))
+
+    no_symbol(trig.vertices)
+    pspicts[1].DrawGraphs(trig,angK,angL)
 
 
-    #trig=Polygon(A,B,C)
-    #put_equal_lengths_code(trig.edges[0],trig.edges[2],n=1,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    #rh=RightAngleAOB(B,A,C)
-    #trig.put_mark(0.2,pspict=pspicts)
-
-    #no_symbol(trig.vertices)
-    #pspicts[0].DrawGraphs(trig,rh)
-
-    #pspicts[1].DrawGraphs(trig,rh)
     
 
     for fig in figs :
