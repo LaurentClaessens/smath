@@ -23,8 +23,9 @@ nombres_relatifs=commun.OneChapter("Nombres relatifs",classe)
 ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 proportionnali=commun.OneChapter("Proportionnalité",classe)
 ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
+afp=commun.OneChapter("Aires de figures planes",classe)
 
-actu5=ops_rel
+actu5=afp
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

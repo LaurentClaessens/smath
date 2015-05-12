@@ -9,7 +9,7 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigIKZEooAwkZSy.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigLWNSooVGvWxJooONE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( A \)}}%
 \immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
@@ -23,18 +23,6 @@
 \immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( C \)}}%
 \immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( D \)}}%
-\immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( D \)}}%
-\immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{base}}%
-\immediate\write\writeOfphystricks{totalheightof1405df66cbe219b0bf6355bc3d60361a8376b6b4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{base}}%
-\immediate\write\writeOfphystricks{widthof1405df66cbe219b0bf6355bc3d60361a8376b6b4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{hauteur}}%
-\immediate\write\writeOfphystricks{totalheightofe0e3bde21964f4c12855ebc9d2fce31c768c15ea:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{hauteur}}%
-\immediate\write\writeOfphystricks{widthofe0e3bde21964f4c12855ebc9d2fce31c768c15ea:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -77,37 +65,16 @@
 % https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigIKZEooAwkZSyPICTIKZEooAwkZSy}
+\tikzsetnextfilename{tikzFIGLabelFigLWNSooVGvWxJooONEPICTLWNSooVGvWxJooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-
-\draw (-0.1701301617,0.1051462224) node {\( A \)};
-\draw (-0.1701301617,0.1051462224) node {\( A \)};
-\draw (5.105146222,0.1701301617) node {\( B \)};
-\draw (5.105146222,0.1701301617) node {\( B \)};
-\draw (6.170130162,-2.105146222) node {\( C \)};
-\draw (6.170130162,-2.105146222) node {\( C \)};
-\draw (0.8948537776,-2.170130162) node {\( D \)};
-\draw (0.8948537776,-2.170130162) node {\( D \)};
-\draw [] (0,0) -- (5.00,0);
-\draw [] (5.00,0) -- (6.00,-2.00);
-\draw [] (6.00,-2.00) -- (1.00,-2.00);
-\draw [,->,>=latex] (3.500000000,-2.500000000) -- (6.000000000,-2.500000000);
-\draw [,->,>=latex] (3.500000000,-2.500000000) -- (1.000000000,-2.500000000);
-\draw (3.500000000,-3.114812500) node {base};
-\draw (3.500000000,-3.114812500) node {base};
-\draw [] (1.00,-2.00) -- (0,0);
-\draw [style=dashed] (3.50,0) -- (3.50,-2.00);
-\draw [,->,>=latex] (3.800000000,-1.000000000) -- (3.800000000,0);
-\draw [,->,>=latex] (3.800000000,-1.000000000) -- (3.800000000,-2.000000000);
-\draw (4.565277833,-1.000000000) node {hauteur};
-\draw (4.565277833,-1.000000000) node {hauteur};
-\draw [] (3.20,-1.70) -- (3.50,-1.70);
-\draw [] (3.20,-1.70) -- (3.20,-2.00);
+\draw [] (0,0) -- (2.00,1.00);
+\draw [] (0,0) -- (0.134,2.23);
+\draw [] (2.00,1.00) -- (-0.235,0.940);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
