@@ -10,7 +10,7 @@ def XTGXooDVcEZs():
     S=Segment(C,A).midpoint()
 
     trig=Polygon(C,A,B)
-    trig.put_mark(0.2,points_names="CAB",pspict=pspict)
+    trig.put_mark(0.3,points_names="CAB",pspict=pspict)
     S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",automatic_place=(pspict,""))
 
     rh=RightAngleAOB(C,B,A)

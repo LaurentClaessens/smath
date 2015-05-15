@@ -9,7 +9,7 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigMXGJooGTXbPw.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigBXFFooNyvPYY.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( A \)}}%
 \immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
@@ -23,14 +23,18 @@
 \immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( C \)}}%
 \immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\SI{30}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightof14bfbcf4026792852a22a5ed4aa13ef25316ab9e:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\SI{30}{\degree}}}%
-\immediate\write\writeOfphystricks{widthof14bfbcf4026792852a22a5ed4aa13ef25316ab9e:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( K\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( K\)}}%
+\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\SI{3}{\centi\meter}}}%
 \immediate\write\writeOfphystricks{totalheightof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\SI{3}{\centi\meter}}}%
 \immediate\write\writeOfphystricks{widthof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\SI{8}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{totalheightof1742fb22588351a51f6c9a112f2e230a35e70bf4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\SI{8}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{widthof1742fb22588351a51f6c9a112f2e230a35e70bf4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -73,7 +77,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigMXGJooGTXbPwPICTMXGJooGTXbPw}
+\tikzsetnextfilename{tikzFIGLabelFigBXFFooNyvPYYPICTBXFFooNyvPYY}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -81,24 +85,30 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (0.1213788000,-0.2743486594) node {\( A \)};
-\draw (0.1213788000,-0.2743486594) node {\( A \)};
-\draw (0.6774032621,6.195672574) node {\( B \)};
-\draw (0.6774032621,6.195672574) node {\( B \)};
-\draw (-8.829821570,6.783166025) node {\( C \)};
-\draw (-8.829821570,6.783166025) node {\( C \)};
-\draw [] (0.0,0.0) -- (0.450,6.00);
-\draw [] (0.450,6.00) -- (-8.55,6.67);
-\draw [,->,>=latex] (-3.993907539,7.085399482) -- (0.5060924612,6.747899482);
-\draw [,->,>=latex] (-3.993907539,7.085399482) -- (-8.493907539,7.422899483);
-\draw (-3.352727221,7.602260942) node {\SI{3}{\centi\meter}};
-\draw (-3.352727221,7.602260942) node {\SI{3}{\centi\meter}};
-\draw [] (-8.55,6.67) -- (0.0,0.0);
-\draw [] (-0.300,5.35) -- (-0.248,6.05);
-\draw [] (-0.300,5.35) -- (0.398,5.30);
-\draw [samples=100] (0.0374,0.499)--(0.0324,0.499)--(0.0275,0.499)--(0.0225,0.500)--(0.0176,0.500)--(0.0126,0.500)--(0.00765,0.500)--(0.00268,0.500)--(-0.00228,0.500)--(-0.00724,0.500)--(-0.0122,0.500)--(-0.0172,0.500)--(-0.0221,0.500)--(-0.0271,0.499)--(-0.0320,0.499)--(-0.0370,0.499)--(-0.0419,0.498)--(-0.0469,0.498)--(-0.0518,0.497)--(-0.0568,0.497)--(-0.0617,0.496)--(-0.0666,0.496)--(-0.0715,0.495)--(-0.0764,0.494)--(-0.0813,0.493)--(-0.0862,0.492)--(-0.0911,0.492)--(-0.0960,0.491)--(-0.101,0.490)--(-0.106,0.489)--(-0.111,0.488)--(-0.115,0.487)--(-0.120,0.485)--(-0.125,0.484)--(-0.130,0.483)--(-0.135,0.482)--(-0.139,0.480)--(-0.144,0.479)--(-0.149,0.477)--(-0.154,0.476)--(-0.158,0.474)--(-0.163,0.473)--(-0.168,0.471)--(-0.172,0.469)--(-0.177,0.468)--(-0.182,0.466)--(-0.186,0.464)--(-0.191,0.462)--(-0.195,0.460)--(-0.200,0.458)--(-0.205,0.456)--(-0.209,0.454)--(-0.214,0.452)--(-0.218,0.450)--(-0.223,0.448)--(-0.227,0.446)--(-0.231,0.443)--(-0.236,0.441)--(-0.240,0.439)--(-0.244,0.436)--(-0.249,0.434)--(-0.253,0.431)--(-0.257,0.429)--(-0.262,0.426)--(-0.266,0.423)--(-0.270,0.421)--(-0.274,0.418)--(-0.278,0.415)--(-0.282,0.413)--(-0.286,0.410)--(-0.291,0.407)--(-0.295,0.404)--(-0.299,0.401)--(-0.303,0.398)--(-0.306,0.395)--(-0.310,0.392)--(-0.314,0.389)--(-0.318,0.386)--(-0.322,0.383)--(-0.326,0.379)--(-0.329,0.376)--(-0.333,0.373)--(-0.337,0.370)--(-0.340,0.366)--(-0.344,0.363)--(-0.348,0.359)--(-0.351,0.356)--(-0.355,0.352)--(-0.358,0.349)--(-0.362,0.345)--(-0.365,0.342)--(-0.368,0.338)--(-0.372,0.334)--(-0.375,0.331)--(-0.378,0.327)--(-0.382,0.323)--(-0.385,0.319)--(-0.388,0.315)--(-0.391,0.312)--(-0.394,0.308);
-\draw (-0.4450556001,1.005945084) node {\SI{30}{\degree}};
-\draw (-0.4450556001,1.005945084) node {\SI{30}{\degree}};
+\draw (-0.2828427125,-0.2828427125) node {\( A \)};
+\draw (-0.2828427125,-0.2828427125) node {\( A \)};
+\draw (-0.2278379351,3.328770247) node {\( B \)};
+\draw (-0.2278379351,3.328770247) node {\( B \)};
+\draw (8.393581420,-0.07136992220) node {\( C \)};
+\draw (8.393581420,-0.07136992220) node {\( C \)};
+\draw [] (0,0) -- (0,3.00);
+\draw (-0.8187433333,1.500000000) node {\SI{3}{\centi\meter}};
+\draw (-0.8187433333,1.500000000) node {\SI{3}{\centi\meter}};
+\draw [] (0,3.00) -- (8.00,0);
+\draw [] (1.73,2.16) -- (2.18,2.37);
+\draw [] (1.82,2.13) -- (2.27,2.34);
+\draw [] (5.73,0.664) -- (6.18,0.871);
+\draw [] (5.82,0.629) -- (6.27,0.836);
+\draw [] (8.00,0) -- (0,0);
+\draw (4.000000000,-0.4177016667) node {\SI{8}{\centi\meter}};
+\draw (4.000000000,-0.4177016667) node {\SI{8}{\centi\meter}};
+\draw (4.418115032,2.017104253) node {\( K\)};
+\draw (4.418115032,2.017104253) node {\( K\)};
+\draw [] (0,0) -- (4.00,1.50);
+\draw (4.418115032,2.017104253) node {\( K\)};
+\draw (4.418115032,2.017104253) node {\( K\)};
+\draw [] (0.500,0.500) -- (0,0.500);
+\draw [] (0.500,0.500) -- (0.500,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
