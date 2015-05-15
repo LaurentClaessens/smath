@@ -18,7 +18,7 @@ DS_5A5=commun.TheDS("DS_5A5",groupe_5A,1,n_student=1)
 DS_5A6=commun.TheDS("DS_5A6",groupe_5A,0,n_student=1)
 DS_5A7=commun.TheDS("DS_5A7",groupe_5A,0,n_student=1)
 
-jeveux=DS_5A6
+jeveux=DS_5A7
 jeveux.write_the_file()
 
 myRequest = LaTeXparser.PytexTools.Request("seconde")
