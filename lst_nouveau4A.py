@@ -22,8 +22,9 @@ cosinus=commun.OneChapter("Cosinus d'un angle aigu","4A")
 pyramide=commun.OneChapter("Pyramides et cônes","4A")
 puissances=commun.OneChapter("Puissances","4A")
 trig_rect=commun.OneChapter("Triangles rectangles","4A")
+eqs=commun.OneChapter("Équations","4A")
 
-actu4=trig_rect
+actu4=eqs
 actu4.set_filename=set_filename
 actu4.write_the_file()
 

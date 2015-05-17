@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 
-from phystricksSWHooJzpmlM import Pyramide
+from phystricksCommons import Pyramide
 
 def PPZRooTpQJOC():
     pspicts,figs = IndependentPictures("PPZRooTpQJOC",2)

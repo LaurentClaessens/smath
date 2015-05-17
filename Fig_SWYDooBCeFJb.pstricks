@@ -8,21 +8,21 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigSWYDooBCeFJb.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 13\)}}%
-\immediate\write\writeOfphystricks{totalheightof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 13\)}}%
-\immediate\write\writeOfphystricks{widthof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 84\)}}%
-\immediate\write\writeOfphystricks{totalheightof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 84\)}}%
-\immediate\write\writeOfphystricks{widthof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 85\)}}%
-\immediate\write\writeOfphystricks{totalheightof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 85\)}}%
-\immediate\write\writeOfphystricks{widthof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( 13\)}}%
+\immediate\write\writeOfphystricks{totalheightof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( 13\)}}%
+\immediate\write\writeOfphystricks{widthof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( 84\)}}%
+\immediate\write\writeOfphystricks{totalheightof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( 84\)}}%
+\immediate\write\writeOfphystricks{widthof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( 85\)}}%
+\immediate\write\writeOfphystricks{totalheightof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( 85\)}}%
+\immediate\write\writeOfphystricks{widthof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%

@@ -2,7 +2,7 @@
 
 from phystricks import *
 
-from phystricksSWHooJzpmlM import Pyramide
+from phystricksCommons import Pyramide
 
 dilatation=1
 
