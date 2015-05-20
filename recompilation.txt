@@ -25,10 +25,13 @@ time pytex lst_rituel.py --lotex --no-external
 time pytex lst_exercices4A.py --lotex --no-external
 time pytex lst_exercices5A.py --lotex --no-external
 time pytex lst_exercices5B.py --lotex --no-external
-time pytex lst_niveau.py cinquième --lotex --no-external
-time pytex lst_niveau.py quatrième --lotex --no-external
 time pytex lst_niveau.py seconde --lotex --no-external
 time pytex lst_niveau.py première --lotex --no-external
+
+Les compilations quatrième et cinquièmes doivent être faites lorsque les exercices 4A,5A,5B, mental et rituels sont finis
+time pytex lst_niveau.py cinquième --lotex --no-external
+time pytex lst_niveau.py quatrième --lotex --no-external
+
 
 
 time pytex lst_niveau.py autres --lotex --no-external
