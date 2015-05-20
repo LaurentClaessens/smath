@@ -257,7 +257,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 
         \newcounter{exorituel}
         \setcounter{exorituel}{0}
-        \newenvironment{rituel}{\refstepcounter{exorituel}\newpage\begin{center}\fbox{\huge Exercice rituel numéro \arabic{exorituel}}\end{center}\huge\vfill}{\vfill}
+        \newenvironment{rituel}{\refstepcounter{exorituel}\newpage\section{Exercice rituel \arabic{exorituel}}\begin{center}\fbox{\huge Exercice rituel numéro \arabic{exorituel}}\end{center}\huge\vfill}{\vfill}
 
 \newcommand{\enteteInterro}[3]{
     \begin{center}

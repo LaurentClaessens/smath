@@ -13,9 +13,6 @@ def ZBHLooYfpkZA():
     rect.put_mark(0.4,pspict=pspict)
     rect.make_edges_independent()
 
-    #for s in rect.edges:
-    #    pspict.DrawGraphs(s.dilatation(1.3))
-    
     a20=AngleAOB(C,D,B,r=0.9)
     a20.put_mark(0.6,angle=2,added_angle=0,text="\SI{25}{\degree}",automatic_place=(pspict,"corner"))
 
@@ -27,7 +24,9 @@ def ZBHLooYfpkZA():
     diag=Segment(D,B)
 
     no_symbol(rect.vertices)
-    pspict.comment="L'angle en B est mal tracé. Problème dans l'arc de cercle à régler."
+    pspict.comment="The angles are well circular"
+    # The problem was that points in the circle of the angle at point D have coordinates between 9 and 11. Keeping 3 digits in the numerical approximation
+    # was provoking some points with only 0.1 of precision and the circle was badly drawn. After debug, we keep 3 digits after the decimal dot.
     pspict.DrawGraphs(rect,ai1,ai2,a20,diag)
     fig.no_figure()
     fig.conclude()
