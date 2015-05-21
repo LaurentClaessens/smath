@@ -54,7 +54,7 @@ class OneChapter(object):
         self.chapter_title=chapter_title
         self.exercice_filename=self.group+"exercices.tex"
         self.input_filename=self.smath_input_line().replace("\input{","").replace("}","").replace("\n","")
-        print("BTMKooUKyCNn",self.input_filename)
+        print("Traitement de",self.input_filename)
         self._count_section=0
     def smath_input_line(self):
         smath_lines=open("smath.tex").readlines()
