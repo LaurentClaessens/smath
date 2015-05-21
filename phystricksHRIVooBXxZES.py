@@ -16,9 +16,9 @@ def HRIVooBXxZES():
 
     droite=Segment(D,B).dilatation(1.5)
 
-    a1=Angle(B,A,C)
-    a2=Angle(C,B,A,r=0.7)
-    a3=Angle(A,B,D,r=0.5)
+    a1=AngleAOB(B,A,C)
+    a2=AngleAOB(C,B,A,r=0.8)
+    a3=AngleAOB(A,B,D,r=1)
 
     a1.put_mark(0.2,angle=None,text="\SI{40}{\degree}",automatic_place=(pspict,""))
     a2.put_mark(0.2,angle=None,text="?",automatic_place=(pspict,""))
