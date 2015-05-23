@@ -16,13 +16,24 @@ def JHVRooIEVJMg():
 
     surf=Polygon(A,B,C,D)
     surf.put_mark(0.2,pspict=pspicts)
-    surf.edges[0].put_mark(-0.2,angle=None,added_angle=0,text="\SI{6.28}{\centi\meter}",automatic_place=(pspicts,""))
-    surf.edges[1].put_mark(-0.2,angle=None,added_angle=0,text="\SI{3}{\centi\meter}",automatic_place=(pspicts,""))
+    surf.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\SI{6.28}{\centi\meter}",automatic_place=(pspicts,""))
+    surf.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\SI{3}{\centi\meter}",automatic_place=(pspicts,""))
 
+    no_symbol(surf.vertices)
     for psp in pspicts:
         psp.DrawGraphs(surf)
 
-    i1=sef.edges[2].get_point_proportion(0.7)
+    i1=surf.edges[2].get_point_proportion(0.8)
+    f1=i1+(0,2*rayon)
+    base1=CircleAB(i1,f1)
+
+    i2=surf.edges[0].get_point_proportion(0.7)
+    f2=i2+(0,-2*rayon)
+    base2=CircleAB(i2,f2)
+
+    pspicts[0].DrawGraphs(base1)
+    pspicts[1].DrawGraphs(base1,surf)
+    pspicts[2].DrawGraphs(base1,surf,base2)
 
     for fig in figs:
         fig.no_figure()
