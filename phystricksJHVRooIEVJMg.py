@@ -20,14 +20,12 @@ def JHVRooIEVJMg():
     surf.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\SI{3}{\centi\meter}",automatic_place=(pspicts,""))
 
     no_symbol(surf.vertices)
-    for psp in pspicts:
-        psp.DrawGraphs(surf)
 
     i1=surf.edges[2].get_point_proportion(0.8)
     f1=i1+(0,2*rayon)
     base1=CircleAB(i1,f1)
 
-    i2=surf.edges[0].get_point_proportion(0.7)
+    i2=surf.edges[0].get_point_proportion(0.8)
     f2=i2+(0,-2*rayon)
     base2=CircleAB(i2,f2)
 

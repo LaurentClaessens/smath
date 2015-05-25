@@ -2,7 +2,7 @@
 from phystricks import *
 def HMUTooSSSCZl():
     pspict,fig = SinglePicture("HMUTooSSSCZl")
-    pspict.dilatation(1)
+    pspict.dilatation(1.2)
 
     A=Point(0,0)
     B=Point(0,2)
