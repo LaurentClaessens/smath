@@ -27,9 +27,10 @@ ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
 lmd=commun.OneChapter("Longueurs, masses, durées",classe)
 aires=commun.OneChapter("Aires de figures planes",classe)
 cyl=commun.OneChapter("Prismes et cylindres (1)",classe)
+repdon=commun.OneChapter("Représentation de données",classe)
 
-actu5=aires
 actu5=cyl
+actu5=repdon
 actu5.set_filename=set_filename
 actu5.write_the_file()
 
