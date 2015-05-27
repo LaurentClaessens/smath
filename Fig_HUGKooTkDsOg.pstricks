@@ -73,21 +73,22 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-1.00,-4.00) -- (-1.00,3.00);
-\draw [color=gray,style=solid] (0,-4.00) -- (0,3.00);
-\draw [color=gray,style=solid] (1.00,-4.00) -- (1.00,3.00);
-\draw [color=gray,style=solid] (2.00,-4.00) -- (2.00,3.00);
-\draw [color=gray,style=solid] (3.00,-4.00) -- (3.00,3.00);
-\draw [color=gray,style=solid] (4.00,-4.00) -- (4.00,3.00);
-\draw [color=gray,style=solid] (5.00,-4.00) -- (5.00,3.00);
-\draw [color=gray,style=solid] (6.00,-4.00) -- (6.00,3.00);
-\draw [color=gray,style=dotted] (-0.500,-4.00) -- (-0.500,3.00);
-\draw [color=gray,style=dotted] (0.500,-4.00) -- (0.500,3.00);
-\draw [color=gray,style=dotted] (1.50,-4.00) -- (1.50,3.00);
-\draw [color=gray,style=dotted] (2.50,-4.00) -- (2.50,3.00);
-\draw [color=gray,style=dotted] (3.50,-4.00) -- (3.50,3.00);
-\draw [color=gray,style=dotted] (4.50,-4.00) -- (4.50,3.00);
-\draw [color=gray,style=dotted] (5.50,-4.00) -- (5.50,3.00);
+\draw [color=gray,style=solid] (-1.00,-5.00) -- (-1.00,3.00);
+\draw [color=gray,style=solid] (0,-5.00) -- (0,3.00);
+\draw [color=gray,style=solid] (1.00,-5.00) -- (1.00,3.00);
+\draw [color=gray,style=solid] (2.00,-5.00) -- (2.00,3.00);
+\draw [color=gray,style=solid] (3.00,-5.00) -- (3.00,3.00);
+\draw [color=gray,style=solid] (4.00,-5.00) -- (4.00,3.00);
+\draw [color=gray,style=solid] (5.00,-5.00) -- (5.00,3.00);
+\draw [color=gray,style=solid] (6.00,-5.00) -- (6.00,3.00);
+\draw [color=gray,style=dotted] (-0.500,-5.00) -- (-0.500,3.00);
+\draw [color=gray,style=dotted] (0.500,-5.00) -- (0.500,3.00);
+\draw [color=gray,style=dotted] (1.50,-5.00) -- (1.50,3.00);
+\draw [color=gray,style=dotted] (2.50,-5.00) -- (2.50,3.00);
+\draw [color=gray,style=dotted] (3.50,-5.00) -- (3.50,3.00);
+\draw [color=gray,style=dotted] (4.50,-5.00) -- (4.50,3.00);
+\draw [color=gray,style=dotted] (5.50,-5.00) -- (5.50,3.00);
+\draw [color=gray,style=dotted] (-1.00,-4.50) -- (6.00,-4.50);
 \draw [color=gray,style=dotted] (-1.00,-3.50) -- (6.00,-3.50);
 \draw [color=gray,style=dotted] (-1.00,-2.50) -- (6.00,-2.50);
 \draw [color=gray,style=dotted] (-1.00,-1.50) -- (6.00,-1.50);
@@ -95,6 +96,7 @@
 \draw [color=gray,style=dotted] (-1.00,0.500) -- (6.00,0.500);
 \draw [color=gray,style=dotted] (-1.00,1.50) -- (6.00,1.50);
 \draw [color=gray,style=dotted] (-1.00,2.50) -- (6.00,2.50);
+\draw [color=gray,style=solid] (-1.00,-5.00) -- (6.00,-5.00);
 \draw [color=gray,style=solid] (-1.00,-4.00) -- (6.00,-4.00);
 \draw [color=gray,style=solid] (-1.00,-3.00) -- (6.00,-3.00);
 \draw [color=gray,style=solid] (-1.00,-2.00) -- (6.00,-2.00);
@@ -104,22 +106,19 @@
 \draw [color=gray,style=solid] (-1.00,2.00) -- (6.00,2.00);
 \draw [color=gray,style=solid] (-1.00,3.00) -- (6.00,3.00);
 %DEFAULT
-\draw []  (0,0) node [rotate=0] {$\times$};
-\draw (-0.1946497979,-0.04595058411) node {\( A \)};
-\draw (-0.1946497979,-0.04595058411) node {\( A \)};
-\draw []  (1.000000000,2.000000000) node [rotate=0] {$\times$};
-\draw (0.9540494159,2.194649798) node {\( B \)};
-\draw (0.9540494159,2.194649798) node {\( B \)};
-\draw []  (5.000000000,-1.000000000) node [rotate=0] {$\times$};
-\draw (5.194649798,-0.9540494159) node {\( C \)};
-\draw (5.194649798,-0.9540494159) node {\( C \)};
-\draw []  (4.000000000,-3.000000000) node [rotate=0] {$\times$};
-\draw (4.045950584,-3.194649798) node {\( D \)};
-\draw (4.045950584,-3.194649798) node {\( D \)};
+
+\draw (-0.1974174915,-0.03203644860) node {\( A \)};
+\draw (-0.1974174915,-0.03203644860) node {\( A \)};
+\draw (0.9679635514,2.197417492) node {\( B \)};
+\draw (0.9679635514,2.197417492) node {\( B \)};
+\draw (5.197417492,-1.967963551) node {\( C \)};
+\draw (5.197417492,-1.967963551) node {\( C \)};
+\draw (4.032036449,-4.197417492) node {\( D \)};
+\draw (4.032036449,-4.197417492) node {\( D \)};
 \draw [] (0,0) -- (1.00,2.00);
-\draw [] (1.00,2.00) -- (5.00,-1.00);
-\draw [] (5.00,-1.00) -- (4.00,-3.00);
-\draw [] (4.00,-3.00) -- (0,0);
+\draw [] (1.00,2.00) -- (5.00,-2.00);
+\draw [] (5.00,-2.00) -- (4.00,-4.00);
+\draw [] (4.00,-4.00) -- (0,0);
 %AXES
 %OTHER STUFF
 %END PSPICTURE

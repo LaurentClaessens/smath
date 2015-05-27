@@ -14,6 +14,9 @@ def HUGKooTkDsOg():
     parall=Polygon(A,B,C,D)
     parall.put_mark(0.2,pspict=pspict)
 
+    diag=Segment(parall.vertices[0],parall.vertices[2])
+
+    no_symbol(parall.vertices,diag)
     pspict.DrawGraphs(parall)
     pspict.DrawDefaultGrid()
     fig.no_figure()
