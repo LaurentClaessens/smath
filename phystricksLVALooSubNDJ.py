@@ -22,9 +22,9 @@ def LVALooSubNDJ():
     BS=Segment(B,S)
 
     AD=Segment(A,D)
-    AD.put_mark(0.2,angle=None,added_angle=0,text="\( 5\)",automatic_place=(pspict,""))
+    AD.put_mark(0.2,angle=None,added_angle=0,text="\SI{5}{\centi\meter}",automatic_place=(pspict,""))
     DC=Segment(D,C)
-    DC.put_mark(0.2,angle=None,added_angle=0,text="\( 2\)",automatic_place=(pspict,""))
+    DC.put_mark(0.3,angle=None,added_angle=0,text="\SI{2}{\centi\meter}",automatic_place=(pspict,""))
     SD=Segment(S,D)
     SD.parameters.style='dashed'
     #DC.parameters.style='dashed'

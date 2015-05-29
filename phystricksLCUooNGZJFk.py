@@ -7,7 +7,7 @@ def LCUooNGZJFk():
 
     x=var('x')
     A=Point(0,0)
-    l=3
+    l=4
     h=2
     B=A+(l,0)
     C=B+(0,h)
@@ -23,7 +23,7 @@ def LCUooNGZJFk():
         P.parameters.symbol=""
 
     measureDC=MeasureLength(  Segment(D,C),-0.3  )
-    measureDC.put_mark(0.3,90,"\( 5\)",automatic_place=(pspict,"S"))
+    measureDC.put_mark(0.3,90,"\SI{5}{\centi\meter}",automatic_place=(pspict,"S"))
 
     measureDA=MeasureLength(  Segment(D,A),0.3  )
     measureDA.put_mark(0.3,180,"\( h\)",automatic_place=(pspict,"E"))
