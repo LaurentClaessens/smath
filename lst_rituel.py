@@ -6,7 +6,7 @@ import LaTeXparser
 import LaTeXparser.PytexTools
 
 myRequest = LaTeXparser.PytexTools.Request("seconde")
-myRequest.original_filename="rituel.tex"
+myRequest.original_filename="Arituel.tex"
 
 myRequest.ok_filenames_list=["e_smath"]
 myRequest.ok_filenames_list.append("40_rituel5")
