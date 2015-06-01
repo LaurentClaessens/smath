@@ -5,8 +5,8 @@ def UFBQooOXIMjV():
 
     for psp in pspicts:
         psp.dilatation(1)
-    pspicts[0].rotation=30
-    pspicts[1].rotation=-15
+    pspicts[0].rotation(30)
+    pspicts[1].rotation(-15)
 
     l=7
     h=4

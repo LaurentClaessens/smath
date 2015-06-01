@@ -3,7 +3,7 @@ from phystricks import *
 def LVALooSubNDJ():
     pspict,fig = SinglePicture("LVALooSubNDJ")
     pspict.dilatation(1)
-    pspict.rotation=45
+    pspict.rotation(45)
 
     l=3
     L=4
