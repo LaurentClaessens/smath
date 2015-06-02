@@ -5,7 +5,7 @@ def VATIooEwQldd():
 
     for psp in pspicts:
         psp.dilatation(0.7)
-    pspicts[0].rotation(4\)
+    pspicts[0].rotation(45)
     pspicts[1].rotation(-20)
 
     l=7
