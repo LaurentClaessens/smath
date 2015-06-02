@@ -29,15 +29,19 @@ def LQHOooWPeagY():
     for seg in [h1,h2]:
         seg.parameters.style="dashed"
 
-    h1.put_measure(measure_distance=0.5,mark_distance=0.2,mark_angle=90,name="\SI{4}{\centi\meter}",automatic_place=(pspict,""))
+    h1.put_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=None,name="\SI{4}{\centi\meter}",automatic_place=(pspict,""))
 
     s1=Segment(S,K)
     s2=Segment(K,T)
 
     rh=RightAngleAOB(U,H,S)
 
+    gris=Polygon(S,K,T,U)
+    gris.parameters.filled()
+    gris.parameters.fill.color="lightgray"
+
     no_symbol(trig.vertices,H)
-    pspict.DrawGraphs(trig,I,mediane,K,s1,s2,h1,h2,H,rh)
+    pspict.DrawGraphs(gris,trig,I,mediane,K,s1,s2,h1,h2,H,rh)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
