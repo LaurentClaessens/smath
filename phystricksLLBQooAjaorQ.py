@@ -7,7 +7,7 @@ from phystricks import *
 def LLBQooAjaorQ():
     pspicts,figs = IndependentPictures("LLBQooAjaorQ",2)
     for pspict in pspicts:
-        pspict.dilatation(0.3)
+        pspict.dilatation(0.2)
 
     l=20
     h=13.5
@@ -44,23 +44,23 @@ def LLBQooAjaorQ():
     pspicts[1].DrawGraphs(drapeau,E)
 
     tc=[]
-    tc.append(Angle(C,D,E))
-    tc.append(Angle(F,E,B))
-    tc.append(Angle(A,K,E))
-    tc.append(Angle(E,A,B))
+    tc.append(AngleAOB(C,D,E))
+    tc.append(AngleAOB(F,E,B))
+    tc.append(AngleAOB(A,K,E))
+    tc.append(AngleAOB(E,A,B))
     for ang in tc:
         ang.put_mark(0.3,angle=None,text="\SI{35}{\degree}",automatic_place=(pspict,""))
     cc=[]
-    cc.append(Angle(E,D,A,r=0.3))
-    cc.append(Angle(D,A,E,r=0.3))
+    cc.append(AngleAOB(E,D,A,r=0.3))
+    cc.append(AngleAOB(D,A,E,r=0.3))
     for ang in cc:
         ang.put_mark(0.3,angle=None,text="\SI{55}{\degree}",automatic_place=(pspict,""))
     cd=[]
-    cd.append(Angle(K,E,A,r=0.5))
+    cd.append(AngleAOB(K,E,A,r=0.5))
     for ang in cd:
         ang.put_mark(0.7,angle=None,text="\SI{110}{\degree}",automatic_place=(pspict,""))
 
-    sep=Angle(A,E,D,r=0.2)
+    sep=AngleAOB(A,E,D,r=0.2)
     sep.put_mark(0.3,angle=None,text="\SI{70}{\degree}",automatic_place=(pspict,""))
 
     pspicts[1].DrawGraphs(E,F,EK,tc,cc,cd,K,sep)
