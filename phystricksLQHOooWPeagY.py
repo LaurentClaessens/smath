@@ -4,7 +4,7 @@ def LQHOooWPeagY():
     pspict,fig = SinglePicture("LQHOooWPeagY")
     #pspict.dilatation_X(1)
     #pspict.dilatation_Y(1)
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
     pspict.rotation(15)
 
     S=Point(0,0)

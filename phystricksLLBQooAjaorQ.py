@@ -18,7 +18,7 @@ def LLBQooAjaorQ():
     C=D+(l,0)
 
     E=Point( h/(2*tan(35*2*pi/360)),h/2 )
-    E.put_mark(0.3,angle=-135/2,text="\( E\)",automatic_place=(pspicts,""))
+    E.put_mark(0.3,angle=45,text="\( E\)",automatic_place=(pspicts,""))
     F=Point(l,E.y)
     F.put_mark(0.2,angle=0,text="\( F\)",automatic_place=(pspicts,""))
 
