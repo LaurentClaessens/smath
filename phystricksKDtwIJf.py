@@ -20,7 +20,7 @@ def KDtwIJf():
 
     sm2=Segment(Point(minimum,1.5),Point(Q3,1.5))
     m2=MeasureLength(sm2,0.2)
-    m2.put_mark(-0.3,None,"Environ \( \\frac{ 3 }{ 4 }\)",automatic_place=pspict)
+    m2.put_mark(0.3,angle=None,added_angle=180,text="Environ \( \\frac{ 3 }{ 4 }\)",pspict=pspict)
 
     sm3=Segment(Point(Q3,0),Point(Maximum,0))
     m3=MeasureLength(sm3,0.2)
