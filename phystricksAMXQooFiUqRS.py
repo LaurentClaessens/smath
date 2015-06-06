@@ -17,6 +17,11 @@ def AMXQooFiUqRS():
 
     no_symbol(trap.vertices)
     pspict.DrawGraphs(trap)
+
+    pspict.grid.main_horizontal.parameters.style="dotted"
+    pspict.grid.main_vertical.parameters.style="dotted"
+
+
     pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
