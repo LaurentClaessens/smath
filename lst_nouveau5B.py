@@ -23,11 +23,10 @@ proportionnali=commun.OneChapter("Proportionnalité",classe)
 ang_parall=commun.OneChapter("Angles et parallélisme",classe)
 ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
 parallelogramme=commun.OneChapter("Parallélogrammes",classe)
-cyl=commun.OneChapter("Prismes et cylindres",classe)
+aires=commun.OneChapter("Aires de figures planes",classe)
 
 
-actu5=parallelogramme
-actu5=cyl
+actu5=aires
 actu5.set_filename=set_filename
 actu5.write_the_file()
 

@@ -26,7 +26,7 @@ parallelogramme=commun.OneChapter("Parallélogrammes",classe)
 ops_rel=commun.OneChapter("Nombres relatifs : opérations",classe)
 lmd=commun.OneChapter("Longueurs, masses, durées",classe)
 aires=commun.OneChapter("Aires de figures planes",classe)
-cyl=commun.OneChapter("Prismes et cylindres (1)",classe)
+cyl=commun.OneChapter("Prismes et cylindres",classe)
 repdon=commun.OneChapter("Représentation de données",classe)
 
 actu5=cyl
