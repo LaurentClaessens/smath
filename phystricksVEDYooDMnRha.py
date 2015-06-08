@@ -4,7 +4,7 @@ def VEDYooDMnRha():
     pspicts,figs = IndependentPictures("VEDYooDMnRha",2)
 
     for psp in pspicts:
-        psp.dilatation(1)
+        psp.dilatation(0.5)
     pspicts[0].rotation(45)
     pspicts[1].rotation(-50)
 
