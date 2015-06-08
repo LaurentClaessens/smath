@@ -1,0 +1,18 @@
+\documentclass[a4paper,10pt]{book}
+\input{e_smath}
+
+\corrPosition{1}
+\newcounter{useexternal}
+\setcounter{useexternal}{1}
+\ifthenelse{\value{useexternal}=1}{ \usetikzlibrary{external} \tikzexternalize }{ \newcommand{\tikzsetnextfilename}[1]{} }
+
+\begin{document}
+
+\Exo{2smath-0309}
+\Exo{2smath-0238}
+\Exo{2smath-0311}
+\Exo{2smath-0312}
+\Exo{2smath-0313}
+
+
+\end{document}
