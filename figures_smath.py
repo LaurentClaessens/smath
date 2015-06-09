@@ -1150,7 +1150,6 @@ figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
-figures_list.append(<++>)
 """
 
 if __name__=="__main__":
