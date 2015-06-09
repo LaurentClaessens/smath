@@ -9,20 +9,8 @@
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
 \makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigLLBQooAjaorQooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=LabelFigOAHLooOwLezW.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( F\)}}%
-\immediate\write\writeOfphystricks{totalheightofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( F\)}}%
-\immediate\write\writeOfphystricks{widthofea814db41846db0a3158b653ea517bccdb182c74:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( K\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( K\)}}%
-\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( A \)}}%
 \immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( A \)}}%
@@ -35,10 +23,6 @@
 \immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 \setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( C \)}}%
 \immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( D \)}}%
-\immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( D \)}}%
-\immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
@@ -81,7 +65,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigLLBQooAjaorQooZEROPICTLLBQooAjaorQooZERO}
+\tikzsetnextfilename{tikzFIGLabelFigOAHLooOwLezWPICTOAHLooOwLezW}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -89,36 +73,19 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.1414213562,2.841421356) node {\( A \)};
-\draw (-0.1414213562,2.841421356) node {\( A \)};
-\draw (4.141421356,2.841421356) node {\( B \)};
-\draw (4.141421356,2.841421356) node {\( B \)};
-\draw (4.141421356,-0.1414213562) node {\( C \)};
-\draw (4.141421356,-0.1414213562) node {\( C \)};
-\draw (-0.1414213562,-0.1414213562) node {\( D \)};
-\draw (-0.1414213562,-0.1414213562) node {\( D \)};
-\draw [] (0,2.70) -- (4.00,2.70);
-\draw [] (4.00,2.70) -- (4.00,0);
-\draw [] (4.00,0) -- (0,0);
-\draw [] (0,0) -- (0,2.70);
-\draw (2.191410832,1.106078977) node {\( E\)};
-\draw (2.191410832,1.106078977) node {\( E\)};
-\fill [color=lightgray] (0,2.70) -- (1.93,1.35) -- (1.93,1.35) -- (0,0) -- (0,0) -- (0,2.70) --  cycle;
-\draw [] (0,2.70) -- (1.93,1.35);
-\draw [] (1.93,1.35) -- (0,0);
-\draw [] (0,0) -- (0,2.70);
-
-% declaring the keys in tikz
-\tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
-         hatchthickness/.code={\setlength{\hatchthickness}{#1}}}
-% setting the default values
-\tikzset{hatchspread=3pt,
-         hatchthickness=0.4pt}
-\fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (1.93,1.35) -- (4.00,1.35) -- (4.00,1.35) -- (4.00,0) -- (4.00,0) -- (0,0) -- (0,0) -- (1.93,1.35) --  cycle;
-\draw [] (1.93,1.35) -- (4.00,1.35);
-\draw [] (4.00,1.35) -- (4.00,0);
-\draw [] (4.00,0) -- (0,0);
-\draw [] (0,0) -- (1.93,1.35);
+\draw (-0.1847759065,-0.07653668647) node {\( A \)};
+\draw (-0.1847759065,-0.07653668647) node {\( A \)};
+\draw (2.141421356,-0.1414213562) node {\( B \)};
+\draw (2.141421356,-0.1414213562) node {\( B \)};
+\draw (2.076536686,2.184775906) node {\( C \)};
+\draw (2.076536686,2.184775906) node {\( C \)};
+\draw [] (0,0) -- (2.00,0);
+\draw [] (0.940,-0.0354) -- (1.01,0.0354);
+\draw [] (0.990,-0.0354) -- (1.06,0.0354);
+\draw [] (2.00,0) -- (2.00,2.00);
+\draw [] (2.04,0.940) -- (1.96,1.01);
+\draw [] (2.04,0.990) -- (1.96,1.06);
+\draw [] (2.00,2.00) -- (0,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

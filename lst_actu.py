@@ -6,10 +6,9 @@ import LaTeXparser
 import LaTeXparser.PytexTools
 
 myRequest = LaTeXparser.PytexTools.Request("seconde")
-myRequest.original_filename="smath.tex"
+myRequest.original_filename="corrDS5B8.tex"
 
 myRequest.ok_filenames_list=["e_smath"]
-myRequest.ok_filenames_list.append("15_evaluation5")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")
 myRequest.ok_filenames_list.append("<++>")

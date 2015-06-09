@@ -18,7 +18,7 @@ def LLBQooAjaorQ():
     C=D+(l,0)
 
     E=Point( h/(2*tan(35*2*pi/360)),h/2 )
-    E.put_mark(0.2,angle=45,text="\( E\)",automatic_place=(pspicts,""))
+    E.put_mark(0.2,angle=-45,text="\( E\)",automatic_place=(pspicts,""))
     F=Point(l,E.y)
     F.put_mark(0.2,angle=0,text="\( F\)",automatic_place=(pspicts,""))
 
@@ -37,7 +37,7 @@ def LLBQooAjaorQ():
     drapeau=Polygon(A,B,C,D)
     drapeau.put_mark(0.2,pspict=pspicts)
 
-    no_symbol(A,B,C,D,E)
+    no_symbol(A,B,C,D,E,K,F)
 
     pspicts[0].DrawGraphs(drapeau,E,bleu,rouge)
     pspicts[1].DrawGraphs(drapeau,E,bleu,rouge)
@@ -56,9 +56,9 @@ def LLBQooAjaorQ():
     for ang in cc:
         ang.put_mark(0.3,angle=None,text="\SI{55}{\degree}",automatic_place=(pspict,""))
     cd=[]
-    cd.append(AngleAOB(K,E,A,r=0.5))
+    cd.append(AngleAOB(K,E,A,r=0.3))
     for ang in cd:
-        ang.put_mark(0.7,angle=None,text="\SI{110}{\degree}",automatic_place=(pspict,""))
+        ang.put_mark(0.3,angle=None,text="\SI{110}{\degree}",automatic_place=(pspict,""))
 
     sep=AngleAOB(A,E,D,r=0.2)
     sep.put_mark(0.3,angle=None,text="\SI{70}{\degree}",automatic_place=(pspict,""))
