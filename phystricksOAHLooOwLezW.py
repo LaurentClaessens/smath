@@ -4,7 +4,7 @@ def OAHLooOwLezW():
     pspict,fig = SinglePicture("OAHLooOwLezW")
     #pspict.dilatation_X(1)
     #pspict.dilatation_Y(1)
-    pspict.dilatation(0.5)
+    pspict.dilatation(0.3)
 
     l=4
     A=Point(0,0)
