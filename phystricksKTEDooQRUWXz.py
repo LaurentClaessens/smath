@@ -4,8 +4,8 @@ def KTEDooQRUWXz():
     pspict,fig = SinglePicture("KTEDooQRUWXz")
     #pspict.dilatation_X(1)
     #pspict.dilatation_Y(1)
-    pspict.dilatation(0.6)
-    pspict.rotation(-35)
+    pspict.dilatation(0.5)
+    pspict.rotation(-25)
 
 
     S=Point(0,0)

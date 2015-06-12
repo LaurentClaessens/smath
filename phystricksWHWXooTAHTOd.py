@@ -4,7 +4,7 @@ def WHWXooTAHTOd():
     pspict,fig = SinglePicture("WHWXooTAHTOd")
     #pspict.dilatation_X(1)
     #pspict.dilatation_Y(1)
-    pspict.dilatation(1)
+    pspict.dilatation(0.7)
 
     A=Point(0,0)
     B=Point(4,0)
