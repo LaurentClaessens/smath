@@ -235,8 +235,8 @@ filecolor=magenta   % couleur des textes qui sont des liens
     
 
     % L'une des deux est avec le nom et l'autre sans.
-    \newenvironment{feuilleDS}[1]{\noindent Nom, Prénom : \begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
-    %\newenvironment{feuilleDS}[1]{\begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
+    %\newenvironment{feuilleDS}[1]{\noindent Nom, Prénom : \begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
+    \newenvironment{feuilleDS}[1]{\begin{center}\large #1\\\justification\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
 
 
     \newenvironment{feuilleExo}[1]{\newpage\begin{center}\large #1\end{center}\setcounter{CountExercice}{0}  }{\clearpage}
