@@ -46,6 +46,7 @@ class set_filename(object):
     def __init__(self,new_output_filename):
         self.new_output_filename=new_output_filename
     def __call__(self,medicament):
+        raise DeprecationWarning
         medicament.new_output_filename=self.new_output_filename
 
 class OneChapter(object):
