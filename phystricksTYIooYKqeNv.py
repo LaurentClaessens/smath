@@ -4,7 +4,6 @@ from phystricks import *
 import phystricksCommons
 
 def CXWooOMPOQT():
-    # 5A
     pspict,fig = SinglePicture("CXWooOMPOQT")
 
     moustaches=[]

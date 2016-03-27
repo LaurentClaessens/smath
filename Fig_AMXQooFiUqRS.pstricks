@@ -73,10 +73,10 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-0.600,-0.600) -- (-0.600,3.00);
-\draw [color=gray,style=solid] (0,-0.600) -- (0,3.00);
-\draw [color=gray,style=solid] (0.600,-0.600) -- (0.600,3.00);
-\draw [color=gray,style=solid] (1.20,-0.600) -- (1.20,3.00);
+\draw [color=gray,style=dotted] (-0.600,-0.600) -- (-0.600,3.00);
+\draw [color=gray,style=dotted] (0,-0.600) -- (0,3.00);
+\draw [color=gray,style=dotted] (0.600,-0.600) -- (0.600,3.00);
+\draw [color=gray,style=dotted] (1.20,-0.600) -- (1.20,3.00);
 \draw [color=gray,style=dotted] (-0.300,-0.600) -- (-0.300,3.00);
 \draw [color=gray,style=dotted] (0.300,-0.600) -- (0.300,3.00);
 \draw [color=gray,style=dotted] (0.900,-0.600) -- (0.900,3.00);
@@ -86,13 +86,13 @@
 \draw [color=gray,style=dotted] (-0.600,1.50) -- (1.20,1.50);
 \draw [color=gray,style=dotted] (-0.600,2.10) -- (1.20,2.10);
 \draw [color=gray,style=dotted] (-0.600,2.70) -- (1.20,2.70);
-\draw [color=gray,style=solid] (-0.600,-0.600) -- (1.20,-0.600);
-\draw [color=gray,style=solid] (-0.600,0) -- (1.20,0);
-\draw [color=gray,style=solid] (-0.600,0.600) -- (1.20,0.600);
-\draw [color=gray,style=solid] (-0.600,1.20) -- (1.20,1.20);
-\draw [color=gray,style=solid] (-0.600,1.80) -- (1.20,1.80);
-\draw [color=gray,style=solid] (-0.600,2.40) -- (1.20,2.40);
-\draw [color=gray,style=solid] (-0.600,3.00) -- (1.20,3.00);
+\draw [color=gray,style=dotted] (-0.600,-0.600) -- (1.20,-0.600);
+\draw [color=gray,style=dotted] (-0.600,0) -- (1.20,0);
+\draw [color=gray,style=dotted] (-0.600,0.600) -- (1.20,0.600);
+\draw [color=gray,style=dotted] (-0.600,1.20) -- (1.20,1.20);
+\draw [color=gray,style=dotted] (-0.600,1.80) -- (1.20,1.80);
+\draw [color=gray,style=dotted] (-0.600,2.40) -- (1.20,2.40);
+\draw [color=gray,style=dotted] (-0.600,3.00) -- (1.20,3.00);
 %DEFAULT
 
 \draw (-0.07653668647,-0.1847759065) node {\( A \)};

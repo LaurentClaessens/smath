@@ -11,13 +11,13 @@ def WIYOooLoAtKD():
     perspective=ObliqueProjection(20,0.4)
     cone_height=5
     cone_circle=Circle3D(perspective, (0,0,0),(cone_radius,0,0),(0,0,cone_radius) )
-    cone_circle.parameters.plotpoints=30
+    cone_circle.linear_plotpoints=30
     cone_circle.divide=True
     alpha=pi+pi/3
     P=perspective.point(cone_radius*cos(alpha),0,cone_radius*sin(alpha))
 
     recone_circle=Circle3D(perspective, (0,cone_height/2,0),(cone_radius/2,cone_height/2,0),(0,cone_height/2,cone_radius/2) )
-    recone_circle.parameters.plotpoints=30
+    recone_circle.linear_plotpoints=30
     recone_circle.divide=True
 
     S=perspective.point(0,cone_height,0)

@@ -10,7 +10,7 @@ def NQHTooFlwUeP():
     curve1.parameters.color="red"
     curve2.parameters.color="red"
 
-    surf=SurfaceBetweenParametricCurves(curve2,curve1,(0,2*pi-0.1))
+    surf=SurfaceBetweenParametricCurves(curve2,curve1,interval=(0,2*pi-0.1))
     surf.parameters.filled()
     surf.parameters.fill.color="blue"
 

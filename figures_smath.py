@@ -580,6 +580,8 @@ def AllFigures(figures_list):
 # from phystricksAUHmNET import AUHmNET
 
 figures_list=[]
+figures_list.append(LQHOooWPeagY)
+figures_list.append(KEQLooOrxtCN)
 figures_list.append(KBOKooTCswpl)
 figures_list.append(EvZZys)
 figures_list.append(BpCNVm)
@@ -1013,6 +1015,7 @@ figures_list.append(VXDJooBGRpbL)
 figures_list.append(BAHMooAGUdjV)
 figures_list.append(FTKEooCLvbNp)
 figures_list.append(ENQZooVqRaIv)
+figures_list=[]
 figures_list.append(LLBQooAjaorQ)
 figures_list.append(ZUVLooJNWbPB)
 figures_list.append(TFDNooJemFMW)

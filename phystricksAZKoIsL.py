@@ -9,6 +9,7 @@ def AZKoIsL():
     # Si un jour on remet une fonction ou qu'on en change le nom,
     # il faudra changer le texte dans la question.
 
+    x=var('x')
     f=phyFunction((x+2)**2-1).graph(-4,0) 
     #h=-HermiteInterpolation( [(-3,0,-1),(-2,-1,0),(0,2,0),(1,0,0)] ).graph(-3,1.3)  
     g=HermiteInterpolation([(-4,-2,0),(-1,1,0),(2,-1,0)]).graph(-4.5,4) 

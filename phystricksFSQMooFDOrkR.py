@@ -35,7 +35,7 @@ def FSQMooFDOrkR():
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)
     axe.no_numbering()
 
-    pspict.comment="Un axe gradué de -4 à 8. Les nombres sont en-dessous de l'axe, et le 1/2 est au-dessus"
+    pspict.comment="An axe is graduated from -4 to 8. The graduations are under the axes and $1/2$ over the axe"
     pspict.DrawGraphs(axe,K)
 
     fig.no_figure()

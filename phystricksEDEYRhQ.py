@@ -12,8 +12,8 @@ def EDEYRhQ():
     pspict.dilatation_X(1/6)
     pspict.dilatation_Y(1)
 
-    BasicGeometricObjects.GraphOfASegment.mark_point=mark_point
-
+    from phystricks.SegmentGraph import SegmentGraph
+    SegmentGraph.mark_point=mark_point
 
     l1=10
     l2=15

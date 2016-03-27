@@ -8,17 +8,17 @@
 %SPECIFIC_NEEDS
 %OPEN_WRITE_AND_LABEL
 \makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfhomemokyDOTSagesrcbinsageipython}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}\makeatother%
+\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
 \immediate\openout\writeOfphystricks=LabelFigKDtwIJf.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{totalheightofa20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{widthofa20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{Environ \( \frac{ 3 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{totalheightof23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{Environ \( \frac{ 3 }{ 4 }\)}}%
-\immediate\write\writeOfphystricks{widthof23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{totalheightofa20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Environ \( \frac{ 1 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthofa20ec4c60235b5e4a915b05a10b189d0fec74d5b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Environ \( \frac{ 3 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{totalheightof23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Environ \( \frac{ 3 }{ 4 }\)}}%
+\immediate\write\writeOfphystricks{widthof23908102a140115bcfd3ebbca03f40991e40e134:\the\lengthOfDOTfiguressmathDOTpy-}
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%

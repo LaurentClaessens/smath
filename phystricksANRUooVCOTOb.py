@@ -28,7 +28,12 @@ def ANRUooVCOTOb():
     wp=Segment(Pp,Qp)
 
     import numpy
-    X=numpy.linspace(  Q.x,Qp.x,10,endpoint=True )
+
+    # Because Q.x has type  <type 'sage.symbolic.expression.Expression'>
+    lin_a=numerical_approx(Q.x)
+    lin_b=numerical_approx(Qp.x)
+
+    X=numpy.linspace(lin_a,lin_b,10,endpoint=True )
     for xx in X:
         A=Point(xx,-r)
         seg=Segment(A,A+vecteur).dilatation(1.5)

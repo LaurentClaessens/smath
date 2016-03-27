@@ -22,6 +22,8 @@ def VFAooZmuvtW():
     #pspict.axes.no_graduation()
     pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.comment="An homographic function cutted at $y$ between $-8$ and $8$"
+
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

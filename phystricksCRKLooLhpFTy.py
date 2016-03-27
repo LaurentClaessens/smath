@@ -12,9 +12,9 @@ def CRKLooLhpFTy():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,pspict=pspict)
 
-    angA=Angle(C,A,B)
-    angB=Angle(A,B,C)
-    angC=Angle(B,C,A)
+    angA=AngleAOB(C,A,B)
+    angB=AngleAOB(A,B,C)
+    angC=AngleAOB(B,C,A)
 
     for P in trig.vertices:
         P.parameters.symbol=''

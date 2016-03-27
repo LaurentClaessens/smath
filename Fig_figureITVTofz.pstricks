@@ -89,30 +89,30 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw [color=red] (0,0) -- (4.32,1.44);
-\draw [color=red] (4.80,0) -- (4.80,4.80);
+\draw [color=red] (4.80,0) -- (2.40,2.40);
 \draw [color=red] (3.60,3.60) -- (3.60,0);
 \draw [] (0,0) -- (4.80,0);
 \draw [] (4.80,0) -- (3.60,3.60);
 \draw [] (3.60,3.60) -- (0,0);
-\draw []  (4.320000000,1.440000000) node [rotate=0] {$\times$};
+\draw []  (4.320000000,1.440000000) node [rotate=0] {$\bullet$};
 \draw (4.622094333,1.440000000) node {\( I\)};
 \draw (4.622094333,1.440000000) node {\( I\)};
-\draw []  (4.800000000,4.800000000) node [rotate=0] {$\times$};
-\draw (4.531819810,5.078088023) node {\( J\)};
-\draw (4.531819810,5.078088023) node {\( J\)};
-\draw []  (3.600000000,0) node [rotate=0] {$\times$};
+\draw []  (2.400000000,2.400000000) node [rotate=0] {$\bullet$};
+\draw (2.131819810,2.678088023) node {\( J\)};
+\draw (2.131819810,2.678088023) node {\( J\)};
+\draw []  (3.600000000,0) node [rotate=0] {$\bullet$};
 \draw (3.600000000,-0.3366666667) node {\( K\)};
 \draw (3.600000000,-0.3366666667) node {\( K\)};
-\draw []  (4.800000000,1.600000000) node [rotate=0] {$\times$};
-\draw (4.800000000,1.063333333) node {\( H\)};
-\draw (4.800000000,1.063333333) node {\( H\)};
-\draw []  (0,0) node [rotate=0] {$\times$};
+\draw []  (3.600000000,1.200000000) node [rotate=0] {$\bullet$};
+\draw (3.600000000,0.6633333333) node {\( H\)};
+\draw (3.600000000,0.6633333333) node {\( H\)};
+\draw []  (0,0) node [rotate=0] {$\bullet$};
 \draw (-0.3468040000,0) node {\( A\)};
 \draw (-0.3468040000,0) node {\( A\)};
-\draw []  (4.800000000,0) node [rotate=0] {$\times$};
+\draw []  (4.800000000,0) node [rotate=0] {$\bullet$};
 \draw (5.158864333,0) node {\( B\)};
 \draw (5.158864333,0) node {\( B\)};
-\draw []  (3.600000000,3.600000000) node [rotate=0] {$\times$};
+\draw []  (3.600000000,3.600000000) node [rotate=0] {$\bullet$};
 \draw (3.600000000,3.936666667) node {\( C\)};
 \draw (3.600000000,3.936666667) node {\( C\)};
 %END PSPICTURE

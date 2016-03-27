@@ -14,7 +14,7 @@ def CFWIooWDSwRD():
     for i in range(len(rayons)-1):
         c1=cercles[i+1]
         c2=cercles[i]
-        couronne=SurfaceBetweenParametricCurves(c2,c1,(0,2*pi-0.001))
+        couronne=SurfaceBetweenParametricCurves(c2,c1,interval=(0,2*pi-0.001))
         couronne.parameters.filled()
         couronne.parameters.fill.color="white"
         if i%2==0:
@@ -32,7 +32,7 @@ def CFWIooWDSwRD():
     B.put_mark(0.2,120+90,"\( B\)",automatic_place=(pspict,"corner"))
     C.put_mark(0.2,-90+90,"\( C\)",automatic_place=(pspict,"W"))
 
-    pspict.comment="Des cercles gris concentriques."
+    pspict.comment="Concentric grey filled circles."
     pspict.DrawGraphs(cercles,A,O,B,C)
     fig.no_figure()
     fig.conclude()

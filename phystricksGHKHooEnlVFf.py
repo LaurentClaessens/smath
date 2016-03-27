@@ -41,7 +41,7 @@ def GHKHooEnlVFf():
     mA=Angle(D,A,B,r=0.1).get_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
     mB=Angle(s1.F,B,K,r=0.1).get_mark(0.2,angle=None,text="\( B\)",automatic_place=(pspict,""))
 
-    pspict.comment="Les marques des points A et B sont bien placées au milieu de l'angle et à distance raisonnable."
+    pspict.comment="The marks $A$ and $B$ are in the center of the angle and at reasonable distance."
     no_symbol(O,A,B,C,D)
     pspict.DrawGraphs(d1,d2,O,A,B,C,D,s1,s2,m1,m2,mA,mB)
     fig.no_figure()

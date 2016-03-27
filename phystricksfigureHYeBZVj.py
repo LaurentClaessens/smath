@@ -26,6 +26,7 @@ def figureHYeBZVj():
     pspict,fig = SinglePicture("figureHYeBZVj")
     pspict.dilatation_Y(1/50)
     pspict.My_acceptable_BB=600
+    #pspict.my_acceptable_BB=-600
 
     Mx=13
     s1=liste_morceaux(f1,1,Mx)
@@ -53,3 +54,5 @@ def figureHYeBZVj():
     pspict.DrawDefaultGrid()
     fig.conclude()
     fig.write_the_file()
+
+    pspict.comment="This picture displays large numbers, but remains reasonably small."

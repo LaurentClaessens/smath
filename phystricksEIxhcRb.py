@@ -7,6 +7,7 @@ def EIxhcRb():
     pspict,fig = SinglePicture("EIxhcRb")
     pspict.dilatation_X(1)
     pspict.dilatation_Y(1)
+    x=var('x')
 
     A=Point(-3,1)
     B=Point(-1,0)
