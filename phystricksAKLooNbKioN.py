@@ -12,22 +12,22 @@ def SESooBTZQPF():
 
     for i in range(0,4):
         for j in range(0,3):
-            pspict.DrawGraph(petit(i,j))
+            pspict.DrawGraphs(petit(i,j))
     for i in range(0,4):
         pet=petit(i,0)
         pet.parameters.hatched()
         pet.parameters.hatch.color='gray'
-        pspict.DrawGraph(pet)
+        pspict.DrawGraphs(pet)
     for i in range(0,4):
         pet=petit(i,1)
         pet.parameters.filled()
         pet.parameters.fill.color='lightgray'
-        pspict.DrawGraph(pet)
+        pspict.DrawGraphs(pet)
     for i in range(0,3):
         pet=petit(i,2)
         pet.parameters.filled()
         pet.parameters.fill.color='lightgray'
-        pspict.DrawGraph(pet)
+        pspict.DrawGraphs(pet)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
@@ -38,17 +38,17 @@ def NNZooNCAqUK():
 
     for i in range(0,2):
         for j in range(0,3):
-            pspict.DrawGraph(petit(i,j))
+            pspict.DrawGraphs(petit(i,j))
     for j in range(0,3):
         pet=petit(0,j)
         pet.parameters.hatched()
         pet.parameters.hatch.color='gray'
-        pspict.DrawGraph(pet)
+        pspict.DrawGraphs(pet)
     for j in range(0,2):
         pet=petit(1,j)
         pet.parameters.filled()
         pet.parameters.fill.color='lightgray'
-        pspict.DrawGraph(pet)
+        pspict.DrawGraphs(pet)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
@@ -59,17 +59,17 @@ def CEZooPzIzzi():
 
     for i in range(0,5):
         for j in range(0,3):
-            pspict.DrawGraph(petit(i,j))
+            pspict.DrawGraphs(petit(i,j))
     for j in range(1,3):
         for i in range(0,5):
             pet=petit(i,j)
             pet.parameters.hatched()
             pet.parameters.hatch.color='gray'
-            pspict.DrawGraph(pet)
+            pspict.DrawGraphs(pet)
     pet=petit(0,0)
     pet.parameters.filled()
     pet.parameters.fill.color='lightgray'
-    pspict.DrawGraph(pet)
+    pspict.DrawGraphs(pet)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

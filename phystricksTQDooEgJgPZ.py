@@ -21,7 +21,7 @@ def TQDooEgJgPZ():
         pspicts[i].mother.caption="La fonction $"+latex(F[i].sage)+"$"
 
     for i,psp in enumerate(pspicts):
-        psp.DrawGraph(F[i])
+        psp.DrawGraphs(F[i])
         psp.axes.do_my_enlarge=False
         psp.DrawDefaultAxes()
 

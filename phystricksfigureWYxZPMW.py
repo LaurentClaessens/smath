@@ -28,7 +28,7 @@ def figureWYxZPMW():
 
     for i,psp in enumerate(pspicts):
         for k in range(0,5):
-            psp.DrawGraph(Point(k,U[i](k)))
+            psp.DrawGraphs(Point(k,U[i](k)))
         psp.DrawDefaultAxes()
 
     fig.conclude()
