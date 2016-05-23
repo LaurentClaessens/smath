@@ -30,7 +30,9 @@
 \usepackage{cases}
 \usepackage{multicol}
 \usepackage[all]{xy}
-\usepackage[parse-numbers=false,binary-units=true,detect-all=true,per-mode=symbol]{siunitx} 
+
+\usepackage[cdot,thinqspace,amssymb]{SIunits}    %   1410612643
+
 \usepackage[nottoc]{tocbibind}
 \usepackage[numbers]{natbib}
 \usepackage{listingsutf8}
@@ -69,7 +71,11 @@ filecolor=magenta   % couleur des textes qui sont des liens
 
 
 
-\newcommand{\unit}[2]{\SI{#1}{#2}}
+%\newcommand{\unit}[2]{\SI{#1}{#2}}
+% L'importance de la commande \si est que elle existe dans siunitx que j'ai
+% un peu utilisé avant d'abandonner.
+\newcommand{\SI}[2]{\unit{#1}{#2}}
+\newcommand{\si}[1]{#1}
 \DeclareSIUnit[number-unit-product = {\,}]\cal{cal}           
 
 
