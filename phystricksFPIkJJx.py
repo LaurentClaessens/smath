@@ -50,7 +50,7 @@ i,i,.,.,.,i,7,.,i
     sudoku=SudokuGrid(tableau,length=0.7)
 
     pspict.DrawGraphs(sudoku)
-    pspict.comment="Une belle grille de sudoky avec des nombres de -4 à 4."
+    pspict.comment="Une belle grille de sudoku avec des nombres de -4 à 4."
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

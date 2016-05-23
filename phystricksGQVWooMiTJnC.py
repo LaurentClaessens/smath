@@ -24,7 +24,7 @@ def GQVWooMiTJnC():
     angB=Angle(A,B,C,r=0.3)
     angC=Angle(B,C,A,r=0.3)
 
-    angA.put_mark(0.1,None,"\SI{"+str(aA)+"}{\degree}",automatic_place=(pspict,""))
+    angA.put_mark(0.1,None,"\SI{"+str(aA)+"}{\degree}",automatic_place=(pspict,"center"))
     #angB.put_mark(0.2,None,"\SI{120}{\degree}",automatic_place=(pspict,""))
     angC.put_mark(0.2,None,"\SI{"+str(aC)+"}{\degree}",automatic_place=(pspict,""))
 
