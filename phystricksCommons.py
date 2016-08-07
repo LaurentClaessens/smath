@@ -20,6 +20,8 @@ class Pyramide(object):
                 self.centres[(j,i)]=Point(x+l/2,y-h/2)
     def bounding_box(self,pspict=None):
         return BasicGeometricObjects.BoundingBox()
+    def math_bounding_box(self,pspict=None):
+        return self.bounding_box(pspict)
     def action_on_pspict(self,pspict):
         pspict.DrawGraphs(self.rectangles)
         for P in self.centres.values():
