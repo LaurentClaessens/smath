@@ -22,7 +22,7 @@ def BXFFooNyvPYY():
     rh=RightAngleAOB(B,A,C,r=0.5)
 
     no_symbol(trig.vertices,K)
-    pspict.DrawGraphs(trig,K,mediane,K,rh)
+    pspict.DrawGraphs(trig,mediane,K,rh)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
