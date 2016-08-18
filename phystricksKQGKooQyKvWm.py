@@ -9,7 +9,7 @@ def KQGKooQyKvWm():
     names_list=["A","K","L","N","M"]
     #names_list=["O","A","B","A'","B'"]
 
-    O.put_mark(0.2,180,"\( "+names_list[0]+"\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,180,"\( "+names_list[0]+"\)",pspict=pspict)
 
     P1=Point(5,1)
     P2=Point(5,3)
@@ -26,10 +26,10 @@ def KQGKooQyKvWm():
     parall=Segment(A,Ap).parallel_trough(B)
     Bp=Intersection(parall,s1)[0]
 
-    A.put_mark(0.2,None,"\("+names_list[1]+" \)",automatic_place=(pspict,""))
-    B.put_mark(0.2,None,"\("+names_list[2]+" \)",automatic_place=(pspict,""))
-    Ap.put_mark(0.2,None,"\("+names_list[3]+" \)",automatic_place=(pspict,""))
-    Bp.put_mark(0.2,None,"\("+names_list[4]+" \)",automatic_place=(pspict,""))
+    A.put_mark(0.2,None,"\("+names_list[1]+" \)",pspict=pspict)
+    B.put_mark(0.2,None,"\("+names_list[2]+" \)",pspict=pspict)
+    Ap.put_mark(0.2,None,"\("+names_list[3]+" \)",pspict=pspict)
+    Bp.put_mark(0.2,None,"\("+names_list[4]+" \)",pspict=pspict)
 
     pspict.DrawGraphs(  Segment(A,Ap),Segment(B,Bp)  )
 
@@ -37,8 +37,8 @@ def KQGKooQyKvWm():
         p.parameters.symbol=""
     pspict.DrawGraphs(s1,s2,A,B,Ap,Bp,O)
 
-    m1=Segment(A,Ap).get_mark(0.2,None,"\( 3\)",automatic_place=(pspict,""))
-    m2=Segment(B,Bp).get_mark(0.2,None,"\( 21\)",automatic_place=(pspict,""))
+    m1=Segment(A,Ap).get_mark(0.2,None,"\( 3\)",pspict=pspict)
+    m2=Segment(B,Bp).get_mark(0.2,None,"\( 21\)",pspict=pspict)
 
     pspict.DrawGraphs(m1,m2)
 

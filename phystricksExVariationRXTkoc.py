@@ -9,7 +9,7 @@ def ExVariationRXTkoc():
     pts=[Point(-2.5,0),Point(-1,1),Point(2,0)]
     df=LagrangePolynomial(pts)
     f=phyFunction(df.sage.integrate(x)).graph(mx,Mx)
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict)
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultAxes()

@@ -15,18 +15,18 @@ def PSZooRphUET():
 
     M=Intersection(c1,c2)[1]
 
-    K.put_mark(0.2,180+45,"\( K\)",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,-45,"\( L\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,90,"\( M\)",automatic_place=(pspict,"S"))
+    K.put_mark(0.2,180+45,"\( K\)",pspict=pspict,position="corner")
+    L.put_mark(0.2,-45,"\( L\)",pspict=pspict,position="corner")
+    M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
 
     trig=Polygon(K,L,M)
 
     a1=Angle(L,K,M)
     a2=Angle(M,L,K)
     a3=Angle(K,M,L)
-    a1.put_mark(0.4,None,"\SI{33}{\degree}",automatic_place=(pspict,"center"))
-    a2.put_mark(0.4,None,"\SI{33}{\degree}",automatic_place=(pspict,"center"))
-    a3.put_mark(0.4,None,"\SI{113}{\degree}",automatic_place=(pspict,"center"))
+    a1.put_mark(0.4,None,"\SI{33}{\degree}",pspict=pspict,position="center")
+    a2.put_mark(0.4,None,"\SI{33}{\degree}",pspict=pspict,position="center")
+    a3.put_mark(0.4,None,"\SI{113}{\degree}",pspict=pspict,position="center")
 
     pspict.DrawGraphs(K,L,M,c1,c2,trig,a1,a2,a3)
     fig.no_figure()

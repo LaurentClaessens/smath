@@ -13,11 +13,11 @@ def NHGWooBOAkGS():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,pspict=pspict)
     mediat=Segment(B,K)
-    mediat.put_mark(0.2,angle=None,added_angle=0,text="\( m\)",automatic_place=(pspict,""))
+    mediat.put_mark(0.2,angle=None,added_angle=0,text="\( m\)",pspict=pspict)
     L=Point(B.x,0)
 
-    L.put_mark(0.2,angle=-90,added_angle=0,text="\( L\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,angle=-90,added_angle=0,text="\( K\)",automatic_place=(pspict,""))
+    L.put_mark(0.2,angle=-90,added_angle=0,text="\( L\)",pspict=pspict)
+    K.put_mark(0.2,angle=-90,added_angle=0,text="\( K\)",pspict=pspict)
 
     hauteur=Segment(L,B)
     hauteur.parameters.style="dotted"

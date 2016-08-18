@@ -17,14 +17,14 @@ def YDAooMNHhCN():
     gen_c=[  s.midpoint() for s in gen_trig.edges  ]
     for c in gen_c:
         c.parameters.symbol=""
-    gen_c[0].put_mark(0.2,-90,"\( b\)",automatic_place=(pspicts,"N"))
-    gen_c[1].put_mark(0.2,45,"\( c\)",automatic_place=(pspicts,"corner"))
-    gen_c[2].put_mark(0.2,180,"\( a\)",automatic_place=(pspicts,"E"))
+    gen_c[0].put_mark(0.2,-90,"\( b\)",pspict=pspicts,position="N")
+    gen_c[1].put_mark(0.2,45,"\( c\)",pspict=pspicts,position="corner")
+    gen_c[2].put_mark(0.2,180,"\( a\)",pspict=pspicts,position="E")
     gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],1,0  )
     gen_alpha=Angle(tC,tB,tA)
-    gen_alpha.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
+    gen_alpha.put_mark(0.2,None,"\( \\alpha\)",pspict=pspicts,position="corner")
     gen_beta=Angle( tA,tC,tB)
-    gen_beta.put_mark(0.2,None,"\( \\beta\)",automatic_place=(pspicts,"corner"))
+    gen_beta.put_mark(0.2,None,"\( \\beta\)",pspict=pspicts,position="corner")
     pspicts[2].DrawGraphs(gen_c,gen_trig,gen_rh,gen_alpha,gen_beta)
 
 
@@ -44,44 +44,44 @@ def YDAooMNHhCN():
     carre.parameters.filled()
     carre.parameters.fill.color="lightgray"
 
-    A.put_mark(0.2,90+45,"\( A\)",automatic_place=(pspicts,"corner"))
-    B.put_mark(0.2,45,"\( B\)",automatic_place=(pspicts,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspicts,"corner"))
-    D.put_mark(0.2,180+45,"\( D\)",automatic_place=(pspicts,"corner"))
-    M.put_mark(0.2,90,"\( M\)",automatic_place=(pspicts,"S"))
-    N.put_mark(0.2,0,"\( N\)",automatic_place=(pspicts,"W"))
-    O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspicts,"N"))
-    P.put_mark(0.2,180,"\( P\)",automatic_place=(pspicts,"E"))
+    A.put_mark(0.2,90+45,"\( A\)",pspict=pspicts,position="corner")
+    B.put_mark(0.2,45,"\( B\)",pspict=pspicts,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspicts,position="corner")
+    D.put_mark(0.2,180+45,"\( D\)",pspict=pspicts,position="corner")
+    M.put_mark(0.2,90,"\( M\)",pspict=pspicts,position="S")
+    N.put_mark(0.2,0,"\( N\)",pspict=pspicts,position="W")
+    O.put_mark(0.2,-90,"\( O\)",pspict=pspicts,position="N")
+    P.put_mark(0.2,180,"\( P\)",pspict=pspicts,position="E")
 
     a1=Angle(M,P,A)
     a2=Angle(N,M,B)
     b1=Angle(A,M,P)
     b2=Angle(B,N,M)
 
-    a1.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
-    a2.put_mark(0.2,None,"\( \\alpha\)",automatic_place=(pspicts,"corner"))
-    b1.put_mark(0.2,None,"\( \\beta\)",automatic_place=(pspicts,"corner"))
-    b2.put_mark(0.2,None,"\( \\beta\)",automatic_place=(pspicts,"corner"))
+    a1.put_mark(0.2,None,"\( \\alpha\)",pspict=pspicts,position="corner")
+    a2.put_mark(0.2,None,"\( \\alpha\)",pspict=pspicts,position="corner")
+    b1.put_mark(0.2,None,"\( \\beta\)",pspict=pspicts,position="corner")
+    b2.put_mark(0.2,None,"\( \\beta\)",pspict=pspicts,position="corner")
 
     cen=[]
     cen.append(Segment( A,M  ).center())
-    cen[-1].put_mark(0.2,90,"\( a\)",automatic_place=(pspicts,"S"))
+    cen[-1].put_mark(0.2,90,"\( a\)",pspict=pspicts,position="S")
     cen.append(Segment( M,B  ).center())
-    cen[-1].put_mark(0.2,90,"\( b\)",automatic_place=(pspicts,"S"))
+    cen[-1].put_mark(0.2,90,"\( b\)",pspict=pspicts,position="S")
     cen.append(Segment( B,N  ).center())
-    cen[-1].put_mark(0.2,0,"\( a\)",automatic_place=(pspicts,"W"))
+    cen[-1].put_mark(0.2,0,"\( a\)",pspict=pspicts,position="W")
     cen.append(Segment( N,C  ).center())
-    cen[-1].put_mark(0.2,0,"\( b\)",automatic_place=(pspicts,"W"))
+    cen[-1].put_mark(0.2,0,"\( b\)",pspict=pspicts,position="W")
     cen.append(Segment( C,O  ).center())
-    cen[-1].put_mark(0.2,-90,"\( a\)",automatic_place=(pspicts,"N"))
+    cen[-1].put_mark(0.2,-90,"\( a\)",pspict=pspicts,position="N")
     cen.append(Segment( D,O  ).center())
-    cen[-1].put_mark(0.2,-90,"\( b\)",automatic_place=(pspicts,"N"))
+    cen[-1].put_mark(0.2,-90,"\( b\)",pspict=pspicts,position="N")
     cen.append(Segment( D,P  ).center())
-    cen[-1].put_mark(0.2,180,"\( a\)",automatic_place=(pspicts,"E"))
+    cen[-1].put_mark(0.2,180,"\( a\)",pspict=pspicts,position="E")
     cen.append(Segment( P,A  ).center())
-    cen[-1].put_mark(0.2,180,"\( b\)",automatic_place=(pspicts,"E"))
+    cen[-1].put_mark(0.2,180,"\( b\)",pspict=pspicts,position="E")
     cen.append(Segment( M,P  ).center())
-    cen[-1].put_mark(0.2,cen[-1].advised_mark_angle(pspicts),"\( c\)",automatic_place=(pspicts,"corner"))
+    cen[-1].put_mark(0.2,cen[-1].advised_mark_angle(pspicts),"\( c\)",pspict=pspicts,position="corner")
     for p in cen:
         p.parameters.symbol=""
     cen2=[ cen[2],cen[3],cen[4],cen[5],cen[6] ]
@@ -96,9 +96,9 @@ def YDAooMNHhCN():
     com4=Segment(P,O)
     com5=Segment(O,N)
 
-    R.put_mark(0.2,90,"\( R\)",automatic_place=(pspicts,"S"))
-    L.put_mark(0.2,180,"\( L\)",automatic_place=(pspicts,"E"))
-    K.put_mark(0.2,90+45,"\( K\)",automatic_place=(pspicts,"corner"))
+    R.put_mark(0.2,90,"\( R\)",pspict=pspicts,position="S")
+    L.put_mark(0.2,180,"\( L\)",pspict=pspicts,position="E")
+    K.put_mark(0.2,90+45,"\( K\)",pspict=pspicts,position="corner")
 
     for pspict in [  pspicts[0],pspicts[1],pspicts[3] ] :
         pspict.DrawGraphs(grand,A,B,C,D,O,P)

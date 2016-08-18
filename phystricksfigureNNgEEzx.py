@@ -11,10 +11,10 @@ def figureNNgEEzx():
     M=Point(0,0)+v
     w=AffineVector(O,M)
 
-    A.put_mark(0.2,0,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=pspict)
-    M.put_mark(0.2,135,"\( M\)",automatic_place=pspict)
-    O.put_mark(0.2,45,"\( O\)",automatic_place=pspict)
+    A.put_mark(0.2,0,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
+    M.put_mark(0.2,135,"\( M\)",pspict=pspict)
+    O.put_mark(0.2,45,"\( O\)",pspict=pspict)
     A.parameters.symbol="x"
     B.parameters.symbol="x"
     M.parameters.symbol="x"

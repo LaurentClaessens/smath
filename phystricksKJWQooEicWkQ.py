@@ -19,10 +19,10 @@ def KJWQooEicWkQ():
     champ.edges[0].put_code(n=2,d=0.1,l=0.4,pspict=pspict)
     champ.edges[1].put_code(n=2,d=0.1,l=0.4,pspict=pspict)
 
-    champ.edges[0].put_mark(0.2,angle=None,added_angle=0,text="\SI{3}{\meter}",automatic_place=(pspict,""))
-    champ.edges[5].put_mark(0.2,angle=None,added_angle=0,text="\SI{9}{\meter}",automatic_place=(pspict,""))
-    champ.edges[6].put_mark(0.2,angle=None,added_angle=0,text="\SI{12.5}{\meter}",automatic_place=(pspict,""))
-    champ.edges[7].put_mark(0.2,angle=None,added_angle=0,text="\SI{10.5}{\meter}",automatic_place=(pspict,""))
+    champ.edges[0].put_mark(0.2,angle=None,added_angle=0,text="\SI{3}{\meter}",pspict=pspict)
+    champ.edges[5].put_mark(0.2,angle=None,added_angle=0,text="\SI{9}{\meter}",pspict=pspict)
+    champ.edges[6].put_mark(0.2,angle=None,added_angle=0,text="\SI{12.5}{\meter}",pspict=pspict)
+    champ.edges[7].put_mark(0.2,angle=None,added_angle=0,text="\SI{10.5}{\meter}",pspict=pspict)
 
     rhs=[  RightAngleAOB(H,A,B),RightAngleAOB(A,B,C),RightAngleAOB(B,C,D),RightAngleAOB(C,D,E),RightAngleAOB(D,E,F),RightAngleAOB(E,F,G),RightAngleAOB(F,G,H),RightAngleAOB(G,H,A)  ]
     no_symbol(champ.vertices)

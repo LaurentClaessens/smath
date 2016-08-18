@@ -20,9 +20,9 @@ def ExoTrigTrIpPW():
     CB.parameters.style="dashed"
     CB.parameters.color="blue"
     
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,0,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-20,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,0,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-20,"\( C\)",pspict=pspict)
 
 
     pspict.DrawGraphs(A,B,C,f,AB,AC,CB)

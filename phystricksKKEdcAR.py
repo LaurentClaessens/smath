@@ -17,8 +17,8 @@ def KKEdcAR():
     f=affine(Point(1,2),B=Point(4,4))
     g=affine(Point(0,3),B=Point(2,1))
 
-    f.put_mark(0.2,0,"\( d_1\)",automatic_place=pspict)
-    g.put_mark(0.2,45,"\( d_2\)",automatic_place=(pspict,"corner"))
+    f.put_mark(0.2,0,"\( d_1\)",pspict=pspict)
+    g.put_mark(0.2,45,"\( d_2\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(f,g)
     pspict.DrawDefaultAxes()

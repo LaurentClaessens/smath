@@ -12,7 +12,7 @@ def VUOCooYkrktO():
     triangle.put_mark(0.2,pspict=pspict)
 
     S=triangle.edges[2].midpoint()
-    S.put_mark(0.2,-90,"\( S\)",automatic_place=(pspict,"N"))
+    S.put_mark(0.2,-90,"\( S\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(triangle,S)
     fig.no_figure()

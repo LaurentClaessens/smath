@@ -15,15 +15,15 @@ def UMQMooOlJYbZ():
     trig=Polygon(D,A,S)
     trig.put_mark(0.4,text_list=[u"départ","\( A\)","sommet"],pspict=pspict)
 
-    trig.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\SI{600}{\meter}",automatic_place=(pspict,""))
-    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\SI{1}{\kilo\meter}",automatic_place=(pspict,""))
+    trig.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\SI{600}{\meter}",pspict=pspict)
+    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\SI{1}{\kilo\meter}",pspict=pspict)
 
     Q=Segment(D,S).get_point_proportion(p)
     P=Segment(D,A).get_point_proportion(p)
-    P.put_mark(0.2,angle=-90,text="\( P\)",automatic_place=(pspict,""))
+    P.put_mark(0.2,angle=-90,text="\( P\)",pspict=pspict)
 
     QP=Segment(Q,P)
-    QP.put_mark(0.2,angle=0,text="\( 25\)",automatic_place=(pspict,""))
+    QP.put_mark(0.2,angle=0,text="\( 25\)",pspict=pspict)
 
     #rh1=RightAngle(QP,trig.edges[0],0,0)
     rh1=RightAngleAOB(Q,P,D)

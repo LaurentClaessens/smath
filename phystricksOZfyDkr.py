@@ -10,9 +10,9 @@ def OZfyDkr():
     A=Point(3,2)
     triangle=Polygon(A,B,C)
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=(pspict,"S"))
-    B.put_mark(0.2,180,"\( B\)",automatic_place=(pspict,"E"))
-    C.put_mark(0.2,0,"\( C\)",automatic_place=(pspict,"W"))
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,180,"\( B\)",pspict=pspict,position="E")
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(A,B,C,triangle)
     fig.no_figure()

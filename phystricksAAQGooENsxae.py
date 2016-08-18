@@ -16,9 +16,9 @@ def AAQGooENsxae():
     hach.parameters.filled()
     hach.parameters.fill.color="lightgray"
 
-    R.put_mark(0.2,angle=None,added_angle=0,text="\( R\)",automatic_place=(pspict,""))
-    P.put_mark(0.2,angle=None,added_angle=0,text="\( P\)",automatic_place=(pspict,""))
-    O.put_mark(0.2,angle=180+45,added_angle=0,text="\( O\)",automatic_place=(pspict,""))
+    R.put_mark(0.2,angle=None,added_angle=0,text="\( R\)",pspict=pspict)
+    P.put_mark(0.2,angle=None,added_angle=0,text="\( P\)",pspict=pspict)
+    O.put_mark(0.2,angle=180+45,added_angle=0,text="\( O\)",pspict=pspict)
 
     no_symbol(R,O,P)
     pspict.DrawGraphs(hach,R,P,O,cer,r1,r2)

@@ -12,8 +12,8 @@ def SCUKooLMEReM():
     trig.put_mark(0.4,pspict=pspict)
 
     rh=RightAngleAOB(C,B,A,n1=0,n2=1)
-    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 4\)",automatic_place=(pspict,""))
-    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( ?\)",automatic_place=(pspict,""))
+    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 4\)",pspict=pspict)
+    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( ?\)",pspict=pspict)
 
     no_symbol(trig.vertices)
 

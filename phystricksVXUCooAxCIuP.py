@@ -16,8 +16,8 @@ def VXUCooAxCIuP():
     trig=Polygon(A,C,D)
 
     trig.put_mark(0.2,text_list=["\( A\)","\( C\)","\( D\)"],pspict=pspict)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,""))
-    E.put_mark(0.2,-90,"\( E\)",automatic_place=(pspict,""))
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
+    E.put_mark(0.2,-90,"\( E\)",pspict=pspict)
 
     for p in trig.vertices:
         p.parameters.symbol=""

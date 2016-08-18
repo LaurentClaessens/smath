@@ -63,6 +63,7 @@ def LVNXooEXEvoV():
 
     for i,pspict in enumerate(pspicts):
         pspict.DrawGraphs(triangles[i])
+        pspict.comment="Il y a des codages de bisectrices ou un truc du genre à vérifier"
     
     for fig in figs :
         fig.no_figure()

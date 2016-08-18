@@ -27,10 +27,10 @@ def CFWIooWDSwRD():
     B=Circle(O, (rayons[2]+rayons[3])/2 ).get_point(120)
     C=Circle(O, (rayons[4]+rayons[5])/2 ).get_point(-90)
     
-    O.put_mark(0.2,-45,"\( O\)",automatic_place=(pspict,"corner"))
-    A.put_mark(0.2,30+90,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,120+90,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-90+90,"\( C\)",automatic_place=(pspict,"W"))
+    O.put_mark(0.2,-45,"\( O\)",pspict=pspict,position="corner")
+    A.put_mark(0.2,30+90,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,120+90,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-90+90,"\( C\)",pspict=pspict,position="W")
 
     pspict.comment="Concentric grey filled circles."
     pspict.DrawGraphs(cercles,A,O,B,C)

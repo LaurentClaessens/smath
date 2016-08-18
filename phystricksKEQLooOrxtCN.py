@@ -23,10 +23,10 @@ def KEQLooOrxtCN():
     trig1.put_mark(0.2,points_names=" B ",pspict=pspict)
     trig2.put_mark(0.2,points_names=" L ",pspict=pspict)
 
-    A.put_mark(0.2,angle=-90,added_angle=0,text="\( A\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,angle=-90,added_angle=0,text="\( C\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,angle=-90,added_angle=0,text="\( K\)",automatic_place=(pspict,""))
-    M.put_mark(0.2,angle=-90,added_angle=0,text="\( M\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,angle=-90,added_angle=0,text="\( A\)",pspict=pspict)
+    C.put_mark(0.2,angle=-90,added_angle=0,text="\( C\)",pspict=pspict)
+    K.put_mark(0.2,angle=-90,added_angle=0,text="\( K\)",pspict=pspict)
+    M.put_mark(0.2,angle=-90,added_angle=0,text="\( M\)",pspict=pspict)
 
     rh1=RightAngleAOB(A,B,C)
     rh2=RightAngleAOB(K,L,M)
@@ -36,12 +36,12 @@ def KEQLooOrxtCN():
 
     S=a1.mark_point(pspict=pspict)
     T=a2.mark_point(pspict=pspict)
-    S.put_mark(0.2,angle=None,added_angle=0,text="",automatic_place=(pspict,""))
-    T.put_mark(0.2,angle=None,added_angle=0,text="",automatic_place=(pspict,""))
+    S.put_mark(0.2,angle=None,added_angle=0,text="",pspict=pspict)
+    T.put_mark(0.2,angle=None,added_angle=0,text="",pspict=pspict)
 
 
     droite=Segment(M,A).dilatation(1.2)
-    droite.F.put_mark(0.2,angle=None,added_angle=0,text="\( (d)\)",automatic_place=(pspict,""))
+    droite.F.put_mark(0.2,angle=None,added_angle=0,text="\( (d)\)",pspict=pspict)
 
     no_symbol(  [ tr.vertices for tr in [trig1,trig2] ] ,droite.F )
 

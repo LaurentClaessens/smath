@@ -9,10 +9,10 @@ def KBOKooTCswpl():
     C=Point(0,-1)
     D=Point(-3,-2)
 
-    A.put_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
-    B.put_mark(0.2,angle=None,text="\( B\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,angle=None,text="\( C\)",automatic_place=(pspict,""))
-    D.put_mark(0.2,angle=None,text="\( D\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
+    B.put_mark(0.2,angle=None,text="\( B\)",pspict=pspict)
+    C.put_mark(0.2,angle=None,text="\( C\)",pspict=pspict)
+    D.put_mark(0.2,angle=None,text="\( D\)",pspict=pspict)
 
     pspict.math_BB.append( Point(4,4),pspict=pspict )
     pspict.math_BB.append( Point(-4,-4),pspict=pspict )

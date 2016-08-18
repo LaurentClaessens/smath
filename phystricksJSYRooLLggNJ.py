@@ -10,10 +10,10 @@ def unexo(a,b,c,noms,pspicts,n):
     Mx=max([a+1,b+1,c+1,2])
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspicts)
     axe.no_numbering()
-    A.put_mark(0.2,angle=90,added_angle=0,text="\( {}\)".format(noms[0]),automatic_place=(pspicts,""))
-    B.put_mark(0.2,angle=90,added_angle=0,text="\(  {}\)".format(noms[1]),automatic_place=(pspicts,""))
-    C.put_mark(0.2,angle=90,added_angle=0,text="\( {}\)".format(noms[2]),automatic_place=(pspicts,""))
-    O.put_mark(0.2,angle=-90,added_angle=0,text="\( 0\)",automatic_place=(pspicts,""))
+    A.put_mark(0.2,angle=90,added_angle=0,text="\( {}\)".format(noms[0]),pspict=pspicts)
+    B.put_mark(0.2,angle=90,added_angle=0,text="\(  {}\)".format(noms[1]),pspict=pspicts)
+    C.put_mark(0.2,angle=90,added_angle=0,text="\( {}\)".format(noms[2]),pspict=pspicts)
+    O.put_mark(0.2,angle=-90,added_angle=0,text="\( 0\)",pspict=pspicts)
     pspicts[n].DrawGraphs(A,B,C,O,axe)
 
 def JSYRooLLggNJ():

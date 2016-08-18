@@ -33,10 +33,10 @@ def AVFexUi():
         s.parameters.color="red"
         s.parameters.style="dashed"
 
-    B1.put_mark(0.2,0,"\( -1/10\)",automatic_place=(pspicts,"W"))
-    X1.put_mark(0.2,90,"\( -10\)",automatic_place=(pspicts,"S"))
-    B2.put_mark(0.2,180,"\( 3/4\)",automatic_place=(pspicts,"E"))
-    X2.put_mark(0.2,-90,"\( 4/3\)",automatic_place=(pspicts,"N"))
+    B1.put_mark(0.2,0,"\( -1/10\)",pspict=pspicts,position="W")
+    X1.put_mark(0.2,90,"\( -10\)",pspict=pspicts,position="S")
+    B2.put_mark(0.2,180,"\( 3/4\)",pspict=pspicts,position="E")
+    X2.put_mark(0.2,-90,"\( 4/3\)",pspict=pspicts,position="N")
 
     w1=Segment( B1,B2  )
     w1.parameters.color="cyan"

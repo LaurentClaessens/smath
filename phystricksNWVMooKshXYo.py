@@ -13,14 +13,14 @@ def NWVMooKshXYo():
 
     J=triangle.edges[2].midpoint()
     K=triangle.edges[1].midpoint()
-    J.put_mark(0.2,J.advised_mark_angle(pspict)+180,"\( J\)",automatic_place=(pspict,"corner"))
-    K.put_mark(0.2,K.advised_mark_angle(pspict)+180,"\( K\)",automatic_place=(pspict,"corner"))
+    J.put_mark(0.2,J.advised_mark_angle(pspict)+180,"\( J\)",pspict=pspict,position="corner")
+    K.put_mark(0.2,K.advised_mark_angle(pspict)+180,"\( K\)",pspict=pspict,position="corner")
     seg=Segment(J,K)
     
     triangle.edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspict)
     triangle.edges[2].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
 
-    mes=triangle.edges[0].get_measure(0.2,0.1,-90,"\SI{7.8}{\centi\meter}",automatic_place=(pspict,"N"))
+    mes=triangle.edges[0].get_measure(0.2,0.1,-90,"\SI{7.8}{\centi\meter}",pspict=pspict,position="N")
 
     pspict.DrawGraphs(triangle,seg,mes,J,K)
     fig.no_figure()

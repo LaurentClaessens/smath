@@ -12,14 +12,14 @@ def JSRHooOdlPDT():
     A=Point(-3,0)
     B=Point(4,0)
 
-    O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
-    A.put_mark(0.2,-90,"\( -3\)",automatic_place=(pspict,"N"))
-    A.put_mark(0.2,90+45,"\( A\)",automatic_place=(pspict,""))
-    B.put_mark(0.2,-90,"\( 4\)",automatic_place=(pspict,""))
-    B.put_mark(0.2,45,"\( B\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
+    A.put_mark(0.2,-90,"\( -3\)",pspict=pspict,position="N")
+    A.put_mark(0.2,90+45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-90,"\( 4\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
 
-    mesA=Segment(O,A).get_measure(0.2,0.1,90,"\( 3\)",automatic_place=(pspict,"S"))
-    mesB=Segment(O,B).get_measure(-0.2,0.1,90,"\( 4\)",automatic_place=(pspict,"S"))
+    mesA=Segment(O,A).get_measure(0.2,0.1,90,"\( 3\)",pspict=pspict,position="S")
+    mesB=Segment(O,B).get_measure(-0.2,0.1,90,"\( 4\)",pspict=pspict,position="S")
 
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)
     axe.no_numbering()

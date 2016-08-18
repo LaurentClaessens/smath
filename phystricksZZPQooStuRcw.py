@@ -9,7 +9,7 @@ def ZZPQooStuRcw():
     C=A+(-1,-3)
 
     O=B+(2,1)
-    O.put_mark(0.2,180+45,"\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,180+45,"\( O\)",pspict=pspict)
 
     prime=[ x.symmetric_by(O) for x in [A,B,C] ]
     trig2=Polygon( prime[0],prime[1],prime[2] )
@@ -19,9 +19,9 @@ def ZZPQooStuRcw():
     trig.put_mark(0.2,pspict=pspict)
     rh=RightAngle( trig.edges[0],trig.edges[2],1,0 )
 
-    m1=trig.edges[0].get_mark(0.2,None,"\( 4\)",automatic_place=(pspict,""))
-    m2=trig.edges[1].get_mark(0.2,None,"\( 5\)",automatic_place=(pspict,""))
-    m3=trig.edges[2].get_mark(0.2,None,"\( 3\)",automatic_place=(pspict,""))
+    m1=trig.edges[0].get_mark(0.2,None,"\( 4\)",pspict=pspict)
+    m2=trig.edges[1].get_mark(0.2,None,"\( 5\)",pspict=pspict)
+    m3=trig.edges[2].get_mark(0.2,None,"\( 3\)",pspict=pspict)
 
     for p in trig.vertices:
         p.parameters.symbol=""

@@ -19,10 +19,10 @@ def PerpSegqrbMBZ():
     seg=Segment(A,B).dilatation(1.3)
     M=I.projection(seg)
 
-    A.put_mark(0.2,0,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,225,"\( B\)",automatic_place=pspict)
-    I.put_mark(0.2,90,"\( I\)",automatic_place=pspict)
-    M.put_mark(0.2,-20,"\( M\)",automatic_place=pspict)
+    A.put_mark(0.2,0,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,225,"\( B\)",pspict=pspict)
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict)
+    M.put_mark(0.2,-20,"\( M\)",pspict=pspict)
 
     IM=Segment(I,M).dilatation(1.3)
     IM.parameters.color="red"

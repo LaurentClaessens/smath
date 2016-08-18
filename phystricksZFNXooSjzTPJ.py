@@ -20,7 +20,7 @@ def ZFNXooSjzTPJ():
     rh2=RightAngleAOB(E,S2,F)
 
     P=Intersection(h1,h2)[0]
-    P.put_mark(0.2,0,"\( P\)",automatic_place=(pspict,"W"))
+    P.put_mark(0.2,0,"\( P\)",pspict=pspict,position="W")
 
 
     no_symbol(F,G,E)

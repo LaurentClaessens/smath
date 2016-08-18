@@ -11,7 +11,7 @@ def ZQRZooGsxVIr():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,pspict=pspict)
     H=Point(C.x,A.y)
-    H.put_mark(0.2,angle=-90,added_angle=0,text="\( H\)",automatic_place=(pspict,""))
+    H.put_mark(0.2,angle=-90,added_angle=0,text="\( H\)",pspict=pspict)
 
     base=Segment(A,H)
     hauteur=Segment(C,H)

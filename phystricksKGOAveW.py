@@ -19,9 +19,9 @@ def KGOAveW():
     B=Point(Z[1],0)
     C=Point(Z[2],0)
 
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=(pspict,"N"))
-    B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
-    C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict,position="N")
+    B.put_mark(0.2,-90,"\( B\)",pspict=pspict,position="N")
+    C.put_mark(0.2,-90,"\( C\)",pspict=pspict,position="N")
 
     g=fun.graph(-0.4,3/2)
     g.wave(0.1,0.05)
@@ -35,7 +35,7 @@ def KGOAveW():
     
     pts=Intersection(f,h)
     for i,P in enumerate(pts):
-        P.put_mark(0.2,90,"\( K_{}\)".format(i+1),automatic_place=(pspict,"S"))
+        P.put_mark(0.2,90,"\( K_{}\)".format(i+1),pspict=pspict,position="S")
         pspict.DrawGraphs(P)
 
     pspict.DrawDefaultAxes()

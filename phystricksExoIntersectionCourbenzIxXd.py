@@ -13,12 +13,12 @@ def ExoIntersectionCourbenzIxXd():
 
     #curve=LagrangePolynomial(points_list).graph(1,8)
     #curve.parameters.color="brown"
-    #curve.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
+    #curve.put_mark(0.2,0,"\( f\)",pspict=pspict)
     #curve3=InterpolationCurve(points_list,mode=4)
     #curve3.parameters.color="green"
 
     f=phyFunction(x).graph(-1,8)
-    f.put_mark(0.2,0,"\( y=x\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( y=x\)",pspict=pspict)
 
     pspict.DrawGraphs(f,curve2)
     pspict.DrawDefaultAxes()

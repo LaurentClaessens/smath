@@ -15,7 +15,7 @@ def YBWRooQjwZuu():
     trig1=Polygon(A,B,C)
     trig2=Polygon(A,B,D)
 
-    M.put_mark(0.2,angle=None,added_angle=0,text="\( M\)",automatic_place=(pspict,""))
+    M.put_mark(0.2,angle=None,added_angle=0,text="\( M\)",pspict=pspict)
 
     trig1.edges[0].divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspict=pspict)
 

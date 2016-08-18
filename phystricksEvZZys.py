@@ -11,9 +11,9 @@ def EvZZys():
     Y=Point(-5,0)
     Z=Point(-1,-1/2)
 
-    X.put_mark(0.1,X.angle(),"$X$",automatic_place=pspict)
-    Y.put_mark(0.1,135,"$Y$",automatic_place=pspict)
-    Z.put_mark(0.1,Z.angle(),"$Z$",automatic_place=pspict)
+    X.put_mark(0.1,X.angle(),"$X$",pspict=pspict)
+    Y.put_mark(0.1,135,"$Y$",pspict=pspict)
+    Z.put_mark(0.1,Z.angle(),"$Z$",pspict=pspict)
 
     pspict.DrawGraphs(X,Y,Z)
     pspict.DrawDefaultAxes()

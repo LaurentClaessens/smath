@@ -19,7 +19,7 @@ def figureXQZwoWu():
     h.parameters.color="red"
     h.parameters.style="dashed"
 
-    I.put_mark(0.2,90,"\( I\)",automatic_place=pspict)
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict)
     
     pspict.DrawGraphs(trig,h,I,cube)
     fig.no_figure()

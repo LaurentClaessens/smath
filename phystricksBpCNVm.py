@@ -10,7 +10,7 @@ def BpCNVm():
     poly.parameters.hatch.color="green"
     poly.edge.parameters.color="blue"
     X=Point(3,0)
-    X.put_mark(0.2,-90,"$x$",automatic_place=(pspict,"N"))
+    X.put_mark(0.2,-90,"$x$",pspict=pspict,position="N")
     X.symbol="none"
 
     pspict.DrawGraphs(poly,X)

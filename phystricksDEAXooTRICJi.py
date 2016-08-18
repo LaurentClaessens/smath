@@ -15,10 +15,10 @@ def DEAXooTRICJi():
     T=cer.get_point(90+60)
     R=cer.get_point(40)
 
-    A.put_mark(0.2,angle=180+45,added_angle=0,text="\( A\)",automatic_place=(pspict,""))
-    B.put_mark(0.2,angle=-45,added_angle=0,text="\( B\)",automatic_place=(pspict,""))
-    T.put_mark(0.2,angle=None,added_angle=0,text="\( T\)",automatic_place=(pspict,""))
-    R.put_mark(0.2,angle=None,added_angle=0,text="\( R\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,angle=180+45,added_angle=0,text="\( A\)",pspict=pspict)
+    B.put_mark(0.2,angle=-45,added_angle=0,text="\( B\)",pspict=pspict)
+    T.put_mark(0.2,angle=None,added_angle=0,text="\( T\)",pspict=pspict)
+    R.put_mark(0.2,angle=None,added_angle=0,text="\( R\)",pspict=pspict)
 
     no_symbol(A,B)
     pspict.DrawGraphs(cer,A,B,T,R,O,AB)

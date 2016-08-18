@@ -17,9 +17,9 @@ def JOKJMTD():
     OA=Segment(O,A)
     OB=Segment(O,B)
 
-    O.put_mark(0.2,0,"\( O\)",automatic_place=pspict)
-    A.put_mark(0.2,-180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,0,"\( B\)",automatic_place=pspict)
+    O.put_mark(0.2,0,"\( O\)",pspict=pspict)
+    A.put_mark(0.2,-180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,0,"\( B\)",pspict=pspict)
 
     pspict.DrawGraphs(O,A,B,cer,AB,OA,OB)
     fig.no_figure()

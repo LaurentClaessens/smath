@@ -13,10 +13,10 @@ def CPVooSIVPHp():
 
     x=var('x')
     pyramide=Pyramide(4,1,0.5)
-    pyramide.centres[(1,0)].put_mark(0.0,0,"\( -1\)",automatic_place=(pspict,"center"))
-    pyramide.centres[(3,0)].put_mark(0.0,0,"\( +2\)",automatic_place=(pspict,"center"))
-    pyramide.centres[(0,2)].put_mark(0.0,0,"\( -4\)",automatic_place=(pspict,"center"))
-    pyramide.centres[(2,0)].put_mark(0.0,0,"\( -3\)",automatic_place=(pspict,"center"))
+    pyramide.centres[(1,0)].put_mark(0.0,0,"\( -1\)",pspict=pspict,position="center")
+    pyramide.centres[(3,0)].put_mark(0.0,0,"\( +2\)",pspict=pspict,position="center")
+    pyramide.centres[(0,2)].put_mark(0.0,0,"\( -4\)",pspict=pspict,position="center")
+    pyramide.centres[(2,0)].put_mark(0.0,0,"\( -3\)",pspict=pspict,position="center")
 
     pspict.DrawGraphs(pyramide)
     fig.no_figure()
@@ -30,10 +30,10 @@ def HQQooVpesUc():
 
     x=var('x')
     pyramide=Pyramide(4,1,0.5)
-    pyramide.centres[(3,0)].put_mark(0.0,0,"\( +5\)",automatic_place=(pspict,"center"))
-    pyramide.centres[(1,1)].put_mark(0.0,0,"\( -6\)",automatic_place=(pspict,"center"))
-    pyramide.centres[(0,2)].put_mark(0.0,0,"\( -24\)",automatic_place=(pspict,"center"))
-    pyramide.centres[(0,3)].put_mark(0.0,0,"\( -2160\)",automatic_place=(pspict,"center"))
+    pyramide.centres[(3,0)].put_mark(0.0,0,"\( +5\)",pspict=pspict,position="center")
+    pyramide.centres[(1,1)].put_mark(0.0,0,"\( -6\)",pspict=pspict,position="center")
+    pyramide.centres[(0,2)].put_mark(0.0,0,"\( -24\)",pspict=pspict,position="center")
+    pyramide.centres[(0,3)].put_mark(0.0,0,"\( -2160\)",pspict=pspict,position="center")
 
     pspict.DrawGraphs(pyramide)
     fig.no_figure()

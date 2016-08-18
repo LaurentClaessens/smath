@@ -13,9 +13,9 @@ def SurfaceCubeXlLEEy():
     I=perspective.point(l/2,l/2,0)
     J=perspective.point(0,l/2,0)
     K=perspective.point(0,l/2,l)
-    I.put_mark(0.2,0,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,180,"\( J\)",automatic_place=pspict)
-    K.put_mark(0.2,45,"\( K\)",automatic_place=pspict)
+    I.put_mark(0.2,0,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,180,"\( J\)",pspict=pspict)
+    K.put_mark(0.2,45,"\( K\)",pspict=pspict)
 
     surface=Polygon(I,J,K)
     surface.parameters.filled()

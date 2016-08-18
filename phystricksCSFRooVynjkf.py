@@ -16,7 +16,7 @@ def CSFRooVynjkf():
 
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,pspict=pspicts)
-    O.put_mark(0.2,angle=-90,added_angle=0,text="\( O\)",automatic_place=(pspicts,""))
+    O.put_mark(0.2,angle=-90,added_angle=0,text="\( O\)",pspict=pspicts)
 
     rh=RightAngleAOB(B,A,C,r=0.3,n1=0,n2=1)
     trig.edges[1].divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspict=pspicts)

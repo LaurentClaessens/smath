@@ -20,8 +20,8 @@ def DIPLooHILUUs():
     
     seg=Segment(M,N).dilatation(1.5)
 
-    M.put_mark(0.2,None,"\( M\)",automatic_place=(pspict,"corner"))
-    N.put_mark(0.2,-45,"\( N\)",automatic_place=(pspict,"corner"))
+    M.put_mark(0.2,None,"\( M\)",pspict=pspict,position="corner")
+    N.put_mark(0.2,-45,"\( N\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(triangle,N,M,seg)
     fig.no_figure()

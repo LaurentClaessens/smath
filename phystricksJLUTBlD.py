@@ -40,8 +40,8 @@ def JWNtVIR():
     f.parameters.color="red"
     g.parameters.color="brown"
 
-    f.put_mark(0.2,0,"\( f\)",automatic_place=(pspict,"W"))
-    g.put_mark(0.2,0,"\( g\)",automatic_place=(pspict,"W"))
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
+    g.put_mark(0.2,0,"\( g\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f,g,P,Q)
     pspict.DrawDefaultAxes()

@@ -21,7 +21,7 @@ def BIlgjwy():
     lumiere.parameters.style="dashed"
 
     AN=Segment(A,N)
-    AN.put_mark(0.1,0,"Muret",automatic_place=pspict)
+    AN.put_mark(0.1,0,"Muret",pspict=pspict)
 
     BM=Segment(B,M)
     CD=Segment(C,D)
@@ -33,11 +33,11 @@ def BIlgjwy():
     FD=Segment(F,D).dilatationF(1.3)
     pspict.DrawGraphs(BM,CD,PC,BE,FE,FD)
 
-    P.put_mark(0.2,-90,"\( P\)",automatic_place=pspict)
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-90,"\( B\)",automatic_place=pspict)
-    N.put_mark(0.2,90,"\( N\)",automatic_place=pspict)
-    M.put_mark(0.2,0,"\( M\)",automatic_place=pspict)
+    P.put_mark(0.2,-90,"\( P\)",pspict=pspict)
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-90,"\( B\)",pspict=pspict)
+    N.put_mark(0.2,90,"\( N\)",pspict=pspict)
+    M.put_mark(0.2,0,"\( M\)",pspict=pspict)
 
     pspict.DrawGraphs(P,A,B,N,M,lumiere,AN)
     fig.no_figure()

@@ -15,16 +15,16 @@ def JJQWooIxyPzf():
     c2=Segment(O,B).dilatation(1.3)
 
 
-    A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,""))
-    B.put_mark(0.2,45,"\( B\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict)
 
     K=Intersection(s2,c1)[0]
 
     ang1=Angle(c2.F,B,A,r=0.3)
     ang2=Angle(A,K,C,r=0.3)
-    ang1.put_mark(0.2,None,"\SI{110}{\degree}",automatic_place=(pspict,""))
-    ang2.put_mark(0.2,None,"\SI{50}{\degree}",automatic_place=(pspict,""))
+    ang1.put_mark(0.2,None,"\SI{110}{\degree}",pspict=pspict)
+    ang2.put_mark(0.2,None,"\SI{50}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,c1,c2,ang1,ang2)
     fig.no_figure()

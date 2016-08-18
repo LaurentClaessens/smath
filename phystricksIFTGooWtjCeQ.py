@@ -21,10 +21,10 @@ def IFTGooWtjCeQ():
     triangle.edges[1].put_code(n=1,l=1,d=0.1,angle=-45,pspict=pspict)
     triangle.edges[2].put_code(n=1,l=1,d=0.1,angle=45,pspict=pspict)
 
-    F.put_mark(0.2,180+45,"\( F\)",automatic_place=(pspict,"corner"))
-    G.put_mark(0.2,-45,"\( G\)",automatic_place=(pspict,"corner"))
-    H.put_mark(0.2,45,"\( H\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,-90,"\( M\)",automatic_place=(pspict,"N"))
+    F.put_mark(0.2,180+45,"\( F\)",pspict=pspict,position="corner")
+    G.put_mark(0.2,-45,"\( G\)",pspict=pspict,position="corner")
+    H.put_mark(0.2,45,"\( H\)",pspict=pspict,position="corner")
+    M.put_mark(0.2,-90,"\( M\)",pspict=pspict,position="N")
 
     haut=Segment(H,M)
     haut.parameters.style='dashed'

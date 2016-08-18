@@ -25,8 +25,8 @@ def YDTGooZGkkei():
     trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
     trig.edges[2].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspict)
 
-    R.put_mark(0.2,angle=None,added_angle=180,text="\( T\)",automatic_place=(pspict,""))
-    S.put_mark(0.2,angle=None,added_angle=0,text="\( S\)",automatic_place=(pspict,""))
+    R.put_mark(0.2,angle=None,added_angle=180,text="\( T\)",pspict=pspict)
+    S.put_mark(0.2,angle=None,added_angle=0,text="\( S\)",pspict=pspict)
 
     no_symbol(trig.vertices)
 

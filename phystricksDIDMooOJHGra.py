@@ -20,13 +20,13 @@ def DIDMooOJHGra():
     s1=Segment(B,C)
     s2=Segment(E,D)
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=(pspict,"S"))
-    B.put_mark(0.2,90+45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,180,"\( D\)",automatic_place=(pspict,"E"))
-    E.put_mark(0.2,0,"\( E\)",automatic_place=(pspict,"W"))
-    F.put_mark(0.2,180+45,"\( F\)",automatic_place=(pspict,"corner"))
-    G.put_mark(0.2,-45,"\( G\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,180,"\( D\)",pspict=pspict,position="E")
+    E.put_mark(0.2,0,"\( E\)",pspict=pspict,position="W")
+    F.put_mark(0.2,180+45,"\( F\)",pspict=pspict,position="corner")
+    G.put_mark(0.2,-45,"\( G\)",pspict=pspict,position="corner")
 
     for P in [A,B,C,D,E,F,G]:
         P.parameters.symbol=""

@@ -21,13 +21,13 @@ def NAEFooZfyhCs():
     S=(A+D)*0.5+(0,h/2)
 
     O=D+(3*l/2,0)
-    O.put_mark(0.2,180,"\( O\)",automatic_place=(pspict,"E"))
+    O.put_mark(0.2,180,"\( O\)",pspict=pspict,position="E")
 
-    #A.put_mark(0.2,0,"\( A\)",automatic_place=(pspict,"W"))
-    #B.put_mark(0.2,0,"\( B\)",automatic_place=(pspict,"W"))
-    #C.put_mark(0.2,0,"\( C\)",automatic_place=(pspict,"W"))
-    #D.put_mark(0.2,0,"\( D\)",automatic_place=(pspict,"W"))
-    #S.put_mark(0.2,0,"\( S\)",automatic_place=(pspict,"W"))
+    #A.put_mark(0.2,0,"\( A\)",pspict=pspict,position="W")
+    #B.put_mark(0.2,0,"\( B\)",pspict=pspict,position="W")
+    #C.put_mark(0.2,0,"\( C\)",pspict=pspict,position="W")
+    #D.put_mark(0.2,0,"\( D\)",pspict=pspict,position="W")
+    #S.put_mark(0.2,0,"\( S\)",pspict=pspict,position="W")
     #pspict.DrawGraphs(A,B,C,D,S)
 
     original=[]

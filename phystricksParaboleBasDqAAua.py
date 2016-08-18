@@ -8,8 +8,8 @@ def ParaboleBasDqAAua():
 
     P=Point(-2,0)
     Q=Point(0,0)
-    P.put_mark(0.2,135,"\( x_1\)",automatic_place=pspict)
-    Q.put_mark(0.2,45,"\( x_2\)",automatic_place=pspict)
+    P.put_mark(0.2,135,"\( x_1\)",pspict=pspict)
+    Q.put_mark(0.2,45,"\( x_2\)",pspict=pspict)
 
     pspict.DrawGraphs(f,P,Q)
     pspict.axes.no_graduation()

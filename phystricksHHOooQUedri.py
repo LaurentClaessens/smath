@@ -12,11 +12,11 @@ def HHOooQUedri():
 
     triangle=Polygon(A,B,C)
     AB=Segment(A,B)
-    AB.put_mark(0.2,AB.advised_mark_angle(pspict)+180,"\( 4\)",automatic_place=(pspict,"corner"))
+    AB.put_mark(0.2,AB.advised_mark_angle(pspict)+180,"\( 4\)",pspict=pspict,position="corner")
     AC=Segment(A,C)
-    AC.put_mark(0.2,AC.advised_mark_angle(pspict),"\( 13\)",automatic_place=(pspict,"corner"))
+    AC.put_mark(0.2,AC.advised_mark_angle(pspict),"\( 13\)",pspict=pspict,position="corner")
     BC=Segment(B,C)
-    BC.put_mark(0.2,BC.advised_mark_angle(pspict)+180,"\( 7\)",automatic_place=(pspict,"corner"))
+    BC.put_mark(0.2,BC.advised_mark_angle(pspict)+180,"\( 7\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(triangle,AB,AC,BC)
     fig.no_figure()

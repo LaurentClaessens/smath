@@ -42,7 +42,7 @@ def CYLGooSGnRii():
 
     F=perspective.point(0,cylinder_height,0)
     photo_size=(2*left_height/3.5)*pspict.yunit       # La photo de la fleur fera les trois demi de la partie restante
-    F.put_mark(0.01,angle=90,text="\includegraphics[height="+str(photo_size)+"cm]{fp081206-28.pdf}",automatic_place=(pspict,""))
+    F.put_mark(0.01,angle=90,text="\includegraphics[height="+str(photo_size)+"cm]{fp081206-28.pdf}",pspict=pspict)
     
 
     pspict.comment=r"""

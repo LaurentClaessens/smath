@@ -11,10 +11,10 @@ def FaussePerspectivewAwxAJ():
     C=perspective.point(c,0,0)
     D=perspective.point(0,0,0)
 
-    A.put_mark(0.2,135,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,225,"\( D\)",automatic_place=pspict)
+    A.put_mark(0.2,135,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,225,"\( D\)",pspict=pspict)
     #A.parameters.symbol="none"
     #B.parameters.symbol="none"
     #C.parameters.symbol="none"
@@ -28,9 +28,9 @@ def FaussePerspectivewAwxAJ():
     K.parameters.symbol="x"
     L.parameters.symbol="x"
     J.parameters.symbol="x"
-    K.put_mark(0.2,90,"\( K\)",automatic_place=pspict)
-    L.put_mark(0.2,-90,"\( L\)",automatic_place=pspict)
-    J.put_mark(0.2,90,"\( J\)",automatic_place=pspict)
+    K.put_mark(0.2,90,"\( K\)",pspict=pspict)
+    L.put_mark(0.2,-90,"\( L\)",pspict=pspict)
+    J.put_mark(0.2,90,"\( J\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,D,carre,K,L,J)
     fig.no_figure()

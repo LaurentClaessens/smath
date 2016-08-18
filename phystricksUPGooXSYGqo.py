@@ -12,10 +12,10 @@ def UPGooXSYGqo():
     quadri=Polygon(A,B,C,D)
     diags=[Segment(A,C),Segment(B,D)]
 
-    A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,90+45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,-45,"\( D\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,-45,"\( D\)",pspict=pspict,position="corner")
 
     for d in diags:
         d.parameters.color="blue"

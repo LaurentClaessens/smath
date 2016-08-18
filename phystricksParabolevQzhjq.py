@@ -11,7 +11,7 @@ def ParabolevQzhjq():
     P.append(Point(4,3))
     P.append(Point(1,0))
     S=Point(2,-1)
-    S.put_mark(0.2,-45,"$S$",automatic_place=pspict)
+    S.put_mark(0.2,-45,"$S$",pspict=pspict)
 
     sym=Segment(Point(2,-2),Point(2,4))
     sym.parameters.color="red"

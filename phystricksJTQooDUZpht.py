@@ -14,9 +14,9 @@ def JTQooDUZpht():
     triangle=Polygon(  s1.I,s1.F,s2.F  )    
 
     C=s2.F
-    A.put_mark(0.2,180  ,"\( A\)",automatic_place=(pspict,"E"))
-    B.put_mark(0.2,-30,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
+    A.put_mark(0.2,180  ,"\( A\)",pspict=pspict,position="E")
+    B.put_mark(0.2,-30,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-90,"\( C\)",pspict=pspict,position="N")
 
     rh=RightAngleAOB(C,A,B)
 

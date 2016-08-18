@@ -17,7 +17,7 @@ def NXOIooIIWUmq():
     sec=Segment(I,J).dilatation(2)
 
     ang=Angle(s2.F,J,sec.F,r=0.3)
-    ang.put_mark(0.2,None,"\SI{10}{\degree}",automatic_place=(pspict,""))
+    ang.put_mark(0.2,None,"\SI{10}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(sec,s1,s2,ang)
     fig.no_figure()

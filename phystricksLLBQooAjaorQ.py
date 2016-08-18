@@ -18,12 +18,12 @@ def LLBQooAjaorQ():
     C=D+(l,0)
 
     E=Point( h/(2*tan(35*2*pi/360)),h/2 )
-    E.put_mark(0.2,angle=-45,text="\( E\)",automatic_place=(pspicts,""))
+    E.put_mark(0.2,angle=-45,text="\( E\)",pspict=pspicts)
     F=Point(l,E.y)
-    F.put_mark(0.2,angle=0,text="\( F\)",automatic_place=(pspicts,""))
+    F.put_mark(0.2,angle=0,text="\( F\)",pspict=pspicts)
 
     K=Intersection(   Segment(D,E),Segment(A,B)  )[0]
-    K.put_mark(0.2,angle=90+45,text="\( K\)",automatic_place=(pspicts,""))
+    K.put_mark(0.2,angle=90+45,text="\( K\)",pspict=pspicts)
     EK=Segment(E,K)
     EK.parameters.style='dashed'
 
@@ -49,19 +49,19 @@ def LLBQooAjaorQ():
     tc.append(AngleAOB(A,K,E))
     tc.append(AngleAOB(E,A,B))
     for ang in tc:
-        ang.put_mark(0.3,angle=None,text="\SI{35}{\degree}",automatic_place=(pspict,""))
+        ang.put_mark(0.3,angle=None,text="\SI{35}{\degree}",pspict=pspict)
     cc=[]
     cc.append(AngleAOB(E,D,A,r=0.3))
     cc.append(AngleAOB(D,A,E,r=0.3))
     for ang in cc:
-        ang.put_mark(0.3,angle=None,text="\SI{55}{\degree}",automatic_place=(pspict,""))
+        ang.put_mark(0.3,angle=None,text="\SI{55}{\degree}",pspict=pspict)
     cd=[]
     cd.append(AngleAOB(K,E,A,r=0.3))
     for ang in cd:
-        ang.put_mark(0.3,angle=None,text="\SI{110}{\degree}",automatic_place=(pspict,""))
+        ang.put_mark(0.3,angle=None,text="\SI{110}{\degree}",pspict=pspict)
 
     sep=AngleAOB(A,E,D,r=0.2)
-    sep.put_mark(0.3,angle=None,text="\SI{70}{\degree}",automatic_place=(pspict,""))
+    sep.put_mark(0.3,angle=None,text="\SI{70}{\degree}",pspict=pspict)
 
     pspicts[1].DrawGraphs(E,F,EK,tc,cc,cd,K,sep)
 

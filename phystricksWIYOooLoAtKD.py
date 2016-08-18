@@ -31,16 +31,16 @@ def WIYOooLoAtKD():
     B=Point(cone_radius,0)
     C=Point(0,cone_height)
 
-    S.put_mark(0.2,angle=45,text="\( S\)",automatic_place=(pspict,""))
-    I.put_mark(0.2,angle=24,text="\( I\)",automatic_place=(pspict,""))
-    #P.put_mark(0.2,angle=None,text="\( P\)",automatic_place=(pspict,""))
+    S.put_mark(0.2,angle=45,text="\( S\)",pspict=pspict)
+    I.put_mark(0.2,angle=24,text="\( I\)",pspict=pspict)
+    #P.put_mark(0.2,angle=None,text="\( P\)",pspict=pspict)
 
     hauteur=Segment(I,S)
     hauteur.parameters.style='dashed'
     rayon=Segment(I,P)
 
-    rayon.put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",automatic_place=(pspict,""))
-    hauteur.put_mark(0.2,angle=None,text="\( 7\)",automatic_place=(pspict,""))
+    rayon.put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",pspict=pspict)
+    hauteur.put_mark(0.2,angle=None,text="\( 7\)",pspict=pspict)
 
     no_symbol(S)
 

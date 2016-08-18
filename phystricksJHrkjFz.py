@@ -18,7 +18,7 @@ def JHrkjFz():
     pspict.dilatation(1)
 
     D=Point(0,0)
-    D.put_mark(0.2,90,"\( D\)",automatic_place=pspict)
+    D.put_mark(0.2,90,"\( D\)",pspict=pspict)
     for i in range(-8,4):
         P=Point(0,i)
         s=segin(P,theta)
@@ -27,11 +27,11 @@ def JHrkjFz():
         pspict.DrawGraphs(t,s)
 
     E=D+(  4*cos(theta),2*sin(theta)  )
-    E.put_mark(0.2,90,"\( E\)",automatic_place=pspict)
+    E.put_mark(0.2,90,"\( E\)",pspict=pspict)
     Ep=D+(  4*cos(theta),-2*sin(theta)  )
-    Ep.put_mark(0.2,90,"\( E'\)",automatic_place=pspict)
+    Ep.put_mark(0.2,90,"\( E'\)",pspict=pspict)
     F=D+(  9*cos(theta),-3*sin(theta)  )
-    F.put_mark(0.2,90,"\( F\)",automatic_place=pspict)
+    F.put_mark(0.2,90,"\( F\)",pspict=pspict)
 
     #pspict.DrawDefaultAxes()
     pspict.DrawGraphs(D,E,Ep,F)

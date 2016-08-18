@@ -16,7 +16,7 @@ def VUUBooRqdACk():
     E=(A+D)*0.5+(-1,0)
 
     O=C+(1,-0.5)
-    O.put_mark(0.15,45,"\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.15,45,"\( O\)",pspict=pspict)
 
     poly=Polygon(A,B,C,D,E)
     poly.put_mark(0.3,pspict=pspict)

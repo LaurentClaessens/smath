@@ -16,15 +16,15 @@ def figureWFDTzSN():
     C=Point(r,-h)
     D=Point(-r,-h)
 
-    A.put_mark(0.2,135,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,225,"\( D\)",automatic_place=pspict)
-    O.put_mark(0.2,-90,"\( O\)",automatic_place=pspict)
+    A.put_mark(0.2,135,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,225,"\( D\)",pspict=pspict)
+    O.put_mark(0.2,-90,"\( O\)",pspict=pspict)
 
     CB=Segment(C,B)
     hauteur=MeasureLength(CB,40)
-    hauteur.put_mark(0.4,hauteur.advised_mark_angle(pspict),"\( 112\)",automatic_place=pspict)
+    hauteur.put_mark(0.4,hauteur.advised_mark_angle(pspict),"\( 112\)",pspict=pspict)
 
     rect=Polygon(A,B,C,D)
     rect.edge.parameters.color="blue"

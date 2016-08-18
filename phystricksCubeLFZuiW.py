@@ -22,11 +22,11 @@ def CubeLFZuiW():
     segc2=[ Segment(c2[i],c2[(i+1)%len(c2)]) for i in range(0,len(c2)) ]
 
     #for i,s in enumerate(segP):
-    #    s.put_mark(0.2,0,str(i),automatic_place=pspicts[0])
+    #    s.put_mark(0.2,0,str(i),pspict=pspicts[0])
     #for i,s in enumerate(segc1):
-    #    s.put_mark(0.2,0,str(i),automatic_place=pspicts[0])
+    #    s.put_mark(0.2,0,str(i),pspict=pspicts[0])
     #for i,s in enumerate(segc2):
-    #    s.put_mark(0.2,0,str(i),automatic_place=pspicts[0])
+    #    s.put_mark(0.2,0,str(i),pspict=pspicts[0])
 
     for i,s in enumerate(segc1):
         s.parameters.color="blue"
@@ -43,12 +43,12 @@ def CubeLFZuiW():
 
     alpha=Angle(c1[2],c1[3],c2[3])
     alpha.parameters.color="red"
-    alpha.put_mark(0.3,None,"\( \\alpha\)",automatic_place=pspicts[1])
+    alpha.put_mark(0.3,None,"\( \\alpha\)",pspict=pspicts[1])
 
     measureR=MeasureLength(segc1[2],-0.2)
-    measureR.put_mark(0.2,None,"\( c\)",automatic_place=pspicts[1])
+    measureR.put_mark(0.2,None,"\( c\)",pspict=pspicts[1])
     measureP=MeasureLength(segP[2],0.2)
-    measureP.put_mark(0.2,None,"\( k\\times c\)",automatic_place=pspicts[1])
+    measureP.put_mark(0.2,None,"\( k\\times c\)",pspict=pspicts[1])
     
     pspicts[1].DrawGraphs(alpha,measureR,measureP)
 

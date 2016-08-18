@@ -12,7 +12,7 @@ def HRIVooBXxZES():
 
     trig=Polygon(A,B,C)
     trig.put_mark(0.4,pspict=pspict)
-    D.put_mark(0.2,angle=180,text="\( D\)",automatic_place=(pspict,""))
+    D.put_mark(0.2,angle=180,text="\( D\)",pspict=pspict)
 
     droite=Segment(D,B).dilatation(1.5)
 
@@ -20,9 +20,9 @@ def HRIVooBXxZES():
     a2=AngleAOB(C,B,A,r=0.8)
     a3=AngleAOB(A,B,D,r=1)
 
-    a1.put_mark(0.2,angle=None,text="\SI{40}{\degree}",automatic_place=(pspict,""))
-    a2.put_mark(0.2,angle=None,text="?",automatic_place=(pspict,""))
-    a3.put_mark(0.2,angle=None,text="?",automatic_place=(pspict,""))
+    a1.put_mark(0.2,angle=None,text="\SI{40}{\degree}",pspict=pspict)
+    a2.put_mark(0.2,angle=None,text="?",pspict=pspict)
+    a3.put_mark(0.2,angle=None,text="?",pspict=pspict)
 
     trig.edges[0].put_code(n=2,d=0.1,l=0.1,pspict=pspict)
     trig.edges[2].put_code(n=2,d=0.1,l=0.1,pspict=pspict)

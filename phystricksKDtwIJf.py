@@ -16,7 +16,7 @@ def KDtwIJf():
 
     sm1=Segment(Point(minimum,0),Point(Q1,0))
     m1=MeasureLength(sm1,0.2)
-    m1.put_mark(0.3,None,"Environ \( \\frac{ 1 }{ 4 }\)",automatic_place=pspict)
+    m1.put_mark(0.3,None,"Environ \( \\frac{ 1 }{ 4 }\)",pspict=pspict)
 
     sm2=Segment(Point(minimum,1.5),Point(Q3,1.5))
     m2=MeasureLength(sm2,0.2)
@@ -24,7 +24,7 @@ def KDtwIJf():
 
     sm3=Segment(Point(Q3,0),Point(Maximum,0))
     m3=MeasureLength(sm3,0.2)
-    m3.put_mark(0.3,None,"Environ \( \\frac{ 1 }{ 4 }\)",automatic_place=pspict)
+    m3.put_mark(0.3,None,"Environ \( \\frac{ 1 }{ 4 }\)",pspict=pspict)
 
     pspict.DrawGraphs(moustache,m1,m2,m3)
 

@@ -6,7 +6,7 @@ def AHAbqhj():
 
     x=var('x')
     f=LagrangePolynomial([Point(-3,-4),Point(-1,-0.5),Point(0,-1),Point(2,1)]).graph(-3,2.5)
-    f.put_mark(0.2,0,"\( f\)",automatic_place=(pspict,"W"))
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultGrid()

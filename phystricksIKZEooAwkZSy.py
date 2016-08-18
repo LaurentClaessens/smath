@@ -15,17 +15,17 @@ def IKZEooAwkZSy():
 
     S=Segment(A,B).get_point_proportion(0.7)
     H=Point(S.x,C.y)
-    #H.put_mark(0.2,angle=-90,added_angle=0,text="\( H\)",automatic_place=(pspict,""))
+    #H.put_mark(0.2,angle=-90,added_angle=0,text="\( H\)",pspict=pspict)
 
     paral=Polygon(A,B,C,D)
     paral.put_mark(0.2,pspict=pspict)
 
-    paral.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=-90,name="base",automatic_place=(pspict,""))
+    paral.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=-90,name="base",pspict=pspict)
 
     hauteur=Segment(S,H)
     hauteur.parameters.style="dashed"
 
-    hauteur.put_measure(-0.3,0.2,0,"hauteur",automatic_place=(pspict,""))
+    hauteur.put_measure(-0.3,0.2,0,"hauteur",pspict=pspict)
     rh=RightAngleAOB(S,H,D)
 
     no_symbol(paral.vertices)

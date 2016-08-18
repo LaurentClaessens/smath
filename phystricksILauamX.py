@@ -11,8 +11,8 @@ def ILauamX():
     A=f.get_point(0)
     B=f.get_point(2)
 
-    A.put_mark(0.2,None,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,None,"\( B\)",automatic_place=pspict)
+    A.put_mark(0.2,None,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,None,"\( B\)",pspict=pspict)
 
     pspict.DrawGraphs(f,A,B)
     pspict.DrawDefaultAxes()

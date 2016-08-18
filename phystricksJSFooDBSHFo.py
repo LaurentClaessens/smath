@@ -17,14 +17,14 @@ def JSFooDBSHFo():
     P=Point(M.x,B.y-c)
     N=Point(B.x,P.y)
 
-    A.put_mark(0.2,90+45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,-90-45,"\( D\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,90+45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,-90-45,"\( D\)",pspict=pspict,position="corner")
 
-    P.put_mark(0.2,90+45,"\( P\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,90,"\( M\)",automatic_place=(pspict,"S"))
-    N.put_mark(0.2,0,"\( N\)",automatic_place=(pspict,"W"))
+    P.put_mark(0.2,90+45,"\( P\)",pspict=pspict,position="corner")
+    M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
+    N.put_mark(0.2,0,"\( N\)",pspict=pspict,position="W")
 
     rectangle=Polygon(A,B,C,D)
     gris1=Polygon(M,B,N,P)

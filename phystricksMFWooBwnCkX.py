@@ -18,12 +18,12 @@ def MFWooBwnCkX():
     L=Circle(K,l2).get_point(-30)
     T=Circle(S,l3).get_point(5)
 
-    #A.put_mark(0.2,90,"\( A\)",automatic_place=(pspict,"corner"))
-    #B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"corner"))
-    #K.put_mark(0.2,90,"\( K\)",automatic_place=(pspict,"corner"))
-    #L.put_mark(0.2,90,"\( L\)",automatic_place=(pspict,"corner"))
-    #S.put_mark(0.2,90,"\( S\)",automatic_place=(pspict,"corner"))
-    #T.put_mark(0.2,90,"\( T\)",automatic_place=(pspict,"corner"))
+    #A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="corner")
+    #B.put_mark(0.2,90,"\( B\)",pspict=pspict,position="corner")
+    #K.put_mark(0.2,90,"\( K\)",pspict=pspict,position="corner")
+    #L.put_mark(0.2,90,"\( L\)",pspict=pspict,position="corner")
+    #S.put_mark(0.2,90,"\( S\)",pspict=pspict,position="corner")
+    #T.put_mark(0.2,90,"\( T\)",pspict=pspict,position="corner")
 
     s1=Segment(A,B)
     s2=Segment(K,L)

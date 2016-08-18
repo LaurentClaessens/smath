@@ -21,8 +21,8 @@ def TFUFooJKyBhZ():
     R1=c1.get_point(200)
     R2=c2.get_point(100)
 
-    l1=Segment(B,R1).get_measure(0,0.1,None,"\( 5\)",automatic_place=(pspict,"corner"))
-    l2=Segment(C,R2).get_measure(0,0.1,None,"\( 7\)",automatic_place=(pspict,"corner"))
+    l1=Segment(B,R1).get_measure(0,0.1,None,"\( 5\)",pspict=pspict,position="corner")
+    l2=Segment(C,R2).get_measure(0,0.1,None,"\( 7\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs( c1,c2,triangle,l1,l2 )
     fig.no_figure()

@@ -17,13 +17,13 @@ def figureYWEhCkv():
     v.parameters.color="blue"
     w.parameters.color="blue"
 
-    u.put_mark(0.2,None,"\( \\vect{ u }\)",automatic_place=pspict)
-    v.put_mark(0.2,-45,"\( \\vect{ v }\)",automatic_place=pspict)
-    w.put_mark(0.2,None,"\( \\vect{ w }\)",automatic_place=pspict)
+    u.put_mark(0.2,None,"\( \\vect{ u }\)",pspict=pspict)
+    v.put_mark(0.2,-45,"\( \\vect{ v }\)",pspict=pspict)
+    w.put_mark(0.2,None,"\( \\vect{ w }\)",pspict=pspict)
 
-    A.put_mark(0.2,45,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,45,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,u,v,w)
     pspict.DrawDefaultAxes()

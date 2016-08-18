@@ -11,7 +11,7 @@ def LWKNooOqJykO():
     cerD=Circle(D,3)
     E=Intersection(cerI,cerD)[0]
 
-    I.put_mark(0.2,angle=None,added_angle=0,text="\( I\)",automatic_place=(pspict,""))
+    I.put_mark(0.2,angle=None,added_angle=0,text="\( I\)",pspict=pspict)
 
     EI=Segment(E,I)    # Rien que cela justifie le nom des points ahahaha
 

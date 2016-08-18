@@ -14,11 +14,9 @@ def truc(A,B,C,D,points_names,angle,pspict):
     no_symbol(A,B,C,D)
     return quadri
     
-
 def TFDNooJemFMW():
     pspict,fig = SinglePicture("TFDNooJemFMW")
     pspict.dilatation(1)
-
 
     O=Point(0,0)
     L=O+(1,1)

@@ -7,9 +7,9 @@ def GraphInterfQVfSf():
     x=var('x')
     f=LagrangePolynomial([Point(-3,-3),Point(-1,1),Point(1,-1),Point(5,2)]).graph(-3,5)
     A=f.get_point(-3)
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=pspict)
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict)
     B=f.get_point(5)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=pspict)
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,f)
     pspict.DrawDefaultAxes()

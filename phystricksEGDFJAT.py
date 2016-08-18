@@ -23,12 +23,12 @@ def EGDFJAT():
     M2=Segment(K,J).center()
 
     Oy=Segment(J,I).center()
-    Oy.put_mark(0.2,180,"\( 25\)",automatic_place=(pspict,"E"))
+    Oy.put_mark(0.2,180,"\( 25\)",pspict=pspict,position="E")
 
-    I.put_mark(0.2,180,"\( 50\)",automatic_place=pspict)
-    J.put_mark(0.2,180,"\( 0\)",automatic_place=pspict)
-    K.put_mark(0.2,-90,"\( 100\)",automatic_place=pspict)
-    M2.put_mark(0.2,-90,"\( 50\)",automatic_place=pspict)
+    I.put_mark(0.2,180,"\( 50\)",pspict=pspict)
+    J.put_mark(0.2,180,"\( 0\)",pspict=pspict)
+    K.put_mark(0.2,-90,"\( 100\)",pspict=pspict)
+    M2.put_mark(0.2,-90,"\( 50\)",pspict=pspict)
 
 
     mediane=Segment(M1,M2)
@@ -36,11 +36,11 @@ def EGDFJAT():
     cercle=Circle(centre,rayon)
 
     A=cercle.get_point(90)
-    A.put_mark(0.2,45,"\( A\)",automatic_place=pspict)
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict)
     Ay=Point(0,A.y)
 
     B=Point(l/2+l/10,h/10)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=pspict)
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
 
     Bx=Point(B.x,0)
     By=Point(0,B.y)

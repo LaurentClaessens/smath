@@ -14,7 +14,7 @@ def OVATooYCMzBB():
 
     aB=Angle(A,B,C,r=0.3)
 
-    aB.put_mark(0.3,angle=None,added_angle=0,text="\SI{40}{\degree}",automatic_place=(pspict,""))
+    aB.put_mark(0.3,angle=None,added_angle=0,text="\SI{40}{\degree}",pspict=pspict)
     trig.edges[0].put_code(n=2,d=0.1,l=0.3,pspict=pspict)
     trig.edges[1].put_code(n=2,d=0.1,l=0.3,pspict=pspict)
 

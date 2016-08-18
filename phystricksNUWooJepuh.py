@@ -13,12 +13,12 @@ def NUWooJepuh():
     x=var('x')
 
     f=phyFunction(-3*x-2).fit_inside(xmin,xmax,ymin,ymax)
-    f.put_mark(0.2,-45,"\( d_1\)",automatic_place=(pspict,"corner"))
+    f.put_mark(0.2,-45,"\( d_1\)",pspict=pspict,position="corner")
 
     A=Point(2,1)
     B=Point(-3,0)
-    A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,90+45,"\( B\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
      
     pspict.DrawGraphs(f,A,B)
     pspict.DrawDefaultAxes()

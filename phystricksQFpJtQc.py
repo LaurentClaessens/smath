@@ -18,12 +18,12 @@ def QFpJtQc():
     t=Segment(A,C).fix_origin(N)
     G=Intersection(t,Segment(C,B))[0]
 
-    A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,90,"\( C\)",automatic_place=(pspict,"S"))
-    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",automatic_place=(pspict,"corner"))
-    N.put_mark(0.2,-90,"\( N\)",automatic_place=(pspict,"N"))
-    G.put_mark(0.2,Segment(C,B).angle().degree+90,"\( G\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
+    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",pspict=pspict,position="corner")
+    N.put_mark(0.2,-90,"\( N\)",pspict=pspict,position="N")
+    G.put_mark(0.2,Segment(C,B).angle().degree+90,"\( G\)",pspict=pspict,position="corner")
 
     parallelogram=Polygon(C,G,N,M)
 

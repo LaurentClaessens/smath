@@ -20,8 +20,8 @@ def RYDooDLpToB():
     P.parameters.symbol=""
     Q.parameters.symbol=""
 
-    P.put_mark(0.2,-90,"\( 15\)",automatic_place=(pspict,"N"))
-    Q.put_mark(0.2,180,"\(\ell\)",automatic_place=(pspict,"E"))
+    P.put_mark(0.2,-90,"\( 15\)",pspict=pspict,position="N")
+    Q.put_mark(0.2,180,"\(\ell\)",pspict=pspict,position="E")
 
     pspict.DrawGraphs(rect,P,Q)
     fig.no_figure()

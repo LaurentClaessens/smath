@@ -16,8 +16,8 @@ def SRYNooEdaMMH():
 
     poly=Polygon( A,B,C,D  )
     poly.put_mark(0.2,points_names="ABCD",pspict=pspict)
-    E.put_mark(0.1,angle=90,text="\( E\)",automatic_place=(pspict,""))
-    O.put_mark(0.05,angle=90+45,text="\( O\)",automatic_place=(pspict,""))
+    E.put_mark(0.1,angle=90,text="\( E\)",pspict=pspict)
+    O.put_mark(0.05,angle=90+45,text="\( O\)",pspict=pspict)
 
 
     no_symbol(poly.vertices,E,O)

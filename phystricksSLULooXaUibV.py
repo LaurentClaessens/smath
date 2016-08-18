@@ -15,7 +15,7 @@ def SLULooXaUibV():
     cot=triangle.edges[0]
     cot.divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspict=pspict)
     K=cot.midpoint()
-    K.put_mark(0.2,-45,"\( K\)",automatic_place=(pspict,"corner"))
+    K.put_mark(0.2,-45,"\( K\)",pspict=pspict,position="corner")
 
     med=Segment(K,triangle.vertices[2])
 

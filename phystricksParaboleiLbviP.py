@@ -12,7 +12,7 @@ def ParaboleiLbviP():
     P.append(Point(1,3))
     P.append(Point(3,-5))
     S=Point(0,4)
-    S.put_mark(0.2,45,"$S$",automatic_place=pspict)
+    S.put_mark(0.2,45,"$S$",pspict=pspict)
 
     pspict.DrawGraphs(f,P,S)
     pspict.DrawDefaultAxes()

@@ -37,8 +37,8 @@ def SurfacesCubesclGZD():
 
     I=Segment(cube.D,cube.H).center()
     J=Segment(cube.C,cube.G).center()
-    I.put_mark(0.3,180,"\( I\)",automatic_place=pspicts[0])
-    J.put_mark(0.3,0,"\( J\)",automatic_place=pspicts[0])
+    I.put_mark(0.3,180,"\( I\)",pspict=pspicts[0])
+    J.put_mark(0.3,0,"\( J\)",pspict=pspicts[0])
 
     surface5=Polygon(I,J,cube.B,cube.A)
     surface5.parameters.filled()

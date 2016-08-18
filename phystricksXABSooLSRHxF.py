@@ -16,7 +16,7 @@ def PDNJooMoHgCM():
 
     trig=Polygon(R,S,U)
     trig.put_mark(0.2,points_names="RSU",pspict=pspict)
-    T.put_mark(0.2,angle=90+45,text="\( T\)",automatic_place=(pspict,""))
+    T.put_mark(0.2,angle=90+45,text="\( T\)",pspict=pspict)
 
     for ver in [S,R,U]:
         seg=Segment(T,ver)

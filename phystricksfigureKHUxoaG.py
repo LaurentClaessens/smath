@@ -14,11 +14,11 @@ def figureKHUxoaG():
     B=cer.get_point(b+180)
     C=cer.get_point(a+180)
 
-    A.put_mark(0.2,None,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,None,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,None,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,None,"\( D\)",automatic_place=pspict)
-    M.put_mark(0.2,120,"\( M\)",automatic_place=pspict)
+    A.put_mark(0.2,None,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,None,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,None,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,None,"\( D\)",pspict=pspict)
+    M.put_mark(0.2,120,"\( M\)",pspict=pspict)
 
 
     d1=Segment(A,C)

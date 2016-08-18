@@ -15,14 +15,14 @@ def figureBOuQJyj():
     K=Segment(C,D).center()
     L=Segment(D,A).center()
 
-    A.put_mark(0.2,135,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,180+45,"\( D\)",automatic_place=pspict)
-    I.put_mark(0.2,90,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,0,"\( J\)",automatic_place=pspict)
-    K.put_mark(0.2,-70,"\( K\)",automatic_place=pspict)
-    L.put_mark(0.2,180,"\( L\)",automatic_place=pspict)
+    A.put_mark(0.2,135,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,180+45,"\( D\)",pspict=pspict)
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,0,"\( J\)",pspict=pspict)
+    K.put_mark(0.2,-70,"\( K\)",pspict=pspict)
+    L.put_mark(0.2,180,"\( L\)",pspict=pspict)
 
     dig=Segment(A,C)
     dig.parameters.style="dashed"

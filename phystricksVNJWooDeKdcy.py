@@ -17,7 +17,7 @@ def VNJWooDeKdcy():
     rh=RightAngleAOB(S,U,T,r=0.3,n1=0,n2=1)
 
     angle=Angle(T,S,U)
-    angle.put_mark(0.3,angle=None,text="\SI{33}{\degree}",automatic_place=(pspict,""))
+    angle.put_mark(0.3,angle=None,text="\SI{33}{\degree}",pspict=pspict)
 
     no_symbol(S,T,U)
 

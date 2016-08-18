@@ -10,8 +10,8 @@ def RLGQTQR():
     A=Point(0,-4)
     B=Point(3,2)
 
-    A.put_mark(0.2,-45,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
+    A.put_mark(0.2,-45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict)
 
     pspict.DrawGraphs(f,A,B)
     pspict.DrawDefaultAxes()

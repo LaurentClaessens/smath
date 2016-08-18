@@ -12,14 +12,15 @@ def YEGUooNJuuDC():
     D=Point(2,4)
 
     O=Point(10,5)
-    O.put_mark(0.2,-45,"\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,-45,"\( O\)",pspict=pspict)
 
     poly=Polygon(A,B,C,D,E,F)
     poly.put_mark(0.3,pspict=pspict)
     seg=Segment(D,F)
 
     F.mark.angle=180
-    F.mark.automatic_place=(pspict,"E")
+    F.mark.pspict=pspict
+    F.mark.position="E"
 
     pts=[A,B,C,D,E,F]
     for p in pts:

@@ -28,12 +28,12 @@ def situation(pspict):
     seg1.parameters.style="dashed"
     seg2.parameters.style="dashed"
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,-45,"\( D\)",automatic_place=pspict)
-    K.put_mark(0.2,-90,"\( K\)",automatic_place=pspict)
-    Kp.put_mark(0.2,-90,"\( K'\)",automatic_place=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,-45,"\( D\)",pspict=pspict)
+    K.put_mark(0.2,-90,"\( K\)",pspict=pspict)
+    Kp.put_mark(0.2,-90,"\( K'\)",pspict=pspict)
 
     return parABDC,parABKpK,seg1,seg2,AB,A,B,C,D,K,Kp
 

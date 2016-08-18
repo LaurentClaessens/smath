@@ -14,7 +14,7 @@ def DefVecteurAXDDGP():
 
     vect=AffineVector(A,B)
     vect.parameters.color="red"
-    vect.put_mark(0.5,90,"\( \\vect{ AB }\)",automatic_place=pspict)
+    vect.put_mark(0.5,90,"\( \\vect{ AB }\)",pspict=pspict)
 
     d1=Segment(C,B)
     d1.parameters.color="blue"
@@ -27,10 +27,10 @@ def DefVecteurAXDDGP():
     s1.parameters.color='brown'
     s2.parameters.color='brown'
     
-    A.put_mark(0.3,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-10,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-90,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,0,"\( D\)",automatic_place=pspict)
+    A.put_mark(0.3,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-10,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-90,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,0,"\( D\)",pspict=pspict)
 
     pspict.DrawGraphs(vect,d1,s1,s2,A,B,C,D,M)
     #pspict.DrawDefaultAxes()

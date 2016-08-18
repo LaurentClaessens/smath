@@ -14,7 +14,7 @@ def LOPLooZJmTuk():
 
     trig=Polygon(S,M,L)
     trig.put_mark(0.2,points_names="SML",pspict=pspict)
-    K.put_mark(0.2,angle=45,text="\( K\)",automatic_place=(pspict,""))
+    K.put_mark(0.2,angle=45,text="\( K\)",pspict=pspict)
 
     SK=Segment(S,K)
     MK=Segment(M,K)

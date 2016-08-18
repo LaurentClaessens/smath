@@ -17,8 +17,8 @@ def POYHooNCayFj():
     p1=Segment(A,C)
     p2=Segment(B,D)
 
-    p1.put_mark(0.2,angle=None,added_angle=0,text="\( a\)",automatic_place=(pspict,""))
-    p2.put_mark(0.2,angle=None,added_angle=0,text="?",automatic_place=(pspict,""))
+    p1.put_mark(0.2,angle=None,added_angle=0,text="\( a\)",pspict=pspict)
+    p2.put_mark(0.2,angle=None,added_angle=0,text="?",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,p1,p2)
     pspict.DrawDefaultGrid()

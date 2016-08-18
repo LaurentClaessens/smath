@@ -5,7 +5,7 @@ def at_droite(pspict,f,color):
     mx=-2
     Mx=2
     g=phyFunction(f).graph(mx,Mx)
-    g.put_mark(0.2,0,"\( {0}\)".format(latex(g.sage(x))),automatic_place=pspict)
+    g.put_mark(0.2,0,"\( {0}\)".format(latex(g.sage(x))),pspict=pspict)
     P=g.get_point(mx+0.5)
     Q=g.get_point(Mx-0.5)
     g.parameters.color=color

@@ -19,10 +19,10 @@ def NWPooWQBSnz():
     C2.parameters.fill.color='white'
 
     triangle=Polygon(A,B,C)
-    A.put_mark(0.2,90,"\( A\)",automatic_place=(pspict,"S"))
-    B.put_mark(0.2,180+45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
-    H.put_mark(0.2,-90,"\( H\)",automatic_place=(pspict,"N"))
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,180+45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
+    H.put_mark(0.2,-90,"\( H\)",pspict=pspict,position="N")
 
     hauteur=Segment(A,H)
     hauteur.parameters.style="dashed"

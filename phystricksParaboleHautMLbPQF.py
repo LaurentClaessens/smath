@@ -13,7 +13,7 @@ def ParaboleHautMLbPQF():
     c=g.coefficient(x,0)
     x0=-b/(2*a)
     P=Point(x0,0)
-    P.put_mark(0.2,90,"\( x_0\)",automatic_place=pspict)
+    P.put_mark(0.2,90,"\( x_0\)",pspict=pspict)
 
     pspict.DrawGraphs(f,P)
     pspict.axes.no_graduation()

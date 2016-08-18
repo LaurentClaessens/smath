@@ -21,12 +21,12 @@ def figureFGgTGJA():
     d3=Segment(C,P)
     d4=Segment(M,A)
 
-    N.put_mark(0.2,90+45,"\( N\)",automatic_place=pspict)
-    B.put_mark(0.2,180+45,"\( B\)",automatic_place=pspict)
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=pspict)
-    P.put_mark(0.2,-45,"\( P\)",automatic_place=pspict)
-    M.put_mark(0.2,45,"\( M\)",automatic_place=pspict)
-    C.put_mark(0.2,90,"\( C\)",automatic_place=pspict)
+    N.put_mark(0.2,90+45,"\( N\)",pspict=pspict)
+    B.put_mark(0.2,180+45,"\( B\)",pspict=pspict)
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict)
+    P.put_mark(0.2,-45,"\( P\)",pspict=pspict)
+    M.put_mark(0.2,45,"\( M\)",pspict=pspict)
+    C.put_mark(0.2,90,"\( C\)",pspict=pspict)
 
     pspict.DrawGraphs(N,M,P,B,C,A,rect,haut,d1,d2,d3,d4)
     fig.no_figure()

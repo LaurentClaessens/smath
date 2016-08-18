@@ -30,8 +30,8 @@ def ExoTranslationPNjoHk():
     vB=vA+(1,2)
     v=AffineVector(vA,vB)
     v.parameters.color="red"
-    vA.put_mark(0.2,270,"\( A\)",automatic_place=pspict)
-    vB.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
+    vA.put_mark(0.2,270,"\( A\)",pspict=pspict)
+    vB.put_mark(0.2,45,"\( B\)",pspict=pspict)
     vA.parameters.symbol="none"
     vB.parameters.symbol="none"
 

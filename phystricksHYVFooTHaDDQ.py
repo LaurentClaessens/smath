@@ -14,11 +14,11 @@ def HYVFooTHaDDQ():
     C=trig.vertices[2]
     trig.put_mark(0.2,pspict=pspicts)
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspicts,""))
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
     trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
 
     ang=AngleAOB(A,C,B)
-    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",automatic_place=(pspicts,""))
+    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",pspict=pspicts)
     no_symbol(trig.vertices)
     pspicts[0].DrawGraphs(trig,M,ang)
 
@@ -30,7 +30,7 @@ def HYVFooTHaDDQ():
     B=trig.vertices[1]
     C=trig.vertices[2]
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspicts,""))
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
     cod1=trig.edges[1].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
     cod2=trig.edges[2].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
     CM=Segment(C,M)
@@ -44,11 +44,11 @@ def HYVFooTHaDDQ():
     B=trig.vertices[1]
     C=trig.vertices[2]
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspicts,""))
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
     CM=Segment(C,M)
     rh=RightAngleAOB(C,M,B)
     ang=AngleAOB(M,A,C)
-    ang.put_mark(0.3,angle=None,added_angle=0,text="\SI{45}{\degree}",automatic_place=(pspicts,""))
+    ang.put_mark(0.3,angle=None,added_angle=0,text="\SI{45}{\degree}",pspict=pspicts)
     no_symbol(trig.vertices)
     pspicts[2].DrawGraphs(trig,M,CM,rh,ang)
 
@@ -60,7 +60,7 @@ def HYVFooTHaDDQ():
     C=trig.vertices[2]
     trig.put_mark(0.2,pspict=pspicts)
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspicts,""))
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
     rh=RightAngleAOB(A,C,B)
     trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
 

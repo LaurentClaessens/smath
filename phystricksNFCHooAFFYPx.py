@@ -14,7 +14,7 @@ def NFCHooAFFYPx():
     cube.put_vertex_mark(pspict)
 
     I=perspective.point(l/2,l/2,l/2)
-    I.put_mark(0.2,angle=180,text="\( I\)",automatic_place=(pspict,""))
+    I.put_mark(0.2,angle=180,text="\( I\)",pspict=pspict)
 
     segs=[   Segment(x,I) for x in [cube.B,cube.F,cube.G,cube.C]    ]
     for se in segs:

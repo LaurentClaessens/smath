@@ -22,7 +22,7 @@ def HWLHooGuSDwM():
     S=(B+C)*0.5+(l/2,0)
 
     O=B+(3*l/2,0)
-    O.put_mark(0.2,180,"\( O\)",automatic_place=(pspict,"E"))
+    O.put_mark(0.2,180,"\( O\)",pspict=pspict,position="E")
 
     original=[]
     original.append( Segment(A,B)  )

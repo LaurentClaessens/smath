@@ -32,8 +32,8 @@ def SVPAooIuxHvP():
     for seg in pprime :
         pspict.math_BB.append(seg)
 
-    O.put_mark(0.2,180+45,"\( O\)",automatic_place=(pspict,"corner"))
-    Op.put_mark(0.2,-45,"\( O'\)",automatic_place=(pspict,"corner"))
+    O.put_mark(0.2,180+45,"\( O\)",pspict=pspict,position="corner")
+    Op.put_mark(0.2,-45,"\( O'\)",pspict=pspict,position="corner")
     
     pspict.DrawGraphs(original,O,Op)
     pspict.grid.main_horizontal.parameters.style="dotted"

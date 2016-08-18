@@ -20,7 +20,7 @@ def WHWXooTAHTOd():
     cer.parameters.hatch.color="lightgray"
 
     #rect.put_mark(0.2,pspict=pspict)
-    #O.put_mark(0.2,angle=None,added_angle=0,text="\( O\)",automatic_place=(pspict,""))
+    #O.put_mark(0.2,angle=None,added_angle=0,text="\( O\)",pspict=pspict)
 
     no_symbol(rect.vertices)
     pspict.DrawGraphs(rect,cer)

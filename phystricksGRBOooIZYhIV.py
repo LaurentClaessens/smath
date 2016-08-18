@@ -12,10 +12,10 @@ def GRBOooIZYhIV():
     O=Point(0,0)
     A=Point(4,0)
 
-    O.put_mark(0.2,-90,"\( 0\)",automatic_place=(pspict,""))
-    A.put_mark(0.2,90,"\( A\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,90,"\(  K\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,-90,"\( 1\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,-90,"\( 0\)",pspict=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    K.put_mark(0.2,90,"\(  K\)",pspict=pspict)
+    K.put_mark(0.2,-90,"\( 1\)",pspict=pspict)
 
     for p in [O,K,A]:
         p.parameters.symbol=""

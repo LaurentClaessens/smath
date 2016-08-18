@@ -22,19 +22,19 @@ def LVALooSubNDJ():
     BS=Segment(B,S)
 
     AD=Segment(A,D)
-    AD.put_mark(0.2,angle=None,added_angle=0,text="\SI{5}{\centi\meter}",automatic_place=(pspict,""))
+    AD.put_mark(0.2,angle=None,added_angle=0,text="\SI{5}{\centi\meter}",pspict=pspict)
     DC=Segment(D,C)
-    DC.put_mark(0.3,angle=None,added_angle=0,text="\SI{2}{\centi\meter}",automatic_place=(pspict,""))
+    DC.put_mark(0.3,angle=None,added_angle=0,text="\SI{2}{\centi\meter}",pspict=pspict)
     SD=Segment(S,D)
     SD.parameters.style='dashed'
     #DC.parameters.style='dashed'
     #AD.parameters.style='dashed'
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,90+45,"\( D\)",automatic_place=pspict)
-    S.put_mark(0.2,-90,"\( S\)",automatic_place=pspict)
+    A.put_mark(0.2,180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,90+45,"\( D\)",pspict=pspict)
+    S.put_mark(0.2,-90,"\( S\)",pspict=pspict)
 
     no_symbol(A,B,C,D,S)
     

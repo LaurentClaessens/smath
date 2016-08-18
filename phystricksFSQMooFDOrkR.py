@@ -14,22 +14,22 @@ def FSQMooFDOrkR():
 
     K=Point(0.5,0)
 
-    O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,""))
-    #B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,90,"\( \\frac{ 1 }{2}\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,-90,"\( O\)",pspict=pspict)
+    #B.put_mark(0.2,-90,"\( B\)",pspict=pspict)
+    K.put_mark(0.2,90,"\( \\frac{ 1 }{2}\)",pspict=pspict)
 
     for i in range(mx,0):
         A=Point(i,0)
         A.parameters.symbol=""
         if i%2==0 :
-            A.put_mark(0.2,-90,"\(  {}\)".format(i),automatic_place=(pspict,""))
+            A.put_mark(0.2,-90,"\(  {}\)".format(i),pspict=pspict)
         else:
-            A.put_mark(0.2,-90,"\( {}\)".format(i),automatic_place=(pspict,""))
+            A.put_mark(0.2,-90,"\( {}\)".format(i),pspict=pspict)
         pspict.DrawGraphs(A)
     for i in range(0,floor(Mx)+1):
         A=Point(i,0)
         A.parameters.symbol=""
-        A.put_mark(0.2,-90,"\( {}\)".format(i),automatic_place=(pspict,""))
+        A.put_mark(0.2,-90,"\( {}\)".format(i),pspict=pspict)
         pspict.DrawGraphs(A)
 
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)

@@ -17,9 +17,9 @@ def CVKooPKKMNG():
 
     A=Intersection(s1,s2)[0]
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=(pspict,"S"))
-    B.put_mark(0.2,180+45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,180+45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
 
     trig=Polygon(A,B,C)
     for p in trig.vertices:
@@ -28,8 +28,8 @@ def CVKooPKKMNG():
     a1=Angle(C,B,A,r=0.5)
     a3=Angle(A,C,B,r=0.5)
 
-    a1.put_mark(0.3,None,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
-    a3.put_mark(0.3,None,"\SI{40}{\degree}",automatic_place=(pspict,"center"))
+    a1.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict,position="center")
+    a3.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict,position="center")
 
     pspict.DrawGraphs(A,B,C,s1,s2,trig,a1,a3)
     fig.no_figure()

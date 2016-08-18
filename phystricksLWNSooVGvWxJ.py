@@ -33,10 +33,10 @@ def LWNSooVGvWxJ():
     trig.put_mark(0.2,points_names="KLM",pspict=pspicts)
 
     angK=AngleAOB(L,K,M)
-    angK.put_mark(0.2,angle=None,added_angle=0,text="\SI{60}{\degree}",automatic_place=(pspicts,""))
+    angK.put_mark(0.2,angle=None,added_angle=0,text="\SI{60}{\degree}",pspict=pspicts)
     
     angL=AngleAOB(M,L,K)
-    angL.put_mark(0.3,angle=None,added_angle=0,text="\SI{25}{\degree}",automatic_place=(pspicts,""))
+    angL.put_mark(0.3,angle=None,added_angle=0,text="\SI{25}{\degree}",pspict=pspicts)
 
     no_symbol(trig.vertices)
     pspicts[1].DrawGraphs(trig,angK,angL)

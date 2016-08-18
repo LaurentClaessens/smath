@@ -18,7 +18,7 @@ def HYKooCotyT():
     D=C+(4,-2)
 
     L=D+(1,0)
-    L.put_mark(0.2,-45,"\( L\)",automatic_place=(pspict,"corner"))
+    L.put_mark(0.2,-45,"\( L\)",pspict=pspict,position="corner")
 
     u1=AffineVector(A,B)
     u2=AffineVector(C,D)
@@ -27,8 +27,8 @@ def HYKooCotyT():
     u3=(3/2)*u2
     pspict.force_math_bounding_box( u3 )
 
-    u1.put_mark(0.2,45,"\( \\vect{ u_1 }\)",automatic_place=(pspict,"corner"))
-    u2.put_mark(0.2,45,"\( \\vect{ u_2 }\)",automatic_place=(pspict,"corner"))
+    u1.put_mark(0.2,45,"\( \\vect{ u_1 }\)",pspict=pspict,position="corner")
+    u2.put_mark(0.2,45,"\( \\vect{ u_2 }\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(u1,u2,L)
     pspict.DrawDefaultGrid()

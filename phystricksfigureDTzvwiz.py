@@ -26,10 +26,10 @@ def figureDTzvwiz():
     Ap=Intersection(b2,v1)[0]
     Bp=Intersection(b2,v)[0]
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,0,"\( B\)",automatic_place=pspict)
-    Ap.put_mark(0.2,90,"\( A'\)",automatic_place=pspict)
-    Bp.put_mark(0.2,90,"\( B'\)",automatic_place=pspict)
+    A.put_mark(0.2,180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,0,"\( B\)",pspict=pspict)
+    Ap.put_mark(0.2,90,"\( A'\)",pspict=pspict)
+    Bp.put_mark(0.2,90,"\( B'\)",pspict=pspict)
 
     l1=Segment(A,Ap)
     l2=Segment(B,Bp)

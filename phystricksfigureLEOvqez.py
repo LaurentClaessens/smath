@@ -8,8 +8,8 @@ def figureLEOvqez():
     B=Point(3,2)
     C=Point(B.x,A.y)
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
+    A.put_mark(0.2,180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
 
     A.parameters.symbol="*"
     B.parameters.symbol="x"
@@ -18,9 +18,9 @@ def figureLEOvqez():
     AC=AffineVector(A,C)
     CB=AffineVector(C,B)
 
-    AC.put_mark(0.2,-90,"\( x_B-x_A\)",automatic_place=pspict,mark_point=AC.center())
+    AC.put_mark(0.2,-90,"\( x_B-x_A\)",pspict=pspict,mark_point=AC.center())
     # TODO : un truc bizare est que la croix de B n'apparaît pas à cause de la ligne suivante :
-    CB.put_mark(0.2,0,"\( y_B-y_A\)",automatic_place=pspict,mark_point=CB.center())
+    CB.put_mark(0.2,0,"\( y_B-y_A\)",pspict=pspict,mark_point=CB.center())
 
     AB.parameters.color="blue"
     AC.parameters.color="red"

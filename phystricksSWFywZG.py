@@ -10,8 +10,8 @@ def SWFywZG():
     S=Point(0,5)
     L=Point(7,1)
 
-    A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
-    K.put_mark(0.2,90,"\( K\)",automatic_place=(pspict,"S"))
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
+    K.put_mark(0.2,90,"\( K\)",pspict=pspict,position="S")
 
     s1=Segment(K,S)
     s2=Segment(S,A)

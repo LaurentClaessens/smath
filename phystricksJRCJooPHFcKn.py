@@ -22,8 +22,8 @@ def JRCJooPHFcKn():
     rh1=RightAngle( Segment(E,F),Segment(A,C),1,0 )
     rh2=RightAngle( Segment(C,B),Segment(A,C),1,0 )
 
-    mes1=Segment(A,E).get_measure(-0.4,0.1,None,"\SI{3.2}{\centi\meter}",automatic_place=(pspict,"corner"))
-    mes2=Segment(E,C).get_measure(-0.4,0.1,None,"\SI{3.5}{\centi\meter}",automatic_place=(pspict,"corner"))
+    mes1=Segment(A,E).get_measure(-0.4,0.1,None,"\SI{3.2}{\centi\meter}",pspict=pspict,position="corner")
+    mes2=Segment(E,C).get_measure(-0.4,0.1,None,"\SI{3.5}{\centi\meter}",pspict=pspict,position="corner")
 
     no_symbol(A,B,C,E,F)
 

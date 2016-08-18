@@ -12,9 +12,9 @@ def YORfWSM():
 
     alpha=75
     M=Cer.get_point(alpha)
-    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",automatic_place=pspict)
+    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",pspict=pspict)
     X=Point(1,radian(alpha))
-    X.put_mark(0.2,0,"\( x\)",automatic_place=pspict)
+    X.put_mark(0.2,0,"\( x\)",pspict=pspict)
 
     lv=Segment(Point(1,0),Point(1,X.y))
     lv.parameters.color="green"

@@ -25,16 +25,16 @@ def QLbEnnx():
 
     BD.parameters.style='dashed'
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,180,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-90,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,-90,"\( D\)",automatic_place=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,180,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-90,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,-90,"\( D\)",pspict=pspict)
 
     J=AD.get_point_proportion(0.3)
     I=BC.get_point_proportion(0.7)
 
-    I.put_mark(0.2,200,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,90,"\( J\)",automatic_place=pspict)
+    I.put_mark(0.2,200,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,90,"\( J\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,D,I,J,AB,AC,AD,BC,CD,BD)
     fig.no_figure()

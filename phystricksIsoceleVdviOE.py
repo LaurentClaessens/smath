@@ -22,11 +22,11 @@ def IsoceleVdviOE():
     IJ.parameters.color="red"
     M=Intersection(IJ,seg)[0]
 
-    I.put_mark(0.2,0,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,0,"\( J\)",automatic_place=pspict)
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=pspict)
-    M.put_mark(0.2,45,"\( M\)",automatic_place=pspict)
+    I.put_mark(0.2,0,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,0,"\( J\)",pspict=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
+    M.put_mark(0.2,45,"\( M\)",pspict=pspict)
 
     C1.parameters.style="dashed"
     C1.parameters.color="blue"

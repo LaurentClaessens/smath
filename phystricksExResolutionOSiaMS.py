@@ -17,8 +17,8 @@ def ExResolutionOSiaMS():
     g=LagrangePolynomial(gPlist).graph(-4.5,3.5)
     f.parameters.color="blue"
     g.parameters.color="brown"
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
-    g.put_mark(0.2,0,"\( g\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict)
+    g.put_mark(0.2,0,"\( g\)",pspict=pspict)
 
 
     pspict.DrawGraphs(g,f)

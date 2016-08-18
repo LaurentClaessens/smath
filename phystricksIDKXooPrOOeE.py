@@ -31,9 +31,9 @@ def IDKXooPrOOeE():
     AS=Segment(A,S)
     BS=Segment(B,S)
 
-    AB.put_mark(0.2,angle=-90,text="\( 4\)",automatic_place=(pspict,""))
-    BC.put_mark(0.2,angle=None,text="\( 3\)",added_angle=180,automatic_place=(pspict,""))
-    hauteur.put_mark(0.2,angle=0,text="\( 6\)",automatic_place=(pspict,""))
+    AB.put_mark(0.2,angle=-90,text="\( 4\)",pspict=pspict)
+    BC.put_mark(0.2,angle=None,text="\( 3\)",added_angle=180,pspict=pspict)
+    hauteur.put_mark(0.2,angle=0,text="\( 6\)",pspict=pspict)
 
     AD=Segment(A,D)
     AD.parameters.style='dashed'
@@ -42,12 +42,12 @@ def IDKXooPrOOeE():
     SD=Segment(S,D)
     SD.parameters.style='dashed'
 
-    A.put_mark(0.2,180+45,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,45,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.1,90+45,"\( D\)",automatic_place=pspict)
-    S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
-    I.put_mark(0.2,angle=90+45,text="\( I\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,180+45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict)
+    D.put_mark(0.1,90+45,"\( D\)",pspict=pspict)
+    S.put_mark(0.2,90,"\( S\)",pspict=pspict)
+    I.put_mark(0.2,angle=90+45,text="\( I\)",pspict=pspict)
 
     rh=RightAngle( Segment(S,I),Segment(I,B),0,1 )
     rhA=RightAngle( Segment(A,B),Segment(A,D),1,1 )

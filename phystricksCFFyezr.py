@@ -11,8 +11,8 @@ def CFFyezr():
     v1=AffineVector( S1,S1+(1,2) )
     v2=AffineVector(S2,S2+(-1,1))
 
-    S1.put_mark(0.2,-90,"\( S_1\)",automatic_place=(pspict,"N"))
-    S2.put_mark(0.2,-45,"\( S_2\)",automatic_place=(pspict,"corner"))
+    S1.put_mark(0.2,-90,"\( S_1\)",pspict=pspict,position="N")
+    S2.put_mark(0.2,-45,"\( S_2\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(S1,S2,v1,v2)
     pspict.DrawDefaultAxes()

@@ -20,8 +20,8 @@ def PrismeCQlZKY():
     BG=Segment(cube.B,cube.G)
     FC=Segment(cube.F,cube.C)
     J=Intersection(BG,FC)[0]
-    I.put_mark(0.2,0,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,0,"\( J\)",automatic_place=pspict)
+    I.put_mark(0.2,0,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,0,"\( J\)",pspict=pspict)
     IJ=Segment(I,J)
     IJ.parameters.style="dashed"
 

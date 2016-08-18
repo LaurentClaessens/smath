@@ -9,7 +9,7 @@ def VGVIooUoZpRA():
     names_list=["O","R","S","U","T"]
     #names_list=["O","A","B","A'","B'"]
 
-    O.put_mark(0.2,180,"\( "+names_list[0]+"\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,180,"\( "+names_list[0]+"\)",pspict=pspict)
 
     P1=Point(5,2)
     P2=Point(5,-1)
@@ -26,10 +26,10 @@ def VGVIooUoZpRA():
     parall=Segment(A,Ap).parallel_trough(B)
     Bp=Intersection(parall,s1)[0]
 
-    A.put_mark(0.2,A.advised_mark_angle(pspict)+180,"\("+names_list[1]+" \)",automatic_place=(pspict,""))
-    B.put_mark(0.2,B.advised_mark_angle(pspict)+180,"\("+names_list[2]+" \)",automatic_place=(pspict,""))
-    Ap.put_mark(0.2,Ap.advised_mark_angle(pspict)+180,"\("+names_list[3]+" \)",automatic_place=(pspict,""))
-    Bp.put_mark(0.2,Ap.advised_mark_angle(pspict)+180,"\("+names_list[4]+" \)",automatic_place=(pspict,""))
+    A.put_mark(0.2,A.advised_mark_angle(pspict)+180,"\("+names_list[1]+" \)",pspict=pspict)
+    B.put_mark(0.2,B.advised_mark_angle(pspict)+180,"\("+names_list[2]+" \)",pspict=pspict)
+    Ap.put_mark(0.2,Ap.advised_mark_angle(pspict)+180,"\("+names_list[3]+" \)",pspict=pspict)
+    Bp.put_mark(0.2,Ap.advised_mark_angle(pspict)+180,"\("+names_list[4]+" \)",pspict=pspict)
 
     pspict.DrawGraphs(  Segment(A,Ap),Segment(B,Bp)  )
 
@@ -37,8 +37,8 @@ def VGVIooUoZpRA():
         p.parameters.symbol=""
     pspict.DrawGraphs(s1,s2,A,B,Ap,Bp,O)
 
-    m1=Segment(Ap,A).get_mark(0.1,None,"\( 5\)",automatic_place=(pspict,""))
-    m2=Segment(A,O).get_mark(0.2,None,"\( 2\)",automatic_place=(pspict,""))
+    m1=Segment(Ap,A).get_mark(0.1,None,"\( 5\)",pspict=pspict)
+    m2=Segment(A,O).get_mark(0.2,None,"\( 2\)",pspict=pspict)
 
     pspict.DrawGraphs(m1,m2)
 

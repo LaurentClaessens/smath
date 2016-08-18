@@ -14,16 +14,16 @@ def TOIooUindpy():
     C=carre.SE
     D=carre.SW
        
-    A.put_mark(0.2,90+45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,180+45,"\( D\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,90+45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,180+45,"\( D\)",pspict=pspict,position="corner")
 
     N=A+(x,0)
     M=A+(0,-x)
 
-    N.put_mark(0.2,90,"\( N\)",automatic_place=(pspict,"S"))
-    M.put_mark(0.2,180,"\( M\)",automatic_place=(pspict,"E"))
+    N.put_mark(0.2,90,"\( N\)",pspict=pspict,position="S")
+    M.put_mark(0.2,180,"\( M\)",pspict=pspict,position="E")
 
     for P in [A,B,C,D,M,N]:
         P.parameters.symbol=""

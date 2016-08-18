@@ -21,9 +21,9 @@ def GCFSooTCJfOZ():
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
     rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
 
-    m1=Segment(A,B).get_mark(0.15,None,length_list[0],automatic_place=(pspicts,""))
-    m2=Segment(B,C).get_mark(0.15,None,length_list[1],automatic_place=(pspicts,""))
-    m3=Segment(C,A).get_mark(0.15,None,length_list[2],automatic_place=(pspicts,""))
+    m1=Segment(A,B).get_mark(0.15,None,length_list[0],pspict=pspicts)
+    m2=Segment(B,C).get_mark(0.15,None,length_list[1],pspict=pspicts)
+    m3=Segment(C,A).get_mark(0.15,None,length_list[2],pspict=pspicts)
     pspicts[0].DrawGraphs(trig,rh,m1,m2,m3,ang)
 
 
@@ -45,9 +45,9 @@ def GCFSooTCJfOZ():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
     rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
-    m1=Segment(B,A).get_mark(0.2,None,length_list[0],automatic_place=(pspicts,""))
-    m2=Segment(C,B).get_mark(0.2,None,length_list[1],automatic_place=(pspicts,""))
-    m3=Segment(A,C).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))
+    m1=Segment(B,A).get_mark(0.2,None,length_list[0],pspict=pspicts)
+    m2=Segment(C,B).get_mark(0.2,None,length_list[1],pspict=pspicts)
+    m3=Segment(A,C).get_mark(0.2,None,length_list[2],pspict=pspicts)
     pspicts[1].DrawGraphs(trig,rh,m1,m2,m3,ang)
 
     pspicts[2].dilatation(0.9)
@@ -68,9 +68,9 @@ def GCFSooTCJfOZ():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
     rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
-    m1=Segment(A,B).get_mark(0.2,None,length_list[0],automatic_place=(pspicts,""))
-    m2=Segment(B,C).get_mark(0.2,None,length_list[1],automatic_place=(pspicts,""))
-    m3=Segment(C,A).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))
+    m1=Segment(A,B).get_mark(0.2,None,length_list[0],pspict=pspicts)
+    m2=Segment(B,C).get_mark(0.2,None,length_list[1],pspict=pspicts)
+    m3=Segment(C,A).get_mark(0.2,None,length_list[2],pspict=pspicts)
     pspicts[2].DrawGraphs(trig,rh,m1,m2,m3,ang)
 
 
@@ -90,9 +90,9 @@ def GCFSooTCJfOZ():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,text_list=[   "\( "+s+"\)" for s in names_list   ],pspict=pspicts)
     rh=RightAngle(Segment(A,B),Segment(B,C),0,1)
-    m1=Segment(A,B).get_mark(0.2,None,length_list[0],automatic_place=(pspicts,""))
-    m2=Segment(B,C).get_mark(0.2,None,length_list[1],automatic_place=(pspicts,""))
-    m3=Segment(C,A).get_mark(0.2,None,length_list[2],automatic_place=(pspicts,""))
+    m1=Segment(A,B).get_mark(0.2,None,length_list[0],pspict=pspicts)
+    m2=Segment(B,C).get_mark(0.2,None,length_list[1],pspict=pspicts)
+    m3=Segment(C,A).get_mark(0.2,None,length_list[2],pspict=pspicts)
     pspicts[3].DrawGraphs(trig,rh,m1,m2,m3)
 
     for fig in figs :

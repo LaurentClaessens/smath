@@ -15,16 +15,16 @@ def ANRUooVCOTOb():
 
     
     P=tarte.get_point(  90+angle.degree )
-    P.put_mark(0.2,None,"\( P\)",automatic_place=(pspict,"corner"))
+    P.put_mark(0.2,None,"\( P\)",pspict=pspict,position="corner")
     v=Segment(P,  P+vecteur   ).dilatation(3)
     Q=Intersection(v,base)[0]
-    Q.put_mark(0.2,-90,"\( Q\)",automatic_place=(pspict,"N"))
+    Q.put_mark(0.2,-90,"\( Q\)",pspict=pspict,position="N")
 
     Pp=tarte.get_point(  -90+angle.degree )
-    Pp.put_mark(0.2,P.advised_mark_angle(pspict),"\( P'\)",automatic_place=(pspict,"corner"))
+    Pp.put_mark(0.2,P.advised_mark_angle(pspict),"\( P'\)",pspict=pspict,position="corner")
     vp=Segment(Pp,  Pp+vecteur   ).dilatation(3)
     Qp=Intersection(vp,base)[0]
-    Qp.put_mark(0.2,-90,"\( Q'\)",automatic_place=(pspict,"N"))
+    Qp.put_mark(0.2,-90,"\( Q'\)",pspict=pspict,position="N")
     wp=Segment(Pp,Qp)
 
     import numpy
@@ -83,7 +83,7 @@ def FUANooEQMEdF():
     for P in pts:
         pspict.DrawGraphs(P)
 
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=(pspict,"N"))
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict,position="N")
     pspict.DrawGraphs(tarte,base,seg,A)
     fig.no_figure()
     fig.conclude()

@@ -20,12 +20,12 @@ def YIGPooZbaCAI():
         cod=seg.get_code( n=2,d=0.1,l=0.3,angle=45,pspict=pspict )
         pspict.DrawGraphs(cod)
 
-    mesX=Segment(K,B).get_measure(-0.6,0.1,None,"\( x\)",automatic_place=(pspict,"corner"))
+    mesX=Segment(K,B).get_measure(-0.6,0.1,None,"\( x\)",pspict=pspict,position="corner")
     rect.put_mark(0.4,pspict=pspict)
 
-    K.put_mark(0.2,90,"\( K\)",automatic_place=(pspict,""))
-    M.put_mark(0.2,90,"\( M\)",automatic_place=(pspict,""))
-    L.put_mark(0.2,90,"\( L\)",automatic_place=(pspict,""))
+    K.put_mark(0.2,90,"\( K\)",pspict=pspict)
+    M.put_mark(0.2,90,"\( M\)",pspict=pspict)
+    L.put_mark(0.2,90,"\( L\)",pspict=pspict)
 
     for p in [A,B,C,D]:
         p.parameters.symbol=""

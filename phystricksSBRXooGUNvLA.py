@@ -13,7 +13,7 @@ def SBRXooGUNvLA():
 
     parall=Polygon(S,U,R,F)
     parall.put_mark(0.2,points_names="SURF",pspict=pspict)
-    J.put_mark(0.2,angle=-90,text="\( J\)",automatic_place=(pspict,""))
+    J.put_mark(0.2,angle=-90,text="\( J\)",pspict=pspict)
 
     s1=Segment(S,J)
     s2=Segment(J,U)

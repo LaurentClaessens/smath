@@ -13,15 +13,15 @@ def UEqUrvi():
     B=Point(C.x,0)
     trig=Polygon(A,B,C)
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,00,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,90,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,00,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,90,"\( C\)",pspict=pspict)
 
     angle=Angle(B,A,C)
-    angle.put_mark(0.2,None,"\( {}\)".format(str(alpha)),automatic_place=pspict)
+    angle.put_mark(0.2,None,"\( {}\)".format(str(alpha)),pspict=pspict)
 
     P=B.projection(Segment(A,C),advised=True)
-    P.put_mark(0.2,P.advised_mark_angle(pspict),"\( P\)",automatic_place=pspict)
+    P.put_mark(0.2,P.advised_mark_angle(pspict),"\( P\)",pspict=pspict)
 
     BP=Segment(P,B)
     BP.parameters.style="dashed"

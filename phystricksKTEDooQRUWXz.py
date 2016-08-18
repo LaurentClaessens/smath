@@ -35,12 +35,12 @@ def KTEDooQRUWXz():
         s.parameters.style="dashed"
     rh=RightAngleAOB(U,L,T)
     
-    s2.put_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=0,name="\SI{4}{\kilo\meter}",automatic_place=(pspict,""))
-    V.put_mark(0.2,angle=None,added_angle=180,text="\( V\)",automatic_place=(pspict,""))
-    W.put_mark(0.2,angle=None,added_angle=180,text="\( W\)",automatic_place=(pspict,""))
+    s2.put_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=0,name="\SI{4}{\kilo\meter}",pspict=pspict)
+    V.put_mark(0.2,angle=None,added_angle=180,text="\( V\)",pspict=pspict)
+    W.put_mark(0.2,angle=None,added_angle=180,text="\( W\)",pspict=pspict)
 
     no_symbol(trig.vertices,V,W)
-    pspict.DrawGraphs(trgris,trig,V,W,mediane,remediane,s1,s2,rh,W,V)
+    pspict.DrawGraphs(trgris,trig,V,W,mediane,remediane,s1,s2,rh)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

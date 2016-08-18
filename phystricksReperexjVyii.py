@@ -10,17 +10,17 @@ def ReperexjVyii():
     OX=Segment(O,I)
     OY=Segment(O,J)
 
-    O.put_mark(0.2,225,"\( O\)",automatic_place=pspict)
-    I.put_mark(0.2,-90,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,180,"\( J\)",automatic_place=pspict)
+    O.put_mark(0.2,225,"\( O\)",pspict=pspict)
+    I.put_mark(0.2,-90,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,180,"\( J\)",pspict=pspict)
 
     M=Point(3,2)
-    M.put_mark(0.2,45,"\( M\)",automatic_place=pspict)
+    M.put_mark(0.2,45,"\( M\)",pspict=pspict)
 
     Mx=M.projection(OX)
     My=M.projection(OY)
-    Mx.put_mark(0.2,-90,"\( x_M\)",automatic_place=pspict)
-    My.put_mark(0.2,180,"\( y_M\)",automatic_place=pspict)
+    Mx.put_mark(0.2,-90,"\( x_M\)",pspict=pspict)
+    My.put_mark(0.2,180,"\( y_M\)",pspict=pspict)
 
     l1=Segment(M,Mx)
     l2=Segment(M,My)

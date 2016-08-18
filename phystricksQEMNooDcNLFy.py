@@ -33,7 +33,7 @@ def QEMNooDcNLFy():
     image.put_mark(0.2,text_list=["\( A'\)","\( B'\)","\( C'\)","\( D'\)"],pspict=pspict)
 
     O.parameters.symbol="*"
-    O.put_mark(0.2,45,"\( O\)",automatic_place=(pspict,"corner"))
+    O.put_mark(0.2,45,"\( O\)",pspict=pspict,position="corner")
 
     seg1=Segment(B,Bp)
     seg1.divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspict)

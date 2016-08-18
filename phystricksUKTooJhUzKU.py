@@ -12,19 +12,19 @@ def UKTooJhUzKU():
     M1=Circle(K,1).get_point(20)
     M2=Circle(L,1).get_point(170)
 
-    M1.put_mark(0.2,M1.advised_mark_angle(pspict),"\( M?\)",automatic_place=(pspict,"corner"))
-    M2.put_mark(0.2,M2.advised_mark_angle(pspict),"\( M?\)",automatic_place=(pspict,"corner"))
+    M1.put_mark(0.2,M1.advised_mark_angle(pspict),"\( M?\)",pspict=pspict,position="corner")
+    M2.put_mark(0.2,M2.advised_mark_angle(pspict),"\( M?\)",pspict=pspict,position="corner")
 
-    K.put_mark(0.2,180+45,"\( K\)",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,-45,"\( L\)",automatic_place=(pspict,"corner"))
+    K.put_mark(0.2,180+45,"\( K\)",pspict=pspict,position="corner")
+    L.put_mark(0.2,-45,"\( L\)",pspict=pspict,position="corner")
 
     KL=Segment(K,L)
     KM1=Segment(K,M1)
     LM2=Segment(L,M2)
 
-    KL.put_mark(0.2,-90,"\( 10\)",automatic_place=(pspict,"N"))
-    KM1.put_mark(0.2,KM1.advised_mark_angle(pspict),"\( 1\)",automatic_place=(pspict,"corner"))
-    LM2.put_mark(0.2,LM2.advised_mark_angle(pspict)+180,"\( 1\)",automatic_place=(pspict,"corner"))
+    KL.put_mark(0.2,-90,"\( 10\)",pspict=pspict,position="N")
+    KM1.put_mark(0.2,KM1.advised_mark_angle(pspict),"\( 1\)",pspict=pspict,position="corner")
+    LM2.put_mark(0.2,LM2.advised_mark_angle(pspict)+180,"\( 1\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(K,L,M1,M2,KL,KM1,LM2)
     fig.no_figure()

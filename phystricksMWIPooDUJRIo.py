@@ -19,8 +19,8 @@ def MWIPooDUJRIo():
 
     a1=Angle(B,I,sec.I)
     a2=Angle(sec.F,J,D)
-    a1.put_mark(0.4,angle=None,text="\SI{34}{\degree}",automatic_place=(pspict,""))
-    a2.put_mark(0.4,angle=None,text="\SI{146}{\degree}",automatic_place=(pspict,""))
+    a1.put_mark(0.4,angle=None,text="\SI{34}{\degree}",pspict=pspict)
+    a2.put_mark(0.4,angle=None,text="\SI{146}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(d1,d2,sec,a1,a2)
     fig.no_figure()

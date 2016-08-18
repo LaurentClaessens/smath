@@ -17,11 +17,11 @@ def LZKGooYGQxGy():
     p1=Segment(T,E).dilatation(1.2)
     p2=Segment(O,L).dilatation(1.6)
 
-    H.put_mark(0.2,0,"\( H\)",automatic_place=(pspict,"W"))
-    O.put_mark(0.2,90+45,"\( O\)",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,45,"\( L\)",automatic_place=(pspict,"corner"))
-    T.put_mark(0.2,-45,"\( T\)",automatic_place=(pspict,"corner"))
-    E.put_mark(0.2,-45,"\( E\)",automatic_place=(pspict,"corner"))
+    H.put_mark(0.2,0,"\( H\)",pspict=pspict,position="W")
+    O.put_mark(0.2,90+45,"\( O\)",pspict=pspict,position="corner")
+    L.put_mark(0.2,45,"\( L\)",pspict=pspict,position="corner")
+    T.put_mark(0.2,-45,"\( T\)",pspict=pspict,position="corner")
+    E.put_mark(0.2,-45,"\( E\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(s1,s2,p1,p2,H,O,L,T,E)
     fig.no_figure()

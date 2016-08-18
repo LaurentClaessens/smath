@@ -6,7 +6,7 @@ def GrapheVarREGMqx():
 
     x=var('x')
     f=HermiteInterpolation([  (-2,2,0),(0,-0.5,0),(2,1,2)  ]).graph(-3,2)
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict)
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultAxes()

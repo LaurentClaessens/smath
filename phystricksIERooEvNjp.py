@@ -10,9 +10,9 @@ def IERooEvNjp():
     B=Point(0,0)
     C=Point(3,0)
 
-    A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
 
     pspict.force_math_bounding_box( C-B+A+(1,1) )
 

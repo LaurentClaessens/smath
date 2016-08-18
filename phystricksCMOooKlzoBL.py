@@ -8,17 +8,17 @@ def CMOooKlzoBL():
     B=Point(1.5,0)
     C=Point(1.5,2)
 
-    A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
 
     rh=RightAngle( Segment(B,A),Segment(C,B),1,0 )
 
     trig=Polygon(A,B,C)
-    trig.edges[0].put_mark(0.2,-90,"\( 1.5\)",automatic_place=(pspict,"N"))
+    trig.edges[0].put_mark(0.2,-90,"\( 1.5\)",pspict=pspict,position="N")
 
-    trig.edges[1].put_mark(0.2,0,"\( 2\)",automatic_place=(pspict,"W"))
-    trig.edges[2].put_mark(0.2,trig.edges[2].advised_mark_angle(pspict)*degree+180,"\( ?\)",automatic_place=(pspict,"corner"))
+    trig.edges[1].put_mark(0.2,0,"\( 2\)",pspict=pspict,position="W")
+    trig.edges[2].put_mark(0.2,trig.edges[2].advised_mark_angle(pspict)*degree+180,"\( ?\)",pspict=pspict,position="corner")
 
     no_symbol(trig.vertices)
 

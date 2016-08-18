@@ -10,10 +10,10 @@ def QBDMooGskfKN():
     C=Point(1,-4)
     H=Point(-3.5,0)
 
-    A.put_mark(0.2,45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,90+45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
-    H.put_mark(0.2,90,"\( H\)",automatic_place=(pspict,"S"))
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
+    H.put_mark(0.2,90,"\( H\)",pspict=pspict,position="S")
 
     for P in [A,B,C]:
         qx=Point(P.x,0)

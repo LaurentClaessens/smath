@@ -15,7 +15,7 @@ def VEDYooDMnRha():
     trig1=Polygon(A,B,C)
     trig1.put_mark(0.2,pspict=pspicts)
     M=trig1.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=0,text="\( M\)",automatic_place=(pspicts,""))
+    M.put_mark(0.2,angle=None,added_angle=0,text="\( M\)",pspict=pspicts)
     MC=Segment(M,C)
     rh=RightAngleAOB(B,C,A)
 
@@ -29,7 +29,7 @@ def VEDYooDMnRha():
     trig2.put_mark(0.2,points_names="STU",pspict=pspicts)
 
     K=trig2.edges[2].midpoint()
-    K.put_mark(0.2,angle=None,added_angle=180,text="\( K\)",automatic_place=(pspicts,""))
+    K.put_mark(0.2,angle=None,added_angle=180,text="\( K\)",pspict=pspicts)
     
     trig2.edges[2].divide_in_two(n=2,d=0.1,l=0.4,angle=45,pspict=pspicts)
     rh2=RightAngleAOB(U,T,S)

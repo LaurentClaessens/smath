@@ -10,11 +10,11 @@ def figureSZyxsvp():
     I=K.projection(pspict.axes.single_axeX)
     J=B.projection(pspict.axes.single_axeX)
 
-    A.put_mark(0.2,90+45,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    K.put_mark(0.2,90+45,"\( K\)",automatic_place=pspict)
-    I.put_mark(0.2,-90,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,-90,"\( J\)",automatic_place=pspict)
+    A.put_mark(0.2,90+45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    K.put_mark(0.2,90+45,"\( K\)",pspict=pspict)
+    I.put_mark(0.2,-90,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,-90,"\( J\)",pspict=pspict)
 
     v1=Segment(K,I)
     v2=Segment(B,J)

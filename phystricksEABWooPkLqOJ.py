@@ -17,11 +17,11 @@ def EABWooPkLqOJ():
     PH=Segment(P,H)
     PH.divide_in_two(n=2,d=0.1,l=0.3,pspict=pspict)
 
-    P.put_mark(0.2,angle=180+45,added_angle=0,text="\( P\)",automatic_place=(pspict,""))
-    H.put_mark(0.2,angle=-45,added_angle=0,text="\( H\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,angle=None,added_angle=0,text="\( K\)",automatic_place=(pspict,""))
-    G.put_mark(0.2,angle=None,added_angle=0,text="\( G\)",automatic_place=(pspict,""))
-    N.put_mark(0.2,angle=-90,added_angle=0,text="\( N\)",automatic_place=(pspict,""))
+    P.put_mark(0.2,angle=180+45,added_angle=0,text="\( P\)",pspict=pspict)
+    H.put_mark(0.2,angle=-45,added_angle=0,text="\( H\)",pspict=pspict)
+    K.put_mark(0.2,angle=None,added_angle=0,text="\( K\)",pspict=pspict)
+    G.put_mark(0.2,angle=None,added_angle=0,text="\( G\)",pspict=pspict)
+    N.put_mark(0.2,angle=-90,added_angle=0,text="\( N\)",pspict=pspict)
 
     no_symbol(P,H,N,K,G)
     pspict.DrawGraphs(cer1,cer2,P,H,G,K,N,PH,HG)

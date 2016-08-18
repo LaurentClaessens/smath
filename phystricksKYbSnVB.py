@@ -10,10 +10,10 @@ def KYbSnVB():
     C=Point(1,1)
     D=Point(-2,-1)
 
-    A.put_mark(0.2,135,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,225,"\( D\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,135,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,225,"\( D\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(A,B,C,D)
     pspict.DrawDefaultAxes()

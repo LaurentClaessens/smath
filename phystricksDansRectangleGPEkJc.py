@@ -13,12 +13,12 @@ def DansRectangleGPEkJc():
     D=Point(0,0)
     J=Point(l-h,0)
     I=Point(l-h,h)
-    A.put_mark(0.2,135,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,180+45,"\( D\)",automatic_place=pspict)
-    I.put_mark(0.2,90,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,-90,"\( J\)",automatic_place=pspict)
+    A.put_mark(0.2,135,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,180+45,"\( D\)",pspict=pspict)
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,-90,"\( J\)",pspict=pspict)
     rect=Polygon(A,B,C,D)
     rect.parameters.filled()
     s=Segment(B,J)
@@ -27,7 +27,7 @@ def DansRectangleGPEkJc():
     angle=Angle(I,B,J)
     angle.parameters.color="red"
 
-    angle.put_mark(0.2,None,"\unit{45}{\degree}",automatic_place=pspict)
+    angle.put_mark(0.2,None,"\unit{45}{\degree}",pspict=pspict)
 
     pspict.specific_needs="\usepackage{SIunits}"
     pspict.DrawGraphs(rect,A,B,C,D,I,J,s,t,angle)

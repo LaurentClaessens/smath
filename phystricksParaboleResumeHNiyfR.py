@@ -18,10 +18,10 @@ def ParaboleResumeHNiyfR():
     X2=Point(x2,0)
     symetrie=Segment(Point(s,f(s)-1),Point(s,f(Mx)+0.5))
     symetrie.parameters.color="red"
-    X0.put_mark(0.2,45,"\( x_0\)",automatic_place=pspict)
-    X1.put_mark(0.2,225,"\( x_1\)",automatic_place=pspict)
-    X2.put_mark(0.2,-45,"\( x_2\)",automatic_place=pspict)
-    S.put_mark(0.2,-45,"\( S\)",automatic_place=pspict)
+    X0.put_mark(0.2,45,"\( x_0\)",pspict=pspict)
+    X1.put_mark(0.2,225,"\( x_1\)",pspict=pspict)
+    X2.put_mark(0.2,-45,"\( x_2\)",pspict=pspict)
+    S.put_mark(0.2,-45,"\( S\)",pspict=pspict)
 
     pspict.DrawGraphs(f,symetrie,X1,X2,X0,S)
     pspict.axes.no_graduation()

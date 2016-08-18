@@ -16,8 +16,8 @@ def KREWooIrMfCQ():
     A=Point(4,0)
     Ap=axial_symetry(A,axe)
 
-    A.put_mark(0.2,0,"\( A\)",automatic_place=(pspict,"corner"))
-    Ap.put_mark(0.2,0,"\( A'\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,0,"\( A\)",pspict=pspict,position="corner")
+    Ap.put_mark(0.2,0,"\( A'\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(axe,A)
     fig.no_figure()

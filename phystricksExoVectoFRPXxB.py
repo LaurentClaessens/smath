@@ -14,10 +14,10 @@ def ExoVectoFRPXxB():
     u=AffineVector(A,U)
     v=AffineVector(A,V)
 
-    u.put_mark(0.2,0,"\(  \\vect{ u }\)",automatic_place=pspict)
-    v.put_mark(0.2,0,"\(  \\vect{ v }\)",automatic_place=pspict)
+    u.put_mark(0.2,0,"\(  \\vect{ u }\)",pspict=pspict)
+    v.put_mark(0.2,0,"\(  \\vect{ v }\)",pspict=pspict)
 
-    O.put_mark(0.2,0,"\( O\)",automatic_place=pspict)
+    O.put_mark(0.2,0,"\( O\)",pspict=pspict)
 
     pspict.DrawGraphs(O,u,v)
     pspict.DrawDefaultGrid()

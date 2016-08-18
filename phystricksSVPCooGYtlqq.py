@@ -20,8 +20,8 @@ def SVPCooGYtlqq():
     
     pspict.axes.single_axeX.Dx=30
     pspict.axes.single_axeY.Dx=10
-    pspict.axes.single_axeX.put_mark(0.2,-45,u"durée (en \si{\minute})",automatic_place=(pspict,"corner"))
-    pspict.axes.single_axeY.put_mark(0.2,0,"distance parcourue (en \si{\kilo\meter})",automatic_place=(pspict,"corner"))
+    pspict.axes.single_axeX.put_mark(0.2,-45,u"durée (en \si{\minute})",pspict=pspict,position="corner")
+    pspict.axes.single_axeY.put_mark(0.2,0,"distance parcourue (en \si{\kilo\meter})",pspict=pspict,position="corner")
     pspict.grid.Dx=15
     pspict.grid.Dy=10
     pspict.DrawGraphs(seg)

@@ -19,9 +19,9 @@ def SMXRooCnrlNw():
 
     prol=Segment(D,E)
     K=Intersection(prol,rectangle.edges[0])[0]
-    K.put_mark(0.2,angle=90,added_angle=0,text="\( K\)",automatic_place=(pspict,""))
-    F.put_mark(0.2,angle=0,added_angle=0,text="\( F\)",automatic_place=(pspict,""))
-    E.put_mark(0.2,angle=-45,added_angle=0,text="\( E\)",automatic_place=(pspict,""))
+    K.put_mark(0.2,angle=90,added_angle=0,text="\( K\)",pspict=pspict)
+    F.put_mark(0.2,angle=0,added_angle=0,text="\( F\)",pspict=pspict)
+    E.put_mark(0.2,angle=-45,added_angle=0,text="\( E\)",pspict=pspict)
 
     s1=Segment(A,E)
     s2=Segment(D,E)

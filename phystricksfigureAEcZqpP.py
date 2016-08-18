@@ -10,11 +10,11 @@ def figureAEcZqpP():
     D=Point(-3,-1)
     E=Point(3,-2)
 
-    A.put_mark(0.2,45,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,45,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,45,"\( D\)",automatic_place=pspict)
-    E.put_mark(0.2,45,"\( E\)",automatic_place=pspict)
+    A.put_mark(0.2,45,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,45,"\( D\)",pspict=pspict)
+    E.put_mark(0.2,45,"\( E\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,D,E)
     pspict.DrawDefaultGrid()

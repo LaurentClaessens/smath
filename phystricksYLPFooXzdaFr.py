@@ -11,10 +11,10 @@ def YLPFooXzdaFr():
 
     trig=Polygon(K,L,M)
     trig.put_mark(0.2,points_names="KLM",pspict=pspict)
-    trig.edges[1].put_mark(0.2,angle=0,added_angle=0,text="\SI{9}{\centi\meter}",automatic_place=(pspict,""))
+    trig.edges[1].put_mark(0.2,angle=0,added_angle=0,text="\SI{9}{\centi\meter}",pspict=pspict)
 
-    ang=Angle(L,K,M)
-    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",automatic_place=(pspict,""))
+    ang=AngleAOB(L,K,M)
+    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",pspict=pspict)
 
     rh=RightAngleAOB(L,M,K)
 

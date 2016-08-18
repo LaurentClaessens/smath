@@ -46,13 +46,11 @@ def SHSRooHgvofo():
     # Isocèle
     trig=triangles[4]
     a1=Angle(trig.vertices[0],trig.vertices[1],trig.vertices[2])
-    a1.put_mark(0.2,None,"\( 70\)",automatic_place=(pspicts,"center"))
+    a1.put_mark(0.2,None,"\( 70\)",pspict=pspicts,position="center")
     pspicts[4].DrawGraphs(a1)
 
     # Cinquième figure
     # équilatéral
-
-
 
     for i,pspict in enumerate(pspicts):
         pspict.DrawGraphs(triangles[i])

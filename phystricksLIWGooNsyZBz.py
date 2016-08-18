@@ -27,17 +27,18 @@ def LIWGooNsyZBz():
 
     AK=Segment(A,K)
 
-    L.put_mark(0.4,angle=-90,added_angle=0,text="\( L\)",automatic_place=(pspict,""))
-    K.put_mark(0.4,angle=90,added_angle=0,text="\( K\)",automatic_place=(pspict,""))
-    E.put_mark(0.4,angle=90+45,added_angle=0,text="\( E\)",automatic_place=(pspict,""))
+    L.put_mark(0.4,angle=-90,added_angle=0,text="\( L\)",pspict=pspict)
+    K.put_mark(0.4,angle=90,added_angle=0,text="\( K\)",pspict=pspict)
+    E.put_mark(0.4,angle=90+45,added_angle=0,text="\( E\)",pspict=pspict)
 
     an=AngleAOB(A,E,L)
-    an.put_mark(0.2,angle=None,added_angle=0,text="\SI{80}{\degree}",automatic_place=(pspict,""))
+    an.put_mark(0.2,angle=None,added_angle=0,text="\SI{80}{\degree}",pspict=pspict)
 
     put_equal_lengths_code(AE,EL,n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
 
     no_symbol(carre.vertices,K,L,E)
     pspict.DrawGraphs(carre,EL,AK,AE,L,K,an,E)
+    pspict.comment="Segments AE and EL are noted to be equal length."
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

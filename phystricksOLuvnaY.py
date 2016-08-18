@@ -22,13 +22,13 @@ def OLuvnaY():
     gris.parameters.filled()
     gris.parameters.fill.color="lightgray"
 
-    A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,90+45,"\( D\)",automatic_place=(pspict,"corner"))
-    N.put_mark(0.2,90,"\( N\)",automatic_place=(pspict,"S"))
-    P.put_mark(0.2,45,"\( P\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,0,"\( M\)",automatic_place=(pspict,"W"))
+    A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,90+45,"\( D\)",pspict=pspict,position="corner")
+    N.put_mark(0.2,90,"\( N\)",pspict=pspict,position="S")
+    P.put_mark(0.2,45,"\( P\)",pspict=pspict,position="corner")
+    M.put_mark(0.2,0,"\( M\)",pspict=pspict,position="W")
 
 
     pspict.DrawGraphs(gd_carre,pt_carre,gris,A,B,C,D,N,P,M)

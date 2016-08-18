@@ -20,9 +20,9 @@ def ChaslesGTRtKR():
     B.parameters.symbol="none"
     C.parameters.symbol="none"
 
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,90,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
 
     pspict.DrawGraphs(AB,BC,AC,A,B,C)
     fig.no_figure()

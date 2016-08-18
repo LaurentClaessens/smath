@@ -11,7 +11,7 @@ def XTGXooDVcEZs():
 
     trig=Polygon(C,A,B)
     trig.put_mark(0.3,points_names="CAB",pspict=pspict)
-    S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",automatic_place=(pspict,""))
+    S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",pspict=pspict)
 
     rh=RightAngleAOB(C,B,A)
 

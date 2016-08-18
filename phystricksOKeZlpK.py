@@ -15,11 +15,11 @@ def OKeZlpK():
     Q=lin.get_point(1.5)
     M=lin.get_point(3)
 
-    P.put_mark(0.2,135,"\( p\)",automatic_place=(pspict,"corner"))
+    P.put_mark(0.2,135,"\( p\)",pspict=pspict,position="corner")
     P.parameters.symbol="|"
     P.parameters.dotangle=90
-    Q.put_mark(0.2,Q.advised_mark_angle(pspict),"\( Q\)",automatic_place=(pspict,"corner"))
-    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",automatic_place=(pspict,"corner"))
+    Q.put_mark(0.2,Q.advised_mark_angle(pspict),"\( Q\)",pspict=pspict,position="corner")
+    M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",pspict=pspict,position="corner")
 
     Qx=Q.projection(pspict.axes.single_axeX)
     Qy=Q.projection(pspict.axes.single_axeY)
@@ -31,10 +31,10 @@ def OKeZlpK():
     Mx.parameters.symbol="|"
     My.parameters.symbol="|"
 
-    Qx.put_mark(0.2,-90,"\( 1\)",automatic_place=(pspict,"N"))
-    Qy.put_mark(0.2,180,"\( q\)",automatic_place=(pspict,"E"))
-    Mx.put_mark(0.2,-90,"\( x_M \)",automatic_place=(pspict,"N"))
-    My.put_mark(0.2,180,"\( y_M\)",automatic_place=(pspict,"E"))
+    Qx.put_mark(0.2,-90,"\( 1\)",pspict=pspict,position="N")
+    Qy.put_mark(0.2,180,"\( q\)",pspict=pspict,position="E")
+    Mx.put_mark(0.2,-90,"\( x_M \)",pspict=pspict,position="N")
+    My.put_mark(0.2,180,"\( y_M\)",pspict=pspict,position="E")
 
     Qy.parameters.dotangle=90
     My.parameters.dotangle=90
@@ -53,8 +53,8 @@ def OKeZlpK():
     horiz=Segment(P,S)
     R=Point(Q.x,P.y)
 
-    S.put_mark(0.2,-45,"\( S\)",automatic_place=(pspict,"corner"))
-    R.put_mark(0.2,-45,"\( R\)",automatic_place=(pspict,"corner"))
+    S.put_mark(0.2,-45,"\( S\)",pspict=pspict,position="corner")
+    R.put_mark(0.2,-45,"\( R\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(P,Q,M,lin,Qx,Qy,Mx,My,s1,s2,s3,s4,horiz,R,S)
     pspict.axes.no_graduation()

@@ -29,16 +29,16 @@ def UOEOooLxhpSC():
 
     no_symbol(carre.vertices,I)
 
-    a1.put_mark(0.2,angle=None,text="\( a_1\)",automatic_place=(pspict,""))
-    a2.put_mark(0.2,angle=None,text="\( a_2\)",automatic_place=(pspict,""))
-    b1.put_mark(0.2,angle=None,text="\( b_1\)",automatic_place=(pspict,""))
-    b2.put_mark(0.2,angle=None,text="\( b_2\)",automatic_place=(pspict,""))
-    c1.put_mark(0.2,angle=None,text="\( c_1\)",automatic_place=(pspict,""))
-    c2.put_mark(0.2,angle=None,text="\( c_2\)",automatic_place=(pspict,""))
-    d1.put_mark(0.2,angle=None,text="\( d_1\)",automatic_place=(pspict,""))
-    d2.put_mark(0.2,angle=None,text="\( d_2\)",automatic_place=(pspict,""))
+    a1.put_mark(0.2,angle=None,text="\( a_1\)",pspict=pspict)
+    a2.put_mark(0.2,angle=None,text="\( a_2\)",pspict=pspict)
+    b1.put_mark(0.2,angle=None,text="\( b_1\)",pspict=pspict)
+    b2.put_mark(0.2,angle=None,text="\( b_2\)",pspict=pspict)
+    c1.put_mark(0.2,angle=None,text="\( c_1\)",pspict=pspict)
+    c2.put_mark(0.2,angle=None,text="\( c_2\)",pspict=pspict)
+    d1.put_mark(0.2,angle=None,text="\( d_1\)",pspict=pspict)
+    d2.put_mark(0.2,angle=None,text="\( d_2\)",pspict=pspict)
 
-    I.put_mark(0.2,angle=90,text="\( I\)",automatic_place=(pspict,""))
+    I.put_mark(0.2,angle=90,text="\( I\)",pspict=pspict)
 
     pspict.DrawGraphs(carre,a1,a2,b1,b2,c1,c2,d1,d2,dig1,dig2,I)
     fig.no_figure()

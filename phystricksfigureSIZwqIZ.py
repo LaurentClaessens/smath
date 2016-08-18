@@ -13,16 +13,16 @@ def figureSIZwqIZ():
     F.append(phyFunction( x+1 ).graph(-4,3))
     F.append(phyFunction( (x+2)**2 ).graph(-4,0.5))
 
-    F[0].put_mark(0.2,0,"\( C_1\)",automatic_place=(pspict,"corner"))
-    F[1].put_mark(0.2,0,"\( C_2\)",automatic_place=(pspict,"corner"))
-    F[2].put_mark(0.2,0,"\( C_3\)",automatic_place=(pspict,"corner"))
-    F[3].put_mark(0.2,0,"\( C_4\)",automatic_place=(pspict,"corner"))
+    F[0].put_mark(0.2,0,"\( C_1\)",pspict=pspict,position="corner")
+    F[1].put_mark(0.2,0,"\( C_2\)",pspict=pspict,position="corner")
+    F[2].put_mark(0.2,0,"\( C_3\)",pspict=pspict,position="corner")
+    F[3].put_mark(0.2,0,"\( C_4\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(F)
 
     pspict.axes.no_graduation()
-    pspict.axes.single_axeX.put_mark(0.2,-45,"\( x\)",automatic_place=(pspict,"corner"))
-    pspict.axes.single_axeY.put_mark(0.2,45,"\( y\)",automatic_place=(pspict,"corner"))
+    pspict.axes.single_axeX.put_mark(0.2,-45,"\( x\)",pspict=pspict,position="corner")
+    pspict.axes.single_axeY.put_mark(0.2,45,"\( y\)",pspict=pspict,position="corner")
     pspict.DrawDefaultAxes()
     #pspict.DrawDefaultGrid()
 

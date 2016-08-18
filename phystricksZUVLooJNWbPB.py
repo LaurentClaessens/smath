@@ -16,23 +16,26 @@ def ZUVLooJNWbPB():
 
     no_symbol(parall.vertices)
 
-    a1=Angle(C,A,D,r=0.3)
-    a2=Angle(B,A,C)
-    c1=Angle(D,C,A,)
-    c2=Angle(A,C,B,r=0.3)
+    a1=AngleAOB(C,A,D,r=0.3)
+    a2=AngleAOB(B,A,C)
+    c1=AngleAOB(D,C,A,)
+    c2=AngleAOB(A,C,B,r=0.3)
 
-    ma1=a1.get_mark(0.2,angle=None,text="\( a_1\)",automatic_place=(pspicts,""))
-    ma2=a2.get_mark(0.2,angle=None,text="\( a_2\)",automatic_place=(pspicts,""))
-    mc1=c1.get_mark(0.2,angle=None,text="\( c_1\)",automatic_place=(pspicts,""))
-    mc2=c2.get_mark(0.2,angle=None,text="\( c_2\)",automatic_place=(pspicts,""))
+    a1.put_mark(0.2,angle=None,text="\( a_1\)",pspict=pspicts[0])
+    a2.put_mark(0.2,angle=None,text="\( a_2\)",pspict=pspicts[0])
+    c1.put_mark(0.2,angle=None,text="\( c_1\)",pspict=pspicts[0])
+    c2.put_mark(0.2,angle=None,text="\( c_2\)",pspict=pspicts[0])
 
-    mma1=a1.get_mark(0.2,angle=None,text="\( b\)",automatic_place=(pspicts,""))
-    mma2=a2.get_mark(0.2,angle=None,text="\( a\)",automatic_place=(pspicts,""))
-    mmc1=c1.get_mark(0.2,angle=None,text="\( a\)",automatic_place=(pspicts,""))
-    mmc2=c2.get_mark(0.2,angle=None,text="\( b\)",automatic_place=(pspicts,""))
+    a1.put_mark(0.2,angle=None,text="\( b\)",pspict=pspicts[1])
+    a2.put_mark(0.2,angle=None,text="\( a\)",pspict=pspicts[1])
+    c1.put_mark(0.2,angle=None,text="\( a\)",pspict=pspicts[1])
+    c2.put_mark(0.2,angle=None,text="\( b\)",pspict=pspicts[1])
 
-    pspicts[0].DrawGraphs(parall,diag1,a1,a2,c1,c2,ma1,ma2,mc1,mc2)
-    pspicts[1].DrawGraphs(parall,diag1,a1,a2,c1,c2,mma1,mma2,mmc1,mmc2)
+    pspicts[0].DrawGraphs(parall,diag1,a1,a2,c1,c2)
+    pspicts[1].DrawGraphs(parall,diag1,a1,a2,c1,c2)
+
+    pspicts[0].comment="The marks are a_1,a_2,c_1,c_2"
+    pspicts[1].comment="The marks are b,a,a,b"
 
     for fig in figs:
         fig.no_figure()

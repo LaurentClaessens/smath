@@ -27,35 +27,35 @@ def CBLooYAMumJ():
     d2=Segment(A,C).add_size_extremity(2)
     d1.mark_point=lambda :d1.F
     d2.mark_point=lambda :d2.F
-    d1.put_mark(0.2,None,"\( d_1\)",automatic_place=(pspicts,"corner"))
-    d2.put_mark(0.2,None,"\( d_2\)",automatic_place=(pspicts,"corner"))
+    d1.put_mark(0.2,None,"\( d_1\)",pspict=pspicts,position="corner")
+    d2.put_mark(0.2,None,"\( d_2\)",pspict=pspicts,position="corner")
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=(pspicts,"E"))
-    B.put_mark(0.3,None,"\( B\)",automatic_place=(pspicts,"corner"))
-    C.put_mark(0.2,None,"\( C\)",automatic_place=(pspicts,"corner"))
+    A.put_mark(0.2,180,"\( A\)",pspict=pspicts,position="E")
+    B.put_mark(0.3,None,"\( B\)",pspict=pspicts,position="corner")
+    C.put_mark(0.2,None,"\( C\)",pspict=pspicts,position="corner")
 
     angle=Angle(C,A,B)
-    angle.put_mark(0.2,alpha,"",automatic_place=(pspicts,""))
+    angle.put_mark(0.2,alpha,"",pspict=pspicts)
 
     Ap=Point(8,2)
     K=Circle(Ap,4).get_point(30)
 
     d1p=Segment(Ap,K).dilatation(2)
     d1p.mark_point=lambda :d1p.I
-    d1p.put_mark(0.2,None,"\( d_1'\)",automatic_place=(pspicts,"corner"))
+    d1p.put_mark(0.2,None,"\( d_1'\)",pspict=pspicts,position="corner")
 
     Ap=((2*d1p.I+d1p.F)/3).numerical_approx()
-    Ap.put_mark(0.2,d1p.advised_mark_angle(pspicts),"\( A'\)",automatic_place=(pspicts,"corner"))
+    Ap.put_mark(0.2,d1p.advised_mark_angle(pspicts),"\( A'\)",pspict=pspicts,position="corner")
 
     arc=Circle(Ap,l_isocele).graph(d1p.angle()-15,d1p.angle()+15)
     ray1=Segment(Ap, arc.get_point( arc.angleI+5 ) )
     ray1.parameters.style='dashed'
     m=ray1.center()
     m.parameters.symbol=''
-    m.put_mark(0.2,None,"\( AB\)",automatic_place=(pspicts,"corner"))
+    m.put_mark(0.2,None,"\( AB\)",pspict=pspicts,position="corner")
 
     Bp=Intersection(arc,d1p)[1].numerical_approx()
-    Bp.put_mark(0.2,d1p.advised_mark_angle(pspicts)+45,"\( B'\)",automatic_place=(pspicts,"corner"))
+    Bp.put_mark(0.2,d1p.advised_mark_angle(pspicts)+45,"\( B'\)",pspict=pspicts,position="corner")
 
     BC=Segment(B,C)
     BC.parameters.color='red'
@@ -69,11 +69,11 @@ def CBLooYAMumJ():
 
     #Cp=Intersection(cercle3,cercle2)[1]
     Cp=cercle2.get_point(d1p.angle()-alpha)
-    Cp.put_mark(0.2,-90,"\( C'\)",automatic_place=(pspicts,"corner"))
+    Cp.put_mark(0.2,-90,"\( C'\)",pspict=pspicts,position="corner")
 
     d2p=Segment(Ap,Cp).add_size_extremity(3)
     d2p.mark_point=lambda :d2p.F
-    d2p.put_mark(0.2,None,"\( d'_2\)",automatic_place=(pspicts,"corner"))
+    d2p.put_mark(0.2,None,"\( d'_2\)",pspict=pspicts,position="corner")
 
     pspicts[0].DrawGraphs(d1,d2,A,angle,d1p,Ap)
     pspicts[1].DrawGraphs(d1,d2,A,cercle1,B,C,d1p,Ap)

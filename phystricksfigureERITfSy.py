@@ -11,13 +11,13 @@ def figureERITfSy():
     C=Point(l,-x)
     D=Point(l,0)
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    D.put_mark(0.2,90,"\( D\)",automatic_place=pspict)
-    B.put_mark(0.2,225,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,-45,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    D.put_mark(0.2,90,"\( D\)",pspict=pspict)
+    B.put_mark(0.2,225,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
 
     K=Segment(A,B).center()
-    K.put_mark(0.2,180,"\( x\)",automatic_place=pspict)
+    K.put_mark(0.2,180,"\( x\)",pspict=pspict)
     K.parameters.symbol="none"
 
     plage=Segment(A,D).dilatation(1.5)

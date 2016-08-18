@@ -11,13 +11,13 @@ def ExIneqfgZWStde():
     pts1.extend([Point(-4.5,-1),Point(-2,3),Point(1,-1),Point(2.5,0)])
     lag1=LagrangePolynomial(pts1)
     f=lag1.graph(mx,Mx)
-    f.put_mark(0.1,0,"\( f\)",automatic_place=pspict)
+    f.put_mark(0.1,0,"\( f\)",pspict=pspict)
 
     pts2=intersections[:]
     pts2.extend([Point(-4.5,2.5),Point(-2,0),Point(0,1.5),Point(2,-2)])
     lag2=LagrangePolynomial(pts2)
     g=lag2.graph(mx,Mx)
-    g.put_mark(0.1,0,"\( g\)",automatic_place=pspict)
+    g.put_mark(0.1,0,"\( g\)",pspict=pspict)
     g.parameters.color="green"
 
     pspict.DrawGraphs(f,g)

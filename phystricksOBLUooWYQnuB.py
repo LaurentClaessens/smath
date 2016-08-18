@@ -14,15 +14,15 @@ def OBLUooWYQnuB():
     carre.put_mark(0.2,pspict=pspict)
     P=carre.edges[0].get_point_proportion(0.7)
 
-    P.put_mark(0.1,45,"\( P\)",automatic_place=(pspict,"corner"))
+    P.put_mark(0.1,45,"\( P\)",pspict=pspict,position="corner")
 
     triangle=Polygon(A,P,D)
     triangle.parameters.filled()
     triangle.parameters.fill.color='lightgray'
 
-    mesx=Segment(P,B).get_measure(0.2,0.1,-90,"\( \ell\)",automatic_place=(pspict,"N"))
-    mesAP=Segment(A,P).get_measure(0.2,0.1,-90,"\(\\vphantom{H} \ldots\)",automatic_place=(pspict,"N"))
-    mesAD=Segment(A,D).get_measure(-0.2,0.1,180,"\( \ldots\)",automatic_place=(pspict,"E"))
+    mesx=Segment(P,B).get_measure(0.2,0.1,-90,"\( \ell\)",pspict=pspict,position="N")
+    mesAP=Segment(A,P).get_measure(0.2,0.1,-90,"\(\\vphantom{H} \ldots\)",pspict=pspict,position="N")
+    mesAD=Segment(A,D).get_measure(-0.2,0.1,180,"\( \ldots\)",pspict=pspict,position="E")
 
     for s in [A,B,C,D,P]:
         s.parameters.symbol=""

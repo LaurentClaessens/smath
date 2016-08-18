@@ -13,9 +13,9 @@ def figureCFoZCYe():
     g.parameters.color="red"
     h.parameters.color="brown"
 
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
-    g.put_mark(0.2,0,"\( g\)",automatic_place=pspict)
-    h.put_mark(0.2,0,"\( h\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict)
+    g.put_mark(0.2,0,"\( g\)",pspict=pspict)
+    h.put_mark(0.2,0,"\( h\)",pspict=pspict)
 
     pspict.DrawGraphs(f,g,h)
     pspict.DrawDefaultAxes()

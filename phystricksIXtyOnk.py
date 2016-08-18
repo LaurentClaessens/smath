@@ -15,11 +15,11 @@ def IXtyOnk():
     A=Point(zz[0],0)
     B=Point(zz[1],0)
     measure=MeasureLength(  Segment(A,B),0  )
-    measure.put_mark(0.2,-90,"\( l\)",automatic_place=pspict)
+    measure.put_mark(0.2,-90,"\( l\)",pspict=pspict)
 
     angle=AngleAOB( A,B,v.F   )
     angle.parameters.color="green"
-    angle.put_mark(0.2,None,"\( \\alpha\)",automatic_place=pspict)
+    angle.put_mark(0.2,None,"\( \\alpha\)",pspict=pspict)
 
     pspict.DrawGraphs(f,v,measure,angle)
     pspict.axes.no_graduation()

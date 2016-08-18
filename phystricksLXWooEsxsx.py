@@ -24,12 +24,12 @@ def LXWooEsxsx():
     u3=AffineVector(  Point(5,3),Point(2,2) )
     v3=AffineVector( Point(1,1),Point(0,-2) )
 
-    u1.put_mark(0.2,45,"\( \\vect{ u_1 }\)",automatic_place=(pspict,"corner"))
-    v1.put_mark(0.2,-45,"\( \\vect{ v_1 }\)",automatic_place=(pspict,"corner"))
-    u2.put_mark(0.2,45,"\( \\vect{ u_2 }\)",automatic_place=(pspict,"corner"))
-    v2.put_mark(0.2,90,"\( \\vect{ v_2 }\)",automatic_place=(pspict,"S"))
-    u3.put_mark(0.2,45,"\( \\vect{ u_3 }\)",automatic_place=(pspict,"corner"))
-    v3.put_mark(0.2,-45,"\( \\vect{ v_3 }\)",automatic_place=(pspict,"corner"))
+    u1.put_mark(0.2,45,"\( \\vect{ u_1 }\)",pspict=pspict,position="corner")
+    v1.put_mark(0.2,-45,"\( \\vect{ v_1 }\)",pspict=pspict,position="corner")
+    u2.put_mark(0.2,45,"\( \\vect{ u_2 }\)",pspict=pspict,position="corner")
+    v2.put_mark(0.2,90,"\( \\vect{ v_2 }\)",pspict=pspict,position="S")
+    u3.put_mark(0.2,45,"\( \\vect{ u_3 }\)",pspict=pspict,position="corner")
+    v3.put_mark(0.2,-45,"\( \\vect{ v_3 }\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(u1,v1,u2,v2,u3,v3)
     pspict.DrawDefaultGrid()

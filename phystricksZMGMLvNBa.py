@@ -16,11 +16,11 @@ def ZMGMLvNBa():
     s3=Segment(B,C)
     s4=Segment(C,D)
 
-    K.put_mark(0.2,90,"\( K\)",automatic_place=(pspict,"S"))
-    A.put_mark(0.2,-45,"\( A\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,90,"\( B\)",automatic_place=(pspict,"S"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
-    D.put_mark(0.2,0,"\( D\)",automatic_place=(pspict,"W"))
+    K.put_mark(0.2,90,"\( K\)",pspict=pspict,position="S")
+    A.put_mark(0.2,-45,"\( A\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,90,"\( B\)",pspict=pspict,position="S")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
+    D.put_mark(0.2,0,"\( D\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(K,A,B,C,D,s1,s2,s3,s4)
     pspict.DrawDefaultAxes()

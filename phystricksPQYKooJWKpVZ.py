@@ -19,9 +19,9 @@ def PQYKooJWKpVZ():
     beta=Angle(B,I,D,0.4)
     gamma=Angle(D,I,A,0.3)
 
-    alpha.put_mark(0.2,None,"\( a\)",automatic_place=(pspict,"center"))
-    beta.put_mark(0.2,None,"\( b\)",automatic_place=(pspict,"center"))
-    gamma.put_mark(0.2,None,"\( c\)",automatic_place=(pspict,"center"))
+    alpha.put_mark(0.2,None,"\( a\)",pspict=pspict,position="center")
+    beta.put_mark(0.2,None,"\( b\)",pspict=pspict,position="center")
+    gamma.put_mark(0.2,None,"\( c\)",pspict=pspict,position="center")
 
     pspict.DrawGraphs(s1,s2,alpha,beta,gamma)
     fig.no_figure()

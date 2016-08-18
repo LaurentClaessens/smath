@@ -15,9 +15,9 @@ def QDPKooICzieh():
     seg=Segment(A,Ap)
     seg.divide_in_two(n=2,d=0.1,l=0.3,angle=45+angle,pspict=pspict)
 
-    A.put_mark(0.2,90+45+angle,"\( A\)",automatic_place=(pspict,"corner"))
-    O.put_mark(0.2,-90+angle,"\( O\)",automatic_place=(pspict,"corner"))
-    Ap.put_mark(0.2,45+angle,"\( A'\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,90+45+angle,"\( A\)",pspict=pspict,position="corner")
+    O.put_mark(0.2,-90+angle,"\( O\)",pspict=pspict,position="corner")
+    Ap.put_mark(0.2,45+angle,"\( A'\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(A,O,Ap,cer,ddroite,seg)
     fig.no_figure()

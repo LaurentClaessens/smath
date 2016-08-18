@@ -16,11 +16,11 @@ def FnAffineipcEQf():
 
     for i,psp in enumerate(pspicts):
         P=Point(f[i].inverse(0)[0],0)
-        P.put_mark(0.2,-90,"\( -\\frac{ p }{ m }\)",automatic_place=(psp,"N"))
+        P.put_mark(0.2,-90,"\( -\\frac{ p }{ m }\)",pspict=psp,position="N")
         P.parameters.symbol="|"
 
         Q=f[i].get_point(0)
-        Q.put_mark(0.2,180,"\( p\)",automatic_place=psp)
+        Q.put_mark(0.2,180,"\( p\)",pspict=psp)
         Q.parameters.symbol="|"
         Q.add_option("dotangle=90")
 

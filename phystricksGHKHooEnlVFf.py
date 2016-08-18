@@ -29,17 +29,17 @@ def GHKHooEnlVFf():
     m1=Segment(B,A).get_code(n=2,d=0.1,l=0.2,angle=80,pspict=pspict)
     m2=Segment(A,O).get_code(n=2,d=0.1,l=0.2,angle=80,pspict=pspict)
 
-    O.put_mark(0.2,angle=45,text="\( O\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,angle=45,added_angle=0,text="\( C\)",automatic_place=(pspict,""))
-    D.put_mark(0.2,angle=45,added_angle=0,text="\( D\)",automatic_place=(pspict,""))
-    M.put_mark(0.2,angle=None,text="\( M\)",automatic_place=(pspict,""))
-    N.put_mark(0.2,angle=None,text="\( N\)",automatic_place=(pspict,""))
-    K.put_mark(0.2,angle=None,text="\( K\)",automatic_place=(pspict,""))
-    L.put_mark(0.2,angle=None,text="\( L\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,angle=45,text="\( O\)",pspict=pspict)
+    C.put_mark(0.2,angle=45,added_angle=0,text="\( C\)",pspict=pspict)
+    D.put_mark(0.2,angle=45,added_angle=0,text="\( D\)",pspict=pspict)
+    M.put_mark(0.2,angle=None,text="\( M\)",pspict=pspict)
+    N.put_mark(0.2,angle=None,text="\( N\)",pspict=pspict)
+    K.put_mark(0.2,angle=None,text="\( K\)",pspict=pspict)
+    L.put_mark(0.2,angle=None,text="\( L\)",pspict=pspict)
 
-    #mA=Angle(s2.I,A,L,r=0.1).get_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
-    mA=Angle(D,A,B,r=0.1).get_mark(0.2,angle=None,text="\( A\)",automatic_place=(pspict,""))
-    mB=Angle(s1.F,B,K,r=0.1).get_mark(0.2,angle=None,text="\( B\)",automatic_place=(pspict,""))
+    #mA=Angle(s2.I,A,L,r=0.1).get_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
+    mA=Angle(D,A,B,r=0.1).get_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
+    mB=Angle(s1.F,B,K,r=0.1).get_mark(0.2,angle=None,text="\( B\)",pspict=pspict)
 
     pspict.comment="The marks $A$ and $B$ are in the center of the angle and at reasonable distance."
     no_symbol(O,A,B,C,D)

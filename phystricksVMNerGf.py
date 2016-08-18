@@ -10,10 +10,10 @@ def VMNerGf():
     v1=Vector(1,2).fix_origin(A)
     v2=Vector(-1,3).fix_origin(B)
 
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-90,"\( B\)",automatic_place=pspict)
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-90,"\( B\)",pspict=pspict)
 
-    pspict.DrawGraphs(A,B,v1,v2,A,B)
+    pspict.DrawGraphs(v1,v2,A,B)
     pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()

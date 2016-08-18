@@ -15,11 +15,11 @@ def FARZooXFSDav():
     hauteur=Segment(M,S)
     rh=RightAngleAOB(M,S,K,0,0)
 
-    hauteur.put_mark(0.2,angle=None,text="\( 8\)",automatic_place=(pspict,""))
-    mx=Segment(S,K).get_mark(0.2,angle=None,text="\( x\)",automatic_place=(pspict,""))
-    m5=Segment(L,S).get_mark(0.2,angle=None,text="\( 5\)",automatic_place=(pspict,""))
+    hauteur.put_mark(0.2,angle=None,text="\( 8\)",pspict=pspict)
+    mx=Segment(S,K).get_mark(0.2,angle=None,text="\( x\)",pspict=pspict)
+    m5=Segment(L,S).get_mark(0.2,angle=None,text="\( 5\)",pspict=pspict)
 
-    S.put_mark(0.2,angle=-90,text="\( S\)",automatic_place=(pspict,""))
+    S.put_mark(0.2,angle=-90,text="\( S\)",pspict=pspict)
 
     no_symbol(K,L,M,S)
 

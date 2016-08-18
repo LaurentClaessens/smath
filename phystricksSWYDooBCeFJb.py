@@ -10,9 +10,9 @@ def SWYDooBCeFJb():
     A=Point(B.x,2)
 
     trig=Polygon(A,B,C)
-    trig.edges[0].put_mark(0.2,angle=None,added_angle=0,text="\( 13\)",automatic_place=(pspict,""))
-    trig.edges[1].put_mark(0.2,angle=None,added_angle=0,text="\( 84\)",automatic_place=(pspict,""))
-    trig.edges[2].put_mark(0.2,angle=None,added_angle=0,text="\( 85\)",automatic_place=(pspict,""))
+    trig.edges[0].put_mark(0.2,angle=None,added_angle=0,text="\( 13\)",pspict=pspict)
+    trig.edges[1].put_mark(0.2,angle=None,added_angle=0,text="\( 84\)",pspict=pspict)
+    trig.edges[2].put_mark(0.2,angle=None,added_angle=0,text="\( 85\)",pspict=pspict)
 
     pspict.DrawGraphs(trig)
     fig.no_figure()

@@ -23,7 +23,7 @@ def EZTHooBttIaQ():
     a3=Angle(C,L,K)
     a4=Angle(K,L,D)
 
-    a2.put_mark(0.4,None,"\small\SI{45}{\degree}",automatic_place=(pspict,"center"))
+    a2.put_mark(0.4,None,"\small\SI{45}{\degree}",pspict=pspict,position="center")
 
     pspict.DrawGraphs(v1,v2,dig,a2)
     fig.no_figure()

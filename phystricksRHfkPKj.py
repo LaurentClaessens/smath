@@ -16,12 +16,12 @@ def RHfkPKj():
 
     seg=Segment(I,J)
 
-    A.put_mark(0.2,225,"\( A\)",automatic_place=(pspict,"corner"))
-    E.put_mark(0.2,135,"\( E\)",automatic_place=(pspict,"corner"))
-    F.put_mark(0.2,45,"\( F\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
-    I.put_mark(0.2,90,"\( I\)",automatic_place=(pspict,"S"))
-    J.put_mark(0.2,0,"\( J\)",automatic_place=(pspict,"W"))
+    A.put_mark(0.2,225,"\( A\)",pspict=pspict,position="corner")
+    E.put_mark(0.2,135,"\( E\)",pspict=pspict,position="corner")
+    F.put_mark(0.2,45,"\( F\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
+    J.put_mark(0.2,0,"\( J\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(carre,I,J,seg,A,E,F,B)
     fig.no_figure()

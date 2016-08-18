@@ -8,9 +8,9 @@ def AWKEooFytNYo():
     B=Point(4,-0.5)
     C=Point(6,-2)
 
-    A.put_mark(0.2,90+45,"\( Alala\)",automatic_place=(pspict,"corner"))
-    B.put_mark(0.2,45,"\( Bobobo\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,-45,"\( Catata\)",automatic_place=(pspict,"corner"))
+    A.put_mark(0.2,90+45,"\( Alala\)",pspict=pspict,position="corner")
+    B.put_mark(0.2,45,"\( Bobobo\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,-45,"\( Catata\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(A,B,C)
     fig.no_figure()

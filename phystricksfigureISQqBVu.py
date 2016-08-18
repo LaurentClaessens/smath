@@ -13,7 +13,7 @@ def figureISQqBVu():
     B=Point(4,4)
     seg=Segment(B,A)
     measure=MeasureLength(seg,0.2)
-    measure.put_mark(0.2,90,"\( x\)",automatic_place=pspict)
+    measure.put_mark(0.2,90,"\( x\)",pspict=pspict)
 
     pspict.DrawGraphs(al,parc,measure)
     fig.no_figure()

@@ -10,7 +10,7 @@ def QTCQooFtDgwk():
     O=Point(0,0)
     r=3
 
-    O.put_mark(0.2,0,"\( O\)",automatic_place=(pspict,"W"))
+    O.put_mark(0.2,0,"\( O\)",pspict=pspict,position="W")
 
     cercle=Circle(O,r)
     A=cercle.get_point(45)
@@ -24,7 +24,7 @@ def QTCQooFtDgwk():
 
     an=[90+45,180-45,-45]
     for i,P in enumerate(mid):
-        P.put_mark(0.2,P.advised_mark_angle(pspict)+an[i],"\( {}\)".format(string.ascii_uppercase[i+4]),automatic_place=(pspict,"corner"))
+        P.put_mark(0.2,P.advised_mark_angle(pspict)+an[i],"\( {}\)".format(string.ascii_uppercase[i+4]),pspict=pspict,position="corner")
         
     mediatrices=[  Segment(O,m).dilatation(1.5) for m in mid ]
 

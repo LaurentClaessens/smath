@@ -4,11 +4,11 @@ from phystricks import *
 def at_max(pspict,P,m,a,o):
     Qa=Point(P.x,0)
     Qa.parameters.symbol="|"
-    Qa.put_mark(0.2,m*90,"\( {0}\)".format(a),automatic_place=pspict)
+    Qa.put_mark(0.2,m*90,"\( {0}\)".format(a),pspict=pspict)
     Qo=Point(0,P.y)
     Qo.parameters.symbol="|"
     Qo.add_option("dotangle=90")
-    Qo.put_mark(0.2,90+m*90,"\( {0}\)".format(o),automatic_place=pspict)
+    Qo.put_mark(0.2,90+m*90,"\( {0}\)".format(o),pspict=pspict)
     sega=Segment(P,Qa)
     sega.parameters.color="red"
     sega.parameters.style="dotted"
@@ -26,7 +26,7 @@ def MinMaxKNRdOd():
 
     x=var('x')
     f=HermiteInterpolation([(-2.5,1.3,0),(1,-4,0)]).graph(-4,2)
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict)
 
     df=phyFunction(f.sage.diff(x))
     xx=df.inverse(0)

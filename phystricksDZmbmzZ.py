@@ -11,19 +11,19 @@ def DZmbmzZ():
     BC=Segment(B,C)
 
     triangle=Polygon(A,B,C)
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,180,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,180,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
 
     H=A.projection(BC)
-    H.put_mark(0.2,-90,"\( H\)",automatic_place=pspict)
+    H.put_mark(0.2,-90,"\( H\)",pspict=pspict)
     AH=Segment(A,H)
-    AH.put_mark(0.2,0,"\( 4\)",automatic_place=pspict)
+    AH.put_mark(0.2,0,"\( 4\)",pspict=pspict)
 
     a1=Angle(B,A,H)
     a2=Angle(H,A,C)
-    a1.put_mark(0.2,None,"\( 45\)",automatic_place=pspict)
-    a2.put_mark(0.2,None,"\( 60\)",automatic_place=pspict)
+    a1.put_mark(0.2,None,"\( 45\)",pspict=pspict)
+    a2.put_mark(0.2,None,"\( 60\)",pspict=pspict)
 
     pspict.DrawGraphs(triangle,A,B,C,AH,H,a1,a2)
     fig.no_figure()

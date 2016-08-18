@@ -8,7 +8,7 @@ def general(name):
     pspict,fig = SinglePicture(name)
     pspict.dilatation_X(1)
     pspict.dilatation_Y(1)
-    f.put_mark(0.2,0,"\( f\)",automatic_place=(pspict,"W"))
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultAxes()
@@ -36,13 +36,13 @@ def LQGzkvL():
     ante=f.inverse(2)
     pts=[  Point(x,f(x)) for x in ante if x>0 ]
     for i,P in enumerate(pts) :
-        P.put_mark(0.2,90,"\( A_{{ {} }}\)".format(i+1),automatic_place=(pspict,"S"))
+        P.put_mark(0.2,90,"\( A_{{ {} }}\)".format(i+1),pspict=pspict,position="S")
 
     anteB=f.inverse(1)
     anteB=[x.real_part() for x in anteB]
     ptsB=[  Point(x,f(x)) for x in anteB if x>0  ]
     for i,P in enumerate(ptsB) :
-        P.put_mark(0.2,90,"\( B_{{ {} }}\)".format(i+1),automatic_place=(pspict,"S"))
+        P.put_mark(0.2,90,"\( B_{{ {} }}\)".format(i+1),pspict=pspict,position="S")
 
 
     pspict.DrawGraphs(h,g,pts,ptsB)

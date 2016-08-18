@@ -14,11 +14,11 @@ def PJMMooDNBRCx():
     C=Point(4.5,0)
     D=Point(-2.5,0)
 
-    O.put_mark(0.2,-90,"\( O\)",automatic_place=(pspict,"N"))
-    A.put_mark(0.2,-90,"\( A\)",automatic_place=(pspict,"N"))
-    B.put_mark(0.2,-90,"\( B\)",automatic_place=(pspict,"N"))
-    C.put_mark(0.2,-90,"\( C\)",automatic_place=(pspict,"N"))
-    D.put_mark(0.2,-90,"\( D\)",automatic_place=(pspict,"N"))
+    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
+    A.put_mark(0.2,-90,"\( A\)",pspict=pspict,position="N")
+    B.put_mark(0.2,-90,"\( B\)",pspict=pspict,position="N")
+    C.put_mark(0.2,-90,"\( C\)",pspict=pspict,position="N")
+    D.put_mark(0.2,-90,"\( D\)",pspict=pspict,position="N")
 
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)
     axe.no_numbering()

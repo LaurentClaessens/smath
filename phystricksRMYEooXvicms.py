@@ -23,7 +23,7 @@ def RMYEooXvicms():
     d2.parameters.style="dashed"
 
     O=Point(A.x,B.y)
-    O.put_mark(0.2,angle=90+45,added_angle=0,text="\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,angle=90+45,added_angle=0,text="\( O\)",pspict=pspict)
     rh=RightAngleAOB(A,O,C)
 
     no_symbol(loz.vertices)

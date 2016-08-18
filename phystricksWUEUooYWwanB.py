@@ -24,7 +24,7 @@ def WUEUooYWwanB():
     minidig=Segment(B,I)
     hauteur.parameters.style="dotted"
     minidig.parameters.style="dashed"
-    I.put_mark(0.2,angle=45,text="\( I\)",automatic_place=(pspict,""))
+    I.put_mark(0.2,angle=45,text="\( I\)",pspict=pspict)
 
     for pt in [A,B,C,D]:
         pt=pt.rotation(30)
@@ -35,7 +35,7 @@ def WUEUooYWwanB():
     AS=Segment(A,S)
     BS=Segment(B,S)
 
-    AB.put_mark(0.2,angle=-90,text="\( 4\)",automatic_place=(pspict,""))
+    AB.put_mark(0.2,angle=-90,text="\( 4\)",pspict=pspict)
 
     AD=Segment(A,D)
     AD.parameters.style='dashed'
@@ -44,11 +44,11 @@ def WUEUooYWwanB():
     SD=Segment(S,D)
     SD.parameters.style='dashed'
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.1,90+45,"\( D\)",automatic_place=pspict)
-    S.put_mark(0.2,90,"\( S\)",automatic_place=pspict)
+    A.put_mark(0.2,180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
+    D.put_mark(0.1,90+45,"\( D\)",pspict=pspict)
+    S.put_mark(0.2,90,"\( S\)",pspict=pspict)
 
     no_symbol(A,B,C,D,S)
     

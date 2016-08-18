@@ -9,11 +9,11 @@ def ExEquationIntersectioniSHPTw():
     Mx=2.5
     lag1=LagrangePolynomial( [Point(-5,-2),Point(-3.5,0),Point(-2.5,1),Point(-1.5,0),Point(2.5,0),Point(3.8,5)]   )+1.5
     f=lag1.graph(mx,Mx)
-    f.put_mark(0.1,0,"\( f\)",automatic_place=pspict)
+    f.put_mark(0.1,0,"\( f\)",pspict=pspict)
 
     lag2=LagrangePolynomial( [Point(-5,2),Point(-3.5,1),Point(-2.5,0),Point(0,1.5),Point(1,0),Point(3,-1)]   )
     g=lag2.graph(mx,Mx)
-    g.put_mark(0.1,0,"\( g\)",automatic_place=pspict)
+    g.put_mark(0.1,0,"\( g\)",pspict=pspict)
     g.parameters.color="brown"
 
     pspict.DrawGraphs(f,g)

@@ -16,15 +16,15 @@ def GTyQVvw():
     K=Point(1,1)
     L=Point(1,0)
 
-    M.put_mark(0.2,45,"\( M\)",automatic_place=(pspict,"corner"))
-    N.put_mark(0.2,45,"\( N\)",automatic_place=(pspict,"corner"))
-    K.put_mark(0.2,45,"\( K\)",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,45,"\( L\)",automatic_place=(pspict,"corner"))
+    M.put_mark(0.2,45,"\( M\)",pspict=pspict,position="corner")
+    N.put_mark(0.2,45,"\( N\)",pspict=pspict,position="corner")
+    K.put_mark(0.2,45,"\( K\)",pspict=pspict,position="corner")
+    L.put_mark(0.2,45,"\( L\)",pspict=pspict,position="corner")
 
     u=AffineVector(A,B)
     v=AffineVector(C,D)
-    u.put_mark(0.2,None,"\( \\vect{ u }\)",automatic_place=(pspict,"corner"))
-    v.put_mark(0.2,None,"\( \\vect{ v }\)",automatic_place=(pspict,"corner"))
+    u.put_mark(0.2,None,"\( \\vect{ u }\)",pspict=pspict,position="corner")
+    v.put_mark(0.2,None,"\( \\vect{ v }\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(u,v,M,N,K,L)
     pspict.DrawDefaultGrid()

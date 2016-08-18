@@ -29,20 +29,20 @@ def IPAooQliVZD():
     C1=inter[0]
     C2=inter[1]
 
-    A.put_mark(0.2,180+20,"\( A\)",automatic_place=(pspicts,"corner"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspicts,"corner"))
-    C1.put_mark(0.2,180+45,"\( C_1\)",automatic_place=(pspicts,"corner"))
-    C2.put_mark(0.2,90+45,"\( C_2\)",automatic_place=(pspicts,"corner"))
+    A.put_mark(0.2,180+20,"\( A\)",pspict=pspicts,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspicts,position="corner")
+    C1.put_mark(0.2,180+45,"\( C_1\)",pspict=pspicts,position="corner")
+    C2.put_mark(0.2,90+45,"\( C_2\)",pspict=pspicts,position="corner")
 
     Q1=cer1.get_point(45)
     r1=Segment(A,Q1)
     r1.parameters.style="dashed"
-    r1.put_mark(0.2,None,"\( {}\)".format(l2),automatic_place=(pspicts,"corner"))
+    r1.put_mark(0.2,None,"\( {}\)".format(l2),pspict=pspicts,position="corner")
 
     Q2=cer2.get_point(60)
     r2=Segment(B,Q2)
     r2.parameters.style="dashed"
-    r2.put_mark(0.2,None,"\( {}\)".format(l3),automatic_place=(pspicts,"corner"))
+    r2.put_mark(0.2,None,"\( {}\)".format(l3),pspict=pspicts,position="corner")
 
     cer1.parameters.color="red"
     r1.parameters.color="red"
@@ -68,11 +68,11 @@ def IPAooQliVZD():
 
     m1=Segment(A,C2).center()
     m1.parameters.symbol=""
-    m1.put_mark(0.2,None,"\( {}\)".format(l2),automatic_place=(pspicts,"corner"))
+    m1.put_mark(0.2,None,"\( {}\)".format(l2),pspict=pspicts,position="corner")
 
     m2=Segment(B,C2).center()
     m2.parameters.symbol=""
-    m2.put_mark(0.2,None,"\( {}\)".format(l3),automatic_place=(pspicts,"corner"))
+    m2.put_mark(0.2,None,"\( {}\)".format(l3),pspict=pspicts,position="corner")
 
     pspicts[0].DrawGraphs(AB,A,B)
     pspicts[1].DrawGraphs(AB,cer1,cer2,r1,r2,A,B)

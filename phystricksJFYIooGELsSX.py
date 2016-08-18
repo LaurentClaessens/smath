@@ -18,7 +18,7 @@ def JFYIooGELsSX():
     d1=Segment(L,G)
     d2=Segment(E,U)
     O=Intersection(d1,d2)[0]
-    O.put_mark(0.2,90,"\( 0\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,90,"\( 0\)",pspict=pspict)
     for p in [L,U,G,E,O]:
         p.parameters.symbol=""
 
@@ -27,8 +27,8 @@ def JFYIooGELsSX():
     a3=Angle(U,G,L)
     a4=Angle(L,G,E,r=0.3)
 
-    l1=Segment(L,U).get_mark(0.2,angle=None,text="\SI{6}{\centi\meter}",automatic_place=(pspict,""))
-    l2=Segment(E,L).get_mark(0.2,angle=None,text="\SI{4.5}{\centi\meter}",automatic_place=(pspict,""))
+    l1=Segment(L,U).get_mark(0.2,angle=None,text="\SI{6}{\centi\meter}",pspict=pspict)
+    l2=Segment(E,L).get_mark(0.2,angle=None,text="\SI{4.5}{\centi\meter}",pspict=pspict)
 
     pspict.DrawGraphs(rect,d1,d2,O,a1,a2,a3,a4,l1,l2)
     fig.no_figure()

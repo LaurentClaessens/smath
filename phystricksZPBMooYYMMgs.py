@@ -15,8 +15,8 @@ def ZPBMooYYMMgs():
     #parall.put_mark(0.2,pspict=pspict)
 
     H=Point(C.x,B.y)
-    mix=Segment(C,H).get_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=0,name="\( x\)",automatic_place=(pspict,""))
-    parall.edges[2].put_measure(measure_distance=0.5,mark_distance=0.2,mark_angle=90,name="\( 3x\)",automatic_place=(pspict,""))
+    mix=Segment(C,H).get_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=0,name="\( x\)",pspict=pspict)
+    parall.edges[2].put_measure(measure_distance=0.5,mark_distance=0.2,mark_angle=90,name="\( 3x\)",pspict=pspict)
 
     no_symbol(parall.vertices)
 

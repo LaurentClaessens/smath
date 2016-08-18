@@ -16,12 +16,12 @@ def FBTCooBKTryQ():
     a1=Angle(P,O,A)
     a2=Angle(C,O,P,r=0.3)
 
-    a1.put_mark(0.2,None,"\( 24\)",automatic_place=(pspict,""))
-    a2.put_mark(0.2,None,"\( 120\)",automatic_place=(pspict,""))
+    a1.put_mark(0.2,None,"\( 24\)",pspict=pspict)
+    a2.put_mark(0.2,None,"\( 120\)",pspict=pspict)
 
-    A.put_mark(0.2,s1.advised_mark_angle(pspict),"\( A\)",automatic_place=(pspict,""))
-    O.put_mark(0.2,s1.advised_mark_angle(pspict),"\( O\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,s1.advised_mark_angle(pspict),"\( C\)",automatic_place=(pspict,""))
+    A.put_mark(0.2,s1.advised_mark_angle(pspict),"\( A\)",pspict=pspict)
+    O.put_mark(0.2,s1.advised_mark_angle(pspict),"\( O\)",pspict=pspict)
+    C.put_mark(0.2,s1.advised_mark_angle(pspict),"\( C\)",pspict=pspict)
 
     no_symbol(A,O,C)
 

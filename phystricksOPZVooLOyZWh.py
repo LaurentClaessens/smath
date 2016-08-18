@@ -21,14 +21,14 @@ def OPZVooLOyZWh():
     I=Intersection(d1,dig)[0]
     J=Intersection(d2,dig)[0]
 
-    A.put_mark(0.2,180+45,"\( A\)",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,-90,"\( L\)",automatic_place=(pspict,"N"))
-    B.put_mark(0.2,-45,"\( B\)",automatic_place=(pspict,"corner"))
-    C.put_mark(0.2,45,"\( C\)",automatic_place=(pspict,"corner"))
-    K.put_mark(0.2,90,"\( K\)",automatic_place=(pspict,"S"))
-    D.put_mark(0.2,90+45,"\( D\)",automatic_place=(pspict,"corner"))
-    I.put_mark(0.2,90,"\( I\)",automatic_place=(pspict,"S"))
-    J.put_mark(0.2,90,"\( J\)",automatic_place=(pspict,"S"))
+    A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
+    L.put_mark(0.2,-90,"\( L\)",pspict=pspict,position="N")
+    B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
+    C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
+    K.put_mark(0.2,90,"\( K\)",pspict=pspict,position="S")
+    D.put_mark(0.2,90+45,"\( D\)",pspict=pspict,position="corner")
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
+    J.put_mark(0.2,90,"\( J\)",pspict=pspict,position="S")
 
     A.parameters.symbol=''
     B.parameters.symbol=''

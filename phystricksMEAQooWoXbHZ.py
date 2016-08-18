@@ -16,8 +16,8 @@ def MEAQooWoXbHZ():
     c3=triangle.edges[2]
     rh=RightAngle(  c1,c3,1,0   )
 
-    mes1=c1.get_measure(0.2,0.1,-90,"\( 2\)",automatic_place=(pspict,"N"))
-    mes2=c3.get_measure(0.2,0.1,180,"\( 6\)",automatic_place=(pspict,"E"))
+    mes1=c1.get_measure(0.2,0.1,-90,"\( 2\)",pspict=pspict,position="N")
+    mes2=c3.get_measure(0.2,0.1,180,"\( 6\)",pspict=pspict,position="E")
 
     pspict.DrawGraphs(triangle,rh,mes1,mes2)
     fig.no_figure()

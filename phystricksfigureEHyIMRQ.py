@@ -15,11 +15,11 @@ def figureEHyIMRQ():
     moustache4=Moustache(1000,1600,1900,2300,2500,h=0.5,delta_y=4)
     moustache5=Moustache(1300,1700,1900,2050,2200,h=0.5,delta_y=5)
 
-    moustache1.put_mark(0.3,0,"\( A\)",automatic_place=pspict)
-    moustache2.put_mark(0.3,0,"\( B\)",automatic_place=pspict)
-    moustache3.put_mark(0.3,0,"\( C\)",automatic_place=pspict)
-    moustache4.put_mark(0.3,0,"\( D\)",automatic_place=pspict)
-    moustache5.put_mark(0.3,0,"\( E\)",automatic_place=pspict)
+    moustache1.put_mark(0.3,0,"\( A\)",pspict=pspict)
+    moustache2.put_mark(0.3,0,"\( B\)",pspict=pspict)
+    moustache3.put_mark(0.3,0,"\( C\)",pspict=pspict)
+    moustache4.put_mark(0.3,0,"\( D\)",pspict=pspict)
+    moustache5.put_mark(0.3,0,"\( E\)",pspict=pspict)
 
     pspict.DrawGraphs(moustache1,moustache2,moustache3,moustache4,moustache5)
     pspict.axes.single_axeX.Dx=500

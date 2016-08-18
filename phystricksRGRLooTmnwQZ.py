@@ -38,7 +38,7 @@ def RGRLooTmnwQZ():
     original.append( Segment(D+(0,-h),D+(2*d,0))  )
 
     O=A+(2*d+s,-3*h/2)
-    O.put_mark(0.2,180,"\( O\)",automatic_place=(pspict,"E"))
+    O.put_mark(0.2,180,"\( O\)",pspict=pspict,position="E")
     swip=[  symmetric(seg,O) for seg in original ]
 
 

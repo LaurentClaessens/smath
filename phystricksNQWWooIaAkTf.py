@@ -20,18 +20,18 @@ def NQWWooIaAkTf():
     p1=Segment(D,C).dilatation(1.3)
     p2=Segment(A,B).dilatation(1.3)
 
-    O.put_mark(0.2,angle=180+45,text="\( O\)",automatic_place=(pspict,""))
-    #A.put_mark(0.2,angle=45,text="\( A\)",automatic_place=(pspict,""))
-    #mA=Angle(p2.I,A,O,r=0.1).get_mark(0.2,None,text="\( A\)",automatic_place=(pspict,""))
-    mA=Angle(B,A,Q,r=0.1).get_mark(0.2,None,text="\( A\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,angle=180+45,text="\( O\)",pspict=pspict)
+    #A.put_mark(0.2,angle=45,text="\( A\)",pspict=pspict)
+    #mA=Angle(p2.I,A,O,r=0.1).get_mark(0.2,None,text="\( A\)",pspict=pspict)
+    mA=Angle(B,A,Q,r=0.1).get_mark(0.2,None,text="\( A\)",pspict=pspict)
 
 
-    B.put_mark(0.2,angle=45,text="\( B\)",automatic_place=(pspict,""))
-    C.put_mark(0.2,angle=180+45,text="\( C\)",automatic_place=(pspict,""))
-    D.put_mark(0.2,angle=180+45,text="\( D\)",automatic_place=(pspict,""))
+    B.put_mark(0.2,angle=45,text="\( B\)",pspict=pspict)
+    C.put_mark(0.2,angle=180+45,text="\( C\)",pspict=pspict)
+    D.put_mark(0.2,angle=180+45,text="\( D\)",pspict=pspict)
 
-    m1=Segment(D,C).get_mark(0.1,angle=None,text="\( 3\)",automatic_place=(pspict,""))
-    m2=Segment(A,B).get_mark(0.1,angle=None,text="\( 7\)",automatic_place=(pspict,""))
+    m1=Segment(D,C).get_mark(0.1,angle=None,text="\( 3\)",pspict=pspict)
+    m2=Segment(A,B).get_mark(0.1,angle=None,text="\( 7\)",pspict=pspict)
 
     no_symbol(B,C,D,O)
 

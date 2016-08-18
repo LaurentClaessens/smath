@@ -13,9 +13,9 @@ def HMUTooSSSCZl():
     rh=RightAngleAOB(C,B,A)
 
     ang=AngleAOB(C,A,B) 
-    ang.put_mark(0.2,angle=None,added_angle=0,text="\SI{40}{\degree}",automatic_place=(pspict,""))
+    ang.put_mark(0.2,angle=None,added_angle=0,text="\SI{40}{\degree}",pspict=pspict)
 
-    trig.edges[1].put_mark(0.2,angle=None,added_angle=0,text="\SI{6}{\centi\meter}",automatic_place=(pspict,""))
+    trig.edges[1].put_mark(0.2,angle=None,added_angle=0,text="\SI{6}{\centi\meter}",pspict=pspict)
 
     no_symbol(trig.vertices)
     pspict.DrawGraphs(trig,rh,ang)

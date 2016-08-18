@@ -21,9 +21,9 @@ def OGWJooWdCsvT():
     for P in trig.vertices:
         P.parameters.symbol=''
 
-    angA.put_mark(0.2,None,"\("+str(beta)+" \)",automatic_place=(pspict,"center"))
-    angB.put_mark(0.2,None,"\("+str(alpha)+" \)",automatic_place=(pspict,"center"))
-    angC.put_mark(0.2,None,"\("+str(alpha)+" \)",automatic_place=(pspict,"center"))
+    angA.put_mark(0.2,None,"\("+str(beta)+" \)",pspict=pspict,position="center")
+    angB.put_mark(0.2,None,"\("+str(alpha)+" \)",pspict=pspict,position="center")
+    angC.put_mark(0.2,None,"\("+str(alpha)+" \)",pspict=pspict,position="center")
 
     pspict.DrawGraphs(trig,angA,angB,angC)
     fig.no_figure()

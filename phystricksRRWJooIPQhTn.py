@@ -12,8 +12,8 @@ def RRWJooIPQhTn():
     trig=Polygon(A,B,C)
     trig.put_mark(0.2,points_names="ABC",pspict=pspicts)
     rh=RightAngleAOB(C,A,B)
-    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",automatic_place=(pspicts,""))
-    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",automatic_place=(pspicts,""))
+    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",pspict=pspicts)
+    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",pspict=pspicts)
     no_symbol(trig.vertices)
 
     pspicts[0].DrawGraphs(trig,rh)
@@ -25,7 +25,7 @@ def RRWJooIPQhTn():
     F=E+(2,-2)
     G=D+F-E
     H=Point(G.x,D.y)
-    H.put_mark(0.2,angle=90,added_angle=0,text="\( H\)",automatic_place=(pspicts,""))
+    H.put_mark(0.2,angle=90,added_angle=0,text="\( H\)",pspict=pspicts)
     parall=Polygon(D,E,F,G)
     parall.put_mark(0.2,points_names="DEFG",pspict=pspicts)
     hauteur=Segment(H,G)
@@ -40,7 +40,7 @@ def RRWJooIPQhTn():
     L=Point(2,0)
     M=Point(1.5,2)
     S=Point(M.x,K.y)
-    S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",automatic_place=(pspicts,""))
+    S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",pspict=pspicts)
     trig=Polygon(K,L,M)
     trig.put_mark(0.2,points_names="KLM",pspict=pspicts)
     hauteur=Segment(M,S)
@@ -57,7 +57,7 @@ def RRWJooIPQhTn():
 
     T=J.projection(Segment(H,I))
 
-    T.put_mark(0.2,angle=None,added_angle=0,text="\( T\)",automatic_place=(pspicts,""))
+    T.put_mark(0.2,angle=None,added_angle=0,text="\( T\)",pspict=pspicts)
     trig=Polygon(H,I,J)
     trig.put_mark(0.2,points_names="HIJ",pspict=pspicts)
     hauteur=Segment(T,J)

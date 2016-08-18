@@ -14,11 +14,11 @@ def figureVNaHvXi():
 
     IJ=Segment(I,J)
 
-    A.put_mark(0.2,90,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,180,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
-    I.put_mark(0.2,135,"\( I\)",automatic_place=pspict)
-    J.put_mark(0.2,0,"\( J\)",automatic_place=pspict)
+    A.put_mark(0.2,90,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,180,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
+    I.put_mark(0.2,135,"\( I\)",pspict=pspict)
+    J.put_mark(0.2,0,"\( J\)",pspict=pspict)
 
 
     pspict.DrawGraphs(trig,IJ,A,B,C,I,J)

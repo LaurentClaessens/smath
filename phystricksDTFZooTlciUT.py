@@ -11,9 +11,9 @@ def DTFZooTlciUT():
     P=cer.get_point(45)
     L=cer.get_point(-70)
 
-    T.put_mark(0.2,90+45,"Tristan",automatic_place=(pspict,"corner"))
-    P.put_mark(0.2,45,"Perceval",automatic_place=(pspict,"corner"))
-    L.put_mark(0.2,-70,"Lancelot",automatic_place=(pspict,"corner"))
+    T.put_mark(0.2,90+45,"Tristan",pspict=pspict,position="corner")
+    P.put_mark(0.2,45,"Perceval",pspict=pspict,position="corner")
+    L.put_mark(0.2,-70,"Lancelot",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(T,P,L)
     #pspict.DrawDefaultGrid()

@@ -21,7 +21,7 @@ def NUEGooGTqxcl():
     D=Point(5,6)
     E=Point(7,6)
     O=Point(3,0)
-    O.put_mark(0.2,45,"\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,45,"\( O\)",pspict=pspict)
 
     maison=[   Segment(A,B),Segment(B,C),Segment(C,D),Segment(D,E),Segment(E,C),Segment(A,D)  ]
     maison1=[  symmetric(s,O) for s in maison  ]

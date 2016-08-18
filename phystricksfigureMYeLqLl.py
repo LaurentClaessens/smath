@@ -15,12 +15,12 @@ def figureMYeLqLl():
     K=Point(0,3)
     L=Point(-1,0)
 
-    A.put_mark(0.2,0,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,0,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,0,"\( C\)",automatic_place=pspict)
-    D.put_mark(0.2,0,"\( D\)",automatic_place=pspict)
-    K.put_mark(0.2,0,"\( K\)",automatic_place=pspict)
-    L.put_mark(0.2,0,"\( L\)",automatic_place=pspict)
+    A.put_mark(0.2,0,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,0,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,0,"\( C\)",pspict=pspict)
+    D.put_mark(0.2,0,"\( D\)",pspict=pspict)
+    K.put_mark(0.2,0,"\( K\)",pspict=pspict)
+    L.put_mark(0.2,0,"\( L\)",pspict=pspict)
 
 
     pspict.DrawGraphs(A,B,C,D,K,L)

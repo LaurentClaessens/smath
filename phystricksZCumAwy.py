@@ -24,8 +24,8 @@ def ZCumAwy():
     l2.parameters.color="red"
     l2.parameters.style="dashed"
 
-    B.put_mark(0.2,0,"\( -1/10\)",automatic_place=pspict)
-    X.put_mark(0.2,90,"\( -10\)",automatic_place=pspict)
+    B.put_mark(0.2,0,"\( -1/10\)",pspict=pspict)
+    X.put_mark(0.2,90,"\( -10\)",pspict=pspict)
 
     w1=Segment( Point(mx,0),Point(x0,0)  )
     w1.parameters.color="green"

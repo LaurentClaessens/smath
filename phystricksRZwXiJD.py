@@ -14,8 +14,8 @@ def RZwXiJD():
     I=Segment(cube.E,cube.F).center()
     J=Segment(cube.B,cube.F).center()
 
-    I.put_mark(0.2,90,"\( I\)",automatic_place=(pspict,"S"))
-    J.put_mark(0.2,-45,"\( J\)",automatic_place=(pspict,"corner"))
+    I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
+    J.put_mark(0.2,-45,"\( J\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(cube,I,J)
     fig.no_figure()

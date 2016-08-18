@@ -14,14 +14,14 @@ def JJHQooEkspEV():
     triangle.put_mark(0.5,text_list=['\( S\)',"\( T\)","\( R\)"],pspict=pspicts)
 
     M=triangle.edges[2].midpoint()
-    M.put_mark(0.5,M.advised_mark_angle(pspicts)+180,"\( M\)",automatic_place=(pspicts,"corner"))
+    M.put_mark(0.5,M.advised_mark_angle(pspicts)+180,"\( M\)",pspict=pspicts,position="corner")
     O=triangle.edges[0].midpoint()
-    O.put_mark(0.5,O.advised_mark_angle(pspicts)+180,"\( O\)",automatic_place=(pspicts,"corner"))
+    O.put_mark(0.5,O.advised_mark_angle(pspicts)+180,"\( O\)",pspict=pspicts,position="corner")
 
     seg=Segment(M,O)
     SR2=triangle.edges[2].get_divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
     ST2=triangle.edges[0].get_divide_in_two(n=1,d=0.1,l=0.3,angle=30,pspict=pspicts)
-    mesRT=triangle.edges[1].get_measure(0.2,0.1,0,"\SI{4}{\centi\meter}",automatic_place=(pspicts,"W"))
+    mesRT=triangle.edges[1].get_measure(0.2,0.1,0,"\SI{4}{\centi\meter}",pspict=pspicts,position="W")
 
     for psp in pspicts :
         psp.DrawGraphs(triangle,seg,M,O)

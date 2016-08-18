@@ -2,13 +2,15 @@
 
 from __future__ import division
 from phystricks import *
+from phystricks.ObjectGraph import ObjectGraph
 
-class Pyramide(object):
+class Pyramide(ObjectGraph):
     def __init__(self,n,l,h):
         """
         Une pyramide contenant 'n' rectangles à la base. 
         Ils ont une longueur 'l' et une hauteur 'h'.
         """
+        ObjectGraph.__init__(self,self)
         self.rectangles=[]
         self.centres={}
         for i in range(0,n):
@@ -36,10 +38,10 @@ def DS_statistics(moustaches,pspict):
 
     #for i,m in enumerate(moustaches) :
     #    m.delta_y=0.75+i
-    #    m.put_mark(0.2,0,"DS {}".format( len(moustaches)-i ),automatic_place=(pspict,"W"))
+    #    m.put_mark(0.2,0,"DS {}".format( len(moustaches)-i ),pspict=pspict,position="W")
     for i,m in enumerate(moustaches) :
         m.delta_y=len(moustaches)+0.75-i-1
-        m.put_mark(0.2,0,"DS {}".format( i+1 ),automatic_place=(pspict,"W"))
+        m.put_mark(0.2,0,"DS {}".format( i+1 ),pspict=pspict,position="W")
 
     maxy=len(moustaches)
     ledix=Segment(  Point(10,0),Point(10,maxy)   )

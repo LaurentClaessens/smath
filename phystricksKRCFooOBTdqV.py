@@ -14,14 +14,14 @@ def KRCFooOBTdqV():
 
     O.parameters.symbol=""
 
-    O.put_mark(0.2,180,"\( O\)",automatic_place=(pspict,""))
+    O.put_mark(0.2,180,"\( O\)",pspict=pspict)
     proportions = [0.3,0.6,0.95]
     for i,p in enumerate(proportions) :
         symbol=string.ascii_uppercase[i+11]
         A=seg.get_point_proportion(p)
         Ap=Point(A.x,0)
-        A.put_mark(0.2,None,"\( "+symbol+"\)",automatic_place=(pspict,""))
-        Ap.put_mark(0.2,-90,"\( "+symbol+"'\)",automatic_place=(pspict,""))
+        A.put_mark(0.2,None,"\( "+symbol+"\)",pspict=pspict)
+        Ap.put_mark(0.2,-90,"\( "+symbol+"'\)",pspict=pspict)
         AAp=Segment(A,Ap)
         rh=RightAngle(  Segment(O,Ap),Segment(Ap,A),0,1  )
         for S in [A,Ap]:

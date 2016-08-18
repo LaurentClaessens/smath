@@ -16,7 +16,7 @@ def FDOMooPmHEcu():
     mediane=Segment(  trig.vertices[2],M ).dilatation(1.5)
     mediane.parameters.style="dashed"
 
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",automatic_place=(pspict,""))
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspict)
 
     no_symbol(trig.vertices)
 

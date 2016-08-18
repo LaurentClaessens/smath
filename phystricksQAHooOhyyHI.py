@@ -16,21 +16,21 @@ def QAHooOhyyHI():
     seg.parameters.style='dashed'
 
     FG=triangle.edges[0]
-    FG.put_measure(0.2,0.2,-90,"\( 6\)",automatic_place=(pspicts,"corner"))
+    FG.put_measure(0.2,0.2,-90,"\( 6\)",pspict=pspicts,position="corner")
     GH=triangle.edges[1]
-    GH.put_measure(0.2,0.2,45,"\( 7\)",automatic_place=(pspicts,"corner"))
+    GH.put_measure(0.2,0.2,45,"\( 7\)",pspict=pspicts,position="corner")
 
 
-    F.put_mark(0.2,180+45,"\( F\)",automatic_place=(pspicts,"corner"))
-    G.put_mark(0.2,-45,"\( G\)",automatic_place=(pspicts,"corner"))
-    H.put_mark(0.2,45,"\( H\)",automatic_place=(pspicts,"corner"))
+    F.put_mark(0.2,180+45,"\( F\)",pspict=pspicts,position="corner")
+    G.put_mark(0.2,-45,"\( G\)",pspict=pspicts,position="corner")
+    H.put_mark(0.2,45,"\( H\)",pspict=pspicts,position="corner")
 
     qcangle=Angle(H,G,F)
     a1=Angle(G,F,H)
     a2=Angle(F,H,G)
-    qcangle.put_mark(0.2,None,"\( 45\)",automatic_place=(pspicts,"corner"))
-    a1.put_mark(0.1,None,"\( 78\)",automatic_place=(pspicts,"corner"))
-    a2.put_mark(0.1,None,"\( 57\)",automatic_place=(pspicts,"corner"))
+    qcangle.put_mark(0.2,None,"\( 45\)",pspict=pspicts,position="corner")
+    a1.put_mark(0.1,None,"\( 78\)",pspict=pspicts,position="corner")
+    a2.put_mark(0.1,None,"\( 57\)",pspict=pspicts,position="corner")
     
     pspicts[0].DrawGraphs(F,G,FG,seg,qcangle)
     pspicts[1].DrawGraphs(F,G,H,seg,triangle,qcangle)

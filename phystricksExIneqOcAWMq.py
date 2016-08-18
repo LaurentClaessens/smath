@@ -10,7 +10,7 @@ def ExIneqOcAWMq():
     mx=-5
     Mx=2
     f=LagrangePolynomial([Point(-4,1), Point(-1.5,-2),Point(1,1)]).graph(mx,Mx)
-    f.put_mark(0.2,0,"\( f\)",automatic_place=pspict)
+    f.put_mark(0.2,0,"\( f\)",pspict=pspict)
     segk=Segment(Point(mx,k),Point(Mx,k))
     segk.parameters.color="brown"
 

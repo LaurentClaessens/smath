@@ -13,9 +13,9 @@ def JXWXdJI():
     pspict.Mx_acceptable_BB=1000
     pspict.mx_acceptable_BB=-1000
 
-    pspict.axes.single_axeX.put_mark(0.2,-90,"CA",automatic_place=(pspict,"N"))
+    pspict.axes.single_axeX.put_mark(0.2,-90,"CA",pspict=pspict,position="N")
     pspict.axes.single_axeX.Dx=100
-    pspict.axes.single_axeY.put_mark(0.2,180,"Effectifs",automatic_place=(pspict,"E"))
+    pspict.axes.single_axeY.put_mark(0.2,180,"Effectifs",pspict=pspict,position="E")
 
     pspict.DrawGraphs(pts)
     pspict.DrawDefaultAxes()

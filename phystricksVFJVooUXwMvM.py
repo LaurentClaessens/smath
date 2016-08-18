@@ -14,14 +14,14 @@ def VFJVooUXwMvM():
     E=Point(s,A.y)
     F=Point(E.x,D.y)
 
-    F.put_mark(0.2,angle=-90,added_angle=0,text="\( F\)",automatic_place=(pspict,""))
+    F.put_mark(0.2,angle=-90,added_angle=0,text="\( F\)",pspict=pspict)
 
     rect=Polygon(A,B,C,D)
     rect.put_mark(0.2,points_names="ABCD",pspict=pspict)
     rect.edge.parameters.style="dashed"
 
-    #rect.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.3,mark_angle=-90,name="\SI{8}{\centi\meter}",automatic_place=(pspict,""))
-    #rect.edges[1].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=0,name="\SI{3}{\centi\meter}",automatic_place=(pspict,""))
+    #rect.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.3,mark_angle=-90,name="\SI{8}{\centi\meter}",pspict=pspict)
+    #rect.edges[1].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=0,name="\SI{3}{\centi\meter}",pspict=pspict)
 
     trig=Polygon(D,E,C)
     trig.put_mark(0.2,points_names=" E ",pspict=pspict)

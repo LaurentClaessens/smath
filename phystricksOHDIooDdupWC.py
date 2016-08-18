@@ -20,7 +20,7 @@ def OHDIooDdupWC():
     I=Segment(O,A).get_point_proportion(0.2)
     J=Point(I.x,0)
 
-    O.put_mark(0.2,90+45,"\( O\)",automatic_place=(pspict,"corner"))
+    O.put_mark(0.2,90+45,"\( O\)",pspict=pspict,position="corner")
 
     S0=A+(s,0)
     S1=S0+(0,h)
@@ -33,7 +33,7 @@ def OHDIooDdupWC():
 
     tour=Polygon(A,S0,S1,S2,S3,S4,S5,S6,S7,B,C,D)
     IJ=Segment(I,J)
-    IJ.put_measure(-0.2,0.2,0,"\( 2\)",automatic_place=(pspict,"W"))
+    IJ.put_measure(-0.2,0.2,0,"\( 2\)",pspict=pspict,position="W")
 
     ombre=Segment(A,O)
     terrain=Segment(O,D)
@@ -41,8 +41,8 @@ def OHDIooDdupWC():
     #eau.parameters.color='blue'
     #eau.wave(0.2,0.1)
 
-    m2=Segment(O,J).get_measure(0.2,0.2,-90,"\( 3\)",automatic_place=(pspict,"N"))
-    m12=Segment(J,D).get_measure(0.2,0.2,-90,"\( 12\)",automatic_place=(pspict,"N"))
+    m2=Segment(O,J).get_measure(0.2,0.2,-90,"\( 3\)",pspict=pspict,position="N")
+    m12=Segment(J,D).get_measure(0.2,0.2,-90,"\( 12\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(O,tour,IJ,ombre,terrain,m2,m12)
     fig.no_figure()

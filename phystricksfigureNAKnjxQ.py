@@ -8,9 +8,9 @@ def figureNAKnjxQ():
     B=Point(4,0)
     C=Point(3,3)
 
-    A.put_mark(0.2,180,"\( A\)",automatic_place=pspict)
-    B.put_mark(0.2,0,"\( B\)",automatic_place=pspict)
-    C.put_mark(0.2,90,"\( C\)",automatic_place=pspict)
+    A.put_mark(0.2,180,"\( A\)",pspict=pspict)
+    B.put_mark(0.2,0,"\( B\)",pspict=pspict)
+    C.put_mark(0.2,90,"\( C\)",pspict=pspict)
 
     AB=Segment(A,B)
     BC=Segment(B,C)
@@ -26,7 +26,7 @@ def figureNAKnjxQ():
     hC.parameters.color="red"
 
     O=Intersection(hA,hB)[0]
-    O.put_mark(0.4,-90,"\( \Omega\)",automatic_place=pspict)
+    O.put_mark(0.4,-90,"\( \Omega\)",pspict=pspict)
 
     pspict.DrawGraphs(hA,hB,hC,AB,BC,CA,O,A,B,C)
     fig.no_figure()

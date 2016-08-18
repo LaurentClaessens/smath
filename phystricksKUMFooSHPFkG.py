@@ -16,7 +16,7 @@ def KUMFooSHPFkG():
     E=CircleOA(  Segment(A,B).midpoint(),   A    ).get_point(70)
     trig=Polygon(A,B,E)
 
-    E.put_mark(0.2,90,"\( E\)",automatic_place=(pspict,""))
+    E.put_mark(0.2,90,"\( E\)",pspict=pspict)
 
     mes_car=[    s.get_code( n=1,d=0.1,l=0.3,angle=45,pspict=pspict ) for s in carre.edges     ]
 
@@ -24,8 +24,8 @@ def KUMFooSHPFkG():
     rhc1=RightAngle( Segment(A,B),Segment(A,D),1,1  )
     rhc2=RightAngle( Segment(A,B),Segment(B,C),0,1  )
 
-    mesAE=trig.edges[1].get_mark(0.1,angle=trig.edges[1].advised_mark_angle(pspict)+180,text="\( 2\)",mark_point=None,automatic_place=pspict)
-    mesEB=trig.edges[2].get_mark(0.1,angle=trig.edges[2].advised_mark_angle(pspict)+180,text="\( 7\)",mark_point=None,automatic_place=pspict)
+    mesAE=trig.edges[1].get_mark(0.1,angle=trig.edges[1].advised_mark_angle(pspict)+180,text="\( 2\)",mark_point=None,pspict=pspict)
+    mesEB=trig.edges[2].get_mark(0.1,angle=trig.edges[2].advised_mark_angle(pspict)+180,text="\( 7\)",mark_point=None,pspict=pspict)
 
     for p in [A,B,C,D,E]:
         p.parameters.symbol=""

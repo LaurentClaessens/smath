@@ -17,8 +17,8 @@ def PYSIooVNiiuo():
     for i in range(0,4):
         P=Point(i+0.5,0)
         Q=Point(0,i+0.5)
-        P.put_mark(0.2,angle=-90,added_angle=0,text=str(i+1),automatic_place=(pspict,""))
-        Q.put_mark(0.2,angle=180,added_angle=0,text=string.ascii_letters[3-i],automatic_place=(pspict,""))
+        P.put_mark(0.2,angle=-90,added_angle=0,text=str(i+1),pspict=pspict)
+        Q.put_mark(0.2,angle=180,added_angle=0,text=string.ascii_letters[3-i],pspict=pspict)
         no_symbol(P,Q)
         pspict.DrawGraphs(P,Q)
         for j in range(0,4):
