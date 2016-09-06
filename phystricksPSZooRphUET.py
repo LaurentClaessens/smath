@@ -21,12 +21,12 @@ def PSZooRphUET():
 
     trig=Polygon(K,L,M)
 
-    a1=Angle(L,K,M)
-    a2=Angle(M,L,K)
-    a3=Angle(K,M,L)
-    a1.put_mark(0.4,None,"\SI{33}{\degree}",pspict=pspict,position="center")
-    a2.put_mark(0.4,None,"\SI{33}{\degree}",pspict=pspict,position="center")
-    a3.put_mark(0.4,None,"\SI{113}{\degree}",pspict=pspict,position="center")
+    a1=AngleAOB(L,K,M)
+    a2=AngleAOB(M,L,K)
+    a3=AngleAOB(K,M,L)
+    a1.put_mark(0.4,None,"\SI{33}{\degree}",pspict=pspict)
+    a2.put_mark(0.4,None,"\SI{33}{\degree}",pspict=pspict)
+    a3.put_mark(0.4,None,"\SI{113}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(K,L,M,c1,c2,trig,a1,a2,a3)
     fig.no_figure()

@@ -22,10 +22,10 @@ def JFYIooGELsSX():
     for p in [L,U,G,E,O]:
         p.parameters.symbol=""
 
-    a1=Angle(G,L,U,r=0.3)
-    a2=Angle(E,L,G)
-    a3=Angle(U,G,L)
-    a4=Angle(L,G,E,r=0.3)
+    a1=AngleAOB(G,L,U,r=0.3)
+    a2=AngleAOB(E,L,G)
+    a3=AngleAOB(U,G,L)
+    a4=AngleAOB(L,G,E,r=0.3)
 
     l1=Segment(L,U).get_mark(0.2,angle=None,text="\SI{6}{\centi\meter}",pspict=pspict)
     l2=Segment(E,L).get_mark(0.2,angle=None,text="\SI{4.5}{\centi\meter}",pspict=pspict)

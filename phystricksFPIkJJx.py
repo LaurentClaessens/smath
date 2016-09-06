@@ -1,10 +1,10 @@
 # -*- coding: utf8 -*-
+
 from phystricks import *
+
 def FPIkJJx():
     pspict,fig = SinglePicture("FPIkJJx")
     pspict.dilatation(1)
-
-
 
     # Ici il suffit de mettre la grille avec les nombres de 1 à 9.
     # La substitution avec les nombres de -4 à 4 se fait automatiquement.
@@ -45,7 +45,8 @@ i,i,.,.,.,i,7,.,i
 -3,2,-4     ,4,3,1,     -1,-2,0
 """
 
-    print BasicGeometricObjects.sudoku_substitution(solution)
+    from phystricks.SudokuGridGraph import sudoku_substitution
+    print(sudoku_substitution(solution))
 
     sudoku=SudokuGrid(tableau,length=0.7)
 

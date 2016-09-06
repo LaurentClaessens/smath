@@ -6,30 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigBJDWooWkSKfU.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 1\)}}%
-\immediate\write\writeOfphystricks{totalheightof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 1\)}}%
-\immediate\write\writeOfphystricks{widthof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\ldots}}%
-\immediate\write\writeOfphystricks{totalheightof908c2f8e0e2aa96db646337f6a92f5762f919565:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\ldots}}%
-\immediate\write\writeOfphystricks{widthof908c2f8e0e2aa96db646337f6a92f5762f919565:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(2\)}}%
-\immediate\write\writeOfphystricks{totalheightofd5519e86bd5eb59652cefaa9c90e7942fcc0edb1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(2\)}}%
-\immediate\write\writeOfphystricks{widthofd5519e86bd5eb59652cefaa9c90e7942fcc0edb1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 3\)}}%
-\immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 3\)}}%
-\immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -67,6 +43,32 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigBJDWooWkSKfUPICTBJDWooWkSKfU.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigBJDWooWkSKfUPICTBJDWooWkSKfU.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 1\)}}%
+\immediate\write\writeOfphystricks{totalheightof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 1\)}}%
+\immediate\write\writeOfphystricks{widthof65c0a1b4e2aacca9c571a4983a915c2f76a5e550:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\ldots}}%
+\immediate\write\writeOfphystricks{totalheightof908c2f8e0e2aa96db646337f6a92f5762f919565:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\ldots}}%
+\immediate\write\writeOfphystricks{widthof908c2f8e0e2aa96db646337f6a92f5762f919565:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(2\)}}%
+\immediate\write\writeOfphystricks{totalheightofd5519e86bd5eb59652cefaa9c90e7942fcc0edb1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(2\)}}%
+\immediate\write\writeOfphystricks{widthofd5519e86bd5eb59652cefaa9c90e7942fcc0edb1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 3\)}}%
+\immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 3\)}}%
+\immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigBJDWooWkSKfUPICTBJDWooWkSKfU}
@@ -119,13 +121,9 @@
 \draw [] (1.35,1.00) -- (1.35,1.50);
 
 \draw (0.4500000000,-0.2500000000) node {\( 1\)};
-\draw (0.4500000000,-0.2500000000) node {\( 1\)};
-\draw (3.150000000,-0.2500000000) node {\( 3\)};
 \draw (3.150000000,-0.2500000000) node {\( 3\)};
 
 \draw (2.250000000,-0.2500000000) node {\(2\)};
-\draw (2.250000000,-0.2500000000) node {\(2\)};
-\draw (1.350000000,-0.2500000000) node {\ldots};
 \draw (1.350000000,-0.2500000000) node {\ldots};
 
 %END PSPICTURE

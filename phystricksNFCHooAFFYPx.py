@@ -7,7 +7,6 @@ def NFCHooAFFYPx():
     pspict,fig = SinglePicture("NFCHooAFFYPx")
     pspict.dilatation(0.61)
 
-
     l=3
     perspective=ObliqueProjection(30,0.5)
     cube=perspective.cuboid((0,0),l,l,l)

@@ -6,61 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigGrandeBinomialeIyWAIh.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 10 $}}%
-\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 10 $}}%
-\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 20 $}}%
-\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 20 $}}%
-\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 30 $}}%
-\immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 30 $}}%
-\immediate\write\writeOfphystricks{widthof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 40 $}}%
-\immediate\write\writeOfphystricks{totalheightofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 40 $}}%
-\immediate\write\writeOfphystricks{widthofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{1}{20} $}}%
-\immediate\write\writeOfphystricks{totalheightof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{1}{20} $}}%
-\immediate\write\writeOfphystricks{widthof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{1}{10} $}}%
-\immediate\write\writeOfphystricks{totalheightof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{1}{10} $}}%
-\immediate\write\writeOfphystricks{widthof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{3}{20} $}}%
-\immediate\write\writeOfphystricks{totalheightofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{3}{20} $}}%
-\immediate\write\writeOfphystricks{widthofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 50 $}}%
-\immediate\write\writeOfphystricks{totalheightof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 50 $}}%
-\immediate\write\writeOfphystricks{widthof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 60 $}}%
-\immediate\write\writeOfphystricks{totalheightof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 60 $}}%
-\immediate\write\writeOfphystricks{widthof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 70 $}}%
-\immediate\write\writeOfphystricks{totalheightofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 70 $}}%
-\immediate\write\writeOfphystricks{widthofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 80 $}}%
-\immediate\write\writeOfphystricks{totalheightof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 80 $}}%
-\immediate\write\writeOfphystricks{widthof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
 %BEFORE SUBFIGURES
 \begin{figure}[ht]
@@ -74,6 +19,41 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfhomemokyDOTSagesrcbinsageipython}}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh0PICTGrandeBinomialeIyWAIhpspict0.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 10 $}}%
+\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 10 $}}%
+\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 20 $}}%
+\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 20 $}}%
+\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 30 $}}%
+\immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 30 $}}%
+\immediate\write\writeOfphystricks{widthof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 40 $}}%
+\immediate\write\writeOfphystricks{totalheightofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 40 $}}%
+\immediate\write\writeOfphystricks{widthofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{widthof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{totalheightof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{widthof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{3}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{3}{20} $}}%
+\immediate\write\writeOfphystricks{widthofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh0PICTGrandeBinomialeIyWAIhpspict0}
@@ -81,20 +61,20 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.100000000,-0.3259458333) node { $ 10 $ };
+\draw (1.100000000,-0.3060263328) node {$ 10 $};
 \draw [] (1.10,-0.100) -- (1.10,0.100);
-\draw (2.200000000,-0.3259458333) node { $ 20 $ };
+\draw (2.200000000,-0.3060263328) node {$ 20 $};
 \draw [] (2.20,-0.100) -- (2.20,0.100);
-\draw (3.300000000,-0.3259458333) node { $ 30 $ };
+\draw (3.300000000,-0.3060263328) node {$ 30 $};
 \draw [] (3.30,-0.100) -- (3.30,0.100);
-\draw (4.400000000,-0.3259458333) node { $ 40 $ };
+\draw (4.400000000,-0.3060263328) node {$ 40 $};
 \draw [] (4.40,-0.100) -- (4.40,0.100);
 \draw [,->,>=latex] (0,0) -- (4.900000000,0);
-\draw (-0.3816666667,1.750000000) node { $ \frac{1}{20} $ };
+\draw (-0.3728663333,1.750000000) node {$ \frac{1}{20} $};
 \draw [] (-0.100,1.75) -- (0.100,1.75);
-\draw (-0.3816666667,3.500000000) node { $ \frac{1}{10} $ };
+\draw (-0.3728663333,3.500000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,3.50) -- (0.100,3.50);
-\draw (-0.3816666667,5.250000000) node { $ \frac{3}{20} $ };
+\draw (-0.3728663333,5.250000000) node {$ \frac{3}{20} $};
 \draw [] (-0.100,5.25) -- (0.100,5.25);
 \draw [,->,>=latex] (0,0) -- (0,5.552752122);
 %DEFAULT
@@ -139,6 +119,7 @@
 \draw [color=blue] (4.18,0) -- (4.18,0);
 \draw [color=blue] (4.29,0) -- (4.29,0);
 \draw [color=blue] (4.40,0) -- (4.40,0);
+
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -154,6 +135,53 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfhomemokyDOTSagesrcbinsageipython}}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh1PICTGrandeBinomialeIyWAIhpspict1.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 10 $}}%
+\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 10 $}}%
+\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 20 $}}%
+\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 20 $}}%
+\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 30 $}}%
+\immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 30 $}}%
+\immediate\write\writeOfphystricks{widthof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 40 $}}%
+\immediate\write\writeOfphystricks{totalheightofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 40 $}}%
+\immediate\write\writeOfphystricks{widthofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 50 $}}%
+\immediate\write\writeOfphystricks{totalheightof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 50 $}}%
+\immediate\write\writeOfphystricks{widthof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 60 $}}%
+\immediate\write\writeOfphystricks{totalheightof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 60 $}}%
+\immediate\write\writeOfphystricks{widthof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 70 $}}%
+\immediate\write\writeOfphystricks{totalheightofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 70 $}}%
+\immediate\write\writeOfphystricks{widthofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 80 $}}%
+\immediate\write\writeOfphystricks{totalheightof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 80 $}}%
+\immediate\write\writeOfphystricks{widthof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{widthof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{totalheightof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{widthof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh1PICTGrandeBinomialeIyWAIhpspict1}
@@ -161,26 +189,26 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.100000000,-0.3259458333) node { $ 10 $ };
+\draw (1.100000000,-0.3060263328) node {$ 10 $};
 \draw [] (1.10,-0.100) -- (1.10,0.100);
-\draw (2.200000000,-0.3259458333) node { $ 20 $ };
+\draw (2.200000000,-0.3060263328) node {$ 20 $};
 \draw [] (2.20,-0.100) -- (2.20,0.100);
-\draw (3.300000000,-0.3259458333) node { $ 30 $ };
+\draw (3.300000000,-0.3060263328) node {$ 30 $};
 \draw [] (3.30,-0.100) -- (3.30,0.100);
-\draw (4.400000000,-0.3259458333) node { $ 40 $ };
+\draw (4.400000000,-0.3060263328) node {$ 40 $};
 \draw [] (4.40,-0.100) -- (4.40,0.100);
-\draw (5.500000000,-0.3259458333) node { $ 50 $ };
+\draw (5.500000000,-0.3060263328) node {$ 50 $};
 \draw [] (5.50,-0.100) -- (5.50,0.100);
-\draw (6.600000000,-0.3259458333) node { $ 60 $ };
+\draw (6.600000000,-0.3060263328) node {$ 60 $};
 \draw [] (6.60,-0.100) -- (6.60,0.100);
-\draw (7.700000000,-0.3259458333) node { $ 70 $ };
+\draw (7.700000000,-0.3060263328) node {$ 70 $};
 \draw [] (7.70,-0.100) -- (7.70,0.100);
-\draw (8.800000000,-0.3259458333) node { $ 80 $ };
+\draw (8.800000000,-0.3060263328) node {$ 80 $};
 \draw [] (8.80,-0.100) -- (8.80,0.100);
 \draw [,->,>=latex] (0,0) -- (9.300000000,0);
-\draw (-0.3816666667,1.750000000) node { $ \frac{1}{20} $ };
+\draw (-0.3728663333,1.750000000) node {$ \frac{1}{20} $};
 \draw [] (-0.100,1.75) -- (0.100,1.75);
-\draw (-0.3816666667,3.500000000) node { $ \frac{1}{10} $ };
+\draw (-0.3728663333,3.500000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,3.50) -- (0.100,3.50);
 \draw [,->,>=latex] (0,0) -- (0,4.088990242);
 %DEFAULT
@@ -265,6 +293,7 @@
 \draw [color=blue] (8.58,0) -- (8.58,0);
 \draw [color=blue] (8.69,0) -- (8.69,0);
 \draw [color=blue] (8.80,0) -- (8.80,0);
+
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -280,6 +309,41 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfhomemokyDOTSagesrcbinsageipython}}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh2PICTGrandeBinomialeIyWAIhpspict2.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 10 $}}%
+\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 10 $}}%
+\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 20 $}}%
+\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 20 $}}%
+\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 30 $}}%
+\immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 30 $}}%
+\immediate\write\writeOfphystricks{widthof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 40 $}}%
+\immediate\write\writeOfphystricks{totalheightofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 40 $}}%
+\immediate\write\writeOfphystricks{widthofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{widthof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{totalheightof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{widthof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{3}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{3}{20} $}}%
+\immediate\write\writeOfphystricks{widthofbf872c663b4ee047b0aac5b8413e53a7779442f7:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh2PICTGrandeBinomialeIyWAIhpspict2}
@@ -287,20 +351,20 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.100000000,-0.3259458333) node { $ 10 $ };
+\draw (1.100000000,-0.3060263328) node {$ 10 $};
 \draw [] (1.10,-0.100) -- (1.10,0.100);
-\draw (2.200000000,-0.3259458333) node { $ 20 $ };
+\draw (2.200000000,-0.3060263328) node {$ 20 $};
 \draw [] (2.20,-0.100) -- (2.20,0.100);
-\draw (3.300000000,-0.3259458333) node { $ 30 $ };
+\draw (3.300000000,-0.3060263328) node {$ 30 $};
 \draw [] (3.30,-0.100) -- (3.30,0.100);
-\draw (4.400000000,-0.3259458333) node { $ 40 $ };
+\draw (4.400000000,-0.3060263328) node {$ 40 $};
 \draw [] (4.40,-0.100) -- (4.40,0.100);
 \draw [,->,>=latex] (0,0) -- (4.900000000,0);
-\draw (-0.3816666667,1.750000000) node { $ \frac{1}{20} $ };
+\draw (-0.3728663333,1.750000000) node {$ \frac{1}{20} $};
 \draw [] (-0.100,1.75) -- (0.100,1.75);
-\draw (-0.3816666667,3.500000000) node { $ \frac{1}{10} $ };
+\draw (-0.3728663333,3.500000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,3.50) -- (0.100,3.50);
-\draw (-0.3816666667,5.250000000) node { $ \frac{3}{20} $ };
+\draw (-0.3728663333,5.250000000) node {$ \frac{3}{20} $};
 \draw [] (-0.100,5.25) -- (0.100,5.25);
 \draw [,->,>=latex] (0,0) -- (0,6.595467790);
 %DEFAULT
@@ -345,6 +409,7 @@
 \draw [color=blue] (4.18,0) -- (4.18,1.28);
 \draw [color=blue] (4.29,0) -- (4.29,0.371);
 \draw [color=blue] (4.40,0) -- (4.40,0.0526);
+
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -360,6 +425,53 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfhomemokyDOTSagesrcbinsageipython}}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh3PICTGrandeBinomialeIyWAIhpspict3.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 10 $}}%
+\immediate\write\writeOfphystricks{totalheightof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 10 $}}%
+\immediate\write\writeOfphystricks{widthof902318d9c7629defaae66e39a0ca685851165746:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 20 $}}%
+\immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 20 $}}%
+\immediate\write\writeOfphystricks{widthofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 30 $}}%
+\immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 30 $}}%
+\immediate\write\writeOfphystricks{widthof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 40 $}}%
+\immediate\write\writeOfphystricks{totalheightofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 40 $}}%
+\immediate\write\writeOfphystricks{widthofd308d539612aa3213069b28f90792e714798bd67:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 50 $}}%
+\immediate\write\writeOfphystricks{totalheightof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 50 $}}%
+\immediate\write\writeOfphystricks{widthof167cc29224b7ebb057f8a4a2b4530af2195e4158:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 60 $}}%
+\immediate\write\writeOfphystricks{totalheightof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 60 $}}%
+\immediate\write\writeOfphystricks{widthof47ab44571e7f8acc79cdfdbcb48c48ccb60a0f14:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 70 $}}%
+\immediate\write\writeOfphystricks{totalheightofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 70 $}}%
+\immediate\write\writeOfphystricks{widthofcf99f8fba883750224b968f8ed4e82266aaf4c1e:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ 80 $}}%
+\immediate\write\writeOfphystricks{totalheightof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ 80 $}}%
+\immediate\write\writeOfphystricks{widthof845a5163ef146e7f6c2952bee068ac69a4947377:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{totalheightof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{20} $}}%
+\immediate\write\writeOfphystricks{widthof51f58884498467e689f7aead9f73c2bc5260b5c1:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{totalheightof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{$ \frac{1}{10} $}}%
+\immediate\write\writeOfphystricks{widthof47af83b6fa6e2e1ae46fdc39b11174de55e68087:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigGrandeBinomialeIyWAIhssLabelSubFigGrandeBinomialeIyWAIh3PICTGrandeBinomialeIyWAIhpspict3}
@@ -367,26 +479,26 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (1.100000000,-0.3259458333) node { $ 10 $ };
+\draw (1.100000000,-0.3060263328) node {$ 10 $};
 \draw [] (1.10,-0.100) -- (1.10,0.100);
-\draw (2.200000000,-0.3259458333) node { $ 20 $ };
+\draw (2.200000000,-0.3060263328) node {$ 20 $};
 \draw [] (2.20,-0.100) -- (2.20,0.100);
-\draw (3.300000000,-0.3259458333) node { $ 30 $ };
+\draw (3.300000000,-0.3060263328) node {$ 30 $};
 \draw [] (3.30,-0.100) -- (3.30,0.100);
-\draw (4.400000000,-0.3259458333) node { $ 40 $ };
+\draw (4.400000000,-0.3060263328) node {$ 40 $};
 \draw [] (4.40,-0.100) -- (4.40,0.100);
-\draw (5.500000000,-0.3259458333) node { $ 50 $ };
+\draw (5.500000000,-0.3060263328) node {$ 50 $};
 \draw [] (5.50,-0.100) -- (5.50,0.100);
-\draw (6.600000000,-0.3259458333) node { $ 60 $ };
+\draw (6.600000000,-0.3060263328) node {$ 60 $};
 \draw [] (6.60,-0.100) -- (6.60,0.100);
-\draw (7.700000000,-0.3259458333) node { $ 70 $ };
+\draw (7.700000000,-0.3060263328) node {$ 70 $};
 \draw [] (7.70,-0.100) -- (7.70,0.100);
-\draw (8.800000000,-0.3259458333) node { $ 80 $ };
+\draw (8.800000000,-0.3060263328) node {$ 80 $};
 \draw [] (8.80,-0.100) -- (8.80,0.100);
 \draw [,->,>=latex] (0,0) -- (9.300000000,0);
-\draw (-0.3816666667,1.750000000) node { $ \frac{1}{20} $ };
+\draw (-0.3728663333,1.750000000) node {$ \frac{1}{20} $};
 \draw [] (-0.100,1.75) -- (0.100,1.75);
-\draw (-0.3816666667,3.500000000) node { $ \frac{1}{10} $ };
+\draw (-0.3728663333,3.500000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,3.50) -- (0.100,3.50);
 \draw [,->,>=latex] (0,0) -- (0,4.840931724);
 %DEFAULT
@@ -471,6 +583,7 @@
 \draw [color=blue] (8.58,0) -- (8.58,0.00777);
 \draw [color=blue] (8.69,0) -- (8.69,0.00112);
 \draw [color=blue] (8.80,0) -- (8.80,0);
+
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

@@ -51,8 +51,8 @@ def EIHJooJrGgmN():
     d1=Segment(S1,T)
     d2=Segment(S2,R)
 
-    cer1=Circle(   T,  d1.length() )
-    cer2=Circle(R,d2.length())
+    cer1=Circle(   T,  d1.length )
+    cer2=Circle(R,d2.length)
     S3=Intersection(cer1,cer2)[0]
 
     d3=Segment(R,S3)

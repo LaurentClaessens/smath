@@ -25,11 +25,11 @@ def CVKooPKKMNG():
     for p in trig.vertices:
         p.parameters.symbol=""
 
-    a1=Angle(C,B,A,r=0.5)
-    a3=Angle(A,C,B,r=0.5)
+    a1=AngleAOB(C,B,A,r=0.5)
+    a3=AngleAOB(A,C,B,r=0.5)
 
-    a1.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict,position="center")
-    a3.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict,position="center")
+    a1.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict)
+    a3.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,s1,s2,trig,a1,a3)
     fig.no_figure()

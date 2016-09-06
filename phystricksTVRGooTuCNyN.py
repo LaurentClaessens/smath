@@ -18,11 +18,10 @@ def TVRGooTuCNyN():
     J=Intersection( s2,Segment(I,P) )[0]
     t=Segment(I,J).dilatation(1.7)
 
-    a1=Angle( t.I,I,B )
-    a2=Angle(C,J,I)
+    a1=AngleAOB( t.I,I,B )
+    a2=AngleAOB(C,J,I)
     a1.put_mark(0.4,None,"\SI{28}{\degree}",pspict=pspict)
     a2.put_mark(0.4,None,"\SI{132}{\degree}",pspict=pspict)
-
 
     pspict.DrawGraphs(s1,s2,t,a1,a2)
     fig.no_figure()

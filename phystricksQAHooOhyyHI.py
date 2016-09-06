@@ -25,12 +25,12 @@ def QAHooOhyyHI():
     G.put_mark(0.2,-45,"\( G\)",pspict=pspicts,position="corner")
     H.put_mark(0.2,45,"\( H\)",pspict=pspicts,position="corner")
 
-    qcangle=Angle(H,G,F)
-    a1=Angle(G,F,H)
-    a2=Angle(F,H,G)
-    qcangle.put_mark(0.2,None,"\( 45\)",pspict=pspicts,position="corner")
-    a1.put_mark(0.1,None,"\( 78\)",pspict=pspicts,position="corner")
-    a2.put_mark(0.1,None,"\( 57\)",pspict=pspicts,position="corner")
+    qcangle=AngleAOB(H,G,F)
+    a1=AngleAOB(G,F,H)
+    a2=AngleAOB(F,H,G)
+    qcangle.put_mark(0.2,None,"\( 45\)",pspict=pspicts)
+    a1.put_mark(0.1,None,"\( 78\)",pspict=pspicts)
+    a2.put_mark(0.1,None,"\( 57\)",pspict=pspicts)
     
     pspicts[0].DrawGraphs(F,G,FG,seg,qcangle)
     pspicts[1].DrawGraphs(F,G,H,seg,triangle,qcangle)

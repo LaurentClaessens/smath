@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigSWYDooBCeFJb.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 13\)}}%
-\immediate\write\writeOfphystricks{totalheightof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 13\)}}%
-\immediate\write\writeOfphystricks{widthof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 84\)}}%
-\immediate\write\writeOfphystricks{totalheightof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 84\)}}%
-\immediate\write\writeOfphystricks{widthof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 85\)}}%
-\immediate\write\writeOfphystricks{totalheightof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 85\)}}%
-\immediate\write\writeOfphystricks{widthof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,6 +43,28 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigSWYDooBCeFJbPICTSWYDooBCeFJb.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigSWYDooBCeFJbPICTSWYDooBCeFJb.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 13\)}}%
+\immediate\write\writeOfphystricks{totalheightof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 13\)}}%
+\immediate\write\writeOfphystricks{widthof8d388e3240c61aed2313186466eea130b428e139:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 84\)}}%
+\immediate\write\writeOfphystricks{totalheightof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 84\)}}%
+\immediate\write\writeOfphystricks{widthof06114bbc56dd95de73505552d2692b8ffc27668a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 85\)}}%
+\immediate\write\writeOfphystricks{totalheightof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 85\)}}%
+\immediate\write\writeOfphystricks{widthof512eb49425184e84fad0c9e9ec247ae0b7ac2325:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigSWYDooBCeFJbPICTSWYDooBCeFJb}
@@ -73,14 +75,11 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw [] (4.00,2.00) -- (4.00,0);
-\draw (4.200000000,1.000000000) node {\( 13\)};
-\draw (4.200000000,1.000000000) node {\( 13\)};
+\draw (4.395832833,1.125945833) node {\( 13\)};
 \draw [] (4.00,0) -- (0,0);
-\draw (2.000000000,-0.2000000000) node {\( 84\)};
-\draw (2.000000000,-0.2000000000) node {\( 84\)};
+\draw (2.000000000,-0.3259458333) node {\( 84\)};
 \draw [] (0,0) -- (4.00,2.00);
-\draw (1.910557281,1.178885438) node {\( 85\)};
-\draw (1.910557281,1.178885438) node {\( 85\)};
+\draw (1.714724448,1.304831272) node {\( 85\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

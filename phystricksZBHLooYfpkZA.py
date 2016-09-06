@@ -14,7 +14,7 @@ def ZBHLooYfpkZA():
     rect.make_edges_independent()
 
     a20=AngleAOB(C,D,B,r=0.9)
-    a20.put_mark(0.6,angle=2,added_angle=0,text="\SI{25}{\degree}",pspict=pspict,position="corner")
+    a20.put_mark(0.6,angle=2,added_angle=0,text="\SI{25}{\degree}",pspict=pspict)
 
     ai1=AngleAOB(D,B,C)
     ai2=AngleAOB(B,D,A)

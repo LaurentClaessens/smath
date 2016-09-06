@@ -36,9 +36,9 @@ def JYAKooXjBUpt():
     face3=Polygon(A,B,M2,L2)
 
     print(u"Les trois nombres suivants doivent être ",h)
-    print( numerical_approx( Segment(C,K1).length()  ))
-    print(  numerical_approx(Segment(C,K2).length()  ))
-    print(  numerical_approx(Segment(B,M2).length()  ))
+    print( numerical_approx( Segment(C,K1).length  ))
+    print(  numerical_approx(Segment(C,K2).length  ))
+    print(  numerical_approx(Segment(B,M2).length  ))
 
     face1.parameters.color='red'
     face2.parameters.color='blue'

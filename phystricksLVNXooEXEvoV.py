@@ -22,7 +22,7 @@ def LVNXooEXEvoV():
     
     # Première figure
     med1=triangles[0].edges[0].bisector(code=(1,0.2,0.3,45,pspicts))
-    pspicts[0].DrawGraphs(med1.added_objects)
+    pspicts[0].DrawGraphs(med1.added_objects[pspicts[0]])
     med1=med1+Vector(0,-0.5)
     rh=RightAngle(triangles[0].edges[0],med1,1,0)
     pspicts[0].DrawGraphs(med1,rh)
@@ -59,11 +59,11 @@ def LVNXooEXEvoV():
     bis=cot.bisector(code=(1,0.2,0.3,45,pspicts))
     line=cot.orthogonal_trough(P).dilatation(1.3)
     rh=RightAngle(line,cot,0,0)
-    pspicts[4].DrawGraphs(bis.added_objects,line,rh)
+    pspicts[4].DrawGraphs(bis.added_objects[pspicts[4]],line,rh)
 
     for i,pspict in enumerate(pspicts):
         pspict.DrawGraphs(triangles[i])
-        pspict.comment="Il y a des codages de bisectrices ou un truc du genre à vérifier"
+        pspict.comment="Il y a des codages de bissectrices ou un truc du genre à vérifier"
     
     for fig in figs :
         fig.no_figure()

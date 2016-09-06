@@ -6,14 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigBPZooBCyuyK.phystricks.aux%
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -51,6 +43,16 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigBPZooBCyuyKPICTBPZooBCyuyK.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigBPZooBCyuyKPICTBPZooBCyuyK.phystricks.aux%
+%WRITE_AND_LABEL
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigBPZooBCyuyKPICTBPZooBCyuyK}
@@ -60,65 +62,53 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\fill [color=lightgray] (0,1.00) -- (1.00,1.00) -- (1.00,1.00) -- (1.00,0) -- (1.00,0) -- (0,0) -- (0,0) -- (0,1.00) --  cycle;
+\draw [] (0,0) -- (1.00,0);
 \draw [] (0,1.00) -- (1.00,1.00);
-\draw [] (1.00,1.00) -- (1.00,0);
-\draw [] (1.00,0) -- (0,0);
-\draw [] (0,0) -- (0,1.00);
-\fill [color=lightgray] (0,4.00) -- (1.00,4.00) -- (1.00,4.00) -- (1.00,3.00) -- (1.00,3.00) -- (0,3.00) -- (0,3.00) -- (0,4.00) --  cycle;
-\draw [] (0,4.00) -- (1.00,4.00);
-\draw [] (1.00,4.00) -- (1.00,3.00);
-\draw [] (1.00,3.00) -- (0,3.00);
-\draw [] (0,3.00) -- (0,4.00);
-\fill [color=lightgray] (1.00,1.00) -- (2.00,1.00) -- (2.00,1.00) -- (2.00,0) -- (2.00,0) -- (1.00,0) -- (1.00,0) -- (1.00,1.00) --  cycle;
-\draw [] (1.00,1.00) -- (2.00,1.00);
-\draw [] (2.00,1.00) -- (2.00,0);
-\draw [] (2.00,0) -- (1.00,0);
 \draw [] (1.00,0) -- (1.00,1.00);
-\fill [color=lightgray] (1.00,4.00) -- (2.00,4.00) -- (2.00,4.00) -- (2.00,3.00) -- (2.00,3.00) -- (1.00,3.00) -- (1.00,3.00) -- (1.00,4.00) --  cycle;
-\draw [] (1.00,4.00) -- (2.00,4.00);
-\draw [] (2.00,4.00) -- (2.00,3.00);
-\draw [] (2.00,3.00) -- (1.00,3.00);
-\draw [] (1.00,3.00) -- (1.00,4.00);
-\fill [color=lightgray] (2.00,1.00) -- (3.00,1.00) -- (3.00,1.00) -- (3.00,0) -- (3.00,0) -- (2.00,0) -- (2.00,0) -- (2.00,1.00) --  cycle;
-\draw [] (2.00,1.00) -- (3.00,1.00);
-\draw [] (3.00,1.00) -- (3.00,0);
-\draw [] (3.00,0) -- (2.00,0);
-\draw [] (2.00,0) -- (2.00,1.00);
-\fill [color=lightgray] (2.00,4.00) -- (3.00,4.00) -- (3.00,4.00) -- (3.00,3.00) -- (3.00,3.00) -- (2.00,3.00) -- (2.00,3.00) -- (2.00,4.00) --  cycle;
-\draw [] (2.00,4.00) -- (3.00,4.00);
-\draw [] (3.00,4.00) -- (3.00,3.00);
-\draw [] (3.00,3.00) -- (2.00,3.00);
-\draw [] (2.00,3.00) -- (2.00,4.00);
-\fill [color=lightgray] (3.00,1.00) -- (4.00,1.00) -- (4.00,1.00) -- (4.00,0) -- (4.00,0) -- (3.00,0) -- (3.00,0) -- (3.00,1.00) --  cycle;
-\draw [] (3.00,1.00) -- (4.00,1.00);
-\draw [] (4.00,1.00) -- (4.00,0);
-\draw [] (4.00,0) -- (3.00,0);
-\draw [] (3.00,0) -- (3.00,1.00);
-\fill [color=lightgray] (3.00,4.00) -- (4.00,4.00) -- (4.00,4.00) -- (4.00,3.00) -- (4.00,3.00) -- (3.00,3.00) -- (3.00,3.00) -- (3.00,4.00) --  cycle;
-\draw [] (3.00,4.00) -- (4.00,4.00);
-\draw [] (4.00,4.00) -- (4.00,3.00);
-\draw [] (4.00,3.00) -- (3.00,3.00);
-\draw [] (3.00,3.00) -- (3.00,4.00);
-\fill [color=lightgray] (0,2.00) -- (1.00,2.00) -- (1.00,2.00) -- (1.00,1.00) -- (1.00,1.00) -- (0,1.00) -- (0,1.00) -- (0,2.00) --  cycle;
-\draw [] (0,2.00) -- (1.00,2.00);
-\draw [] (1.00,2.00) -- (1.00,1.00);
-\draw [] (1.00,1.00) -- (0,1.00);
-\draw [] (0,1.00) -- (0,2.00);
-\fill [color=lightgray] (3.00,2.00) -- (4.00,2.00) -- (4.00,2.00) -- (4.00,1.00) -- (4.00,1.00) -- (3.00,1.00) -- (3.00,1.00) -- (3.00,2.00) --  cycle;
-\draw [] (3.00,2.00) -- (4.00,2.00);
-\draw [] (4.00,2.00) -- (4.00,1.00);
-\draw [] (4.00,1.00) -- (3.00,1.00);
-\draw [] (3.00,1.00) -- (3.00,2.00);
-\fill [color=lightgray] (0,3.00) -- (1.00,3.00) -- (1.00,3.00) -- (1.00,2.00) -- (1.00,2.00) -- (0,2.00) -- (0,2.00) -- (0,3.00) --  cycle;
+\draw [] (0,0) -- (0,1.00);
 \draw [] (0,3.00) -- (1.00,3.00);
-\draw [] (1.00,3.00) -- (1.00,2.00);
-\draw [] (1.00,2.00) -- (0,2.00);
-\draw [] (0,2.00) -- (0,3.00);
-\fill [color=lightgray] (3.00,3.00) -- (4.00,3.00) -- (4.00,3.00) -- (4.00,2.00) -- (4.00,2.00) -- (3.00,2.00) -- (3.00,2.00) -- (3.00,3.00) --  cycle;
+\draw [] (0,4.00) -- (1.00,4.00);
+\draw [] (1.00,3.00) -- (1.00,4.00);
+\draw [] (0,3.00) -- (0,4.00);
+\draw [] (1.00,0) -- (2.00,0);
+\draw [] (1.00,1.00) -- (2.00,1.00);
+\draw [] (2.00,0) -- (2.00,1.00);
+\draw [] (1.00,0) -- (1.00,1.00);
+\draw [] (1.00,3.00) -- (2.00,3.00);
+\draw [] (1.00,4.00) -- (2.00,4.00);
+\draw [] (2.00,3.00) -- (2.00,4.00);
+\draw [] (1.00,3.00) -- (1.00,4.00);
+\draw [] (2.00,0) -- (3.00,0);
+\draw [] (2.00,1.00) -- (3.00,1.00);
+\draw [] (3.00,0) -- (3.00,1.00);
+\draw [] (2.00,0) -- (2.00,1.00);
+\draw [] (2.00,3.00) -- (3.00,3.00);
+\draw [] (2.00,4.00) -- (3.00,4.00);
+\draw [] (3.00,3.00) -- (3.00,4.00);
+\draw [] (2.00,3.00) -- (2.00,4.00);
+\draw [] (3.00,0) -- (4.00,0);
+\draw [] (3.00,1.00) -- (4.00,1.00);
+\draw [] (4.00,0) -- (4.00,1.00);
+\draw [] (3.00,0) -- (3.00,1.00);
 \draw [] (3.00,3.00) -- (4.00,3.00);
-\draw [] (4.00,3.00) -- (4.00,2.00);
-\draw [] (4.00,2.00) -- (3.00,2.00);
+\draw [] (3.00,4.00) -- (4.00,4.00);
+\draw [] (4.00,3.00) -- (4.00,4.00);
+\draw [] (3.00,3.00) -- (3.00,4.00);
+\draw [] (0,1.00) -- (1.00,1.00);
+\draw [] (0,2.00) -- (1.00,2.00);
+\draw [] (1.00,1.00) -- (1.00,2.00);
+\draw [] (0,1.00) -- (0,2.00);
+\draw [] (3.00,1.00) -- (4.00,1.00);
+\draw [] (3.00,2.00) -- (4.00,2.00);
+\draw [] (4.00,1.00) -- (4.00,2.00);
+\draw [] (3.00,1.00) -- (3.00,2.00);
+\draw [] (0,2.00) -- (1.00,2.00);
+\draw [] (0,3.00) -- (1.00,3.00);
+\draw [] (1.00,2.00) -- (1.00,3.00);
+\draw [] (0,2.00) -- (0,3.00);
+\draw [] (3.00,2.00) -- (4.00,2.00);
+\draw [] (3.00,3.00) -- (4.00,3.00);
+\draw [] (4.00,2.00) -- (4.00,3.00);
 \draw [] (3.00,2.00) -- (3.00,3.00);
 %END PSPICTURE
 \end{tikzpicture}

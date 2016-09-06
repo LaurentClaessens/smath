@@ -6,8 +6,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 
-
-
 \usepackage{ifthen}
 \usepackage{latexsym}
 \usepackage{amsfonts}
@@ -16,7 +14,8 @@
 \usepackage{amssymb}
 \usepackage{mathtools}   % mathtools doit être chargé avant mathabx sous peine de faire sérieusement foirer \underbrace.
 \mathtoolsset{showonlyrefs}
-\usepackage{mathabx}           % Pour \divides et widehat
+
+
 \usepackage{bbm}
 \usepackage{framed} % pour oframed
 \usepackage{wrapfig}
@@ -31,7 +30,12 @@
 \usepackage{multicol}
 \usepackage[all]{xy}
 
-\usepackage[cdot,thinqspace,amssymb]{SIunits}    %   1410612643
+
+\usepackage{mathabx}           % Pour \divides et widehat
+\let\second\undefined       % mathabx already defines 'second' and 'degree'
+\let\degree\undefined
+\usepackage[cdot,thinqspace,amssymb,binary]{SIunits}    %   1410612643
+
 
 \usepackage[nottoc]{tocbibind}
 \usepackage[numbers]{natbib}
@@ -76,7 +80,7 @@ filecolor=magenta   % couleur des textes qui sont des liens
 % un peu utilisé avant d'abandonner.
 \newcommand{\SI}[2]{\unit{#1}{#2}}
 \newcommand{\si}[1]{#1}
-\DeclareSIUnit[number-unit-product = {\,}]\cal{cal}           
+%\DeclareSIUnit[number-unit-product = {\,}]\cal{cal}           
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%

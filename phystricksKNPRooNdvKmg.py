@@ -16,7 +16,7 @@ def KNPRooNdvKmg():
     s3=Segment(I,J).dilatation(1.7)
 
     a1=Angle(s2.F,J,s3.I,0.3)
-    a1.put_mark(0.3,None,"{\small\SI{120}{\degree}}",pspict=pspict,position="center")
+    a1.put_mark(0.3,None,"{\small\SI{120}{\degree}}",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,s3,a1)
     fig.no_figure()

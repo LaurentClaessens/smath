@@ -7,38 +7,6 @@
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
 \makeatletter\@ifundefined{vect}{\newcommand{\vect}[1]{\overrightarrow{#1}}}{}\makeatother
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigGTyQVvw.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( N\)}}%
-\immediate\write\writeOfphystricks{totalheightof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( N\)}}%
-\immediate\write\writeOfphystricks{widthof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
-\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L\)}}%
-\immediate\write\writeOfphystricks{totalheightofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L\)}}%
-\immediate\write\writeOfphystricks{widthofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{totalheightof9487d29e3c8d899a40649d368a0ade5433024439:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{widthof9487d29e3c8d899a40649d368a0ade5433024439:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -76,47 +44,80 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigGTyQVvwPICTGTyQVvw.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigGTyQVvwPICTGTyQVvw.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( N\)}}%
+\immediate\write\writeOfphystricks{totalheightof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( N\)}}%
+\immediate\write\writeOfphystricks{widthof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
+\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L\)}}%
+\immediate\write\writeOfphystricks{totalheightofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L\)}}%
+\immediate\write\writeOfphystricks{widthofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{totalheightof9487d29e3c8d899a40649d368a0ade5433024439:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{widthof9487d29e3c8d899a40649d368a0ade5433024439:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigGTyQVvwPICTGTyQVvw}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (0,0) -- (0,2.10);
-\draw [color=gray,style=solid] (0.700,0) -- (0.700,2.10);
-\draw [color=gray,style=solid] (1.40,0) -- (1.40,2.10);
-\draw [color=gray,style=solid] (2.10,0) -- (2.10,2.10);
-\draw [color=gray,style=solid] (2.80,0) -- (2.80,2.10);
-\draw [color=gray,style=dotted] (0.350,0) -- (0.350,2.10);
-\draw [color=gray,style=dotted] (1.05,0) -- (1.05,2.10);
-\draw [color=gray,style=dotted] (1.75,0) -- (1.75,2.10);
-\draw [color=gray,style=dotted] (2.45,0) -- (2.45,2.10);
+\draw [color=gray,style=solid] (0,-0.700) -- (0,2.80);
+\draw [color=gray,style=solid] (0.700,-0.700) -- (0.700,2.80);
+\draw [color=gray,style=solid] (1.40,-0.700) -- (1.40,2.80);
+\draw [color=gray,style=solid] (2.10,-0.700) -- (2.10,2.80);
+\draw [color=gray,style=solid] (2.80,-0.700) -- (2.80,2.80);
+\draw [color=gray,style=dotted] (0.350,-0.700) -- (0.350,2.80);
+\draw [color=gray,style=dotted] (1.05,-0.700) -- (1.05,2.80);
+\draw [color=gray,style=dotted] (1.75,-0.700) -- (1.75,2.80);
+\draw [color=gray,style=dotted] (2.45,-0.700) -- (2.45,2.80);
+\draw [color=gray,style=dotted] (0,-0.350) -- (2.80,-0.350);
 \draw [color=gray,style=dotted] (0,0.350) -- (2.80,0.350);
 \draw [color=gray,style=dotted] (0,1.05) -- (2.80,1.05);
 \draw [color=gray,style=dotted] (0,1.75) -- (2.80,1.75);
+\draw [color=gray,style=dotted] (0,2.45) -- (2.80,2.45);
+\draw [color=gray,style=solid] (0,-0.700) -- (2.80,-0.700);
 \draw [color=gray,style=solid] (0,0) -- (2.80,0);
 \draw [color=gray,style=solid] (0,0.700) -- (2.80,0.700);
 \draw [color=gray,style=solid] (0,1.40) -- (2.80,1.40);
 \draw [color=gray,style=solid] (0,2.10) -- (2.80,2.10);
+\draw [color=gray,style=solid] (0,2.80) -- (2.80,2.80);
 %DEFAULT
 \draw [,->,>=latex] (0,1.400000000) -- (0.7000000000,2.100000000);
-\draw (0.01606897710,2.029586190) node {\( \vect{ u }\)};
-\draw (0.01606897710,2.029586190) node {\( \vect{ u }\)};
+\draw (0.3660689771,2.379586190) node {\( \vect{ u }\)};
 \draw [,->,>=latex] (2.800000000,1.400000000) -- (2.100000000,0);
-\draw (2.821395105,0.4723924476) node {\( \vect{ v }\)};
-\draw (2.821395105,0.4723924476) node {\( \vect{ v }\)};
+\draw (2.471395105,-0.2276075524) node {\( \vect{ v }\)};
 \draw []  (2.100000000,2.100000000) node [rotate=0] {$\bullet$};
-\draw (2.451767356,2.378088023) node {\( M\)};
 \draw (2.451767356,2.378088023) node {\( M\)};
 \draw []  (2.100000000,1.400000000) node [rotate=0] {$\bullet$};
 \draw (2.419128856,1.678088023) node {\( N\)};
-\draw (2.419128856,1.678088023) node {\( N\)};
 \draw []  (0.7000000000,0.7000000000) node [rotate=0] {$\bullet$};
-\draw (1.022392190,0.9780880229) node {\( K\)};
 \draw (1.022392190,0.9780880229) node {\( K\)};
 \draw []  (0.7000000000,0) node [rotate=0] {$\bullet$};
 \draw (0.9746608562,0.2780880229) node {\( L\)};
-\draw (0.9746608562,0.2780880229) node {\( L\)};
+
 %AXES
 %OTHER STUFF
 %END PSPICTURE

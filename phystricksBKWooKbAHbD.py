@@ -8,7 +8,7 @@ def BKWooKbAHbD():
     B=Point(4,1)
     AB=Segment(A,B)
 
-    r=AB.length()*0.75
+    r=AB.length*0.75
     angle=AB.angle()*degree
 
     A.put_mark(0.2,AB.advised_mark_angle(pspict),"\( A\)",pspict=pspict,position="corner")

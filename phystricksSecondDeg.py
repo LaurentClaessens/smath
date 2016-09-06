@@ -22,15 +22,14 @@ def SecondDeg():
     G=g.graph(mx,Mx)
     H=h.graph(mx,Mx)
 
+    pspicts[0].DrawGraphs(F)
+    pspicts[1].DrawGraphs(G)
+    pspicts[2].DrawGraphs(H)
+
     for psp in pspicts:
         psp.axes.single_axeY.Dx=10
         psp.axes.single_axeX.Dx=2
         psp.DrawDefaultAxes()
         
-
-    pspicts[0].DrawGraphs(F)
-    pspicts[1].DrawGraphs(G)
-    pspicts[2].DrawGraphs(H)
-
     fig.conclude()
     fig.write_the_file()

@@ -6,46 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigLIWGooNsyZBz.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A \)}}%
-\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A \)}}%
-\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B \)}}%
-\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B \)}}%
-\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C \)}}%
-\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C \)}}%
-\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( D \)}}%
-\immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( D \)}}%
-\immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L\)}}%
-\immediate\write\writeOfphystricks{totalheightofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L\)}}%
-\immediate\write\writeOfphystricks{widthofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
-\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( E\)}}%
-\immediate\write\writeOfphystricks{totalheightof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( E\)}}%
-\immediate\write\writeOfphystricks{widthof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{80}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightof6a6ee4bc43abce0158c78a1db1c214805a6bdceb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{80}{\degree}}}%
-\immediate\write\writeOfphystricks{widthof6a6ee4bc43abce0158c78a1db1c214805a6bdceb:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -83,6 +43,48 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigLIWGooNsyZBzPICTLIWGooNsyZBz.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigLIWGooNsyZBzPICTLIWGooNsyZBz.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A \)}}%
+\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A \)}}%
+\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B \)}}%
+\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B \)}}%
+\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C \)}}%
+\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C \)}}%
+\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( D \)}}%
+\immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( D \)}}%
+\immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L\)}}%
+\immediate\write\writeOfphystricks{totalheightofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L\)}}%
+\immediate\write\writeOfphystricks{widthofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
+\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( E\)}}%
+\immediate\write\writeOfphystricks{totalheightof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( E\)}}%
+\immediate\write\writeOfphystricks{widthof7b6ceeaf41dfef942ba567e121d47034de830f71:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{80}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightof6a6ee4bc43abce0158c78a1db1c214805a6bdceb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{80}{\degree}}}%
+\immediate\write\writeOfphystricks{widthof6a6ee4bc43abce0158c78a1db1c214805a6bdceb:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigLIWGooNsyZBzPICTLIWGooNsyZBz}
@@ -94,12 +96,8 @@
 %DEFAULT
 
 \draw (-0.2828427125,-0.2828427125) node {\( A \)};
-\draw (-0.2828427125,-0.2828427125) node {\( A \)};
-\draw (6.282842712,-0.2828427125) node {\( B \)};
 \draw (6.282842712,-0.2828427125) node {\( B \)};
 \draw (6.282842712,6.282842712) node {\( C \)};
-\draw (6.282842712,6.282842712) node {\( C \)};
-\draw (-0.2828427125,6.282842712) node {\( D \)};
 \draw (-0.2828427125,6.282842712) node {\( D \)};
 \draw [] (0,0) -- (6.00,0);
 \draw [] (6.00,0) -- (6.00,6.00);
@@ -112,15 +110,12 @@
 \draw [] (0,0) -- (2.00,2.38);
 \draw [] (0.962,0.816) -- (0.910,1.41);
 \draw [] (1.09,0.969) -- (1.04,1.57);
-\draw (4.000000000,-0.4000000000) node {\( L\)};
-\draw (4.000000000,-0.4000000000) node {\( L\)};
-\draw (5.034597787,6.400000000) node {\( K\)};
-\draw (5.034597787,6.400000000) node {\( K\)};
-\draw (2.000000000,1.683507185) node {\SI{80}{\degree}};
+\draw (4.000000000,-0.6362055000) node {\( L\)};
+\draw (5.034597787,6.636205500) node {\( K\)};
+\draw (1.958033833,1.485714726) node {\SI{80}{\degree}};
 
-\draw [samples=100] (1.679,2.000)--(1.684,1.996)--(1.690,1.992)--(1.695,1.987)--(1.701,1.983)--(1.706,1.979)--(1.712,1.975)--(1.718,1.971)--(1.724,1.967)--(1.730,1.963)--(1.736,1.959)--(1.742,1.955)--(1.748,1.952)--(1.754,1.948)--(1.760,1.945)--(1.766,1.942)--(1.772,1.938)--(1.779,1.935)--(1.785,1.932)--(1.791,1.929)--(1.798,1.926)--(1.804,1.923)--(1.811,1.921)--(1.817,1.918)--(1.824,1.915)--(1.831,1.913)--(1.837,1.911)--(1.844,1.908)--(1.851,1.906)--(1.857,1.904)--(1.864,1.902)--(1.871,1.900)--(1.878,1.899)--(1.885,1.897)--(1.892,1.895)--(1.898,1.894)--(1.905,1.893)--(1.912,1.891)--(1.919,1.890)--(1.926,1.889)--(1.933,1.888)--(1.940,1.887)--(1.947,1.886)--(1.954,1.886)--(1.961,1.885)--(1.968,1.885)--(1.975,1.884)--(1.982,1.884)--(1.989,1.884)--(1.996,1.884)--(2.004,1.884)--(2.011,1.884)--(2.018,1.884)--(2.025,1.884)--(2.032,1.885)--(2.039,1.885)--(2.046,1.886)--(2.053,1.886)--(2.060,1.887)--(2.067,1.888)--(2.074,1.889)--(2.081,1.890)--(2.088,1.891)--(2.095,1.893)--(2.102,1.894)--(2.108,1.895)--(2.115,1.897)--(2.122,1.899)--(2.129,1.900)--(2.136,1.902)--(2.143,1.904)--(2.149,1.906)--(2.156,1.908)--(2.163,1.911)--(2.169,1.913)--(2.176,1.915)--(2.183,1.918)--(2.189,1.921)--(2.196,1.923)--(2.202,1.926)--(2.208,1.929)--(2.215,1.932)--(2.221,1.935)--(2.228,1.938)--(2.234,1.942)--(2.240,1.945)--(2.246,1.948)--(2.252,1.952)--(2.258,1.955)--(2.264,1.959)--(2.270,1.963)--(2.276,1.967)--(2.282,1.971)--(2.288,1.975)--(2.294,1.979)--(2.299,1.983)--(2.305,1.987)--(2.310,1.992)--(2.316,1.996)--(2.321,2.000);
-\draw (1.717157288,2.666349898) node {\( E\)};
-\draw (1.717157288,2.666349898) node {\( E\)};
+\draw [] (1.679,2.000)--(1.684,1.996)--(1.690,1.992)--(1.695,1.987)--(1.701,1.983)--(1.706,1.979)--(1.712,1.975)--(1.718,1.971)--(1.724,1.967)--(1.730,1.963)--(1.736,1.959)--(1.742,1.955)--(1.748,1.952)--(1.754,1.948)--(1.760,1.945)--(1.766,1.942)--(1.772,1.938)--(1.779,1.935)--(1.785,1.932)--(1.791,1.929)--(1.798,1.926)--(1.804,1.923)--(1.811,1.921)--(1.817,1.918)--(1.824,1.915)--(1.831,1.913)--(1.837,1.911)--(1.844,1.908)--(1.851,1.906)--(1.857,1.904)--(1.864,1.902)--(1.871,1.900)--(1.878,1.899)--(1.885,1.897)--(1.892,1.895)--(1.898,1.894)--(1.905,1.893)--(1.912,1.891)--(1.919,1.890)--(1.926,1.889)--(1.933,1.888)--(1.940,1.887)--(1.947,1.886)--(1.954,1.886)--(1.961,1.885)--(1.968,1.885)--(1.975,1.884)--(1.982,1.884)--(1.989,1.884)--(1.996,1.884)--(2.004,1.884)--(2.011,1.884)--(2.018,1.884)--(2.025,1.884)--(2.032,1.885)--(2.039,1.885)--(2.046,1.886)--(2.053,1.886)--(2.060,1.887)--(2.067,1.888)--(2.074,1.889)--(2.081,1.890)--(2.088,1.891)--(2.095,1.893)--(2.102,1.894)--(2.108,1.895)--(2.115,1.897)--(2.122,1.899)--(2.129,1.900)--(2.136,1.902)--(2.143,1.904)--(2.149,1.906)--(2.156,1.908)--(2.163,1.911)--(2.169,1.913)--(2.176,1.915)--(2.183,1.918)--(2.189,1.921)--(2.196,1.923)--(2.202,1.926)--(2.208,1.929)--(2.215,1.932)--(2.221,1.935)--(2.228,1.938)--(2.234,1.942)--(2.240,1.945)--(2.246,1.948)--(2.252,1.952)--(2.258,1.955)--(2.264,1.959)--(2.270,1.963)--(2.276,1.967)--(2.282,1.971)--(2.288,1.975)--(2.294,1.979)--(2.299,1.983)--(2.305,1.987)--(2.310,1.992)--(2.316,1.996)--(2.321,2.000);
+\draw (1.446347288,2.902555398) node {\( E\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

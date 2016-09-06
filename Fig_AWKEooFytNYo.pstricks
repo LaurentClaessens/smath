@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigAWKEooFytNYo.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,6 +43,28 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Catata\)}}%
+\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Catata\)}}%
+\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo}
@@ -74,12 +76,9 @@
 %DEFAULT
 \draw []  (0,0) node [rotate=0] {$\bullet$};
 \draw (-0.6192871896,0.2803098562) node {\( Alala\)};
-\draw (-0.6192871896,0.2803098562) node {\( Alala\)};
 \draw []  (2.800000000,-0.3500000000) node [rotate=0] {$\bullet$};
 \draw (3.549237356,-0.06969014376) node {\( Bobobo\)};
-\draw (3.549237356,-0.06969014376) node {\( Bobobo\)};
 \draw []  (4.200000000,-1.400000000) node [rotate=0] {$\bullet$};
-\draw (4.945724856,-1.678088023) node {\( Catata\)};
 \draw (4.945724856,-1.678088023) node {\( Catata\)};
 %END PSPICTURE
 \end{tikzpicture}

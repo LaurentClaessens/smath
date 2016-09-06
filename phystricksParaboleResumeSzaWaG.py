@@ -12,12 +12,12 @@ def ParaboleResumeSzaWaG():
     f=LagrangePolynomial([Point(-3,2),Point(-1,1),Point(0,2)]).graph(-3,0)
     g=-LagrangePolynomial([Point(-1,2),Point(1,0),Point(3,2)]).graph(-1,3)
 
+    pspicts[0].DrawGraphs(g)
+    pspicts[1].DrawGraphs(f)
+
     for psp in pspicts:
         psp.DrawDefaultAxes()
         psp.axes.no_graduation()
-
-    pspicts[0].DrawGraphs(g)
-    pspicts[1].DrawGraphs(f)
 
     fig.conclude()
     fig.write_the_file()

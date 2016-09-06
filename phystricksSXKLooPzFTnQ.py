@@ -18,9 +18,9 @@ def SXKLooPzFTnQ():
     K=Circle(O,3).get_point(150)
     L=K.symmetric_by(O)
 
-    a1=Angle(C,O,K)
+    a1=AngleAOB(C,O,K)
     a1.put_mark(0.4,angle=None,added_angle=0,text="\SI{50}{\degree}",pspict=pspict)
-    a2=Angle(D,O,L)
+    a2=AngleAOB(D,O,L)
     a2.put_mark(0.4,angle=None,added_angle=0,text="?",pspict=pspict)
 
     seg=Segment(K,L)

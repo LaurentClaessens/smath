@@ -20,8 +20,8 @@ def DZmbmzZ():
     AH=Segment(A,H)
     AH.put_mark(0.2,0,"\( 4\)",pspict=pspict)
 
-    a1=Angle(B,A,H)
-    a2=Angle(H,A,C)
+    a1=AngleAOB(B,A,H)
+    a2=AngleAOB(H,A,C)
     a1.put_mark(0.2,None,"\( 45\)",pspict=pspict)
     a2.put_mark(0.2,None,"\( 60\)",pspict=pspict)
 

@@ -6,42 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigRVZNtGK.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{totalheightof89007ddce8adfba34d72175a78faaa8c868b66ff:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A(x_A;y_A)\)}}%
-\immediate\write\writeOfphystricks{widthof89007ddce8adfba34d72175a78faaa8c868b66ff:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{totalheightofe50019956a9c01f64914a44ab18949f27fd55133:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B(x_B;y_B)\)}}%
-\immediate\write\writeOfphystricks{widthofe50019956a9c01f64914a44ab18949f27fd55133:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{totalheightof987c04c850679435676b55baeed2c954a1551aa0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C(x_C;y_C)\)}}%
-\immediate\write\writeOfphystricks{widthof987c04c850679435676b55baeed2c954a1551aa0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightof6dfbe12e34ce690f862847f6f49bfe07e4dc3265:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( y_B-y_A\)}}%
-\immediate\write\writeOfphystricks{widthof6dfbe12e34ce690f862847f6f49bfe07e4dc3265:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{totalheightof77e8877069bf9e4fd2aa4e82a7f2f29a9dd8674a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( y_C-y_A\)}}%
-\immediate\write\writeOfphystricks{widthof77e8877069bf9e4fd2aa4e82a7f2f29a9dd8674a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofdb3443e239b763afdc1d5c002d8c6fae70fbb338:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x_C-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofdb3443e239b763afdc1d5c002d8c6fae70fbb338:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{totalheightofc01934afe3e176458bfdb7af4b0b842360ec52e7:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x_B-x_A\)}}%
-\immediate\write\writeOfphystricks{widthofc01934afe3e176458bfdb7af4b0b842360ec52e7:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -79,6 +43,44 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigRVZNtGKPICTRVZNtGK.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigRVZNtGKPICTRVZNtGK.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A(x_A;y_A)\)}}%
+\immediate\write\writeOfphystricks{totalheightof89007ddce8adfba34d72175a78faaa8c868b66ff:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A(x_A;y_A)\)}}%
+\immediate\write\writeOfphystricks{widthof89007ddce8adfba34d72175a78faaa8c868b66ff:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B(x_B;y_B)\)}}%
+\immediate\write\writeOfphystricks{totalheightofe50019956a9c01f64914a44ab18949f27fd55133:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B(x_B;y_B)\)}}%
+\immediate\write\writeOfphystricks{widthofe50019956a9c01f64914a44ab18949f27fd55133:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C(x_C;y_C)\)}}%
+\immediate\write\writeOfphystricks{totalheightof987c04c850679435676b55baeed2c954a1551aa0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C(x_C;y_C)\)}}%
+\immediate\write\writeOfphystricks{widthof987c04c850679435676b55baeed2c954a1551aa0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( y_B-y_A\)}}%
+\immediate\write\writeOfphystricks{totalheightof6dfbe12e34ce690f862847f6f49bfe07e4dc3265:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( y_B-y_A\)}}%
+\immediate\write\writeOfphystricks{widthof6dfbe12e34ce690f862847f6f49bfe07e4dc3265:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( y_C-y_A\)}}%
+\immediate\write\writeOfphystricks{totalheightof77e8877069bf9e4fd2aa4e82a7f2f29a9dd8674a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( y_C-y_A\)}}%
+\immediate\write\writeOfphystricks{widthof77e8877069bf9e4fd2aa4e82a7f2f29a9dd8674a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x_C-x_A\)}}%
+\immediate\write\writeOfphystricks{totalheightofdb3443e239b763afdc1d5c002d8c6fae70fbb338:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x_C-x_A\)}}%
+\immediate\write\writeOfphystricks{widthofdb3443e239b763afdc1d5c002d8c6fae70fbb338:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x_B-x_A\)}}%
+\immediate\write\writeOfphystricks{totalheightofc01934afe3e176458bfdb7af4b0b842360ec52e7:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x_B-x_A\)}}%
+\immediate\write\writeOfphystricks{widthofc01934afe3e176458bfdb7af4b0b842360ec52e7:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigRVZNtGKPICTRVZNtGK}
@@ -86,18 +88,15 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [,->,>=latex] (-0.5000000000,0) -- (10.00000000,0);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,5.250000000);
+\draw [,->,>=latex] (-0.3863716896,0) -- (10.33060867,0);
+\draw [,->,>=latex] (0,-0.4863333333) -- (0,5.250000000);
 %DEFAULT
 \draw [] (0.500,0.250) -- (9.50,4.75);
 \draw []  (2.000000000,1.000000000) node [rotate=0] {$\bullet$};
 \draw (1.036103477,1.341372523) node {\( A(x_A;y_A)\)};
-\draw (1.036103477,1.341372523) node {\( A(x_A;y_A)\)};
 \draw []  (4.000000000,2.000000000) node [rotate=0] {$\bullet$};
 \draw (3.009414144,2.341372523) node {\( B(x_B;y_B)\)};
-\draw (3.009414144,2.341372523) node {\( B(x_B;y_B)\)};
 \draw []  (8.000000000,4.000000000) node [rotate=0] {$\bullet$};
-\draw (7.019881810,4.341372523) node {\( C(x_C;y_C)\)};
 \draw (7.019881810,4.341372523) node {\( C(x_C;y_C)\)};
 \draw [style=dotted] (4.00,2.00) -- (4.00,1.00);
 \draw [style=dotted] (8.00,4.00) -- (8.00,1.00);
@@ -105,19 +104,16 @@
 \draw [,->,>=latex] (4.200000000,1.500000000) -- (4.200000000,2.000000000);
 \draw [,->,>=latex] (4.200000000,1.500000000) -- (4.200000000,1.000000000);
 \draw (5.068341333,1.500000000) node {\( y_B-y_A\)};
-\draw (5.068341333,1.500000000) node {\( y_B-y_A\)};
 \draw [,->,>=latex] (8.200000000,2.500000000) -- (8.200000000,4.000000000);
 \draw [,->,>=latex] (8.200000000,2.500000000) -- (8.200000000,1.000000000);
-\draw (9.065304333,2.500000000) node {\( y_C-y_A\)};
 \draw (9.065304333,2.500000000) node {\( y_C-y_A\)};
 \draw [,->,>=latex] (5.000000000,0.8000000000) -- (2.000000000,0.8000000000);
 \draw [,->,>=latex] (5.000000000,0.8000000000) -- (8.000000000,0.8000000000);
 \draw (5.000000000,0.5568333333) node {\( x_C-x_A\)};
-\draw (5.000000000,0.5568333333) node {\( x_C-x_A\)};
 \draw [,->,>=latex] (3.000000000,0.5000000000) -- (2.000000000,0.5000000000);
 \draw [,->,>=latex] (3.000000000,0.5000000000) -- (4.000000000,0.5000000000);
 \draw (3.000000000,0.2568333333) node {\( x_B-x_A\)};
-\draw (3.000000000,0.2568333333) node {\( x_B-x_A\)};
+
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

@@ -7,7 +7,7 @@ def QDPKooICzieh():
     A=Point(0,0)
     O=Point(2,1)
     angle=Segment(A,O).angle().degree
-    cer=Circle(O,(A-O).length()).graph(angle-30,angle+30)
+    cer=Circle(O,(A-O).length).graph(angle-30,angle+30)
     cer.parameters.style="dashed"
     ddroite=Segment(A,O+2*AffineVector(A,O))
     ddroite.parameters.style="dashed"

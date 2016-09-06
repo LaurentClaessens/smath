@@ -18,8 +18,8 @@ def QEPZooNndwiS():
     J=d2.midpoint()
     seg=Segment(I,J).dilatation(1.3)
 
-    a1=Angle(A,I,J)
-    a2=Angle(D,J,I)
+    a1=AngleAOB(A,I,J)
+    a2=AngleAOB(D,J,I)
 
     a1.put_mark(0.2,angle=None,text="\( a\)",pspict=pspict)
     a2.put_mark(0.2,angle=None,text="\( a\)",pspict=pspict)

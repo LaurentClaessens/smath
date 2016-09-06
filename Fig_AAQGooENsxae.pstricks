@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigAAQGooENsxae.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( R\)}}%
-\immediate\write\writeOfphystricks{totalheightofd2ce50bc9136899f2b54cc673a839a3257491221:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( R\)}}%
-\immediate\write\writeOfphystricks{widthofd2ce50bc9136899f2b54cc673a839a3257491221:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( P\)}}%
-\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( P\)}}%
-\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,6 +43,28 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigAAQGooENsxaePICTAAQGooENsxae.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigAAQGooENsxaePICTAAQGooENsxae.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( R\)}}%
+\immediate\write\writeOfphystricks{totalheightofd2ce50bc9136899f2b54cc673a839a3257491221:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( R\)}}%
+\immediate\write\writeOfphystricks{widthofd2ce50bc9136899f2b54cc673a839a3257491221:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigAAQGooENsxaePICTAAQGooENsxae}
@@ -73,14 +75,11 @@
 %PSTRICKS CODE
 %DEFAULT
 \fill [color=lightgray] (0,0) -- (1.20,0) -- (1.20,0) -- (1.20,0.0503) -- (1.20,0.100) -- (1.19,0.150) -- (1.18,0.200) -- (1.17,0.249) -- (1.16,0.298) -- (1.15,0.347) -- (1.13,0.395) -- (1.12,0.442) -- (1.10,0.488) -- (1.07,0.534) -- (1.05,0.578) -- (1.03,0.622) -- (1.00,0.664) -- (0.971,0.705) -- (0.940,0.745) -- (0.908,0.784) -- (0.875,0.821) -- (0.840,0.857) -- (0.803,0.892) -- (0.765,0.925) -- (0.725,0.956) -- (0.685,0.985) -- (0.643,1.01) -- (0.600,1.04) -- (0.556,1.06) -- (0.511,1.09) -- (0.465,1.11) -- (0.418,1.12) -- (0.371,1.14) -- (0.323,1.16) -- (0.274,1.17) -- (0.225,1.18) -- (0.175,1.19) -- (0.125,1.19) -- (0.0752,1.20) -- (0.0250,1.20) -- (-0.0251,1.20) -- (-0.0754,1.20) -- (-0.125,1.19) -- (-0.175,1.19) -- (-0.225,1.18) -- (-0.274,1.17) -- (-0.323,1.16) -- (-0.371,1.14) -- (-0.418,1.12) -- (-0.465,1.11) -- (-0.511,1.09) -- (-0.556,1.06) -- (-0.600,1.04) -- (0,0) --  cycle;
-\draw (-0.7000000000,1.212435565) node {\( R\)};
-\draw (-0.7000000000,1.212435565) node {\( R\)};
-\draw (1.400000000,0) node {\( P\)};
-\draw (1.400000000,0) node {\( P\)};
-\draw (-0.1414213562,-0.1414213562) node {\( O\)};
-\draw (-0.1414213562,-0.1414213562) node {\( O\)};
+\draw (-0.8507050000,1.349102232) node {\( R\)};
+\draw (1.553424833,0) node {\( P\)};
+\draw (-0.2965216896,-0.2780880229) node {\( O\)};
 
-\draw [samples=100] (1.200,0)--(1.198,0.07611)--(1.190,0.1519)--(1.178,0.2271)--(1.162,0.3014)--(1.140,0.3744)--(1.114,0.4460)--(1.084,0.5158)--(1.049,0.5834)--(1.010,0.6488)--(0.9663,0.7115)--(0.9193,0.7713)--(0.8685,0.8281)--(0.8142,0.8815)--(0.7567,0.9314)--(0.6961,0.9775)--(0.6327,1.020)--(0.5667,1.058)--(0.4985,1.092)--(0.4283,1.121)--(0.3563,1.146)--(0.2829,1.166)--(0.2084,1.182)--(0.1330,1.193)--(0.05710,1.199)--(-0.01904,1.200)--(-0.09510,1.196)--(-0.1708,1.188)--(-0.2458,1.175)--(-0.3198,1.157)--(-0.3925,1.134)--(-0.4636,1.107)--(-0.5329,1.075)--(-0.6000,1.039)--(-0.6647,0.9991)--(-0.7267,0.9549)--(-0.7858,0.9069)--(-0.8418,0.8552)--(-0.8943,0.8001)--(-0.9433,0.7418)--(-0.9884,0.6805)--(-1.030,0.6164)--(-1.067,0.5499)--(-1.099,0.4811)--(-1.128,0.4104)--(-1.151,0.3381)--(-1.171,0.2644)--(-1.185,0.1896)--(-1.195,0.1141)--(-1.199,0.03807)--(-1.199,-0.03807)--(-1.195,-0.1141)--(-1.185,-0.1896)--(-1.171,-0.2644)--(-1.151,-0.3381)--(-1.128,-0.4104)--(-1.099,-0.4811)--(-1.067,-0.5499)--(-1.030,-0.6164)--(-0.9884,-0.6805)--(-0.9433,-0.7418)--(-0.8943,-0.8001)--(-0.8418,-0.8552)--(-0.7858,-0.9069)--(-0.7267,-0.9549)--(-0.6647,-0.9991)--(-0.6000,-1.039)--(-0.5329,-1.075)--(-0.4636,-1.107)--(-0.3925,-1.134)--(-0.3198,-1.157)--(-0.2458,-1.175)--(-0.1708,-1.188)--(-0.09510,-1.196)--(-0.01904,-1.200)--(0.05710,-1.199)--(0.1330,-1.193)--(0.2084,-1.182)--(0.2829,-1.166)--(0.3563,-1.146)--(0.4283,-1.121)--(0.4985,-1.092)--(0.5667,-1.058)--(0.6327,-1.020)--(0.6961,-0.9775)--(0.7567,-0.9314)--(0.8142,-0.8815)--(0.8685,-0.8281)--(0.9193,-0.7713)--(0.9663,-0.7115)--(1.010,-0.6488)--(1.049,-0.5834)--(1.084,-0.5158)--(1.114,-0.4460)--(1.140,-0.3744)--(1.162,-0.3014)--(1.178,-0.2271)--(1.190,-0.1519)--(1.198,-0.07611)--(1.200,0);
+\draw [] (1.200,0)--(1.198,0.07611)--(1.190,0.1519)--(1.178,0.2271)--(1.162,0.3014)--(1.140,0.3744)--(1.114,0.4460)--(1.084,0.5158)--(1.049,0.5834)--(1.010,0.6488)--(0.9663,0.7115)--(0.9193,0.7713)--(0.8685,0.8281)--(0.8142,0.8815)--(0.7567,0.9314)--(0.6961,0.9775)--(0.6327,1.020)--(0.5667,1.058)--(0.4985,1.092)--(0.4283,1.121)--(0.3563,1.146)--(0.2829,1.166)--(0.2084,1.182)--(0.1330,1.193)--(0.05710,1.199)--(-0.01904,1.200)--(-0.09510,1.196)--(-0.1708,1.188)--(-0.2458,1.175)--(-0.3198,1.157)--(-0.3925,1.134)--(-0.4636,1.107)--(-0.5329,1.075)--(-0.6000,1.039)--(-0.6647,0.9991)--(-0.7267,0.9549)--(-0.7858,0.9069)--(-0.8418,0.8552)--(-0.8943,0.8001)--(-0.9433,0.7418)--(-0.9884,0.6805)--(-1.030,0.6164)--(-1.067,0.5499)--(-1.099,0.4811)--(-1.128,0.4104)--(-1.151,0.3381)--(-1.171,0.2644)--(-1.185,0.1896)--(-1.195,0.1141)--(-1.199,0.03807)--(-1.199,-0.03807)--(-1.195,-0.1141)--(-1.185,-0.1896)--(-1.171,-0.2644)--(-1.151,-0.3381)--(-1.128,-0.4104)--(-1.099,-0.4811)--(-1.067,-0.5499)--(-1.030,-0.6164)--(-0.9884,-0.6805)--(-0.9433,-0.7418)--(-0.8943,-0.8001)--(-0.8418,-0.8552)--(-0.7858,-0.9069)--(-0.7267,-0.9549)--(-0.6647,-0.9991)--(-0.6000,-1.039)--(-0.5329,-1.075)--(-0.4636,-1.107)--(-0.3925,-1.134)--(-0.3198,-1.157)--(-0.2458,-1.175)--(-0.1708,-1.188)--(-0.09510,-1.196)--(-0.01904,-1.200)--(0.05710,-1.199)--(0.1330,-1.193)--(0.2084,-1.182)--(0.2829,-1.166)--(0.3563,-1.146)--(0.4283,-1.121)--(0.4985,-1.092)--(0.5667,-1.058)--(0.6327,-1.020)--(0.6961,-0.9775)--(0.7567,-0.9314)--(0.8142,-0.8815)--(0.8685,-0.8281)--(0.9193,-0.7713)--(0.9663,-0.7115)--(1.010,-0.6488)--(1.049,-0.5834)--(1.084,-0.5158)--(1.114,-0.4460)--(1.140,-0.3744)--(1.162,-0.3014)--(1.178,-0.2271)--(1.190,-0.1519)--(1.198,-0.07611)--(1.200,0);
 \draw [] (0,0) -- (1.20,0);
 \draw [] (-0.600,1.04) -- (0,0);
 %END PSPICTURE

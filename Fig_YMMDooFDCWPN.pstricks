@@ -6,38 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigYMMDooFDCWPN.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 0\)}}%
-\immediate\write\writeOfphystricks{totalheightofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 0\)}}%
-\immediate\write\writeOfphystricks{widthofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 10\)}}%
-\immediate\write\writeOfphystricks{totalheightof52ad1dc31e08f49efaf0362a5f52967b93dc5c51:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 10\)}}%
-\immediate\write\writeOfphystricks{widthof52ad1dc31e08f49efaf0362a5f52967b93dc5c51:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \mathcal{C}_1\)}}%
-\immediate\write\writeOfphystricks{totalheightof98b714aa8642855605434c72428f2c86c2f085c4:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \mathcal{C}_1\)}}%
-\immediate\write\writeOfphystricks{widthof98b714aa8642855605434c72428f2c86c2f085c4:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \mathcal{C}_2\)}}%
-\immediate\write\writeOfphystricks{totalheightofbfaae2fb993909025da157829704d6ad47cfae69:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \mathcal{C}_2\)}}%
-\immediate\write\writeOfphystricks{widthofbfaae2fb993909025da157829704d6ad47cfae69:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \mathcal{C}_3\)}}%
-\immediate\write\writeOfphystricks{totalheightof12c8aafd3da78f91ce67ee956daa30d770301d97:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \mathcal{C}_3\)}}%
-\immediate\write\writeOfphystricks{widthof12c8aafd3da78f91ce67ee956daa30d770301d97:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -75,6 +43,40 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigYMMDooFDCWPNPICTYMMDooFDCWPN.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigYMMDooFDCWPNPICTYMMDooFDCWPN.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 0\)}}%
+\immediate\write\writeOfphystricks{totalheightofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 0\)}}%
+\immediate\write\writeOfphystricks{widthofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 10\)}}%
+\immediate\write\writeOfphystricks{totalheightof52ad1dc31e08f49efaf0362a5f52967b93dc5c51:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 10\)}}%
+\immediate\write\writeOfphystricks{widthof52ad1dc31e08f49efaf0362a5f52967b93dc5c51:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x\)}}%
+\immediate\write\writeOfphystricks{totalheightof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x\)}}%
+\immediate\write\writeOfphystricks{widthof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \mathcal{C}_1\)}}%
+\immediate\write\writeOfphystricks{totalheightof98b714aa8642855605434c72428f2c86c2f085c4:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \mathcal{C}_1\)}}%
+\immediate\write\writeOfphystricks{widthof98b714aa8642855605434c72428f2c86c2f085c4:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \mathcal{C}_2\)}}%
+\immediate\write\writeOfphystricks{totalheightofbfaae2fb993909025da157829704d6ad47cfae69:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \mathcal{C}_2\)}}%
+\immediate\write\writeOfphystricks{widthofbfaae2fb993909025da157829704d6ad47cfae69:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \mathcal{C}_3\)}}%
+\immediate\write\writeOfphystricks{totalheightof12c8aafd3da78f91ce67ee956daa30d770301d97:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \mathcal{C}_3\)}}%
+\immediate\write\writeOfphystricks{widthof12c8aafd3da78f91ce67ee956daa30d770301d97:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigYMMDooFDCWPNPICTYMMDooFDCWPN}
@@ -93,18 +95,12 @@
 \draw [style=dashed] (0,0) -- (5.00,0);
 \draw []  (0,0) node [rotate=0] {$\bullet$};
 \draw (-0.2393376896,0.2673671896) node {\( 0\)};
-\draw (-0.2393376896,0.2673671896) node {\( 0\)};
 \draw []  (5.000000000,0) node [rotate=0] {$\bullet$};
-\draw (5.337254190,0.2673671896) node {\( 10\)};
 \draw (5.337254190,0.2673671896) node {\( 10\)};
 \draw []  (1.500000000,0) node [rotate=0] {$\bullet$};
 \draw (1.752705190,0.2275325229) node {\( x\)};
-\draw (1.752705190,0.2275325229) node {\( x\)};
-\draw (1.069917912,0.9348162140) node {\( \mathcal{C}_1\)};
 \draw (1.069917912,0.9348162140) node {\( \mathcal{C}_1\)};
 \draw (2.456731812,1.839319032) node {\( \mathcal{C}_2\)};
-\draw (2.456731812,1.839319032) node {\( \mathcal{C}_2\)};
-\draw (0.5265475103,1.955646323) node {\( \mathcal{C}_3\)};
 \draw (0.5265475103,1.955646323) node {\( \mathcal{C}_3\)};
 %END PSPICTURE
 \end{tikzpicture}

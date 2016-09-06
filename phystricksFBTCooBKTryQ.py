@@ -13,8 +13,8 @@ def FBTCooBKTryQ():
     P=O+(3,-1)
     s2=Segment(O,P)
 
-    a1=Angle(P,O,A)
-    a2=Angle(C,O,P,r=0.3)
+    a1=AngleAOB(P,O,A)
+    a2=AngleAOB(C,O,P,r=0.3)
 
     a1.put_mark(0.2,None,"\( 24\)",pspict=pspict)
     a2.put_mark(0.2,None,"\( 120\)",pspict=pspict)

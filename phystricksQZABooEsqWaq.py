@@ -19,11 +19,11 @@ def QZABooEsqWaq():
         p.parameters.symbol=""
     
     a1=Angle(B,A,C,r=0.5)
-    a1.put_mark(0.3,None,"$a$",pspict=pspict,position="center")
-    a2=Angle(C,B,A,r=0.5)
-    a2.put_mark(0.2,None,"$b$",pspict=pspict,position="center")
-    a3=Angle(A,C,B)
-    a3.put_mark(0.2,None,"\( c\)",pspict=pspict,position="center")
+    a1.put_mark(0.3,None,"$a$",pspict=pspict)
+    a2=AngleAOB(C,B,A,r=0.5)
+    a2.put_mark(0.2,None,"$b$",pspict=pspict)
+    a3=AngleAOB(A,C,B)
+    a3.put_mark(0.2,None,"\( c\)",pspict=pspict)
 
     pspict.DrawGraphs(triangle,a1,a2,a3,parallel)
     fig.no_figure()

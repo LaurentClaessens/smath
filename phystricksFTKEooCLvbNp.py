@@ -16,7 +16,7 @@ def parallelog(A,B,C,points_names="ABCD",fig=None,pspict=None):
 
     pspict.DrawGraphs(s1,s2,parall.vertices[:-1])
 
-    pspict.math_BB.append(D)
+    pspict.math_BB.append(D,pspict=pspict)
     pspict.math_BB.xmax+=1
     pspict.math_BB.ymax+=1
     pspict.math_BB.xmin-=1

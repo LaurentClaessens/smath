@@ -26,7 +26,7 @@ def GVPPooOpnIyt():
     for x in [A,B,C,K,L]:
         x.parameters.symbol=""
 
-    pspict.comment="The marks of 'K', 'L' and the segment BC are correclty placed."
+    pspict.comment="The marks of 'K', 'L' and the segment BC are correctly placed."
     pspict.DrawGraphs(trig,drm,K,L,m1)
     fig.no_figure()
     fig.conclude()

@@ -6,34 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigEABWooPkLqOJ.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( P\)}}%
-\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( P\)}}%
-\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( H\)}}%
-\immediate\write\writeOfphystricks{totalheightof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( H\)}}%
-\immediate\write\writeOfphystricks{widthof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
-\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( G\)}}%
-\immediate\write\writeOfphystricks{totalheightoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( G\)}}%
-\immediate\write\writeOfphystricks{widthoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( N\)}}%
-\immediate\write\writeOfphystricks{totalheightof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( N\)}}%
-\immediate\write\writeOfphystricks{widthof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -71,6 +43,36 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigEABWooPkLqOJPICTEABWooPkLqOJ.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigEABWooPkLqOJPICTEABWooPkLqOJ.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( H\)}}%
+\immediate\write\writeOfphystricks{totalheightof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( H\)}}%
+\immediate\write\writeOfphystricks{widthof5f0f608148731d731eeec3496e333eeaaa375fdb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
+\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( G\)}}%
+\immediate\write\writeOfphystricks{totalheightoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( G\)}}%
+\immediate\write\writeOfphystricks{widthoff2b62eadc2e035dec005c3f0c228b319cb59e77a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( N\)}}%
+\immediate\write\writeOfphystricks{totalheightof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( N\)}}%
+\immediate\write\writeOfphystricks{widthof2c9b38986fca2d237f721e051566056a7d7916d3:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigEABWooPkLqOJPICTEABWooPkLqOJ}
@@ -81,19 +83,14 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw [samples=100] (3.200,0)--(3.199,0.05076)--(3.197,0.1015)--(3.193,0.1521)--(3.187,0.2025)--(3.180,0.2528)--(3.171,0.3028)--(3.161,0.3525)--(3.149,0.4018)--(3.135,0.4508)--(3.120,0.4993)--(3.104,0.5472)--(3.085,0.5947)--(3.066,0.6415)--(3.045,0.6877)--(3.022,0.7332)--(2.998,0.7779)--(2.973,0.8219)--(2.946,0.8650)--(2.918,0.9073)--(2.888,0.9487)--(2.858,0.9891)--(2.826,1.028)--(2.792,1.067)--(2.758,1.104)--(2.722,1.140)--(2.686,1.175)--(2.648,1.209)--(2.609,1.242)--(2.569,1.273)--(2.528,1.303)--(2.486,1.332)--(2.444,1.360)--(2.400,1.386)--(2.356,1.410)--(2.311,1.434)--(2.265,1.455)--(2.218,1.476)--(2.171,1.495)--(2.123,1.512)--(2.075,1.528)--(2.026,1.542)--(1.977,1.555)--(1.928,1.566)--(1.878,1.576)--(1.828,1.584)--(1.777,1.590)--(1.727,1.595)--(1.676,1.598)--(1.625,1.600)--(1.575,1.600)--(1.524,1.598)--(1.473,1.595)--(1.423,1.590)--(1.372,1.584)--(1.322,1.576)--(1.272,1.566)--(1.223,1.555)--(1.174,1.542)--(1.125,1.528)--(1.077,1.512)--(1.029,1.495)--(0.9818,1.476)--(0.9353,1.455)--(0.8895,1.434)--(0.8444,1.410)--(0.8000,1.386)--(0.7564,1.360)--(0.7137,1.332)--(0.6719,1.303)--(0.6310,1.273)--(0.5911,1.242)--(0.5522,1.209)--(0.5144,1.175)--(0.4776,1.140)--(0.4420,1.104)--(0.4076,1.067)--(0.3743,1.028)--(0.3423,0.9891)--(0.3116,0.9487)--(0.2821,0.9073)--(0.2540,0.8650)--(0.2272,0.8219)--(0.2018,0.7779)--(0.1779,0.7332)--(0.1553,0.6877)--(0.1342,0.6415)--(0.1146,0.5947)--(0.09649,0.5472)--(0.07989,0.4993)--(0.06481,0.4508)--(0.05128,0.4018)--(0.03931,0.3525)--(0.02891,0.3028)--(0.02010,0.2528)--(0.01287,0.2025)--(0.007245,0.1521)--(0.003221,0.1015)--(0,0.05076)--(0,0);
+\draw [] (3.200,0)--(3.199,0.05076)--(3.197,0.1015)--(3.193,0.1521)--(3.187,0.2025)--(3.180,0.2528)--(3.171,0.3028)--(3.161,0.3525)--(3.149,0.4018)--(3.135,0.4508)--(3.120,0.4993)--(3.104,0.5472)--(3.085,0.5947)--(3.066,0.6415)--(3.045,0.6877)--(3.022,0.7332)--(2.998,0.7779)--(2.973,0.8219)--(2.946,0.8650)--(2.918,0.9073)--(2.888,0.9487)--(2.858,0.9891)--(2.826,1.028)--(2.792,1.067)--(2.758,1.104)--(2.722,1.140)--(2.686,1.175)--(2.648,1.209)--(2.609,1.242)--(2.569,1.273)--(2.528,1.303)--(2.486,1.332)--(2.444,1.360)--(2.400,1.386)--(2.356,1.410)--(2.311,1.434)--(2.265,1.455)--(2.218,1.476)--(2.171,1.495)--(2.123,1.512)--(2.075,1.528)--(2.026,1.542)--(1.977,1.555)--(1.928,1.566)--(1.878,1.576)--(1.828,1.584)--(1.777,1.590)--(1.727,1.595)--(1.676,1.598)--(1.625,1.600)--(1.575,1.600)--(1.524,1.598)--(1.473,1.595)--(1.423,1.590)--(1.372,1.584)--(1.322,1.576)--(1.272,1.566)--(1.223,1.555)--(1.174,1.542)--(1.125,1.528)--(1.077,1.512)--(1.029,1.495)--(0.9818,1.476)--(0.9353,1.455)--(0.8895,1.434)--(0.8444,1.410)--(0.8000,1.386)--(0.7564,1.360)--(0.7137,1.332)--(0.6719,1.303)--(0.6310,1.273)--(0.5911,1.242)--(0.5522,1.209)--(0.5144,1.175)--(0.4776,1.140)--(0.4420,1.104)--(0.4076,1.067)--(0.3743,1.028)--(0.3423,0.9891)--(0.3116,0.9487)--(0.2821,0.9073)--(0.2540,0.8650)--(0.2272,0.8219)--(0.2018,0.7779)--(0.1779,0.7332)--(0.1553,0.6877)--(0.1342,0.6415)--(0.1146,0.5947)--(0.09649,0.5472)--(0.07989,0.4993)--(0.06481,0.4508)--(0.05128,0.4018)--(0.03931,0.3525)--(0.02891,0.3028)--(0.02010,0.2528)--(0.01287,0.2025)--(0.007245,0.1521)--(0.003221,0.1015)--(0,0.05076)--(0,0);
 
-\draw [samples=100] (3.200,0)--(3.200,0.02538)--(3.198,0.05074)--(3.196,0.07605)--(3.194,0.1013)--(3.190,0.1264)--(3.186,0.1514)--(3.180,0.1762)--(3.174,0.2009)--(3.168,0.2254)--(3.160,0.2496)--(3.152,0.2736)--(3.143,0.2973)--(3.133,0.3207)--(3.122,0.3438)--(3.111,0.3666)--(3.099,0.3890)--(3.086,0.4109)--(3.073,0.4325)--(3.059,0.4536)--(3.044,0.4743)--(3.029,0.4945)--(3.013,0.5142)--(2.996,0.5334)--(2.979,0.5521)--(2.961,0.5702)--(2.943,0.5877)--(2.924,0.6046)--(2.904,0.6209)--(2.884,0.6366)--(2.864,0.6517)--(2.843,0.6661)--(2.822,0.6798)--(2.800,0.6928)--(2.778,0.7052)--(2.755,0.7168)--(2.732,0.7277)--(2.709,0.7379)--(2.686,0.7473)--(2.662,0.7560)--(2.638,0.7639)--(2.613,0.7711)--(2.589,0.7775)--(2.564,0.7830)--(2.539,0.7878)--(2.514,0.7919)--(2.489,0.7951)--(2.463,0.7975)--(2.438,0.7991)--(2.413,0.7999)--(2.387,0.7999)--(2.362,0.7991)--(2.337,0.7975)--(2.311,0.7951)--(2.286,0.7919)--(2.261,0.7878)--(2.236,0.7830)--(2.211,0.7775)--(2.187,0.7711)--(2.162,0.7639)--(2.138,0.7560)--(2.115,0.7473)--(2.091,0.7379)--(2.068,0.7277)--(2.045,0.7168)--(2.022,0.7052)--(2.000,0.6928)--(1.978,0.6798)--(1.957,0.6661)--(1.936,0.6517)--(1.916,0.6366)--(1.896,0.6209)--(1.876,0.6046)--(1.857,0.5877)--(1.839,0.5702)--(1.821,0.5521)--(1.804,0.5334)--(1.787,0.5142)--(1.771,0.4945)--(1.756,0.4743)--(1.741,0.4536)--(1.727,0.4325)--(1.714,0.4109)--(1.701,0.3890)--(1.689,0.3666)--(1.678,0.3438)--(1.667,0.3207)--(1.657,0.2973)--(1.648,0.2736)--(1.640,0.2496)--(1.632,0.2254)--(1.626,0.2009)--(1.620,0.1762)--(1.614,0.1514)--(1.610,0.1264)--(1.606,0.1013)--(1.604,0.07605)--(1.602,0.05074)--(1.600,0.02538)--(1.600,0);
-\draw (-0.1414213562,-0.1414213562) node {\( P\)};
-\draw (-0.1414213562,-0.1414213562) node {\( P\)};
-\draw (3.341421356,-0.1414213562) node {\( H\)};
-\draw (3.341421356,-0.1414213562) node {\( H\)};
-\draw (0.4429823026,1.378879998) node {\( G\)};
-\draw (0.4429823026,1.378879998) node {\( G\)};
-\draw (2.075977902,0.6746491502) node {\( K\)};
-\draw (2.075977902,0.6746491502) node {\( K\)};
-\draw (1.600000000,-0.2000000000) node {\( N\)};
-\draw (1.600000000,-0.2000000000) node {\( N\)};
+\draw [] (3.200,0)--(3.200,0.02538)--(3.198,0.05074)--(3.196,0.07605)--(3.194,0.1013)--(3.190,0.1264)--(3.186,0.1514)--(3.180,0.1762)--(3.174,0.2009)--(3.168,0.2254)--(3.160,0.2496)--(3.152,0.2736)--(3.143,0.2973)--(3.133,0.3207)--(3.122,0.3438)--(3.111,0.3666)--(3.099,0.3890)--(3.086,0.4109)--(3.073,0.4325)--(3.059,0.4536)--(3.044,0.4743)--(3.029,0.4945)--(3.013,0.5142)--(2.996,0.5334)--(2.979,0.5521)--(2.961,0.5702)--(2.943,0.5877)--(2.924,0.6046)--(2.904,0.6209)--(2.884,0.6366)--(2.864,0.6517)--(2.843,0.6661)--(2.822,0.6798)--(2.800,0.6928)--(2.778,0.7052)--(2.755,0.7168)--(2.732,0.7277)--(2.709,0.7379)--(2.686,0.7473)--(2.662,0.7560)--(2.638,0.7639)--(2.613,0.7711)--(2.589,0.7775)--(2.564,0.7830)--(2.539,0.7878)--(2.514,0.7919)--(2.489,0.7951)--(2.463,0.7975)--(2.438,0.7991)--(2.413,0.7999)--(2.387,0.7999)--(2.362,0.7991)--(2.337,0.7975)--(2.311,0.7951)--(2.286,0.7919)--(2.261,0.7878)--(2.236,0.7830)--(2.211,0.7775)--(2.187,0.7711)--(2.162,0.7639)--(2.138,0.7560)--(2.115,0.7473)--(2.091,0.7379)--(2.068,0.7277)--(2.045,0.7168)--(2.022,0.7052)--(2.000,0.6928)--(1.978,0.6798)--(1.957,0.6661)--(1.936,0.6517)--(1.916,0.6366)--(1.896,0.6209)--(1.876,0.6046)--(1.857,0.5877)--(1.839,0.5702)--(1.821,0.5521)--(1.804,0.5334)--(1.787,0.5142)--(1.771,0.4945)--(1.756,0.4743)--(1.741,0.4536)--(1.727,0.4325)--(1.714,0.4109)--(1.701,0.3890)--(1.689,0.3666)--(1.678,0.3438)--(1.667,0.3207)--(1.657,0.2973)--(1.648,0.2736)--(1.640,0.2496)--(1.632,0.2254)--(1.626,0.2009)--(1.620,0.1762)--(1.614,0.1514)--(1.610,0.1264)--(1.606,0.1013)--(1.604,0.07605)--(1.602,0.05074)--(1.600,0.02538)--(1.600,0);
+\draw (-0.2948461896,-0.2780880229) node {\( P\)};
+\draw (3.519128856,-0.2780880229) node {\( H\)};
+\draw (0.2885114692,1.515546664) node {\( G\)};
+\draw (2.256948735,0.8113158168) node {\( K\)};
+\draw (1.600000000,-0.3366666667) node {\( N\)};
 \draw [] (0,0) -- (3.20,0);
 \draw [] (0.675,-0.0849) -- (0.845,0.0849);
 \draw [] (0.755,-0.0849) -- (0.925,0.0849);

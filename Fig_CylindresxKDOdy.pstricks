@@ -6,23 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigCylindresxKDOdy.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{5}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{totalheightof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{5}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{widthof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{3}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{totalheightof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{3}{\centi\meter}}}%
-\immediate\write\writeOfphystricks{widthof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
 %BEFORE SUBFIGURES
 \begin{figure}[ht]
@@ -36,6 +19,17 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigCylindresxKDOdyssLabelSubFigCylindresxKDOdy0PICTCylindresxKDOdypspict0.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{5}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{totalheightof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{5}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{widthof8f94b950ca8c9d5b8d38056a9a07ad11a1c0238f:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigCylindresxKDOdyssLabelSubFigCylindresxKDOdy0PICTCylindresxKDOdypspict0}
@@ -47,16 +41,12 @@
 %DEFAULT
 \draw [,->,>=latex] (1.500000000,-0.1200000000) -- (3.000000000,-0.1200000000);
 \draw [,->,>=latex] (1.500000000,-0.1200000000) -- (0,-0.1200000000);
-\draw (1.500000000,-0.4459458333) node {\SI{5}{\centi\meter}};
-\draw (1.500000000,-0.4459458333) node {\SI{5}{\centi\meter}};
+\draw (1.500000000,-0.4249540000) node {\SI{5}{\centi\meter}};
 \draw [,->,>=latex] (3.709519053,0.2710769515) -- (3.060000000,-0.1039230485);
 \draw [,->,>=latex] (3.709519053,0.2710769515) -- (4.359038106,0.6460769515);
-\draw (4.190313886,-0.02807396257) node {\SI{5}{\centi\meter}};
-\draw (4.190313886,-0.02807396257) node {\SI{5}{\centi\meter}};
+\draw (4.134828219,-0.007082129211) node {\SI{5}{\centi\meter}};
 \draw [,->,>=latex] (-0.1200000000,0.9000000000) -- (-0.1200000000,0);
 \draw [,->,>=latex] (-0.1200000000,0.9000000000) -- (-0.1200000000,1.800000000);
-\draw (-0.7007948333,0.9000000000) node {\SI{3}{\centi\meter}};
-\draw (-0.7007948333,0.9000000000) node {\SI{3}{\centi\meter}};
 \fill [color=brown] (0.516,2.01) -- (0.516,0.212) -- (0.516,0.212) -- (3.78,0.516) -- (3.78,0.516) -- (3.78,2.32) -- (3.78,2.32) -- (0.516,2.01) --  cycle;
 \draw [] (0.516,2.01) -- (0.516,0.212);
 \draw [] (0.516,0.212) -- (3.78,0.516);
@@ -97,6 +87,17 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigCylindresxKDOdyssLabelSubFigCylindresxKDOdy1PICTCylindresxKDOdypspict1.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{3}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{totalheightof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{3}{\centi\meter}}}%
+\immediate\write\writeOfphystricks{widthof1ac31cd43380f4979f714eea3fdce27e42c9c22a:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigCylindresxKDOdyssLabelSubFigCylindresxKDOdy1PICTCylindresxKDOdypspict1}

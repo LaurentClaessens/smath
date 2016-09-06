@@ -19,9 +19,9 @@ def CRKLooLhpFTy():
     for P in trig.vertices:
         P.parameters.symbol=''
 
-    angA.put_mark(0.2,None,"\(60 \)",pspict=pspict,position="center")
-    angB.put_mark(0.2,None,"\( 60 \)",pspict=pspict,position="center")
-    angC.put_mark(0.2,None,"\( 60 \)",pspict=pspict,position="center")
+    angA.put_mark(0.2,None,"\(60 \)",pspict=pspict)
+    angB.put_mark(0.2,None,"\( 60 \)",pspict=pspict)
+    angC.put_mark(0.2,None,"\( 60 \)",pspict=pspict)
 
     pspict.DrawGraphs(trig,angA,angB,angC)
 

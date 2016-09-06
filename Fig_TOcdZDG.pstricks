@@ -6,14 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigTOcdZDG.phystricks.aux%
-%WRITE_AND_LABEL
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -54,6 +46,16 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigTOcdZDGPICTTOcdZDG.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigTOcdZDGPICTTOcdZDG.phystricks.aux%
+%WRITE_AND_LABEL
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigTOcdZDGPICTTOcdZDG}
@@ -78,9 +80,10 @@
 \draw [color=gray,style=solid] (1.00,3.00) -- (5.00,3.00);
 %DEFAULT
 \draw [color=red] (1.00,0) -- (3.00,2.00);
-\draw [color=blue] plot [smooth,tension=1] coordinates {(1.00,0)(1.07,0.214)(1.36,0.215)(1.36,0.499)(1.64,0.501)(1.64,0.785)(1.93,0.786)(1.93,1.07)(2.21,1.07)(2.21,1.36)(2.50,1.36)(2.50,1.64)(2.79,1.64)(2.79,1.93)(3.00,2.00)};
+\draw [color=blue] plot [smooth,tension=1] coordinates {(1.00,0)(1.07,0.214)(1.36,0.215)(1.36,0.499)(1.64,0.501)(1.64,0.785)(1.93,0.786)(1.93,1.07)(2.21,1.07)(2.22,1.36)(2.50,1.36)(2.50,1.64)(2.78,1.64)(2.79,1.93)(3.00,2.00)};
 \draw [color=red] (5.00,0) -- (4.00,3.00);
-\draw [color=blue] plot [smooth,tension=1] coordinates {(5.00,0)(5.03,0.232)(4.77,0.368)(4.89,0.632)(4.64,0.768)(4.76,1.03)(4.51,1.17)(4.63,1.43)(4.37,1.57)(4.49,1.83)(4.24,1.97)(4.36,2.23)(4.11,2.37)(4.23,2.63)(3.97,2.77)(4.00,3.00)};
+\draw [color=blue] plot [smooth,tension=1] coordinates {(5.00,0)(5.03,0.232)(4.77,0.368)(4.90,0.632)(4.64,0.768)(4.76,1.03)(4.51,1.17)(4.63,1.43)(4.37,1.57)(4.49,1.83)(4.24,1.97)(4.36,2.23)(4.10,2.37)(4.23,2.63)(3.97,2.77)(4.00,3.00)};
+
 %AXES
 %OTHER STUFF
 %END PSPICTURE

@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigDTFZooTlciUT.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Tristan}}%
-\immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Tristan}}%
-\immediate\write\writeOfphystricks{widthof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Perceval}}%
-\immediate\write\writeOfphystricks{totalheightof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Perceval}}%
-\immediate\write\writeOfphystricks{widthof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Lancelot}}%
-\immediate\write\writeOfphystricks{totalheightof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Lancelot}}%
-\immediate\write\writeOfphystricks{widthof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,6 +43,28 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Tristan}}%
+\immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Tristan}}%
+\immediate\write\writeOfphystricks{widthof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Perceval}}%
+\immediate\write\writeOfphystricks{totalheightof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Perceval}}%
+\immediate\write\writeOfphystricks{widthof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Lancelot}}%
+\immediate\write\writeOfphystricks{totalheightof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Lancelot}}%
+\immediate\write\writeOfphystricks{widthof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT}
@@ -74,12 +76,9 @@
 %DEFAULT
 \draw []  (-3.000000000,3.000000000) node [rotate=0] {$\bullet$};
 \draw (-3.757206856,3.279196023) node {Tristan};
-\draw (-3.757206856,3.279196023) node {Tristan};
 \draw []  (3.000000000,3.000000000) node [rotate=0] {$\bullet$};
 \draw (3.851272356,3.279196023) node {Perceval};
-\draw (3.851272356,3.279196023) node {Perceval};
 \draw []  (1.451068576,-3.986778146) node [rotate=0] {$\bullet$};
-\draw (2.251085271,-4.312491337) node {Lancelot};
 \draw (2.251085271,-4.312491337) node {Lancelot};
 %END PSPICTURE
 \end{tikzpicture}

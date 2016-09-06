@@ -28,9 +28,9 @@ def SVPAooIuxHvP():
     pprime=[  symmetric(seg,Op) for seg in original ]
 
     for seg in prime :
-        pspict.math_BB.append(seg)
+        pspict.math_BB.append(seg,pspict=pspict)
     for seg in pprime :
-        pspict.math_BB.append(seg)
+        pspict.math_BB.append(seg,pspict=pspict)
 
     O.put_mark(0.2,180+45,"\( O\)",pspict=pspict,position="corner")
     Op.put_mark(0.2,-45,"\( O'\)",pspict=pspict,position="corner")

@@ -20,11 +20,11 @@ def GQVWooMiTJnC():
     for P in trig.vertices:
         P.parameters.symbol=""
 
-    angA=Angle(C,A,B,r=0.3)
-    angB=Angle(A,B,C,r=0.3)
-    angC=Angle(B,C,A,r=0.3)
+    angA=AngleAOB(C,A,B,r=0.3)
+    angB=AngleAOB(A,B,C,r=0.3)
+    angC=AngleAOB(B,C,A,r=0.3)
 
-    angA.put_mark(0.1,None,"\SI{"+str(aA)+"}{\degree}",pspict=pspict,position="center")
+    angA.put_mark(0.1,None,"\SI{"+str(aA)+"}{\degree}",pspict=pspict)
     #angB.put_mark(0.2,None,"\SI{120}{\degree}",pspict=pspict)
     angC.put_mark(0.2,None,"\SI{"+str(aC)+"}{\degree}",pspict=pspict)
 

@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigfigureTJkpHLv.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{totalheightoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\unit{15}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{widthoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{5}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{totalheightoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\unit{5}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{widthoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,6 +43,28 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{totalheightoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\unit{15}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{widthoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{5}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{totalheightoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\unit{5}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{widthoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv}
@@ -73,15 +75,12 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw [,->,>=latex] (0,0) -- (0,4.500000000);
-\draw (-0.9017526667,4.500000000) node {\unit{15}{\kilo\meter\per\hour}};
-\draw (-0.9017526667,4.500000000) node {\unit{15}{\kilo\meter\per\hour}};
+\draw (-0.8913891667,4.500000000) node {\unit{15}{\kilo\meter\per\hour}};
 \draw [,->,>=latex] (0,4.500000000) -- (1.500000000,4.500000000);
-\draw (1.500000000,4.900000000) node {\unit{5}{\kilo\meter\per\hour}};
-\draw (1.500000000,4.900000000) node {\unit{5}{\kilo\meter\per\hour}};
+\draw (1.500000000,4.899951167) node {\unit{5}{\kilo\meter\per\hour}};
 \draw [color=blue] (0,0) -- (6.00,0);
 \draw [color=blue] (0,6.00) -- (6.00,6.00);
 \draw [color=red,->,>=latex] (0,0) -- (1.500000000,4.500000000);
-\draw (1.833931023,4.220413810) node {\( \vect{ v }\)};
 \draw (1.833931023,4.220413810) node {\( \vect{ v }\)};
 %END PSPICTURE
 \end{tikzpicture}

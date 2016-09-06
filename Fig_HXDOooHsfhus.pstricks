@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigHXDOooHsfhus.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
-\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{100}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightofc8630a3ee81a4dd0d72c9e6f66fa2f775f0a8103:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{100}{\degree}}}%
-\immediate\write\writeOfphystricks{widthofc8630a3ee81a4dd0d72c9e6f66fa2f775f0a8103:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{30}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightof14bfbcf4026792852a22a5ed4aa13ef25316ab9e:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{30}{\degree}}}%
-\immediate\write\writeOfphystricks{widthof14bfbcf4026792852a22a5ed4aa13ef25316ab9e:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,6 +43,28 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigHXDOooHsfhusPICTHXDOooHsfhus.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigHXDOooHsfhusPICTHXDOooHsfhus.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
+\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{100}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightofc8630a3ee81a4dd0d72c9e6f66fa2f775f0a8103:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{100}{\degree}}}%
+\immediate\write\writeOfphystricks{widthofc8630a3ee81a4dd0d72c9e6f66fa2f775f0a8103:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{30}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightof14bfbcf4026792852a22a5ed4aa13ef25316ab9e:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\SI{30}{\degree}}}%
+\immediate\write\writeOfphystricks{widthof14bfbcf4026792852a22a5ed4aa13ef25316ab9e:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigHXDOooHsfhusPICTHXDOooHsfhus}
@@ -73,15 +75,14 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw (0.2516815115,-0.2073773448) node {\( K\)};
-\draw (0.2516815115,-0.2073773448) node {\( K\)};
 \draw [] (0,0) -- (-0.500,2.10);
 \draw [] (0,0) -- (4.00,2.10);
 \draw [] (-0.823,1.47) -- (3.27,1.47);
 \draw [] (-1.19,0.840) -- (2.59,0.840);
-\draw (0.02189824561,1.940841475) node {\SI{100}{\degree}};
+\draw (0.3947969123,2.074850309) node {\SI{100}{\degree}};
 
 \draw [] (-0.05000,1.470)--(-0.05005,1.475)--(-0.05020,1.481)--(-0.05045,1.486)--(-0.05080,1.492)--(-0.05125,1.497)--(-0.05179,1.503)--(-0.05244,1.508)--(-0.05318,1.514)--(-0.05403,1.519)--(-0.05497,1.524)--(-0.05601,1.530)--(-0.05715,1.535)--(-0.05838,1.540)--(-0.05972,1.546)--(-0.06114,1.551)--(-0.06267,1.556)--(-0.06429,1.561)--(-0.06600,1.567)--(-0.06781,1.572)--(-0.06972,1.577)--(-0.07171,1.582)--(-0.07380,1.587)--(-0.07598,1.592)--(-0.07825,1.597)--(-0.08061,1.602)--(-0.08306,1.607)--(-0.08560,1.612)--(-0.08823,1.617)--(-0.09095,1.621)--(-0.09375,1.626)--(-0.09663,1.631)--(-0.09960,1.635)--(-0.1027,1.640)--(-0.1058,1.644)--(-0.1090,1.649)--(-0.1123,1.653)--(-0.1157,1.657)--(-0.1191,1.662)--(-0.1227,1.666)--(-0.1263,1.670)--(-0.1299,1.674)--(-0.1337,1.678)--(-0.1375,1.682)--(-0.1414,1.686)--(-0.1454,1.689)--(-0.1494,1.693)--(-0.1535,1.697)--(-0.1577,1.700)--(-0.1619,1.704)--(-0.1662,1.707)--(-0.1706,1.710)--(-0.1750,1.714)--(-0.1794,1.717)--(-0.1840,1.720)--(-0.1885,1.723)--(-0.1932,1.726)--(-0.1979,1.729)--(-0.2026,1.731)--(-0.2074,1.734)--(-0.2122,1.736)--(-0.2171,1.739)--(-0.2220,1.741)--(-0.2270,1.744)--(-0.2320,1.746)--(-0.2371,1.748)--(-0.2421,1.750)--(-0.2473,1.752)--(-0.2524,1.754)--(-0.2576,1.755)--(-0.2628,1.757)--(-0.2681,1.759)--(-0.2733,1.760)--(-0.2786,1.761)--(-0.2840,1.763)--(-0.2893,1.764)--(-0.2947,1.765)--(-0.3001,1.766)--(-0.3055,1.767)--(-0.3109,1.767)--(-0.3163,1.768)--(-0.3217,1.769)--(-0.3272,1.769)--(-0.3326,1.770)--(-0.3381,1.770)--(-0.3436,1.770)--(-0.3490,1.770)--(-0.3545,1.770)--(-0.3600,1.770)--(-0.3654,1.770)--(-0.3709,1.769)--(-0.3763,1.769)--(-0.3818,1.768)--(-0.3872,1.768)--(-0.3926,1.767)--(-0.3980,1.766)--(-0.4034,1.765)--(-0.4088,1.764)--(-0.4142,1.763)--(-0.4195,1.762);
-\draw (2.376741481,1.031501099) node {\SI{30}{\degree}};
+\draw (2.378945312,1.003225614) node {\SI{30}{\degree}};
 
 \draw [] (2.100,0.8400)--(2.100,0.8424)--(2.100,0.8449)--(2.100,0.8473)--(2.100,0.8498)--(2.100,0.8522)--(2.100,0.8546)--(2.100,0.8571)--(2.100,0.8595)--(2.100,0.8620)--(2.099,0.8644)--(2.099,0.8668)--(2.099,0.8693)--(2.099,0.8717)--(2.099,0.8742)--(2.099,0.8766)--(2.098,0.8790)--(2.098,0.8815)--(2.098,0.8839)--(2.098,0.8863)--(2.098,0.8888)--(2.097,0.8912)--(2.097,0.8936)--(2.097,0.8960)--(2.097,0.8985)--(2.096,0.9009)--(2.096,0.9033)--(2.096,0.9057)--(2.095,0.9081)--(2.095,0.9106)--(2.095,0.9130)--(2.094,0.9154)--(2.094,0.9178)--(2.094,0.9202)--(2.093,0.9226)--(2.093,0.9250)--(2.092,0.9274)--(2.092,0.9298)--(2.091,0.9323)--(2.091,0.9346)--(2.090,0.9370)--(2.090,0.9394)--(2.090,0.9418)--(2.089,0.9442)--(2.089,0.9466)--(2.088,0.9490)--(2.087,0.9514)--(2.087,0.9538)--(2.086,0.9561)--(2.086,0.9585)--(2.085,0.9609)--(2.085,0.9632)--(2.084,0.9656)--(2.083,0.9680)--(2.083,0.9703)--(2.082,0.9727)--(2.081,0.9750)--(2.081,0.9774)--(2.080,0.9797)--(2.079,0.9821)--(2.079,0.9844)--(2.078,0.9867)--(2.077,0.9891)--(2.077,0.9914)--(2.076,0.9937)--(2.075,0.9961)--(2.074,0.9984)--(2.073,1.001)--(2.073,1.003)--(2.072,1.005)--(2.071,1.008)--(2.070,1.010)--(2.069,1.012)--(2.069,1.014)--(2.068,1.017)--(2.067,1.019)--(2.066,1.021)--(2.065,1.024)--(2.064,1.026)--(2.063,1.028)--(2.062,1.030)--(2.061,1.033)--(2.060,1.035)--(2.059,1.037)--(2.059,1.039)--(2.058,1.042)--(2.057,1.044)--(2.056,1.046)--(2.055,1.048)--(2.054,1.051)--(2.052,1.053)--(2.051,1.055)--(2.050,1.057)--(2.049,1.059)--(2.048,1.062)--(2.047,1.064)--(2.046,1.066)--(2.045,1.068)--(2.044,1.070)--(2.043,1.072);
 %END PSPICTURE

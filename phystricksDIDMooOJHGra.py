@@ -12,7 +12,7 @@ def DIDMooOJHGra():
     E=cer.get_point(-90+alpha)
     B=(A+D)*0.5
     C=(A+E)*0.5
-    lc=Segment(D,E).length()
+    lc=Segment(D,E).length
     F=D+(0,-lc)
     G=E+(0,-lc)
 

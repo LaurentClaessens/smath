@@ -15,10 +15,10 @@ def VAAYooXndWQq():
     J=s2.get_point_proportion(0.6)
     s3=Segment(I,J).dilatation(1.7)
 
-    a1=Angle(s2.F,J,s3.I,0.3)
-    a1.put_mark(0.2,None,"\( a\)",pspict=pspict,position="center")
-    a2=Angle(s3.I,I,s1.I,0.3)
-    a2.put_mark(0.2,None,"\( b\)",pspict=pspict,position="center")
+    a1=AngleAOB(s2.F,J,s3.I,0.3)
+    a1.put_mark(0.2,None,"\( a\)",pspict=pspict)
+    a2=AngleAOB(s3.I,I,s1.I,0.3)
+    a2.put_mark(0.2,None,"\( b\)",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,s3,a1,a2)
     fig.no_figure()

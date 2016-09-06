@@ -6,26 +6,6 @@
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
 %SPECIFIC_NEEDS
-%OPEN_WRITE_AND_LABEL
-\makeatletter\@ifundefined{writeOfphystricks}{\newwrite{\writeOfphystricks}}{}\makeatother%
-\makeatletter\@ifundefined{lengthOfDOTfiguressmathDOTpy}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}\makeatother%
-\immediate\openout\writeOfphystricks=LabelFigNPGPooUwaiww.phystricks.aux%
-%WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Clerval}}%
-\immediate\write\writeOfphystricks{totalheightofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Clerval}}%
-\immediate\write\writeOfphystricks{widthofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Baume}}%
-\immediate\write\writeOfphystricks{totalheightoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Baume}}%
-\immediate\write\writeOfphystricks{widthoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Besançon}}%
-\immediate\write\writeOfphystricks{totalheightof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Besançon}}%
-\immediate\write\writeOfphystricks{widthof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfDOTfiguressmathDOTpy-}
-%WRITE_AND_LABEL
-%CLOSE_WRITE_AND_LABEL
-\immediate\closeout\writeOfphystricks%
 %HATCHING_COMMANDS
                  \makeatletter
 % If hatchspread is not defined, we define it
@@ -63,26 +43,46 @@
 % http://student.ulb.ac.be/~lclaesse/phystricks-documentation/_build/html/index.html 
 % and the projects phystricks and phystricks-doc at 
 % https://github.com/LaurentClaessens/phystricks
+%OPEN_WRITE_AND_LABEL
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww.phystricks.aux%
+\ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=FIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww.phystricks.aux%
+%WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Clerval}}%
+\immediate\write\writeOfphystricks{totalheightofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Clerval}}%
+\immediate\write\writeOfphystricks{widthofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Baume}}%
+\immediate\write\writeOfphystricks{totalheightoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Baume}}%
+\immediate\write\writeOfphystricks{widthoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Besançon}}%
+\immediate\write\writeOfphystricks{totalheightof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Besançon}}%
+\immediate\write\writeOfphystricks{widthof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfDOTfiguressmathDOTpy-}
+%CLOSE_WRITE_AND_LABEL
+\immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
 \tikzsetnextfilename{tikzFIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
-%AXES
-%OTHER STUFF
 %PSTRICKS CODE
+%AXES
+\draw [,->,>=latex] (0,0) -- (6.000000000,0);
 %DEFAULT
 \draw [] (0,0.100) -- (0,-0.100);
 \draw [] (1.00,0.100) -- (1.00,-0.100);
 \draw [] (2.00,0.100) -- (2.00,-0.100);
 \draw [] (3.00,0.100) -- (3.00,-0.100);
-\draw [,->,>=latex] (0,0) -- (6.000000000,0);
-\draw (0,-0.3377746667) node {Clerval};
+
 \draw (0,-0.3377746667) node {Clerval};
 \draw (3.000000000,-0.3377746667) node {Baume};
-\draw (3.000000000,-0.3377746667) node {Baume};
 \draw (6.000000000,-0.3766633333) node {Besançon};
-\draw (6.000000000,-0.3766633333) node {Besançon};
+%OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
