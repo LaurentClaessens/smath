@@ -21,8 +21,8 @@ def NUWooJepuh():
     B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
      
     pspict.DrawGraphs(f,A,B)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -23,8 +23,8 @@ def GLKFooKwvxSl():
 
     pspict.DrawGraphs(A)
     #pspict.DrawGraphs(B,C)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

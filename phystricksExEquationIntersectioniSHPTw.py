@@ -28,8 +28,8 @@ def ExEquationIntersectioniSHPTw():
         R.parameters.color="cyan"
         pspict.DrawGraphs(seg,P,R)
 
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

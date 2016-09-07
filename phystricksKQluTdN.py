@@ -18,7 +18,7 @@ def KQluTdN():
     tb=f.get_tangent_segment(b).graph(1,4)
 
     pspict.DrawGraphs(f,A,B,ta,tb)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.conclude()
     fig.write_the_file()

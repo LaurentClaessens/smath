@@ -14,10 +14,10 @@ def QGaeERu():
 
     pspict.axes.single_axeX.Dx=2
     pspict.axes.single_axeY.Dx=10
-    pspict.DrawDefaultAxes()
     pspict.grid.Dx=pspict.single_axeX.Dx
     pspict.grid.Dy=pspict.single_axeY.Dx
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

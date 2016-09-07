@@ -21,8 +21,8 @@ def KKEdcAR():
     g.put_mark(0.2,45,"\( d_2\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(f,g)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

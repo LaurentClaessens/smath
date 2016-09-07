@@ -18,8 +18,8 @@ def KBOKooTCswpl():
     pspict.math_BB.append( Point(-4,-4),pspict=pspict )
 
     pspict.DrawGraphs(A,B,C,D)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

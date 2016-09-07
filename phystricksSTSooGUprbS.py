@@ -14,8 +14,8 @@ def STSooGUprbS():
     f.cut_y(-8,8)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

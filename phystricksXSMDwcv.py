@@ -29,8 +29,8 @@ def XSMDwcv():
 
     pspict.comment="The grid goes from (-2,0) to (5,6). Id est, it contains (0,0)"
     pspict.DrawGraphs(f,A,B,M,BM,AM,measure_p)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

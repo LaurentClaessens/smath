@@ -32,8 +32,8 @@ def EJbcoxO():
     M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
 
     pspict.DrawGraphs(f,droite1,A,B,Z1,Z2,Z3,M)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

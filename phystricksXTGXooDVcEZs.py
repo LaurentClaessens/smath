@@ -18,8 +18,8 @@ def XTGXooDVcEZs():
     no_symbol(trig.vertices)
 
     pspict.DrawGraphs(trig,rh,S)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

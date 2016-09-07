@@ -15,8 +15,8 @@ def CFFyezr():
     S2.put_mark(0.2,-45,"\( S_2\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(S1,S2,v1,v2)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

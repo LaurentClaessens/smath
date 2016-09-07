@@ -9,8 +9,8 @@ def FCarreQFhsWz():
     f=phyFunction(x**2).graph(-2.5,2.5)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

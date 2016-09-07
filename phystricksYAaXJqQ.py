@@ -10,8 +10,8 @@ def YAaXJqQ():
 
     pspict.comment="The graph is cut into two parts around x=-3"
     pspict.DrawGraphs(F)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

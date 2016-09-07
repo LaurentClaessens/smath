@@ -15,8 +15,8 @@ def GDSEooVtgtKw():
     H.put_mark(0.2,H.angle(),"\( H\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(A,B,C,H)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

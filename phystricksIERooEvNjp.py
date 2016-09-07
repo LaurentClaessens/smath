@@ -17,8 +17,8 @@ def IERooEvNjp():
     pspict.force_math_bounding_box( C-B+A+(1,1) )
 
     pspict.DrawGraphs(A,B,C)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

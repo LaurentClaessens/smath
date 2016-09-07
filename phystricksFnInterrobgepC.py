@@ -12,8 +12,8 @@ def FnInterrobgepC():
     g.parameters.style="dashed"
 
     pspict.DrawGraphs(f,g)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

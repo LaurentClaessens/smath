@@ -7,8 +7,8 @@ def ParaboleoytUKk():
     f=phyFunction(2*x**2+4*x+2).graph(-2.5,0.5)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

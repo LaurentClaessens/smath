@@ -9,8 +9,8 @@ def GrapheVarREGMqx():
     f.put_mark(0.2,0,"\( f\)",pspict=pspict)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

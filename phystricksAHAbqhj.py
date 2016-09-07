@@ -9,8 +9,8 @@ def AHAbqhj():
     f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultGrid()
     pspict.DrawDefaultAxes()
+    pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

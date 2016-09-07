@@ -10,8 +10,8 @@ def MVHooAdkhKq():
 
     pspict.axes.single_axeX.Dx=0.5
     pspict.DrawGraphs(fun)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

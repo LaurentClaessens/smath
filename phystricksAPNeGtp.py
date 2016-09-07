@@ -12,8 +12,8 @@ def APNeGtp():
     f=phyFunction(x*(x-1)*(x+3)/2).graph(-3.5,1.5)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

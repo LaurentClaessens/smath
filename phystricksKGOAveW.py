@@ -38,8 +38,8 @@ def KGOAveW():
         P.put_mark(0.2,90,"\( K_{}\)".format(i+1),pspict=pspict,position="S")
         pspict.DrawGraphs(P)
 
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

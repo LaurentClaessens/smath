@@ -11,8 +11,8 @@ def IQnEPpt():
     f=phyFunction((3/2)*x+1).graph(-3,3)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

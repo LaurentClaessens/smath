@@ -11,8 +11,8 @@ def general(name):
     f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     return pspict,fig
 
 def PXsdjSu():

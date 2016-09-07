@@ -37,8 +37,8 @@ def ExoTranslationPNjoHk():
 
     pspict.DrawGraphs(Car,Toit,d1,d2,vA,vB,v)
     pspict.axes.no_numbering()
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

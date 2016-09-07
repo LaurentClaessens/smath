@@ -12,8 +12,8 @@ def GraphInterfQVfSf():
     B.put_mark(0.2,90,"\( B\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

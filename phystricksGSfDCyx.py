@@ -25,8 +25,8 @@ def GSfDCyx():
     pspict.grid.draw_horizontal_grid=False
     pspict.axes.draw_single_axeY=False
     pspict.axes.single_axeY.no_graduation()
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
@@ -57,8 +57,8 @@ def GSfDCyx():
     pspict.grid.draw_horizontal_grid=False
     pspict.axes.draw_single_axeY=False
     pspict.axes.single_axeY.no_graduation()
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

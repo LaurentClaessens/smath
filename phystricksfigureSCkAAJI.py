@@ -15,8 +15,8 @@ def figureSCkAAJI():
     K.parameters.fill.color="black"
 
     pspict.DrawGraphs(f,K)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

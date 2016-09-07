@@ -15,7 +15,7 @@ def OIHVjmO():
 
     pspict.DrawGraphs(f,v)
     pspict.axes.single_axeY.Dx=5
-    pspict.DrawDefaultAxes()
     #pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.conclude()
     fig.write_the_file()

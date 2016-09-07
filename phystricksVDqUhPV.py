@@ -10,8 +10,8 @@ def VDqUhPV():
     P=LagrangePolynomial( [  Point(1/2,3),Point(2,3),Point(4,0)    ] ).graph(-2.5,4.5)
 
     pspict.DrawGraphs(P)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -25,8 +25,8 @@ def SVPCooGYtlqq():
     pspict.grid.Dx=15
     pspict.grid.Dy=10
     pspict.DrawGraphs(seg)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

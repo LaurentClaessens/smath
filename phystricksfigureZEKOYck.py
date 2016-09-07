@@ -14,8 +14,8 @@ def figureZEKOYck():
     h.parameters.color="green"
 
     pspict.DrawGraphs(f,g,h)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

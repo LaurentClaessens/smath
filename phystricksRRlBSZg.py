@@ -18,8 +18,8 @@ def RRlBSZg():
 
     #pspict.DrawGraphs(f,P,Q)
     pspict.DrawGraphs(f,g)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
 
     fig.no_figure()
     fig.conclude()

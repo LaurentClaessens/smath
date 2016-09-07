@@ -20,8 +20,8 @@ def AUHmNET():
 
     pspict.DrawGraphs(A,B,C,D,linH,linV)
 
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

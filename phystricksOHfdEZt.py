@@ -30,8 +30,8 @@ def OHfdEZt():
 
     for i,psp in enumerate(pspicts):
         psp.DrawGraphs(F[i])
-        psp.DrawDefaultAxes()
         psp.DrawDefaultGrid()
+        psp.DrawDefaultAxes()
 
     fig.conclude()
     fig.write_the_file()

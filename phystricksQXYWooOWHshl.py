@@ -29,8 +29,8 @@ def QXYWooOWHshl():
     pspicts[0].grid.Dx=15
     pspicts[0].grid.Dy=20
     pspicts[0].DrawGraphs(f)
-    pspicts[0].DrawDefaultAxes()
     pspicts[0].DrawDefaultGrid()
+    pspicts[0].DrawDefaultAxes()
 
                                   # C'est celui-ci qui va être le bon
     pspicts[1].dilatation_X(2.5/90)
@@ -54,8 +54,8 @@ def QXYWooOWHshl():
     pspicts[1].grid.Dx=15
     pspicts[1].grid.Dy=20
     pspicts[1].DrawGraphs(seg)
-    pspicts[1].DrawDefaultAxes()
     pspicts[1].DrawDefaultGrid()
+    pspicts[1].DrawDefaultAxes()
 
 
 
@@ -85,8 +85,8 @@ def QXYWooOWHshl():
     pspicts[3].grid.Dx=15
     pspicts[3].grid.Dy=20
     pspicts[3].DrawGraphs(seg,P)
-    pspicts[3].DrawDefaultAxes()
     pspicts[3].DrawDefaultGrid()
+    pspicts[3].DrawDefaultAxes()
 
 
 
@@ -110,8 +110,8 @@ def QXYWooOWHshl():
     pspicts[2].grid.Dx=15
     pspicts[2].grid.Dy=20
     pspicts[2].DrawGraphs(seg)
-    pspicts[2].DrawDefaultAxes()
     pspicts[2].DrawDefaultGrid()
+    pspicts[2].DrawDefaultAxes()
 
 
     for fig in figs :

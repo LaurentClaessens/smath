@@ -23,8 +23,8 @@ def ExoGraphIneqPgErDr():
 
     for i,psp in enumerate(pspicts):
         psp.DrawGraphs(f[i])
-        psp.DrawDefaultAxes()
         psp.DrawDefaultGrid()
+        psp.DrawDefaultAxes()
 
     fig.conclude()
     fig.write_the_file()

@@ -21,8 +21,8 @@ def ExoIntersectionCourbenzIxXd():
     f.put_mark(0.2,0,"\( y=x\)",pspict=pspict)
 
     pspict.DrawGraphs(f,curve2)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

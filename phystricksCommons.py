@@ -53,5 +53,5 @@ def DS_statistics(moustaches,pspict):
     pspict.grid.draw_horizontal_grid=False
     pspict.axes.draw_single_axeY=False
     pspict.axes.single_axeY.no_graduation()
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()

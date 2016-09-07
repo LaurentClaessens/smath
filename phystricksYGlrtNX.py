@@ -21,8 +21,8 @@ def YGlrtNX():
     horiz.parameters.color="red"
 
     pspictC.DrawGraphs(f,A,Z1,Z2,Z3,horiz)
-    pspictC.DrawDefaultAxes()
     pspictC.DrawDefaultGrid()
+    pspictC.DrawDefaultAxes()
     figC.no_figure()
     figC.conclude()
     figC.write_the_file()
@@ -34,8 +34,8 @@ def YGlrtNX():
 
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -50,8 +50,8 @@ def figureHYeBZVj():
     pspict.grid.num_subY=1
     pspict.axes.do_mx_enlarge=False
     pspict.axes.do_my_enlarge=False
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.conclude()
     fig.write_the_file()
 

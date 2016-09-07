@@ -22,8 +22,8 @@ def ExGrapheOcxXii():
         pspicts[1].DrawGraphs(P)
 
     for psp in pspicts:
-        psp.DrawDefaultAxes()
         psp.DrawDefaultGrid()
+        psp.DrawDefaultAxes()
 
     fig.conclude()
     fig.write_the_file()

@@ -19,8 +19,8 @@ def JLUTBlD():
     f.parameters.color="red"
 
     pspict.DrawGraphs(f,P,Q)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
 
     fig.no_figure()
     fig.conclude()
@@ -44,8 +44,8 @@ def JWNtVIR():
     g.put_mark(0.2,0,"\( g\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f,g,P,Q)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
 
     fig.no_figure()
     fig.conclude()

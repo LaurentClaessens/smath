@@ -9,8 +9,8 @@ def figureQUtOjcm():
     for i in range(1,6):
         P=Point(i,3*i/2+0.5)
         pspict.DrawGraphs(P)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
 
     fig.no_figure()
     fig.conclude()

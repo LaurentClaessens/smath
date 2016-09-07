@@ -8,8 +8,8 @@ def FLnDVHh():
     f=phyFunction(-x**2/2+x+3).graph(-2,4)
 
     pspict.DrawGraphs(f)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

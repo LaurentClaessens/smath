@@ -16,8 +16,8 @@ def KYbSnVB():
     D.put_mark(0.2,225,"\( D\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(A,B,C,D)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

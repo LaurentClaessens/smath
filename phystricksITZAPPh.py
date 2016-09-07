@@ -21,8 +21,8 @@ def ITZAPPh():
         psp.DrawGraphs(F[i])
 
     for psp in pspicts:
-        psp.DrawDefaultAxes()
         psp.DrawDefaultGrid()
+        psp.DrawDefaultAxes()
 
     fig.conclude()
     fig.write_the_file()

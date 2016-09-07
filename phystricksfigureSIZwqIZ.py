@@ -23,8 +23,8 @@ def figureSIZwqIZ():
     pspict.axes.no_graduation()
     pspict.axes.single_axeX.put_mark(0.2,-45,"\( x\)",pspict=pspict,position="corner")
     pspict.axes.single_axeY.put_mark(0.2,45,"\( y\)",pspict=pspict,position="corner")
-    pspict.DrawDefaultAxes()
     #pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
 
     fig.no_figure()
     fig.conclude()

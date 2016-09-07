@@ -31,8 +31,8 @@ def EffectifsCumulwfqAhj():
     pspict.axes.do_my_enlarge=False
     pspict.axes.Dx=2
     pspict.axes.Dy=2
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.conclude()
     fig.write_the_file()
 

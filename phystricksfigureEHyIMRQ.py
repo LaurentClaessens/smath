@@ -26,8 +26,8 @@ def figureEHyIMRQ():
     pspict.axes.single_axeY.no_graduation()
     pspict.grid.Dx=200
     pspict.grid.draw_horizontal_grid=False
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

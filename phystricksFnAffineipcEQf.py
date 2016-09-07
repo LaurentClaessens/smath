@@ -26,8 +26,8 @@ def FnAffineipcEQf():
 
         psp.axes.no_graduation()
         psp.DrawGraphs(f[i],P,Q)
-        psp.DrawDefaultAxes()
         #psp.DrawDefaultGrid()
+        psp.DrawDefaultAxes()
 
     fig.conclude()
     fig.write_the_file()

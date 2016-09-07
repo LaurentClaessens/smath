@@ -19,8 +19,8 @@ def XPqLRCF():
     h.put_mark(0.2,0,"\( h\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f,g)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
@@ -39,8 +39,8 @@ def VXFxyni():
     #K.put_mark(0.2,90,"\( K\)",pspict=pspict)
 
     pspict.DrawGraphs(f,g,h,K)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

@@ -20,9 +20,9 @@ def figureXCScSiP():
     pspict.axes.do_mx_enlarge=False
     pspict.axes.do_my_enlarge=False
 
-    pspict.DrawDefaultAxes()
-    # TODO : si on enlève la grille, alors le do_mx_enlarge est pris en compte.
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
+    pspict.comment="Est-ce que l'enlarge est pris en compte ?"
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

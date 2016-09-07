@@ -16,8 +16,8 @@ def EvZZys():
     Z.put_mark(0.1,Z.angle(),"$Z$",pspict=pspict)
 
     pspict.DrawGraphs(X,Y,Z)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

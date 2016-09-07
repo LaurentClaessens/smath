@@ -14,8 +14,8 @@ def TCpyyhO():
     h=phyFunction(3*x-4).fit_inside(xmin=xmin,xmax=xmax,ymin=ymin,ymax=ymax)
 
     pspict.DrawGraphs(g,h)
-    pspict.DrawDefaultAxes()
     pspict.DrawDefaultGrid()
+    pspict.DrawDefaultAxes()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
