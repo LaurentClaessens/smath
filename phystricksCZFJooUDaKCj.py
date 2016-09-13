@@ -9,7 +9,7 @@ def CZFJooUDaKCj():
     Mx=9.5
     O=Point(0,0)
 
-    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="N")
     O.parameters.symbol=''
 
     axe=SingleAxe(O,Vector(1,0),mx,Mx,pspict=pspict)

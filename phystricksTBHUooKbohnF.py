@@ -11,7 +11,7 @@ def TBHUooKbohnF():
     C=Point(4,4)
 
     triangle=Polygon(A,B,C)
-    triangle.put_mark(0.2,pspict=pspicts)
+    triangle.put_mark(0.2,pspicts=pspicts)
 
     I=triangle.edges[0].midpoint()
     J=triangle.edges[1].midpoint()
@@ -21,15 +21,15 @@ def TBHUooKbohnF():
     IK=Segment(I,K).dilatation(1.5)
     KJ=Segment(K,J).dilatation(1.5)
 
-    I.put_mark(0.2,I.advised_mark_angle(pspicts)+180,"\( I\)",pspict=pspicts,position="corner")
-    J.put_mark(0.2,J.advised_mark_angle(pspicts)+180,"\( J\)",pspict=pspicts,position="corner")
-    K.put_mark(0.2,K.advised_mark_angle(pspicts)+180,"\( K\)",pspict=pspicts,position="corner")
+    I.put_mark(0.2,I.advised_mark_angle(pspicts)+180,"\( I\)",pspicts=pspicts,position="corner")
+    J.put_mark(0.2,J.advised_mark_angle(pspicts)+180,"\( J\)",pspicts=pspicts,position="corner")
+    K.put_mark(0.2,K.advised_mark_angle(pspicts)+180,"\( K\)",pspicts=pspicts,position="corner")
 
 
-    triangle.edges[0].divide_in_two(n=2,d=0.1,l=0.4,angle=45,pspict=pspicts)
-    triangle.edges[1].divide_in_two(n=1,d=0.1,l=0.4,angle=45,pspict=pspicts)
+    triangle.edges[0].divide_in_two(n=2,d=0.1,l=0.4,angle=45,pspicts=pspicts)
+    triangle.edges[1].divide_in_two(n=1,d=0.1,l=0.4,angle=45,pspicts=pspicts)
     pspicts[1].DrawGraphs(triangle,IJ,I,J)
-    triangle.edges[2].divide_in_two(n=3,d=0.1,l=0.4,angle=45,pspict=pspicts)
+    triangle.edges[2].divide_in_two(n=3,d=0.1,l=0.4,angle=45,pspicts=pspicts)
     pspicts[0].DrawGraphs(triangle,IJ,IK,KJ,I,J,K)
 
     for fig in figs:

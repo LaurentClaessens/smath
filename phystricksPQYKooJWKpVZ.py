@@ -15,9 +15,9 @@ def PQYKooJWKpVZ():
 
     I=Intersection(s1,s2)[0]
 
-    alpha=Angle(A,I,C,0.4)
-    beta=Angle(B,I,D,0.4)
-    gamma=Angle(D,I,A,0.3)
+    alpha=AngleAOB(A,I,C,0.4)
+    beta=AngleAOB(B,I,D,0.4)
+    gamma=AngleAOB(D,I,A,0.3)
 
     alpha.put_mark(0.2,None,"\( a\)",pspict=pspict)
     beta.put_mark(0.2,None,"\( b\)",pspict=pspict)

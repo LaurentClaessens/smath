@@ -22,8 +22,8 @@ def FaussePerspectivewAwxAJ():
 
     carre=Polygon(A,B,C,D)
     carre.parameters.filled()
-    K=Segment(A,B).center()
-    L=Segment(D,C).center()
+    K=Segment(A,B).midpoint()
+    L=Segment(D,C).midpoint()
     J=perspective.point(c+1,0,c)
     K.parameters.symbol="x"
     L.parameters.symbol="x"

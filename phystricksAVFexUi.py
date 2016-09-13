@@ -33,10 +33,10 @@ def AVFexUi():
         s.parameters.color="red"
         s.parameters.style="dashed"
 
-    B1.put_mark(0.2,0,"\( -1/10\)",pspict=pspicts,position="W")
-    X1.put_mark(0.2,90,"\( -10\)",pspict=pspicts,position="S")
-    B2.put_mark(0.2,180,"\( 3/4\)",pspict=pspicts,position="E")
-    X2.put_mark(0.2,-90,"\( 4/3\)",pspict=pspicts,position="N")
+    B1.put_mark(0.2,text="\( -1/10\)",pspicts=pspicts,position="W")
+    X1.put_mark(0.2,text="\( -10\)",pspicts=pspicts,position="S")
+    B2.put_mark(0.2,text="\( 3/4\)",pspicts=pspicts,position="E")
+    X2.put_mark(0.2,text="\( 4/3\)",pspicts=pspicts,position="N")
 
     w1=Segment( B1,B2  )
     w1.parameters.color="cyan"
@@ -66,6 +66,3 @@ def AVFexUi():
 
     fig.conclude()
     fig.write_the_file()
-
-
-

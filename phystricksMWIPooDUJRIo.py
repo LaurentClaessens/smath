@@ -17,8 +17,8 @@ def MWIPooDUJRIo():
 
     sec=Segment(I,J).dilatation(2)
 
-    a1=Angle(B,I,sec.I)
-    a2=Angle(sec.F,J,D)
+    a1=AngleAOB(B,I,sec.I)
+    a2=AngleAOB(sec.F,J,D)
     a1.put_mark(0.4,angle=None,text="\SI{34}{\degree}",pspict=pspict)
     a2.put_mark(0.4,angle=None,text="\SI{146}{\degree}",pspict=pspict)
 

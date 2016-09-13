@@ -16,14 +16,14 @@ def UOEOooLxhpSC():
     dig1=Segment(A,C)
     dig2=Segment(B,D)
 
-    a1=Angle(D,A,C,r=0.7)
-    a2=Angle(C,A,B)
-    b1=Angle(A,B,D,r=0.7)
-    b2=Angle(D,B,C)
-    c1=Angle(B,C,A,r=0.7)
-    c2=Angle(A,C,D)
-    d1=Angle(C,D,B,r=0.7)
-    d2=Angle(B,D,A)
+    a1=AngleAOB(D,A,C,r=0.7)
+    a2=AngleAOB(C,A,B)
+    b1=AngleAOB(A,B,D,r=0.7)
+    b2=AngleAOB(D,B,C)
+    c1=AngleAOB(B,C,A,r=0.7)
+    c2=AngleAOB(A,C,D)
+    d1=AngleAOB(C,D,B,r=0.7)
+    d2=AngleAOB(B,D,A)
 
     I=Intersection(dig1,dig2)[0]
 

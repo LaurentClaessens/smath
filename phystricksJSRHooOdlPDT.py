@@ -12,8 +12,8 @@ def JSRHooOdlPDT():
     A=Point(-3,0)
     B=Point(4,0)
 
-    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
-    A.put_mark(0.2,-90,"\( -3\)",pspict=pspict,position="N")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="N")
+    A.put_mark(0.2,text="\( -3\)",pspict=pspict,position="N")
     A.put_mark(0.2,90+45,"\( A\)",pspict=pspict)
     B.put_mark(0.2,-90,"\( 4\)",pspict=pspict)
     B.put_mark(0.2,45,"\( B\)",pspict=pspict)

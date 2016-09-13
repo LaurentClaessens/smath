@@ -146,27 +146,28 @@
 \draw (12.00000000,-0.3049540000) node {110};
 \draw (0.8181818182,6.304954000) node {$20$};
 
-\draw [] (0,6.00) -- (1.64,6.00);
 \draw [] (0,0) -- (1.64,0);
-\draw [] (1.64,6.00) -- (1.64,0);
+\draw [] (1.64,0) -- (1.64,6.00);
+\draw [] (1.64,6.00) -- (0,6.00);
 \draw [] (0,6.00) -- (0,0);
 \draw (4.363636364,6.154954000) node {$65$};
 
-\draw [] (1.64,5.85) -- (7.09,5.85);
 \draw [] (1.64,0) -- (7.09,0);
-\draw [] (7.09,5.85) -- (7.09,0);
+\draw [] (7.09,0) -- (7.09,5.85);
+\draw [] (7.09,5.85) -- (1.64,5.85);
 \draw [] (1.64,5.85) -- (1.64,0);
 \draw (9.545454545,1.804954000) node {$15$};
 
-\draw [] (7.09,1.50) -- (12.0,1.50);
 \draw [] (7.09,0) -- (12.0,0);
-\draw [] (12.0,1.50) -- (12.0,0);
+\draw [] (12.0,0) -- (12.0,1.50);
+\draw [] (12.0,1.50) -- (7.09,1.50);
 \draw [] (7.09,1.50) -- (7.09,0);
 
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigHistoAgeFrancePICTHistoAgeFrance
 %AFTER PSPICTURE
 %AFTER ALL
 \caption{\CaptionFigHistoAgeFrance}\label{LabelFigHistoAgeFrance}

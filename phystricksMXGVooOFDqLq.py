@@ -10,7 +10,7 @@ def MXGVooOFDqLq():
 
     trig=Polygon(A,B,C)
     rh=RightAngleAOB(A,B,C,n1=0,n2=1)
-    angle=Angle(B,A,C)
+    angle=AngleAOB(B,A,C)
     angle.put_mark(0.2,angle=None,added_angle=0,text="\( a\)",pspict=pspict)
 
     trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",pspict=pspict)

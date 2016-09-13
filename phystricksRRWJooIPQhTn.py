@@ -10,10 +10,10 @@ def RRWJooIPQhTn():
     B=Point(3,0)
     C=Point(0,2)
     trig=Polygon(A,B,C)
-    trig.put_mark(0.2,points_names="ABC",pspict=pspicts)
+    trig.put_mark(0.2,points_names="ABC",pspicts=pspicts)
     rh=RightAngleAOB(C,A,B)
-    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",pspict=pspicts)
-    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",pspict=pspicts)
+    trig.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\( 5\)",pspicts=pspicts)
+    trig.edges[2].put_mark(0.2,angle=None,added_angle=180,text="\( 3\)",pspicts=pspicts)
     no_symbol(trig.vertices)
 
     pspicts[0].DrawGraphs(trig,rh)
@@ -25,9 +25,9 @@ def RRWJooIPQhTn():
     F=E+(2,-2)
     G=D+F-E
     H=Point(G.x,D.y)
-    H.put_mark(0.2,angle=90,added_angle=0,text="\( H\)",pspict=pspicts)
+    H.put_mark(0.2,angle=90,added_angle=0,text="\( H\)",pspicts=pspicts)
     parall=Polygon(D,E,F,G)
-    parall.put_mark(0.2,points_names="DEFG",pspict=pspicts)
+    parall.put_mark(0.2,points_names="DEFG",pspicts=pspicts)
     hauteur=Segment(H,G)
     hauteur.parameters.style='dashed'
     rh=RightAngleAOB(G,H,E)
@@ -40,9 +40,9 @@ def RRWJooIPQhTn():
     L=Point(2,0)
     M=Point(1.5,2)
     S=Point(M.x,K.y)
-    S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",pspict=pspicts)
+    S.put_mark(0.2,angle=-90,added_angle=0,text="\( S\)",pspicts=pspicts)
     trig=Polygon(K,L,M)
-    trig.put_mark(0.2,points_names="KLM",pspict=pspicts)
+    trig.put_mark(0.2,points_names="KLM",pspicts=pspicts)
     hauteur=Segment(M,S)
     hauteur.parameters.style='dashed'
     rh=RightAngleAOB(K,S,M)
@@ -57,9 +57,9 @@ def RRWJooIPQhTn():
 
     T=J.projection(Segment(H,I))
 
-    T.put_mark(0.2,angle=None,added_angle=0,text="\( T\)",pspict=pspicts)
+    T.put_mark(0.2,angle=None,added_angle=0,text="\( T\)",pspicts=pspicts)
     trig=Polygon(H,I,J)
-    trig.put_mark(0.2,points_names="HIJ",pspict=pspicts)
+    trig.put_mark(0.2,points_names="HIJ",pspicts=pspicts)
     hauteur=Segment(T,J)
     hauteur.parameters.style='dashed'
     rh=RightAngleAOB(J,T,I)

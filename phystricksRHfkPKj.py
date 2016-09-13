@@ -10,8 +10,8 @@ def RHfkPKj():
     F=Point(1,1)
     B=Point(1,0)
 
-    I=Segment(E,F).center()
-    J=Segment(B,F).center()
+    I=Segment(E,F).midpoint()
+    J=Segment(B,F).midpoint()
     carre=Polygon(A,E,F,B)
 
     seg=Segment(I,J)

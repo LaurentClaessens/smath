@@ -12,7 +12,7 @@ def HHRTooMDylcn():
     triangle.put_mark(0.2,pspict=pspict)
 
     K=Segment(A,C).midpoint()
-    K.put_mark(0.2,-90,"\( K\)",pspict=pspict,position="N")
+    K.put_mark(0.2,text="\( K\)",pspict=pspict,position="N")
 
     med=Segment(B,K).dilatation(1.3)
     med.parameters.style="dashed"

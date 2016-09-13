@@ -9,7 +9,7 @@ def NWVMooKshXYo():
     D=Point(1,3)
 
     triangle=Polygon(A,N,D)
-    triangle.put_mark(0.2,text_list=["\( A\)","\( N\)","\( D\)"],pspict=pspict)
+    triangle.put_mark(0.3,text_list=["\( A\)","\( N\)","\( D\)"],pspict=pspict)
 
     J=triangle.edges[2].midpoint()
     K=triangle.edges[1].midpoint()
@@ -20,8 +20,9 @@ def NWVMooKshXYo():
     triangle.edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspict)
     triangle.edges[2].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
 
-    mes=triangle.edges[0].get_measure(0.2,0.1,-90,"\SI{7.8}{\centi\meter}",pspict=pspict,position="N")
-
+    print("3")
+    mes=triangle.edges[0].get_measure(0.2,0.1,name="\SI{7.8}{\centi\meter}",pspict=pspict,position="N")
+    print("4")
     pspict.DrawGraphs(triangle,seg,mes,J,K)
     fig.no_figure()
     fig.conclude()

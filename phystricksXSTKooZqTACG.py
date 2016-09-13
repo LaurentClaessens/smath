@@ -11,9 +11,9 @@ def XSTKooZqTACG():
     triangle=Polygon(A,B,C)
     triangle.put_mark(0.2,pspict=pspict)
 
-    triangle.edges[0].put_mark(0.2,triangle.edges[0].advised_mark_angle(pspict)+180,"\( 6\)",pspict=pspict,position="E")
-    triangle.edges[1].put_mark(0.2,triangle.edges[1].advised_mark_angle(pspict)+180,"\( 8\)",pspict=pspict,position="N")
-    triangle.edges[2].put_mark(0.2,triangle.edges[2].advised_mark_angle(pspict)+180,"\( 10\)",pspict=pspict,position="corner")
+    triangle.edges[0].put_mark(0.2,text="\( 6\)",pspict=pspict,position="E")
+    triangle.edges[1].put_mark(0.2,text="\( 8\)",pspict=pspict,position="N")
+    triangle.edges[2].put_mark(0.2,text="\( 10\)",pspict=pspict,position="corner")
 
     rh=RightAngle(  triangle.edges[0],triangle.edges[1],0,1 )
 

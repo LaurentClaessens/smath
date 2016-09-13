@@ -29,7 +29,7 @@ def ZSAooVHmHWd():
     A.put_mark(0.2,A.advised_mark_angle(pspict),"\( A\)",pspict=pspict)
     B.put_mark(0.2,B.advised_mark_angle(pspict),"\( B\)",pspict=pspict)
     C.put_mark(0.2,C.advised_mark_angle(pspict),"\( C\)",pspict=pspict)
-    O.put_mark(0.4,0,"\( O\)",pspict=pspict,position="W")
+    O.put_mark(0.4,text="\( O\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(trig,mediatrices,circonscrit,A,B,C,O)
 

@@ -10,10 +10,10 @@ def figureBOuQJyj():
     D=Point(0,-2)
 
     quad=Polygon(A,B,C,D)
-    I=Segment(A,B).center()
-    J=Segment(B,C).center()
-    K=Segment(C,D).center()
-    L=Segment(D,A).center()
+    I=Segment(A,B).midpoint()
+    J=Segment(B,C).midpoint()
+    K=Segment(C,D).midpoint()
+    L=Segment(D,A).midpoint()
 
     A.put_mark(0.2,135,"\( A\)",pspict=pspict)
     B.put_mark(0.2,45,"\( B\)",pspict=pspict)

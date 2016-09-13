@@ -35,8 +35,8 @@ def SurfacesCubesclGZD():
     surface4.parameters.filled()
     surface4.parameters.fill.color="yellow"
 
-    I=Segment(cube.D,cube.H).center()
-    J=Segment(cube.C,cube.G).center()
+    I=Segment(cube.D,cube.H).midpoint()
+    J=Segment(cube.C,cube.G).midpoint()
     I.put_mark(0.3,180,"\( I\)",pspict=pspicts[0])
     J.put_mark(0.3,0,"\( J\)",pspict=pspicts[0])
 

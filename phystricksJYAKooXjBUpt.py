@@ -21,7 +21,7 @@ def JYAKooXjBUpt():
     C=Intersection(c1,c2)[1]
 
     base1=Polygon(A,B,C)
-    base1.put_mark(0.2,pspict=pspicts)
+    base1.put_mark(0.2,pspicts=pspicts)
 
     K1=base1.edges[2].rotation(-90).fix_size(h,only_F=True).F
     L1=A+K1-C
@@ -59,9 +59,9 @@ def JYAKooXjBUpt():
     pspicts[0].DrawGraphs(base1)
     pspicts[1].DrawGraphs(face1,face2,face3,base1)
 
-    face1.put_mark(0.2,points_names="DE  ",pspict=pspicts)
-    face2.put_mark(0.2,points_names=" FG ",pspict=pspicts)
-    face3.put_mark(0.2,points_names="  HI",pspict=pspicts)
+    face1.put_mark(0.2,points_names="DE  ",pspicts=pspicts)
+    face2.put_mark(0.2,points_names=" FG ",pspicts=pspicts)
+    face3.put_mark(0.2,points_names="  HI",pspicts=pspicts)
 
     pspicts[2].DrawGraphs(face1,face2,face3,base1,arc1,arc2)
     pspicts[3].DrawGraphs(face1,face2,face3,base1,arc1,arc2,base2)

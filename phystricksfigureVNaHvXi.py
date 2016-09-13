@@ -9,8 +9,8 @@ def figureVNaHvXi():
     C=Point(3,-1)
 
     trig=Polygon(A,B,C)
-    I=Segment(A,B).center()
-    J=Segment(A,C).center()
+    I=Segment(A,B).midpoint()
+    J=Segment(A,C).midpoint()
 
     IJ=Segment(I,J)
 

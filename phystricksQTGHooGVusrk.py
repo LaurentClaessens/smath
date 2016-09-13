@@ -16,12 +16,12 @@ def QTGHooGVusrk():
     C=Point(0.2,0)
     D=Point(0.6,0)
 
-    P.put_mark(0.2,-90,"\( 0.5\)",pspict=pspict,position="N")
-    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
-    A.put_mark(0.2,-90,"\( A\)",pspict=pspict,position="N")
-    B.put_mark(0.2,-90,"\( B\)",pspict=pspict,position="N")
-    C.put_mark(0.2,-90,"\( C\)",pspict=pspict,position="N")
-    D.put_mark(0.2,-90,"\( D\)",pspict=pspict,position="N")
+    P.put_mark(0.2,text="\( 0.5\)",pspict=pspict,position="N")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="N")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="N")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="N")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="N")
+    D.put_mark(0.2,text="\( D\)",pspict=pspict,position="N")
 
     for p in [P,O,A,B,C,D]:
         p.parameters.symbol=""

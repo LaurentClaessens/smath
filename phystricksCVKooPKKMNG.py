@@ -17,7 +17,7 @@ def CVKooPKKMNG():
 
     A=Intersection(s1,s2)[0]
 
-    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
     B.put_mark(0.2,180+45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
 

@@ -51,18 +51,18 @@
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigJYAKooXjBUptooTWOPICTJYAKooXjBUptooTWO.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A \)}}%
-\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A \)}}%
-\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B \)}}%
-\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B \)}}%
-\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C \)}}%
-\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C \)}}%
-\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
+\immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(A\)}}%
+\immediate\write\writeOfphystricks{widthoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(B\)}}%
+\immediate\write\writeOfphystricks{totalheightof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(B\)}}%
+\immediate\write\writeOfphystricks{widthof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(C\)}}%
+\immediate\write\writeOfphystricks{totalheightof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(C\)}}%
+\immediate\write\writeOfphystricks{widthof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( D \)}}%
 \immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( D \)}}%
@@ -103,54 +103,54 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-1.157989899,0.6917157288) node {\( D \)};
-\draw (0.09171572877,2.357989899) node {\( E \)};
-\draw (1.051715729,1.637989899) node {\( C \)};
-\draw (1.277989899,1.468284271) node {\(   \)};
-\draw (0.8820101013,1.411715729) node {\(   \)};
-\draw (-0.1788854382,-0.08944271910) node {\( A \)};
-\draw (0.02828427125,-0.1979898987) node {\(   \)};
-\draw (-0.1414213562,0.1414213562) node {\(   \)};
+\draw (-1.289983165,0.6728595479) node {\( D \)};
+\draw (0.07285954794,2.489983165) node {\( E \)};
+\draw (1.032859548,1.769983165) node {\(C\)};
+\draw (1.409983165,1.487140452) node {\(   \)};
+\draw (0.7500168354,1.392859548) node {\(   \)};
+\draw (-0.2981423970,-0.1490711985) node {\(A\)};
+\draw (0.04714045208,-0.3299831646) node {\(   \)};
+\draw (-0.2357022604,0.2357022604) node {\(   \)};
 \draw [color=red] (-0.960,0.720) -- (0.120,2.16);
 \draw [color=red] (0.120,2.16) -- (1.08,1.44);
 \draw [color=red] (1.08,1.44) -- (0,0);
 \draw [color=red] (0,0) -- (-0.960,0.720);
 
-\draw (1.051715729,1.637989899) node {\( C \)};
-\draw (1.277989899,1.468284271) node {\(   \)};
-\draw (0.8820101013,1.411715729) node {\(   \)};
-\draw (1.771715729,2.597989899) node {\( F \)};
-\draw (3.917989899,0.9882842712) node {\( G \)};
-\draw (3.189736660,-0.06324555320) node {\( B \)};
-\draw (3.028284271,-0.1979898987) node {\(   \)};
-\draw (3.141421356,0.1414213562) node {\(   \)};
+\draw (1.032859548,1.769983165) node {\(C\)};
+\draw (1.409983165,1.487140452) node {\(   \)};
+\draw (0.7500168354,1.392859548) node {\(   \)};
+\draw (1.752859548,2.729983165) node {\( F \)};
+\draw (4.049983165,1.007140452) node {\( G \)};
+\draw (3.316227766,-0.1054092553) node {\(B\)};
+\draw (3.047140452,-0.3299831646) node {\(   \)};
+\draw (3.235702260,0.2357022604) node {\(   \)};
 \draw [color=blue] (1.08,1.44) -- (1.80,2.40);
 \draw [color=blue] (1.80,2.40) -- (3.72,0.960);
 \draw [color=blue] (3.72,0.960) -- (3.00,0);
 \draw [color=blue] (3.00,0) -- (1.08,1.44);
 
-\draw (-0.1788854382,-0.08944271910) node {\( A \)};
-\draw (0.02828427125,-0.1979898987) node {\(   \)};
-\draw (-0.1414213562,0.1414213562) node {\(   \)};
-\draw (3.189736660,-0.06324555320) node {\( B \)};
-\draw (3.028284271,-0.1979898987) node {\(   \)};
-\draw (3.141421356,0.1414213562) node {\(   \)};
-\draw (3.141421356,-1.341421356) node {\( H \)};
-\draw (-0.1414213562,-1.341421356) node {\( I \)};
+\draw (-0.2981423970,-0.1490711985) node {\(A\)};
+\draw (0.04714045208,-0.3299831646) node {\(   \)};
+\draw (-0.2357022604,0.2357022604) node {\(   \)};
+\draw (3.316227766,-0.1054092553) node {\(B\)};
+\draw (3.047140452,-0.3299831646) node {\(   \)};
+\draw (3.235702260,0.2357022604) node {\(   \)};
+\draw (3.235702260,-1.435702260) node {\( H \)};
+\draw (-0.2357022604,-1.435702260) node {\( I \)};
 \draw [color=green] (0,0) -- (3.00,0);
 \draw [color=green] (3.00,0) -- (3.00,-1.20);
 \draw [color=green] (3.00,-1.20) -- (0,-1.20);
 \draw [color=green] (0,-1.20) -- (0,0);
 
-\draw (-0.1788854382,-0.08944271910) node {\( A \)};
-\draw (0.02828427125,-0.1979898987) node {\(   \)};
-\draw (-0.1414213562,0.1414213562) node {\(   \)};
-\draw (3.189736660,-0.06324555320) node {\( B \)};
-\draw (3.028284271,-0.1979898987) node {\(   \)};
-\draw (3.141421356,0.1414213562) node {\(   \)};
-\draw (1.051715729,1.637989899) node {\( C \)};
-\draw (1.277989899,1.468284271) node {\(   \)};
-\draw (0.8820101013,1.411715729) node {\(   \)};
+\draw (-0.2981423970,-0.1490711985) node {\(A\)};
+\draw (0.04714045208,-0.3299831646) node {\(   \)};
+\draw (-0.2357022604,0.2357022604) node {\(   \)};
+\draw (3.316227766,-0.1054092553) node {\(B\)};
+\draw (3.047140452,-0.3299831646) node {\(   \)};
+\draw (3.235702260,0.2357022604) node {\(   \)};
+\draw (1.032859548,1.769983165) node {\(C\)};
+\draw (1.409983165,1.487140452) node {\(   \)};
+\draw (0.7500168354,1.392859548) node {\(   \)};
 \draw [] (0,0) -- (3.00,0);
 \draw [] (3.00,0) -- (1.08,1.44);
 \draw [] (1.08,1.44) -- (0,0);
@@ -161,4 +161,5 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigJYAKooXjBUptooTWOPICTJYAKooXjBUptooTWO
 %AFTER PSPICTURE

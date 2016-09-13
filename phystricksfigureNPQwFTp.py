@@ -16,13 +16,13 @@ def figureNPQwFTp():
     BC=Segment(B,C)
     CA=Segment(C,A)
 
-    KA=BC.center()
+    KA=BC.midpoint()
     KA.put_mark(0.2,0,"\( I\)",pspict=pspict)
     hA=Segment(A,KA)
-    KB=CA.center()
+    KB=CA.midpoint()
     KB.put_mark(0.2,135,"\( J\)",pspict=pspict)
     hB=Segment(B,KB)
-    KC=AB.center()
+    KC=AB.midpoint()
     KC.put_mark(0.2,-90,"\( K\)",pspict=pspict)
     hC=Segment(C,KC)
 

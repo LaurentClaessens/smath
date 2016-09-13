@@ -75,6 +75,7 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
+\draw [color=gray,style=solid] (-1.50,-1.00) -- (-1.50,2.50);
 \draw [color=gray,style=solid] (-1.00,-1.00) -- (-1.00,2.50);
 \draw [color=gray,style=solid] (-0.500,-1.00) -- (-0.500,2.50);
 \draw [color=gray,style=solid] (0,-1.00) -- (0,2.50);
@@ -84,6 +85,8 @@
 \draw [color=gray,style=solid] (2.00,-1.00) -- (2.00,2.50);
 \draw [color=gray,style=solid] (2.50,-1.00) -- (2.50,2.50);
 \draw [color=gray,style=solid] (3.00,-1.00) -- (3.00,2.50);
+\draw [color=gray,style=solid] (3.50,-1.00) -- (3.50,2.50);
+\draw [color=gray,style=dotted] (-1.25,-1.00) -- (-1.25,2.50);
 \draw [color=gray,style=dotted] (-0.750,-1.00) -- (-0.750,2.50);
 \draw [color=gray,style=dotted] (-0.250,-1.00) -- (-0.250,2.50);
 \draw [color=gray,style=dotted] (0.250,-1.00) -- (0.250,2.50);
@@ -92,31 +95,33 @@
 \draw [color=gray,style=dotted] (1.75,-1.00) -- (1.75,2.50);
 \draw [color=gray,style=dotted] (2.25,-1.00) -- (2.25,2.50);
 \draw [color=gray,style=dotted] (2.75,-1.00) -- (2.75,2.50);
-\draw [color=gray,style=dotted] (-1.00,-0.750) -- (3.00,-0.750);
-\draw [color=gray,style=dotted] (-1.00,-0.250) -- (3.00,-0.250);
-\draw [color=gray,style=dotted] (-1.00,0.250) -- (3.00,0.250);
-\draw [color=gray,style=dotted] (-1.00,0.750) -- (3.00,0.750);
-\draw [color=gray,style=dotted] (-1.00,1.25) -- (3.00,1.25);
-\draw [color=gray,style=dotted] (-1.00,1.75) -- (3.00,1.75);
-\draw [color=gray,style=dotted] (-1.00,2.25) -- (3.00,2.25);
-\draw [color=gray,style=solid] (-1.00,-1.00) -- (3.00,-1.00);
-\draw [color=gray,style=solid] (-1.00,-0.500) -- (3.00,-0.500);
-\draw [color=gray,style=solid] (-1.00,0) -- (3.00,0);
-\draw [color=gray,style=solid] (-1.00,0.500) -- (3.00,0.500);
-\draw [color=gray,style=solid] (-1.00,1.00) -- (3.00,1.00);
-\draw [color=gray,style=solid] (-1.00,1.50) -- (3.00,1.50);
-\draw [color=gray,style=solid] (-1.00,2.00) -- (3.00,2.00);
-\draw [color=gray,style=solid] (-1.00,2.50) -- (3.00,2.50);
+\draw [color=gray,style=dotted] (3.25,-1.00) -- (3.25,2.50);
+\draw [color=gray,style=dotted] (-1.50,-0.750) -- (3.50,-0.750);
+\draw [color=gray,style=dotted] (-1.50,-0.250) -- (3.50,-0.250);
+\draw [color=gray,style=dotted] (-1.50,0.250) -- (3.50,0.250);
+\draw [color=gray,style=dotted] (-1.50,0.750) -- (3.50,0.750);
+\draw [color=gray,style=dotted] (-1.50,1.25) -- (3.50,1.25);
+\draw [color=gray,style=dotted] (-1.50,1.75) -- (3.50,1.75);
+\draw [color=gray,style=dotted] (-1.50,2.25) -- (3.50,2.25);
+\draw [color=gray,style=solid] (-1.50,-1.00) -- (3.50,-1.00);
+\draw [color=gray,style=solid] (-1.50,-0.500) -- (3.50,-0.500);
+\draw [color=gray,style=solid] (-1.50,0) -- (3.50,0);
+\draw [color=gray,style=solid] (-1.50,0.500) -- (3.50,0.500);
+\draw [color=gray,style=solid] (-1.50,1.00) -- (3.50,1.00);
+\draw [color=gray,style=solid] (-1.50,1.50) -- (3.50,1.50);
+\draw [color=gray,style=solid] (-1.50,2.00) -- (3.50,2.00);
+\draw [color=gray,style=solid] (-1.50,2.50) -- (3.50,2.50);
 %DEFAULT
 \draw [style=dashed] (0,0) -- (1.50,0.500);
 \draw [] (1.50,0.500) -- (2.00,1.50);
-\draw (-0.1510907910,-0.1310403483) node {\( K \)};
-\draw (1.631040348,0.3489092090) node {\( L \)};
-\draw (2.151090791,1.631040348) node {\( M \)};
+\draw (-0.3021815820,-0.2620806965) node {\( K \)};
+\draw (1.762080697,0.1978184180) node {\( L \)};
+\draw (2.302181582,1.762080697) node {\( M \)};
 
 %AXES
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigCFRQooRohKqNPICTCFRQooRohKqN
 %AFTER PSPICTURE

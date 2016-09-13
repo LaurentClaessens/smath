@@ -16,7 +16,7 @@ def VNJWooDeKdcy():
     trig.put_mark(0.2,points_names="STU",pspict=pspict)
     rh=RightAngleAOB(S,U,T,r=0.3,n1=0,n2=1)
 
-    angle=Angle(T,S,U)
+    angle=AngleAOB(T,S,U)
     angle.put_mark(0.3,angle=None,text="\SI{33}{\degree}",pspict=pspict)
 
     no_symbol(S,T,U)

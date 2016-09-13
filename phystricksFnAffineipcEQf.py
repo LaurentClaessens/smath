@@ -16,7 +16,7 @@ def FnAffineipcEQf():
 
     for i,psp in enumerate(pspicts):
         P=Point(f[i].inverse(0)[0],0)
-        P.put_mark(0.2,-90,"\( -\\frac{ p }{ m }\)",pspict=psp,position="N")
+        P.put_mark(0.2,text="\( -\\frac{ p }{ m }\)",pspict=psp,position="N")
         P.parameters.symbol="|"
 
         Q=f[i].get_point(0)
@@ -26,7 +26,6 @@ def FnAffineipcEQf():
 
         psp.axes.no_graduation()
         psp.DrawGraphs(f[i],P,Q)
-        #psp.DrawDefaultGrid()
         psp.DrawDefaultAxes()
 
     fig.conclude()

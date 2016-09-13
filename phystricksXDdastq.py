@@ -26,10 +26,10 @@ def XDdastq():
     L=C1.get_point(240)
     M=C1.get_point(300)
 
-    B=Segment(A,C).center()
-    P=Segment(O,Q).center()
-    N=Segment(Q,K).center()
-    F=Segment(C,K).center()
+    B=Segment(A,C).midpoint()
+    P=Segment(O,Q).midpoint()
+    N=Segment(Q,K).midpoint()
+    F=Segment(C,K).midpoint()
 
 
     hexa1=Polygon(K,C,A,G,O,Q)

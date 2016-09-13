@@ -10,19 +10,19 @@ def NWPooWQBSnz():
     C=Point(5,0)
     H=Point(A.x,0)
 
-    C1=Circle(  Segment(B,A).center(),0.3 )
+    C1=Circle(  Segment(B,A).midpoint(),0.3 )
     C1.parameters.filled()
     C1.parameters.fill.color='white'
 
-    C2=Circle(  Segment(C,A).center(),0.3 )
+    C2=Circle(  Segment(C,A).midpoint(),0.3 )
     C2.parameters.filled()
     C2.parameters.fill.color='white'
 
     triangle=Polygon(A,B,C)
-    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
     B.put_mark(0.2,180+45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
-    H.put_mark(0.2,-90,"\( H\)",pspict=pspict,position="N")
+    H.put_mark(0.2,text="\( H\)",pspict=pspict,position="N")
 
     hauteur=Segment(A,H)
     hauteur.parameters.style="dashed"

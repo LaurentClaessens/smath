@@ -18,12 +18,12 @@ def LLBQooAjaorQ():
     C=D+(l,0)
 
     E=Point( h/(2*tan(35*2*pi/360)),h/2 )
-    E.put_mark(0.2,angle=-45,text="\( E\)",pspict=pspicts)
+    E.put_mark(0.2,angle=-45,text="\( E\)",pspicts=pspicts)
     F=Point(l,E.y)
-    F.put_mark(0.2,angle=0,text="\( F\)",pspict=pspicts)
+    F.put_mark(0.2,angle=0,text="\( F\)",pspicts=pspicts)
 
     K=Intersection(   Segment(D,E),Segment(A,B)  )[0]
-    K.put_mark(0.2,angle=90+45,text="\( K\)",pspict=pspicts)
+    K.put_mark(0.2,angle=90+45,text="\( K\)",pspicts=pspicts)
     EK=Segment(E,K)
     EK.parameters.style='dashed'
 
@@ -35,7 +35,7 @@ def LLBQooAjaorQ():
     rouge.parameters.hatch.color="lightgray"
 
     drapeau=Polygon(A,B,C,D)
-    drapeau.put_mark(0.2,pspict=pspicts)
+    drapeau.put_mark(0.2,pspicts=pspicts)
 
     no_symbol(A,B,C,D,E,K,F)
 

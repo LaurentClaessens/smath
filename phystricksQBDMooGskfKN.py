@@ -13,7 +13,7 @@ def QBDMooGskfKN():
     A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
     B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
-    H.put_mark(0.2,90,"\( H\)",pspict=pspict,position="S")
+    H.put_mark(0.2,text="\( H\)",pspict=pspict,position="S")
 
     for P in [A,B,C]:
         qx=Point(P.x,0)

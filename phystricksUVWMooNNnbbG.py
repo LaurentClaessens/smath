@@ -20,9 +20,9 @@ def UVWMooNNnbbG():
     pol2=Polygon(  [x+(F-A)+(2,0) for x in    [A,B,Cp,Dp,E,F,G,H]    ] )
 
     pol1.parameters.color='blue'
-    pol1.edge.parameters.linewidth=2
+    pol1.edge_model.parameters.linewidth=2
     pol2.parameters.color='red'
-    pol2.edge.parameters.linewidth=1.5
+    pol2.edge_model.parameters.linewidth=1.5
 
     #k1=Segment(A,G)
     #k1.parameters.linewidth=0.5

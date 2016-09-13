@@ -14,8 +14,8 @@ def RYDooDLpToB():
     D=C+(-l,0)
     rect=Polygon(A,B,C,D)
 
-    P=Segment(C,D).center()
-    Q=Segment(A,D).center()
+    P=Segment(C,D).midpoint()
+    Q=Segment(A,D).midpoint()
 
     P.parameters.symbol=""
     Q.parameters.symbol=""

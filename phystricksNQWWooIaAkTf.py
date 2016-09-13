@@ -22,8 +22,8 @@ def NQWWooIaAkTf():
 
     O.put_mark(0.2,angle=180+45,text="\( O\)",pspict=pspict)
     #A.put_mark(0.2,angle=45,text="\( A\)",pspict=pspict)
-    #mA=Angle(p2.I,A,O,r=0.1).get_mark(0.2,None,text="\( A\)",pspict=pspict)
-    mA=Angle(B,A,Q,r=0.1).get_mark(0.2,None,text="\( A\)",pspict=pspict)
+    #mA=AngleAOB(p2.I,A,O,r=0.1).get_mark(0.2,None,text="\( A\)",pspict=pspict)
+    mA=AngleAOB(B,A,Q,r=0.1).get_mark(0.2,None,text="\( A\)",pspict=pspict)
 
 
     B.put_mark(0.2,angle=45,text="\( B\)",pspict=pspict)

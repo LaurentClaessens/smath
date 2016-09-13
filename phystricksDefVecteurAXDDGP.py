@@ -20,7 +20,7 @@ def DefVecteurAXDDGP():
     d1.parameters.color="blue"
     d1.parameters.style="dashed"
 
-    M=d1.center()
+    M=d1.midpoint()
 
     s1=Segment(A,M)
     s2=Segment(M,D)

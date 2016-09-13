@@ -21,13 +21,6 @@ def CubeLFZuiW():
     segc1=[ Segment(c1[i],c1[(i+1)%len(c1)]) for i in range(0,len(c1)) ]
     segc2=[ Segment(c2[i],c2[(i+1)%len(c2)]) for i in range(0,len(c2)) ]
 
-    #for i,s in enumerate(segP):
-    #    s.put_mark(0.2,0,str(i),pspict=pspicts[0])
-    #for i,s in enumerate(segc1):
-    #    s.put_mark(0.2,0,str(i),pspict=pspicts[0])
-    #for i,s in enumerate(segc2):
-    #    s.put_mark(0.2,0,str(i),pspict=pspicts[0])
-
     for i,s in enumerate(segc1):
         s.parameters.color="blue"
     for i,s in enumerate(segc2):
@@ -41,7 +34,7 @@ def CubeLFZuiW():
         psp.DrawGraphs(segP,segc1,segc2)
 
 
-    alpha=Angle(c1[2],c1[3],c2[3])
+    alpha=AngleAOB(c1[2],c1[3],c2[3])
     alpha.parameters.color="red"
     alpha.put_mark(0.3,None,"\( \\alpha\)",pspict=pspicts[1])
 

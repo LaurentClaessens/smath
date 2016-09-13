@@ -28,7 +28,7 @@ def BIlgjwy():
     BE=Segment(B,E)
     PC=Segment(P,C).dilatation(1.1)
 
-    F=Point(  Segment(E,D).center().x,E.y+2 )
+    F=Point(  Segment(E,D).midpoint().x,E.y+2 )
     FE=Segment(F,E).dilatationF(1.3)
     FD=Segment(F,D).dilatationF(1.3)
     pspict.DrawGraphs(BM,CD,PC,BE,FE,FD)

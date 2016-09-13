@@ -12,11 +12,11 @@ def APYEkIv():
     EK=Segment(E,K)
     KJ=Segment(K,J)
 
-    EK.put_mark(0.2,-90,"\( 230\)",pspict=pspict,position="N")
-    KJ.put_mark(0.2,0,"\( 15\)",pspict=pspict,position="W")
+    EK.put_mark(0.2,text="\( 230\)",pspict=pspict,position="N")
+    KJ.put_mark(0.2,text="\( 15\)",pspict=pspict,position="W")
 
-    E.put_mark(0.2,-90,"\( E\)",pspict=pspict,position="N")
-    J.put_mark(0.2,45,"\( J\)",pspict=pspict,position="W")
+    E.put_mark(0.2,text="\( E\)",pspict=pspict,position="N")
+    J.put_mark(0.2,text="\( J\)",pspict=pspict,position="W")
 
     trig=Polygon(E,K,J)
 

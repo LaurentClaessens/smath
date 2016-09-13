@@ -8,9 +8,9 @@ def BpCNVm():
     poly=Polygon( Point(0,0),Point(A.x,0),A,Point(0,A.y) )
     poly.parameters.hatched()
     poly.parameters.hatch.color="green"
-    poly.edge.parameters.color="blue"
+    poly.edge_model.parameters.color="blue"
     X=Point(3,0)
-    X.put_mark(0.2,-90,"$x$",pspict=pspict,position="N")
+    X.put_mark(0.2,text="$x$",pspict=pspict,position="N")
     X.symbol="none"
 
     pspict.DrawGraphs(poly,X)

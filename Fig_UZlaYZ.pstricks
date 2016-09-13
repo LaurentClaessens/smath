@@ -68,8 +68,8 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [,->,>=latex] (2.500000000,0) -- (10.24887469,0);
-\draw [,->,>=latex] (0,2.500000000) -- (0,10.21383236);
+\draw [,->,>=latex] (-0.5000000000,0) -- (10.24887469,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,10.21383236);
 %DEFAULT
 \draw (9.395148023,3.377626856) node {\( A\)};
 \draw (3.415992356,9.377626856) node {\( B\)};
@@ -79,4 +79,5 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigUZlaYZPICTUZlaYZ
 %AFTER PSPICTURE

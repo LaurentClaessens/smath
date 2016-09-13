@@ -10,10 +10,10 @@ def IUHooFrAHoa():
     D=Point(1,0)
 
     loz=Polygon(A,B,C,D)
-    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
-    B.put_mark(0.2,180,"\( B\)",pspict=pspict,position="E")
-    C.put_mark(0.2,-90,"\( C\)",pspict=pspict,position="N")
-    D.put_mark(0.2,0,"\( D\)",pspict=pspict,position="W")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="E")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="N")
+    D.put_mark(0.2,text="\( D\)",pspict=pspict,position="W")
 
     for seg in loz.edges:
         seg.put_code(n=3,l=0.2,d=0.1,pspict=pspict)

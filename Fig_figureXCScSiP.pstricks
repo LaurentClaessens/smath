@@ -87,34 +87,30 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-3.00,-0.750) -- (-3.00,3.75);
-\draw [color=gray,style=solid] (0,-0.750) -- (0,3.75);
-\draw [color=gray,style=solid] (3.00,-0.750) -- (3.00,3.75);
-\draw [color=gray,style=solid] (6.00,-0.750) -- (6.00,3.75);
-\draw [color=gray,style=solid] (9.00,-0.750) -- (9.00,3.75);
-\draw [color=gray,style=solid] (12.0,-0.750) -- (12.0,3.75);
-\draw [color=gray,style=solid] (-3.00,-0.750) -- (12.0,-0.750);
-\draw [color=gray,style=solid] (-3.00,0) -- (12.0,0);
-\draw [color=gray,style=solid] (-3.00,0.750) -- (12.0,0.750);
-\draw [color=gray,style=solid] (-3.00,1.50) -- (12.0,1.50);
-\draw [color=gray,style=solid] (-3.00,2.25) -- (12.0,2.25);
-\draw [color=gray,style=solid] (-3.00,3.00) -- (12.0,3.00);
-\draw [color=gray,style=solid] (-3.00,3.75) -- (12.0,3.75);
+\draw [color=gray,style=solid] (0,0) -- (0,3.00);
+\draw [color=gray,style=solid] (3.00,0) -- (3.00,3.00);
+\draw [color=gray,style=solid] (6.00,0) -- (6.00,3.00);
+\draw [color=gray,style=solid] (9.00,0) -- (9.00,3.00);
+\draw [color=gray,style=solid] (0,0) -- (9.00,0);
+\draw [color=gray,style=solid] (0,0.750) -- (9.00,0.750);
+\draw [color=gray,style=solid] (0,1.50) -- (9.00,1.50);
+\draw [color=gray,style=solid] (0,2.25) -- (9.00,2.25);
+\draw [color=gray,style=solid] (0,3.00) -- (9.00,3.00);
 %AXES
-\draw (3.000000000,-0.01000000000) node {$ 1 $};
+\draw (3.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (6.000000000,-0.01000000000) node {$ 2 $};
+\draw (6.000000000,-0.3049540000) node {$ 2 $};
 \draw [] (6.00,-0.100) -- (6.00,0.100);
-\draw (9.000000000,-0.01000000000) node {$ 3 $};
+\draw (9.000000000,-0.3049540000) node {$ 3 $};
 \draw [] (9.00,-0.100) -- (9.00,0.100);
 \draw [,->,>=latex] (0,0) -- (9.500000000,0);
-\draw (-0.2000000000,0.7500000000) node {$ 5 $};
+\draw (-0.2833333333,0.7500000000) node {$ 5 $};
 \draw [] (-0.100,0.750) -- (0.100,0.750);
-\draw (-0.2000000000,1.500000000) node {$ 10 $};
+\draw (-0.3666666667,1.500000000) node {$ 10 $};
 \draw [] (-0.100,1.50) -- (0.100,1.50);
-\draw (-0.2000000000,2.250000000) node {$ 15 $};
+\draw (-0.3666666667,2.250000000) node {$ 15 $};
 \draw [] (-0.100,2.25) -- (0.100,2.25);
-\draw (-0.2000000000,3.000000000) node {$ 20 $};
+\draw (-0.3666666667,3.000000000) node {$ 20 $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
 \draw [,->,>=latex] (0,0) -- (0,3.500000000);
 %DEFAULT
@@ -125,4 +121,5 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigfigureXCScSiPPICTfigureXCScSiP
 %AFTER PSPICTURE

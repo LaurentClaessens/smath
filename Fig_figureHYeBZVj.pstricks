@@ -142,83 +142,77 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-1.00,-0.500) -- (-1.00,8.50);
-\draw [color=gray,style=solid] (0,-0.500) -- (0,8.50);
-\draw [color=gray,style=solid] (1.00,-0.500) -- (1.00,8.50);
-\draw [color=gray,style=solid] (2.00,-0.500) -- (2.00,8.50);
-\draw [color=gray,style=solid] (3.00,-0.500) -- (3.00,8.50);
-\draw [color=gray,style=solid] (4.00,-0.500) -- (4.00,8.50);
-\draw [color=gray,style=solid] (5.00,-0.500) -- (5.00,8.50);
-\draw [color=gray,style=solid] (6.00,-0.500) -- (6.00,8.50);
-\draw [color=gray,style=solid] (7.00,-0.500) -- (7.00,8.50);
-\draw [color=gray,style=solid] (8.00,-0.500) -- (8.00,8.50);
-\draw [color=gray,style=solid] (9.00,-0.500) -- (9.00,8.50);
-\draw [color=gray,style=solid] (10.0,-0.500) -- (10.0,8.50);
-\draw [color=gray,style=solid] (11.0,-0.500) -- (11.0,8.50);
-\draw [color=gray,style=solid] (12.0,-0.500) -- (12.0,8.50);
-\draw [color=gray,style=solid] (13.0,-0.500) -- (13.0,8.50);
-\draw [color=gray,style=solid] (-1.00,-0.500) -- (13.0,-0.500);
-\draw [color=gray,style=solid] (-1.00,0) -- (13.0,0);
-\draw [color=gray,style=solid] (-1.00,0.500) -- (13.0,0.500);
-\draw [color=gray,style=solid] (-1.00,1.00) -- (13.0,1.00);
-\draw [color=gray,style=solid] (-1.00,1.50) -- (13.0,1.50);
-\draw [color=gray,style=solid] (-1.00,2.00) -- (13.0,2.00);
-\draw [color=gray,style=solid] (-1.00,2.50) -- (13.0,2.50);
-\draw [color=gray,style=solid] (-1.00,3.00) -- (13.0,3.00);
-\draw [color=gray,style=solid] (-1.00,3.50) -- (13.0,3.50);
-\draw [color=gray,style=solid] (-1.00,4.00) -- (13.0,4.00);
-\draw [color=gray,style=solid] (-1.00,4.50) -- (13.0,4.50);
-\draw [color=gray,style=solid] (-1.00,5.00) -- (13.0,5.00);
-\draw [color=gray,style=solid] (-1.00,5.50) -- (13.0,5.50);
-\draw [color=gray,style=solid] (-1.00,6.00) -- (13.0,6.00);
-\draw [color=gray,style=solid] (-1.00,6.50) -- (13.0,6.50);
-\draw [color=gray,style=solid] (-1.00,7.00) -- (13.0,7.00);
-\draw [color=gray,style=solid] (-1.00,7.50) -- (13.0,7.50);
-\draw [color=gray,style=solid] (-1.00,8.00) -- (13.0,8.00);
-\draw [color=gray,style=solid] (-1.00,8.50) -- (13.0,8.50);
+\draw [color=gray,style=solid] (1.00,0.500) -- (1.00,8.00);
+\draw [color=gray,style=solid] (2.00,0.500) -- (2.00,8.00);
+\draw [color=gray,style=solid] (3.00,0.500) -- (3.00,8.00);
+\draw [color=gray,style=solid] (4.00,0.500) -- (4.00,8.00);
+\draw [color=gray,style=solid] (5.00,0.500) -- (5.00,8.00);
+\draw [color=gray,style=solid] (6.00,0.500) -- (6.00,8.00);
+\draw [color=gray,style=solid] (7.00,0.500) -- (7.00,8.00);
+\draw [color=gray,style=solid] (8.00,0.500) -- (8.00,8.00);
+\draw [color=gray,style=solid] (9.00,0.500) -- (9.00,8.00);
+\draw [color=gray,style=solid] (10.0,0.500) -- (10.0,8.00);
+\draw [color=gray,style=solid] (11.0,0.500) -- (11.0,8.00);
+\draw [color=gray,style=solid] (12.0,0.500) -- (12.0,8.00);
+\draw [color=gray,style=solid] (1.00,0.500) -- (12.0,0.500);
+\draw [color=gray,style=solid] (1.00,1.00) -- (12.0,1.00);
+\draw [color=gray,style=solid] (1.00,1.50) -- (12.0,1.50);
+\draw [color=gray,style=solid] (1.00,2.00) -- (12.0,2.00);
+\draw [color=gray,style=solid] (1.00,2.50) -- (12.0,2.50);
+\draw [color=gray,style=solid] (1.00,3.00) -- (12.0,3.00);
+\draw [color=gray,style=solid] (1.00,3.50) -- (12.0,3.50);
+\draw [color=gray,style=solid] (1.00,4.00) -- (12.0,4.00);
+\draw [color=gray,style=solid] (1.00,4.50) -- (12.0,4.50);
+\draw [color=gray,style=solid] (1.00,5.00) -- (12.0,5.00);
+\draw [color=gray,style=solid] (1.00,5.50) -- (12.0,5.50);
+\draw [color=gray,style=solid] (1.00,6.00) -- (12.0,6.00);
+\draw [color=gray,style=solid] (1.00,6.50) -- (12.0,6.50);
+\draw [color=gray,style=solid] (1.00,7.00) -- (12.0,7.00);
+\draw [color=gray,style=solid] (1.00,7.50) -- (12.0,7.50);
+\draw [color=gray,style=solid] (1.00,8.00) -- (12.0,8.00);
 %AXES
-\draw (1.000000000,-0.004000000000) node {$ 1 $};
+\draw (1.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (2.000000000,-0.004000000000) node {$ 2 $};
+\draw (2.000000000,-0.3049540000) node {$ 2 $};
 \draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (3.000000000,-0.004000000000) node {$ 3 $};
+\draw (3.000000000,-0.3049540000) node {$ 3 $};
 \draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (4.000000000,-0.004000000000) node {$ 4 $};
+\draw (4.000000000,-0.3049540000) node {$ 4 $};
 \draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (5.000000000,-0.004000000000) node {$ 5 $};
+\draw (5.000000000,-0.3049540000) node {$ 5 $};
 \draw [] (5.00,-0.100) -- (5.00,0.100);
-\draw (6.000000000,-0.004000000000) node {$ 6 $};
+\draw (6.000000000,-0.3049540000) node {$ 6 $};
 \draw [] (6.00,-0.100) -- (6.00,0.100);
-\draw (7.000000000,-0.004000000000) node {$ 7 $};
+\draw (7.000000000,-0.3049540000) node {$ 7 $};
 \draw [] (7.00,-0.100) -- (7.00,0.100);
-\draw (8.000000000,-0.004000000000) node {$ 8 $};
+\draw (8.000000000,-0.3049540000) node {$ 8 $};
 \draw [] (8.00,-0.100) -- (8.00,0.100);
-\draw (9.000000000,-0.004000000000) node {$ 9 $};
+\draw (9.000000000,-0.3049540000) node {$ 9 $};
 \draw [] (9.00,-0.100) -- (9.00,0.100);
-\draw (10.00000000,-0.004000000000) node {$ 10 $};
+\draw (10.00000000,-0.3049540000) node {$ 10 $};
 \draw [] (10.0,-0.100) -- (10.0,0.100);
-\draw (11.00000000,-0.004000000000) node {$ 11 $};
+\draw (11.00000000,-0.3049540000) node {$ 11 $};
 \draw [] (11.0,-0.100) -- (11.0,0.100);
-\draw (12.00000000,-0.004000000000) node {$ 12 $};
+\draw (12.00000000,-0.3049540000) node {$ 12 $};
 \draw [] (12.0,-0.100) -- (12.0,0.100);
-\draw [,->,>=latex] (1.000000000,0) -- (12.50000000,0);
-\draw (-0.2000000000,1.000000000) node {$ 50 $};
+\draw [,->,>=latex] (0,0) -- (12.50000000,0);
+\draw (-0.3666666667,1.000000000) node {$ 50 $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw (-0.2000000000,2.000000000) node {$ 100 $};
+\draw (-0.4500000000,2.000000000) node {$ 100 $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
-\draw (-0.2000000000,3.000000000) node {$ 150 $};
+\draw (-0.4500000000,3.000000000) node {$ 150 $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw (-0.2000000000,4.000000000) node {$ 200 $};
+\draw (-0.4500000000,4.000000000) node {$ 200 $};
 \draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw (-0.2000000000,5.000000000) node {$ 250 $};
+\draw (-0.4500000000,5.000000000) node {$ 250 $};
 \draw [] (-0.100,5.00) -- (0.100,5.00);
-\draw (-0.2000000000,6.000000000) node {$ 300 $};
+\draw (-0.4500000000,6.000000000) node {$ 300 $};
 \draw [] (-0.100,6.00) -- (0.100,6.00);
-\draw (-0.2000000000,7.000000000) node {$ 350 $};
+\draw (-0.4500000000,7.000000000) node {$ 350 $};
 \draw [] (-0.100,7.00) -- (0.100,7.00);
-\draw (-0.2000000000,8.000000000) node {$ 400 $};
+\draw (-0.4500000000,8.000000000) node {$ 400 $};
 \draw [] (-0.100,8.00) -- (0.100,8.00);
-\draw [,->,>=latex] (0,0.6000000000) -- (0,8.300000000);
+\draw [,->,>=latex] (0,0) -- (0,8.500000000);
 %DEFAULT
 \draw [color=red] (1.00,3.00) -- (1.00,3.00);
 \draw [color=red] (1.00,3.00) -- (2.00,3.00);
@@ -294,6 +288,7 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigfigureHYeBZVjPICTfigureHYeBZVj
 %AFTER PSPICTURE
 %AFTER ALL
 \caption{\CaptionFigfigureHYeBZVj}\label{LabelFigfigureHYeBZVj}

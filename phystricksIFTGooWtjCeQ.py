@@ -24,7 +24,7 @@ def IFTGooWtjCeQ():
     F.put_mark(0.2,180+45,"\( F\)",pspict=pspict,position="corner")
     G.put_mark(0.2,-45,"\( G\)",pspict=pspict,position="corner")
     H.put_mark(0.2,45,"\( H\)",pspict=pspict,position="corner")
-    M.put_mark(0.2,-90,"\( M\)",pspict=pspict,position="N")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="N")
 
     haut=Segment(H,M)
     haut.parameters.style='dashed'

@@ -18,7 +18,7 @@ def QZABooEsqWaq():
     for p in triangle.vertices:
         p.parameters.symbol=""
     
-    a1=Angle(B,A,C,r=0.5)
+    a1=AngleAOB(B,A,C,r=0.5)
     a1.put_mark(0.3,None,"$a$",pspict=pspict)
     a2=AngleAOB(C,B,A,r=0.5)
     a2.put_mark(0.2,None,"$b$",pspict=pspict)

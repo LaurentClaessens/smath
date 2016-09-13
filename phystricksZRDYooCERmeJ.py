@@ -15,8 +15,8 @@ def ZRDYooCERmeJ():
 
     I=Intersection(s1,s2)[0]
 
-    alpha=Angle(A,I,C,0.4)
-    beta=Angle(B,I,D,0.4)
+    alpha=AngleAOB(A,I,C,0.4)
+    beta=AngleAOB(B,I,D,0.4)
 
     pspict.DrawGraphs(s1,s2,alpha,beta)
     fig.no_figure()

@@ -51,22 +51,22 @@
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigUFBQooOXIMjVooZEROPICTUFBQooOXIMjVooZERO.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A \)}}%
-\immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A \)}}%
-\immediate\write\writeOfphystricks{widthof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B \)}}%
-\immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B \)}}%
-\immediate\write\writeOfphystricks{widthof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C \)}}%
-\immediate\write\writeOfphystricks{totalheightofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C \)}}%
-\immediate\write\writeOfphystricks{widthofb23d499aa7c5d294e196e997cecdea9faf1a79dd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( D \)}}%
-\immediate\write\writeOfphystricks{totalheightof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( D \)}}%
-\immediate\write\writeOfphystricks{widthof741691fc9f24365d9984be5cb12e2007c00ba340:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
+\immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(A\)}}%
+\immediate\write\writeOfphystricks{widthoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(B\)}}%
+\immediate\write\writeOfphystricks{totalheightof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(B\)}}%
+\immediate\write\writeOfphystricks{widthof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(C\)}}%
+\immediate\write\writeOfphystricks{totalheightof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(C\)}}%
+\immediate\write\writeOfphystricks{widthof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(D\)}}%
+\immediate\write\writeOfphystricks{totalheightof96dfe6c2f3954cac694693137d4a23a318660bbf:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(D\)}}%
+\immediate\write\writeOfphystricks{widthof96dfe6c2f3954cac694693137d4a23a318660bbf:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 4\)}}%
 \immediate\write\writeOfphystricks{totalheightof5132ab7981850184f83c01e3a5a2b4b8246015d6:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 4\)}}%
@@ -103,11 +103,11 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.3863703305,-0.1035276180) node {\( A \)};
-\draw (-0.3926861909,0.07614168046) node {\(   \)};
+\draw (-0.3863703305,-0.1035276180) node {\(A\)};
+\draw (-0.3926861909,0.07614168047) node {\(   \)};
 \draw (-0.3861388865,0.1043875489) node {\(   \)};
 \draw (6.699859834,1.200076198) node {\( K \)};
-\draw (6.165705445,-3.886370331) node {\( D \)};
+\draw (6.165705445,-3.886370331) node {\(D\)};
 \draw (6.247776863,-3.854334584) node {\(   \)};
 \fill [color=lightgray] (0,0) -- (6.43,0.909) -- (6.43,0.909) -- (6.06,-3.50) -- (6.06,-3.50) -- (0,0) --  cycle;
 \draw [] (0,0) -- (6.43,0.909);
@@ -117,22 +117,23 @@
 \draw [,->,>=latex] (2.781088913,-2.183012702) -- (-0.2500000000,-0.4330127019);
 \draw (2.572238080,-2.544752956) node {\( 7\)};
 
-\draw (-0.3863703305,-0.1035276180) node {\( A \)};
-\draw (-0.3926861909,0.07614168046) node {\(   \)};
+\draw (-0.3863703305,-0.1035276180) node {\(A\)};
+\draw (-0.3926861909,0.07614168047) node {\(   \)};
 \draw (-0.3861388865,0.1043875489) node {\(   \)};
-\draw (1.896472382,3.850471946) node {\( B \)};
-\draw (8.448548157,0.06762923318) node {\( C \)};
+\draw (1.896472382,3.850471946) node {\(B\)};
+\draw (8.448548157,0.06762923318) node {\(C\)};
 \draw (8.446638785,0.07450891405) node {\(   \)};
-\draw (6.165705445,-3.886370331) node {\( D \)};
+\draw (6.165705445,-3.886370331) node {\(D\)};
 \draw (6.247776863,-3.854334584) node {\(   \)};
 \draw [] (0,0) -- (2.00,3.46);
 \draw [] (2.00,3.46) -- (8.06,-0.0359);
 \draw [] (8.06,-0.0359) -- (6.06,-3.50);
 \draw [,->,>=latex] (7.495190528,-2.017949192) -- (8.495190528,-0.2858983849);
 \draw [,->,>=latex] (7.495190528,-2.017949192) -- (6.495190528,-3.750000000);
-\draw (7.914538027,-2.008679352) node {\( 4\)};
+\draw (7.696836360,-2.385749700) node {\( 4\)};
 \draw [] (6.06,-3.50) -- (0,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigUFBQooOXIMjVooZEROPICTUFBQooOXIMjVooZERO
 %AFTER PSPICTURE

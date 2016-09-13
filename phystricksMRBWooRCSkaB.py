@@ -8,7 +8,7 @@ def MRBWooRCSkaB():
     O=Point(0,0)
     r=3
 
-    O.put_mark(0.2,0,"\( O\)",pspict=pspict,position="W")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="W")
 
     cercle=Circle(O,r)
     A=cercle.get_point(45)

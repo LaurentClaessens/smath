@@ -11,7 +11,7 @@ def JOKJMTD():
     B=Point(r,h)
 
     AB=Segment(A,B)
-    S=AB.center()
+    S=AB.midpoint()
     cer=Circle(S,r).graph(0,180)
 
     OA=Segment(O,A)

@@ -14,10 +14,10 @@ def AILoxBg():
     O=Point(0,0)
 
     A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
-    B.put_mark(0.2,90,"\( B\)",pspict=pspict,position="S")
-    C.put_mark(0.2,180,"\( C\)",pspict=pspict,position="E")
-    D.put_mark(0.2,-90,"\( D\)",pspict=pspict,position="N")
-    E.put_mark(0.2,0,"\( E\)",pspict=pspict,position="W")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="S")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="E")
+    D.put_mark(0.2,text="\( D\)",pspict=pspict,position="N")
+    E.put_mark(0.2,text="\( E\)",pspict=pspict,position="W")
     F.put_mark(0.2,-45,"\( F\)",pspict=pspict,position="corner")
     O.put_mark(0.2,45,"\( O\)",pspict=pspict,position="corner")
 

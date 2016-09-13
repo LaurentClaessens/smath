@@ -10,8 +10,8 @@ def NARooFiHuAy():
     C=Point(8,6)
 
     triangle=Polygon(A,B,C)
-    triangle.edges[0].put_mark(0.2,-90,"\( 8\)",pspict=pspict,position="N")
-    triangle.edges[1].put_mark(0.2,0,"\( 6\)",pspict=pspict,position="W")
+    triangle.edges[0].put_mark(0.2,text="\( 8\)",pspict=pspict,position="N")
+    triangle.edges[1].put_mark(0.2,text="\( 6\)",pspict=pspict,position="W")
 
     A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
     B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")

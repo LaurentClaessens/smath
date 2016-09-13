@@ -87,74 +87,51 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-0.500,-1.25) -- (-0.500,3.12);
-\draw [color=gray,style=solid] (0,-1.25) -- (0,3.12);
-\draw [color=gray,style=solid] (0.500,-1.25) -- (0.500,3.12);
-\draw [color=gray,style=solid] (1.00,-1.25) -- (1.00,3.12);
-\draw [color=gray,style=solid] (1.50,-1.25) -- (1.50,3.12);
-\draw [color=gray,style=solid] (2.00,-1.25) -- (2.00,3.12);
-\draw [color=gray,style=solid] (2.50,-1.25) -- (2.50,3.12);
-\draw [color=gray,style=solid] (3.00,-1.25) -- (3.00,3.12);
-\draw [color=gray,style=solid] (3.50,-1.25) -- (3.50,3.12);
-\draw [color=gray,style=solid] (4.00,-1.25) -- (4.00,3.12);
-\draw [color=gray,style=solid] (4.50,-1.25) -- (4.50,3.12);
-\draw [color=gray,style=solid] (5.00,-1.25) -- (5.00,3.12);
-\draw [color=gray,style=solid] (5.50,-1.25) -- (5.50,3.12);
-\draw [color=gray,style=solid] (6.00,-1.25) -- (6.00,3.12);
-\draw [color=gray,style=solid] (6.50,-1.25) -- (6.50,3.12);
-\draw [color=gray,style=dotted] (-0.250,-1.25) -- (-0.250,3.12);
-\draw [color=gray,style=dotted] (0.250,-1.25) -- (0.250,3.12);
-\draw [color=gray,style=dotted] (0.750,-1.25) -- (0.750,3.12);
-\draw [color=gray,style=dotted] (1.25,-1.25) -- (1.25,3.12);
-\draw [color=gray,style=dotted] (1.75,-1.25) -- (1.75,3.12);
-\draw [color=gray,style=dotted] (2.25,-1.25) -- (2.25,3.12);
-\draw [color=gray,style=dotted] (2.75,-1.25) -- (2.75,3.12);
-\draw [color=gray,style=dotted] (3.25,-1.25) -- (3.25,3.12);
-\draw [color=gray,style=dotted] (3.75,-1.25) -- (3.75,3.12);
-\draw [color=gray,style=dotted] (4.25,-1.25) -- (4.25,3.12);
-\draw [color=gray,style=dotted] (4.75,-1.25) -- (4.75,3.12);
-\draw [color=gray,style=dotted] (5.25,-1.25) -- (5.25,3.12);
-\draw [color=gray,style=dotted] (5.75,-1.25) -- (5.75,3.12);
-\draw [color=gray,style=dotted] (6.25,-1.25) -- (6.25,3.12);
-\draw [color=gray,style=dotted] (-0.500,-0.938) -- (6.50,-0.938);
-\draw [color=gray,style=dotted] (-0.500,-0.312) -- (6.50,-0.312);
-\draw [color=gray,style=dotted] (-0.500,0.312) -- (6.50,0.312);
-\draw [color=gray,style=dotted] (-0.500,0.938) -- (6.50,0.938);
-\draw [color=gray,style=dotted] (-0.500,1.56) -- (6.50,1.56);
-\draw [color=gray,style=dotted] (-0.500,2.19) -- (6.50,2.19);
-\draw [color=gray,style=dotted] (-0.500,2.81) -- (6.50,2.81);
-\draw [color=gray,style=solid] (-0.500,-1.25) -- (6.50,-1.25);
-\draw [color=gray,style=solid] (-0.500,-0.625) -- (6.50,-0.625);
-\draw [color=gray,style=solid] (-0.500,0) -- (6.50,0);
-\draw [color=gray,style=solid] (-0.500,0.625) -- (6.50,0.625);
-\draw [color=gray,style=solid] (-0.500,1.25) -- (6.50,1.25);
-\draw [color=gray,style=solid] (-0.500,1.88) -- (6.50,1.88);
-\draw [color=gray,style=solid] (-0.500,2.50) -- (6.50,2.50);
-\draw [color=gray,style=solid] (-0.500,3.12) -- (6.50,3.12);
+\draw [color=gray,style=solid] (0,0) -- (0,1.88);
+\draw [color=gray,style=solid] (0.500,0) -- (0.500,1.88);
+\draw [color=gray,style=solid] (1.00,0) -- (1.00,1.88);
+\draw [color=gray,style=solid] (1.50,0) -- (1.50,1.88);
+\draw [color=gray,style=solid] (2.00,0) -- (2.00,1.88);
+\draw [color=gray,style=solid] (2.50,0) -- (2.50,1.88);
+\draw [color=gray,style=solid] (3.00,0) -- (3.00,1.88);
+\draw [color=gray,style=dotted] (0.250,0) -- (0.250,1.88);
+\draw [color=gray,style=dotted] (0.750,0) -- (0.750,1.88);
+\draw [color=gray,style=dotted] (1.25,0) -- (1.25,1.88);
+\draw [color=gray,style=dotted] (1.75,0) -- (1.75,1.88);
+\draw [color=gray,style=dotted] (2.25,0) -- (2.25,1.88);
+\draw [color=gray,style=dotted] (2.75,0) -- (2.75,1.88);
+\draw [color=gray,style=dotted] (0,0.312) -- (3.00,0.312);
+\draw [color=gray,style=dotted] (0,0.938) -- (3.00,0.938);
+\draw [color=gray,style=dotted] (0,1.56) -- (3.00,1.56);
+\draw [color=gray,style=solid] (0,0) -- (3.00,0);
+\draw [color=gray,style=solid] (0,0.625) -- (3.00,0.625);
+\draw [color=gray,style=solid] (0,1.25) -- (3.00,1.25);
+\draw [color=gray,style=solid] (0,1.88) -- (3.00,1.88);
 %AXES
-\draw (7.915295190,-0.3414213562) node {durée (en \si{\minute})};
-\draw (1.000000000,-0.3750000000) node {$ 30 $};
+\draw (7.137833213,-0.3080880229) node {durée (en \si{\minute})};
+\draw (1.000000000,-0.3049540000) node {$ 30 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (2.000000000,-0.3750000000) node {$ 60 $};
+\draw (2.000000000,-0.3049540000) node {$ 60 $};
 \draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (3.000000000,-0.3750000000) node {$ 90 $};
+\draw (3.000000000,-0.3049540000) node {$ 90 $};
 \draw [] (3.00,-0.100) -- (3.00,0.100);
 \draw [,->,>=latex] (0,0) -- (3.500000000,0);
-\draw (2.559680000,3.325000000) node {distance parcourue (en \si{\kilo\meter})};
-\draw (-0.2000000000,0.6250000000) node {$ 10 $};
+\draw (2.209558167,2.308333333) node {distance parcourue (en \si{\kilo\meter})};
+\draw (-0.3666666667,0.6250000000) node {$ 10 $};
 \draw [] (-0.100,0.625) -- (0.100,0.625);
-\draw (-0.2000000000,1.250000000) node {$ 20 $};
+\draw (-0.3666666667,1.250000000) node {$ 20 $};
 \draw [] (-0.100,1.25) -- (0.100,1.25);
-\draw (-0.2000000000,1.875000000) node {$ 30 $};
+\draw (-0.3666666667,1.875000000) node {$ 30 $};
 \draw [] (-0.100,1.88) -- (0.100,1.88);
 \draw [,->,>=latex] (0,0) -- (0,2.375000000);
 %DEFAULT
 \draw [] (0,0) -- (3.00,1.88);
-\draw (7.915295190,-0.3414213562) node {durée (en \si{\minute})};
-\draw (2.559680000,3.325000000) node {distance parcourue (en \si{\kilo\meter})};
 
+\draw (7.137833213,-0.3080880229) node {durée (en \si{\minute})};
+\draw (2.209558167,2.308333333) node {distance parcourue (en \si{\kilo\meter})};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigSVPCooGYtlqqPICTSVPCooGYtlqq
 %AFTER PSPICTURE

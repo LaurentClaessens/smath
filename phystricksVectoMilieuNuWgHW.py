@@ -6,7 +6,7 @@ def VectoMilieuNuWgHW():
 
     A=Point(0,0)
     B=Point(3,2)
-    M=Segment(A,B).center()
+    M=Segment(A,B).midpoint()
 
     A.put_mark(0.2,-45,"\( A\)",pspict=pspict)
     B.put_mark(0.2,-45,"\( B\)",pspict=pspict)

@@ -17,7 +17,7 @@ def PSZooRphUET():
 
     K.put_mark(0.2,180+45,"\( K\)",pspict=pspict,position="corner")
     L.put_mark(0.2,-45,"\( L\)",pspict=pspict,position="corner")
-    M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="S")
 
     trig=Polygon(K,L,M)
 

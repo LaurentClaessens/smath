@@ -24,7 +24,7 @@ def DansRectangleGPEkJc():
     s=Segment(B,J)
     t=Segment(J,I)
     t.parameters.style="dashed"
-    angle=Angle(I,B,J)
+    angle=AngleAOB(I,B,J)
     angle.parameters.color="red"
 
     angle.put_mark(0.2,None,"\unit{45}{\degree}",pspict=pspict)

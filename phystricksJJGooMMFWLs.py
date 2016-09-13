@@ -9,8 +9,8 @@ def JJGooMMFWLs():
     B=Circle(C,12).get_point( (180+30-90)*degree )
 
     A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
-    B.put_mark(0.2,90,"\( B\)",pspict=pspict,position="S")
-    C.put_mark(0.2,0,"\( C\)",pspict=pspict,position="W")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="S")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="W")
 
     rh=RightAngle(  Segment(C,A),Segment(C,B),1,1 )
 

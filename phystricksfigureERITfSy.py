@@ -16,13 +16,13 @@ def figureERITfSy():
     B.put_mark(0.2,225,"\( B\)",pspict=pspict)
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
 
-    K=Segment(A,B).center()
+    K=Segment(A,B).midpoint()
     K.put_mark(0.2,180,"\( x\)",pspict=pspict)
     K.parameters.symbol="none"
 
     plage=Segment(A,D).dilatation(1.5)
     ligne=Polygon(A,B,C,D)
-    ligne.edge.parameters.color="red"
+    ligne.edge_model.parameters.color="red"
 
     plage.parameters.color="blue"
 

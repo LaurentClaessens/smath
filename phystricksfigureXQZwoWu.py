@@ -12,9 +12,9 @@ def figureXQZwoWu():
     trig=Polygon(cube.A,cube.F,cube.C)
     trig.parameters.filled()
     trig.parameters.fill.color="green"
-    trig.edge.parameters.color="cyan"
+    trig.edge_model.parameters.color="cyan"
 
-    I=Segment(cube.A,cube.F).center()
+    I=Segment(cube.A,cube.F).midpoint()
     h=Segment(I,cube.C)
     h.parameters.color="red"
     h.parameters.style="dashed"

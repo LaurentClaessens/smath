@@ -22,9 +22,9 @@ def KYVAooVmGYhS():
 
     O.put_mark(0.1,angle=-45,text="\( K\)",pspict=pspict)
 
-    a1=Angle(C,B,P,r=0.3)
+    a1=AngleAOB(C,B,P,r=0.3)
     a1.put_mark(0.6,angle=None,text="\SI{100}{\degree}",pspict=pspict)
-    a2=Angle(p2.F,D,C)
+    a2=AngleAOB(p2.F,D,C)
     a2.put_mark(0.6,angle=None,text="\SI{30}{\degree}",pspict=pspict)
 
     no_symbol(O)

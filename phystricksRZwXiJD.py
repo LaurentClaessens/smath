@@ -11,8 +11,8 @@ def RZwXiJD():
     cube.put_vertex_mark(pspict)
 
 
-    I=Segment(cube.E,cube.F).center()
-    J=Segment(cube.B,cube.F).center()
+    I=Segment(cube.E,cube.F).midpoint()
+    J=Segment(cube.B,cube.F).midpoint()
 
     I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
     J.put_mark(0.2,-45,"\( J\)",pspict=pspict,position="corner")

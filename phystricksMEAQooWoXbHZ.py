@@ -9,7 +9,7 @@ def MEAQooWoXbHZ():
     C=Point(0,4)
 
     triangle=Polygon(A,B,C)
-    triangle.put_mark(0.2,pspict=pspict)
+    triangle.put_mark(0.3,pspict=pspict)
 
     c1=triangle.edges[0]
     c2=triangle.edges[1]

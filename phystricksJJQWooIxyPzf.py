@@ -21,8 +21,8 @@ def JJQWooIxyPzf():
 
     K=Intersection(s2,c1)[0]
 
-    ang1=Angle(c2.F,B,A,r=0.3)
-    ang2=Angle(A,K,C,r=0.3)
+    ang1=AngleAOB(c2.F,B,A,r=0.3)
+    ang2=AngleAOB(A,K,C,r=0.3)
     ang1.put_mark(0.2,None,"\SI{110}{\degree}",pspict=pspict)
     ang2.put_mark(0.2,None,"\SI{50}{\degree}",pspict=pspict)
 

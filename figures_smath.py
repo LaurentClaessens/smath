@@ -566,19 +566,6 @@ def AllFigures(figures_list):
     tests.generate()
     tests.summary()
 
-# Les fonctions suivantes sont supprimées (12 septembre 2013)
-#DS2010bisExoGraph, ExoCUd,DS2010ExoGraph,
-# Les fonctions suivantes sont supprimées (27 août 2014)
-#   from phystricksExGrapheOcxXii import ExGrapheOcxXii
-#   from phystricksSecondDeg import SecondDeg
-# from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
-# from phystricksOHfdEZt import OHfdEZt
-# from phystricksLNfaWPF import LNfaWPF
-# from phystricksFPIkJJx import FPIkJJx
-# from phystricksOKTXHoc import OKTXHoc
-# from phystricksJLUTBlD import JWNtVIR
-# from phystricksAUHmNET import AUHmNET
-
 figures_list=[]
 figures_list.append(ZPBMooYYMMgs)
 figures_list.append(JJHQooEkspEV)

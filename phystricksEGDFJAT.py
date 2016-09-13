@@ -19,10 +19,10 @@ def EGDFJAT():
     centre=Point(l/2,h/2)
 
     terrain=Polygon(I,J,K,L)
-    M1=Segment(L,I).center()
-    M2=Segment(K,J).center()
+    M1=Segment(L,I).midpoint()
+    M2=Segment(K,J).midpoint()
 
-    Oy=Segment(J,I).center()
+    Oy=Segment(J,I).midpoint()
     Oy.put_mark(0.2,180,"\( 25\)",pspict=pspict,position="E")
 
     I.put_mark(0.2,180,"\( 50\)",pspict=pspict)
@@ -32,7 +32,7 @@ def EGDFJAT():
 
 
     mediane=Segment(M1,M2)
-    centre=mediane.center()
+    centre=mediane.midpoint()
     cercle=Circle(centre,rayon)
 
     A=cercle.get_point(90)

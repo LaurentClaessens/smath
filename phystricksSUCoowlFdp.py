@@ -33,7 +33,7 @@ def SUCoowlFdp():
     vOA.parameters.color="red"
     vBC.parameters.color="red"
     v.parameters.color="blue"
-    v.put_mark(0.2,45,r"\(  \vect{ v } \)",mark_point=v.center(),pspict=pspict,position="corner")
+    v.put_mark(0.2,45,r"\(  \vect{ v } \)",mark_point=v.midpoint(),pspict=pspict,position="corner")
 
     pspict.DrawGraphs(O,A,C,B,F,E,vOA,vBC,v)
     pspict.DrawDefaultGrid()

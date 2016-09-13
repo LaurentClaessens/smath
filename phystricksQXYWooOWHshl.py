@@ -24,8 +24,8 @@ def QXYWooOWHshl():
     label_Y=u"distance parcourue"
     pspicts[0].axes.single_axeX.Dx=30
     pspicts[0].axes.single_axeY.Dx=30
-    pspicts[0].axes.single_axeX.put_mark(0.2,-45,label_X,pspict=pspicts,position="corner")
-    pspicts[0].axes.single_axeY.put_mark(0.2,0,label_Y,pspict=pspicts,position="corner")
+    pspicts[0].axes.single_axeX.put_mark(0.2,-45,label_X,pspicts=pspicts,position="corner")
+    pspicts[0].axes.single_axeY.put_mark(0.2,0,label_Y,pspicts=pspicts,position="corner")
     pspicts[0].grid.Dx=15
     pspicts[0].grid.Dy=20
     pspicts[0].DrawGraphs(f)
@@ -49,8 +49,8 @@ def QXYWooOWHshl():
     
     pspicts[1].axes.single_axeX.Dx=30
     pspicts[1].axes.single_axeY.Dx=30
-    pspicts[1].axes.single_axeX.put_mark(0.2,-45,label_X,pspict=pspicts,position="corner")
-    pspicts[1].axes.single_axeY.put_mark(0.2,0,label_Y,pspict=pspicts,position="corner")
+    pspicts[1].axes.single_axeX.put_mark(0.2,-45,label_X,pspicts=pspicts,position="corner")
+    pspicts[1].axes.single_axeY.put_mark(0.2,0,label_Y,pspicts=pspicts,position="corner")
     pspicts[1].grid.Dx=15
     pspicts[1].grid.Dy=20
     pspicts[1].DrawGraphs(seg)
@@ -75,13 +75,13 @@ def QXYWooOWHshl():
     seg=Segment(  Point(0,0),Point(100,100*100/90) )
     
     P=Point(90,100)
-    P.put_mark(0.2,90+45,"\( P\)",pspict=pspicts)
+    P.put_mark(0.2,90+45,"\( P\)",pspicts=pspicts)
     P.parameters.symbol="*"
 
     pspicts[3].axes.single_axeX.Dx=30
     pspicts[3].axes.single_axeY.Dx=30
-    pspicts[3].axes.single_axeX.put_mark(0.2,-45,label_X,pspict=pspicts,position="corner")
-    pspicts[3].axes.single_axeY.put_mark(0.2,0,label_Y,pspict=pspicts,position="corner")
+    pspicts[3].axes.single_axeX.put_mark(0.2,-45,label_X,pspicts=pspicts,position="corner")
+    pspicts[3].axes.single_axeY.put_mark(0.2,0,label_Y,pspicts=pspicts,position="corner")
     pspicts[3].grid.Dx=15
     pspicts[3].grid.Dy=20
     pspicts[3].DrawGraphs(seg,P)
@@ -105,8 +105,8 @@ def QXYWooOWHshl():
     
     pspicts[2].axes.single_axeX.Dx=30
     pspicts[2].axes.single_axeY.Dx=30
-    pspicts[2].axes.single_axeX.put_mark(0.2,-45,label_X,pspict=pspicts,position="corner")
-    pspicts[2].axes.single_axeY.put_mark(0.2,0,label_Y,pspict=pspicts,position="corner")
+    pspicts[2].axes.single_axeX.put_mark(0.2,-45,label_X,pspicts=pspicts,position="corner")
+    pspicts[2].axes.single_axeY.put_mark(0.2,0,label_Y,pspicts=pspicts,position="corner")
     pspicts[2].grid.Dx=15
     pspicts[2].grid.Dy=20
     pspicts[2].DrawGraphs(seg)

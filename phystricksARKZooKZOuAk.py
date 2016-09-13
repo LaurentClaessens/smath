@@ -8,7 +8,7 @@ def ARKZooKZOuAk():
 
     pspicts[0].dilatation(0.6)
 
-    pspicts[1].dilatation_X(0.05)
+    pspicts[1].dilatation_X(0.7)
     pspicts[1].dilatation_Y(0.07)
 
     pspicts[2].dilatation_X(0.2)
@@ -49,7 +49,6 @@ def ARKZooKZOuAk():
     pspicts[0].DrawDefaultAxes()
 
 
-    pspicts[1].dilatation_X(0.7)
     pspicts[1].grid.Dx=20
     pspicts[1].grid.Dy=10
     pspicts[1].DrawDefaultGrid()
@@ -72,7 +71,7 @@ def ARKZooKZOuAk():
     pspicts[3].single_axeY.Dx=2
     pspicts[3].axes.do_My_enlarge=False
     pspicts[3].DrawDefaultAxes()
-    
+
     for fig in figs:
         fig.no_figure()
         fig.conclude()

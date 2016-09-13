@@ -15,7 +15,7 @@ def figureUERGVgS():
     A=Point(2,f(l))
     X=Point(l,f(0))
     I=Point(l,0)
-    I.put_mark(0.2,-90,"\( I\)",pspict=pspict,position="N")
+    I.put_mark(0.2,text="\( I\)",pspict=pspict,position="N")
     seg=Segment(B,X)
     seg.parameters.style="dashed"
 
@@ -24,12 +24,6 @@ def figureUERGVgS():
 
     measureB=MeasureLength(Segment(O,B),0.2)
     measureB.put_mark(0.2,0,"\( p\)",pspict=pspict)
-
-    #I=Point(1,0)
-    #J=Point(0,1)
-
-    #I.put_mark(0.2,-90,"\( I\)",pspict=pspict)
-    #J.put_mark(0.2,180,"\( J\)",pspict=pspict)
 
     pspict.DrawGraphs(f,O,B,seg,measure,I,measureB)
 

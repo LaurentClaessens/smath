@@ -18,7 +18,7 @@ def KSQooHHfEpe():
     #rh1.parameters.color="red"
     #rh2.parameters.color="blue"
 
-    O=AB.center()
+    O=AB.midpoint()
 
     AO=Segment(A,O)
     OB=Segment(O,B)

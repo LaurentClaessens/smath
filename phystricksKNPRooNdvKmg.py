@@ -15,7 +15,7 @@ def KNPRooNdvKmg():
     J=s2.get_point_proportion(0.6)
     s3=Segment(I,J).dilatation(1.7)
 
-    a1=Angle(s2.F,J,s3.I,0.3)
+    a1=AngleAOB(s2.F,J,s3.I,0.3)
     a1.put_mark(0.3,None,"{\small\SI{120}{\degree}}",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,s3,a1)

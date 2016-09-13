@@ -18,6 +18,7 @@ def OAHLooOwLezW():
 
     no_symbol(trig.vertices)
     pspict.DrawGraphs(trig)
+    pspict.comment="Vérifier la longueur des codages."
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

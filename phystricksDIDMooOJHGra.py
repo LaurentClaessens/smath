@@ -20,11 +20,11 @@ def DIDMooOJHGra():
     s1=Segment(B,C)
     s2=Segment(E,D)
 
-    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
     B.put_mark(0.2,90+45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
-    D.put_mark(0.2,180,"\( D\)",pspict=pspict,position="E")
-    E.put_mark(0.2,0,"\( E\)",pspict=pspict,position="W")
+    D.put_mark(0.2,text="\( D\)",pspict=pspict,position="E")
+    E.put_mark(0.2,text="\( E\)",pspict=pspict,position="W")
     F.put_mark(0.2,180+45,"\( F\)",pspict=pspict,position="corner")
     G.put_mark(0.2,-45,"\( G\)",pspict=pspict,position="corner")
 

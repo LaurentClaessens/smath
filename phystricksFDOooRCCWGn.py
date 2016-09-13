@@ -28,9 +28,9 @@ def FDOooRCCWGn():
 
 
     measure1=MeasureLength(  s1 ,-0.3  )
-    measure1.put_mark(0.3,90,"\SI{10}{\centi\meter}",pspict=pspict,position="S")
+    measure1.put_mark(0.3,text="\SI{10}{\centi\meter}",pspict=pspict,position="S")
     measure2=MeasureLength(  s2 ,0.3  )
-    measure2.put_mark(0.3,180,"\SI{4}{\centi\meter}",pspict=pspict,position="E")
+    measure2.put_mark(0.3,text="\SI{4}{\centi\meter}",pspict=pspict,position="E")
 
     pspict.DrawGraphs(pet,measure1,measure2)
     fig.no_figure()

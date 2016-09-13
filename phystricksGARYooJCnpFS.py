@@ -13,7 +13,7 @@ def GARYooJCnpFS():
     C=Point(3,3)
 
     triangle=Polygon(A,B,C)
-    triangle.put_mark(0.2,pspict=pspicts)
+    triangle.put_mark(0.2,pspicts=pspicts)
     for psp in pspicts :
         psp.DrawGraphs(triangle)
     
@@ -26,7 +26,7 @@ def GARYooJCnpFS():
 
         pspicts[0].DrawGraphs(med)
 
-        cot.divide_in_two(n=i+1,d=0.1,l=0.3,pspict=pspicts)
+        cot.divide_in_two(n=i+1,d=0.1,l=0.3,pspicts=pspicts)
         pspicts[1].DrawGraphs(cot,med)
 
     for fig in figs:

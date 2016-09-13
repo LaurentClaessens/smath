@@ -25,15 +25,15 @@ def RYNYooMFTMNR():
         psp.DrawGraphs(s1,s2,s3)
 
     r=0.5
-    a1=Angle(D,I,s3.F,r)
-    a2=Angle(B,J,s3.F,r)
+    a1=AngleAOB(D,I,s3.F,r)
+    a2=AngleAOB(B,J,s3.F,r)
     b1=a1
-    b2=Angle(A,J,s3.I,r)
-    c1=Angle(s3.F,J,A,r)
-    c2=Angle(s3.F,I,C,r)
-    d1=Angle(I,J,B,r)
-    d2=Angle(s3.I,I,D,r)
-    e1=Angle(J,I,C,r)
+    b2=AngleAOB(A,J,s3.I,r)
+    c1=AngleAOB(s3.F,J,A,r)
+    c2=AngleAOB(s3.F,I,C,r)
+    d1=AngleAOB(I,J,B,r)
+    d2=AngleAOB(s3.I,I,D,r)
+    e1=AngleAOB(J,I,C,r)
     pspicts[0].DrawGraphs(a1,a2)
 
     pspicts[1].DrawGraphs(b1,b2)

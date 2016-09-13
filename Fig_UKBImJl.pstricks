@@ -51,6 +51,10 @@
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigUKBImJlPICTUKBImJl.phystricks.aux%
 %WRITE_AND_LABEL
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 500 $}}%
+\immediate\write\writeOfphystricks{totalheightof8068b061d2e5c798c828198768409607b6b8c93e:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 500 $}}%
+\immediate\write\writeOfphystricks{widthof8068b061d2e5c798c828198768409607b6b8c93e:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1000 $}}%
 \immediate\write\writeOfphystricks{totalheightof0b5d76354efead0e7e1fa777a5c329b88c1610e5:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 1000 $}}%
@@ -92,23 +96,25 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (3.333333333,-0.1997085652) node {$ 1000 $};
+\draw (1.666666667,-0.3049540000) node {$ 500 $};
+\draw [] (1.67,-0.100) -- (1.67,0.100);
+\draw (3.333333333,-0.3049540000) node {$ 1000 $};
 \draw [] (3.33,-0.100) -- (3.33,0.100);
-\draw (5.000000000,-0.1997085652) node {$ 1500 $};
+\draw (5.000000000,-0.3049540000) node {$ 1500 $};
 \draw [] (5.00,-0.100) -- (5.00,0.100);
-\draw (6.666666667,-0.1997085652) node {$ 2000 $};
+\draw (6.666666667,-0.3049540000) node {$ 2000 $};
 \draw [] (6.67,-0.100) -- (6.67,0.100);
-\draw (8.333333333,-0.1997085652) node {$ 2500 $};
+\draw (8.333333333,-0.3049540000) node {$ 2500 $};
 \draw [] (8.33,-0.100) -- (8.33,0.100);
-\draw (10.00000000,-0.1997085652) node {$ 3000 $};
+\draw (10.00000000,-0.3049540000) node {$ 3000 $};
 \draw [] (10.0,-0.100) -- (10.0,0.100);
-\draw (11.66666667,-0.1997085652) node {$ 3500 $};
+\draw (11.66666667,-0.3049540000) node {$ 3500 $};
 \draw [] (11.7,-0.100) -- (11.7,0.100);
-\draw (13.33333333,-0.1997085652) node {$ 4000 $};
+\draw (13.33333333,-0.3049540000) node {$ 4000 $};
 \draw [] (13.3,-0.100) -- (13.3,0.100);
-\draw (15.00000000,-0.1997085652) node {$ 4500 $};
+\draw (15.00000000,-0.3049540000) node {$ 4500 $};
 \draw [] (15.0,-0.100) -- (15.0,0.100);
-\draw [,->,>=latex] (2.500000000,0) -- (15.50000000,0);
+\draw [,->,>=latex] (-0.5000000000,0) -- (15.50000000,0);
 %DEFAULT
 \draw [] (3.00,1.12) -- (3.00,1.88);
 \draw [] (15.0,1.12) -- (15.0,1.88);
@@ -125,4 +131,5 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigUKBImJlPICTUKBImJl
 %AFTER PSPICTURE

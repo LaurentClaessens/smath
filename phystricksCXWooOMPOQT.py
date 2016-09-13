@@ -13,7 +13,7 @@ def CXWooOMPOQT():
 
     for i,m in enumerate(moustaches) :
         m.delta_y=0.75+i
-        m.put_mark(0.2,0,"DS {}".format( len(moustaches)-i ),pspict=pspict,position="W")
+        m.put_mark(0.2,text="DS {}".format( len(moustaches)-i ),pspict=pspict,position="W")
 
     pspict.DrawGraphs(moustaches)
     pspict.grid.draw_horizontal_grid=False

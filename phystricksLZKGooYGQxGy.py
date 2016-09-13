@@ -17,7 +17,7 @@ def LZKGooYGQxGy():
     p1=Segment(T,E).dilatation(1.2)
     p2=Segment(O,L).dilatation(1.6)
 
-    H.put_mark(0.2,0,"\( H\)",pspict=pspict,position="W")
+    H.put_mark(0.2,text="\( H\)",pspict=pspict,position="W")
     O.put_mark(0.2,90+45,"\( O\)",pspict=pspict,position="corner")
     L.put_mark(0.2,45,"\( L\)",pspict=pspict,position="corner")
     T.put_mark(0.2,-45,"\( T\)",pspict=pspict,position="corner")

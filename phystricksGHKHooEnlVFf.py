@@ -37,9 +37,9 @@ def GHKHooEnlVFf():
     K.put_mark(0.2,angle=None,text="\( K\)",pspict=pspict)
     L.put_mark(0.2,angle=None,text="\( L\)",pspict=pspict)
 
-    #mA=Angle(s2.I,A,L,r=0.1).get_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
-    mA=Angle(D,A,B,r=0.1).get_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
-    mB=Angle(s1.F,B,K,r=0.1).get_mark(0.2,angle=None,text="\( B\)",pspict=pspict)
+    #mA=AngleAOB(s2.I,A,L,r=0.1).get_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
+    mA=AngleAOB(D,A,B,r=0.1).get_mark(0.2,angle=None,text="\( A\)",pspict=pspict)
+    mB=AngleAOB(s1.F,B,K,r=0.1).get_mark(0.2,angle=None,text="\( B\)",pspict=pspict)
 
     pspict.comment="The marks $A$ and $B$ are in the center of the angle and at reasonable distance."
     no_symbol(O,A,B,C,D)

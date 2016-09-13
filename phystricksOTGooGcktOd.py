@@ -32,8 +32,8 @@ def OTGooGcktOd():
     QO=Segment(Q,O)
     QO.put_mark(0.2,QO.advised_mark_angle(pspict)+180,"\unit{4.5}{\centi\meter}",pspict=pspict,position="corner")
     Q.put_mark(0.2,-45,"\( Q\)",pspict=pspict,position="corner")
-    O.put_mark(0.2,0,"\( O\)",pspict=pspict,position="W")
-    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="W")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
 
     angle1=AngleAOB(O,Q,C)
     angle1.put_mark(0.5,None,"\unit{20}{\degree}",pspict=pspict)
@@ -52,9 +52,9 @@ def OTGooGcktOd():
     angle3=AngleAOB(V,I,N)
     angle3.put_mark(0.7,None,"\unit{75}{\degree}",pspict=pspict)
 
-    I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
+    I.put_mark(0.2,text="\( I\)",pspict=pspict,position="S")
     N.put_mark(0.2,-45,"\( N\)",pspict=pspict,position="corner")
-    V.put_mark(0.2,180,"\( V\)",pspict=pspict,position="E")
+    V.put_mark(0.2,text="\( V\)",pspict=pspict,position="E")
 
     IV=Segment(I,V)
     IV.put_mark(0.2,IV.advised_mark_angle(pspict)+180,"\unit{7}{\centi\meter}",pspict=pspict,position="corner")

@@ -14,21 +14,21 @@ def KPWWooFyZHHV():
     triangles.append( Polygon(O[-1],T[-1],S,M[-1]) )
 
     for i in range(0,3):
-        triangles[i].put_mark(0.2,text_list=["\( T\)","\( M\)","\( O\)"],pspict=pspicts)
-    triangles[-1].put_mark(0.2,text_list=["\( T\)","\( O\)","\( M\)","\( S\)"],pspict=pspicts)
+        triangles[i].put_mark(0.2,text_list=["\( T\)","\( M\)","\( O\)"],pspicts=pspicts)
+    triangles[-1].put_mark(0.2,text_list=["\( T\)","\( O\)","\( M\)","\( S\)"],pspicts=pspicts)
 
     A=[  triangles[0].edges[1].midpoint(),triangles[1].edges[1].midpoint(),triangles[2].edges[2].midpoint(),triangles[3].edges[1].midpoint()  ]
     B=[  triangles[0].edges[2].midpoint(),triangles[1].edges[2].midpoint(),triangles[2].edges[1].midpoint(),triangles[3].edges[0].midpoint()  ]
 
-    triangles[0].edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    triangles[0].edges[2].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    triangles[1].edges[2].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspicts)
+    triangles[0].edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspicts=pspicts)
+    triangles[0].edges[2].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
+    triangles[1].edges[2].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspicts=pspicts)
 
-    triangles[3].edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    triangles[3].edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspict=pspicts)
+    triangles[3].edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
+    triangles[3].edges[1].divide_in_two(n=1,d=0.1,l=0.3,angle=45,pspicts=pspicts)
 
-    code1=Segment(  O[2],B[2]  ).get_code(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
-    code2=Segment(  O[2],A[2]  ).get_code(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
+    code1=Segment(  O[2],B[2]  ).get_code(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
+    code2=Segment(  O[2],A[2]  ).get_code(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
 
     AB=[  Segment(A[i],B[i]).dilatation(1.5) for i in range(0,4)  ]
 
@@ -46,8 +46,8 @@ def KPWWooFyZHHV():
         p.parameters.symbol=""
     S.parameters.symbol=""
     for i in range(0,4):
-        A[i].put_mark(0.2,None,"\( A\)",pspict=pspicts,position="corner")
-        B[i].put_mark(0.2,None,"\( B\)",pspict=pspicts,position="corner")
+        A[i].put_mark(0.2,None,"\( A\)",pspicts=pspicts,position="corner")
+        B[i].put_mark(0.2,None,"\( B\)",pspicts=pspicts,position="corner")
         pspicts[i].DrawGraphs(triangles[i],A[i],B[i],AB[i])
 
     pspicts[2].DrawGraphs(code1,code2)

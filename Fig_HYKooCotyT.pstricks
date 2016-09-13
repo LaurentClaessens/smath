@@ -72,51 +72,40 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-1.00,-2.00) -- (-1.00,2.50);
-\draw [color=gray,style=solid] (-0.500,-2.00) -- (-0.500,2.50);
-\draw [color=gray,style=solid] (0,-2.00) -- (0,2.50);
-\draw [color=gray,style=solid] (0.500,-2.00) -- (0.500,2.50);
-\draw [color=gray,style=solid] (1.00,-2.00) -- (1.00,2.50);
-\draw [color=gray,style=solid] (1.50,-2.00) -- (1.50,2.50);
-\draw [color=gray,style=solid] (2.00,-2.00) -- (2.00,2.50);
-\draw [color=gray,style=solid] (2.50,-2.00) -- (2.50,2.50);
-\draw [color=gray,style=dotted] (-0.750,-2.00) -- (-0.750,2.50);
-\draw [color=gray,style=dotted] (-0.250,-2.00) -- (-0.250,2.50);
-\draw [color=gray,style=dotted] (0.250,-2.00) -- (0.250,2.50);
-\draw [color=gray,style=dotted] (0.750,-2.00) -- (0.750,2.50);
-\draw [color=gray,style=dotted] (1.25,-2.00) -- (1.25,2.50);
-\draw [color=gray,style=dotted] (1.75,-2.00) -- (1.75,2.50);
-\draw [color=gray,style=dotted] (2.25,-2.00) -- (2.25,2.50);
-\draw [color=gray,style=dotted] (-1.00,-1.75) -- (2.50,-1.75);
-\draw [color=gray,style=dotted] (-1.00,-1.25) -- (2.50,-1.25);
-\draw [color=gray,style=dotted] (-1.00,-0.750) -- (2.50,-0.750);
-\draw [color=gray,style=dotted] (-1.00,-0.250) -- (2.50,-0.250);
-\draw [color=gray,style=dotted] (-1.00,0.250) -- (2.50,0.250);
-\draw [color=gray,style=dotted] (-1.00,0.750) -- (2.50,0.750);
-\draw [color=gray,style=dotted] (-1.00,1.25) -- (2.50,1.25);
-\draw [color=gray,style=dotted] (-1.00,1.75) -- (2.50,1.75);
-\draw [color=gray,style=dotted] (-1.00,2.25) -- (2.50,2.25);
-\draw [color=gray,style=solid] (-1.00,-2.00) -- (2.50,-2.00);
-\draw [color=gray,style=solid] (-1.00,-1.50) -- (2.50,-1.50);
-\draw [color=gray,style=solid] (-1.00,-1.00) -- (2.50,-1.00);
-\draw [color=gray,style=solid] (-1.00,-0.500) -- (2.50,-0.500);
-\draw [color=gray,style=solid] (-1.00,0) -- (2.50,0);
-\draw [color=gray,style=solid] (-1.00,0.500) -- (2.50,0.500);
-\draw [color=gray,style=solid] (-1.00,1.00) -- (2.50,1.00);
-\draw [color=gray,style=solid] (-1.00,1.50) -- (2.50,1.50);
-\draw [color=gray,style=solid] (-1.00,2.00) -- (2.50,2.00);
-\draw [color=gray,style=solid] (-1.00,2.50) -- (2.50,2.50);
+\draw [color=gray,style=solid] (1.00,-1.50) -- (1.00,2.50);
+\draw [color=gray,style=solid] (1.50,-1.50) -- (1.50,2.50);
+\draw [color=gray,style=solid] (2.00,-1.50) -- (2.00,2.50);
+\draw [color=gray,style=dotted] (1.25,-1.50) -- (1.25,2.50);
+\draw [color=gray,style=dotted] (1.75,-1.50) -- (1.75,2.50);
+\draw [color=gray,style=dotted] (1.00,-1.25) -- (2.00,-1.25);
+\draw [color=gray,style=dotted] (1.00,-0.750) -- (2.00,-0.750);
+\draw [color=gray,style=dotted] (1.00,-0.250) -- (2.00,-0.250);
+\draw [color=gray,style=dotted] (1.00,0.250) -- (2.00,0.250);
+\draw [color=gray,style=dotted] (1.00,0.750) -- (2.00,0.750);
+\draw [color=gray,style=dotted] (1.00,1.25) -- (2.00,1.25);
+\draw [color=gray,style=dotted] (1.00,1.75) -- (2.00,1.75);
+\draw [color=gray,style=dotted] (1.00,2.25) -- (2.00,2.25);
+\draw [color=gray,style=solid] (1.00,-1.50) -- (2.00,-1.50);
+\draw [color=gray,style=solid] (1.00,-1.00) -- (2.00,-1.00);
+\draw [color=gray,style=solid] (1.00,-0.500) -- (2.00,-0.500);
+\draw [color=gray,style=solid] (1.00,0) -- (2.00,0);
+\draw [color=gray,style=solid] (1.00,0.500) -- (2.00,0.500);
+\draw [color=gray,style=solid] (1.00,1.00) -- (2.00,1.00);
+\draw [color=gray,style=solid] (1.00,1.50) -- (2.00,1.50);
+\draw [color=gray,style=solid] (1.00,2.00) -- (2.00,2.00);
+\draw [color=gray,style=solid] (1.00,2.50) -- (2.00,2.50);
 %DEFAULT
 \draw [,->,>=latex] (0.5000000000,0.5000000000) -- (1.000000000,1.500000000);
-\draw (1.333931023,1.809585856) node {\( \vect{ u_1 }\)};
+\draw (1.311597523,1.779596356) node {\( \vect{ u_1 }\)};
 \draw [,->,>=latex] (-1.000000000,0) -- (1.000000000,-1.000000000);
-\draw (1.333931023,-0.6904141438) node {\( \vect{ u_2 }\)};
+\draw (1.311597523,-0.7204036438) node {\( \vect{ u_2 }\)};
 \draw []  (1.500000000,-1.000000000) node [rotate=0] {$\bullet$};
-\draw (1.774660856,-1.278088023) node {\( L\)};
+\draw (1.754847523,-1.255309856) node {\( L\)};
 
 %AXES
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
+FIGLabelFigHYKooCotyTPICTHYKooCotyT
 %AFTER PSPICTURE

@@ -10,8 +10,8 @@ def ONMRllE():
     cube=perspective.cuboid((0,0),l,l,l)
     cube.put_vertex_mark(pspict)
 
-    I=Segment(cube.A,cube.E).center()
-    J=Segment(cube.C,cube.G).center()
+    I=Segment(cube.A,cube.E).midpoint()
+    J=Segment(cube.C,cube.G).midpoint()
     I.put_mark(0.2,135,"\( I\)",pspict=pspict,position="S")
     J.put_mark(0.2,-45,"\( J\)",pspict=pspict,position="N")
 

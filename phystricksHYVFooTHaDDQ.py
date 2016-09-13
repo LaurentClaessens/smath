@@ -12,43 +12,43 @@ def HYVFooTHaDDQ():
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]
-    trig.put_mark(0.2,pspict=pspicts)
+    trig.put_mark(0.2,pspicts=pspicts)
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
-    trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspicts=pspicts)
+    trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
 
     ang=AngleAOB(A,C,B)
-    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",pspict=pspicts)
+    ang.put_mark(0.4,angle=None,added_angle=0,text="\SI{34}{\degree}",pspicts=pspicts)
     no_symbol(trig.vertices)
     pspicts[0].DrawGraphs(trig,M,ang)
 
     
     Cpp=Segment(A,B).midpoint()+(0,2)
     trig=Polygon(Ap,Bp,Cpp).rotation(47)
-    trig.put_mark(0.2,pspict=pspicts)
+    trig.put_mark(0.2,pspicts=pspicts)
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
-    cod1=trig.edges[1].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
-    cod2=trig.edges[2].get_code(n=2,d=0.1,l=0.3,pspict=pspicts)
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspicts=pspicts)
+    cod1=trig.edges[1].get_code(n=2,d=0.1,l=0.3,pspicts=pspicts)
+    cod2=trig.edges[2].get_code(n=2,d=0.1,l=0.3,pspicts=pspicts)
     CM=Segment(C,M)
     rh=RightAngleAOB(C,M,B)
     no_symbol(trig.vertices)
     pspicts[1].DrawGraphs(trig,M,CM,rh,cod1,cod2)
 
     trig=Polygon(Ap,Bp,Cpp).rotation(-20)
-    trig.put_mark(0.2,pspict=pspicts)
+    trig.put_mark(0.2,pspicts=pspicts)
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspicts=pspicts)
     CM=Segment(C,M)
     rh=RightAngleAOB(C,M,B)
     ang=AngleAOB(M,A,C)
-    ang.put_mark(0.3,angle=None,added_angle=0,text="\SI{45}{\degree}",pspict=pspicts)
+    ang.put_mark(0.3,angle=None,added_angle=0,text="\SI{45}{\degree}",pspicts=pspicts)
     no_symbol(trig.vertices)
     pspicts[2].DrawGraphs(trig,M,CM,rh,ang)
 
@@ -58,11 +58,11 @@ def HYVFooTHaDDQ():
     A=trig.vertices[0]
     B=trig.vertices[1]
     C=trig.vertices[2]
-    trig.put_mark(0.2,pspict=pspicts)
+    trig.put_mark(0.2,pspicts=pspicts)
     M=trig.edges[0].midpoint()
-    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspict=pspicts)
+    M.put_mark(0.2,angle=None,added_angle=180,text="\( M\)",pspicts=pspicts)
     rh=RightAngleAOB(A,C,B)
-    trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspicts)
+    trig.edges[0].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
 
     no_symbol(trig.vertices)
     pspicts[3].DrawGraphs(trig,M,rh)

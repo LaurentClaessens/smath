@@ -16,8 +16,8 @@ def situation(pspict):
 
     parABDC=Polygon(A,B,D,C)
     parABKpK=Polygon(A,B,Kp,K)
-    parABDC.edge.parameters.color="red"
-    parABKpK.edge.parameters.color="blue"
+    parABDC.edge_model.parameters.color="red"
+    parABKpK.edge_model.parameters.color="blue"
 
     AB=Segment(A,B)
     AB.parameters.style="dashed"

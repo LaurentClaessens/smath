@@ -12,9 +12,9 @@ def LWNSooVGvWxJ():
     C=Point(l,0)
 
     trig=Polygon(A,B,C)
-    put_equal_lengths_code(trig.edges[0],trig.edges[2],n=1,d=0.1,l=0.3,angle=45,pspict=pspicts)
+    put_equal_lengths_code(trig.edges[0],trig.edges[2],n=1,d=0.1,l=0.3,angle=45,pspicts=pspicts)
     rh=RightAngleAOB(B,A,C)
-    trig.put_mark(0.2,pspict=pspicts)
+    trig.put_mark(0.2,pspicts=pspicts)
 
     no_symbol(trig.vertices)
     pspicts[0].DrawGraphs(trig,rh)
@@ -30,13 +30,13 @@ def LWNSooVGvWxJ():
     M=Intersection( s1,s2 )[0]
 
     trig=Polygon(K,L,M)
-    trig.put_mark(0.2,points_names="KLM",pspict=pspicts)
+    trig.put_mark(0.2,points_names="KLM",pspicts=pspicts)
 
     angK=AngleAOB(L,K,M)
-    angK.put_mark(0.2,angle=None,added_angle=0,text="\SI{60}{\degree}",pspict=pspicts)
+    angK.put_mark(0.2,angle=None,added_angle=0,text="\SI{60}{\degree}",pspicts=pspicts)
     
     angL=AngleAOB(M,L,K)
-    angL.put_mark(0.3,angle=None,added_angle=0,text="\SI{25}{\degree}",pspict=pspicts)
+    angL.put_mark(0.3,angle=None,added_angle=0,text="\SI{25}{\degree}",pspicts=pspicts)
 
     no_symbol(trig.vertices)
     pspicts[1].DrawGraphs(trig,angK,angL)

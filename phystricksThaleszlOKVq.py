@@ -11,9 +11,9 @@ def ThaleszlOKVq():
     B.put_mark(0.2,90,"\( B\)",pspict=pspict)
     C.put_mark(0.2,90,"\( C\)",pspict=pspict)
 
-    L=Segment(A,B).center()
+    L=Segment(A,B).midpoint()
     L.put_mark(0.2,90,"\( L\)",pspict=pspict)
-    K=Segment(A,C).center()
+    K=Segment(A,C).midpoint()
     K.put_mark(0.2,90,"\( K\)",pspict=pspict)
 
     AB=Segment(A,B).dilatation(1.5)

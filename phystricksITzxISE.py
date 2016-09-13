@@ -13,7 +13,7 @@ def ITzxISE():
     C=Point(9/2,5)
 
     AB=Segment(A,B)
-    M=AB.center()
+    M=AB.midpoint()
     AC=Segment(A,C)
     BC=Segment(B,C)
     MC=Segment(M,C)

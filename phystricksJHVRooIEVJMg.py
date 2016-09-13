@@ -15,9 +15,9 @@ def JHVRooIEVJMg():
     D=A+C-B
 
     surf=Polygon(A,B,C,D)
-    surf.put_mark(0.2,pspict=pspicts)
-    surf.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\SI{6.28}{\centi\meter}",pspict=pspicts)
-    surf.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\SI{3}{\centi\meter}",pspict=pspicts)
+    surf.put_mark(0.2,pspicts=pspicts)
+    surf.edges[0].put_mark(0.2,angle=None,added_angle=180,text="\SI{6.28}{\centi\meter}",pspicts=pspicts)
+    surf.edges[1].put_mark(0.2,angle=None,added_angle=180,text="\SI{3}{\centi\meter}",pspicts=pspicts)
 
     no_symbol(surf.vertices)
 

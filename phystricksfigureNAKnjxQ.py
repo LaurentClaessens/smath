@@ -16,10 +16,10 @@ def figureNAKnjxQ():
     BC=Segment(B,C)
     CA=Segment(C,A)
 
-    hA=BC.get_normal_vector().segment().dilatation(2.5)
-    hB=CA.get_normal_vector().segment().dilatation(2)
+    hA=BC.get_normal_vector().segment.dilatation(2.5)
+    hB=CA.get_normal_vector().segment.dilatation(2)
     v=-AB.get_normal_vector()
-    hC=v.segment().dilatation(2)
+    hC=v.segment.dilatation(2)
 
     hA.parameters.color="red"
     hB.parameters.color="red"

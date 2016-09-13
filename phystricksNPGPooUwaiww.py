@@ -24,9 +24,9 @@ def NPGPooUwaiww():
     Baume=Point(Mx/2,0)
     Besan=Point(Mx,0)
 
-    Clerval.put_mark(0.2,-90,"Clerval",pspict=pspict,position="N")
-    Baume.put_mark(0.2,-90,"Baume",pspict=pspict,position="N")
-    Besan.put_mark(0.2,-90,"Besançon",pspict=pspict,position="N")
+    Clerval.put_mark(0.2,text="Clerval",pspict=pspict,position="N")
+    Baume.put_mark(0.2,text="Baume",pspict=pspict,position="N")
+    Besan.put_mark(0.2,text="Besançon",pspict=pspict,position="N")
     Clerval.parameters.symbol=""
     Baume.parameters.symbol=""
     Besan.parameters.symbol=""

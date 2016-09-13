@@ -15,10 +15,10 @@ def XCWLooVgowie():
     rh=RightAngle(  Segment(C,A),Segment(A,B),0,1  )
 
     trig=Polygon(A,B,C)
-    trig.edges[0].put_mark(0.2,-90,"\( 12\)",pspict=pspict,position="N")
+    trig.edges[0].put_mark(0.2,text="\( 12\)",pspict=pspict,position="N")
 
     trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)*degree+180,"\( ?\)",pspict=pspict,position="corner")
-    trig.edges[2].put_mark(0.2,180,"\( 9\)",pspict=pspict,position="E")
+    trig.edges[2].put_mark(0.2,text="\( 9\)",pspict=pspict,position="E")
 
     no_symbol(trig.vertices)
     pspict.DrawGraphs(A,B,C,trig,rh)

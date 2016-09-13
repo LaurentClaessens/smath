@@ -10,7 +10,7 @@ def QZPMooIiOQpy():
     C=Point(2.5,3)
 
     triangle=Polygon(A,B,C)
-    triangle.put_mark(0.2,pspict=pspicts)
+    triangle.put_mark(0.2,pspicts=pspicts)
     for psp in pspicts:
         psp.DrawGraphs(triangle)
     

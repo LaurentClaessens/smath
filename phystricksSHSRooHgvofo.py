@@ -19,12 +19,12 @@ def SHSRooHgvofo():
     triangles.append(  Polygon( A,B,C  )  )
 
 
-    triangles[0].put_mark(0.2,["\( Q\)","\( C\)","\( M\)"],pspict=pspicts)
-    triangles[1].put_mark(0.2,["\( T\)","\( A\)","\( K\)"],pspict=pspicts)
-    triangles[2].put_mark(0.2,["\( R\)","\( N\)","\( T\)"],pspict=pspicts)
-    triangles[3].put_mark(0.2,["\( B\)","\( D\)","\( O\)"],pspict=pspicts)
-    triangles[4].put_mark(0.2,["\( F\)","\( E\)","\( H\)"],pspict=pspicts)
-    triangles[5].put_mark(0.2,["\( A\)","\( B\)","\( C\)"],pspict=pspicts)
+    triangles[0].put_mark(0.2,["\( Q\)","\( C\)","\( M\)"],pspicts=pspicts)
+    triangles[1].put_mark(0.2,["\( T\)","\( A\)","\( K\)"],pspicts=pspicts)
+    triangles[2].put_mark(0.2,["\( R\)","\( N\)","\( T\)"],pspicts=pspicts)
+    triangles[3].put_mark(0.2,["\( B\)","\( D\)","\( O\)"],pspicts=pspicts)
+    triangles[4].put_mark(0.2,["\( F\)","\( E\)","\( H\)"],pspicts=pspicts)
+    triangles[5].put_mark(0.2,["\( A\)","\( B\)","\( C\)"],pspicts=pspicts)
 
     for trig in triangles :
         for P in trig.vertices:
@@ -46,7 +46,7 @@ def SHSRooHgvofo():
     # Isocèle
     trig=triangles[4]
     a1=AngleAOB(trig.vertices[0],trig.vertices[1],trig.vertices[2])
-    a1.put_mark(0.2,None,"\( 70\)",pspict=pspicts)
+    a1.put_mark(0.2,None,"\( 70\)",pspicts=pspicts)
     pspicts[4].DrawGraphs(a1)
 
     # Cinquième figure

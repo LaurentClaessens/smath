@@ -13,11 +13,11 @@ def LVNXooEXEvoV():
     triangles.append(  Polygon(  Point(0,0),Point(1,1),Point(1,-2)  )  )
     triangles.append(  Polygon(  Point(0,0),Point(1,2),Point(2,0)  )  )
 
-    triangles[0].put_mark(0.2,["\( Q\)","\( C\)","\( M\)"],pspict=pspicts)
-    triangles[1].put_mark(0.2,["\( T\)","\( A\)","\( K\)"],pspict=pspicts)
-    triangles[2].put_mark(0.2,["\( R\)","\( N\)","\( T\)"],pspict=pspicts)
-    triangles[3].put_mark(0.2,["\( B\)","\( D\)","\( O\)"],pspict=pspicts)
-    triangles[4].put_mark(0.2,["\( F\)","\( E\)","\( H\)"],pspict=pspicts)
+    triangles[0].put_mark(0.2,["\( Q\)","\( C\)","\( M\)"],pspicts=pspicts)
+    triangles[1].put_mark(0.2,["\( T\)","\( A\)","\( K\)"],pspicts=pspicts)
+    triangles[2].put_mark(0.2,["\( R\)","\( N\)","\( T\)"],pspicts=pspicts)
+    triangles[3].put_mark(0.2,["\( B\)","\( D\)","\( O\)"],pspicts=pspicts)
+    triangles[4].put_mark(0.2,["\( F\)","\( E\)","\( H\)"],pspicts=pspicts)
 
     
     # Première figure

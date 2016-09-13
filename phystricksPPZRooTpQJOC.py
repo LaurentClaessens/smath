@@ -11,17 +11,17 @@ def PPZRooTpQJOC():
         psp.dilatation_Y(1)
 
     pyramide=Pyramide(4,1,0.5)
-    pyramide.centres[(0,0)].put_mark(0.0,0,"\( -2\)",pspict=pspicts,position="center")
-    pyramide.centres[(1,0)].put_mark(0.0,0,"\( 5\)",pspict=pspicts,position="center")
-    pyramide.centres[(2,0)].put_mark(0.0,0,"\( -2\)",pspict=pspicts,position="center")
-    pyramide.centres[(3,0)].put_mark(0.0,0,"\( -1\)",pspict=pspicts,position="center")
+    pyramide.centres[(0,0)].put_mark(0.0,0,"\( -2\)",pspicts=pspicts,position="center")
+    pyramide.centres[(1,0)].put_mark(0.0,0,"\( 5\)",pspicts=pspicts,position="center")
+    pyramide.centres[(2,0)].put_mark(0.0,0,"\( -2\)",pspicts=pspicts,position="center")
+    pyramide.centres[(3,0)].put_mark(0.0,0,"\( -1\)",pspicts=pspicts,position="center")
     pspicts[0].DrawGraphs(pyramide)
 
     pyramide=Pyramide(4,1,0.5)
-    pyramide.centres[(0,3)].put_mark(0.0,0,"\( -1.7\)",pspict=pspicts,position="center")
-    pyramide.centres[(0,2)].put_mark(0.0,0,"\( -4.5\)",pspict=pspicts,position="center")
-    pyramide.centres[(1,1)].put_mark(0.0,0,"\( 2.1\)",pspict=pspicts,position="center")
-    pyramide.centres[(3,0)].put_mark(0.0,0,"\(1.2\)",pspict=pspicts,position="center")
+    pyramide.centres[(0,3)].put_mark(0.0,0,"\( -1.7\)",pspicts=pspicts,position="center")
+    pyramide.centres[(0,2)].put_mark(0.0,0,"\( -4.5\)",pspicts=pspicts,position="center")
+    pyramide.centres[(1,1)].put_mark(0.0,0,"\( 2.1\)",pspicts=pspicts,position="center")
+    pyramide.centres[(3,0)].put_mark(0.0,0,"\(1.2\)",pspicts=pspicts,position="center")
     pspicts[1].DrawGraphs(pyramide)
 
 

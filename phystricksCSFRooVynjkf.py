@@ -15,14 +15,14 @@ def CSFRooVynjkf():
     cer.parameters.style="dashed"
 
     trig=Polygon(A,B,C)
-    trig.put_mark(0.2,pspict=pspicts)
-    O.put_mark(0.2,angle=-90,added_angle=0,text="\( O\)",pspict=pspicts)
+    trig.put_mark(0.2,pspicts=pspicts)
+    O.put_mark(0.2,angle=-90,added_angle=0,text="\( O\)",pspicts=pspicts)
 
     rh=RightAngleAOB(B,A,C,r=0.3,n1=0,n2=1)
-    trig.edges[1].divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspict=pspicts)
+    trig.edges[1].divide_in_two(n=2,d=0.1,l=0.2,angle=45,pspicts=pspicts)
 
     AO=Segment(A,O)
-    AO.put_code(n=2,d=0.1,l=0.2,pspict=pspicts)
+    AO.put_code(n=2,d=0.1,l=0.2,pspicts=pspicts)
 
 
     no_symbol(trig.vertices)

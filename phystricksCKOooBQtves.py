@@ -20,12 +20,12 @@ def CKOooBQtves():
     B=Point(l,0)
 
     seg1=Segment(A,B).dilatation(1.3)
-    A.put_mark(0.2,180+45,"\( A\)",pspict=pspicts,position="corner")
-    B.put_mark(0.2,-45,"\( B\)",pspict=pspicts,position="corner")
+    A.put_mark(0.2,180+45,"\( A\)",pspicts=pspicts,position="corner")
+    B.put_mark(0.2,-45,"\( B\)",pspicts=pspicts,position="corner")
     
-    m=Segment(A,B).center()
+    m=Segment(A,B).midpoint()
     m.parameters.symbol=""
-    m.put_mark(0.2,-90,"\( {}\)".format(l),pspict=pspicts,position="N")
+    m.put_mark(0.2,text="\( {}\)".format(l),pspicts=pspicts,position="N")
 
 
     K=Circle(A,12).get_point(a1)
@@ -38,12 +38,12 @@ def CKOooBQtves():
     seg3.parameters.style='dashed'
 
     C=Intersection(seg2,seg3)[0]
-    C.put_mark(0.2,90,"\( C\)",pspict=pspicts,position="S")
+    C.put_mark(0.2,text="\( C\)",pspicts=pspicts,position="S")
 
     angle1=AngleAOB(B,A,K)
     angle2=AngleAOB(L,B,A)
-    angle1.put_mark(0.2,None,"\( {}\)".format(a1),pspict=pspicts)
-    angle2.put_mark(0.2,None,"\( {}\)".format(a2),pspict=pspicts)
+    angle1.put_mark(0.2,None,"\( {}\)".format(a1),pspicts=pspicts)
+    angle2.put_mark(0.2,None,"\( {}\)".format(a2),pspicts=pspicts)
 
     edge1=Segment(A,B)
     edge2=Segment(A,C)

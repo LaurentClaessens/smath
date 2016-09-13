@@ -22,13 +22,13 @@ def OPZVooLOyZWh():
     J=Intersection(d2,dig)[0]
 
     A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
-    L.put_mark(0.2,-90,"\( L\)",pspict=pspict,position="N")
+    L.put_mark(0.2,text="\( L\)",pspict=pspict,position="N")
     B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,45,"\( C\)",pspict=pspict,position="corner")
-    K.put_mark(0.2,90,"\( K\)",pspict=pspict,position="S")
+    K.put_mark(0.2,text="\( K\)",pspict=pspict,position="S")
     D.put_mark(0.2,90+45,"\( D\)",pspict=pspict,position="corner")
-    I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
-    J.put_mark(0.2,90,"\( J\)",pspict=pspict,position="S")
+    I.put_mark(0.2,text="\( I\)",pspict=pspict,position="S")
+    J.put_mark(0.2,text="\( J\)",pspict=pspict,position="S")
 
     A.parameters.symbol=''
     B.parameters.symbol=''

@@ -6,7 +6,7 @@ def figureSZyxsvp():
 
     A=Point(0,0)
     B=Point(4,3)
-    K=Segment(A,B).center()
+    K=Segment(A,B).midpoint()
     I=K.projection(pspict.axes.single_axeX)
     J=B.projection(pspict.axes.single_axeX)
 

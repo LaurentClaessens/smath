@@ -31,7 +31,7 @@ def CylindresxKDOdy():
     surfh.parameters.filled()
     surfh.parameters.fill.color="brown"
 
-    Ih=Segment(cube.A,cube.E).center()
+    Ih=Segment(cube.A,cube.E).midpoint()
     Ih=min(  Ch.curve2d.points_list,key=lambda P:P.x  )
     Jh=max(  Ch.curve2d.points_list,key=lambda P:P.x  )
     Ib=min(  Cb.curve2d.points_list,key=lambda P:P.x  )

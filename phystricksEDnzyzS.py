@@ -12,12 +12,12 @@ def EDnzyzS():
 
     M=Point(2,0)
 
-    A.put_mark(0.2,-90,"\( A\)",pspict=pspict,position="N")
-    B.put_mark(0.2,-90,"\( B\)",pspict=pspict,position="N")
-    M.put_mark(0.2,-90,"\( M\)",pspict=pspict,position="N")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="N")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="N")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="N")
 
-    D.put_mark(0.2,90,"\( D\)",pspict=pspict,position="S")
-    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
+    D.put_mark(0.2,text="\( D\)",pspict=pspict,position="S")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
 
     trapeze=Polygon(A,B,C,D)
     s1=Segment(D,M)

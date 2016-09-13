@@ -30,7 +30,7 @@ def CFWIooWDSwRD():
     O.put_mark(0.2,-45,"\( O\)",pspict=pspict,position="corner")
     A.put_mark(0.2,30+90,"\( A\)",pspict=pspict,position="corner")
     B.put_mark(0.2,120+90,"\( B\)",pspict=pspict,position="corner")
-    C.put_mark(0.2,-90+90,"\( C\)",pspict=pspict,position="W")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="W")
 
     pspict.comment="Concentric grey filled circles."
     pspict.DrawGraphs(cercles,A,O,B,C)

@@ -12,7 +12,7 @@ def RKSooSVlhiF():
     x=3
     A=Point(0,0)
     B=Point(l,0)
-    M=Segment(A,B).center()
+    M=Segment(A,B).midpoint()
     C1=Point(x/2,0)
     C2=Point( x+(l-x)/2,0  )
     I=Point(x,0)

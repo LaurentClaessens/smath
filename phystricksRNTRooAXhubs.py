@@ -24,11 +24,10 @@ def RNTRooAXhubs():
     mes4=Segment(T,F).get_measure(0.3,-0.1,None,"\( 3\)",pspict=pspict,position="corner")
     seg=Segment(S,T)
     seg.put_measure(0.2,0.1,-90,"\( 4\)",pspict=pspict,position="N")
-    mes6=Segment(D,E).get_measure(0.3,0.1,-90,"\( ?\)",pspict=pspict,position="N")
+    mes6=Segment(D,E).get_measure(0.3,0.1,name="\( ?\)",pspict=pspict,position="N")
 
     for P in  [D,E,F,S,T]:
         P.parameters.symbol=""
-
 
     pspict.DrawGraphs(S,T,triangle,seg,mes1,mes2,mes3,mes4,mes6)
     fig.no_figure()

@@ -18,10 +18,10 @@ def EZTHooBttIaQ():
     L=v2.get_point_proportion(1-p)
     dig=Segment(K,L)
 
-    a1=Angle(L,K,A)
-    a2=Angle(B,K,L)
-    a3=Angle(C,L,K)
-    a4=Angle(K,L,D)
+    a1=AngleAOB(L,K,A)
+    a2=AngleAOB(B,K,L)
+    a3=AngleAOB(C,L,K)
+    a4=AngleAOB(K,L,D)
 
     a2.put_mark(0.4,None,"\small\SI{45}{\degree}",pspict=pspict)
 

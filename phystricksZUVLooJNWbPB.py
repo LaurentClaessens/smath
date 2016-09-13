@@ -11,7 +11,7 @@ def ZUVLooJNWbPB():
     D=A+C-B
 
     parall=Polygon(A,B,C,D)
-    parall.put_mark(0.2,pspict=pspicts)
+    parall.put_mark(0.2,pspicts=pspicts)
     diag1=Segment(A,C)
 
     no_symbol(parall.vertices)

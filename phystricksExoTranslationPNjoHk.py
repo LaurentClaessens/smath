@@ -20,8 +20,8 @@ def ExoTranslationPNjoHk():
     d2=Segment(A,C)
 
     color="blue"
-    Car.edge.parameters.color=color
-    Toit.edge.parameters.color=color
+    Car.edge_model.parameters.color=color
+    Toit.edge_model.parameters.color=color
     d1.parameters.color="blue"
     d2.parameters.color="blue"
 
@@ -39,6 +39,7 @@ def ExoTranslationPNjoHk():
     pspict.axes.no_numbering()
     pspict.DrawDefaultGrid()
     pspict.DrawDefaultAxes()
+    pspict.comment="The rectangle and triangle are drawn in blue."
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()

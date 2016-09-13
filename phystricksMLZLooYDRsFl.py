@@ -16,7 +16,7 @@ def MLZLooYDRsFl():
     
     I=Intersection(s1,s2)[0]
 
-    angle=Angle(D,I,A)
+    angle=AngleAOB(D,I,A)
     angle.put_mark(0.4,None,"\small\SI{30}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,angle)
