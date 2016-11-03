@@ -1,4 +1,8 @@
-Pour tester ce fichier :
+Attention : ce fichier décrit un peu rapidement comment recompiler tout le document y compris les figures. 
+Il n'est pas conseillé de faire ça parce que 
+* la création des figures (./figures_smath.py --all) prend un temps fou
+* elle demande pas mal de dépendances en python vers des modules personnels (sur github)
+* ensuite recompiler le document prend un temps encore pire parce que tikz doit refaire toutes les figures.
 
 Tout ceci est à faire dans un clone du répertoire.
 Il faut au préalable s'assurer que tous les DS sont dans smath
