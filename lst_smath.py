@@ -4,11 +4,11 @@
 from __future__ import unicode_literals
 
 import sys
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 import commun
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 myRequest.original_filename="smath.tex"
 
 def set_corrPosition_and_Draft(A):
