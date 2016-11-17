@@ -30,7 +30,7 @@ def CBLooYAMumJ():
     d1.put_mark(0.2,None,"\( d_1\)",pspicts=pspicts,position="corner")
     d2.put_mark(0.2,None,"\( d_2\)",pspicts=pspicts,position="corner")
 
-    A.put_mark(0.2,180,"\( A\)",pspicts=pspicts,position="E")
+    A.put_mark(0.2,"\( A\)",pspicts=pspicts,position="E")
     B.put_mark(0.3,None,"\( B\)",pspicts=pspicts,position="corner")
     C.put_mark(0.2,None,"\( C\)",pspicts=pspicts,position="corner")
 

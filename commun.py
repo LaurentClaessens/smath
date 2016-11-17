@@ -65,10 +65,10 @@ class OneChapter(object):
                 line=i
         return smath_lines[line+1]
     def preamble_lines(self):
-        import LaTeXparser
-        import LaTeXparser.PytexTools
-        A=LaTeXparser.FileToCodeLaTeX("smath.tex",keep_comments=True)
-        script_mark_dict=LaTeXparser.PytexTools.script_mark_dict(A)
+        import latexparser
+        import latexparser.PytexTools
+        A=latexparser.FileToCodeLaTeX("smath.tex",keep_comments=True)
+        script_mark_dict=latexparser.PytexTools.script_mark_dict(A)
         a,b=script_mark_dict["% SCRIPT MARK -- PREAMBLE"]
         text="\n".join(A.splitlines()[a:b])
         return text
@@ -192,7 +192,7 @@ class Situation(object):
     This serves to generate a graph and a value array in the same time.
     """
     def __init__(self,name,p1,p2,pts):
-        import LaTeXparser.PytexTools
+        import latexparser.PytexTools
         self.name=name
         self.pts=pts
         self.p1=p1
@@ -203,7 +203,7 @@ class Situation(object):
         for i,p in enumerate(pts):
             dic[(i+1,0)]=str(p[0])
             dic[(i+1,1)]=str(p[1])
-        self.array=LaTeXparser.PytexTools.Array(dic)
+        self.array=latexparser.PytexTools.Array(dic)
     def write_the_file(self):
         filename=self.name+".latex"
         f=open(filename,'w')
