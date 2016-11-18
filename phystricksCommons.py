@@ -41,7 +41,7 @@ def DS_statistics(moustaches,pspict):
     #    m.put_mark(0.2,0,"DS {}".format( len(moustaches)-i ),pspict=pspict,position="W")
     for i,m in enumerate(moustaches) :
         m.delta_y=len(moustaches)+0.75-i-1
-        m.put_mark(0.2,0,"DS {}".format( i+1 ),pspict=pspict,position="W")
+        m.put_mark(0.2,text="DS {}".format( i+1 ),pspict=pspict,position="W")
 
     maxy=len(moustaches)
     ledix=Segment(  Point(10,0),Point(10,maxy)   )
