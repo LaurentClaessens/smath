@@ -33,7 +33,7 @@ def OHDIooDdupWC():
 
     tour=Polygon(A,S0,S1,S2,S3,S4,S5,S6,S7,B,C,D)
     IJ=Segment(I,J)
-    IJ.put_measure(-0.2,0.2,0,"\( 2\)",pspict=pspict,position="W")
+    IJ.put_measure(-0.2,0.2,text="\( 2\)",pspict=pspict,position="W")
 
     ombre=Segment(A,O)
     terrain=Segment(O,D)
