@@ -20,7 +20,7 @@ def CRKLooLhpFTy():
         P.parameters.symbol=''
 
     angA.put_mark(text="\(60 \)",pspict=pspict)
-    angB.put_mark(text"\( 60 \)",pspict=pspict)
+    angB.put_mark(text="\( 60 \)",pspict=pspict)
     angC.put_mark(text="\( 60 \)",pspict=pspict)
 
     pspict.DrawGraphs(trig,angA,angB,angC)
