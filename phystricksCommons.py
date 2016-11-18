@@ -27,7 +27,7 @@ class Pyramide(ObjectGraph):
     def action_on_pspict(self,pspict):
         pspict.DrawGraphs(self.rectangles)
         for P in self.centres.values():
-            P.parameters.symbol="none"
+            P.parameters.symbol=""
             pspict.DrawGraphs(P)
     def latex_code(self,language=None,pspict=None):
         return ""

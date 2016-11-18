@@ -13,7 +13,7 @@ def small_box(X,Y,pspict,text=""):
     D=Point(x-c/2,y+c/2)
     P=Point(x,y)
     P.put_mark(0.0,0,text,pspict=pspict)
-    P.parameters.symbol="none"
+    P.parameters.symbol=""
     return [P,Polygon(A,B,C,D)]
 
 def WGhpCVm():

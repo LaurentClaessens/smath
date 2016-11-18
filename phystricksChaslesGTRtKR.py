@@ -16,9 +16,9 @@ def ChaslesGTRtKR():
     BC.parameters.color="blue"
     AC.parameters.color="red"
 
-    A.parameters.symbol="none"
-    B.parameters.symbol="none"
-    C.parameters.symbol="none"
+    A.parameters.symbol=""
+    B.parameters.symbol=""
+    C.parameters.symbol=""
 
     A.put_mark(0.2,-90,"\( A\)",pspict=pspict)
     B.put_mark(0.2,90,"\( B\)",pspict=pspict)

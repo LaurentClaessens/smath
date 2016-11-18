@@ -14,8 +14,8 @@ def UZlaYZ():
 
     A.put_mark(0.2,45,"\( A\)",pspict=pspict,position="corner")
     B.put_mark(0.2,45,"\( B\)",pspict=pspict,position="corner")
-    A.parameters.symbol="none"
-    B.parameters.symbol="none"
+    A.parameters.symbol=""
+    B.parameters.symbol=""
 
     pspict.DrawGraphs(A,B,v)
     pspict.axes.no_graduation()

@@ -18,7 +18,7 @@ def figureERITfSy():
 
     K=Segment(A,B).midpoint()
     K.put_mark(0.2,180,"\( x\)",pspict=pspict)
-    K.parameters.symbol="none"
+    K.parameters.symbol=""
 
     plage=Segment(A,D).dilatation(1.5)
     ligne=Polygon(A,B,C,D)

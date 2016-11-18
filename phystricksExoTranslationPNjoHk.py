@@ -32,8 +32,8 @@ def ExoTranslationPNjoHk():
     v.parameters.color="red"
     vA.put_mark(0.2,270,"\( A\)",pspict=pspict)
     vB.put_mark(0.2,45,"\( B\)",pspict=pspict)
-    vA.parameters.symbol="none"
-    vB.parameters.symbol="none"
+    vA.parameters.symbol=""
+    vB.parameters.symbol=""
 
     pspict.DrawGraphs(Car,Toit,d1,d2,vA,vB,v)
     pspict.axes.no_numbering()

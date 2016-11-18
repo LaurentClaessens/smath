@@ -22,7 +22,7 @@ def GCxOEgb():
         seg.parameters.color="blue"
         seg.parameters.add_option("linewidth","{}cm".format(w))
         P=Point( i,h )
-        P.parameters.symbol="none"
+        P.parameters.symbol=""
         P.put_mark(0.2,text="\( {:.3f}\)".format(h),pspict=pspict,position="S")
         pspict.DrawGraphs(seg,P)
 

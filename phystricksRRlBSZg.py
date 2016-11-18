@@ -9,11 +9,6 @@ def RRlBSZg():
     f=phyFunction(-x+1).graph(-3,2.5)
     g=phyFunction(-2*x+3).graph(-3,2.5)
 
-    #P=g.get_point(-2)
-    #Q=g.get_point(4)
-    #P.parameters.symbol="none"
-    #Q.parameters.symbol="none"
-
     f.parameters.color="red"
 
     #pspict.DrawGraphs(f,P,Q)

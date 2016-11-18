@@ -11,7 +11,7 @@ def BpCNVm():
     poly.edge_model.parameters.color="blue"
     X=Point(3,0)
     X.put_mark(0.2,text="$x$",pspict=pspict,position="N")
-    X.symbol="none"
+    X.symbol=""
 
     pspict.DrawGraphs(poly,X)
     pspict.axes.no_numbering()

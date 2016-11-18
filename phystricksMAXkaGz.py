@@ -30,7 +30,7 @@ def MAXkaGz():
         P=Point(i+1,cum)
         Q=Point(i+1,0)
         Q.put_mark(0.2,-90,c,pspict=pspict)
-        Q.parameters.symbol="none"
+        Q.parameters.symbol=""
         pspict.DrawGraphs(P,Q)
 
 

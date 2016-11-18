@@ -13,8 +13,8 @@ def JLUTBlD():
 
     P=g.get_point(-2)
     Q=g.get_point(4)
-    P.parameters.symbol="none"
-    Q.parameters.symbol="none"
+    P.parameters.symbol=""
+    Q.parameters.symbol=""
 
     f.parameters.color="red"
 
@@ -34,8 +34,8 @@ def JWNtVIR():
 
     P=g.get_point(-2)
     Q=g.get_point(4)
-    P.parameters.symbol="none"
-    Q.parameters.symbol="none"
+    P.parameters.symbol=""
+    Q.parameters.symbol=""
 
     f.parameters.color="red"
     g.parameters.color="brown"

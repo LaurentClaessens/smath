@@ -15,10 +15,6 @@ def FaussePerspectivewAwxAJ():
     B.put_mark(0.2,45,"\( B\)",pspict=pspict)
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict)
     D.put_mark(0.2,225,"\( D\)",pspict=pspict)
-    #A.parameters.symbol="none"
-    #B.parameters.symbol="none"
-    #C.parameters.symbol="none"
-    #D.parameters.symbol="none"
 
     carre=Polygon(A,B,C,D)
     carre.parameters.filled()
