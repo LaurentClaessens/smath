@@ -21,7 +21,7 @@ def NWVMooKshXYo():
     triangle.edges[2].divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
 
     print("3")
-    mes=triangle.edges[0].get_measure(0.2,0.1,name="\SI{7.8}{\centi\meter}",pspict=pspict,position="N")
+    mes=triangle.edges[0].get_measure(0.2,0.1,text="\SI{7.8}{\centi\meter}",pspict=pspict,position="N")
     print("4")
     pspict.DrawGraphs(triangle,seg,mes,J,K)
     fig.no_figure()

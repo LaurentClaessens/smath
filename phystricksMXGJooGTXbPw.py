@@ -15,7 +15,7 @@ def MXGJooGTXbPw():
     ang=AngleAOB(B,A,C)
     ang.put_mark(0.6,angle=None,added_angle=0,text="\SI{30}{\degree}",pspict=pspict)
 
-    trig.edges[1].put_measure(measure_distance=0.5,mark_distance=-0.3,mark_angle=None,name="\SI{3}{\centi\meter}",pspict=pspict)
+    trig.edges[1].put_measure(measure_distance=0.5,mark_distance=-0.3,mark_angle=None,text="\SI{3}{\centi\meter}",pspict=pspict)
 
     no_symbol(trig.vertices)
     pspict.DrawGraphs(trig,rh,ang)

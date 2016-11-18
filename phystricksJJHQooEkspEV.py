@@ -21,7 +21,7 @@ def JJHQooEkspEV():
     seg=Segment(M,O)
     SR2=triangle.edges[2].get_divide_in_two(n=2,d=0.1,l=0.3,angle=45,pspicts=pspicts)
     ST2=triangle.edges[0].get_divide_in_two(n=1,d=0.1,l=0.3,angle=30,pspicts=pspicts)
-    mesRT=triangle.edges[1].get_measure(0.2,0.1,name="\SI{4}{\centi\meter}",pspicts=pspicts,position="W")
+    mesRT=triangle.edges[1].get_measure(0.2,0.1,text="\SI{4}{\centi\meter}",pspicts=pspicts,position="W")
 
     for psp in pspicts :
         psp.DrawGraphs(triangle,seg,M,O)

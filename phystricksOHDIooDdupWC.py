@@ -41,8 +41,8 @@ def OHDIooDdupWC():
     #eau.parameters.color='blue'
     #eau.wave(0.2,0.1)
 
-    m2=Segment(O,J).get_measure(0.2,0.2,-90,"\( 3\)",pspict=pspict,position="N")
-    m12=Segment(J,D).get_measure(0.2,0.2,-90,"\( 12\)",pspict=pspict,position="N")
+    m2=Segment(O,J).get_measure(0.2,0.2,text="\( 3\)",pspict=pspict,position="N")
+    m12=Segment(J,D).get_measure(0.2,0.2,text="\( 12\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(O,tour,IJ,ombre,terrain,m2,m12)
     fig.no_figure()

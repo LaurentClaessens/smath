@@ -20,7 +20,7 @@ def IKZEooAwkZSy():
     paral=Polygon(A,B,C,D)
     paral.put_mark(0.2,pspict=pspict)
 
-    paral.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=-90,name="base",pspict=pspict)
+    paral.edges[2].put_measure(measure_distance=-0.5,mark_distance=0.5,mark_angle=-90,text="base",pspict=pspict)
 
     hauteur=Segment(S,H)
     hauteur.parameters.style="dashed"

@@ -35,7 +35,7 @@ def KTEDooQRUWXz():
         s.parameters.style="dashed"
     rh=RightAngleAOB(U,L,T)
     
-    s2.put_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=0,name="\SI{4}{\kilo\meter}",pspict=pspict)
+    s2.put_measure(measure_distance=-0.5,mark_distance=0.2,mark_angle=0,text="\SI{4}{\kilo\meter}",pspict=pspict)
     V.put_mark(0.2,angle=None,added_angle=180,text="\( V\)",pspict=pspict)
     W.put_mark(0.2,angle=None,added_angle=180,text="\( W\)",pspict=pspict)
 

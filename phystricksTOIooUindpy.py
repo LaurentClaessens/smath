@@ -22,8 +22,8 @@ def TOIooUindpy():
     N=A+(x,0)
     M=A+(0,-x)
 
-    N.put_mark(0.2,90,"\( N\)",pspict=pspict,position="S")
-    M.put_mark(0.2,180,"\( M\)",pspict=pspict,position="E")
+    N.put_mark(0.2,text="\( N\)",pspict=pspict,position="S")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="E")
 
     for P in [A,B,C,D,M,N]:
         P.parameters.symbol=""

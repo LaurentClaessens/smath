@@ -23,9 +23,9 @@ def YDAooMNHhCN():
     gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],1,0  )
     
     gen_alpha=AngleAOB(tC,tB,tA)
-    gen_alpha.put_mark(0.2,None,"\( \\alpha\)",pspicts=pspicts)
+    gen_alpha.put_mark(0.2,text="\( \\alpha\)",pspicts=pspicts)
     gen_beta=AngleAOB( tA,tC,tB)
-    gen_beta.put_mark(0.2,None,"\( \\beta\)",pspicts=pspicts)
+    gen_beta.put_mark(0.2,text="\( \\beta\)",pspicts=pspicts)
     pspicts[2].DrawGraphs(gen_c,gen_trig,gen_rh,gen_alpha,gen_beta)
 
 
@@ -49,10 +49,10 @@ def YDAooMNHhCN():
     B.put_mark(0.2,45,"\( B\)",pspicts=pspicts,position="corner")
     C.put_mark(0.2,-45,"\( C\)",pspicts=pspicts,position="corner")
     D.put_mark(0.2,180+45,"\( D\)",pspicts=pspicts,position="corner")
-    M.put_mark(0.2,90,"\( M\)",pspicts=pspicts,position="S")
-    N.put_mark(0.2,0,"\( N\)",pspicts=pspicts,position="W")
-    O.put_mark(0.2,-90,"\( O\)",pspicts=pspicts,position="N")
-    P.put_mark(0.2,180,"\( P\)",pspicts=pspicts,position="E")
+    M.put_mark(0.2,text="\( M\)",pspicts=pspicts,position="S")
+    N.put_mark(0.2,text="\( N\)",pspicts=pspicts,position="W")
+    O.put_mark(0.2,text="\( O\)",pspicts=pspicts,position="N")
+    P.put_mark(0.2,text="\( P\)",pspicts=pspicts,position="E")
 
     a1=AngleAOB(M,P,A)
     a2=AngleAOB(N,M,B)
@@ -66,21 +66,21 @@ def YDAooMNHhCN():
 
     cen=[]
     cen.append(Segment( A,M  ).midpoint())
-    cen[-1].put_mark(0.2,90,"\( a\)",pspicts=pspicts,position="S")
+    cen[-1].put_mark(0.2,text="\( a\)",pspicts=pspicts,position="S")
     cen.append(Segment( M,B  ).midpoint())
-    cen[-1].put_mark(0.2,90,"\( b\)",pspicts=pspicts,position="S")
+    cen[-1].put_mark(0.2,text="\( b\)",pspicts=pspicts,position="S")
     cen.append(Segment( B,N  ).midpoint())
-    cen[-1].put_mark(0.2,0,"\( a\)",pspicts=pspicts,position="W")
+    cen[-1].put_mark(0.2,text="\( a\)",pspicts=pspicts,position="W")
     cen.append(Segment( N,C  ).midpoint())
-    cen[-1].put_mark(0.2,0,"\( b\)",pspicts=pspicts,position="W")
+    cen[-1].put_mark(0.2,text="\( b\)",pspicts=pspicts,position="W")
     cen.append(Segment( C,O  ).midpoint())
-    cen[-1].put_mark(0.2,-90,"\( a\)",pspicts=pspicts,position="N")
+    cen[-1].put_mark(0.2,text="\( a\)",pspicts=pspicts,position="N")
     cen.append(Segment( D,O  ).midpoint())
-    cen[-1].put_mark(0.2,-90,"\( b\)",pspicts=pspicts,position="N")
+    cen[-1].put_mark(0.2,text="\( b\)",pspicts=pspicts,position="N")
     cen.append(Segment( D,P  ).midpoint())
-    cen[-1].put_mark(0.2,180,"\( a\)",pspicts=pspicts,position="E")
+    cen[-1].put_mark(0.2,text="\( a\)",pspicts=pspicts,position="E")
     cen.append(Segment( P,A  ).midpoint())
-    cen[-1].put_mark(0.2,180,"\( b\)",pspicts=pspicts,position="E")
+    cen[-1].put_mark(0.2,text="\( b\)",pspicts=pspicts,position="E")
     cen.append(Segment( M,P  ).midpoint())
     cen[-1].put_mark(0.2,cen[-1].advised_mark_angle(pspicts),"\( c\)",pspicts=pspicts,position="corner")
     for p in cen:
@@ -97,8 +97,8 @@ def YDAooMNHhCN():
     com4=Segment(P,O)
     com5=Segment(O,N)
 
-    R.put_mark(0.2,90,"\( R\)",pspicts=pspicts,position="S")
-    L.put_mark(0.2,180,"\( L\)",pspicts=pspicts,position="E")
+    R.put_mark(0.2,text="\( R\)",pspicts=pspicts,position="S")
+    L.put_mark(0.2,text="\( L\)",pspicts=pspicts,position="E")
     K.put_mark(0.2,90+45,"\( K\)",pspicts=pspicts,position="corner")
 
     for pspict in [  pspicts[0],pspicts[1],pspicts[3] ] :

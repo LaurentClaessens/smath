@@ -20,10 +20,10 @@ def FIOJooSmlhXR():
     piscine.parameters.hatched()
     piscine.parameters.hatch.color="lightgray"
 
-    mesL=Segment(F,D).get_measure(-0.2,0.1,90,"\( 10\)",pspicts=pspicts,position="S")
-    mesl=Segment(A,B).get_measure(0.2,0.1,-90,"\( x\)",pspicts=pspicts,position="N")
-    mesH=Segment(A,F).get_measure(-0.2,0.1,180,"\( 3\)",pspicts=pspicts,position="E")
-    mesP=Segment(B,C).get_measure(0.2,0.1,-90,"\( 10-x\)",pspicts=pspicts,position="N")
+    mesL=Segment(F,D).get_measure(-0.2,0.1,text="\( 10\)",pspicts=pspicts,position="S")
+    mesl=Segment(A,B).get_measure(0.2,0.1,text="\( x\)",pspicts=pspicts,position="N")
+    mesH=Segment(A,F).get_measure(-0.2,0.1,text="\( 3\)",pspicts=pspicts,position="E")
+    mesP=Segment(B,C).get_measure(0.2,0.1,text="\( 10-x\)",pspicts=pspicts,position="N")
 
     pspicts[0].DrawGraphs(piscine,jardin,mesL,mesl,mesH)
     pspicts[1].DrawGraphs(piscine,jardin,mesL,mesl,mesH,mesP)

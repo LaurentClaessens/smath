@@ -64,7 +64,7 @@ def XDdastq():
     G.put_mark(0.2,text="\( G\)",pspict=pspict,position="E")
     H.put_mark(0.2,125,"\( H\)",pspict=pspict,position="corner")
     I.put_mark(0.2,text="\( I\)",pspict=pspict,position="S")
-    K.put_mark(0.2,0,"\( K\)",pspict=pspict,position="W")
+    K.put_mark(0.2,text="\( K\)",pspict=pspict,position="W")
     L.put_mark(0.2,text="\( L\)",pspict=pspict,position="E")
     M.put_mark(0.2,text="\( M\)",pspict=pspict,position="W")
     O.put_mark(0.2,225,"\( N\)",pspict=pspict,position="corner")

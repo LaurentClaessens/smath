@@ -19,7 +19,7 @@ def UDKYooKlVbjh():
     KL=Segment(K,L)
     KL.put_measure(-0.2,0.2,45,"\( 3\)",pspict=pspict,position="corner")
 
-    mes2=Segment(A,L).get_measure(0.2,0.2,name="\( 2\)",pspict=pspict,position="N")
+    mes2=Segment(A,L).get_measure(0.2,0.2,text="\( 2\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(triangle,K,L,K,L,mes2,KL)
     fig.no_figure()

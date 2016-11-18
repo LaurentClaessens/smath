@@ -45,7 +45,7 @@ def PythagoreeBqLDU():
 
 
     measureBC=MeasureLength(BC,-0.2)
-    measureBC.put_mark(0.2,measureBC.advised_mark_angle(pspict),"\( y_B-y_A\)",pspict=pspict,position="W")
+    measureBC.put_mark(0.2,measureBC.advised_mark_angle(pspict),"\( y_B-y_A\)",pspict=pspict)
     #measureBC.put_mark(0.7,0,"\( B_y-A_y\)")
     measureAC=MeasureLength(AC,0.2)
     measureAC.put_mark(0.3,measureAC.advised_mark_angle(pspict),"\( x_B-x_A\)",pspict=pspict)

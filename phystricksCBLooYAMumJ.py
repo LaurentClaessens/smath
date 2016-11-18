@@ -27,12 +27,12 @@ def CBLooYAMumJ():
     d2=Segment(A,C).add_size_extremity(2)
     d1.mark_point=lambda :d1.F
     d2.mark_point=lambda :d2.F
-    d1.put_mark(0.2,None,"\( d_1\)",pspicts=pspicts,position="corner")
-    d2.put_mark(0.2,None,"\( d_2\)",pspicts=pspicts,position="corner")
+    d1.put_mark(0.2,text="\( d_1\)",pspicts=pspicts,position="corner")
+    d2.put_mark(0.2,text="\( d_2\)",pspicts=pspicts,position="corner")
 
-    A.put_mark(0.2,"\( A\)",pspicts=pspicts,position="E")
-    B.put_mark(0.3,None,"\( B\)",pspicts=pspicts,position="corner")
-    C.put_mark(0.2,None,"\( C\)",pspicts=pspicts,position="corner")
+    A.put_mark(0.2,text="\( A\)",pspicts=pspicts,position="E")
+    B.put_mark(0.3,text="\( B\)",pspicts=pspicts,position="corner")
+    C.put_mark(0.2,text="\( C\)",pspicts=pspicts,position="corner")
 
     angle=AngleAOB(C,A,B)
     angle.put_mark(0.2,alpha,"",pspicts=pspicts)

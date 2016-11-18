@@ -20,9 +20,9 @@ def OBLUooWYQnuB():
     triangle.parameters.filled()
     triangle.parameters.fill.color='lightgray'
 
-    mesx=Segment(P,B).get_measure(0.2,0.1,-90,"\( \ell\)",pspict=pspict,position="N")
-    mesAP=Segment(A,P).get_measure(0.2,0.1,-90,"\(\\vphantom{H} \ldots\)",pspict=pspict,position="N")
-    mesAD=Segment(A,D).get_measure(-0.2,0.1,180,"\( \ldots\)",pspict=pspict,position="E")
+    mesx=Segment(P,B).get_measure(0.2,0.1,text="\( \ell\)",pspict=pspict,position="N")
+    mesAP=Segment(A,P).get_measure(0.2,0.1,text="\(\\vphantom{H} \ldots\)",pspict=pspict,position="N")
+    mesAD=Segment(A,D).get_measure(-0.2,0.1,text="\( \ldots\)",pspict=pspict,position="E")
 
     for s in [A,B,C,D,P]:
         s.parameters.symbol=""
