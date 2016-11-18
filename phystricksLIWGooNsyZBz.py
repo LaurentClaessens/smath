@@ -32,7 +32,7 @@ def LIWGooNsyZBz():
     E.put_mark(0.4,angle=90+45,added_angle=0,text="\( E\)",pspict=pspict)
 
     an=AngleAOB(A,E,L)
-    an.put_mark(0.2,angle=None,added_angle=0,text="\SI{80}{\degree}",pspict=pspict)
+    an.put_mark(text="\SI{80}{\degree}",pspict=pspict)
 
     put_equal_lengths_code(AE,EL,n=2,d=0.1,l=0.3,angle=45,pspict=pspict)
 

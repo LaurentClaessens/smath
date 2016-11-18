@@ -19,7 +19,7 @@ def ZBHLooYfpkZA():
     ai1=AngleAOB(D,B,C)
     ai2=AngleAOB(B,D,A)
     for ang in [ai1,ai2]:
-        ang.put_mark(0.4,angle=None,added_angle=0,text="?",pspict=pspict)
+        ang.put_mark(text="?",pspict=pspict)
 
     diag=Segment(D,B)
 

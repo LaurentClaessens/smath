@@ -16,17 +16,17 @@ def HUGKooTkDsOg():
 
     diag=Segment(parall.vertices[0],parall.vertices[2])
     a1=AngleAOB(B,C,A,r=0.8)
-    a1.put_mark(0.8,angle=None,added_angle=0,text="\SI{30}{\degree}",pspict=pspict)
+    a1.put_mark(text="\SI{30}{\degree}",pspict=pspict)
 
     #a5=AngleAOB(B,C,A,r=0.8)
     #a5.put_mark(0.8,angle=None,added_angle=0,text="\SI{30}{\degree}",pspict=pspict)
 
     a2=AngleAOB(D,A,C,r=0.8)
-    a2.put_mark(0.4,angle=None,added_angle=0,text="?",pspict=pspict)
+    a2.put_mark(text="?",pspict=pspict)
     a3=AngleAOB(C,D,A)
-    a3.put_mark(0.4,angle=None,added_angle=0,text="\SI{80}{\degree}",pspict=pspict)
+    a3.put_mark(text="\SI{80}{\degree}",pspict=pspict)
     a4=AngleAOB(A,B,C)
-    a4.put_mark(0.4,angle=None,added_angle=0,text="?",pspict=pspict)
+    a4.put_mark(text="?",pspict=pspict)
 
     no_symbol(parall.vertices)
     pspict.DrawGraphs(parall,diag,a1,a2,a3,a4)

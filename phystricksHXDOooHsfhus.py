@@ -23,9 +23,9 @@ def HXDOooHsfhus():
     O.put_mark(0.1,angle=-45,text="\( K\)",pspict=pspict)
 
     a1=AngleAOB(C,B,P,r=0.3)
-    a1.put_mark(0.3,angle=None,text="\SI{100}{\degree}",pspict=pspict)
+    a1.put_mark(text="\SI{100}{\degree}",pspict=pspict)
     a2=AngleAOB(p2.F,D,Q)
-    a2.put_mark(0.3,angle=None,text="\SI{30}{\degree}",pspict=pspict)
+    a2.put_mark(text="\SI{30}{\degree}",pspict=pspict)
 
     no_symbol(O)
 

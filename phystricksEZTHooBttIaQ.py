@@ -23,7 +23,7 @@ def EZTHooBttIaQ():
     a3=AngleAOB(C,L,K)
     a4=AngleAOB(K,L,D)
 
-    a2.put_mark(0.4,None,"\small\SI{45}{\degree}",pspict=pspict)
+    a2.put_mark(text="\small\SI{45}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(v1,v2,dig,a2)
     fig.no_figure()

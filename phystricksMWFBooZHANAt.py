@@ -20,10 +20,10 @@ def MWFBooZHANAt():
     piscine.parameters.hatched()
     piscine.parameters.hatch.color="lightgray"
 
-    mesL=Segment(F,D).get_measure(-0.3,0.1,90,"\( 10\)",pspict=pspict,position="S")
-    mesl=Segment(A,B).get_measure(0.3,0.1,-90,"\( x\)",pspict=pspict,position="N")
-    mesH=Segment(A,F).get_measure(-0.3,0.1,180,"\( 3\)",pspict=pspict,position="E")
-    mesP=Segment(B,C).get_measure(0.2,0.1,-90,"?",pspict=pspict,position="N")
+    mesL=Segment(F,D).get_measure(-0.3,0.1,text="\( 10\)",pspict=pspict,position="S")
+    mesl=Segment(A,B).get_measure(0.3,0.1,text="\( x\)",pspict=pspict,position="N")
+    mesH=Segment(A,F).get_measure(-0.3,0.1,text="\( 3\)",pspict=pspict,position="E")
+    mesP=Segment(B,C).get_measure(0.2,0.1,text="?",pspict=pspict,position="N")
 
     pspict.DrawGraphs(piscine,jardin,mesL,mesl,mesH,mesP)
     #pspict.DrawGraphs(piscine,jardin,mesL,mesl,mesH,mesP)

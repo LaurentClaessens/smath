@@ -19,7 +19,7 @@ def IXtyOnk():
 
     angle=AngleAOB( A,B,v.F   )
     angle.parameters.color="green"
-    angle.put_mark(0.2,None,"\( \\alpha\)",pspict=pspict)
+    angle.put_mark(text="\( \\alpha\)",pspict=pspict)
 
     pspict.DrawGraphs(f,v,measure,angle)
     pspict.axes.no_graduation()

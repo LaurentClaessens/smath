@@ -36,9 +36,9 @@ def OTGooGcktOd():
     C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
 
     angle1=AngleAOB(O,Q,C)
-    angle1.put_mark(0.5,None,"\unit{20}{\degree}",pspict=pspict)
+    angle1.put_mark(text="\unit{20}{\degree}",pspict=pspict)
     angle2=AngleAOB(C,O,Q)
-    angle2.put_mark(0.6,None,"\unit{105}{\degree}",pspict=pspict)
+    angle2.put_mark(text="\unit{105}{\degree}",pspict=pspict)
 
 
     pspict.DrawGraphs(trig2,QO.mark,Q,O,C,angle1,angle2)

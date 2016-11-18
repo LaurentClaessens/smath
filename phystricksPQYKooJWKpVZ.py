@@ -19,9 +19,9 @@ def PQYKooJWKpVZ():
     beta=AngleAOB(B,I,D,0.4)
     gamma=AngleAOB(D,I,A,0.3)
 
-    alpha.put_mark(0.2,None,"\( a\)",pspict=pspict)
-    beta.put_mark(0.2,None,"\( b\)",pspict=pspict)
-    gamma.put_mark(0.2,None,"\( c\)",pspict=pspict)
+    alpha.put_mark(text="\( a\)",pspict=pspict)
+    beta.put_mark(text="\( b\)",pspict=pspict)
+    gamma.put_mark(text="\( c\)",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,alpha,beta,gamma)
     fig.no_figure()

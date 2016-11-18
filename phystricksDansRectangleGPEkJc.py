@@ -27,7 +27,7 @@ def DansRectangleGPEkJc():
     angle=AngleAOB(I,B,J)
     angle.parameters.color="red"
 
-    angle.put_mark(0.2,None,"\unit{45}{\degree}",pspict=pspict)
+    angle.put_mark(text="\unit{45}{\degree}",pspict=pspict)
 
     pspict.specific_needs="\usepackage{SIunits}"
     pspict.DrawGraphs(rect,A,B,C,D,I,J,s,t,angle)

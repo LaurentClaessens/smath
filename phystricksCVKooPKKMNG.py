@@ -28,8 +28,8 @@ def CVKooPKKMNG():
     a1=AngleAOB(C,B,A,r=0.5)
     a3=AngleAOB(A,C,B,r=0.5)
 
-    a1.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict)
-    a3.put_mark(0.3,None,"\SI{40}{\degree}",pspict=pspict)
+    a1.put_mark(text="\SI{40}{\degree}",pspict=pspict)
+    a3.put_mark(text="\SI{40}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,s1,s2,trig,a1,a3)
     fig.no_figure()

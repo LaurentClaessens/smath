@@ -29,24 +29,24 @@ def VectoParallelgjDlmD():
     a2=AngleAOB(A,B,Kp)
     a2.r=a2.r+0.1
     a1.r=a2.r
-    a1.put_mark(0.2,None,"\( \\alpha\)",pspict=pspict)
-    a2.put_mark(0.2,None,"\( \\alpha\)",pspict=pspict)
+    a1.put_mark(text="\( \\alpha\)",pspict=pspict)
+    a2.put_mark(text="\( \\alpha\)",pspict=pspict)
     a1.parameters.color="green"
     a2.parameters.color="green"
 
     b1=AngleAOB(C,A,B)
     b2=AngleAOB(D,B,F)
     b1.r=b2.r
-    b1.put_mark(0.2,None,"\( \\beta\)",pspict=pspict)
-    b2.put_mark(0.2,None,"\( \\beta\)",pspict=pspict)
+    b1.put_mark(text="\( \\beta\)",pspict=pspict)
+    b2.put_mark(text="\( \\beta\)",pspict=pspict)
     b1.parameters.color="cyan"
     b2.parameters.color="cyan"
 
     c1=AngleAOB(K,A,C)
     c2=AngleAOB(Kp,B,D)
     c1.r=c2.r
-    c1.put_mark(0.2,None,"\( \hat A\)",pspict=pspict)
-    c2.put_mark(0.2,None,"\( \hat B\)",pspict=pspict)
+    c1.put_mark(text="\( \hat A\)",pspict=pspict)
+    c2.put_mark(text="\( \hat B\)",pspict=pspict)
     c1.parameters.color="brown"
     c2.parameters.color="brown"
 

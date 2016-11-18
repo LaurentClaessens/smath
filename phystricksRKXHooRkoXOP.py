@@ -18,7 +18,7 @@ def RKXHooRkoXOP():
 
     rh=RightAngle(trig.edges[0],trig.edges[1],0,1)
     ang=AngleAOB(A,L,E)
-    ang.put_mark(0.3,None,"\SI{50}{\degree}",pspict=pspict)
+    ang.put_mark(text="\SI{50}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(trig,rh,ang,cm5)
     fig.no_figure()

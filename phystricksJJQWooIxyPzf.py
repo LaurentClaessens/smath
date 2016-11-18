@@ -23,8 +23,8 @@ def JJQWooIxyPzf():
 
     ang1=AngleAOB(c2.F,B,A,r=0.3)
     ang2=AngleAOB(A,K,C,r=0.3)
-    ang1.put_mark(0.2,None,"\SI{110}{\degree}",pspict=pspict)
-    ang2.put_mark(0.2,None,"\SI{50}{\degree}",pspict=pspict)
+    ang1.put_mark(text="\SI{110}{\degree}",pspict=pspict)
+    ang2.put_mark(text="\SI{50}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,c1,c2,ang1,ang2)
     fig.no_figure()

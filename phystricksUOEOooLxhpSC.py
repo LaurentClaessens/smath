@@ -29,14 +29,14 @@ def UOEOooLxhpSC():
 
     no_symbol(carre.vertices,I)
 
-    a1.put_mark(0.2,angle=None,text="\( a_1\)",pspict=pspict)
-    a2.put_mark(0.2,angle=None,text="\( a_2\)",pspict=pspict)
-    b1.put_mark(0.2,angle=None,text="\( b_1\)",pspict=pspict)
-    b2.put_mark(0.2,angle=None,text="\( b_2\)",pspict=pspict)
-    c1.put_mark(0.2,angle=None,text="\( c_1\)",pspict=pspict)
-    c2.put_mark(0.2,angle=None,text="\( c_2\)",pspict=pspict)
-    d1.put_mark(0.2,angle=None,text="\( d_1\)",pspict=pspict)
-    d2.put_mark(0.2,angle=None,text="\( d_2\)",pspict=pspict)
+    a1.put_mark(text="\( a_1\)",pspict=pspict)
+    a2.put_mark(text="\( a_2\)",pspict=pspict)
+    b1.put_mark(text="\( b_1\)",pspict=pspict)
+    b2.put_mark(text="\( b_2\)",pspict=pspict)
+    c1.put_mark(text="\( c_1\)",pspict=pspict)
+    c2.put_mark(text="\( c_2\)",pspict=pspict)
+    d1.put_mark(text="\( d_1\)",pspict=pspict)
+    d2.put_mark(text="\( d_2\)",pspict=pspict)
 
     I.put_mark(0.2,angle=90,text="\( I\)",pspict=pspict)
 

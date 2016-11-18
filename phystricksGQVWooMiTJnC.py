@@ -24,8 +24,8 @@ def GQVWooMiTJnC():
     angB=AngleAOB(A,B,C,r=0.3)
     angC=AngleAOB(B,C,A,r=0.3)
 
-    angA.put_mark(dist=0.1,text="\SI{"+str(aA)+"}{\degree}",pspict=pspict)  
-    angC.put_mark(dist=0.5,text="\SI{"+str(aC)+"}{\degree}",pspict=pspict)      
+    angA.put_mark(text="\SI{"+str(aA)+"}{\degree}",pspict=pspict)  
+    angC.put_mark(text="\SI{"+str(aC)+"}{\degree}",pspict=pspict)      
 
     pspict.comment="Les 110 et 40 sur les angles sont à peu près bien placés. Sauf le 'degré' du 40 qui frôle un peu [BC]."
     pspict.DrawGraphs(trig,angA,angB,angC)

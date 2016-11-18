@@ -16,9 +16,9 @@ def VAAYooXndWQq():
     s3=Segment(I,J).dilatation(1.7)
 
     a1=AngleAOB(s2.F,J,s3.I,0.3)
-    a1.put_mark(0.2,text="\( a\)",pspict=pspict)
+    a1.put_mark(text="\( a\)",pspict=pspict)
     a2=AngleAOB(s3.I,I,s1.I,0.3)
-    a2.put_mark(0.2,text="\( b\)",pspict=pspict)
+    a2.put_mark(text="\( b\)",pspict=pspict)
 
     pspict.DrawGraphs(s1,s2,s3,a1,a2)
     fig.no_figure()
