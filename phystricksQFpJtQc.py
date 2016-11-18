@@ -22,7 +22,7 @@ def QFpJtQc():
     B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
     M.put_mark(0.2,M.advised_mark_angle(pspict),"\( M\)",pspict=pspict,position="corner")
-    N.put_mark(0.2,-90,"\( N\)",pspict=pspict,position="N")
+    N.put_mark(0.2,text="\( N\)",pspict=pspict,position="N")
     G.put_mark(0.2,Segment(C,B).angle().degree+90,"\( G\)",pspict=pspict,position="corner")
 
     parallelogram=Polygon(C,G,N,M)

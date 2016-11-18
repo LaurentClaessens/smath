@@ -14,9 +14,9 @@ def YRQOoPE():
         pspict.DrawGraphs(s)
 
     M=Point(9,0)
-    M.put_mark(0.5,-90,"Nombre de spam",pspict=pspict,position="N")
+    M.put_mark(0.5,text="Nombre de spam",pspict=pspict,position="N")
     M.parameters.symbol="none"
-    pspict.single_axeY.put_mark(0.2,0,"Effectifs",pspict=pspict,position="W")
+    pspict.single_axeY.put_mark(0.2,text="Effectifs",pspict=pspict,position="W")
     pspict.DrawGraphs(M)
     pspict.DrawDefaultAxes()
     fig.no_figure()

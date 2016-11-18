@@ -9,7 +9,7 @@ def XMjsBcU():
     mx=-1.5
     Mx=2
     f=phyFunction(-2*x+3).graph(mx,Mx)
-    f.put_mark(0.2,90,"\( d_1\)",mark_point=f.get_point(mx),pspict=pspict,position="S")
+    f.put_mark(0.2,text="\( d_1\)",mark_point=f.get_point(mx),pspict=pspict,position="S")
 
     pspict.DrawGraphs(f)
     pspict.DrawDefaultGrid()

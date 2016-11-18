@@ -24,11 +24,11 @@ def SZYooRuSplc():
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
     D.put_mark(0.2,-90-45,"\( D\)",pspict=pspict,position="corner")
 
-    R.put_mark(0.2,-90,"\( R\)",pspict=pspict,position="N")
+    R.put_mark(0.2,text="\( R\)",pspict=pspict,position="N")
     P.put_mark(0.2,45,"\( P\)",pspict=pspict,position="corner")
-    Q.put_mark(0.2,0,"\( Q\)",pspict=pspict,position="W")
-    M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
-    N.put_mark(0.2,180,"\( N\)",pspict=pspict,position="E")
+    Q.put_mark(0.2,text="\( Q\)",pspict=pspict,position="W")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="S")
+    N.put_mark(0.2,text="\( N\)",pspict=pspict,position="E")
 
     rectangle=Polygon(A,B,C,D)
     gris1=Polygon(A,M,P,N)

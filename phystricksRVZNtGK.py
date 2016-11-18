@@ -27,13 +27,13 @@ def RVZNtGK():
     s3.parameters.style="dotted"
 
     m1=MeasureLength(s1,-0.2)
-    m1.put_mark(0.2,0,"\( y_B-y_A\)",pspict=pspict,position="W")
+    m1.put_mark(0.2,text="\( y_B-y_A\)",pspict=pspict,position="W")
     m2=MeasureLength(s2,-0.2)
-    m2.put_mark(0.2,0,"\( y_C-y_A\)",pspict=pspict,position="W")
+    m2.put_mark(0.2,text="\( y_C-y_A\)",pspict=pspict,position="W")
     m3=MeasureLength(s3,0.2)
-    m3.put_mark(0.1,-90,"\( x_C-x_A\)",pspict=pspict,position="N")
+    m3.put_mark(0.1,text="\( x_C-x_A\)",pspict=pspict,position="N")
     m4=MeasureLength(Segment(A,R),0.5)
-    m4.put_mark(0.1,-90,"\( x_B-x_A\)",pspict=pspict,position="N")
+    m4.put_mark(0.1,text="\( x_B-x_A\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(ligne,A,B,C,s1,s2,s3,m1,m2,m3,m4)
     pspict.axes.no_graduation()

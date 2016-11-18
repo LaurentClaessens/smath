@@ -17,9 +17,9 @@ def LZDNqtV():
     I=intersections[1]
     rayon=Segment(O,I)
 
-    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
     I.put_mark(0.2,45,"\( I\)",pspict=pspict)
-    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(sphere,plan,rayon,C,I,rayon,O)
     fig.no_figure()

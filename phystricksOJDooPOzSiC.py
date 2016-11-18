@@ -12,10 +12,10 @@ def OJDooPOzSiC():
     rect.parameters.hatch.color="lightgray"
 
     measurel=MeasureLength(  rect.edges[0] ,0.3  )
-    measurel.put_mark(0.3,-90,"\( 2x+4\)",pspict=pspict,position="N")
+    measurel.put_mark(0.3,text="\( 2x+4\)",pspict=pspict,position="N")
 
     measureh=MeasureLength(  rect.edges[3] ,0.3  )
-    measureh.put_mark(0.3,180,"\( 5\)",pspict=pspict,position="E")
+    measureh.put_mark(0.3,text="\( 5\)",pspict=pspict,position="E")
 
     pspict.DrawGraphs(rect,measurel,measureh)
     fig.no_figure()

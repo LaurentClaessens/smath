@@ -22,7 +22,7 @@ def UKTooJhUzKU():
     KM1=Segment(K,M1)
     LM2=Segment(L,M2)
 
-    KL.put_mark(0.2,-90,"\( 10\)",pspict=pspict,position="N")
+    KL.put_mark(0.2,text="\( 10\)",pspict=pspict,position="N")
     KM1.put_mark(0.2,KM1.advised_mark_angle(pspict),"\( 1\)",pspict=pspict,position="corner")
     LM2.put_mark(0.2,LM2.advised_mark_angle(pspict)+180,"\( 1\)",pspict=pspict,position="corner")
 

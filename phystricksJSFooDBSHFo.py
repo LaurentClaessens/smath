@@ -23,8 +23,8 @@ def JSFooDBSHFo():
     D.put_mark(0.2,-90-45,"\( D\)",pspict=pspict,position="corner")
 
     P.put_mark(0.2,90+45,"\( P\)",pspict=pspict,position="corner")
-    M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
-    N.put_mark(0.2,0,"\( N\)",pspict=pspict,position="W")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="S")
+    N.put_mark(0.2,text="\( N\)",pspict=pspict,position="W")
 
     rectangle=Polygon(A,B,C,D)
     gris1=Polygon(M,B,N,P)

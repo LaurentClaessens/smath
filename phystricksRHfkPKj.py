@@ -20,8 +20,8 @@ def RHfkPKj():
     E.put_mark(0.2,135,"\( E\)",pspict=pspict,position="corner")
     F.put_mark(0.2,45,"\( F\)",pspict=pspict,position="corner")
     B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")
-    I.put_mark(0.2,90,"\( I\)",pspict=pspict,position="S")
-    J.put_mark(0.2,0,"\( J\)",pspict=pspict,position="W")
+    I.put_mark(0.2,text="\( I\)",pspict=pspict,position="S")
+    J.put_mark(0.2,text="\( J\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(carre,I,J,seg,A,E,F,B)
     fig.no_figure()

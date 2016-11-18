@@ -14,9 +14,9 @@ def AZKoIsL():
     #h=-HermiteInterpolation( [(-3,0,-1),(-2,-1,0),(0,2,0),(1,0,0)] ).graph(-3,1.3)  
     g=HermiteInterpolation([(-4,-2,0),(-1,1,0),(2,-1,0)]).graph(-4.5,4) 
 
-    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
+    f.put_mark(0.2,text="\( f\)",pspict=pspict,position="W")
     #h.put_mark(0.2,0,"\( h\)",pspict=pspict,position="W")
-    g.put_mark(0.2,0,"\( g\)",pspict=pspict,position="W")
+    g.put_mark(0.2,text="\( g\)",pspict=pspict,position="W")
 
     f.parameters.color="blue"
     g.parameters.color="brown"

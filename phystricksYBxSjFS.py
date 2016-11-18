@@ -14,9 +14,9 @@ def YBxSjFS():
     s1=Segment(A,B)
     s2=Segment(B,C)
 
-    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
-    B.put_mark(0.2,-90,"\( B\)",pspict=pspict,position="N")
-    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="N")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
 
 
     pspict.DrawGraphs(s1,s2,A,B,C)

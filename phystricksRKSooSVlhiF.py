@@ -29,13 +29,13 @@ def RKSooSVlhiF():
 
     I.put_mark(0.2,-45,"\( I\)",pspict=pspict,position="corner")
     A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
-    B.put_mark(0.2,-90,"\( B\)",pspict=pspict,position="N")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="N")
 
     for P in [I,A,B]:
         P.parameters.symbol=""
 
     measureAI=MeasureLength(  Segment(A,I) ,0.3  )
-    measureAI.put_mark(0.3,-90,"\( x\)",pspict=pspict,position="N")
+    measureAI.put_mark(0.3,text="\( x\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(grand_cercle,cer1,cer2,A,B,I,measureAI)
     fig.no_figure()

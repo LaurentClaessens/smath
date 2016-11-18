@@ -3,7 +3,7 @@ from phystricks import *
 
 def pyth(A,B,nom,color,pspict):
     K=Point(A.x,B.y)
-    K.put_mark(0.2,0,"\( {}\)".format(nom),pspict=pspict,position="S")
+    K.put_mark(0.2,text="\( {}\)".format(nom),pspict=pspict,position="S")
 
     AK=Segment(A,K)
     BK=Segment(B,K)
@@ -23,9 +23,9 @@ def IRHrmQQ():
     B=Point(2,0)
     C=Point(8,9)
 
-    A.put_mark(0.2,180,"\( A\)",pspict=pspict,position="S")
-    B.put_mark(0.2,0,"\( B\)",pspict=pspict,position="S")
-    C.put_mark(0.2,0,"\( C\)",pspict=pspict,position="S")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="S")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
 
 
     triangle=Polygon(A,B,C)

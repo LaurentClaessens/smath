@@ -23,7 +23,7 @@ def EGDFJAT():
     M2=Segment(K,J).midpoint()
 
     Oy=Segment(J,I).midpoint()
-    Oy.put_mark(0.2,180,"\( 25\)",pspict=pspict,position="E")
+    Oy.put_mark(0.2,text="\( 25\)",pspict=pspict,position="E")
 
     I.put_mark(0.2,180,"\( 50\)",pspict=pspict)
     J.put_mark(0.2,180,"\( 0\)",pspict=pspict)

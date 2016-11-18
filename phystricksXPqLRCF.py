@@ -14,9 +14,9 @@ def XPqLRCF():
     pspict,fig = SinglePicture("XPqLRCF")
     pspict.dilatation(0.8)
 
-    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
-    g.put_mark(0.2,0,"\( g\)",pspict=pspict,position="W")
-    h.put_mark(0.2,0,"\( h\)",pspict=pspict,position="W")
+    f.put_mark(0.2,text="\( f\)",pspict=pspict,position="W")
+    g.put_mark(0.2,text="\( g\)",pspict=pspict,position="W")
+    h.put_mark(0.2,text="\( h\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f,g)
     pspict.DrawDefaultGrid()
@@ -30,13 +30,12 @@ def VXFxyni():
     pspict,fig = SinglePicture("VXFxyni")
     pspict.dilatation(1)
 
-    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
-    g.put_mark(0.2,0,"\( g\)",pspict=pspict,position="W")
-    h.put_mark(0.2,0,"\( h\)",pspict=pspict,position="W")
+    f.put_mark(0.2,text="\( f\)",pspict=pspict,position="W")
+    g.put_mark(0.2,text="\( g\)",pspict=pspict,position="W")
+    h.put_mark(0.2,text="\( h\)",pspict=pspict,position="W")
 
     K=g.get_point(2)
-    K.put_mark(0.2,K.advised_mark_angle(pspict),"\( K\)",pspict=pspict)
-    #K.put_mark(0.2,90,"\( K\)",pspict=pspict)
+    K.put_mark(0.2,text="\( K\)",pspict=pspict)
 
     pspict.DrawGraphs(f,g,h,K)
     pspict.DrawDefaultGrid()

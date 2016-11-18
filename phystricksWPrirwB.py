@@ -13,11 +13,11 @@ def WPrirwB():
 
     carre=Polygon(A,B,C,D)
 
-    A.put_mark(0.2,-90,"\( A\)",pspict=pspict,position="N")
-    B.put_mark(0.2,0,"\( B\)",pspict=pspict,position="W")
-    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
-    D.put_mark(0.2,180,"\( D\)",pspict=pspict,position="E")
-    Ap.put_mark(0.2,-90,"\( A'\)",pspict=pspict,position="N")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="N")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="W")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
+    D.put_mark(0.2,text="\( D\)",pspict=pspict,position="E")
+    Ap.put_mark(0.2,text="\( A'\)",pspict=pspict,position="N")
     
 
     pspict.DrawGraphs(A,B,C,D,Ap,carre)

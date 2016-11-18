@@ -23,8 +23,8 @@ def WRXbDCo():
     pspict.axes.do_mx_enlarge=False
     pspict.axes.do_my_enlarge=False
 
-    pspict.axes.single_axeX.put_mark(0.2,-45,"\si{\second}",pspict=pspict,position="N")
-    pspict.axes.single_axeY.put_mark(0.2,0,"\si{\meter}",pspict=pspict,position="W")
+    pspict.axes.single_axeX.put_mark(0.2,text="\si{\second}",pspict=pspict,position="N")
+    pspict.axes.single_axeY.put_mark(0.2,text="\si{\meter}",pspict=pspict,position="W")
 
     pspict.DrawDefaultGrid()
     pspict.DrawDefaultAxes()

@@ -9,7 +9,7 @@ def NGWKooMCeSDk():
     pspict.dilatation_Y(1)
 
     O=Point(0,0)
-    O.put_mark(0.2,-90,"\( O\)",pspict=pspict,position="N")
+    O.put_mark(0.2,text="\( O\)",pspict=pspict,position="N")
     O.parameters.symbol=''
 
     points=[   Point(x,0) for x in [-3,-1,3,5]  ]
@@ -19,7 +19,7 @@ def NGWKooMCeSDk():
     for i in range(0,len(points)):
         P=points[i]
         P.parameters.symbol=''
-        P.put_mark(0.2,text="\( {}\)".format(string.ascii_uppercase[i+1]),pspict=pspict,position="N")
+        P.put_mark(0.2,text=pspict=pspict,position="N")
 
     axe=SingleAxe(O,Vector(1,0),mx-2,Mx+2,pspict=pspict)
     axe.no_numbering()

@@ -29,8 +29,8 @@ def DDRbyQk():
     B.put_mark(0.2,45,"\( B\)",pspict=pspict,position="corner")
     C.put_mark(0.2,-45,"\( C\)",pspict=pspict,position="corner")
     D.put_mark(0.2,225,"\( D\)",pspict=pspict,position="corner")
-    M.put_mark(0.2,0,"\( M\)",pspict=pspict,position="W")
-    N.put_mark(0.2,90,"\( N\)",pspict=pspict,position="S")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="W")
+    N.put_mark(0.2,text="\( N\)",pspict=pspict,position="S")
     P.put_mark(0.2,45,"\( P\)",pspict=pspict,position="corner")
 
     polyg=Polygon(D,N,P,M)

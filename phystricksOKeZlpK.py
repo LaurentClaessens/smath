@@ -31,10 +31,10 @@ def OKeZlpK():
     Mx.parameters.symbol="|"
     My.parameters.symbol="|"
 
-    Qx.put_mark(0.2,-90,"\( 1\)",pspict=pspict,position="N")
-    Qy.put_mark(0.2,180,"\( q\)",pspict=pspict,position="E")
-    Mx.put_mark(0.2,-90,"\( x_M \)",pspict=pspict,position="N")
-    My.put_mark(0.2,180,"\( y_M\)",pspict=pspict,position="E")
+    Qx.put_mark(0.2,text="\( 1\)",pspict=pspict,position="N")
+    Qy.put_mark(0.2,text="\( q\)",pspict=pspict,position="E")
+    Mx.put_mark(0.2,text="\( x_M \)",pspict=pspict,position="N")
+    My.put_mark(0.2,text="\( y_M\)",pspict=pspict,position="E")
 
     Qy.parameters.dotangle=90
     My.parameters.dotangle=90

@@ -23,10 +23,10 @@ def LCUooNGZJFk():
         P.parameters.symbol=""
 
     measureDC=MeasureLength(  Segment(D,C),-0.3  )
-    measureDC.put_mark(0.3,90,"\SI{5}{\centi\meter}",pspict=pspict,position="S")
+    measureDC.put_mark(0.3,text="\SI{5}{\centi\meter}",pspict=pspict,position="S")
 
     measureDA=MeasureLength(  Segment(D,A),0.3  )
-    measureDA.put_mark(0.3,180,"\( h\)",pspict=pspict,position="E")
+    measureDA.put_mark(0.3,text="\( h\)",pspict=pspict,position="E")
 
     pspict.DrawGraphs(rect,A,B,C,D,measureDC,measureDA)
     fig.no_figure()

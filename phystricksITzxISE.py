@@ -18,10 +18,10 @@ def ITzxISE():
     BC=Segment(B,C)
     MC=Segment(M,C)
 
-    A.put_mark(0.2,90,"\( A\)",pspict=pspict,position="S")
-    B.put_mark(0.2,0,"\( B\)",pspict=pspict,position="W")
-    C.put_mark(0.2,90,"\( C\)",pspict=pspict,position="S")
-    M.put_mark(0.2,-90,"\( M\)",pspict=pspict,position="N")
+    A.put_mark(0.2,text="\( A\)",pspict=pspict,position="S")
+    B.put_mark(0.2,text="\( B\)",pspict=pspict,position="W")
+    C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(MC,AB,AC,BC,A,B,C,M)
     pspict.DrawDefaultAxes()

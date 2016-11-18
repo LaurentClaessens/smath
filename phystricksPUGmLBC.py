@@ -16,7 +16,7 @@ def PUGmLBC():
         k.parameters.hatched()
         k.parameters.hatch.color="red"
 
-    pspict.axes.single_axeX.put_mark(0.2,-90,"CA",pspict=pspict,position="N")
+    pspict.axes.single_axeX.put_mark(0.2,text="CA",pspict=pspict,position="N")
     pspict.axes.single_axeX.Dx=100
 
     pspict.DrawGraphs(b1,b2)

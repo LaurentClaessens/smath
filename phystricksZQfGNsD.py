@@ -8,8 +8,8 @@ def ZQfGNsD():
     f=phyFunction(2*x).graph(-1.5,3)
     g=phyFunction(-x+4).graph(-1.5,5)
 
-    f.put_mark(0.2,0,"\( f\)",pspict=pspict,position="W")
-    g.put_mark(0.2,0,"\( g\)",pspict=pspict,position="W")
+    f.put_mark(0.2,text="\( f\)",pspict=pspict,position="W")
+    g.put_mark(0.2,text="\( g\)",pspict=pspict,position="W")
 
     g.parameters.color="brown"
 

@@ -27,7 +27,7 @@ def LXWooEsxsx():
     u1.put_mark(0.2,45,"\( \\vect{ u_1 }\)",pspict=pspict,position="corner")
     v1.put_mark(0.2,-45,"\( \\vect{ v_1 }\)",pspict=pspict,position="corner")
     u2.put_mark(0.2,45,"\( \\vect{ u_2 }\)",pspict=pspict,position="corner")
-    v2.put_mark(0.2,90,"\( \\vect{ v_2 }\)",pspict=pspict,position="S")
+    v2.put_mark(0.2,text="\( \\vect{ v_2 }\)",pspict=pspict,position="S")
     u3.put_mark(0.2,45,"\( \\vect{ u_3 }\)",pspict=pspict,position="corner")
     v3.put_mark(0.2,-45,"\( \\vect{ v_3 }\)",pspict=pspict,position="corner")
 

@@ -17,10 +17,10 @@ def GRRhrJe():
     f1.parameters.color="red"
     f4.parameters.color="red"
 
-    f1.put_mark(0.2,0,"\( d_1\)",pspict=pspict,position="W")
-    f2.put_mark(0.2,45,"\( d_2\)",pspict=pspict,position="W")
-    f3.put_mark(0.2,0,"\( d_3\)",pspict=pspict,position="W")
-    f4.put_mark(0.2,0,"\( d_4\)",pspict=pspict,position="W")
+    f1.put_mark(0.2,text="\( d_1\)",pspict=pspict,position="W")
+    f2.put_mark(0.2,text="\( d_2\)",pspict=pspict,position="W")
+    f3.put_mark(0.2,text="\( d_3\)",pspict=pspict,position="W")
+    f4.put_mark(0.2,text="\( d_4\)",pspict=pspict,position="W")
 
     pspict.DrawGraphs(f1,f2,f3,f4)
     pspict.axes.no_graduation()

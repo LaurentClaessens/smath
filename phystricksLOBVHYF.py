@@ -16,7 +16,7 @@ def LOBVHYF():
 
     alpha=50
     M=Cer.get_point(alpha)
-    M.put_mark(0.2,90,"\( M\)",pspict=pspict,position="S")
+    M.put_mark(0.2,text="\( M\)",pspict=pspict,position="S")
     X=Point(R,radian(alpha))
     X.put_mark(0.2,0,"\( x\)",pspict=pspict)
 
@@ -33,8 +33,8 @@ def LOBVHYF():
     C=M.projection(pspict.axes.single_axeX)
     S=M.projection(pspict.axes.single_axeY)
 
-    C.put_mark(0.2,-90,"\( \cos(x)\)",pspict=pspict,position="N")
-    S.put_mark(0.2,180,"\( \sin(x)\)",pspict=pspict,position="E")
+    C.put_mark(0.2,text="\( \cos(x)\)",pspict=pspict,position="N")
+    S.put_mark(0.2,text="\( \sin(x)\)",pspict=pspict,position="E")
 
     MC=Segment(M,C)
     MS=Segment(M,S)

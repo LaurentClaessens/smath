@@ -22,10 +22,10 @@ def KXXooKBoqAY():
 
 
     measureDC=MeasureLength(  Segment(D,C),-0.3  )
-    measureDC.put_mark(0.3,90,"\( l\)",pspict=pspict,position="S")
+    measureDC.put_mark(0.3,text="\( l\)",pspict=pspict,position="S")
 
     measureDA=MeasureLength(  Segment(D,A),0.3  )
-    measureDA.put_mark(0.3,180,"\( h\)",pspict=pspict,position="E")
+    measureDA.put_mark(0.3,text="\( h\)",pspict=pspict,position="E")
 
 
 

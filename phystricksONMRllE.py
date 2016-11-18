@@ -12,8 +12,8 @@ def ONMRllE():
 
     I=Segment(cube.A,cube.E).midpoint()
     J=Segment(cube.C,cube.G).midpoint()
-    I.put_mark(0.2,135,"\( I\)",pspict=pspict,position="S")
-    J.put_mark(0.2,-45,"\( J\)",pspict=pspict,position="N")
+    I.put_mark(0.2,text="\( I\)",pspict=pspict,position="S")
+    J.put_mark(0.2,text="\( J\)",pspict=pspict,position="N")
 
     pspict.DrawGraphs(I,J,cube)
     fig.no_figure()
