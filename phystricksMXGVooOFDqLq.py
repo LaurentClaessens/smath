@@ -13,8 +13,8 @@ def MXGVooOFDqLq():
     angle=AngleAOB(B,A,C)
     angle.put_mark(text="\( a\)",pspict=pspict)
 
-    trig.edges[0].put_mark(added_angle=180,text="\( 5\)",pspict=pspict)
-    trig.edges[2].put_mark(added_angle=180,text="\( 12\)",pspict=pspict)
+    trig.edges[0].put_mark(dist=0.2,added_angle=180,text="\( 5\)",pspict=pspict)
+    trig.edges[2].put_mark(dist=0.2,added_angle=180,text="\( 12\)",pspict=pspict)
     trig.put_mark(0.2,pspict=pspict)
 
     no_symbol(trig.vertices)
