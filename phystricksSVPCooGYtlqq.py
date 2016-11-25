@@ -8,7 +8,7 @@ def SVPCooGYtlqq():
     pspict.dilatation_X(3/90)
     pspict.dilatation_Y(5/80)
 
-    pspict.Mx_acceptable_BB=300
+    pspict.Mx_acceptable_BB=330
     pspict.My_acceptable_BB=60
 
     pspict.axes.do_mx_enlarge=False

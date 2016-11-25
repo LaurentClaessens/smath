@@ -37,14 +37,21 @@ def EDEYRhQ():
     F.put_mark(0.2,text="Dijon",pspict=pspict,position="N")
 
     AB=AffineVector(A,B)
-    AB.put_mark(0.2,text="\( {}\)".format(B.x-A.x),pspict=pspict,position="S")
     BC=AffineVector(B,C)
-    BC.put_mark(0.2,text="\( {}\)".format(C.x-B.x),pspict=pspict,position="S")
     CD=AffineVector(C,D)
-    CD.put_mark(0.2,text="\( {}\)".format(D.x-C.x),pspict=pspict,position="S")
-    DE=AffineVector(D,E)
-    DE.put_mark(0.2,text="\( {}\)".format(E.x-D.x),pspict=pspict,position="S")
     EF=AffineVector(E,F)
+    DE=AffineVector(D,E)
+
+    AB.mark_point=AB.midpoint
+    BC.mark_point=BC.midpoint
+    CD.mark_point=CD.midpoint
+    EF.mark_point=EF.midpoint
+    DE.mark_point=DE.midpoint
+
+    AB.put_mark(0.2,text="\( {}\)".format(B.x-A.x),pspict=pspict,position="S")
+    BC.put_mark(0.2,text="\( {}\)".format(C.x-B.x),pspict=pspict,position="S")
+    CD.put_mark(0.2,text="\( {}\)".format(D.x-C.x),pspict=pspict,position="S")
+    DE.put_mark(0.2,text="\( {}\)".format(E.x-D.x),pspict=pspict,position="S")
     EF.put_mark(0.2,text="\( {}\)".format(F.x-E.x),pspict=pspict,position="S")
 
     AB.parameters.color="brown"

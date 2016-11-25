@@ -49,19 +49,19 @@ def LLBQooAjaorQ():
     tc.append(AngleAOB(A,K,E))
     tc.append(AngleAOB(E,A,B))
     for ang in tc:
-        ang.put_mark(0.3,angle=None,text="\SI{35}{\degree}",pspict=pspict)
+        ang.put_mark(text="\SI{35}{\degree}",pspict=pspict)
     cc=[]
     cc.append(AngleAOB(E,D,A,r=0.3))
     cc.append(AngleAOB(D,A,E,r=0.3))
     for ang in cc:
-        ang.put_mark(0.3,angle=None,text="\SI{55}{\degree}",pspict=pspict)
+        ang.put_mark(text="\SI{55}{\degree}",pspict=pspict)
     cd=[]
     cd.append(AngleAOB(K,E,A,r=0.3))
     for ang in cd:
-        ang.put_mark(0.3,angle=None,text="\SI{110}{\degree}",pspict=pspict)
+        ang.put_mark(text="\SI{110}{\degree}",pspict=pspict)
 
     sep=AngleAOB(A,E,D,r=0.2)
-    sep.put_mark(0.3,angle=None,text="\SI{70}{\degree}",pspict=pspict)
+    sep.put_mark(text="\SI{70}{\degree}",pspict=pspict)
 
     pspicts[1].DrawGraphs(E,F,EK,tc,cc,cd,K,sep)
 

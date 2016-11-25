@@ -46,7 +46,7 @@ def SHSRooHgvofo():
     # Isocèle
     trig=triangles[4]
     a1=AngleAOB(trig.vertices[0],trig.vertices[1],trig.vertices[2])
-    a1.put_mark(0.2,None,"\( 70\)",pspicts=pspicts)
+    a1.put_mark(text="\( 70\)",pspicts=pspicts)
     pspicts[4].DrawGraphs(a1)
 
     # Cinquième figure
