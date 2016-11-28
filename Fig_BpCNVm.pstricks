@@ -49,10 +49,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigBpCNVmPICTBpCNVm.phystricks.aux%
+\immediate\openout\writeOfphystricks=BpCNVm.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigBpCNVmPICTBpCNVm.phystricks.aux%
+\immediate\openout\writeOfphystricks=BpCNVm.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$x$}}%
 \immediate\write\writeOfphystricks{totalheightof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -62,19 +62,12 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigBpCNVmPICTBpCNVm}
+\tikzsetnextfilename{tikzBpCNVm}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw [,->,>=latex] (-0.6000000000,0) -- (5.600000000,0);
-\draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw [,->,>=latex] (0,-0.9435180000) -- (0,2.600000000);
 %DEFAULT
 
@@ -91,12 +84,17 @@
 \draw [color=blue] (0,2.00) -- (0,0);
 \draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
 \draw (3.000000000,-0.2717590000) node {$x$};
-
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw [] (5.00,-0.100) -- (5.00,0.100);
+\draw [] (-0.100,1.00) -- (0.100,1.00);
+\draw [] (-0.100,2.00) -- (0.100,2.00);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigBpCNVmPICTBpCNVm
 %AFTER PSPICTURE
 %AFTER ALL
 \caption{\CaptionFigBpCNVm}\label{LabelFigBpCNVm}

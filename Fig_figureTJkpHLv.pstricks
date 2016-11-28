@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureTJkpHLv.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureTJkpHLv.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
 \immediate\write\writeOfphystricks{totalheightoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv}
+\tikzsetnextfilename{tikzfigureTJkpHLv}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -85,5 +85,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureTJkpHLvPICTfigureTJkpHLv
 %AFTER PSPICTURE

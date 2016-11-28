@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigFSQMooFDOrkRPICTFSQMooFDOrkR.phystricks.aux%
+\immediate\openout\writeOfphystricks=FSQMooFDOrkR.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigFSQMooFDOrkRPICTFSQMooFDOrkR.phystricks.aux%
+\immediate\openout\writeOfphystricks=FSQMooFDOrkR.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -115,24 +115,11 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigFSQMooFDOrkRPICTFSQMooFDOrkR}
+\tikzsetnextfilename{tikzFSQMooFDOrkR}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [] (-4.80,-0.100) -- (-4.80,0.100);
-\draw [] (-3.60,-0.100) -- (-3.60,0.100);
-\draw [] (-2.40,-0.100) -- (-2.40,0.100);
-\draw [] (-1.20,-0.100) -- (-1.20,0.100);
-\draw [] (0,-0.100) -- (0,0.100);
-\draw [] (1.20,-0.100) -- (1.20,0.100);
-\draw [] (2.40,-0.100) -- (2.40,0.100);
-\draw [] (3.60,-0.100) -- (3.60,0.100);
-\draw [] (4.80,-0.100) -- (4.80,0.100);
-\draw [] (6.00,-0.100) -- (6.00,0.100);
-\draw [] (7.20,-0.100) -- (7.20,0.100);
-\draw [] (8.40,-0.100) -- (8.40,0.100);
-\draw [] (9.60,-0.100) -- (9.60,0.100);
 \draw [,->,>=latex] (-4.800000000,0) -- (9.600000000,0);
 %DEFAULT
 \draw (-4.800000000,-0.4434143333) node {\(  -4\)};
@@ -148,11 +135,23 @@
 \draw (7.200000000,-0.4177016667) node {\( 6\)};
 \draw (8.400000000,-0.4177016667) node {\( 7\)};
 \draw (9.600000000,-0.4177016667) node {\( 8\)};
+\draw [] (-4.80,-0.100) -- (-4.80,0.100);
+\draw [] (-3.60,-0.100) -- (-3.60,0.100);
+\draw [] (-2.40,-0.100) -- (-2.40,0.100);
+\draw [] (-1.20,-0.100) -- (-1.20,0.100);
+\draw [] (0,-0.100) -- (0,0.100);
+\draw [] (1.20,-0.100) -- (1.20,0.100);
+\draw [] (2.40,-0.100) -- (2.40,0.100);
+\draw [] (3.60,-0.100) -- (3.60,0.100);
+\draw [] (4.80,-0.100) -- (4.80,0.100);
+\draw [] (6.00,-0.100) -- (6.00,0.100);
+\draw [] (7.20,-0.100) -- (7.20,0.100);
+\draw [] (8.40,-0.100) -- (8.40,0.100);
+\draw [] (9.60,-0.100) -- (9.60,0.100);
 \draw []  (0.6000000000,0) node [rotate=0] {$\bullet$};
 \draw (0.6000000000,0.6064346667) node {\( \frac{ 1 }{2}\)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigFSQMooFDOrkRPICTFSQMooFDOrkR
 %AFTER PSPICTURE

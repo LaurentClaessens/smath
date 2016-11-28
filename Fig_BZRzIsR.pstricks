@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigBZRzIsRPICTBZRzIsR.phystricks.aux%
+\immediate\openout\writeOfphystricks=BZRzIsR.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigBZRzIsRPICTBZRzIsR.phystricks.aux%
+\immediate\openout\writeOfphystricks=BZRzIsR.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -111,11 +111,16 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigBZRzIsRPICTBZRzIsR}
+\tikzsetnextfilename{tikzBZRzIsR}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (6.100000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,6.500000000);
+%DEFAULT
+\draw [] (0,6.00) -- (5.60,3.60);
+\draw [] (0,0) -- (5.60,6.00);
 \draw (0.7000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.700,-0.100) -- (0.700,0.100);
 \draw (1.400000000,-0.3049540000) node {$ 2 $};
@@ -132,7 +137,6 @@
 \draw [] (4.90,-0.100) -- (4.90,0.100);
 \draw (5.600000000,-0.3049540000) node {$ 8 $};
 \draw [] (5.60,-0.100) -- (5.60,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (6.100000000,0);
 \draw (-0.2833333333,0.6000000000) node {$ 2 $};
 \draw [] (-0.100,0.600) -- (0.100,0.600);
 \draw (-0.2833333333,1.200000000) node {$ 4 $};
@@ -153,14 +157,8 @@
 \draw [] (-0.100,5.40) -- (0.100,5.40);
 \draw (-0.3666666667,6.000000000) node {$ 20 $};
 \draw [] (-0.100,6.00) -- (0.100,6.00);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,6.500000000);
-%DEFAULT
-\draw [] (0,6.00) -- (5.60,3.60);
-\draw [] (0,0) -- (5.60,6.00);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigBZRzIsRPICTBZRzIsR
 %AFTER PSPICTURE

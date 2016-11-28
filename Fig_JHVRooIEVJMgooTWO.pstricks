@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJHVRooIEVJMgooTWOPICTJHVRooIEVJMgooTWO.phystricks.aux%
+\immediate\openout\writeOfphystricks=JHVRooIEVJMgooTWO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJHVRooIEVJMgooTWOPICTJHVRooIEVJMgooTWO.phystricks.aux%
+\immediate\openout\writeOfphystricks=JHVRooIEVJMgooTWO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigJHVRooIEVJMgooTWOPICTJHVRooIEVJMgooTWO}
+\tikzsetnextfilename{tikzJHVRooIEVJMgooTWO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -104,5 +104,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigJHVRooIEVJMgooTWOPICTJHVRooIEVJMgooTWO
 %AFTER PSPICTURE

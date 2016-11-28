@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigIERooEvNjpPICTIERooEvNjp.phystricks.aux%
+\immediate\openout\writeOfphystricks=IERooEvNjp.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigIERooEvNjpPICTIERooEvNjp.phystricks.aux%
+\immediate\openout\writeOfphystricks=IERooEvNjp.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -95,7 +95,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigIERooEvNjpPICTIERooEvNjp}
+\tikzsetnextfilename{tikzIERooEvNjp}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -122,6 +122,16 @@
 \draw [color=gray,style=solid] (0,2.00) -- (6.00,2.00);
 \draw [color=gray,style=solid] (0,3.00) -- (6.00,3.00);
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (6.500000000,0);
+\draw [,->,>=latex] (0,-1.500000000) -- (0,3.500000000);
+%DEFAULT
+\draw []  (2.000000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw (2.266421690,2.255309856) node {\( A\)};
+\draw []  (0,0) node [rotate=0] {$\bullet$};
+\draw (0.2762013562,-0.2553098562) node {\( B\)};
+\draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
+\draw (3.272462856,0.2553098562) node {\( C\)};
+
 \draw (1.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
 \draw (2.000000000,-0.3049540000) node {$ 2 $};
@@ -134,7 +144,6 @@
 \draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw (6.000000000,-0.3049540000) node {$ 6 $};
 \draw [] (6.00,-0.100) -- (6.00,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (6.500000000,0);
 \draw (-0.4129313333,-1.000000000) node {$ -1 $};
 \draw [] (-0.100,-1.00) -- (0.100,-1.00);
 \draw (-0.2833333333,1.000000000) node {$ 1 $};
@@ -143,18 +152,8 @@
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.2833333333,3.000000000) node {$ 3 $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw [,->,>=latex] (0,-1.500000000) -- (0,3.500000000);
-%DEFAULT
-\draw []  (2.000000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw (2.266421690,2.255309856) node {\( A\)};
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0.2762013562,-0.2553098562) node {\( B\)};
-\draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (3.272462856,0.2553098562) node {\( C\)};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigIERooEvNjpPICTIERooEvNjp
 %AFTER PSPICTURE

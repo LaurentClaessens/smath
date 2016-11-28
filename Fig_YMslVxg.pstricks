@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYMslVxgPICTYMslVxg.phystricks.aux%
+\immediate\openout\writeOfphystricks=YMslVxg.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYMslVxgPICTYMslVxg.phystricks.aux%
+\immediate\openout\writeOfphystricks=YMslVxg.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( d_1\)}}%
 \immediate\write\writeOfphystricks{totalheightof148fa3eba9e9b9c2c5578a769be45c82a0ddc097:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,14 +79,12 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigYMslVxgPICTYMslVxg}
+\tikzsetnextfilename{tikzYMslVxg}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (3.318283167,-0.2717590000) node {\( x\)};
 \draw [,->,>=latex] (-2.500000000,0) -- (3.123028667,0);
-\draw (0.2876933333,2.943190095) node {\( y\)};
 \draw [,->,>=latex] (0,-3.074614047) -- (0,2.739023762);
 %DEFAULT
 \draw (2.000000000,-1.540740500) node {\( d_1\)};
@@ -102,10 +100,11 @@
 
 \draw [color=blue] (-2.000,1.200)--(-1.968,1.168)--(-1.935,1.135)--(-1.903,1.103)--(-1.871,1.071)--(-1.839,1.039)--(-1.806,1.006)--(-1.774,0.9742)--(-1.742,0.9420)--(-1.710,0.9097)--(-1.677,0.8775)--(-1.645,0.8452)--(-1.613,0.8130)--(-1.581,0.7807)--(-1.548,0.7484)--(-1.516,0.7162)--(-1.484,0.6839)--(-1.452,0.6517)--(-1.419,0.6194)--(-1.387,0.5872)--(-1.355,0.5549)--(-1.323,0.5227)--(-1.290,0.4904)--(-1.258,0.4582)--(-1.226,0.4259)--(-1.194,0.3937)--(-1.161,0.3614)--(-1.129,0.3291)--(-1.097,0.2969)--(-1.065,0.2646)--(-1.032,0.2324)--(-1.000,0.2001)--(-0.9679,0.1679)--(-0.9356,0.1356)--(-0.9034,0.1034)--(-0.8711,0.07111)--(-0.8389,0.03886)--(-0.8066,0.006607)--(-0.7744,-0.02565)--(-0.7421,-0.05790)--(-0.7098,-0.09015)--(-0.6776,-0.1224)--(-0.6453,-0.1547)--(-0.6131,-0.1869)--(-0.5808,-0.2192)--(-0.5486,-0.2514)--(-0.5163,-0.2837)--(-0.4841,-0.3159)--(-0.4518,-0.3482)--(-0.4196,-0.3804)--(-0.3873,-0.4127)--(-0.3551,-0.4449)--(-0.3228,-0.4772)--(-0.2905,-0.5095)--(-0.2583,-0.5417)--(-0.2260,-0.5740)--(-0.1938,-0.6062)--(-0.1615,-0.6385)--(-0.1293,-0.6707)--(-0.09702,-0.7030)--(-0.06477,-0.7352)--(-0.03251,-0.7675)--(0,-0.7997)--(0.03199,-0.8320)--(0.06425,-0.8643)--(0.09650,-0.8965)--(0.1288,-0.9288)--(0.1610,-0.9610)--(0.1933,-0.9933)--(0.2255,-1.026)--(0.2578,-1.058)--(0.2900,-1.090)--(0.3223,-1.122)--(0.3545,-1.155)--(0.3868,-1.187)--(0.4190,-1.219)--(0.4513,-1.251)--(0.4835,-1.284)--(0.5158,-1.316)--(0.5481,-1.348)--(0.5803,-1.380)--(0.6126,-1.413)--(0.6448,-1.445)--(0.6771,-1.477)--(0.7093,-1.509)--(0.7416,-1.542)--(0.7738,-1.574)--(0.8061,-1.606)--(0.8383,-1.638)--(0.8706,-1.671)--(0.9028,-1.703)--(0.9351,-1.735)--(0.9674,-1.767)--(0.9996,-1.800)--(1.032,-1.832)--(1.064,-1.864)--(1.096,-1.896)--(1.129,-1.929)--(1.161,-1.961)--(1.193,-1.993);
 \draw (3.318283167,-0.2717590000) node {\( x\)};
+\draw (3.318283167,-0.2717590000) node {\( x\)};
+\draw (0.2876933333,2.943190095) node {\( y\)};
 \draw (0.2876933333,2.943190095) node {\( y\)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigYMslVxgPICTYMslVxg
 %AFTER PSPICTURE

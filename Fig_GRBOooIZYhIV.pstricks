@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGRBOooIZYhIVPICTGRBOooIZYhIV.phystricks.aux%
+\immediate\openout\writeOfphystricks=GRBOooIZYhIV.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGRBOooIZYhIVPICTGRBOooIZYhIV.phystricks.aux%
+\immediate\openout\writeOfphystricks=GRBOooIZYhIV.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 0\)}}%
 \immediate\write\writeOfphystricks{totalheightofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,11 +71,13 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigGRBOooIZYhIVPICTGRBOooIZYhIV}
+\tikzsetnextfilename{tikzGRBOooIZYhIV}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-8.000000000,0) -- (10.00000000,0);
+%DEFAULT
 \draw [] (-8.00,-0.100) -- (-8.00,0.100);
 \draw [] (-6.00,-0.100) -- (-6.00,0.100);
 \draw [] (-4.00,-0.100) -- (-4.00,0.100);
@@ -86,9 +88,6 @@
 \draw [] (6.00,-0.100) -- (6.00,0.100);
 \draw [] (8.00,-0.100) -- (8.00,0.100);
 \draw [] (10.0,-0.100) -- (10.0,0.100);
-\draw [,->,>=latex] (-8.000000000,0) -- (10.00000000,0);
-%DEFAULT
-
 \draw (2.000000000,0.3640000000) node {\(  K\)};
 \draw (2.000000000,-0.3511346667) node {\( 1\)};
 \draw (0,-0.3511346667) node {\( 0\)};
@@ -97,5 +96,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigGRBOooIZYhIVPICTGRBOooIZYhIV
 %AFTER PSPICTURE

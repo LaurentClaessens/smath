@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigVJZKooGlvyPPPICTVJZKooGlvyPP.phystricks.aux%
+\immediate\openout\writeOfphystricks=VJZKooGlvyPP.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigVJZKooGlvyPPPICTVJZKooGlvyPP.phystricks.aux%
+\immediate\openout\writeOfphystricks=VJZKooGlvyPP.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\SI{c}{\centi\meter} }}%
 \immediate\write\writeOfphystricks{totalheightof596ebf9ff92d87ca930919c7628cf7479622bddf:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -99,11 +99,20 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigVJZKooGlvyPPPICTVJZKooGlvyPP}
+\tikzsetnextfilename{tikzVJZKooGlvyPP}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (5.250000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,4.300000000);
+%DEFAULT
+\draw []  (1.000000000,0.8000000000) node [rotate=0] {$\bullet$};
+\draw []  (2.000000000,1.600000000) node [rotate=0] {$\bullet$};
+\draw []  (3.000000000,2.400000000) node [rotate=0] {$\bullet$};
+\draw []  (4.000000000,3.200000000) node [rotate=0] {$\bullet$};
+\draw [style=dashed] (0.250,0.200) -- (4.75,3.80);
+\draw (6.747662212,-0.2131796896) node {\SI{c}{\centi\meter} };
 \draw (6.747662212,-0.2131796896) node {\SI{c}{\centi\meter} };
 \draw (1.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
@@ -115,7 +124,7 @@
 \draw [] (4.00,-0.100) -- (4.00,0.100);
 \draw (5.000000000,-0.3049540000) node {$ 5 $};
 \draw [] (5.00,-0.100) -- (5.00,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (5.250000000,0);
+\draw (0.5691080229,3.991911977) node {\( p\)(\si{\centi\meter})};
 \draw (0.5691080229,3.991911977) node {\( p\)(\si{\centi\meter})};
 \draw (-0.2833333333,0.8000000000) node {$ 4 $};
 \draw [] (-0.100,0.800) -- (0.100,0.800);
@@ -127,18 +136,8 @@
 \draw [] (-0.100,3.20) -- (0.100,3.20);
 \draw (-0.3666666667,4.000000000) node {$ 20 $};
 \draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,4.300000000);
-%DEFAULT
-\draw []  (1.000000000,0.8000000000) node [rotate=0] {$\bullet$};
-\draw []  (2.000000000,1.600000000) node [rotate=0] {$\bullet$};
-\draw []  (3.000000000,2.400000000) node [rotate=0] {$\bullet$};
-\draw []  (4.000000000,3.200000000) node [rotate=0] {$\bullet$};
-\draw [style=dashed] (0.250,0.200) -- (4.75,3.80);
-\draw (6.747662212,-0.2131796896) node {\SI{c}{\centi\meter} };
-\draw (0.5691080229,3.991911977) node {\( p\)(\si{\centi\meter})};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigVJZKooGlvyPPPICTVJZKooGlvyPP
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigWGhpCVmPICTWGhpCVm.phystricks.aux%
+\immediate\openout\writeOfphystricks=WGhpCVm.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigWGhpCVmPICTWGhpCVm.phystricks.aux%
+\immediate\openout\writeOfphystricks=WGhpCVm.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{}}%
 \immediate\write\writeOfphystricks{totalheightofda39a3ee5e6b4b0d3255bfef95601890afd80709:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -59,7 +59,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigWGhpCVmPICTWGhpCVm}
+\tikzsetnextfilename{tikzWGhpCVm}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -109,5 +109,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigWGhpCVmPICTWGhpCVm
 %AFTER PSPICTURE

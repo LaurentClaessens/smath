@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigExoTranslationPNjoHkPICTExoTranslationPNjoHk.phystricks.aux%
+\immediate\openout\writeOfphystricks=ExoTranslationPNjoHk.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigExoTranslationPNjoHkPICTExoTranslationPNjoHk.phystricks.aux%
+\immediate\openout\writeOfphystricks=ExoTranslationPNjoHk.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -63,7 +63,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigExoTranslationPNjoHkPICTExoTranslationPNjoHk}
+\tikzsetnextfilename{tikzExoTranslationPNjoHk}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -92,18 +92,7 @@
 \draw [color=gray,style=solid] (-0.700,3.50) -- (2.80,3.50);
 \draw [color=gray,style=solid] (-0.700,4.20) -- (2.80,4.20);
 %AXES
-\draw [] (-0.700,-0.100) -- (-0.700,0.100);
-\draw [] (0.700,-0.100) -- (0.700,0.100);
-\draw [] (1.40,-0.100) -- (1.40,0.100);
-\draw [] (2.10,-0.100) -- (2.10,0.100);
-\draw [] (2.80,-0.100) -- (2.80,0.100);
 \draw [,->,>=latex] (-1.200000000,0) -- (3.300000000,0);
-\draw [] (-0.100,0.700) -- (0.100,0.700);
-\draw [] (-0.100,1.40) -- (0.100,1.40);
-\draw [] (-0.100,2.10) -- (0.100,2.10);
-\draw [] (-0.100,2.80) -- (0.100,2.80);
-\draw [] (-0.100,3.50) -- (0.100,3.50);
-\draw [] (-0.100,4.20) -- (0.100,4.20);
 \draw [,->,>=latex] (0,-0.5000000000) -- (0,4.700000000);
 %DEFAULT
 \draw [color=blue] (0.700,0.700) -- (2.10,0.700);
@@ -119,9 +108,19 @@
 \draw (0.9762013562,3.755309856) node {\( B\)};
 \draw [color=red,->,>=latex] (0,2.100000000) -- (0.7000000000,3.500000000);
 
+\draw [] (-0.700,-0.100) -- (-0.700,0.100);
+\draw [] (0.700,-0.100) -- (0.700,0.100);
+\draw [] (1.40,-0.100) -- (1.40,0.100);
+\draw [] (2.10,-0.100) -- (2.10,0.100);
+\draw [] (2.80,-0.100) -- (2.80,0.100);
+\draw [] (-0.100,0.700) -- (0.100,0.700);
+\draw [] (-0.100,1.40) -- (0.100,1.40);
+\draw [] (-0.100,2.10) -- (0.100,2.10);
+\draw [] (-0.100,2.80) -- (0.100,2.80);
+\draw [] (-0.100,3.50) -- (0.100,3.50);
+\draw [] (-0.100,4.20) -- (0.100,4.20);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigExoTranslationPNjoHkPICTExoTranslationPNjoHk
 %AFTER PSPICTURE

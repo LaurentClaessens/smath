@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureYWEhCkv.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureYWEhCkv.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ u }\)}}%
 \immediate\write\writeOfphystricks{totalheightof9487d29e3c8d899a40649d368a0ade5433024439:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -115,7 +115,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv}
+\tikzsetnextfilename{tikzfigureYWEhCkv}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -152,6 +152,22 @@
 \draw [color=gray,style=solid] (-4.00,1.60) -- (3.20,1.60);
 \draw [color=gray,style=solid] (-4.00,2.40) -- (3.20,2.40);
 %AXES
+\draw [,->,>=latex] (-4.500000000,0) -- (3.700000000,0);
+\draw [,->,>=latex] (0,-2.900000000) -- (0,2.900000000);
+%DEFAULT
+\draw []  (0.8000000000,0.8000000000) node [rotate=0] {$\bullet$};
+\draw (1.066421690,1.055309856) node {\( A\)};
+\draw []  (2.400000000,-1.600000000) node [rotate=0] {$\bullet$};
+\draw (2.676201356,-1.344690144) node {\( B\)};
+\draw []  (-3.200000000,1.600000000) node [rotate=0] {$\bullet$};
+\draw (-2.927537144,1.855309856) node {\( C\)};
+\draw [color=blue,->,>=latex] (-1.600000000,-1.600000000) -- (-3.200000000,-1.600000000);
+\draw (-3.200000000,-1.913175167) node {\( \vect{ u }\)};
+\draw [color=blue,->,>=latex] (-2.400000000,1.600000000) -- (-0.8000000000,-0.8000000000);
+\draw (-0.4919811438,-1.054596523) node {\( \vect{ v }\)};
+\draw [color=blue,->,>=latex] (0,0) -- (-0.8000000000,1.600000000);
+\draw (-1.145482938,1.397382114) node {\( \vect{ w }\)};
+
 \draw (-4.000000000,-0.3185623333) node {$ -5 $};
 \draw [] (-4.00,-0.100) -- (-4.00,0.100);
 \draw (-3.200000000,-0.3185623333) node {$ -4 $};
@@ -170,7 +186,6 @@
 \draw [] (2.40,-0.100) -- (2.40,0.100);
 \draw (3.200000000,-0.3049540000) node {$ 4 $};
 \draw [] (3.20,-0.100) -- (3.20,0.100);
-\draw [,->,>=latex] (-4.500000000,0) -- (3.700000000,0);
 \draw (-0.4129313333,-2.400000000) node {$ -3 $};
 \draw [] (-0.100,-2.40) -- (0.100,-2.40);
 \draw (-0.4129313333,-1.600000000) node {$ -2 $};
@@ -183,24 +198,8 @@
 \draw [] (-0.100,1.60) -- (0.100,1.60);
 \draw (-0.2833333333,2.400000000) node {$ 3 $};
 \draw [] (-0.100,2.40) -- (0.100,2.40);
-\draw [,->,>=latex] (0,-2.900000000) -- (0,2.900000000);
-%DEFAULT
-\draw []  (0.8000000000,0.8000000000) node [rotate=0] {$\bullet$};
-\draw (1.066421690,1.055309856) node {\( A\)};
-\draw []  (2.400000000,-1.600000000) node [rotate=0] {$\bullet$};
-\draw (2.676201356,-1.344690144) node {\( B\)};
-\draw []  (-3.200000000,1.600000000) node [rotate=0] {$\bullet$};
-\draw (-2.927537144,1.855309856) node {\( C\)};
-\draw [color=blue,->,>=latex] (-1.600000000,-1.600000000) -- (-3.200000000,-1.600000000);
-\draw (-3.200000000,-1.913175167) node {\( \vect{ u }\)};
-\draw [color=blue,->,>=latex] (-2.400000000,1.600000000) -- (-0.8000000000,-0.8000000000);
-\draw (-0.4919811438,-1.054596523) node {\( \vect{ v }\)};
-\draw [color=blue,->,>=latex] (0,0) -- (-0.8000000000,1.600000000);
-\draw (-1.145482938,1.397382114) node {\( \vect{ w }\)};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureYWEhCkvPICTfigureYWEhCkv
 %AFTER PSPICTURE

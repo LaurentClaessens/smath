@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYEGUooNJuuDCPICTYEGUooNJuuDC.phystricks.aux%
+\immediate\openout\writeOfphystricks=YEGUooNJuuDC.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYEGUooNJuuDCPICTYEGUooNJuuDC.phystricks.aux%
+\immediate\openout\writeOfphystricks=YEGUooNJuuDC.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -83,7 +83,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigYEGUooNJuuDCPICTYEGUooNJuuDC}
+\tikzsetnextfilename{tikzYEGUooNJuuDC}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -96,7 +96,7 @@
 \draw (3.103045763,3.103045763) node {\(C\)};
 \draw (1.235992815,2.404051629) node {\(D\)};
 \draw (-0.1640071853,4.595948371) node {\(E\)};
-\draw (-0.4285714286,2.800000000) node {\(F\)};
+\draw (-0.5588957619,2.800000000) node {\(F\)};
 \draw [] (0,0) -- (2.80,0);
 \draw [] (2.80,0) -- (2.80,2.80);
 \draw [] (2.80,2.80) -- (1.40,2.80);
@@ -110,5 +110,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigYEGUooNJuuDCPICTYEGUooNJuuDC
 %AFTER PSPICTURE

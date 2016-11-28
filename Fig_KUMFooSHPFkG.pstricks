@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigKUMFooSHPFkGPICTKUMFooSHPFkG.phystricks.aux%
+\immediate\openout\writeOfphystricks=KUMFooSHPFkG.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigKUMFooSHPFkGPICTKUMFooSHPFkG.phystricks.aux%
+\immediate\openout\writeOfphystricks=KUMFooSHPFkG.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -83,7 +83,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigKUMFooSHPFkGPICTKUMFooSHPFkG}
+\tikzsetnextfilename{tikzKUMFooSHPFkG}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -103,7 +103,7 @@
 \draw [] (4.70,1.71) -- (3.20,3.20);
 \draw [] (3.20,3.20) -- (0,0);
 \draw [] (2.29,0.719) -- (2.41,0.991);
-\draw [] (5.42,-0.575) -- (5.69,-0.702);
+\draw [] (5.42,-0.576) -- (5.69,-0.702);
 \draw [] (4.12,-3.71) -- (4.00,-3.98);
 \draw [] (0.991,-2.41) -- (0.719,-2.29);
 \draw [] (3.20,2.78) -- (2.99,2.99);
@@ -118,5 +118,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigKUMFooSHPFkGPICTKUMFooSHPFkG
 %AFTER PSPICTURE

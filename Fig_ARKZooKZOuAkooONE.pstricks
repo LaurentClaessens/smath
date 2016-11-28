@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigARKZooKZOuAkooONEPICTARKZooKZOuAkooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=ARKZooKZOuAkooONE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigARKZooKZOuAkooONEPICTARKZooKZOuAkooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=ARKZooKZOuAkooONE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 20 $}}%
 \immediate\write\writeOfphystricks{totalheightofa9f1e057431407b8ac90612a37eef414c6e94042:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -87,7 +87,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigARKZooKZOuAkooONEPICTARKZooKZOuAkooONE}
+\tikzsetnextfilename{tikzARKZooKZOuAkooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -114,6 +114,15 @@
 \draw [color=gray,style=solid] (0,2.10) -- (70.0,2.10);
 \draw [color=gray,style=solid] (0,2.80) -- (70.0,2.80);
 %AXES
+\draw [,->,>=latex] (0,0) -- (70.50000000,0);
+\draw [,->,>=latex] (0,-0.7000000000) -- (0,3.300000000);
+%DEFAULT
+\draw []  (9.800000000,-0.7000000000) node [rotate=0] {$\bullet$};
+\draw []  (22.40000000,0) node [rotate=0] {$\bullet$};
+\draw []  (28.70000000,0.3500000000) node [rotate=0] {$\bullet$};
+\draw []  (41.30000000,1.050000000) node [rotate=0] {$\bullet$};
+\draw []  (66.50000000,2.450000000) node [rotate=0] {$\bullet$};
+
 \draw (14.00000000,-0.3049540000) node {$ 20 $};
 \draw [] (14.0,-0.100) -- (14.0,0.100);
 \draw (28.00000000,-0.3049540000) node {$ 40 $};
@@ -124,7 +133,6 @@
 \draw [] (56.0,-0.100) -- (56.0,0.100);
 \draw (70.00000000,-0.3049540000) node {$ 100 $};
 \draw [] (70.0,-0.100) -- (70.0,0.100);
-\draw [,->,>=latex] (0,0) -- (70.50000000,0);
 \draw (-0.4962646667,-0.7000000000) node {$ -10 $};
 \draw [] (-0.100,-0.700) -- (0.100,-0.700);
 \draw (-0.3666666667,0.7000000000) node {$ 10 $};
@@ -135,17 +143,8 @@
 \draw [] (-0.100,2.10) -- (0.100,2.10);
 \draw (-0.3666666667,2.800000000) node {$ 40 $};
 \draw [] (-0.100,2.80) -- (0.100,2.80);
-\draw [,->,>=latex] (0,-0.7000000000) -- (0,3.300000000);
-%DEFAULT
-\draw []  (9.800000000,-0.7000000000) node [rotate=0] {$\bullet$};
-\draw []  (22.40000000,0) node [rotate=0] {$\bullet$};
-\draw []  (28.70000000,0.3500000000) node [rotate=0] {$\bullet$};
-\draw []  (41.30000000,1.050000000) node [rotate=0] {$\bullet$};
-\draw []  (66.50000000,2.450000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigARKZooKZOuAkooONEPICTARKZooKZOuAkooONE
 %AFTER PSPICTURE

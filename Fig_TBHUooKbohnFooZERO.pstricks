@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigTBHUooKbohnFooZEROPICTTBHUooKbohnFooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=TBHUooKbohnFooZERO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigTBHUooKbohnFooZEROPICTTBHUooKbohnFooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=TBHUooKbohnFooZERO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigTBHUooKbohnFooZEROPICTTBHUooKbohnFooZERO}
+\tikzsetnextfilename{tikzTBHUooKbohnFooZERO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -93,8 +93,56 @@
 \draw []  (4.000000000,4.000000000) node [rotate=0] {$\bullet$};
 \draw (4.098539763,4.174039981) node {\(C\)};
 \draw [] (0,0) -- (3.00,0);
+\draw [] (0.559,-0.141) -- (0.841,0.141);
+\draw [] (0.659,-0.141) -- (0.941,0.141);
+\draw [] (2.06,-0.141) -- (2.34,0.141);
+\draw [] (2.16,-0.141) -- (2.44,0.141);
+\draw [] (0.559,-0.141) -- (0.841,0.141);
+\draw [] (0.659,-0.141) -- (0.941,0.141);
+\draw [] (2.06,-0.141) -- (2.34,0.141);
+\draw [] (2.16,-0.141) -- (2.44,0.141);
+\draw [] (0.559,-0.141) -- (0.841,0.141);
+\draw [] (0.659,-0.141) -- (0.941,0.141);
+\draw [] (2.06,-0.141) -- (2.34,0.141);
+\draw [] (2.16,-0.141) -- (2.44,0.141);
+\draw [] (0.559,-0.141) -- (0.841,0.141);
+\draw [] (0.659,-0.141) -- (0.941,0.141);
+\draw [] (2.06,-0.141) -- (2.34,0.141);
+\draw [] (2.16,-0.141) -- (2.44,0.141);
 \draw [] (3.00,0) -- (4.00,4.00);
+\draw [] (3.35,0.828) -- (3.15,1.17);
+\draw [] (3.85,2.83) -- (3.65,3.17);
+\draw [] (3.35,0.828) -- (3.15,1.17);
+\draw [] (3.85,2.83) -- (3.65,3.17);
+\draw [] (3.35,0.828) -- (3.15,1.17);
+\draw [] (3.85,2.83) -- (3.65,3.17);
+\draw [] (3.35,0.828) -- (3.15,1.17);
+\draw [] (3.85,2.83) -- (3.65,3.17);
 \draw [] (4.00,4.00) -- (0,0);
+\draw [] (3.07,3.27) -- (3.07,2.87);
+\draw [] (3.00,3.20) -- (3.00,2.80);
+\draw [] (2.93,3.13) -- (2.93,2.73);
+\draw [] (1.07,1.27) -- (1.07,0.871);
+\draw [] (1.00,1.20) -- (1.00,0.800);
+\draw [] (0.929,1.13) -- (0.929,0.729);
+\draw [] (3.07,3.27) -- (3.07,2.87);
+\draw [] (3.00,3.20) -- (3.00,2.80);
+\draw [] (2.93,3.13) -- (2.93,2.73);
+\draw [] (1.07,1.27) -- (1.07,0.871);
+\draw [] (1.00,1.20) -- (1.00,0.800);
+\draw [] (0.929,1.13) -- (0.929,0.729);
+\draw [] (3.07,3.27) -- (3.07,2.87);
+\draw [] (3.00,3.20) -- (3.00,2.80);
+\draw [] (2.93,3.13) -- (2.93,2.73);
+\draw [] (1.07,1.27) -- (1.07,0.871);
+\draw [] (1.00,1.20) -- (1.00,0.800);
+\draw [] (0.929,1.13) -- (0.929,0.729);
+\draw [] (3.07,3.27) -- (3.07,2.87);
+\draw [] (3.00,3.20) -- (3.00,2.80);
+\draw [] (2.93,3.13) -- (2.93,2.73);
+\draw [] (1.07,1.27) -- (1.07,0.871);
+\draw [] (1.00,1.20) -- (1.00,0.800);
+\draw [] (0.929,1.13) -- (0.929,0.729);
 \draw [] (1.00,-0.500) -- (4.00,2.50);
 \draw [] (1.38,-0.500) -- (2.12,2.50);
 \draw [] (1.62,2.00) -- (3.88,2.00);
@@ -107,5 +155,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigTBHUooKbohnFooZEROPICTTBHUooKbohnFooZERO
 %AFTER PSPICTURE

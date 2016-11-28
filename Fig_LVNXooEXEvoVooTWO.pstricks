@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigLVNXooEXEvoVooTWOPICTLVNXooEXEvoVooTWO.phystricks.aux%
+\immediate\openout\writeOfphystricks=LVNXooEXEvoVooTWO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigLVNXooEXEvoVooTWOPICTLVNXooEXEvoVooTWO.phystricks.aux%
+\immediate\openout\writeOfphystricks=LVNXooEXEvoVooTWO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Q\)}}%
 \immediate\write\writeOfphystricks{totalheightofc13a383f8e4810729b18bd397a73c9790cabc878:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -111,7 +111,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigLVNXooEXEvoVooTWOPICTLVNXooEXEvoVooTWO}
+\tikzsetnextfilename{tikzLVNXooEXEvoVooTWO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -134,5 +134,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigLVNXooEXEvoVooTWOPICTLVNXooEXEvoVooTWO
 %AFTER PSPICTURE

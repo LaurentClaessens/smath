@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYDTGooZGkkeiPICTYDTGooZGkkei.phystricks.aux%
+\immediate\openout\writeOfphystricks=YDTGooZGkkei.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYDTGooZGkkeiPICTYDTGooZGkkei.phystricks.aux%
+\immediate\openout\writeOfphystricks=YDTGooZGkkei.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B \)}}%
 \immediate\write\writeOfphystricks{totalheightof477431552f1932be6441c81f832eebd86d898044:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,7 +75,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigYDTGooZGkkeiPICTYDTGooZGkkei}
+\tikzsetnextfilename{tikzYDTGooZGkkei}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -104,5 +104,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigYDTGooZGkkeiPICTYDTGooZGkkei
 %AFTER PSPICTURE

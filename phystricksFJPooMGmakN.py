@@ -17,7 +17,7 @@ def FJPooMGmakN():
     trig=Polygon(A,B,C)
     trig.edges[0].put_mark(0.2,text="\( 4\)",pspict=pspict,position="N")
 
-    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)*degree+180,"\( ?\)",pspict=pspict,position="corner")
+    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)*degree,added_angle=180,text="\( ?\)",pspict=pspict,position="corner")
     trig.edges[2].put_mark(0.2,text="\( 3\)",pspict=pspict,position="E")
 
     no_symbol(trig.vertices)

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigZMSWooTAPggAPICTZMSWooTAPggA.phystricks.aux%
+\immediate\openout\writeOfphystricks=ZMSWooTAPggA.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigZMSWooTAPggAPICTZMSWooTAPggA.phystricks.aux%
+\immediate\openout\writeOfphystricks=ZMSWooTAPggA.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -99,21 +99,11 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigZMSWooTAPggAPICTZMSWooTAPggA}
+\tikzsetnextfilename{tikzZMSWooTAPggA}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [] (-8.50,-0.100) -- (-8.50,0.100);
-\draw [] (-6.80,-0.100) -- (-6.80,0.100);
-\draw [] (-5.10,-0.100) -- (-5.10,0.100);
-\draw [] (-3.40,-0.100) -- (-3.40,0.100);
-\draw [] (-1.70,-0.100) -- (-1.70,0.100);
-\draw [] (0,-0.100) -- (0,0.100);
-\draw [] (1.70,-0.100) -- (1.70,0.100);
-\draw [] (3.40,-0.100) -- (3.40,0.100);
-\draw [] (5.10,-0.100) -- (5.10,0.100);
-\draw [] (6.80,-0.100) -- (6.80,0.100);
 \draw [,->,>=latex] (-8.500000000,0) -- (7.990000000,0);
 %DEFAULT
 \draw (-8.500000000,-0.3185623333) node {\( -5\)};
@@ -126,10 +116,18 @@
 \draw (3.400000000,-0.3049540000) node {\( 2\)};
 \draw (5.100000000,-0.3049540000) node {\( 3\)};
 \draw (6.800000000,-0.3049540000) node {\( 4\)};
-
+\draw [] (-8.50,-0.100) -- (-8.50,0.100);
+\draw [] (-6.80,-0.100) -- (-6.80,0.100);
+\draw [] (-5.10,-0.100) -- (-5.10,0.100);
+\draw [] (-3.40,-0.100) -- (-3.40,0.100);
+\draw [] (-1.70,-0.100) -- (-1.70,0.100);
+\draw [] (0,-0.100) -- (0,0.100);
+\draw [] (1.70,-0.100) -- (1.70,0.100);
+\draw [] (3.40,-0.100) -- (3.40,0.100);
+\draw [] (5.10,-0.100) -- (5.10,0.100);
+\draw [] (6.80,-0.100) -- (6.80,0.100);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigZMSWooTAPggAPICTZMSWooTAPggA
 %AFTER PSPICTURE

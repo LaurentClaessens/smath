@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigQJGGooLkuRLIPICTQJGGooLkuRLI.phystricks.aux%
+\immediate\openout\writeOfphystricks=QJGGooLkuRLI.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigQJGGooLkuRLIPICTQJGGooLkuRLI.phystricks.aux%
+\immediate\openout\writeOfphystricks=QJGGooLkuRLI.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Alice}}%
 \immediate\write\writeOfphystricks{totalheightof35318264c9a98faf79965c270ac80c5606774df1:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigQJGGooLkuRLIPICTQJGGooLkuRLI}
+\tikzsetnextfilename{tikzQJGGooLkuRLI}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -112,5 +112,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigQJGGooLkuRLIPICTQJGGooLkuRLI
 %AFTER PSPICTURE

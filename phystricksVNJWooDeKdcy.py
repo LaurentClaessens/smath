@@ -10,7 +10,7 @@ def VNJWooDeKdcy():
     T=Point(0,0)
     S=Point(3,2)
     ST=Segment(S,T)
-    U=Circle(ST.midpoint(), ST.length/2 ).get_point( ST.angle()+70)
+    U=Circle(ST.midpoint(), ST.length/2 ).get_point( ST.angle().degree+70)
 
     trig=Polygon(S,T,U)
     trig.put_mark(0.2,points_names="STU",pspict=pspict)

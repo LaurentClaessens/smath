@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigEJbcoxOPICTEJbcoxO.phystricks.aux%
+\immediate\openout\writeOfphystricks=EJbcoxO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigEJbcoxOPICTEJbcoxO.phystricks.aux%
+\immediate\openout\writeOfphystricks=EJbcoxO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -103,7 +103,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigEJbcoxOPICTEJbcoxO}
+\tikzsetnextfilename{tikzEJbcoxO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -130,27 +130,7 @@
 \draw [color=gray,style=solid] (-6.00,1.30) -- (6.00,1.30);
 \draw [color=gray,style=solid] (-6.00,2.60) -- (6.00,2.60);
 %AXES
-\draw (-6.000000000,-0.3185623333) node {$ -3 $};
-\draw [] (-6.00,-0.100) -- (-6.00,0.100);
-\draw (-4.000000000,-0.3185623333) node {$ -2 $};
-\draw [] (-4.00,-0.100) -- (-4.00,0.100);
-\draw (-2.000000000,-0.3185623333) node {$ -1 $};
-\draw [] (-2.00,-0.100) -- (-2.00,0.100);
-\draw (2.000000000,-0.3049540000) node {$ 1 $};
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 2 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (6.000000000,-0.3049540000) node {$ 3 $};
-\draw [] (6.00,-0.100) -- (6.00,0.100);
 \draw [,->,>=latex] (-6.500000000,0) -- (6.500000000,0);
-\draw (-0.4129313333,-2.600000000) node {$ -2 $};
-\draw [] (-0.100,-2.60) -- (0.100,-2.60);
-\draw (-0.4129313333,-1.300000000) node {$ -1 $};
-\draw [] (-0.100,-1.30) -- (0.100,-1.30);
-\draw (-0.2833333333,1.300000000) node {$ 1 $};
-\draw [] (-0.100,1.30) -- (0.100,1.30);
-\draw (-0.2833333333,2.600000000) node {$ 2 $};
-\draw [] (-0.100,2.60) -- (0.100,2.60);
 \draw [,->,>=latex] (0,-3.100000000) -- (0,3.100000000);
 %DEFAULT
 
@@ -169,9 +149,28 @@
 \draw []  (1.720000000,1.658223362) node [rotate=0] {$\bullet$};
 \draw (1.720000000,1.972111862) node {\( M\)};
 
+\draw (-6.000000000,-0.3185623333) node {$ -3 $};
+\draw [] (-6.00,-0.100) -- (-6.00,0.100);
+\draw (-4.000000000,-0.3185623333) node {$ -2 $};
+\draw [] (-4.00,-0.100) -- (-4.00,0.100);
+\draw (-2.000000000,-0.3185623333) node {$ -1 $};
+\draw [] (-2.00,-0.100) -- (-2.00,0.100);
+\draw (2.000000000,-0.3049540000) node {$ 1 $};
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw (4.000000000,-0.3049540000) node {$ 2 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (6.000000000,-0.3049540000) node {$ 3 $};
+\draw [] (6.00,-0.100) -- (6.00,0.100);
+\draw (-0.4129313333,-2.600000000) node {$ -2 $};
+\draw [] (-0.100,-2.60) -- (0.100,-2.60);
+\draw (-0.4129313333,-1.300000000) node {$ -1 $};
+\draw [] (-0.100,-1.30) -- (0.100,-1.30);
+\draw (-0.2833333333,1.300000000) node {$ 1 $};
+\draw [] (-0.100,1.30) -- (0.100,1.30);
+\draw (-0.2833333333,2.600000000) node {$ 2 $};
+\draw [] (-0.100,2.60) -- (0.100,2.60);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigEJbcoxOPICTEJbcoxO
 %AFTER PSPICTURE

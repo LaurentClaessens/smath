@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigKBOKooTCswplPICTKBOKooTCswpl.phystricks.aux%
+\immediate\openout\writeOfphystricks=KBOKooTCswpl.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigKBOKooTCswplPICTKBOKooTCswpl.phystricks.aux%
+\immediate\openout\writeOfphystricks=KBOKooTCswpl.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -107,7 +107,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigKBOKooTCswplPICTKBOKooTCswpl}
+\tikzsetnextfilename{tikzKBOKooTCswpl}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -148,6 +148,18 @@
 \draw [color=gray,style=solid] (-3.20,3.20) -- (3.20,3.20);
 \draw [color=gray,style=solid] (-3.20,4.00) -- (3.20,4.00);
 %AXES
+\draw [,->,>=latex] (-3.700000000,0) -- (3.700000000,0);
+\draw [,->,>=latex] (0,-3.700000000) -- (0,4.500000000);
+%DEFAULT
+\draw []  (2.400000000,1.600000000) node [rotate=0] {$\bullet$};
+\draw (2.713214059,1.847606706) node {\( A\)};
+\draw []  (-0.8000000000,3.200000000) node [rotate=0] {$\bullet$};
+\draw (-1.007371458,3.530695167) node {\( B\)};
+\draw []  (0,-0.8000000000) node [rotate=0] {$\bullet$};
+\draw (0,-1.136666667) node {\( C\)};
+\draw []  (-2.400000000,-1.600000000) node [rotate=0] {$\bullet$};
+\draw (-2.734445726,-1.847606706) node {\( D\)};
+
 \draw (-3.200000000,-0.3408228333) node {$ -4 $};
 \draw [] (-3.20,-0.100) -- (-3.20,0.100);
 \draw (-2.400000000,-0.3408228333) node {$ -3 $};
@@ -164,7 +176,6 @@
 \draw [] (2.40,-0.100) -- (2.40,0.100);
 \draw (3.200000000,-0.3259458333) node {$ 4 $};
 \draw [] (3.20,-0.100) -- (3.20,0.100);
-\draw [,->,>=latex] (-3.700000000,0) -- (3.700000000,0);
 \draw (-0.4501938333,-3.200000000) node {$ -4 $};
 \draw [] (-0.100,-3.20) -- (0.100,-3.20);
 \draw (-0.4501938333,-2.400000000) node {$ -3 $};
@@ -183,20 +194,8 @@
 \draw [] (-0.100,3.20) -- (0.100,3.20);
 \draw (-0.2979163333,4.000000000) node {$ 5 $};
 \draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw [,->,>=latex] (0,-3.700000000) -- (0,4.500000000);
-%DEFAULT
-\draw []  (2.400000000,1.600000000) node [rotate=0] {$\bullet$};
-\draw (2.713214059,1.847606706) node {\( A\)};
-\draw []  (-0.8000000000,3.200000000) node [rotate=0] {$\bullet$};
-\draw (-1.007371458,3.530695167) node {\( B\)};
-\draw []  (0,-0.8000000000) node [rotate=0] {$\bullet$};
-\draw (0,-1.136666667) node {\( C\)};
-\draw []  (-2.400000000,-1.600000000) node [rotate=0] {$\bullet$};
-\draw (-2.734445726,-1.847606706) node {\( D\)};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigKBOKooTCswplPICTKBOKooTCswpl
 %AFTER PSPICTURE

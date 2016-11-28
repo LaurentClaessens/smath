@@ -68,14 +68,6 @@
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 1 $}}%
 \immediate\write\writeOfphystricks{widthof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 2 $}}%
-\immediate\write\writeOfphystricks{totalheightofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 2 $}}%
-\immediate\write\writeOfphystricks{widthofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 3 $}}%
-\immediate\write\writeOfphystricks{totalheightofed56d4f5a92bbb6199a51735cf18f0220d859b73:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 3 $}}%
-\immediate\write\writeOfphystricks{widthofed56d4f5a92bbb6199a51735cf18f0220d859b73:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -85,33 +77,7 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (0.5000000000,-0.3049540000) node {$ 10 $};
-\draw [] (0.500,-0.100) -- (0.500,0.100);
-\draw (1.000000000,-0.3049540000) node {$ 20 $};
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (1.500000000,-0.3049540000) node {$ 30 $};
-\draw [] (1.50,-0.100) -- (1.50,0.100);
-\draw (2.000000000,-0.3049540000) node {$ 40 $};
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (2.500000000,-0.3049540000) node {$ 50 $};
-\draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw (3.000000000,-0.3049540000) node {$ 60 $};
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (3.500000000,-0.3049540000) node {$ 70 $};
-\draw [] (3.50,-0.100) -- (3.50,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 80 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (4.500000000,-0.3049540000) node {$ 90 $};
-\draw [] (4.50,-0.100) -- (4.50,0.100);
-\draw (5.000000000,-0.3049540000) node {$ 100 $};
-\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw [,->,>=latex] (0,0) -- (5.450000000,0);
-\draw (-0.2833333333,1.666666667) node {$ 1 $};
-\draw [] (-0.100,1.67) -- (0.100,1.67);
-\draw (-0.2833333333,3.333333333) node {$ 2 $};
-\draw [] (-0.100,3.33) -- (0.100,3.33);
-\draw (-0.2000000000,5.000000000) node {$ 3 $};
-\draw [] (-0.100,5.00) -- (0.100,5.00);
 \draw [,->,>=latex] (0,0) -- (0,5.500000000);
 %DEFAULT
 \draw [] (0,0) -- (0,0);
@@ -156,22 +122,22 @@
 \draw [] (1.95,0) -- (1.95,0);
 \draw [] (2.00,0) -- (2.00,0);
 \draw [] (2.05,0) -- (2.05,0);
-\draw [] (2.10,0) -- (2.10,0);
+\draw [] (2.10,0) -- (2.10,5.00);
 \draw [] (2.15,0) -- (2.15,0);
-\draw [] (2.20,0) -- (2.20,1.67);
-\draw [] (2.25,0) -- (2.25,0);
-\draw [] (2.30,0) -- (2.30,0);
-\draw [] (2.35,0) -- (2.35,1.67);
-\draw [] (2.40,0) -- (2.40,5.00);
+\draw [] (2.20,0) -- (2.20,0);
+\draw [] (2.25,0) -- (2.25,5.00);
+\draw [] (2.30,0) -- (2.30,5.00);
+\draw [] (2.35,0) -- (2.35,5.00);
+\draw [] (2.40,0) -- (2.40,0);
 \draw [] (2.45,0) -- (2.45,0);
-\draw [] (2.50,0) -- (2.50,3.33);
-\draw [] (2.55,0) -- (2.55,0);
-\draw [] (2.60,0) -- (2.60,1.67);
-\draw [] (2.65,0) -- (2.65,0);
-\draw [] (2.70,0) -- (2.70,1.67);
+\draw [] (2.50,0) -- (2.50,0);
+\draw [] (2.55,0) -- (2.55,5.00);
+\draw [] (2.60,0) -- (2.60,5.00);
+\draw [] (2.65,0) -- (2.65,5.00);
+\draw [] (2.70,0) -- (2.70,5.00);
 \draw [] (2.75,0) -- (2.75,0);
-\draw [] (2.80,0) -- (2.80,0);
-\draw [] (2.85,0) -- (2.85,1.67);
+\draw [] (2.80,0) -- (2.80,5.00);
+\draw [] (2.85,0) -- (2.85,5.00);
 \draw [] (2.90,0) -- (2.90,0);
 \draw [] (2.95,0) -- (2.95,0);
 \draw [] (3.00,0) -- (3.00,0);
@@ -214,12 +180,32 @@
 \draw [] (4.85,0) -- (4.85,0);
 \draw [] (4.90,0) -- (4.90,0);
 \draw [] (4.95,0) -- (4.95,0);
-
+\draw (0.5000000000,-0.3049540000) node {$ 10 $};
+\draw [] (0.500,-0.100) -- (0.500,0.100);
+\draw (1.000000000,-0.3049540000) node {$ 20 $};
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw (1.500000000,-0.3049540000) node {$ 30 $};
+\draw [] (1.50,-0.100) -- (1.50,0.100);
+\draw (2.000000000,-0.3049540000) node {$ 40 $};
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw (2.500000000,-0.3049540000) node {$ 50 $};
+\draw [] (2.50,-0.100) -- (2.50,0.100);
+\draw (3.000000000,-0.3049540000) node {$ 60 $};
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw (3.500000000,-0.3049540000) node {$ 70 $};
+\draw [] (3.50,-0.100) -- (3.50,0.100);
+\draw (4.000000000,-0.3049540000) node {$ 80 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (4.500000000,-0.3049540000) node {$ 90 $};
+\draw [] (4.50,-0.100) -- (4.50,0.100);
+\draw (5.000000000,-0.3049540000) node {$ 100 $};
+\draw [] (5.00,-0.100) -- (5.00,0.100);
+\draw (-0.2833333333,5.000000000) node {$ 1 $};
+\draw [] (-0.100,5.00) -- (0.100,5.00);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0PICTSimulBinNWxfTNpspict0
 \label{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0}
 }                  % Closing subfigure 1
 %
@@ -316,6 +302,14 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0PICTSimulBinNWxfTNpspict0
 \immediate\write\writeOfphystricks{totalheightof66757858bda620e2bb9223264f3c8efab8e817df:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 11 $}}%
 \immediate\write\writeOfphystricks{widthof66757858bda620e2bb9223264f3c8efab8e817df:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 12 $}}%
+\immediate\write\writeOfphystricks{totalheightof5e4f49bb859c2fb35631f2cf273b45f4657e094f:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 12 $}}%
+\immediate\write\writeOfphystricks{widthof5e4f49bb859c2fb35631f2cf273b45f4657e094f:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 13 $}}%
+\immediate\write\writeOfphystricks{totalheightofd5af963c3ca1d7ee0ca7661ab78dfcbc2fc770e4:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 13 $}}%
+\immediate\write\writeOfphystricks{widthofd5af963c3ca1d7ee0ca7661ab78dfcbc2fc770e4:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -325,49 +319,7 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0PICTSimulBinNWxfTNpspict0
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (0.5000000000,-0.3049540000) node {$ 10 $};
-\draw [] (0.500,-0.100) -- (0.500,0.100);
-\draw (1.000000000,-0.3049540000) node {$ 20 $};
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (1.500000000,-0.3049540000) node {$ 30 $};
-\draw [] (1.50,-0.100) -- (1.50,0.100);
-\draw (2.000000000,-0.3049540000) node {$ 40 $};
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (2.500000000,-0.3049540000) node {$ 50 $};
-\draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw (3.000000000,-0.3049540000) node {$ 60 $};
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (3.500000000,-0.3049540000) node {$ 70 $};
-\draw [] (3.50,-0.100) -- (3.50,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 80 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (4.500000000,-0.3049540000) node {$ 90 $};
-\draw [] (4.50,-0.100) -- (4.50,0.100);
-\draw (5.000000000,-0.3049540000) node {$ 100 $};
-\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw [,->,>=latex] (0,0) -- (5.450000000,0);
-\draw (-0.2833333333,0.5000000000) node {$ 1 $};
-\draw [] (-0.100,0.500) -- (0.100,0.500);
-\draw (-0.2833333333,1.000000000) node {$ 2 $};
-\draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw (-0.2833333333,1.500000000) node {$ 3 $};
-\draw [] (-0.100,1.50) -- (0.100,1.50);
-\draw (-0.2833333333,2.000000000) node {$ 4 $};
-\draw [] (-0.100,2.00) -- (0.100,2.00);
-\draw (-0.2833333333,2.500000000) node {$ 5 $};
-\draw [] (-0.100,2.50) -- (0.100,2.50);
-\draw (-0.2833333333,3.000000000) node {$ 6 $};
-\draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw (-0.2833333333,3.500000000) node {$ 7 $};
-\draw [] (-0.100,3.50) -- (0.100,3.50);
-\draw (-0.2833333333,4.000000000) node {$ 8 $};
-\draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw (-0.2833333333,4.500000000) node {$ 9 $};
-\draw [] (-0.100,4.50) -- (0.100,4.50);
-\draw (-0.3666666667,5.000000000) node {$ 10 $};
-\draw [] (-0.100,5.00) -- (0.100,5.00);
-\draw (-0.3666666667,5.500000000) node {$ 11 $};
-\draw [] (-0.100,5.50) -- (0.100,5.50);
 \draw [,->,>=latex] (0,0) -- (0,5.500000000);
 %DEFAULT
 \draw [] (0,0) -- (0,0);
@@ -407,32 +359,32 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0PICTSimulBinNWxfTNpspict0
 \draw [] (1.70,0) -- (1.70,0);
 \draw [] (1.75,0) -- (1.75,0);
 \draw [] (1.80,0) -- (1.80,0);
-\draw [] (1.85,0) -- (1.85,0.500);
+\draw [] (1.85,0) -- (1.85,0);
 \draw [] (1.90,0) -- (1.90,0);
-\draw [] (1.95,0) -- (1.95,0.500);
-\draw [] (2.00,0) -- (2.00,0.500);
-\draw [] (2.05,0) -- (2.05,0.500);
-\draw [] (2.10,0) -- (2.10,0.500);
-\draw [] (2.15,0) -- (2.15,0.500);
-\draw [] (2.20,0) -- (2.20,0.500);
-\draw [] (2.25,0) -- (2.25,1.50);
-\draw [] (2.30,0) -- (2.30,3.50);
-\draw [] (2.35,0) -- (2.35,3.50);
-\draw [] (2.40,0) -- (2.40,2.50);
-\draw [] (2.45,0) -- (2.45,5.00);
-\draw [] (2.50,0) -- (2.50,4.50);
-\draw [] (2.55,0) -- (2.55,3.50);
-\draw [] (2.60,0) -- (2.60,4.00);
-\draw [] (2.65,0) -- (2.65,2.00);
-\draw [] (2.70,0) -- (2.70,4.50);
-\draw [] (2.75,0) -- (2.75,2.00);
-\draw [] (2.80,0) -- (2.80,2.50);
-\draw [] (2.85,0) -- (2.85,3.50);
-\draw [] (2.90,0) -- (2.90,1.50);
-\draw [] (2.95,0) -- (2.95,0.500);
-\draw [] (3.00,0) -- (3.00,1.00);
-\draw [] (3.05,0) -- (3.05,0.500);
-\draw [] (3.10,0) -- (3.10,0.500);
+\draw [] (1.95,0) -- (1.95,0);
+\draw [] (2.00,0) -- (2.00,1.25);
+\draw [] (2.05,0) -- (2.05,0.833);
+\draw [] (2.10,0) -- (2.10,1.67);
+\draw [] (2.15,0) -- (2.15,2.50);
+\draw [] (2.20,0) -- (2.20,0.833);
+\draw [] (2.25,0) -- (2.25,1.67);
+\draw [] (2.30,0) -- (2.30,2.50);
+\draw [] (2.35,0) -- (2.35,2.50);
+\draw [] (2.40,0) -- (2.40,1.67);
+\draw [] (2.45,0) -- (2.45,1.25);
+\draw [] (2.50,0) -- (2.50,5.00);
+\draw [] (2.55,0) -- (2.55,4.17);
+\draw [] (2.60,0) -- (2.60,2.92);
+\draw [] (2.65,0) -- (2.65,2.50);
+\draw [] (2.70,0) -- (2.70,3.33);
+\draw [] (2.75,0) -- (2.75,2.50);
+\draw [] (2.80,0) -- (2.80,1.67);
+\draw [] (2.85,0) -- (2.85,0.833);
+\draw [] (2.90,0) -- (2.90,0);
+\draw [] (2.95,0) -- (2.95,1.25);
+\draw [] (3.00,0) -- (3.00,0);
+\draw [] (3.05,0) -- (3.05,0.417);
+\draw [] (3.10,0) -- (3.10,0.417);
 \draw [] (3.15,0) -- (3.15,0);
 \draw [] (3.20,0) -- (3.20,0);
 \draw [] (3.25,0) -- (3.25,0);
@@ -470,12 +422,56 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN0PICTSimulBinNWxfTNpspict0
 \draw [] (4.85,0) -- (4.85,0);
 \draw [] (4.90,0) -- (4.90,0);
 \draw [] (4.95,0) -- (4.95,0);
-
+\draw (0.5000000000,-0.3049540000) node {$ 10 $};
+\draw [] (0.500,-0.100) -- (0.500,0.100);
+\draw (1.000000000,-0.3049540000) node {$ 20 $};
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw (1.500000000,-0.3049540000) node {$ 30 $};
+\draw [] (1.50,-0.100) -- (1.50,0.100);
+\draw (2.000000000,-0.3049540000) node {$ 40 $};
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw (2.500000000,-0.3049540000) node {$ 50 $};
+\draw [] (2.50,-0.100) -- (2.50,0.100);
+\draw (3.000000000,-0.3049540000) node {$ 60 $};
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw (3.500000000,-0.3049540000) node {$ 70 $};
+\draw [] (3.50,-0.100) -- (3.50,0.100);
+\draw (4.000000000,-0.3049540000) node {$ 80 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (4.500000000,-0.3049540000) node {$ 90 $};
+\draw [] (4.50,-0.100) -- (4.50,0.100);
+\draw (5.000000000,-0.3049540000) node {$ 100 $};
+\draw [] (5.00,-0.100) -- (5.00,0.100);
+\draw (-0.2833333333,0.4166666667) node {$ 1 $};
+\draw [] (-0.100,0.417) -- (0.100,0.417);
+\draw (-0.2833333333,0.8333333333) node {$ 2 $};
+\draw [] (-0.100,0.833) -- (0.100,0.833);
+\draw (-0.2833333333,1.250000000) node {$ 3 $};
+\draw [] (-0.100,1.25) -- (0.100,1.25);
+\draw (-0.2833333333,1.666666667) node {$ 4 $};
+\draw [] (-0.100,1.67) -- (0.100,1.67);
+\draw (-0.2833333333,2.083333333) node {$ 5 $};
+\draw [] (-0.100,2.08) -- (0.100,2.08);
+\draw (-0.2833333333,2.500000000) node {$ 6 $};
+\draw [] (-0.100,2.50) -- (0.100,2.50);
+\draw (-0.2833333333,2.916666667) node {$ 7 $};
+\draw [] (-0.100,2.92) -- (0.100,2.92);
+\draw (-0.2833333333,3.333333333) node {$ 8 $};
+\draw [] (-0.100,3.33) -- (0.100,3.33);
+\draw (-0.2833333333,3.750000000) node {$ 9 $};
+\draw [] (-0.100,3.75) -- (0.100,3.75);
+\draw (-0.3666666667,4.166666667) node {$ 10 $};
+\draw [] (-0.100,4.17) -- (0.100,4.17);
+\draw (-0.3666666667,4.583333333) node {$ 11 $};
+\draw [] (-0.100,4.58) -- (0.100,4.58);
+\draw (-0.3666666667,5.000000000) node {$ 12 $};
+\draw [] (-0.100,5.00) -- (0.100,5.00);
+\draw (-0.2000000000,5.416666667) node {$ 13 $};
+\draw [] (-0.100,5.42) -- (0.100,5.42);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1PICTSimulBinNWxfTNpspict1
 \label{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1}
 }                  % Closing subfigure 2
 %
@@ -532,26 +528,26 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1PICTSimulBinNWxfTNpspict1
 \immediate\write\writeOfphystricks{totalheightof0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 100 $}}%
 \immediate\write\writeOfphystricks{widthof0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 162 $}}%
-\immediate\write\writeOfphystricks{totalheightoff9496406931218d0135a55ff985fc503ea030aa5:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 162 $}}%
-\immediate\write\writeOfphystricks{widthoff9496406931218d0135a55ff985fc503ea030aa5:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 324 $}}%
-\immediate\write\writeOfphystricks{totalheightofe8acfdc8b0562f13d4f7e7754d60ae71f97431f6:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 324 $}}%
-\immediate\write\writeOfphystricks{widthofe8acfdc8b0562f13d4f7e7754d60ae71f97431f6:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 486 $}}%
-\immediate\write\writeOfphystricks{totalheightof26d7079283958f8283bdc2fec1f1c7a18bbdba40:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 486 $}}%
-\immediate\write\writeOfphystricks{widthof26d7079283958f8283bdc2fec1f1c7a18bbdba40:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 648 $}}%
-\immediate\write\writeOfphystricks{totalheightofbd7fdb6aa4e59b9fbbea14d6a6b63638832d9cf2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 648 $}}%
-\immediate\write\writeOfphystricks{widthofbd7fdb6aa4e59b9fbbea14d6a6b63638832d9cf2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 810 $}}%
-\immediate\write\writeOfphystricks{totalheightof68f0e92f8ba92e0af4be0506641ba2f1af8d1e16:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 810 $}}%
-\immediate\write\writeOfphystricks{widthof68f0e92f8ba92e0af4be0506641ba2f1af8d1e16:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{832}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof74f185cb345862695a9e718953c1c2d680a241ae:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{832}{5} $}}%
+\immediate\write\writeOfphystricks{widthof74f185cb345862695a9e718953c1c2d680a241ae:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{1664}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightofdbebddbaedfba96a4874cdcf84428e3a1421f2d8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{1664}{5} $}}%
+\immediate\write\writeOfphystricks{widthofdbebddbaedfba96a4874cdcf84428e3a1421f2d8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{2496}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof89fe8178c2435db29b97a1e4134eebf2e0331ebd:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{2496}{5} $}}%
+\immediate\write\writeOfphystricks{widthof89fe8178c2435db29b97a1e4134eebf2e0331ebd:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{3328}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof80cfa3c87cb1d6cdb23387b1c512a5f0044de5f9:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{3328}{5} $}}%
+\immediate\write\writeOfphystricks{widthof80cfa3c87cb1d6cdb23387b1c512a5f0044de5f9:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 832 $}}%
+\immediate\write\writeOfphystricks{totalheightof968a2344f9e9f12911d82e8544d69938a30fe7eb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 832 $}}%
+\immediate\write\writeOfphystricks{widthof968a2344f9e9f12911d82e8544d69938a30fe7eb:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -561,37 +557,7 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1PICTSimulBinNWxfTNpspict1
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (0.5000000000,-0.3049540000) node {$ 10 $};
-\draw [] (0.500,-0.100) -- (0.500,0.100);
-\draw (1.000000000,-0.3049540000) node {$ 20 $};
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (1.500000000,-0.3049540000) node {$ 30 $};
-\draw [] (1.50,-0.100) -- (1.50,0.100);
-\draw (2.000000000,-0.3049540000) node {$ 40 $};
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (2.500000000,-0.3049540000) node {$ 50 $};
-\draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw (3.000000000,-0.3049540000) node {$ 60 $};
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (3.500000000,-0.3049540000) node {$ 70 $};
-\draw [] (3.50,-0.100) -- (3.50,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 80 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (4.500000000,-0.3049540000) node {$ 90 $};
-\draw [] (4.50,-0.100) -- (4.50,0.100);
-\draw (5.000000000,-0.3049540000) node {$ 100 $};
-\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw [,->,>=latex] (0,0) -- (5.450000000,0);
-\draw (-0.2000000000,1.000000000) node {$ 162 $};
-\draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw (-0.2000000000,2.000000000) node {$ 324 $};
-\draw [] (-0.100,2.00) -- (0.100,2.00);
-\draw (-0.2000000000,3.000000000) node {$ 486 $};
-\draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw (-0.2000000000,4.000000000) node {$ 648 $};
-\draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw (-0.2000000000,5.000000000) node {$ 810 $};
-\draw [] (-0.100,5.00) -- (0.100,5.00);
 \draw [,->,>=latex] (0,0) -- (0,5.500000000);
 %DEFAULT
 \draw [] (0,0) -- (0,0);
@@ -625,47 +591,47 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1PICTSimulBinNWxfTNpspict1
 \draw [] (1.40,0) -- (1.40,0);
 \draw [] (1.45,0) -- (1.45,0);
 \draw [] (1.50,0) -- (1.50,0);
-\draw [] (1.55,0) -- (1.55,0.00617);
-\draw [] (1.60,0) -- (1.60,0.00617);
-\draw [] (1.65,0) -- (1.65,0.0123);
-\draw [] (1.70,0) -- (1.70,0.0185);
-\draw [] (1.75,0) -- (1.75,0.0556);
-\draw [] (1.80,0) -- (1.80,0.0926);
-\draw [] (1.85,0) -- (1.85,0.0926);
-\draw [] (1.90,0) -- (1.90,0.228);
-\draw [] (1.95,0) -- (1.95,0.358);
-\draw [] (2.00,0) -- (2.00,0.654);
-\draw [] (2.05,0) -- (2.05,0.926);
-\draw [] (2.10,0) -- (2.10,1.53);
-\draw [] (2.15,0) -- (2.15,1.88);
-\draw [] (2.20,0) -- (2.20,2.40);
-\draw [] (2.25,0) -- (2.25,3.13);
-\draw [] (2.30,0) -- (2.30,3.30);
-\draw [] (2.35,0) -- (2.35,3.95);
-\draw [] (2.40,0) -- (2.40,4.31);
-\draw [] (2.45,0) -- (2.45,4.91);
+\draw [] (1.55,0) -- (1.55,0);
+\draw [] (1.60,0) -- (1.60,0);
+\draw [] (1.65,0) -- (1.65,0.0120);
+\draw [] (1.70,0) -- (1.70,0.0120);
+\draw [] (1.75,0) -- (1.75,0.0541);
+\draw [] (1.80,0) -- (1.80,0.138);
+\draw [] (1.85,0) -- (1.85,0.198);
+\draw [] (1.90,0) -- (1.90,0.306);
+\draw [] (1.95,0) -- (1.95,0.391);
+\draw [] (2.00,0) -- (2.00,0.751);
+\draw [] (2.05,0) -- (2.05,0.943);
+\draw [] (2.10,0) -- (2.10,1.27);
+\draw [] (2.15,0) -- (2.15,1.83);
+\draw [] (2.20,0) -- (2.20,2.12);
+\draw [] (2.25,0) -- (2.25,2.98);
+\draw [] (2.30,0) -- (2.30,3.46);
+\draw [] (2.35,0) -- (2.35,4.06);
+\draw [] (2.40,0) -- (2.40,4.20);
+\draw [] (2.45,0) -- (2.45,4.57);
 \draw [] (2.50,0) -- (2.50,5.00);
-\draw [] (2.55,0) -- (2.55,4.91);
-\draw [] (2.60,0) -- (2.60,4.20);
-\draw [] (2.65,0) -- (2.65,4.43);
-\draw [] (2.70,0) -- (2.70,3.69);
-\draw [] (2.75,0) -- (2.75,2.81);
-\draw [] (2.80,0) -- (2.80,2.58);
-\draw [] (2.85,0) -- (2.85,1.94);
-\draw [] (2.90,0) -- (2.90,1.36);
-\draw [] (2.95,0) -- (2.95,1.07);
-\draw [] (3.00,0) -- (3.00,0.673);
-\draw [] (3.05,0) -- (3.05,0.438);
-\draw [] (3.10,0) -- (3.10,0.309);
-\draw [] (3.15,0) -- (3.15,0.198);
-\draw [] (3.20,0) -- (3.20,0.0926);
-\draw [] (3.25,0) -- (3.25,0.0679);
-\draw [] (3.30,0) -- (3.30,0.0494);
-\draw [] (3.35,0) -- (3.35,0.0123);
-\draw [] (3.40,0) -- (3.40,0.0123);
-\draw [] (3.45,0) -- (3.45,0.00617);
+\draw [] (2.55,0) -- (2.55,4.69);
+\draw [] (2.60,0) -- (2.60,4.49);
+\draw [] (2.65,0) -- (2.65,4.09);
+\draw [] (2.70,0) -- (2.70,3.65);
+\draw [] (2.75,0) -- (2.75,3.06);
+\draw [] (2.80,0) -- (2.80,2.28);
+\draw [] (2.85,0) -- (2.85,1.81);
+\draw [] (2.90,0) -- (2.90,1.35);
+\draw [] (2.95,0) -- (2.95,0.841);
+\draw [] (3.00,0) -- (3.00,0.553);
+\draw [] (3.05,0) -- (3.05,0.391);
+\draw [] (3.10,0) -- (3.10,0.276);
+\draw [] (3.15,0) -- (3.15,0.156);
+\draw [] (3.20,0) -- (3.20,0.0721);
+\draw [] (3.25,0) -- (3.25,0.0661);
+\draw [] (3.30,0) -- (3.30,0.00601);
+\draw [] (3.35,0) -- (3.35,0.00601);
+\draw [] (3.40,0) -- (3.40,0.00601);
+\draw [] (3.45,0) -- (3.45,0.00601);
 \draw [] (3.50,0) -- (3.50,0);
-\draw [] (3.55,0) -- (3.55,0);
+\draw [] (3.55,0) -- (3.55,0.00601);
 \draw [] (3.60,0) -- (3.60,0);
 \draw [] (3.65,0) -- (3.65,0);
 \draw [] (3.70,0) -- (3.70,0);
@@ -694,12 +660,40 @@ FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN1PICTSimulBinNWxfTNpspict1
 \draw [] (4.85,0) -- (4.85,0);
 \draw [] (4.90,0) -- (4.90,0);
 \draw [] (4.95,0) -- (4.95,0);
-
+\draw (0.5000000000,-0.3049540000) node {$ 10 $};
+\draw [] (0.500,-0.100) -- (0.500,0.100);
+\draw (1.000000000,-0.3049540000) node {$ 20 $};
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw (1.500000000,-0.3049540000) node {$ 30 $};
+\draw [] (1.50,-0.100) -- (1.50,0.100);
+\draw (2.000000000,-0.3049540000) node {$ 40 $};
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw (2.500000000,-0.3049540000) node {$ 50 $};
+\draw [] (2.50,-0.100) -- (2.50,0.100);
+\draw (3.000000000,-0.3049540000) node {$ 60 $};
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw (3.500000000,-0.3049540000) node {$ 70 $};
+\draw [] (3.50,-0.100) -- (3.50,0.100);
+\draw (4.000000000,-0.3049540000) node {$ 80 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (4.500000000,-0.3049540000) node {$ 90 $};
+\draw [] (4.50,-0.100) -- (4.50,0.100);
+\draw (5.000000000,-0.3049540000) node {$ 100 $};
+\draw [] (5.00,-0.100) -- (5.00,0.100);
+\draw (-0.2000000000,1.000000000) node {$ \frac{832}{5} $};
+\draw [] (-0.100,1.00) -- (0.100,1.00);
+\draw (-0.2000000000,2.000000000) node {$ \frac{1664}{5} $};
+\draw [] (-0.100,2.00) -- (0.100,2.00);
+\draw (-0.2000000000,3.000000000) node {$ \frac{2496}{5} $};
+\draw [] (-0.100,3.00) -- (0.100,3.00);
+\draw (-0.2000000000,4.000000000) node {$ \frac{3328}{5} $};
+\draw [] (-0.100,4.00) -- (0.100,4.00);
+\draw (-0.2000000000,5.000000000) node {$ 832 $};
+\draw [] (-0.100,5.00) -- (0.100,5.00);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2PICTSimulBinNWxfTNpspict2
 \label{LabelFigSimulBinNWxfTNssLabelSubFigSimulBinNWxfTN2}
 }                  % Closing subfigure 3
 %

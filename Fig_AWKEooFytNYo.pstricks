@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo.phystricks.aux%
+\immediate\openout\writeOfphystricks=AWKEooFytNYo.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo.phystricks.aux%
+\immediate\openout\writeOfphystricks=AWKEooFytNYo.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Alala\)}}%
 \immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo}
+\tikzsetnextfilename{tikzAWKEooFytNYo}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -83,5 +83,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigAWKEooFytNYoPICTAWKEooFytNYo
 %AFTER PSPICTURE

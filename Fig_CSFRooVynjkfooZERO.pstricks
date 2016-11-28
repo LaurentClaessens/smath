@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigCSFRooVynjkfooZEROPICTCSFRooVynjkfooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=CSFRooVynjkfooZERO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigCSFRooVynjkfooZEROPICTCSFRooVynjkfooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=CSFRooVynjkfooZERO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,7 +71,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigCSFRooVynjkfooZEROPICTCSFRooVynjkfooZERO}
+\tikzsetnextfilename{tikzCSFRooVynjkfooZERO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -84,6 +84,22 @@
 \draw (-2.147635063,-1.134921785) node {\(B\)};
 \draw (2.199797864,0.9910103548) node {\(C\)};
 \draw [] (-2.00,-1.00) -- (2.00,1.00);
+\draw [] (-1.08,-0.617) -- (-1.01,-0.427);
+\draw [] (-0.987,-0.573) -- (-0.924,-0.383);
+\draw [] (0.924,0.383) -- (0.987,0.573);
+\draw [] (1.01,0.427) -- (1.08,0.617);
+\draw [] (-1.08,-0.617) -- (-1.01,-0.427);
+\draw [] (-0.987,-0.573) -- (-0.924,-0.383);
+\draw [] (0.924,0.383) -- (0.987,0.573);
+\draw [] (1.01,0.427) -- (1.08,0.617);
+\draw [] (-1.08,-0.617) -- (-1.01,-0.427);
+\draw [] (-0.987,-0.573) -- (-0.924,-0.383);
+\draw [] (0.924,0.383) -- (0.987,0.573);
+\draw [] (1.01,0.427) -- (1.08,0.617);
+\draw [] (-1.08,-0.617) -- (-1.01,-0.427);
+\draw [] (-0.987,-0.573) -- (-0.924,-0.383);
+\draw [] (0.924,0.383) -- (0.987,0.573);
+\draw [] (1.01,0.427) -- (1.08,0.617);
 \draw [] (0,2.24) -- (0,0);
 \draw [] (-0.0707,1.24) -- (0.0707,1.10);
 \draw [] (-0.0707,1.14) -- (0.0707,0.997);
@@ -92,5 +108,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigCSFRooVynjkfooZEROPICTCSFRooVynjkfooZERO
 %AFTER PSPICTURE

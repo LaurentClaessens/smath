@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigDNYAefIPICTDNYAefI.phystricks.aux%
+\immediate\openout\writeOfphystricks=DNYAefI.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigDNYAefIPICTDNYAefI.phystricks.aux%
+\immediate\openout\writeOfphystricks=DNYAefI.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -95,11 +95,22 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigDNYAefIPICTDNYAefI}
+\tikzsetnextfilename{tikzDNYAefI}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (10.50000000,0);
+%DEFAULT
+\draw [] (1.00,0.500) -- (1.00,1.00);
+\draw [] (10.0,0.500) -- (10.0,1.00);
+\draw [] (1.00,0.750) -- (2.00,0.750);
+\draw [] (2.00,0.500) -- (5.00,0.500);
+\draw [] (5.00,0.500) -- (5.00,1.00);
+\draw [] (5.00,1.00) -- (2.00,1.00);
+\draw [] (2.00,1.00) -- (2.00,0.500);
+\draw [color=red] (4.00,0.500) -- (4.00,1.00);
+\draw [] (5.00,0.750) -- (10.0,0.750);
 \draw (1.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
 \draw (2.000000000,-0.3049540000) node {$ 2 $};
@@ -120,21 +131,8 @@
 \draw [] (9.00,-0.100) -- (9.00,0.100);
 \draw (10.00000000,-0.3049540000) node {$ 10 $};
 \draw [] (10.0,-0.100) -- (10.0,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (10.50000000,0);
-%DEFAULT
-\draw [] (1.00,0.500) -- (1.00,1.00);
-\draw [] (10.0,0.500) -- (10.0,1.00);
-\draw [] (1.00,0.750) -- (2.00,0.750);
-\draw [] (2.00,0.500) -- (5.00,0.500);
-\draw [] (5.00,0.500) -- (5.00,1.00);
-\draw [] (5.00,1.00) -- (2.00,1.00);
-\draw [] (2.00,1.00) -- (2.00,0.500);
-\draw [color=red] (4.00,0.500) -- (4.00,1.00);
-\draw [] (5.00,0.750) -- (10.0,0.750);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigDNYAefIPICTDNYAefI
 %AFTER PSPICTURE

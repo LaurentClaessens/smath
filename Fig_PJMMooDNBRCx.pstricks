@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigPJMMooDNBRCxPICTPJMMooDNBRCx.phystricks.aux%
+\immediate\openout\writeOfphystricks=PJMMooDNBRCx.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigPJMMooDNBRCxPICTPJMMooDNBRCx.phystricks.aux%
+\immediate\openout\writeOfphystricks=PJMMooDNBRCx.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,11 +75,13 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigPJMMooDNBRCxPICTPJMMooDNBRCx}
+\tikzsetnextfilename{tikzPJMMooDNBRCx}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-3.500000000,0) -- (3.290000000,0);
+%DEFAULT
 \draw [] (-3.50,-0.100) -- (-3.50,0.100);
 \draw [] (-2.80,-0.100) -- (-2.80,0.100);
 \draw [] (-2.10,-0.100) -- (-2.10,0.100);
@@ -90,8 +92,6 @@
 \draw [] (1.40,-0.100) -- (1.40,0.100);
 \draw [] (2.10,-0.100) -- (2.10,0.100);
 \draw [] (2.80,-0.100) -- (2.80,0.100);
-\draw [,->,>=latex] (-3.500000000,0) -- (3.290000000,0);
-%DEFAULT
 \draw []  (0,0) node [rotate=0] {$\bullet$};
 \draw (0,-0.3138885000) node {\( O\)};
 \draw []  (-2.800000000,0) node [rotate=0] {$\bullet$};
@@ -106,5 +106,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigPJMMooDNBRCxPICTPJMMooDNBRCx
 %AFTER PSPICTURE

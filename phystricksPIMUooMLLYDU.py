@@ -27,7 +27,7 @@ def PIMUooMLLYDU():
     rh2=RightAngleAOB(S2,D,K,r=0.4,n1=0,n2=1)
 
     N=Intersection(Segment(S2,K),Circle(K,4))[0]
-    N.put_mark(0.2,angle=Segment(S2,K).angle()+90,text="\( N\)",pspict=pspict)
+    N.put_mark(0.2,angle=Segment(S2,K).angle(),added_angle=90,text="\( N\)",pspict=pspict)
 
     P=S1+(0,2)
     P.put_mark(0.2,angle=0,text="\( P\)",pspict=pspict)

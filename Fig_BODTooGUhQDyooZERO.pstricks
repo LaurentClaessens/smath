@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigBODTooGUhQDyooZEROPICTBODTooGUhQDyooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=BODTooGUhQDyooZERO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigBODTooGUhQDyooZEROPICTBODTooGUhQDyooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=BODTooGUhQDyooZERO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,7 +75,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigBODTooGUhQDyooZEROPICTBODTooGUhQDyooZERO}
+\tikzsetnextfilename{tikzBODTooGUhQDyooZERO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -96,10 +96,45 @@
 \draw (0.9820388809,2.199191863) node {\(C\)};
 \draw (0.9820388809,2.199191863) node {\(C\)};
 \draw [] (0,0) -- (2.50,0);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
+\draw [] (0.504,-0.0707) -- (0.646,0.0707);
+\draw [] (0.604,-0.0707) -- (0.746,0.0707);
+\draw [] (1.75,-0.0707) -- (1.90,0.0707);
+\draw [] (1.85,-0.0707) -- (2.00,0.0707);
 \draw [] (2.50,0) -- (1.00,2.00);
 \draw [] (1.00,2.00) -- (0,0);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigBODTooGUhQDyooZEROPICTBODTooGUhQDyooZERO
 %AFTER PSPICTURE

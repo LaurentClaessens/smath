@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigNARooFiHuAyPICTNARooFiHuAy.phystricks.aux%
+\immediate\openout\writeOfphystricks=NARooFiHuAy.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigNARooFiHuAyPICTNARooFiHuAy.phystricks.aux%
+\immediate\openout\writeOfphystricks=NARooFiHuAy.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 8\)}}%
 \immediate\write\writeOfphystricks{totalheightof6dd1c034f5334fe32275facd9da2458a0220dc04:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,7 +75,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigNARooFiHuAyPICTNARooFiHuAy}
+\tikzsetnextfilename{tikzNARooFiHuAy}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -98,5 +98,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigNARooFiHuAyPICTNARooFiHuAy
 %AFTER PSPICTURE

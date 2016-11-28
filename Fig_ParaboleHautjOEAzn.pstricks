@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigParaboleHautjOEAznPICTParaboleHautjOEAzn.phystricks.aux%
+\immediate\openout\writeOfphystricks=ParaboleHautjOEAzn.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigParaboleHautjOEAznPICTParaboleHautjOEAzn.phystricks.aux%
+\immediate\openout\writeOfphystricks=ParaboleHautjOEAzn.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x_1\)}}%
 \immediate\write\writeOfphystricks{totalheightof527724f6bcaec3ed4a803bb74eeec888f6f01c14:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -63,7 +63,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigParaboleHautjOEAznPICTParaboleHautjOEAzn}
+\tikzsetnextfilename{tikzParaboleHautjOEAzn}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
@@ -82,5 +82,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigParaboleHautjOEAznPICTParaboleHautjOEAzn
 %AFTER PSPICTURE

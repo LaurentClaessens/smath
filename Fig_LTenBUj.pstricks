@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigLTenBUjPICTLTenBUj.phystricks.aux%
+\immediate\openout\writeOfphystricks=LTenBUj.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigLTenBUjPICTLTenBUj.phystricks.aux%
+\immediate\openout\writeOfphystricks=LTenBUj.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Chiffre d'affaires (en millions d'euros)}}%
 \immediate\write\writeOfphystricks{totalheightof0b80765add0bb18cf40a8f9b25c8c4bc71cab259:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -127,12 +127,11 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigLTenBUjPICTLTenBUj}
+\tikzsetnextfilename{tikzLTenBUj}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (15.62081383,-0.6666666667) node {Chiffre d'affaires (en millions d'euros)};
 \draw [,->,>=latex] (-0.2000000000,0) -- (12.76666667,0);
 \draw [,->,>=latex] (0,-0.5099080000) -- (0,7.009908000);
 %DEFAULT
@@ -195,9 +194,9 @@
 \draw [] (12.0,0.0723) -- (6.00,0.0723);
 \draw [] (6.00,0.0723) -- (6.00,0);
 \draw (15.62081383,-0.6666666667) node {Chiffre d'affaires (en millions d'euros)};
+\draw (15.62081383,-0.6666666667) node {Chiffre d'affaires (en millions d'euros)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigLTenBUjPICTLTenBUj
 %AFTER PSPICTURE

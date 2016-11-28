@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigHYVFooTHaDDQooZEROPICTHYVFooTHaDDQooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=HYVFooTHaDDQooZERO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigHYVFooTHaDDQooZEROPICTHYVFooTHaDDQooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=HYVFooTHaDDQooZERO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigHYVFooTHaDDQooZEROPICTHYVFooTHaDDQooZERO}
+\tikzsetnextfilename{tikzHYVFooTHaDDQooZERO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -91,6 +91,70 @@
 \draw (2.918848753,1.262392405) node {\(B\)};
 \draw (0.4297015047,2.627804524) node {\(C\)};
 \draw [] (0,0) -- (2.72,1.27);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
+\draw [] (0.583,0.155) -- (0.686,0.437);
+\draw [] (0.674,0.197) -- (0.776,0.479);
+\draw [] (1.94,0.789) -- (2.05,1.07);
+\draw [] (2.03,0.831) -- (2.14,1.11);
 \draw [] (2.72,1.27) -- (0.514,2.45);
 \draw [] (0.514,2.45) -- (0,0);
 \draw []  (1.359461681,0.6339273926) node [rotate=0] {$\bullet$};
@@ -101,5 +165,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigHYVFooTHaDDQooZEROPICTHYVFooTHaDDQooZERO
 %AFTER PSPICTURE

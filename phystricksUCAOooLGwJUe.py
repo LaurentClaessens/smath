@@ -7,8 +7,8 @@ def thales(A,B,C,prop,ma,mb,mc,mi,mj,pspict,rotate=0):
     trig.put_mark(0.2,text_list=["\( {}\)".format(ma),"\( {}\)".format(mb),"\( {}\)".format(mc)],pspict=pspict)
     I=Segment(A,C).get_point_proportion(prop)
     J=Segment(A,B).get_point_proportion(prop)
-    I.put_mark(0.2,I.advised_mark_angle(pspict)+rotate,"\( {}\)".format(mi),pspict=pspict,position="corner")
-    J.put_mark(0.2,J.advised_mark_angle(pspict)+180+rotate,"\( {}\)".format(mj),pspict=pspict,position="corner")
+    I.put_mark(0.2,I.advised_mark_angle(pspict),added_angle=rotate,text="\( {}\)".format(mi),pspict=pspict,position="corner")
+    J.put_mark(0.2,J.advised_mark_angle(pspict),added_angle=180+rotate,text="\( {}\)".format(mj),pspict=pspict,position="corner")
     seg=Segment(I,J)
     pspict.DrawGraphs(trig,seg,I,J)
     return I,J

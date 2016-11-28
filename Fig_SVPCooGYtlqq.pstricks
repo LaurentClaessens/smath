@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigSVPCooGYtlqqPICTSVPCooGYtlqq.phystricks.aux%
+\immediate\openout\writeOfphystricks=SVPCooGYtlqq.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigSVPCooGYtlqqPICTSVPCooGYtlqq.phystricks.aux%
+\immediate\openout\writeOfphystricks=SVPCooGYtlqq.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{durée (en \si{\minute})}}%
 \immediate\write\writeOfphystricks{totalheightof53be5040997944017bca395acd675f86ae013c6d:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -83,7 +83,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigSVPCooGYtlqqPICTSVPCooGYtlqq}
+\tikzsetnextfilename{tikzSVPCooGYtlqq}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -108,6 +108,12 @@
 \draw [color=gray,style=solid] (0,1.25) -- (3.00,1.25);
 \draw [color=gray,style=solid] (0,1.88) -- (3.00,1.88);
 %AXES
+\draw [,->,>=latex] (0,0) -- (3.500000000,0);
+\draw [,->,>=latex] (0,0) -- (0,2.375000000);
+%DEFAULT
+\draw [] (0,0) -- (3.00,1.88);
+
+\draw (7.137833213,-0.3080880229) node {durée (en \si{\minute})};
 \draw (7.137833213,-0.3080880229) node {durée (en \si{\minute})};
 \draw (1.000000000,-0.3049540000) node {$ 30 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
@@ -115,7 +121,7 @@
 \draw [] (2.00,-0.100) -- (2.00,0.100);
 \draw (3.000000000,-0.3049540000) node {$ 90 $};
 \draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw [,->,>=latex] (0,0) -- (3.500000000,0);
+\draw (2.209558167,2.308333333) node {distance parcourue (en \si{\kilo\meter})};
 \draw (2.209558167,2.308333333) node {distance parcourue (en \si{\kilo\meter})};
 \draw (-0.3666666667,0.6250000000) node {$ 10 $};
 \draw [] (-0.100,0.625) -- (0.100,0.625);
@@ -123,15 +129,8 @@
 \draw [] (-0.100,1.25) -- (0.100,1.25);
 \draw (-0.3666666667,1.875000000) node {$ 30 $};
 \draw [] (-0.100,1.88) -- (0.100,1.88);
-\draw [,->,>=latex] (0,0) -- (0,2.375000000);
-%DEFAULT
-\draw [] (0,0) -- (3.00,1.88);
-
-\draw (7.137833213,-0.3080880229) node {durée (en \si{\minute})};
-\draw (2.209558167,2.308333333) node {distance parcourue (en \si{\kilo\meter})};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigSVPCooGYtlqqPICTSVPCooGYtlqq
 %AFTER PSPICTURE

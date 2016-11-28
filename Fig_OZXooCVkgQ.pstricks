@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigOZXooCVkgQPICTOZXooCVkgQ.phystricks.aux%
+\immediate\openout\writeOfphystricks=OZXooCVkgQ.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigOZXooCVkgQPICTOZXooCVkgQ.phystricks.aux%
+\immediate\openout\writeOfphystricks=OZXooCVkgQ.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Les notes à un devoir}}%
 \immediate\write\writeOfphystricks{totalheightof34952b62e7350eda2c1f5fdd960b93a3829de811:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -123,12 +123,11 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigOZXooCVkgQPICTOZXooCVkgQ}
+\tikzsetnextfilename{tikzOZXooCVkgQ}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (14.42685700,-0.6148125000) node {Les notes à un devoir};
 \draw [,->,>=latex] (-0.1833333333,0) -- (12.76666667,0);
 \draw [,->,>=latex] (0,-0.5099080000) -- (0,7.009908000);
 %DEFAULT
@@ -191,9 +190,9 @@
 \draw [] (12.0,0.200) -- (9.00,0.200);
 \draw [] (9.00,0.200) -- (9.00,0);
 \draw (14.42685700,-0.6148125000) node {Les notes à un devoir};
+\draw (14.42685700,-0.6148125000) node {Les notes à un devoir};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigOZXooCVkgQPICTOZXooCVkgQ
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigFWyrYhJPICTFWyrYhJ.phystricks.aux%
+\immediate\openout\writeOfphystricks=FWyrYhJ.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigFWyrYhJPICTFWyrYhJ.phystricks.aux%
+\immediate\openout\writeOfphystricks=FWyrYhJ.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -111,11 +111,25 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigFWyrYhJPICTFWyrYhJ}
+\tikzsetnextfilename{tikzFWyrYhJ}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (11.50000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,5.500000000);
+%DEFAULT
+\draw []  (1.000000000,0.6000000000) node [rotate=0] {$\bullet$};
+\draw []  (2.000000000,0.6000000000) node [rotate=0] {$\bullet$};
+\draw []  (3.000000000,0.8000000000) node [rotate=0] {$\bullet$};
+\draw []  (4.000000000,1.600000000) node [rotate=0] {$\bullet$};
+\draw []  (5.000000000,2.400000000) node [rotate=0] {$\bullet$};
+\draw []  (6.000000000,2.800000000) node [rotate=0] {$\bullet$};
+\draw []  (7.000000000,3.000000000) node [rotate=0] {$\bullet$};
+\draw []  (8.000000000,4.000000000) node [rotate=0] {$\bullet$};
+\draw []  (9.000000000,4.600000000) node [rotate=0] {$\bullet$};
+\draw []  (10.00000000,4.800000000) node [rotate=0] {$\bullet$};
+\draw []  (11.00000000,5.000000000) node [rotate=0] {$\bullet$};
 \draw (1.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
 \draw (2.000000000,-0.3049540000) node {$ 2 $};
@@ -138,7 +152,6 @@
 \draw [] (10.0,-0.100) -- (10.0,0.100);
 \draw (11.00000000,-0.3049540000) node {$ 11 $};
 \draw [] (11.0,-0.100) -- (11.0,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (11.50000000,0);
 \draw (-0.3064331667,1.250000000) node {$ \frac{1}{4} $};
 \draw [] (-0.100,1.25) -- (0.100,1.25);
 \draw (-0.3064331667,2.500000000) node {$ \frac{1}{2} $};
@@ -147,23 +160,8 @@
 \draw [] (-0.100,3.75) -- (0.100,3.75);
 \draw (-0.2833333333,5.000000000) node {$ 1 $};
 \draw [] (-0.100,5.00) -- (0.100,5.00);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,5.500000000);
-%DEFAULT
-\draw []  (1.000000000,0.6000000000) node [rotate=0] {$\bullet$};
-\draw []  (2.000000000,0.6000000000) node [rotate=0] {$\bullet$};
-\draw []  (3.000000000,0.8000000000) node [rotate=0] {$\bullet$};
-\draw []  (4.000000000,1.600000000) node [rotate=0] {$\bullet$};
-\draw []  (5.000000000,2.400000000) node [rotate=0] {$\bullet$};
-\draw []  (6.000000000,2.800000000) node [rotate=0] {$\bullet$};
-\draw []  (7.000000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw []  (8.000000000,4.000000000) node [rotate=0] {$\bullet$};
-\draw []  (9.000000000,4.600000000) node [rotate=0] {$\bullet$};
-\draw []  (10.00000000,4.800000000) node [rotate=0] {$\bullet$};
-\draw []  (11.00000000,5.000000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigFWyrYhJPICTFWyrYhJ
 %AFTER PSPICTURE

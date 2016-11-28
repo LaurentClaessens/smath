@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigHYVFooTHaDDQooTHREEPICTHYVFooTHaDDQooTHREE.phystricks.aux%
+\immediate\openout\writeOfphystricks=HYVFooTHaDDQooTHREE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigHYVFooTHaDDQooTHREEPICTHYVFooTHaDDQooTHREE.phystricks.aux%
+\immediate\openout\writeOfphystricks=HYVFooTHaDDQooTHREE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigHYVFooTHaDDQooTHREEPICTHYVFooTHaDDQooTHREE}
+\tikzsetnextfilename{tikzHYVFooTHaDDQooTHREE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -91,6 +91,22 @@
 \draw (3.168678289,-0.1074599217) node {\(B\)};
 \draw (2.532585443,1.337005189) node {\(C\)};
 \draw [] (0,0) -- (3.00,0);
+\draw [] (0.594,-0.106) -- (0.806,0.106);
+\draw [] (0.694,-0.106) -- (0.906,0.106);
+\draw [] (2.09,-0.106) -- (2.31,0.106);
+\draw [] (2.19,-0.106) -- (2.41,0.106);
+\draw [] (0.594,-0.106) -- (0.806,0.106);
+\draw [] (0.694,-0.106) -- (0.906,0.106);
+\draw [] (2.09,-0.106) -- (2.31,0.106);
+\draw [] (2.19,-0.106) -- (2.41,0.106);
+\draw [] (0.594,-0.106) -- (0.806,0.106);
+\draw [] (0.694,-0.106) -- (0.906,0.106);
+\draw [] (2.09,-0.106) -- (2.31,0.106);
+\draw [] (2.19,-0.106) -- (2.41,0.106);
+\draw [] (0.594,-0.106) -- (0.806,0.106);
+\draw [] (0.694,-0.106) -- (0.906,0.106);
+\draw [] (2.09,-0.106) -- (2.31,0.106);
+\draw [] (2.19,-0.106) -- (2.41,0.106);
 \draw [] (3.00,0) -- (2.46,1.15);
 \draw [] (2.46,1.15) -- (0,0);
 \draw []  (1.500000000,0) node [rotate=0] {$\bullet$};
@@ -100,5 +116,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigHYVFooTHaDDQooTHREEPICTHYVFooTHaDDQooTHREE
 %AFTER PSPICTURE

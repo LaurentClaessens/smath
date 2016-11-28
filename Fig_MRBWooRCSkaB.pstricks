@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigMRBWooRCSkaBPICTMRBWooRCSkaB.phystricks.aux%
+\immediate\openout\writeOfphystricks=MRBWooRCSkaB.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigMRBWooRCSkaBPICTMRBWooRCSkaB.phystricks.aux%
+\immediate\openout\writeOfphystricks=MRBWooRCSkaB.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,7 +71,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigMRBWooRCSkaBPICTMRBWooRCSkaB}
+\tikzsetnextfilename{tikzMRBWooRCSkaB}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -82,7 +82,7 @@
 \draw [] (1.22,2.17) -- (1.34,2.45);
 \draw [] (-1.08,1.50) -- (-1.29,1.29);
 \draw [] (-1.08,1.50) -- (-1.29,1.71);
-\draw [] (-0.602,0.669) -- (-0.325,0.783);
+\draw [] (-0.602,0.669) -- (-0.325,0.784);
 \draw [] (-0.602,0.669) -- (-0.716,0.946);
 \draw []  (2.121320344,2.121320344) node [rotate=0] {$\bullet$};
 \draw (2.321320344,2.121320344) node {\( A\)};
@@ -113,5 +113,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigMRBWooRCSkaBPICTMRBWooRCSkaB
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigExIneqOcAWMqPICTExIneqOcAWMq.phystricks.aux%
+\immediate\openout\writeOfphystricks=ExIneqOcAWMq.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigExIneqOcAWMqPICTExIneqOcAWMq.phystricks.aux%
+\immediate\openout\writeOfphystricks=ExIneqOcAWMq.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( f\)}}%
 \immediate\write\writeOfphystricks{totalheightof3f00378bc2f17ce65d6b7c696a5487046abe5c87:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -99,7 +99,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigExIneqOcAWMqPICTExIneqOcAWMq}
+\tikzsetnextfilename{tikzExIneqOcAWMq}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -136,37 +136,7 @@
 \draw [color=gray,style=solid] (-7.50,2.80) -- (4.50,2.80);
 \draw [color=gray,style=solid] (-7.50,3.50) -- (4.50,3.50);
 %AXES
-\draw (-7.500000000,-0.3185623333) node {$ -5 $};
-\draw [] (-7.50,-0.100) -- (-7.50,0.100);
-\draw (-6.000000000,-0.3185623333) node {$ -4 $};
-\draw [] (-6.00,-0.100) -- (-6.00,0.100);
-\draw (-4.500000000,-0.3185623333) node {$ -3 $};
-\draw [] (-4.50,-0.100) -- (-4.50,0.100);
-\draw (-3.000000000,-0.3185623333) node {$ -2 $};
-\draw [] (-3.00,-0.100) -- (-3.00,0.100);
-\draw (-1.500000000,-0.3185623333) node {$ -1 $};
-\draw [] (-1.50,-0.100) -- (-1.50,0.100);
-\draw (1.500000000,-0.3049540000) node {$ 1 $};
-\draw [] (1.50,-0.100) -- (1.50,0.100);
-\draw (3.000000000,-0.3049540000) node {$ 2 $};
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (4.500000000,-0.3049540000) node {$ 3 $};
-\draw [] (4.50,-0.100) -- (4.50,0.100);
 \draw [,->,>=latex] (-8.000000000,0) -- (5.000000000,0);
-\draw (-0.4129313333,-1.400000000) node {$ -2 $};
-\draw [] (-0.100,-1.40) -- (0.100,-1.40);
-\draw (-0.4129313333,-0.7000000000) node {$ -1 $};
-\draw [] (-0.100,-0.700) -- (0.100,-0.700);
-\draw (-0.2833333333,0.7000000000) node {$ 1 $};
-\draw [] (-0.100,0.700) -- (0.100,0.700);
-\draw (-0.2833333333,1.400000000) node {$ 2 $};
-\draw [] (-0.100,1.40) -- (0.100,1.40);
-\draw (-0.2833333333,2.100000000) node {$ 3 $};
-\draw [] (-0.100,2.10) -- (0.100,2.10);
-\draw (-0.2833333333,2.800000000) node {$ 4 $};
-\draw [] (-0.100,2.80) -- (0.100,2.80);
-\draw (-0.2833333333,3.500000000) node {$ 5 $};
-\draw [] (-0.100,3.50) -- (0.100,3.50);
 \draw [,->,>=latex] (0,-1.900000000) -- (0,4.000000000);
 %DEFAULT
 \draw (3.299537667,2.716000000) node {\( f\)};
@@ -184,9 +154,38 @@
 \draw [color=cyan]  (2.080127019,0) node [rotate=0] {$\bullet$};
 \draw [color=cyan] plot [smooth,tension=1] coordinates {(-6.58,0)(-6.43,0.0700)(-6.28,-0.0700)(-6.12,0.0700)(-5.97,-0.0700)(-5.82,0.0700)(-5.67,-0.0700)(-5.52,0.0700)(-5.36,-0.0700)(-5.21,0.0700)(-5.06,-0.0700)(-4.91,0.0700)(-4.76,-0.0700)(-4.60,0.0700)(-4.45,-0.0700)(-4.30,0.0700)(-4.15,-0.0700)(-4.00,0.0700)(-3.85,-0.0700)(-3.69,0.0700)(-3.54,-0.0700)(-3.39,0.0700)(-3.24,-0.0700)(-3.09,0.0700)(-2.93,-0.0700)(-2.78,0.0700)(-2.63,-0.0700)(-2.48,0.0700)(-2.33,-0.0700)(-2.17,0.0700)(-2.02,-0.0700)(-1.87,0.0700)(-1.72,-0.0700)(-1.57,0.0700)(-1.41,-0.0700)(-1.26,0.0700)(-1.11,-0.0700)(-0.959,0.0700)(-0.807,-0.0700)(-0.655,0.0700)(-0.503,-0.0700)(-0.351,0.0700)(-0.199,-0.0700)(-0.0470,0.0700)(0.105,-0.0700)(0.257,0.0700)(0.409,-0.0700)(0.561,0.0700)(0.713,-0.0700)(0.865,0.0700)(1.02,-0.0700)(1.17,0.0700)(1.32,-0.0700)(1.47,0.0700)(1.62,-0.0700)(1.78,0.0700)(1.93,-0.0700)(2.08,0)};
 
+\draw (-7.500000000,-0.3185623333) node {$ -5 $};
+\draw [] (-7.50,-0.100) -- (-7.50,0.100);
+\draw (-6.000000000,-0.3185623333) node {$ -4 $};
+\draw [] (-6.00,-0.100) -- (-6.00,0.100);
+\draw (-4.500000000,-0.3185623333) node {$ -3 $};
+\draw [] (-4.50,-0.100) -- (-4.50,0.100);
+\draw (-3.000000000,-0.3185623333) node {$ -2 $};
+\draw [] (-3.00,-0.100) -- (-3.00,0.100);
+\draw (-1.500000000,-0.3185623333) node {$ -1 $};
+\draw [] (-1.50,-0.100) -- (-1.50,0.100);
+\draw (1.500000000,-0.3049540000) node {$ 1 $};
+\draw [] (1.50,-0.100) -- (1.50,0.100);
+\draw (3.000000000,-0.3049540000) node {$ 2 $};
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw (4.500000000,-0.3049540000) node {$ 3 $};
+\draw [] (4.50,-0.100) -- (4.50,0.100);
+\draw (-0.4129313333,-1.400000000) node {$ -2 $};
+\draw [] (-0.100,-1.40) -- (0.100,-1.40);
+\draw (-0.4129313333,-0.7000000000) node {$ -1 $};
+\draw [] (-0.100,-0.700) -- (0.100,-0.700);
+\draw (-0.2833333333,0.7000000000) node {$ 1 $};
+\draw [] (-0.100,0.700) -- (0.100,0.700);
+\draw (-0.2833333333,1.400000000) node {$ 2 $};
+\draw [] (-0.100,1.40) -- (0.100,1.40);
+\draw (-0.2833333333,2.100000000) node {$ 3 $};
+\draw [] (-0.100,2.10) -- (0.100,2.10);
+\draw (-0.2833333333,2.800000000) node {$ 4 $};
+\draw [] (-0.100,2.80) -- (0.100,2.80);
+\draw (-0.2833333333,3.500000000) node {$ 5 $};
+\draw [] (-0.100,3.50) -- (0.100,3.50);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigExIneqOcAWMqPICTExIneqOcAWMq
 %AFTER PSPICTURE

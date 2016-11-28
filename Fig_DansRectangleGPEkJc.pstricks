@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigDansRectangleGPEkJcPICTDansRectangleGPEkJc.phystricks.aux%
+\immediate\openout\writeOfphystricks=DansRectangleGPEkJc.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigDansRectangleGPEkJcPICTDansRectangleGPEkJc.phystricks.aux%
+\immediate\openout\writeOfphystricks=DansRectangleGPEkJc.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -83,7 +83,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigDansRectangleGPEkJcPICTDansRectangleGPEkJc}
+\tikzsetnextfilename{tikzDansRectangleGPEkJc}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -109,11 +109,10 @@
 \draw (2.000000000,-0.3138885000) node {\( J\)};
 \draw [] (3.50,1.50) -- (2.00,0);
 \draw [style=dashed] (2.00,0) -- (2.00,1.50);
-\draw (2.843704825,1.261478045) node {\unit{45}{\degree}};
+\draw (2.568825567,1.194750450) node {\unit{45}{\degree}};
 
 \draw [color=red] (3.000,1.500)--(3.000,1.496)--(3.000,1.492)--(3.000,1.488)--(3.000,1.484)--(3.000,1.480)--(3.001,1.476)--(3.001,1.472)--(3.001,1.468)--(3.001,1.464)--(3.002,1.460)--(3.002,1.456)--(3.002,1.452)--(3.003,1.449)--(3.003,1.445)--(3.004,1.441)--(3.004,1.437)--(3.005,1.433)--(3.005,1.429)--(3.006,1.425)--(3.006,1.421)--(3.007,1.417)--(3.008,1.413)--(3.008,1.409)--(3.009,1.405)--(3.010,1.401)--(3.011,1.398)--(3.011,1.394)--(3.012,1.390)--(3.013,1.386)--(3.014,1.382)--(3.015,1.378)--(3.016,1.374)--(3.017,1.371)--(3.018,1.367)--(3.019,1.363)--(3.020,1.359)--(3.021,1.355)--(3.023,1.352)--(3.024,1.348)--(3.025,1.344)--(3.026,1.340)--(3.027,1.336)--(3.029,1.333)--(3.030,1.329)--(3.032,1.325)--(3.033,1.322)--(3.034,1.318)--(3.036,1.314)--(3.037,1.310)--(3.039,1.307)--(3.040,1.303)--(3.042,1.300)--(3.044,1.296)--(3.045,1.292)--(3.047,1.289)--(3.049,1.285)--(3.050,1.282)--(3.052,1.278)--(3.054,1.274)--(3.056,1.271)--(3.057,1.267)--(3.059,1.264)--(3.061,1.260)--(3.063,1.257)--(3.065,1.253)--(3.067,1.250)--(3.069,1.247)--(3.071,1.243)--(3.073,1.240)--(3.075,1.236)--(3.077,1.233)--(3.079,1.230)--(3.082,1.226)--(3.084,1.223)--(3.086,1.220)--(3.088,1.216)--(3.090,1.213)--(3.093,1.210)--(3.095,1.207)--(3.097,1.204)--(3.100,1.200)--(3.102,1.197)--(3.105,1.194)--(3.107,1.191)--(3.109,1.188)--(3.112,1.185)--(3.114,1.182)--(3.117,1.179)--(3.120,1.176)--(3.122,1.173)--(3.125,1.170)--(3.127,1.167)--(3.130,1.164)--(3.133,1.161)--(3.135,1.158)--(3.138,1.155)--(3.141,1.152)--(3.144,1.149)--(3.146,1.146);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigDansRectangleGPEkJcPICTDansRectangleGPEkJc
 %AFTER PSPICTURE
