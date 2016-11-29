@@ -68,6 +68,10 @@
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 1 $}}%
 \immediate\write\writeOfphystricks{widthof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 2 $}}%
+\immediate\write\writeOfphystricks{totalheightofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 2 $}}%
+\immediate\write\writeOfphystricks{widthofabf6cc59c3c79b1d97ae8d95af17677d807f277d:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -122,28 +126,28 @@
 \draw [] (1.95,0) -- (1.95,0);
 \draw [] (2.00,0) -- (2.00,0);
 \draw [] (2.05,0) -- (2.05,0);
-\draw [] (2.10,0) -- (2.10,5.00);
+\draw [] (2.10,0) -- (2.10,0);
 \draw [] (2.15,0) -- (2.15,0);
-\draw [] (2.20,0) -- (2.20,0);
-\draw [] (2.25,0) -- (2.25,5.00);
+\draw [] (2.20,0) -- (2.20,2.50);
+\draw [] (2.25,0) -- (2.25,2.50);
 \draw [] (2.30,0) -- (2.30,5.00);
-\draw [] (2.35,0) -- (2.35,5.00);
-\draw [] (2.40,0) -- (2.40,0);
-\draw [] (2.45,0) -- (2.45,0);
+\draw [] (2.35,0) -- (2.35,2.50);
+\draw [] (2.40,0) -- (2.40,2.50);
+\draw [] (2.45,0) -- (2.45,2.50);
 \draw [] (2.50,0) -- (2.50,0);
-\draw [] (2.55,0) -- (2.55,5.00);
-\draw [] (2.60,0) -- (2.60,5.00);
-\draw [] (2.65,0) -- (2.65,5.00);
-\draw [] (2.70,0) -- (2.70,5.00);
-\draw [] (2.75,0) -- (2.75,0);
-\draw [] (2.80,0) -- (2.80,5.00);
-\draw [] (2.85,0) -- (2.85,5.00);
+\draw [] (2.55,0) -- (2.55,0);
+\draw [] (2.60,0) -- (2.60,0);
+\draw [] (2.65,0) -- (2.65,0);
+\draw [] (2.70,0) -- (2.70,0);
+\draw [] (2.75,0) -- (2.75,2.50);
+\draw [] (2.80,0) -- (2.80,2.50);
+\draw [] (2.85,0) -- (2.85,0);
 \draw [] (2.90,0) -- (2.90,0);
 \draw [] (2.95,0) -- (2.95,0);
 \draw [] (3.00,0) -- (3.00,0);
 \draw [] (3.05,0) -- (3.05,0);
 \draw [] (3.10,0) -- (3.10,0);
-\draw [] (3.15,0) -- (3.15,0);
+\draw [] (3.15,0) -- (3.15,2.50);
 \draw [] (3.20,0) -- (3.20,0);
 \draw [] (3.25,0) -- (3.25,0);
 \draw [] (3.30,0) -- (3.30,0);
@@ -200,7 +204,9 @@
 \draw [] (4.50,-0.100) -- (4.50,0.100);
 \draw (5.000000000,-0.3049540000) node {$ 100 $};
 \draw [] (5.00,-0.100) -- (5.00,0.100);
-\draw (-0.2833333333,5.000000000) node {$ 1 $};
+\draw (-0.2833333333,2.500000000) node {$ 1 $};
+\draw [] (-0.100,2.50) -- (0.100,2.50);
+\draw (-0.2000000000,5.000000000) node {$ 2 $};
 \draw [] (-0.100,5.00) -- (0.100,5.00);
 %OTHER STUFF
 %END PSPICTURE
@@ -306,10 +312,6 @@
 \immediate\write\writeOfphystricks{totalheightof5e4f49bb859c2fb35631f2cf273b45f4657e094f:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 12 $}}%
 \immediate\write\writeOfphystricks{widthof5e4f49bb859c2fb35631f2cf273b45f4657e094f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 13 $}}%
-\immediate\write\writeOfphystricks{totalheightofd5af963c3ca1d7ee0ca7661ab78dfcbc2fc770e4:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 13 $}}%
-\immediate\write\writeOfphystricks{widthofd5af963c3ca1d7ee0ca7661ab78dfcbc2fc770e4:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -360,32 +362,32 @@
 \draw [] (1.75,0) -- (1.75,0);
 \draw [] (1.80,0) -- (1.80,0);
 \draw [] (1.85,0) -- (1.85,0);
-\draw [] (1.90,0) -- (1.90,0);
-\draw [] (1.95,0) -- (1.95,0);
-\draw [] (2.00,0) -- (2.00,1.25);
-\draw [] (2.05,0) -- (2.05,0.833);
-\draw [] (2.10,0) -- (2.10,1.67);
-\draw [] (2.15,0) -- (2.15,2.50);
-\draw [] (2.20,0) -- (2.20,0.833);
-\draw [] (2.25,0) -- (2.25,1.67);
-\draw [] (2.30,0) -- (2.30,2.50);
-\draw [] (2.35,0) -- (2.35,2.50);
-\draw [] (2.40,0) -- (2.40,1.67);
-\draw [] (2.45,0) -- (2.45,1.25);
+\draw [] (1.90,0) -- (1.90,0.455);
+\draw [] (1.95,0) -- (1.95,0.909);
+\draw [] (2.00,0) -- (2.00,0.909);
+\draw [] (2.05,0) -- (2.05,0);
+\draw [] (2.10,0) -- (2.10,0.909);
+\draw [] (2.15,0) -- (2.15,0.455);
+\draw [] (2.20,0) -- (2.20,2.73);
+\draw [] (2.25,0) -- (2.25,2.27);
+\draw [] (2.30,0) -- (2.30,3.18);
+\draw [] (2.35,0) -- (2.35,3.64);
+\draw [] (2.40,0) -- (2.40,2.27);
+\draw [] (2.45,0) -- (2.45,1.82);
 \draw [] (2.50,0) -- (2.50,5.00);
-\draw [] (2.55,0) -- (2.55,4.17);
-\draw [] (2.60,0) -- (2.60,2.92);
-\draw [] (2.65,0) -- (2.65,2.50);
-\draw [] (2.70,0) -- (2.70,3.33);
-\draw [] (2.75,0) -- (2.75,2.50);
-\draw [] (2.80,0) -- (2.80,1.67);
-\draw [] (2.85,0) -- (2.85,0.833);
+\draw [] (2.55,0) -- (2.55,5.00);
+\draw [] (2.60,0) -- (2.60,3.18);
+\draw [] (2.65,0) -- (2.65,2.73);
+\draw [] (2.70,0) -- (2.70,3.64);
+\draw [] (2.75,0) -- (2.75,2.27);
+\draw [] (2.80,0) -- (2.80,0.909);
+\draw [] (2.85,0) -- (2.85,0.909);
 \draw [] (2.90,0) -- (2.90,0);
-\draw [] (2.95,0) -- (2.95,1.25);
+\draw [] (2.95,0) -- (2.95,0.909);
 \draw [] (3.00,0) -- (3.00,0);
-\draw [] (3.05,0) -- (3.05,0.417);
-\draw [] (3.10,0) -- (3.10,0.417);
-\draw [] (3.15,0) -- (3.15,0);
+\draw [] (3.05,0) -- (3.05,0.455);
+\draw [] (3.10,0) -- (3.10,0.455);
+\draw [] (3.15,0) -- (3.15,0.455);
 \draw [] (3.20,0) -- (3.20,0);
 \draw [] (3.25,0) -- (3.25,0);
 \draw [] (3.30,0) -- (3.30,0);
@@ -442,32 +444,30 @@
 \draw [] (4.50,-0.100) -- (4.50,0.100);
 \draw (5.000000000,-0.3049540000) node {$ 100 $};
 \draw [] (5.00,-0.100) -- (5.00,0.100);
-\draw (-0.2833333333,0.4166666667) node {$ 1 $};
-\draw [] (-0.100,0.417) -- (0.100,0.417);
-\draw (-0.2833333333,0.8333333333) node {$ 2 $};
-\draw [] (-0.100,0.833) -- (0.100,0.833);
-\draw (-0.2833333333,1.250000000) node {$ 3 $};
-\draw [] (-0.100,1.25) -- (0.100,1.25);
-\draw (-0.2833333333,1.666666667) node {$ 4 $};
-\draw [] (-0.100,1.67) -- (0.100,1.67);
-\draw (-0.2833333333,2.083333333) node {$ 5 $};
-\draw [] (-0.100,2.08) -- (0.100,2.08);
-\draw (-0.2833333333,2.500000000) node {$ 6 $};
-\draw [] (-0.100,2.50) -- (0.100,2.50);
-\draw (-0.2833333333,2.916666667) node {$ 7 $};
-\draw [] (-0.100,2.92) -- (0.100,2.92);
-\draw (-0.2833333333,3.333333333) node {$ 8 $};
-\draw [] (-0.100,3.33) -- (0.100,3.33);
-\draw (-0.2833333333,3.750000000) node {$ 9 $};
-\draw [] (-0.100,3.75) -- (0.100,3.75);
-\draw (-0.3666666667,4.166666667) node {$ 10 $};
-\draw [] (-0.100,4.17) -- (0.100,4.17);
-\draw (-0.3666666667,4.583333333) node {$ 11 $};
-\draw [] (-0.100,4.58) -- (0.100,4.58);
-\draw (-0.3666666667,5.000000000) node {$ 12 $};
+\draw (-0.2833333333,0.4545454545) node {$ 1 $};
+\draw [] (-0.100,0.455) -- (0.100,0.455);
+\draw (-0.2833333333,0.9090909091) node {$ 2 $};
+\draw [] (-0.100,0.909) -- (0.100,0.909);
+\draw (-0.2833333333,1.363636364) node {$ 3 $};
+\draw [] (-0.100,1.36) -- (0.100,1.36);
+\draw (-0.2833333333,1.818181818) node {$ 4 $};
+\draw [] (-0.100,1.82) -- (0.100,1.82);
+\draw (-0.2833333333,2.272727273) node {$ 5 $};
+\draw [] (-0.100,2.27) -- (0.100,2.27);
+\draw (-0.2833333333,2.727272727) node {$ 6 $};
+\draw [] (-0.100,2.73) -- (0.100,2.73);
+\draw (-0.2833333333,3.181818182) node {$ 7 $};
+\draw [] (-0.100,3.18) -- (0.100,3.18);
+\draw (-0.2833333333,3.636363636) node {$ 8 $};
+\draw [] (-0.100,3.64) -- (0.100,3.64);
+\draw (-0.2833333333,4.090909091) node {$ 9 $};
+\draw [] (-0.100,4.09) -- (0.100,4.09);
+\draw (-0.3666666667,4.545454545) node {$ 10 $};
+\draw [] (-0.100,4.55) -- (0.100,4.55);
+\draw (-0.3666666667,5.000000000) node {$ 11 $};
 \draw [] (-0.100,5.00) -- (0.100,5.00);
-\draw (-0.2000000000,5.416666667) node {$ 13 $};
-\draw [] (-0.100,5.42) -- (0.100,5.42);
+\draw (-0.3666666667,5.454545455) node {$ 12 $};
+\draw [] (-0.100,5.45) -- (0.100,5.45);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
@@ -528,26 +528,26 @@
 \immediate\write\writeOfphystricks{totalheightof0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDOTfiguressmathDOTpy-}
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 100 $}}%
 \immediate\write\writeOfphystricks{widthof0bf555d3caad6bbdc5a6b91b50ddb449a8b4ade2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{832}{5} $}}%
-\immediate\write\writeOfphystricks{totalheightof74f185cb345862695a9e718953c1c2d680a241ae:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{832}{5} $}}%
-\immediate\write\writeOfphystricks{widthof74f185cb345862695a9e718953c1c2d680a241ae:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{1664}{5} $}}%
-\immediate\write\writeOfphystricks{totalheightofdbebddbaedfba96a4874cdcf84428e3a1421f2d8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{1664}{5} $}}%
-\immediate\write\writeOfphystricks{widthofdbebddbaedfba96a4874cdcf84428e3a1421f2d8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{2496}{5} $}}%
-\immediate\write\writeOfphystricks{totalheightof89fe8178c2435db29b97a1e4134eebf2e0331ebd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{2496}{5} $}}%
-\immediate\write\writeOfphystricks{widthof89fe8178c2435db29b97a1e4134eebf2e0331ebd:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{3328}{5} $}}%
-\immediate\write\writeOfphystricks{totalheightof80cfa3c87cb1d6cdb23387b1c512a5f0044de5f9:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{3328}{5} $}}%
-\immediate\write\writeOfphystricks{widthof80cfa3c87cb1d6cdb23387b1c512a5f0044de5f9:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 832 $}}%
-\immediate\write\writeOfphystricks{totalheightof968a2344f9e9f12911d82e8544d69938a30fe7eb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 832 $}}%
-\immediate\write\writeOfphystricks{widthof968a2344f9e9f12911d82e8544d69938a30fe7eb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{804}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof684c699b469def9f255218861a2c216b8b741567:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{804}{5} $}}%
+\immediate\write\writeOfphystricks{widthof684c699b469def9f255218861a2c216b8b741567:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{1608}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof3fda42152c562452b38e3fcf34cacaa27c201fc1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{1608}{5} $}}%
+\immediate\write\writeOfphystricks{widthof3fda42152c562452b38e3fcf34cacaa27c201fc1:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{2412}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof272948b894aeb13321473d9c2202a971cdc1a5aa:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{2412}{5} $}}%
+\immediate\write\writeOfphystricks{widthof272948b894aeb13321473d9c2202a971cdc1a5aa:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ \frac{3216}{5} $}}%
+\immediate\write\writeOfphystricks{totalheightof25a3ddece34f6dddd33eff13f6f0bc2cefca1c40:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ \frac{3216}{5} $}}%
+\immediate\write\writeOfphystricks{widthof25a3ddece34f6dddd33eff13f6f0bc2cefca1c40:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 804 $}}%
+\immediate\write\writeOfphystricks{totalheightofe875b80d06402fc9a45d95f6bfd5d6123b752d65:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 804 $}}%
+\immediate\write\writeOfphystricks{widthofe875b80d06402fc9a45d95f6bfd5d6123b752d65:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -590,48 +590,48 @@
 \draw [] (1.35,0) -- (1.35,0);
 \draw [] (1.40,0) -- (1.40,0);
 \draw [] (1.45,0) -- (1.45,0);
-\draw [] (1.50,0) -- (1.50,0);
-\draw [] (1.55,0) -- (1.55,0);
-\draw [] (1.60,0) -- (1.60,0);
-\draw [] (1.65,0) -- (1.65,0.0120);
-\draw [] (1.70,0) -- (1.70,0.0120);
-\draw [] (1.75,0) -- (1.75,0.0541);
-\draw [] (1.80,0) -- (1.80,0.138);
-\draw [] (1.85,0) -- (1.85,0.198);
-\draw [] (1.90,0) -- (1.90,0.306);
-\draw [] (1.95,0) -- (1.95,0.391);
-\draw [] (2.00,0) -- (2.00,0.751);
-\draw [] (2.05,0) -- (2.05,0.943);
-\draw [] (2.10,0) -- (2.10,1.27);
-\draw [] (2.15,0) -- (2.15,1.83);
-\draw [] (2.20,0) -- (2.20,2.12);
-\draw [] (2.25,0) -- (2.25,2.98);
-\draw [] (2.30,0) -- (2.30,3.46);
-\draw [] (2.35,0) -- (2.35,4.06);
-\draw [] (2.40,0) -- (2.40,4.20);
-\draw [] (2.45,0) -- (2.45,4.57);
+\draw [] (1.50,0) -- (1.50,0.00622);
+\draw [] (1.55,0) -- (1.55,0.00622);
+\draw [] (1.60,0) -- (1.60,0.00622);
+\draw [] (1.65,0) -- (1.65,0.0249);
+\draw [] (1.70,0) -- (1.70,0.0187);
+\draw [] (1.75,0) -- (1.75,0.0808);
+\draw [] (1.80,0) -- (1.80,0.106);
+\draw [] (1.85,0) -- (1.85,0.131);
+\draw [] (1.90,0) -- (1.90,0.211);
+\draw [] (1.95,0) -- (1.95,0.442);
+\draw [] (2.00,0) -- (2.00,0.578);
+\draw [] (2.05,0) -- (2.05,0.939);
+\draw [] (2.10,0) -- (2.10,1.47);
+\draw [] (2.15,0) -- (2.15,1.98);
+\draw [] (2.20,0) -- (2.20,2.44);
+\draw [] (2.25,0) -- (2.25,3.13);
+\draw [] (2.30,0) -- (2.30,3.38);
+\draw [] (2.35,0) -- (2.35,4.14);
+\draw [] (2.40,0) -- (2.40,4.43);
+\draw [] (2.45,0) -- (2.45,4.78);
 \draw [] (2.50,0) -- (2.50,5.00);
-\draw [] (2.55,0) -- (2.55,4.69);
-\draw [] (2.60,0) -- (2.60,4.49);
-\draw [] (2.65,0) -- (2.65,4.09);
-\draw [] (2.70,0) -- (2.70,3.65);
-\draw [] (2.75,0) -- (2.75,3.06);
-\draw [] (2.80,0) -- (2.80,2.28);
-\draw [] (2.85,0) -- (2.85,1.81);
-\draw [] (2.90,0) -- (2.90,1.35);
-\draw [] (2.95,0) -- (2.95,0.841);
-\draw [] (3.00,0) -- (3.00,0.553);
-\draw [] (3.05,0) -- (3.05,0.391);
-\draw [] (3.10,0) -- (3.10,0.276);
-\draw [] (3.15,0) -- (3.15,0.156);
-\draw [] (3.20,0) -- (3.20,0.0721);
-\draw [] (3.25,0) -- (3.25,0.0661);
-\draw [] (3.30,0) -- (3.30,0.00601);
-\draw [] (3.35,0) -- (3.35,0.00601);
-\draw [] (3.40,0) -- (3.40,0.00601);
-\draw [] (3.45,0) -- (3.45,0.00601);
+\draw [] (2.55,0) -- (2.55,4.73);
+\draw [] (2.60,0) -- (2.60,4.66);
+\draw [] (2.65,0) -- (2.65,4.41);
+\draw [] (2.70,0) -- (2.70,3.51);
+\draw [] (2.75,0) -- (2.75,3.20);
+\draw [] (2.80,0) -- (2.80,2.48);
+\draw [] (2.85,0) -- (2.85,1.78);
+\draw [] (2.90,0) -- (2.90,1.42);
+\draw [] (2.95,0) -- (2.95,1.08);
+\draw [] (3.00,0) -- (3.00,0.616);
+\draw [] (3.05,0) -- (3.05,0.429);
+\draw [] (3.10,0) -- (3.10,0.274);
+\draw [] (3.15,0) -- (3.15,0.137);
+\draw [] (3.20,0) -- (3.20,0.0684);
+\draw [] (3.25,0) -- (3.25,0.0498);
+\draw [] (3.30,0) -- (3.30,0.0373);
+\draw [] (3.35,0) -- (3.35,0);
+\draw [] (3.40,0) -- (3.40,0);
+\draw [] (3.45,0) -- (3.45,0);
 \draw [] (3.50,0) -- (3.50,0);
-\draw [] (3.55,0) -- (3.55,0.00601);
+\draw [] (3.55,0) -- (3.55,0);
 \draw [] (3.60,0) -- (3.60,0);
 \draw [] (3.65,0) -- (3.65,0);
 \draw [] (3.70,0) -- (3.70,0);
@@ -680,15 +680,15 @@
 \draw [] (4.50,-0.100) -- (4.50,0.100);
 \draw (5.000000000,-0.3049540000) node {$ 100 $};
 \draw [] (5.00,-0.100) -- (5.00,0.100);
-\draw (-0.2000000000,1.000000000) node {$ \frac{832}{5} $};
+\draw (-0.2000000000,1.000000000) node {$ \frac{804}{5} $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw (-0.2000000000,2.000000000) node {$ \frac{1664}{5} $};
+\draw (-0.2000000000,2.000000000) node {$ \frac{1608}{5} $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
-\draw (-0.2000000000,3.000000000) node {$ \frac{2496}{5} $};
+\draw (-0.2000000000,3.000000000) node {$ \frac{2412}{5} $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw (-0.2000000000,4.000000000) node {$ \frac{3328}{5} $};
+\draw (-0.2000000000,4.000000000) node {$ \frac{3216}{5} $};
 \draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw (-0.2000000000,5.000000000) node {$ 832 $};
+\draw (-0.2000000000,5.000000000) node {$ 804 $};
 \draw [] (-0.100,5.00) -- (0.100,5.00);
 %OTHER STUFF
 %END PSPICTURE

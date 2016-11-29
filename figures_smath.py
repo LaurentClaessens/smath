@@ -556,6 +556,7 @@ from phystricksRVZNtGK import RVZNtGK
 from phystricksTWGooMalxLa import TWGooMalxLa
 from phystricksUEqUrvi import UEqUrvi
 from phystricksDZmbmzZ import DZmbmzZ
+from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
 
 # À surveiller :
 from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
@@ -1095,11 +1096,13 @@ figures_list.append(LWNSooVGvWxJ)
 figures_list.append(HHOooQUedri)
 figures_list.append(CBLooYAMumJ)
 figures_list.append(FJPooMGmakN)
-figures_list=[]
 figures_list.append(IFTGooWtjCeQ)
 figures_list.append(SLULooXaUibV)
 figures_list.append(SimulBinNWxfTN)     # Vu qu'il y a de l'aléatoire, le fichier intermédiaire fait toujours un Warning
+figures_list.append(ExoGraphIneqPgErDr)
 """
+figures_list.append(<++>)
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 """
