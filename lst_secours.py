@@ -3,10 +3,10 @@
 
 from __future__ import unicode_literals
 
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 #myRequest.original_filename="smath.tex"
 
 def accept_all_input(medicament):

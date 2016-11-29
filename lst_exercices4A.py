@@ -1,11 +1,11 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 import commun
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 myRequest.original_filename="4Aexercices.tex"
 
 myRequest.ok_filenames_list=["e_smath"]

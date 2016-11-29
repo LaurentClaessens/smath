@@ -3,10 +3,10 @@
 
 import sys
 import commun
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 myRequest.original_filename="smath.tex"
 
 #myRequest.ok_filenames_list=["e_smath"]
@@ -27,5 +27,5 @@ if "autres" in sys.argv:
     ok_mark_list=commun.autre_mark_list
     myRequest.add_plugin(commun.set_filename("0-autres.pdf"),"medicament")
 
-myRequest.add_plugin(LaTeXparser.PytexTools.accept_all_input,"medicament")
-myRequest.add_plugin(LaTeXparser.PytexTools.keep_script_marks(ok_mark_list),"before_pytex")
+myRequest.add_plugin(latexparser.PytexTools.accept_all_input,"medicament")
+myRequest.add_plugin(latexparser.PytexTools.keep_script_marks(ok_mark_list),"before_pytex")
