@@ -3,11 +3,11 @@
 
 from __future__ import unicode_literals
 
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 import commun
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 myRequest.original_filename="automatedChapter.tex"
 
 def set_filename(medicament):
