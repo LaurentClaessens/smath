@@ -65,6 +65,14 @@
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,3.500000000);
+%DEFAULT
+\draw []  (0,1.000000000) node [rotate=0] {$\bullet$};
+\draw []  (0.5000000000,1.500000000) node [rotate=0] {$\bullet$};
+\draw []  (1.000000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw []  (1.500000000,2.500000000) node [rotate=0] {$\bullet$};
+\draw []  (2.000000000,3.000000000) node [rotate=0] {$\bullet$};
 \draw (-0.5000000000,-0.3185623333) node {$ -1 $};
 \draw [] (-0.500,-0.100) -- (-0.500,0.100);
 \draw (0.5000000000,-0.3049540000) node {$ 1 $};
@@ -77,7 +85,6 @@
 \draw [] (2.00,-0.100) -- (2.00,0.100);
 \draw (2.500000000,-0.3049540000) node {$ 5 $};
 \draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
 \draw (-0.4129313333,-0.5000000000) node {$ -1 $};
 \draw [] (-0.100,-0.500) -- (0.100,-0.500);
 \draw (-0.2833333333,0.5000000000) node {$ 1 $};
@@ -94,19 +101,10 @@
 \draw [] (-0.100,3.00) -- (0.100,3.00);
 \draw (-0.2833333333,3.500000000) node {$ 7 $};
 \draw [] (-0.100,3.50) -- (0.100,3.50);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,3.500000000);
-%DEFAULT
-\draw []  (0,1.000000000) node [rotate=0] {$\bullet$};
-\draw []  (0.5000000000,1.500000000) node [rotate=0] {$\bullet$};
-\draw []  (1.000000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw []  (1.500000000,2.500000000) node [rotate=0] {$\bullet$};
-\draw []  (2.000000000,3.000000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW0PICTfigureWYxZPMWpspict0
 \label{LabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW0}
 }                  % Closing subfigure 1
 %
@@ -176,6 +174,14 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW0PICTfigureWYxZPMWpspict0
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
+\draw [,->,>=latex] (0,-3.000000000) -- (0,2.000000000);
+%DEFAULT
+\draw []  (0,-2.500000000) node [rotate=0] {$\bullet$};
+\draw []  (0.5000000000,-1.500000000) node [rotate=0] {$\bullet$};
+\draw []  (1.000000000,-0.5000000000) node [rotate=0] {$\bullet$};
+\draw []  (1.500000000,0.5000000000) node [rotate=0] {$\bullet$};
+\draw []  (2.000000000,1.500000000) node [rotate=0] {$\bullet$};
 \draw (-0.5000000000,-0.3185623333) node {$ -1 $};
 \draw [] (-0.500,-0.100) -- (-0.500,0.100);
 \draw (0.5000000000,-0.3049540000) node {$ 1 $};
@@ -188,7 +194,6 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW0PICTfigureWYxZPMWpspict0
 \draw [] (2.00,-0.100) -- (2.00,0.100);
 \draw (2.500000000,-0.3049540000) node {$ 5 $};
 \draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
 \draw (-0.4129313333,-3.000000000) node {$ -6 $};
 \draw [] (-0.100,-3.00) -- (0.100,-3.00);
 \draw (-0.4129313333,-2.500000000) node {$ -5 $};
@@ -209,19 +214,10 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW0PICTfigureWYxZPMWpspict0
 \draw [] (-0.100,1.50) -- (0.100,1.50);
 \draw (-0.2833333333,2.000000000) node {$ 4 $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
-\draw [,->,>=latex] (0,-3.000000000) -- (0,2.000000000);
-%DEFAULT
-\draw []  (0,-2.500000000) node [rotate=0] {$\bullet$};
-\draw []  (0.5000000000,-1.500000000) node [rotate=0] {$\bullet$};
-\draw []  (1.000000000,-0.5000000000) node [rotate=0] {$\bullet$};
-\draw []  (1.500000000,0.5000000000) node [rotate=0] {$\bullet$};
-\draw []  (2.000000000,1.500000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW1PICTfigureWYxZPMWpspict1
 \label{LabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW1}
 }                  % Closing subfigure 2
 %
@@ -271,6 +267,14 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW1PICTfigureWYxZPMWpspict1
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,2.500000000);
+%DEFAULT
+\draw []  (0,2.000000000) node [rotate=0] {$\bullet$};
+\draw []  (0.5000000000,1.500000000) node [rotate=0] {$\bullet$};
+\draw []  (1.000000000,1.000000000) node [rotate=0] {$\bullet$};
+\draw []  (1.500000000,0.5000000000) node [rotate=0] {$\bullet$};
+\draw []  (2.000000000,0) node [rotate=0] {$\bullet$};
 \draw (-0.5000000000,-0.3185623333) node {$ -1 $};
 \draw [] (-0.500,-0.100) -- (-0.500,0.100);
 \draw (0.5000000000,-0.3049540000) node {$ 1 $};
@@ -283,7 +287,6 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW1PICTfigureWYxZPMWpspict1
 \draw [] (2.00,-0.100) -- (2.00,0.100);
 \draw (2.500000000,-0.3049540000) node {$ 5 $};
 \draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
 \draw (-0.4129313333,-0.5000000000) node {$ -1 $};
 \draw [] (-0.100,-0.500) -- (0.100,-0.500);
 \draw (-0.2833333333,0.5000000000) node {$ 1 $};
@@ -296,19 +299,10 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW1PICTfigureWYxZPMWpspict1
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.2833333333,2.500000000) node {$ 5 $};
 \draw [] (-0.100,2.50) -- (0.100,2.50);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,2.500000000);
-%DEFAULT
-\draw []  (0,2.000000000) node [rotate=0] {$\bullet$};
-\draw []  (0.5000000000,1.500000000) node [rotate=0] {$\bullet$};
-\draw []  (1.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw []  (1.500000000,0.5000000000) node [rotate=0] {$\bullet$};
-\draw []  (2.000000000,0) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW2PICTfigureWYxZPMWpspict2
 \label{LabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW2}
 }                  % Closing subfigure 3
 %
@@ -386,6 +380,14 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW2PICTfigureWYxZPMWpspict2
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,2.600000000);
+%DEFAULT
+\draw []  (0,0.3000000000) node [rotate=0] {$\bullet$};
+\draw []  (0.5000000000,0.3000000000) node [rotate=0] {$\bullet$};
+\draw []  (1.000000000,0.6000000000) node [rotate=0] {$\bullet$};
+\draw []  (1.500000000,1.200000000) node [rotate=0] {$\bullet$};
+\draw []  (2.000000000,2.100000000) node [rotate=0] {$\bullet$};
 \draw (-0.5000000000,-0.3185623333) node {$ -1 $};
 \draw [] (-0.500,-0.100) -- (-0.500,0.100);
 \draw (0.5000000000,-0.3049540000) node {$ 1 $};
@@ -398,7 +400,6 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW2PICTfigureWYxZPMWpspict2
 \draw [] (2.00,-0.100) -- (2.00,0.100);
 \draw (2.500000000,-0.3049540000) node {$ 5 $};
 \draw [] (2.50,-0.100) -- (2.50,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (2.500000000,0);
 \draw (-0.4129313333,-0.3000000000) node {$ -2 $};
 \draw [] (-0.100,-0.300) -- (0.100,-0.300);
 \draw (-0.2833333333,0.3000000000) node {$ 2 $};
@@ -417,19 +418,10 @@ FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW2PICTfigureWYxZPMWpspict2
 \draw [] (-0.100,2.10) -- (0.100,2.10);
 \draw (-0.3666666667,2.400000000) node {$ 16 $};
 \draw [] (-0.100,2.40) -- (0.100,2.40);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,2.600000000);
-%DEFAULT
-\draw []  (0,0.3000000000) node [rotate=0] {$\bullet$};
-\draw []  (0.5000000000,0.3000000000) node [rotate=0] {$\bullet$};
-\draw []  (1.000000000,0.6000000000) node [rotate=0] {$\bullet$};
-\draw []  (1.500000000,1.200000000) node [rotate=0] {$\bullet$};
-\draw []  (2.000000000,2.100000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW3PICTfigureWYxZPMWpspict3
 \label{LabelFigfigureWYxZPMWssLabelSubFigfigureWYxZPMW3}
 }                  % Closing subfigure 4
 %

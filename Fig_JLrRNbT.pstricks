@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJLrRNbTPICTJLrRNbT.phystricks.aux%
+\immediate\openout\writeOfphystricks=JLrRNbT.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJLrRNbTPICTJLrRNbT.phystricks.aux%
+\immediate\openout\writeOfphystricks=JLrRNbT.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,7 +75,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigJLrRNbTPICTJLrRNbT}
+\tikzsetnextfilename{tikzJLrRNbT}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -105,20 +105,19 @@
 \draw [color=gray,style=solid] (-3.00,2.00) -- (4.00,2.00);
 %DEFAULT
 \draw []  (0,-1.000000000) node [rotate=0] {$\bullet$};
-\draw (0.2664216896,-1.255309856) node {\( A\)};
+\draw (0.3175863562,-1.305421356) node {\( A\)};
 \draw []  (3.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw (3.294893523,0.7446901438) node {\( K\)};
+\draw (3.358586190,0.6945786438) node {\( K\)};
 \draw []  (-2.000000000,0) node [rotate=0] {$\bullet$};
-\draw (-2.254847523,0.2553098562) node {\( L\)};
+\draw (-2.301308523,0.3054213562) node {\( L\)};
 \draw []  (-2.000000000,-1.000000000) node [rotate=0] {$\bullet$};
-\draw (-2.321282356,-1.255309856) node {\( M\)};
+\draw (-2.393836023,-1.305421356) node {\( M\)};
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.2619655229,0.2553098562) node {\( T\)};
+\draw (-0.3117941896,0.3054213562) node {\( T\)};
 
 %AXES
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigJLrRNbTPICTJLrRNbT
 %AFTER PSPICTURE

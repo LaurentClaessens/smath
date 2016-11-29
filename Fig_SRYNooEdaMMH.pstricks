@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigSRYNooEdaMMHPICTSRYNooEdaMMH.phystricks.aux%
+\immediate\openout\writeOfphystricks=SRYNooEdaMMH.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigSRYNooEdaMMHPICTSRYNooEdaMMH.phystricks.aux%
+\immediate\openout\writeOfphystricks=SRYNooEdaMMH.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A \)}}%
 \immediate\write\writeOfphystricks{totalheightof3084f7330c45acbc2642845f420d9618cf2faaef:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -123,11 +123,30 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigSRYNooEdaMMHPICTSRYNooEdaMMH}
+\tikzsetnextfilename{tikzSRYNooEdaMMH}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-4.000000000,0) -- (4.436810509,0);
+\draw [,->,>=latex] (0,-2.600000000) -- (0,3.027777000);
+%DEFAULT
+
+\draw (1.197969491,0.4979694911) node {\( A \)};
+\draw (3.702030509,0.4979694911) node {\( B \)};
+\draw (3.702030509,1.602030509) node {\( C \)};
+\draw (1.197969491,1.602030509) node {\( D \)};
+\draw [] (1.40,0.700) -- (3.50,0.700);
+\draw [] (3.50,0.700) -- (3.50,1.40);
+\draw [] (3.50,1.40) -- (1.40,1.40);
+\draw [] (1.40,1.40) -- (1.40,0.700);
+\draw [] (1.40,0.700) -- (3.50,0.700);
+\draw [] (3.50,0.700) -- (3.50,1.40);
+\draw [] (3.50,1.40) -- (1.40,1.40);
+\draw [] (3.50,1.40) -- (2.80,2.10);
+\draw [] (1.40,1.40) -- (1.40,0.700);
+\draw (2.800000000,2.313888500) node {\( E\)};
+\draw (-0.1671145057,0.1492438391) node {\( O\)};
 \draw (-3.500000000,-0.3185623333) node {$ -5 $};
 \draw [] (-3.50,-0.100) -- (-3.50,0.100);
 \draw (-2.800000000,-0.3185623333) node {$ -4 $};
@@ -150,7 +169,6 @@
 \draw [] (3.50,-0.100) -- (3.50,0.100);
 \draw (4.200000000,-0.3049540000) node {$ 6 $};
 \draw [] (4.20,-0.100) -- (4.20,0.100);
-\draw [,->,>=latex] (-4.000000000,0) -- (4.436810509,0);
 \draw (-0.4129313333,-2.100000000) node {$ -3 $};
 \draw [] (-0.100,-2.10) -- (0.100,-2.10);
 \draw (-0.4129313333,-1.400000000) node {$ -2 $};
@@ -165,28 +183,8 @@
 \draw [] (-0.100,2.10) -- (0.100,2.10);
 \draw (-0.2833333333,2.800000000) node {$ 4 $};
 \draw [] (-0.100,2.80) -- (0.100,2.80);
-\draw [,->,>=latex] (0,-2.600000000) -- (0,3.027777000);
-%DEFAULT
-
-\draw (1.197969491,0.4979694911) node {\( A \)};
-\draw (3.702030509,0.4979694911) node {\( B \)};
-\draw (3.702030509,1.602030509) node {\( C \)};
-\draw (1.197969491,1.602030509) node {\( D \)};
-\draw [] (1.40,0.700) -- (3.50,0.700);
-\draw [] (3.50,0.700) -- (3.50,1.40);
-\draw [] (3.50,1.40) -- (1.40,1.40);
-\draw [] (1.40,1.40) -- (1.40,0.700);
-\draw [] (1.40,0.700) -- (3.50,0.700);
-\draw [] (3.50,0.700) -- (3.50,1.40);
-\draw [] (3.50,1.40) -- (1.40,1.40);
-\draw [] (3.50,1.40) -- (2.80,2.10);
-\draw [] (1.40,1.40) -- (1.40,0.700);
-\draw (2.800000000,2.313888500) node {\( E\)};
-\draw (-0.1671145057,0.1492438391) node {\( O\)};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigSRYNooEdaMMHPICTSRYNooEdaMMH
 %AFTER PSPICTURE

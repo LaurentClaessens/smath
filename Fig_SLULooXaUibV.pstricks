@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigSLULooXaUibVPICTSLULooXaUibV.phystricks.aux%
+\immediate\openout\writeOfphystricks=SLULooXaUibV.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigSLULooXaUibVPICTSLULooXaUibV.phystricks.aux%
+\immediate\openout\writeOfphystricks=SLULooXaUibV.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,7 +71,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigSLULooXaUibVPICTSLULooXaUibV}
+\tikzsetnextfilename{tikzSLULooXaUibV}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -80,7 +80,7 @@
 %DEFAULT
 \draw [] (1.50,0) -- (0.500,1.00);
 \draw []  (1.500000000,0) node [rotate=0] {$\bullet$};
-\draw (1.641421356,-0.1414213562) node {\( K\)};
+\draw (1.858586190,-0.3054213562) node {\( K\)};
 \draw []  (0,0) node [rotate=0] {$\bullet$};
 \draw (-0.1701301617,-0.1051462224) node {\(A\)};
 \draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
@@ -97,5 +97,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigSLULooXaUibVPICTSLULooXaUibV
 %AFTER PSPICTURE

@@ -42,8 +42,8 @@ def CKOooBQtves():
 
     angle1=AngleAOB(B,A,K)
     angle2=AngleAOB(L,B,A)
-    angle1.put_mark(0.2,None,"\( {}\)".format(a1),pspicts=pspicts)
-    angle2.put_mark(0.2,None,"\( {}\)".format(a2),pspicts=pspicts)
+    angle1.put_mark(text="\( {}\)".format(a1),pspicts=pspicts)
+    angle2.put_mark(text="\( {}\)".format(a2),pspicts=pspicts)
 
     edge1=Segment(A,B)
     edge2=Segment(A,C)

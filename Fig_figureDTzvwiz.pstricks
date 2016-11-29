@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureDTzvwizPICTfigureDTzvwiz.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureDTzvwiz.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureDTzvwizPICTfigureDTzvwiz.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureDTzvwiz.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,7 +71,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigfigureDTzvwizPICTfigureDTzvwiz}
+\tikzsetnextfilename{tikzfigureDTzvwiz}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -84,17 +84,16 @@
 \draw [color=blue] (0,6.00) -- (6.00,6.00);
 \draw [color=red,->,>=latex] (0,0) -- (1.500000000,4.500000000);
 \draw []  (0,4.500000000) node [rotate=0] {$\bullet$};
-\draw (-0.3250003333,4.500000000) node {\( A\)};
+\draw (-0.3761650000,4.500000000) node {\( A\)};
 \draw []  (1.500000000,4.500000000) node [rotate=0] {$\bullet$};
-\draw (1.834780000,4.500000000) node {\( B\)};
+\draw (1.890637167,4.500000000) node {\( B\)};
 \draw []  (0,6.000000000) node [rotate=0] {$\bullet$};
-\draw (0,6.326354167) node {\( A'\)};
+\draw (0,6.378526000) node {\( A'\)};
 \draw []  (2.000000000,6.000000000) node [rotate=0] {$\bullet$};
-\draw (2.000000000,6.326354167) node {\( B'\)};
+\draw (2.000000000,6.378526000) node {\( B'\)};
 \draw [style=dashed] (0,4.50) -- (0,6.00);
 \draw [style=dashed] (1.50,4.50) -- (2.00,6.00);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureDTzvwizPICTfigureDTzvwiz
 %AFTER PSPICTURE

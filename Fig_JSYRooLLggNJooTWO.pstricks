@@ -45,46 +45,37 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfhomemokyDOTSagesrcbinsageipython}}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJSYRooLLggNJooTWOPICTJSYRooLLggNJooTWO.phystricks.aux%
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=JSYRooLLggNJooTWO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfhomemokyDOTSagesrcbinsageipython}}{\newlength{\lengthOfhomemokyDOTSagesrcbinsageipython}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJSYRooLLggNJooTWOPICTJSYRooLLggNJooTWO.phystricks.aux%
+\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\immediate\openout\writeOfphystricks=JSYRooLLggNJooTWO.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( S\)}}%
-\immediate\write\writeOfphystricks{totalheightofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( S\)}}%
-\immediate\write\writeOfphystricks{widthofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\(  T\)}}%
-\immediate\write\writeOfphystricks{totalheightof52f7eb4059c65ab71cefb124a85a74ad8d0113d4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\(  T\)}}%
-\immediate\write\writeOfphystricks{widthof52f7eb4059c65ab71cefb124a85a74ad8d0113d4:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( U\)}}%
-\immediate\write\writeOfphystricks{totalheightof655fc35b385b67b45aaca2070e88849924220233:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( U\)}}%
-\immediate\write\writeOfphystricks{widthof655fc35b385b67b45aaca2070e88849924220233:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\totalheightof{\( 0\)}}%
-\immediate\write\writeOfphystricks{totalheightofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
-\setlength{\lengthOfhomemokyDOTSagesrcbinsageipython}{\widthof{\( 0\)}}%
-\immediate\write\writeOfphystricks{widthofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfhomemokyDOTSagesrcbinsageipython-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( S\)}}%
+\immediate\write\writeOfphystricks{totalheightofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( S\)}}%
+\immediate\write\writeOfphystricks{widthofbce0dbe5713b1ee6c3c7e1108d8adcb978d4b985:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(  T\)}}%
+\immediate\write\writeOfphystricks{totalheightof52f7eb4059c65ab71cefb124a85a74ad8d0113d4:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(  T\)}}%
+\immediate\write\writeOfphystricks{widthof52f7eb4059c65ab71cefb124a85a74ad8d0113d4:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( U\)}}%
+\immediate\write\writeOfphystricks{totalheightof655fc35b385b67b45aaca2070e88849924220233:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( U\)}}%
+\immediate\write\writeOfphystricks{widthof655fc35b385b67b45aaca2070e88849924220233:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 0\)}}%
+\immediate\write\writeOfphystricks{totalheightofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 0\)}}%
+\immediate\write\writeOfphystricks{widthofbeb9fe9f7236f6b0aa74bd7fd2526542efcfdb9b:\the\lengthOfDOTfiguressmathDOTpy-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigJSYRooLLggNJooTWOPICTJSYRooLLggNJooTWO}
+\tikzsetnextfilename{tikzJSYRooLLggNJooTWO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [] (-4.00,-0.100) -- (-4.00,0.100);
-\draw [] (-3.00,-0.100) -- (-3.00,0.100);
-\draw [] (-2.00,-0.100) -- (-2.00,0.100);
-\draw [] (-1.00,-0.100) -- (-1.00,0.100);
-\draw [] (0,-0.100) -- (0,0.100);
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw [] (4.00,-0.100) -- (4.00,0.100);
 \draw [,->,>=latex] (-4.000000000,0) -- (4.000000000,0);
 %DEFAULT
 \draw []  (0,0) node [rotate=0] {$\bullet$};
@@ -95,10 +86,17 @@
 \draw (-3.000000000,0.3138885000) node {\( U\)};
 \draw []  (0,0) node [rotate=0] {$\bullet$};
 \draw (0,-0.3049540000) node {\( 0\)};
-
+\draw [] (-4.00,-0.100) -- (-4.00,0.100);
+\draw [] (-3.00,-0.100) -- (-3.00,0.100);
+\draw [] (-2.00,-0.100) -- (-2.00,0.100);
+\draw [] (-1.00,-0.100) -- (-1.00,0.100);
+\draw [] (0,-0.100) -- (0,0.100);
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw [] (4.00,-0.100) -- (4.00,0.100);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigJSYRooLLggNJooTWOPICTJSYRooLLggNJooTWO
 %AFTER PSPICTURE

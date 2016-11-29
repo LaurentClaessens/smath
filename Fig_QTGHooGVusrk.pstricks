@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigQTGHooGVusrkPICTQTGHooGVusrk.phystricks.aux%
+\immediate\openout\writeOfphystricks=QTGHooGVusrk.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigQTGHooGVusrkPICTQTGHooGVusrk.phystricks.aux%
+\immediate\openout\writeOfphystricks=QTGHooGVusrk.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 0.5\)}}%
 \immediate\write\writeOfphystricks{totalheightof7c33bc60fdae16c2f99a8c9ddc604569871f2031:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,11 +79,13 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigQTGHooGVusrkPICTQTGHooGVusrk}
+\tikzsetnextfilename{tikzQTGHooGVusrk}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-4.000000000,0) -- (4.000000000,0);
+%DEFAULT
 \draw [] (-4.00,-0.100) -- (-4.00,0.100);
 \draw [] (-3.50,-0.100) -- (-3.50,0.100);
 \draw [] (-3.00,-0.100) -- (-3.00,0.100);
@@ -101,9 +103,6 @@
 \draw [] (3.00,-0.100) -- (3.00,0.100);
 \draw [] (3.50,-0.100) -- (3.50,0.100);
 \draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw [,->,>=latex] (-4.000000000,0) -- (4.000000000,0);
-%DEFAULT
-
 \draw (0,-0.3138885000) node {\( O\)};
 \draw (-3.500000000,-0.3138885000) node {\( A\)};
 \draw (-2.500000000,-0.3138885000) node {\( B\)};
@@ -114,5 +113,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigQTGHooGVusrkPICTQTGHooGVusrk
 %AFTER PSPICTURE

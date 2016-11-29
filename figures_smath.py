@@ -556,6 +556,7 @@ from phystricksRVZNtGK import RVZNtGK
 from phystricksTWGooMalxLa import TWGooMalxLa
 from phystricksUEqUrvi import UEqUrvi
 from phystricksDZmbmzZ import DZmbmzZ
+from phystricksExoGraphIneqPgErDr import ExoGraphIneqPgErDr
 
 # À surveiller :
 from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
@@ -840,14 +841,11 @@ figures_list.append(JTQooDUZpht)
 figures_list.append(NARooFiHuAy)
 figures_list.append(NWPooWQBSnz)
 figures_list.append(LRWooCalQsT)
-figures_list.append(HHOooQUedri)
-figures_list.append(CBLooYAMumJ)
 figures_list.append(LXQooZPbZml)
 figures_list.append(MFWooBwnCkX)
 figures_list.append(CNTooDFQFEQ)
 figures_list.append(PSZooRphUET)
 figures_list.append(CVKooPKKMNG)
-figures_list.append(FJPooMGmakN)
 figures_list.append(JJGooMMFWLs)
 figures_list.append(CMOooKlzoBL)
 figures_list.append(CXWooOMPOQT)
@@ -870,7 +868,6 @@ figures_list.append(QAHooOhyyHI)
 figures_list.append(IUHooFrAHoa)
 figures_list.append(GLVooUSQccD)
 figures_list.append(YEWSooDXYRJo)
-figures_list.append(IFTGooWtjCeQ)
 figures_list.append(TCBLooKXvOaZ)
 figures_list.append(YAFJooWuUmHJ)
 figures_list.append(ECQDooWEpuCM)
@@ -887,7 +884,6 @@ figures_list.append(HHRTooMDylcn)
 figures_list.append(KSLDooMnmoPU)
 figures_list.append(ZFNXooSjzTPJ)
 figures_list.append(MEWYooRvygNF)
-figures_list.append(SLULooXaUibV)
 figures_list.append(ARKZooKZOuAk)
 figures_list.append(QTCQooFtDgwk)
 figures_list.append(VJZKooGlvyPP)
@@ -1047,7 +1043,6 @@ figures_list.append(YDTGooZGkkei)
 figures_list.append(XTGXooDVcEZs)
 figures_list.append(HYVFooTHaDDQ)
 figures_list.append(ZSAooVHmHWd)        # Une seule des deux figures est utilisée
-figures_list.append(SimulBinNWxfTN)     # Vu qu'il y a de l'aléatoire, le fichier intermédiaire fait toujours un Warning
 figures_list.append(CSFRooVynjkf)
 figures_list.append(LWKNooOqJykO)
 figures_list.append(DEAXooTRICJi)
@@ -1098,7 +1093,16 @@ figures_list.append(OTGooGcktOd)
 figures_list.append(VNJWooDeKdcy)
 figures_list.append(HUGKooTkDsOg)
 figures_list.append(LWNSooVGvWxJ)
+figures_list.append(HHOooQUedri)
+figures_list.append(CBLooYAMumJ)
+figures_list.append(FJPooMGmakN)
+figures_list.append(IFTGooWtjCeQ)
+figures_list.append(SLULooXaUibV)
+figures_list.append(SimulBinNWxfTN)     # Vu qu'il y a de l'aléatoire, le fichier intermédiaire fait toujours un Warning
+figures_list.append(ExoGraphIneqPgErDr)
 """
+figures_list.append(<++>)
+figures_list.append(<++>)
 figures_list.append(<++>)
 figures_list.append(<++>)
 """

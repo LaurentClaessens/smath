@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigLZDNqtVPICTLZDNqtV.phystricks.aux%
+\immediate\openout\writeOfphystricks=LZDNqtV.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigLZDNqtVPICTLZDNqtV.phystricks.aux%
+\immediate\openout\writeOfphystricks=LZDNqtV.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C\)}}%
 \immediate\write\writeOfphystricks{totalheightofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigLZDNqtVPICTLZDNqtV}
+\tikzsetnextfilename{tikzLZDNqtV}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -79,14 +79,13 @@
 \draw [] (-1.69,1.12) -- (1.69,1.12);
 \draw [] (0,0) -- (0.660,1.12);
 \draw []  (0,1.120000000) node [rotate=0] {$\bullet$};
-\draw (0,1.433888500) node {\( C\)};
+\draw (0,1.484000000) node {\( C\)};
 \draw []  (0.6600000000,1.120000000) node [rotate=0] {$\bullet$};
-\draw (0.8877636896,1.375309856) node {\( I\)};
+\draw (0.9239343562,1.425421356) node {\( I\)};
 \draw [] (0,0) -- (0.660,1.12);
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0,-0.3138885000) node {\( O\)};
+\draw (0,-0.3640000000) node {\( O\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigLZDNqtVPICTLZDNqtV
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT.phystricks.aux%
+\immediate\openout\writeOfphystricks=DTFZooTlciUT.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT.phystricks.aux%
+\immediate\openout\writeOfphystricks=DTFZooTlciUT.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Tristan}}%
 \immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT}
+\tikzsetnextfilename{tikzDTFZooTlciUT}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -83,5 +83,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigDTFZooTlciUTPICTDTFZooTlciUT
 %AFTER PSPICTURE

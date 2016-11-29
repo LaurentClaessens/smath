@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJRVlexwPICTJRVlexw.phystricks.aux%
+\immediate\openout\writeOfphystricks=JRVlexw.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigJRVlexwPICTJRVlexw.phystricks.aux%
+\immediate\openout\writeOfphystricks=JRVlexw.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(0.001\)}}%
 \immediate\write\writeOfphystricks{totalheightof6016d62d22fecb9ab75cc7d3b8ca5000d79ed4e1:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -239,61 +239,11 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigJRVlexwPICTJRVlexw}
+\tikzsetnextfilename{tikzJRVlexw}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (3.500000000,-0.3049540000) node {$ 5 $};
-\draw [] (3.50,-0.100) -- (3.50,0.100);
-\draw (4.200000000,-0.3049540000) node {$ 6 $};
-\draw [] (4.20,-0.100) -- (4.20,0.100);
-\draw (4.900000000,-0.3049540000) node {$ 7 $};
-\draw [] (4.90,-0.100) -- (4.90,0.100);
-\draw (5.600000000,-0.3049540000) node {$ 8 $};
-\draw [] (5.60,-0.100) -- (5.60,0.100);
-\draw (6.300000000,-0.3049540000) node {$ 9 $};
-\draw [] (6.30,-0.100) -- (6.30,0.100);
-\draw (7.000000000,-0.3049540000) node {$ 10 $};
-\draw [] (7.00,-0.100) -- (7.00,0.100);
-\draw (7.700000000,-0.3049540000) node {$ 11 $};
-\draw [] (7.70,-0.100) -- (7.70,0.100);
-\draw (8.400000000,-0.3049540000) node {$ 12 $};
-\draw [] (8.40,-0.100) -- (8.40,0.100);
-\draw (9.100000000,-0.3049540000) node {$ 13 $};
-\draw [] (9.10,-0.100) -- (9.10,0.100);
-\draw (9.800000000,-0.3049540000) node {$ 14 $};
-\draw [] (9.80,-0.100) -- (9.80,0.100);
-\draw (10.50000000,-0.3049540000) node {$ 15 $};
-\draw [] (10.5,-0.100) -- (10.5,0.100);
-\draw (11.20000000,-0.3049540000) node {$ 16 $};
-\draw [] (11.2,-0.100) -- (11.2,0.100);
-\draw (11.90000000,-0.3049540000) node {$ 17 $};
-\draw [] (11.9,-0.100) -- (11.9,0.100);
-\draw (12.60000000,-0.3049540000) node {$ 18 $};
-\draw [] (12.6,-0.100) -- (12.6,0.100);
-\draw (13.30000000,-0.3049540000) node {$ 19 $};
-\draw [] (13.3,-0.100) -- (13.3,0.100);
-\draw (14.00000000,-0.3049540000) node {$ 20 $};
-\draw [] (14.0,-0.100) -- (14.0,0.100);
-\draw (14.70000000,-0.3049540000) node {$ 21 $};
-\draw [] (14.7,-0.100) -- (14.7,0.100);
-\draw (15.40000000,-0.3049540000) node {$ 22 $};
-\draw [] (15.4,-0.100) -- (15.4,0.100);
-\draw (16.10000000,-0.3049540000) node {$ 23 $};
-\draw [] (16.1,-0.100) -- (16.1,0.100);
-\draw (16.80000000,-0.3049540000) node {$ 24 $};
-\draw [] (16.8,-0.100) -- (16.8,0.100);
-\draw (17.50000000,-0.3049540000) node {$ 25 $};
-\draw [] (17.5,-0.100) -- (17.5,0.100);
-\draw (18.20000000,-0.3049540000) node {$ 26 $};
-\draw [] (18.2,-0.100) -- (18.2,0.100);
-\draw (18.90000000,-0.3049540000) node {$ 27 $};
-\draw [] (18.9,-0.100) -- (18.9,0.100);
-\draw (19.60000000,-0.3049540000) node {$ 28 $};
-\draw [] (19.6,-0.100) -- (19.6,0.100);
-\draw (20.30000000,-0.3049540000) node {$ 29 $};
-\draw [] (20.3,-0.100) -- (20.3,0.100);
 \draw [,->,>=latex] (0,0) -- (20.30000000,0);
 %DEFAULT
 
@@ -369,10 +319,58 @@
 \draw (18.20000000,0.5171670735) node {\(0.004\)};
 \draw (18.90000000,0.4157389555) node {\(0.002\)};
 \draw (19.60000000,0.3599696582) node {\(0.001\)};
-
+\draw (3.500000000,-0.3049540000) node {$ 5 $};
+\draw [] (3.50,-0.100) -- (3.50,0.100);
+\draw (4.200000000,-0.3049540000) node {$ 6 $};
+\draw [] (4.20,-0.100) -- (4.20,0.100);
+\draw (4.900000000,-0.3049540000) node {$ 7 $};
+\draw [] (4.90,-0.100) -- (4.90,0.100);
+\draw (5.600000000,-0.3049540000) node {$ 8 $};
+\draw [] (5.60,-0.100) -- (5.60,0.100);
+\draw (6.300000000,-0.3049540000) node {$ 9 $};
+\draw [] (6.30,-0.100) -- (6.30,0.100);
+\draw (7.000000000,-0.3049540000) node {$ 10 $};
+\draw [] (7.00,-0.100) -- (7.00,0.100);
+\draw (7.700000000,-0.3049540000) node {$ 11 $};
+\draw [] (7.70,-0.100) -- (7.70,0.100);
+\draw (8.400000000,-0.3049540000) node {$ 12 $};
+\draw [] (8.40,-0.100) -- (8.40,0.100);
+\draw (9.100000000,-0.3049540000) node {$ 13 $};
+\draw [] (9.10,-0.100) -- (9.10,0.100);
+\draw (9.800000000,-0.3049540000) node {$ 14 $};
+\draw [] (9.80,-0.100) -- (9.80,0.100);
+\draw (10.50000000,-0.3049540000) node {$ 15 $};
+\draw [] (10.5,-0.100) -- (10.5,0.100);
+\draw (11.20000000,-0.3049540000) node {$ 16 $};
+\draw [] (11.2,-0.100) -- (11.2,0.100);
+\draw (11.90000000,-0.3049540000) node {$ 17 $};
+\draw [] (11.9,-0.100) -- (11.9,0.100);
+\draw (12.60000000,-0.3049540000) node {$ 18 $};
+\draw [] (12.6,-0.100) -- (12.6,0.100);
+\draw (13.30000000,-0.3049540000) node {$ 19 $};
+\draw [] (13.3,-0.100) -- (13.3,0.100);
+\draw (14.00000000,-0.3049540000) node {$ 20 $};
+\draw [] (14.0,-0.100) -- (14.0,0.100);
+\draw (14.70000000,-0.3049540000) node {$ 21 $};
+\draw [] (14.7,-0.100) -- (14.7,0.100);
+\draw (15.40000000,-0.3049540000) node {$ 22 $};
+\draw [] (15.4,-0.100) -- (15.4,0.100);
+\draw (16.10000000,-0.3049540000) node {$ 23 $};
+\draw [] (16.1,-0.100) -- (16.1,0.100);
+\draw (16.80000000,-0.3049540000) node {$ 24 $};
+\draw [] (16.8,-0.100) -- (16.8,0.100);
+\draw (17.50000000,-0.3049540000) node {$ 25 $};
+\draw [] (17.5,-0.100) -- (17.5,0.100);
+\draw (18.20000000,-0.3049540000) node {$ 26 $};
+\draw [] (18.2,-0.100) -- (18.2,0.100);
+\draw (18.90000000,-0.3049540000) node {$ 27 $};
+\draw [] (18.9,-0.100) -- (18.9,0.100);
+\draw (19.60000000,-0.3049540000) node {$ 28 $};
+\draw [] (19.6,-0.100) -- (19.6,0.100);
+\draw (20.30000000,-0.3049540000) node {$ 29 $};
+\draw [] (20.3,-0.100) -- (20.3,0.100);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigJRVlexwPICTJRVlexw
 %AFTER PSPICTURE

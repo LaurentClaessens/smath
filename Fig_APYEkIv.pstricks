@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigAPYEkIvPICTAPYEkIv.phystricks.aux%
+\immediate\openout\writeOfphystricks=APYEkIv.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigAPYEkIvPICTAPYEkIv.phystricks.aux%
+\immediate\openout\writeOfphystricks=APYEkIv.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 230\)}}%
 \immediate\write\writeOfphystricks{totalheightofcd27b3df485bd78a7c744c4459ea53bffc81e38a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,7 +71,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigAPYEkIvPICTAPYEkIv}
+\tikzsetnextfilename{tikzAPYEkIv}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -79,18 +79,17 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0,-0.3138885000) node {\( E\)};
+\draw (0,-0.3640000000) node {\( E\)};
 \draw []  (5.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw (5.308449000,1.000000000) node {\( J\)};
+\draw (5.352110333,1.000000000) node {\( J\)};
 \draw [] (0,0) -- (5.00,0);
 \draw [] (5.00,0) -- (5.00,1.00);
 \draw [] (5.00,1.00) -- (0,0);
 \draw [] (0,0) -- (5.00,0);
-\draw (2.500000000,-0.3049540000) node {\( 230\)};
+\draw (2.500000000,-0.3511346667) node {\( 230\)};
 \draw [] (5.00,0) -- (5.00,1.00);
-\draw (5.366666667,0.5000000000) node {\( 15\)};
+\draw (5.434999667,0.5000000000) node {\( 15\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigAPYEkIvPICTAPYEkIv
 %AFTER PSPICTURE

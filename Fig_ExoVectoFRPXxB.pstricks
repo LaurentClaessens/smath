@@ -47,10 +47,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigExoVectoFRPXxBPICTExoVectoFRPXxB.phystricks.aux%
+\immediate\openout\writeOfphystricks=ExoVectoFRPXxB.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigExoVectoFRPXxBPICTExoVectoFRPXxB.phystricks.aux%
+\immediate\openout\writeOfphystricks=ExoVectoFRPXxB.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(  \vect{ u }\)}}%
 \immediate\write\writeOfphystricks{totalheightof46076f251ee743a10a4fcba187e60800b1d45e56:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -68,7 +68,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigExoVectoFRPXxBPICTExoVectoFRPXxB}
+\tikzsetnextfilename{tikzExoVectoFRPXxB}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -107,5 +107,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigExoVectoFRPXxBPICTExoVectoFRPXxB
 %AFTER PSPICTURE

@@ -28,9 +28,9 @@ def QAHooOhyyHI():
     qcangle=AngleAOB(H,G,F)
     a1=AngleAOB(G,F,H)
     a2=AngleAOB(F,H,G)
-    qcangle.put_mark(0.2,None,"\( 45\)",pspicts=pspicts)
-    a1.put_mark(0.1,None,"\( 78\)",pspicts=pspicts)
-    a2.put_mark(0.1,None,"\( 57\)",pspicts=pspicts)
+    qcangle.put_mark(text="\( 45\)",pspicts=pspicts)
+    a1.put_mark(text="\( 78\)",pspicts=pspicts)
+    a2.put_mark(text="\( 57\)",pspicts=pspicts)
     
     pspicts[0].DrawGraphs(F,G,FG,seg,qcangle)
     pspicts[1].DrawGraphs(F,G,H,seg,triangle,qcangle)

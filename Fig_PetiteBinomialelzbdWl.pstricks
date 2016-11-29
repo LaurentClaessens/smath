@@ -89,6 +89,20 @@
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (0,0) -- (4.500000000,0);
+\draw [,->,>=latex] (0,0) -- (0,3.974254194);
+%DEFAULT
+\draw [color=blue] (0,0) -- (0,1.97);
+\draw [color=blue] (0.400,0) -- (0.400,3.47);
+\draw [color=blue] (0.800,0) -- (0.800,2.76);
+\draw [color=blue] (1.20,0) -- (1.20,1.30);
+\draw [color=blue] (1.60,0) -- (1.60,0.401);
+\draw [color=blue] (2.00,0) -- (2.00,0.0849);
+\draw [color=blue] (2.40,0) -- (2.40,0.0125);
+\draw [color=blue] (2.80,0) -- (2.80,0.00126);
+\draw [color=blue] (3.20,0) -- (3.20,0);
+\draw [color=blue] (3.60,0) -- (3.60,0);
+\draw [color=blue] (4.00,0) -- (4.00,0);
 \draw (0.4000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.400,-0.100) -- (0.400,0.100);
 \draw (0.8000000000,-0.3049540000) node {$ 2 $};
@@ -111,32 +125,16 @@
 \draw [] (4.00,-0.100) -- (4.00,0.100);
 \draw (4.400000000,-0.3049540000) node {$ 11 $};
 \draw [] (4.40,-0.100) -- (4.40,0.100);
-\draw [,->,>=latex] (0,0) -- (4.500000000,0);
 \draw (-0.3728663333,1.000000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
 \draw (-0.3064331667,2.000000000) node {$ \frac{1}{5} $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.3728663333,3.000000000) node {$ \frac{3}{10} $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw [,->,>=latex] (0,0) -- (0,3.974254194);
-%DEFAULT
-\draw [color=blue] (0,0) -- (0,1.97);
-\draw [color=blue] (0.400,0) -- (0.400,3.47);
-\draw [color=blue] (0.800,0) -- (0.800,2.76);
-\draw [color=blue] (1.20,0) -- (1.20,1.30);
-\draw [color=blue] (1.60,0) -- (1.60,0.401);
-\draw [color=blue] (2.00,0) -- (2.00,0.0849);
-\draw [color=blue] (2.40,0) -- (2.40,0.0125);
-\draw [color=blue] (2.80,0) -- (2.80,0.00126);
-\draw [color=blue] (3.20,0) -- (3.20,0);
-\draw [color=blue] (3.60,0) -- (3.60,0);
-\draw [color=blue] (4.00,0) -- (4.00,0);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl0PICTPetiteBinomialelzbdWlpspict0
 \label{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl0}
 }                  % Closing subfigure 1
 %
@@ -238,6 +236,25 @@ FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl0PICTPetiteBin
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (0,0) -- (6.500000000,0);
+\draw [,->,>=latex] (0,0) -- (0,3.356392285);
+%DEFAULT
+\draw [color=blue] (0,0) -- (0,0.874);
+\draw [color=blue] (0.400,0) -- (0.400,2.31);
+\draw [color=blue] (0.800,0) -- (0.800,2.86);
+\draw [color=blue] (1.20,0) -- (1.20,2.18);
+\draw [color=blue] (1.60,0) -- (1.60,1.16);
+\draw [color=blue] (2.00,0) -- (2.00,0.449);
+\draw [color=blue] (2.40,0) -- (2.40,0.132);
+\draw [color=blue] (2.80,0) -- (2.80,0.0300);
+\draw [color=blue] (3.20,0) -- (3.20,0.00529);
+\draw [color=blue] (3.60,0) -- (3.60,0);
+\draw [color=blue] (4.00,0) -- (4.00,0);
+\draw [color=blue] (4.40,0) -- (4.40,0);
+\draw [color=blue] (4.80,0) -- (4.80,0);
+\draw [color=blue] (5.20,0) -- (5.20,0);
+\draw [color=blue] (5.60,0) -- (5.60,0);
+\draw [color=blue] (6.00,0) -- (6.00,0);
 \draw (0.4000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.400,-0.100) -- (0.400,0.100);
 \draw (0.8000000000,-0.3049540000) node {$ 2 $};
@@ -270,37 +287,16 @@ FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl0PICTPetiteBin
 \draw [] (6.00,-0.100) -- (6.00,0.100);
 \draw (6.400000000,-0.3049540000) node {$ 16 $};
 \draw [] (6.40,-0.100) -- (6.40,0.100);
-\draw [,->,>=latex] (0,0) -- (6.500000000,0);
 \draw (-0.3728663333,1.000000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
 \draw (-0.3064331667,2.000000000) node {$ \frac{1}{5} $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.3728663333,3.000000000) node {$ \frac{3}{10} $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw [,->,>=latex] (0,0) -- (0,3.356392285);
-%DEFAULT
-\draw [color=blue] (0,0) -- (0,0.874);
-\draw [color=blue] (0.400,0) -- (0.400,2.31);
-\draw [color=blue] (0.800,0) -- (0.800,2.86);
-\draw [color=blue] (1.20,0) -- (1.20,2.18);
-\draw [color=blue] (1.60,0) -- (1.60,1.16);
-\draw [color=blue] (2.00,0) -- (2.00,0.449);
-\draw [color=blue] (2.40,0) -- (2.40,0.132);
-\draw [color=blue] (2.80,0) -- (2.80,0.0300);
-\draw [color=blue] (3.20,0) -- (3.20,0.00529);
-\draw [color=blue] (3.60,0) -- (3.60,0);
-\draw [color=blue] (4.00,0) -- (4.00,0);
-\draw [color=blue] (4.40,0) -- (4.40,0);
-\draw [color=blue] (4.80,0) -- (4.80,0);
-\draw [color=blue] (5.20,0) -- (5.20,0);
-\draw [color=blue] (5.60,0) -- (5.60,0);
-\draw [color=blue] (6.00,0) -- (6.00,0);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl1PICTPetiteBinomialelzbdWlpspict1
 \label{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl1}
 }                  % Closing subfigure 2
 %
@@ -382,6 +378,20 @@ FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl1PICTPetiteBin
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (0,0) -- (4.500000000,0);
+\draw [,->,>=latex] (0,0) -- (0,3.974254194);
+%DEFAULT
+\draw [color=blue] (0,0) -- (0,0);
+\draw [color=blue] (0.400,0) -- (0.400,0);
+\draw [color=blue] (0.800,0) -- (0.800,0);
+\draw [color=blue] (1.20,0) -- (1.20,0.00126);
+\draw [color=blue] (1.60,0) -- (1.60,0.0125);
+\draw [color=blue] (2.00,0) -- (2.00,0.0849);
+\draw [color=blue] (2.40,0) -- (2.40,0.401);
+\draw [color=blue] (2.80,0) -- (2.80,1.30);
+\draw [color=blue] (3.20,0) -- (3.20,2.76);
+\draw [color=blue] (3.60,0) -- (3.60,3.47);
+\draw [color=blue] (4.00,0) -- (4.00,1.97);
 \draw (0.4000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.400,-0.100) -- (0.400,0.100);
 \draw (0.8000000000,-0.3049540000) node {$ 2 $};
@@ -404,32 +414,16 @@ FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl1PICTPetiteBin
 \draw [] (4.00,-0.100) -- (4.00,0.100);
 \draw (4.400000000,-0.3049540000) node {$ 11 $};
 \draw [] (4.40,-0.100) -- (4.40,0.100);
-\draw [,->,>=latex] (0,0) -- (4.500000000,0);
 \draw (-0.3728663333,1.000000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
 \draw (-0.3064331667,2.000000000) node {$ \frac{1}{5} $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.3728663333,3.000000000) node {$ \frac{3}{10} $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw [,->,>=latex] (0,0) -- (0,3.974254194);
-%DEFAULT
-\draw [color=blue] (0,0) -- (0,0);
-\draw [color=blue] (0.400,0) -- (0.400,0);
-\draw [color=blue] (0.800,0) -- (0.800,0);
-\draw [color=blue] (1.20,0) -- (1.20,0.00126);
-\draw [color=blue] (1.60,0) -- (1.60,0.0125);
-\draw [color=blue] (2.00,0) -- (2.00,0.0849);
-\draw [color=blue] (2.40,0) -- (2.40,0.401);
-\draw [color=blue] (2.80,0) -- (2.80,1.30);
-\draw [color=blue] (3.20,0) -- (3.20,2.76);
-\draw [color=blue] (3.60,0) -- (3.60,3.47);
-\draw [color=blue] (4.00,0) -- (4.00,1.97);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl2PICTPetiteBinomialelzbdWlpspict2
 \label{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl2}
 }                  % Closing subfigure 3
 %
@@ -531,6 +525,25 @@ FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl2PICTPetiteBin
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (0,0) -- (6.500000000,0);
+\draw [,->,>=latex] (0,0) -- (0,3.356392285);
+%DEFAULT
+\draw [color=blue] (0,0) -- (0,0);
+\draw [color=blue] (0.400,0) -- (0.400,0);
+\draw [color=blue] (0.800,0) -- (0.800,0);
+\draw [color=blue] (1.20,0) -- (1.20,0);
+\draw [color=blue] (1.60,0) -- (1.60,0);
+\draw [color=blue] (2.00,0) -- (2.00,0);
+\draw [color=blue] (2.40,0) -- (2.40,0);
+\draw [color=blue] (2.80,0) -- (2.80,0.00529);
+\draw [color=blue] (3.20,0) -- (3.20,0.0300);
+\draw [color=blue] (3.60,0) -- (3.60,0.132);
+\draw [color=blue] (4.00,0) -- (4.00,0.449);
+\draw [color=blue] (4.40,0) -- (4.40,1.16);
+\draw [color=blue] (4.80,0) -- (4.80,2.18);
+\draw [color=blue] (5.20,0) -- (5.20,2.86);
+\draw [color=blue] (5.60,0) -- (5.60,2.31);
+\draw [color=blue] (6.00,0) -- (6.00,0.874);
 \draw (0.4000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.400,-0.100) -- (0.400,0.100);
 \draw (0.8000000000,-0.3049540000) node {$ 2 $};
@@ -563,37 +576,16 @@ FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl2PICTPetiteBin
 \draw [] (6.00,-0.100) -- (6.00,0.100);
 \draw (6.400000000,-0.3049540000) node {$ 16 $};
 \draw [] (6.40,-0.100) -- (6.40,0.100);
-\draw [,->,>=latex] (0,0) -- (6.500000000,0);
 \draw (-0.3728663333,1.000000000) node {$ \frac{1}{10} $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
 \draw (-0.3064331667,2.000000000) node {$ \frac{1}{5} $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.3728663333,3.000000000) node {$ \frac{3}{10} $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw [,->,>=latex] (0,0) -- (0,3.356392285);
-%DEFAULT
-\draw [color=blue] (0,0) -- (0,0);
-\draw [color=blue] (0.400,0) -- (0.400,0);
-\draw [color=blue] (0.800,0) -- (0.800,0);
-\draw [color=blue] (1.20,0) -- (1.20,0);
-\draw [color=blue] (1.60,0) -- (1.60,0);
-\draw [color=blue] (2.00,0) -- (2.00,0);
-\draw [color=blue] (2.40,0) -- (2.40,0);
-\draw [color=blue] (2.80,0) -- (2.80,0.00529);
-\draw [color=blue] (3.20,0) -- (3.20,0.0300);
-\draw [color=blue] (3.60,0) -- (3.60,0.132);
-\draw [color=blue] (4.00,0) -- (4.00,0.449);
-\draw [color=blue] (4.40,0) -- (4.40,1.16);
-\draw [color=blue] (4.80,0) -- (4.80,2.18);
-\draw [color=blue] (5.20,0) -- (5.20,2.86);
-\draw [color=blue] (5.60,0) -- (5.60,2.31);
-\draw [color=blue] (6.00,0) -- (6.00,0.874);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl3PICTPetiteBinomialelzbdWlpspict3
 \label{LabelFigPetiteBinomialelzbdWlssLabelSubFigPetiteBinomialelzbdWl3}
 }                  % Closing subfigure 4
 %

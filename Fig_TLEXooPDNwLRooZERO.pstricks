@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigTLEXooPDNwLRooZEROPICTTLEXooPDNwLRooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=TLEXooPDNwLRooZERO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigTLEXooPDNwLRooZEROPICTTLEXooPDNwLRooZERO.phystricks.aux%
+\immediate\openout\writeOfphystricks=TLEXooPDNwLRooZERO.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -127,11 +127,28 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigTLEXooPDNwLRooZEROPICTTLEXooPDNwLRooZERO}
+\tikzsetnextfilename{tikzTLEXooPDNwLRooZERO}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (12.40000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,12.75000000);
+%DEFAULT
+\draw []  (6.650000000,6.125000000) node [rotate=0] {$\bullet$};
+\draw []  (7.700000000,7.000000000) node [rotate=0] {$\bullet$};
+\draw []  (5.600000000,6.125000000) node [rotate=0] {$\bullet$};
+\draw []  (8.750000000,7.875000000) node [rotate=0] {$\bullet$};
+\draw []  (6.300000000,7.000000000) node [rotate=0] {$\bullet$};
+\draw []  (6.650000000,6.125000000) node [rotate=0] {$\bullet$};
+\draw []  (8.750000000,9.625000000) node [rotate=0] {$\bullet$};
+\draw []  (11.55000000,11.37500000) node [rotate=0] {$\bullet$};
+\draw []  (7.700000000,8.750000000) node [rotate=0] {$\bullet$};
+\draw []  (11.90000000,12.25000000) node [rotate=0] {$\bullet$};
+\draw []  (10.15000000,10.50000000) node [rotate=0] {$\bullet$};
+\draw []  (9.450000000,11.37500000) node [rotate=0] {$\bullet$};
+\draw []  (8.050000000,8.750000000) node [rotate=0] {$\bullet$};
+\draw []  (7.000000000,7.875000000) node [rotate=0] {$\bullet$};
 \draw (0.7000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.700,-0.100) -- (0.700,0.100);
 \draw (1.400000000,-0.3049540000) node {$ 2 $};
@@ -166,7 +183,6 @@
 \draw [] (11.2,-0.100) -- (11.2,0.100);
 \draw (11.90000000,-0.3049540000) node {$ 17 $};
 \draw [] (11.9,-0.100) -- (11.9,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (12.40000000,0);
 \draw (-0.2833333333,0.7000000000) node {$ 1 $};
 \draw [] (-0.100,0.700) -- (0.100,0.700);
 \draw (-0.2833333333,1.400000000) node {$ 2 $};
@@ -203,26 +219,8 @@
 \draw [] (-0.100,11.9) -- (0.100,11.9);
 \draw (-0.3666666667,12.60000000) node {$ 18 $};
 \draw [] (-0.100,12.6) -- (0.100,12.6);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,12.75000000);
-%DEFAULT
-\draw []  (6.650000000,6.125000000) node [rotate=0] {$\bullet$};
-\draw []  (7.700000000,7.000000000) node [rotate=0] {$\bullet$};
-\draw []  (5.600000000,6.125000000) node [rotate=0] {$\bullet$};
-\draw []  (8.750000000,7.875000000) node [rotate=0] {$\bullet$};
-\draw []  (6.300000000,7.000000000) node [rotate=0] {$\bullet$};
-\draw []  (6.650000000,6.125000000) node [rotate=0] {$\bullet$};
-\draw []  (8.750000000,9.625000000) node [rotate=0] {$\bullet$};
-\draw []  (11.55000000,11.37500000) node [rotate=0] {$\bullet$};
-\draw []  (7.700000000,8.750000000) node [rotate=0] {$\bullet$};
-\draw []  (11.90000000,12.25000000) node [rotate=0] {$\bullet$};
-\draw []  (10.15000000,10.50000000) node [rotate=0] {$\bullet$};
-\draw []  (9.450000000,11.37500000) node [rotate=0] {$\bullet$};
-\draw []  (8.050000000,8.750000000) node [rotate=0] {$\bullet$};
-\draw []  (7.000000000,7.875000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigTLEXooPDNwLRooZEROPICTTLEXooPDNwLRooZERO
 %AFTER PSPICTURE

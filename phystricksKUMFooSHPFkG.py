@@ -24,8 +24,8 @@ def KUMFooSHPFkG():
     rhc1=RightAngle( Segment(A,B),Segment(A,D),1,1  )
     rhc2=RightAngle( Segment(A,B),Segment(B,C),0,1  )
 
-    mesAE=trig.edges[1].get_mark(0.1,angle=trig.edges[1].advised_mark_angle(pspict)+180,text="\( 2\)",mark_point=None,pspict=pspict)
-    mesEB=trig.edges[2].get_mark(0.1,angle=trig.edges[2].advised_mark_angle(pspict)+180,text="\( 7\)",mark_point=None,pspict=pspict)
+    mesAE=trig.edges[1].get_mark(0.1,angle=trig.edges[1].advised_mark_angle(pspict),added_angle=180,text="\( 2\)",mark_point=None,pspict=pspict)
+    mesEB=trig.edges[2].get_mark(0.1,angle=trig.edges[2].advised_mark_angle(pspict),added_angle=180,text="\( 7\)",mark_point=None,pspict=pspict)
 
     for p in [A,B,C,D,E]:
         p.parameters.symbol=""

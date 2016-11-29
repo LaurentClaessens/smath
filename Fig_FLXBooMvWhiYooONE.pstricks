@@ -46,16 +46,16 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigFLXBooMvWhiYooONEPICTFLXBooMvWhiYooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=FLXBooMvWhiYooONE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigFLXBooMvWhiYooONEPICTFLXBooMvWhiYooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=FLXBooMvWhiYooONE.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigFLXBooMvWhiYooONEPICTFLXBooMvWhiYooONE}
+\tikzsetnextfilename{tikzFLXBooMvWhiYooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
@@ -74,5 +74,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigFLXBooMvWhiYooONEPICTFLXBooMvWhiYooONE
 %AFTER PSPICTURE

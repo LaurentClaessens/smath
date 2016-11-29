@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigTBHUooKbohnFooONEPICTTBHUooKbohnFooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=TBHUooKbohnFooONE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigTBHUooKbohnFooONEPICTTBHUooKbohnFooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=TBHUooKbohnFooONE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigTBHUooKbohnFooONEPICTTBHUooKbohnFooONE}
+\tikzsetnextfilename{tikzTBHUooKbohnFooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -93,7 +93,19 @@
 \draw []  (4.000000000,4.000000000) node [rotate=0] {$\bullet$};
 \draw (4.098539763,4.174039981) node {\(C\)};
 \draw [] (0,0) -- (3.00,0);
+\draw [] (0.559,-0.141) -- (0.841,0.141);
+\draw [] (0.659,-0.141) -- (0.941,0.141);
+\draw [] (2.06,-0.141) -- (2.34,0.141);
+\draw [] (2.16,-0.141) -- (2.44,0.141);
+\draw [] (0.559,-0.141) -- (0.841,0.141);
+\draw [] (0.659,-0.141) -- (0.941,0.141);
+\draw [] (2.06,-0.141) -- (2.34,0.141);
+\draw [] (2.16,-0.141) -- (2.44,0.141);
 \draw [] (3.00,0) -- (4.00,4.00);
+\draw [] (3.35,0.828) -- (3.15,1.17);
+\draw [] (3.85,2.83) -- (3.65,3.17);
+\draw [] (3.35,0.828) -- (3.15,1.17);
+\draw [] (3.85,2.83) -- (3.65,3.17);
 \draw [] (4.00,4.00) -- (0,0);
 \draw [] (1.00,-0.500) -- (4.00,2.50);
 \draw []  (1.500000000,0) node [rotate=0] {$\bullet$};
@@ -103,5 +115,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigTBHUooKbohnFooONEPICTTBHUooKbohnFooONE
 %AFTER PSPICTURE

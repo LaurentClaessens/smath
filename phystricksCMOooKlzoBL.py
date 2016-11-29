@@ -18,7 +18,7 @@ def CMOooKlzoBL():
     trig.edges[0].put_mark(0.2,text="\( 1.5\)",pspict=pspict,position="N")
 
     trig.edges[1].put_mark(0.2,text="\( 2\)",pspict=pspict,position="W")
-    trig.edges[2].put_mark(0.2,trig.edges[2].advised_mark_angle(pspict)*degree+180,"\( ?\)",pspict=pspict,position="corner")
+    trig.edges[2].put_mark(0.2,trig.edges[2].advised_mark_angle(pspict)*degree,added_angle=180,text="\( ?\)",pspict=pspict,position="corner")
 
     no_symbol(trig.vertices)
 

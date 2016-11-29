@@ -16,7 +16,7 @@ def SYKMooKLBCXR():
     drm=Segment(S,T)
 
     drm.put_mark(0.1,drm.advised_mark_angle(pspict),"\( 8\)",pspict=pspict)
-    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict)+180,"\( 16\)",pspict=pspict)
+    trig.edges[1].put_mark(0.2,trig.edges[1].advised_mark_angle(pspict),added_angle=180,text="\( 16\)",pspict=pspict)
 
     S.put_mark(0.2,S.advised_mark_angle(pspict),"\( S\)",pspict=pspict)
     T.put_mark(0.2,-90,"\( T\)",pspict=pspict)

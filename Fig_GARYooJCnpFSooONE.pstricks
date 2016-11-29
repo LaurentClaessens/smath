@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGARYooJCnpFSooONEPICTGARYooJCnpFSooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=GARYooJCnpFSooONE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGARYooJCnpFSooONEPICTGARYooJCnpFSooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=GARYooJCnpFSooONE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigGARYooJCnpFSooONEPICTGARYooJCnpFSooONE}
+\tikzsetnextfilename{tikzGARYooJCnpFSooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -84,13 +84,36 @@
 \draw [] (4.00,1.00) -- (3.00,3.00);
 \draw [] (3.00,3.00) -- (0,0);
 \draw [] (4.00,1.00) -- (3.00,3.00);
+\draw [] (3.89,1.45) -- (3.61,1.55);
+\draw [] (3.39,2.45) -- (3.11,2.55);
+\draw [] (3.89,1.45) -- (3.61,1.55);
+\draw [] (3.39,2.45) -- (3.11,2.55);
 \draw [style=dashed] (4.38,2.50) -- (-0.875,-0.500);
 \draw [] (3.00,3.00) -- (0,0);
+\draw [] (2.29,2.44) -- (2.29,2.14);
+\draw [] (2.21,2.36) -- (2.21,2.06);
+\draw [] (0.785,0.935) -- (0.785,0.635);
+\draw [] (0.715,0.865) -- (0.715,0.565);
+\draw [] (2.29,2.44) -- (2.29,2.14);
+\draw [] (2.21,2.36) -- (2.21,2.06);
+\draw [] (0.785,0.935) -- (0.785,0.635);
+\draw [] (0.715,0.865) -- (0.715,0.565);
 \draw [style=dashed] (0.875,1.62) -- (4.62,0.875);
 \draw [] (0,0) -- (4.00,1.00);
+\draw [] (0.826,0.0971) -- (0.980,0.354);
+\draw [] (0.923,0.121) -- (1.08,0.379);
+\draw [] (1.02,0.146) -- (1.17,0.403);
+\draw [] (2.83,0.597) -- (2.98,0.854);
+\draw [] (2.92,0.621) -- (3.08,0.879);
+\draw [] (3.02,0.646) -- (3.17,0.903);
+\draw [] (0.826,0.0971) -- (0.980,0.354);
+\draw [] (0.923,0.121) -- (1.08,0.379);
+\draw [] (1.02,0.146) -- (1.17,0.403);
+\draw [] (2.83,0.597) -- (2.98,0.854);
+\draw [] (2.92,0.621) -- (3.08,0.879);
+\draw [] (3.02,0.646) -- (3.17,0.903);
 \draw [style=dashed] (1.75,-0.125) -- (3.25,3.62);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigGARYooJCnpFSooONEPICTGARYooJCnpFSooONE
 %AFTER PSPICTURE

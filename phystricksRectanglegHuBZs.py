@@ -17,7 +17,7 @@ def RectanglegHuBZs():
     C.put_mark(0.2,0,"\( C\)",pspict=pspict)
     AB.put_mark(0.2,-90,"\( 8\)",pspict=pspict)
     BC.put_mark(0.2,0,"\( x\)",pspict=pspict)
-    CA.put_mark(0.2,CA.advised_mark_angle(pspict)+180,"\( 17\)",pspict=pspict)
+    CA.put_mark(0.2,CA.advised_mark_angle(pspict),added_angle=180,text="\( 17\)",pspict=pspict)
 
     pspict.DrawGraphs(A,B,C,AB,BC,CA)
     fig.conclude()

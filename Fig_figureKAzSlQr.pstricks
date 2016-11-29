@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureKAzSlQrPICTfigureKAzSlQr.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureKAzSlQr.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureKAzSlQrPICTfigureKAzSlQr.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureKAzSlQr.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ -1 $}}%
 \immediate\write\writeOfphystricks{totalheightofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -131,11 +131,25 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigfigureKAzSlQrPICTfigureKAzSlQr}
+\tikzsetnextfilename{tikzfigureKAzSlQr}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (9.000000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,1.700000000);
+%DEFAULT
+\draw [color=red] (0.500,0) -- (0.500,0.900);
+\draw [color=red] (1.00,0) -- (1.00,0.300);
+\draw [color=blue] (1.50,0) -- (1.50,0.600);
+\draw [color=blue] (2.00,0) -- (2.00,1.20);
+\draw [color=blue] (3.50,0) -- (3.50,0.300);
+\draw [color=blue] (4.00,0) -- (4.00,0.300);
+\draw [color=red] (5.00,0) -- (5.00,0.300);
+\draw [color=red] (5.50,0) -- (5.50,0.600);
+\draw [color=red] (6.00,0) -- (6.00,0.900);
+\draw [color=blue] (8.00,0) -- (8.00,0.600);
+\draw [color=blue] (8.50,0) -- (8.50,0.300);
 \draw (-0.5000000000,-0.3185623333) node {$ -1 $};
 \draw [] (-0.500,-0.100) -- (-0.500,0.100);
 \draw (0.5000000000,-0.3049540000) node {$ 1 $};
@@ -174,7 +188,6 @@
 \draw [] (8.50,-0.100) -- (8.50,0.100);
 \draw (9.000000000,-0.3049540000) node {$ 18 $};
 \draw [] (9.00,-0.100) -- (9.00,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (9.000000000,0);
 \draw (-0.4129313333,-0.3000000000) node {$ -1 $};
 \draw [] (-0.100,-0.300) -- (0.100,-0.300);
 \draw (-0.2833333333,0.3000000000) node {$ 1 $};
@@ -187,23 +200,8 @@
 \draw [] (-0.100,1.20) -- (0.100,1.20);
 \draw (-0.2833333333,1.500000000) node {$ 5 $};
 \draw [] (-0.100,1.50) -- (0.100,1.50);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,1.700000000);
-%DEFAULT
-\draw [color=red] (0.500,0) -- (0.500,0.900);
-\draw [color=red] (1.00,0) -- (1.00,0.300);
-\draw [color=blue] (1.50,0) -- (1.50,0.600);
-\draw [color=blue] (2.00,0) -- (2.00,1.20);
-\draw [color=blue] (3.50,0) -- (3.50,0.300);
-\draw [color=blue] (4.00,0) -- (4.00,0.300);
-\draw [color=red] (5.00,0) -- (5.00,0.300);
-\draw [color=red] (5.50,0) -- (5.50,0.600);
-\draw [color=red] (6.00,0) -- (6.00,0.900);
-\draw [color=blue] (8.00,0) -- (8.00,0.600);
-\draw [color=blue] (8.50,0) -- (8.50,0.300);
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureKAzSlQrPICTfigureKAzSlQr
 %AFTER PSPICTURE

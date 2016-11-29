@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGLKFooKwvxSlPICTGLKFooKwvxSl.phystricks.aux%
+\immediate\openout\writeOfphystricks=GLKFooKwvxSl.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGLKFooKwvxSlPICTGLKFooKwvxSl.phystricks.aux%
+\immediate\openout\writeOfphystricks=GLKFooKwvxSl.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -95,7 +95,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigGLKFooKwvxSlPICTGLKFooKwvxSl}
+\tikzsetnextfilename{tikzGLKFooKwvxSl}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -128,6 +128,12 @@
 \draw [color=gray,style=solid] (-2.10,1.40) -- (2.80,1.40);
 \draw [color=gray,style=solid] (-2.10,2.10) -- (2.80,2.10);
 %AXES
+\draw [,->,>=latex] (-2.600000000,0) -- (3.300000000,0);
+\draw [,->,>=latex] (0,-2.600000000) -- (0,2.600000000);
+%DEFAULT
+\draw []  (-1.400000000,0.7000000000) node [rotate=0] {$\bullet$};
+\draw (-1.703885772,0.9033312191) node {\( A\)};
+
 \draw (-2.100000000,-0.3185623333) node {$ -3 $};
 \draw [] (-2.10,-0.100) -- (-2.10,0.100);
 \draw (-1.400000000,-0.3185623333) node {$ -2 $};
@@ -142,7 +148,6 @@
 \draw [] (2.10,-0.100) -- (2.10,0.100);
 \draw (2.800000000,-0.3049540000) node {$ 4 $};
 \draw [] (2.80,-0.100) -- (2.80,0.100);
-\draw [,->,>=latex] (-2.600000000,0) -- (3.300000000,0);
 \draw (-0.4129313333,-2.100000000) node {$ -3 $};
 \draw [] (-0.100,-2.10) -- (0.100,-2.10);
 \draw (-0.4129313333,-1.400000000) node {$ -2 $};
@@ -155,14 +160,8 @@
 \draw [] (-0.100,1.40) -- (0.100,1.40);
 \draw (-0.2833333333,2.100000000) node {$ 3 $};
 \draw [] (-0.100,2.10) -- (0.100,2.10);
-\draw [,->,>=latex] (0,-2.600000000) -- (0,2.600000000);
-%DEFAULT
-\draw []  (-1.400000000,0.7000000000) node [rotate=0] {$\bullet$};
-\draw (-1.703885772,0.9033312191) node {\( A\)};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigGLKFooKwvxSlPICTGLKFooKwvxSl
 %AFTER PSPICTURE

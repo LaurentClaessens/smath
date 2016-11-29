@@ -24,7 +24,7 @@ def UKTooJhUzKU():
 
     KL.put_mark(0.2,text="\( 10\)",pspict=pspict,position="N")
     KM1.put_mark(0.2,KM1.advised_mark_angle(pspict),"\( 1\)",pspict=pspict,position="corner")
-    LM2.put_mark(0.2,LM2.advised_mark_angle(pspict)+180,"\( 1\)",pspict=pspict,position="corner")
+    LM2.put_mark(0.2,LM2.advised_mark_angle(pspict),added_angle=180,text="\( 1\)",pspict=pspict,position="corner")
 
     pspict.DrawGraphs(K,L,M1,M2,KL,KM1,LM2)
     fig.no_figure()

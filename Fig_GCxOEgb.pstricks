@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGCxOEgbPICTGCxOEgb.phystricks.aux%
+\immediate\openout\writeOfphystricks=GCxOEgb.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigGCxOEgbPICTGCxOEgb.phystricks.aux%
+\immediate\openout\writeOfphystricks=GCxOEgb.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 0.001\)}}%
 \immediate\write\writeOfphystricks{totalheightof488035127953a012f96c62d88fb648d84e8b6d82:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -131,31 +131,11 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigGCxOEgbPICTGCxOEgb}
+\tikzsetnextfilename{tikzGCxOEgb}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (14.70000000,-0.3049540000) node {$ 21 $};
-\draw [] (14.7,-0.100) -- (14.7,0.100);
-\draw (15.40000000,-0.3049540000) node {$ 22 $};
-\draw [] (15.4,-0.100) -- (15.4,0.100);
-\draw (16.10000000,-0.3049540000) node {$ 23 $};
-\draw [] (16.1,-0.100) -- (16.1,0.100);
-\draw (16.80000000,-0.3049540000) node {$ 24 $};
-\draw [] (16.8,-0.100) -- (16.8,0.100);
-\draw (17.50000000,-0.3049540000) node {$ 25 $};
-\draw [] (17.5,-0.100) -- (17.5,0.100);
-\draw (18.20000000,-0.3049540000) node {$ 26 $};
-\draw [] (18.2,-0.100) -- (18.2,0.100);
-\draw (18.90000000,-0.3049540000) node {$ 27 $};
-\draw [] (18.9,-0.100) -- (18.9,0.100);
-\draw (19.60000000,-0.3049540000) node {$ 28 $};
-\draw [] (19.6,-0.100) -- (19.6,0.100);
-\draw (20.30000000,-0.3049540000) node {$ 29 $};
-\draw [] (20.3,-0.100) -- (20.3,0.100);
-\draw (21.00000000,-0.3049540000) node {$ 30 $};
-\draw [] (21.0,-0.100) -- (21.0,0.100);
 \draw [,->,>=latex] (0,0) -- (21.00000000,0);
 %DEFAULT
 \draw [color=blue] (14.7,0) -- (14.7,0.0229);
@@ -176,10 +156,28 @@
 \draw (19.60000000,7.842925924) node {\( 0.251\)};
 \draw [color=blue] (20.3,0) -- (20.3,5.26);
 \draw (20.30000000,5.561317564) node {\( 0.175\)};
-
+\draw (14.70000000,-0.3049540000) node {$ 21 $};
+\draw [] (14.7,-0.100) -- (14.7,0.100);
+\draw (15.40000000,-0.3049540000) node {$ 22 $};
+\draw [] (15.4,-0.100) -- (15.4,0.100);
+\draw (16.10000000,-0.3049540000) node {$ 23 $};
+\draw [] (16.1,-0.100) -- (16.1,0.100);
+\draw (16.80000000,-0.3049540000) node {$ 24 $};
+\draw [] (16.8,-0.100) -- (16.8,0.100);
+\draw (17.50000000,-0.3049540000) node {$ 25 $};
+\draw [] (17.5,-0.100) -- (17.5,0.100);
+\draw (18.20000000,-0.3049540000) node {$ 26 $};
+\draw [] (18.2,-0.100) -- (18.2,0.100);
+\draw (18.90000000,-0.3049540000) node {$ 27 $};
+\draw [] (18.9,-0.100) -- (18.9,0.100);
+\draw (19.60000000,-0.3049540000) node {$ 28 $};
+\draw [] (19.6,-0.100) -- (19.6,0.100);
+\draw (20.30000000,-0.3049540000) node {$ 29 $};
+\draw [] (20.3,-0.100) -- (20.3,0.100);
+\draw (21.00000000,-0.3049540000) node {$ 30 $};
+\draw [] (21.0,-0.100) -- (21.0,0.100);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigGCxOEgbPICTGCxOEgb
 %AFTER PSPICTURE

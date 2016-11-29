@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigThaleszlOKVqPICTThaleszlOKVq.phystricks.aux%
+\immediate\openout\writeOfphystricks=ThaleszlOKVq.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigThaleszlOKVqPICTThaleszlOKVq.phystricks.aux%
+\immediate\openout\writeOfphystricks=ThaleszlOKVq.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,7 +75,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigThaleszlOKVqPICTThaleszlOKVq}
+\tikzsetnextfilename{tikzThaleszlOKVq}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -87,17 +87,16 @@
 \draw [] (5.00,-1.25) -- (-1.00,0.250);
 \draw [color=red] (1.38,0.750) -- (2.12,-0.750);
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0,0.3138885000) node {\( A\)};
+\draw (0,0.3640000000) node {\( A\)};
 \draw []  (3.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw (3.000000000,1.313888500) node {\( B\)};
+\draw (3.000000000,1.364000000) node {\( B\)};
 \draw []  (4.000000000,-1.000000000) node [rotate=0] {$\bullet$};
-\draw (4.000000000,-0.6861115000) node {\( C\)};
+\draw (4.000000000,-0.6360000000) node {\( C\)};
 \draw []  (1.500000000,0.5000000000) node [rotate=0] {$\bullet$};
-\draw (1.500000000,0.8138885000) node {\( L\)};
+\draw (1.500000000,0.8640000000) node {\( L\)};
 \draw []  (2.000000000,-0.5000000000) node [rotate=0] {$\bullet$};
-\draw (2.000000000,-0.1861115000) node {\( K\)};
+\draw (2.000000000,-0.1360000000) node {\( K\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigThaleszlOKVqPICTThaleszlOKVq
 %AFTER PSPICTURE

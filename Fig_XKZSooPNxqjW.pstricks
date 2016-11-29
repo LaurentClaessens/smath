@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigXKZSooPNxqjWPICTXKZSooPNxqjW.phystricks.aux%
+\immediate\openout\writeOfphystricks=XKZSooPNxqjW.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigXKZSooPNxqjWPICTXKZSooPNxqjW.phystricks.aux%
+\immediate\openout\writeOfphystricks=XKZSooPNxqjW.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -119,48 +119,47 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigXKZSooPNxqjWPICTXKZSooPNxqjW}
+\tikzsetnextfilename{tikzXKZSooPNxqjW}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (-5.000000000,-0.3185623333) node {$ -5 $};
-\draw [] (-5.00,-0.100) -- (-5.00,0.100);
-\draw (-4.000000000,-0.3185623333) node {$ -4 $};
-\draw [] (-4.00,-0.100) -- (-4.00,0.100);
-\draw (-3.000000000,-0.3185623333) node {$ -3 $};
-\draw [] (-3.00,-0.100) -- (-3.00,0.100);
-\draw (-2.000000000,-0.3185623333) node {$ -2 $};
-\draw [] (-2.00,-0.100) -- (-2.00,0.100);
-\draw (-1.000000000,-0.3185623333) node {$ -1 $};
-\draw [] (-1.00,-0.100) -- (-1.00,0.100);
-\draw (0,-0.3049540000) node {$ 0 $};
-\draw [] (0,-0.100) -- (0,0.100);
-\draw (1.000000000,-0.3049540000) node {$ 1 $};
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (2.000000000,-0.3049540000) node {$ 2 $};
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (3.000000000,-0.3049540000) node {$ 3 $};
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 4 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (5.000000000,-0.3049540000) node {$ 5 $};
-\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw [,->,>=latex] (-5.000000000,0) -- (5.000000000,0);
 %DEFAULT
+\draw (-5.000000000,-0.3689873333) node {$ -5 $};
+\draw [] (-5.00,-0.100) -- (-5.00,0.100);
+\draw (-4.000000000,-0.3689873333) node {$ -4 $};
+\draw [] (-4.00,-0.100) -- (-4.00,0.100);
+\draw (-3.000000000,-0.3689873333) node {$ -3 $};
+\draw [] (-3.00,-0.100) -- (-3.00,0.100);
+\draw (-2.000000000,-0.3689873333) node {$ -2 $};
+\draw [] (-2.00,-0.100) -- (-2.00,0.100);
+\draw (-1.000000000,-0.3689873333) node {$ -1 $};
+\draw [] (-1.00,-0.100) -- (-1.00,0.100);
+\draw (0,-0.3511346667) node {$ 0 $};
+\draw [] (0,-0.100) -- (0,0.100);
+\draw (1.000000000,-0.3511346667) node {$ 1 $};
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw (2.000000000,-0.3511346667) node {$ 2 $};
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw (3.000000000,-0.3511346667) node {$ 3 $};
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw (4.000000000,-0.3511346667) node {$ 4 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (5.000000000,-0.3511346667) node {$ 5 $};
+\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (3.000000000,0.3138885000) node {\( A\)};
+\draw (3.000000000,0.3640000000) node {\( A\)};
 \draw []  (-3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (-3.000000000,0.3138885000) node {\( B\)};
+\draw (-3.000000000,0.3640000000) node {\( B\)};
 \draw []  (4.000000000,0) node [rotate=0] {$\bullet$};
-\draw (4.000000000,0.3138885000) node {\( C\)};
+\draw (4.000000000,0.3640000000) node {\( C\)};
 \draw []  (-0.7500000000,0) node [rotate=0] {$\bullet$};
-\draw (-0.7500000000,0.3138885000) node {\( D\)};
+\draw (-0.7500000000,0.3640000000) node {\( D\)};
 \draw []  (-4.000000000,0) node [rotate=0] {$\bullet$};
-\draw (-4.000000000,0.3138885000) node {\( E\)};
+\draw (-4.000000000,0.3640000000) node {\( E\)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigXKZSooPNxqjWPICTXKZSooPNxqjW
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigWGCXlvCPICTWGCXlvC.phystricks.aux%
+\immediate\openout\writeOfphystricks=WGCXlvC.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigWGCXlvCPICTWGCXlvC.phystricks.aux%
+\immediate\openout\writeOfphystricks=WGCXlvC.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( d_1\)}}%
 \immediate\write\writeOfphystricks{totalheightof148fa3eba9e9b9c2c5578a769be45c82a0ddc097:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,14 +79,12 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigWGCXlvCPICTWGCXlvC}
+\tikzsetnextfilename{tikzWGCXlvC}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw (4.818283167,-0.2717590000) node {\( x\)};
 \draw [,->,>=latex] (-4.261514333,0) -- (4.623028667,0);
-\draw (0.2876933333,3.944906833) node {\( y\)};
 \draw [,->,>=latex] (0,-4.081481000) -- (0,3.740740500);
 %DEFAULT
 \draw [] (-3.50,-3.00) -- (1.50,3.00);
@@ -98,10 +96,11 @@
 \draw [] (-1.50,3.00) -- (3.50,-3.00);
 \draw (-1.500000000,2.659259500) node {\( d_4\)};
 \draw (4.818283167,-0.2717590000) node {\( x\)};
+\draw (4.818283167,-0.2717590000) node {\( x\)};
+\draw (0.2876933333,3.944906833) node {\( y\)};
 \draw (0.2876933333,3.944906833) node {\( y\)};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigWGCXlvCPICTWGCXlvC
 %AFTER PSPICTURE

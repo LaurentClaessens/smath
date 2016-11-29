@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigQXYWooOWHshlooONEPICTQXYWooOWHshlooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=QXYWooOWHshlooONE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigQXYWooOWHshlooONEPICTQXYWooOWHshlooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=QXYWooOWHshlooONE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{durée}}%
 \immediate\write\writeOfphystricks{totalheightof658a9dae3a5034a534598ef807f703408429f419:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -83,7 +83,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigQXYWooOWHshlooONEPICTQXYWooOWHshlooONE}
+\tikzsetnextfilename{tikzQXYWooOWHshlooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -116,7 +116,13 @@
 \draw [color=gray,style=solid] (0,2.00) -- (2.92,2.00);
 \draw [color=gray,style=solid] (0,2.40) -- (2.92,2.40);
 %AXES
-\draw (4.995342879,-0.2562338562) node {durée};
+\draw [,->,>=latex] (0,0) -- (3.416666667,0);
+\draw [,->,>=latex] (0,0) -- (0,2.900000000);
+%DEFAULT
+\draw [] (0,0) -- (2.78,2.22);
+
+\draw (5.158117546,-0.2562338562) node {durée};
+\draw (5.320892212,-0.3067510229) node {durée};
 \draw (0.8333333333,-0.3049540000) node {$ 30 $};
 \draw [] (0.833,-0.100) -- (0.833,0.100);
 \draw (1.666666667,-0.3049540000) node {$ 60 $};
@@ -125,8 +131,8 @@
 \draw [] (2.50,-0.100) -- (2.50,0.100);
 \draw (3.333333333,-0.3049540000) node {$ 120 $};
 \draw [] (3.33,-0.100) -- (3.33,0.100);
-\draw [,->,>=latex] (0,0) -- (3.416666667,0);
-\draw (1.572223667,2.997055607) node {distance parcourue};
+\draw (1.572223667,2.995760077) node {distance parcourue};
+\draw (2.133522833,2.930983577) node {distance parcourue};
 \draw (-0.3666666667,0.6000000000) node {$ 30 $};
 \draw [] (-0.100,0.600) -- (0.100,0.600);
 \draw (-0.3666666667,1.200000000) node {$ 60 $};
@@ -135,15 +141,8 @@
 \draw [] (-0.100,1.80) -- (0.100,1.80);
 \draw (-0.4500000000,2.400000000) node {$ 120 $};
 \draw [] (-0.100,2.40) -- (0.100,2.40);
-\draw [,->,>=latex] (0,0) -- (0,2.900000000);
-%DEFAULT
-\draw [] (0,0) -- (2.78,2.22);
-
-\draw (4.995342879,-0.2562338562) node {durée};
-\draw (1.572223667,2.997055607) node {distance parcourue};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigQXYWooOWHshlooONEPICTQXYWooOWHshlooONE
 %AFTER PSPICTURE

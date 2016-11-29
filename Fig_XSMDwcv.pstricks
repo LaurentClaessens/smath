@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigXSMDwcvPICTXSMDwcv.phystricks.aux%
+\immediate\openout\writeOfphystricks=XSMDwcv.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigXSMDwcvPICTXSMDwcv.phystricks.aux%
+\immediate\openout\writeOfphystricks=XSMDwcv.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( p\)}}%
 \immediate\write\writeOfphystricks{totalheightofd66b8652a709114f635bf36f2380822a068b0556:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -111,7 +111,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigXSMDwcvPICTXSMDwcv}
+\tikzsetnextfilename{tikzXSMDwcv}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -144,33 +144,7 @@
 \draw [color=gray,style=solid] (-2.00,5.00) -- (5.00,5.00);
 \draw [color=gray,style=solid] (-2.00,6.00) -- (5.00,6.00);
 %AXES
-\draw (-2.000000000,-0.3185623333) node {$ -2 $};
-\draw [] (-2.00,-0.100) -- (-2.00,0.100);
-\draw (-1.000000000,-0.3185623333) node {$ -1 $};
-\draw [] (-1.00,-0.100) -- (-1.00,0.100);
-\draw (1.000000000,-0.3049540000) node {$ 1 $};
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw (2.000000000,-0.3049540000) node {$ 2 $};
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw (3.000000000,-0.3049540000) node {$ 3 $};
-\draw [] (3.00,-0.100) -- (3.00,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 4 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (5.000000000,-0.3049540000) node {$ 5 $};
-\draw [] (5.00,-0.100) -- (5.00,0.100);
 \draw [,->,>=latex] (-2.500000000,0) -- (5.500000000,0);
-\draw (-0.2833333333,1.000000000) node {$ 1 $};
-\draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw (-0.2833333333,2.000000000) node {$ 2 $};
-\draw [] (-0.100,2.00) -- (0.100,2.00);
-\draw (-0.2833333333,3.000000000) node {$ 3 $};
-\draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw (-0.2833333333,4.000000000) node {$ 4 $};
-\draw [] (-0.100,4.00) -- (0.100,4.00);
-\draw (-0.2833333333,5.000000000) node {$ 5 $};
-\draw [] (-0.100,5.00) -- (0.100,5.00);
-\draw (-0.2833333333,6.000000000) node {$ 6 $};
-\draw [] (-0.100,6.00) -- (0.100,6.00);
 \draw [,->,>=latex] (0,-0.5000000000) -- (0,6.500000000);
 %DEFAULT
 
@@ -189,9 +163,34 @@
 \draw [,->,>=latex] (0.3000000000,1.500000000) -- (0.3000000000,3.000000000);
 \draw (0.5838541667,1.500000000) node {\( p\)};
 
+\draw (-2.000000000,-0.3185623333) node {$ -2 $};
+\draw [] (-2.00,-0.100) -- (-2.00,0.100);
+\draw (-1.000000000,-0.3185623333) node {$ -1 $};
+\draw [] (-1.00,-0.100) -- (-1.00,0.100);
+\draw (1.000000000,-0.3049540000) node {$ 1 $};
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw (2.000000000,-0.3049540000) node {$ 2 $};
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw (3.000000000,-0.3049540000) node {$ 3 $};
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw (4.000000000,-0.3049540000) node {$ 4 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (5.000000000,-0.3049540000) node {$ 5 $};
+\draw [] (5.00,-0.100) -- (5.00,0.100);
+\draw (-0.2833333333,1.000000000) node {$ 1 $};
+\draw [] (-0.100,1.00) -- (0.100,1.00);
+\draw (-0.2833333333,2.000000000) node {$ 2 $};
+\draw [] (-0.100,2.00) -- (0.100,2.00);
+\draw (-0.2833333333,3.000000000) node {$ 3 $};
+\draw [] (-0.100,3.00) -- (0.100,3.00);
+\draw (-0.2833333333,4.000000000) node {$ 4 $};
+\draw [] (-0.100,4.00) -- (0.100,4.00);
+\draw (-0.2833333333,5.000000000) node {$ 5 $};
+\draw [] (-0.100,5.00) -- (0.100,5.00);
+\draw (-0.2833333333,6.000000000) node {$ 6 $};
+\draw [] (-0.100,6.00) -- (0.100,6.00);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigXSMDwcvPICTXSMDwcv
 %AFTER PSPICTURE

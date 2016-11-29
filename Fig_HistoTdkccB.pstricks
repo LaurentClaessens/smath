@@ -49,10 +49,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigHistoTdkccBPICTHistoTdkccB.phystricks.aux%
+\immediate\openout\writeOfphystricks=HistoTdkccB.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigHistoTdkccBPICTHistoTdkccB.phystricks.aux%
+\immediate\openout\writeOfphystricks=HistoTdkccB.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{0}}%
 \immediate\write\writeOfphystricks{totalheightofb6589fc6ab0dc82cf12099d1c2d40ab994e8410c:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -122,7 +122,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigHistoTdkccBPICTHistoTdkccB}
+\tikzsetnextfilename{tikzHistoTdkccB}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
@@ -193,7 +193,6 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigHistoTdkccBPICTHistoTdkccB
 %AFTER PSPICTURE
 %AFTER ALL
 \caption{\CaptionFigHistoTdkccB}\label{LabelFigHistoTdkccB}

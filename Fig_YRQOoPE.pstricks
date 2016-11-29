@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYRQOoPEPICTYRQOoPE.phystricks.aux%
+\immediate\openout\writeOfphystricks=YRQOoPE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigYRQOoPEPICTYRQOoPE.phystricks.aux%
+\immediate\openout\writeOfphystricks=YRQOoPE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Nombre de spam}}%
 \immediate\write\writeOfphystricks{totalheightofadcabef285cc436504451ebfad4fbe924268299e:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -115,11 +115,27 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigYRQOoPEPICTYRQOoPE}
+\tikzsetnextfilename{tikzYRQOoPE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (7.232858500,0);
+\draw [,->,>=latex] (0,-1.394439333) -- (0,5.500000000);
+%DEFAULT
+\draw [] (0,0) -- (0,0);
+\draw [] (0.600,0) -- (0.600,3.00);
+\draw [] (1.20,0) -- (1.20,0);
+\draw [] (1.80,0) -- (1.80,1.00);
+\draw [] (2.40,0) -- (2.40,4.00);
+\draw [] (3.00,0) -- (3.00,4.00);
+\draw [] (3.60,0) -- (3.60,2.00);
+\draw [] (4.20,0) -- (4.20,1.00);
+\draw [] (4.80,0) -- (4.80,5.00);
+\draw [] (5.40,0) -- (5.40,3.00);
+\draw [] (6.00,0) -- (6.00,1.00);
+\draw [] (6.60,0) -- (6.60,1.00);
+\draw (5.400000000,-0.6472196667) node {Nombre de spam};
 \draw (0.6000000000,-0.3049540000) node {$ 1 $};
 \draw [] (0.600,-0.100) -- (0.600,0.100);
 \draw (1.200000000,-0.3049540000) node {$ 2 $};
@@ -144,7 +160,7 @@
 \draw [] (6.60,-0.100) -- (6.60,0.100);
 \draw (7.200000000,-0.3049540000) node {$ 12 $};
 \draw [] (7.20,-0.100) -- (7.20,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (7.232858500,0);
+\draw (0.7865706667,5.714812500) node {Effectifs};
 \draw (0.7865706667,5.714812500) node {Effectifs};
 \draw (-0.4129313333,-1.000000000) node {$ -1 $};
 \draw [] (-0.100,-1.00) -- (0.100,-1.00);
@@ -158,25 +174,8 @@
 \draw [] (-0.100,4.00) -- (0.100,4.00);
 \draw (-0.2833333333,5.000000000) node {$ 5 $};
 \draw [] (-0.100,5.00) -- (0.100,5.00);
-\draw [,->,>=latex] (0,-1.394439333) -- (0,5.500000000);
-%DEFAULT
-\draw [] (0,0) -- (0,0);
-\draw [] (0.600,0) -- (0.600,3.00);
-\draw [] (1.20,0) -- (1.20,0);
-\draw [] (1.80,0) -- (1.80,1.00);
-\draw [] (2.40,0) -- (2.40,4.00);
-\draw [] (3.00,0) -- (3.00,4.00);
-\draw [] (3.60,0) -- (3.60,2.00);
-\draw [] (4.20,0) -- (4.20,1.00);
-\draw [] (4.80,0) -- (4.80,5.00);
-\draw [] (5.40,0) -- (5.40,3.00);
-\draw [] (6.00,0) -- (6.00,1.00);
-\draw [] (6.60,0) -- (6.60,1.00);
-\draw (5.400000000,-0.6472196667) node {Nombre de spam};
-\draw (0.7865706667,5.714812500) node {Effectifs};
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigYRQOoPEPICTYRQOoPE
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureHFdjZpbPICTfigureHFdjZpb.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureHFdjZpb.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigfigureHFdjZpbPICTfigureHFdjZpb.phystricks.aux%
+\immediate\openout\writeOfphystricks=figureHFdjZpb.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -71,20 +71,12 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigfigureHFdjZpbPICTfigureHFdjZpb}
+\tikzsetnextfilename{tikzfigureHFdjZpb}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [] (-2.00,-0.100) -- (-2.00,0.100);
-\draw [] (-1.00,-0.100) -- (-1.00,0.100);
-\draw [] (1.00,-0.100) -- (1.00,0.100);
-\draw [] (2.00,-0.100) -- (2.00,0.100);
-\draw [] (3.00,-0.100) -- (3.00,0.100);
 \draw [,->,>=latex] (-2.003504356,0) -- (3.085231667,0);
-\draw [] (-0.100,-1.00) -- (0.100,-1.00);
-\draw [] (-0.100,1.00) -- (0.100,1.00);
-\draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw [,->,>=latex] (0,-1.969198356) -- (0,2.713888500);
 %DEFAULT
 \draw []  (-1.000000000,1.000000000) node [rotate=0] {$\bullet$};
@@ -95,10 +87,16 @@
 \draw (-1.272462856,-1.255309856) node {\( C\)};
 \draw []  (2.000000000,-1.000000000) node [rotate=0] {$\bullet$};
 \draw (2.342615833,-1.000000000) node {\( D\)};
-
+\draw [] (-2.00,-0.100) -- (-2.00,0.100);
+\draw [] (-1.00,-0.100) -- (-1.00,0.100);
+\draw [] (1.00,-0.100) -- (1.00,0.100);
+\draw [] (2.00,-0.100) -- (2.00,0.100);
+\draw [] (3.00,-0.100) -- (3.00,0.100);
+\draw [] (-0.100,-1.00) -- (0.100,-1.00);
+\draw [] (-0.100,1.00) -- (0.100,1.00);
+\draw [] (-0.100,2.00) -- (0.100,2.00);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigfigureHFdjZpbPICTfigureHFdjZpb
 %AFTER PSPICTURE

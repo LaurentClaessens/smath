@@ -23,9 +23,9 @@ def YDAooMNHhCN():
     gen_rh=RightAngle( gen_trig.edges[0],gen_trig.edges[2],1,0  )
     
     gen_alpha=AngleAOB(tC,tB,tA)
-    gen_alpha.put_mark(0.2,text="\( \\alpha\)",pspicts=pspicts)
+    gen_alpha.put_mark(text="\( \\alpha\)",pspicts=pspicts)
     gen_beta=AngleAOB( tA,tC,tB)
-    gen_beta.put_mark(0.2,text="\( \\beta\)",pspicts=pspicts)
+    gen_beta.put_mark(text="\( \\beta\)",pspicts=pspicts)
     pspicts[2].DrawGraphs(gen_c,gen_trig,gen_rh,gen_alpha,gen_beta)
 
 
@@ -59,10 +59,10 @@ def YDAooMNHhCN():
     b1=AngleAOB(A,M,P)
     b2=AngleAOB(B,N,M)
 
-    a1.put_mark(0.2,None,"\( \\alpha\)",pspicts=pspicts)
-    a2.put_mark(0.2,None,"\( \\alpha\)",pspicts=pspicts)
-    b1.put_mark(0.2,None,"\( \\beta\)",pspicts=pspicts)
-    b2.put_mark(0.2,None,"\( \\beta\)",pspicts=pspicts)
+    a1.put_mark(text="\( \\alpha\)",pspicts=pspicts)
+    a2.put_mark(text="\( \\alpha\)",pspicts=pspicts)
+    b1.put_mark(text="\( \\beta\)",pspicts=pspicts)
+    b2.put_mark(text="\( \\beta\)",pspicts=pspicts)
 
     cen=[]
     cen.append(Segment( A,M  ).midpoint())

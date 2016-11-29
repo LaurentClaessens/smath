@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigKPWWooFyZHHVooTHREEPICTKPWWooFyZHHVooTHREE.phystricks.aux%
+\immediate\openout\writeOfphystricks=KPWWooFyZHHVooTHREE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigKPWWooFyZHHVooTHREEPICTKPWWooFyZHHVooTHREE.phystricks.aux%
+\immediate\openout\writeOfphystricks=KPWWooFyZHHVooTHREE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( T\)}}%
 \immediate\write\writeOfphystricks{totalheightofe6276bfd0ce45539e37bdb69f4500462ce19b950:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigKPWWooFyZHHVooTHREEPICTKPWWooFyZHHVooTHREE}
+\tikzsetnextfilename{tikzKPWWooFyZHHVooTHREE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -92,7 +92,31 @@
 \draw (0.4979694911,1.602030509) node {\( M\)};
 \draw (2.250208889,2.343043088) node {\( S\)};
 \draw [] (2.10,-0.350) -- (0,0);
+\draw [] (1.69,-0.207) -- (1.52,-0.329);
+\draw [] (1.63,-0.196) -- (1.46,-0.318);
+\draw [] (0.645,-0.0322) -- (0.474,-0.154);
+\draw [] (0.576,-0.0207) -- (0.405,-0.143);
+\draw [] (1.69,-0.207) -- (1.52,-0.329);
+\draw [] (1.63,-0.196) -- (1.46,-0.318);
+\draw [] (0.645,-0.0322) -- (0.474,-0.154);
+\draw [] (0.576,-0.0207) -- (0.405,-0.143);
+\draw [] (1.69,-0.207) -- (1.52,-0.329);
+\draw [] (1.63,-0.196) -- (1.46,-0.318);
+\draw [] (0.645,-0.0322) -- (0.474,-0.154);
+\draw [] (0.576,-0.0207) -- (0.405,-0.143);
+\draw [] (1.69,-0.207) -- (1.52,-0.329);
+\draw [] (1.63,-0.196) -- (1.46,-0.318);
+\draw [] (0.645,-0.0322) -- (0.474,-0.154);
+\draw [] (0.576,-0.0207) -- (0.405,-0.143);
 \draw [] (0,0) -- (0.700,1.40);
+\draw [] (0.208,0.250) -- (0.142,0.450);
+\draw [] (0.558,0.950) -- (0.492,1.15);
+\draw [] (0.208,0.250) -- (0.142,0.450);
+\draw [] (0.558,0.950) -- (0.492,1.15);
+\draw [] (0.208,0.250) -- (0.142,0.450);
+\draw [] (0.558,0.950) -- (0.492,1.15);
+\draw [] (0.208,0.250) -- (0.142,0.450);
+\draw [] (0.558,0.950) -- (0.492,1.15);
 \draw [] (0.700,1.40) -- (2.10,2.10);
 \draw [] (2.10,2.10) -- (2.10,-0.350);
 \draw (0.04611422847,0.9033312191) node {\( A\)};
@@ -101,5 +125,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigKPWWooFyZHHVooTHREEPICTKPWWooFyZHHVooTHREE
 %AFTER PSPICTURE

@@ -15,7 +15,7 @@ def OTGooGcktOd():
     EU=Segment(E,U)
     EU.put_mark(0.2,EU.advised_mark_angle(pspict),"\unit{5}{\centi\meter}",pspict=pspict,position="corner")
     AU=Segment(A,U)
-    AU.put_mark(0.2,AU.advised_mark_angle(pspict)+180,"\unit{5.5}{\centi\meter}",pspict=pspict,position="corner")
+    AU.put_mark(0.2,AU.advised_mark_angle(pspict),added_angle=180,text="\unit{5.5}{\centi\meter}",pspict=pspict,position="corner")
     A.put_mark(0.2,180,"\( A\)",pspict=pspict,position="corner")
     E.put_mark(0.2,90,"\( E\)",pspict=pspict,position="corner")
     U.put_mark(0.2,-45,"\( U\)",pspict=pspict,position="corner")
@@ -30,7 +30,7 @@ def OTGooGcktOd():
     trig2=Polygon(Q,O,C)
 
     QO=Segment(Q,O)
-    QO.put_mark(0.2,QO.advised_mark_angle(pspict)+180,"\unit{4.5}{\centi\meter}",pspict=pspict,position="corner")
+    QO.put_mark(0.2,QO.advised_mark_angle(pspict),added_angle=180,text="\unit{4.5}{\centi\meter}",pspict=pspict,position="corner")
     Q.put_mark(0.2,-45,"\( Q\)",pspict=pspict,position="corner")
     O.put_mark(0.2,text="\( O\)",pspict=pspict,position="W")
     C.put_mark(0.2,text="\( C\)",pspict=pspict,position="S")
@@ -57,7 +57,7 @@ def OTGooGcktOd():
     V.put_mark(0.2,text="\( V\)",pspict=pspict,position="E")
 
     IV=Segment(I,V)
-    IV.put_mark(0.2,IV.advised_mark_angle(pspict)+180,"\unit{7}{\centi\meter}",pspict=pspict,position="corner")
+    IV.put_mark(0.2,IV.advised_mark_angle(pspict),added_angle=180,text="\unit{7}{\centi\meter}",pspict=pspict,position="corner")
     IN=Segment(I,N)
     IN.put_mark(0.2,IN.advised_mark_angle(pspict),"\unit{6}{\centi\meter}",pspict=pspict,position="corner")
 

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigRGRLooTmnwQZPICTRGRLooTmnwQZ.phystricks.aux%
+\immediate\openout\writeOfphystricks=RGRLooTmnwQZ.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigRGRLooTmnwQZPICTRGRLooTmnwQZ.phystricks.aux%
+\immediate\openout\writeOfphystricks=RGRLooTmnwQZ.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
 \immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -59,7 +59,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigRGRLooTmnwQZPICTRGRLooTmnwQZ}
+\tikzsetnextfilename{tikzRGRLooTmnwQZ}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -98,13 +98,13 @@
 \draw [color=gray,style=dotted] (-0.500,-0.500) -- (3.00,-0.500);
 \draw [color=gray,style=dotted] (-0.500,0) -- (3.00,0);
 %DEFAULT
-\draw [] (3.00,-4.50) -- (2.00,-4.50);
-\draw [] (2.50,-4.50) -- (2.50,-3.00);
+\draw [] (-0.500,0) -- (0.500,0);
+\draw [] (0,0) -- (0,-1.50);
 \draw [] (1.75,-4.50) -- (1.25,-4.50);
 \draw [] (0.750,0) -- (0.750,-1.50);
-\draw [] (0.750,-0.750) -- (1.25,-0.750);
+\draw [] (1.75,-3.75) -- (1.25,-3.75);
 \draw [] (0.750,-1.50) -- (1.25,-1.50);
-\draw [] (1.00,-4.50) -- (0,-3.00);
+\draw [] (1.50,0) -- (2.50,-1.50);
 \draw [] (1.00,-3.00) -- (0,-4.50);
 \draw []  (1.250000000,-2.250000000) node [rotate=0] {$\bullet$};
 \draw (0.9182408333,-2.250000000) node {\( O\)};
@@ -114,5 +114,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigRGRLooTmnwQZPICTRGRLooTmnwQZ
 %AFTER PSPICTURE

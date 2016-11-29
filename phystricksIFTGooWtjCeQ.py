@@ -21,9 +21,9 @@ def IFTGooWtjCeQ():
     triangle.edges[1].put_code(n=1,l=1,d=0.1,angle=-45,pspict=pspict)
     triangle.edges[2].put_code(n=1,l=1,d=0.1,angle=45,pspict=pspict)
 
-    F.put_mark(0.2,180+45,"\( F\)",pspict=pspict,position="corner")
-    G.put_mark(0.2,-45,"\( G\)",pspict=pspict,position="corner")
-    H.put_mark(0.2,45,"\( H\)",pspict=pspict,position="corner")
+    F.put_mark(0.2,180+45,text="\( F\)",pspict=pspict,position="corner")
+    G.put_mark(0.2,-45,text="\( G\)",pspict=pspict,position="corner")
+    H.put_mark(0.2,45,text="\( H\)",pspict=pspict,position="corner")
     M.put_mark(0.2,text="\( M\)",pspict=pspict,position="N")
 
     haut=Segment(H,M)

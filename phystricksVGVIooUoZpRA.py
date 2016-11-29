@@ -26,10 +26,10 @@ def VGVIooUoZpRA():
     parall=Segment(A,Ap).parallel_trough(B)
     Bp=Intersection(parall,s1)[0]
 
-    A.put_mark(0.2,A.advised_mark_angle(pspict)+180,"\("+names_list[1]+" \)",pspict=pspict)
-    B.put_mark(0.2,B.advised_mark_angle(pspict)+180,"\("+names_list[2]+" \)",pspict=pspict)
-    Ap.put_mark(0.2,Ap.advised_mark_angle(pspict)+180,"\("+names_list[3]+" \)",pspict=pspict)
-    Bp.put_mark(0.2,Ap.advised_mark_angle(pspict)+180,"\("+names_list[4]+" \)",pspict=pspict)
+    A.put_mark(0.2,A.advised_mark_angle(pspict),added_angle=180,text="\("+names_list[1]+" \)",pspict=pspict)
+    B.put_mark(0.2,B.advised_mark_angle(pspict),added_angle=180,text="\("+names_list[2]+" \)",pspict=pspict)
+    Ap.put_mark(0.2,Ap.advised_mark_angle(pspict),added_angle=180,text="\("+names_list[3]+" \)",pspict=pspict)
+    Bp.put_mark(0.2,Ap.advised_mark_angle(pspict),added_angle=180,text="\("+names_list[4]+" \)",pspict=pspict)
 
     pspict.DrawGraphs(  Segment(A,Ap),Segment(B,Bp)  )
 

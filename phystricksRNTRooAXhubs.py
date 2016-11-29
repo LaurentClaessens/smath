@@ -15,8 +15,8 @@ def RNTRooAXhubs():
 
     S=triangle.edges[2].midpoint()
     T=triangle.edges[1].midpoint()
-    S.put_mark(0.2,S.advised_mark_angle(pspict)+180,"\( S\)",pspict=pspict,position="corner")
-    T.put_mark(0.2,T.advised_mark_angle(pspict)+180,"\( T\)",pspict=pspict,position="corner")
+    S.put_mark(0.2,S.advised_mark_angle(pspict),added_angle=180,text="\( S\)",pspict=pspict,position="corner")
+    T.put_mark(0.2,T.advised_mark_angle(pspict),added_angle=180,text="\( T\)",pspict=pspict,position="corner")
 
     mes1=Segment(D,S).get_measure(-0.3,0.1,None,"\( 6\)",pspict=pspict,position="corner")
     mes2=Segment(S,F).get_measure(-0.3,0.1,None,"\( 6\)",pspict=pspict,position="corner")

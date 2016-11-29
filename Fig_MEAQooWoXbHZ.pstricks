@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigMEAQooWoXbHZPICTMEAQooWoXbHZ.phystricks.aux%
+\immediate\openout\writeOfphystricks=MEAQooWoXbHZ.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigMEAQooWoXbHZPICTMEAQooWoXbHZ.phystricks.aux%
+\immediate\openout\writeOfphystricks=MEAQooWoXbHZ.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -75,7 +75,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigMEAQooWoXbHZPICTMEAQooWoXbHZ}
+\tikzsetnextfilename{tikzMEAQooWoXbHZ}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -95,12 +95,11 @@
 \draw [] (0.300,0.300) -- (0,0.300);
 \draw [,->,>=latex] (1.000000000,-0.2000000000) -- (0,-0.2000000000);
 \draw [,->,>=latex] (1.000000000,-0.2000000000) -- (2.000000000,-0.2000000000);
-\draw (1.000000000,-0.4049540000) node {\( 2\)};
+\draw (1.000000000,-0.4511346667) node {\( 2\)};
 \draw [,->,>=latex] (-0.2000000000,2.000000000) -- (-0.2000000000,4.000000000);
 \draw [,->,>=latex] (-0.2000000000,2.000000000) -- (-0.2000000000,0);
-\draw (-0.3833333333,2.000000000) node {\( 6\)};
+\draw (-0.4174998333,2.000000000) node {\( 6\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigMEAQooWoXbHZPICTMEAQooWoXbHZ
 %AFTER PSPICTURE

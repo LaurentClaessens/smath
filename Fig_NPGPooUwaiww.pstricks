@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww.phystricks.aux%
+\immediate\openout\writeOfphystricks=NPGPooUwaiww.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww.phystricks.aux%
+\immediate\openout\writeOfphystricks=NPGPooUwaiww.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Clerval}}%
 \immediate\write\writeOfphystricks{totalheightofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -67,7 +67,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww}
+\tikzsetnextfilename{tikzNPGPooUwaiww}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
@@ -86,5 +86,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigNPGPooUwaiwwPICTNPGPooUwaiww
 %AFTER PSPICTURE

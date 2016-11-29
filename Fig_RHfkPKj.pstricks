@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigRHfkPKjPICTRHfkPKj.phystricks.aux%
+\immediate\openout\writeOfphystricks=RHfkPKj.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigRHfkPKjPICTRHfkPKj.phystricks.aux%
+\immediate\openout\writeOfphystricks=RHfkPKj.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
 \immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -79,7 +79,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigRHfkPKjPICTRHfkPKj}
+\tikzsetnextfilename{tikzRHfkPKj}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -91,20 +91,19 @@
 \draw [] (3.00,3.00) -- (3.00,0);
 \draw [] (3.00,0) -- (0,0);
 \draw []  (1.500000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw (1.500000000,3.313888500) node {\( I\)};
+\draw (1.500000000,3.364000000) node {\( I\)};
 \draw []  (3.000000000,1.500000000) node [rotate=0] {$\bullet$};
-\draw (3.308449000,1.500000000) node {\( J\)};
+\draw (3.352110333,1.500000000) node {\( J\)};
 \draw [] (1.50,3.00) -- (3.00,1.50);
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.2664216896,-0.2553098562) node {\( A\)};
+\draw (-0.3175863562,-0.3054213562) node {\( A\)};
 \draw []  (0,3.000000000) node [rotate=0] {$\bullet$};
-\draw (-0.2740598562,3.255309856) node {\( E\)};
+\draw (-0.3294473562,3.305421356) node {\( E\)};
 \draw []  (3.000000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw (3.271745690,3.255309856) node {\( F\)};
+\draw (3.326183356,3.305421356) node {\( F\)};
 \draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (3.276201356,-0.2553098562) node {\( B\)};
+\draw (3.332058523,-0.3054213562) node {\( B\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigRHfkPKjPICTRHfkPKj
 %AFTER PSPICTURE

@@ -49,10 +49,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigMathCeilwCXIJZPICTMathCeilwCXIJZ.phystricks.aux%
+\immediate\openout\writeOfphystricks=MathCeilwCXIJZ.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigMathCeilwCXIJZPICTMathCeilwCXIJZ.phystricks.aux%
+\immediate\openout\writeOfphystricks=MathCeilwCXIJZ.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1 $}}%
 \immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -114,11 +114,28 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigMathCeilwCXIJZPICTMathCeilwCXIJZ}
+\tikzsetnextfilename{tikzMathCeilwCXIJZ}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %PSTRICKS CODE
 %AXES
+\draw [,->,>=latex] (-0.5000000000,0) -- (14.50000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,3.500000000);
+%DEFAULT
+\draw [color=blue]  (1.000000000,0) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (2.000000000,0) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (3.000000000,0) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (4.000000000,1.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (5.000000000,1.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (6.000000000,1.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (7.000000000,1.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (8.000000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (9.000000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (10.00000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (11.00000000,2.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (12.00000000,3.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (13.00000000,3.000000000) node [rotate=0] {$\bullet$};
+\draw [color=blue]  (14.00000000,3.000000000) node [rotate=0] {$\bullet$};
 \draw (1.000000000,-0.3049540000) node {$ 1 $};
 \draw [] (1.00,-0.100) -- (1.00,0.100);
 \draw (2.000000000,-0.3049540000) node {$ 2 $};
@@ -147,35 +164,16 @@
 \draw [] (13.0,-0.100) -- (13.0,0.100);
 \draw (14.00000000,-0.3049540000) node {$ 14 $};
 \draw [] (14.0,-0.100) -- (14.0,0.100);
-\draw [,->,>=latex] (-0.5000000000,0) -- (14.50000000,0);
 \draw (-0.2833333333,1.000000000) node {$ 1 $};
 \draw [] (-0.100,1.00) -- (0.100,1.00);
 \draw (-0.2833333333,2.000000000) node {$ 2 $};
 \draw [] (-0.100,2.00) -- (0.100,2.00);
 \draw (-0.2833333333,3.000000000) node {$ 3 $};
 \draw [] (-0.100,3.00) -- (0.100,3.00);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,3.500000000);
-%DEFAULT
-\draw [color=blue]  (1.000000000,0) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (2.000000000,0) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (3.000000000,0) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (4.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (5.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (6.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (7.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (8.000000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (9.000000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (10.00000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (11.00000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (12.00000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (13.00000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw [color=blue]  (14.00000000,3.000000000) node [rotate=0] {$\bullet$};
-
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigMathCeilwCXIJZPICTMathCeilwCXIJZ
 %AFTER PSPICTURE
 %AFTER ALL
 \caption{\CaptionFigMathCeilwCXIJZ}\label{LabelFigMathCeilwCXIJZ}

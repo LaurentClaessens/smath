@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigPEoyeQtPICTPEoyeQt.phystricks.aux%
+\immediate\openout\writeOfphystricks=PEoyeQt.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigPEoyeQtPICTPEoyeQt.phystricks.aux%
+\immediate\openout\writeOfphystricks=PEoyeQt.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{DS 8}}%
 \immediate\write\writeOfphystricks{totalheightofadf98e8c77ca10b7d52ea2fe9f42a96ce1c6b6e6:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -171,7 +171,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigPEoyeQtPICTPEoyeQt}
+\tikzsetnextfilename{tikzPEoyeQt}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
@@ -219,48 +219,6 @@
 \draw [color=gray,style=dotted] (15.6,0) -- (15.6,9.00);
 \draw [color=gray,style=dotted] (16.4,0) -- (16.4,9.00);
 %AXES
-\draw (0.8000000000,-0.3049540000) node {$ 1 $};
-\draw [] (0.800,-0.100) -- (0.800,0.100);
-\draw (1.600000000,-0.3049540000) node {$ 2 $};
-\draw [] (1.60,-0.100) -- (1.60,0.100);
-\draw (2.400000000,-0.3049540000) node {$ 3 $};
-\draw [] (2.40,-0.100) -- (2.40,0.100);
-\draw (3.200000000,-0.3049540000) node {$ 4 $};
-\draw [] (3.20,-0.100) -- (3.20,0.100);
-\draw (4.000000000,-0.3049540000) node {$ 5 $};
-\draw [] (4.00,-0.100) -- (4.00,0.100);
-\draw (4.800000000,-0.3049540000) node {$ 6 $};
-\draw [] (4.80,-0.100) -- (4.80,0.100);
-\draw (5.600000000,-0.3049540000) node {$ 7 $};
-\draw [] (5.60,-0.100) -- (5.60,0.100);
-\draw (6.400000000,-0.3049540000) node {$ 8 $};
-\draw [] (6.40,-0.100) -- (6.40,0.100);
-\draw (7.200000000,-0.3049540000) node {$ 9 $};
-\draw [] (7.20,-0.100) -- (7.20,0.100);
-\draw (8.000000000,-0.3049540000) node {$ 10 $};
-\draw [] (8.00,-0.100) -- (8.00,0.100);
-\draw (8.800000000,-0.3049540000) node {$ 11 $};
-\draw [] (8.80,-0.100) -- (8.80,0.100);
-\draw (9.600000000,-0.3049540000) node {$ 12 $};
-\draw [] (9.60,-0.100) -- (9.60,0.100);
-\draw (10.40000000,-0.3049540000) node {$ 13 $};
-\draw [] (10.4,-0.100) -- (10.4,0.100);
-\draw (11.20000000,-0.3049540000) node {$ 14 $};
-\draw [] (11.2,-0.100) -- (11.2,0.100);
-\draw (12.00000000,-0.3049540000) node {$ 15 $};
-\draw [] (12.0,-0.100) -- (12.0,0.100);
-\draw (12.80000000,-0.3049540000) node {$ 16 $};
-\draw [] (12.8,-0.100) -- (12.8,0.100);
-\draw (13.60000000,-0.3049540000) node {$ 17 $};
-\draw [] (13.6,-0.100) -- (13.6,0.100);
-\draw (14.40000000,-0.3049540000) node {$ 18 $};
-\draw [] (14.4,-0.100) -- (14.4,0.100);
-\draw (15.20000000,-0.3049540000) node {$ 19 $};
-\draw [] (15.2,-0.100) -- (15.2,0.100);
-\draw (16.00000000,-0.3049540000) node {$ 20 $};
-\draw [] (16.0,-0.100) -- (16.0,0.100);
-\draw (16.80000000,-0.3049540000) node {$ 21 $};
-\draw [] (16.8,-0.100) -- (16.8,0.100);
 \draw [,->,>=latex] (-0.5000000000,0) -- (17.30000000,0);
 %DEFAULT
 \draw (13.75879717,0.7500000000) node {DS 8};
@@ -344,9 +302,50 @@
 \draw [color=red] (6.80,7.50) -- (6.80,8.00);
 \draw [] (9.20,7.75) -- (13.6,7.75);
 
+\draw (0.8000000000,-0.3049540000) node {$ 1 $};
+\draw [] (0.800,-0.100) -- (0.800,0.100);
+\draw (1.600000000,-0.3049540000) node {$ 2 $};
+\draw [] (1.60,-0.100) -- (1.60,0.100);
+\draw (2.400000000,-0.3049540000) node {$ 3 $};
+\draw [] (2.40,-0.100) -- (2.40,0.100);
+\draw (3.200000000,-0.3049540000) node {$ 4 $};
+\draw [] (3.20,-0.100) -- (3.20,0.100);
+\draw (4.000000000,-0.3049540000) node {$ 5 $};
+\draw [] (4.00,-0.100) -- (4.00,0.100);
+\draw (4.800000000,-0.3049540000) node {$ 6 $};
+\draw [] (4.80,-0.100) -- (4.80,0.100);
+\draw (5.600000000,-0.3049540000) node {$ 7 $};
+\draw [] (5.60,-0.100) -- (5.60,0.100);
+\draw (6.400000000,-0.3049540000) node {$ 8 $};
+\draw [] (6.40,-0.100) -- (6.40,0.100);
+\draw (7.200000000,-0.3049540000) node {$ 9 $};
+\draw [] (7.20,-0.100) -- (7.20,0.100);
+\draw (8.000000000,-0.3049540000) node {$ 10 $};
+\draw [] (8.00,-0.100) -- (8.00,0.100);
+\draw (8.800000000,-0.3049540000) node {$ 11 $};
+\draw [] (8.80,-0.100) -- (8.80,0.100);
+\draw (9.600000000,-0.3049540000) node {$ 12 $};
+\draw [] (9.60,-0.100) -- (9.60,0.100);
+\draw (10.40000000,-0.3049540000) node {$ 13 $};
+\draw [] (10.4,-0.100) -- (10.4,0.100);
+\draw (11.20000000,-0.3049540000) node {$ 14 $};
+\draw [] (11.2,-0.100) -- (11.2,0.100);
+\draw (12.00000000,-0.3049540000) node {$ 15 $};
+\draw [] (12.0,-0.100) -- (12.0,0.100);
+\draw (12.80000000,-0.3049540000) node {$ 16 $};
+\draw [] (12.8,-0.100) -- (12.8,0.100);
+\draw (13.60000000,-0.3049540000) node {$ 17 $};
+\draw [] (13.6,-0.100) -- (13.6,0.100);
+\draw (14.40000000,-0.3049540000) node {$ 18 $};
+\draw [] (14.4,-0.100) -- (14.4,0.100);
+\draw (15.20000000,-0.3049540000) node {$ 19 $};
+\draw [] (15.2,-0.100) -- (15.2,0.100);
+\draw (16.00000000,-0.3049540000) node {$ 20 $};
+\draw [] (16.0,-0.100) -- (16.0,0.100);
+\draw (16.80000000,-0.3049540000) node {$ 21 $};
+\draw [] (16.8,-0.100) -- (16.8,0.100);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigPEoyeQtPICTPEoyeQt
 %AFTER PSPICTURE

@@ -46,10 +46,10 @@
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigVEDYooDMnRhaooONEPICTVEDYooDMnRhaooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=VEDYooDMnRhaooONE.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
 \ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
-\immediate\openout\writeOfphystricks=FIGLabelFigVEDYooDMnRhaooONEPICTVEDYooDMnRhaooONE.phystricks.aux%
+\immediate\openout\writeOfphystricks=VEDYooDMnRhaooONE.phystricks.aux%
 %WRITE_AND_LABEL
 \setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
 \immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
@@ -87,7 +87,7 @@
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
 %BEGIN PSPICTURE
-\tikzsetnextfilename{tikzFIGLabelFigVEDYooDMnRhaooONEPICTVEDYooDMnRhaooONE}
+\tikzsetnextfilename{tikzVEDYooDMnRhaooONE}
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %GRID
 %AXES
@@ -101,6 +101,14 @@
 \draw [] (0,0) -- (1.93,2.30);
 \draw [] (1.93,2.30) -- (1.16,2.94);
 \draw [] (1.16,2.94) -- (0,0);
+\draw [] (0.841,2.32) -- (0.921,2.14);
+\draw [] (0.823,2.27) -- (0.903,2.09);
+\draw [] (0.260,0.850) -- (0.340,0.667);
+\draw [] (0.242,0.804) -- (0.321,0.620);
+\draw [] (0.841,2.32) -- (0.921,2.14);
+\draw [] (0.823,2.27) -- (0.903,2.09);
+\draw [] (0.260,0.850) -- (0.340,0.667);
+\draw [] (0.242,0.804) -- (0.321,0.620);
 \draw (0.2092653615,1.499611555) node {\( K\)};
 \draw [] (1.51,2.26) -- (1.70,2.49);
 \draw [] (1.51,2.26) -- (1.74,2.07);
@@ -108,5 +116,4 @@
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
-FIGLabelFigVEDYooDMnRhaooONEPICTVEDYooDMnRhaooONE
 %AFTER PSPICTURE
