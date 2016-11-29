@@ -1,10 +1,10 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 
-myRequest = LaTeXparser.PytexTools.Request("feuilles")
+myRequest = latexparser.PytexTools.Request("feuilles")
 myRequest.original_filename="smath.tex"
 
 myRequest.ok_filenames_list=["e_smath"]

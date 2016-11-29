@@ -1,8 +1,8 @@
 #! /usr/bin/python
 # -*- coding: utf8 -*-
 
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 import commun
 import enseignement
 
@@ -24,7 +24,7 @@ DS_5A85=commun.TheDS("DS_5A85",groupe_5A,0,n_student=1)
 jeveux=DS_5A85
 jeveux.write_the_file()
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 myRequest.original_filename=jeveux.tex_filename
 myRequest.ok_filenames_list=jeveux.ok_filenames_list()
 myRequest.add_plugin(jeveux.set_filename,"medicament")

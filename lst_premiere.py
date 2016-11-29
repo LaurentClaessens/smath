@@ -3,10 +3,10 @@
 
 import sys
 import commun
-import LaTeXparser
-import LaTeXparser.PytexTools
+import latexparser
+import latexparser.PytexTools
 
-myRequest = LaTeXparser.PytexTools.Request("seconde")
+myRequest = latexparser.PytexTools.Request("seconde")
 myRequest.original_filename="smath.tex"
 
 
