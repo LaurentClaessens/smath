@@ -563,7 +563,7 @@ from phystricksSurfacesCubesclGZD import SurfacesCubesclGZD
 
 
 def AllFigures(figures_list):
-    tests=main.FigureGenerationSuite(figures_list,first=0,title=u"Un soupçon de mathématiques")
+    tests=FigureGenerationSuite(figures_list,first=0,title=u"Un soupçon de mathématiques")
     tests.generate()
     tests.summary()
 
