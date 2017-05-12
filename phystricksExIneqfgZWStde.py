@@ -22,8 +22,7 @@ def ExIneqfgZWStde():
 
     pspict.DrawGraphs(f,g)
 
-    pts=Intersection(f,g,only_real=True)
-    pts=[P for P in pts if P.x.is_real()]   # Because there are complex solutions.
+    pts=Intersection(f,g)
 
     for P in [ Q for Q in pts if Q.x>mx and Q.x<Mx ]:
         R=Point(P.x,0)

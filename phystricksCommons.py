@@ -2,7 +2,7 @@
 
 from __future__ import division
 from phystricks import *
-from phystricks.ObjectGraph import ObjectGraph
+from phystricks.src.ObjectGraph import ObjectGraph
 
 class Pyramide(ObjectGraph):
     def __init__(self,n,l,h):
@@ -20,9 +20,10 @@ class Pyramide(ObjectGraph):
                 rect=Polygon(   Point(x,y),Point(x+l,y),Point(x+l,y-h),Point(x,y-h)  )
                 self.rectangles.append(rect)
                 self.centres[(j,i)]=Point(x+l/2,y-h/2)
-    def bounding_box(self,pspict=None):
-        return BasicGeometricObjects.BoundingBox()
-    def math_bounding_box(self,pspict=None):
+    def _bounding_box(self,pspict=None):
+        from phystricks.src.BasicGeometricObjects import BoundingBox
+        return BoundingBox()
+    def _math_bounding_box(self,pspict=None):
         return self.bounding_box(pspict)
     def action_on_pspict(self,pspict):
         pspict.DrawGraphs(self.rectangles)
