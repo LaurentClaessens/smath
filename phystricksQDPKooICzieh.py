@@ -9,7 +9,7 @@ def QDPKooICzieh():
     angle=Segment(A,O).angle().degree
     cer=Circle(O,(A-O).length).graph(angle-30,angle+30)
     cer.parameters.style="dashed"
-    ddroite=Segment(A,O+2*AffineVector(A,O))
+    ddroite=Segment(A,O.translate(2*AffineVector(A,O)))
     ddroite.parameters.style="dashed"
     Ap=Intersection(cer,ddroite)[1]
     seg=Segment(A,Ap)

@@ -8,7 +8,7 @@ def FQUNooERdWZY():
     A=Point(0,0)
     B=Point(0,3)
     s1=Segment(A,B)
-    s2=s1+vect
+    s2=s1.translate(vect)
 
     I=s1.get_point_proportion(0.2)
     J=s2.get_point_proportion(0.65)

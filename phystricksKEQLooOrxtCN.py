@@ -36,8 +36,10 @@ def KEQLooOrxtCN():
 
     S=a1.mark_point(pspict=pspict)
     T=a2.mark_point(pspict=pspict)
-    S.put_mark(0.2,angle=None,added_angle=0,text="",pspict=pspict)
-    T.put_mark(0.2,angle=None,added_angle=0,text="",pspict=pspict)
+    #S.put_mark(0.2,angle=None,added_angle=0,text="",pspict=pspict)
+    #T.put_mark(0.2,angle=None,added_angle=0,text="",pspict=pspict)
+    S.parameters.symbol="-"
+    T.parameters.symbol="-"
 
 
     droite=Segment(M,A).dilatation(1.2)

@@ -18,7 +18,7 @@ def FSSAooLvkqAf():
 
     for i in [0,1,2]:
         S=trig1.edges[i].midpoint()
-        Sp=S+trig1.edges[i].orthogonal().fix_size(0.7)
+        Sp=S.translate(trig1.edges[i].orthogonal().fix_size(0.7))
         s1=Segment(S,Sp)
         s1.parameters.style='dashed'
         s1.put_code(n=2,l=0.2,d=0.05,pspict=pspict)

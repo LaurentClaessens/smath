@@ -45,24 +45,24 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=AWKEooFytNYo.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=AWKEooFytNYo.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Alala\)}}%
-\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Bobobo\)}}%
-\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( Catata\)}}%
-\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{totalheightofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( Alala\)}}%
+\immediate\write\writeOfphystricks{widthofa311dcc8b8ee19100426496f65d5de67e91b5a1d:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{totalheightof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( Bobobo\)}}%
+\immediate\write\writeOfphystricks{widthof245a1aa832648cd4d1080e87c6876d7bbc9bb602:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( Catata\)}}%
+\immediate\write\writeOfphystricks{totalheightofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( Catata\)}}%
+\immediate\write\writeOfphystricks{widthofff77d4bb75aa1f5615aa6849f7f52b8135dac97c:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -84,3 +84,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+AWKEooFytNYo

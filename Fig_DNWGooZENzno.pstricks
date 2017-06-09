@@ -45,10 +45,10 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=DNWGooZENzno.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=DNWGooZENzno.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -59,26 +59,20 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=dotted] (-0.500,-0.500) -- (-0.500,1.50);
-\draw [color=gray,style=dotted] (0,-0.500) -- (0,1.50);
-\draw [color=gray,style=dotted] (0.500,-0.500) -- (0.500,1.50);
-\draw [color=gray,style=dotted] (1.00,-0.500) -- (1.00,1.50);
-\draw [color=gray,style=dotted] (1.50,-0.500) -- (1.50,1.50);
-\draw [color=gray,style=dotted] (2.00,-0.500) -- (2.00,1.50);
-\draw [color=gray,style=dotted] (-0.250,-0.500) -- (-0.250,1.50);
-\draw [color=gray,style=dotted] (0.250,-0.500) -- (0.250,1.50);
-\draw [color=gray,style=dotted] (0.750,-0.500) -- (0.750,1.50);
-\draw [color=gray,style=dotted] (1.25,-0.500) -- (1.25,1.50);
-\draw [color=gray,style=dotted] (1.75,-0.500) -- (1.75,1.50);
-\draw [color=gray,style=dotted] (-0.500,-0.250) -- (2.00,-0.250);
-\draw [color=gray,style=dotted] (-0.500,0.250) -- (2.00,0.250);
-\draw [color=gray,style=dotted] (-0.500,0.750) -- (2.00,0.750);
-\draw [color=gray,style=dotted] (-0.500,1.25) -- (2.00,1.25);
-\draw [color=gray,style=dotted] (-0.500,-0.500) -- (2.00,-0.500);
-\draw [color=gray,style=dotted] (-0.500,0) -- (2.00,0);
-\draw [color=gray,style=dotted] (-0.500,0.500) -- (2.00,0.500);
-\draw [color=gray,style=dotted] (-0.500,1.00) -- (2.00,1.00);
-\draw [color=gray,style=dotted] (-0.500,1.50) -- (2.00,1.50);
+\draw [color=gray,style=dotted] (0,0) -- (0,1.50);
+\draw [color=gray,style=dotted] (0.500,0) -- (0.500,1.50);
+\draw [color=gray,style=dotted] (1.00,0) -- (1.00,1.50);
+\draw [color=gray,style=dotted] (1.50,0) -- (1.50,1.50);
+\draw [color=gray,style=dotted] (0.250,0) -- (0.250,1.50);
+\draw [color=gray,style=dotted] (0.750,0) -- (0.750,1.50);
+\draw [color=gray,style=dotted] (1.25,0) -- (1.25,1.50);
+\draw [color=gray,style=dotted] (0,0.250) -- (1.50,0.250);
+\draw [color=gray,style=dotted] (0,0.750) -- (1.50,0.750);
+\draw [color=gray,style=dotted] (0,1.25) -- (1.50,1.25);
+\draw [color=gray,style=dotted] (0,0) -- (1.50,0);
+\draw [color=gray,style=dotted] (0,0.500) -- (1.50,0.500);
+\draw [color=gray,style=dotted] (0,1.00) -- (1.50,1.00);
+\draw [color=gray,style=dotted] (0,1.50) -- (1.50,1.50);
 %DEFAULT
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -100,3 +94,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+DNWGooZENzno

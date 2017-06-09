@@ -8,7 +8,7 @@ def ARKZooKZOuAk():
 
     pspicts[0].dilatation(0.6)
 
-    pspicts[1].dilatation_X(0.7)
+    pspicts[1].dilatation_X(0.07)
     pspicts[1].dilatation_Y(0.07)
 
     pspicts[2].dilatation_X(0.2)
@@ -48,7 +48,7 @@ def ARKZooKZOuAk():
     pspicts[0].axes.do_My_enlarge=False
     pspicts[0].DrawDefaultAxes()
 
-
+    pspicts[1].My_acceptable_BB=200
     pspicts[1].grid.Dx=20
     pspicts[1].grid.Dy=10
     pspicts[1].DrawDefaultGrid()

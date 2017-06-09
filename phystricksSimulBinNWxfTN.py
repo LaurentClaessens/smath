@@ -9,6 +9,7 @@ def SimulBinNWxfTN():
     for psp in pspicts:
         psp.My_acceptable_BB=1000
         psp.Mx_acceptable_BB=1000
+        psp.my_acceptable_BB=-150
 
     for i in range(0,len(schema)):
         pspicts[i].mother.caption=u"Nous répétons "+str(schema[i])+u" expériences de \( 100\) lancers"

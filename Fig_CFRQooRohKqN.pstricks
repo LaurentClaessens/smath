@@ -45,28 +45,28 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=CFRQooRohKqN.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=CFRQooRohKqN.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K \)}}%
-\immediate\write\writeOfphystricks{totalheightof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K \)}}%
-\immediate\write\writeOfphystricks{widthof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L \)}}%
-\immediate\write\writeOfphystricks{totalheightof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L \)}}%
-\immediate\write\writeOfphystricks{widthof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( M \)}}%
-\immediate\write\writeOfphystricks{totalheightof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( M \)}}%
-\immediate\write\writeOfphystricks{widthof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( N \)}}%
-\immediate\write\writeOfphystricks{totalheightof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( N \)}}%
-\immediate\write\writeOfphystricks{widthof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( K \)}}%
+\immediate\write\writeOfphystricks{totalheightof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( K \)}}%
+\immediate\write\writeOfphystricks{widthof4fed0abce15b30ba69d933c3f15de074040bf815:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( L \)}}%
+\immediate\write\writeOfphystricks{totalheightof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( L \)}}%
+\immediate\write\writeOfphystricks{widthof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( M \)}}%
+\immediate\write\writeOfphystricks{totalheightof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( M \)}}%
+\immediate\write\writeOfphystricks{widthof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( N \)}}%
+\immediate\write\writeOfphystricks{totalheightof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( N \)}}%
+\immediate\write\writeOfphystricks{widthof8c6e38269dac731643417c01b5a446dbdcfeb7ea:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -75,48 +75,36 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-1.50,-1.00) -- (-1.50,2.50);
-\draw [color=gray,style=solid] (-1.00,-1.00) -- (-1.00,2.50);
-\draw [color=gray,style=solid] (-0.500,-1.00) -- (-0.500,2.50);
-\draw [color=gray,style=solid] (0,-1.00) -- (0,2.50);
-\draw [color=gray,style=solid] (0.500,-1.00) -- (0.500,2.50);
-\draw [color=gray,style=solid] (1.00,-1.00) -- (1.00,2.50);
-\draw [color=gray,style=solid] (1.50,-1.00) -- (1.50,2.50);
-\draw [color=gray,style=solid] (2.00,-1.00) -- (2.00,2.50);
-\draw [color=gray,style=solid] (2.50,-1.00) -- (2.50,2.50);
-\draw [color=gray,style=solid] (3.00,-1.00) -- (3.00,2.50);
-\draw [color=gray,style=solid] (3.50,-1.00) -- (3.50,2.50);
-\draw [color=gray,style=dotted] (-1.25,-1.00) -- (-1.25,2.50);
-\draw [color=gray,style=dotted] (-0.750,-1.00) -- (-0.750,2.50);
-\draw [color=gray,style=dotted] (-0.250,-1.00) -- (-0.250,2.50);
-\draw [color=gray,style=dotted] (0.250,-1.00) -- (0.250,2.50);
-\draw [color=gray,style=dotted] (0.750,-1.00) -- (0.750,2.50);
-\draw [color=gray,style=dotted] (1.25,-1.00) -- (1.25,2.50);
-\draw [color=gray,style=dotted] (1.75,-1.00) -- (1.75,2.50);
-\draw [color=gray,style=dotted] (2.25,-1.00) -- (2.25,2.50);
-\draw [color=gray,style=dotted] (2.75,-1.00) -- (2.75,2.50);
-\draw [color=gray,style=dotted] (3.25,-1.00) -- (3.25,2.50);
-\draw [color=gray,style=dotted] (-1.50,-0.750) -- (3.50,-0.750);
-\draw [color=gray,style=dotted] (-1.50,-0.250) -- (3.50,-0.250);
-\draw [color=gray,style=dotted] (-1.50,0.250) -- (3.50,0.250);
-\draw [color=gray,style=dotted] (-1.50,0.750) -- (3.50,0.750);
-\draw [color=gray,style=dotted] (-1.50,1.25) -- (3.50,1.25);
-\draw [color=gray,style=dotted] (-1.50,1.75) -- (3.50,1.75);
-\draw [color=gray,style=dotted] (-1.50,2.25) -- (3.50,2.25);
-\draw [color=gray,style=solid] (-1.50,-1.00) -- (3.50,-1.00);
-\draw [color=gray,style=solid] (-1.50,-0.500) -- (3.50,-0.500);
-\draw [color=gray,style=solid] (-1.50,0) -- (3.50,0);
-\draw [color=gray,style=solid] (-1.50,0.500) -- (3.50,0.500);
-\draw [color=gray,style=solid] (-1.50,1.00) -- (3.50,1.00);
-\draw [color=gray,style=solid] (-1.50,1.50) -- (3.50,1.50);
-\draw [color=gray,style=solid] (-1.50,2.00) -- (3.50,2.00);
-\draw [color=gray,style=solid] (-1.50,2.50) -- (3.50,2.50);
+\draw [color=gray,style=solid] (-0.500,-0.500) -- (-0.500,2.00);
+\draw [color=gray,style=solid] (0,-0.500) -- (0,2.00);
+\draw [color=gray,style=solid] (0.500,-0.500) -- (0.500,2.00);
+\draw [color=gray,style=solid] (1.00,-0.500) -- (1.00,2.00);
+\draw [color=gray,style=solid] (1.50,-0.500) -- (1.50,2.00);
+\draw [color=gray,style=solid] (2.00,-0.500) -- (2.00,2.00);
+\draw [color=gray,style=solid] (2.50,-0.500) -- (2.50,2.00);
+\draw [color=gray,style=dotted] (-0.250,-0.500) -- (-0.250,2.00);
+\draw [color=gray,style=dotted] (0.250,-0.500) -- (0.250,2.00);
+\draw [color=gray,style=dotted] (0.750,-0.500) -- (0.750,2.00);
+\draw [color=gray,style=dotted] (1.25,-0.500) -- (1.25,2.00);
+\draw [color=gray,style=dotted] (1.75,-0.500) -- (1.75,2.00);
+\draw [color=gray,style=dotted] (2.25,-0.500) -- (2.25,2.00);
+\draw [color=gray,style=dotted] (-0.500,-0.250) -- (2.50,-0.250);
+\draw [color=gray,style=dotted] (-0.500,0.250) -- (2.50,0.250);
+\draw [color=gray,style=dotted] (-0.500,0.750) -- (2.50,0.750);
+\draw [color=gray,style=dotted] (-0.500,1.25) -- (2.50,1.25);
+\draw [color=gray,style=dotted] (-0.500,1.75) -- (2.50,1.75);
+\draw [color=gray,style=solid] (-0.500,-0.500) -- (2.50,-0.500);
+\draw [color=gray,style=solid] (-0.500,0) -- (2.50,0);
+\draw [color=gray,style=solid] (-0.500,0.500) -- (2.50,0.500);
+\draw [color=gray,style=solid] (-0.500,1.00) -- (2.50,1.00);
+\draw [color=gray,style=solid] (-0.500,1.50) -- (2.50,1.50);
+\draw [color=gray,style=solid] (-0.500,2.00) -- (2.50,2.00);
 %DEFAULT
 \draw [style=dashed] (0,0) -- (1.50,0.500);
 \draw [] (1.50,0.500) -- (2.00,1.50);
-\draw (-0.3021815820,-0.2620806965) node {\( K \)};
-\draw (1.762080697,0.1978184180) node {\( L \)};
-\draw (2.302181582,1.762080697) node {\( M \)};
+\draw (-0.2824053348,-0.2449288483) node {\( K \)};
+\draw (1.729815321,0.2350207090) node {\( L \)};
+\draw (2.282405335,1.744928848) node {\( M \)};
 
 %AXES
 %OTHER STUFF
@@ -124,3 +112,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+CFRQooRohKqN

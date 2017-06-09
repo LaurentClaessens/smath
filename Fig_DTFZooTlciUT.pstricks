@@ -45,24 +45,24 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=DTFZooTlciUT.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=DTFZooTlciUT.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Tristan}}%
-\immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Tristan}}%
-\immediate\write\writeOfphystricks{widthof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Perceval}}%
-\immediate\write\writeOfphystricks{totalheightof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Perceval}}%
-\immediate\write\writeOfphystricks{widthof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Lancelot}}%
-\immediate\write\writeOfphystricks{totalheightof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Lancelot}}%
-\immediate\write\writeOfphystricks{widthof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{Tristan}}%
+\immediate\write\writeOfphystricks{totalheightof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{Tristan}}%
+\immediate\write\writeOfphystricks{widthof529bef329b2f900e7421be63983203f8c1f6813b:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{Perceval}}%
+\immediate\write\writeOfphystricks{totalheightof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{Perceval}}%
+\immediate\write\writeOfphystricks{widthof1e5c3f625d77a53ee6adaaa64bff49c2f4fc0deb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{Lancelot}}%
+\immediate\write\writeOfphystricks{totalheightof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{Lancelot}}%
+\immediate\write\writeOfphystricks{widthof0660de61806bdaf310ef9cc098683032216d0c12:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -84,3 +84,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+DTFZooTlciUT

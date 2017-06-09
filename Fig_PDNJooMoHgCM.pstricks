@@ -45,28 +45,28 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=PDNJooMoHgCM.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=PDNJooMoHgCM.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( R \)}}%
-\immediate\write\writeOfphystricks{totalheightofe5653810b336b450cd01b4fe86da0644dc31cd18:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( R \)}}%
-\immediate\write\writeOfphystricks{widthofe5653810b336b450cd01b4fe86da0644dc31cd18:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( S \)}}%
-\immediate\write\writeOfphystricks{totalheightof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( S \)}}%
-\immediate\write\writeOfphystricks{widthof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( U \)}}%
-\immediate\write\writeOfphystricks{totalheightof1231deac81849755db2055cef1a57da74395d387:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( U \)}}%
-\immediate\write\writeOfphystricks{widthof1231deac81849755db2055cef1a57da74395d387:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( T\)}}%
-\immediate\write\writeOfphystricks{totalheightofe6276bfd0ce45539e37bdb69f4500462ce19b950:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( T\)}}%
-\immediate\write\writeOfphystricks{widthofe6276bfd0ce45539e37bdb69f4500462ce19b950:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( R \)}}%
+\immediate\write\writeOfphystricks{totalheightofe5653810b336b450cd01b4fe86da0644dc31cd18:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( R \)}}%
+\immediate\write\writeOfphystricks{widthofe5653810b336b450cd01b4fe86da0644dc31cd18:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( S \)}}%
+\immediate\write\writeOfphystricks{totalheightof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( S \)}}%
+\immediate\write\writeOfphystricks{widthof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( U \)}}%
+\immediate\write\writeOfphystricks{totalheightof1231deac81849755db2055cef1a57da74395d387:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( U \)}}%
+\immediate\write\writeOfphystricks{widthof1231deac81849755db2055cef1a57da74395d387:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( T\)}}%
+\immediate\write\writeOfphystricks{totalheightofe6276bfd0ce45539e37bdb69f4500462ce19b950:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( T\)}}%
+\immediate\write\writeOfphystricks{widthofe6276bfd0ce45539e37bdb69f4500462ce19b950:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -82,9 +82,9 @@
 \draw [style=dashed] (2.50,0.520) -- (0,0);
 \draw [style=dashed] (2.50,0.520) -- (2.80,0);
 
-\draw (-0.4761477543,-0.1525887155) node {\( R \)};
-\draw (3.028790790,2.444583821) node {\( S \)};
-\draw (3.153553391,-0.3535533906) node {\( U \)};
+\draw (-0.3182949350,-0.1020024034) node {\( R \)};
+\draw (2.950125376,2.291722029) node {\( S \)};
+\draw (3.055309856,-0.2553098562) node {\( U \)};
 \draw [] (0,0) -- (2.80,2.00);
 \draw [] (2.80,2.00) -- (2.80,0);
 \draw [] (2.80,0) -- (0,0);
@@ -93,3 +93,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+PDNJooMoHgCM

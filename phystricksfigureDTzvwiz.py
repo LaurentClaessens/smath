@@ -15,7 +15,7 @@ def figureDTzvwiz():
     b2=Segment(b1.I+(0,20),b1.F+(0,20))
 
 
-    v=v1+v2
+    v=v1.extend(v2)
     v.parameters.color="red"
 
     b1.parameters.color="blue"

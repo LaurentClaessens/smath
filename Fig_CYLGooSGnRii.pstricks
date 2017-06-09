@@ -45,16 +45,16 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=CYLGooSGnRii.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=CYLGooSGnRii.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\includegraphics[height=1.33333333333cm]{fp081206-28.pdf}}}%
-\immediate\write\writeOfphystricks{totalheightof7d6b14f18220fb5efd1ee48cfeee2047d0ce452a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\includegraphics[height=1.33333333333cm]{fp081206-28.pdf}}}%
-\immediate\write\writeOfphystricks{widthof7d6b14f18220fb5efd1ee48cfeee2047d0ce452a:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\includegraphics[height=1.33333333333cm]{fp081206-28.pdf}}}%
+\immediate\write\writeOfphystricks{totalheightof7d6b14f18220fb5efd1ee48cfeee2047d0ce452a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\includegraphics[height=1.33333333333cm]{fp081206-28.pdf}}}%
+\immediate\write\writeOfphystricks{widthof7d6b14f18220fb5efd1ee48cfeee2047d0ce452a:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -83,3 +83,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+CYLGooSGnRii

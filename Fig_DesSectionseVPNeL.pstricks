@@ -21,7 +21,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigDesSectionseVPNeLssLabelSubFigDesSectionseVPNeL0PICTDesSectionseVPNeLpspict0.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -75,7 +75,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigDesSectionseVPNeLssLabelSubFigDesSectionseVPNeL1PICTDesSectionseVPNeLpspict1.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -125,3 +125,5 @@
 \caption{\CaptionFigDesSectionseVPNeL}\label{LabelFigDesSectionseVPNeL}
             \end{figure}
             
+ZZZZ
+DesSectionseVPNeL

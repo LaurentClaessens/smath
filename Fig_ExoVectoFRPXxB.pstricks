@@ -46,24 +46,24 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=ExoVectoFRPXxB.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=ExoVectoFRPXxB.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(  \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{totalheightof46076f251ee743a10a4fcba187e60800b1d45e56:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(  \vect{ u }\)}}%
-\immediate\write\writeOfphystricks{widthof46076f251ee743a10a4fcba187e60800b1d45e56:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(  \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightof1f781db4a53eeb0aec65f695ae72d3f94d0954df:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(  \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthof1f781db4a53eeb0aec65f695ae72d3f94d0954df:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( O\)}}%
-\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( O\)}}%
-\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\(  \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{totalheightof46076f251ee743a10a4fcba187e60800b1d45e56:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\(  \vect{ u }\)}}%
+\immediate\write\writeOfphystricks{widthof46076f251ee743a10a4fcba187e60800b1d45e56:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\(  \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightof1f781db4a53eeb0aec65f695ae72d3f94d0954df:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\(  \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthof1f781db4a53eeb0aec65f695ae72d3f94d0954df:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( O\)}}%
+\immediate\write\writeOfphystricks{totalheightofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( O\)}}%
+\immediate\write\writeOfphystricks{widthofa2fe3585ba33b3cf7db4f0c69917d9ca606cc9af:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -72,28 +72,24 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (1.00,-5.00) -- (1.00,2.00);
-\draw [color=gray,style=solid] (2.00,-5.00) -- (2.00,2.00);
-\draw [color=gray,style=solid] (3.00,-5.00) -- (3.00,2.00);
-\draw [color=gray,style=solid] (4.00,-5.00) -- (4.00,2.00);
-\draw [color=gray,style=dotted] (1.50,-5.00) -- (1.50,2.00);
-\draw [color=gray,style=dotted] (2.50,-5.00) -- (2.50,2.00);
-\draw [color=gray,style=dotted] (3.50,-5.00) -- (3.50,2.00);
-\draw [color=gray,style=dotted] (1.00,-4.50) -- (4.00,-4.50);
-\draw [color=gray,style=dotted] (1.00,-3.50) -- (4.00,-3.50);
-\draw [color=gray,style=dotted] (1.00,-2.50) -- (4.00,-2.50);
-\draw [color=gray,style=dotted] (1.00,-1.50) -- (4.00,-1.50);
-\draw [color=gray,style=dotted] (1.00,-0.500) -- (4.00,-0.500);
-\draw [color=gray,style=dotted] (1.00,0.500) -- (4.00,0.500);
-\draw [color=gray,style=dotted] (1.00,1.50) -- (4.00,1.50);
-\draw [color=gray,style=solid] (1.00,-5.00) -- (4.00,-5.00);
-\draw [color=gray,style=solid] (1.00,-4.00) -- (4.00,-4.00);
-\draw [color=gray,style=solid] (1.00,-3.00) -- (4.00,-3.00);
-\draw [color=gray,style=solid] (1.00,-2.00) -- (4.00,-2.00);
-\draw [color=gray,style=solid] (1.00,-1.00) -- (4.00,-1.00);
-\draw [color=gray,style=solid] (1.00,0) -- (4.00,0);
-\draw [color=gray,style=solid] (1.00,1.00) -- (4.00,1.00);
-\draw [color=gray,style=solid] (1.00,2.00) -- (4.00,2.00);
+\draw [color=gray,style=solid] (0,-4.00) -- (0,1.00);
+\draw [color=gray,style=solid] (1.00,-4.00) -- (1.00,1.00);
+\draw [color=gray,style=solid] (2.00,-4.00) -- (2.00,1.00);
+\draw [color=gray,style=solid] (3.00,-4.00) -- (3.00,1.00);
+\draw [color=gray,style=dotted] (0.500,-4.00) -- (0.500,1.00);
+\draw [color=gray,style=dotted] (1.50,-4.00) -- (1.50,1.00);
+\draw [color=gray,style=dotted] (2.50,-4.00) -- (2.50,1.00);
+\draw [color=gray,style=dotted] (0,-3.50) -- (3.00,-3.50);
+\draw [color=gray,style=dotted] (0,-2.50) -- (3.00,-2.50);
+\draw [color=gray,style=dotted] (0,-1.50) -- (3.00,-1.50);
+\draw [color=gray,style=dotted] (0,-0.500) -- (3.00,-0.500);
+\draw [color=gray,style=dotted] (0,0.500) -- (3.00,0.500);
+\draw [color=gray,style=solid] (0,-4.00) -- (3.00,-4.00);
+\draw [color=gray,style=solid] (0,-3.00) -- (3.00,-3.00);
+\draw [color=gray,style=solid] (0,-2.00) -- (3.00,-2.00);
+\draw [color=gray,style=solid] (0,-1.00) -- (3.00,-1.00);
+\draw [color=gray,style=solid] (0,0) -- (3.00,0);
+\draw [color=gray,style=solid] (0,1.00) -- (3.00,1.00);
 %DEFAULT
 \draw []  (1.000000000,-1.000000000) node [rotate=0] {$\bullet$};
 \draw (1.331759167,-1.000000000) node {\( O\)};
@@ -108,3 +104,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+ExoVectoFRPXxB

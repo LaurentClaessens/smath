@@ -45,10 +45,10 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=XVMLooOHswig.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=XVMLooOHswig.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -59,30 +59,22 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=dotted] (-1.00,-1.00) -- (-1.00,2.00);
-\draw [color=gray,style=dotted] (0,-1.00) -- (0,2.00);
-\draw [color=gray,style=dotted] (1.00,-1.00) -- (1.00,2.00);
-\draw [color=gray,style=dotted] (2.00,-1.00) -- (2.00,2.00);
-\draw [color=gray,style=dotted] (3.00,-1.00) -- (3.00,2.00);
-\draw [color=gray,style=dotted] (4.00,-1.00) -- (4.00,2.00);
-\draw [color=gray,style=dotted] (5.00,-1.00) -- (5.00,2.00);
-\draw [color=gray,style=dotted] (6.00,-1.00) -- (6.00,2.00);
-\draw [color=gray,style=dotted] (7.00,-1.00) -- (7.00,2.00);
-\draw [color=gray,style=dotted] (-0.500,-1.00) -- (-0.500,2.00);
-\draw [color=gray,style=dotted] (0.500,-1.00) -- (0.500,2.00);
-\draw [color=gray,style=dotted] (1.50,-1.00) -- (1.50,2.00);
-\draw [color=gray,style=dotted] (2.50,-1.00) -- (2.50,2.00);
-\draw [color=gray,style=dotted] (3.50,-1.00) -- (3.50,2.00);
-\draw [color=gray,style=dotted] (4.50,-1.00) -- (4.50,2.00);
-\draw [color=gray,style=dotted] (5.50,-1.00) -- (5.50,2.00);
-\draw [color=gray,style=dotted] (6.50,-1.00) -- (6.50,2.00);
-\draw [color=gray,style=dotted] (-1.00,-0.500) -- (7.00,-0.500);
-\draw [color=gray,style=dotted] (-1.00,0.500) -- (7.00,0.500);
-\draw [color=gray,style=dotted] (-1.00,1.50) -- (7.00,1.50);
-\draw [color=gray,style=dotted] (-1.00,-1.00) -- (7.00,-1.00);
-\draw [color=gray,style=dotted] (-1.00,0) -- (7.00,0);
-\draw [color=gray,style=dotted] (-1.00,1.00) -- (7.00,1.00);
-\draw [color=gray,style=dotted] (-1.00,2.00) -- (7.00,2.00);
+\draw [color=gray,style=dotted] (0,0) -- (0,1.00);
+\draw [color=gray,style=dotted] (1.00,0) -- (1.00,1.00);
+\draw [color=gray,style=dotted] (2.00,0) -- (2.00,1.00);
+\draw [color=gray,style=dotted] (3.00,0) -- (3.00,1.00);
+\draw [color=gray,style=dotted] (4.00,0) -- (4.00,1.00);
+\draw [color=gray,style=dotted] (5.00,0) -- (5.00,1.00);
+\draw [color=gray,style=dotted] (6.00,0) -- (6.00,1.00);
+\draw [color=gray,style=dotted] (0.500,0) -- (0.500,1.00);
+\draw [color=gray,style=dotted] (1.50,0) -- (1.50,1.00);
+\draw [color=gray,style=dotted] (2.50,0) -- (2.50,1.00);
+\draw [color=gray,style=dotted] (3.50,0) -- (3.50,1.00);
+\draw [color=gray,style=dotted] (4.50,0) -- (4.50,1.00);
+\draw [color=gray,style=dotted] (5.50,0) -- (5.50,1.00);
+\draw [color=gray,style=dotted] (0,0.500) -- (6.00,0.500);
+\draw [color=gray,style=dotted] (0,0) -- (6.00,0);
+\draw [color=gray,style=dotted] (0,1.00) -- (6.00,1.00);
 %DEFAULT
 \draw [] (0,0) -- (4.00,0);
 \draw [] (4.00,0) -- (6.00,1.00);
@@ -95,3 +87,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+XVMLooOHswig

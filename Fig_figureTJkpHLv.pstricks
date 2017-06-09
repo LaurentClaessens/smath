@@ -45,24 +45,24 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=figureTJkpHLv.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=figureTJkpHLv.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{totalheightoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\unit{15}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{widthoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\unit{5}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{totalheightoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\unit{5}{\kilo\meter\per\hour}}}%
-\immediate\write\writeOfphystricks{widthoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ v }\)}}%
-\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\unit{15}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{totalheightoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\unit{15}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{widthoff96f5ced39271231bc48b19c8dfe4c35aa8aab30:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\unit{5}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{totalheightoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\unit{5}{\kilo\meter\per\hour}}}%
+\immediate\write\writeOfphystricks{widthoff13f0e1a8d9ad7598f7cde7f1c5a8004eff401c0:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{totalheightof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( \vect{ v }\)}}%
+\immediate\write\writeOfphystricks{widthof5293e4385390394b2829cd557dbd9ef9d2b573a2:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -86,3 +86,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+figureTJkpHLv

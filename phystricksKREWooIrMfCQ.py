@@ -4,7 +4,7 @@ from phystricks import *
 def axial_symetry(P,axe):
     Q=P.projection(axe)
     v=AffineVector(P,Q)
-    return Q+v
+    return Q.translate(v)
 
 
 def KREWooIrMfCQ():

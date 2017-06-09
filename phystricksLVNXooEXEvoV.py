@@ -23,7 +23,7 @@ def LVNXooEXEvoV():
     # Première figure
     med1=triangles[0].edges[0].bisector(code=(1,0.2,0.3,45,pspicts))
     pspicts[0].DrawGraphs(med1.added_objects[pspicts[0]])
-    med1=med1+Vector(0,-0.5)
+    med1=med1.translate(0,-0.5)
     rh=RightAngle(triangles[0].edges[0],med1,1,0)
     pspicts[0].DrawGraphs(med1,rh)
 

@@ -45,36 +45,36 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=LOBVHYF.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=LOBVHYF.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x\)}}%
-\immediate\write\writeOfphystricks{totalheightof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x\)}}%
-\immediate\write\writeOfphystricks{widthof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \cos(x)\)}}%
-\immediate\write\writeOfphystricks{totalheightoffac3bdf0347cbed50869ecb5e547cdd67ac0108f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \cos(x)\)}}%
-\immediate\write\writeOfphystricks{widthoffac3bdf0347cbed50869ecb5e547cdd67ac0108f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \sin(x)\)}}%
-\immediate\write\writeOfphystricks{totalheightofe885f0b860aba81847e90b41ea5774c392449e1a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \sin(x)\)}}%
-\immediate\write\writeOfphystricks{widthofe885f0b860aba81847e90b41ea5774c392449e1a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ -1 $}}%
-\immediate\write\writeOfphystricks{totalheightofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ -1 $}}%
-\immediate\write\writeOfphystricks{widthofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$ 1 $}}%
-\immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$ 1 $}}%
-\immediate\write\writeOfphystricks{widthof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( x\)}}%
+\immediate\write\writeOfphystricks{totalheightof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( x\)}}%
+\immediate\write\writeOfphystricks{widthof3ddebeda38cf99269bcdad466d5d9f5740833d51:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( \cos(x)\)}}%
+\immediate\write\writeOfphystricks{totalheightoffac3bdf0347cbed50869ecb5e547cdd67ac0108f:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( \cos(x)\)}}%
+\immediate\write\writeOfphystricks{widthoffac3bdf0347cbed50869ecb5e547cdd67ac0108f:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( \sin(x)\)}}%
+\immediate\write\writeOfphystricks{totalheightofe885f0b860aba81847e90b41ea5774c392449e1a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( \sin(x)\)}}%
+\immediate\write\writeOfphystricks{widthofe885f0b860aba81847e90b41ea5774c392449e1a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{$ -1 $}}%
+\immediate\write\writeOfphystricks{totalheightofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{$ -1 $}}%
+\immediate\write\writeOfphystricks{widthofa96a5c7d73b6126ce638354a6000a7038c222067:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{$ 1 $}}%
+\immediate\write\writeOfphystricks{totalheightof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{$ 1 $}}%
+\immediate\write\writeOfphystricks{widthof2f9abdf237016df2db0c349fe50e30dbad8bcb6c:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -85,7 +85,7 @@
 %PSTRICKS CODE
 %AXES
 \draw [,->,>=latex] (-4.400000000,0) -- (4.400000000,0);
-\draw [,->,>=latex] (0,-4.400000000) -- (0,4.400000000);
+\draw [,->,>=latex] (0,-5.600000000) -- (0,5.600000000);
 %DEFAULT
 \draw [color=red,->,>=latex] (3.000000000,-5.100000000) -- (3.000000000,5.100000000);
 
@@ -119,3 +119,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+LOBVHYF

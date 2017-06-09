@@ -48,16 +48,16 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=BpCNVm.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=BpCNVm.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{$x$}}%
-\immediate\write\writeOfphystricks{totalheightof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{$x$}}%
-\immediate\write\writeOfphystricks{widthof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{$x$}}%
+\immediate\write\writeOfphystricks{totalheightof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{$x$}}%
+\immediate\write\writeOfphystricks{widthof26eeb5258ca5099acf8fe96b2a1049c48c89a5e6:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -67,8 +67,8 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [,->,>=latex] (-0.6000000000,0) -- (5.600000000,0);
-\draw [,->,>=latex] (0,-0.9435180000) -- (0,2.600000000);
+\draw [,->,>=latex] (-0.5000000000,0) -- (5.500000000,0);
+\draw [,->,>=latex] (0,-0.5000000000) -- (0,2.500000000);
 %DEFAULT
 
 % declaring the keys in tikz
@@ -100,3 +100,5 @@
 \caption{\CaptionFigBpCNVm}\label{LabelFigBpCNVm}
             \end{figure}
             
+ZZZZ
+BpCNVm

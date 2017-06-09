@@ -12,7 +12,8 @@ def QZABooEsqWaq():
     triangle=Polygon(A,B,C)
 
     triangle.put_mark(0.2,pspict=pspict)
-    parallel=(triangle.edges[0]+(0,h)).dilatation(1.5)
+    s=triangle.edges[0]
+    parallel=(triangle.edges[0].translate(0,h)).dilatation(1.5)
     triangle.edges[0]=triangle.edges[0]
 
     for p in triangle.vertices:

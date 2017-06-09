@@ -7,10 +7,10 @@ def POYHooNCayFj():
     O=Point(0,0)
     vA=Vector(1,2)
     vB=Vector(2,1)
-    A=O+vA
-    B=O+3*vA
-    C=O+vB
-    D=O+3*vB
+    A=O.translate(vA)
+    B=O.translate(3*vA)
+    C=O.translate(vB)
+    D=O.translate(3*vB)
 
     s1=Segment(O,B)
     s2=Segment(O,D)

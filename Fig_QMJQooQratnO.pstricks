@@ -45,48 +45,48 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=QMJQooQratnO.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=QMJQooQratnO.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( A\)}}%
-\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( A\)}}%
-\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( B\)}}%
-\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( B\)}}%
-\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( C\)}}%
-\immediate\write\writeOfphystricks{totalheightofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( C\)}}%
-\immediate\write\writeOfphystricks{widthofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( M\)}}%
-\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( M\)}}%
-\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( P\)}}%
-\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( P\)}}%
-\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 5\)}}%
-\immediate\write\writeOfphystricks{totalheightofa2863c78cbc6e0630f0e92f18c8351fbe652260a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 5\)}}%
-\immediate\write\writeOfphystricks{widthofa2863c78cbc6e0630f0e92f18c8351fbe652260a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 3\)}}%
-\immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 3\)}}%
-\immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 2\)}}%
-\immediate\write\writeOfphystricks{totalheightof8afa6d17c76ef177e39d83c93b911d087c3b436a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 2\)}}%
-\immediate\write\writeOfphystricks{widthof8afa6d17c76ef177e39d83c93b911d087c3b436a:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( 6\)}}%
-\immediate\write\writeOfphystricks{totalheightof378a5703f741b5c95fd4b1a35bb5e9c1fac9dd76:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( 6\)}}%
-\immediate\write\writeOfphystricks{widthof378a5703f741b5c95fd4b1a35bb5e9c1fac9dd76:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( A\)}}%
+\immediate\write\writeOfphystricks{totalheightof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( A\)}}%
+\immediate\write\writeOfphystricks{widthof530f8574a5105d73d9dc029665e481846433a59a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( B\)}}%
+\immediate\write\writeOfphystricks{totalheightof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( B\)}}%
+\immediate\write\writeOfphystricks{widthof6063214f09042d29b7ecba6917e4569681a045c2:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( C\)}}%
+\immediate\write\writeOfphystricks{totalheightofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( C\)}}%
+\immediate\write\writeOfphystricks{widthofe4df3c067731309edc0ea345d8b731f06a34c472:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( M\)}}%
+\immediate\write\writeOfphystricks{totalheightof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( M\)}}%
+\immediate\write\writeOfphystricks{widthof7609c2c95013241c85e5e448d33e5c82a8b1310c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( 5\)}}%
+\immediate\write\writeOfphystricks{totalheightofa2863c78cbc6e0630f0e92f18c8351fbe652260a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( 5\)}}%
+\immediate\write\writeOfphystricks{widthofa2863c78cbc6e0630f0e92f18c8351fbe652260a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( 3\)}}%
+\immediate\write\writeOfphystricks{totalheightof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( 3\)}}%
+\immediate\write\writeOfphystricks{widthof0ace034445dd6fa0cd281734380a5476679cefd2:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( 2\)}}%
+\immediate\write\writeOfphystricks{totalheightof8afa6d17c76ef177e39d83c93b911d087c3b436a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( 2\)}}%
+\immediate\write\writeOfphystricks{widthof8afa6d17c76ef177e39d83c93b911d087c3b436a:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( 6\)}}%
+\immediate\write\writeOfphystricks{totalheightof378a5703f741b5c95fd4b1a35bb5e9c1fac9dd76:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( 6\)}}%
+\immediate\write\writeOfphystricks{widthof378a5703f741b5c95fd4b1a35bb5e9c1fac9dd76:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -99,11 +99,11 @@
 %PSTRICKS CODE
 %DEFAULT
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.02391693689,0.1985648008) node {\( A\)};
+\draw (-0.03763469580,0.3124533008) node {\( A\)};
 \draw []  (-0.5000000000,-3.000000000) node [rotate=0] {$\bullet$};
-\draw (-0.6672558586,-3.109660739) node {\( B\)};
+\draw (-0.8020358586,-3.198028792) node {\( B\)};
 \draw []  (1.500000000,-3.500000000) node [rotate=0] {$\bullet$};
-\draw (1.652265061,-3.629674019) node {\( C\)};
+\draw (1.783306561,-3.741273344) node {\( C\)};
 \draw [] (0,0) -- (-0.500,-3.00);
 \draw [] (-0.500,-3.00) -- (1.50,-3.50);
 \draw [] (1.50,-3.50) -- (0,0);
@@ -122,3 +122,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+QMJQooQratnO

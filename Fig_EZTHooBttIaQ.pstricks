@@ -45,16 +45,16 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=EZTHooBttIaQ.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=EZTHooBttIaQ.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\small\SI{45}{\degree}}}%
-\immediate\write\writeOfphystricks{totalheightofe1764467e878ef430323db523916969ee37f8298:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\small\SI{45}{\degree}}}%
-\immediate\write\writeOfphystricks{widthofe1764467e878ef430323db523916969ee37f8298:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\small\SI{45}{\degree}}}%
+\immediate\write\writeOfphystricks{totalheightofe1764467e878ef430323db523916969ee37f8298:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\small\SI{45}{\degree}}}%
+\immediate\write\writeOfphystricks{widthofe1764467e878ef430323db523916969ee37f8298:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -76,3 +76,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+EZTHooBttIaQ

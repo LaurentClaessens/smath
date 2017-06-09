@@ -45,28 +45,28 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=AMXQooFiUqRS.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=AMXQooFiUqRS.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(A\)}}%
-\immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(A\)}}%
-\immediate\write\writeOfphystricks{widthoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(B\)}}%
-\immediate\write\writeOfphystricks{totalheightof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(B\)}}%
-\immediate\write\writeOfphystricks{widthof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(C\)}}%
-\immediate\write\writeOfphystricks{totalheightof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(C\)}}%
-\immediate\write\writeOfphystricks{widthof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\(D\)}}%
-\immediate\write\writeOfphystricks{totalheightof96dfe6c2f3954cac694693137d4a23a318660bbf:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\(D\)}}%
-\immediate\write\writeOfphystricks{widthof96dfe6c2f3954cac694693137d4a23a318660bbf:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\(A\)}}%
+\immediate\write\writeOfphystricks{totalheightoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\(A\)}}%
+\immediate\write\writeOfphystricks{widthoffbc82d5aaf523234dba8466eceff5c138eca8289:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\(B\)}}%
+\immediate\write\writeOfphystricks{totalheightof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\(B\)}}%
+\immediate\write\writeOfphystricks{widthof4876997787ba7ab27b815acf1dfca699c4a19937:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\(C\)}}%
+\immediate\write\writeOfphystricks{totalheightof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\(C\)}}%
+\immediate\write\writeOfphystricks{widthof515decf2b119fecd7bde51255641053be11ea0b0:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\(D\)}}%
+\immediate\write\writeOfphystricks{totalheightof96dfe6c2f3954cac694693137d4a23a318660bbf:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\(D\)}}%
+\immediate\write\writeOfphystricks{widthof96dfe6c2f3954cac694693137d4a23a318660bbf:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -75,32 +75,24 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=dotted] (-0.600,-0.600) -- (-0.600,3.00);
-\draw [color=gray,style=dotted] (0,-0.600) -- (0,3.00);
-\draw [color=gray,style=dotted] (0.600,-0.600) -- (0.600,3.00);
-\draw [color=gray,style=dotted] (1.20,-0.600) -- (1.20,3.00);
-\draw [color=gray,style=dotted] (-0.300,-0.600) -- (-0.300,3.00);
-\draw [color=gray,style=dotted] (0.300,-0.600) -- (0.300,3.00);
-\draw [color=gray,style=dotted] (0.900,-0.600) -- (0.900,3.00);
-\draw [color=gray,style=dotted] (-0.600,-0.300) -- (1.20,-0.300);
-\draw [color=gray,style=dotted] (-0.600,0.300) -- (1.20,0.300);
-\draw [color=gray,style=dotted] (-0.600,0.900) -- (1.20,0.900);
-\draw [color=gray,style=dotted] (-0.600,1.50) -- (1.20,1.50);
-\draw [color=gray,style=dotted] (-0.600,2.10) -- (1.20,2.10);
-\draw [color=gray,style=dotted] (-0.600,2.70) -- (1.20,2.70);
-\draw [color=gray,style=dotted] (-0.600,-0.600) -- (1.20,-0.600);
-\draw [color=gray,style=dotted] (-0.600,0) -- (1.20,0);
-\draw [color=gray,style=dotted] (-0.600,0.600) -- (1.20,0.600);
-\draw [color=gray,style=dotted] (-0.600,1.20) -- (1.20,1.20);
-\draw [color=gray,style=dotted] (-0.600,1.80) -- (1.20,1.80);
-\draw [color=gray,style=dotted] (-0.600,2.40) -- (1.20,2.40);
-\draw [color=gray,style=dotted] (-0.600,3.00) -- (1.20,3.00);
+\draw [color=gray,style=dotted] (0,0) -- (0,2.40);
+\draw [color=gray,style=dotted] (0.600,0) -- (0.600,2.40);
+\draw [color=gray,style=dotted] (0.300,0) -- (0.300,2.40);
+\draw [color=gray,style=dotted] (0,0.300) -- (0.600,0.300);
+\draw [color=gray,style=dotted] (0,0.900) -- (0.600,0.900);
+\draw [color=gray,style=dotted] (0,1.50) -- (0.600,1.50);
+\draw [color=gray,style=dotted] (0,2.10) -- (0.600,2.10);
+\draw [color=gray,style=dotted] (0,0) -- (0.600,0);
+\draw [color=gray,style=dotted] (0,0.600) -- (0.600,0.600);
+\draw [color=gray,style=dotted] (0,1.20) -- (0.600,1.20);
+\draw [color=gray,style=dotted] (0,1.80) -- (0.600,1.80);
+\draw [color=gray,style=dotted] (0,2.40) -- (0.600,2.40);
 %DEFAULT
 
-\draw (-0.1275611441,-0.3079598442) node {\(A\)};
-\draw (-0.07658430685,2.724416330) node {\(B\)};
-\draw (0.9244163298,1.276584307) node {\(C\)};
-\draw (0.9079598442,0.4724388559) node {\(D\)};
+\draw (-0.1237108478,-0.2986644065) node {\(A\)};
+\draw (-0.07283601196,2.708538298) node {\(B\)};
+\draw (0.9256912979,1.276885286) node {\(C\)};
+\draw (0.9273917398,0.4643899011) node {\(D\)};
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
          hatchthickness/.code={\setlength{\hatchthickness}{#1}}}
@@ -119,3 +111,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+AMXQooFiUqRS

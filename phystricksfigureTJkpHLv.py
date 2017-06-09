@@ -17,7 +17,7 @@ def figureTJkpHLv():
     v1.put_mark(0.2,None,"\unit{15}{\kilo\meter\per\hour}",pspict=pspict)
     v2.put_mark(0.2,None,"\unit{5}{\kilo\meter\per\hour}",pspict=pspict)
 
-    v=v1+v2
+    v=v1.extend(v2)
     v.parameters.color="red"
     v.put_mark(0.2,-45,"\( \\vect{ v }\)",pspict=pspict)
 

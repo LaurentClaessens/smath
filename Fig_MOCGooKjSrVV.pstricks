@@ -21,7 +21,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigMOCGooKjSrVVssLabelSubFigMOCGooKjSrVV0PICTMOCGooKjSrVVpspict0.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -55,7 +55,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigMOCGooKjSrVVssLabelSubFigMOCGooKjSrVV1PICTMOCGooKjSrVVpspict1.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -97,7 +97,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigMOCGooKjSrVVssLabelSubFigMOCGooKjSrVV2PICTMOCGooKjSrVVpspict2.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -163,7 +163,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigMOCGooKjSrVVssLabelSubFigMOCGooKjSrVV3PICTMOCGooKjSrVVpspict3.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -301,7 +301,7 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=FIGLabelFigMOCGooKjSrVVssLabelSubFigMOCGooKjSrVV4PICTMOCGooKjSrVVpspict4.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -654,3 +654,5 @@
 \caption{\CaptionFigMOCGooKjSrVV}\label{LabelFigMOCGooKjSrVV}
             \end{figure}
             
+ZZZZ
+MOCGooKjSrVV

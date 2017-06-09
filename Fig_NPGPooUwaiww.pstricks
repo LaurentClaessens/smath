@@ -45,24 +45,24 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=NPGPooUwaiww.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=NPGPooUwaiww.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Clerval}}%
-\immediate\write\writeOfphystricks{totalheightofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Clerval}}%
-\immediate\write\writeOfphystricks{widthofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Baume}}%
-\immediate\write\writeOfphystricks{totalheightoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Baume}}%
-\immediate\write\writeOfphystricks{widthoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{Besançon}}%
-\immediate\write\writeOfphystricks{totalheightof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{Besançon}}%
-\immediate\write\writeOfphystricks{widthof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{Clerval}}%
+\immediate\write\writeOfphystricks{totalheightofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{Clerval}}%
+\immediate\write\writeOfphystricks{widthofb3dbd1e05861f4d67229ae8993e4f287f703ebdb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{Baume}}%
+\immediate\write\writeOfphystricks{totalheightoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{Baume}}%
+\immediate\write\writeOfphystricks{widthoff3ed24f96e0f0e6762c6525455da670ef4d4c845:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{Besançon}}%
+\immediate\write\writeOfphystricks{totalheightof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{Besançon}}%
+\immediate\write\writeOfphystricks{widthof6a2f22bdbd8a869076125db179ab32ad72ed37ee:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -87,3 +87,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+NPGPooUwaiww

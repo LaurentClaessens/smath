@@ -45,10 +45,10 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=WHWXooTAHTOd.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=WHWXooTAHTOd.phystricks.aux%
 %WRITE_AND_LABEL
 %CLOSE_WRITE_AND_LABEL
@@ -59,30 +59,24 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=dashed] (-0.700,-0.700) -- (-0.700,2.80);
-\draw [color=gray,style=dashed] (0,-0.700) -- (0,2.80);
-\draw [color=gray,style=dashed] (0.700,-0.700) -- (0.700,2.80);
-\draw [color=gray,style=dashed] (1.40,-0.700) -- (1.40,2.80);
-\draw [color=gray,style=dashed] (2.10,-0.700) -- (2.10,2.80);
-\draw [color=gray,style=dashed] (2.80,-0.700) -- (2.80,2.80);
-\draw [color=gray,style=dashed] (3.50,-0.700) -- (3.50,2.80);
-\draw [color=gray,style=dotted] (-0.350,-0.700) -- (-0.350,2.80);
-\draw [color=gray,style=dotted] (0.350,-0.700) -- (0.350,2.80);
-\draw [color=gray,style=dotted] (1.05,-0.700) -- (1.05,2.80);
-\draw [color=gray,style=dotted] (1.75,-0.700) -- (1.75,2.80);
-\draw [color=gray,style=dotted] (2.45,-0.700) -- (2.45,2.80);
-\draw [color=gray,style=dotted] (3.15,-0.700) -- (3.15,2.80);
-\draw [color=gray,style=dotted] (-0.700,-0.350) -- (3.50,-0.350);
-\draw [color=gray,style=dotted] (-0.700,0.350) -- (3.50,0.350);
-\draw [color=gray,style=dotted] (-0.700,1.05) -- (3.50,1.05);
-\draw [color=gray,style=dotted] (-0.700,1.75) -- (3.50,1.75);
-\draw [color=gray,style=dotted] (-0.700,2.45) -- (3.50,2.45);
-\draw [color=gray,style=dashed] (-0.700,-0.700) -- (3.50,-0.700);
-\draw [color=gray,style=dashed] (-0.700,0) -- (3.50,0);
-\draw [color=gray,style=dashed] (-0.700,0.700) -- (3.50,0.700);
-\draw [color=gray,style=dashed] (-0.700,1.40) -- (3.50,1.40);
-\draw [color=gray,style=dashed] (-0.700,2.10) -- (3.50,2.10);
-\draw [color=gray,style=dashed] (-0.700,2.80) -- (3.50,2.80);
+\draw [color=gray,style=dashed] (0,0) -- (0,2.80);
+\draw [color=gray,style=dashed] (0.700,0) -- (0.700,2.80);
+\draw [color=gray,style=dashed] (1.40,0) -- (1.40,2.80);
+\draw [color=gray,style=dashed] (2.10,0) -- (2.10,2.80);
+\draw [color=gray,style=dashed] (2.80,0) -- (2.80,2.80);
+\draw [color=gray,style=dotted] (0.350,0) -- (0.350,2.80);
+\draw [color=gray,style=dotted] (1.05,0) -- (1.05,2.80);
+\draw [color=gray,style=dotted] (1.75,0) -- (1.75,2.80);
+\draw [color=gray,style=dotted] (2.45,0) -- (2.45,2.80);
+\draw [color=gray,style=dotted] (0,0.350) -- (2.80,0.350);
+\draw [color=gray,style=dotted] (0,1.05) -- (2.80,1.05);
+\draw [color=gray,style=dotted] (0,1.75) -- (2.80,1.75);
+\draw [color=gray,style=dotted] (0,2.45) -- (2.80,2.45);
+\draw [color=gray,style=dashed] (0,0) -- (2.80,0);
+\draw [color=gray,style=dashed] (0,0.700) -- (2.80,0.700);
+\draw [color=gray,style=dashed] (0,1.40) -- (2.80,1.40);
+\draw [color=gray,style=dashed] (0,2.10) -- (2.80,2.10);
+\draw [color=gray,style=dashed] (0,2.80) -- (2.80,2.80);
 %DEFAULT
 
 % declaring the keys in tikz
@@ -112,3 +106,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+WHWXooTAHTOd

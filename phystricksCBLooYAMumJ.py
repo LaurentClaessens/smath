@@ -35,7 +35,7 @@ def CBLooYAMumJ():
     C.put_mark(0.2,text="\( C\)",pspicts=pspicts,position="corner")
 
     angle=AngleAOB(C,A,B)
-    angle.put_mark(0.2,alpha,"",pspicts=pspicts)
+    #angle.put_mark(0.2,alpha,"",pspicts=pspicts)
 
     Ap=Point(8,2)
     K=Circle(Ap,4).get_point(30)

@@ -45,16 +45,16 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=ParaboleUniqueBaskGdqda.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=ParaboleUniqueBaskGdqda.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( x_0\)}}%
-\immediate\write\writeOfphystricks{totalheightof0ca736cce470d01a2611d4c1d8b3b6177cb523eb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( x_0\)}}%
-\immediate\write\writeOfphystricks{widthof0ca736cce470d01a2611d4c1d8b3b6177cb523eb:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( x_0\)}}%
+\immediate\write\writeOfphystricks{totalheightof0ca736cce470d01a2611d4c1d8b3b6177cb523eb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( x_0\)}}%
+\immediate\write\writeOfphystricks{widthof0ca736cce470d01a2611d4c1d8b3b6177cb523eb:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -76,3 +76,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+ParaboleUniqueBaskGdqda

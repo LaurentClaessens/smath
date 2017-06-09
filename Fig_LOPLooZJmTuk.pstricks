@@ -45,28 +45,28 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=LOPLooZJmTuk.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=LOPLooZJmTuk.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( S \)}}%
-\immediate\write\writeOfphystricks{totalheightof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( S \)}}%
-\immediate\write\writeOfphystricks{widthof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( M \)}}%
-\immediate\write\writeOfphystricks{totalheightof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( M \)}}%
-\immediate\write\writeOfphystricks{widthof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L \)}}%
-\immediate\write\writeOfphystricks{totalheightof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L \)}}%
-\immediate\write\writeOfphystricks{widthof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( K\)}}%
-\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( K\)}}%
-\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( S \)}}%
+\immediate\write\writeOfphystricks{totalheightof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( S \)}}%
+\immediate\write\writeOfphystricks{widthof43b11a280d39167b69d9814e5c5065df53e2bfbb:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( M \)}}%
+\immediate\write\writeOfphystricks{totalheightof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( M \)}}%
+\immediate\write\writeOfphystricks{widthof39e72e2ae7da55d37cda657f6dd345c335b2397f:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( L \)}}%
+\immediate\write\writeOfphystricks{totalheightof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( L \)}}%
+\immediate\write\writeOfphystricks{widthof0461eb4859eebfd70122fea243aeec588cd7b7de:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( K\)}}%
+\immediate\write\writeOfphystricks{totalheightof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( K\)}}%
+\immediate\write\writeOfphystricks{widthof0d1cf0a68eb39a5d9326550cce1b4debded241b8:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -79,9 +79,9 @@
 %PSTRICKS CODE
 %DEFAULT
 
-\draw (-0.1702126319,2.870135789) node {\( S \)};
-\draw (-0.3535533906,-0.3535533906) node {\( M \)};
-\draw (2.452794711,-0.2120776981) node {\( L \)};
+\draw (-0.1093183768,2.701942816) node {\( S \)};
+\draw (-0.2553098562,-0.2553098562) node {\( M \)};
+\draw (2.294544051,-0.1379570539) node {\( L \)};
 \draw [] (0,2.40) -- (0,0);
 \draw [] (0,0) -- (2.00,0);
 \draw [] (2.00,0) -- (0,2.40);
@@ -93,3 +93,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+LOPLooZJmTuk

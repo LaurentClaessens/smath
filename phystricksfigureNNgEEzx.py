@@ -8,7 +8,7 @@ def figureNNgEEzx():
     B=Point(1,3)
     O=Point(0,0)
     v=AffineVector(A,B)
-    M=Point(0,0)+v
+    M=Point(0,0).translate(v)
     w=AffineVector(O,M)
 
     A.put_mark(0.2,0,"\( A\)",pspict=pspict)

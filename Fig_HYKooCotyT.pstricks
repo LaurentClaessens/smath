@@ -46,24 +46,24 @@
 % https://github.com/LaurentClaessens/phystricks
 %OPEN_WRITE_AND_LABEL
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=HYKooCotyT.phystricks.aux%
 \ifthenelse{\isundefined{\writeOfphystricks}}{\newwrite{\writeOfphystricks}}{}
-\ifthenelse{\isundefined{\lengthOfDOTfiguressmathDOTpy}}{\newlength{\lengthOfDOTfiguressmathDOTpy}}{}
+\ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=HYKooCotyT.phystricks.aux%
 %WRITE_AND_LABEL
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( L\)}}%
-\immediate\write\writeOfphystricks{totalheightofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( L\)}}%
-\immediate\write\writeOfphystricks{widthofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ u_1 }\)}}%
-\immediate\write\writeOfphystricks{totalheightofe9227a8370372809864af2b83306ca201c8d3a8c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ u_1 }\)}}%
-\immediate\write\writeOfphystricks{widthofe9227a8370372809864af2b83306ca201c8d3a8c:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\totalheightof{\( \vect{ u_2 }\)}}%
-\immediate\write\writeOfphystricks{totalheightof3171a2025c417f9acf4a2ba426d2aefe3d34272e:\the\lengthOfDOTfiguressmathDOTpy-}
-\setlength{\lengthOfDOTfiguressmathDOTpy}{\widthof{\( \vect{ u_2 }\)}}%
-\immediate\write\writeOfphystricks{widthof3171a2025c417f9acf4a2ba426d2aefe3d34272e:\the\lengthOfDOTfiguressmathDOTpy-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( L\)}}%
+\immediate\write\writeOfphystricks{totalheightofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( L\)}}%
+\immediate\write\writeOfphystricks{widthofc7d0ca4f0ca13ee17f3f52c86d68f061126f14a1:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( \vect{ u_1 }\)}}%
+\immediate\write\writeOfphystricks{totalheightofe9227a8370372809864af2b83306ca201c8d3a8c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( \vect{ u_1 }\)}}%
+\immediate\write\writeOfphystricks{widthofe9227a8370372809864af2b83306ca201c8d3a8c:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\totalheightof{\( \vect{ u_2 }\)}}%
+\immediate\write\writeOfphystricks{totalheightof3171a2025c417f9acf4a2ba426d2aefe3d34272e:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( \vect{ u_2 }\)}}%
+\immediate\write\writeOfphystricks{widthof3171a2025c417f9acf4a2ba426d2aefe3d34272e:\the\lengthOfforphystricks-}
 %CLOSE_WRITE_AND_LABEL
 \immediate\closeout\writeOfphystricks%
 %BEFORE PSPICTURE
@@ -72,28 +72,32 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (1.00,-1.50) -- (1.00,2.50);
-\draw [color=gray,style=solid] (1.50,-1.50) -- (1.50,2.50);
-\draw [color=gray,style=solid] (2.00,-1.50) -- (2.00,2.50);
-\draw [color=gray,style=dotted] (1.25,-1.50) -- (1.25,2.50);
-\draw [color=gray,style=dotted] (1.75,-1.50) -- (1.75,2.50);
-\draw [color=gray,style=dotted] (1.00,-1.25) -- (2.00,-1.25);
-\draw [color=gray,style=dotted] (1.00,-0.750) -- (2.00,-0.750);
-\draw [color=gray,style=dotted] (1.00,-0.250) -- (2.00,-0.250);
-\draw [color=gray,style=dotted] (1.00,0.250) -- (2.00,0.250);
-\draw [color=gray,style=dotted] (1.00,0.750) -- (2.00,0.750);
-\draw [color=gray,style=dotted] (1.00,1.25) -- (2.00,1.25);
-\draw [color=gray,style=dotted] (1.00,1.75) -- (2.00,1.75);
-\draw [color=gray,style=dotted] (1.00,2.25) -- (2.00,2.25);
-\draw [color=gray,style=solid] (1.00,-1.50) -- (2.00,-1.50);
-\draw [color=gray,style=solid] (1.00,-1.00) -- (2.00,-1.00);
-\draw [color=gray,style=solid] (1.00,-0.500) -- (2.00,-0.500);
-\draw [color=gray,style=solid] (1.00,0) -- (2.00,0);
-\draw [color=gray,style=solid] (1.00,0.500) -- (2.00,0.500);
-\draw [color=gray,style=solid] (1.00,1.00) -- (2.00,1.00);
-\draw [color=gray,style=solid] (1.00,1.50) -- (2.00,1.50);
-\draw [color=gray,style=solid] (1.00,2.00) -- (2.00,2.00);
-\draw [color=gray,style=solid] (1.00,2.50) -- (2.00,2.50);
+\draw [color=gray,style=solid] (-1.00,-1.50) -- (-1.00,1.50);
+\draw [color=gray,style=solid] (-0.500,-1.50) -- (-0.500,1.50);
+\draw [color=gray,style=solid] (0,-1.50) -- (0,1.50);
+\draw [color=gray,style=solid] (0.500,-1.50) -- (0.500,1.50);
+\draw [color=gray,style=solid] (1.00,-1.50) -- (1.00,1.50);
+\draw [color=gray,style=solid] (1.50,-1.50) -- (1.50,1.50);
+\draw [color=gray,style=solid] (2.00,-1.50) -- (2.00,1.50);
+\draw [color=gray,style=dotted] (-0.750,-1.50) -- (-0.750,1.50);
+\draw [color=gray,style=dotted] (-0.250,-1.50) -- (-0.250,1.50);
+\draw [color=gray,style=dotted] (0.250,-1.50) -- (0.250,1.50);
+\draw [color=gray,style=dotted] (0.750,-1.50) -- (0.750,1.50);
+\draw [color=gray,style=dotted] (1.25,-1.50) -- (1.25,1.50);
+\draw [color=gray,style=dotted] (1.75,-1.50) -- (1.75,1.50);
+\draw [color=gray,style=dotted] (-1.00,-1.25) -- (2.00,-1.25);
+\draw [color=gray,style=dotted] (-1.00,-0.750) -- (2.00,-0.750);
+\draw [color=gray,style=dotted] (-1.00,-0.250) -- (2.00,-0.250);
+\draw [color=gray,style=dotted] (-1.00,0.250) -- (2.00,0.250);
+\draw [color=gray,style=dotted] (-1.00,0.750) -- (2.00,0.750);
+\draw [color=gray,style=dotted] (-1.00,1.25) -- (2.00,1.25);
+\draw [color=gray,style=solid] (-1.00,-1.50) -- (2.00,-1.50);
+\draw [color=gray,style=solid] (-1.00,-1.00) -- (2.00,-1.00);
+\draw [color=gray,style=solid] (-1.00,-0.500) -- (2.00,-0.500);
+\draw [color=gray,style=solid] (-1.00,0) -- (2.00,0);
+\draw [color=gray,style=solid] (-1.00,0.500) -- (2.00,0.500);
+\draw [color=gray,style=solid] (-1.00,1.00) -- (2.00,1.00);
+\draw [color=gray,style=solid] (-1.00,1.50) -- (2.00,1.50);
 %DEFAULT
 \draw [,->,>=latex] (0.5000000000,0.5000000000) -- (1.000000000,1.500000000);
 \draw (1.311597523,1.779596356) node {\( \vect{ u_1 }\)};
@@ -108,3 +112,5 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
+ZZZZ
+HYKooCotyT

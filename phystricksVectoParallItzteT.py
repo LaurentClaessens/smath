@@ -11,8 +11,8 @@ def situation(pspict):
     K=Point(-0.8,-1.7)
 
     v=AffineVector(A,B)
-    D=C+v
-    Kp=K+v
+    D=C.translate(v)
+    Kp=K.translate(v)
 
     parABDC=Polygon(A,B,D,C)
     parABKpK=Polygon(A,B,Kp,K)
