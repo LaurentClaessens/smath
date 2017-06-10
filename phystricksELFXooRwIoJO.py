@@ -26,7 +26,7 @@ def ELFXooRwIoJO():
         nom=ba[1]
         ptp=trig.edges[0].get_point(pt.x)
         pt.put_mark(0.2,angle=-90,added_angle=0,text=mathize(nom),pspict=pspict)
-        ptp.put_mark(0.2,angle=None,added_angle=0,text=mathize(nom+"'"),pspict=pspict)
+        ptp.put_mark(0.2,angle=90,added_angle=0,text=mathize(nom+"'"),pspict=pspict)
         seg=Segment(pt,ptp)
         pspict.DrawGraphs(seg,pt,ptp)
         no_symbol(pt,ptp)

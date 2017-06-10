@@ -51,6 +51,10 @@
 \ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=QXYWooOWHshlooTWO.phystricks.aux%
 %WRITE_AND_LABEL
+\setlength{\lengthOfforphystricks}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\totalheightof{durée}}%
 \immediate\write\writeOfphystricks{totalheightof658a9dae3a5034a534598ef807f703408429f419:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\widthof{durée}}%
@@ -59,10 +63,6 @@
 \immediate\write\writeOfphystricks{totalheightof28e7ac8b34a408de95d5eb19fc5797eb853edbf2:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\widthof{distance parcourue}}%
 \immediate\write\writeOfphystricks{widthof28e7ac8b34a408de95d5eb19fc5797eb853edbf2:\the\lengthOfforphystricks-}
-\setlength{\lengthOfforphystricks}{\totalheightof{\( P\)}}%
-\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
-\setlength{\lengthOfforphystricks}{\widthof{\( P\)}}%
-\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\totalheightof{$ 30 $}}%
 \immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\widthof{$ 30 $}}%
@@ -118,7 +118,7 @@
 \draw [] (0,2.00) -- (2.50,0);
 
 \draw (3.540032523,-0.2562338562) node {durée};
-\draw (3.702807190,-0.3067510229) node {durée};
+\draw (3.540032523,-0.2562338562) node {durée};
 \draw (0.8333333333,-0.3049540000) node {$ 30 $};
 \draw [] (0.833,-0.100) -- (0.833,0.100);
 \draw (1.666666667,-0.3049540000) node {$ 60 $};
@@ -126,7 +126,7 @@
 \draw (2.500000000,-0.3049540000) node {$ 90 $};
 \draw [] (2.50,-0.100) -- (2.50,0.100);
 \draw (1.572223667,2.352780333) node {distance parcourue};
-\draw (2.133522833,2.288003833) node {distance parcourue};
+\draw (1.572223667,2.352780333) node {distance parcourue};
 \draw (-0.3666666667,0.6000000000) node {$ 30 $};
 \draw [] (-0.100,0.600) -- (0.100,0.600);
 \draw (-0.3666666667,1.200000000) node {$ 60 $};
@@ -140,5 +140,3 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
-ZZZZ
-QXYWooOWHshlooTWO

@@ -51,6 +51,10 @@
 \ifthenelse{\isundefined{\lengthOfforphystricks}}{\newlength{\lengthOfforphystricks}}{}
 \immediate\openout\writeOfphystricks=QXYWooOWHshlooTHREE.phystricks.aux%
 %WRITE_AND_LABEL
+\setlength{\lengthOfforphystricks}{\totalheightof{\( P\)}}%
+\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
+\setlength{\lengthOfforphystricks}{\widthof{\( P\)}}%
+\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\totalheightof{durée}}%
 \immediate\write\writeOfphystricks{totalheightof658a9dae3a5034a534598ef807f703408429f419:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\widthof{durée}}%
@@ -59,10 +63,6 @@
 \immediate\write\writeOfphystricks{totalheightof28e7ac8b34a408de95d5eb19fc5797eb853edbf2:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\widthof{distance parcourue}}%
 \immediate\write\writeOfphystricks{widthof28e7ac8b34a408de95d5eb19fc5797eb853edbf2:\the\lengthOfforphystricks-}
-\setlength{\lengthOfforphystricks}{\totalheightof{\( P\)}}%
-\immediate\write\writeOfphystricks{totalheightof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
-\setlength{\lengthOfforphystricks}{\widthof{\( P\)}}%
-\immediate\write\writeOfphystricks{widthof252bd60549fa851bbef990242b542b33d404a61d:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\totalheightof{$ 30 $}}%
 \immediate\write\writeOfphystricks{totalheightof3ee7224b5355f8ac4911c3ee2947e7d94139f6be:\the\lengthOfforphystricks-}
 \setlength{\lengthOfforphystricks}{\widthof{$ 30 $}}%
@@ -148,5 +148,3 @@
 \end{tikzpicture}
 %AFTER PSPICTURE
 %AFTER PSPICTURE
-ZZZZ
-QXYWooOWHshlooTHREE

@@ -24,7 +24,7 @@ def RNTRooAXhubs():
     mes4=Segment(T,F).get_measure(0.3,-0.1,None,"\( 3\)",pspict=pspict,position="corner")
     seg=Segment(S,T)
     seg.put_measure(0.2,0.1,text="\( 4\)",pspict=pspict,position="N")
-    mes6=Segment(D,E).get_measure(0.3,-0.1,text="\( ?\)",pspict=pspict,position="N")
+    mes6=Segment(D,E).get_measure(0.3,0.1,text="\( ?\)",pspict=pspict,position="N")
 
     for P in  [D,E,F,S,T]:
         P.parameters.symbol=""

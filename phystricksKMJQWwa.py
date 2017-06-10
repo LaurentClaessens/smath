@@ -24,7 +24,7 @@ def KMJQWwa():
 
     for psp in pspicts:
         psp.dilatation_X(0.7)
-        psp.dilatation_Y(0.7)
+        psp.dilatation_Y(0.5)
     pspicts[0].DrawGraphs(grille())
 
     s1=phyFunction(x+5).graph(0,6)
