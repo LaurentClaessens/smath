@@ -1107,12 +1107,6 @@ append_picture(<++>,1)
 append_picture(<++>,1)
 """
 
-figures_list_1=[]
-figures_list_2=[]
-figures_list_3=[]
-append_picture(MWIPooDUJRIo,1)
-
-
 def AllFigures():
     figures_list=figures_list_1
     if "--pass-number=2" in sys.argv :
