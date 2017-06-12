@@ -16,8 +16,6 @@ def FBTCooBKTryQ():
     a1=AngleAOB(P,O,A)
     a2=AngleAOB(C,O,P,r=0.3)
 
-    #a1.put_mark(0.2,None,"\( 24\)",pspict=pspict)
-    #a2.put_mark(0.2,None,"\( 120\)",pspict=pspict)
     a1.put_mark(text="\( 24\)",pspict=pspict)
     a2.put_mark(text="\( 120\)",pspict=pspict)
 

@@ -17,7 +17,7 @@ def VRQCooOchjJA():
     sec=Segment(I,J).dilatation(2)
 
     ang=AngleAOB(s1.F,I,sec.I,r=0.3)
-    ang.put_mark(0.2,None,"\SI{140}{\degree}",pspict=pspict)
+    ang.put_mark(text="\SI{140}{\degree}",pspict=pspict)
 
     pspict.DrawGraphs(sec,s1,s2,ang)
     fig.no_figure()
