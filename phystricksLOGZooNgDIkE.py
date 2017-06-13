@@ -5,8 +5,6 @@ from phystricksCommons import Pyramide
 
 def DLUGooTzdMAu():
     pspict,fig = SinglePicture("DLUGooTzdMAu")
-    #pspict.dilatation_X(1)
-    #pspict.dilatation_Y(1)
     pspict.dilatation(1)
 
     x=var('x')
@@ -23,8 +21,6 @@ def DLUGooTzdMAu():
 
 def BJDWooWkSKfU():
     pspict,fig = SinglePicture("BJDWooWkSKfU")
-    #pspict.dilatation_X(1)
-    #pspict.dilatation_Y(1)
     pspict.dilatation(1)
 
     x=var('x')
@@ -38,7 +34,3 @@ def BJDWooWkSKfU():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-
-def LOGZooNgDIkE():
-    DLUGooTzdMAu()
-    BJDWooWkSKfU()

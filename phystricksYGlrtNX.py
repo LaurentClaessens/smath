@@ -1,12 +1,13 @@
 # -*- coding: utf8 -*-
 from phystricks import *
-def YGlrtNX():
+f=LagrangePolynomial( [Point(-4,-2),Point(-3,0),Point(-1.5,2),Point(0,0),Point(1,1),Point(2,3),Point(4,0)] ).graph(-4,4)
+
+def QJLooNAToEq():
     pspictC,figC = SinglePicture("QJLooNAToEq")
     pspictC.dilatation_X(0.9)
 
     # La figure de correction
 
-    f=LagrangePolynomial( [Point(-4,-2),Point(-3,0),Point(-1.5,2),Point(0,0),Point(1,1),Point(2,3),Point(4,0)] ).graph(-4,4)
     A=f.get_point(2)
     A.put_mark(0.2,A.advised_mark_angle(pspictC),"\( A\)",pspict=pspictC,position="corner")
 
@@ -27,9 +28,8 @@ def YGlrtNX():
     figC.conclude()
     figC.write_the_file()
 
-    # La figure du sujet.
-
-    pspict,fig = SinglePicture("YGlrtNX")
+def MLSSooNVfyOR():
+    pspict,fig = SinglePicture("MLSSooNVfyOR")
     pspict.dilatation_X(0.9)
 
 

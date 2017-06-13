@@ -35,8 +35,6 @@ def parallelog(A,B,C,points_names="ABCD",fig=None,pspict=None):
     D=A+C-B
     parall=Polygon(A,B,C,D)
     parall.put_mark(0.2,points_names=points_names,pspict=pspict)
-    #parall.put_mark(0.2,text_list=["\( A\)","\( B\)","\( C\)","\( D\)"],pspict=pspict)
-
 
     s1=Segment(A,B)
     s2=Segment(B,C)
@@ -70,3 +68,5 @@ def contour(n,pspict):
     for k in range(1,n-1):        # La gauche et la droite
         pspict.DrawGraphs( petit(0,k,color="green"),petit(n-1,k,color="green") )
 
+def petitAKL(x,y):
+    return Rectangle(  Point(x,y+1),Point(x+1,y) )

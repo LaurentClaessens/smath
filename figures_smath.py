@@ -33,7 +33,8 @@ from phystricksJYAKooXjBUpt import JYAKooXjBUpt
 from phystricksDWHNooSCJJNE import DWHNooSCJJNE
 from phystricksUFBQooOXIMjV import UFBQooOXIMjV
 from phystricksZBHLooYfpkZA import ZBHLooYfpkZA
-from phystricksLOGZooNgDIkE import LOGZooNgDIkE
+from phystricksLOGZooNgDIkE import DLUGooTzdMAu
+from phystricksLOGZooNgDIkE import BJDWooWkSKfU
 from phystricksFDOMooPmHEcu import FDOMooPmHEcu
 from phystricksXUATooMWfESC import XUATooMWfESC
 from phystricksBXFFooNyvPYY import BXFFooNyvPYY
@@ -251,9 +252,9 @@ from phystricksKUUooRcCjkQ import KUUooRcCjkQ
 from phystricksZSAooVHmHWd import ZSAooVHmHWd
 from phystricksFDOooRCCWGn import FDOooRCCWGn
 from phystricksGLVooNqioTo import GLVooNqioTo   
-from phystricksAKLooNbKioN import AKLooNbKioN   # Plusieurs dessins
+from phystricksSESooBTZQPF import SESooBTZQPF
 from phystricksMBTooHyyNvj import MBTooHyyNvj
-from phystricksTYIooYKqeNv import TYIooYKqeNv
+from phystricksTYIooYKqeNv import PJQooTWPTXV
 from phystricksCXWooOMPOQT import CXWooOMPOQT
 from phystricksCMOooKlzoBL import CMOooKlzoBL
 from phystricksJJGooMMFWLs import JJGooMMFWLs
@@ -266,26 +267,41 @@ from phystricksNARooFiHuAy import NARooFiHuAy
 from phystricksJTQooDUZpht import JTQooDUZpht
 from phystricksPATooDkWFPD import PATooDkWFPD
 from phystricksSAZooPjiyOV import SAZooPjiyOV
-from phystricksIIHooSeavps import IIHooSeavps
 from phystricksEISooBQSffk import EISooBQSffk
+from phystricksKRFooUgRQSB import KRFooUgRQSB
+from phystricksDLPooHXskUP import DLPooHXskUP
+from phystricksGFYooZOvPjP import GFYooZOvPjP
 from phystricksRKSooSVlhiF import RKSooSVlhiF
 from phystricksTOIooUindpy import TOIooUindpy
 from phystricksOJDooPOzSiC import OJDooPOzSiC
 from phystricksLXQooZPbZml import LXQooZPbZml
 from phystricksXYWooOPFwaca import XYWooOPFwaca 
 from phystricksBPZooBCyuyK import BPZooBCyuyK
-from phystricksNOPooYlqjzW import NOPooYlqjzW   # Plusieurs dessins
 from phystricksTJDooMNBjjK import TJDooMNBjjK
+from phystricksTBYooGTZFxt import TBYooGTZFxt
+from phystricksSJZooODLIrs import SJZooODLIrs
+from phystricksKIZooDOXSDH import KIZooDOXSDH
+from phystricksSQRooAWmMQL import SQRooAWmMQL
 from phystricksOTGooGcktOd import OTGooGcktOd
 from phystricksMFWooBwnCkX import MFWooBwnCkX
-from phystricksCBLooYAMumJ import CBLooYAMumJ   # Plusieurs dessins
-from phystricksCKOooBQtves import CKOooBQtves   # Plusieurs dessins
+from phystricksCBLooYAMumJ import JJOooHGTOyn
+from phystricksCBLooYAMumJ import VAAooKPNvIs
+from phystricksCBLooYAMumJ import WNEooGHwkVN
+from phystricksCBLooYAMumJ import OSLooCtzTMX
+from phystricksCBLooYAMumJ import OPWooAJbLaM
+from phystricksCKOooBQtves import EIQooXptWUa
+from phystricksCKOooBQtves import GUEooKQcWgv
+from phystricksCKOooBQtves import MQJooVtXTde
 from phystricksUKTooJhUzKU import UKTooJhUzKU
-from phystricksIPAooQliVZD import IPAooQliVZD   # Celui-ci crée trois dessins.
+from phystricksIPAooQliVZD import HZPooATdojo
+from phystricksIPAooQliVZD import JUZooFbAOlx
+from phystricksIPAooQliVZD import VJZooKxwzhE
 from phystricksRYDooDLpToB import RYDooDLpToB
 from phystricksHHOooQUedri import HHOooQUedri
-from phystricksSWHooJzpmlM import SWHooJzpmlM       # Cette fonction en lance deux.
-from phystricksCNTooDFQFEQ import CNTooDFQFEQ       # Celle-ci aussi
+from phystricksSWHooJzpmlM import LYJooVYRkMy
+from phystricksSWHooJzpmlM import SCVooUjmESN
+from phystricksCNTooDFQFEQ import CPVooSIVPHp
+from phystricksCNTooDFQFEQ import HQQooVpesUc
 from phystricksWGCXlvC import WGCXlvC
 from phystricksLCUooNGZJFk import LCUooNGZJFk
 from phystricksKXXooKBoqAY import KXXooKBoqAY
@@ -340,6 +356,7 @@ from phystricksEDEYRhQ import EDEYRhQ
 from phystricksILauamX import ILauamX
 from phystricksEJbcoxO import EJbcoxO
 from phystricksGSfDCyx import GSfDCyx
+from phystricksGSfDCyx import PEoyeQt
 from phystricksRRlBSZg import RRlBSZg
 from phystricksFFyFBoe import FFyFBoe
 from phystricksJLUTBlD import JLUTBlD
@@ -351,7 +368,8 @@ from phystricksJXWXdJI import JXWXdJI
 from phystricksWYeESAN import WYeESAN
 from phystricksYBxSjFS import YBxSjFS
 from phystricksEDnzyzS import EDnzyzS
-from phystricksYGlrtNX import YGlrtNX
+from phystricksYGlrtNX import QJLooNAToEq
+from phystricksYGlrtNX import MLSSooNVfyOR
 from phystricksDNYAefI import DNYAefI
 from phystricksPYYEasw import PYYEasw
 from phystricksHMNXfhy import HMNXfhy
@@ -436,24 +454,8 @@ from phystricksPositionPlansTvKvah import PositionPlansTvKvah
 from phystricksPositionRelativexpwkEJ import PositionRelativexpwkEJ
 from phystricksExoTrigTrIpPW import ExoTrigTrIpPW
 from phystricksExoVectoFRPXxB import ExoVectoFRPXxB
-
-# Ces imports étaient déjà commentés en septembre 2014
-#from phystricksTracerUn import TracerUn
-#from phystricksGrapheunsurunmoinsx import Grapheunsurunmoinsx
-#from phystricksExerciceGraphes import ExerciceGraphes
-#from phystricksExerciceGraphesbis import ExerciceGraphesbis
-#from phystricksExoCUd import ExoCUd
-#from phystricksUnSurxInt import UnSurxInt
-#from phystricksAireParabole import AireParabole
-#from phystricksPartieEntiere import PartieEntiere
-#from phystricksMantisse import Mantisse
-#from phystricksDS2010ExoGraph import DS2010ExoGraph
-#from phystricksDS2010bisExoGraph import DS2010bisExoGraph
-#from phystricksSolsEqDiffSin import SolsEqDiffSin
-#from phystricksSolsSinpA import SolsSinpA
-#from phystricksTrajs import Trajs
-#from phystricksNotesSVT import NotesSVT
-
+from phystricksNNZooNCAqUK import NNZooNCAqUK
+from phystricksCEZooPzIzzi import CEZooPzIzzi
 from phystricksEvZZys import EvZZys
 from phystricksBpCNVm import BpCNVm
 from phystricksHistoAutomobile import HistoAutomobile
@@ -624,7 +626,6 @@ append_picture(XFMTooSCJlTh,1)
 append_picture(MFWooBwnCkX,1)
 append_picture(TCBLooKXvOaZ,1)
 append_picture(CXDBooJMfhRr,1)
-append_picture(oMNXfhy,1)
 append_picture(SJZooODLIrs,1)
 append_picture(DWHNooSCJJNE,1)
 append_picture(TJDooMNBjjK,1)
@@ -653,7 +654,6 @@ append_picture(FCarreQFhsWz,2)
 append_picture(RRlBSZg,2)
 append_picture(GRRhrJe,2)
 append_picture(VRQCooOchjJA,2)
-append_picture(YGlrtNX,2)
 append_picture(figureAEcZqpP,2)
 append_picture(ZZPQooStuRcw,2)
 append_picture(LWKNooOqJykO,2)
@@ -1105,13 +1105,26 @@ append_picture(PSZooRphUET,2)
 append_picture(OPWooAJbLaM,2)
 append_picture(ALzPUfm,2)
 
-append_picture(XYWooOPFwaca,1)
-append_picture(BPZooBCyuyK,1)
+append_picture(KRFooUgRQSB,1)
+append_picture(CEZooPzIzzi,1)
+append_picture(DLPooHXskUP,1)
+append_picture(JJOooHGTOyn,2)
+append_picture(VAAooKPNvIs,2)
+append_picture(WNEooGHwkVN,2)
+append_picture(OSLooCtzTMX,2)
+append_picture(OPWooAJbLaM,2)
+append_picture(CPVooSIVPHp,2)
+append_picture(HQQooVpesUc,2)
+append_picture(DLUGooTzdMAu,2)
+append_picture(BJDWooWkSKfU,2)
+append_picture(LYJooVYRkMy,2)
+append_picture(SCVooUjmESN,2)
+append_picture(EIQooXptWUa,2)
+append_picture(GUEooKQcWgv,2)
+append_picture(MQJooVtXTde,2)
+append_picture(MLSSooNVfyOR,1)
 
 """
-append_picture(<++>,1)
-append_picture(<++>,1)
-append_picture(<++>,1)
 append_picture(<++>,1)
 append_picture(<++>,1)
 append_picture(<++>,1)

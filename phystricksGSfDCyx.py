@@ -31,7 +31,7 @@ def GSfDCyx():
     fig.conclude()
     fig.write_the_file()
 
-    # Et maintenant, celui pour l'autre classe
+def PEoyeQt():
 
     pspict,fig = SinglePicture("PEoyeQt")
     pspict.dilatation_X(0.8)
