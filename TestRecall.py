@@ -44,4 +44,6 @@ def wrong_file_list(directory):
 
         if get_text != recall_text :
             wfl.append(filename)
+        else :
+            print("ok : ",filename)
     return mfl,wfl

@@ -21,8 +21,8 @@ def QEPZooNndwiS():
     a1=AngleAOB(A,I,J)
     a2=AngleAOB(D,J,I)
 
-    a1.put_mark(0.2,angle=None,text="\( a\)",pspict=pspict)
-    a2.put_mark(0.2,angle=None,text="\( a\)",pspict=pspict)
+    a1.put_mark(text="\( a\)",pspict=pspict)
+    a2.put_mark(text="\( a\)",pspict=pspict)
 
     pspict.DrawGraphs(d1,d2,seg,a1,a2)
     fig.no_figure()

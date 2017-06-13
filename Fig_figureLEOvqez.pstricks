@@ -80,13 +80,13 @@
 %DEFAULT
 \draw [color=blue,->,>=latex] (0,0) -- (3.000000000,2.000000000);
 \draw [color=red,->,>=latex] (0,0) -- (3.000000000,0);
-\draw (1.500000000,-0.3219210000) node {\( x_B-x_A\)};
+\draw (1.500000000,-0.7000000000) node {\( x_B-x_A\)};
 \draw [color=red,->,>=latex] (3.000000000,0) -- (3.000000000,2.000000000);
-\draw (3.790379333,1.000000000) node {\( y_B-y_A\)};
+\draw (3.700000000,1.000000000) node {\( y_B-y_A\)};
 \draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.3250003333,0) node {\( A\)};
+\draw (-0.7000000000,0) node {\( A\)};
 \draw []  (3.000000000,2.000000000) node [rotate=0] {$\times$};
-\draw (3.276201356,2.255309856) node {\( B\)};
+\draw (3.641421356,2.641421356) node {\( B\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

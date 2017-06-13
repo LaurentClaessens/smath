@@ -1,7 +1,7 @@
 # -*- coding: utf8 -*-
 from phystricks import *
 
-from phystricksUCAOooLGwJUe import thales
+from communPhys import thales
 
 def VXDJooBGRpbL():
     pspict,fig = SinglePicture("VXDJooBGRpbL")
