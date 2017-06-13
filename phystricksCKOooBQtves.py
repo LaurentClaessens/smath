@@ -3,7 +3,6 @@ from phystricks import *
 
 
 def makeCKO(pspict,num):
-
     pspict.dilatation_X(0.5)
     pspict.dilatation_Y(0.5)
 
@@ -53,21 +52,21 @@ def makeCKO(pspict,num):
 
 
 def EIQooXptWUa():
-    pspict,fig = SinglePicture("EIQooXptWUa",0)
+    pspict,fig = SinglePicture("EIQooXptWUa")
     makeCKO(pspict,0)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
 
 def GUEooKQcWgv():
-    pspict,fig = SinglePicture("GUEooKQcWgv",1)
+    pspict,fig = SinglePicture("GUEooKQcWgv")
     makeCKO(pspict,1)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
 
 def MQJooVtXTde():
-    pspict,fig = SinglePicture("MQJooVtXTde",2)
+    pspict,fig = SinglePicture("MQJooVtXTde")
     makeCKO(pspict,2)
     fig.no_figure()
     fig.conclude()

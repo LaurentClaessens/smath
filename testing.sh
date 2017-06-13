@@ -19,7 +19,7 @@ rm tikz*.pdf >> /dev/null
 rm *.aux >> /dev/null
 
 compile_pass 1 &&
-#compile_pass 2 &&
+compile_pass 2 &&
 #compile_pass 3 
 
 ./test_recall.py . >> $LOG_FILE

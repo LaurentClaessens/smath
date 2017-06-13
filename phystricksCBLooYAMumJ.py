@@ -83,7 +83,7 @@ def JJOooHGTOyn():
     fig.write_the_file()
 
 def VAAooKPNvIs():
-    pspict,fig = SinglePicture("JJOooHGTOyn")
+    pspict,fig = SinglePicture("VAAooKPNvIs")
     makeCBL(pspict,1)
     fig.no_figure()
     fig.conclude()

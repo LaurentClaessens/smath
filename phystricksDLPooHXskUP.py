@@ -11,12 +11,11 @@ def DLPooHXskUP():
     cercle=Circle(O,1)
 
     secteur=Secteur(cercle,0,360/3)
-    lignes=  lignes(3)  
+    ligne=  lignes(3)  
     secteur.parameters.filled()
     secteur.parameters.fill.color="lightgray"
 
-    pspict.DrawGraphs(cercle,secteur)
-    pspict.DrawGraphs(lignes)
+    pspict.DrawGraphs(cercle,secteur,ligne)
 
     fig.no_figure()
     fig.conclude()
