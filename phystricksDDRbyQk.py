@@ -34,8 +34,8 @@ def DDRbyQk():
     P.put_mark(0.2,45,"\( P\)",pspict=pspict,position="corner")
 
     polyg=Polygon(D,N,P,M)
-    polyg.parameters.filled()
-    polyg.parameters.fill.color="lightgray"
+    polyg.filled()
+    polyg.hatch_parameterscolor="lightgray"
 
     pspict.DrawGraphs(rect,rect2,polyg,A,B,C,D,N,M,P)
     fig.no_figure()

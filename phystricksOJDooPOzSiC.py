@@ -8,8 +8,8 @@ def OJDooPOzSiC():
     l=4
     h=1
     rect=Rectangle(  Point(0,h),Point(l,0)   )
-    rect.parameters.hatched()
-    rect.parameters.hatch.color="lightgray"
+    rect.hatched()
+    rect.hatch_parameters.color="lightgray"
 
     measurel=MeasureLength(  rect.edges[0] ,0.3  )
     measurel.put_mark(0.3,text="\( 2x+4\)",pspict=pspict,position="N")

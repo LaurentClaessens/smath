@@ -6,8 +6,8 @@ from phystricks import *
 def carre(x,y,color=None):
     car=Polygon(  Point(x,y),Point(x+1,y),Point(x+1,y+1),Point(x,y+1)  )
     if color:
-        car.parameters.filled()
-        car.parameters.fill.color=color
+        car.filled()
+        car.fill_parameters.color=color
     return car
 
 def PYSIooVNiiuo():
@@ -31,8 +31,8 @@ def PYSIooVNiiuo():
     blocs.append(carre(3,2))
     blocs.append(carre(2,3))
     for b in blocs:
-        b.parameters.filled()
-        b.parameters.fill.color="black"
+        b.filled()
+        b.fill_parameters.color="black"
     
     pspict.DrawGraphs(blocs)
     fig.no_figure()

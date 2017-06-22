@@ -11,7 +11,7 @@ def PMVPooKtUXux():
 
     AB=Segment(A,B)
     loz=Polygon(S,A,T,B)
-    loz.edge_model.parameters.style="dashed"
+    loz.edges_parameters.style="dashed"
 
     loz.put_mark(0.2,text_list=[  "\( S\)","\( A\)","\( T\)","\( B\)"  ],pspict=pspict)
 

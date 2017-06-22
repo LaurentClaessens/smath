@@ -14,10 +14,10 @@ def UKRHooEvocBg():
     for x in range(0,4):
         a=petit(x,0)
         b=petit(x,1)
-        a.parameters.filled()
-        a.parameters.fill.color='lightgray'
-        b.parameters.filled()
-        b.parameters.fill.color='lightgray'
+        a.filled()
+        a.fill_parameters.color='lightgray'
+        b.filled()
+        b.fill_parameters.color='lightgray'
         pspict.DrawGraphs(a,b)
 
     for x in range(0,4):
@@ -26,11 +26,9 @@ def UKRHooEvocBg():
 
     for x in range(0,3):
         b=petit(x,2)
-        b.parameters.hatched()
-        b.parameters.hatch.color='lightgray'
+        b.hatched()
+        b.hatch_parameters.color='lightgray'
         pspict.DrawGraphs(b)
-
-
 
     fig.no_figure()
     fig.conclude()

@@ -17,8 +17,8 @@ def FDOooRCCWGn():
             pet=petit(i,j)
             pspict.DrawGraphs(pet)
     pet=petit(0,h-1)
-    pet.parameters.filled()
-    pet.parameters.fill.color='lightgray'
+    pet.filled()
+    pet.fill_parameters.color='lightgray'
     pspict.DrawGraphs(pet)
 
     s1=Segment( Point(0,h),Point(l,h) )

@@ -35,8 +35,8 @@ def SZYooRuSplc():
     gris2=Polygon(P,Q,C,R)
 
     for gr in [gris1,gris2]:
-        gr.parameters.filled()
-        gr.parameters.fill.color="lightgray"
+        gr.filled()
+        gr.fill_parameters.color="lightgray"
 
     pspict.DrawGraphs(rectangle,gris1,gris2,A,B,C,D,M,N,P,Q,R)
     fig.no_figure()

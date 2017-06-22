@@ -18,8 +18,8 @@ def SurfaceCubeXlLEEy():
     K.put_mark(0.2,45,"\( K\)",pspict=pspict)
 
     surface=Polygon(I,J,K)
-    surface.parameters.filled()
-    surface.parameters.fill.color="green"
+    surface.filled()
+    surface.fill_parameters.color="green"
 
     pspict.DrawGraphs(surface,I,J,K,cube)
 

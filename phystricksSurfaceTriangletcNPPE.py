@@ -25,8 +25,8 @@ def SurfaceTriangletcNPPE():
     Q.put_mark(0.2,135,"\( Q\)",pspict=pspict)
     M.put_mark(0.2,-45,"\( M\)",pspict=pspict)
     triangle=Polygon(A,M,Q)
-    triangle.parameters.filled()
-    triangle.parameters.fill.color="green"
+    triangle.filled()
+    triangle.fill_parameters.color="green"
 
     measureMQ=MeasureLength(MQ,0.2)
     measureMQ.put_mark(0.3,measureMQ.advised_mark_angle(pspict),"$h$",pspict=pspict)

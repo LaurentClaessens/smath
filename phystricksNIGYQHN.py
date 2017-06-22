@@ -26,8 +26,8 @@ def NIGYQHN():
     rectangle=Polygon(A,B,C,D)
     triangle=Polygon(A,B,M)
     poly=Polygon(A,M,C,D)
-    poly.parameters.filled()
-    poly.parameters.fill.color="lightgray"
+    poly.filled()
+    poly.fill_parameters.color="lightgray"
 
     pspict.DrawGraphs(A,B,C,D,rectangle,M,triangle,poly)
     fig.no_figure()

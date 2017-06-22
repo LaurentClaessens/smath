@@ -11,15 +11,15 @@ def LXQooZPbZml():
     petit2=Rectangle( Point(1,2),Point(2,3) )
     petit3=Rectangle( Point(0,3),Point(1,4) )
 
-    petit1.parameters.filled()
-    petit1.parameters.fill.color="lightgray"
-    petit2.parameters.filled()
-    petit2.parameters.fill.color="lightgray"
-    petit3.parameters.filled()
-    petit3.parameters.fill.color="lightgray"
+    petit1.filled()
+    petit1.fill_parameters.color="lightgray"
+    petit2.filled()
+    petit2.fill_parameters.color="lightgray"
+    petit3.filled()
+    petit3.fill_parameters.color="lightgray"
 
-    moyen.parameters.hatched()
-    petit3.parameters.hatch.color="lightgray"
+    moyen.hatched()
+    moyen.hatch_parameters.color="lightgray"
 
     pspict.DrawGraphs(grand,moyen,petit1,petit2,petit3)
     fig.no_figure()

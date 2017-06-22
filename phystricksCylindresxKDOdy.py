@@ -37,8 +37,8 @@ def CylindresxKDOdy():
     Ib=min(  Cb.curve2d.points_list,key=lambda P:P.x  )
     Jb=max(  Cb.curve2d.points_list,key=lambda P:P.x  )
     surfV=Polygon(Ih,Ib,Jb,Jh)
-    surfV.parameters.filled()
-    surfV.parameters.fill.color="brown"
+    surfV.filled()
+    surfV.fill_parameters.color="brown"
 
     measureH=MeasureLength(cube.segc1[2],-0.2)
     measureH.put_mark(0.2,None,"\SI{5}{\centi\meter}",pspict=pspicts[0])

@@ -20,20 +20,20 @@ def SurfacesCubesclGZD():
     cube.put_vertex_mark(pspicts[0])
 
     surface1=Polygon(cube.E,cube.F,cube.C,cube.D)
-    surface1.parameters.filled()
-    surface1.parameters.fill.color="brown"
+    surface1.filled()
+    surface1.fill_parameters.color="brown"
 
     surface2=Polygon(cube.A,cube.H,cube.E)
-    surface2.parameters.filled()
-    surface2.parameters.fill.color="red"
+    surface2.filled()
+    surface2.fill_parameters.color="red"
 
     surface3=Polygon(cube.A,cube.H,cube.F)
-    surface3.parameters.filled()
-    surface3.parameters.fill.color="green"
+    surface3.filled()
+    surface3.fill_parameters.color="green"
 
     surface4=Polygon(cube.A,cube.F,cube.D)
-    surface4.parameters.filled()
-    surface4.parameters.fill.color="yellow"
+    surface4.filled()
+    surface4.fill_parameters.color="yellow"
 
     I=Segment(cube.D,cube.H).midpoint()
     J=Segment(cube.C,cube.G).midpoint()
@@ -41,12 +41,12 @@ def SurfacesCubesclGZD():
     J.put_mark(0.3,0,"\( J\)",pspict=pspicts[0])
 
     surface5=Polygon(I,J,cube.B,cube.A)
-    surface5.parameters.filled()
-    surface5.parameters.fill.color="cyan"
+    surface5.filled()
+    surface5.fill_parameters.color="cyan"
 
     surface6=Polygon(cube.E,cube.B,cube.C,cube.H)
-    surface6.parameters.filled()
-    surface6.parameters.fill.color="lightgray"
+    surface6.filled()
+    surface6.fill_parameters.color="lightgray"
 
     pspicts[0].DrawGraphs(surface1,cube)
     pspicts[1].DrawGraphs(surface2,cube)

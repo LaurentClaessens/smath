@@ -22,7 +22,7 @@ def figureERITfSy():
 
     plage=Segment(A,D).dilatation(1.5)
     ligne=Polygon(A,B,C,D)
-    ligne.edge_model.parameters.color="red"
+    ligne.edges_parameters.color="red"
 
     plage.parameters.color="blue"
 

@@ -29,8 +29,8 @@ def TOIooUindpy():
         P.parameters.symbol=""
 
     polygon=Polygon(A,N,C,M)
-    polygon.parameters.filled()
-    polygon.parameters.fill.color="lightgray"
+    polygon.filled()
+    polygon.hatch_parameterscolor="lightgray"
 
     pspict.DrawGraphs(carre,polygon,A,B,C,D,N,M)
     fig.no_figure()

@@ -19,8 +19,8 @@ def TJPGooLVSxKK():
     rects.append( rect(1/2,1) )
 
     for i in [0,1,2]:
-        rects[i].parameters.hatched()
-        rects[i].parameters.hatch.color='lightgray'
+        rects[i].hatched()
+        rects[i].hatch_parameters.color='lightgray'
 
     pspict.DrawGraphs(rects)
     fig.no_figure()

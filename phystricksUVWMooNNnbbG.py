@@ -19,19 +19,13 @@ def UVWMooNNnbbG():
     pol1=Polygon(A,B,C,D,E,F,G,H)
     pol2=Polygon(  [x+(F-A)+(2,0) for x in    [A,B,Cp,Dp,E,F,G,H]    ] )
 
-    pol1.parameters.color='blue'
-    pol1.edge_model.parameters.linewidth=2
-    pol2.parameters.color='red'
-    pol2.edge_model.parameters.linewidth=1.5
-
-    #k1=Segment(A,G)
-    #k1.parameters.linewidth=0.5
-    #k2=Segment(G,H)
-    #k2.parameters.linewidth=1
+    pol1.edges_parameters.color='blue'
+    pol1.edges_parameters.linewidth=2
+    pol2.edges_parameters.color='red'
+    pol2.edges_parameters.linewidth=1.5
 
     pspict.DrawGraphs(pol1,pol2)
     pspict.DrawDefaultGrid()
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

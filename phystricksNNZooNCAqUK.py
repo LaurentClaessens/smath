@@ -11,15 +11,14 @@ def NNZooNCAqUK():
             pspict.DrawGraphs(petitAKL(i,j))
     for j in range(0,3):
         pet=petitAKL(0,j)
-        pet.parameters.hatched()
-        pet.parameters.hatch.color='gray'
+        pet.hatched()
+        pet.hatch_parameters.color='gray'
         pspict.DrawGraphs(pet)
     for j in range(0,2):
         pet=petitAKL(1,j)
-        pet.parameters.filled()
-        pet.parameters.fill.color='lightgray'
+        pet.filled()
+        pet.fill_parameters.color='lightgray'
         pspict.DrawGraphs(pet)
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

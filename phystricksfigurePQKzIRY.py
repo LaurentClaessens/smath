@@ -12,7 +12,7 @@ def figurePQKzIRY():
     r6=Rectangle(xmin=2,ymin=0,xmax=4,ymax=2)
     r7=Rectangle(xmin=4,ymin=0,xmax=6,ymax=2)
 
-    r1.parameters.hatched()
+    r1.hatched()
 
     pspict.DrawGraphs(r1,r2,r3,r4,r5,r6,r7)
     fig.no_figure()

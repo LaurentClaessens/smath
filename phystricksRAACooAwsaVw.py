@@ -17,10 +17,10 @@ def RAACooAwsaVw():
     triangle2=Polygon(O,Ap,Bp)
     triangle2.put_mark(0.2,text_list=["","\( A'\)","\( B'\)"],pspict=pspict)
 
-    triangle1.parameters.filled()
-    triangle1.parameters.fill.color="lightgray"
-    triangle2.parameters.filled()
-    triangle2.parameters.fill.color="lightgray"
+    triangle1.filled()
+    triangle1.fill_parameters.color="lightgray"
+    triangle2.filled()
+    triangle2.fill_parameters.color="lightgray"
 
     AAp=Segment(A,Ap)
     AAp.divide_in_two(n=1,d=0.1,l=0.3,pspict=pspict)

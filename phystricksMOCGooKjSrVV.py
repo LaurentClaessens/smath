@@ -7,8 +7,8 @@ def sierp_step(trig):
     P3=trig.edges[2].midpoint()
     trigs=[ Polygon(P1,trig.vertices[1],P2),Polygon(P2,P3,trig.vertices[2]),Polygon(P1,P3,trig.vertices[0])  ]
     for tr in trigs:
-        tr.parameters.filled()
-        tr.parameters.fill.color="lightgray"
+        tr.filled()
+        tr.fill_parameters.color="lightgray"
     return trigs
 
 moive_siepr={}
@@ -40,8 +40,8 @@ def MOCGooKjSrVV():
     B=Point(l,0)
     C=Circle(A,l).get_point(60)
     initial_trig=Polygon( A,B,C    )
-    initial_trig.parameters.filled()
-    initial_trig.parameters.fill.color="lightgray"
+    initial_trig.filled()
+    initial_trig.fill_parameters.color="lightgray"
     sierp=[ Sierpinski(initial_trig,k) for k in range(0,n+1)  ]
 
     for i in range(0,n):

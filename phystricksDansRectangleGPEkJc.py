@@ -20,7 +20,7 @@ def DansRectangleGPEkJc():
     I.put_mark(0.2,90,"\( I\)",pspict=pspict)
     J.put_mark(0.2,-90,"\( J\)",pspict=pspict)
     rect=Polygon(A,B,C,D)
-    rect.parameters.filled()
+    rect.filled()
     s=Segment(B,J)
     t=Segment(J,I)
     t.parameters.style="dashed"
@@ -34,4 +34,3 @@ def DansRectangleGPEkJc():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

@@ -10,8 +10,8 @@ def CubeLigneTriangleHFMrVU():
     cube.put_vertex_mark(pspict)
 
     surface=Polygon(cube.D,cube.B,cube.F)
-    surface.parameters.filled()
-    surface.parameters.fill.color="green"
+    surface.filled()
+    surface.fill_parameters.color="green"
 
     pspict.DrawGraphs(surface,cube)
 

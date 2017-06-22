@@ -7,15 +7,15 @@ def small_box(n,pc,pspict):
     x0=n*1.1
     rect=Rectangle( Point(x0,1),Point(  x0+1,0 ) )
     if n< floor(pc/10) :
-        rect.parameters.filled()
-        rect.parameters.fill.color="lightgray"
+        rect.filled()
+        rect.fill_parameters.color="lightgray"
     pspict.DrawGraphs(rect)
     if n==floor(pc/10):
         reste=(pc-10*n)/10
         x1=x0+reste
         part=Rectangle(  Point(x0,1),Point(x1,0) )
-        part.parameters.filled()
-        part.parameters.fill.color="lightgray"
+        part.filled()
+        part.fill_parameters.color="lightgray"
         pspict.DrawGraphs(part)
 
 def GVGooXlzMMh():

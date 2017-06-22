@@ -17,8 +17,8 @@ def OBLUooWYQnuB():
     P.put_mark(0.1,45,"\( P\)",pspict=pspict,position="corner")
 
     triangle=Polygon(A,P,D)
-    triangle.parameters.filled()
-    triangle.parameters.fill.color='lightgray'
+    triangle.filled()
+    triangle.fill_parameters.color='lightgray'
 
     mesx=Segment(P,B).get_measure(0.2,0.1,text="\( \ell\)",pspict=pspict,position="N")
     mesAP=Segment(A,P).get_measure(0.2,0.1,text="\(\\vphantom{H} \ldots\)",pspict=pspict,position="N")
@@ -31,4 +31,3 @@ def OBLUooWYQnuB():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

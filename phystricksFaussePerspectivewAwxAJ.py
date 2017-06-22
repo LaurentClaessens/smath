@@ -17,7 +17,7 @@ def FaussePerspectivewAwxAJ():
     D.put_mark(0.2,225,"\( D\)",pspict=pspict)
 
     carre=Polygon(A,B,C,D)
-    carre.parameters.filled()
+    carre.filled()
     K=Segment(A,B).midpoint()
     L=Segment(D,C).midpoint()
     J=perspective.point(c+1,0,c)

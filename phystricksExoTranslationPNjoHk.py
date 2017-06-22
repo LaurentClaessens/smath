@@ -20,8 +20,8 @@ def ExoTranslationPNjoHk():
     d2=Segment(A,C)
 
     color="blue"
-    Car.edge_model.parameters.color=color
-    Toit.edge_model.parameters.color=color
+    Car.edges_parameters.color=color
+    Toit.edges_parameters.color=color
     d1.parameters.color="blue"
     d2.parameters.color="blue"
 

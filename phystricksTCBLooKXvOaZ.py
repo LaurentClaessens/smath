@@ -5,8 +5,8 @@ def petit(x,y,color="lightgray",filled=True):
     color="lightgray"
     rect=Rectangle(  Point(x,y),Point(x+1,y+1) )
     if filled :
-        rect.parameters.filled()
-        rect.parameters.fill.color=color
+        rect.filled()
+        rect.fill_parameters.color=color
     return rect
 
 def contour(n,pspict):

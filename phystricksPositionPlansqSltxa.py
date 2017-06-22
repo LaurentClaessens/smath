@@ -14,16 +14,16 @@ def PositionPlansqSltxa():
     BG=Segment(cube.B,cube.G).dilatationI(dilatation)
     plan1=Polygon(AH.I,AH.F,BG.F,BG.I)
     plan1.no_edges()
-    plan1.parameters.filled()
-    plan1.parameters.fill.color="red"
+    plan1.filled()
+    plan1.fill_parameters.color="red"
 
     dilatation=0.4
     DH=Segment(cube.D,cube.H).dilatationI(dilatation)
     CG=Segment(cube.C,cube.G).dilatationI(dilatation)
     plan2=Polygon(DH.I,DH.F,CG.F,CG.I)
     plan2.no_edges()
-    plan2.parameters.filled()
-    plan2.parameters.fill.color="brown"
+    plan2.filled()
+    plan2.fill_parameters.color="brown"
 
     HG=Segment(cube.H,cube.G).dilatation(1.5)
     HG.parameters.color="red"

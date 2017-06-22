@@ -35,14 +35,9 @@ def JYAKooXjBUpt():
     M2=B+L2-A
     face3=Polygon(A,B,M2,L2)
 
-    print(u"Les trois nombres suivants doivent être ",h)
-    print( numerical_approx( Segment(C,K1).length  ))
-    print(  numerical_approx(Segment(C,K2).length  ))
-    print(  numerical_approx(Segment(B,M2).length  ))
-
-    face1.parameters.color='red'
-    face2.parameters.color='blue'
-    face3.parameters.color='green'
+    face1.edges_parameters.color='red'
+    face2.edges_parameters.color='blue'
+    face3.edges_parameters.color='green'
 
     arc1=Circle( K2,l3 )
     arc2=Circle( M1,l1 )

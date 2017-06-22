@@ -8,11 +8,11 @@ def petit(x,y,color=0):
     if color==0:
         return rect
     if color==1:
-        rect.parameters.filled()
-        rect.parameters.fill.color="lightgray"
+        rect.filled()
+        rect.fill_parameters.color="lightgray"
         return rect
-    rect.parameters.hatched()
-    rect.parameters.hatch.color="lightgray"
+    rect.hatched()
+    rect.hatch_parameters.color="lightgray"
     return rect
 
 def CMUTooFyLisx():
@@ -36,8 +36,6 @@ def CMUTooFyLisx():
         p4= petit(L-1-i,5,color=2)  
         pspict.DrawGraphs(p1,p2,p3,p4)
 
-
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

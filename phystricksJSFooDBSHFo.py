@@ -31,8 +31,8 @@ def JSFooDBSHFo():
     gris2=Polygon(D,C,N)
 
     for gr in [gris1,gris2]:
-        gr.parameters.filled()
-        gr.parameters.fill.color="lightgray"
+        gr.filled()
+        gr.fill_parameters.color="lightgray"
 
     pspict.DrawGraphs(rectangle,gris1,gris2,A,B,C,D,P,M,N)
     fig.no_figure()

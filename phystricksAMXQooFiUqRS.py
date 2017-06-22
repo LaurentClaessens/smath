@@ -12,8 +12,8 @@ def AMXQooFiUqRS():
     trap=Polygon(A,B,C,D)
     trap.put_mark(0.2,pspict=pspict)
 
-    trap.parameters.hatched()
-    trap.parameters.hatch.color="lightgray"
+    trap.hatched()
+    trap.hatch_parameters.color="lightgray"
 
     no_symbol(trap.vertices)
     pspict.DrawGraphs(trap)

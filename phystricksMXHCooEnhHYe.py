@@ -18,14 +18,14 @@ def MXHCooEnhHYe():
     r3=rect(2/3,1)
 
     for re in [r1,r2]:
-        re.parameters.filled()
-        re.parameters.fill.color="lightgray"
+        re.filled()
+        re.fill_parameters.color="lightgray"
 
     pspicts[0].DrawGraphs(r1,r2,r3)
 
     t=[   rect(  i/6,(i+1)/6  ) for i in range(0,6)    ]
-    t[0].parameters.filled()
-    t[0].parameters.fill.color="lightgray"
+    t[0].filled()
+    t[0].fill_parameters.color="lightgray"
     pspicts[1].DrawGraphs(t)
 
     for fig in figs:

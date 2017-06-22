@@ -55,8 +55,8 @@ def makeIPA(pspict,num):
     trig1=Polygon(A,B,C1)
     trig2=Polygon(A,B,C2)
 
-    trig1.edge_model.parameters.style="dashed"
-    trig2.edge_model.parameters.style="dashed"
+    trig1.edges_parameters.style="dashed"
+    trig2.edges_parameters.style="dashed"
 
     m1=Segment(A,C2).midpoint()
     m1.parameters.symbol=""
@@ -93,4 +93,3 @@ def VJZooKxwzhE():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-

@@ -10,9 +10,9 @@ def figureXQZwoWu():
     cube.put_vertex_mark(pspict)
 
     trig=Polygon(cube.A,cube.F,cube.C)
-    trig.parameters.filled()
-    trig.parameters.fill.color="green"
-    trig.edge_model.parameters.color="cyan"
+    trig.filled()
+    trig.fill_parameters.color="green"
+    trig.edges_parameters.color="cyan"
 
     I=Segment(cube.A,cube.F).midpoint()
     h=Segment(I,cube.C)

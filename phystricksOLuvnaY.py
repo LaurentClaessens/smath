@@ -19,8 +19,8 @@ def OLuvnaY():
 
     pt_carre=Polygon(N,P,M,C)
     gris=Polygon(N,P,M,A)
-    gris.parameters.filled()
-    gris.parameters.fill.color="lightgray"
+    gris.filled()
+    gris.fill_parameters.color="lightgray"
 
     A.put_mark(0.2,180+45,"\( A\)",pspict=pspict,position="corner")
     B.put_mark(0.2,-45,"\( B\)",pspict=pspict,position="corner")

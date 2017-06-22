@@ -25,8 +25,8 @@ def KTEDooQRUWXz():
     mediane.divide_in_two(n=1,d=0.1,l=0.4,angle=45,pspict=pspict)
 
     trgris=Polygon(S,W,U)
-    trgris.parameters.filled()
-    trgris.parameters.fill.color="lightgray"
+    trgris.filled()
+    trgris.fill_parameters.color="lightgray"
 
     L=Point(U.x,T.y)
     s1=Segment(T,L)

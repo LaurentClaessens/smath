@@ -25,7 +25,7 @@ def CorSSTXPQVjn():
     measureBC.put_mark(0.3,-90,"\( x\)",pspict=pspict)
 
     triangle=Polygon(A,B,C)
-    triangle.parameters.filled()
+    triangle.filled()
 
     pspict.DrawGraphs(triangle,hauteur,A,B,C,H,measureBC)
     fig.conclude()

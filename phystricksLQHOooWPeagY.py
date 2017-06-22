@@ -37,8 +37,8 @@ def LQHOooWPeagY():
     rh=RightAngleAOB(U,H,S)
 
     gris=Polygon(S,K,T,U)
-    gris.parameters.filled()
-    gris.parameters.fill.color="lightgray"
+    gris.filled()
+    gris.fill_parameters.color="lightgray"
 
     pspict.comment="le 4cm est bien placé à côté de HS et le triangle est penché de 15 degrés."
     no_symbol(trig.vertices,H)

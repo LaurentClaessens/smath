@@ -11,18 +11,18 @@ def SESooBTZQPF():
             pspict.DrawGraphs(petitAKL(i,j))
     for i in range(0,4):
         pet=petitAKL(i,0)
-        pet.parameters.hatched()
-        pet.parameters.hatch.color='gray'
+        pet.hatched()
+        pet.hatch_parameters.color='gray'
         pspict.DrawGraphs(pet)
     for i in range(0,4):
         pet=petitAKL(i,1)
-        pet.parameters.filled()
-        pet.parameters.fill.color='lightgray'
+        pet.filled()
+        pet.fill_parameters.color='lightgray'
         pspict.DrawGraphs(pet)
     for i in range(0,3):
         pet=petitAKL(i,2)
-        pet.parameters.filled()
-        pet.parameters.fill.color='lightgray'
+        pet.filled()
+        pet.fill_parameters.color='lightgray'
         pspict.DrawGraphs(pet)
     fig.no_figure()
     fig.conclude()

@@ -24,8 +24,8 @@ def figureASkECWS():
 
     plan1=plan(cube.A,cube.B,cube.E,cube.F,dilatation)
     plan1.no_edges()
-    plan1.parameters.filled()
-    plan1.parameters.fill.color="brown"
+    plan1.filled()
+    plan1.fill_parameters.color="brown"
 
     seg=Segment(cube.H,cube.C).dilatation(1.5)
     seg.parameters.color="red"

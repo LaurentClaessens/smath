@@ -12,12 +12,12 @@ def CEZooPzIzzi():
     for j in range(1,3):
         for i in range(0,5):
             pet=petitAKL(i,j)
-            pet.parameters.hatched()
-            pet.parameters.hatch.color='gray'
+            pet.hatched()
+            pet.hatch_parameters.color='gray'
             pspict.DrawGraphs(pet)
     pet=petitAKL(0,0)
-    pet.parameters.filled()
-    pet.parameters.fill.color='lightgray'
+    pet.filled()
+    pet.fill_parameterscolor='lightgray'
     pspict.DrawGraphs(pet)
     fig.no_figure()
     fig.conclude()

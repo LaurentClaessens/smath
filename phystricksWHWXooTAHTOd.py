@@ -14,8 +14,8 @@ def WHWXooTAHTOd():
     O=rect.edges[2].midpoint()
     cer=CircleOA(O,C).graph(0,180)
 
-    rect.parameters.hatched()
-    rect.parameters.hatch.color="lightgray"
+    rect.hatched()
+    rect.hatch_parameters.color="lightgray"
     cer.parameters.hatched()
     cer.parameters.hatch.color="lightgray"
 

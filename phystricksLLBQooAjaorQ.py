@@ -28,11 +28,11 @@ def LLBQooAjaorQ():
     EK.parameters.style='dashed'
 
     bleu=Polygon(A,E,D)
-    bleu.parameters.filled()
-    bleu.parameters.fill.color="lightgray"
+    bleu.filled()
+    bleu.fill_parameters.color="lightgray"
     rouge=Polygon(E,F,C,D)
-    rouge.parameters.hatched()
-    rouge.parameters.hatch.color="lightgray"
+    rouge.hatched()
+    rouge.hatch_parameters.color="lightgray"
 
     drapeau=Polygon(A,B,C,D)
     drapeau.put_mark(0.2,pspicts=pspicts)

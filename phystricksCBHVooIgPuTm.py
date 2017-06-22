@@ -13,8 +13,8 @@ def CBHVooIgPuTm():
 
     rect=Polygon(A,B,C,D)
     rect.put_mark(0.2,pspict=pspict)
-    rect.parameters.filled()
-    rect.parameters.fill.color="lightgray"
+    rect.filled()
+    rect.fill_parameters.color="lightgray"
 
     H=rect.edges[2].midpoint()
     cer=CircleOA(  H,rect.edges[0].midpoint() ).graph(0,180)

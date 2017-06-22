@@ -42,8 +42,8 @@ def YDAooMNHhCN():
     P=D+(0,b)
 
     carre=Polygon(M,N,O,P)
-    carre.parameters.filled()
-    carre.parameters.fill.color="lightgray"
+    carre.filled()
+    carre.fill_parameters.color="lightgray"
 
     A.put_mark(0.2,90+45,"\( A\)",pspicts=pspicts,position="corner")
     B.put_mark(0.2,45,"\( B\)",pspicts=pspicts,position="corner")
@@ -111,10 +111,10 @@ def YDAooMNHhCN():
 
     car_moyen=Polygon(A,R,K,P)
     car_petit=Polygon(R,B,N,L)
-    car_petit.parameters.filled()
-    car_petit.parameters.fill.color="lightgray"
-    car_moyen.parameters.filled()
-    car_moyen.parameters.fill.color="lightgray"
+    car_petit.filled()
+    car_petit.fill_parameters.color="lightgray"
+    car_moyen.filled()
+    car_moyen.fill_parameters.color="lightgray"
     pspicts[1].DrawGraphs(car_petit,car_moyen,N,com1,com2,com3,com4,com5,R,K,L,cen2)
 
     for fig in figs:

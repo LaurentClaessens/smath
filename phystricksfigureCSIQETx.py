@@ -16,8 +16,8 @@ def figureCSIQETx():
 
     plan1=plan(cube.A,cube.B,cube.E,cube.F,dilatation)
     plan1.no_edges()
-    plan1.parameters.filled()
-    plan1.parameters.fill.color="brown"
+    plan1.filled()
+    plan1.fill_parameters.color="brown"
 
     seg=Segment(cube.E,cube.B).dilatation(1.5)
     seg.parameters.color="red"
@@ -26,5 +26,3 @@ def figureCSIQETx():
     fig.no_figure()
     fig.conclude()
     fig.write_the_file()
-
-

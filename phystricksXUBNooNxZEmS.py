@@ -16,8 +16,8 @@ def XUBNooNxZEmS():
 
     jardin=Polygon(A,B,E,F)
     piscine=Polygon(B,C,D,E)
-    piscine.parameters.hatched()
-    piscine.parameters.hatch.color="lightgray"
+    piscine.hatched()
+    piscine.hatch_parameters.color="lightgray"
 
     mesL=Segment(F,D).get_measure(-0.2,0.1,text="\( 10\)",pspict=pspict,position="S")
     mesl=Segment(A,B).get_measure(0.2,0.1,text="\( 6\)",pspict=pspict,position="N")

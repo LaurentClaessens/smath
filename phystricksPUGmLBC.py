@@ -13,8 +13,8 @@ def PUGmLBC():
     b2=Polygon(  Point(500,0),Point(600,0),Point(600,2),Point(500,2)  )
 
     for k in [b1,b2]:
-        k.parameters.hatched()
-        k.parameters.hatch.color="red"
+        k.hatched()
+        k.hatch_parameters.color="red"
 
     pspict.axes.single_axeX.put_mark(0.2,text="CA",pspict=pspict,position="N")
     pspict.axes.single_axeX.Dx=100

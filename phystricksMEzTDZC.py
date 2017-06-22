@@ -10,13 +10,12 @@ def MEzTDZC():
     cube.put_vertex_mark(pspict)
 
     triangle=Polygon(cube.A,cube.E,cube.F)
-    triangle.parameters.filled()
-    triangle.parameters.fill.color="lightgray"
+    triangle.filled()
+    triangle.fill_parameters.color="lightgray"
 
     parall=Polygon(cube.A,cube.B,cube.G,cube.H)
-    parall.parameters.filled()
-    parall.parameters.fill.color="lightgray"
-
+    parall.filled()
+    parall.fill_parameters.color="lightgray"
 
     pspict.DrawGraphs(triangle,parall,cube)
     fig.no_figure()

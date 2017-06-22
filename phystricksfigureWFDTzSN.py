@@ -27,7 +27,7 @@ def figureWFDTzSN():
     hauteur.put_mark(0.4,hauteur.advised_mark_angle(pspict),"\( 112\)",pspict=pspict)
 
     rect=Polygon(A,B,C,D)
-    rect.edge_model.parameters.color="blue"
+    rect.edges_parameters.color="blue"
 
     pspict.DrawGraphs(cer,rect,A,B,C,D,O,hauteur)
     fig.no_figure()

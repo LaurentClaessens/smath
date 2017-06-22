@@ -9,8 +9,8 @@ def segment_to_carre(seg,color,reverse=False):
         s1=s1.rotation(180)
         s2=s2.rotation(180)
     poly = Polygon(seg.I,seg.F,s2.F,s1.F)
-    poly.parameters.hatched()
-    poly.parameters.hatch.color=color
+    poly.hatched()
+    poly.hatch_parameters.color=color
     return poly
 
 def SAZooPjiyOV():
@@ -28,9 +28,9 @@ def SAZooPjiyOV():
     c2=segment_to_carre(Segment(A,C),color="blue")
     c3=segment_to_carre(Segment(B,C),color="cyan",reverse=True)
 
-    c1.parameters.color="red"
-    c2.parameters.color="blue"
-    c3.parameters.color="cyan"
+    c1.edges_parameters.color="red"
+    c2.edges_parameters.color="blue"
+    c3.edges_parameters.color="cyan"
 
     pspict.DrawGraphs(c1,c2,c3,triangle)
     fig.no_figure()
