@@ -58,8 +58,8 @@ def parallelog(A,B,C,points_names="ABCD",fig=None,pspict=None):
 def petit(x,y,color="lightgray"):
     color="lightgray"
     rect=Rectangle(  Point(x,y),Point(x+1,y+1) )
-    rect.parameters.filled()
-    rect.parameters.fill.color=color
+    rect.filled()
+    rect.fill_parameters.color=color
     return rect
 
 def contour(n,pspict):

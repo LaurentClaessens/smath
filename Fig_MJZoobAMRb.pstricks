@@ -71,31 +71,31 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-3.00,1.00) -- (-3.00,3.00);
-\draw [color=gray,style=solid] (-2.00,1.00) -- (-2.00,3.00);
-\draw [color=gray,style=solid] (-1.00,1.00) -- (-1.00,3.00);
-\draw [color=gray,style=solid] (0,1.00) -- (0,3.00);
-\draw [color=gray,style=solid] (1.00,1.00) -- (1.00,3.00);
-\draw [color=gray,style=solid] (2.00,1.00) -- (2.00,3.00);
-\draw [color=gray,style=solid] (3.00,1.00) -- (3.00,3.00);
-\draw [color=gray,style=dotted] (-2.50,1.00) -- (-2.50,3.00);
-\draw [color=gray,style=dotted] (-1.50,1.00) -- (-1.50,3.00);
-\draw [color=gray,style=dotted] (-0.500,1.00) -- (-0.500,3.00);
-\draw [color=gray,style=dotted] (0.500,1.00) -- (0.500,3.00);
-\draw [color=gray,style=dotted] (1.50,1.00) -- (1.50,3.00);
-\draw [color=gray,style=dotted] (2.50,1.00) -- (2.50,3.00);
-\draw [color=gray,style=dotted] (-3.00,1.50) -- (3.00,1.50);
-\draw [color=gray,style=dotted] (-3.00,2.50) -- (3.00,2.50);
-\draw [color=gray,style=solid] (-3.00,1.00) -- (3.00,1.00);
-\draw [color=gray,style=solid] (-3.00,2.00) -- (3.00,2.00);
-\draw [color=gray,style=solid] (-3.00,3.00) -- (3.00,3.00);
+\draw [color=gray,style=solid] (-3.0000,1.0000) -- (-3.0000,3.0000);
+\draw [color=gray,style=solid] (-2.0000,1.0000) -- (-2.0000,3.0000);
+\draw [color=gray,style=solid] (-1.0000,1.0000) -- (-1.0000,3.0000);
+\draw [color=gray,style=solid] (0.0000,1.0000) -- (0.0000,3.0000);
+\draw [color=gray,style=solid] (1.0000,1.0000) -- (1.0000,3.0000);
+\draw [color=gray,style=solid] (2.0000,1.0000) -- (2.0000,3.0000);
+\draw [color=gray,style=solid] (3.0000,1.0000) -- (3.0000,3.0000);
+\draw [color=gray,style=dotted] (-2.5000,1.0000) -- (-2.5000,3.0000);
+\draw [color=gray,style=dotted] (-1.5000,1.0000) -- (-1.5000,3.0000);
+\draw [color=gray,style=dotted] (-0.5000,1.0000) -- (-0.5000,3.0000);
+\draw [color=gray,style=dotted] (0.5000,1.0000) -- (0.5000,3.0000);
+\draw [color=gray,style=dotted] (1.5000,1.0000) -- (1.5000,3.0000);
+\draw [color=gray,style=dotted] (2.5000,1.0000) -- (2.5000,3.0000);
+\draw [color=gray,style=dotted] (-3.0000,1.5000) -- (3.0000,1.5000);
+\draw [color=gray,style=dotted] (-3.0000,2.5000) -- (3.0000,2.5000);
+\draw [color=gray,style=solid] (-3.0000,1.0000) -- (3.0000,1.0000);
+\draw [color=gray,style=solid] (-3.0000,2.0000) -- (3.0000,2.0000);
+\draw [color=gray,style=solid] (-3.0000,3.0000) -- (3.0000,3.0000);
 %DEFAULT
-\draw []  (1.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw (1.266421690,0.7446901438) node {\( A\)};
-\draw []  (-3.000000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw (-3.276201356,3.255309856) node {\( B\)};
-\draw []  (3.000000000,1.000000000) node [rotate=0] {$\bullet$};
-\draw (3.272462856,0.7446901438) node {\( C\)};
+\draw []  (1.0000,1.0000) node [rotate=0] {$\bullet$};
+\draw (1.2664,0.7446) node {\( A\)};
+\draw []  (-3.0000,3.0000) node [rotate=0] {$\bullet$};
+\draw (-3.2762,3.2553) node {\( B\)};
+\draw []  (3.0000,1.0000) node [rotate=0] {$\bullet$};
+\draw (3.2724,0.7446) node {\( C\)};
 
 %AXES
 %OTHER STUFF

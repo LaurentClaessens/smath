@@ -78,15 +78,15 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=blue,->,>=latex] (0,0) -- (3.000000000,2.000000000);
-\draw [color=red,->,>=latex] (0,0) -- (3.000000000,0);
-\draw (1.500000000,-0.3219210000) node {\( x_B-x_A\)};
-\draw [color=red,->,>=latex] (3.000000000,0) -- (3.000000000,2.000000000);
-\draw (3.790379333,1.000000000) node {\( y_B-y_A\)};
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.3250003333,0) node {\( A\)};
-\draw []  (3.000000000,2.000000000) node [rotate=0] {$\times$};
-\draw (3.276201356,2.255309856) node {\( B\)};
+\draw [color=blue,->,>=latex] (0.0000,0.0000) -- (3.0000,2.0000);
+\draw [color=red,->,>=latex] (0.0000,0.0000) -- (3.0000,0.0000);
+\draw (1.5000,-0.3219) node {\( x_B-x_A\)};
+\draw [color=red,->,>=latex] (3.0000,0.0000) -- (3.0000,2.0000);
+\draw (3.7903,1.0000) node {\( y_B-y_A\)};
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-0.3250,0.0000) node {\( A\)};
+\draw []  (3.0000,2.0000) node [rotate=0] {$\times$};
+\draw (3.2762,2.2553) node {\( B\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

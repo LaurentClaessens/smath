@@ -67,47 +67,47 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (0,0.700) -- (0,3.50);
-\draw [color=gray,style=solid] (0.700,0.700) -- (0.700,3.50);
-\draw [color=gray,style=solid] (1.40,0.700) -- (1.40,3.50);
-\draw [color=gray,style=solid] (2.10,0.700) -- (2.10,3.50);
-\draw [color=gray,style=dotted] (0.350,0.700) -- (0.350,3.50);
-\draw [color=gray,style=dotted] (1.05,0.700) -- (1.05,3.50);
-\draw [color=gray,style=dotted] (1.75,0.700) -- (1.75,3.50);
-\draw [color=gray,style=dotted] (0,1.05) -- (2.10,1.05);
-\draw [color=gray,style=dotted] (0,1.75) -- (2.10,1.75);
-\draw [color=gray,style=dotted] (0,2.45) -- (2.10,2.45);
-\draw [color=gray,style=dotted] (0,3.15) -- (2.10,3.15);
-\draw [color=gray,style=solid] (0,0.700) -- (2.10,0.700);
-\draw [color=gray,style=solid] (0,1.40) -- (2.10,1.40);
-\draw [color=gray,style=solid] (0,2.10) -- (2.10,2.10);
-\draw [color=gray,style=solid] (0,2.80) -- (2.10,2.80);
-\draw [color=gray,style=solid] (0,3.50) -- (2.10,3.50);
+\draw [color=gray,style=solid] (0.0000,0.7000) -- (0.0000,3.5000);
+\draw [color=gray,style=solid] (0.7000,0.7000) -- (0.7000,3.5000);
+\draw [color=gray,style=solid] (1.4000,0.7000) -- (1.4000,3.5000);
+\draw [color=gray,style=solid] (2.1000,0.7000) -- (2.1000,3.5000);
+\draw [color=gray,style=dotted] (0.3500,0.7000) -- (0.3500,3.5000);
+\draw [color=gray,style=dotted] (1.0500,0.7000) -- (1.0500,3.5000);
+\draw [color=gray,style=dotted] (1.7500,0.7000) -- (1.7500,3.5000);
+\draw [color=gray,style=dotted] (0.0000,1.0500) -- (2.1000,1.0500);
+\draw [color=gray,style=dotted] (0.0000,1.7500) -- (2.1000,1.7500);
+\draw [color=gray,style=dotted] (0.0000,2.4500) -- (2.1000,2.4500);
+\draw [color=gray,style=dotted] (0.0000,3.1500) -- (2.1000,3.1500);
+\draw [color=gray,style=solid] (0.0000,0.7000) -- (2.1000,0.7000);
+\draw [color=gray,style=solid] (0.0000,1.4000) -- (2.1000,1.4000);
+\draw [color=gray,style=solid] (0.0000,2.1000) -- (2.1000,2.1000);
+\draw [color=gray,style=solid] (0.0000,2.8000) -- (2.1000,2.8000);
+\draw [color=gray,style=solid] (0.0000,3.5000) -- (2.1000,3.5000);
 %AXES
-\draw [,->,>=latex] (-0.5000000000,0) -- (2.600000000,0);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,4.000000000);
+\draw [,->,>=latex] (-0.5000,0.0000) -- (2.6000,0.0000);
+\draw [,->,>=latex] (0.0000,-0.5000) -- (0.0000,4.0000);
 %DEFAULT
-\draw [color=blue] (0.700,0.700) -- (2.10,0.700);
-\draw [color=blue] (2.10,0.700) -- (2.10,2.10);
-\draw [color=blue] (2.10,2.10) -- (0.700,2.10);
-\draw [color=blue] (0.700,2.10) -- (0.700,0.700);
-\draw [color=blue] (0.700,2.10) -- (2.10,2.10);
-\draw [color=blue] (2.10,2.10) -- (1.40,2.80);
-\draw [color=blue] (1.40,2.80) -- (0.700,2.10);
-\draw [color=blue] (0.700,2.10) -- (2.10,0.700);
-\draw [color=blue] (0.700,0.700) -- (2.10,2.10);
-\draw (0,1.786111500) node {\( A\)};
-\draw (0.9762013562,3.755309856) node {\( B\)};
-\draw [color=red,->,>=latex] (0,2.100000000) -- (0.7000000000,3.500000000);
+\draw [color=blue] (0.7000,0.7000) -- (2.1000,0.7000);
+\draw [color=blue] (2.1000,0.7000) -- (2.1000,2.1000);
+\draw [color=blue] (2.1000,2.1000) -- (0.7000,2.1000);
+\draw [color=blue] (0.7000,2.1000) -- (0.7000,0.7000);
+\draw [color=blue] (0.7000,2.1000) -- (2.1000,2.1000);
+\draw [color=blue] (2.1000,2.1000) -- (1.4000,2.8000);
+\draw [color=blue] (1.4000,2.8000) -- (0.7000,2.1000);
+\draw [color=blue] (0.7000,2.1000) -- (2.1000,0.7000);
+\draw [color=blue] (0.7000,0.7000) -- (2.1000,2.1000);
+\draw (0.0000,1.7861) node {\( A\)};
+\draw (0.9762,3.7553) node {\( B\)};
+\draw [color=red,->,>=latex] (0.0000,2.1000) -- (0.7000,3.5000);
 
-\draw [] (0.700,-0.100) -- (0.700,0.100);
-\draw [] (1.40,-0.100) -- (1.40,0.100);
-\draw [] (2.10,-0.100) -- (2.10,0.100);
-\draw [] (-0.100,0.700) -- (0.100,0.700);
-\draw [] (-0.100,1.40) -- (0.100,1.40);
-\draw [] (-0.100,2.10) -- (0.100,2.10);
-\draw [] (-0.100,2.80) -- (0.100,2.80);
-\draw [] (-0.100,3.50) -- (0.100,3.50);
+\draw [] (0.7000,-0.1000) -- (0.7000,0.1000);
+\draw [] (1.4000,-0.1000) -- (1.4000,0.1000);
+\draw [] (2.1000,-0.1000) -- (2.1000,0.1000);
+\draw [] (-0.1000,0.7000) -- (0.1000,0.7000);
+\draw [] (-0.1000,1.4000) -- (0.1000,1.4000);
+\draw [] (-0.1000,2.1000) -- (0.1000,2.1000);
+\draw [] (-0.1000,2.8000) -- (0.1000,2.8000);
+\draw [] (-0.1000,3.5000) -- (0.1000,3.5000);
 %OTHER STUFF
 %END PSPICTURE
 \end{tikzpicture}

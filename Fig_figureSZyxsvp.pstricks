@@ -80,22 +80,22 @@
 %GRID
 %PSTRICKS CODE
 %AXES
-\draw [,->,>=latex] (-0.5000000000,0) -- (4.500000000,0);
-\draw [,->,>=latex] (0,-0.5000000000) -- (0,3.500000000);
+\draw [,->,>=latex] (-0.5000,0.0000) -- (4.5000,0.0000);
+\draw [,->,>=latex] (0.0000,-0.5000) -- (0.0000,3.5000);
 %DEFAULT
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.2664216896,0.2553098562) node {\( A\)};
-\draw []  (4.000000000,3.000000000) node [rotate=0] {$\bullet$};
-\draw (4.276201356,3.255309856) node {\( B\)};
-\draw []  (2.000000000,1.500000000) node [rotate=0] {$\bullet$};
-\draw (1.705106477,1.755309856) node {\( K\)};
-\draw []  (2.000000000,0) node [rotate=0] {$\bullet$};
-\draw (2.000000000,-0.3138885000) node {\( I\)};
-\draw []  (4.000000000,0) node [rotate=0] {$\bullet$};
-\draw (4.000000000,-0.3138885000) node {\( J\)};
-\draw [style=dashed] (2.00,1.50) -- (2.00,0);
-\draw [style=dashed] (4.00,3.00) -- (4.00,0);
-\draw [] (0,0) -- (4.00,3.00);
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-0.2664,0.2553) node {\( A\)};
+\draw []  (4.0000,3.0000) node [rotate=0] {$\bullet$};
+\draw (4.2762,3.2553) node {\( B\)};
+\draw []  (2.0000,1.5000) node [rotate=0] {$\bullet$};
+\draw (1.7051,1.7553) node {\( K\)};
+\draw []  (2.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (2.0000,-0.3138) node {\( I\)};
+\draw []  (4.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (4.0000,-0.3138) node {\( J\)};
+\draw [style=dashed] (2.0000,1.5000) -- (2.0000,0.0000);
+\draw [style=dashed] (4.0000,3.0000) -- (4.0000,0.0000);
+\draw [] (0.0000,0.0000) -- (4.0000,3.0000);
 
 %OTHER STUFF
 %END PSPICTURE

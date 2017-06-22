@@ -90,26 +90,26 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=red] (0,0) -- (4.32,1.44);
-\draw [color=red] (4.80,0) -- (2.40,2.40);
-\draw [color=red] (3.60,3.60) -- (3.60,0);
-\draw [] (0,0) -- (4.80,0);
-\draw [] (4.80,0) -- (3.60,3.60);
-\draw [] (3.60,3.60) -- (0,0);
-\draw []  (4.320000000,1.440000000) node [rotate=0] {$\bullet$};
-\draw (4.606342333,1.440000000) node {\( I\)};
-\draw []  (2.400000000,2.400000000) node [rotate=0] {$\bullet$};
-\draw (2.150129644,2.655309856) node {\( J\)};
-\draw []  (3.600000000,0) node [rotate=0] {$\bullet$};
-\draw (3.600000000,-0.3138885000) node {\( K\)};
-\draw []  (3.600000000,1.200000000) node [rotate=0] {$\bullet$};
-\draw (3.600000000,0.6861115000) node {\( H\)};
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.3250003333,0) node {\( A\)};
-\draw []  (4.800000000,0) node [rotate=0] {$\bullet$};
-\draw (5.134780000,0) node {\( B\)};
-\draw []  (3.600000000,3.600000000) node [rotate=0] {$\bullet$};
-\draw (3.600000000,3.913888500) node {\( C\)};
+\draw [color=red] (0.0000,0.0000) -- (4.3200,1.4400);
+\draw [color=red] (4.8000,0.0000) -- (2.4000,2.4000);
+\draw [color=red] (3.6000,3.6000) -- (3.6000,0.0000);
+\draw [] (0.0000,0.0000) -- (4.8000,0.0000);
+\draw [] (4.8000,0.0000) -- (3.6000,3.6000);
+\draw [] (3.6000,3.6000) -- (0.0000,0.0000);
+\draw []  (4.3200,1.4400) node [rotate=0] {$\bullet$};
+\draw (4.6063,1.4400) node {\( I\)};
+\draw []  (2.4000,2.4000) node [rotate=0] {$\bullet$};
+\draw (2.1501,2.6553) node {\( J\)};
+\draw []  (3.6000,0.0000) node [rotate=0] {$\bullet$};
+\draw (3.6000,-0.3138) node {\( K\)};
+\draw []  (3.6000,1.2000) node [rotate=0] {$\bullet$};
+\draw (3.6000,0.6861) node {\( H\)};
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-0.3250,0.0000) node {\( A\)};
+\draw []  (4.8000,0.0000) node [rotate=0] {$\bullet$};
+\draw (5.1347,0.0000) node {\( B\)};
+\draw []  (3.6000,3.6000) node [rotate=0] {$\bullet$};
+\draw (3.6000,3.9138) node {\( C\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

@@ -74,12 +74,12 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=blue,->,>=latex] (0,0) -- (1.000000000,3.000000000);
-\draw [color=blue,->,>=latex] (1.000000000,3.000000000) -- (2.000000000,2.000000000);
-\draw [color=red,->,>=latex] (0,0) -- (2.000000000,2.000000000);
-\draw (0,-0.3138885000) node {\( A\)};
-\draw (1.000000000,3.313888500) node {\( B\)};
-\draw (2.331041500,2.000000000) node {\( C\)};
+\draw [color=blue,->,>=latex] (0.0000,0.0000) -- (1.0000,3.0000);
+\draw [color=blue,->,>=latex] (1.0000,3.0000) -- (2.0000,2.0000);
+\draw [color=red,->,>=latex] (0.0000,0.0000) -- (2.0000,2.0000);
+\draw (0.0000,-0.3138) node {\( A\)};
+\draw (1.0000,3.3138) node {\( B\)};
+\draw (2.3310,2.0000) node {\( C\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

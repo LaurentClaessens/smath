@@ -78,21 +78,21 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [,->,>=latex] (0,0) -- (0,4.500000000);
-\draw [,->,>=latex] (0,4.500000000) -- (1.500000000,4.500000000);
-\draw [color=blue] (0,0) -- (6.00,0);
-\draw [color=blue] (0,6.00) -- (6.00,6.00);
-\draw [color=red,->,>=latex] (0,0) -- (1.500000000,4.500000000);
-\draw []  (0,4.500000000) node [rotate=0] {$\bullet$};
-\draw (-0.3761650000,4.500000000) node {\( A\)};
-\draw []  (1.500000000,4.500000000) node [rotate=0] {$\bullet$};
-\draw (1.890637167,4.500000000) node {\( B\)};
-\draw []  (0,6.000000000) node [rotate=0] {$\bullet$};
-\draw (0,6.378526000) node {\( A'\)};
-\draw []  (2.000000000,6.000000000) node [rotate=0] {$\bullet$};
-\draw (2.000000000,6.378526000) node {\( B'\)};
-\draw [style=dashed] (0,4.50) -- (0,6.00);
-\draw [style=dashed] (1.50,4.50) -- (2.00,6.00);
+\draw [,->,>=latex] (0.0000,0.0000) -- (0.0000,4.5000);
+\draw [,->,>=latex] (0.0000,4.5000) -- (1.5000,4.5000);
+\draw [color=blue] (0.0000,0.0000) -- (6.0000,0.0000);
+\draw [color=blue] (0.0000,6.0000) -- (6.0000,6.0000);
+\draw [color=red,->,>=latex] (0.0000,0.0000) -- (1.5000,4.5000);
+\draw []  (0.0000,4.5000) node [rotate=0] {$\bullet$};
+\draw (-0.3761,4.5000) node {\( A\)};
+\draw []  (1.5000,4.5000) node [rotate=0] {$\bullet$};
+\draw (1.8906,4.5000) node {\( B\)};
+\draw []  (0.0000,6.0000) node [rotate=0] {$\bullet$};
+\draw (0.0000,6.3785) node {\( A'\)};
+\draw []  (2.0000,6.0000) node [rotate=0] {$\bullet$};
+\draw (2.0000,6.3785) node {\( B'\)};
+\draw [style=dashed] (0.0000,4.5000) -- (0.0000,6.0000);
+\draw [style=dashed] (1.5000,4.5000) -- (2.0000,6.0000);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

@@ -89,29 +89,29 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [color=red] (0,0) -- (6.00,0);
-\draw [color=red] (6.00,0) -- (8.00,-3.00);
-\draw [color=red] (8.00,-3.00) -- (2.00,-3.00);
-\draw [color=red] (2.00,-3.00) -- (0,0);
-\draw [color=blue] (0,0) -- (6.00,0);
-\draw [color=blue] (6.00,0) -- (3.60,-5.10);
-\draw [color=blue] (3.60,-5.10) -- (-2.40,-5.10);
-\draw [color=blue] (-2.40,-5.10) -- (0,0);
-\draw [style=dashed] (2.00,-3.00) -- (-2.40,-5.10);
-\draw [style=dashed] (8.00,-3.00) -- (3.60,-5.10);
-\draw [color=red,style=dashed] (0,0) -- (6.00,0);
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0,0.3138885000) node {\( A\)};
-\draw []  (6.000000000,0) node [rotate=0] {$\bullet$};
-\draw (6.000000000,0.3138885000) node {\( B\)};
-\draw []  (2.000000000,-3.000000000) node [rotate=0] {$\bullet$};
-\draw (2.272462856,-3.255309856) node {\( C\)};
-\draw []  (8.000000000,-3.000000000) node [rotate=0] {$\bullet$};
-\draw (8.284037190,-3.255309856) node {\( D\)};
-\draw []  (-2.400000000,-5.100000000) node [rotate=0] {$\bullet$};
-\draw (-2.400000000,-5.413888500) node {\( K\)};
-\draw []  (3.600000000,-5.100000000) node [rotate=0] {$\bullet$};
-\draw (3.600000000,-5.426354167) node {\( K'\)};
+\draw [color=red] (0.0000,0.0000) -- (6.0000,0.0000);
+\draw [color=red] (6.0000,0.0000) -- (8.0000,-3.0000);
+\draw [color=red] (8.0000,-3.0000) -- (2.0000,-3.0000);
+\draw [color=red] (2.0000,-3.0000) -- (0.0000,0.0000);
+\draw [color=blue] (0.0000,0.0000) -- (6.0000,0.0000);
+\draw [color=blue] (6.0000,0.0000) -- (3.6000,-5.1000);
+\draw [color=blue] (3.6000,-5.1000) -- (-2.4000,-5.1000);
+\draw [color=blue] (-2.4000,-5.1000) -- (0.0000,0.0000);
+\draw [style=dashed] (2.0000,-3.0000) -- (-2.4000,-5.1000);
+\draw [style=dashed] (8.0000,-3.0000) -- (3.6000,-5.1000);
+\draw [color=red,style=dashed] (0.0000,0.0000) -- (6.0000,0.0000);
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (0.0000,0.3138) node {\( A\)};
+\draw []  (6.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (6.0000,0.3138) node {\( B\)};
+\draw []  (2.0000,-3.0000) node [rotate=0] {$\bullet$};
+\draw (2.2724,-3.2553) node {\( C\)};
+\draw []  (8.0000,-3.0000) node [rotate=0] {$\bullet$};
+\draw (8.2840,-3.2553) node {\( D\)};
+\draw []  (-2.4000,-5.1000) node [rotate=0] {$\bullet$};
+\draw (-2.4000,-5.4138) node {\( K\)};
+\draw []  (3.6000,-5.1000) node [rotate=0] {$\bullet$};
+\draw (3.6000,-5.4263) node {\( K'\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

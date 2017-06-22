@@ -18,16 +18,18 @@ rm tikz*.md5 >> /dev/null
 rm tikz*.pdf >> /dev/null
 rm *.aux >> /dev/null
 
+rm $LOG_FILE
+touch $LOG_FILE
+
 compile_pass 1 &&
 compile_pass 2 &&
 compile_pass 3 
 
 ./test_recall.py . >> $LOG_FILE
 
-echo "----------------------"
-echo "Results in " $LOG_FILE
+echo "---- Results :"
 
 cat $LOG_FILE
 
 echo "-----------------------"
-
+echo The log file is : $LOG_FILE

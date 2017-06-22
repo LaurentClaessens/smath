@@ -69,11 +69,11 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (2.10,0) -- (2.10,0) -- (2.10,-2.10) -- (2.10,-2.10) -- (0,-2.10) -- (0,-2.10) -- (0,0) --  cycle;
-\draw [color=red] (0,0) -- (2.10,0);
-\draw [color=red] (2.10,0) -- (2.10,-2.10);
-\draw [color=red] (2.10,-2.10) -- (0,-2.10);
-\draw [color=red] (0,-2.10) -- (0,0);
+\fill [color=red,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.0000,0.0000) -- (2.1000,0.0000) -- (2.1000,0.0000) -- (2.1000,-2.1000) -- (2.1000,-2.1000) -- (0.0000,-2.1000) -- (0.0000,-2.1000) -- (0.0000,0.0000) --  cycle;
+\draw [color=red] (0.0000,0.0000) -- (2.1000,0.0000);
+\draw [color=red] (2.1000,0.0000) -- (2.1000,-2.1000);
+\draw [color=red] (2.1000,-2.1000) -- (0.0000,-2.1000);
+\draw [color=red] (0.0000,-2.1000) -- (0.0000,0.0000);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -81,11 +81,11 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=blue,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (1.75,1.40) -- (1.75,1.40) -- (0.351,3.15) -- (0.351,3.15) -- (-1.40,1.75) -- (-1.40,1.75) -- (0,0) --  cycle;
-\draw [color=blue] (0,0) -- (1.75,1.40);
-\draw [color=blue] (1.75,1.40) -- (0.351,3.15);
-\draw [color=blue] (0.351,3.15) -- (-1.40,1.75);
-\draw [color=blue] (-1.40,1.75) -- (0,0);
+\fill [color=blue,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.0000,0.0000) -- (1.7500,1.4000) -- (1.7500,1.4000) -- (0.3500,3.1500) -- (0.3500,3.1500) -- (-1.4000,1.7500) -- (-1.4000,1.7500) -- (0.0000,0.0000) --  cycle;
+\draw [color=blue] (0.0000,0.0000) -- (1.7500,1.4000);
+\draw [color=blue] (1.7500,1.4000) -- (0.3500,3.1500);
+\draw [color=blue] (0.3500,3.1500) -- (-1.4000,1.7500);
+\draw [color=blue] (-1.4000,1.7500) -- (0.0000,0.0000);
 
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
@@ -93,14 +93,14 @@
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=cyan,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.10,0) -- (1.75,1.40) -- (1.75,1.40) -- (3.15,1.75) -- (3.15,1.75) -- (3.50,0.350) -- (3.50,0.350) -- (2.10,0) --  cycle;
-\draw [color=cyan] (2.10,0) -- (1.75,1.40);
-\draw [color=cyan] (1.75,1.40) -- (3.15,1.75);
-\draw [color=cyan] (3.15,1.75) -- (3.50,0.350);
-\draw [color=cyan] (3.50,0.350) -- (2.10,0);
-\draw [] (0,0) -- (2.10,0);
-\draw [] (2.10,0) -- (1.75,1.40);
-\draw [] (1.75,1.40) -- (0,0);
+\fill [color=cyan,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (2.1000,0.0000) -- (1.7500,1.4000) -- (1.7500,1.4000) -- (3.1500,1.7500) -- (3.1500,1.7500) -- (3.5000,0.3500) -- (3.5000,0.3500) -- (2.1000,0.0000) --  cycle;
+\draw [color=cyan] (2.1000,0.0000) -- (1.7500,1.4000);
+\draw [color=cyan] (1.7500,1.4000) -- (3.1500,1.7500);
+\draw [color=cyan] (3.1500,1.7500) -- (3.5000,0.3500);
+\draw [color=cyan] (3.5000,0.3500) -- (2.1000,0.0000);
+\draw [] (0.0000,0.0000) -- (2.1000,0.0000);
+\draw [] (2.1000,0.0000) -- (1.7500,1.4000);
+\draw [] (1.7500,1.4000) -- (0.0000,0.0000);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

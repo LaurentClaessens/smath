@@ -82,20 +82,20 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.3196501312,-0.07545915998) node {\(A\)};
-\draw []  (5.000000000,0) node [rotate=0] {$\bullet$};
-\draw (5.304910162,-0.1884448434) node {\(B\)};
-\draw []  (4.000000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw (4.101208387,2.303625160) node {\(C\)};
-\draw [] (-0.750,0) -- (5.75,0);
-\draw [] (5.15,-0.300) -- (3.85,2.30);
-\draw [] (4.60,2.30) -- (-0.600,-0.300);
-\draw [] (3.50,-0.333) -- (2.50,1.67);
-\draw []  (3.333333333,0) node [rotate=0] {$\bullet$};
-\draw (3.246991000,0.3138885000) node {\( I\)};
-\draw []  (2.666666667,1.333333333) node [rotate=0] {$\bullet$};
-\draw (2.666666667,1.747221833) node {\( J\)};
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-0.3196,-0.0754) node {\(A\)};
+\draw []  (5.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (5.3049,-0.1884) node {\(B\)};
+\draw []  (4.0000,2.0000) node [rotate=0] {$\bullet$};
+\draw (4.1012,2.3036) node {\(C\)};
+\draw [] (-0.7500,0.0000) -- (5.7500,0.0000);
+\draw [] (5.1500,-0.3000) -- (3.8500,2.3000);
+\draw [] (4.6000,2.3000) -- (-0.6000,-0.3000);
+\draw [] (3.5000,-0.3333) -- (2.5000,1.6666);
+\draw []  (3.3333,0.0000) node [rotate=0] {$\bullet$};
+\draw (3.2469,0.3138) node {\( I\)};
+\draw []  (2.6666,1.3333) node [rotate=0] {$\bullet$};
+\draw (2.6666,1.7472) node {\( J\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

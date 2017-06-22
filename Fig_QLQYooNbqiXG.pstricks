@@ -74,15 +74,15 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (1.000000000,0) node [rotate=0] {$\bullet$};
-\draw (0.6746504982,-0.07260291569) node {\( P\)};
-\draw []  (3.000000000,-0.3000000000) node [rotate=0] {$\bullet$};
-\draw (3.160008470,-0.5888372544) node {\( F\)};
-\draw []  (4.000000000,2.000000000) node [rotate=0] {$\bullet$};
-\draw (4.223541223,2.267312016) node {\( A\)};
-\draw [] (1.00,0) -- (3.00,-0.300);
-\draw [] (3.00,-0.300) -- (4.00,2.00);
-\draw [] (4.00,2.00) -- (1.00,0);
+\draw []  (1.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (0.6746,-0.0726) node {\( P\)};
+\draw []  (3.0000,-0.3000) node [rotate=0] {$\bullet$};
+\draw (3.1600,-0.5888) node {\( F\)};
+\draw []  (4.0000,2.0000) node [rotate=0] {$\bullet$};
+\draw (4.2235,2.2673) node {\( A\)};
+\draw [] (1.0000,0.0000) -- (3.0000,-0.3000);
+\draw [] (3.0000,-0.3000) -- (4.0000,2.0000);
+\draw [] (4.0000,2.0000) -- (1.0000,0.0000);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

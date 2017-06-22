@@ -75,35 +75,35 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=dotted] (0,0) -- (0,2.40);
-\draw [color=gray,style=dotted] (0.600,0) -- (0.600,2.40);
-\draw [color=gray,style=dotted] (0.300,0) -- (0.300,2.40);
-\draw [color=gray,style=dotted] (0,0.300) -- (0.600,0.300);
-\draw [color=gray,style=dotted] (0,0.900) -- (0.600,0.900);
-\draw [color=gray,style=dotted] (0,1.50) -- (0.600,1.50);
-\draw [color=gray,style=dotted] (0,2.10) -- (0.600,2.10);
-\draw [color=gray,style=dotted] (0,0) -- (0.600,0);
-\draw [color=gray,style=dotted] (0,0.600) -- (0.600,0.600);
-\draw [color=gray,style=dotted] (0,1.20) -- (0.600,1.20);
-\draw [color=gray,style=dotted] (0,1.80) -- (0.600,1.80);
-\draw [color=gray,style=dotted] (0,2.40) -- (0.600,2.40);
+\draw [color=gray,style=dotted] (0.0000,0.0000) -- (0.0000,2.4000);
+\draw [color=gray,style=dotted] (0.6000,0.0000) -- (0.6000,2.4000);
+\draw [color=gray,style=dotted] (0.3000,0.0000) -- (0.3000,2.4000);
+\draw [color=gray,style=dotted] (0.0000,0.3000) -- (0.6000,0.3000);
+\draw [color=gray,style=dotted] (0.0000,0.9000) -- (0.6000,0.9000);
+\draw [color=gray,style=dotted] (0.0000,1.5000) -- (0.6000,1.5000);
+\draw [color=gray,style=dotted] (0.0000,2.1000) -- (0.6000,2.1000);
+\draw [color=gray,style=dotted] (0.0000,0.0000) -- (0.6000,0.0000);
+\draw [color=gray,style=dotted] (0.0000,0.6000) -- (0.6000,0.6000);
+\draw [color=gray,style=dotted] (0.0000,1.2000) -- (0.6000,1.2000);
+\draw [color=gray,style=dotted] (0.0000,1.8000) -- (0.6000,1.8000);
+\draw [color=gray,style=dotted] (0.0000,2.4000) -- (0.6000,2.4000);
 %DEFAULT
 
-\draw (-0.1237108478,-0.2986644065) node {\(A\)};
-\draw (-0.07283601196,2.708538298) node {\(B\)};
-\draw (0.9256912979,1.276885286) node {\(C\)};
-\draw (0.9273917398,0.4643899011) node {\(D\)};
+\draw (-0.1237,-0.2986) node {\(A\)};
+\draw (-0.0728,2.7085) node {\(B\)};
+\draw (0.9256,1.2768) node {\(C\)};
+\draw (0.9273,0.4643) node {\(D\)};
 % declaring the keys in tikz
 \tikzset{hatchspread/.code={\setlength{\hatchspread}{#1}},
          hatchthickness/.code={\setlength{\hatchthickness}{#1}}}
 % setting the default values
 \tikzset{hatchspread=3pt,
          hatchthickness=0.4pt}
-\fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0,0) -- (0,2.40) -- (0,2.40) -- (0.600,1.20) -- (0.600,1.20) -- (0.600,0.600) -- (0.600,0.600) -- (0,0) --  cycle;
-\draw [] (0,0) -- (0,2.40);
-\draw [] (0,2.40) -- (0.600,1.20);
-\draw [] (0.600,1.20) -- (0.600,0.600);
-\draw [] (0.600,0.600) -- (0,0);
+\fill [color=lightgray,  pattern=custom north west lines,hatchspread=10pt,hatchthickness=1pt ] (0.0000,0.0000) -- (0.0000,2.4000) -- (0.0000,2.4000) -- (0.6000,1.2000) -- (0.6000,1.2000) -- (0.6000,0.6000) -- (0.6000,0.6000) -- (0.0000,0.0000) --  cycle;
+\draw [] (0.0000,0.0000) -- (0.0000,2.4000);
+\draw [] (0.0000,2.4000) -- (0.6000,1.2000);
+\draw [] (0.6000,1.2000) -- (0.6000,0.6000);
+\draw [] (0.6000,0.6000) -- (0.0000,0.0000);
 
 %AXES
 %OTHER STUFF

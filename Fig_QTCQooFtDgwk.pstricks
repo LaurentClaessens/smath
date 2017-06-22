@@ -90,26 +90,26 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (2.121320344,2.121320344) node [rotate=0] {$\bullet$};
-\draw (2.446320677,2.121320344) node {\(A\)};
-\draw []  (0,3.000000000) node [rotate=0] {$\bullet$};
-\draw (-0.06167189555,3.310045556) node {\(B\)};
-\draw []  (-3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (-3.297335422,-0.1986731776) node {\(C\)};
-\draw [] (2.12,2.12) -- (0,3.00);
-\draw [] (0,3.00) -- (-3.00,0);
-\draw [] (-3.00,0) -- (2.12,2.12);
-\draw [style=dashed] (-0.265,-0.640) -- (1.33,3.20);
-\draw [style=dashed] (0.375,-0.375) -- (-1.88,1.88);
-\draw [style=dashed] (0.110,-0.265) -- (-0.549,1.33);
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0.3317591667,0) node {\( O\)};
-\draw []  (1.060660172,2.560660172) node [rotate=0] {$\bullet$};
-\draw (1.378074578,2.751085358) node {\( E\)};
-\draw []  (-1.500000000,1.500000000) node [rotate=0] {$\bullet$};
-\draw (-1.630324333,1.813888500) node {\( F\)};
-\draw []  (-0.4393398282,1.060660172) node [rotate=0] {$\bullet$};
-\draw (-0.2317616418,1.359324578) node {\( G\)};
+\draw []  (2.1213,2.1213) node [rotate=0] {$\bullet$};
+\draw (2.4463,2.1213) node {\(A\)};
+\draw []  (0.0000,3.0000) node [rotate=0] {$\bullet$};
+\draw (-0.0616,3.3100) node {\(B\)};
+\draw []  (-3.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-3.2973,-0.1986) node {\(C\)};
+\draw [] (2.1213,2.1213) -- (0.0000,3.0000);
+\draw [] (0.0000,3.0000) -- (-3.0000,0.0000);
+\draw [] (-3.0000,0.0000) -- (2.1213,2.1213);
+\draw [style=dashed] (-0.2651,-0.6401) -- (1.3258,3.2008);
+\draw [style=dashed] (0.3750,-0.3750) -- (-1.8750,1.8750);
+\draw [style=dashed] (0.1098,-0.2651) -- (-0.5491,1.3258);
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (0.3317,0.0000) node {\( O\)};
+\draw []  (1.0606,2.5606) node [rotate=0] {$\bullet$};
+\draw (1.3780,2.7510) node {\( E\)};
+\draw []  (-1.5000,1.5000) node [rotate=0] {$\bullet$};
+\draw (-1.6303,1.8138) node {\( F\)};
+\draw []  (-0.4393,1.0606) node [rotate=0] {$\bullet$};
+\draw (-0.2317,1.3593) node {\( G\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

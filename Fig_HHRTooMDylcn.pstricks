@@ -78,18 +78,18 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.3196501312,-0.07545915998) node {\(A\)};
-\draw []  (2.800000000,1.400000000) node [rotate=0] {$\bullet$};
-\draw (3.055309856,1.655309856) node {\(B\)};
-\draw []  (2.100000000,0) node [rotate=0] {$\bullet$};
-\draw (2.275533186,-0.2840186617) node {\(C\)};
-\draw [] (0,0) -- (2.80,1.40);
-\draw [] (2.80,1.40) -- (2.10,0);
-\draw [] (2.10,0) -- (0,0);
-\draw []  (1.050000000,0) node [rotate=0] {$\bullet$};
-\draw (1.050000000,-0.3138885000) node {\( K\)};
-\draw [style=dashed] (3.06,1.61) -- (0.787,-0.210);
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-0.3196,-0.0754) node {\(A\)};
+\draw []  (2.8000,1.4000) node [rotate=0] {$\bullet$};
+\draw (3.0553,1.6553) node {\(B\)};
+\draw []  (2.1000,0.0000) node [rotate=0] {$\bullet$};
+\draw (2.2755,-0.2840) node {\(C\)};
+\draw [] (0.0000,0.0000) -- (2.8000,1.4000);
+\draw [] (2.8000,1.4000) -- (2.1000,0.0000);
+\draw [] (2.1000,0.0000) -- (0.0000,0.0000);
+\draw []  (1.0500,0.0000) node [rotate=0] {$\bullet$};
+\draw (1.0500,-0.3138) node {\( K\)};
+\draw [style=dashed] (3.0625,1.6100) -- (0.7875,-0.2100);
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

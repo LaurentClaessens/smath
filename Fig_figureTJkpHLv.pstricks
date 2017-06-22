@@ -74,14 +74,14 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [,->,>=latex] (0,0) -- (0,4.500000000);
-\draw (-1.029667333,4.500000000) node {\unit{15}{\kilo\meter\per\hour}};
-\draw [,->,>=latex] (0,4.500000000) -- (1.500000000,4.500000000);
-\draw (1.500000000,4.939940833) node {\unit{5}{\kilo\meter\per\hour}};
-\draw [color=blue] (0,0) -- (6.00,0);
-\draw [color=blue] (0,6.00) -- (6.00,6.00);
-\draw [color=red,->,>=latex] (0,0) -- (1.500000000,4.500000000);
-\draw (1.872432856,4.189447644) node {\( \vect{ v }\)};
+\draw [,->,>=latex] (0.0000,0.0000) -- (0.0000,4.5000);
+\draw (-1.0296,4.5000) node {\unit{15}{\kilo\meter\per\hour}};
+\draw [,->,>=latex] (0.0000,4.5000) -- (1.5000,4.5000);
+\draw (1.5000,4.9399) node {\unit{5}{\kilo\meter\per\hour}};
+\draw [color=blue] (0.0000,0.0000) -- (6.0000,0.0000);
+\draw [color=blue] (0.0000,6.0000) -- (6.0000,6.0000);
+\draw [color=red,->,>=latex] (0.0000,0.0000) -- (1.5000,4.5000);
+\draw (1.8724,4.1894) node {\( \vect{ v }\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE

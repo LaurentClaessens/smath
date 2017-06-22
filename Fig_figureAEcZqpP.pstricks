@@ -79,43 +79,43 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-2.10,-1.40) -- (-2.10,2.80);
-\draw [color=gray,style=solid] (-1.40,-1.40) -- (-1.40,2.80);
-\draw [color=gray,style=solid] (-0.700,-1.40) -- (-0.700,2.80);
-\draw [color=gray,style=solid] (0,-1.40) -- (0,2.80);
-\draw [color=gray,style=solid] (0.700,-1.40) -- (0.700,2.80);
-\draw [color=gray,style=solid] (1.40,-1.40) -- (1.40,2.80);
-\draw [color=gray,style=solid] (2.10,-1.40) -- (2.10,2.80);
-\draw [color=gray,style=dotted] (-1.75,-1.40) -- (-1.75,2.80);
-\draw [color=gray,style=dotted] (-1.05,-1.40) -- (-1.05,2.80);
-\draw [color=gray,style=dotted] (-0.350,-1.40) -- (-0.350,2.80);
-\draw [color=gray,style=dotted] (0.350,-1.40) -- (0.350,2.80);
-\draw [color=gray,style=dotted] (1.05,-1.40) -- (1.05,2.80);
-\draw [color=gray,style=dotted] (1.75,-1.40) -- (1.75,2.80);
-\draw [color=gray,style=dotted] (-2.10,-1.05) -- (2.10,-1.05);
-\draw [color=gray,style=dotted] (-2.10,-0.350) -- (2.10,-0.350);
-\draw [color=gray,style=dotted] (-2.10,0.350) -- (2.10,0.350);
-\draw [color=gray,style=dotted] (-2.10,1.05) -- (2.10,1.05);
-\draw [color=gray,style=dotted] (-2.10,1.75) -- (2.10,1.75);
-\draw [color=gray,style=dotted] (-2.10,2.45) -- (2.10,2.45);
-\draw [color=gray,style=solid] (-2.10,-1.40) -- (2.10,-1.40);
-\draw [color=gray,style=solid] (-2.10,-0.700) -- (2.10,-0.700);
-\draw [color=gray,style=solid] (-2.10,0) -- (2.10,0);
-\draw [color=gray,style=solid] (-2.10,0.700) -- (2.10,0.700);
-\draw [color=gray,style=solid] (-2.10,1.40) -- (2.10,1.40);
-\draw [color=gray,style=solid] (-2.10,2.10) -- (2.10,2.10);
-\draw [color=gray,style=solid] (-2.10,2.80) -- (2.10,2.80);
+\draw [color=gray,style=solid] (-2.1000,-1.4000) -- (-2.1000,2.8000);
+\draw [color=gray,style=solid] (-1.4000,-1.4000) -- (-1.4000,2.8000);
+\draw [color=gray,style=solid] (-0.7000,-1.4000) -- (-0.7000,2.8000);
+\draw [color=gray,style=solid] (0.0000,-1.4000) -- (0.0000,2.8000);
+\draw [color=gray,style=solid] (0.7000,-1.4000) -- (0.7000,2.8000);
+\draw [color=gray,style=solid] (1.4000,-1.4000) -- (1.4000,2.8000);
+\draw [color=gray,style=solid] (2.1000,-1.4000) -- (2.1000,2.8000);
+\draw [color=gray,style=dotted] (-1.7500,-1.4000) -- (-1.7500,2.8000);
+\draw [color=gray,style=dotted] (-1.0500,-1.4000) -- (-1.0500,2.8000);
+\draw [color=gray,style=dotted] (-0.3500,-1.4000) -- (-0.3500,2.8000);
+\draw [color=gray,style=dotted] (0.3500,-1.4000) -- (0.3500,2.8000);
+\draw [color=gray,style=dotted] (1.0500,-1.4000) -- (1.0500,2.8000);
+\draw [color=gray,style=dotted] (1.7500,-1.4000) -- (1.7500,2.8000);
+\draw [color=gray,style=dotted] (-2.1000,-1.0500) -- (2.1000,-1.0500);
+\draw [color=gray,style=dotted] (-2.1000,-0.3500) -- (2.1000,-0.3500);
+\draw [color=gray,style=dotted] (-2.1000,0.3500) -- (2.1000,0.3500);
+\draw [color=gray,style=dotted] (-2.1000,1.0500) -- (2.1000,1.0500);
+\draw [color=gray,style=dotted] (-2.1000,1.7500) -- (2.1000,1.7500);
+\draw [color=gray,style=dotted] (-2.1000,2.4500) -- (2.1000,2.4500);
+\draw [color=gray,style=solid] (-2.1000,-1.4000) -- (2.1000,-1.4000);
+\draw [color=gray,style=solid] (-2.1000,-0.7000) -- (2.1000,-0.7000);
+\draw [color=gray,style=solid] (-2.1000,0.0000) -- (2.1000,0.0000);
+\draw [color=gray,style=solid] (-2.1000,0.7000) -- (2.1000,0.7000);
+\draw [color=gray,style=solid] (-2.1000,1.4000) -- (2.1000,1.4000);
+\draw [color=gray,style=solid] (-2.1000,2.1000) -- (2.1000,2.1000);
+\draw [color=gray,style=solid] (-2.1000,2.8000) -- (2.1000,2.8000);
 %DEFAULT
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (0.2664216896,0.2553098562) node {\( A\)};
-\draw []  (0.7000000000,2.100000000) node [rotate=0] {$\bullet$};
-\draw (0.9762013562,2.355309856) node {\( B\)};
-\draw []  (-1.400000000,2.800000000) node [rotate=0] {$\bullet$};
-\draw (-1.127537144,3.055309856) node {\( C\)};
-\draw []  (-2.100000000,-0.7000000000) node [rotate=0] {$\bullet$};
-\draw (-1.815962810,-0.4446901438) node {\( D\)};
-\draw []  (2.100000000,-1.400000000) node [rotate=0] {$\bullet$};
-\draw (2.374059856,-1.144690144) node {\( E\)};
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (0.2664,0.2553) node {\( A\)};
+\draw []  (0.7000,2.1000) node [rotate=0] {$\bullet$};
+\draw (0.9762,2.3553) node {\( B\)};
+\draw []  (-1.4000,2.8000) node [rotate=0] {$\bullet$};
+\draw (-1.1275,3.0553) node {\( C\)};
+\draw []  (-2.1000,-0.7000) node [rotate=0] {$\bullet$};
+\draw (-1.8159,-0.4446) node {\( D\)};
+\draw []  (2.1000,-1.4000) node [rotate=0] {$\bullet$};
+\draw (2.3740,-1.1446) node {\( E\)};
 
 %AXES
 %OTHER STUFF

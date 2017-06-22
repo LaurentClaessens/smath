@@ -75,32 +75,32 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
-\draw [color=gray,style=solid] (-0.500,-0.500) -- (-0.500,1.00);
-\draw [color=gray,style=solid] (0,-0.500) -- (0,1.00);
-\draw [color=gray,style=solid] (0.500,-0.500) -- (0.500,1.00);
-\draw [color=gray,style=solid] (1.00,-0.500) -- (1.00,1.00);
-\draw [color=gray,style=solid] (1.50,-0.500) -- (1.50,1.00);
-\draw [color=gray,style=solid] (2.00,-0.500) -- (2.00,1.00);
-\draw [color=gray,style=solid] (2.50,-0.500) -- (2.50,1.00);
-\draw [color=gray,style=dotted] (-0.250,-0.500) -- (-0.250,1.00);
-\draw [color=gray,style=dotted] (0.250,-0.500) -- (0.250,1.00);
-\draw [color=gray,style=dotted] (0.750,-0.500) -- (0.750,1.00);
-\draw [color=gray,style=dotted] (1.25,-0.500) -- (1.25,1.00);
-\draw [color=gray,style=dotted] (1.75,-0.500) -- (1.75,1.00);
-\draw [color=gray,style=dotted] (2.25,-0.500) -- (2.25,1.00);
-\draw [color=gray,style=dotted] (-0.500,-0.250) -- (2.50,-0.250);
-\draw [color=gray,style=dotted] (-0.500,0.250) -- (2.50,0.250);
-\draw [color=gray,style=dotted] (-0.500,0.750) -- (2.50,0.750);
-\draw [color=gray,style=solid] (-0.500,-0.500) -- (2.50,-0.500);
-\draw [color=gray,style=solid] (-0.500,0) -- (2.50,0);
-\draw [color=gray,style=solid] (-0.500,0.500) -- (2.50,0.500);
-\draw [color=gray,style=solid] (-0.500,1.00) -- (2.50,1.00);
+\draw [color=gray,style=solid] (-0.5000,-0.5000) -- (-0.5000,1.0000);
+\draw [color=gray,style=solid] (0.0000,-0.5000) -- (0.0000,1.0000);
+\draw [color=gray,style=solid] (0.5000,-0.5000) -- (0.5000,1.0000);
+\draw [color=gray,style=solid] (1.0000,-0.5000) -- (1.0000,1.0000);
+\draw [color=gray,style=solid] (1.5000,-0.5000) -- (1.5000,1.0000);
+\draw [color=gray,style=solid] (2.0000,-0.5000) -- (2.0000,1.0000);
+\draw [color=gray,style=solid] (2.5000,-0.5000) -- (2.5000,1.0000);
+\draw [color=gray,style=dotted] (-0.2500,-0.5000) -- (-0.2500,1.0000);
+\draw [color=gray,style=dotted] (0.2500,-0.5000) -- (0.2500,1.0000);
+\draw [color=gray,style=dotted] (0.7500,-0.5000) -- (0.7500,1.0000);
+\draw [color=gray,style=dotted] (1.2500,-0.5000) -- (1.2500,1.0000);
+\draw [color=gray,style=dotted] (1.7500,-0.5000) -- (1.7500,1.0000);
+\draw [color=gray,style=dotted] (2.2500,-0.5000) -- (2.2500,1.0000);
+\draw [color=gray,style=dotted] (-0.5000,-0.2500) -- (2.5000,-0.2500);
+\draw [color=gray,style=dotted] (-0.5000,0.2500) -- (2.5000,0.2500);
+\draw [color=gray,style=dotted] (-0.5000,0.7500) -- (2.5000,0.7500);
+\draw [color=gray,style=solid] (-0.5000,-0.5000) -- (2.5000,-0.5000);
+\draw [color=gray,style=solid] (-0.5000,0.0000) -- (2.5000,0.0000);
+\draw [color=gray,style=solid] (-0.5000,0.5000) -- (2.5000,0.5000);
+\draw [color=gray,style=solid] (-0.5000,1.0000) -- (2.5000,1.0000);
 %DEFAULT
-\draw [style=dashed] (0,0) -- (0.500,0.500);
-\draw [] (0.500,0.500) -- (1.75,0.500);
-\draw (-0.3126117398,-0.1294880224) node {\( R \)};
-\draw (0.3762891522,0.7986644065) node {\( D \)};
-\draw (2.067414407,0.6314773521) node {\( E \)};
+\draw [style=dashed] (0.0000,0.0000) -- (0.5000,0.5000);
+\draw [] (0.5000,0.5000) -- (1.7500,0.5000);
+\draw (-0.3126,-0.1294) node {\( R \)};
+\draw (0.3762,0.7986) node {\( D \)};
+\draw (2.0674,0.6314) node {\( E \)};
 
 %AXES
 %OTHER STUFF

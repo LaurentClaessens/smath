@@ -86,11 +86,11 @@
 %OTHER STUFF
 %PSTRICKS CODE
 %DEFAULT
-\draw [] (0,0) -- (3.00,0);
-\draw []  (0,0) node [rotate=0] {$\bullet$};
-\draw (-0.3129388575,-0.1822925287) node {\( A\)};
-\draw []  (3.000000000,0) node [rotate=0] {$\bullet$};
-\draw (3.276201356,-0.2553098562) node {\( B\)};
+\draw [] (0.0000,0.0000) -- (3.0000,0.0000);
+\draw []  (0.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (-0.3129,-0.1822) node {\( A\)};
+\draw []  (3.0000,0.0000) node [rotate=0] {$\bullet$};
+\draw (3.2762,-0.2553) node {\( B\)};
 %END PSPICTURE
 \end{tikzpicture}
 %AFTER PSPICTURE
