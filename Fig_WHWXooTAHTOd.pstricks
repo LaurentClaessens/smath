@@ -59,24 +59,28 @@
 \begin{tikzpicture}[xscale=1,yscale=1,inner sep=2.25pt,outer sep=0pt]
 %PSTRICKS CODE
 %GRID
+\draw [color=gray,style=dashed] (-0.7000,0.0000) -- (-0.7000,2.8000);
 \draw [color=gray,style=dashed] (0.0000,0.0000) -- (0.0000,2.8000);
 \draw [color=gray,style=dashed] (0.7000,0.0000) -- (0.7000,2.8000);
 \draw [color=gray,style=dashed] (1.4000,0.0000) -- (1.4000,2.8000);
 \draw [color=gray,style=dashed] (2.1000,0.0000) -- (2.1000,2.8000);
 \draw [color=gray,style=dashed] (2.8000,0.0000) -- (2.8000,2.8000);
+\draw [color=gray,style=dashed] (3.5000,0.0000) -- (3.5000,2.8000);
+\draw [color=gray,style=dotted] (-0.3500,0.0000) -- (-0.3500,2.8000);
 \draw [color=gray,style=dotted] (0.3500,0.0000) -- (0.3500,2.8000);
 \draw [color=gray,style=dotted] (1.0500,0.0000) -- (1.0500,2.8000);
 \draw [color=gray,style=dotted] (1.7500,0.0000) -- (1.7500,2.8000);
 \draw [color=gray,style=dotted] (2.4500,0.0000) -- (2.4500,2.8000);
-\draw [color=gray,style=dotted] (0.0000,0.3500) -- (2.8000,0.3500);
-\draw [color=gray,style=dotted] (0.0000,1.0500) -- (2.8000,1.0500);
-\draw [color=gray,style=dotted] (0.0000,1.7500) -- (2.8000,1.7500);
-\draw [color=gray,style=dotted] (0.0000,2.4500) -- (2.8000,2.4500);
-\draw [color=gray,style=dashed] (0.0000,0.0000) -- (2.8000,0.0000);
-\draw [color=gray,style=dashed] (0.0000,0.7000) -- (2.8000,0.7000);
-\draw [color=gray,style=dashed] (0.0000,1.4000) -- (2.8000,1.4000);
-\draw [color=gray,style=dashed] (0.0000,2.1000) -- (2.8000,2.1000);
-\draw [color=gray,style=dashed] (0.0000,2.8000) -- (2.8000,2.8000);
+\draw [color=gray,style=dotted] (3.1500,0.0000) -- (3.1500,2.8000);
+\draw [color=gray,style=dotted] (-0.7000,0.3500) -- (3.5000,0.3500);
+\draw [color=gray,style=dotted] (-0.7000,1.0500) -- (3.5000,1.0500);
+\draw [color=gray,style=dotted] (-0.7000,1.7500) -- (3.5000,1.7500);
+\draw [color=gray,style=dotted] (-0.7000,2.4500) -- (3.5000,2.4500);
+\draw [color=gray,style=dashed] (-0.7000,0.0000) -- (3.5000,0.0000);
+\draw [color=gray,style=dashed] (-0.7000,0.7000) -- (3.5000,0.7000);
+\draw [color=gray,style=dashed] (-0.7000,1.4000) -- (3.5000,1.4000);
+\draw [color=gray,style=dashed] (-0.7000,2.1000) -- (3.5000,2.1000);
+\draw [color=gray,style=dashed] (-0.7000,2.8000) -- (3.5000,2.8000);
 %DEFAULT
 
 % declaring the keys in tikz

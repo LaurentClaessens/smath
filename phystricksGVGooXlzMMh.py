@@ -1,6 +1,7 @@
 # -*- coding: utf8 -*-
 
 from __future__ import division
+from sage.all import floor
 from phystricks import *
 
 def small_box(n,pc,pspict):
